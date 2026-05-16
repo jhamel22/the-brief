@@ -400,6 +400,7 @@ const activeSubjects = allSubjects.filter(s => s.active);
         </div>
         <button class="bar-action" id="collapse-all">Collapse all</button>
         <button class="bar-action" id="expand-all">Expand all</button>
+        <button onclick="debugCollapse()">DEBUG</button>
         <span class="bar-count" id="bar-count"></span>
       </div>
 
@@ -763,6 +764,15 @@ function bulkToggle(collapse) {
       }, i * 25);
     });
   }, 200);
+}
+
+function debugCollapse() {
+  console.log('feed innerHTML length:', document.getElementById('feed').innerHTML.length);
+  const cards = document.querySelectorAll('.full-card');
+  const rows = document.querySelectorAll('.brief-row');
+  console.log('full-cards found:', cards.length);
+  console.log('brief-rows found:', rows.length);
+  cards.forEach(el => el.classList.toggle('collapsed'));
 }
 
 // Mode buttons
