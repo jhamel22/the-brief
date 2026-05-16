@@ -753,25 +753,16 @@ function togglePaper(id, btn) {
 }
 
 function bulkToggle(collapse) {
-  // Ensure feed is populated
-  const feed = document.getElementById('feed');
-  if (!feed || !feed.innerHTML.trim()) {
-    render();
-  }
-
-  // Wait for DOM to be fully populated
+  render();
   setTimeout(() => {
-    const collapsible = document.querySelectorAll('[data-id].full-card, [data-id].brief-row');
-    if (collapsible.length === 0) return;
-
-    collapsible.forEach((el, i) => {
+    const items = document.querySelectorAll('.full-card, .brief-row');
+    console.log('bulkToggle found', items.length, 'items, collapse=', collapse);
+    items.forEach((el, i) => {
       setTimeout(() => {
         el.classList.toggle('collapsed', collapse);
-        const id = el.dataset.id;
-        if (collapse) state.collapsed.add(id); else state.collapsed.delete(id);
       }, i * 25);
     });
-  }, 100);
+  }, 200);
 }
 
 // Mode buttons
