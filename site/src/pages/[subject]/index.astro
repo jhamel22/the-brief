@@ -455,9 +455,37 @@ function weekRange(w) {
 // ═══════════════════════════════════════════════════
 // FILTER
 // ═══════════════════════════════════════════════════
+
+// Topic name mapping: arXiv codes → readable names
+const topicNameMap = {
+  'gr-qc': 'General Relativity',
+  'hep-th': 'High Energy Theory',
+  'astro-ph.CO': 'Cosmology',
+  'quant-ph': 'Quantum Physics',
+  'math-ph': 'Mathematical Physics',
+  'hep-ph': 'Particle Physics',
+  'astro-ph.HE': 'High-Energy Astrophysics',
+  'hep-ex': 'High Energy Experiment',
+  'astro-ph.GA': 'Astrophysics of Galaxies',
+  'astro-ph.SR': 'Solar and Stellar',
+  'cond-mat.str-el': 'Strongly Correlated',
+  'nucl-th': 'Nuclear Theory',
+};
+
+// Build a "topic" from the paper's subject tags (first tag = primary subject)
+function getPaperTopic(p) {
+  const pt = p.subjects_all?.[1] || p.subject || 'General';
+  return pt;
+}
+
+// Get readable topic name
+function getTopicName(code) {
+  return topicNameMap[code] || code;
+}
+
 function filteredPapers() {
   return PAPERS.filter(p => {
-    if (state.topic !== 'all' && p.topic !== state.topic) return false;
+    if (state.topic !== 'all' && getPaperTopic(p) !== state.topic) return false;
     if (state.search) {
       const q = state.search.toLowerCase();
       return (p.title_relatable || '').toLowerCase().includes(q) ||
@@ -466,12 +494,6 @@ function filteredPapers() {
     }
     return true;
   });
-}
-
-// Build a "topic" from the paper's subject tags (first tag = primary subject)
-function getPaperTopic(p) {
-  if (p.subjects_all && p.subjects_all.length > 1) return p.subjects_all[1] || p.subject;
-  return p.subject || 'General';
 }
 
 // ═══════════════════════════════════════════════════
@@ -617,7 +639,7 @@ function renderByDate(papers) {
 function renderByTopic(papers) {
   const byTopic = {};
   papers.forEach(p => {
-    const t = p.subjects_all?.[1] || p.subject || 'General';
+    const t = getPaperTopic(p);
     if (!byTopic[t]) byTopic[t] = [];
     byTopic[t].push(p);
   });
@@ -626,7 +648,7 @@ function renderByTopic(papers) {
   Object.entries(byTopic).sort((a, b) => b[1].length - a[1].length).forEach(([topic, tPapers]) => {
     html += `<section class="week-section">
       <div class="week-header">
-        <span class="week-title">${topic}</span>
+        <span class="week-title">${getTopicName(topic)}</span>
         <span class="week-stats">${tPapers.length} papers</span>
       </div>`;
     tPapers.forEach(p => { html += renderPaper(p); });
@@ -656,7 +678,7 @@ function buildDateNav(papers) {
 function buildTopicChips() {
   const topicCounts = {};
   PAPERS.forEach(p => {
-    const t = p.subjects_all?.[1] || p.subject || 'General';
+    const t = getPaperTopic(p);
     topicCounts[t] = (topicCounts[t] || 0) + 1;
   });
   const chips = document.getElementById('topic-chips');
@@ -665,7 +687,7 @@ function buildTopicChips() {
     All <span class="chip-ct">${total}</span></button>`;
   Object.entries(topicCounts).sort((a,b) => b[1]-a[1]).forEach(([t,n]) => {
     html += `<button class="sb-chip" onclick="setTopic('${t}',this)">
-      ${t} <span class="chip-ct">${n}</span></button>`;
+      ${getTopicName(t)} <span class="chip-ct">${n}</span></button>`;
   });
   chips.innerHTML = html;
 }
