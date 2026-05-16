@@ -749,6 +749,10 @@ function togglePaper(id, btn) {
   const el = btn.closest('[data-id]');
   if (!el) return;
   el.classList.toggle('collapsed');
+  const content = el.querySelector('.card-body, .brief-extra');
+  if (content) {
+    content.style.display = el.classList.contains('collapsed') ? 'none' : '';
+  }
   if (el.classList.contains('collapsed')) state.collapsed.add(id);
   else state.collapsed.delete(id);
 }
@@ -761,6 +765,10 @@ function bulkToggle(collapse) {
     items.forEach((el, i) => {
       setTimeout(() => {
         el.classList.toggle('collapsed', collapse);
+        const content = el.querySelector('.card-body, .brief-extra');
+        if (content) {
+          content.style.display = collapse ? 'none' : '';
+        }
       }, i * 25);
     });
   }, 200);
