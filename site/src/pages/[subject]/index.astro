@@ -753,8 +753,14 @@ function togglePaper(id, btn) {
 }
 
 function bulkToggle(collapse) {
-  // Wait for next tick to ensure DOM is ready
-  requestAnimationFrame(() => {
+  // Ensure feed is populated
+  const feed = document.getElementById('feed');
+  if (!feed || !feed.innerHTML.trim()) {
+    render();
+  }
+
+  // Wait for DOM to be fully populated
+  setTimeout(() => {
     const collapsible = document.querySelectorAll('[data-id].full-card, [data-id].brief-row');
     if (collapsible.length === 0) return;
 
@@ -765,7 +771,7 @@ function bulkToggle(collapse) {
         if (collapse) state.collapsed.add(id); else state.collapsed.delete(id);
       }, i * 25);
     });
-  });
+  }, 100);
 }
 
 // Mode buttons
@@ -789,8 +795,14 @@ document.getElementById('sort-btns').addEventListener('click', e => {
   render();
 });
 
-document.getElementById('collapse-all').addEventListener('click', () => bulkToggle(true));
-document.getElementById('expand-all').addEventListener('click',   () => bulkToggle(false));
+// Collapse/expand all buttons (event delegation)
+document.addEventListener('click', e => {
+  if (e.target.id === 'collapse-all' || e.target.closest('#collapse-all')) {
+    bulkToggle(true);
+  } else if (e.target.id === 'expand-all' || e.target.closest('#expand-all')) {
+    bulkToggle(false);
+  }
+});
 
 // Search (debounced)
 let searchTimer;
