@@ -772,6 +772,14 @@ function debugCollapse() {
   const rows = document.querySelectorAll('.brief-row');
   console.log('full-cards found:', cards.length);
   console.log('brief-rows found:', rows.length);
+  if (cards.length > 0) {
+    console.log('First .full-card HTML:', cards[0].innerHTML.slice(0, 300));
+    console.log('.card-body exists:', cards[0].querySelector('.card-body') !== null);
+  }
+  if (rows.length > 0) {
+    console.log('First .brief-row HTML:', rows[0].innerHTML.slice(0, 300));
+    console.log('.brief-extra exists:', rows[0].querySelector('.brief-extra') !== null);
+  }
   cards.forEach(el => el.classList.toggle('collapsed'));
 }
 
