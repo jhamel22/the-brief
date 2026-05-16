@@ -484,8 +484,9 @@ function getTopicName(code) {
 }
 
 function filteredPapers() {
-  return PAPERS.filter(p => {
-    if (state.topic !== 'all' && getPaperTopic(p) !== state.topic) return false;
+  const filtered = PAPERS.filter(p => {
+    const paperTopic = getPaperTopic(p);
+    if (state.topic !== 'all' && paperTopic !== state.topic) return false;
     if (state.search) {
       const q = state.search.toLowerCase();
       return (p.title_relatable || '').toLowerCase().includes(q) ||
@@ -494,6 +495,8 @@ function filteredPapers() {
     }
     return true;
   });
+  console.log('Filter debug:', { stateTopic: state.topic, firstPaperTopic: PAPERS[0] ? getPaperTopic(PAPERS[0]) : 'none', filteredCount: filtered.length });
+  return filtered;
 }
 
 // ═══════════════════════════════════════════════════
@@ -683,13 +686,22 @@ function buildTopicChips() {
   });
   const chips = document.getElementById('topic-chips');
   const total = PAPERS.length;
-  let html = `<button class="sb-chip active" onclick="setTopic('all',this)">
+  let html = `<button class="sb-chip active" data-topic="all">
     All <span class="chip-ct">${total}</span></button>`;
   Object.entries(topicCounts).sort((a,b) => b[1]-a[1]).forEach(([t,n]) => {
-    html += `<button class="sb-chip" onclick="setTopic('${t}',this)">
+    html += `<button class="sb-chip" data-topic="${t}">
       ${getTopicName(t)} <span class="chip-ct">${n}</span></button>`;
   });
   chips.innerHTML = html;
+
+  // Add click handlers via event delegation
+  chips.querySelectorAll('.sb-chip').forEach(chip => {
+    chip.addEventListener('click', function() {
+      const topic = this.dataset.topic;
+      console.log('Chip clicked:', topic);
+      setTopic(topic, this);
+    });
+  });
 }
 
 function updateCount(visible) {
