@@ -753,12 +753,18 @@ function togglePaper(id, btn) {
 }
 
 function bulkToggle(collapse) {
-  document.querySelectorAll('[data-id]').forEach((el, i) => {
-    setTimeout(() => {
-      el.classList.toggle('collapsed', collapse);
-      const id = el.dataset.id;
-      if (collapse) state.collapsed.add(id); else state.collapsed.delete(id);
-    }, i * 25);
+  // Wait for next tick to ensure DOM is ready
+  requestAnimationFrame(() => {
+    const collapsible = document.querySelectorAll('[data-id].full-card, [data-id].brief-row');
+    if (collapsible.length === 0) return;
+
+    collapsible.forEach((el, i) => {
+      setTimeout(() => {
+        el.classList.toggle('collapsed', collapse);
+        const id = el.dataset.id;
+        if (collapse) state.collapsed.add(id); else state.collapsed.delete(id);
+      }, i * 25);
+    });
   });
 }
 
