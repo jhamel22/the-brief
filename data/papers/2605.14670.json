@@ -1,0 +1,23 @@
+{
+  "id": "2605.14670",
+  "arxiv_url": "https://arxiv.org/abs/2605.14670",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "physics.geo-ph",
+    "gr-qc"
+  ],
+  "title_original": "Laboratory rivers extremize friction and are cosmological analogues",
+  "authors": "Valerio Faraoni, Nikki Veilleux",
+  "abstract": "In the shallow water approximation, the cross-sectional profiles of laboratory rivers satisfy a differential equation here shown to be formally the Friedmann equation of cosmology ruling the evolution of Anti-de Sitter universe. The ensuing cosmic analogy provides a counterintuitive Lagrangian for the transverse river profile. Extremizing the corresponding action corresponds to extremizing the friction force on the river bottom and the energy dissipation rate. Analysis of the second variation establishes that this extremum is a maximum.",
+  "title_relatable": "River cross-sections obey the same equation as an expanding universe",
+  "hook": "The shape of a river's cross-section follows the Friedmann equation governing Anti-de Sitter cosmology, revealing that rivers naturally maximize bottom friction and energy dissipation.",
+  "summary": "In the shallow-water approximation, the equation describing a river's transverse depth profile is mathematically identical to the Friedmann equation for an Anti-de Sitter universe. This formal equivalence yields an unexpected Lagrangian for the river profile, and extremizing the corresponding action turns out to be equivalent to maximizing the friction force on the riverbed and the rate of energy dissipation. A second-variation analysis confirms this extremum is a maximum, not a minimum — meaning rivers settle into the shape that dissipates energy as rapidly as possible.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 797,
+  "tokens_out": 204,
+  "cost_usd": 0.005451,
+  "ingested_at": "2026-05-16T17:21:21.704395+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.14797",
+  "arxiv_url": "https://arxiv.org/abs/2605.14797",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "How Much Can Gravitons Be Squeezed?",
+  "authors": "Panagiotis Dorlis, Nick E. Mavromatos, Sarben Sarkar, Sotirios-Neilos Vlachos",
+  "abstract": "Quantum Gravity remains elusive, largely because its observable effects are suppressed by powers of the Planck scale. Direct detection of single gravitons is widely believed to be impossible. Here we propose a concrete astrophysical mechanism that may overcome this suppression. We show that superradiant axion-like-particle clouds surrounding rotating black holes can generate multimode squeezed states of gravitons containing up to $10^6$ - $10^7$ correlated quanta. Such states exhibit distinctive polarization correlations and quantum-noise signatures that could be detectable in future gravitational-wave interferometers. Observation of these signatures would constitute direct evidence for the quantum nature of gravitational radiation. Conversely, their absence can place constraints on axion-cloud lifetimes. Our approach also provides a test of General Relativity as an effective field theory.",
+  "title_relatable": "Axion clouds around black holes could reveal gravitons directly",
+  "hook": "Superradiant axion clouds around spinning black holes might amplify gravitational radiation into million-quantum squeezed states detectable by next-generation interferometers — a potential first direct probe of quantum gravity.",
+  "summary": "Rotating black holes can feed energy into surrounding axion-like-particle clouds through superradiance, and this paper shows that process can simultaneously squeeze gravitational radiation into coherent, correlated multi-mode states containing up to ten million gravitons. Those squeezed states carry specific polarization correlations and quantum-noise patterns distinct from classical gravitational waves. Future interferometers sensitive enough to spot these signatures would provide direct evidence that gravity is quantized; a null result would constrain how long such axion clouds survive.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 894,
+  "tokens_out": 200,
+  "cost_usd": 0.005682,
+  "ingested_at": "2026-05-16T17:20:41.877867+00:00"
+}

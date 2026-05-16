@@ -1,0 +1,22 @@
+{
+  "id": "2605.14541",
+  "arxiv_url": "https://arxiv.org/abs/2605.14541",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Particle Creation and Variable Generalized Chaplygin Gas in $\\mathcal{F}(\\mathcal{R},Σ,\\mathcal{T})$ Gravity",
+  "authors": "N. Myrzakulov, S. H. Shekh, Anirudh Pradhan, M. Zeyauddin",
+  "abstract": "In this work, we investigate the cosmological dynamics of a spatially flat Friedmann--Lemaître--Robertson--Walker Universe in the framework of generalized \\( \\mathcal{F}(\\mathcal{R},Σ,\\mathcal{T}) \\) gravity by incorporating gravitationally induced particle creation together with the variable generalized Chaplygin gas scenario. The modified gravitational action depends explicitly on the Ricci scalar \\( \\mathcal{R} \\), the matter-coupling scalar \\( Σ\\), and the trace of the energy--momentum tensor \\( \\mathcal{T} \\), which collectively generate significant corrections to the standard cosmological evolution. The particle creation mechanism is introduced through an open thermodynamic description of the Universe. In addition, the dark sector is modeled using the variable generalized Chaplygin gas formalism. To examine the observational consistency of the model, the free parameters are constrained using the Pantheon\\(^+\\) Type Ia Supernova compilation together with the combined observational Hubble and Pantheon\\(^+\\) datasets through a statistical \\(χ^2\\)-analysis. The cosmological behavior of the model is further explored through the evolution of the cosmological parameters. Furthermore, the thermodynamic properties of the model are investigated using the apparent horizon formalism. The obtained results demonstrate that the entropy evolution remains physically consistent throughout the cosmic evolution. Hence, the present \\( \\mathcal{F}(\\mathcal{R},Σ,\\mathcal{T}) \\) gravity framework with particle creation provides a viable geometrical description of the late-time accelerated Universe and remains compatible with recent cosmological observations.",
+  "title_relatable": "A modified gravity model fitted to supernova data with extra ingredients",
+  "hook": "Combining a three-scalar modified gravity theory with particle creation and a flexible dark-energy fluid produces a late-universe expansion history that passes basic supernova tests.",
+  "summary": "A flat FLRW cosmology is built inside F(R,Σ,T) gravity — a theory where the action depends on the Ricci scalar, a matter-coupling term, and the trace of the stress-energy tensor — and then further augmented with gravitationally induced particle creation and a variable generalized Chaplygin gas as dark energy. Free parameters are constrained against the Pantheon+ Type Ia supernova compilation and Hubble data via chi-squared minimisation. The model reproduces accelerated expansion and passes thermodynamic consistency checks at the apparent horizon, but the result is a confirmation that the framework is viable rather than a new prediction or tight observational constraint.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1114,
+  "tokens_out": 232,
+  "cost_usd": 0.006822,
+  "ingested_at": "2026-05-16T17:21:57.891633+00:00"
+}

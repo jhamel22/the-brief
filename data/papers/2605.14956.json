@@ -1,0 +1,22 @@
+{
+  "id": "2605.14956",
+  "arxiv_url": "https://arxiv.org/abs/2605.14956",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Gravitational Wave Propagation through Viscous Matter",
+  "authors": "Vishnu Kakkat, Ulrich K. Beckering Vinckers, Nigel T. Bishop, Amos S. Kubeka, Monos Naidoo, Udaykrishna Thattarampilly, Petrus J. van der Walt",
+  "abstract": "It has been known that gravitational waves (GWs) transfer energy to viscous matter through which they propagate, but the effect is too weak to be astrophysically significant. Using linearized perturbations about a Minkowski background, we previously showed that the interaction can become important when the distance between matter and source is smaller than the GW wavelength. Here, we review extensions to more realistic backgrounds, namely Schwarzschild spacetime and a static spherically symmetric setting. We find that GW damping and the associated heating of the viscous fluid are enhanced, and can lead to substantial attenuation or even gamma-ray bursts. We investigate astrophysical scenarios where these effects may be relevant, including core-collapse supernovae, binary neutron star mergers, and accretion onto binary black hole mergers.",
+  "title_relatable": "Viscous matter can damp gravitational waves more than expected",
+  "hook": "Gravitational waves passing through viscous fluid near a source can be substantially attenuated and may even trigger gamma-ray bursts, contradicting the standard assumption that this interaction is always negligible.",
+  "summary": "Working in Schwarzschild and static spherically symmetric spacetimes — more realistic than flat space — the authors find that gravitational wave damping by viscous matter is strongly enhanced when the source-matter distance falls below one wavelength. The energy deposited in the fluid can be large enough to cause significant signal attenuation or drive gamma-ray burst emission. Core-collapse supernovae, binary neutron star mergers, and black hole mergers with surrounding accretion disks are identified as plausible astrophysical settings where the effect would matter.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 915,
+  "tokens_out": 208,
+  "cost_usd": 0.005865,
+  "ingested_at": "2026-05-16T17:20:25.077527+00:00"
+}

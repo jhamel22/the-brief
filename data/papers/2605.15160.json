@@ -1,0 +1,23 @@
+{
+  "id": "2605.15160",
+  "arxiv_url": "https://arxiv.org/abs/2605.15160",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "N-body next-to-leading order gravitational spin-orbit interaction via effective field theory",
+  "authors": "Leonardo Wimmer, Hideyuki Tagoshi",
+  "abstract": "Using the post-Newtonian effective field theory (PN-EFT) formalism for spinning gravitating bodies, we derive the next-to-leading-order (NLO) spin-orbit potential and Hamiltonian for a system of N spinning bodies in general relativity. This extends the EFT treatment of the binary case to arbitrary N. We present two derivations: one in the generalized canonical gauge, and one based on the covariant spin supplementary condition (SSC), followed by a noncanonical transformation to canonical variables. In both approaches, the only new contributions beyond the binary case are three-body interaction diagrams. The canonical Hamiltonians obtained from the two EFT routes agree with the known ADM N-body Hamiltonian of Hartung and Steinhoff up to a canonical transformation.",
+  "title_relatable": "Spin-orbit gravity equations extended from two bodies to N bodies",
+  "hook": "A post-Newtonian calculation generalizes the spin-orbit interaction for binary systems to arbitrarily many spinning bodies, confirming agreement with an independent canonical framework.",
+  "summary": "Gravitational wave models for compact-object mergers rely on post-Newtonian approximations that have mostly been worked out for two-body systems. Extending two independent effective-field-theory derivations to N spinning bodies, the authors find that all new physics beyond the binary case reduces to three-body interaction diagrams — no more complicated structures appear at next-to-leading order. Both routes yield Hamiltonians that match the established ADM result of Hartung and Steinhoff up to a canonical transformation, providing a consistency check across methods. The framework is relevant for modeling hierarchical triple systems and globular-cluster environments where multi-body spin effects may matter.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 875,
+  "tokens_out": 227,
+  "cost_usd": 0.00603,
+  "ingested_at": "2026-05-16T17:19:48.991115+00:00"
+}

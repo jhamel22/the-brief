@@ -1,0 +1,22 @@
+{
+  "id": "2605.14711",
+  "arxiv_url": "https://arxiv.org/abs/2605.14711",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Black holes and neutron stars in massive Hellings-Nordtvedt theory",
+  "authors": "Zhe Luo, Liang Liang, Zhong-Xi Yu, Hong-Da Lyu, Shoulong Li, Hongwei Yu",
+  "abstract": "Hellings-Nordtvedt theory is a vector-tensor theory in which a vector field $A_μ$ is nonminimally coupled to curvature through two independent interactions $A^2{\\cal R}$ and $A^μA^ν{\\cal R}_{μν}$. When supplemented by a potential whose zero-energy minimum occurs at nonzero $A^2$, the restricted $A^μA^ν{\\cal R}_{μν}$ sector is known to admit black-hole and neutron-star solutions with a monopole-like asymptotic vacuum structure. We examine whether this structure is a generic consequence of the nonzero vector vacuum or instead relies on the special Ricci-tensor coupling. By analyzing the field equations near spatial infinity, we show that the asymptotic vacuum condition is incompatible with generic nonzero values of both couplings and instead selects two allowed single-coupling sectors. The $A^μA^ν{\\cal R}_{μν}$ sector reproduces the known monopole-like asymptotics, whereas the $A^2{\\cal R}$ sector admits an asymptotically flat Schwarzschild metric with a nontrivial radial vector field. We further compute the Noether mass in the $A^2{\\cal R}$ sector, derive the corresponding Solar-System constraints, and construct neutron-star configurations. Although the weak-field deviation is constrained to be small, neutron stars can still show appreciable departures from both general relativity and the Ricci-tensor-coupling sector in their masses, radii, and moments of inertia. Our results identify that the $A^2{\\cal R}$ sector of massive Hellings-Nordtvedt theory as a viable and useful framework for studying strong-field compact objects with a nonzero vector vacuum while remaining compatible with weak-field tests.",
+  "title_relatable": "A hidden sector of vector-tensor gravity passes compact-star tests",
+  "hook": "A previously unexplored coupling in vector-tensor gravity admits neutron stars that deviate measurably from general relativity while remaining consistent with Solar System constraints.",
+  "summary": "Hellings-Nordtvedt theory couples a vector field to spacetime curvature via two independent terms. Demanding physically sensible asymptotic behavior at large distances turns out to forbid mixing those two terms, forcing the theory into one of two pure single-coupling sectors. The overlooked sector — coupling the vector field to the Ricci scalar — allows an asymptotically flat Schwarzschild exterior with a nontrivial radial vector field, and the Solar System bounds on it are mild enough that neutron stars in this sector can show appreciable differences from general relativity in mass, radius, and moment of inertia.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1138,
+  "tokens_out": 219,
+  "cost_usd": 0.006699,
+  "ingested_at": "2026-05-16T17:21:05.424139+00:00"
+}

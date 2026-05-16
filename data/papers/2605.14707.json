@@ -1,0 +1,23 @@
+{
+  "id": "2605.14707",
+  "arxiv_url": "https://arxiv.org/abs/2605.14707",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "The Smarr Formula is Gauss's Law: A Kerr-Schild Single-Copy Perspective",
+  "authors": "Gokhan Alkac",
+  "abstract": "In the Kerr-Schild double copy, static and spherically symmetric black hole solutions of general relativity are mapped to purely electric solutions of Maxwell's theory in flat spacetime. We demonstrate that, for these configurations, the thermodynamic Smarr formula is structurally identical to the single-copy Gauss's law. Extending this to asymptotically anti-de Sitter spacetimes, we prove that the thermodynamic pressure-volume term ($PV$) naturally emerges from a gauge-theoretic background subtraction. This relationship establishes a novel connection between the classical double copy and black hole thermodynamics.",
+  "title_relatable": "Black hole thermodynamics rewritten as a simple electrostatics law",
+  "hook": "The Smarr formula governing black hole thermodynamics turns out to be structurally identical to Gauss's law in electrostatics, revealed through a gravity-to-electromagnetism mapping.",
+  "summary": "Using the Kerr-Schild double copy — a map that translates static black hole solutions in general relativity into electric field configurations in flat spacetime — the Smarr formula, which relates a black hole's mass to its other thermodynamic quantities, reduces exactly to Gauss's law for the corresponding electromagnetic single copy. Extending this to anti-de Sitter spacetimes, the pressure-volume term in extended black hole thermodynamics emerges naturally from subtracting a gauge-theoretic background. The result suggests that some black hole thermodynamic identities may be shadows of simpler flat-spacetime electrostatics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 833,
+  "tokens_out": 230,
+  "cost_usd": 0.005949,
+  "ingested_at": "2026-05-16T17:21:10.873070+00:00"
+}

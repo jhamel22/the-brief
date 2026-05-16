@@ -1,0 +1,23 @@
+{
+  "id": "2605.14668",
+  "arxiv_url": "https://arxiv.org/abs/2605.14668",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "$α'$ corrections to self-dual gravitational instantons",
+  "authors": "José Luis V. Cerdeira, Cristóbal Corral, Tomás Ortín",
+  "abstract": "We study the $α'$ corrections to self-dual gravitational instantons in the context of the four-dimensional Cano--Ruipérez action, which can be obtained by the compactification of the Bergshoeff--de Roo heterotic string effective action on $\\mathbb{T}^{6}$ followed by a truncation and a field redefinition. We show that the metric of spaces of self-dual curvature does not receive any corrections, but their (initially trivial) dilaton and axion fields do, owing to their couplings to Gauss--Bonnet and Pontrjagin densities. We find the generic form of the corrections of the dilaton and axion fields for the Gibbons--Hawking multi-instanton solutions and their explicit form for the particular cases of the Euclidean Taub--NUT and Eguchi--Hanson spaces. We construct the boundary terms required to define a well-posed Dirichlet variational principle in the Euclidean Cano--Ruipérez theory, including the contributions associated with the Gauss--Bonnet and Pontrjagin terms. The boundary terms are normalized for asymptotically-locally-Euclidean solutions, and we evaluate with them the Euclidean action of the $α'$-corrected Eguchi--Hanson instanton showing that the total action receives no corrections to first order in $α'$. We also show that, at zeroth order in $α'$, one can construct Euclidean solutions similar to the string theory D-instanton with non-trivial dilaton and axion on the background of a self-dual purely gravitational instanton which remains unmodified. We also compute the $α'$ corrections to these solutions.",
+  "title_relatable": "String corrections leave gravitational instanton geometry intact but disturb its scalar fields",
+  "hook": "Higher-order string theory corrections do not deform the metric of self-dual gravitational instantons, but they do force non-trivial changes in the dilaton and axion fields attached to them.",
+  "summary": "Self-dual gravitational instantons — smooth, curved Euclidean spacetimes that play a role in quantum gravity path integrals — are protected from metric deformation by the first α′ corrections coming from heterotic string theory, even though the accompanying scalar fields are not. Working within a four-dimensional action derived from compactified heterotic strings, the authors compute explicit scalar-field corrections for the Taub–NUT and Eguchi–Hanson spaces, construct the boundary terms needed for a well-posed variational problem, and show that the total Euclidean action of the Eguchi–Hanson instanton receives no net correction at first order in α′. They also identify a class of solutions analogous to D-instantons sitting on an unmodified gravitational instanton background.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1099,
+  "tokens_out": 271,
+  "cost_usd": 0.007362,
+  "ingested_at": "2026-05-16T17:21:28.257844+00:00"
+}

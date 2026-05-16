@@ -1,0 +1,24 @@
+{
+  "id": "2605.14657",
+  "arxiv_url": "https://arxiv.org/abs/2605.14657",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Parametrization of the primordial power spectrum in loop quantum cosmology",
+  "authors": "Almudena Guillén, Kai Langer, Guillermo A. Mena Marugán, Niklas Rodenbücher, Antonio Vicente-Becerril",
+  "abstract": "We investigate the imprints on the angular power spectra of cosmological perturbations of a pre-inflationary bounce phase, as described by the hybrid and dressed metric approaches to loop quantum cosmology. For this purpose, we derive a new parametrization of the primordial power spectrum at the end of the inflationary regime. Apart from slow-roll coefficients and cosmological parameters that are present in the standard cosmological scenario without quantum modifications, this parametrization additionally depends only on pre-inflationary physics. More specifically, we find a dependence on the number of e-folds during the bounce epoch and on a characteristic suppression scale which, given the e-folds accumulated during cosmic evolution, is determined by the energy density at the bounce. Recall that this density depends on the Immirzi parameter and the area gap known from LQG. This leads to a robust and accurate parametrization of the primordial power spectrum. Since in pre-inflationary scenarios there is no preferred vacuum state, we adopt the NO-AHD proposal, which selects a vacuum that is optimally adapted to the background dynamics and yields a non-oscillatory primordial power spectrum. With this choice, we show that the tensor-to-scalar ratio in both quantization approaches coincides with its expression in the standard $Λ$CDM model when the observed scales are not much smaller than the power-suppressed region. Computing also the angular power spectrum, we find that, for a total cosmic expansion of about 140 e-folds, both the hybrid and the dressed metric approaches exhibit excellent agreement with Planck data at high multipoles, while apparently improving the fit with respect to $Λ$CDM for low multipole numbers.",
+  "title_relatable": "A quantum bounce before inflation leaves subtle marks on the CMB",
+  "hook": "A compact parametrization of primordial power spectra from loop quantum cosmology shows that pre-inflationary bounce physics may improve the CMB fit at large angular scales.",
+  "summary": "Two competing loop quantum cosmology frameworks — the hybrid and dressed metric approaches — both predict a suppression of primordial power at large scales, stemming from a quantum bounce that preceded inflation. By distilling this bounce physics into just two extra parameters (e-folds during the bounce and an energy-density-set suppression scale), the authors produce a clean, testable primordial spectrum. Crucially, they find that the tensor-to-scalar ratio remains identical to standard ΛCDM for observed scales above the suppressed region. For roughly 140 total e-folds of expansion, both approaches fit Planck high-multipole data well and appear to reduce tension at low multipoles.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1093,
+  "tokens_out": 233,
+  "cost_usd": 0.006774,
+  "ingested_at": "2026-05-16T17:21:40.295695+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.14798",
+  "arxiv_url": "https://arxiv.org/abs/2605.14798",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "The sufficiently trapped surface",
+  "authors": "Eleni-Alexandra Kontou",
+  "abstract": "Roger Penrose introduced the concept of the trapped surface: a spacelike hypersurface where the two null normals have negative expansion. The trapped surface along with the null convergence condition leads to null geodesic incompleteness. If an event horizon forms, the trapped surface is also always behind it, providing evidence for the weak cosmic censorship conjecture. When the null convergence condition is violated, as in the case of semiclassical gravity, trapped surfaces lose these guarantees. A generalized notion, the sufficiently trapped surface, accommodates weaker energy conditions consistent with quantum fields. This concept restores key roles in singularity and area theorems and continues to support the weak cosmic censorship conjecture.",
+  "title_relatable": "Saving Penrose's trapped surfaces when quantum fields break the rules",
+  "hook": "When quantum fields violate the energy conditions that underpin Penrose's singularity theorem, a generalized 'sufficiently trapped surface' restores the key results of classical relativity.",
+  "summary": "Penrose's trapped surface—a region where inward-pointing light rays converge on both sides—anchors the singularity theorem and the weak cosmic censorship conjecture, but both rely on the null convergence condition. Semiclassical gravity, where quantum fields inhabit curved spacetime, routinely violates that condition. By relaxing the definition to a 'sufficiently trapped surface' compatible with averaged or quantum energy inequalities, the new framework recovers geodesic incompleteness and area-theorem results without assuming classical energy conditions. The work extends the geometric foundations of black hole physics into the semiclassical regime.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 826,
+  "tokens_out": 224,
+  "cost_usd": 0.005838,
+  "ingested_at": "2026-05-16T17:20:36.749883+00:00"
+}

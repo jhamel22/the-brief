@@ -1,0 +1,22 @@
+{
+  "id": "2605.14728",
+  "arxiv_url": "https://arxiv.org/abs/2605.14728",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Wide parameter-space O3 search for continuous gravitational waves from unknown neutron stars in binary systems",
+  "authors": "P. B. Covas, M. A. Papa, R. Prix",
+  "abstract": "Continuous gravitational waves, i.e., persistent and nearly-monochromatic signals emitted by asymmetric spinning neutron stars, remain elusive. Searches for these signals from unknown binary systems are the most computationally challenging, but they are essential, given that binary accretion provides a natural mechanism for creating the required asymmetry, and around half of the known pulsars rotating above 25 Hz are part of a binary system. Here we report on a search of a large uncharted parameter-space region: for the first time we cover gravitational-wave frequencies above 520 Hz (from 50 to 1000 Hz), and, for the first time with advanced detectors, orbital periods lower than 3 days are explored. No signal is detected, and we set the most stringent constraints to date on the amplitude of signals of this kind. Our results exclude with $95\\%$ confidence neutron stars within 100 pc and rotating faster than $\\sim$ 495 Hz from having ellipticities above $5.2 \\times 10^{-8}$. Within the same distance our results also exclude r-mode amplitudes above $1.5 \\times 10^{-6}$ for stars rotating faster than $\\sim$ 740 Hz.",
+  "title_relatable": "Deepest search yet for gravitational waves from binary neutron stars",
+  "hook": "A wide sweep of previously unexplored parameter space finds no continuous gravitational-wave signals, but sets the tightest limits yet on how lopsided nearby neutron stars can be.",
+  "summary": "Using LIGO/Virgo's third observing run, this search covered gravitational-wave frequencies from 50 to 1000 Hz and, for the first time with advanced detectors, orbital periods shorter than three days — territory never previously probed. No signal was found, but the null result is informative: neutron stars within 100 parsecs spinning faster than roughly 495 Hz must be nearly perfect spheres, with deformations no larger than 5.2 × 10⁻⁸ times their radius. The same data constrain internal fluid oscillation (r-mode) amplitudes to below 1.5 × 10⁻⁶ for the fastest rotators, squeezing the space where binary accretion could be building detectable asymmetries.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 983,
+  "tokens_out": 266,
+  "cost_usd": 0.006939,
+  "ingested_at": "2026-05-16T17:20:59.280336+00:00"
+}

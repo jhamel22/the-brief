@@ -1,0 +1,22 @@
+{
+  "id": "2605.14572",
+  "arxiv_url": "https://arxiv.org/abs/2605.14572",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Modifications of CMB Temperature and Polarization Quadrupole Signals in Thurston Spacetimes",
+  "authors": "Tanay Gupta, Sukanta Panda, Rajib Saha",
+  "abstract": "Recent cosmological tests have discovered a fresh new set of anomalies in the large-scale isotropy of the universe. Motivated thus by the numerous pieces of evidence for large-scale cosmic isotropy violation with the advent of the 'precision cosmology' era, we are led to explore the viability of anisotropic Thurston geometries, described in William Thurston's geometrization conjecture. In this work, we examine the coherent temperature and polarization signals generated in the CMB sky by such geometries. We begin with introducing Thurston spacetimes as our background model and the formalism we use to obtain the patterns. We then construct a set of transfer equations relative to a given background and solve them for each spacetime geometry. We finally discuss the role of spatial curvature in these FLRW limiting models along with their underlying geometry, and attempt to establish some general results on the symmetries of the patterns produced by their time evolution in terms of the Stokes parameters P, Q, U and V. We show the evolution of temperature and polarization amplitudes in terms of such Stokes parameters at different timestamps and attempt to isolate individual Thurston geometries.",
+  "title_relatable": "Can exotic cosmic geometries explain CMB's large-scale anomalies?",
+  "hook": "Anisotropic Thurston geometries produce distinct temperature and polarization fingerprints in the CMB, offering a way to test whether the universe's large-scale structure departs from standard isotropy.",
+  "summary": "Working within the eight geometries of Thurston's geometrization conjecture, the authors derive transfer equations for CMB temperature and polarization in each anisotropic spacetime and track how signals evolve over time via Stokes parameters. The goal is to find patterns that could distinguish one geometry from another — and from the standard isotropic model — using quadrupole-scale CMB data. Results show that spatial curvature and underlying symmetry leave characteristic imprints on Q, U, and V polarization amplitudes. The work provides a concrete framework for confronting exotic cosmic topologies with precision CMB observations.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 958,
+  "tokens_out": 227,
+  "cost_usd": 0.006279,
+  "ingested_at": "2026-05-16T17:21:51.911951+00:00"
+}

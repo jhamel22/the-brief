@@ -1,0 +1,23 @@
+{
+  "id": "2605.14580",
+  "arxiv_url": "https://arxiv.org/abs/2605.14580",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Scattering off Chamblin-Reall Branes",
+  "authors": "Dongsheng Ge, Christopher P. Herzog",
+  "abstract": "We study the linearized scattering of dilaton-graviton waves from a thin brane in three-dimensional spacetime. Holographically, the setup models scattering from an interface in a family of strongly coupled theories related to dimensional reductions of higher-dimensional $AdS_{d+2}$ gravity. Unlike the pure $AdS_3$ case, for $d>1$ the physical bulk mode allows incident radiation to be redistributed into reflected, transmitted, and evanescent components. For the $d=2$ background, we obtain a controlled solution in which the interface acts like a rough translucent window, producing diffuse angular scattering and absorption into surface modes. From the dual perspective, the scattering process is suggestive of dissipative flow toward the infrared. For $d=4$, the same analysis reveals a sensitivity to the infrared boundary condition, suggesting that the singular zero-temperature geometry must be regulated in order to have a well-defined scattering process. The structure of the equations nevertheless suggests that a regulated $d=4$ problem may exhibit the same qualitative redistribution of incident flux.",
+  "title_relatable": "How gravitational waves scatter off exotic branes in three dimensions",
+  "hook": "Dilaton-graviton scattering off Chamblin-Reall branes reveals that interfaces in strongly coupled theories act as rough, absorbing windows that redistribute energy into surface modes and hint at dissipation toward low energies.",
+  "summary": "Using linearized gravity in three-dimensional bulk spacetimes, this study maps out how dilaton-graviton waves reflect, transmit, and convert into evanescent surface modes at a thin brane. For the d=2 case, the interface behaves like a translucent but diffusing screen, with the holographic dual suggesting dissipative infrared flow. The d=4 case proves more delicate: the singular zero-temperature geometry requires regularization before scattering is well-defined, though the equations suggest the same qualitative redistribution of flux should survive once a regulator is introduced.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 931,
+  "tokens_out": 226,
+  "cost_usd": 0.006183,
+  "ingested_at": "2026-05-16T17:21:45.975105+00:00"
+}

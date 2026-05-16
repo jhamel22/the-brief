@@ -1,0 +1,23 @@
+{
+  "id": "2605.14870",
+  "arxiv_url": "https://arxiv.org/abs/2605.14870",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "On the catastrophe time of fluids under the action of a gravitational field",
+  "authors": "D. Astesiano, G. Ortenzi, M. L. Ruggiero",
+  "abstract": "Motivated by the central role of the Zel'dovich approximation in the description of cosmic structure formation through gravitational collapse, we investigate Burgers-type dynamics in a spherically symmetric gravitational field. In the Newtonian setting, we derive perturbatively the catastrophe time for radial motion by imposing the loss of invertibility of the Lagrangian map. We show that the perturbative expansion is controlled by the dimensionless parameter $ α=μ/{r_0^3 v_0(r_0)'^2}, $ rather than by the local gravitational acceleration alone. Hence, the expansion remain valid even when gravity is strong. We then extend the analysis to radial geodesic motion in Schwarzschild spacetime.",
+  "title_relatable": "When does collapsing matter first form a cosmic traffic jam?",
+  "hook": "A perturbative formula predicts the exact moment a collapsing fluid shell first forms a caustic, and the controlling parameter stays valid even in strong gravity.",
+  "summary": "Cosmic structure forms when matter streams cross and pile up — a moment called the catastrophe time. Starting from Burgers-type fluid dynamics in a spherical gravitational field, the authors derive a perturbative expression for this crossing time in Newtonian gravity and show it is governed by a single dimensionless ratio involving mass, initial radius, and initial velocity gradient — not local gravitational acceleration alone. This means the expansion stays accurate even where gravity is strong. They then extend the result to radial geodesic motion in Schwarzschild spacetime, connecting Zel'dovich-style approximations to general relativity.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 864,
+  "tokens_out": 215,
+  "cost_usd": 0.005817,
+  "ingested_at": "2026-05-16T17:20:30.834386+00:00"
+}

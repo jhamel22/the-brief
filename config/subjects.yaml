@@ -1,0 +1,145 @@
+# The Brief — subject configuration
+#
+# daily_cap: max papers to summarize per run. Keeps API costs predictable.
+#   At ~$0.007/paper (Sonnet 4.6), 20 papers/day ≈ $4/month per subject.
+#   Budget headroom at $15-20/month: ~60-70 papers/day across all active subjects.
+#
+# prompt_variant: which prompt template to use (ingest/prompts/{variant}.txt)
+#   physics | cs | math | bio | finance | econ
+#
+# active: false = config is ready but ingestion is paused
+#
+# To add a new subject: copy a block, set active: true, adjust daily_cap.
+
+subjects:
+
+  # ── PHYSICS ──────────────────────────────────────────────
+  - code: gr-qc
+    name: General Relativity & Quantum Cosmology
+    domain: Physics
+    slug: gr-qc
+    daily_cap: 25
+    prompt_variant: physics
+    active: true
+
+  - code: hep-th
+    name: High Energy Physics - Theory
+    domain: Physics
+    slug: hep-th
+    daily_cap: 20
+    prompt_variant: physics
+    active: false
+
+  - code: quant-ph
+    name: Quantum Physics
+    domain: Physics
+    slug: quant-ph
+    daily_cap: 20
+    prompt_variant: physics
+    active: false
+
+  - code: astro-ph
+    name: Astrophysics
+    domain: Physics
+    slug: astro-ph
+    daily_cap: 20
+    prompt_variant: physics
+    active: false
+
+  - code: hep-ph
+    name: High Energy Physics - Phenomenology
+    domain: Physics
+    slug: hep-ph
+    daily_cap: 15
+    prompt_variant: physics
+    active: false
+
+  - code: cond-mat
+    name: Condensed Matter
+    domain: Physics
+    slug: cond-mat
+    daily_cap: 15
+    prompt_variant: physics
+    active: false
+
+  # ── COMPUTER SCIENCE ──────────────────────────────────────
+  # Note: cs.LG/cs.AI/cs.CL can each hit 150-200 papers/day.
+  # daily_cap is critical here. These use a two-step pipeline:
+  # Haiku ranks abstracts cheaply, then Sonnet summarizes the top N.
+  - code: cs.LG
+    name: Machine Learning
+    domain: Computer Science
+    slug: cs-lg
+    daily_cap: 20
+    prompt_variant: cs
+    use_filter: true   # enables cheap pre-ranking step for high-volume subjects
+    active: false
+
+  - code: cs.AI
+    name: Artificial Intelligence
+    domain: Computer Science
+    slug: cs-ai
+    daily_cap: 15
+    prompt_variant: cs
+    use_filter: true
+    active: false
+
+  - code: cs.CL
+    name: Computation and Language
+    domain: Computer Science
+    slug: cs-cl
+    daily_cap: 15
+    prompt_variant: cs
+    use_filter: true
+    active: false
+
+  - code: cs.CV
+    name: Computer Vision
+    domain: Computer Science
+    slug: cs-cv
+    daily_cap: 15
+    prompt_variant: cs
+    use_filter: true
+    active: false
+
+  # ── MATHEMATICS ───────────────────────────────────────────
+  - code: math.NT
+    name: Number Theory
+    domain: Mathematics
+    slug: math-nt
+    daily_cap: 15
+    prompt_variant: math
+    active: false
+
+  - code: math.AG
+    name: Algebraic Geometry
+    domain: Mathematics
+    slug: math-ag
+    daily_cap: 15
+    prompt_variant: math
+    active: false
+
+  # ── OTHER FIELDS ──────────────────────────────────────────
+  - code: q-bio.NC
+    name: Neurons and Cognition
+    domain: Quantitative Biology
+    slug: q-bio-nc
+    daily_cap: 10
+    prompt_variant: bio
+    active: false
+
+  - code: q-fin
+    name: Quantitative Finance
+    domain: Quantitative Finance
+    slug: q-fin
+    daily_cap: 10
+    prompt_variant: finance
+    active: false
+
+  - code: econ.GN
+    name: General Economics
+    domain: Economics
+    slug: econ-gn
+    daily_cap: 10
+    prompt_variant: econ
+    active: false

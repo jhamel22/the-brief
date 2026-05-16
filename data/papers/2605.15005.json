@@ -1,0 +1,22 @@
+{
+  "id": "2605.15005",
+  "arxiv_url": "https://arxiv.org/abs/2605.15005",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "An Exact Single-Rotating Near-Horizon Geometry in Einstein-Gauss-Bonnet Gravity",
+  "authors": "U. Can Çelik, Kamal Hajian, Jutta Kunz",
+  "abstract": "We construct a five-dimensional singly rotating near-horizon solution in Einstein-Gauss-Bonnet gravity. We show that the Gauss-Bonnet term removes the local curvature singularity, yielding finite curvature invariants throughout the spacetime, provided the rotation parameter remains below a certain value set by the Gauss-Bonnet coupling. To our knowledge, this is the first analytic example of a singly rotating five-dimensional solution in this framework with finite curvature invariants over a nontrivial region of parameter space. We analyze the geometry across this space, identifying regular, singular, and marginal regimes. Finally, we study the thermodynamic properties, finding that while higher-derivative corrections regularize the local curvature behavior, they also introduce unique challenges to the standard thermodynamic description of Killing horizons.",
+  "title_relatable": "Higher-dimensional gravity term cures a curvature singularity in rotating black holes",
+  "hook": "A Gauss-Bonnet correction to Einstein gravity eliminates an otherwise unavoidable curvature singularity in a five-dimensional rotating near-horizon geometry, but only when spin stays below a coupling-set threshold.",
+  "summary": "Working in five-dimensional Einstein-Gauss-Bonnet gravity, the authors construct the first known exact analytic near-horizon solution for a singly rotating black hole that has finite curvature invariants across a meaningful range of parameters. The higher-derivative Gauss-Bonnet term acts as a geometric regulator, but rotation must stay below a bound set by the coupling strength or the singularity returns. Mapping the full parameter space reveals distinct regular, marginal, and singular regimes. A notable complication emerges: the same corrections that smooth the curvature disrupt the standard thermodynamic framework for Killing horizons.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 893,
+  "tokens_out": 239,
+  "cost_usd": 0.006264,
+  "ingested_at": "2026-05-16T17:20:01.220188+00:00"
+}

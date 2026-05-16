@@ -1,0 +1,24 @@
+{
+  "id": "2605.15045",
+  "arxiv_url": "https://arxiv.org/abs/2605.15045",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Can a late-time cosmological model based on baby universe absorption explain the z-variation of w?",
+  "authors": "Jan Ambjorn, Yoshiyuki Watabiki",
+  "abstract": "We point out that a simple late-time cosmological model where our Universe can absorb \"baby universes\" explains the exponential expansion of our universe without the need of a cosmological constant and leads to a z-dependence of the parameter w(z) in the equation of state. In this model w(z) is less than -1 for z sufficiently large.",
+  "title_relatable": "Baby universes merging into ours could mimic dark energy",
+  "hook": "A model where our universe absorbs smaller 'baby universes' reproduces accelerated expansion without a cosmological constant and predicts a measurable redshift-dependent equation-of-state parameter.",
+  "summary": "Absorbing baby universes into our own drives exponential cosmic expansion in this late-time model, replacing the cosmological constant with a dynamical mechanism. The key observable consequence is that the dark-energy equation-of-state parameter w varies with redshift z, crossing below −1 at sufficiently high z — a so-called phantom crossing that standard ΛCDM does not produce. This prediction sits squarely in the target zone of current and upcoming surveys like DESI and Euclid, which are actively measuring w(z).",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 776,
+  "tokens_out": 206,
+  "cost_usd": 0.005418,
+  "ingested_at": "2026-05-16T17:19:54.470912+00:00"
+}

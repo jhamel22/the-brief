@@ -1,0 +1,24 @@
+{
+  "id": "2605.14977",
+  "arxiv_url": "https://arxiv.org/abs/2605.14977",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Unified dark sector and Hubble-tension alleviation in scalar-vector-tensor gravity",
+  "authors": "Kimet Jusufi, Amir A. Khodahami, Ahmad Sheykhi, Jackson Levi Said, Emmanuel N. Saridakis",
+  "abstract": "We investigate a scalar-vector-tensor theory in which matter is minimally coupled to a Jordan-frame metric, while a massive vector sector interacts with the baryonic current. We show that the conformal scalar coupling modifies the physical expansion rate measured by matter observers, leading to a late-time enhancement of the effective Hubble constant. By constructing a phenomenological scalar evolution that becomes relevant only at low redshifts, the model provides a purely late-time mechanism for alleviating the Hubble tension without significantly affecting early-universe cosmology. The scalar potential naturally acts as a dynamical dark-energy sector, while the vector contribution behaves effectively as a pressureless component at cosmological scales through a density-dependent vector mass. Hence, the framework connects late-time scalar dynamics, effective dark-energy evolution, and Hubble-tension alleviation within a unified setup. Finally, local gravitational constraints can be suppressed through a chameleon-type screening mechanism, allowing the theory to remain compatible with Solar-System tests while retaining nontrivial cosmological effects.",
+  "title_relatable": "One scalar-vector-tensor theory to unify dark energy, dark matter, and Hubble tension",
+  "hook": "A single scalar-vector-tensor gravity framework can mimic dark energy, dark matter, and nudge the Hubble constant upward at late times — all while hiding from Solar System tests via chameleon screening.",
+  "summary": "By coupling a massive vector field to baryonic matter and a scalar field to the Jordan-frame metric, the model modifies the expansion rate that matter observers actually measure, boosting the effective Hubble constant without disturbing early-universe physics. The scalar potential drives dark-energy-like acceleration, while the vector field's density-dependent mass makes it behave as pressureless dust on cosmological scales. A chameleon screening mechanism suppresses deviations locally, keeping the theory consistent with precision Solar System measurements. The framework unifies three major open problems — dark energy, dark matter, and the Hubble tension — in a single Lagrangian, though observational confrontation beyond the phenomenological construction remains to be done.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 950,
+  "tokens_out": 255,
+  "cost_usd": 0.006675,
+  "ingested_at": "2026-05-16T17:20:07.296572+00:00"
+}

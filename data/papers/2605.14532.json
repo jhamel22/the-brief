@@ -1,0 +1,23 @@
+{
+  "id": "2605.14532",
+  "arxiv_url": "https://arxiv.org/abs/2605.14532",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Consistency in the Quantum-Improved Charged Black Holes",
+  "authors": "Chiang-Mei Chen, Akihiro Ishibashi, Nobuyoshi Ohta",
+  "abstract": "We investigate the consistency in the thermodynamics and the approaches at the equation and action levels for the quantum-improved charged black holes with scale-dependent couplings. For the quantum-improved Reissner-Nordström black holes, we find that the thermodynamic consistency allows both the Newton and electromagnetic couplings to have arbitrary dependence on the radial coordinate. We point out a subtlety in the chemical potential with the scale-dependent electromagnetic coupling in the study of thermodynamics. We also examine the compatibility of the Einstein equations at the equation and action levels with the Bianchi identity, identifying the need for an additional quantum energy-momentum tensor. We then find that the consistency between the approaches at the equation and action levels requires that the Newton coupling satisfy certain property. Finally, we extend the analysis to cosmological solutions, suggesting that quantum-induced modifications can drive the isotropization of the early universe.",
+  "title_relatable": "Quantum corrections to charged black holes need an extra consistency check",
+  "hook": "Quantum-improved charged black holes require a hidden energy-momentum tensor to stay self-consistent, placing a concrete constraint on how Newton's constant can vary with scale.",
+  "summary": "When gravity and electromagnetism are given scale-dependent couplings — a common approach to incorporating quantum corrections — the resulting black hole solutions must satisfy multiple consistency conditions simultaneously. Matching the equation-of-motion and action-level descriptions demands an additional quantum energy-momentum tensor and restricts the radial behavior of Newton's constant, while the electromagnetic coupling retains more freedom. A chemical-potential subtlety in the thermodynamics had been previously overlooked. The framework extends to cosmological settings, where quantum-induced coupling variations can smooth out anisotropies in the early universe.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 891,
+  "tokens_out": 203,
+  "cost_usd": 0.005718,
+  "ingested_at": "2026-05-16T17:22:02.908052+00:00"
+}

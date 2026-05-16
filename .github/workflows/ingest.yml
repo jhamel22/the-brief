@@ -1,0 +1,68 @@
+name: Ingest arXiv
+
+on:
+  # Run weekdays at 20:30 UTC = 4:30 PM ET (arXiv announces ~2:00 PM ET)
+  schedule:
+    - cron: '30 20 * * 1-5'
+
+  # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: 'Subject code to ingest (leave blank for all active)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run (fetch only, no API calls)'
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write   # required to commit data files back to the repo
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ingest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.subject }}" ]; then
+            ARGS="--subject ${{ github.event.inputs.subject }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python ingest/run.py $ARGS
+
+      - name: Commit new data
+        run: |
+          git config user.name  "brief-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No new papers — nothing to commit"
+          else
+            SUBJECT="${{ github.event.inputs.subject }}"
+            DATE=$(date +%Y-%m-%d)
+            MSG="ingest: ${DATE}${SUBJECT:+ (${SUBJECT})}"
+            git commit -m "$MSG"
+            git push
+          fi

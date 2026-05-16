@@ -1,0 +1,23 @@
+{
+  "id": "2605.14970",
+  "arxiv_url": "https://arxiv.org/abs/2605.14970",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Exploring the CMB in Anisotropic Universes",
+  "authors": "Robbert W. Scholtens, Marcello Seri, Holger Waalkens, Rien van de Weygaert",
+  "abstract": "In recent years, there have been increasing challenges to the cosmological principle, based on new observations of e.g. supernovae and the cosmic bulk flow. As a result, the cosmological community is speaking their concern for the cosmological principle, and from which scales onwards it should apply. In this context, there is a desire to understand more fully the properties and signatures of cosmologies not obeying the cosmological principle. In this article, we let go of the demand of cosmic isotropy, and instead assume only spatial homogeneity in our cosmological models. We follow the results of our previous works [see citations in the list of references], and here bring these together into one unified picture, with the goal of describing the signature(s) of anisotropy in anisotropic cosmological models. We first introduce the Bianchi models -- a particular instance of spatially homogeneous cosmologies -- and show that a metric can be constructed for them when an appropriate collection of desired Killing vector fields is supplied. Then, we give the perturbations of the Friedmann equations in such Bianchi models, in the Newtonian gauge, derived using much the same methodology as applicable to the FLRW models. We show these can be combined into one characteristic partial differential equation. Finally, we use this equation in order to simulate the CMB of a toy Bianchi V example and produce its power spectrum. We close with a discussion, and suggestions for further research.",
+  "title_relatable": "What the CMB sky looks like in a universe that isn't the same in all directions",
+  "hook": "Dropping the assumption of cosmic isotropy, this work derives perturbation equations for anisotropic Bianchi cosmologies and produces a simulated CMB power spectrum that could serve as a template for testing the cosmological principle.",
+  "summary": "Growing tensions in cosmological data — from supernova surveys to bulk-flow measurements — have raised questions about when and whether the universe truly looks the same in every direction. Starting from spatially homogeneous but anisotropic Bianchi models, the authors construct metrics, derive Newtonian-gauge perturbation equations analogous to the standard FLRW treatment, and reduce them to a single characteristic PDE. Applying this to a Bianchi V toy model, they simulate the resulting CMB anisotropy power spectrum, offering a concrete template for what directional asymmetry would imprint on the microwave sky.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1024,
+  "tokens_out": 239,
+  "cost_usd": 0.006657,
+  "ingested_at": "2026-05-16T17:20:13.510431+00:00"
+}

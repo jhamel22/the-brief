@@ -1,0 +1,23 @@
+{
+  "id": "2605.14958",
+  "arxiv_url": "https://arxiv.org/abs/2605.14958",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.SR"
+  ],
+  "title_original": "Conservative and dissipative sectors in a nonlinear scalar model for the gravitational self-force problem",
+  "authors": "Francisco M. Blanco, Eanna E. Flanagan, Abraham I. Harte",
+  "abstract": "When considering how self-interaction affects an object's motion, it can be convenient to decompose the self-force into conservative and dissipative pieces. As a toy model for understanding such decompositions of the gravitational self-force, we consider objects that do not affect the spacetime, but are instead coupled to a nonlinear scalar field. There is then a standard splitting of the first-order scalar self-force into conservative and dissipative components. Multiple criteria can be used to obtain this splitting, all of which imply the same result. However, the implications of these criteria generically differ at higher orders. Demanding that any reasonable conservative sector be Hamiltonian, we identify multiple possible definitions of the conservative second-order self-force. Motivations for these possibilities and their properties are discussed and relevant Hamiltonians are obtained. We assume the existence of a three-point function with certain properties that is a generalization of the Detweiler-Whiting two-point function. These results apply to the two-body problem but are restricted to unbound scattering trajectories, due to infrared divergences that arise for bound orbits.",
+  "title_relatable": "Splitting gravity's self-force into conservative and dissipative parts gets complicated",
+  "hook": "At first order, several natural criteria for separating a self-force into conservative and dissipative parts all agree—but at second order they diverge, revealing genuine ambiguity in how the gravitational two-body problem is defined.",
+  "summary": "When a body moves through its own field, its motion is altered by a self-force that can be split into a part that conserves energy and a part that dissipates it. Using a nonlinear scalar field as a controlled stand-in for gravity, this work shows that the standard first-order splitting is unique, but multiple inequivalent definitions emerge at second order, each yielding a different Hamiltonian. The analysis generalizes the Detweiler-Whiting framework to include a three-point function and clarifies which choices are physically motivated. Results apply to unbound (scattering) trajectories; bound orbits remain out of reach due to infrared divergences.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 246,
+  "cost_usd": 0.006534,
+  "ingested_at": "2026-05-16T17:20:19.845145+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.14684",
+  "arxiv_url": "https://arxiv.org/abs/2605.14684",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "QCD axion from broken scale symmetry",
+  "authors": "Georgios K. Karananas, Mikhail Shaposhnikov",
+  "abstract": "A consistent non-compact axion cosmology requires a non-periodic field, an effective field theory valid sufficiently above the inflationary scale, and a small non-QCD contribution to the potential that tilts the axionic vacuum landscape in order to trigger a timely domain-wall collapse. All conditions can be met by the dilaton -- the pseudo-Nambu-Goldstone boson of spontaneously broken approximate scale invariance.",
+  "title_relatable": "The dilaton solves three stubborn problems with axion cosmology at once",
+  "hook": "A single field — the dilaton from broken scale symmetry — simultaneously fixes the non-periodicity, UV validity, and domain-wall collapse problems that plague standard axion dark matter models.",
+  "summary": "Standard QCD axion cosmology runs into three distinct technical obstacles: the axion field must be non-periodic, the effective theory must hold well above the inflationary scale, and a small explicit symmetry-breaking term is needed to collapse dangerous domain walls before they dominate the universe. Karananas and Shaposhnikov show that the dilaton — the pseudo-Nambu-Goldstone boson of spontaneously broken approximate scale invariance — satisfies all three requirements within a single coherent framework. The result reframes the dilaton not merely as a gravitational curiosity but as a natural host for axion physics, potentially connecting dark matter to the origin of mass scales in nature.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 781,
+  "tokens_out": 238,
+  "cost_usd": 0.005913,
+  "ingested_at": "2026-05-16T17:21:16.663422+00:00"
+}

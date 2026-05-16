@@ -1,0 +1,84 @@
+---
+/**
+ * site/src/pages/index.astro — homepage
+ *
+ * If only one subject is active, redirect there immediately.
+ * Otherwise show a cross-subject landing page.
+ */
+import { getActiveSubjects } from '../lib/data.js';
+
+const subjects = getActiveSubjects();
+const firstSlug = subjects[0]?.slug || subjects[0]?.code;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>The Brief — arXiv distilled</title>
+  {subjects.length === 1 && firstSlug && (
+    <meta http-equiv="refresh" content={`0;url=/${firstSlug}/`}/>
+  )}
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"/>
+  <style>
+    :root{--bg:#0b0e1a;--ink:#ede4d0;--ink-soft:#a89e89;--ink-faint:#6b6353;
+      --rule:#2a2e3d;--accent:#e8a548}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--ink);font-family:'Instrument Serif',serif;
+      min-height:100vh;display:flex;align-items:center;justify-content:center;
+      padding:40px 24px;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:600px;width:100%}
+    .brand{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;
+      text-transform:uppercase;color:var(--accent);margin-bottom:32px}
+    h1{font-size:72px;font-weight:400;line-height:.95;letter-spacing:-.02em;margin-bottom:28px}
+    h1 em{font-style:italic;color:var(--accent)}
+    .sub{font-size:18px;line-height:1.55;color:var(--ink-soft);margin-bottom:48px;max-width:44ch}
+    .subjects{display:flex;flex-direction:column;gap:12px}
+    .subject-card{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:18px 20px;border:1px solid var(--rule);border-radius:6px;
+      text-decoration:none;color:var(--ink);
+      transition:border-color .18s,background .18s;
+    }
+    .subject-card:hover{border-color:var(--accent);background:rgba(232,165,72,.05)}
+    .sc-name{font-size:20px;font-weight:400}
+    .sc-meta{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--ink-faint)}
+    .sc-arrow{color:var(--ink-faint);font-size:18px;transition:transform .18s}
+    .subject-card:hover .sc-arrow{transform:translateX(4px);color:var(--accent)}
+    .soon{opacity:.35;pointer-events:none;cursor:default}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">The Brief · arXiv</div>
+  <h1>Research,<br/><em>distilled.</em></h1>
+  <p class="sub">Daily summaries of new arXiv preprints — relatable headlines, plain-English hooks. Verify against the source.</p>
+
+  {subjects.length > 1 ? (
+    <div class="subjects">
+      {subjects.map(s => (
+        <a class="subject-card" href={`/${s.slug || s.code}/`}>
+          <div>
+            <div class="sc-name">{s.name}</div>
+            <div class="sc-meta">{s.domain} · arXiv:{s.code}</div>
+          </div>
+          <span class="sc-arrow">→</span>
+        </a>
+      ))}
+    </div>
+  ) : subjects.length === 1 ? (
+    <p style="color:var(--ink-faint);font-family:'JetBrains Mono',monospace;font-size:12px">
+      Redirecting to {subjects[0].name}…
+    </p>
+  ) : (
+    <p style="color:var(--ink-faint)">
+      No subjects active yet. Set <code>active: true</code> in <code>config/subjects.yaml</code> and run the ingest.
+    </p>
+  )}
+</div>
+</body>
+</html>

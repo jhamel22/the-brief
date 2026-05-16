@@ -1,0 +1,23 @@
+{
+  "id": "2605.14794",
+  "arxiv_url": "https://arxiv.org/abs/2605.14794",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "An Algebraic Resolution of the Firewall Paradox",
+  "authors": "Naman Kumar",
+  "abstract": "The AMPS firewall argument relies on treating early radiation, late outgoing Hawking modes, and interior partner modes as approximately independent quantum subsystems. In diffeomorphism-invariant quantum gravity, however, gravitational dressing and asymptotic constraints obstruct such a tensor-product factorization of physical observables. In this essay, we sharpen this obstruction by formulating subsystem independence directly in operator-algebraic terms. Using modular theory, half-sided modular inclusions along null directions, and the sector-wise maximality of the dressed radiation algebra at future null infinity, we show that -- within a fixed asymptotic charge sector -- the algebra associated with the interior Hawking partner cannot form an independent commuting subalgebra, but must be contained as a (non-commuting) subalgebra of the radiation algebra itself. The subsystem-independence assumption underlying the AMPS paradox therefore fails, and the entanglement-monogamy step never becomes applicable. As a result, unitary black hole evaporation and semiclassical horizon smoothness are compatible in asymptotically flat quantum gravity, without invoking entanglement islands, replica wormholes, or modifications of semiclassical horizon physics.",
+  "title_relatable": "Operator algebra dissolves the black hole firewall paradox",
+  "hook": "A careful treatment of quantum gravity's symmetry constraints shows the firewall paradox rests on an assumption—subsystem independence—that the theory itself forbids.",
+  "summary": "The firewall paradox argues that unitarity and a smooth black hole horizon are mutually exclusive, forcing a 'wall of fire' that destroys infalling observers. This analysis shows the paradox's fatal step—treating early radiation, late Hawking modes, and interior partner modes as independent quantum systems—is blocked by diffeomorphism invariance: gravitational dressing ties these algebras together so that monogamy of entanglement never gets traction. Within a fixed asymptotic charge sector, the interior partner modes belong inside the radiation algebra rather than alongside it. If correct, unitary evaporation and semiclassical horizon smoothness coexist without islands or wormholes.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 945,
+  "tokens_out": 228,
+  "cost_usd": 0.006255,
+  "ingested_at": "2026-05-16T17:20:47.608731+00:00"
+}

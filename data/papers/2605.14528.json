@@ -1,0 +1,23 @@
+{
+  "id": "2605.14528",
+  "arxiv_url": "https://arxiv.org/abs/2605.14528",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Quasinormal modes of massless scalar and electromagnetic perturbations for Euler Heisenberg black holes surrounded by perfect fluid dark matter",
+  "authors": "Chengfu Feng, Sheng-Yuan Li, Xufen Zhang, Ming Zhang, De-Cheng Zou, Rui-Hong Yue",
+  "abstract": "We investigate the quasinormal modes of massless scalar and electromagnetic perturbations in charged Euler--Heisenberg black holes surrounded by perfect fluid dark matter. The quasinormal frequencies are calculated using the asymptotic iteration method and the sixth-order WKB approximation, and the relative deviation between the two methods is quantitatively analyzed to verify the reliability of results. The greybody factors for both perturbations are also evaluated within the sixth-order WKB framework. We systematically examine the effects of the black hole charge $Q$, nonlinear electrodynamic parameter $a$, dark matter parameter $λ$, and angular quantum number $l$ on the quasinormal frequencies and greybody factors. We find that these parameters significantly modify the structure of the effective potential barriers, and thus affect the oscillation frequencies, damping rates, and wave transmission and reflection properties of the perturbed fields.",
+  "title_relatable": "How dark matter and quantum electrodynamics reshape black hole ringing",
+  "hook": "Adding both a dark matter halo and nonlinear electrodynamic corrections to a charged black hole measurably shifts its quasinormal frequencies and the fraction of waves that escape.",
+  "summary": "Quasinormal modes — the characteristic 'ringdown' frequencies of a perturbed black hole — are calculated for a charged black hole modified by two independent effects: Euler–Heisenberg nonlinear electrodynamics and a surrounding perfect-fluid dark matter distribution. Using two independent methods (asymptotic iteration and sixth-order WKB), the study maps out how the black hole charge, the nonlinear parameter, and the dark matter density each reshape the effective potential barrier seen by scalar and electromagnetic waves. The result is that both corrections shift oscillation frequencies and damping rates in distinct, separable ways, and also alter the greybody factors that govern how much radiation escapes to a distant observer.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 927,
+  "tokens_out": 240,
+  "cost_usd": 0.006381,
+  "ingested_at": "2026-05-16T17:22:09.162625+00:00"
+}

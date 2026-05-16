@@ -1,0 +1,22 @@
+{
+  "id": "2605.14729",
+  "arxiv_url": "https://arxiv.org/abs/2605.14729",
+  "announced_date": "2026-05-14",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Regularized vacuum stress tensor of a scalar field as the inflaton or dark energy",
+  "authors": "Xuan Ye",
+  "abstract": "We study the regularized vacuum stress tensor of scalar fields in maximally symmetric spacetime and assess the feasibility of driving primordial inflation or current cosmic acceleration by analyzing the existence of solutions to the Friedmann equation. We find that a conformally coupled scalar field with mass of order $10$ $M_{\\text{pl}}$ can be a candidate for both the inflaton and dark energy, suggesting that these two components may have the same quantum origin. In contrast, a minimally coupled scalar field cannot serve as either the inflaton or dark energy regardless of its mass.",
+  "title_relatable": "One heavy quantum field could explain both inflation and dark energy",
+  "hook": "A conformally coupled scalar field with mass around ten Planck masses can drive both primordial inflation and today's cosmic acceleration, while a minimally coupled field fails at both tasks.",
+  "summary": "Using the regularized vacuum stress tensor — the quantum zero-point energy of a scalar field properly stripped of divergences — this work asks whether vacuum fluctuations alone can power inflation or dark energy. Solving the Friedmann equation in maximally symmetric spacetime, the analysis finds that conformal coupling to curvature is essential: with it, a field of roughly ten Planck masses satisfies both cosmological regimes; without it, no mass works. If confirmed, this hints that inflation and dark energy share a single quantum origin rather than requiring separate physics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 803,
+  "tokens_out": 201,
+  "cost_usd": 0.005424,
+  "ingested_at": "2026-05-16T17:20:52.624524+00:00"
+}
