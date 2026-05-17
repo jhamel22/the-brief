@@ -1,0 +1,23 @@
+{
+  "id": "2605.13714",
+  "arxiv_url": "https://arxiv.org/abs/2605.13714",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "Quantum Field Theory of Black Hole Perturbations with Backreaction VI. Apparent Horizons, Quasi-Local Mass and Effective Classical Metrics",
+  "authors": "Jonas Neuser, Thomas Thiemann",
+  "abstract": "In a recent series of papers we developed a first-principle and gauge invariant approach to black hole perturbation theory valid to any order. We included back reaction effects to tackle the situation of evaporating black holes and obtained an explicit expression for the dynamics of the reduced phase space to second order. The physics of evaporating black holes is in particular encoded by apparent horizons, an observer dependent generalisation of the event horizon. We determine the shape of the apparent horizon to second order in the perturbations. The area of the apparent horizon is an interesting observable which is expected to decrease in the quantum theory due to Hawking evaporation. We show how the full four dimensional metric can be reconstructed in terms of the reduced phase space variables. In the quantum theory, taking expectation values of this metric, we obtain an effective classical metric, whose causal structure can then be visualised in a quantum corrected Penrose diagram. We conclude with an outlook into the quantisation procedure in the reduced phase space formalism and the implications on the area of the apparent horizon.",
+  "title_relatable": "Mapping a shrinking black hole horizon with quantum corrections included",
+  "hook": "A gauge-invariant perturbation framework now tracks how a black hole's apparent horizon evolves under Hawking evaporation, yielding a quantum-corrected spacetime diagram.",
+  "summary": "This sixth installment of a series extends a first-principles black hole perturbation scheme to second order, now focusing on apparent horizons — the observer-dependent boundaries that replace event horizons in evaporating black holes. The authors derive the horizon shape at second order and show how to reconstruct the full four-dimensional metric from reduced phase-space variables. Taking quantum expectation values of that metric produces an effective classical geometry, which can be drawn as a corrected Penrose diagram. The paper closes by outlining how quantisation in this reduced phase space should cause the apparent horizon area to decrease, consistent with Hawking radiation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 928,
+  "tokens_out": 218,
+  "cost_usd": 0.006054,
+  "ingested_at": "2026-05-17T15:31:18.013167+00:00"
+}

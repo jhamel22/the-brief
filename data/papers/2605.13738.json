@@ -1,0 +1,25 @@
+{
+  "id": "2605.13738",
+  "arxiv_url": "https://arxiv.org/abs/2605.13738",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ex"
+  ],
+  "title_original": "Inpainting over the cracks: challenges of applying pre-merger searches for massive black hole binaries to realistic LISA datasets",
+  "authors": "Gareth Cabourn Davies, Ian Harry",
+  "abstract": "A key science target of the Large Interferometer Space Antenna (LISA) is to carry out multi-messenger observations of massive black hole binaries, observing the merger simultaneously in gravitational waves and with electromagnetic observatories. Identifying that a merger is happening and providing an updating estimate of the sky location in the hours, days and weeks before the merger is critical to enable electromagnetic observations of the merger event. In this work we demonstrate and compare two methods for premerger identification of massive black hole binaries; a zero-latency filter approach and, for the first time, an approach using an ``inpainting'' technique. We apply these methods to the LISA Data Challenge dataset 2a--Sangria-HM--and demonstrate the successful recovery of the 14 signals in the dataset that we expected to be identifiable at least half a day before merger. We show that the inpainting method can identify premerger signals even when gaps are present in the data, demonstrating the recovery of a signal even when 3 day-long data gaps are added to the 14 days preceding merger. Finally, we explore the challenge of overlapping signals, using a region of overlapping signals in the Sangria-HM dataset, all of which merge within a 10-day window, and show how removing signals that have been confidently identified from the data allows us to identify quieter signals in the same period.",
+  "title_relatable": "Finding black hole mergers early enough to alert telescopes in time",
+  "hook": "Two signal-processing methods can flag massive black hole mergers days before they happen in LISA data, even when instrument gaps interrupt the observations.",
+  "summary": "Catching a black hole merger in gravitational waves while telescopes are already watching requires advance warning — hours to weeks before the event. Testing against the LISA Data Challenge benchmark dataset, both a zero-latency filter and a new inpainting technique (which fills in missing data segments before searching) successfully flagged all 14 expected pre-merger signals, with inpainting holding up even when three one-day gaps were punched into the final two weeks of data. When multiple mergers crowd the same time window, iteratively subtracting already-identified signals lets quieter ones emerge. The results map out the practical pipeline steps needed for real LISA multi-messenger operations.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 999,
+  "tokens_out": 219,
+  "cost_usd": 0.006282,
+  "ingested_at": "2026-05-17T15:31:06.141533+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.14088",
+  "arxiv_url": "https://arxiv.org/abs/2605.14088",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Single field matter bounce with dark energy era: comparison with CMB Planck 2018 data and best fit parameters",
+  "authors": "Rodrigo F. Pinheiro, Nelson Pinto-Neto",
+  "abstract": "In this work, we perform Markov Chain Monte Carlo (MCMC) analyses using the Planck 2018 cosmic microwave background (CMB) datasets, including temperature, polarization, and lensing, in order to compare matter bounce models with observational data. The particular model we considered contains a scalar field with an exponential potential, which behaves as dust in the asymptotic past of the contracting phase, it realizes a quantum bounce, and then behaves as a transient dark energy field at large scales in the expanding phase. The parameter $λ$ appearing in the exponential potential is directly related to the model's scalar spectral index, $n_s$, which is set free in the MCMC analyses, as well as the deepness of the bounce, which controls the amplitude of the power spectrum. We provide constraints on the cosmological parameters and compare the model's performance against the standard inflationary $Λ$CDM scenario. Our results indicate that Planck data alone cannot favor one model with respect to the other, showing that the model we investigate can be a viable alternative to inflation.",
+  "title_relatable": "A bounce cosmology that fits Planck data as well as inflation",
+  "hook": "A matter bounce model with a single scalar field matches Planck 2018 CMB data — temperature, polarization, and lensing — about as well as standard inflationary ΛCDM.",
+  "summary": "Instead of an inflationary epoch, this model replaces the Big Bang singularity with a quantum bounce: the universe contracts, bounces, then expands, with a scalar field carrying an exponential potential mimicking dust before the bounce and dark energy afterward. MCMC fits to the full Planck 2018 dataset — including lensing — constrain the model's free parameters and yield a spectral index consistent with observations. Statistical comparison shows neither model is preferred by CMB data alone, meaning the bounce scenario remains a competitive alternative to inflation on current observational grounds.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 944,
+  "tokens_out": 215,
+  "cost_usd": 0.006057,
+  "ingested_at": "2026-05-17T15:29:30.698371+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.14160",
+  "arxiv_url": "https://arxiv.org/abs/2605.14160",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Topological solitons of two-field scalar theories in rotationally symmetric backgrounds",
+  "authors": "I. Andrade, M. A. Liao",
+  "abstract": "This work concerns scalar field theories with topologically nontrivial vacuum manifold in rotationally symmetric backgrounds of arbitrary dimension. Lagrangians with canonical and generalized kinetic terms are considered, and a Bogomol'nyi framework is developed for the symmetric restriction of the theory. Localized topological solutions are found. Their stability, which would normally be prevented in higher dimensions due to scaling instability, is made possible by the presence of an explicit radial dependence on the potential. The first-order equations give rise to an integrable orbit equation which can be used to solve the problem completely. It is shown that target space orbits - but not the solutions themselves - are shared between analogous systems defined in different backgrounds. Moreover, the first-order equations can be mapped into a one-dimensional BPS theory through a transformation encoded by a function $ξ(r)$. The internal structure, size and existence of defects follows from the properties and range of this mapping. We use these tools to evaluate the effect of geometry on confinement, existence, and structure of solitons. Exact solutions are provided in Minkowski, Schwarzschild, de Sitter, Schwarzschild de Sitter and conformally flat backgrounds.",
+  "title_relatable": "How curved spacetime shapes the size and survival of topological solitons",
+  "hook": "Topological solitons that would normally collapse in higher dimensions can be stabilized by spacetime curvature, with exact solutions found across five distinct backgrounds including black hole and de Sitter geometries.",
+  "summary": "Scalar field theories with nontrivial vacuum structure typically cannot form stable localized defects in higher dimensions — a collapse driven by simple scaling arguments. By building a Bogomol'nyi (first-order) framework for rotationally symmetric curved backgrounds, the authors show that geometry itself, encoded in a single radial function, can counteract this instability. A key result is that the orbital paths traced in field-space are the same across different spacetimes, even though the actual soliton profiles differ — geometry sculpts the defect's size and existence without altering its target-space topology. Exact solutions are worked out for Minkowski, Schwarzschild, de Sitter, Schwarzschild–de Sitter, and conformally flat backgrounds.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 958,
+  "tokens_out": 259,
+  "cost_usd": 0.006759,
+  "ingested_at": "2026-05-17T15:29:19.292379+00:00"
+}

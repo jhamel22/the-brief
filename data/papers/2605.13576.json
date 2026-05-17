@@ -1,0 +1,24 @@
+{
+  "id": "2605.13576",
+  "arxiv_url": "https://arxiv.org/abs/2605.13576",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "Semiclassical algebraic reconstruction for type III algebras",
+  "authors": "Haocheng Zhong",
+  "abstract": "In this work, we address the unresolved type III cases of the algebraic reconstruction theorem by integrating crossed product algebras and semiclassical approximations. We first derive that the relative entropy in crossed product algebras factorizes into contributions from the original algebra and observer wavefunctions. By constructing ``holographic'' crossed product algebras for ``bulk'' and ``boundary'' type III factors, we extend the algebraic reconstruction theorem to include the algebraic Ryu-Takayanagi (RT) formula semiclassically, which provides a complete algebraic description of the reconstruction theorem, as an intrinsic framework for the algebraic version of bulk-boundary correspondences in holographic duality.",
+  "title_relatable": "A new algebraic route to holographic bulk-boundary reconstruction",
+  "hook": "Crossed product algebras and semiclassical methods together resolve a long-standing gap in the algebraic proof of bulk-boundary reconstruction in holography.",
+  "summary": "Holographic duality requires reconstructing bulk quantum information from boundary data, but the standard algebraic reconstruction theorem left type III operator algebras — the kind that naturally arise in quantum field theory — unresolved. By showing that relative entropy in crossed product algebras splits cleanly into bulk and observer contributions, this work builds matching 'holographic' algebras for bulk and boundary and extends the reconstruction theorem to cover these cases. The result incorporates the Ryu-Takayanagi entropy formula at the semiclassical level, completing an intrinsic algebraic account of bulk-boundary correspondence.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 831,
+  "tokens_out": 205,
+  "cost_usd": 0.005568,
+  "ingested_at": "2026-05-17T15:31:39.206257+00:00"
+}

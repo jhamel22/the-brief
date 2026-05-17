@@ -1,0 +1,22 @@
+{
+  "id": "2605.13732",
+  "arxiv_url": "https://arxiv.org/abs/2605.13732",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Cosmological perturbations in the theory of gravity with non-minimal derivative coupling. I. Modes of perturbations",
+  "authors": "R. I. Kamalitdinov, S. V. Sushkov",
+  "abstract": "We consider perturbations in the isotropic and homogeneous cosmological model with the spatially flat Friedmann-Lemaitre-Robertson-Walker metric in the framework of the theory of gravity with non-minimal derivative coupling. The Lagrangian of the theory contains the coupling term $ηG^{μν}\\nabla_μφ\\nabla_νφ$ and represents the particular example of a general Horndeski Lagrangian, which results in second-order field equations. It is known that the non-minimal derivative coupling crucially changes scenarios of the Universe evolution on early times. In particular, the $η$-term is dominating on early times and leads to a primary quasi-de Sitter (inflationary) stage which needs no fine-tuned potential. On late times the influence of non-minimal derivative coupling on the Universe evolution completely disappears, and this naturally leads to the transition to the standard cosmological evolution (post-inflationary stage). We have derived a complete set of equations which describe an evolution of scalar, vector and tensor modes of perturbations. All modes are analyzed analytically in two asymptotic cases, and then we construct exact numerical solutions which describe an entire evolution of the modes. We show that all modes, including vector ones, are amplified in the quasi-de Sitter (inflationary) stage, and such the behavior is cardinally distinct from that in Friedmann cosmology.",
+  "title_relatable": "Inflation without fine-tuning leaves a distinct fingerprint in perturbations",
+  "hook": "A gravity theory where a single coupling term drives inflation naturally produces amplified vector perturbations — a signature absent in standard Friedmann cosmology.",
+  "summary": "Working within a scalar-tensor theory where the kinetic term of a scalar field couples directly to the Einstein tensor, the authors derive the full perturbation equations for scalar, vector, and tensor modes across cosmic history. The coupling dominates early on, driving a quasi-de Sitter inflationary phase without a finely tuned potential, then fades to recover standard post-inflationary evolution. Analytical and numerical solutions show all three perturbation modes — including vector modes, which decay in ordinary inflation — are amplified during this inflationary stage. That amplification of vector modes is a clean observational discriminant from conventional slow-roll inflation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1020,
+  "tokens_out": 219,
+  "cost_usd": 0.006345,
+  "ingested_at": "2026-05-17T15:31:12.483598+00:00"
+}

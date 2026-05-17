@@ -1,0 +1,23 @@
+{
+  "id": "2605.13636",
+  "arxiv_url": "https://arxiv.org/abs/2605.13636",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Cosmological horizons in regular bouncing backgrounds",
+  "authors": "M. Gasperini",
+  "abstract": "It is often stated that a phase of standard, decelerated cosmological expansion is characterised by the absence of global event horizons, while a phase of accelerated expansion is associated with the absence of particle horizons. This is not necessarily true because such horizons, being non-local properties of the spacetime geometry, depend on the full (past and future) history of the given cosmological background. We provide examples of various different scenarios for the case in which the final asymptotic phase of standard expansion and decreasing curvature is connected, through a regular bounce, with an initial (and possibly infinitely extended in time) regime of growing curvature.",
+  "title_relatable": "Cosmic horizons depend on full history, not just current expansion phase",
+  "hook": "The standard textbook rule linking horizon types to expansion phases breaks down when cosmologies include a regular bounce connecting early growing-curvature epochs to late standard expansion.",
+  "summary": "A common rule of thumb holds that decelerated expansion lacks event horizons while accelerated expansion lacks particle horizons — but these are global, non-local properties of spacetime that depend on the entire cosmic history, past and future. Working through bouncing cosmologies where a final phase of standard decelerated expansion is joined through a regular bounce to an early regime of growing curvature, Gasperini constructs explicit scenarios where the usual horizon assignments fail. The results suggest caution when reading horizon properties off local expansion behavior alone, with implications for pre-big-bang and string cosmology models.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 815,
+  "tokens_out": 207,
+  "cost_usd": 0.00555,
+  "ingested_at": "2026-05-17T15:31:32.450984+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.13960",
+  "arxiv_url": "https://arxiv.org/abs/2605.13960",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.EP",
+    "astro-ph.IM",
+    "gr-qc"
+  ],
+  "title_original": "Gravitational-wave Tomography of the Moon: Constraining Lunar Structure with Calibrated Gravitational Waves",
+  "authors": "Han Yan, Jan Harms",
+  "abstract": "The recent success of gravitational-wave (GW) astronomy together with renewed plans for lunar geophysical instrumentation has revived interest in using the Moon as a resonant detector for mid-frequency (mHz-Hz) GWs. In realistic observational scenarios, the GW strain amplitude is expected to be constrained independently by networks of GW detectors, which motivates an inverse, \\emph{tomographic} question: to what extent can measurements of the Moon's seismic response to known GWs be used to infer its internal structure? In this work, we develop a first-principles, perturbative framework that maps spherically symmetric perturbations of the elastic and density structure to measurable changes in observables, especially GW-driven modal amplitudes of the Moon. The formalism combines (i) a normal-mode representation of the elastic response, (ii) first-order perturbation theory for eigenvalues and eigenfunctions, and (iii) a linearized observation model that links frequency and amplitude observables to model parameters (bulk and shear moduli, density, and interface locations) and their perturbations. We show that the estimation errors of the Moon's elastic parameters can be reduced by about an order of magnitude with observations of calibrated GWs.",
+  "title_relatable": "Gravitational waves could map the Moon's interior like seismic tomography",
+  "hook": "Using gravitational waves of known amplitude as a calibrated seismic source could shrink uncertainties in the Moon's internal structure by roughly tenfold.",
+  "summary": "When a gravitational wave passes through the Moon, it rings the body like a bell — and if the wave's amplitude is already measured by Earth-based detectors, the Moon's seismic response becomes a precision probe of its interior. This paper builds a perturbative framework connecting small changes in the Moon's elastic moduli, density, and layer boundaries to shifts in the frequencies and amplitudes of excited normal modes. Applying the formalism shows that calibrated gravitational-wave sources could reduce errors in lunar elastic parameters by about an order of magnitude compared to conventional seismology alone, providing fresh motivation for placing seismometers on the Moon.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 971,
+  "tokens_out": 218,
+  "cost_usd": 0.006183,
+  "ingested_at": "2026-05-17T15:30:24.241784+00:00"
+}

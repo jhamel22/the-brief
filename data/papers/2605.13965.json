@@ -1,0 +1,23 @@
+{
+  "id": "2605.13965",
+  "arxiv_url": "https://arxiv.org/abs/2605.13965",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Multipolar Proca stars: electric, magnetic and hybrid solitons",
+  "authors": "Carlos Herdeiro, Eugen Radu, Etevaldo dos Santos Costa Filho, Nicolas Sanchis-Gual",
+  "abstract": "We construct new families of everywhere regular, asymptotically flat solitons in the Einstein--Proca model, obtained as self-gravitating continuations of flat-spacetime (singular) Proca multipoles. First we consider static and axially symmetric solutions, organized by a multipole number $\\ell$. Two distinct classes arise: electric-type configurations, which include the spherical Proca stars as the $\\ell=0$ case, and magnetic-type configurations, which have no spherical counterpart and start at $\\ell=1$. Then we construct hybrid solutions as nonlinear superpositions of electric and magnetic multipoles. These have non-vanishing local angular momentum density but vanishing total angular momentum, and in some cases have no north-south $\\mathbb{Z}_2$-symmetry. By performing dynamical evolutions of Proca stars in the new magnetic and hybrid sectors, we show they are unstable, decaying to the (static) prolate Proca stars or the (stationary) spinning Proca stars, previously identified as dynamically robust, electric sector configurations. In some cases, they can also collapse into a black hole.",
+  "title_relatable": "Exotic 'Proca star' shapes are unstable, collapse or simplify",
+  "hook": "Magnetic and hybrid multipolar Proca stars—self-gravitating vector-field lumps with rich internal structure—are dynamically unstable, shedding complexity to settle into simpler known states or collapsing to black holes.",
+  "summary": "By solving the Einstein–Proca equations, the authors construct an extended zoo of self-gravitating solitons built from vector (Proca) fields arranged in electric-type, magnetic-type, and hybrid multipolar configurations. Magnetic solutions have no spherical counterpart and carry local angular momentum that cancels globally; some lack north-south symmetry. Numerical evolutions reveal that all new magnetic and hybrid solutions are unstable: they either decay into previously known stable Proca stars (prolate or spinning) or collapse to black holes. The result sharpens understanding of which exotic compact objects can survive as long-lived astrophysical candidates.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 966,
+  "tokens_out": 242,
+  "cost_usd": 0.006528,
+  "ingested_at": "2026-05-17T15:30:11.556859+00:00"
+}

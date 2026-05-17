@@ -2,7 +2,7 @@ import re
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import date
+from datetime import date, datetime, timedelta
 from typing import Optional
 
 import feedparser
@@ -12,7 +12,16 @@ API_URL  = "http://export.arxiv.org/api/query?search_query=cat:{subject}&sortBy=
 ATOM_NS  = {'a': 'http://www.w3.org/2005/Atom'}
 
 
-def fetch_new_papers(subject_code: str) -> list[dict]:
+def fetch_new_papers(subject_code: str, target_date: Optional[str] = None) -> list[dict]:
+    """
+    Fetch papers for a subject. If target_date is provided (YYYY-MM-DD),
+    fetch papers submitted on that specific date using the API.
+    Otherwise use RSS with API fallback.
+    """
+    if target_date:
+        print(f"  Fetching papers for {target_date} via API...")
+        return _fetch_api(subject_code, target_date)
+
     papers = _fetch_rss(subject_code)
     if not papers:
         print(f"  RSS empty, falling back to arXiv API...")
@@ -31,10 +40,23 @@ def _fetch_rss(subject_code: str) -> list[dict]:
         return []
 
 
-def _fetch_api(subject_code: str) -> list[dict]:
+def _fetch_api(subject_code: str, target_date: Optional[str] = None) -> list[dict]:
     try:
-        url = API_URL.format(subject=subject_code)
-        with urllib.request.urlopen(url) as r:
+        if target_date:
+            # Convert YYYY-MM-DD to YYYYMMDD format for arXiv API
+            dt = datetime.strptime(target_date, '%Y-%m-%d')
+            start_date = dt.strftime('%Y%m%d')
+            end_date = (dt + timedelta(days=1)).strftime('%Y%m%d')
+            date_filter = f"+AND+submittedDate:[{start_date}+TO+{end_date}]"
+            url = f"http://export.arxiv.org/api/query?search_query=cat:{subject_code}{date_filter}&sortBy=submittedDate&sortOrder=descending&max_results=100"
+        else:
+            url = API_URL.format(subject=subject_code)
+
+        # Add User-Agent header and respect arXiv API rate limits
+        req = urllib.request.Request(url, headers={'User-Agent': 'TheBrief/1.0 (mailto:contact@example.com)'})
+        time.sleep(3)  # arXiv requires 3 seconds between requests
+
+        with urllib.request.urlopen(req) as r:
             tree = ET.parse(r)
         papers = []
         for e in tree.findall('a:entry', ATOM_NS):

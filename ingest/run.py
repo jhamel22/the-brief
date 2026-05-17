@@ -91,7 +91,7 @@ def update_subject_index(subject_code: str, papers: list[dict]) -> None:
 
 # ── Core pipeline ─────────────────────────────────────────────────────────
 
-def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool) -> tuple[int, float]:
+def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool, target_date: str = None) -> tuple[int, float]:
     """
     Run the full ingest pipeline for one subject.
     Returns (papers_ingested, cost_usd).
@@ -102,8 +102,9 @@ def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool) ->
     use_filter    = subject.get("use_filter", False)
 
     # 1. Fetch
-    all_papers = fetch_new_papers(code)
-    print(f"  Fetched {len(all_papers)} from RSS")
+    all_papers = fetch_new_papers(code, target_date)
+    source_msg = f"for date {target_date}" if target_date else "from RSS"
+    print(f"  Fetched {len(all_papers)} {source_msg}")
 
     # 2. Skip already-ingested
     new_papers = [p for p in all_papers if not is_ingested(p["id"])]
@@ -153,6 +154,7 @@ def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool) ->
 def main() -> int:
     parser = argparse.ArgumentParser(description="Ingest arXiv papers for The Brief")
     parser.add_argument("--subject", help="Ingest only this subject code (e.g. gr-qc)")
+    parser.add_argument("--date", help="Fetch papers from a specific date (YYYY-MM-DD)")
     parser.add_argument("--dry-run", action="store_true", help="Fetch but skip Claude API calls")
     args = parser.parse_args()
 
@@ -191,13 +193,15 @@ def main() -> int:
     print(f"\n{'─' * 48}")
     print(f"  The Brief — arXiv ingest")
     print(f"  Subjects: {', '.join(s['code'] for s in subjects)}")
+    if args.date:
+        print(f"  Date: {args.date}")
     if args.dry_run:
         print("  Mode: DRY RUN (no API calls)")
     print(f"{'─' * 48}")
 
     for subject in subjects:
         print(f"\n── {subject['code']} ─────────────────────────")
-        papers, cost = ingest_subject(subject, client, dry_run=args.dry_run)
+        papers, cost = ingest_subject(subject, client, dry_run=args.dry_run, target_date=args.date)
         total_papers += papers
         total_cost   += cost
 

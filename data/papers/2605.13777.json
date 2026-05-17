@@ -1,0 +1,23 @@
+{
+  "id": "2605.13777",
+  "arxiv_url": "https://arxiv.org/abs/2605.13777",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Before the Bang: Wormholes at the Dawn of the Universe",
+  "authors": "Panos Betzios, Paul Ghiringhelli, Ioannis D. Gialamas, Olga Papadoulaki",
+  "abstract": "This essay discusses recent progress on Euclidean wormholes as candidate contributions to the Universe's initial quantum state. The comparison with the Hartle-Hawking no-boundary proposal highlights both a conceptual affinity and genuine advance: wormholes retain the relevance of Euclidean-saddles as encoders of properties of cosmological wavefunctions, while they broaden the class of regular saddles that are physically relevant for inflating universes and are capable of resolving issues that plague the no-boundary proposal. The principal achievement of the wormhole program is to enlarge the semiclassical initial-condition land-scape in a way that is physically rich, conforms with Holographic expectations and as such becomes increasingly relevant for early-universe model building, within UV complete theories of quantum gravity.",
+  "title_relatable": "Wormholes as an alternative origin story for the universe",
+  "hook": "Euclidean wormholes may offer a more consistent semiclassical picture of the universe's initial quantum state than the long-standing Hartle-Hawking proposal.",
+  "summary": "The Hartle-Hawking no-boundary proposal has long been the leading framework for the universe's initial conditions, but it suffers from known instabilities and ambiguities. This essay argues that Euclidean wormholes — saddle-point geometries in the path integral over spacetime — expand the viable set of initial states while sidestepping those problems. The wormhole approach aligns with holographic expectations from quantum gravity and broadens the landscape of physically consistent early-universe models. The piece is a review-style essay rather than a primary research report.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 886,
+  "tokens_out": 210,
+  "cost_usd": 0.005808,
+  "ingested_at": "2026-05-17T15:30:59.755839+00:00"
+}

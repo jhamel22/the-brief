@@ -1,0 +1,23 @@
+{
+  "id": "2605.13557",
+  "arxiv_url": "https://arxiv.org/abs/2605.13557",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "When Weak Fields Arent Weak: Post-Newtonian effective theory and the Dark Matter Puzzle",
+  "authors": "Marco Galoppo, Giorgio Torrieri",
+  "abstract": "Post-Newtonian theory is considered a reliable effective expansion of General Relativity in the weak-field and slow-motion limit. We argue that such a belief is misplaced. In generic many-body relativistic dynamics, the absence of globally conserved charges in the region of interest and non-integrability can drive strong sensitivity to angular-momentum exchange across inhomogeneous curvature, invalidating naive power counting in an effective theory expansion. Building on general lessons from effective field theory, we derive an explicit breakdown criterion that delineates when post-Newtonian truncations become unreliable despite small local potentials and velocities. This supplies a controlled systematic for weak-field mass inference, relevant to the dark matter puzzle in astrophysics and cosmology.",
+  "title_relatable": "Post-Newtonian gravity may quietly fail in many-body systems",
+  "hook": "The standard weak-field approximation to general relativity can break down even when fields and velocities are small, potentially undermining mass estimates used to infer dark matter.",
+  "summary": "Post-Newtonian theory is routinely trusted whenever gravitational fields are weak and motions are slow — two conditions satisfied across most astrophysical systems. This paper argues that in generic many-body settings, the lack of globally conserved charges and non-integrable dynamics can amplify angular-momentum exchanges across curved, inhomogeneous backgrounds, causing the perturbative expansion to fail even when the local expansion parameters look small. The authors derive an explicit criterion for when this breakdown occurs, offering a systematic check on whether a given system can be trusted to yield reliable mass inferences — directly relevant to the dark matter problem, where such inferences are foundational.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 860,
+  "tokens_out": 224,
+  "cost_usd": 0.00594,
+  "ingested_at": "2026-05-17T15:31:51.315638+00:00"
+}

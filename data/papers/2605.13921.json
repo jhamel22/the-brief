@@ -1,0 +1,22 @@
+{
+  "id": "2605.13921",
+  "arxiv_url": "https://arxiv.org/abs/2605.13921",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "A No-Go Theorem for Quantum Cosmologies with Non-natural Hamiltonians",
+  "authors": "Christine C. Dantas",
+  "abstract": "The Eisenhart-Duval lift (ED) geometrizes classical dynamics by embedding their trajectories into null geodesics of a higher-dimensional Lorentzian spacetime. However, such a construction requires a natural Hamiltonian, that is, quadratic in the canonical momenta. As a consequence, mini-superspace cosmological models governed by non-natural Hamiltonians cannot admit an ED lift. Effective models in Loop Quantum Cosmology provide a concrete example: polymer-modified Hamiltonians become non-polynomial in the momenta and therefore fall outside the metric framework of the ED lift. We thus establish a kinematical no-go theorem: non-quadratic cosmological dynamics cannot be geometrized via ED constructions. Quantum-corrected bounce models therefore illustrate a structural limitation of metric geometrization within the ED framework.",
+  "title_relatable": "A hard limit on geometrizing quantum cosmology models",
+  "hook": "Loop Quantum Cosmology's bounce models cannot be embedded into the elegant Eisenhart-Duval geometric framework, revealing a structural ceiling for that approach rather than a fixable technical gap.",
+  "summary": "The Eisenhart-Duval lift recasts classical dynamics as geodesic motion in a higher-dimensional spacetime — but only when the Hamiltonian is quadratic in momenta. Polymer-modified Hamiltonians from Loop Quantum Cosmology violate that condition, becoming non-polynomial and thus ineligible for this geometric treatment. The result is a kinematical no-go theorem: any cosmological model with quantum corrections of this type sits outside the reach of Eisenhart-Duval geometrization entirely. The finding draws a clear boundary around a widely used technique, signaling that quantum-corrected bounce scenarios require different geometric tools.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 873,
+  "tokens_out": 230,
+  "cost_usd": 0.006069,
+  "ingested_at": "2026-05-17T15:31:45.133647+00:00"
+}

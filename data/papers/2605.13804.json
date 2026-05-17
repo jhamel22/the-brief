@@ -1,0 +1,24 @@
+{
+  "id": "2605.13804",
+  "arxiv_url": "https://arxiv.org/abs/2605.13804",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "An algebra of proper observables at null infinity: Dirac brackets, Memory and Goldstone probes",
+  "authors": "Rodrigo Andrade e Silva, Simone Speziale",
+  "abstract": "We develop a rigorous evaluation of Dirac brackets for classical observables on the phase space of radiative gravitational modes at null infinity that naturally incorporates memory effects. Considering the Ashtekar-Streubel phase space, with boundary conditions in time given by vanishing {\\it news} and purely electric {\\it shear}, and taking into account the infinite dimensionality of the phase space, we identify the algebra of proper observables (understood as functions on phase space that can be associated with smooth symplectic flows). We show that the action of supertranslation charges generate the correct transformations on the shear. We also show that the conventional definition of the ``Goldstone mode'' adopted in the literature cannot be associated with a proper observable, but nevertheless there exists an infinite family of proper observables, which we call {\\it Goldstone probes}, that are capable of measuring the Goldstone mode. We notice that there are no Goldstone probes constructed only out of the shear {\\it or} the news, providing a possible explanation for why attempts to construct a (separable) Hilbert space with different memory states have failed so far. Finally, we derive formulas for distributional Dirac brackets between local shear and news, and show that they contain non-local corrections.",
+  "title_relatable": "Why memory states in quantum gravity resist a clean Hilbert space",
+  "hook": "A careful treatment of gravitational phase space at null infinity shows that the natural 'Goldstone mode' isn't a proper observable, hinting at why quantum memory states have proven so hard to separate.",
+  "summary": "Working on the Ashtekar-Streubel phase space of radiative gravitational modes, the authors rigorously compute Dirac brackets and identify which functions on phase space qualify as proper observables — those with well-defined symplectic flows. The so-called Goldstone mode, widely used in the literature on gravitational memory, fails this test, though an infinite family of substitute 'Goldstone probes' can still measure it indirectly. Crucially, none of these probes can be built from the shear or news alone, offering a concrete explanation for persistent failures to construct a separable Hilbert space distinguishing different memory vacua. The distributional Dirac brackets between local shear and news also turn out to carry non-local corrections.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 980,
+  "tokens_out": 256,
+  "cost_usd": 0.00678,
+  "ingested_at": "2026-05-17T15:30:48.828343+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.14078",
+  "arxiv_url": "https://arxiv.org/abs/2605.14078",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Properties of natural polynomials for Schwarzschild and Kerr black holes",
+  "authors": "Michelle Foucoin, Lionel London",
+  "abstract": "The quasi-normal modes of black holes play various important roles in gravitational wave theory, signal modeling, and data analysis; however, there remain open questions about their mathematical properties. Aspects of classical polynomial theory have been proposed as a framework to investigate quasinormal mode orthogonality and completeness. We have recently presented a class of polynomials that are \"natural\" to quasi-normal modes in that they are restricted by the quasi-normal mode boundary conditions, and exactly tridiagonalize Teukolsky's radial equation. In turn, these polynomials may be useful for better understanding the vector space properties of quasi-normal mode solutions to that equation. Here, we provide an overview of these polynomials' analytic properties: their 3-term recurrence relation, ladder operators and governing differential equation. We demonstrate that the natural polynomials for Schwarzschild and Kerr black holes are Pollaczek-Jacobi polynomials with complex valued parameters. Along the way, we observe a novel property that is particular to Schwarzschild: the polynomials' 3-term recurrence relation always peaks at the physical overtone index. This work supports the broader application of these polynomials, as well as their extension to black hole spacetimes beyond Schwarzschild and Kerr.",
+  "title_relatable": "The hidden polynomial structure inside black hole ringing",
+  "hook": "Quasinormal mode equations for Schwarzschild and Kerr black holes are exactly solved by Pollaczek-Jacobi polynomials with complex parameters, giving gravitational wave modelers a sharper mathematical toolkit.",
+  "summary": "Quasinormal modes govern how black holes \"ring\" after a merger, but their mathematical completeness and orthogonality remain poorly understood. By imposing quasinormal mode boundary conditions directly, the authors identify a class of polynomials that exactly tridiagonalize Teukolsky's radial equation for both Schwarzschild and Kerr geometries — and show these are Pollaczek-Jacobi polynomials with complex-valued parameters. A curious bonus: for Schwarzschild black holes, the three-term recurrence relation of these polynomials always peaks at the physical overtone index, linking an abstract algebraic property to observable mode labels.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 969,
+  "tokens_out": 239,
+  "cost_usd": 0.006492,
+  "ingested_at": "2026-05-17T15:29:36.020798+00:00"
+}

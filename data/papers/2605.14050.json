@@ -1,0 +1,23 @@
+{
+  "id": "2605.14050",
+  "arxiv_url": "https://arxiv.org/abs/2605.14050",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Reflecting Gravitons: The Graviton Laser and the Gertsenshtein effect",
+  "authors": "Thomas Forget, M. B. Paranjape, Urjit Yajnik",
+  "abstract": "Graviton lasers have been considered in the past, \\cite{gl}, but practical terrestrial implementations appear infeasible. The absence of any known mechanism to reflect gravitons means that it remains unclear how a graviton beam could be directed repeatedly through a putative lasing medium. Astrophysical graviton lasing is still a possibilty as circular graviton orbits around blackholes afford the possibility of an arbitrarily long path length through the lasing medium of ultra-light dark matter \\cite{bhgl,nhaxs}. In this essay, we consider the possibility of a graviton laser that could be constructed in a laboratory setting. The graviton lasing medium could be one of many possible gravitating systems, of which we give three possible examples. We calculate the possibility of reflecting the gravitons by using the conversion of gravitons into photons in an external magnetic field, the Gertsenshtein effect, \\cite{Gertsenshtein1962}. We may convert the gravitons to photons, then reflect the photons, then reconvert the photons into gravitons via the same effect, and then pass them through the graviton lasing medium. With an identical apparatus on the other side, we can essentially extend the path length of the gravitons through the lasing medium as arbitrarily long as desired.",
+  "title_relatable": "A mirror for gravitons, built from magnetic fields and light",
+  "hook": "By converting gravitons to photons and back using magnetic fields, a lab-scale graviton laser cavity becomes theoretically constructible — if the conversion efficiency is high enough.",
+  "summary": "Graviton lasers have no obvious mirror: gravitons pass through ordinary matter without reflection. This paper proposes exploiting the Gertsenshtein effect — the conversion of gravitons into photons in an external magnetic field — to sidestep the problem. Gravitons would be converted to photons, reflected by conventional mirrors, then reconverted to gravitons before passing through a lasing medium, with the cycle repeating to build up an arbitrarily long effective path length. Three candidate lasing media are sketched, though the practical challenge of achieving sufficient conversion efficiency is left open.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 986,
+  "tokens_out": 206,
+  "cost_usd": 0.006048,
+  "ingested_at": "2026-05-17T15:29:42.050227+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.14132",
+  "arxiv_url": "https://arxiv.org/abs/2605.14132",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "On cosmological properties of black-hole hair in linearly coupled scalar-Gauss-Bonnet theory",
+  "authors": "Dražen Glavan, Darío Jaramillo-Garrido",
+  "abstract": "We investigate the superhorizon behavior of scalar hair sourced by black holes in de Sitter spacetime in the linearly coupled shift-symmetric scalar-Gauss-Bonnet theory. Working in the test-field regime, we show that this hair exhibits both temporal and spatial growth on superhorizon scales. This growth is not a special consequence of the black hole, but instead follows from the dynamics of a minimally coupled massless scalar field in expanding de Sitter spacetime. Moreover, it is not even specific to black holes, but also arises for a point scalar charge in de Sitter, indicating that a scalarized black hole acts effectively as a localized subhorizon source of scalar perturbations. Backreaction, when important, first arises on subhorizon scales and does not by itself eliminate the superhorizon profile. The time-dependent scalar hair also carries a steady outward energy flux, which frames the test-field regime as a transient, and helps explain the difficulties encountered in attempts to construct self-consistent static solutions.",
+  "title_relatable": "Black hole scalar hair grows unbounded in an expanding universe",
+  "hook": "Scalar hair around black holes in de Sitter space grows without limit on large scales — not because of the black hole, but because of how massless fields behave in an expanding universe.",
+  "summary": "In a theory where a scalar field couples to spacetime curvature via the Gauss-Bonnet term, black holes acquire a 'hair' — a surrounding scalar field profile. Tracking this hair in de Sitter spacetime reveals it grows both in time and across superhorizon distances, mirroring the behavior of any minimally coupled massless scalar in an expanding universe. Even a simple point charge reproduces the same growth, so the black hole acts merely as a localized source, not the cause of the instability. The hair also carries a steady outward energy flux, explaining why static self-consistent solutions in this theory have proven so difficult to construct.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 930,
+  "tokens_out": 228,
+  "cost_usd": 0.00621,
+  "ingested_at": "2026-05-17T15:29:25.164378+00:00"
+}

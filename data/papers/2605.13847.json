@@ -1,0 +1,23 @@
+{
+  "id": "2605.13847",
+  "arxiv_url": "https://arxiv.org/abs/2605.13847",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Analytical Fluxes from Generic Schwarzschild Geodesics",
+  "authors": "Majed Khalaf, Chris Kavanagh, Ofri Telem",
+  "abstract": "We present an analytic method for computing gravitational-wave fluxes from bound Schwarzschild geodesics with arbitrary eccentricity. Our approach systematically expands the Fourier coefficients of the emitted radiation in a Chebyshev basis, allowing them to be reduced to sums of Keplerian-like Fourier coefficients previously derived in the Quantum Spectral Method. Because the construction does not rely on a small-eccentricity expansion, it applies to a broad range of bound eccentric orbits. As an illustration, we implement the method using a $15$PN-expanded input and find that it reproduces the total flux for the case $(p,e)=(12.5,0.5)$ to relative accuracy $10^{-5}$, while for the stronger-field case $(p,e)=(10,0.8)$ it yields weighted mode-by-mode errors below $10^{-6}$ for the selected dominant modes analyzed. These results provide an analytic route to frequency-domain flux calculations relevant to EMRI modeling.",
+  "title_relatable": "Gravitational-wave fluxes from eccentric orbits, solved analytically",
+  "hook": "A new analytic method computes gravitational-wave energy fluxes from eccentric Schwarzschild orbits without relying on small-eccentricity approximations, reaching part-per-million accuracy.",
+  "summary": "Modeling extreme-mass-ratio inspirals (EMRIs) for LISA requires precise gravitational-wave flux calculations across a wide range of orbital shapes, but most analytic approaches break down at high eccentricity. By expanding Fourier coefficients of the emitted radiation in a Chebyshev basis and connecting them to results from the Quantum Spectral Method, this work sidesteps that limitation entirely. Tested against a 15th-order post-Newtonian input, the method achieves relative errors below 10⁻⁵ for moderately eccentric orbits and below 10⁻⁶ mode-by-mode for strongly eccentric strong-field cases. The result is a fully analytic frequency-domain pipeline directly applicable to EMRI waveform modeling.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 936,
+  "tokens_out": 275,
+  "cost_usd": 0.006933,
+  "ingested_at": "2026-05-17T15:30:42.172560+00:00"
+}

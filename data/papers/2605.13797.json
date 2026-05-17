@@ -1,0 +1,25 @@
+{
+  "id": "2605.13797",
+  "arxiv_url": "https://arxiv.org/abs/2605.13797",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Thin Accretion Disks around Rotating Charged Black Holes in an Effective Higher-Curvature Spacetime",
+  "authors": "Mohammad Hassani, Kourosh Nozari, Sara Saghafi",
+  "abstract": "We investigate the structure and emission properties of a thin accretion disk around a rotating charged black hole described by an effective higher-curvature-inspired spacetime, constructed as a phenomenological deformation of the Kerr Newman geometry. In this framework, the deformation is introduced through a modification of the metric function $Δ$ by an effective Gauss-Bonnet-like parameter $α$, such that the spacetime reduces to the standard Kerr Newman solution in the limit $α\\to 0$. Adopting a kinematical approach, we use test-particle motion to derive the specific energy, specific angular momentum, and angular velocity of circular orbits, and analyze the effects of the parameters $α$ and charge $Q$ on the innermost stable circular orbit (ISCO), radiative efficiency, radiation flux, temperature, and differential luminosity of the disk. We find that increasing $α$ shifts the ISCO inward and enhances the disk's radiation flux and temperature, while the presence of charge suppresses these quantities due to electrostatic effects. Our results demonstrate that effective higher curvature deformations of rotating black hole spacetimes can lead to observable deviations from the Kerr case, highlighting accretion disks as sensitive probes of strong-gravity effects without relying on a specific underlying gravitational theory.",
+  "title_relatable": "How extra charge and curvature reshape a black hole's glowing disk",
+  "hook": "Adding a Gauss-Bonnet-like curvature parameter to a spinning charged black hole pulls its innermost stable orbit inward and brightens its accretion disk, offering a theory-agnostic observational test of strong gravity.",
+  "summary": "Starting from a phenomenological deformation of the Kerr-Newman geometry, the authors compute how a higher-curvature parameter α and electric charge Q alter the key observables of a thin accretion disk. Increasing α moves the innermost stable circular orbit closer to the black hole and raises both radiation flux and disk temperature, while charge has the opposite effect, suppressing emission through electrostatic repulsion. The results suggest that disk spectra could discriminate between standard Kerr-Newman black holes and their higher-curvature cousins without requiring a specific modified-gravity theory.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1000,
+  "tokens_out": 226,
+  "cost_usd": 0.00639,
+  "ingested_at": "2026-05-17T15:30:54.330044+00:00"
+}

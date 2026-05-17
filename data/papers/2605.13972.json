@@ -1,0 +1,23 @@
+{
+  "id": "2605.13972",
+  "arxiv_url": "https://arxiv.org/abs/2605.13972",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Multi-Matrix Quantum Mechanics, Collective Fields and Emergent Space",
+  "authors": "Yue Lei, Suddhasattwa Brahma, Robert Brandenberger",
+  "abstract": "We study quantum mechanics of bosonic multi-matrix Lagragians in the collective field framework, with particular emphasis on three matrix models. We derive the effective Hamiltonian of the collective field and study the vacuum solution and its stability.",
+  "title_relatable": "How three interacting matrices might generate space from scratch",
+  "hook": "A collective-field analysis of three-matrix quantum mechanics derives the effective Hamiltonian and vacuum structure, probing how spatial dimensions could emerge from matrix degrees of freedom.",
+  "summary": "Starting from bosonic multi-matrix quantum mechanics, the collective field approach trades individual matrix entries for gauge-invariant density variables, compressing the dynamics into an effective Hamiltonian. For the three-matrix case, the vacuum solution is found explicitly and its stability is checked. The framework is motivated by proposals in which classical spacetime is not fundamental but emerges from the large-N limit of matrix models, making the vacuum and its fluctuations the seed of emergent geometry.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 747,
+  "tokens_out": 180,
+  "cost_usd": 0.004941,
+  "ingested_at": "2026-05-17T15:29:53.543604+00:00"
+}

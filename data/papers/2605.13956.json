@@ -1,0 +1,24 @@
+{
+  "id": "2605.13956",
+  "arxiv_url": "https://arxiv.org/abs/2605.13956",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "q-Askey Deformations of Double-Scaled SYK",
+  "authors": "Sergio E. Aguilar-Gutierrez, Trivko Kukolj, Josef Seitz",
+  "abstract": "We construct families of deformations of the double-scaled SYK (DSSYK) model and investigate their bulk interpretation. We introduce microscopic deformations of the SYK model which, after ensemble averaging and in the double-scaling limit, are described by a transfer matrix encoding the recurrence relations of basic orthogonal polynomials in the q-Askey scheme. For certain families of deformations in the semiclassical limit at finite temperature, the chord number (encoding Krylov complexity) corresponds to the length of an Einstein-Rosen bridge connecting an End-Of-The-World brane to an anti-de Sitter asymptotic boundary. By increasing one of the deformation parameters, the models eventually exhibit discrete energy levels, signaling a new geometric transition in sine dilaton gravity. Via the SYK-Schur duality, Krylov complexity also admits a representation-theoretic interpretation as the spread of the SU(2) spin in the index of an $\\mathcal{N}=2$ SU(2) gauge theory. We study the operator algebras of the deformed theories. The algebras can be type II$_1$ or type I$_\\infty$ factors, depending on the operators that are included. The entanglement entropy between the type II$_1$ algebras for a pure state manifests as an extremal surface through the Ryu-Takayanagi formula. We discuss connections between our results and the emergence of baby universes in the bulk.",
+  "title_relatable": "New families of toy universes stretch the SYK quantum gravity laboratory",
+  "hook": "Deforming a solvable quantum gravity model with a hierarchy of classical polynomials reveals geometric phase transitions and ties Krylov complexity to spin representations in gauge theory.",
+  "summary": "Starting from the double-scaled SYK model — a tractable quantum system dual to a two-dimensional dilaton gravity — the authors build a tower of deformations governed by the q-Askey scheme of orthogonal polynomials. In the semiclassical limit, the chord number tracking operator complexity maps onto the length of a wormhole bridging an end-of-the-world brane to an AdS boundary. Cranking up one deformation parameter discretizes the energy spectrum and triggers a geometric phase transition in sine-dilaton gravity. The operator algebras of the deformed theories interpolate between type II₁ and type I∞ factors, and entanglement entropy between the type II₁ algebras reproduces the Ryu-Takayanagi formula through an extremal surface.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1039,
+  "tokens_out": 264,
+  "cost_usd": 0.007077,
+  "ingested_at": "2026-05-17T15:30:30.189989+00:00"
+}

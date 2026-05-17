@@ -1,0 +1,23 @@
+{
+  "id": "2605.13954",
+  "arxiv_url": "https://arxiv.org/abs/2605.13954",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Demagnetizing KBR and New Ricci-flat Rotating Metric",
+  "authors": "Liang Ma, H. Lu",
+  "abstract": "We construct a new Ricci-flat metric by demagnetizing the recently reported Kerr-Bertotti-Robinson (KBR) solution. The metric is a deformation of the Kerr metric characterized by a parameter $B$, so that the asymptotic Kerr becomes a regular dome of spindle shape with north and south poles. Despite lacking an asymptotically-flat region, we find that the first law of black hole thermodynamics can be established. Some thermodynamic relations are identical to those of the Kerr black hole, as if the constant $B$ is absent. Our Ricci-flat rotating metric serves a neutral seed for a variety of inequivalent schemes of magnetizing the Schwarzschild and Kerr black holes.",
+  "title_relatable": "A new rotating spacetime built by stripping magnetism from a known solution",
+  "hook": "Removing the magnetic field from a Kerr-Bertotti-Robinson solution yields a previously unknown Ricci-flat rotating metric whose thermodynamics partly mirrors the ordinary Kerr black hole.",
+  "summary": "Starting from the recently found Kerr-Bertotti-Robinson solution, the authors switch off the magnetic field via a limiting procedure to obtain a new vacuum rotating metric — a deformation of Kerr in which the usual asymptotically flat region is replaced by a regular spindle-shaped dome. Despite this non-standard asymptotics, a first law of black hole thermodynamics holds, and several thermodynamic relations are numerically identical to their Kerr counterparts, as though the deformation parameter were invisible. The new metric also acts as a neutral seed for generating distinct magnetized versions of Schwarzschild and Kerr black holes.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 855,
+  "tokens_out": 231,
+  "cost_usd": 0.00603,
+  "ingested_at": "2026-05-17T15:30:35.925484+00:00"
+}

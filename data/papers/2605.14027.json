@@ -1,0 +1,22 @@
+{
+  "id": "2605.14027",
+  "arxiv_url": "https://arxiv.org/abs/2605.14027",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "A No-Go Theorem for Topological Bridges with Matter-Vacuum Coupling",
+  "authors": "Rodrigo Maier",
+  "abstract": "Traversable topological bridges traditionally require exotic matter, violating the Null Energy Condition (NEC). This essay investigates whether matter-vacuum coupling can circumvent this necessity. Focusing on zero-tidal-force solutions, we establish a rigorous no-go theorem for static configurations, proving that such coupling cannot bypass the requirement for NEC violation. We demonstrate that the geometric flare-out condition is incompatible with NEC-compliant sources, regardless of the coupling $Q$ or equation of state. Crucially, the vacuum fails to shield the throat; instead, interaction gradients mathematically obstruct the required geometry. This result suggests that causality protection is inherent in the field equations, rendering the vacuum's evolution a regulator rather than a facilitator of topological shortcuts, thereby reinforcing the robustness of classical energy conditions.",
+  "title_relatable": "Quantum vacuum coupling still can't replace exotic matter in wormholes",
+  "hook": "A new no-go theorem proves that coupling ordinary matter to the quantum vacuum cannot substitute for exotic matter in traversable wormholes, closing a potential loophole in classical energy conditions.",
+  "summary": "Traversable wormholes require matter that violates the Null Energy Condition — a rule that normal matter cannot bend. Some proposals hoped that coupling matter to the vacuum energy might sidestep this requirement. Focusing on zero-tidal-force, static configurations, this work shows that the geometric \"flare-out\" condition a wormhole throat must satisfy is mathematically incompatible with any NEC-respecting source, regardless of how strongly matter and vacuum interact. The vacuum acts as a regulator that obstructs the required geometry rather than enabling it, reinforcing that classical energy conditions are not easily circumvented.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 866,
+  "tokens_out": 223,
+  "cost_usd": 0.005943,
+  "ingested_at": "2026-05-17T15:29:47.797087+00:00"
+}

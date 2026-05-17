@@ -1,0 +1,23 @@
+{
+  "id": "2605.13963",
+  "arxiv_url": "https://arxiv.org/abs/2605.13963",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "When Bumblebee Meets NLED: Lorentz-Violating Black Holes and Regular Spacetimes",
+  "authors": "Zhi-Chao Li, H. Lu",
+  "abstract": "We construct charged black hole solutions in bumblebee gravity coupled to a general class of nonlinear electrodynamics (NLED) using an auxiliary Maxwell-scalar formalism. The norm-fixed radial configuration of the bumblebee vector makes the solutions asymptotic to a conical Lorentz-violating vacuum and requires stringent nonminimal bumblebee-NLED couplings. The general black hole solutions contain independent mass and charge parameters. There are two sources of singular behavior at the center: one is due to the Schwarzschild-type pole and the other is the residual conical singularity of the Lorentz-violating vacuum. By fine-tuning the mass-charge relation, one can generally remove the pole singularity, giving rise to marginally regular black holes. For a suitable NLED theory such as Born-Infeld theory, both singularity sources can be removed at the cost of requiring both the mass and the charge to be fine-tuned to specific functions of the coupling constants. The resulting solutions describe regular horizonless spacetimes interpolating from AdS or dS cores to Lorentz-violating vacua.",
+  "title_relatable": "Lorentz symmetry breaking offers a path to singularity-free black holes",
+  "hook": "Combining two extensions of general relativity — a Lorentz-violating vector field and nonlinear electrodynamics — produces charged black hole solutions that can be tuned to eliminate all central singularities.",
+  "summary": "By coupling bumblebee gravity (which breaks Lorentz symmetry via a fixed-norm vector field) to nonlinear electrodynamics, the authors derive a family of charged black hole solutions that carry two independent parameters: mass and charge. The central singularity has two distinct origins — a Schwarzschild-type pole and a residual conical defect from the Lorentz-violating background — and both can be eliminated by fixing mass and charge to specific functions of the coupling constants. The end result, demonstrated explicitly for Born-Infeld electrodynamics, is a regular, horizonless spacetime that transitions from an AdS or dS core to an asymptotically Lorentz-violating exterior, but only at the cost of fine-tuning all free parameters.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 961,
+  "tokens_out": 273,
+  "cost_usd": 0.006978,
+  "ingested_at": "2026-05-17T15:30:18.108087+00:00"
+}

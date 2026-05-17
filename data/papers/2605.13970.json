@@ -1,0 +1,23 @@
+{
+  "id": "2605.13970",
+  "arxiv_url": "https://arxiv.org/abs/2605.13970",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "A Tale of Two Hartle-Hawking Wave Functions: Fully Gravitational vs Partially Frozen",
+  "authors": "Galit Anikeeva, Raphaël Dulac, Zixia Wei, Mengyang Zhang",
+  "abstract": "We revisit the Hartle-Hawking wave function in AdS spacetime, where natural spatial slices are open and require an additional spacetime boundary. This leads to two constructions: a fully gravitational wave function, in which the boundary configuration is integrated over, and a partially frozen one, in which it is fixed, as in AdS/CFT. To illustrate the fully gravitational construction, we explicitly analyze it in AdS$_3$ Einstein gravity and AdS$_2$ Jackiw-Teitelboim gravity. We then evaluate the one-loop correction to the hyperbolic-ball partition function in $D$-dimensional AdS Einstein gravity, expected to give the leading contribution to the wave-function norm. We demonstrate that the fully gravitational hyperbolic ball partition function, where the boundary fluctuates, develops a nontrivial one-loop phase of $(\\mp i)^{D+1}$, analogous to that of the sphere partition function in dS gravity. By contrast, the partially frozen partition function, where the boundary is fixed, remains real and positive. Motivated by this AdS comparison, we conversely investigate a partially frozen dS sphere partition function where the metric on an equator is fixed, finding that its one-loop phase cancels nontrivially. Our results suggest that the phase problem is controlled by whether the gravitational path integral is fully dynamical or partially frozen.",
+  "title_relatable": "Which version of the universe's wave function develops a phase problem?",
+  "hook": "Two natural definitions of the Hartle-Hawking wave function in AdS give opposite answers on a subtle sign problem, revealing that imaginary phases in quantum gravity depend on whether boundary geometry is fixed or integrated out.",
+  "summary": "The Hartle-Hawking wave function—a proposal for the quantum state of the universe—has two versions in Anti-de Sitter space: one where the boundary geometry is summed over (fully dynamical) and one where it is held fixed, as in AdS/CFT. Computing one-loop quantum corrections, the authors find that only the fully dynamical version acquires a nontrivial imaginary phase, analogous to a known issue in de Sitter quantum gravity. Fixing the boundary eliminates the phase. Applying the same logic in reverse to de Sitter space, fixing its equatorial geometry cancels the phase there too. The upshot is that troublesome phase factors in gravitational path integrals are a symptom of leaving boundary degrees of freedom dynamical, not an intrinsic feature of the geometry.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1019,
+  "tokens_out": 273,
+  "cost_usd": 0.007152,
+  "ingested_at": "2026-05-17T15:30:04.708384+00:00"
+}

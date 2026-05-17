@@ -1,0 +1,24 @@
+{
+  "id": "2605.13677",
+  "arxiv_url": "https://arxiv.org/abs/2605.13677",
+  "announced_date": "2026-05-13",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "quant-ph",
+    "gr-qc",
+    "physics.atom-ph"
+  ],
+  "title_original": "Decoherence of spatial superpositions along stationary worldlines",
+  "authors": "Clemens Jakubec, Aaron Bartleson, Peter W. Milonni, Kanu Sinha",
+  "abstract": "We analyze the decoherence of a particle's spatial superposition moving along a stationary worldline through the Minkowski vacuum. The particle is modeled via an internal degree of freedom that couples to a scalar field, and an external degree of freedom, i.e., its quantized center-of-mass motion around the stationary worldline. Assuming a separation of time scales between the particle's internal and external dynamics, we first obtain an effective red-shifted polarizability of the particle, characterizing the trajectory-dependent linear response of the internal oscillator to the field. We then derive a quantum Brownian motion master equation for the particle's center of mass, under the Born-Markov approximation, which describes its decoherence in the position basis, as well as, Hamiltonian modifications corresponding to a dispersive potential. The resulting decoherence has two components: (1) arising from a modified field spectrum observed by the particle; and (2) due to a differential time-dilation over the particle's extended spatial wavefunction. For stationary trajectories, both contributions take an effectively thermal form. We evaluate the decoherence rates for two specific cases of hyperbolic and uniform circular motion.",
+  "title_relatable": "How curved spacetime quietly destroys quantum superpositions",
+  "hook": "Particles in spatial superposition along accelerating or circular paths decohere through two distinct relativistic channels, both mimicking a thermal bath even in the Minkowski vacuum.",
+  "summary": "Starting from a particle with both internal and external (center-of-mass) quantum degrees of freedom coupled to a scalar field, a master equation is derived that governs how spatial superpositions decay along non-inertial but stationary worldlines. Two mechanisms contribute: the particle samples a modified field spectrum (analogous to the Unruh effect), and different branches of its wavefunction experience slightly different rates of time dilation. For hyperbolic and circular motion, both effects independently produce decoherence that looks thermal, giving a concrete, trajectory-dependent rate connecting quantum foundations to relativistic kinematics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 964,
+  "tokens_out": 212,
+  "cost_usd": 0.006072,
+  "ingested_at": "2026-05-17T15:31:23.747191+00:00"
+}
