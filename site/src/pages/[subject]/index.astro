@@ -227,13 +227,12 @@ const activeSubjects = allSubjects.filter(s => s.active);
     .brief-cite a:hover{color:var(--accent)}
 
     /* ── Scan row ────────────────────────────────────────────── */
-    .scan-row{display:none;align-items:baseline;gap:12px;padding:7px 0;
+    .scan-row{display:none;align-items:baseline;gap:12px;padding:16px 0;line-height:1.4;
       border-top:1px solid var(--rule);cursor:pointer;transition:color .15s}
     .scan-row:hover{color:var(--accent)}
     .scan-tag{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;
       color:var(--accent);border:1px solid var(--accent);padding:1px 5px;border-radius:2px;flex-shrink:0}
-    .scan-title{font-family:var(--display);font-size:17px;flex:1;
-      overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .scan-title{font-family:var(--display);font-size:17px;flex:1}
     .scan-date{font-family:var(--mono);font-size:9px;letter-spacing:.08em;
       text-transform:uppercase;color:var(--ink-faint);flex-shrink:0}
     .scan-arrow{font-size:11px;color:var(--ink-faint);flex-shrink:0;transition:transform .15s}
@@ -458,18 +457,34 @@ function weekRange(w) {
 
 // Topic name mapping: arXiv codes → readable names
 const topicNameMap = {
-  'gr-qc': 'General Relativity',
-  'hep-th': 'High Energy Theory',
+  'gr-qc': 'Gen. Relativity',
+  'hep-th': 'HEP Theory',
   'astro-ph.CO': 'Cosmology',
   'quant-ph': 'Quantum Physics',
-  'math-ph': 'Mathematical Physics',
+  'math-ph': 'Math Physics',
   'hep-ph': 'Particle Physics',
-  'astro-ph.HE': 'High-Energy Astrophysics',
-  'hep-ex': 'High Energy Experiment',
+  'astro-ph.HE': 'HEP Astrophysics',
+  'hep-ex': 'HEP Experiment',
   'astro-ph.GA': 'Astrophysics of Galaxies',
   'astro-ph.SR': 'Solar and Stellar',
   'cond-mat.str-el': 'Strongly Correlated',
   'nucl-th': 'Nuclear Theory',
+};
+
+// Short versions for scan tags
+const topicTagMap = {
+  'gr-qc': 'Gen. Rel.',
+  'hep-th': 'HEP-TH',
+  'astro-ph.CO': 'Cosmo',
+  'quant-ph': 'Quantum',
+  'math-ph': 'Math-Ph',
+  'hep-ph': 'HEP-PH',
+  'astro-ph.HE': 'HEP-Astro',
+  'hep-ex': 'HEP-EX',
+  'astro-ph.GA': 'Galaxies',
+  'astro-ph.SR': 'Solar',
+  'cond-mat.str-el': 'Cond-Mat',
+  'nucl-th': 'Nucl-TH',
 };
 
 // Build a "topic" from the paper's subject tags (first tag = primary subject)
@@ -503,7 +518,8 @@ function filteredPapers() {
 // RENDERERS
 // ═══════════════════════════════════════════════════
 function renderScan(p) {
-  const topic = (p.subjects_all?.[0] || p.subject || '').split('.').pop()?.slice(0, 4).toUpperCase() || 'MISC';
+  const topicCode = p.subjects_all?.[0] || p.subject || '';
+  const topic = topicTagMap[topicCode] || topicCode.split('.').pop()?.slice(0, 4).toUpperCase() || 'MISC';
   return `<div class="scan-row" onclick="open('${p.arxiv_url}','_blank')">
     <span class="scan-tag">${topic}</span>
     <span class="scan-title">${p.title_relatable || p.title_original}</span>
@@ -594,7 +610,8 @@ function renderByDate(papers) {
   weeks.forEach(w => {
     const datesMap = byWeek[w];
     const allWeekPapers = Object.values(datesMap).flat();
-    const topicSample = [...new Set(allWeekPapers.slice(0, 3).map(p => p.subjects_all?.[1] || p.subject))].join(' · ');
+    const topicCodes = [...new Set(allWeekPapers.slice(0, 3).map(p => p.subjects_all?.[1] || p.subject))];
+    const topicSample = topicCodes.map(code => getTopicName(code)).join(' · ');
     html += `<section class="week-section">
       <div class="week-header">
         <span class="week-title">Week of ${weekRange(w)}</span>
