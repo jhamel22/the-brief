@@ -96,19 +96,31 @@ subjects:
     name: Computation and Language
     domain: Computer Science
     slug: cs-cl
-    daily_cap: 15
+    daily_cap: 20
     prompt_variant: cs
     use_filter: true
-    active: false
+    model: haiku
+    active: true
 
   - code: cs.CV
     name: Computer Vision
     domain: Computer Science
     slug: cs-cv
+    daily_cap: 20
+    prompt_variant: cs
+    use_filter: true
+    model: haiku
+    active: true
+
+  - code: cs.RO
+    name: Robotics
+    domain: Computer Science
+    slug: cs-ro
     daily_cap: 15
     prompt_variant: cs
     use_filter: true
-    active: false
+    model: haiku
+    active: true
 
   # ── MATHEMATICS ───────────────────────────────────────────
   - code: math.NT

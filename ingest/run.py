@@ -16,7 +16,7 @@ import json
 import os
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import anthropic
@@ -191,20 +191,27 @@ def main() -> int:
     total_papers = 0
     total_cost   = 0.0
 
+    # Generate date range (last 3 days by default, or single date if specified)
+    if args.date:
+        date_range = [args.date]
+    else:
+        today = datetime.now(timezone.utc).date()
+        date_range = [(today - timedelta(days=i)).isoformat() for i in range(3)]
+
     print(f"\n{'─' * 48}")
     print(f"  The Brief — arXiv ingest")
     print(f"  Subjects: {', '.join(s['code'] for s in subjects)}")
-    if args.date:
-        print(f"  Date: {args.date}")
+    print(f"  Date range: {date_range[0]} to {date_range[-1]}")
     if args.dry_run:
         print("  Mode: DRY RUN (no API calls)")
     print(f"{'─' * 48}")
 
     for subject in subjects:
         print(f"\n── {subject['code']} ─────────────────────────")
-        papers, cost = ingest_subject(subject, client, dry_run=args.dry_run, target_date=args.date)
-        total_papers += papers
-        total_cost   += cost
+        for target_date in date_range:
+            papers, cost = ingest_subject(subject, client, dry_run=args.dry_run, target_date=target_date)
+            total_papers += papers
+            total_cost   += cost
 
     # ── Cost report ───────────────────────────────────────────────────────
     projected_monthly = total_cost * 30
