@@ -719,8 +719,6 @@ function renderByDate(papers) {
     const dates = Object.keys(datesMap).sort(state.sort === 'oldest' ? (a,b) => a.localeCompare(b) : (a,b) => b.localeCompare(a));
     dates.forEach(d => {
       const dayPapers = datesMap[d];
-      const leads = dayPapers.filter(p => p.is_lead);
-      const rest  = dayPapers.filter(p => !p.is_lead);
       html += `<section class="day-section" data-date="${d}">
         <div class="date-label" onclick="toggleDay(this)">
           <span class="date-text">${fmtDate(d)}</span>
@@ -728,15 +726,7 @@ function renderByDate(papers) {
           <span class="date-chevron">▾</span>
         </div>
         <div class="day-content">`;
-      if (state.mode === 'full') {
-        leads.forEach(p => { html += renderFull(p); });
-        if (rest.length) {
-          html += `<div class="also-hdr"><span>Also published</span></div>`;
-          rest.forEach(p => { html += renderBrief(p); });
-        }
-      } else {
-        dayPapers.forEach(p => { html += renderPaper(p); });
-      }
+      dayPapers.forEach(p => { html += renderPaper(p); });
       html += `</div></section>`;
     });
     html += `</section>`;
