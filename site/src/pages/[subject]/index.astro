@@ -327,15 +327,25 @@ const activeSubjects = allSubjects.filter(s => s.active);
         <div>
           <div class="sb-label">Subjects</div>
           <div class="sb-subjects">
-            {activeSubjects.map(s => (
-              <a
-                class={`sb-subject-link${s.code === subjectConfig.code ? ' active' : ''}`}
-                href={`/${s.slug || s.code}/`}
-              >
-                <span>{s.code}</span>
-                <span class="sb-subject-domain">{s.domain}</span>
-              </a>
-            ))}
+            {activeSubjects.map(s => {
+              const friendlyName = {
+                'gr-qc': 'Gen. Relativity',
+                'hep-th': 'HEP Theory',
+                'quant-ph': 'Quantum Physics',
+                'astro-ph.CO': 'Cosmology',
+                'cs.LG': 'Machine Learning',
+                'cs.AI': 'Artificial Intelligence',
+              }[s.code] || s.code;
+              return (
+                <a
+                  class={`sb-subject-link${s.code === subjectConfig.code ? ' active' : ''}`}
+                  href={`/${s.slug || s.code}/`}
+                >
+                  <span>{friendlyName}</span>
+                  <span class="sb-subject-domain">{s.domain}</span>
+                </a>
+              );
+            })}
           </div>
         </div>
       )}
@@ -455,6 +465,9 @@ function weekRange(w) {
 const topicNameMap = {
   'gr-qc': 'Gen. Relativity',
   'hep-th': 'HEP Theory',
+  'hep-lat': 'Lattice Field Theory',
+  'hep-ex': 'HEP Experiment',
+  'hep-ph': 'Particle Physics',
   'astro-ph.CO': 'Cosmology',
   'astro-ph.HE': 'HEP Astrophysics',
   'astro-ph.GA': 'Galaxies',
@@ -462,11 +475,34 @@ const topicNameMap = {
   'astro-ph.EP': 'Earth & Planets',
   'astro-ph.IM': 'Instrumentation',
   'quant-ph': 'Quantum Physics',
-  'math-ph': 'Math Physics',
-  'hep-ph': 'Particle Physics',
-  'hep-ex': 'HEP Experiment',
+  'cond-mat.stat-mech': 'Statistical Mechanics',
+  'cond-mat.mes-hall': 'Nanoscale Physics',
   'cond-mat.str-el': 'Strongly Correlated',
+  'cond-mat.supr-con': 'Superconductivity',
+  'cond-mat.soft': 'Soft Matter',
+  'cond-mat.quant-gas': 'Quantum Gases',
+  'cond-mat.mtrl-sci': 'Materials Science',
+  'cond-mat.dis-nn': 'Disordered Systems',
+  'nlin.CD': 'Nonlinear Dynamics',
+  'nlin.AO': 'Adaptation',
+  'nlin.CG': 'Cellular Automata',
+  'nlin.PS': 'Pattern Formation',
+  'nlin.SI': 'Exactly Solvable',
   'nucl-th': 'Nuclear Theory',
+  'nucl-ex': 'Nuclear Experiment',
+  'math-ph': 'Math Physics',
+  'math.PR': 'Probability',
+  'math.ST': 'Statistics Theory',
+  'math.CO': 'Combinatorics',
+  'math.NT': 'Number Theory',
+  'math.AP': 'Analysis of PDEs',
+  'math.DG': 'Differential Geometry',
+  'math.AG': 'Algebraic Geometry',
+  'math.AT': 'Algebraic Topology',
+  'math.GR': 'Group Theory',
+  'math.LO': 'Logic',
+  'math.OC': 'Optimization',
+  'math.NA': 'Numerical Analysis',
   'cs.AI': 'AI',
   'cs.LG': 'Machine Learning',
   'cs.CL': 'NLP',
@@ -477,6 +513,33 @@ const topicNameMap = {
   'cs.HC': 'Human-Computer',
   'cs.IR': 'Info Retrieval',
   'cs.MA': 'Multi-Agent',
+  'cs.AR': 'Hardware Architecture',
+  'cs.NI': 'Networking',
+  'cs.DS': 'Data Structures',
+  'cs.PL': 'Programming Languages',
+  'cs.DB': 'Databases',
+  'cs.DC': 'Distributed Computing',
+  'cs.GT': 'Game Theory',
+  'cs.SY': 'Systems & Control',
+  'cs.IT': 'Information Theory',
+  'cs.NE': 'Neural & Evolutionary',
+  'cs.CC': 'Complexity Theory',
+  'cs.CG': 'Computational Geometry',
+  'cs.SI': 'Social Networks',
+  'cs.MM': 'Multimedia',
+  'cs.NA': 'Numerical Analysis',
+  'eess.SP': 'Signal Processing',
+  'eess.IV': 'Image & Video',
+  'eess.AS': 'Audio & Speech',
+  'eess.SY': 'Systems & Control',
+  'stat.ML': 'Statistical ML',
+  'stat.ME': 'Statistics',
+  'q-bio.NC': 'Neuroscience',
+  'q-bio.BM': 'Biomolecules',
+  'q-bio.PE': 'Evolution',
+  'q-fin.TR': 'Trading',
+  'q-fin.RM': 'Risk Management',
+  'q-fin.PM': 'Portfolio Management',
 };
 
 // Short versions for scan tags
