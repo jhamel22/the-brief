@@ -150,6 +150,33 @@ def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool, ta
     return len(ingested), run_cost
 
 
+# ── Date helpers ──────────────────────────────────────────────────────────
+
+def get_last_n_weekdays(n: int = 3, start_date=None) -> list[str]:
+    """
+    Get the last N weekdays (Mon-Fri), excluding weekends.
+    arXiv does not publish on Sat/Sun, so this avoids wasted API calls.
+
+    Examples:
+    - Monday run: returns [Mon, Fri, Thu]
+    - Tuesday run: returns [Tue, Mon, Fri]
+    - Friday run: returns [Fri, Thu, Wed]
+    """
+    if start_date is None:
+        start_date = datetime.now(timezone.utc).date()
+
+    weekdays = []
+    current = start_date
+
+    while len(weekdays) < n:
+        # Monday=0, Sunday=6. Include Mon-Fri only (0-4)
+        if current.weekday() < 5:
+            weekdays.append(current.isoformat())
+        current -= timedelta(days=1)
+
+    return weekdays
+
+
 # ── Entry point ───────────────────────────────────────────────────────────
 
 def main() -> int:
@@ -191,12 +218,11 @@ def main() -> int:
     total_papers = 0
     total_cost   = 0.0
 
-    # Generate date range (last 3 days by default, or single date if specified)
+    # Generate date range (last 3 weekdays by default, or single date if specified)
     if args.date:
         date_range = [args.date]
     else:
-        today = datetime.now(timezone.utc).date()
-        date_range = [(today - timedelta(days=i)).isoformat() for i in range(3)]
+        date_range = get_last_n_weekdays(n=3)
 
     print(f"\n{'─' * 48}")
     print(f"  The Brief — arXiv ingest")
