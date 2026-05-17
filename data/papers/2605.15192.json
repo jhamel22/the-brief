@@ -1,0 +1,24 @@
+{
+  "id": "2605.15192",
+  "arxiv_url": "https://arxiv.org/abs/2605.15192",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Isocurvature-Free QCD Axion Dark Matter from Inflaton-Driven Early QCD: the Necessity of Inflationary Plateaus",
+  "authors": "Katherine Freese, Evangelos I. Sfakianakis, Barmak Shams Es Haghi",
+  "abstract": "A direct coupling between the inflaton and Standard Model gluons can dynamically raise the QCD confinement scale during inflation, making the axion temporarily heavy and suppressing axion isocurvature perturbations. As inflation proceeds, the confinement scale relaxes, the axion becomes light, and late-time de Sitter fluctuations can generate the observed dark matter abundance. We analyze this mechanism without specifying an inflationary potential, instead parametrizing the background by $ε(N) \\propto 1/N^p$, where $N$ is the number of $e$-folds before the end of inflation. The single parameter $p$ distinguishes monomial models ($p=1$), standard plateau models ($p=2$), and ultra-flat plateau or hilltop-like models ($p\\ge 3$). We (analytically) show that the mechanism selects plateau-like ($p\\ge 2$) inflation: monomial models generically cause the confinement scale to grow too rapidly, while plateau models keep the QCD sector under perturbative control. In the minimal scenario, reheating occurs through the same inflaton-gluon coupling, and viable axion dark matter production is obtained when deconfinement occurs after the CMB window. The early-confinement sector also shifts the scalar spectral index to larger, bluer values, opening viable parameter space for models otherwise disfavored by CMB data.",
+  "title_relatable": "Suppressing axion chaos requires a flat inflationary plateau",
+  "hook": "Coupling the inflaton to gluons can fix axion dark matter's isocurvature problem, but only if inflation had a plateau-shaped potential — ruling out simple monomial models.",
+  "summary": "If the inflaton couples directly to QCD gluons, it can temporarily raise the confinement scale during inflation, making the axion heavy enough to suppress dangerous isocurvature fluctuations — a long-standing obstacle for axion dark matter. Using a single parameter to characterize how the inflaton's slow-roll evolves, the analysis shows that steep monomial potentials cause the confinement scale to grow out of perturbative control, while plateau-like potentials keep the physics tractable. The mechanism also shifts the scalar spectral index toward bluer values, potentially rescuing inflationary models disfavored by current CMB measurements.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1048,
+  "tokens_out": 229,
+  "cost_usd": 0.006579,
+  "ingested_at": "2026-05-17T17:01:04.638867+00:00"
+}

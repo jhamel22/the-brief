@@ -1,0 +1,25 @@
+{
+  "id": "2605.15121",
+  "arxiv_url": "https://arxiv.org/abs/2605.15121",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.atom-ph",
+    "hep-ph",
+    "physics.chem-ph",
+    "quant-ph"
+  ],
+  "title_original": "Rovibrational structure and electric dipole moments of the AcOCH$_3$+ ion",
+  "authors": "Anna Zakharova",
+  "abstract": "The possibility of laser cooling and the presence of closely spaced rovibrational doublets make polyatomic molecules an attractive platform for the $\\mathcal{P}$, $\\mathcal{T}$-violation searches. We study the spectrum of the lowest rovibrational state of the AcOCH$_3+$ symmetric top molecule. The electronic structure full-electron computation was performed within a relativistic coupled cluster method with double and perturbative triple excitations. The rovibrational wavefunctions are obtained using a coupled channel technique, taking into account all rovibrational effects and anharmonicities of the potential. As a result, the vibrational frequencies, as well as the values of the electric dipole moments for the rovibrational states, were computed.",
+  "title_relatable": "Mapping the energy levels of an actinium molecule sought for symmetry-violation tests",
+  "hook": "Precise rovibrational structure and dipole moments for AcOCH₃⁺ establish whether this heavy-element molecular ion is viable for probing fundamental parity and time-reversal violation.",
+  "summary": "Using relativistic coupled-cluster theory and a coupled-channel treatment of nuclear motion, this study maps the lowest rovibrational states of the actinium methoxide cation AcOCH₃⁺. The calculation captures anharmonicities and all rovibrational couplings to yield vibrational frequencies and state-specific electric dipole moments. Closely spaced doublets in symmetric-top molecules like this one amplify sensitivity to P- and T-violating interactions, making accurate spectroscopic predictions essential for designing future experiments. The results provide the spectroscopic benchmarks needed to assess the ion's suitability for laser cooling and precision symmetry tests.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 862,
+  "tokens_out": 242,
+  "cost_usd": 0.006216,
+  "ingested_at": "2026-05-17T16:54:23.636558+00:00"
+}

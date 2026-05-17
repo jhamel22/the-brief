@@ -1,0 +1,22 @@
+{
+  "id": "2605.13549",
+  "arxiv_url": "https://arxiv.org/abs/2605.13549",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "UNIONS-3500 Weak Lensing: I. A Galaxy Shape Catalogue in the Northern Sky",
+  "authors": "F. Hervas-Peters, S. Guerrini, M. Kilbinger, L. Baumont, A. Guinot, C. Daley, C. Bonini, A. Wittje, C. Murray, L. W. K. Goh, A. Paradis, A. Tersenov, M. J. Hudson, L. Van Waerbeke, H. Hildebrandt, S. Fabbro, J. -C. Cuillandre, A. W. McConnachie",
+  "abstract": "Weak gravitational lensing has become a widely used effect to characterise the dark-matter distribution on large scales in the Universe by measuring galaxy ellipticities and their statistical correlations. We present the first weak gravitational lensing catalogue for cosmic-shear cosmology of the Ultraviolet Near Infrared Optical Northern Survey (UNIONS). We analyse approximately $3\\,500$ square degrees of sky area in the Northern Hemisphere, observed in the $r$-band by MegaCam on the Canada-France Hawai'i Telescope, achieving a median seeing of 0.7 arcsec. Starting from images calibrated for astrometry and photometry, we describe the steps from image processing to catalogue creation. These steps include masking, source detection and selection, star selection, point spread function (PSF) modelling, shape measurement, and calibration. We conduct extensive validation tests, particularly to assess and mitigate the leakage of PSF ellipticity into galaxy shapes. We demonstrate the robustness of the catalogue by investigating correlations between ellipticity and other observational variables as well as structural elements, such as observer-frame image positions and proximity to bright stars. The final galaxy catalogue contains $62$ million galaxies, corresponding to an effective source density of $4.96$ arcmin$^{-2}$. The ellipticity dispersion, commonly referred to as shape noise, is $σ_ε= 0.27$. Initiating the first major cosmological analysis by the UNIONS collaboration, this is the first in a series of five papers which cover the various aspects of a robust cosmic shear analysis. Two companion papers discuss the robustness of the catalogue, one through the level of $B$-mode contamination and another by producing and analysing dedicated image simulations for shear calibration, while the other two present cosmological results in real and harmonic space.",
+  "title_relatable": "62 million galaxies mapped for dark matter across the northern sky",
+  "hook": "UNIONS releases its first weak lensing shape catalogue, covering 3,500 square degrees with 62 million galaxies and setting the stage for new northern-sky cosmology.",
+  "summary": "The UNIONS collaboration has constructed a weak gravitational lensing catalogue from r-band imaging taken with MegaCam on the Canada-France Hawaii Telescope, covering roughly 3,500 square degrees of the Northern Hemisphere at a median seeing of 0.7 arcseconds. Careful PSF modelling, masking, and ellipticity calibration yield 62 million galaxies at an effective source density of 4.96 per square arcminute. The catalogue is validated against PSF leakage, bright-star proximity, and other systematic tracers. It is the first of five companion papers, with the others delivering shear calibration via image simulations, B-mode null tests, and full cosmic-shear cosmological results.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1231,
+  "tokens_out": 250,
+  "cost_usd": 0.007443,
+  "ingested_at": "2026-05-17T17:02:51.652695+00:00"
+}

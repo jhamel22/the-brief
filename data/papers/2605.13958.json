@@ -1,0 +1,23 @@
+{
+  "id": "2605.13958",
+  "arxiv_url": "https://arxiv.org/abs/2605.13958",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO"
+  ],
+  "title_original": "Baryoid Dark Matter from $\\mathbb{Z}_N$ Domain Walls: The $(N-1):1$ origin of the dark matter-baryon coincidence",
+  "authors": "Yang Bai, Ting-Kuo Chen",
+  "abstract": "We propose an explanation for the dark matter-baryon coincidence based on collapsing $\\mathbb{Z}_N$ domain walls, which form a novel compact baryonic state: the baryoid. A baryoid has an asteroid-scale mass and up-to-nuclear-scale energy density, and can serve as a dark matter candidate. Starting from equal baryon numbers in the domains formed in the early universe, the collapse of the domain walls after the QCD phase transition leads to a baryon-number ratio of $(N-1):1$ between the false- and true-vacuum domains. Since baryons are slightly lighter in the false-vacuum domains than in the true-vacuum domain, the resulting dark matter-to-baryon energy-density ratio is naturally close to, but slightly smaller than, $(N-1):1$, or $6:1$ for $N=7$. We calculate the domain-wall dynamics and the efficiency of baryon-number trapping, derive the resulting baryoid properties, and discuss a broad set of phenomenological probes.",
+  "title_relatable": "Why dark matter outweighs ordinary matter by exactly five to one",
+  "hook": "A new model explains the 5:1 dark matter-to-baryon ratio as a geometric consequence of collapsing domain walls that trap baryons in asteroid-mass nuggets.",
+  "summary": "One of cosmology's nagging puzzles is that dark matter and ordinary matter have comparable densities despite apparently unrelated origins. This model ties both to the same baryon number, distributed across domains separated by Z_N symmetry walls in the early universe. When those walls collapse after the QCD phase transition, an (N-1):1 baryon split between false- and true-vacuum regions naturally yields a dark matter-to-baryon ratio near 5:1 for N=7. The trapped baryons form 'baryoids' — asteroid-mass, nuclear-density objects — whose properties and detection prospects are worked out in detail.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 945,
+  "tokens_out": 228,
+  "cost_usd": 0.006255,
+  "ingested_at": "2026-05-17T17:01:59.969550+00:00"
+}

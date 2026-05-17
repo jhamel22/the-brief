@@ -1,0 +1,23 @@
+{
+  "id": "2605.14993",
+  "arxiv_url": "https://arxiv.org/abs/2605.14993",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.atom-ph",
+    "quant-ph"
+  ],
+  "title_original": "Accurate Modeling of Rydberg Atoms and Their Interactions: Theory and Implementation in PairInteraction",
+  "authors": "Johannes Mögerle, Frederic Hummel, Alicia Keil, Tangi Legrand, Eduard J. Braun, Henri Menke, Jonathan King, Beatriz Olmos, Sebastian Hofferberth, Hans Peter Büchler, Sebastian Weber",
+  "abstract": "Rydberg atoms provide a powerful platform for exploring strongly interacting quantum systems, both in free space and in structured electromagnetic environments, with growing applications in quantum technology. Accurately modeling their single-atom properties and mutual interactions is essential for interpreting experiments and designing new architectures. We present a unified theoretical framework for Rydberg atoms and their interactions based on multi-channel quantum defect theory (MQDT) and static electromagnetic Green's tensors. MQDT provides a precise description of Rydberg states of divalent atoms such as strontium and ytterbium, while the Green's tensor formalism provides a general and flexible approach for calculating interactions between two Rydberg atoms in arbitrary geometries, including modifications induced by nearby surfaces. We implement this framework in an updated version of the open-source PairInteraction software [Weber et al., J.~Phys.~B~50 (2017)]. The implementation leverages high-performance libraries and achieves speedups of one order of magnitude for pair-potential calculations compared to prior software. We demonstrate the capabilities of the framework through example applications to divalent atoms and show excellent agreement with experimental data for an exemplary Stark map of $^{174}$Yb. The modular software architecture enables the community to extend it further.",
+  "title_relatable": "Open-source toolkit for calculating Rydberg atom interactions gets major upgrade",
+  "hook": "A unified theoretical framework combining quantum defect theory and electromagnetic Green's tensors now handles Rydberg atom interactions near surfaces, with a 10× faster open-source implementation validated against ytterbium experiments.",
+  "summary": "Rydberg atoms — hydrogen-like atoms with one electron promoted to a high-energy orbit — interact so strongly they can gate quantum logic operations, but modeling those interactions accurately requires handling both single-atom structure and geometry-dependent coupling simultaneously. This work combines multi-channel quantum defect theory, which captures the more complex electron structure of two-electron atoms like strontium and ytterbium, with a Green's tensor approach that naturally accounts for nearby surfaces or cavities. The updated PairInteraction software implementing this framework runs pair-potential calculations an order of magnitude faster than before, and produces Stark maps matching experimental ytterbium data. The open-source, modular design lets experimentalists extend the tool to new geometries and atom species.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1030,
+  "tokens_out": 252,
+  "cost_usd": 0.00687,
+  "ingested_at": "2026-05-17T16:55:36.001285+00:00"
+}

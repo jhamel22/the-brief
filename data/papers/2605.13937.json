@@ -1,0 +1,22 @@
+{
+  "id": "2605.13937",
+  "arxiv_url": "https://arxiv.org/abs/2605.13937",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Spherical collapse and cluster number counts in DHOST theories that pass the constraints from gravitational waves",
+  "authors": "Sakdithut Jitpienka, Khamphee Karwan, David F. Mota",
+  "abstract": "We investigate the spherical collapse model and the abundance of galaxy clusters in a class of degenerate higher-order scalar--tensor (DHOST) theories in which gravitational waves do not decay into scalar perturbations and which are consistent with current constraints from gravitational-wave observations. We find that deviations from Einstein gravity can become significant at late times when the background universe is close to the scaling regime during the matter-dominated epoch. These deviations suppress the growth of linear matter perturbations on small scales while increasing the extrapolated linear density contrast at collapse, obtained from the spherical collapse model. Using the analytic mass function, we compute the corresponding cluster number counts. The minimum mass threshold in the mass integration for each redshift bin is determined by matching the predicted number counts in the $Λ$CDM model with those inferred from the eROSITA survey. We find that the cluster abundance reaches its maximum at low redshift bin, and that the number of clusters in the highest redshift bin is suppressed as the deviation from Einstein gravity becomes larger. The parameters of the theory are chosen such that the deviation from Einstein gravity at present is consistent with the local astrophysical bounds from binary pulsar observations. We find that even under such strict constraints, the upper bound on the deviation leads to lower predicted number counts compared with the $Λ$CDM model emulating the eROSITA survey results. However, this may be a consequence of the uncertainties in computing the number counts for the DHOST theories using the spherical collapse model and the analytical mass function.",
+  "title_relatable": "Modified gravity leaves a detectable mark on galaxy cluster counts",
+  "hook": "A class of scalar-tensor gravity theories consistent with gravitational-wave observations still predicts fewer galaxy clusters than standard cosmology, offering a potential observational test.",
+  "summary": "Working within DHOST theories that survive gravitational-wave constraints, this study models how density perturbations grow and collapse into galaxy clusters. Deviations from general relativity become pronounced late in cosmic history, suppressing small-scale structure growth while raising the density threshold needed for collapse. Comparing predicted cluster number counts against eROSITA survey benchmarks, the analysis finds that even the maximum allowed deviation — set by binary pulsar bounds — produces a measurable deficit of clusters relative to ΛCDM, particularly at high redshift. The authors caution that uncertainties in the spherical collapse formalism and mass function may partly drive this difference.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1046,
+  "tokens_out": 216,
+  "cost_usd": 0.006378,
+  "ingested_at": "2026-05-17T17:02:16.967380+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.15189",
+  "arxiv_url": "https://arxiv.org/abs/2605.15189",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "Strong Gravitational Lensing with the James Webb Space Telescope",
+  "authors": "Adi Zitrin",
+  "abstract": "The theory of General Relativity predicts that, since massive bodies curve spacetime, light from a distant source would be deflected by a foreground massive object -- a phenomenon known as \\emph{Gravitational Lensing}. Historically, the strength of deflection of light from background stars by the sun, during the 1919 solar eclipse, supplied one of the first proofs for the theory of General Relativity. However, it is only in the last few decades, with the advent of the Hubble Space Telescope and other large, ground-based facilities, that lensing has become a principal tool in modern astronomy. Lensing allows us to study both the matter content of the lensing bodies such as galaxies or clusters of galaxies, mainly dominated by the otherwise-invisible \\emph{dark matter}, and the distant background sources that are being lensed by them. Strong gravitational lensing, where sources are substantially magnified and multiply imaged, is particularly useful to that end. The substantial magnification allows for a high-resolution view of the sources and to detect fainter and farther objects than would otherwise be possible; and image multiplicity helps in verifying the distance to them, and for studying variable or transient sources. Paired with the unprecedented capabilities of the James Webb Space Telescope (JWST), lensing now allows us to observe, detect, and study distant sources like never before. I summarise recent advances in strong-lensing applications and near-future prospects with JWST.",
+  "title_relatable": "What JWST sees when galaxies act as cosmic magnifying glasses",
+  "hook": "Strong gravitational lensing, combined with JWST's infrared sensitivity, is reshaping our view of dark matter, distant galaxies, and transient phenomena across cosmic time.",
+  "summary": "Massive galaxies and clusters bend background light into arcs and multiple images — a natural telescope that both magnifies faint sources and maps invisible dark matter. This review traces how JWST has extended that tool far beyond what Hubble could reach, enabling detection of objects at greater distances and fainter fluxes than were previously accessible. Key applications include probing dark matter substructure, confirming redshifts through image multiplicity, and catching transient or variable sources mid-event. The review closes with near-future prospects as JWST data continues to accumulate.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1014,
+  "tokens_out": 209,
+  "cost_usd": 0.006177,
+  "ingested_at": "2026-05-17T17:01:10.494854+00:00"
+}

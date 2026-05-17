@@ -1,0 +1,23 @@
+{
+  "id": "2605.15154",
+  "arxiv_url": "https://arxiv.org/abs/2605.15154",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "RoSHAP: A Distributional Framework and Robust Metric for Stable Feature Attribution",
+  "authors": "Lanxin Xiang, Liang Shi, Youhui Ye, Boyu Jiang, Dawei Zhou, Feng Guo",
+  "abstract": "Feature attribution analysis is critical for interpreting machine learning models and supporting reliable data-driven decisions. However, feature attribution measures often exhibit stochastic variation: different train--test splits, random seeds, or model-fitting procedures can produce substantially different attribution values and feature rankings. This paper proposes a framework for incorporating stochastic nature of feature attribution and a robust attribution metric, RoSHAP, for stable feature ranking based on the SHAP metric. The proposed framework models the distribution of feature attribution scores and estimates it through bootstrap resampling and kernel density estimation. We show that, under mild regularity conditions, the aggregated feature attribution score is asymptotically Gaussian, which greatly reduces the computational cost of distribution estimation. The RoSHAP summarizes the distribution of SHAP into a robust feature-ranking criterion that simultaneously rewards features that are active, strong, and stable. Through simulations and real-data experiments, the proposed framework and RoSHAP outperform standard single-run attribution measures in identifying signal features. In addition, models built using RoSHAP-selected features achieve predictive performance comparable to full-feature models while using substantially fewer predictors. The proposed RoSHAP approach improves the stability and interpretability of machine learning models, enabling reliable and consistent insights for analysis.",
+  "title_relatable": "A stabler way to rank which features actually matter in ML models",
+  "hook": "RoSHAP treats SHAP feature importance scores as distributions rather than point estimates, producing feature rankings that are more stable across different data splits and random seeds.",
+  "summary": "SHAP scores for feature importance can swing dramatically depending on train-test splits or random seeds, making model interpretation unreliable. RoSHAP models the full distribution of SHAP scores via bootstrap resampling and kernel density estimation, then collapses that distribution into a single ranking criterion that rewards features for being active, strong, and consistent. The authors prove the aggregated score is asymptotically Gaussian, which cuts the computational cost of distribution estimation. In simulations and real-data experiments, RoSHAP better identifies true signal features than single-run SHAP, and models built on RoSHAP-selected features match full-model predictive performance with substantially fewer predictors — useful for practitioners doing feature selection in noisy settings.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 995,
+  "tokens_out": 248,
+  "cost_usd": 0.006705,
+  "ingested_at": "2026-05-17T16:59:05.600967+00:00"
+}

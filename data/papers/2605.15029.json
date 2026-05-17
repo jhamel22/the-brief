@@ -1,0 +1,23 @@
+{
+  "id": "2605.15029",
+  "arxiv_url": "https://arxiv.org/abs/2605.15029",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.NI"
+  ],
+  "title_original": "A Resource-Driven Framework for Configurable Entanglement in Quantum Networks",
+  "authors": "Francesco Mazza, Claudio Pellitteri, Angela Sara Cacciapuoti, Marcello Caleffi",
+  "abstract": "Shared multipartite entanglement defines a ``whatever channel'', i.e., a latent communication substrate that does not determine a priori which end-to-end entangled links are activated, but can be configured to support different entanglement-connectivity graphs through Local Operations and Classical Communication (LOCC). Building on this, we propose a resource-driven framework in which multipartite entanglement is treated as a programmable resource that induces a space of admissible entanglement-graph configurations. Within this framework, connectivity provisioning emerges as a particular instance of a more general resource reconfiguration process. To support this paradigm, we introduce a set of structural design parameters that characterize the operational degrees of freedom of the resource and define the admissible transformations independently of the specific mechanism used to realize them. We then formalize Entanglement Rolling as a measurement-based protocol that operates over the induced configuration space, enabling the systematic reconfiguration of the shared resource across a family of multipartite states. Finally, we analyze the proposed framework under realistic noise conditions. Leveraging the Noisy Stabilizer Formalism (NSF), we derive closed-form noise maps that characterize the effect of noise on the resource transformations and show that the proposed approach maintains reliable performance under relevant noise processes.",
+  "title_relatable": "One shared quantum state, many possible network connections on demand",
+  "hook": "A single multipartite entangled state can be reconfigured into different network link patterns using local operations alone, turning shared entanglement into a programmable communication substrate.",
+  "summary": "Rather than committing to fixed point-to-point entangled links, this framework treats multipartite entanglement as a flexible resource whose connectivity can be reshaped on the fly via local measurements and classical communication. The authors introduce structural parameters that define what reconfigurations are possible and formalize a protocol called Entanglement Rolling to navigate that configuration space across families of multipartite states. Crucially, they analyze performance under realistic noise using the Noisy Stabilizer Formalism, deriving closed-form expressions for how noise propagates through each reconfiguration step—showing the approach remains viable under common noise models.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 989,
+  "tokens_out": 217,
+  "cost_usd": 0.006222,
+  "ingested_at": "2026-05-17T16:55:18.929648+00:00"
+}

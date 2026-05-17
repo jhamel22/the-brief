@@ -1,0 +1,24 @@
+{
+  "id": "2605.14791",
+  "arxiv_url": "https://arxiv.org/abs/2605.14791",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO",
+    "cs.AI"
+  ],
+  "title_original": "Beyond AI as Assistants: Toward Autonomous Discovery in Cosmology",
+  "authors": "Licong Xu, Thomas Borrett",
+  "abstract": "Recent advances in artificial intelligence (AI) agents are pushing AI beyond tools toward autonomous scientific discovery. We discuss two complementary agentic systems for cosmology: \\texttt{CMBEvolve}, which targets tasks with explicit quantitative objectives through LLM-guided code evolution and tree search, and \\texttt{CosmoEvolve}, which targets open-ended scientific workflows through a virtual multi-agent research laboratory. As preliminary demonstrations, we apply \\texttt{CMBEvolve} to out-of-distribution detection in weak-lensing maps, where it iteratively improves the benchmark score through code evolution, and \\texttt{CosmoEvolve} to autonomous ACT DR6 data analysis, where it identifies non-trivial pair- and scale-dependent behaviour and produces analysis-grade diagnostics. These examples show how cosmology can provide both controlled benchmark tasks and realistic open-ended research problems for the development of AI scientist systems.",
+  "title_relatable": "AI agents that do cosmology research without being asked twice",
+  "hook": "Two autonomous AI systems independently tackle cosmology tasks—one optimizing weak-lensing detection, the other analyzing real telescope data—without step-by-step human instruction.",
+  "summary": "CMBEvolve uses large language model-guided code evolution and tree search to iteratively improve performance on benchmark tasks, demonstrated here on out-of-distribution detection in weak-lensing maps. CosmoEvolve runs a virtual multi-agent research lab capable of open-ended workflows, autonomously analyzing ACT DR6 data and surfacing non-trivial scale- and pair-dependent signal behavior. Together, the two systems span the range from well-defined optimization targets to the messier reality of genuine data analysis. Cosmology, with its mix of clean benchmarks and complex real datasets, turns out to be a useful proving ground for testing how far AI autonomy can actually reach.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 895,
+  "tokens_out": 230,
+  "cost_usd": 0.006135,
+  "ingested_at": "2026-05-17T17:01:29.485131+00:00"
+}

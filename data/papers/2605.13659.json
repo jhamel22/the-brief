@@ -1,0 +1,24 @@
+{
+  "id": "2605.13659",
+  "arxiv_url": "https://arxiv.org/abs/2605.13659",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "hep-ex"
+  ],
+  "title_original": "Calorimetric approach to paleo-detection of dark matter",
+  "authors": "Samuel Hedges, Patrick Huber",
+  "abstract": "We present the first paleo-detector dark matter sensitivity analysis based on a calorimetric readout, in which the number of stable lattice vacancies produced by each nuclear recoil is used as a per-event observable complementary to the track length. Using full-cascade SRIM simulations in olivine, we compute the expected sensitivity for a 100 gGyr exposure. We find that a vacancy-only readout reaches a sensitivity envelope very similar to that of state-of-the-art track-only analyses. The combination of the two observables provides an event-by-event proxy for |dE/dx| and hence for the recoiling nuclear species. Since the neutron-nucleus cross section is approximately flat in nuclear mass while the dark-matter--nucleus cross section scales as $A^2$, this discrimination suppresses the dominant neutron background by more than an order of magnitude at moderate dark matter masses. The combined-analysis sensitivity reaches spin-independent dark-matter--nucleon cross sections of order $10^{-48}\\,\\mathrm{cm}^2$ at WIMP masses of a few tens of GeV, comparable to future direct detection experiments. A two-stage readout combining selective-plane illumination microscopy with scanning electron microscopy is identified as a path to making a 100 g-scale analysis plausible.",
+  "title_relatable": "Ancient crystals could rival next-generation dark matter detectors",
+  "hook": "Counting atomic vacancies in old minerals alongside track lengths lets paleo-detectors reject neutron backgrounds tenfold, pushing sensitivity to 10⁻⁴⁸ cm² — matching future dedicated experiments.",
+  "summary": "Paleo-detectors exploit nuclear recoil damage preserved in ancient minerals over geological timescales, trading live detector mass for billion-year exposure. Adding a count of stable lattice vacancies to the usual track-length measurement creates a per-event proxy for energy-loss rate, which differs between neutron-induced and WIMP-induced recoils because WIMP-nucleus scattering scales as A² while neutron scattering does not. Full-cascade SRIM simulations in olivine show this two-observable approach suppresses the dominant neutron background by more than an order of magnitude, reaching spin-independent cross sections near 10⁻⁴⁸ cm² for WIMPs around tens of GeV. A two-stage microscopy readout — combining light-sheet and scanning electron microscopy — is proposed to make a 100-gram-scale analysis experimentally feasible.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 979,
+  "tokens_out": 293,
+  "cost_usd": 0.007332,
+  "ingested_at": "2026-05-17T17:02:39.100914+00:00"
+}

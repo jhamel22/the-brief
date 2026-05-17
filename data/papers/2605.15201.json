@@ -1,0 +1,24 @@
+{
+  "id": "2605.15201",
+  "arxiv_url": "https://arxiv.org/abs/2605.15201",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Mixed-State Long-Range Entanglement from Dimensional Constraints",
+  "authors": "Leonardo A. Lessa, Tsung-Cheng Lu",
+  "abstract": "We present a new mechanism for long-range entanglement (LRE) in strongly symmetric many-body mixed states that does not rely on symmetry anomalies or long-range correlations. Our primary example is the maximally mixed state in the translation-invariant subspace on a one-dimensional ring. This state is LRE because translationally symmetric short-range entangled states span a subspace whose dimension grows only polynomially with system size, whereas the full translation-invariant subspace grows exponentially. We further discuss certain unconventional properties of this state, including logarithmically growing conditional mutual information, strong-to-weak spontaneous symmetry-breaking, and Rényi-index-dependent operator-space entanglement. We also construct a geometrically non-local Lindbladian to stabilize this state as the steady state. Our results identify dimensional mismatch as a novel route to LRE that is intrinsic to many-body mixed states.",
+  "title_relatable": "A new path to quantum entanglement built from counting, not symmetry",
+  "hook": "Long-range entanglement in mixed quantum states can arise simply because separable states are too few to fill the available space—no symmetry anomalies required.",
+  "summary": "Long-range entanglement in mixed many-body states has so far been tied to symmetry anomalies or long-range correlations. This work shows a third route: dimensional mismatch. In a one-dimensional ring restricted to translation-invariant states, short-range entangled states span only a polynomially large subspace while the full translation-invariant space is exponentially larger—so the maximally mixed state over that space is forced to be long-range entangled. The resulting state displays logarithmically growing conditional mutual information, strong-to-weak symmetry breaking, and Rényi-index-dependent entanglement, with a concrete Lindbladian construction that stabilizes it.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 904,
+  "tokens_out": 237,
+  "cost_usd": 0.006267,
+  "ingested_at": "2026-05-17T16:53:55.333549+00:00"
+}

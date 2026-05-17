@@ -1,0 +1,25 @@
+{
+  "id": "2605.15150",
+  "arxiv_url": "https://arxiv.org/abs/2605.15150",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.str-el",
+    "cs.CC",
+    "hep-th"
+  ],
+  "title_original": "Extensive long-range magic in non-Abelian topological orders",
+  "authors": "Yuzhen Zhang, Isaac H. Kim, Yimu Bao, Sagar Vijay",
+  "abstract": "We show that the low-energy states of non-Abelian topological orders possess extensive magic which is long-ranged, and cannot be eliminated by a constant-depth local unitary circuit. This refines conventional notions of complexity beyond the linear circuit depth which is required to prepare any topological phase, and provides a new resource-theoretic characterization of topological orders. A central technical result is a no-go theorem establishing that stabilizer states--even up to constant-depth local unitarie--cannot approximate low-energy states of non-Abelian string-net models which satisfy the entanglement bootstrap axioms. Moreover, we show that stabilizer-realizable Abelian string-net phases have mutual braiding phases quantized by the on-site qudit dimension, and that any violation of this condition necessarily implies extensive long-range magic. Extending to higher spatial dimensions, we argue that any state obeying an entanglement area law and hosting excitations with nontrivial fusion spaces must exhibit extensive long-range magic. This applies, in particular, to ground-states and low-energy states of higher-dimensional quantum double models.",
+  "title_relatable": "Non-Abelian anyons carry a form of complexity stabilizer circuits can never fake",
+  "hook": "Ground states of non-Abelian topological phases contain extensive, long-range 'magic' that no constant-depth quantum circuit built from stabilizer operations can remove or replicate.",
+  "summary": "Magic — the resource that makes quantum states hard to simulate classically — turns out to be deeply tied to the structure of non-Abelian topological order. A no-go theorem proves that stabilizer states cannot approximate the low-energy states of non-Abelian string-net models, even after applying a constant-depth local unitary. For Abelian phases, the paper identifies a precise braiding-phase condition whose violation forces extensive long-range magic. The result extends to higher dimensions: any area-law state hosting excitations with nontrivial fusion spaces must carry this irreducible complexity, sharpening how topological orders are classified as quantum resources.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 238,
+  "cost_usd": 0.006414,
+  "ingested_at": "2026-05-17T16:54:17.488532+00:00"
+}

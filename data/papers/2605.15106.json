@@ -1,0 +1,22 @@
+{
+  "id": "2605.15106",
+  "arxiv_url": "https://arxiv.org/abs/2605.15106",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Scalable self-testing of generic multipartite quantum states",
+  "authors": "Jinchang Liu, Elias X. Huber, Zhenyu Du, Xingjian Zhang, Xiongfeng Ma",
+  "abstract": "Characterizing large quantum systems with minimal assumptions is a central challenge in quantum information science. Self-testing provides the strongest form of certification by identifying the underlying quantum state solely from observed measurement statistics. However, existing self-testing methods for generic $n$-partite states face a scalability barrier, requiring exponentially many samples in the system size. In this work, we overcome this barrier by introducing a protocol that robustly self-tests almost all $n$-qubit states with only polynomial sample complexity. The key ingredient is an efficient scheme for device-independently evaluating multipartite Pauli measurements, which can be implemented using only a linear number of ancillary Bell pairs together with standard projective and Bell measurements, well within the reach of current quantum technology. Beyond self-testing states, our scheme provides a general framework for implementing a wide range of learning and certification protocols in the device-independent setting, thereby opening a scalable route to device-independent quantum information processing in large-scale quantum networks.",
+  "title_relatable": "Certifying large quantum systems without trusting the hardware",
+  "hook": "A new protocol can verify almost any multi-qubit quantum state using only polynomial measurements, breaking an exponential scaling barrier that made device-independent certification of large systems impractical.",
+  "summary": "Self-testing lets you confirm what quantum state a device holds using only its measurement statistics, no trust in the hardware required. Until now, doing this for many-qubit states demanded an exponentially growing number of samples, making it useless at scale. This protocol achieves the same certification with polynomial sample complexity by efficiently evaluating multipartite Pauli measurements via a linear number of ancillary Bell pairs and standard operations already within reach of current hardware. The result extends beyond state verification to a broad class of learning and certification tasks in device-independent quantum networks.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 916,
+  "tokens_out": 200,
+  "cost_usd": 0.005748,
+  "ingested_at": "2026-05-17T16:54:35.479207+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.15099",
+  "arxiv_url": "https://arxiv.org/abs/2605.15099",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.chem-ph",
+    "quant-ph"
+  ],
+  "title_original": "Two Protons, Two Positrons, and Four Electrons: Covalent Bond with van der Waals Characteristics",
+  "authors": "Jorge Charry, Alexandre Tkatchenko",
+  "abstract": "Classifying interactions is key in the physical sciences, and bonding mechanisms in matter-antimatter systems remain particularly enigmatic. Here we focus on a paradigmatic example of positronium hydride (PsH) dimer composed of two protons, two positrons, and four electrons, whose bonding nature has been previously described as either ionic, covalent, or van der Waals-like. Accurate quantum Monte Carlo calculations show that the two positrons occupy a delocalized molecular orbital that envelopes the two hydrogen anions and responds as a collective dipole to an applied electric field. This positronic bonding stems from quantum correlations that resemble a single covalent bond formed between negatively charged pseudo-nuclei, but with a bond strength commensurate with the traditional van der Waals interaction. Our findings suggest that the ability to form delocalized proto-bonds is a more general property of quantum systems, and could be present in a broader class of particles, antiparticles, and quasi-particles interacting with matter.",
+  "title_relatable": "Matter-antimatter molecules form bonds that defy easy classification",
+  "hook": "A quantum Monte Carlo study of the positronium hydride dimer resolves a long-standing dispute by showing its bond is simultaneously covalent in structure and van der Waals in strength.",
+  "summary": "Positronium hydride (PsH) pairs two hydrogen anions with two positrons — the antimatter counterpart of electrons — forming a molecule whose bonding type has been disputed for decades. Accurate quantum Monte Carlo calculations reveal that the two positrons occupy a single delocalized molecular orbital stretching across both hydrogen anions, behaving like a covalent bond built from negatively charged pseudo-nuclei. Despite this covalent geometry, the bond energy falls squarely in the van der Waals range, resolving the classification dispute by showing both descriptions are simultaneously correct. The result hints that delocalized proto-bonds may arise in a wider range of particle-antiparticle and quasi-particle systems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 924,
+  "tokens_out": 242,
+  "cost_usd": 0.006402,
+  "ingested_at": "2026-05-17T16:54:41.656102+00:00"
+}

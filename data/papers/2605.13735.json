@@ -1,0 +1,24 @@
+{
+  "id": "2605.13735",
+  "arxiv_url": "https://arxiv.org/abs/2605.13735",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "astro-ph.IM"
+  ],
+  "title_original": "A New PSF Deconvolution Algorithm: Simultaneous Spatial Resolution Enhancement and Point Source Removal for Morphological Analysis of AGN Host Galaxies",
+  "authors": "Ren Kawase, Takatoshi Shibuya, Kazunori Matsuda",
+  "abstract": "We propose a new point-spread function (PSF) deconvolution algorithm for images of galaxies hosting an active galactic nucleus (AGN), designed to simultaneously enhance the spatial resolution of the host galaxy and remove the bright central point source. In this algorithm, an intrinsic image is reconstructed by decomposing an observed image into two components: an image $I_{\\rm sm}$ of an extended component (i.e., a host galaxy) and an image $I_{\\rm sp}$ of a point-source component (i.e., an AGN). During image reconstruction, three constraints are imposed: (1) a smooth constraint on the image $I_{\\rm sm}$ , which spatially smooths the host-galaxy structures; (2) a sparse constraint on the image $I_{\\rm sp}$ , which localizes the point source to a small number of pixels; and (3) a new constraint, the point-source balance constraint, based on the pixel-wise product $I_{\\rm sm} \\times I_{\\rm sp}$ , which removes the point source from the host galaxy without over- or under-subtraction. As a test, we apply this algorithm to images of artificial and $z \\sim 0-1$ real AGNs observed with Hyper Suprime-Cam on the Subaru Telescope. We find that the spatial resolution of the host-galaxy images is improved to a level comparable to that of images from the Hubble Space Telescope and that the bright central point sources are removed. This algorithm is expected to enable statistical morphological studies of distant AGN host galaxies when applied to wide-field survey data from the Vera C. Rubin Observatory, the Euclid Space Telescope, and the Roman Space Telescope.",
+  "title_relatable": "Ground-based galaxy images sharpened to Hubble quality by new algorithm",
+  "hook": "A new deconvolution method simultaneously sharpens AGN host galaxy images and removes the blinding central point source, bringing ground-based Subaru data to Hubble-like resolution.",
+  "summary": "Studying the galaxies that host active galactic nuclei is hard because the brilliant central point source drowns out the fainter surrounding structure. This algorithm splits each image into a smooth extended component (the galaxy) and a sparse point-source component (the AGN), then applies a novel 'balance constraint' on their pixel-wise product to prevent over- or under-subtraction. Applied to Hyper Suprime-Cam images of AGNs at redshifts 0–1, the recovered host-galaxy morphologies match Hubble Space Telescope quality. The method is designed to scale to wide-field surveys like Rubin, Euclid, and Roman, enabling large statistical studies of how galaxy structure relates to nuclear activity.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1108,
+  "tokens_out": 252,
+  "cost_usd": 0.007104,
+  "ingested_at": "2026-05-17T17:02:24.992970+00:00"
+}

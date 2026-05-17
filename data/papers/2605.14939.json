@@ -1,0 +1,23 @@
+{
+  "id": "2605.14939",
+  "arxiv_url": "https://arxiv.org/abs/2605.14939",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "physics.plasm-ph",
+    "cs.LG"
+  ],
+  "title_original": "Real-time virtual circuits for plasma shape control via neural network emulators",
+  "authors": "Alasdair Ross, George K. Holt, Kamran Pentland, Adriano Agnello, Nicola C. Amorisco, Pedro Cavestany, Aran Garrod, Timothy Nunn, Charles Vincent, Graham McArdle",
+  "abstract": "Reliable position and shape control in tokamak plasmas requires accurate real-time regulation of several strongly coupled shape parameters. The control vectors that disentangle these couplings, referred to as \\textit{virtual circuits} (VCs), enable independent shape parameter control for a specific Grad--Shafranov (GS) equilibrium. Numerical calculation of VCs is not currently feasible in real time, therefore VCs are usually computed prior to each experiment, using a small number of reference GS equilibria sampled along the desired scenario trajectory, with each VC used to control the plasma within a preset time interval. While effective near the reference equilibrium, this approach can lead to degraded performance as the plasma departs from the reference equilibrium and/or from the desired trajectory, and it complicates the design of robust control strategies for rapidly evolving plasma configurations. In this paper, we construct neural-network-based emulators of plasma shape parameters from which VCs can be derived, to provide the MAST Upgrade (MAST-U) plasma control system with state-aware VCs in real-time. To do this, we develop an extensive library of over a million simulated GS equilibria, covering a substantial portion of the MAST-U operational space. These emulators provide differentiable functions whose gradients can be rapidly computed, enabling the derivation of accurate VCs for real-time shape control. We perform extensive verification of the emulated VCs by testing whether they disentangle the control problem. The neural-network-based approach delivers high accuracy and orthogonality across a diverse range of equilibria. This work establishes the physical validity of emulated VCs as a scalable and general alternative to schedules of precomputed VCs.",
+  "title_relatable": "Neural networks enable real-time plasma shape control in fusion reactors",
+  "hook": "Precomputed control vectors for tokamak plasma shaping degrade as conditions evolve; neural network emulators trained on over a million simulated equilibria now deliver accurate, real-time adaptive control for MAST Upgrade.",
+  "summary": "Tokamak plasma control requires continuously adjusting multiple coupled shape parameters, but the mathematical tools that decouple those parameters — called virtual circuits — are too expensive to compute during an experiment. Instead of relying on a handful of pre-run reference calculations that lose accuracy as plasma drifts, this work trains neural network emulators on a library of over one million simulated Grad–Shafranov equilibria covering the MAST Upgrade operational space. Because the emulators are differentiable, their gradients yield accurate virtual circuits on demand in real time. Verification tests confirm the emulated circuits maintain high accuracy and orthogonality across a wide range of plasma configurations, making this a scalable replacement for fixed pre-scheduled control vectors in fusion devices.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1110,
+  "tokens_out": 260,
+  "cost_usd": 0.00723,
+  "ingested_at": "2026-05-17T16:58:11.475575+00:00"
+}

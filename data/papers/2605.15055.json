@@ -1,0 +1,23 @@
+{
+  "id": "2605.15055",
+  "arxiv_url": "https://arxiv.org/abs/2605.15055",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models",
+  "authors": "Quanhao Li, Junqiu Yu, Kaixun Jiang, Yujie Wei, Zhen Xing, Pandeng Li, Ruihang Chu, Shiwei Zhang, Yu Liu, Zuxuan Wu",
+  "abstract": "Reinforcement learning has emerged as a powerful tool for improving diffusion-based text-to-image models, but existing methods are largely limited to single-task optimization. Extending RL to multiple tasks is challenging: joint optimization suffers from cross-task interference and imbalance, while cascade RL is cumbersome and prone to catastrophic forgetting. We propose DiffusionOPD, a new multi-task training paradigm for diffusion models based on Online Policy Distillation (OPD). DiffusionOPD first trains task-specific teachers independently, then distills their capabilities into a unified student along the student own rollout trajectories. This decouples single-task exploration from multi-task integration and avoids the optimization burden of solving all tasks jointly from scratch. Theoretically, we lift the OPD framework from discrete tokens to continuous-state Markov processes, deriving a closed-form per-step KL objective that unifies both stochastic SDE and deterministic ODE refinement via mean-matching. We formally and empirically demonstrate that this analytic gradient provides lower variance and better generality compared to conventional PPO-style policy gradients. Extensive experiments show that DiffusionOPD consistently surpasses both multi-reward RL and cascade RL baselines in training efficiency and final performance, while achieving state-of-the-art results on all evaluated benchmarks.",
+  "title_relatable": "One model trained to master multiple image generation goals at once",
+  "hook": "DiffusionOPD distills separately trained expert models into a single student via online policy distillation, outperforming both joint multi-reward RL and cascade RL baselines in training efficiency and final benchmark scores.",
+  "summary": "Applying reinforcement learning to text-to-image diffusion models typically targets one objective at a time; optimizing multiple rewards jointly causes task interference and forgetting. DiffusionOPD sidesteps this by training independent task-specific teacher models, then distilling all of them into one student model along the student's own generation trajectories. The key technical contribution is extending the online policy distillation framework from discrete token spaces to continuous diffusion processes, deriving a closed-form per-step KL objective that covers both SDE and ODE samplers through mean-matching — yielding lower-variance gradients than standard PPO. The approach reaches top results across all tested benchmarks while being more training-efficient than existing multi-task RL alternatives.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1044,
+  "tokens_out": 256,
+  "cost_usd": 0.006972,
+  "ingested_at": "2026-05-17T16:59:43.021155+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.14985",
+  "arxiv_url": "https://arxiv.org/abs/2605.14985",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.quant-gas",
+    "cond-mat.supr-con",
+    "quant-ph"
+  ],
+  "title_original": "Larkin-Ovchinnikov-Fulde-Ferrell state of spin polarized atomic Fermi superfluid on a spherical surface",
+  "authors": "Yan He, Chih-Chun Chien",
+  "abstract": "By implementing the Bogoliubov-de Gennes (BdG) formalism of population-imbalanced atomic Fermi gases with pairing interactions in a thin spherical shell, we characterize the Larkin-Ovchinnikov-Fulde-Ferrell (LOFF) state in such a compact geometry. We first construct a phase diagram showing where uniform solutions of spin-polarized Fermi superfluid from the BdG equation cease to exist due to the vanishing order parameter. Near the boundary, various LOFF states with spatially modulating order parameters and density profiles can survive as convergent solutions to the BdG equation. When both uniform and LOFF solutions are present, we compare their grand potentials to determine the energetically favorable state and find that the LOFF states with multiple nodes in the order parameter become more stable at higher spin polarization. However, the LOFF state only survives close to the phase boundary where the uniform solutions vanish, indicating fragility of the LOFF state on a spherical surface. We also briefly discuss possible implications.",
+  "title_relatable": "Exotic paired fermion state mapped onto a spherical shell",
+  "hook": "Confining spin-imbalanced fermionic superfluids to a spherical surface reveals where exotic spatially modulating pairing survives — and just how fragile it is.",
+  "summary": "Solving the Bogoliubov-de Gennes equations on a thin spherical shell, the authors map out where ordinary uniform superfluidity breaks down in a spin-polarized Fermi gas and where the exotic Larkin-Ovchinnikov-Fulde-Ferrell (LOFF) state — characterized by a spatially oscillating order parameter — can take over. LOFF states with more nodes in the order parameter become energetically preferred at higher spin polarization, but they survive only in a narrow sliver near the boundary where uniform superfluidity disappears. The result quantifies the geometric fragility of LOFF pairing on curved compact surfaces, relevant to ultracold gas experiments using shell-trap geometries.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 247,
+  "cost_usd": 0.006549,
+  "ingested_at": "2026-05-17T16:55:46.586722+00:00"
+}

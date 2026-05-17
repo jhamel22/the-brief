@@ -1,0 +1,22 @@
+{
+  "id": "2605.15183",
+  "arxiv_url": "https://arxiv.org/abs/2605.15183",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+  "authors": "ML Nissen Gonzalez, Melwina Albuquerque, Laurence Wroe, Jacob Meyer Cohen, Logan Riggs Smith, Thomas Dooms",
+  "abstract": "Mechanistic interpretability aims to break models into meaningful parts; verifying that two such parts implement the same computation is a prerequisite. Existing similarity measures evaluate either empirical behaviour, leaving them blind to out-of-distribution mechanisms, or basis-dependent parameters, meaning they disregard weight-space symmetries. To address these issues for the class of tensor-based models, we introduce a weight-based metric, tensor similarity, that is invariant to such symmetries. This metric captures global functional equivalence and accounts for cross-layer mechanisms using an efficient recursive algorithm. Empirically, tensor similarity tracks functional training dynamics, such as grokking and backdoor insertion, with higher fidelity than existing metrics. This reduces measuring similarity and verifying faithfulness into a solved algebraic problem rather than one of empirical approximation.",
+  "title_relatable": "A rigorous metric for deciding when two neural networks are equivalent",
+  "hook": "Tensor similarity is a weight-based metric that detects when two network components implement the same computation, outperforming existing measures on tracking training phenomena like grokking and backdoor insertion.",
+  "summary": "Mechanistic interpretability requires confirming that two model components perform identical computations, but existing tools either rely on behavioral tests that miss out-of-distribution behavior or compare raw weights without accounting for symmetries in weight space. Tensor similarity addresses both problems for tensor-based models by constructing a metric invariant to weight-space symmetries while capturing cross-layer mechanisms via a recursive algorithm. In experiments, it tracks functional training dynamics — including grokking and backdoor insertion — with higher fidelity than prior metrics. The result reduces similarity verification from an empirical approximation problem to a solved algebraic one.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 885,
+  "tokens_out": 215,
+  "cost_usd": 0.00588,
+  "ingested_at": "2026-05-17T16:58:29.667169+00:00"
+}

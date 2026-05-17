@@ -1,0 +1,24 @@
+{
+  "id": "2605.15146",
+  "arxiv_url": "https://arxiv.org/abs/2605.15146",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "hep-ex"
+  ],
+  "title_original": "Effective Matter Flavor Conversion Mediated by Pseudo-Sterile States as the Possible Origin of Neutrino Oscillation Anomalies",
+  "authors": "Sabya Sachi Chatterjee, Antonio Palazzo",
+  "abstract": "Neutrino oscillation experiments present anomalous results across a vast range of baselines and energies. Here we show that a 3+1 scenario in which sterile neutrinos feel a novel matter potential $V_s$ proportional to background density of ordinary or (asymmetric) dark matter is able to explain several anomalies. At low-energies ($E\\lesssim$ 1 TeV) the model behaves as an effective 3-flavor NSI-like scheme among active flavors and eliminates the tension between the two LBL experiments NOvA and T2K provided that the potential is negative and the two sterile mixing angles $θ_{14}$ and $θ_{24}$ are non-zero. A further indication in favor of a negative non-zero potential comes from the anomalous excess of $ν_e$-like events observed in Super-Kamiokande atmospheric neutrinos, which, in the new scenario is explained by a modification of the 3-flavor resonance at few GeV. A high energies ($E\\gtrsim $ 1 TeV) the new framework reveals its 4-flavor nature and produces a resonant behavior at $E \\simeq$ 10 TeV as hinted at by IceCube. We identify an irreducible 3-level dynamics generating a new resonance in the $(ν_e, ν_μ)$ sector intertwined with two conventional resonances in the $(ν_e, ν_s$) and $(ν_μ, ν_s)$ systems. The novel amplification mechanism manifests with the emergence of effective mixing angles in matter ($θ_{12}^m$ or $θ_{13}^m$) involving active neutrinos. The scenario requires values of $f = V_s/|V_{NC}| \\sim -20 $, $Δm^2_{41} \\sim 60 $ eV$^2$, $|U_{e4}|^2\\simeq \\sin^2θ_{14} \\simeq 0.01-0.03$ and $|U_{\\mu4}|^2 \\simeq \\sin^2θ_{24}\\simeq 10^{-4}-10^{-3}$. Such a very small size of $|U_{\\mu4}|^2$ eliminates the tension between IceCube and the other $ν_μ$ disappearance searches. The model can be directly probed by KATRIN, which is very sensitive to the electron-sterile neutrino admixture in the region of high $Δm^2_{41}$.",
+  "title_relatable": "One sterile neutrino model to explain four separate anomalies",
+  "hook": "A sterile neutrino that couples to a new matter potential can simultaneously resolve the NOvA–T2K tension, the Super-Kamiokande excess, and IceCube's 10 TeV hint without conflicting with disappearance searches.",
+  "summary": "A single 3+1 neutrino framework, where a sterile state experiences a novel matter potential tied to ordinary or dark matter density, mimics standard three-flavor non-standard interactions at low energies while revealing a distinct four-flavor resonance near 10 TeV. The model resolves the NOvA–T2K tension, accounts for the anomalous electron-neutrino excess in Super-Kamiokande atmospheric data, and aligns with the IceCube spectral hint — all with a very small muon-sterile mixing that avoids conflict with muon-neutrino disappearance bounds. The parameter space is directly testable: KATRIN is sensitive to the required electron-sterile admixture at the predicted mass-squared splitting of ~60 eV².",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1325,
+  "tokens_out": 282,
+  "cost_usd": 0.008205,
+  "ingested_at": "2026-05-17T17:01:17.859966+00:00"
+}

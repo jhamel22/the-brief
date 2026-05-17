@@ -1,0 +1,24 @@
+{
+  "id": "2605.15082",
+  "arxiv_url": "https://arxiv.org/abs/2605.15082",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "math.ST"
+  ],
+  "title_original": "Average Gradient Outer Product in kernel regression provably recovers the central subspace for multi-index models",
+  "authors": "Libin Zhu, Damek Davis, Dmitriy Drusvyatskiy, Maryam Fazel",
+  "abstract": "We study a prototypical situation when a learned predictor can discover useful low-dimensional structure in data, while using fewer samples than are needed for accurate prediction. Specifically, we consider the problem of recovering a multi-index polynomial $f^*(x)=h(Ux)$, with $U\\in\\mathbb{R}^{r\\times d}$ and $r\\ll d$, from finitely many data/label pairs. Importantly, the target function depends on input $x$ only through the projection onto an unknown $r$-dimensional central subspace. The algorithm we analyze is appealingly simple: fit kernel ridge regression (KRR) to the data and compute the Average Gradient Outer Product (AGOP) from the fitted predictor. Our main results show that under reasonable assumptions the top $r$-dimensional eigenspace of AGOP provably recovers the central subspace, even in regimes when the prediction error remains large. Specifically, if the target function $f^*$ has degree $p^*$, it is known that $n\\asymp d^{p^*}$ samples are necessary for KRR to achieve accurate prediction. In contrast, we show that if a low degree $p$ component of $f^*$ already carries all relevant directions for prediction, subspace recovery occurs in the much lower sample regime $n\\asymp d^{p+δ}$ for any $δ\\in(0,1)$. Our results thus demonstrate a separation between prediction and representation, and provide an explanation for why iterative kernel methods such as Recursive Feature Machines (RFM) can be sample-efficient in practice.",
+  "title_relatable": "Finding hidden low-dimensional structure before accurate prediction is possible",
+  "hook": "A simple kernel regression method can recover the relevant low-dimensional subspace of a function using far fewer samples than needed for accurate prediction — requiring only d^(p+δ) samples instead of d^(p*) .",
+  "summary": "Many real datasets lie near a low-dimensional subspace, and finding that subspace efficiently is valuable even when full prediction is still out of reach. This work proves that fitting kernel ridge regression and then computing the Average Gradient Outer Product (AGOP) of the fitted model reliably identifies the central subspace of a multi-index polynomial, in a sample regime exponentially smaller than what accurate prediction requires. The result provides a theoretical explanation for why iterative kernel methods like Recursive Feature Machines work well in practice despite limited data. The contribution is primarily theoretical, establishing a formal separation between representation learning and prediction.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1071,
+  "tokens_out": 221,
+  "cost_usd": 0.006528,
+  "ingested_at": "2026-05-17T16:59:31.658179+00:00"
+}

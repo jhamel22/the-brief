@@ -1,0 +1,23 @@
+{
+  "id": "2605.14938",
+  "arxiv_url": "https://arxiv.org/abs/2605.14938",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "Octopus: History-Free Gradient Orthogonalization for Continual Learning in Multimodal Large Language Models",
+  "authors": "Yuehao Liu, Shanyan Guan, Weijia Zhang, Xuanming Shang, Yanhao Ge, Wei Li, Chao Ma",
+  "abstract": "Continual learning in multimodal large language models (MLLMs) aims to sequentially acquire knowledge while mitigating catastrophic forgetting, yet existing methods face inherent limitations: architecture-based approaches incur additional computational overhead and often generalize poorly to new tasks, rehearsal-based methods rely on storing historical data, raising privacy and storage concerns, and conventional regularization-based strategies alone are insufficient to fully prevent parameter interference. We propose Octopus, a two-stage continual learning framework based on History-Free Gradient Orthogonalization (HiFGO), which enforces gradient-level orthogonality without historical task data. Our proposed two-stage finetuning strategy decouples task adaptation from regularization, achieving a principled balance between plasticity and stability. Experiments on UCIT show that Octopus establishes state-of-the-art performance, surpassing prior SOTA by 2.14% and 6.82% in terms of Avg and Last.",
+  "title_relatable": "Teaching multimodal AI new tasks without forgetting old ones",
+  "hook": "Octopus prevents catastrophic forgetting in multimodal language models by aligning gradients orthogonally to past tasks — no stored historical data required — surpassing prior methods by up to 6.82% on the UCIT benchmark.",
+  "summary": "As multimodal large language models learn new tasks sequentially, they tend to overwrite previously acquired knowledge — a problem called catastrophic forgetting. Existing fixes either store past training data (raising privacy concerns) or add architectural overhead that hurts generalization. Octopus sidesteps both issues with History-Free Gradient Orthogonalization (HiFGO), which constrains new gradient updates to be orthogonal to directions that would disturb prior task parameters, using no historical examples. A two-stage fine-tuning strategy separates task adaptation from regularization, balancing plasticity and stability. On the UCIT continual learning benchmark, Octopus outperforms the previous best by 2.14% on average accuracy and 6.82% on last-task accuracy.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 940,
+  "tokens_out": 272,
+  "cost_usd": 0.0069,
+  "ingested_at": "2026-05-17T16:58:18.480584+00:00"
+}

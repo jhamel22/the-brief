@@ -1,0 +1,25 @@
+{
+  "id": "2605.15194",
+  "arxiv_url": "https://arxiv.org/abs/2605.15194",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "hep-th",
+    "math.CT",
+    "quant-ph"
+  ],
+  "title_original": "Non-Invertible Symmetries on Tensor-Product Hilbert Spaces and Quantum Cellular Automata",
+  "authors": "Rui Wen, Kansei Inamura, Sakura Schafer-Nameki",
+  "abstract": "We investigate realizations of (1+1)-dimensional fusion category symmetries on tensor-product Hilbert spaces, allowing for mixing with quantum cellular automata (QCAs). It was argued recently that any such realizable symmetry must be weakly integral. We develop a systematic analysis of QCA-refined realizations of fusion categories and prove two statements. First, we show that, under certain physical assumptions on defects, any QCA-refined realization has QCA and symmetry-operator indices determined by the categorical data, up to the freedom of redefining the symmetry operators. Second, we construct a lattice model that provides a QCA-refined realization for any weakly integral fusion category symmetry on a tensor product Hilbert space. We also compute indices of the QCAs in our lattice model and show agreement with the first result. As an application of the general construction, we give an explicit QCA-refined realization of general Tambara-Yamagami categorical symmetries.",
+  "title_relatable": "How exotic quantum symmetries live on ordinary lattice systems",
+  "hook": "Any so-called weakly integral fusion category symmetry can be realized on a standard tensor-product lattice, and the construction pins down the underlying quantum cellular automaton index from pure algebraic data.",
+  "summary": "Fusion category symmetries generalize ordinary group symmetries and underlie much of modern topological phases research, but how they embed into concrete lattice Hilbert spaces has been unclear. This work proves that the quantum cellular automaton (QCA) structure accompanying any such realization is fixed—up to a natural redefinition freedom—by the category's algebraic data alone. The authors then explicitly construct a lattice model realizing any weakly integral fusion category symmetry, confirming the index formula and providing hands-on examples for Tambara-Yamagami categories, which include the symmetries of many self-dual critical points.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 925,
+  "tokens_out": 221,
+  "cost_usd": 0.00609,
+  "ingested_at": "2026-05-17T16:54:06.586097+00:00"
+}

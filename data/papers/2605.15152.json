@@ -1,0 +1,23 @@
+{
+  "id": "2605.15152",
+  "arxiv_url": "https://arxiv.org/abs/2605.15152",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Widening the Gap: Exploiting LLM Quantization via Outlier Injection",
+  "authors": "Xiaohua Zhan, Kazuki Egashira, Robin Staab, Mark Vero, Martin Vechev",
+  "abstract": "LLM quantization has become essential for memory-efficient deployment. Recent work has shown that quantization schemes can pose critical security risks: an adversary may release a model that appears benign in full precision but exhibits malicious behavior once quantized by users. However, existing quantization-conditioned attacks have been limited to relatively simple quantization methods, where the attacker can estimate weight regions that remain invariant under the target quantization. Notably, prior attacks have consistently failed to compromise more popular and sophisticated schemes, limiting their practical impact. In this work, we introduce the first quantization-conditioned attack that consistently induces malicious behavior that can be triggered by a broad range of advanced quantization techniques, including AWQ, GPTQ, and GGUF I-quants. Our attack exploits a simple property shared by many modern quantization methods: large outliers can cause other weights to be rounded to zero. Consequently, by injecting outliers into specific weight blocks, an adversary can therefore induce a targeted, predictable weight collapse in the model. This effect can be used to craft seemingly benign full-precision models that exhibit a wide range of malicious behaviors after quantization. Through extensive evaluation across three attack scenarios and LLMs, we show that our attack achieves high success rates against a broad range of quantization methods on which prior attacks fail. Our results demonstrate, for the first time, that the security risks of quantization are not restricted to simpler schemes but are broadly relevant across complex, widely-used quantization methods.",
+  "title_relatable": "Hiding malware in AI models that only activates after compression",
+  "hook": "By injecting large numerical outliers into model weights, attackers can make a seemingly clean LLM turn malicious only after users apply popular quantization methods like AWQ, GPTQ, or GGUF — the first attack to work reliably across all three.",
+  "summary": "LLM quantization reduces memory requirements but creates a hidden attack surface: a model can be released appearing harmless at full precision, then behave maliciously once compressed by end users. Previous attacks only worked against simple quantization schemes and failed against widely-used methods like AWQ, GPTQ, and GGUF. This work exploits a property common to modern quantization: injecting large outlier values into specific weight blocks causes surrounding weights to collapse to zero during quantization, producing predictable, targeted behavioral changes. Evaluated across three attack scenarios, the method achieves high success rates where all prior attacks failed, showing that quantization security risks extend to the most popular deployment pipelines.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1029,
+  "tokens_out": 253,
+  "cost_usd": 0.006882,
+  "ingested_at": "2026-05-17T16:59:12.304187+00:00"
+}

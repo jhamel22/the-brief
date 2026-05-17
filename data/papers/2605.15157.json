@@ -1,0 +1,23 @@
+{
+  "id": "2605.15157",
+  "arxiv_url": "https://arxiv.org/abs/2605.15157",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
+  "authors": "Zhuohang Li, Liqun Huang, Wei Xu, Zhengming Zhu, Nie Lin, Xiao Ma, Xinjun Sheng, Ruoshi Wen",
+  "abstract": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Interactive Imitation Learning (IIL) can refine policies through human takeover data, applying it to high-degree-of-freedom (DoF) robotic hands remains challenging due to a command mismatch between human teleoperation and policy execution at the takeover moment, which causes abrupt robot-hand configuration changes, or \"gesture jumps\". We present Hand-in-the-Loop (HandITL), a seamless human-in-the-loop intervention method that blends human corrective intent with autonomous policy execution to avoid gesture jumps during bimanual dexterous manipulation. Compared with direct teleoperation takeover, HandITL reduces takeover jitter by 99.8% and preserves robust post-takeover manipulation, reducing grasp failures by 87.5% and mean completion time by 19.1%. We validate HandITL on tasks requiring bimanual coordination, tool use, and fine-grained long-horizon manipulation. When used to collect intervention data for policy refinement, HandITL yields policies that outperform those trained with standard teleoperation data by 19% on average across three long-horizon dexterous tasks.",
+  "title_relatable": "Letting humans smoothly correct robot hand mistakes mid-task",
+  "hook": "A blended takeover system eliminates the jerky \"gesture jumps\" that occur when humans intervene in dexterous robot manipulation, reducing jitter by 99.8% and cutting grasp failures by 87.5%.",
+  "summary": "Vision-Language-Action models accumulate errors during complex hand manipulation tasks, but human correction is itself problematic: when a teleoperator seizes control, the robot's hand configuration snaps discontinuously, causing failures. HandITL blends the human's corrective input with the robot's ongoing policy output so transitions are smooth rather than abrupt. The system also generates higher-quality intervention data for policy refinement — policies retrained on HandITL data outperform those trained on standard teleoperation data by 19% across three long-horizon dexterous tasks involving bimanual coordination and tool use. The work targets robotics researchers and practitioners deploying high-DoF robot hands in contact-rich settings.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1028,
+  "tokens_out": 250,
+  "cost_usd": 0.006834,
+  "ingested_at": "2026-05-17T16:58:47.112429+00:00"
+}

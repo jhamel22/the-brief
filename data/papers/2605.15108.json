@@ -1,0 +1,26 @@
+{
+  "id": "2605.15108",
+  "arxiv_url": "https://arxiv.org/abs/2605.15108",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.IR",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Logging Policy Design for Off-Policy Evaluation",
+  "authors": "Connor Douglas, Joel Persson, Foster Provost",
+  "abstract": "Off-policy evaluation (OPE) estimates the value of a target treatment policy (e.g., a recommender system) using data collected by a different logging policy. It enables high-stakes experimentation without live deployment, yet in practice accuracy depends heavily on the logging policy used to collect data for computing the estimate. We study how to design logging policies that minimize OPE error for given target policies. We characterize a fundamental reward-coverage tradeoff: concentrating probability mass on high-reward actions reduces variance but risks missing signal on actions the target policy may take. We propose a unifying framework for logging policy design and derive optimal policies in canonical informational regimes where the target policy and reward distribution are (i) known, (ii) unknown, and (iii) partially known through priors or noisy estimates at logging time. Our results provide actionable guidance for firms choosing among multiple candidate recommendation systems. We demonstrate the importance of treatment selection when gathering data for OPE, and describe theoretically optimal approaches when this is a firm's primary objective. We also distill practical design principles for selecting logging policies when operational constraints prevent implementing the theoretical optimum.",
+  "title_relatable": "How to collect better data for testing recommendation systems offline",
+  "hook": "When you can't A/B test live, the data-collection policy itself determines how accurately you can evaluate new recommendation systems — this work derives optimal logging strategies across different information conditions.",
+  "summary": "Off-policy evaluation lets companies compare recommendation algorithms without live deployment, but its accuracy depends critically on how the data-collection (logging) policy is designed — a problem largely ignored in practice. This paper formalizes a reward-coverage tradeoff: focusing data collection on high-reward actions reduces variance but can leave gaps where the candidate policy might act. The authors derive theoretically optimal logging policies for three real-world scenarios — when the target policy and rewards are known, unknown, or only partially known — and distill practical design principles for cases where the optimum is operationally infeasible. The work is primarily theoretical but directly actionable for firms running offline experimentation at scale.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 917,
+  "tokens_out": 224,
+  "cost_usd": 0.006111,
+  "ingested_at": "2026-05-17T16:59:25.524045+00:00"
+}

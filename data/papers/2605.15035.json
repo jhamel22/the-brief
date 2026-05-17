@@ -1,0 +1,22 @@
+{
+  "id": "2605.15035",
+  "arxiv_url": "https://arxiv.org/abs/2605.15035",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "TopoPrimer: The Missing Topological Context in Forecasting Models",
+  "authors": "Zara Zetlin, Kayhan Moharreri, Maria Safi",
+  "abstract": "We introduce TopoPrimer, a framework that makes the global topological structure of the series population an explicit input to any forecasting model. TopoPrimer improves accuracy across diverse domains, stabilizes forecasts under seasonal demand spikes, and closes the cold-start gap. Precomputed once per domain via persistent homology and spectral sheaf coordinates, TopoPrimer deploys per token for fully-trained models and as a lightweight adapter for pre-trained backbones. Of these two components, sheaf coordinates are the primary accuracy driver. Across four public benchmarks on Chronos and TimesFM, TopoPrimer consistently improves forecasting accuracy, with gains of up to 7.3% MSE on ECL. The topology advantage persists with near-identical magnitude across zero-shot and fine-tuned backbones, suggesting topology and per-series training capture complementary signals. The gains are most pronounced in difficult regimes. Under peak seasonal demand, classical and zero-shot models degrade by up to 50%, while TopoPrimer stays within 10%. At cold start with no item history, TopoPrimer reduces MAE by 27% over a topology-free baseline.",
+  "title_relatable": "Giving forecasting models a map of the data's hidden shape",
+  "hook": "TopoPrimer adds global topological structure as an explicit input to any forecasting model, cutting MSE by up to 7.3% on ECL and reducing cold-start MAE by 27% over topology-free baselines.",
+  "summary": "Most time-series forecasters treat each series in isolation, missing structural relationships across the full population. TopoPrimer computes persistent homology and spectral sheaf coordinates once per domain, then injects this topological context as input tokens or a lightweight adapter for pre-trained models like Chronos and TimesFM. Tested across four public benchmarks, the gains hold equally in zero-shot and fine-tuned settings — suggesting topology captures something orthogonal to per-series training. The advantage is sharpest under stress: during peak seasonal demand, standard models degrade by up to 50% while TopoPrimer stays within 10% of baseline accuracy.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 949,
+  "tokens_out": 241,
+  "cost_usd": 0.006462,
+  "ingested_at": "2026-05-17T16:58:04.820462+00:00"
+}

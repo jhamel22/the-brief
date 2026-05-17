@@ -1,0 +1,25 @@
+{
+  "id": "2605.15174",
+  "arxiv_url": "https://arxiv.org/abs/2605.15174",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cs.IT",
+    "math-ph"
+  ],
+  "title_original": "Universal quantum resource distillation via composite generalised quantum Stein's lemma",
+  "authors": "Ludovico Lami, Bartosz Regula, Ryuji Takagi",
+  "abstract": "The performance of quantum resource manipulation protocols, including key examples such as distillation of quantum entanglement, is measured in terms of the rate at which desired target states can be produced from a given noisy state. However, to achieve optimal rates, known protocols require precise tailoring to the quantum state in question, demanding a perfect knowledge of the input and allowing no errors in its preparation. Here we show that distillation of quantum resources in the framework of resource non-generating operations can be performed universally: optimal rates of distillation can be achieved with no knowledge of the input state whatsoever, certifying the robustness of quantum resource distillation. The findings apply in particular to the purification of quantum entanglement under non-entangling maps, where the optimal rates are governed by the regularised relative entropy of entanglement. Our result relies on an extension of the generalised quantum Stein's lemma in quantum hypothesis testing to a composite setting where the null hypothesis is no longer a fixed quantum state, but is rather composed of i.i.d. copies of an unknown state. The solution of this asymptotic problem is made possible through new developments in one-shot quantum information and a refinement of the blurring technique from [Lami, arXiv:2408.06410].",
+  "title_relatable": "Quantum distillation works even when you don't know your input state",
+  "hook": "Optimal quantum resource distillation — including entanglement purification — can be achieved with zero knowledge of the input state, making the process robust to preparation errors.",
+  "summary": "Purifying quantum resources like entanglement normally requires knowing exactly what noisy state you're working with. This work proves that isn't necessary: universal protocols exist that hit optimal distillation rates regardless of the input, under resource non-generating operations. The key technical engine is a generalization of the quantum Stein's lemma to a composite hypothesis-testing setting, where the null hypothesis is an unknown i.i.d. state rather than a fixed one. For entanglement specifically, the optimal rates are still governed by the regularised relative entropy of entanglement, confirming that universality costs nothing in performance.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 977,
+  "tokens_out": 215,
+  "cost_usd": 0.006156,
+  "ingested_at": "2026-05-17T16:54:11.653478+00:00"
+}

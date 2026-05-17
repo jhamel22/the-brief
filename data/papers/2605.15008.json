@@ -1,0 +1,22 @@
+{
+  "id": "2605.15008",
+  "arxiv_url": "https://arxiv.org/abs/2605.15008",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Majorana Constellations: A Geometric Lens on Multipartite Entanglement and Geometric Phases",
+  "authors": "Chon-Fai Kam",
+  "abstract": "The Majorana stellar representation translates abstract quantum spin states into intuitive geometric constellations on the Bloch sphere, revealing symmetries, degeneracies, and correlations that traditional algebraic methods often obscure. Within quantum information science, this framework provides a powerful lens for characterizing symmetric multi-qubit and higher-spin systems. By encoding entanglement directly into spatial coordinates, the constellation geometry yields exact measures of concurrence, three-tangle, and genuine multipartite entanglement, while its dynamical evolution uncovers internal anomalous contributions to geometric phases. While interest in stellar representations has resurged, existing literature remains fragmented, lacking a unified treatment of these entanglement-specific metrics and their higher-dimensional dynamics. This review synthesizes the entanglement-centric perspective on Majorana representations, bridging discrete algebraic classifications (e.g., SLOCC orbits) with continuous geometric interpretations. Crucially, we highlight how this framework circumvents \\#P-hard computational bottlenecks, leveraging polynomial-time tractability to evaluate multipartite invariants. We detail the interplay between constellation topology and higher-spin Berry/Hannay phases, explore extensions beyond pure symmetric states, and review applications in quantum metrology, state engineering, and condensed-matter physics. By foregrounding entanglement as the unifying theme, this comprehensive examination establishes Majorana stars as a fundamental geometric language, uniquely positioned to inspire new theoretical and experimental directions in quantum technologies.",
+  "title_relatable": "Geometry on a sphere reveals hidden structure in quantum entanglement",
+  "hook": "This review unifies how plotting quantum spin states as star constellations on a sphere makes multipartite entanglement measurable and computationally tractable, bypassing problems that are otherwise classically hard.",
+  "summary": "The Majorana stellar representation maps any symmetric multi-qubit or higher-spin state onto a set of points on the Bloch sphere, turning abstract entanglement into concrete geometry. This review consolidates scattered results showing that constellation shapes directly encode entanglement measures — concurrence, three-tangle, genuine multipartite entanglement — and that their evolution reveals anomalous contributions to geometric (Berry/Hannay) phases. A key practical claim is that this geometric approach sidesteps #P-hard complexity, allowing multipartite invariants to be evaluated in polynomial time. Applications span quantum metrology, state engineering, and condensed-matter physics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1021,
+  "tokens_out": 231,
+  "cost_usd": 0.006528,
+  "ingested_at": "2026-05-17T16:55:24.543616+00:00"
+}

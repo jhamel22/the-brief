@@ -1,0 +1,24 @@
+{
+  "id": "2605.15076",
+  "arxiv_url": "https://arxiv.org/abs/2605.15076",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "hep-lat",
+    "nucl-th"
+  ],
+  "title_original": "Deforming the Trail: Baseline Quantum Circuitry for $\\text{SU(2)}_k$ Lattice Gauge Theory",
+  "authors": "Zoë Webb-Mack, Natalie Klco",
+  "abstract": "Quantifying quantum resources for simulating the fundamental forces of Nature is sensitive to the mapping of gauge fields onto finite quantum computational architectures. When locally truncating lattice gauge theories in the irreducible representation basis, it has been proposed to further deform the theory via quantum groups. The purpose of this deformation is (1) to provide an infinite tower of finite-dimensional ($d = k+1$) groups systematically approximating the infinite-dimensional gauge links and (2) to restore the physical unitarity of a plaquette operator diagonalization procedure analytically derived from the field continuum by recontracting vertex pairs. For the SU(2)$_k$ Yang-Mills pure-gauge theory, we provide a constructive strategy of gauge-variant completions to extend this unitarity to the entire computational Hilbert space, leading to well-defined time evolution unitaries as targets for optimized circuit synthesis. Leveraging basic circuit decompositions and symmetries of the diagonalized plaquette operator, we report resource upper-bounds on the generalized-controlled-X two-qudit gates for arbitrary local truncation $d$, reducing estimates and scaling relative to the non-deformed theory by three polynomial powers from $O(d^8)$ to $O(d^5)$. Examining the stronger q-deformed gauge constraint, which softens the total flux at vertices, we show that the physical Hilbert space dimension of the deformed plaquette operator scales equivalently to its non-deformed counterpart with a constant factor $0.2563(5)$. Thus, despite affecting interactions at all scales as exemplified by the observed flux hierarchy inversion symmetry, q-deformation continues to pass scrutiny as a reliable truncation offering advantages in quantum circuit synthesis.",
+  "title_relatable": "Quantum circuits for gauge theory get three powers cheaper",
+  "hook": "A systematic construction of quantum circuits for a deformed version of SU(2) gauge theory cuts the required two-qudit gate count from scaling as d⁸ to d⁵, making digital quantum simulation of Yang-Mills theory significantly more tractable.",
+  "summary": "Simulating non-Abelian gauge theories on quantum hardware requires mapping continuous gauge fields onto finite qudit registers. By working with the quantum-group deformation SU(2)_k and carefully extending unitarity to the full computational Hilbert space, the authors derive explicit circuit decompositions for time evolution. The gate-count upper bound drops three polynomial orders—from O(d⁸) to O(d⁵)—compared to the undeformed theory. A bonus finding: the physical Hilbert space of the deformed plaquette operator is about 74% the size of its undeformed counterpart, confirming that q-deformation is an efficient and well-controlled truncation scheme.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1093,
+  "tokens_out": 261,
+  "cost_usd": 0.007194,
+  "ingested_at": "2026-05-17T16:55:06.756257+00:00"
+}

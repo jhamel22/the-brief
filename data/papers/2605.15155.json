@@ -1,0 +1,24 @@
+{
+  "id": "2605.15155",
+  "arxiv_url": "https://arxiv.org/abs/2605.15155",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Self-Distilled Agentic Reinforcement Learning",
+  "authors": "Zhengxi Lu, Zhiyuan Yao, Zhuowen Han, Zi-Han Wang, Jinyang Wu, Qi Gu, Xunliang Cai, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen",
+  "abstract": "Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon interaction. On-Policy Self-Distillation (OPSD) complements RL by introducing dense token-level guidance from a teacher branch augmented with privileged context. However, transferring OPSD to multi-turn agents proves problematic: compounding multi-turn instability destabilizes supervision, while skill-conditioned privileged guidance requires asymmetric treatment for negative teacher rejections may arise from imperfect skills retrieval or utilization. We introduce SDAR (Self-Distilled Agentic Reinforcement Learning), which treats OPSD as a gated auxiliary objective while keeping RL as the primary optimization backbone. SDAR maps detached token-level signals into a sigmoid gate, strengthening distillation on teacher-endorsed positive-gap tokens and softly attenuating negative teacher rejections. Across the Qwen2.5 and Qwen3 families on ALFWorld, WebShop, and Search-QA, SDAR substantially improves over GRPO (+9.4% on ALFWorld, +7.0% on Search-QA, +10.2% on WebShop-Acc), avoids the instability of naive GRPO+OPSD, and consistently outperforms hybrid RL--OPSD baselines across model scales.",
+  "title_relatable": "Teaching AI Agents to Learn From Their Own Best Moves",
+  "hook": "SDAR combines reinforcement learning with selective self-distillation to improve multi-turn AI agents, beating standard RL baselines by up to 10.2% on web shopping and household task benchmarks.",
+  "summary": "Training LLM agents on long multi-step tasks with reinforcement learning suffers from coarse, trajectory-level rewards that miss finer decision points. SDAR (Self-Distilled Agentic Reinforcement Learning) adds a gated distillation signal on top of RL: a teacher branch with extra context generates token-level guidance, and a sigmoid gate selectively amplifies helpful signals while dampening unreliable negative ones. Tested on Qwen2.5 and Qwen3 models across ALFWorld, WebShop, and Search-QA, SDAR consistently outperforms GRPO alone (+9.4%, +10.2%, +7.0% respectively) and avoids the training instability that plagues naive RL+distillation combinations. The approach is intended for researchers building multi-turn agents where reward sparsity limits learning.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1066,
+  "tokens_out": 286,
+  "cost_usd": 0.007488,
+  "ingested_at": "2026-05-17T16:59:00.020895+00:00"
+}

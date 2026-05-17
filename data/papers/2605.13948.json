@@ -1,0 +1,22 @@
+{
+  "id": "2605.13948",
+  "arxiv_url": "https://arxiv.org/abs/2605.13948",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Improved recipes for peculiar velocity power spectra using Evolution Mapping",
+  "authors": "Matteo Esposito, Ariel G. Sánchez, Julien Bel, Andrés N. Ruiz",
+  "abstract": "We present new fitting functions for the velocity divergence auto- and cross-power spectra, $P_{θθ}(k)$ and $P_{δθ}(k)$, calibrated on gravity-only $N$-body simulations. By applying the Evolution Mapping framework, we revise existing prescriptions to introduce a physically motivated parametrisation in terms of the clustering amplitude $σ_{12}$, the RMS density fluctuation smoothed at $12\\,\\text{Mpc}$. This approach improves robustness and extends the range of applicability beyond that of previous models. Our fits are calibrated using a suite of multi-resolution simulations, with numerical convergence carefully quantified and sampling artefacts mitigated through a conservative patching strategy. This yields converged measurements up to $k\\simeq0.56\\,\\mathrm{Mpc}^{-1}$ and percent-level accuracy for both $P_{θθ}(k)$ and $P_{δθ}(k)$ over a wide range of $σ_{12}$. Validation against independent simulations spanning a broad range of cosmological models confirms an accuracy of $1$-$2$ per cent on scales where the measurements are robust, systematically outperforming existing prescriptions. We further assess the impact of deviations from the exact evolution mapping relation induced by differing growth histories. For most cosmologies of practical interest, we find that neglecting these effects introduces only subdominant errors. We show that expressing fitting functions in $h$-dependent units leads to spurious, unphysical dependencies on the Hubble parameter, even for models with identical linear clustering. This provides strong empirical support for parametrising non-linear evolution in terms of $σ_{12}$ rather than $σ_{8}$. Our fitting functions provide a robust description of velocity power spectra, with direct applications to redshift-space distortion modelling in galaxy redshift surveys.",
+  "title_relatable": "Better recipes for galaxy velocities at percent-level precision",
+  "hook": "New fitting functions for peculiar velocity power spectra achieve 1–2% accuracy across a wide range of cosmologies, directly improving how galaxy surveys measure the growth of structure.",
+  "summary": "Peculiar velocities distort galaxy redshift surveys, and modelling them accurately requires reliable expressions for velocity divergence power spectra. By recasting existing prescriptions using the clustering amplitude σ₁₂ instead of the conventional σ₈, the authors eliminate a spurious dependence on the Hubble parameter that contaminates non-linear models. Calibrated on multi-resolution N-body simulations and validated against independent runs spanning diverse cosmologies, the new fitting functions reach percent-level accuracy out to k ≈ 0.56 Mpc⁻¹. The result is a drop-in improvement for redshift-space distortion analyses in upcoming galaxy surveys.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1151,
+  "tokens_out": 233,
+  "cost_usd": 0.006948,
+  "ingested_at": "2026-05-17T17:02:05.476804+00:00"
+}

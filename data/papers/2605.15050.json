@@ -1,0 +1,22 @@
+{
+  "id": "2605.15050",
+  "arxiv_url": "https://arxiv.org/abs/2605.15050",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Separating Intrinsic Ambiguity from Estimation Uncertainty in Deep Generative Models for Linear Inverse Problems",
+  "authors": "Yuxin Guo, Dongrui Deng, Pulkit Grover",
+  "abstract": "Recently, deep generative models have been used for posterior inference in inverse problems, including high-stakes applications in medical imaging and scientific discovery, where the uncertainty of a prediction can matter as much as the prediction itself. However, posterior uncertainty is difficult to interpret because it can mix ambiguity inherent to the forward operator with uncertainty propagated through inference. We introduce a structural decomposition of posterior uncertainty that isolates intrinsic ambiguity. A cascade formulation makes this ambiguity accessible for calibration analysis, enabling qualitative diagnostics and simulation-based calibration tests that reveal failure modes that remain hidden when models are selected by reconstruction quality alone. We first validate the approach on a Gaussian example with analytical posterior structure, then illustrate the decomposition on accelerated magnetic resonance imaging (MRI), and finally apply the calibration diagnostics to electroencephalography (EEG) source imaging.",
+  "title_relatable": "Splitting uncertainty in medical imaging into two distinct sources",
+  "hook": "A new decomposition separates the uncertainty that no algorithm can resolve—ambiguity baked into the physics—from uncertainty introduced by the inference process itself, enabling more honest diagnostics in MRI and EEG imaging.",
+  "summary": "When deep generative models reconstruct medical images from incomplete measurements, their uncertainty estimates conflate two very different problems: ambiguity that is physically irreducible versus errors introduced by the model's inference. This work provides a structural decomposition and cascade formulation that isolates each component, then applies simulation-based calibration tests to expose failure modes invisible to reconstruction-quality metrics alone. Validated on a Gaussian case with a known analytical solution, the method is demonstrated on accelerated MRI and EEG source imaging. The framework is aimed at researchers and practitioners who need trustworthy uncertainty estimates in high-stakes diagnostic settings.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 889,
+  "tokens_out": 221,
+  "cost_usd": 0.005982,
+  "ingested_at": "2026-05-17T16:57:59.016328+00:00"
+}

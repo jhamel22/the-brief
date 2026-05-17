@@ -1,0 +1,23 @@
+{
+  "id": "2605.14959",
+  "arxiv_url": "https://arxiv.org/abs/2605.14959",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.optics",
+    "quant-ph"
+  ],
+  "title_original": "Quantum-Secure Physical Unclonable Function enabled by Silicon Photonics Integrated Circuits",
+  "authors": "G. Sarantoglou, N. Tzekas, G. Moustakas, G. A. Karydis, V. Kaminski, E. Protsenko, K. Gradkowski, A. Bazin, C. Vigliar, A. Bogris, C. Mesaritakis",
+  "abstract": "Physical Unclonable Functions (PUFs) are hardware security primitives whose inherent physical complexity can be exploited for secure authentication and cryptographic key generation. Silicon photonic devices, owing to their suitability for quantum and artificial intelligence applications alongside standard CMOS fabrication processes, constitute a highly promising substrate for integrated multifunctional PUFs. Despite the advanced security guarantees offered by quantum cryptographic protocols and the central role of silicon photonics in quantum technologies, quantum readout strategies based on single-photon states for photonic PUFs remain largely unexplored. In this work, we experimentally demonstrate a silicon nitride (SiN) programmable photonic Mach Zehnder interferometer mesh that implements a unitary transformation and operates as a PUF, whose secret physical signature arises from uncontrollable waveguide variations during fabrication. Using experimentally derived parameters from the SiN integrated mesh, we further introduce and numerically evaluate a quantum readout protocol that combines single-photon states with PUFs. Maximally mixed quantum states are employed to conceal the underlying unitary transformation from passive eavesdropping. Security against adversaries possessing devices fabricated under similar conditions is assessed, with authentication performance quantified through Monte Carlo analysis of the false acceptance and false rejection rates as a function of the number of detected events and corrected errors. The results indicate exceptional performance with equal error rates as low as 10 to the minus 14, highlighting the potential of quantum secure PUFs for high security authentication applications.",
+  "title_relatable": "Silicon photonic chips as quantum-secure hardware fingerprints",
+  "hook": "A silicon nitride photonic chip's fabrication imperfections become an authentication key that quantum mechanics makes practically impossible to clone or intercept.",
+  "summary": "Tiny, uncontrollable variations in waveguide geometry that emerge during chip fabrication normally count as defects — here they serve as a unique physical fingerprint. The team built a programmable Mach-Zehnder interferometer mesh in silicon nitride, extracted its characteristic unitary transformation, then designed a quantum readout protocol using single-photon states to probe it. Maximally mixed quantum states prevent an eavesdropper from reconstructing the device's secret signature. Monte Carlo simulations predict equal error rates as low as 10⁻¹⁴, suggesting this approach could underpin hardware authentication robust against both classical and quantum adversaries.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1091,
+  "tokens_out": 219,
+  "cost_usd": 0.006558,
+  "ingested_at": "2026-05-17T16:55:52.744489+00:00"
+}

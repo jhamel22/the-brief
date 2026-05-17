@@ -1,0 +1,22 @@
+{
+  "id": "2605.15131",
+  "arxiv_url": "https://arxiv.org/abs/2605.15131",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Natural Synthesis: Outperforming Reactive Synthesis Tools with Large Reasoning Models",
+  "authors": "Frederik Schmitt, Matthias Cosler, Niklas Metzger, Julian Siber, Vladimir Krsmanovic, Mohamed Ghanem, Bernd Finkbeiner",
+  "abstract": "Reactive synthesis, the problem of automatically constructing a hardware circuit from a logical specification, is a long-standing challenge in formal verification. It is elusive for two reasons: It is algorithmically hard, and writing formal specifications by hand is notoriously difficult. In this paper, we tackle both sides of the problem. For the algorithmic side, we present a neuro-symbolic approach to reactive synthesis that couples large reasoning models with model checkers to iteratively repair a synthesized Verilog implementation via sound symbolic feedback. Our approach solves more benchmarks than the best dedicated tools in the annual synthesis competition and extends to constructing parameterized systems, a problem known to be undecidable. On the specification side, we introduce an autoformalization step that shifts the specification task from temporal logic to natural language by introducing a hand-authored dataset of natural-language specifications for evaluation. We demonstrate performance comparable to that of starting from formal specifications, establishing natural synthesis as a viable end-to-end workflow.",
+  "title_relatable": "LLMs beat specialized tools at building circuits from scratch",
+  "hook": "A neuro-symbolic system pairing large reasoning models with formal model checkers solves more reactive synthesis benchmarks than the best dedicated competition tools, while also accepting natural language instead of temporal logic as input.",
+  "summary": "Reactive synthesis — automatically generating hardware circuits from logical specifications — has resisted automation because it's computationally hard and requires writing precise temporal logic by hand. This system wraps a large reasoning model in a repair loop: it generates Verilog, then uses a model checker to produce symbolic counterexamples, and iterates until the circuit is correct. That loop outperforms specialized tools from the annual synthesis competition and even handles parameterized systems, which are formally undecidable. A separate autoformalization step, backed by a new hand-authored dataset, lets engineers specify behavior in plain English rather than temporal logic, with comparable synthesis success rates.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 929,
+  "tokens_out": 225,
+  "cost_usd": 0.006162,
+  "ingested_at": "2026-05-17T16:57:51.412858+00:00"
+}

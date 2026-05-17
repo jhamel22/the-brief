@@ -1,0 +1,24 @@
+{
+  "id": "2605.13955",
+  "arxiv_url": "https://arxiv.org/abs/2605.13955",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "astro-ph.HE"
+  ],
+  "title_original": "Exploring neutrino loss with diffuse astrophysical neutrino fluxes",
+  "authors": "Ivan Esteban, Alberto M. Gago, M. C. Gonzalez-Garcia, Gabriel D. Zapata",
+  "abstract": "We study the sensitivity of the diffuse high-energy neutrino flux observed in IceCube to new-physics effects resulting in an exponential flux attenuation along the trajectory, such as invisible neutrino decay or new interactions with the background encountered during propagation. We argue that, even though the sources and production redshifts of these astrophysical neutrinos are unknown, conservative energy-conservation arguments allow to severely constrain neutrino loss in most scenarios beyond the strongest existing bounds. By performing a fit to the High-Energy Starting Events from IceCube, we quantify the bounds and study their variation with the energy dependence of the attenuation, the assumed redshift distribution of the neutrino sources, and whether the attenuation affects neutrinos exclusively or no. We also show that including an energy-dependent attenuation at the level allowed in the fit may impact the determination of the spectral index of the diffuse flux.",
+  "title_relatable": "IceCube's diffuse neutrino flux tightens limits on neutrino disappearance",
+  "hook": "Using energy-conservation arguments alone, IceCube's high-energy neutrino data sets some of the strongest constraints on neutrinos decaying or being absorbed during cosmic propagation.",
+  "summary": "Even without knowing where astrophysical neutrinos come from or at what redshift they were produced, the observed diffuse flux at IceCube places tight limits on any process that exponentially attenuates neutrinos in transit — including invisible decay and interactions with cosmic backgrounds. A fit to IceCube's High-Energy Starting Events constrains these attenuation effects across a range of assumptions about source distributions and energy dependence. A useful side finding: allowing even the weakly constrained level of energy-dependent attenuation can shift the inferred spectral index of the diffuse flux, with implications for source modeling.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 916,
+  "tokens_out": 229,
+  "cost_usd": 0.006183,
+  "ingested_at": "2026-05-17T17:01:53.936898+00:00"
+}

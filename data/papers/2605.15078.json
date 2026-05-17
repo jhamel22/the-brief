@@ -1,0 +1,22 @@
+{
+  "id": "2605.15078",
+  "arxiv_url": "https://arxiv.org/abs/2605.15078",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "KiDS+VIKING-450 cosmology with Bayesian hierarchical model redshift distributions",
+  "authors": "George T. Kyriacou, Arrykrishna Mootoovaloo, Alan F. Heavens, Andrew H. Jaffe, Florent Leclercq, Konrad Kuijken",
+  "abstract": "Tomographic redshift distributions from photometric data are crucial ingredients in cosmic shear analysis, since they are required for the theoretical calculation of the signal based on the redshift distribution of the galaxies where the shear field is sampled. In this paper, we develop as a proof of concept Leistedt et al.'s template-based Bayesian Hierarchical Model framework into an application to weak lensing data by sampling the redshift distributions of the galaxies in the KiDS+VIKING-450 survey. We also use a principal component analysis to provide a set of representative templates drawn from a large superset. For computational tractability, subsets of $10^5$ galaxies are chosen to determine the redshift distributions, and we test the sensitivity of the cosmological inference to the subset chosen, finding it to be subdominant compared to the statistical error. We marginalise over the inferred redshift distributions and find that the Bayesian method increases the clustering parameter compared with previous studies, alleviating the $S_8$ tension with Planck, where $S_{8}\\equivσ_{8}\\sqrt{Ω_{\\tm{m}}/0.3}=0.756\\pm 0.039$, assuming flat $Λ$CDM. The tension with Planck for this survey is reduced from $2.3σ$ to $1.9σ$. We also infer a value for the matter density, $Ω_{\\tm{m}}=0.31\\pm 0.10$.",
+  "title_relatable": "Smarter redshift estimates nudge weak lensing closer to Planck",
+  "hook": "A Bayesian hierarchical approach to galaxy redshift distributions reduces the S8 tension between KiDS lensing and Planck from 2.3σ to 1.9σ.",
+  "summary": "Using a template-based Bayesian hierarchical model applied to the KiDS+VIKING-450 weak lensing survey, this analysis infers photometric redshift distributions by marginalizing over uncertainty rather than fixing them beforehand. Principal component analysis distills a compact set of representative spectral templates, keeping the calculation computationally feasible with subsets of 100,000 galaxies. The result is S8 = 0.756 ± 0.039, somewhat higher than previous KiDS analyses, shrinking the disagreement with Planck to under 2σ. The work suggests that how redshift distributions are modeled—not just measured—meaningfully affects cosmological conclusions from lensing surveys.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1072,
+  "tokens_out": 254,
+  "cost_usd": 0.007026,
+  "ingested_at": "2026-05-17T17:01:23.789047+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.15200",
+  "arxiv_url": "https://arxiv.org/abs/2605.15200",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "cond-mat.str-el",
+    "math-ph"
+  ],
+  "title_original": "Translation symmetry-enforced long-range entanglement in mixed states",
+  "authors": "Ryan Thorngren, Lei Gioia, Carolyn Zhang",
+  "abstract": "We show by a counting argument that even though translation symmetry admits symmetric short-range entangled (SRE) eigenstates, there are not enough such SRE eigenstates to span the zero momentum sector. This means that the fixed point strong-to-weak spontaneous symmetry breaking state of translation symmetry is long-range entangled: it cannot be written as a mixture of SRE states. This is a subtle form of long-range entanglement in mixed states that cannot be detected by long-range connected correlation functions.",
+  "title_relatable": "Translation symmetry forces long-range entanglement that correlations cannot detect",
+  "hook": "A counting argument proves that certain mixed quantum states must contain long-range entanglement even when no correlation function can reveal it.",
+  "summary": "When a translation symmetry is broken in the weak sense across a statistical mixture of quantum states, the resulting mixed state cannot be decomposed into short-range entangled components — even though such components individually exist. The argument is combinatorial: there simply are not enough short-range entangled eigenstates to span the relevant symmetry sector. This reveals a class of long-range entanglement in mixed states that is invisible to standard diagnostics like connected correlation functions, suggesting current tools for characterizing quantum phases of open systems are incomplete.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 807,
+  "tokens_out": 188,
+  "cost_usd": 0.005241,
+  "ingested_at": "2026-05-17T16:54:00.604758+00:00"
+}

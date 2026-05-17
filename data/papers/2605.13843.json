@@ -1,0 +1,23 @@
+{
+  "id": "2605.13843",
+  "arxiv_url": "https://arxiv.org/abs/2605.13843",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "The Galaxy Luminosity Functions in ASTRID: Predictions for LSST",
+  "authors": "Fatemeh Hafezianzadeh, Tianqing Zhang, Paul Rogozenski, Patrick Lachance, Yihao Zhou, Tiziana Di Matteo, Rupert A. C. Croft, Simeon Bird, Rachel Mandelbaum",
+  "abstract": "We present validated and forward-modelled galaxy luminosity functions and photometric predictions for the Vera C. Rubin Observatory Legacy Survey of Space and Time using the ASTRID cosmological hydrodynamical simulation. Galaxy magnitudes are computed by combining stellar population synthesis modeling with a physically motivated dust attenuation prescription in which the optical depth scales with metal surface density. The dust model is calibrated at z = 0 using SDSS luminosity functions and tested at intermediate redshifts (z = 0.5, 1.0, and 1.5) in rest-frame B, V , R, and I bands. We find that the attenuated luminosity functions reproduce observed galaxy statistics across multiple wavelengths and redshifts. Using this calibrated framework, we construct LSST-ready mock photometric catalogs over 0 <= z <= 2 in steps of Delta z = 0.1, containing ~378 million galaxies. We provide predicted apparent-magnitude luminosity functions in the LSST ugrizy bands, derive best-fit Schechter parameters as a compact analytic representation, and compute differential and cumulative galaxy number counts as a function of survey depth from Year 1 to Year 10.",
+  "title_relatable": "ASTRID simulation forecasts what Rubin Observatory will see",
+  "hook": "A calibrated dust model applied to the ASTRID simulation produces mock catalogs of 378 million galaxies, giving Rubin Observatory planners concrete luminosity-function predictions across ten years of survey depth.",
+  "summary": "Using the ASTRID hydrodynamical simulation, the team computed galaxy magnitudes by pairing stellar population synthesis with a dust attenuation model tied to metal surface density, calibrated against SDSS data at z = 0 and validated up to z = 1.5 in multiple optical bands. The resulting luminosity functions match observed galaxy statistics across wavelengths and redshifts. From this framework they built mock photometric catalogs covering 0 ≤ z ≤ 2 with roughly 378 million galaxies, complete with predicted apparent magnitudes in all six LSST bands and Schechter-function fits tracking how survey depth evolves from Year 1 to Year 10.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1020,
+  "tokens_out": 250,
+  "cost_usd": 0.00681,
+  "ingested_at": "2026-05-17T17:02:11.506074+00:00"
+}

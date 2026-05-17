@@ -1,0 +1,23 @@
+{
+  "id": "2605.15196",
+  "arxiv_url": "https://arxiv.org/abs/2605.15196",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "RefDecoder: Enhancing Visual Generation with Conditional Video Decoding",
+  "authors": "Xiang Fan, Yuheng Wang, Bohan Fang, Zhongzheng Ren, Ranjay Krishna",
+  "abstract": "Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant loss of detail and inconsistency relative to the input image. To address this, we argue that the decoder requires equal conditioning to preserve structural integrity. We introduce RefDecoder, a reference-conditioned video VAE decoder by injecting high-fidelity reference image signal directly into the decoding process via reference attention. Specifically, a lightweight image encoder maps the reference frame into the detail-rich high-dimensional tokens, which are co-processed with the denoised video latent tokens at each decoder up-sampling stage. We demonstrate consistent improvements across several distinct decoder backbones (e.g., Wan 2.1 and VideoVAE+), achieving up to +2.1dB PSNR over the unconditional baselines on the Inter4K, WebVid, and Large Motion reconstruction benchmarks. Notably, RefDecoder can be directly swapped into existing video generation systems without additional fine-tuning, and we report across-the-board improvements in subject consistency, background consistency, and overall quality scores on the VBench I2V benchmark. Beyond I2V, RefDecoder generalizes well to a wide range of visual generation tasks such as style transfer and video editing refinement.",
+  "title_relatable": "A smarter video decoder that remembers what it's supposed to look like",
+  "hook": "By feeding a reference image directly into the VAE decoder at every upsampling stage, RefDecoder recovers detail lost by unconditional decoding, gaining up to +2.1dB PSNR with no fine-tuning required.",
+  "summary": "Latent diffusion video models spend enormous effort conditioning the denoising network but leave the decoder unconditional — a mismatch that quietly erodes sharpness and consistency with the input image. RefDecoder fixes this by injecting a reference frame into the decoder via a lightweight image encoder and cross-attention at each upsampling stage. It plugs into existing systems like Wan 2.1 and VideoVAE+ without retraining, and improves PSNR by up to 2.1dB on Inter4K, WebVid, and Large Motion benchmarks while lifting subject consistency, background consistency, and overall quality on VBench I2V. The approach also extends to style transfer and video editing.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1019,
+  "tokens_out": 261,
+  "cost_usd": 0.006972,
+  "ingested_at": "2026-05-17T16:58:24.790560+00:00"
+}

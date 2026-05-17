@@ -1,0 +1,25 @@
+{
+  "id": "2605.15168",
+  "arxiv_url": "https://arxiv.org/abs/2605.15168",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Text Knows What, Tables Know When: Clinical Timeline Reconstruction via Retrieval-Augmented Multimodal Alignment",
+  "authors": "Sayantan Kumar, Shahriar Noroozizadeh, Juyong Kim, Jeremy C. Weiss",
+  "abstract": "Reconstructing precise clinical timelines is essential for modeling patient trajectories and forecasting risk in complex, heterogeneous conditions like sepsis. While unstructured clinical narratives offer semantically rich and contextually complete descriptions of a patient's course, they often lack temporal precision and contain ambiguous event timing. Conversely, structured electronic health record (EHR) data provides precise temporal anchors but misses a substantial portion of clinically meaningful events. We introduce a retrieval-augmented multimodal alignment framework that bridges this gap to improve the temporal precision of absolute clinical timelines extracted from text. Our approach formulates timeline reconstruction as a graph-based multistep process: it first extracts central anchor events from narratives to build an initial temporal scaffold, places non-central events relative to this backbone, and then calibrates the timeline using retrieved structured EHR rows as external temporal evidence. Evaluated using instruction-tuned large language models on the i2m4 benchmark spanning MIMIC-III and MIMIC-IV, our multimodal pipeline consistently improves absolute timestamp accuracy (AULTC) and improves temporal concordance across nearly all evaluated models over unimodal text-only reconstruction, without compromising event match rates. Furthermore, our empirical gap analysis reveals that 34.8% of text-derived events are entirely absent from tabular records, demonstrating that aligning these modalities can produce a more temporally faithful and clinically informative reconstruction of patient trajectories than either source alone.",
+  "title_relatable": "Combining clinical notes and records for more accurate patient timelines",
+  "hook": "A retrieval-augmented framework that fuses free-text clinical narratives with structured EHR data improves absolute timestamp accuracy for patient event timelines, outperforming text-only reconstruction across nearly all tested language models.",
+  "summary": "Reconstructing when clinical events happened—not just what happened—is critical for predicting outcomes in conditions like sepsis, but neither clinical notes nor structured EHR tables alone are sufficient. This framework treats timeline reconstruction as a graph-based process: it extracts anchor events from narratives to build a temporal scaffold, positions other events relative to it, then calibrates timestamps using retrieved EHR rows as external evidence. Evaluated on the i2b2 i2m4 benchmark (MIMIC-III and MIMIC-IV), the multimodal pipeline consistently improves absolute timestamp accuracy (AULTC) without hurting event detection rates. A key finding: 34.8% of text-derived events are entirely absent from structured records, underscoring why neither modality alone suffices.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1030,
+  "tokens_out": 266,
+  "cost_usd": 0.00708,
+  "ingested_at": "2026-05-17T16:58:40.786361+00:00"
+}

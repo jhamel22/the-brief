@@ -1,0 +1,24 @@
+{
+  "id": "2605.15171",
+  "arxiv_url": "https://arxiv.org/abs/2605.15171",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Evidential Reasoning Advances Interpretable Real-World Disease Screening",
+  "authors": "Chenyu Lian, Hong-Yu Zhou, Jing Qin",
+  "abstract": "Disease screening is critical for early detection and timely intervention in clinical practice. However, most current screening models for medical images suffer from limited interpretability and suboptimal performance. They often lack effective mechanisms to reference historical cases or provide transparent reasoning pathways. To address these challenges, we introduce EviScreen, an evidential reasoning framework for disease screening that leverages region-level evidence from historical cases. The proposed EviScreen offers retrospection interpretability through regional evidence retrieved from dual knowledge banks. Using this evidential mechanism, the subsequent evidence-aware reasoning module makes predictions using both the current case and evidence from historical cases, thereby enhancing disease screening performance. Furthermore, rather than relying on post-hoc saliency maps, EviScreen enhances localization interpretability by leveraging abnormality maps derived from contrastive retrieval. Our method achieves superior performance on our carefully established benchmarks for real-world disease screening, yielding notably higher specificity at clinical-level recall. Code is publicly available at https://github.com/DopamineLcy/EviScreen.",
+  "title_relatable": "Medical image screening that explains itself using past cases",
+  "hook": "EviScreen improves disease screening by retrieving region-level evidence from historical cases, delivering higher specificity at clinical-level recall while producing transparent reasoning pathways instead of opaque post-hoc saliency maps.",
+  "summary": "Most medical image screening models treat each case in isolation and rely on hard-to-interpret saliency maps generated after the fact. EviScreen retrieves relevant regions from a dual knowledge bank of historical cases, feeding that evidence directly into its prediction process rather than appending an explanation afterward. The result is both better performance — notably higher specificity at clinical-level recall on real-world screening benchmarks — and built-in localization interpretability via contrastive retrieval abnormality maps. Code is publicly available on GitHub, making this accessible to medical AI practitioners.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 913,
+  "tokens_out": 208,
+  "cost_usd": 0.005859,
+  "ingested_at": "2026-05-17T16:58:35.085219+00:00"
+}

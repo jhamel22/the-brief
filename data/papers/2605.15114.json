@@ -1,0 +1,23 @@
+{
+  "id": "2605.15114",
+  "arxiv_url": "https://arxiv.org/abs/2605.15114",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "math-ph"
+  ],
+  "title_original": "New approaches to almost i.i.d. information theory",
+  "authors": "Filippo Girardi, Giacomo De Palma, Ludovico Lami",
+  "abstract": "Independent and identically distributed (i.i.d.) states are ubiquitous in quantum information theory. However, in a practical setting, the i.i.d. assumption is too stringent, and possibly not realistic. A physically more compelling class of 'almost i.i.d.' sources was recently proposed by [Mazzola/Sutter/Renner, arXiv:2603.15792]. In this paper, we introduce two alternative definitions of almost i.i.d. states, based on the normalised quantum Wasserstein distance and on the idea of looking at the average $k$-body marginal. We explore some basic properties of these notions and prove a strict hierarchical relation among them, with Mazzola et al.'s notion being the strictest, the one based on $k$-body marginals the loosest, and the one based on the quantum Wasserstein distance in between. Strict separation is established by means of explicit examples.",
+  "title_relatable": "Two new ways to define 'almost identical' quantum states",
+  "hook": "Quantum information theory usually assumes perfectly identical copies of a state, which is unrealistic; two new definitions now offer more flexible and physically grounded alternatives.",
+  "summary": "Most quantum information protocols assume sources produce perfectly independent, identical states — an idealization that rarely holds in practice. This work introduces two alternative ways to quantify how close a multi-party quantum state is to being i.i.d.: one using the normalized quantum Wasserstein distance, another by averaging over k-body marginals. The three competing definitions, including a recent one by Mazzola et al., are shown to form a strict hierarchy from most to least demanding, with explicit examples confirming the separations. The framework clarifies which physical scenarios each definition captures and lays groundwork for more robust quantum information theorems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 910,
+  "tokens_out": 210,
+  "cost_usd": 0.00588,
+  "ingested_at": "2026-05-17T16:54:29.861153+00:00"
+}

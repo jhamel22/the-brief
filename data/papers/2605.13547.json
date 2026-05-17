@@ -1,0 +1,22 @@
+{
+  "id": "2605.13547",
+  "arxiv_url": "https://arxiv.org/abs/2605.13547",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "UNIONS-3500 Weak Lensing: III. 2D Cosmological Constraints in Configuration Space",
+  "authors": "L. W. K. Goh, S. Guerrini, C. Daley, F. Hervas-Peters, M. Kilbinger, A. Wittje, C. Murray, S. Fabbro, H. Hildebrandt, M. J. Hudson, L. van Waerbeke, A. H. Wright, T. de Boer, J. -C. Cuillandre, E. Magnier, A. W. McConnachie",
+  "abstract": "We present the first cosmological constraints from the cosmic shear analysis of the UNIONS-3500 weak lensing galaxy catalogue in configuration space. The Ultraviolet Near Infrared Optical Northern Survey (UNIONS) is the largest and deepest photometric survey of the northern hemisphere to date, with the UNIONS-3500 catalogue using high-quality $r$-band imaging across 3500 deg2 of the sky. We perform a 2D cosmic shear analysis with a single tomographic bin, using the two-point correlation function (2PCF) statistic. Assuming a flat LCDM model, we obtain constraints on the clustering amplitude of S_8 = 0.831^{+0.067}_{-0.078}, which is consistent with constraints from Planck CMB measurements and precedent cosmic shear results within 1sigma. We outline the construction of our cosmological inference pipeline, including the estimation of the source redshift distribution, shear calibration, and covariance matrix, and describe methodologies for the mitigation of systematic effects arising from PSF systematics and B-modes. We demonstrate that our results are robust to variations in analysis choices, including scale cuts, prior ranges, and nonlinear modelling. This paper is part of a coordinated release which collectively demonstrates the maturity and readiness of UNIONS to deliver competitive cosmological results, positioning it as a key stepping stone towards the forthcoming era of Stage IV weak lensing experiments.",
+  "title_relatable": "Northern sky survey takes its first shot at dark matter clustering",
+  "hook": "The UNIONS survey measures cosmic shear across 3,500 square degrees of northern sky, finding a matter clustering amplitude consistent with Planck—a clean validation ahead of next-generation experiments.",
+  "summary": "Using 3,500 square degrees of deep r-band imaging, the UNIONS team measures how foreground matter distorts background galaxy shapes to constrain S8, the amplitude of matter clustering, obtaining S8 = 0.831 (+0.067/−0.078). The result sits within one sigma of both Planck CMB measurements and earlier weak lensing surveys, offering no evidence for the tension sometimes reported in other datasets. The analysis uses a single tomographic bin and two-point correlation functions, with careful treatment of PSF systematics and shear calibration. It establishes UNIONS as a competitive northern-hemisphere lensing survey ahead of Stage IV experiments like LSST and Euclid.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1127,
+  "tokens_out": 243,
+  "cost_usd": 0.007026,
+  "ingested_at": "2026-05-17T17:02:58.095499+00:00"
+}

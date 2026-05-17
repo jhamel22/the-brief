@@ -29,7 +29,8 @@ subjects:
     slug: hep-th
     daily_cap: 20
     prompt_variant: physics
-    active: false
+    description: "String theory, quantum field theory, holography, and the deep mathematical structure of fundamental physics — summarized daily. Always verify against the source."
+    active: true
 
   - code: quant-ph
     name: Quantum Physics
@@ -37,15 +38,17 @@ subjects:
     slug: quant-ph
     daily_cap: 20
     prompt_variant: physics
-    active: false
+    description: "Entanglement, quantum computing, quantum information, and the strange behavior of matter at the smallest scales — summarized daily. Always verify against the source."
+    active: true
 
-  - code: astro-ph
-    name: Astrophysics
+  - code: astro-ph.CO
+    name: Cosmology and Nongalactic Astrophysics
     domain: Physics
-    slug: astro-ph
+    slug: astro-ph-co
     daily_cap: 20
     prompt_variant: physics
-    active: false
+    description: "The large-scale structure of the universe, dark matter, dark energy, and the cosmic microwave background — summarized daily. Always verify against the source."
+    active: true
 
   - code: hep-ph
     name: High Energy Physics - Phenomenology
@@ -73,8 +76,9 @@ subjects:
     slug: cs-lg
     daily_cap: 20
     prompt_variant: cs
+    description: "Neural networks, optimization, generalization, and the mathematical foundations of learning — the best of machine learning research, summarized daily. Always verify against the source."
     use_filter: true   # enables cheap pre-ranking step for high-volume subjects
-    active: false
+    active: true
 
   - code: cs.AI
     name: Artificial Intelligence

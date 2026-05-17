@@ -1,0 +1,22 @@
+{
+  "id": "2605.15133",
+  "arxiv_url": "https://arxiv.org/abs/2605.15133",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Causal Foundation Models with Continuous Treatments",
+  "authors": "Christopher Stith, Medha Barath, Vahid Balazadeh, Jesse C. Cresswell, Rahul G. Krishnan",
+  "abstract": "Causal inference, estimating causal effects from observational data, is a fundamental tool in many disciplines. Of particular importance across a variety of domains is the continuous treatment setting, where the variable of intervention has a continuous range. This setting is far less explored and represents a substantial shift from the binary treatment setting, with models needing to represent effects across a continuum of treatment values. In this paper, we present the first causal foundation model for the continuous treatment setting. Our model meta-learns the ability to predict causal effects across a wide variety of unseen tasks without additional training or fine-tuning. First, we design a novel prior over data-generating processes with continuous treatment variables in order to generate a rich causal training corpus. We then train a transformer to reconstruct individual treatment-response curves given only observational data, leveraging in-context learning to amortize expensive Bayesian posterior inference. Our model achieves state-of-the-art performance on individual treatment-response curve reconstruction tasks compared to causal models which are trained specifically for those tasks.",
+  "title_relatable": "One model estimates causal effects across any continuous treatment",
+  "hook": "A transformer trained on synthetic causal data can estimate individual dose-response curves on unseen tasks without retraining, outperforming task-specific causal models.",
+  "summary": "Estimating how outcomes change across a continuous range of interventions — drug dosages, policy intensities, pricing — is harder than binary treatment comparisons and has seen far less methodological development. This model uses in-context learning: a transformer is pre-trained on a rich synthetic corpus of causal data-generating processes, then at inference time reconstructs individual treatment-response curves directly from observational data, with no fine-tuning required. By amortizing Bayesian posterior inference into the forward pass, the approach sidesteps the expensive per-task optimization that competing methods require. On individual treatment-response benchmarks, it matches or exceeds models trained specifically for each task.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 923,
+  "tokens_out": 223,
+  "cost_usd": 0.006114,
+  "ingested_at": "2026-05-17T16:57:42.536887+00:00"
+}

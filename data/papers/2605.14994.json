@@ -1,0 +1,24 @@
+{
+  "id": "2605.14994",
+  "arxiv_url": "https://arxiv.org/abs/2605.14994",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.DS",
+    "math.CO"
+  ],
+  "title_original": "Sharp Bounds on the Eigenvalues of Kikuchi Graphs and Applications to Quantum Max Cut",
+  "authors": "Ainesh Bakshi, Arpon Basu, Pravesh Kothari, Anqi Li",
+  "abstract": "We prove that the maximum eigenvalue of the (both signed and unsigned) Laplacian of level $k$ Kikuchi graph of any graph $G$ with $m$ edges is at most $m+k$. This confirms four recent conjectures of Apte, Parekh, and Sud. As applications, we obtain that tensor products of one and two qubit product states achieve an approximation ratio of $5/8$ for Quantum Max Cut and $5/7$ for the XY Hamiltonian. Moreover, combining our bounds with the algorithms analyzed by Apte, Parekh, and Sud, yields efficient algorithms achieving an approximation ratio of $0.614$ for Quantum Max Cut and $0.674$ for the XY Hamiltonian. Finally, we also make modest progress on Brouwer's conjecture and improve Lew's bound on the sum of the top-$k$ eigenvalues of a Graph Laplacian.",
+  "title_relatable": "New eigenvalue bounds unlock better quantum optimization algorithms",
+  "hook": "Proving a sharp bound on Kikuchi graph eigenvalues confirms four open conjectures and yields the best-known approximation ratios for Quantum Max Cut.",
+  "summary": "Kikuchi graphs are hypergraph constructions whose spectral properties control how well simple product states approximate ground energies of quantum spin systems. By proving the maximum Laplacian eigenvalue of any level-k Kikuchi graph is at most m+k — where m is the edge count of the underlying graph — the authors confirm four recent conjectures and tighten classical approximation algorithms. The results push the approximation ratio for Quantum Max Cut to 0.614 and for the XY Hamiltonian to 0.674, both efficiently achievable. The same technique also advances Brouwer's conjecture on graph Laplacian eigenvalue sums.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 923,
+  "tokens_out": 224,
+  "cost_usd": 0.006129,
+  "ingested_at": "2026-05-17T16:55:30.111948+00:00"
+}

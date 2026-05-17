@@ -1,0 +1,22 @@
+{
+  "id": "2605.15197",
+  "arxiv_url": "https://arxiv.org/abs/2605.15197",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Primordial Black Hole from Tensor-induced Density Fluctuation: First-order Phase Transitions and Domain Walls",
+  "authors": "Utkarsh Kumar, Anish Ghoshal",
+  "abstract": "We present a novel \\textit{gauge-invariant and minimal} formation mechanism of primordial black holes (PBHs) in first-order phase transition (FOPT) and domain walls (DW) separately. This is based on the first-order tensor perturbations, generated during FOPT from bubble collisions \\& sound waves, and from DW annihilation, sourcing curvature, at second-order in perturbation theory. We show that the PBH formation implies \\textit{model-independent constraints} on FOPT parameters ($β/H, α, T_{\\star}$ ) and on DW parameters, ($α_{\\rm ann}, V_{\\rm bias}, σ$), from existing PBH constraints. We find that asteroid mass PBHs can become the entire dark matter (DM) of the Universe, for $T_{\\star} \\in (4 \\times 10^{2}, 10^{4})$ GeV, for $β/H \\simeq 6$, involving $α>\\mathcal{O}(1)$ values. The corresponding FOPT Gravitational Waves (GW) amplitude will have its characteristic peak at $Ω_{\\rm GW}^{\\rm p} h^2$ $\\sim \\mathcal{O}(10^{-8})$ between frequencies $f_{\\rm p} \\in ({10^{-5},10^{-2}})$ Hz which is within the reach in LISA and SKA detectors. PBH as entire DM is possible for $σ^{1/3} \\in [10^{6}, 10^{8}]$ TeV, for $V_{\\rm bias}^{1/4} \\in [10^7, 10^{10}]$ MeV with the corresponding GW amplitude peak from DW annihilation $Ω_{\\rm GW}^{\\rm p} h^2$ $\\sim \\mathcal{O}(10^{-9})$ (for $α_{\\rm ann} \\sim 10^{-2}$) and peak frequencies between $f_{\\rm p} \\in (4 \\times {10^{-4},10^{-1}})$ Hz with ($T_{\\rm ann} \\in 4.5 \\times [10^3, 10^6] $) GeV within the reach in LISA and ET detectors. We also provide semi-analytical formulae for the tensor-induced density spectrum, $P_{δ^{(2)}}$, $M_{\\rm PBH}$ and $f_{\\rm PBH}$, relating them in terms of FOPT and DW parameters which in turn, are related to viable particle physics origin of such FOPT and DW, and therefore, constrain such microphysics, either in the visible, or in dark sector models.",
+  "title_relatable": "Phase transitions and domain walls as a new route to primordial black holes",
+  "hook": "Gravitational waves from cosmic phase transitions and domain walls can induce density fluctuations large enough to form primordial black holes that account for all dark matter, with signals detectable by LISA and SKA.",
+  "summary": "When the early universe undergoes a strong first-order phase transition, colliding bubbles and sound waves generate tensor perturbations; at second order, these source density fluctuations that can collapse into primordial black holes. The same mechanism works for annihilating domain walls. For phase transition temperatures between 400 GeV and 10 TeV and a narrow range of transition rates, asteroid-mass primordial black holes can comprise all dark matter, while the accompanying gravitational wave signal falls squarely in the LISA and SKA sensitivity bands. The framework yields model-independent constraints on both the cosmological phase transition parameters and the underlying particle physics — whether in the visible or dark sector — from existing primordial black hole abundance limits.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1374,
+  "tokens_out": 253,
+  "cost_usd": 0.007917,
+  "ingested_at": "2026-05-17T17:00:58.944506+00:00"
+}

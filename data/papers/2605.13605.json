@@ -1,0 +1,23 @@
+{
+  "id": "2605.13605",
+  "arxiv_url": "https://arxiv.org/abs/2605.13605",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "DEFROST: Detecting Excess in Faraday Rotation thrOugh Sophisticated analysis Techniques",
+  "authors": "Valentina Vacca, Sebastian Hutschenreuter, Andrea Cabriolu, Torsten A. Ensslin, Jakob Roth, Martin Reineke, Philipp Frank, Federica Govoni, Matteo Murgia, Gianni Fenu",
+  "abstract": "Understanding origin and evolution of cosmological magnetic fields requires knowledge of magnetic fields in different extragalactic environments. In this context, a powerful tool is the statistical analysis of the Faraday effect on the linear polarization of a sample of radio sources. This effect carries information about the magnetic fields in our Galaxy, extragalactic environments between the sources and the observer, and within the emitting radio source itself. An accurate disentangling of all these components is crucial to characterize magnetic fields in the LSS of the Universe. The significant amount of data delivered by new radio instruments enables the investigation of increasingly weak magnetic fields. However, a trustworthy characterization is only possible with advanced analysis techniques. In this work, we present a new algorithm capable of simultaneously disentangling the Faraday effect due to our Galaxy from extragalactic contributions, by properly taking into account the observing noise. The algorithm takes as an input a catalog of RM complemented by auxiliary information as, e.g., the redshift. We tested the algorithm with synthetic data to assess its performance and identify the range of Galactic magnetic field power spectrum slopes that allows us to properly disentangle Galactic and extragalactic terms. Furthermore, we tested the algorithm with synthetic catalogs, based on m- and cm-data currently available, corresponding to different observing setups, noise, and cuts in the absolute value of the Galactic latitude of the radio sources. Considering noise values and density of polarized sources consistent with existing catalogs, we demonstrated that the most robust results are obtained with sources with absolute Galactic latitude > 45deg, with inference of the extragalactic parameters at most within 5sigma, both for dispersion in Faraday rotation of ~1 and 10rad/m2.",
+  "title_relatable": "New algorithm separates galaxy's magnetic fingerprint from deep-space signals",
+  "hook": "A new algorithm cleanly separates the Milky Way's Faraday rotation from extragalactic contributions, enabling reliable magnetic field measurements in the cosmic web.",
+  "summary": "Mapping magnetic fields in large-scale cosmic structure requires peeling apart overlapping Faraday rotation signals — one from the Milky Way, one from extragalactic space — mixed together in every radio polarization measurement. The DEFROST algorithm takes rotation-measure catalogs plus redshift data and disentangles these contributions while properly accounting for observing noise. Tests on synthetic data show the method recovers extragalactic parameters within 5-sigma accuracy for sources above 45 degrees Galactic latitude, across a realistic range of noise levels and source densities. The results set concrete guidelines for using current and forthcoming radio surveys to probe weak magnetic fields in the cosmic web.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1134,
+  "tokens_out": 230,
+  "cost_usd": 0.006852,
+  "ingested_at": "2026-05-17T17:02:45.163402+00:00"
+}

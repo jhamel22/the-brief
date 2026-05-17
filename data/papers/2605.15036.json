@@ -1,0 +1,22 @@
+{
+  "id": "2605.15036",
+  "arxiv_url": "https://arxiv.org/abs/2605.15036",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Excitation Flow, Positivity, and Fisher Information for Open Subsystems of an $N$-Qubit Network",
+  "authors": "Tommy Chin, Sarah Shandera",
+  "abstract": "We derive closed-form propagators for any $K$-qubit subsystem of a closed $N$-qubit network with a single conserved excitation. A single transition amplitude simultaneously controls excitation flow between subsystems, the positivity and complete positivity of every propagator, the entanglement entropy of every subsystem, and the quantum Fisher information for global parameters. Positivity and complete positivity coincide, determined solely by the direction of excitation flow, independently of subsystem size, coherence, or entanglement structure. A propagator is positive and completely positive if and only if it contracts the subsystem state toward its fixed point. The ensemble of propagators collectively constrains global properties inaccessible to any single subsystem. For single-qubit subsystems, we characterize the ensemble's fixed-point distribution and domain of positivity, finding a band of states that lies inside the positivity domain of every propagator yet is never visited by the physical dynamics. The quantum Fisher information decomposes into state and process contributions over any observation window $[t_1,t_2]$, with the state contribution bounded while the process contribution grows secularly. The total Fisher information is minimal when all future propagators are nonpositive and not completely positive, and near its maximum when they are positive and completely positive.",
+  "title_relatable": "One number governs entanglement, positivity, and sensing in qubit networks",
+  "hook": "A single transition amplitude turns out to control entanglement, information flow, and quantum sensing precision across every subsystem of a multi-qubit network simultaneously.",
+  "summary": "For any closed network of N qubits sharing a single excitation, closed-form propagators are derived for any subsystem of arbitrary size. Remarkably, one scalar amplitude determines whether each subsystem's dynamics preserves positivity, how entanglement is distributed, and how much Fisher information is available for estimating global parameters. Complete positivity and ordinary positivity always coincide and reduce to a simple condition: the propagator contracts the subsystem toward its fixed point. The Fisher information splits cleanly into state and process contributions, with the process term growing without bound while the state term saturates.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 976,
+  "tokens_out": 209,
+  "cost_usd": 0.006063,
+  "ingested_at": "2026-05-17T16:55:12.292178+00:00"
+}

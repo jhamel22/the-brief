@@ -1,0 +1,22 @@
+{
+  "id": "2605.13705",
+  "arxiv_url": "https://arxiv.org/abs/2605.13705",
+  "announced_date": "2026-05-13",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Apocalypse When? Solar System Constraints on an Imminent Big Rip",
+  "authors": "Robert J. Scherrer, Oem Trivedi",
+  "abstract": "Phantom dark energy models with an equation of state parameter $w 30$ years. While admittedly a poor limit, these results are likely to be improved by future more precise measurements of solar system dynamics. Our results also show that evidence for an imminent big rip would show up first in solar system data, rather than in any cosmological observation.",
+  "title_relatable": "Solar system orbits set a deadline on the universe's violent end",
+  "hook": "Precise measurements of planetary orbits constrain when a 'Big Rip' could occur, ruling out cosmic doomsday within the next 30 years.",
+  "summary": "Phantom dark energy — with equation-of-state parameter w < −1 — causes the universe to expand so violently that it eventually tears apart all structure, from galaxy clusters down to atoms. As the Big Rip approaches, even gravitationally bound systems like planetary orbits begin to unravel, providing a local clock for the countdown. Using current solar system dynamics data, the authors place a lower bound of roughly 30 years on the time remaining before any such event. Crucially, they show that future precision measurements of solar system orbits would detect signs of an approaching Big Rip before any cosmological survey could.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 770,
+  "tokens_out": 218,
+  "cost_usd": 0.00558,
+  "ingested_at": "2026-05-17T17:02:32.395383+00:00"
+}

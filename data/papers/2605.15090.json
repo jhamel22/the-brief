@@ -1,0 +1,22 @@
+{
+  "id": "2605.15090",
+  "arxiv_url": "https://arxiv.org/abs/2605.15090",
+  "announced_date": "2026-05-14",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Energy efficiency of quantum computers",
+  "authors": "Miquel Carrasco-Codina, Pau Escofet, Paul Hilaire, Ariane Soret, Sam Nerenberg, Victor Champain, Gerard Milburn, Klara Theophilo, Sophie H. Li, Irais Bautista, Andrés Gómez, Jose Miralles, Sergi Abadal, Carmen G. Almudéver, Eduard Alarcón, Raja Yehia",
+  "abstract": "How much energy does a quantum computer consume? Are they more efficient than their classical counterparts? In this work, we make a step towards answering these questions. We define the energy efficiency of a quantum computer as the ratio of the number of algorithms it can perform during a given time over the energy consumed by the hardware during this time. We analyze the most representative physical platforms currently envisioned to be used as building blocks of quantum computers: superconducting qubits, silicon spin qubits, trapped ions, neutral atoms and photonic qubits. Including insights from experts in all these technologies and taking into account algorithm compilation constraints, we discuss the advantages and inconveniences of each platform from an energy standpoint. Beyond providing concrete values of the energy consumption of current quantum computers, we lay the foundation of a framework to benchmark the energy efficiency of any future quantum computing architecture.",
+  "title_relatable": "How much energy does a quantum computer actually use?",
+  "hook": "A systematic comparison of five qubit platforms reveals concrete energy costs per algorithm, laying groundwork for benchmarking quantum computers against classical ones.",
+  "summary": "Defining energy efficiency as algorithms executed per joule, this study surveys superconducting, silicon spin, trapped-ion, neutral-atom, and photonic qubit platforms with input from hardware experts. Each platform carries distinct energy trade-offs: some excel at fast gate speeds but demand heavy cryogenic or laser infrastructure, others are more frugal at the hardware level but slower. Beyond reporting current consumption figures, the work proposes a unified benchmarking framework applicable to future architectures — a prerequisite for any honest comparison between quantum and classical computation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 955,
+  "tokens_out": 189,
+  "cost_usd": 0.0057,
+  "ingested_at": "2026-05-17T16:54:53.740861+00:00"
+}

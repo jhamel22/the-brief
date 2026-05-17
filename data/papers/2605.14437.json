@@ -1,0 +1,25 @@
+{
+  "id": "2605.14437",
+  "arxiv_url": "https://arxiv.org/abs/2605.14437",
+  "announced_date": "2026-05-14",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "astro-ph.SR"
+  ],
+  "title_original": "Not All Who Wander Are Lost: Early Excess Demographics in the Volume-limited ZTF DR2 SN Ia Sample",
+  "authors": "César Rojas-Bravo, Ning-Chen Sun, Mathew Smith, Chun Chen, Xiaohan Chen, Zexi Niu, Anyu Wang, Zi-Yang Wang, Yi-Han Zhao, Jifeng Liu",
+  "abstract": "Early-time flux excesses in Type Ia supernovae (SNe~Ia) offer a unique insight into their progenitor systems and explosion mechanisms. Although individual early-excess events and larger searches have been reported, demographic studies remain limited by sample size. We present a systematic search for early-time excess emission in a volume-limited sample ($z<0.06$) of SNe~Ia based on the Zwicky Transient Facility Data Release 2 (ZTF DR2). Using ZTF $g$- and $r$-band light curves, we identify candidates showing early-excesses shortly after the explosion time, and we apply conservative coverage and quality requirements to build reliable ``excess'' and ``no-excess'' bump and no-bump catalogs. From an initial sample of 1547 SNe~Ia, our final catalogs contain 42 early-excess and 110 no-excess events. We compare the two populations using SN and host environment parameters from ZTF DR2 and quantify the differences using two-sample statistical tests. We find the strongest differences are in SN light-curve properties: early-excess events have larger SALT2 stretch $x_1$ ($7.91σ$) and larger $r$-band secondary-maximum flux $\\mathcal{F}_{r_2}$ ($6.25σ$), while differences in SALT2 color $c$ are weak ($0.57σ$). Early-excess events also favor bluer $(g-z)_{\\rm local}$ ($3.41σ$) and lower $\\log_{10} (M_*/M_\\odot)_{\\rm local}$ ($2.73σ$). Our results connect early excesses with SNe~Ia diversity, and motivate further analyses of upcoming larger samples.",
+  "title_relatable": "Type Ia supernovae with early brightness spikes share a distinct identity",
+  "hook": "A systematic ZTF survey finds that Type Ia supernovae showing early-time flux bumps are a statistically distinct population, with broader light curves and younger host environments, linking the bumps to intrinsic explosion diversity.",
+  "summary": "Scanning 1,547 nearby Type Ia supernovae from ZTF's second data release, the team identified 42 events with early-time flux excesses and compared them to 110 clean non-excess events. The excess group stands out sharply: their light curves are broader (SALT2 stretch offset at 7.9σ) and their local host environments are bluer and lower-mass. These correlations suggest early bumps are not random viewing-angle effects but are tied to the underlying explosion physics or progenitor channel, a distinction that will sharpen once larger photometric surveys push sample sizes higher.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1162,
+  "tokens_out": 234,
+  "cost_usd": 0.006996,
+  "ingested_at": "2026-05-17T17:01:36.075628+00:00"
+}

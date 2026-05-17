@@ -1,0 +1,24 @@
+{
+  "id": "2605.15156",
+  "arxiv_url": "https://arxiv.org/abs/2605.15156",
+  "announced_date": "2026-05-14",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "MeMo: Memory as a Model",
+  "authors": "Ryan Wei Heng Quek, Sanghyuk Lee, Alfred Wei Lun Leong, Arun Verma, Alok Prakash, Nancy F. Chen, Bryan Kian Hsiang Low, Daniela Rus, Armando Solar-Lezama",
+  "abstract": "Large language models (LLMs) achieve strong performance across a wide range of tasks, but remain frozen after pretraining until subsequent updates. Many real-world applications require timely, domain-specific information, motivating the need for efficient mechanisms to incorporate new knowledge. In this paper, we introduce MeMo (Memory as a Model), a modular framework that encodes new knowledge into a dedicated memory model while keeping the LLM parameters unchanged. Compared to existing methods, MeMo offers several advantages: (a) it captures complex cross-document relationships, (b) it is robust to retrieval noise, (c) it avoids catastrophic forgetting in the LLM, (d) it does not require access to the LLM's weights or output logits, enabling plug-and-play integration with both open and proprietary closed-source LLMs, and (e) its retrieval cost is independent of corpus size at inference time. Our experimental results on three benchmarks, BrowseComp-Plus, NarrativeQA, and MuSiQue, show that MeMo achieves strong performance compared to existing methods across diverse settings.",
+  "title_relatable": "Teaching frozen LLMs new knowledge without touching their weights",
+  "hook": "MeMo encodes new knowledge into a separate memory model that plugs into any LLM—open or proprietary—without retraining, while keeping inference cost flat regardless of how large the knowledge corpus grows.",
+  "summary": "LLMs go stale the moment training ends, yet most update strategies require either full retraining, access to model weights, or retrieval systems that slow down as document collections grow. MeMo sidesteps all three by training a small, dedicated memory model on the new corpus and attaching it to an unchanged LLM at inference time. The memory model learns cross-document relationships rather than treating each passage independently, making it resilient to retrieval noise. On BrowseComp-Plus, NarrativeQA, and MuSiQue, MeMo matches or outperforms existing retrieval-augmented and continual-learning baselines.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 979,
+  "tokens_out": 235,
+  "cost_usd": 0.006462,
+  "ingested_at": "2026-05-17T16:58:53.230533+00:00"
+}
