@@ -456,13 +456,15 @@ const topicNameMap = {
   'gr-qc': 'Gen. Relativity',
   'hep-th': 'HEP Theory',
   'astro-ph.CO': 'Cosmology',
+  'astro-ph.HE': 'HEP Astrophysics',
+  'astro-ph.GA': 'Galaxies',
+  'astro-ph.SR': 'Solar & Stellar',
+  'astro-ph.EP': 'Earth & Planets',
+  'astro-ph.IM': 'Instrumentation',
   'quant-ph': 'Quantum Physics',
   'math-ph': 'Math Physics',
   'hep-ph': 'Particle Physics',
-  'astro-ph.HE': 'HEP Astrophysics',
   'hep-ex': 'HEP Experiment',
-  'astro-ph.GA': 'Astrophysics of Galaxies',
-  'astro-ph.SR': 'Solar and Stellar',
   'cond-mat.str-el': 'Strongly Correlated',
   'nucl-th': 'Nuclear Theory',
 };
@@ -472,13 +474,15 @@ const topicTagMap = {
   'gr-qc': 'Gen. Rel.',
   'hep-th': 'HEP-TH',
   'astro-ph.CO': 'Cosmo',
+  'astro-ph.HE': 'HEP-Astro',
+  'astro-ph.GA': 'Galaxies',
+  'astro-ph.SR': 'Solar',
+  'astro-ph.EP': 'Planets',
+  'astro-ph.IM': 'Instrum',
   'quant-ph': 'Quantum',
   'math-ph': 'Math-Ph',
   'hep-ph': 'HEP-PH',
-  'astro-ph.HE': 'HEP-Astro',
   'hep-ex': 'HEP-EX',
-  'astro-ph.GA': 'Galaxies',
-  'astro-ph.SR': 'Solar',
   'cond-mat.str-el': 'Cond-Mat',
   'nucl-th': 'Nucl-TH',
 };
@@ -682,7 +686,8 @@ function buildDateNav(papers) {
   const nav = document.getElementById('date-nav');
   nav.innerHTML = dates.map(([d, n]) =>
     `<div class="day-nav-item" data-date="${d}" onclick="jumpToDate('${d}')">
-      <span>${shortDate(d)}</span><span class="day-count">${n}</span>
+      <span class="date-label">${shortDate(d)}</span>
+      <span class="day-count">${n}</span>
     </div>`
   ).join('');
 }
