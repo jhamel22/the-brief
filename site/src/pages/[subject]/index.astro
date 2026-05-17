@@ -547,7 +547,8 @@ function renderBrief(p) {
         </p>
       </div>
     </div>
-  </div>`;
+  </div>
+  <hr style="border:none; border-top: 2px solid #d8cfbe; margin: 24px 0;">`;
 }
 
 function renderFull(p) {
@@ -564,7 +565,8 @@ function renderFull(p) {
         <span class="arxiv-id">arXiv:${p.id}</span>
       </p>
     </div>
-  </article>`;
+  </article>
+  <hr style="border:none; border-top: 2px solid #d8cfbe; margin: 24px 0;">`
 }
 
 function renderPaper(p) {
@@ -584,10 +586,22 @@ function render() {
 
   if (state.sort === 'topic') {
     renderByTopic(papers);
+    // Log to diagnose rendering
+    setTimeout(() => {
+      const fullCards = document.querySelectorAll('.full-card').length;
+      const briefRows = document.querySelectorAll('.brief-row').length;
+      console.log(`Rendered: ${fullCards} full cards, ${briefRows} brief rows (mode: ${state.mode})`);
+    }, 100);
     return;
   }
 
   renderByDate(papers);
+  // Log to diagnose rendering
+  setTimeout(() => {
+    const fullCards = document.querySelectorAll('.full-card').length;
+    const briefRows = document.querySelectorAll('.brief-row').length;
+    console.log(`Rendered: ${fullCards} full cards, ${briefRows} brief rows (mode: ${state.mode})`);
+  }, 100);
 }
 
 function renderByDate(papers) {
