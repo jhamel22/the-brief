@@ -24,8 +24,8 @@ const firstSlug = subjects[0]?.slug || subjects[0]?.code;
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"/>
   <style>
-    :root{--bg:#0b0e1a;--ink:#ede4d0;--ink-soft:#a89e89;--ink-faint:#6b6353;
-      --rule:#2a2e3d;--accent:#e8a548}
+    :root{--bg:#f6f2e9;--ink:#1a1612;--ink-soft:#5a5048;--ink-faint:#8a8278;
+      --rule:#d8cfbe;--accent:#8b1a1a}
     *{box-sizing:border-box;margin:0;padding:0}
     body{background:var(--bg);color:var(--ink);font-family:'Instrument Serif',serif;
       min-height:100vh;display:flex;align-items:center;justify-content:center;
@@ -43,7 +43,7 @@ const firstSlug = subjects[0]?.slug || subjects[0]?.code;
       text-decoration:none;color:var(--ink);
       transition:border-color .18s,background .18s;
     }
-    .subject-card:hover{border-color:var(--accent);background:rgba(232,165,72,.05)}
+    .subject-card:hover{border-color:var(--accent);background:rgba(139,26,26,.05)}
     .sc-name{font-size:20px;font-weight:400}
     .sc-meta{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;
       text-transform:uppercase;color:var(--ink-faint)}

@@ -24,7 +24,7 @@ subjects:
     active: true
 
   - code: hep-th
-    name: High Energy Physics - Theory
+    name: High Energy Physics — Theory
     domain: Physics
     slug: hep-th
     daily_cap: 20
@@ -42,7 +42,7 @@ subjects:
     active: true
 
   - code: astro-ph.CO
-    name: Cosmology and Nongalactic Astrophysics
+    name: Cosmology
     domain: Physics
     slug: astro-ph-co
     daily_cap: 20
@@ -51,7 +51,7 @@ subjects:
     active: true
 
   - code: hep-ph
-    name: High Energy Physics - Phenomenology
+    name: High Energy Physics — Phenomenology
     domain: Physics
     slug: hep-ph
     daily_cap: 15
