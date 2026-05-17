@@ -92,16 +92,16 @@ const activeSubjects = allSubjects.filter(s => s.active);
     .sb-subject-domain{font-size:8px;opacity:.7;letter-spacing:.1em;text-transform:uppercase}
 
     /* Date nav */
-    #date-nav{display:flex;flex-direction:column}
+    #date-nav{display:flex;flex-direction:column;gap:2px}
     .day-nav-item{
-      padding:5px 8px;font-family:var(--mono);font-size:11px;letter-spacing:.05em;
-      cursor:pointer;color:var(--ink-faint);display:flex;
-      justify-content:space-between;transition:color .15s;
-      border-left:2px solid transparent;
+      padding:6px 10px 6px 8px;font-family:var(--mono);font-size:11px;letter-spacing:.05em;
+      cursor:pointer;color:var(--ink-faint);display:flex;align-items:center;
+      justify-content:space-between;transition:all .18s;
+      border-left:2px solid transparent;border-radius:3px;
     }
-    .day-nav-item:hover{color:var(--ink-soft)}
-    .day-nav-item.active{color:var(--accent);border-left-color:var(--accent)}
-    .day-count{opacity:.6;font-size:9px}
+    .day-nav-item:hover{color:var(--ink);background:rgba(255,255,255,.03)}
+    .day-nav-item.active{color:var(--accent);border-left-color:var(--accent);background:rgba(232,165,72,.08)}
+    .day-count{opacity:.5;font-size:9px;margin-left:8px}
 
     /* Topic chips */
     #topic-chips{display:flex;flex-direction:column;gap:4px}
@@ -671,7 +671,7 @@ function buildDateNav(papers) {
     `<div class="day-nav-item" data-date="${d}" onclick="jumpToDate('${d}')">
       <span>${shortDate(d)}</span><span class="day-count">${n}</span>
     </div>`
-  ).join('<br/>');
+  ).join('');
 }
 
 function buildTopicChips() {
