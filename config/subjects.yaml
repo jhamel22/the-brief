@@ -78,6 +78,7 @@ subjects:
     prompt_variant: cs
     description: "Neural networks, optimization, generalization, and the mathematical foundations of learning — the best of machine learning research, summarized daily. Always verify against the source."
     use_filter: true   # enables cheap pre-ranking step for high-volume subjects
+    model: haiku
     active: true
 
   - code: cs.AI
@@ -88,6 +89,7 @@ subjects:
     prompt_variant: cs
     description: "Agents, reasoning, foundation models, and the latest from the AI research frontier — summarized daily. Always verify against the source."
     use_filter: true
+    model: haiku
     active: true
 
   - code: cs.CL

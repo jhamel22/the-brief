@@ -27,7 +27,7 @@ ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 
 from arxiv import fetch_new_papers
-from summarize import summarize_paper, rank_papers, SONNET
+from summarize import summarize_paper, rank_papers, SONNET, HAIKU
 
 DATA_DIR     = ROOT / "data"
 PAPERS_DIR   = DATA_DIR / "papers"
@@ -100,6 +100,7 @@ def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool, ta
     daily_cap     = subject.get("daily_cap", 20)
     prompt_variant = subject.get("prompt_variant", "physics")
     use_filter    = subject.get("use_filter", False)
+    model         = HAIKU if subject.get("model") == "haiku" else SONNET
 
     # 1. Fetch
     all_papers = fetch_new_papers(code, target_date)
@@ -135,7 +136,7 @@ def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool, ta
         short_title = paper["title_original"][:65]
         print(f"  → {paper['id']}: {short_title}…")
 
-        result = summarize_paper(paper, prompt_variant, client)
+        result = summarize_paper(paper, prompt_variant, client, model=model)
         if result:
             save_paper(result)
             ingested.append(result)
