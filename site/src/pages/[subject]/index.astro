@@ -371,11 +371,9 @@ const activeSubjects = allSubjects.filter(s => s.active);
           <span class="hdr-meta">{subjectConfig.domain} · {subjectConfig.code}</span>
           <span class="hdr-meta" id="hdr-count"></span>
         </div>
-        <h1>{subjectConfig.name.split(' ').slice(0, -1).join(' ')},<br/>
-          <em>{subjectConfig.name.split(' ').slice(-1)[0]}</em></h1>
+        <h1>{subjectConfig.name}</h1>
         <p class="lede">
-          New submissions to <a href={`https://arxiv.org/list/${subjectConfig.code}/recent`} target="_blank">arXiv:{subjectConfig.code}</a>,
-          summarized daily by an AI. Relatable headlines, plain-English hooks. Always verify against the source.
+          {subjectConfig.description || `The latest ${subjectConfig.name} research from arXiv, summarized daily. Always verify against the source.`}
         </p>
       </header>
 

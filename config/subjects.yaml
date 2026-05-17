@@ -20,6 +20,7 @@ subjects:
     slug: gr-qc
     daily_cap: 25
     prompt_variant: physics
+    description: "Black holes, gravitational waves, and the fabric of spacetime — the latest research, summarized daily. Always verify against the source."
     active: true
 
   - code: hep-th
@@ -81,6 +82,7 @@ subjects:
     slug: cs-ai
     daily_cap: 15
     prompt_variant: cs
+    description: "Agents, reasoning, foundation models, and the latest from the AI research frontier — summarized daily. Always verify against the source."
     use_filter: true
     active: true
 
