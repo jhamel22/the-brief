@@ -13,8 +13,8 @@ export async function getStaticPaths() {
   const paths = [];
 
   for (const subject of subjects) {
-    const papersDir = path.join(process.cwd(), 'data', 'papers');
-    const subjectDataDir = path.join(process.cwd(), 'data', 'subjects', subject.code);
+    const papersDir = path.join(process.cwd(), '..', 'data', 'papers');
+    const subjectDataDir = path.join(process.cwd(), '..', 'data', 'subjects', subject.code);
 
     // Load the subject's index to get all paper IDs
     const indexPath = path.join(subjectDataDir, 'index.json');
