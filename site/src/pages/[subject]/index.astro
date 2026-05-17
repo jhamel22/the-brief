@@ -685,10 +685,18 @@ function buildDateNav(papers) {
   const dates = Object.entries(byDate).sort((a, b) => b[0].localeCompare(a[0]));
   const nav = document.getElementById('date-nav');
   nav.innerHTML = dates.map(([d, n]) =>
-    `<div class="day-nav-item" data-date="${d}" onclick="jumpToDate('${d}')">
-      <span class="date-label">${shortDate(d)}</span>
-      <span class="day-count">${n}</span>
-    </div>`
+    `<button onclick="jumpToDate('${d}')"
+      id="date-btn-${d}"
+      data-date="${d}"
+      style="display:flex; justify-content:space-between; align-items:center;
+             width:100%; padding:6px 12px; margin-bottom:4px;
+             border:1px solid var(--rule); border-radius:100px;
+             background:transparent; color:var(--ink-soft);
+             font-family:var(--mono); font-size:10px; letter-spacing:.06em;
+             text-transform:uppercase; cursor:pointer; transition:all .18s;">
+      <span>${shortDate(d)}</span>
+      <span style="opacity:.5">${n}</span>
+    </button>`
   ).join('');
 }
 
@@ -752,8 +760,18 @@ window.jumpToDate = function(date) {
   setTimeout(() => {
     const el = document.querySelector(`.day-section[data-date="${date}"]`);
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    document.querySelectorAll('.day-nav-item').forEach(d => {
-      d.classList.toggle('active', d.dataset.date === date);
+
+    // Update button styles
+    document.querySelectorAll('[id^="date-btn-"]').forEach(btn => {
+      if (btn.dataset.date === date) {
+        btn.style.background = 'var(--accent)';
+        btn.style.color = 'var(--bg)';
+        btn.style.borderColor = 'var(--accent)';
+      } else {
+        btn.style.background = 'transparent';
+        btn.style.color = 'var(--ink-soft)';
+        btn.style.borderColor = 'var(--rule)';
+      }
     });
   }, 50);
 }
@@ -855,9 +873,19 @@ function initScrollSpy() {
     entries.forEach(e => {
       if (e.isIntersecting) {
         const date = e.target.dataset.date;
-        document.querySelectorAll('.day-nav-item').forEach(d =>
-          d.classList.toggle('active', d.dataset.date === date)
-        );
+
+        // Update button styles
+        document.querySelectorAll('[id^="date-btn-"]').forEach(btn => {
+          if (btn.dataset.date === date) {
+            btn.style.background = 'var(--accent)';
+            btn.style.color = 'var(--bg)';
+            btn.style.borderColor = 'var(--accent)';
+          } else {
+            btn.style.background = 'transparent';
+            btn.style.color = 'var(--ink-soft)';
+            btn.style.borderColor = 'var(--rule)';
+          }
+        });
       }
     });
   }, { threshold: 0.1, rootMargin: '-20% 0px -60% 0px' });
