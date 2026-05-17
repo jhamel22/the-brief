@@ -185,7 +185,7 @@ const activeSubjects = allSubjects.filter(s => s.active);
     .day-section.day-collapsed .day-content{max-height:0;opacity:0}
 
     /* ── Full card ────────────────────────────────────────────── */
-    .full-card{padding:32px 0;border-top:1px solid var(--rule);position:relative;transition:opacity .3s}
+    .full-card{padding:32px 0;border-top:1px solid var(--ink-faint);margin-bottom:8px;position:relative;transition:opacity .3s}
     .full-card.hidden{display:none}
     .card-head{display:flex;align-items:baseline;gap:16px;margin-bottom:8px;flex-wrap:wrap;padding-right:36px}
     .card-id{font-family:var(--mono);font-size:11px;letter-spacing:.05em;color:var(--ink-faint)}
@@ -210,7 +210,7 @@ const activeSubjects = allSubjects.filter(s => s.active);
       text-transform:uppercase;color:var(--ink-faint);margin-right:6px}
 
     /* ── Brief row ───────────────────────────────────────────── */
-    .brief-row{padding:16px 0;border-top:1px solid var(--rule);
+    .brief-row{padding:16px 0;border-top:1px solid var(--ink-faint);margin-bottom:8px;
       display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:baseline;transition:opacity .3s}
     .brief-row.hidden{display:none}
     .brief-meta{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--ink-faint);line-height:1.7}
@@ -400,7 +400,6 @@ const activeSubjects = allSubjects.filter(s => s.active);
         </div>
         <button class="bar-action" id="collapse-all">Collapse all</button>
         <button class="bar-action" id="expand-all">Expand all</button>
-        <button onclick="debugCollapse()">DEBUG</button>
         <span class="bar-count" id="bar-count"></span>
       </div>
 
@@ -515,12 +514,10 @@ function renderScan(p) {
 
 function renderBrief(p) {
   const cls = state.collapsed.has(p.id) ? ' collapsed' : '';
-  const tag = p.subjects_all?.[1] || p.subject || '';
   return `<div class="brief-row${cls}" data-id="${p.id}">
     <div class="brief-meta">
       <a href="${p.arxiv_url}" target="_blank">${p.id}</a><br/>
-      ${shortDate(p.announced_date)}<br/>
-      <span class="brief-tag">${tag}</span>
+      ${shortDate(p.announced_date)}
     </div>
     <div class="brief-body">
       <h3>${p.title_relatable || p.title_original}
@@ -539,12 +536,10 @@ function renderBrief(p) {
 
 function renderFull(p) {
   const cls = state.collapsed.has(p.id) ? ' collapsed' : '';
-  const tag = p.subjects_all?.[1] || p.subject || '';
   return `<article class="full-card${cls}" data-id="${p.id}">
     <button class="p-toggle" onclick="togglePaper('${p.id}',this)"></button>
     <div class="card-head">
       <span class="card-id"><a href="${p.arxiv_url}" target="_blank">arXiv:${p.id}</a> · ${shortDate(p.announced_date)}</span>
-      <span class="card-tag">${tag}</span>
     </div>
     <h2 class="card-title">${p.title_relatable || p.title_original}</h2>
     <p class="card-authors">${p.authors}</p>
@@ -606,7 +601,7 @@ function renderByDate(papers) {
         <span class="week-stats">${allWeekPapers.length} papers · ${topicSample}</span>
       </div>`;
 
-    const dates = Object.keys(datesMap).sort(asc ? (a,b) => a.localeCompare(b) : (a,b) => b.localeCompare(a));
+    const dates = Object.keys(datesMap).sort(state.sort === 'oldest' ? (a,b) => a.localeCompare(b) : (a,b) => b.localeCompare(a));
     dates.forEach(d => {
       const dayPapers = datesMap[d];
       const leads = dayPapers.filter(p => p.is_lead);
@@ -676,7 +671,7 @@ function buildDateNav(papers) {
     `<div class="day-nav-item" data-date="${d}" onclick="jumpToDate('${d}')">
       <span>${shortDate(d)}</span><span class="day-count">${n}</span>
     </div>`
-  ).join('');
+  ).join('<br/>');
 }
 
 function buildTopicChips() {
