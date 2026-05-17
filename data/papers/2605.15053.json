@@ -1,0 +1,23 @@
+{
+  "id": "2605.15053",
+  "arxiv_url": "https://arxiv.org/abs/2605.15053",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale",
+  "authors": "Anurup Ganguli",
+  "abstract": "Continually pre-training a large language model on heterogeneous text domains, without replay or task labels, has remained an unsolved architectural problem at LLM scale. Existing methods rely on replay buffers, task identifiers, regularization penalties that scale poorly, or sentence-classification-scale evaluation. We introduce TFGN, an architectural overlay for transformer language models that produces input-conditioned, parameter-efficient updates while leaving the rest of the transformer unchanged. On six heterogeneous text domains (Prose, Python, Math, Biomedical, Chinese, JavaScript) at 1B tokens per phase across three model scales (~398M, ~739M, ~9B) and two regimes (From-Scratch and Retrofit), TFGN achieves backward transfer of -0.007 at LLaMA 3.1 8B Retrofit, HellaSwag retention 0.506/0.504/0.510, and >=99.59% L2-orthogonal gradient separation between domain pairs - with no replay, no task IDs, no Fisher penalty. The same matrices show positive cross-domain forward transfer: held-out JavaScript PPL drops 26.8% at LLaMA-8B Retrofit and 62.0% at GPT-2 Medium From-Scratch purely from Python training. Two extensions on the same substrate close further open problems. A closed-loop meta-control layer (Extension A) reduces forgetting by an additional 81% at ~398M, mapping onto the System A and System M roles of Dupoux et al. (arXiv:2603.15381). An operator-level plan vector (Extension B) reshapes forward-pass behavior at 99.96% cosine fidelity over 30 source->target pairs. The architectural insight is a Read/Write decomposition: the forward pass is fully dense, while cross-domain parameter updates are structured so prior-domain subspaces are not written to. To our knowledge, TFGN is the first architecture that simultaneously closes catastrophic forgetting at LLM scale, realizes a closed-loop autonomous-learning meta-controller, and carries an operator-level latent planner.",
+  "title_relatable": "Teaching billion-parameter models new domains without forgetting old ones",
+  "hook": "TFGN eliminates catastrophic forgetting in continual LLM pre-training without replay buffers or task labels, achieving near-zero backward transfer (-0.007) at LLaMA 3.1 8B scale across six heterogeneous text domains.",
+  "summary": "Continually training LLMs on new data domains typically degrades performance on previously learned ones — a problem called catastrophic forgetting — and existing fixes require storing old data, knowing task boundaries, or expensive regularization that breaks at scale. TFGP introduces a transformer overlay that routes parameter updates so new domain learning writes only to orthogonal subspaces, leaving prior-domain representations intact. Across six domains (prose, Python, math, biomedical, Chinese, JavaScript) at 1B tokens per phase, the method achieves ≥99.59% gradient separation between domains and a 26.8% drop in held-out JavaScript perplexity from Python training alone — positive forward transfer with no replay. Tested at ~398M, ~739M, and ~9B parameter scales in both from-scratch and retrofit settings; code availability is not mentioned.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1170,
+  "tokens_out": 292,
+  "cost_usd": 0.00789,
+  "ingested_at": "2026-05-17T16:38:45.773862+00:00"
+}

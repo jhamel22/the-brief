@@ -1,0 +1,23 @@
+{
+  "id": "2605.15081",
+  "arxiv_url": "https://arxiv.org/abs/2605.15081",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "ML-Embed: Inclusive and Efficient Embeddings for a Multilingual World",
+  "authors": "Ziyin Zhang, Zihan Liao, Hang Yu, Peng Di, Rui Wang",
+  "abstract": "The development of high-quality text embeddings is increasingly drifting toward an exclusionary future, defined by three critical barriers: prohibitive computational costs, a narrow linguistic focus that neglects most of the world's languages, and a lack of transparency from closed-source or open-weight models that stifles research. To dismantle these barriers, we introduce ML-Embed, a suite of inclusive and efficient models built upon a new framework: 3-Dimensional Matryoshka Learning (3D-ML). Our framework addresses the computational challenge with comprehensive efficiency across the entire model lifecycle. Beyond the storage benefits of Matryoshka Representation Learning (MRL) and flexible inference-time depth provided by Matryoshka Layer Learning (MLL), we introduce Matryoshka Embedding Learning (MEL) for enhanced parameter efficiency. To address the linguistic challenge, we curate a massively multilingual dataset and train a suite of models ranging from 140M to 8B parameters. In a direct commitment to transparency, we release all models, data, and code. Extensive evaluation on 430 tasks demonstrates that our models set new records on 9 of 17 evaluated MTEB benchmarks, with particularly strong results in low-resource languages, providing a reproducible blueprint for building globally equitable and computationally efficient AI systems.",
+  "title_relatable": "Open multilingual text embeddings that top nine major benchmarks",
+  "hook": "ML-Embed introduces a 3D Matryoshka training framework to build efficient, multilingual embedding models that set new records on 9 of 17 MTEB benchmarks, with full release of models, data, and code.",
+  "summary": "Most high-quality text embedding models are expensive to run, trained on a narrow set of languages, and closed-source — limiting both accessibility and reproducibility. ML-Embed tackles all three issues with 3-Dimensional Matryoshka Learning, which combines flexible embedding size (MRL), variable inference depth (MLL), and a new parameter-efficient component (MEL). Models ranging from 140M to 8B parameters are trained on a massively multilingual dataset and evaluated across 430 tasks, with top performance on 9 of 17 MTEB benchmarks and notably strong results for low-resource languages. All models, training data, and code are publicly released.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 983,
+  "tokens_out": 247,
+  "cost_usd": 0.006654,
+  "ingested_at": "2026-05-17T16:39:04.683961+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.14998",
+  "arxiv_url": "https://arxiv.org/abs/2605.14998",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "eess.SY",
+    "q-bio.QM"
+  ],
+  "title_original": "Learning Developmental Scaffoldings to Guide Self-Organisation",
+  "authors": "Milton L. Montero, Elias Najarro, Jakob Schauser, Sebastian Risi",
+  "abstract": "From subcellular structures to entire organisms, many natural systems generate complex organisation through self-organisation: local interactions that collectively give rise to global structure without any blueprint of the outcome. Yet a significant portion of the information driving such processes is not produced by self-organisation itself, instead, it is often offloaded to initial conditions of the system. Biological development is a prime example, where maternal pre-patterns encode positional and symmetry-breaking information that scaffolds the self-organising process. From maternal morphogen gradients in early embryogenesis to tissue-level morphogenetic pre-patterns guiding organ formation, this transfer of information to initial conditions, analogous to a memory-compute trade-off in computational systems, is a fundamental part of developmental processes. In this work, we study this offloading phenomenon by introducing a model that jointly learns both the self-organisation rules and the pre-patterns, allowing their interplay to be varied and measured under controlled conditions: a Neural Cellular Automaton (NCA) paired with a learned coordinate-based pattern generator (SIREN), both trained simultaneously to generate a set of patterns. We provide information-theoretic analyses of how information is distributed between pre-patterns and the self-organising process, and show that jointly learning both components yields improvements in robustness, encoding capacity, and symmetry breaking over purely self-organising alternatives. Our analysis further suggests that effective pre-patterns do not simply approximate their targets; rather, they bias the developmental dynamics in ways that facilitate convergence, pointing to a non-trivial relationship between the structure of initial conditions and the dynamics of self-organisation.",
+  "title_relatable": "Teaching AI cells to self-organize using learned developmental blueprints",
+  "hook": "By jointly learning both the rules of self-organisation and the initial conditions that scaffold it — mimicking how maternal gradients guide embryo development — a Neural Cellular Automaton produces more robust, higher-capacity pattern generation than self-organisation alone.",
+  "summary": "Self-organising systems like cellular automata can grow complex patterns from local rules, but biological development relies heavily on pre-existing spatial cues (maternal morphogen gradients) to bootstrap the process. This work pairs a Neural Cellular Automaton with a learned coordinate-based pattern generator (SIREN) and trains both simultaneously, letting the model discover what information to embed in initial conditions versus what to compute on the fly. Information-theoretic analysis shows the joint approach outperforms purely self-organising baselines in robustness, encoding capacity, and symmetry-breaking. Notably, effective learned pre-patterns don't merely approximate target outputs — they reshape developmental dynamics to make convergence easier, mirroring a non-trivial memory-compute trade-off seen in biology.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1029,
+  "tokens_out": 264,
+  "cost_usd": 0.007047,
+  "ingested_at": "2026-05-17T16:39:19.224084+00:00"
+}

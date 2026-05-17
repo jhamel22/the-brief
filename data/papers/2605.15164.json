@@ -1,0 +1,23 @@
+{
+  "id": "2605.15164",
+  "arxiv_url": "https://arxiv.org/abs/2605.15164",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Position: Behavioural Assurance Cannot Verify the Safety Claims Governance Now Demands",
+  "authors": "Pratinav Seth, Vinay Kumar Sankarapu",
+  "abstract": "This position paper argues that behavioural assurance, even when carefully designed, is being asked to carry safety claims it cannot verify. AI governance frameworks enacted between 2019 and early 2026 require reviewable evidence of properties such as the absence of hidden objectives, resistance to loss-of-control precursors, and bounded catastrophic capability; current assurance methodologies (primarily behavioural evaluations and red-teaming) are epistemically limited to observable model outputs and cannot verify the latent representations or long-horizon agentic behaviours these frameworks presume to regulate. We formalize this structural mismatch as the audit gap, the divergence between required and achievable verification access, and introduce the concept of fragile assurance to describe cases where the evidential structure does not support the asserted safety claim. Through an analysis of a 21-instrument inventory, we identify an incentive gradient where geopolitical and industrial pressures systematically reward surface-level behavioral proxies over deep structural verification. Finally, we propose a technical pivot: bounding the weight of behavioral evidence in legal text and extending voluntary pre-deployment access with mechanistic-evidence classes, specifically linear probes, activation patching, and before/after-training comparisons.",
+  "title_relatable": "Why current AI safety testing cannot prove what regulators require",
+  "hook": "Behavioral evaluations and red-teaming — the dominant tools in AI governance — cannot verify the internal properties that regulations since 2019 actually demand, creating a structural gap between required and achievable safety evidence.",
+  "summary": "AI governance frameworks increasingly require evidence of properties like absent hidden objectives and bounded catastrophic capability, but every major assurance methodology today is limited to observable outputs. This position paper formalizes that mismatch as the 'audit gap' and coins 'fragile assurance' for cases where the evidence does not logically support the safety claim being made. An analysis of 21 governance instruments finds systematic pressure toward superficial behavioral proxies driven by geopolitical and commercial incentives. The authors propose capping the legal weight of behavioral evidence and supplementing it with mechanistic verification methods — linear probes, activation patching, and pre/post-training comparisons — that can inspect internal model structure.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 950,
+  "tokens_out": 236,
+  "cost_usd": 0.00639,
+  "ingested_at": "2026-05-17T16:38:58.757637+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.15179",
+  "arxiv_url": "https://arxiv.org/abs/2605.15179",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "physics.comp-ph"
+  ],
+  "title_original": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
+  "authors": "Ellwil Sharma, Arastu Sharma",
+  "abstract": "Scaling Scientific Machine Learning (SciML) toward universal foundation models is bottlenecked by negative transfer: the simultaneous co-training of disparate partial differential equation (PDE) regimes can induce gradient conflict, unstable optimization, and plasticity loss in dense neural operators. In particular, broadband open-channel fluid dynamics and boundary-dominated porous media flows impose incompatible spectral and geometric demands on a single dense parameter path. We introduce Shodh-MoE, a sparse-activated latent transformer architecture for multi-physics transport. Shodh-MoE operates on compressed 16^3 physical latents produced by a physics-informed autoencoder with an intra-tokenizer Helmholtz-style velocity parameterization, restricting decoded states to divergence-free velocity manifolds. The model guarantees exact mass conservation, achieving a physically verifiable velocity divergence of ~2.8 x 10^-10 (evaluated post-hoc in FP64) on 128^3 grids. A Top-1 soft-semantic router dynamically assigns localized latent patches to expert subnetworks, enabling specialized parameter paths for distinct physical mechanisms while preserving shared experts for universal symmetries. In a 20,000-step distributed pretraining run over mixed three-dimensional physical tensors, routing telemetry shows autonomous domain bifurcation: held-out validation tokens from the open-channel domain route exclusively to Expert 0, while porous-media tokens route exclusively to Expert 1. The model converges simultaneously across both regimes, achieving latent validation MSEs of 2.46 x 10^-5 and 9.76 x 10^-6, and decoded physical MSEs of 2.48 x 10^-6 and 1.76 x 10^-6. These results support sparse expert routing as a practical architectural mechanism for mitigating multi-physics interference in universal neural operators.",
+  "title_relatable": "Splitting physics simulations across expert networks prevents training interference",
+  "hook": "A sparse mixture-of-experts neural operator autonomously separates fluid dynamics from porous-media flow during training, achieving near-zero velocity divergence of 2.8×10⁻¹⁰ and eliminating the gradient conflicts that plague multi-physics foundation models.",
+  "summary": "Co-training neural operators on physically incompatible PDE regimes — such as open-channel fluid flow and porous-media flow — causes gradient conflicts that degrade accuracy across all domains. Shodh-MoE addresses this with a sparse-activated latent transformer that routes compressed physical representations to specialized expert subnetworks via a Top-1 semantic router, while shared experts handle universal symmetries. During a 20,000-step pretraining run, routing telemetry revealed spontaneous domain separation: fluid tokens routed exclusively to one expert, porous-media tokens to another, with no explicit supervision. Decoded physical MSEs reached 2.48×10⁻⁶ and 1.76×10⁻⁶ on the respective domains, with strict mass conservation enforced via a Helmholtz velocity parameterization.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1121,
+  "tokens_out": 294,
+  "cost_usd": 0.007773,
+  "ingested_at": "2026-05-17T16:38:52.396300+00:00"
+}

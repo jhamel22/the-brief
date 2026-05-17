@@ -82,7 +82,7 @@ subjects:
     daily_cap: 15
     prompt_variant: cs
     use_filter: true
-    active: false
+    active: true
 
   - code: cs.CL
     name: Computation and Language

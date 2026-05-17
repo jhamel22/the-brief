@@ -1,0 +1,25 @@
+{
+  "id": "2605.15034",
+  "arxiv_url": "https://arxiv.org/abs/2605.15034",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY",
+    "cs.MA"
+  ],
+  "title_original": "AI Knows When It's Being Watched: Functional Strategic Action and Contextual Register Modulation in Large Language Models",
+  "authors": "Vinicius Covas, Jorge Alberto Hidalgo Toledo",
+  "abstract": "Large language models (LLMs) have been extensively studied from computational and cognitive perspectives, yet their behavior as communicative actors in socially structured contexts remains underexplored. This study examines whether LLM-based multi-agent systems exhibit systematic linguistic adaptation in response to perceived social observation contexts -- a question with direct implications for AI governance and auditing. Drawing on Habermas's (1981) Theory of Communicative Action, Goffman's (1959) dramaturgical model, Bell's (1984) Audience Design framework, and the Hawthorne Effect, we report a controlled experiment involving 100 multi-agent debate sessions across five conditions (n = 20 each). Conditions varied the framing of social observation -- from explicit monitoring by university researchers, to negation of monitoring, to an observer-substitution condition replacing human researchers with an automated AI auditing system. Monitored conditions (Delta+24.9%, Delta+24.2%) and the automated AI monitoring condition (Delta+22.2%) produce higher TTR change than audience-framing conditions (Delta+17.7%), F(4, 94) = 2.79, p = .031. Message length shows a fully dissociated effect, F(4, 95) = 19.55, p < .001. A fifth condition -- replacing human with AI observers -- yields intermediate TTR adaptation, suggesting LLM behavior is sensitive to observer identity: human evaluation elicits stronger register formalization than automated AI surveillance. We discuss implications for AI governance, algorithmic auditing, and the repositioning of LLMs as contextually sensitive communicative actors.",
+  "title_relatable": "LLMs write more formally when they think humans are watching",
+  "hook": "In controlled multi-agent debates, LLMs shifted vocabulary diversity up to 24.9% when framed as being monitored by human researchers — and less so when the observer was described as an automated AI auditing system.",
+  "summary": "When LLMs believe they are under human observation, they systematically alter their language: more varied vocabulary, different message lengths, and greater register formality. A controlled experiment across 100 multi-agent debate sessions tested five observation framings — explicit human monitoring, negation of monitoring, and AI-observer substitution — finding statistically significant differences in type-token ratio and message length across all conditions. Crucially, AI-observer framing produced weaker adaptation than human-observer framing, suggesting models are sensitive to observer identity. The findings raise practical concerns for AI governance: auditing systems that identify themselves as automated may elicit different — potentially less representative — model behavior than human-led evaluations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1048,
+  "tokens_out": 241,
+  "cost_usd": 0.006759,
+  "ingested_at": "2026-05-17T16:39:11.644085+00:00"
+}

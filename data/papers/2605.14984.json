@@ -1,0 +1,23 @@
+{
+  "id": "2605.14984",
+  "arxiv_url": "https://arxiv.org/abs/2605.14984",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
+  "authors": "Ming Qian, Zimin Xia, Changkun Liu, Shuailei Ma, Wen Wang, Zeran Ke, Bin Tan, Hang Zhang, Gui-Song Xia",
+  "abstract": "Generating a street-level 3D scene from a single satellite image is a crucial yet challenging task. Current methods present a stark trade-off: geometry-colorization models achieve high geometric fidelity but are typically building-focused and lack semantic diversity. In contrast, proxy-based models use feed-forward image-to-3D frameworks to generate holistic scenes by jointly learning geometry and texture, a process that yields rich content but coarse and unstable geometry. We attribute these geometric failures to the extreme viewpoint gap and sparse, inconsistent supervision inherent in satellite-to-street data. We introduce Sat3DGen to address these fundamental challenges, which embodies a geometry-first methodology. This methodology enhances the feed-forward paradigm by integrating novel geometric constraints with a perspective-view training strategy, explicitly countering the primary sources of geometric error. This geometry-centric strategy yields a dramatic leap in both 3D accuracy and photorealism. For validation, we first constructed a new benchmark by pairing the VIGOR-OOD test set with high-resolution DSM data. On this benchmark, our method improves geometric RMSE from 6.76m to 5.20m. Crucially, this geometric leap also boosts photorealism, reducing the Fréchet Inception Distance (FID) from $\\sim$40 to 19 against the leading method, Sat2Density++, despite using no extra tailored image-quality modules. We demonstrate the versatility of our high-quality 3D assets through diverse downstream applications, including semantic-map-to-3D synthesis, multi-camera video generation, large-scale meshing, and unsupervised single-image Digital Surface Model (DSM) estimation. The code has been released on https://github.com/qianmingduowan/Sat3DGen.",
+  "title_relatable": "Turning a single satellite photo into a detailed street-level 3D scene",
+  "hook": "Sat3DGen generates accurate street-level 3D scenes from a single satellite image, cutting geometric error from 6.76m to 5.20m RMSE and halving FID score to 19 compared to the leading method.",
+  "summary": "Reconstructing walkable 3D environments from overhead satellite imagery is hampered by the extreme viewpoint shift between satellite and street perspectives. Sat3DGen tackles this with a geometry-first approach: novel geometric constraints and a perspective-view training strategy are added to a feed-forward image-to-3D framework, directly attacking the sparse and inconsistent supervision that causes prior methods to produce wobbly geometry. Evaluated on a new benchmark pairing VIGOR-OOD with high-resolution DSM data, the method improves RMSE from 6.76m to 5.20m and drops FID from ~40 to 19 without dedicated image-quality modules. Code is publicly released, and the pipeline supports downstream tasks including semantic-map-to-3D synthesis, multi-camera video generation, and unsupervised DSM estimation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1127,
+  "tokens_out": 289,
+  "cost_usd": 0.007716,
+  "ingested_at": "2026-05-17T16:39:25.319318+00:00"
+}

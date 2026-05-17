@@ -1,0 +1,23 @@
+{
+  "id": "2605.14980",
+  "arxiv_url": "https://arxiv.org/abs/2605.14980",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "MicroscopyMatching: Towards a Ready-to-use Framework for Microscopy Image Analysis in Diverse Conditions",
+  "authors": "Xiaofei Hui, Haoxuan Qu, Hossein Rahmani, Shuohong Wang, Jeff W. Lichtman, Jun Liu",
+  "abstract": "Analyzing microscopy images to extract biological object properties (e.g., their morphological organization, temporal dynamics, and population density) is fundamental to various biomedical research. Yet conducting this manually is costly and time-consuming. Though deep learning-based approaches have been explored to automate this process, the substantial diversity of microscopy analysis settings in practice (including variations of biological object types, sample processing protocols, imaging equipment, and analysis tasks, etc.) often renders them ineffective. As a result, these approaches typically require extensive adaptation for different settings, which, however, can impose burdens that are often practically unsustainable for laboratories, forcing biomedical researchers to still commonly rely on manual analysis, thereby severely bottlenecking the pace of biomedical research progress. This situation has created a pressing and long-standing need for a reliable and broadly applicable microscopy image analysis tool, yet such a tool is still missing. To address this gap, we present the first ready-to-use microscopy image analysis framework, MicroscopyMatching, that can reliably perform key analysis tasks (including segmentation, tracking, and counting) across diverse microscopy analysis settings. From a fundamentally different perspective, MicroscopyMatching reformulates diverse microscopy image analysis tasks as a unified matching problem, effectively handling this problem by exploiting the robust matching capability from pre-trained latent diffusion models.",
+  "title_relatable": "One framework that handles microscopy image analysis across all conditions",
+  "hook": "MicroscopyMatching reframes segmentation, tracking, and counting as a single matching problem, enabling a ready-to-use tool that works across wildly different microscopy settings without lab-specific retraining.",
+  "summary": "Biomedical labs still largely hand-annotate microscopy images because existing deep learning tools break down when imaging equipment, sample protocols, or biological objects change — requiring costly retraining most labs can't sustain. MicroscopyMatching sidesteps this by treating segmentation, tracking, and counting as variants of one unified matching problem, then leveraging the rich visual representations already encoded in pre-trained latent diffusion models to perform that matching robustly. The framework is designed as a drop-in tool requiring no task-specific adaptation. It targets biomedical researchers directly rather than ML practitioners, and addresses a gap the authors describe as long-standing and unmet by any existing system.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1011,
+  "tokens_out": 239,
+  "cost_usd": 0.006618,
+  "ingested_at": "2026-05-17T16:39:31.769925+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.15186",
+  "arxiv_url": "https://arxiv.org/abs/2605.15186",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "VGGT-Edit: Feed-forward Native 3D Scene Editing with Residual Field Prediction",
+  "authors": "Kaixin Zhu, Yiwen Tang, Yifan Yang, Renrui Zhang, Bohan Zeng, Ziyu Guo, Ruichuan An, Zhou Liu, Qizhi Chen, Delin Qu, Jaehong Yoon, Wentao Zhang",
+  "abstract": "High-quality 3D scene reconstruction has recently advanced toward generalizable feed-forward architectures, enabling the generation of complex environments in a single forward pass. However, despite their strong performance in static scene perception, these models remain limited in responding to dynamic human instructions, which restricts their use in interactive applications. Existing editing methods typically rely on a 2D-lifting strategy, where individual views are edited independently and then lifted back into 3D space. This indirect pipeline often leads to blurry textures and inconsistent geometry, as 2D editors lack the spatial awareness required to preserve structure across viewpoints. To address these limitations, we propose VGGT-Edit, a feed-forward framework for text-conditioned native 3D scene editing. VGGT-Edit introduces depth-synchronized text injection to align semantic guidance with the backbone's spatial poses, ensuring stable instruction grounding. This semantic signal is then processed by a residual transformation head, which directly predicts 3D geometric displacements to deform the scene while preserving background stability. To ensure high-fidelity results, we supervise the framework with a multi-term objective function that enforces geometric accuracy and cross-view consistency. We also construct the DeltaScene Dataset, a large-scale dataset generated through an automated pipeline with 3D agreement filtering to ensure ground-truth quality. Experiments show that VGGT-Edit substantially outperforms 2D-lifting baselines, producing sharper object details, stronger multi-view consistency, and near-instant inference speed.",
+  "title_relatable": "Editing 3D scenes from text in a single forward pass",
+  "hook": "VGGT-Edit skips the error-prone 2D-then-lift pipeline by predicting 3D geometric changes directly, producing sharper textures and consistent geometry across viewpoints at near-instant speed.",
+  "summary": "Most 3D scene editing methods edit individual 2D views separately and stitch them back into 3D, which causes blurry textures and geometry mismatches across viewpoints. VGGT-Edit instead works natively in 3D: it injects text instructions aligned to the scene's spatial poses, then uses a residual transformation head to directly predict geometric displacements while leaving the background intact. The authors also release DeltaScene, a large-scale dataset built with an automated 3D-agreement filtering pipeline to provide clean ground truth. VGGT-Edit substantially outperforms 2D-lifting baselines on multi-view consistency and detail sharpness, and targets researchers and practitioners building interactive 3D applications.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1078,
+  "tokens_out": 255,
+  "cost_usd": 0.007059,
+  "ingested_at": "2026-05-17T16:40:01.617078+00:00"
+}

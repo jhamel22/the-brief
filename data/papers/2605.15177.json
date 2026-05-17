@@ -1,0 +1,22 @@
+{
+  "id": "2605.15177",
+  "arxiv_url": "https://arxiv.org/abs/2605.15177",
+  "announced_date": "2026-05-14",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "OpenDeepThink: Parallel Reasoning via Bradley--Terry Aggregation",
+  "authors": "Shang Zhou, Wenhao Chai, Kaiyuan Liu, Huanzhi Mao, Qiuyang Mang, Jingbo Shang",
+  "abstract": "Test-time compute scaling is a primary axis for improving LLM reasoning. Existing methods primarily scale depth by extending a single reasoning trace. Scaling breadth by sampling multiple candidates in parallel is straightforward, but introduces a selection bottleneck: choosing the best candidate without a ground-truth verifier, since pointwise LLM judging is noisy and biased. To address this, we introduce OpenDeepThink, a population-based test-time compute framework that selects via pairwise Bradley-Terry comparison. Each generation, the LLM judges random pairs of candidates and aggregates votes via Bradley-Terry into a global ranking; top-ranked candidates are preserved and the top three quarters are mutated using the natural-language critiques produced during comparison; the bottom quarter is discarded. OpenDeepThink raises Gemini 3.1 Pro's effective Codeforces Elo by +405 points in eight sequential LLM-call rounds (~27 minutes wall-clock). The pipeline transfers across weaker and stronger models without retuning, and on the multi-domain HLE benchmark, gains appear concentrated in objectively verifiable domains and reverse in subjective ones. We release CF-73, a curated set of 73 expert-rated Codeforces problems with International Grandmaster annotation and 99% local-evaluation agreement against the official verdict.",
+  "title_relatable": "Parallel reasoning with tournament-style ranking beats single-chain thinking",
+  "hook": "Instead of extending one chain of thought, OpenDeepThink runs many reasoning candidates in parallel and selects winners via pairwise Bradley-Terry voting, lifting Gemini's Codeforces Elo by +405 points in about 27 minutes.",
+  "summary": "Most test-time compute methods scale depth — making one reasoning trace longer. OpenDeepThink scales breadth instead, maintaining a population of candidate solutions that compete in pairwise LLM-judged comparisons aggregated into a Bradley-Terry global ranking. Each round, the top three-quarters are mutated using natural-language critiques from the comparisons, and the bottom quarter is dropped. Beyond the +405 Codeforces Elo gain on Gemini, the method transfers across model sizes without retuning. On the multi-domain HLE benchmark, gains concentrate in objectively verifiable domains and reverse on subjective ones — a useful signal about where pairwise judging is reliable. The authors also release CF-73, a curated set of 73 expert-annotated Codeforces problems with 99% agreement against official verdicts.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "cs",
+  "tokens_in": 1009,
+  "tokens_out": 293,
+  "cost_usd": 0.007422,
+  "ingested_at": "2026-05-17T16:40:08.172803+00:00"
+}
