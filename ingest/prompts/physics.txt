@@ -32,10 +32,11 @@ What did they do, what did they find, what is the implication?
 - Do not invent claims not present in the abstract
 
 is_lead (boolean)
-true only if ALL of: (a) significance extends beyond the narrow subfield, AND (b) the finding is striking, counterintuitive, or directly observationally testable.
-Most papers are false. When in doubt, use false.
-Lead examples: a no-go theorem that rules out a broad class of proposals; a direct detection paper; a result that overturns a textbook assumption.
-Digest examples: an incremental calculation at higher order; a check that a model satisfies stability conditions; a review paper; a re-upload.
+true if the paper has clear observational implications, introduces a new method or framework, presents a surprising result, or would be interesting to a physicist outside the immediate subfield.
+Aim for roughly 30-40% of papers to be true.
+false only for narrow technical calculations, routine checks, or re-uploads of old work.
+Lead examples: a no-go theorem; observational predictions; new computational methods; unexpected symmetries; connections across subfields.
+Digest examples: parameter scans; stability checks at known order; reviews; re-uploads.
 
 ────────────────────────────────────────────────────
 OUTPUT

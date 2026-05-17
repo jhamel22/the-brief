@@ -36,8 +36,11 @@ For CS, also note:
 - Is this an empirical result or a theoretical contribution?
 
 is_lead (boolean)
-true only if the paper: (a) reports a clear capability step-change (not incremental improvement), OR (b) introduces a genuinely new paradigm or approach (not a refinement of an existing one), OR (c) addresses a widely-recognized open problem.
-Large benchmark gains alone are not sufficient if the method is a straightforward extension. Most papers are false.
+true if the paper introduces a new method or framework, demonstrates a capability not previously shown, reports significant performance gains, or would be useful to practitioners outside the immediate research area.
+Aim for roughly 30-40% of papers to be true.
+false only for incremental parameter tuning, minor architectural variants, or narrow ablation studies.
+Lead examples: new algorithms; novel applications; surprising results; released models/datasets with clear utility.
+Digest examples: small benchmark improvements on known methods; routine hyperparameter studies; replication papers.
 
 ────────────────────────────────────────────────────
 OUTPUT

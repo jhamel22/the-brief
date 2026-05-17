@@ -31,8 +31,11 @@ What was the problem? Why was it hard or interesting? What did the proof accompl
 - It is fine to say a result is "long-sought" or "difficult" if the abstract supports it
 
 is_lead (boolean)
-true if the paper: (a) settles a long-standing open conjecture, OR (b) reveals an unexpected connection between two distant areas of mathematics, OR (c) introduces a technique clearly destined for wide adoption.
-Incremental progress on known programs, classification results in narrow subcategories, and routine extensions are false.
+true if the paper resolves a known open problem, introduces a technique with clear broader applicability, reveals an unexpected connection, or would be interesting to mathematicians outside the immediate subfield.
+Aim for roughly 30-40% of papers to be true.
+false only for narrow classification results, routine verifications, or incremental refinements of established techniques.
+Lead examples: proofs of named conjectures; new methods with cross-field potential; surprising counterexamples; connections between distant areas.
+Digest examples: classification in narrow subcategories; minor improvements to known bounds; routine generalizations.
 
 ────────────────────────────────────────────────────
 OUTPUT

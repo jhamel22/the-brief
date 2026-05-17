@@ -266,8 +266,6 @@ const activeSubjects = allSubjects.filter(s => s.active);
     body.mode-brief .full-card,body.mode-brief .scan-row{display:none}
     body.mode-brief .brief-row{display:grid}
     body.mode-full .scan-row{display:none}
-    body.mode-deep .scan-row,body.mode-deep .brief-row{display:none}
-    body.mode-deep .full-card{display:block}
 
     /* ── Empty state ─────────────────────────────────────────── */
     .empty-state{display:none;padding:60px 0;text-align:center;font-style:italic;color:var(--ink-faint)}
@@ -387,8 +385,6 @@ const activeSubjects = allSubjects.filter(s => s.active);
           <button data-mode="brief">Brief</button>
           <span class="divider"></span>
           <button data-mode="full" class="active">Full</button>
-          <span class="divider"></span>
-          <button data-mode="deep">Deep</button>
         </div>
         <div class="btn-group" id="sort-btns">
           <button data-sort="newest" class="active">Newest</button>
@@ -575,8 +571,7 @@ function renderPaper(p) {
   const m = state.mode;
   if (m === 'scan')  return renderScan(p);
   if (m === 'brief') return renderBrief(p);
-  if (m === 'full')  return p.is_lead ? renderFull(p) : renderBrief(p);
-  return renderFull(p); // deep
+  return p.is_lead ? renderFull(p) : renderBrief(p); // full
 }
 
 // ═══════════════════════════════════════════════════
