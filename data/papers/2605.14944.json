@@ -1,0 +1,23 @@
+{
+  "id": "2605.14944",
+  "arxiv_url": "https://arxiv.org/abs/2605.14944",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "eess.SY"
+  ],
+  "title_original": "Behavioral Data-Driven Optimal Trajectory Generation for Rotary Cranes",
+  "authors": "Iskandar Khemakhem, Manuel Zobel, Johannes Schüle, Oliver Sawodny, Naoki Uchiyama, Abdallah Farrage",
+  "abstract": "With the growth of the construction industry and the global shortage of skilled labor, the automation of crane control has become increasingly important for safe and efficient operations. A central challenge in automatic crane control is the reduction of load oscillations during motion, which is primarily addressed through appropriate slewing trajectories. In this context, classical model-based control methods rely on accurate dynamical models and expert tuning, and often struggle to meet safety and precision requirements, while many learning-based approaches require large data sets and significant computational resources. This paper proposes a behavioral data-driven framework for generating open-loop slewing trajectories for rotary cranes that suppress load sway while reducing operation time and energy consumption. The approach builds on Willems' fundamental lemma and its generalizations, to bypass explicit system modeling and operate directly on measured input-output data. A practical workflow is presented in this paper to reduce the need for expert knowledge. Despite the underactuated nature of the crane dynamics, the method identifies a nonparametric representation of the system behavior and generates smooth, optimal trajectories using limited data and convex optimization. The proposed trajectory generation method is validated on a laboratory crane setup and compared against an established model-based approach, achieving up to 35% reduction in load sway, 43% reduction in tracking error, and 50% reduction in travel time.",
+  "title_relatable": "Teaching cranes to move smoothly without building detailed models",
+  "hook": "A data-driven method generates optimal crane trajectories directly from measured behavior, reducing load sway by 35% and travel time by 50% without requiring explicit system models.",
+  "summary": "Automating crane control requires smooth trajectories that suppress load oscillations while meeting safety and efficiency targets. This work bypasses traditional model-based control and large-scale learning by using behavioral data directly—applying Willems' fundamental lemma to identify system dynamics from input-output measurements alone. The approach uses convex optimization to generate smooth, energy-efficient trajectories with minimal expert tuning. Laboratory tests on a rotary crane show 35% reduction in load sway, 43% lower tracking error, and 50% faster operation compared to established model-based methods. The method handles underactuated crane dynamics and requires limited data, making it practical for deployment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 993,
+  "tokens_out": 227,
+  "cost_usd": 0.0017024000000000002,
+  "ingested_at": "2026-05-17T21:35:54.072899+00:00"
+}

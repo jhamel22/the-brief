@@ -1,0 +1,23 @@
+{
+  "id": "2605.15118",
+  "arxiv_url": "https://arxiv.org/abs/2605.15118",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CR",
+    "cs.CL"
+  ],
+  "title_original": "Talk is (Not) Cheap: A Taxonomy and Benchmark Coverage Audit for LLM Attacks",
+  "authors": "Karthik Raghu Iyer, Yazdan Jamshidi, Nicholas Bray, Alexey A. Shvets",
+  "abstract": "We introduce a reusable framework for auditing whether LLM attack benchmarks collectively cover the threat surface: a 4$\\times$6 Target $\\times$ Technique matrix grounded in STRIDE, constructed from a 507-leaf taxonomy -- 401 data-populated and 106 threat-model-derived leaves -- of inference-time attacks extracted from 932 arXiv security studies (2023--2026). The matrix enables benchmark-external validation -- auditing collective coverage rather than individual benchmark consistency. Applying it to six public benchmarks reveals that the three primary frameworks (HarmBench, InjecAgent, AgentDojo) occupy non-overlapping cells covering at most 25\\% of the matrix, while entire STRIDE threat categories (Service Disruption, Model Internals) lack any standardized evaluation, despite published attacks in these categories achieving 46$\\times$ token amplification and 96\\% attack success rates through mechanisms which no benchmark tests. The corpus of 2,521 unique attack groups further reveals pervasive naming fragmentation (up to 29 surface forms for a single attack) and heavy concentration in Safety \\& Alignment Bypass, structural properties invisible at smaller scale. The taxonomy, attack records, and coverage mappings are released as extensible artifacts; as new benchmarks emerge, they can be mapped onto the same matrix, enabling the community to track whether evaluation gaps are closing.",
+  "title_relatable": "Mapping the blind spots in LLM attack benchmarks",
+  "hook": "A taxonomy of 2,521 inference-time attacks reveals that major LLM safety benchmarks cover at most 25% of the threat surface, leaving entire attack categories like service disruption untested despite 96% success rates.",
+  "summary": "Current LLM attack benchmarks are fragmented and incomplete. This work constructs a 4×6 matrix grounded in STRIDE threat modeling from a 507-leaf taxonomy of attacks extracted from 932 recent security papers. Auditing six public benchmarks—HarmBench, InjecAgent, AgentDojo, and others—shows they occupy non-overlapping cells with significant coverage gaps. Entire threat categories (Service Disruption, Model Internals) lack standardized evaluation, yet published attacks in these areas achieve 46× token amplification and 96% success rates. The analysis also uncovers naming fragmentation across 2,521 unique attack groups, with single attacks referenced under up to 29 different names. The taxonomy, attack corpus, and coverage mappings are released as extensible artifacts to track future benchmark progress.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1015,
+  "tokens_out": 283,
+  "cost_usd": 0.001944,
+  "ingested_at": "2026-05-17T21:36:16.360227+00:00"
+}

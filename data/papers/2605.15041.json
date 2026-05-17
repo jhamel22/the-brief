@@ -1,0 +1,23 @@
+{
+  "id": "2605.15041",
+  "arxiv_url": "https://arxiv.org/abs/2605.15041",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Case-Based Calibration of Adaptive Reasoning and Execution for LLM Tool Use",
+  "authors": "Renning Pang, Tian Lan, Leyuan Liu, Piao Tong, Sheng Cao, Xiaosong Zhang",
+  "abstract": "Tool use extends large language models beyond parametric knowledge, but reliable execution requires balancing appropriate reasoning depth with strict structural validity. We approach this problem from a case-based perspective to present CAST, a case-driven framework that treats historical execution trajectories as structured cases. Instead of reusing raw exemplar outputs, CAST extracts case-derived signals to identify complexity profiles for estimating optimal reasoning strategies, alongside failure profiles to map likely structural breakdowns. The framework translates this knowledge into a fine-grained reward design and adaptive reasoning, enabling the model to autonomously internalize case-based strategies during reinforcement learning. Experiments on BFCLv2 and ToolBench demonstrate that CAST improves both schema-faithful execution and task-level tool-use success while reducing unnecessary deliberation. The approach achieves up to 5.85 percentage points gain in overall execution accuracy and reduces average reasoning length by 26%, significantly mitigating high-impact structural errors. Ultimately, this demonstrates how historical execution cases can provide reusable adaptation knowledge for calibrated tool use.",
+  "title_relatable": "Learning from past mistakes to make LLMs better at using tools",
+  "hook": "A framework that extracts patterns from historical tool-use failures to teach language models when to reason deeply and when to act directly, improving accuracy by 5.85 percentage points while cutting reasoning length by 26%.",
+  "summary": "Language models struggle to reliably use external tools because they must balance reasoning depth against the need for structurally valid outputs. CAST addresses this by analyzing historical execution trajectories to identify two types of patterns: complexity profiles (which reasoning strategies work for which task types) and failure profiles (which structural errors are most likely to occur). The model learns a fine-grained reward function during reinforcement learning that internalizes these patterns, enabling it to adapt reasoning depth per case. On BFCLv2 and ToolBench benchmarks, CAST achieves up to 5.85 percentage points improvement in execution accuracy while reducing average reasoning length by 26%, with particular gains in preventing high-impact structural failures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 937,
+  "tokens_out": 249,
+  "cost_usd": 0.0017456,
+  "ingested_at": "2026-05-17T21:37:08.824842+00:00"
+}

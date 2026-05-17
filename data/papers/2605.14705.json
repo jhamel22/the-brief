@@ -1,0 +1,22 @@
+{
+  "id": "2605.14705",
+  "arxiv_url": "https://arxiv.org/abs/2605.14705",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Towards Continuous Sign Language Conversation from Isolated Signs",
+  "authors": "Youngmin Kim, Kyobin Choo, Jiwoo Park, Minseo Kim, Chanyoung Kim, Junhyeok Kim, Seong Jae Hwang",
+  "abstract": "Sign language is the primary language for many Deaf and Hard-of-Hearing (DHH) signers, yet most conversational AI systems still mediate interaction through spoken or written language. This spoken-language-centered interface can limit access for signers for whom spoken or written language is not the most accessible medium, motivating direct sign-to-sign conversational modeling. However, sentence-level sign video data are expensive to collect and annotate, leaving existing sign translation and production models with limited vocabulary coverage and weak open-domain generalization. We address this bottleneck by constructing continuous sign conversations from isolated signs: large-scale labeled isolated clips are collected as lexically grounded motion primitives and recomposed into sign-language-ordered utterances derived from existing dialogue corpora. We introduce SignaVox-W, which provides, to our knowledge, the largest labeled isolated-sign vocabulary to date, and SignaVox-U, a continuous 3D sign conversation dataset built from SignaVox-W. To bridge structural mismatch between spoken and signed languages, we use a retrieval-guided spoken-to-gloss translator; to bridge independently collected isolated clips, we propose BRAID, a diffusion Transformer that performs duration alignment and co-articulatory boundary inpainting. With the resulting data, we train SignaVox, a direct sign-to-sign conversational model that generates 3D body, hand, and facial motion responses from prior signing context without spoken-language text or externally provided glosses at inference time. Quantitative and qualitative evaluations show improved isolated-to-continuous motion quality, stronger response-level semantic alignment, and scalable signer-centered interaction that better supports visual-spatial articulation.",
+  "title_relatable": "Building sign language conversations from individual signs",
+  "hook": "A new dataset and model enable direct sign-to-sign conversation by synthesizing continuous signing from isolated sign clips, eliminating the need for spoken-language intermediaries.",
+  "summary": "Sign language users often rely on spoken or written language intermediaries in conversational AI, limiting accessibility. This work addresses the scarcity of sentence-level sign video data by constructing continuous sign conversations from large collections of isolated signs labeled with motion primitives. SignaVox-W provides the largest isolated-sign vocabulary to date; SignaVox-U is a 3D conversation dataset built from it. The system uses a retrieval-guided translator to bridge spoken and signed language structures, and BRAID—a diffusion Transformer—aligns durations and fills co-articulatory gaps between independently collected clips. The resulting SignaVox model generates full-body, hand, and facial responses directly from prior signing context, without relying on text or glosses at inference time.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1084,
+  "tokens_out": 247,
+  "cost_usd": 0.0018552,
+  "ingested_at": "2026-05-17T21:36:44.658846+00:00"
+}

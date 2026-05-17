@@ -1,0 +1,25 @@
+{
+  "id": "2605.14712",
+  "arxiv_url": "https://arxiv.org/abs/2605.14712",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation",
+  "authors": "Shijie Lian, Bin Yu, Xiaopeng Lin, Zhaolong Shen, Laurence Tianruo Yang, Yurun Jin, Haishan Liu, Changti Wu, Hang Yuan, Cong Huang, Kai Chen",
+  "abstract": "Robot imitation data are often multimodal: similar visual-language observations may be followed by different action chunks because human demonstrators act with different short-horizon intents, task phases, or recent context. Existing frame-conditioned VLA policies infer each chunk from the current observation and instruction alone, so under partial observability they may resample different intents across adjacent replanning steps, leading to inter-chunk conflict and unstable execution. We introduce IntentVLA, a history-conditioned VLA framework that encodes recent visual observations into a compact short-horizon intent representation and uses it to condition chunk generation. We further introduce AliasBench, a 12-task ambiguity-aware benchmark on RoboTwin2 with matched training data and evaluation environments that isolate short-horizon observation aliasing. Across AliasBench, SimplerEnv, LIBERO, and RoboCasa, IntentVLA improves rollout stability and outperforms strong VLA baselines",
+  "title_relatable": "Robot learns to remember its intentions during manipulation tasks",
+  "hook": "A vision-language robot policy that conditions actions on recent visual history resolves ambiguity when similar observations could lead to different movements, improving stability across multiple benchmarks.",
+  "summary": "Robot imitation learning suffers when similar observations can justify different actions depending on context or task phase—a problem called aliasing. IntentVLA addresses this by conditioning action generation on a compact intent representation built from recent visual observations, rather than treating each planning step independently. The authors also introduce AliasBench, a 12-task benchmark designed to isolate and measure this ambiguity problem. Experiments on AliasBench, SimplerEnv, LIBERO, and RoboCasa show improved rollout stability and performance over frame-conditioned VLA baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 949,
+  "tokens_out": 205,
+  "cost_usd": 0.0015792,
+  "ingested_at": "2026-05-17T21:36:12.213809+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.14227",
+  "arxiv_url": "https://arxiv.org/abs/2605.14227",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "DT-Transformer: A Foundation Model for Disease Trajectory Prediction on a Real-world Health System",
+  "authors": "Yunying Zhu, Andrew R Weckstein, Kueiyu Joshua Lin, Jie Yang",
+  "abstract": "Accurate disease trajectory prediction is critical for early intervention, resource allocation, and improving long-term outcomes. While electronic health records (EHRs) provide a rich longitudinal view of patient health in clinical environments, models trained on curated research cohorts may not reflect routine deployment settings, and those trained on single-hospital datasets capture only fragments of each patient's trajectory. This highlights the importance of leveraging large, multi-hospital health systems for training and validation to better reflect real-world clinical complexity. In this work, we develop DT-Transformer, a foundation model trained on 57.1M structured EHR entries over 1.7M patients from Mass General Brigham (MGB), spanning 11 hospitals and a broad network of outpatient clinics. DT-Transformer achieves strong discrimination in both held-out and prospective validation settings. Next-event prediction achieves a median age- and sex-stratified AUC of 0.871 across 896 disease categories, with all categories exceeding AUC 0.5. These results support health system-scale training as a path toward foundation models suited to real-world clinical forecasting.",
+  "title_relatable": "A transformer trained on millions of patient records predicts disease progression",
+  "hook": "A foundation model trained on 57.1M EHR entries from 1.7M patients across 11 hospitals achieves median AUC 0.871 for predicting which of 896 diseases a patient will develop next.",
+  "summary": "DT-Transformer addresses the gap between research cohorts and real-world clinical deployment by training on longitudinal electronic health records from an entire health system rather than curated datasets or single hospitals. The model predicts disease trajectories—which conditions a patient will develop next—using structured EHR data across 1.7M patients from Mass General Brigham. In prospective validation, next-event prediction achieved median AUC 0.871 across 896 disease categories, with all categories exceeding random performance. This work demonstrates that health system-scale training produces models that reflect real-world clinical complexity better than smaller, curated datasets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 950,
+  "tokens_out": 241,
+  "cost_usd": 0.001724,
+  "ingested_at": "2026-05-17T21:36:52.749237+00:00"
+}

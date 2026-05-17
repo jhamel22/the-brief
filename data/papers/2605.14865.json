@@ -1,0 +1,23 @@
+{
+  "id": "2605.14865",
+  "arxiv_url": "https://arxiv.org/abs/2605.14865",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Holistic Evaluation and Failure Diagnosis of AI Agents",
+  "authors": "Netta Madvil, Gilad Dym, Alon Mecilati, Edo Dekel, Jonatan Liberman, Rotem Brazilay, Liron Schliesser, Max Svidlo, Shai Nir, Orel Shalom, Yaron Friedman, David Connack, Amos Rimon, Philip Tannor, Shir Chorev",
+  "abstract": "AI agents execute complex multi-step processes, but current evaluation falls short: outcome metrics report success or failure without explaining why, and process-level approaches struggle to connect failure types to their precise locations within long, structured traces. We present a holistic agent evaluation framework that pairs top-down agent-level diagnosis with bottom-up span-level evaluation, decomposing analysis into independent per-span assessments. This decomposition scales to traces of arbitrary length and produces span-level rationales for each verdict. On the TRAIL benchmark, our framework achieves state-of-the-art results across all metrics on both GAIA and SWE-Bench, with relative gains over the strongest prior baselines of up to 38% on category F1, up to 3.5x on localization accuracy, and up to 12.5x on joint localization-categorization accuracy. Per-category analysis shows our framework leading in more error categories than any other evaluator. Notably, the same frontier model achieves several times higher localization accuracy when used inside our framework than as a monolithic judge over the full trace, showing that evaluation methodology, not model capability, is the bottleneck.",
+  "title_relatable": "Why AI agents fail: A systematic diagnosis framework",
+  "hook": "A two-level evaluation framework that pinpoints where and why AI agents fail in long task traces, achieving 38% higher accuracy than prior methods on multi-step task benchmarks.",
+  "summary": "Current AI agent evaluation reports success or failure without explaining root causes or localizing errors in complex multi-step processes. This work introduces a holistic framework that combines top-down agent-level diagnosis with bottom-up span-level analysis, breaking long task traces into independent assessments to identify specific failure points. On TRAIL, GAIA, and SWE-Bench benchmarks, the approach achieves up to 3.5× improvement in localization accuracy and 12.5× on joint localization-categorization versus prior methods. Crucially, the same frontier model shows several times higher accuracy when operating within this framework rather than as a single monolithic judge, demonstrating that evaluation methodology rather than model capability is the limiting factor for understanding agent behavior.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1020,
+  "tokens_out": 245,
+  "cost_usd": 0.001796,
+  "ingested_at": "2026-05-17T21:36:24.533004+00:00"
+}

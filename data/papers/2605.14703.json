@@ -1,0 +1,22 @@
+{
+  "id": "2605.14703",
+  "arxiv_url": "https://arxiv.org/abs/2605.14703",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Generating HDR Video from SDR Video",
+  "authors": "SaiKiran Tedla, Francesco Banterle, Trevor Canham, Karanpreet Raja, David B. Lindell, Kiriakos N. Kutulakos, Jiacheng Li, Feiran Li, Daisuke Iso",
+  "abstract": "The high dynamic range (HDR) video ecosystem is approaching maturity, but the problem of upconverting legacy standard dynamic range (SDR) videos persists without a convincing solution. We propose a framework for HDR video synthesis from casual SDR footage by leveraging large-scale generative video models. We introduce a Multi-Exposure Video Model (MEVM) that can predict exposure-bracketed linear SDR video sequences from a single nonlinear SDR video input. We further propose a learnable Video Merging Model (VMM) that merges the predicted exposure-bracketed video into a high-quality HDR sequence while preserving detail in both shadows and highlights. Extensive experiments, quantitative and qualitative evaluation, and a user study demonstrate that our approach enables robust HDR conversion for in-the-wild examples from casual consumer videos and even iconic films. Finally, our model can support HDR synthesis pipelines built upon existing SDR generative video models. Output HDR videos can be viewed on our supplementary webpage: sdr2hdrvideo.github.io",
+  "title_relatable": "Converting old videos to modern HDR with AI",
+  "hook": "A two-stage generative model predicts exposure-bracketed video sequences and merges them into HDR, enabling convincing HDR conversion from legacy SDR footage without new captures.",
+  "summary": "Most existing videos are in standard dynamic range (SDR), but HDR displays are becoming common. This work solves the SDR-to-HDR conversion problem using a two-part deep learning approach: a Multi-Exposure Video Model (MEVM) generates multiple exposure variants from a single SDR input, then a Video Merging Model (VMM) combines them into a high-quality HDR sequence that preserves shadow and highlight detail. User studies and quantitative evaluation confirm the method works on casual consumer videos and archival film. The framework integrates with existing generative video models and code is available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 953,
+  "tokens_out": 217,
+  "cost_usd": 0.0016304000000000002,
+  "ingested_at": "2026-05-17T21:36:47.628679+00:00"
+}

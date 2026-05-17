@@ -1,0 +1,25 @@
+{
+  "id": "2605.14217",
+  "arxiv_url": "https://arxiv.org/abs/2605.14217",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "eess.SY"
+  ],
+  "title_original": "PreFT: Prefill-only finetuning for efficient inference",
+  "authors": "Andrew Lanpouthakoun, Aryaman Arora, Zhengxuan Wu, Dhruv Pai, Ben Keigwin, Dan Jurafsky, Christopher Potts",
+  "abstract": "Large language models can now be personalised efficiently at scale using parameter efficient finetuning methods (PEFTs), but serving user-specific PEFTs harms throughput, even with specialised kernels and memory management techniques. This is because, theoretically and empirically, a mismatch exists between prefill (processing a large number of tokens at once) and decode (generating a single token autoregressively): the latter has far lower throughput when serving multiple adapters. Rather than optimising performance relative to parameter count, for efficient multi-adapter serving, we instead ought to optimise performance relative to serving throughput. We therefore propose PreFT (Prefill-only Finetuning), wherein we only apply the adapter to prefill tokens and discard it afterwards. PreFT significantly increases throughput with minimal effect on performance. We develop and release an efficient implementation of two prefill-only PEFTs, LoRA and ReFT, on the vLLM inference engine. We first show that serving multi-user PreFTs is more efficient than traditional PEFTs ($1.9\\times$ the throughput when serving $512$ adapters on Llama 3.1 70B). Then, we compare the performance of prefill-only vs. all-token adapters on a variety of supervised finetuning and reinforcement learning tasks with LMs at varying scales. On SFT, we observe that the evaluation loss of PreFTs is higher than PEFTs, but can be compensated by increasing rank with nearly no reduction in throughput. On RL, we consistently find that PreFTs approach parity with standard PEFTs. Together, this work validates prefill-only adaptation of LLMs as a more favourable accuracy-throughput tradeoff than existing PEFTs for personalised serving.",
+  "title_relatable": "Adapting language models faster by skipping token generation",
+  "hook": "A technique that applies personalization only during input processing achieves 1.9× higher throughput when serving hundreds of users simultaneously, with minimal accuracy loss.",
+  "summary": "Serving personalized language models to many users simultaneously degrades throughput because adapter-based finetuning slows down token generation. PreFT applies adapters only during the prefill phase (processing user input) and discards them during decoding (generating output tokens), eliminating this bottleneck. The authors implement prefill-only versions of LoRA and ReFT in vLLM and show 1.9× throughput improvement when serving 512 adapters on Llama 3.1 70B. On supervised finetuning, performance gaps versus standard adapters can be closed by increasing adapter rank without throughput cost; on reinforcement learning tasks, prefill-only adapters match standard performance. Code and implementations are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1115,
+  "tokens_out": 245,
+  "cost_usd": 0.001872,
+  "ingested_at": "2026-05-17T21:36:56.435458+00:00"
+}

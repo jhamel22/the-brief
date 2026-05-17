@@ -1,0 +1,24 @@
+{
+  "id": "2605.14704",
+  "arxiv_url": "https://arxiv.org/abs/2605.14704",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "SceneFunRI: Reasoning the Invisible for Task-Driven Functional Object Localization",
+  "authors": "Posheng Chen, Powen Cheng, Gueter Josmy Faure, Hung-Ting Su, Winston H. Hsu",
+  "abstract": "In real-world scenes, target objects may reside in regions that are not visible. While humans can often infer the locations of occluded objects from context and commonsense knowledge, this capability remains a major challenge for vision-language models (VLMs). To address this gap, we introduce SceneFunRI, a benchmark for Reasoning the Invisible. Based on the SceneFun3D dataset, SceneFunRI formulates the task as a 2D spatial reasoning problem via a semi-automatic pipeline and comprises 855 instances. It requires models to infer the locations of invisible functional objects from task instructions and commonsense reasoning. The strongest baseline model (Gemini 3 Flash) only achieves an CAcc@75 of 15.20, an mIoU of 0.74, and a Dist of 28.65. We group our prompting analysis into three categories: Strong Instruction Prompting, Reasoning-based Prompting, and Spatial Process of Elimination (SPoE). These findings indicate that invisible-region reasoning remains an unstable capability in current VLMs, motivating future work on models that more tightly integrate task intent, commonsense priors, spatial grounding, and uncertainty-aware search.",
+  "title_relatable": "Finding hidden objects by reasoning about invisible spaces",
+  "hook": "New benchmark challenges vision-language models to locate occluded functional objects from task descriptions and spatial reasoning, where even the strongest model achieves only 15% accuracy.",
+  "summary": "SceneFunRI introduces a benchmark for inferring locations of invisible objects in 3D scenes based on task instructions and commonsense knowledge. Built on SceneFun3D with 855 instances, it frames the problem as 2D spatial reasoning—requiring models to predict where an object should be despite it being out of view. Gemini 3 Flash, the strongest tested baseline, achieves only 15.20% coordinate accuracy. The authors analyze three prompting strategies: instruction-based, reasoning-based, and spatial elimination. Results show that invisible-region reasoning remains a weak point in current vision-language models, requiring better integration of task intent, spatial grounding, and uncertainty estimation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 986,
+  "tokens_out": 231,
+  "cost_usd": 0.0017128000000000002,
+  "ingested_at": "2026-05-17T21:36:15.168804+00:00"
+}

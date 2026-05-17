@@ -1,0 +1,26 @@
+{
+  "id": "2605.14291",
+  "arxiv_url": "https://arxiv.org/abs/2605.14291",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CL",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model",
+  "authors": "Chengshuai Zhao, Zhen Tan, Dawei Li, Zhiyuan Yu, Huan Liu",
+  "abstract": "The rapid advancement of Large Vision-Language Models (LVLMs) is increasingly accompanied by unauthorized scraping and training on multimodal web data, posing severe copyright and privacy risks to data owners. Existing countermeasures, such as machine unlearning and watermarks, are inherent post-hoc approaches that act only after intellectual property infringement has already occurred. In this work, we propose MMGuard to empower data owners to proactively protect their multimodal data against unauthorized LVLM fine-tuning. MMGuard generates unlearnable examples by injecting human-imperceptible perturbations that actively exploit the learning dynamics of LVLMs. By minimizing the training loss, the perturbation creates an optimization shortcut, causing the model to overfit to the noise and thereby degrading downstream performance when the perturbation is absent during inference. To further strengthen this defense, MMGuard introduces a cross-modal binding disruption, strategically shifting LVLM attention to enforce a spurious correlation between the noise and the training target with theoretical guarantees. Enhanced by an ensemble learning strategy for cross-model transferability, MMGuard is evaluated against nine open-source LVLMs across six datasets. Our comprehensive results demonstrate effective, stealthy, and robust protection under white-box, gray-box, and black-box threat models, establishing a mechanistic advantage in proactively defending against aggressive fine-tuning exploitation.",
+  "title_relatable": "Making images unlearnable to prevent unauthorized model training",
+  "hook": "A defense system that injects imperceptible noise into images to prevent unauthorized fine-tuning of vision-language models, protecting data before infringement occurs rather than after.",
+  "summary": "MMGuard protects multimodal data from unauthorized fine-tuning by embedding human-imperceptible perturbations that exploit how LVLMs learn. The perturbations create optimization shortcuts that cause models to overfit to noise during training, degrading performance on clean data at inference time. A cross-modal binding disruption technique further strengthens defense by enforcing spurious correlations between noise and targets. Tested against nine open-source LVLMs across six datasets, MMGuard provides protection under white-box, gray-box, and black-box threat models with transfer across different models via ensemble learning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1019,
+  "tokens_out": 216,
+  "cost_usd": 0.0016792,
+  "ingested_at": "2026-05-17T21:36:45.908573+00:00"
+}

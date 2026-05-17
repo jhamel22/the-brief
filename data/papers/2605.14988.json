@@ -1,0 +1,22 @@
+{
+  "id": "2605.14988",
+  "arxiv_url": "https://arxiv.org/abs/2605.14988",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Compositional Video Generation via Inference-Time Guidance",
+  "authors": "Ariel Shaulov, Eitan Shaar, Amit Edenzon, Gal Chechik, Lior Wolf",
+  "abstract": "Text-to-video diffusion models generate realistic videos, but often fail on prompts requiring fine-grained compositional understanding, such as relations between entities, attributes, actions, and motion directions. We hypothesize that these failures need not be addressed by retraining the generator, but can instead be mitigated by steering the denoising process using the model's own internal grounding signals. We propose \\textbf{CVG}, an inference-time guidance method for improving compositional faithfulness in frozen text-to-video models. Our key observation is that cross-attention maps already encode how prompt concepts are grounded across space and time. We train a lightweight compositional classifier on these attention features and use its gradients during early denoising steps to steer the latent trajectory toward the desired composition. Built on a frozen VLM backbone, the classifier transfers across semantically related composition labels rather than relying only on narrow category-specific features. CVG improves compositional generation without modifying the model architecture, fine-tuning the generator, or requiring layouts, boxes, or other user-supplied controls. Experiments on compositional text-to-video benchmarks show improved prompt faithfulness while preserving the visual quality of the underlying generator.",
+  "title_relatable": "Steering video diffusion to follow complex instructions",
+  "hook": "A guidance method that uses a frozen text-to-video model's own attention maps to improve compositional faithfulness—handling relations between entities, attributes, and motion—without retraining or manual controls.",
+  "summary": "Text-to-video diffusion models struggle with compositional prompts involving multiple entities, their attributes, spatial relations, and movements. CVG addresses this by training a lightweight classifier on cross-attention features from the frozen generator, then using its gradients during early denoising steps to steer the latent trajectory toward the desired composition. The approach transfers to semantically related labels and improves prompt faithfulness on compositional benchmarks while preserving visual quality, requiring no architecture changes, generator fine-tuning, or user-supplied layouts or boxes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 205,
+  "cost_usd": 0.001588,
+  "ingested_at": "2026-05-17T21:36:28.278600+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.15172",
+  "arxiv_url": "https://arxiv.org/abs/2605.15172",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CR",
+    "cs.CL"
+  ],
+  "title_original": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs",
+  "authors": "Rui Wen, Mark Russinovich, Andrew Paverd, Jun Sakuma, Ahmed Salem",
+  "abstract": "Backdoor attacks pose a serious security threat to large language models (LLMs), which are increasingly deployed as general-purpose assistants in safety- and privacy-critical applications. Existing LLM backdoors rely primarily on content-based triggers, requiring explicit modification of the input text. In this work, we show that this assumption is unnecessary and limiting. We introduce MetaBackdoor, a new class of backdoor attacks that exploits positional information as the trigger, without modifying textual content. Our key insight is that Transformer-based LLMs necessarily encode token positions to process ordered sequences. As a result, length-correlated positional structure is reflected in the model's internal computation and can be used as an effective non-content trigger signal. We demonstrate that even a simple length-based positional trigger is sufficient to activate stealthy backdoors. Unlike prior attacks, MetaBackdoor operates on visibly and semantically clean inputs and enables qualitatively new capabilities. We show that a backdoored LLM can be induced to disclose sensitive internal information, including proprietary system prompts, once a length condition is satisfied. We further demonstrate a self-activation scenario, where normal multi-turn interaction can move the conversation context into the trigger region and induce malicious tool-call behavior without attacker-supplied trigger text. In addition, MetaBackdoor is orthogonal to content-based backdoors and can be composed with them to create more precise and harder-to-detect activation conditions. Our results expand the threat model of LLM backdoors by revealing positional encoding as a previously overlooked attack surface. This challenges defenses that focus on detecting suspicious text and highlights the need for new defense strategies that explicitly account for positional triggers in modern LLM architectures.",
+  "title_relatable": "Backdoor attacks that hide in position, not text",
+  "hook": "Researchers demonstrate that LLMs can be compromised through positional encoding rather than text triggers, enabling stealthy attacks that activate based on input length alone.",
+  "summary": "This paper reveals that Transformer-based LLMs are vulnerable to backdoor attacks that exploit positional information instead of modifying textual content. MetaBackdoor uses length-correlated triggers to activate hidden behaviors—including disclosure of system prompts and unintended tool calls—without any suspicious text in the input. The attack works on semantically clean inputs and can compose with content-based backdoors for compound triggers. Existing defenses focused on detecting malicious text cannot detect these position-based attacks, exposing a previously unexamined vulnerability in how modern LLMs process sequential information.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1080,
+  "tokens_out": 210,
+  "cost_usd": 0.001704,
+  "ingested_at": "2026-05-17T21:37:02.476569+00:00"
+}

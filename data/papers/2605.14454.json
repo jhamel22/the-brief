@@ -1,0 +1,24 @@
+{
+  "id": "2605.14454",
+  "arxiv_url": "https://arxiv.org/abs/2605.14454",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL",
+    "cs.CR"
+  ],
+  "title_original": "LiSA: Lifelong Safety Adaptation via Conservative Policy Induction",
+  "authors": "Minbeom Kim, Lesly Miculicich, Bhavana Dalvi Mishra, Mihir Parmar, Phillip Wallis, Bharath Chandrasekhar, Kyomin Jung, Tomas Pfister, Long T. Le",
+  "abstract": "As AI agents move from chat interfaces to systems that read private data, call tools, and execute multi-step workflows, guardrails become a last line of defense against concrete deployment harms. In these settings, guardrail failures are no longer merely answer-quality errors: they can leak secrets, authorize unsafe actions, or block legitimate work. The hardest failures are often contextual: whether an action is acceptable depends on local privacy norms, organizational policies, and user expectations that resist pre-deployment specification. This creates a practical gap: guardrails must adapt to their own operating environments, yet deployment feedback is typically limited to sparse, noisy user-reported failures, and repeated fine-tuning is often impractical. To address this gap, we propose LiSA (Lifelong Safety Adaptation), a conservative policy induction framework that improves a fixed base guardrail through structured memory. LiSA converts occasional failures into reusable policy abstractions so that sparse reports can generalize beyond individual cases, adds conflict-aware local rules to prevent overgeneralization in mixed-label contexts, and applies evidence-aware confidence gating via a posterior lower bound, so that memory reuse scales with accumulated evidence rather than empirical accuracy alone. Across PrivacyLens+, ConFaide+, and AgentHarm, LiSA consistently outperforms strong memory-based baselines under sparse feedback, remains robust under noisy user feedback even at 20% label-flip rates, and pushes the latency--performance frontier beyond backbone model scaling. Ultimately, LiSA offers a practical path to secure AI agents against the unpredictable long tail of real-world edge risks.",
+  "title_relatable": "Teaching AI safety guardrails to adapt on the job",
+  "hook": "A framework that improves AI safety guardrails in deployment by learning from sparse, noisy user feedback without repeated retraining, maintaining robustness even with 20% mislabeled reports.",
+  "summary": "As AI systems access private data and execute real workflows, safety guardrails must handle context-dependent failures—like privacy norms or organizational policies—that can't be anticipated at training time. LiSA addresses this by inducing reusable safety policies from occasional deployment failures without full retraining. The approach converts sparse user reports into generalizable rules, prevents overgeneralization through conflict detection, and uses evidence-based confidence gates so memory reuse scales with accumulated data rather than accuracy alone. Tested on privacy, configuration, and multi-step agent tasks, LiSA outperforms memory baselines under sparse feedback and stays robust at 20% label-flip rates.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1095,
+  "tokens_out": 236,
+  "cost_usd": 0.00182,
+  "ingested_at": "2026-05-17T21:36:12.974423+00:00"
+}

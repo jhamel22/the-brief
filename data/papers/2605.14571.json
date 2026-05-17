@@ -1,0 +1,23 @@
+{
+  "id": "2605.14571",
+  "arxiv_url": "https://arxiv.org/abs/2605.14571",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "Let Robots Feel Your Touch: Visuo-Tactile Cortical Alignment for Embodied Mirror Resonance",
+  "authors": "Tianfang Zhu, Ning An, Rui Wang, Jiasi Gao, Qingming Luo, Anan Li, Guyue Zhou",
+  "abstract": "Observing touch on another's body can elicit corresponding tactile sensations in the observer, a phenomenon termed mirror touch that supports empathy and social perception. This visuo-tactile resonance is thought to rely on structural correspondence between visual and somatosensory cortices, yet robotic systems lack computational frameworks that instantiate this principle. Here we demonstrate that cortical correspondence can be operationalized to endow robots with mirror touch. We introduce Mirror Touch Net, which imposes semantic, distributional and geometric alignment between visual and tactile representations through multi-level constraints, enabling prediction of millimetre-scale tactile signals across 1,140 taxels on a robotic hand from RGB images. Manifold analysis reveals that these constraints reshape visual representations into geometry consistent with the tactile manifold, reducing the complexity of cross-modal mapping. Extending this alignment framework to cross-domain observations of human hands enables tactile prediction and reflexive responses to observed human touch. Our results link a neural principle of visuo-tactile resonance to robotic perception, providing an explainable route towards anticipatory touch and empathic human-robot interaction. Code is available at https://github.com/fun0515/Mirror-Touch-Net.",
+  "title_relatable": "Teaching robots to feel what they see through tactile prediction",
+  "hook": "A neural-inspired framework enables robots to predict precise tactile sensations from images of touch, mimicking how human brains align visual and sensory cortices.",
+  "summary": "Robots struggle to anticipate touch without direct contact. This work introduces Mirror Touch Net, which aligns visual and tactile representations through semantic, distributional, and geometric constraints, allowing a robotic hand to predict millimetre-scale pressure across 1,140 sensors from RGB images alone. The approach extends to predicting how a robot would respond to observed human touch. Manifold analysis shows the training reshapes visual features into geometry matching tactile structure, simplifying cross-modal prediction. Code is released, making this immediately useful for roboticists building anticipatory or empathic systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 984,
+  "tokens_out": 208,
+  "cost_usd": 0.0016192000000000001,
+  "ingested_at": "2026-05-17T21:35:41.972302+00:00"
+}

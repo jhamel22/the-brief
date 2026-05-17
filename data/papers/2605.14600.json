@@ -1,0 +1,22 @@
+{
+  "id": "2605.14600",
+  "arxiv_url": "https://arxiv.org/abs/2605.14600",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "SciPaths: Forecasting Pathways to Scientific Discovery",
+  "authors": "Eric Chamoun, Yizhou Chi, Yulong Chen, Rui Cao, Zifeng Ding, Michalis Korakakis, Andreas Vlachos",
+  "abstract": "Scientific progress depends on sequences of enabling contributions, yet existing AI4Science benchmarks largely focus on citation prediction, literature retrieval, or idea generation rather than the dependencies that make progress possible. In this paper, we introduce discovery pathway forecasting: given a target scientific contribution and the prior literature available at a specified time, the task is to (1) identify the enabling contributions required to realize it and (2) ground each in prior work when such prior work exists. We present SciPaths, a benchmark of 262 expert-annotated gold pathways and 2,444 silver pathways constructed from machine learning and natural language processing papers, where each pathway records enabling contributions, roles, rationales, and prior-work groundings or unmapped decisions. Evaluating frontier and open-weight language models, we find that the best model reaches only 0.189 F1 under strict semantic matching, with core methodological dependencies hardest to recover. Prior-work grounding improves substantially when gold enabling contributions are provided, showing that decomposition quality is a major bottleneck for end-to-end pathway recovery. SciPaths therefore shifts evaluation toward a missing capability in scientific forecasting: reasoning backward from a target contribution to the enabling scientific building blocks and prior-work dependencies that make it feasible.",
+  "title_relatable": "Mapping the scientific dependencies behind each major discovery",
+  "hook": "New benchmark asks AI to work backward from a scientific contribution to identify the earlier discoveries that enabled it—a task where today's best models reach only 0.189 F1.",
+  "summary": "SciPaths introduces discovery pathway forecasting, a task that requires identifying enabling contributions necessary to realize a target scientific contribution and grounding them in prior work. The benchmark contains 262 expert-annotated and 2,444 silver pathways from ML and NLP papers, each documenting enabling contributions, their roles, and connections to prior work. Evaluation of frontier models shows current approaches struggle with this task, particularly in recovering methodological dependencies, though performance improves substantially when gold enabling contributions are provided—indicating that decomposition quality is the main bottleneck. The benchmark shifts focus from citation prediction and idea generation toward reasoning about scientific causality and prerequisite knowledge.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 983,
+  "tokens_out": 225,
+  "cost_usd": 0.0016864,
+  "ingested_at": "2026-05-17T21:36:37.388137+00:00"
+}

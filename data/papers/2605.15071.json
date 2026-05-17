@@ -1,0 +1,24 @@
+{
+  "id": "2605.15071",
+  "arxiv_url": "https://arxiv.org/abs/2605.15071",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "On the Cultural Anachronism and Temporal Reasoning in Vision Language Models",
+  "authors": "Mukul Ranjan, Prince Jha, Khushboo Kumari, Zhiqiang Shen",
+  "abstract": "Vision-Language Models (VLMs) are increasingly applied to cultural heritage materials, from digital archives to educational platforms. This work identifies a fundamental issue in how these models interpret historical artifacts. We define this phenomenon as cultural anachronism, the tendency to misinterpret historical objects using temporally inappropriate concepts, materials, or cultural frameworks. To quantify this phenomenon, we introduce the Temporal Anachronism Benchmark for Vision-Language Models (TAB-VLM), a dataset of 600 questions across six categories, designed to evaluate temporal reasoning on 1,600 Indian cultural artifacts spanning prehistoric to modern periods. Systematic evaluations of ten state-of-the-art models reveal significant deficiencies on our benchmark, and even the best model (GPT-5.2) achieves only 58.7% overall accuracy. The performance gap persists across varying architectures and scales, suggesting that cultural anachronism represents a significant limitation in visual AI systems, regardless of model size. These findings highlight the disparity between current VLM capabilities and the requirements for accurately interpreting cultural heritage materials, particularly for non-Western visual cultures underrepresented in training data. Our benchmark provides a foundation for enhancing temporal cognition in multimodal AI systems that interact with historical artifacts. The dataset and code are available in our project page.",
+  "title_relatable": "Why AI misreads ancient artifacts with modern eyes",
+  "hook": "Vision-language models systematically misinterpret historical objects using anachronistic concepts, even achieving only 58.7% accuracy on a new benchmark of 1,600 Indian cultural artifacts.",
+  "summary": "Vision-language models struggle with temporal reasoning when interpreting cultural heritage, applying modern frameworks to historical artifacts in ways that distort meaning. The authors introduce TAB-VLM, a benchmark of 600 questions across Indian cultural artifacts from prehistoric to modern periods, revealing that even GPT-4V and other leading models fail consistently. The gap persists regardless of model size or architecture, pointing to a fundamental blind spot in how VLMs are trained—likely due to underrepresentation of non-Western visual cultures in training data. The benchmark and code are released to help future work improve temporal cognition in multimodal systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 977,
+  "tokens_out": 223,
+  "cost_usd": 0.0016736,
+  "ingested_at": "2026-05-17T21:36:25.714347+00:00"
+}

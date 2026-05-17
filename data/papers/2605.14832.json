@@ -1,0 +1,23 @@
+{
+  "id": "2605.14832",
+  "arxiv_url": "https://arxiv.org/abs/2605.14832",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "Learning Direct Control Policies with Flow Matching for Autonomous Driving",
+  "authors": "Marcello Ceresini, Federico Pirazzoli, Andrea Bertogalli, Lorenzo Cipelli, Filippo D'Addeo, Anthony Dell'Eva, Alessandro Paolo Capasso, Alberto Broggi",
+  "abstract": "We present a flow-matching planner for autonomous driving that directly outputs actionable control trajectories defined by acceleration and curvature profiles. The model is conditioned on a bird's-eye-view (BEV) raster of the surrounding scene and generates control sequences in a small number of Ordinary Differential Equations (ODE) integration steps, enabling low-latency inference suitable for real-time closed-loop re-planning. We train exclusively on urban scenarios (real urban city streets, intersections and roundabouts of the city of Parma, Italy) collected from a 2D traffic simulator with reactive agents, and evaluate in closed-loop on both in-distribution and markedly out-of-distribution environments, including multi-lane highways and unseen urban scenarios. Our results show that the model generalizes reliably to these unseen conditions, maintaining stable closed-loop control and successfully completing scenarios that differ substantially from the training distribution. We attribute this to the BEV representation, which provides a geometry-centric view of the scene that is inherently less sensitive to distributional shifts, and to the flow-matching formulation, which learns a smooth vector field that degrades gracefully under distribution shift. We provide video demonstrations of closed-loop behavior at https://marcelloceresini.github.io/DirectControlFlowMatching.",
+  "title_relatable": "Flow matching generates steering commands directly for autonomous vehicles",
+  "hook": "A flow-matching planner outputs steering and acceleration commands in real time while generalizing reliably to highways and unseen cities after training only on a simulator.",
+  "summary": "Autonomous driving systems typically decompose the problem into perception, planning, and control. This work trains a single neural network to output acceleration and curvature trajectories directly from bird's-eye-view scene representations. The flow-matching formulation generates control sequences via a few ODE integration steps, enabling low-latency closed-loop re-planning. Trained exclusively on urban simulator data from Parma, Italy, the model generalizes to both out-of-distribution highways and unseen urban scenarios. The authors attribute this robustness to the geometry-centric BEV representation and the smooth vector field learned by flow matching, which degrades gracefully under distribution shift. Closed-loop experiments confirm stable control across diverse environments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1000,
+  "tokens_out": 235,
+  "cost_usd": 0.00174,
+  "ingested_at": "2026-05-17T21:35:59.880608+00:00"
+}

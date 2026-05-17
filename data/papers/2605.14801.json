@@ -1,0 +1,22 @@
+{
+  "id": "2605.14801",
+  "arxiv_url": "https://arxiv.org/abs/2605.14801",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Exploring Bottlenecks in VLM-LLM Navigation: How 3D Scene Understanding Capability Impacts Zero-Shot VLN",
+  "authors": "Ziyi Xia, Chaoran Xiong, Litao Wei, Xinhao Hu, Ling Pei",
+  "abstract": "Zero-shot vision-and-language navigation (VLN) has gained significant attention due to its minimal data collection costs and inherent generalization. This paradigm is typically driven by the integration of pre-trained Vision-Language Models (VLMs) and Large Language Models (LLMs), where VLMs construct 3D scene graphs while LLMs handle high-level reasoning and decision-making. However, a critical bottleneck exists in this system: current 3D perception models prioritize pixel-level accuracy, directly conflicting with the strict computational limits and real-time efficiency demanded by embodied navigation. To address this gap, this paper quantifies the actual impact of 3D scene understanding capability on VLN performance. Based on typical VLM-LLM frameworks, we propose statistical success rate (SR) upper bounds for two core subsystems: 1) the slow LLM planner, which relies on topological mapping semantics, and 2) the fast reactive navigator, which utilizes spatial coordinates and bounding boxes to execute LLM decisions. Evaluations using state-of-the-art 3D scene understanding models validate our proposed bounds and reveal a perception saturation phenomenon, indicating that improvements in perception accuracy beyond a certain threshold yield diminishing returns in navigation success. Our findings suggest that 3D scene understanding for VLN should pivot away from strict pixel-level precision, prioritizing instead navigation-relevant core vocabularies and accurate bounding box proportions.",
+  "title_relatable": "Why better 3D perception doesn't always improve robot navigation",
+  "hook": "Analysis of vision-language navigation reveals that pixel-level accuracy in 3D scene understanding hits diminishing returns—robots need navigation-relevant features, not perfect perception.",
+  "summary": "Vision-language navigation systems pair VLMs for 3D scene understanding with LLMs for reasoning, but current perception models optimize for pixel accuracy while robots need real-time efficiency. This paper quantifies how 3D perception capability actually affects navigation success on standard benchmarks, proposing success-rate upper bounds for two subsystems: semantic topological mapping and spatial coordinate-based reactive control. Experiments with state-of-the-art perception models reveal a saturation point beyond which perception improvements yield minimal navigation gains. The work suggests shifting from pixel-level precision to navigation-critical features like accurate bounding boxes and task-relevant vocabulary.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1033,
+  "tokens_out": 219,
+  "cost_usd": 0.0017024000000000002,
+  "ingested_at": "2026-05-17T21:36:06.260001+00:00"
+}

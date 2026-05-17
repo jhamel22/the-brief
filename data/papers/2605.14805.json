@@ -1,0 +1,22 @@
+{
+  "id": "2605.14805",
+  "arxiv_url": "https://arxiv.org/abs/2605.14805",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Learning Cross-Coupled and Regime Dependent Dynamics for Aerial Manipulation",
+  "authors": "Rishabh Dev Yadav, Samaksh Ujjawal, Sihao Sun, Spandan Roy, Wei Pan",
+  "abstract": "Accurate dynamics models are critical for aerial manipulators operating under complex tasks such as payload transport. However, modeling these systems remains fundamentally challenging due to strong quadrotor-manipulator coupling, delayed aerodynamic interactions, and regime-dependent dynamics variations arising from payload changes and manipulator reconfiguration. These effects produce residual dynamics that are simultaneously cross-coupled, history-dependent, and nonstationary, causing both analytical models and purely offline learned models to degrade during deployment. To address these challenges, we propose a structured encoder-decoder framework for adaptive residual dynamics learning in aerial manipulators. The proposed nonlinear latent encoder captures cross-variable coupling and temporal dependencies from state-input histories, while a lightweight linear latent decoder enables online adaptation under regime-dependent nonstationary dynamics. The linear-in-parameter decoder structure permits closed-form Bayesian adaptation together with consistency-driven covariance inflation, enabling rapid and stable adaptation to both transient and slowly varying dynamics changes while remaining compatible with real-time model predictive control (MPC). Experimental results on a real aerial manipulation platform demonstrate improved residual prediction accuracy, faster adaptation under changing operating conditions, and enhanced MPC-based trajectory tracking performance. These results highlight the importance of jointly modeling coupled temporal dynamics and deployment-time nonstationarity for reliable aerial manipulation.",
+  "title_relatable": "Learning dynamics of drones with moving arms in real time",
+  "hook": "An adaptive learning framework that captures the complex interactions between a quadrotor and manipulator arm, enabling accurate control even as payload and configuration change during flight.",
+  "summary": "Aerial manipulators—drones carrying robotic arms—are difficult to control because the quadrotor and arm coupling, aerodynamic delays, and payload changes all create nonstationary, history-dependent dynamics that offline models cannot capture. This work proposes an encoder-decoder framework where a nonlinear encoder learns cross-coupled temporal dependencies from state histories, while a linear decoder enables closed-form Bayesian adaptation online. Tested on a real aerial manipulation platform, the approach improves residual dynamics prediction, adapts quickly to changing operating conditions, and enhances MPC-based trajectory tracking—all while remaining compatible with real-time control.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 980,
+  "tokens_out": 218,
+  "cost_usd": 0.001656,
+  "ingested_at": "2026-05-17T21:36:03.039212+00:00"
+}

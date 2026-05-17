@@ -1,0 +1,22 @@
+{
+  "id": "2605.15011",
+  "arxiv_url": "https://arxiv.org/abs/2605.15011",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "The Scientific Contribution Graph: Automated Literature-based Technological Roadmapping at Scale",
+  "authors": "Peter A. Jansen",
+  "abstract": "Scientific contributions rarely develop in isolation, but instead build upon prior discoveries. We formulate the task of automated technological roadmapping as extracting scientific contributions from scholarly articles and linking them to their prerequisites. We present the Scientific Contribution Graph, a large-scale AI/NLP-domain resource containing 2 million detailed scientific contributions extracted from 230k open-access papers and connected by 12.5 million prerequisite edges. We further introduce scientific prerequisite prediction, a scientific discovery task in which models predict which existing technologies can enable future discoveries, and show that contemporary models are rapidly improving on this task, reaching 0.48 MAP when evaluated using temporally filtered backtesting. We anticipate technological roadmapping resources such as this will support scientific impact assessment and automated scientific discovery.",
+  "title_relatable": "A map of 2 million scientific breakthroughs and their dependencies",
+  "hook": "A dataset of 2 million scientific contributions linked by 12.5 million prerequisite edges enables prediction of which existing technologies could enable future discoveries.",
+  "summary": "Scientific progress builds incrementally—discoveries enable other discoveries. This work extracts detailed scientific contributions from 230,000 open-access papers in AI/NLP and links them to their prerequisites, creating the Scientific Contribution Graph. The authors introduce a prediction task: given existing technologies, which discoveries might they enable? Current models reach 0.48 MAP using temporally filtered backtesting, showing steady improvement. The dataset and task could support research impact assessment and accelerate scientific discovery.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 841,
+  "tokens_out": 187,
+  "cost_usd": 0.0014208000000000003,
+  "ingested_at": "2026-05-17T21:36:21.318552+00:00"
+}

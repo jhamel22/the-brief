@@ -1,0 +1,25 @@
+{
+  "id": "2605.14396",
+  "arxiv_url": "https://arxiv.org/abs/2605.14396",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.CR",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "Systematic Discovery of Semantic Attacks in Online Map Construction through Conditional Diffusion",
+  "authors": "Chenyi Wang, Ruoyu Song, Raymond Muller, Jean-Philippe Monteuuis, Jonathan Petit, Z. Berkay Celik, Ryan Gerdes, Ming F. Li",
+  "abstract": "Autonomous vehicles depend on online HD map construction to perceive lane boundaries, dividers, and pedestrian crossings -- safety-critical road elements that directly govern motion planning. While existing pixel perturbation attacks can disrupt the mapping, they can be neutralized by standard adversarial defenses. We present MIRAGE, a framework for systematic discovery of semantic attacks that bypass adversarial defenses and degrade mapping predictions by finding plausible environmental variation (e.g. shadows, wet roads). MIRAGE exploits the latent manifold of real-world data learned by diffusion models, and searches for semantically mutated scenes neighboring the ground truth with the same road topology yet mislead the mapping predictions. We evaluate MIRAGE on nuScenes and demonstrate two attacks: (1) boundary removal, suppressing 57.7% of detections and corrupting 96% of planned trajectories; and (2) boundary injection, the only method that successfully injects fictitious boundaries, while pixel PGD and AdvPatch fail entirely. Both attacks remain potent under various adversarial defenses. We use two independent VLM judges to quantify realism, where MIRAGE passes as realistic 80--84% of the time (vs. 97--99% for clean nuScenes), while AdvPatch only 0--9%. Our findings expose a categorical gap in current adversarial defenses: semantic-level perturbations that manifest as legitimate environmental variation are substantially harder to mitigate than pixel-level perturbations.",
+  "title_relatable": "How realistic shadows fool autonomous vehicle mapping systems",
+  "hook": "Researchers demonstrate semantic attacks on HD map construction for autonomous vehicles using diffusion models, suppressing 57.7% of lane detections while evading standard adversarial defenses.",
+  "summary": "Autonomous vehicles rely on online HD map construction to detect lanes and road boundaries for motion planning. Existing pixel-level adversarial attacks can be neutralized by standard defenses. MIRAGE discovers semantic attacks—plausible environmental variations like shadows or wet roads—that corrupt mapping predictions while remaining realistic and harder to defend against. Evaluated on nuScenes, the framework achieves boundary removal (suppressing 57.7% of detections, corrupting 96% of planned trajectories) and boundary injection attacks that succeed where pixel-based methods fail entirely. The attacks pass realism evaluation 80–84% of the time versus 0–9% for conventional adversarial patches, exposing a critical gap in current adversarial defenses.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1046,
+  "tokens_out": 244,
+  "cost_usd": 0.0018128000000000003,
+  "ingested_at": "2026-05-17T21:35:48.030401+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.14742",
+  "arxiv_url": "https://arxiv.org/abs/2605.14742",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "EARL: Towards a Unified Analysis-Guided Reinforcement Learning Framework for Egocentric Interaction Reasoning and Pixel Grounding",
+  "authors": "Yuejiao Su, Xinshen Zhang, Zhen Ye, Lei Yao, Lap-Pui Chau, Yi Wang",
+  "abstract": "Understanding human--environment interactions from egocentric vision is essential for assistive robotics and embodied intelligent agents, yet existing multimodal large language models (MLLMs) still struggle with accurate interaction reasoning and fine-grained pixel grounding. To this end, this paper introduces EARL, an Egocentric Analysis-guided Reinforcement Learning framework that explicitly transfers coarse interaction semantics to query-oriented answering and grounding. Specifically, EARL adopts a two-stage parsing framework including coarse-grained interpretation and fine-grained response. The first stage holistically interprets egocentric interactions and generates a structured textual description. The second stage produces the textual answer and pixel-level mask in response to the user query. To bridge the two stages, we extract a global interaction descriptor as a semantic prior, which is integrated via a novel Analysis-guided Feature Synthesizer (AFS) for query-oriented reasoning. To optimize heterogeneous outputs, including textual answers, bounding boxes, and grounding masks, we design a multi-faceted reward function and train the response stage with GRPO. Experiments on Ego-IRGBench show that EARL achieves 65.48% cIoU for pixel grounding, outperforming previous RL-based methods by 8.37%, while OOD grounding results on EgoHOS indicate strong transferability to unseen egocentric grounding scenarios.",
+  "title_relatable": "Robot learning to understand human actions from wearable cameras",
+  "hook": "A reinforcement learning framework that helps robots understand and ground human interactions from egocentric video, achieving 8.37% higher accuracy on pixel grounding than prior methods.",
+  "summary": "Assistive robots need to understand human-environment interactions from egocentric (first-person) video, but current multimodal models struggle with precise spatial grounding. EARL uses a two-stage approach: first parsing egocentric interactions into structured descriptions, then generating text answers and pixel-level masks in response to specific queries. A novel Analysis-guided Feature Synthesizer bridges the stages by transferring coarse interaction semantics to query-oriented reasoning. Training uses a multi-faceted reward function optimized with GRPO. On Ego-IRGBench, EARL reaches 65.48% cIoU for grounding—8.37% above prior RL methods—and shows strong transfer to unseen egocentric scenarios on EgoHOS.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1030,
+  "tokens_out": 250,
+  "cost_usd": 0.001824,
+  "ingested_at": "2026-05-17T21:36:09.219290+00:00"
+}

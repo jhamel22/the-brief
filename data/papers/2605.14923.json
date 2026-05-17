@@ -1,0 +1,22 @@
+{
+  "id": "2605.14923",
+  "arxiv_url": "https://arxiv.org/abs/2605.14923",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SceneParser: Hierarchical Scene Parsing for Visual Semantics Understanding",
+  "authors": "Pengxin Xu, Xincheng Lin, Luping Xiao, Qing Jiang, Meishan Zhang, Hao Fei, Shanghang Zhang, Xingyu Chen",
+  "abstract": "General scene perception has progressed from object recognition toward open-vocabulary grounding, part localization, and affordance prediction. Yet these capabilities are often realized as isolated predictions that localize objects, parts, or interaction points without capturing the structured dependencies needed for interaction-oriented scene understanding. To address this gap, we introduce Hierarchical Scene Parsing, an interaction-oriented parsing task that represents physical scenes as explicit scene -> object -> part -> affordance hierarchies with cross-level bindings. We instantiate this task with SceneParser, a VLM-based parser trained for unified hierarchical generation with structural-completion pseudo labels and curriculum learning. To support training and evaluation, we construct SceneParser-Bench, a large-scale benchmark built with a scalable hierarchical data engine, containing 110K training images, a 5K validation split, 777K objects, 1.14M parts, 1.74M affordance annotations, and 1.74M valid object-part-affordance chain instances. We further introduce Level-1 to Level-3 conditional metrics and ParseRate to evaluate localization, cross-level binding, and hierarchical completeness. Experiments show that existing MLLMs and perception-stitching pipelines struggle with hierarchical parsing on our SceneParser-Bench, while SceneParser achieves stronger structure-aware performance. Besides, ablations, evaluations on COCO and AGD20K, and a downstream planning probe demonstrate that our SceneParser is compatible with conventional tasks and provides an actionable representation for visual understanding.",
+  "title_relatable": "A hierarchical framework for understanding scenes through objects, parts, and affordances",
+  "hook": "SceneParser introduces hierarchical scene parsing that captures explicit object-part-affordance relationships with 110K training images and structured evaluation metrics, outperforming existing multimodal models on the new SceneParser-Bench.",
+  "summary": "Current scene understanding systems recognize objects, ground text, and predict affordances as separate isolated tasks. This work proposes hierarchical scene parsing—representing scenes as explicit scene→object→part→affordance hierarchies with cross-level bindings—and releases SceneParser, a VLM-based parser trained with structural-completion pseudo labels and curriculum learning. SceneParser-Bench, a large-scale benchmark with 110K images, 1.74M part and affordance annotations, and novel metrics for localization and hierarchical completeness, reveals that existing multimodal models struggle with structured parsing. SceneParser achieves stronger performance and provides actionable representations compatible with downstream planning tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1051,
+  "tokens_out": 248,
+  "cost_usd": 0.0018328,
+  "ingested_at": "2026-05-17T21:36:32.473126+00:00"
+}

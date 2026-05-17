@@ -1,0 +1,22 @@
+{
+  "id": "2605.15178",
+  "arxiv_url": "https://arxiv.org/abs/2605.15178",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SANA-WM: Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer",
+  "authors": "Haoyi Zhu, Haozhe Liu, Yuyang Zhao, Tian Ye, Junsong Chen, Jincheng Yu, Tong He, Song Han, Enze Xie",
+  "abstract": "We introduce SANA-WM, an efficient 2.6B-parameter open-source world model natively trained for one-minute generation, synthesizing high-fidelity, 720p, minute-scale videos with precise camera control. SANA-WM achieves visual quality comparable to large-scale industrial baselines such as LingBot-World and HY-WorldPlay, while significantly improving efficiency. Four core designs drive our architecture: (1) Hybrid Linear Attention combines frame-wise Gated DeltaNet (GDN) with softmax attention for memory-efficient long-context modeling. (2) Dual-Branch Camera Control ensures precise 6-DoF trajectory adherence. (3) Two-Stage Generation Pipeline applies a long-video refiner to stage-1 outputs, improving quality and consistency across sequences. (4) Robust Annotation Pipeline extracts accurate metric-scale 6-DoF camera poses from public videos to yield high-quality, spatiotemporally consistent action labels. Driven by these designs, SANA-WMdemonstrates remarkable efficiency across data, training compute, and inference hardware: it uses only $\\sim$213K public video clips with metric-scale pose supervision, completes training in 15 days on 64 H100s, and generates each 60s clip on a single GPU; its distilled variant can be deployed on a single RTX 5090 with NVFP4 quantization to denoise a 60s 720p clip in 34s. On our one-minute world-model benchmark, SANA-WM demonstrates stronger action-following accuracy than prior open-source baselines and achieves comparable visual quality at $36\\times$ higher throughput for scalable world modeling.",
+  "title_relatable": "Efficient world model generates minute-long videos with precise camera control",
+  "hook": "A 2.6B-parameter world model generates one-minute 720p videos with comparable quality to larger industrial systems while running 36× faster on standard hardware.",
+  "summary": "SANA-WM is an open-source world model that synthesizes minute-scale videos with precise 6-degree-of-freedom camera control. The architecture combines frame-wise linear attention with softmax attention for memory-efficient long-context modeling, uses a dual-branch design for camera trajectory adherence, and applies a two-stage pipeline to refine sequence quality. Trained on 213K publicly available videos with extracted pose annotations in just 15 days on 64 H100s, it generates 60-second clips on a single GPU and outperforms prior open-source baselines in action-following accuracy while achieving 36× higher throughput. A quantized variant runs on consumer GPUs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1116,
+  "tokens_out": 240,
+  "cost_usd": 0.0018528000000000001,
+  "ingested_at": "2026-05-17T21:37:06.475482+00:00"
+}

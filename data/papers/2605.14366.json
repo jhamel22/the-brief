@@ -1,0 +1,23 @@
+{
+  "id": "2605.14366",
+  "arxiv_url": "https://arxiv.org/abs/2605.14366",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Reinforcement Learning with Semantic Rewards Enables Low-Resource Language Expansion without Alignment Tax",
+  "authors": "Zeli Su, Ziyin Zhang, Zhou Liu, Xuexian Song, Zhankai Xu, Longfei Zheng, Xiaolu Zhang, Rong Fu, Guixian Xu, Wentao Zhang",
+  "abstract": "Extending large language models (LLMs) to low-resource languages often incurs an \"alignment tax\": improvements in the target language come at the cost of catastrophic forgetting in general capabilities. We argue that this trade-off arises from the rigidity of supervised fine-tuning (SFT), which enforces token-level surface imitation on narrow and biased data distributions. To address this limitation, we propose a semantic-space alignment paradigm powered by Group Relative Policy Optimization (GRPO), where the model is optimized using embedding-level semantic rewards rather than likelihood maximization. This objective encourages meaning preservation through flexible realizations, enabling controlled updates that reduce destructive interference with pretrained knowledge. We evaluate our approach on Tibetan-Chinese machine translation and Tibetan headline generation. Experiments show that our method acquires low-resource capabilities while markedly mitigating alignment tax, preserving general competence more effectively than SFT. Despite producing less rigid surface overlap, semantic RL yields higher semantic quality and preference in open-ended generation, and few-shot transfer results indicate that it learns more transferable and robust representations under limited supervision. Overall, our study demonstrates that reinforcement learning with semantic rewards provides a safer and more reliable pathway for inclusive low-resource language expansion.",
+  "title_relatable": "Teaching language models new languages without forgetting old ones",
+  "hook": "Semantic rewards instead of token-level imitation let language models learn low-resource languages while preserving general capabilities, avoiding the typical performance trade-off.",
+  "summary": "Extending LLMs to low-resource languages usually causes catastrophic forgetting of general skills—the \"alignment tax.\" This work replaces supervised fine-tuning with Group Relative Policy Optimization (GRPO), using embedding-level semantic rewards rather than likelihood maximization. The approach encourages meaning preservation through flexible surface realizations, reducing interference with pretrained knowledge. Evaluated on Tibetan-Chinese translation and generation, the method acquires new language capabilities while better preserving general competence than standard fine-tuning, with improved semantic quality and few-shot transfer performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1002,
+  "tokens_out": 205,
+  "cost_usd": 0.0016216,
+  "ingested_at": "2026-05-17T21:36:39.803881+00:00"
+}

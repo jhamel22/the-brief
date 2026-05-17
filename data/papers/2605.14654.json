@@ -1,0 +1,22 @@
+{
+  "id": "2605.14654",
+  "arxiv_url": "https://arxiv.org/abs/2605.14654",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Beyond Instance-Level Self-Supervision in 3D Multi-Modal Medical Imaging",
+  "authors": "Tan Pan, Shuhao Mei, Yixuan Sun, Kaiyu Guo, Chen Jiang, Zhaorui Tan, Mengzhu Li, Limei Han, Xiang Zou, Yuan Cheng, Mahsa Baktashmotlagh",
+  "abstract": "Self-supervised pre-training methods in medical imaging typically treat each individual as an isolated instance, learning representations through augmentation-based objectives or masked reconstruction. They often do not adequately capitalize on a key characteristic of physiological features: anatomical structures maintain consistent spatial relationships across individuals (instances), such as the thalamus being medial to the basal ganglia, regardless of variations in brain size, shape, or pathology. We propose leveraging this cross-instance topological consistency as a supervisory signal. The challenge arises from the inherent variability in medical imaging, which can differ significantly across instances and modalities. To tackle this, we focus on two alignment regimes. (i) Intra-instance: with pixel-level correspondences available, a cross-modal triplet objective explicitly preserves local neighborhood topology. (ii) Inter-instance: without such supervision, we derive pseudo-correspondences to control partial neighborhood alignment and prevent topology collapse across modalities. We validate our approach across 7 downstream multi-modal tasks, achieving average improvements of 1.1% and 5.94% in segmentation and classification tasks, respectively, and demonstrating significantly better robustness when modalities are missing at test time.",
+  "title_relatable": "Learning anatomy's consistent patterns across brains and modalities",
+  "hook": "A self-supervised method that uses anatomical relationships—like the thalamus's consistent position relative to nearby structures—as a training signal, improving downstream medical imaging tasks by up to 5.94% in classification.",
+  "summary": "Medical imaging models typically learn from individual patients in isolation, missing the fact that anatomical structures maintain consistent spatial relationships across people. This work exploits cross-instance topological consistency as a supervisory signal through two alignment strategies: intra-instance alignment using pixel correspondences to preserve local topology across modalities, and inter-instance alignment using pseudo-correspondences to align anatomical neighborhoods without explicit supervision. Tested on 7 downstream tasks across multi-modal 3D medical imaging, the approach achieves 1.1% average improvement in segmentation and 5.94% in classification, with notably better robustness when modalities are missing at test time.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 998,
+  "tokens_out": 234,
+  "cost_usd": 0.0017344,
+  "ingested_at": "2026-05-17T21:36:50.511918+00:00"
+}

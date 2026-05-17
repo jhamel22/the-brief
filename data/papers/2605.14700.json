@@ -1,0 +1,22 @@
+{
+  "id": "2605.14700",
+  "arxiv_url": "https://arxiv.org/abs/2605.14700",
+  "announced_date": "2026-05-14",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "SR-Platform: An Agentic Pipeline for Natural Language-Driven Robot Simulation Environment Synthesis",
+  "authors": "Ben Wei Lim, Minh Duc Le, Thang Truong, Thanh Nguyen Canh",
+  "abstract": "Generating robot simulation environments remains a major bottleneck in simulation-based robot learning. Constructing a training-ready MuJoCo scene typically requires expertise in 3D asset modeling, MJCF specification, spatial layout, collision avoidance, and robot-model integration. We present SR-Platform, a production-deployed agentic system that converts free-form natural language descriptions into executable, physically valid MuJoCo environments. SR-Platform decomposes scene synthesis into four stages: an LLM-based orchestrator that converts user intent into a structured scene plan; an asset forge that retrieves cached assets or generates new 3D geometry through LLM-to-CadQuery synthesis; a layout architect that assigns object poses and verifies industrial constraints; and a bridge layer that assembles the final MJCF scene and merges the selected robot model. The system is deployed as a nine-service Docker stack with WebSocket progress streaming, MinIO-backed mesh storage, Qdrant-based semantic asset retrieval, Redis job state, and InfluxDB telemetry. Using 30 days of production telemetry covering 611 successful LLM calls, SR-Platform generates five-object scenes with a median end-to-end latency of approximately 50 s, while cache-accelerated scenes complete in approximately 30-40 s. The asset forge shows an 11.3% first-attempt retry rate with automatic recovery, and cached asset retrieval removes per-object LLM calls for previously generated object types. These results show that agentic scene synthesis can reduce the manual effort required to create diverse robot training environments, enabling users to produce executable MuJoCo scenes from plain English prompts in under one minute.",
+  "title_relatable": "From English to robot simulation, automatically",
+  "hook": "A deployed system converts natural language into executable MuJoCo robot training environments in under one minute, eliminating manual 3D modeling and MJCF expertise.",
+  "summary": "Creating robot simulation scenes requires specialized skills in 3D modeling, physics specification, and spatial layout—work that slows down simulation-based learning pipelines. SR-Platform chains four components: an LLM orchestrator that plans scenes, an asset forge that retrieves or generates 3D objects via CadQuery synthesis, a layout architect that assigns poses and enforces constraints, and a bridge that produces the final MJCF file. The system runs as a nine-service Docker stack and has processed 611 production jobs over 30 days, generating five-object scenes in 50 seconds median latency (30–40 seconds with cached assets). The asset forge recovers from failures with 11.3% retry rate. Code and deployment architecture are production-ready.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1081,
+  "tokens_out": 246,
+  "cost_usd": 0.0018488000000000003,
+  "ingested_at": "2026-05-17T21:36:19.164416+00:00"
+}

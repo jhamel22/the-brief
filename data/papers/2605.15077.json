@@ -1,0 +1,24 @@
+{
+  "id": "2605.15077",
+  "arxiv_url": "https://arxiv.org/abs/2605.15077",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs",
+  "authors": "Guangyu Feng, Huanzhi Mao, Prabal Dutta, Joseph E. Gonzalez",
+  "abstract": "Function calling, also known as tool use, is a core capability of modern LLM agents but is typically constrained by synchronous execution semantics. Under these semantics, LLM decoding is blocked until each function call completes, resulting in increasing end-to-end latency. In this work, we introduce AsyncFC, a pure execution-layer framework that decouples LLM decoding from function execution, enabling overlap between model decoding and function execution as well as inter-function parallelism when dependencies permit. AsyncFC layers over existing models and unmodified function implementations, requiring no fine-tuning or changes to the standard synchronous function-calling protocol. Across standard function-calling benchmarks and adapted software engineering benchmarks, AsyncFC significantly reduces end-to-end task completion time while preserving task accuracy. Furthermore, these results reveal that LLMs possess a native capability to reason over symbolic futures that represent unresolved execution results, enabling an asynchronous paradigm for model-tool interaction.",
+  "title_relatable": "Running functions in parallel while LLMs decode",
+  "hook": "A framework that overlaps LLM decoding with function execution, reducing task completion time without requiring model changes or retraining.",
+  "summary": "Modern LLM agents call external functions to solve tasks, but synchronous execution blocks the model from generating new tokens until each function returns—creating latency bottlenecks. AsyncFC decouples decoding from execution at the runtime layer, allowing the model to continue generating while functions run in parallel. The approach requires no modifications to model weights, training, or existing function code—it wraps the standard function-calling interface. Experiments on function-calling benchmarks show AsyncFC reduces end-to-end completion time while maintaining accuracy, and reveal that LLMs can naturally reason about symbolic representations of pending results without explicit training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 916,
+  "tokens_out": 207,
+  "cost_usd": 0.0015608000000000002,
+  "ingested_at": "2026-05-17T21:37:05.651070+00:00"
+}

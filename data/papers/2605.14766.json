@@ -1,0 +1,24 @@
+{
+  "id": "2605.14766",
+  "arxiv_url": "https://arxiv.org/abs/2605.14766",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "eess.AS"
+  ],
+  "title_original": "Streaming Speech-to-Text Translation with a SpeechLLM",
+  "authors": "Titouan Parcollet, Shucong Zhang, Xianrui Zheng, Rogier C. van Dalen",
+  "abstract": "Normally, a system that translates speech into text consists of separate modules for speech recognition and text-to-text translation. Combining those tasks into a SpeechLLM promises to exploit paralinguistic information in the speech and to reduce cascaded errors. But existing SpeechLLM systems are slow since they do not work in a real streaming fashion: they wait for a complete utterance of audio before outputting a translation, or output tokens at fixed intervals, which is not suitable for real applications. This work proposes an LLM-based architecture for real streaming speech-to-text translation. The LLM learns not just to emit output tokens, but also to decide whether it has seen enough audio to do so. The system is trained using automatic alignments of the input speech and the output text. In experiments on different language pairs, the system achieves a translation quality close to the non-streaming baseline, but with a latency of only 1-2 seconds.",
+  "title_relatable": "Speech-to-text translation that works in real time",
+  "hook": "An LLM-based system that translates speech to text with 1–2 second latency by learning when it has heard enough audio, matching non-streaming quality without waiting for complete utterances.",
+  "summary": "Current speech-to-text translation systems rely on separate speech recognition and translation modules, introducing cascading errors and latency. This work builds a single end-to-end SpeechLLM that operates in genuine streaming mode: the LLM decides when sufficient audio context exists to emit the next translation token, rather than waiting for complete utterances or outputting at fixed intervals. Training uses automatic alignments between speech and text. On multiple language pairs, the system achieves translation quality comparable to non-streaming baselines while maintaining 1–2 second latency, making it practical for real-time applications.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 909,
+  "tokens_out": 222,
+  "cost_usd": 0.0016152,
+  "ingested_at": "2026-05-17T21:36:30.426045+00:00"
+}

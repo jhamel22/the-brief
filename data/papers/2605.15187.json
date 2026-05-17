@@ -1,0 +1,24 @@
+{
+  "id": "2605.15187",
+  "arxiv_url": "https://arxiv.org/abs/2605.15187",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR",
+    "cs.RO"
+  ],
+  "title_original": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+  "authors": "Matt Zhou, Ruining Li, Xiaoyang Lyu, Zhaomou Song, Zhening Huang, Chuanxia Zheng, Christian Rupprecht, Andrea Vedaldi, Shangzhe Wu",
+  "abstract": "A bottleneck in learning to understand articulated 3D objects is the lack of large and diverse datasets. In this paper, we propose to leverage large language models (LLMs) to close this gap and generate articulated assets at scale. We reduce the problem of generating an articulated 3D asset to that of writing a program that builds it. We then introduce a new agentic system, Articraft, that writes such programs automatically. We design a programmatic interface and harness to help the LLM do so effectively. The LLM writes code against a domain-specific SDK for defining parts, composing geometry, specifying joints, and writing tests to validate the resulting assets. The harness exposes a restricted workspace and interface to the LLM, validates the resulting assets, and returns structured feedback. In this way, the LLM is not distracted by details such as authoring a URDF file or managing a complex software environment. We show that this produces higher-quality assets than both state-of-the-art articulated-asset generators and general-purpose coding agents. Using Articraft, we build Articraft-10K, a curated dataset of over 10K articulated assets spanning 245 categories, and show its utility both for training models of articulated assets and in downstream applications such as robotics simulation and virtual reality.",
+  "title_relatable": "Building 3D objects that move: an AI system for articulated assets",
+  "hook": "An LLM-based system generates articulated 3D assets by writing code, producing a dataset of 10K+ objects spanning 245 categories for robotics and VR applications.",
+  "summary": "Creating diverse datasets of articulated 3D objects (objects with moving parts) is currently labor-intensive, limiting research in embodied AI and robotics simulation. Articraft solves this by treating asset generation as code synthesis: an LLM writes programs against a domain-specific SDK to define parts, geometry, joints, and tests. A structured harness validates outputs and provides feedback without exposing the LLM to low-level file formats or environment complexity. The system produces higher-quality assets than existing articulated-asset generators and general coding agents. The team released Articraft-10K, a curated dataset of over 10,000 articulated objects across 245 categories, demonstrating utility for training articulated-object models and downstream robotics simulation and VR tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1018,
+  "tokens_out": 261,
+  "cost_usd": 0.0018584,
+  "ingested_at": "2026-05-17T21:37:00.220533+00:00"
+}

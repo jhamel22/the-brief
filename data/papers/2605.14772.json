@@ -1,0 +1,24 @@
+{
+  "id": "2605.14772",
+  "arxiv_url": "https://arxiv.org/abs/2605.14772",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG"
+  ],
+  "title_original": "BioHuman: Learning Biomechanical Human Representations from Video",
+  "authors": "Yujun Huo, He Zhang, Chentao Song, Honglin Song, Zongyu Zuo, Tao Yu",
+  "abstract": "Understanding human motion beyond surface kinematics is crucial for motion analysis, rehabilitation, and injury risk assessment. However, progress in this domain is limited by the lack of large-scale datasets with biomechanical annotations, and by existing approaches that cannot directly infer internal biomechanical states from visual observations. In this paper, we introduce a simulation-based framework for estimating muscle activations from existing motion capture datasets, resulting in BioHuman10M, a large-scale dataset with synchronized video, motion, and activations. Building on BioHuman10M, we propose BioHuman, an end-to-end model that takes monocular video as input and jointly predicts human motion and muscle activations, effectively bridging visual observations and internal biomechanical states. Extensive experiments demonstrate that BioHuman enables accurate reconstruction of both kinematic motion and muscle activity, and generalizes across diverse subjects and motions. We believe our approach establishes a new benchmark for video-based biomechanical understanding and opens up new possibilities for physically grounded human modeling.",
+  "title_relatable": "Reading muscle activity directly from video",
+  "hook": "A new framework estimates muscle activations from monocular video using BioHuman10M, a 10-million-frame dataset of synchronized video, motion, and muscle activity.",
+  "summary": "Understanding human movement requires more than tracking skeleton position—it demands knowledge of internal muscle activity, essential for rehabilitation and injury prevention. This work introduces BioHuman10M, a large-scale dataset pairing video with motion capture and simulated muscle activations, plus BioHuman, an end-to-end model that predicts both kinematic motion and muscle activations from single-camera video. The model generalizes across subjects and motion types, bridging the gap between visual observation and biomechanical state that prior methods could not directly infer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 928,
+  "tokens_out": 200,
+  "cost_usd": 0.0015424000000000002,
+  "ingested_at": "2026-05-17T21:36:38.309262+00:00"
+}

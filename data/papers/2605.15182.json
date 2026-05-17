@@ -1,0 +1,22 @@
+{
+  "id": "2605.15182",
+  "arxiv_url": "https://arxiv.org/abs/2605.15182",
+  "announced_date": "2026-05-14",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Warp-as-History: Generalizable Camera-Controlled Video Generation from One Training Video",
+  "authors": "Yifan Wang, Tong He",
+  "abstract": "Camera-controlled video generation has made substantial progress, enabling generated videos to follow prescribed viewpoint trajectories. However, existing methods usually learn camera-specific conditioning through camera encoders, control branches, or attention and positional-encoding modifications, which often require post-training on large-scale camera-annotated videos. Training-free alternatives avoid such post-training, but often shift the cost to test-time optimization or extra denoising-time guidance. We propose Warp-as-History, a simple interface that turns camera-induced warps into camera-warped pseudo-history with target-frame positional alignment and visible-token selection. Given a target camera trajectory, we construct camera-warped pseudo-history from past observations and feed it through the model's visual-history pathway. Crucially, we align its positional encoding with the target frames being denoised and remove warped-history tokens without valid source observations. Without any training, architectural modification, or test-time optimization, this interface reveals a non-trivial zero-shot capability of a frozen video generation model to follow camera trajectories. Moreover, lightweight offline LoRA finetuning on only one camera-annotated video further improves this capability and generalizes to unseen videos, improving camera adherence, visual quality, and motion dynamics without test-time optimization or target-video adaptation. Extensive experiments on diverse datasets confirm the effectiveness of our method.",
+  "title_relatable": "Control video generation by warping the past, not the model",
+  "hook": "A training-free method that makes frozen video models follow camera trajectories by reinterpreting warped past frames as pseudo-history, with optional lightweight finetuning on a single annotated video.",
+  "summary": "Camera-controlled video generation typically requires expensive post-training on large annotated datasets or test-time optimization. This work introduces Warp-as-History, which converts camera-induced geometric warps into pseudo-historical frames aligned with target positional encodings, enabling zero-shot camera control without modifying the base model. Optional LoRA finetuning on just one annotated video further improves adherence to camera trajectories and generalizes to unseen videos. Experiments across diverse datasets show improvements in camera adherence, visual quality, and motion consistency compared to test-time guidance baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 981,
+  "tokens_out": 220,
+  "cost_usd": 0.0016648000000000001,
+  "ingested_at": "2026-05-17T21:37:03.399684+00:00"
+}
