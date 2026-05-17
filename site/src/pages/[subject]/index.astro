@@ -408,7 +408,7 @@ const activeSubjects = allSubjects.filter(s => s.active);
       <div id="feed"></div>
 
       <footer class="brief-footer">
-        <span>Summaries by AI · verify against source</span>
+        <span>Summaries are AI-generated — always verify against the source.</span>
         <a href={`https://arxiv.org/list/${subjectConfig.code}/recent`} target="_blank">
           arxiv.org/{subjectConfig.code}
         </a>
@@ -518,8 +518,9 @@ function renderBrief(p) {
   const tag = p.subjects_all?.[1] || p.subject || '';
   return `<div class="brief-row${cls}" data-id="${p.id}">
     <div class="brief-meta">
-      <a href="${p.arxiv_url}" target="_blank">${p.id}</a>
-      <br/><span class="brief-tag">${tag}</span>
+      <a href="${p.arxiv_url}" target="_blank">${p.id}</a><br/>
+      ${shortDate(p.announced_date)}<br/>
+      <span class="brief-tag">${tag}</span>
     </div>
     <div class="brief-body">
       <h3>${p.title_relatable || p.title_original}
@@ -542,13 +543,12 @@ function renderFull(p) {
   return `<article class="full-card${cls}" data-id="${p.id}">
     <button class="p-toggle" onclick="togglePaper('${p.id}',this)"></button>
     <div class="card-head">
-      <span class="card-id"><a href="${p.arxiv_url}" target="_blank">arXiv:${p.id}</a></span>
+      <span class="card-id"><a href="${p.arxiv_url}" target="_blank">arXiv:${p.id}</a> · ${shortDate(p.announced_date)}</span>
       <span class="card-tag">${tag}</span>
     </div>
     <h2 class="card-title">${p.title_relatable || p.title_original}</h2>
     <p class="card-authors">${p.authors}</p>
     <div class="card-body">
-      <p class="ai-lbl">AI-generated summary · verify against source</p>
       <div class="card-summary">${p.summary || p.hook || ''}</div>
       <p class="card-cite">
         <span class="cite-lbl">Published as</span>
