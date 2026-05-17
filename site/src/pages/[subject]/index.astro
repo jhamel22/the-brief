@@ -67,7 +67,9 @@ const activeSubjects = allSubjects.filter(s => s.active);
     .sidebar::-webkit-scrollbar-thumb{background:var(--rule)}
     .sb-inner{padding:28px 20px 40px;flex:1;display:flex;flex-direction:column;gap:24px}
     .sb-brand{font-family:var(--mono);font-size:11px;letter-spacing:.2em;
-      text-transform:uppercase;color:var(--accent)}
+      text-transform:uppercase;color:var(--accent);text-decoration:none;
+      display:block;transition:opacity .15s}
+    .sb-brand:hover{opacity:.7}
     .sb-label{font-family:var(--mono);font-size:9px;letter-spacing:.2em;
       text-transform:uppercase;color:var(--ink-faint);margin-bottom:8px}
     .search-wrap{position:relative}
@@ -313,7 +315,7 @@ const activeSubjects = allSubjects.filter(s => s.active);
   <!-- SIDEBAR -->
   <aside class="sidebar" id="sidebar">
     <div class="sb-inner">
-      <div class="sb-brand">The Brief · {subjectConfig.domain}</div>
+      <a href="/" class="sb-brand">The Brief · arXiv</a>
 
       <div>
         <div class="sb-label">Search</div>
