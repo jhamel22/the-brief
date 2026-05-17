@@ -520,8 +520,9 @@ function filteredPapers() {
 function renderScan(p) {
   const topicCode = p.subjects_all?.[0] || p.subject || '';
   const topic = topicTagMap[topicCode] || topicCode.split('.').pop()?.slice(0, 4).toUpperCase() || 'MISC';
-  return `<div class="scan-row" onclick="open('${p.arxiv_url}','_blank')">
+  return `<div class="scan-row" style="padding: 16px 0; border-top: 1px solid rgba(138,130,120,0.4);" onclick="open('${p.arxiv_url}','_blank')">
     <span class="scan-tag">${topic}</span>
+    <span style="color: var(--ink-faint); margin: 0 8px;">·</span>
     <span class="scan-title">${p.title_relatable || p.title_original}</span>
     <span class="scan-date">${shortDate(p.announced_date)}</span>
     <span class="scan-arrow">→</span>
