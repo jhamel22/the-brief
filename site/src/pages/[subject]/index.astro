@@ -659,7 +659,7 @@ function renderPaper(p) {
   const m = state.mode;
   if (m === 'scan')  return renderScan(p);
   if (m === 'brief') return renderBrief(p);
-  return p.is_lead ? renderFull(p) : renderBrief(p); // full
+  return renderFull(p); // full
 }
 
 // ═══════════════════════════════════════════════════
