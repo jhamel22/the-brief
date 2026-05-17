@@ -234,7 +234,7 @@ const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' 
 
     /* ── Scan row ────────────────────────────────────────────── */
     .scan-row{display:none;align-items:baseline;gap:12px;padding:16px 0;line-height:1.4;
-      border-top:1px solid var(--rule);cursor:pointer;transition:color .15s}
+      border-top:1px solid var(--rule);cursor:pointer;transition:color .15s;text-decoration:none;color:inherit}
     .scan-row:hover{color:var(--accent)}
     .scan-tag{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;
       color:var(--accent);border:1px solid var(--accent);padding:1px 5px;border-radius:2px;flex-shrink:0}
@@ -613,13 +613,13 @@ function filteredPapers() {
 function renderScan(p) {
   const topicCode = p.subjects_all?.[0] || p.subject || '';
   const topic = topicTagMap[topicCode] || topicCode.split('.').pop()?.slice(0, 4).toUpperCase() || 'MISC';
-  return `<div class="scan-row" style="padding: 16px 0; border-top: 1px solid rgba(138,130,120,0.4);" onclick="open('${p.arxiv_url}','_blank')">
+  return `<a href="/${p.subjectSlug}/${p.id}/" class="scan-row" style="padding: 16px 0; border-top: 1px solid rgba(138,130,120,0.4); display: flex; align-items: baseline; gap: 12px; text-decoration: none; color: inherit;">
     <span class="scan-tag">${topic}</span>
     <span style="color: var(--ink-faint); margin: 0 8px;">·</span>
     <span class="scan-title">${p.title_relatable || p.title_original}</span>
     <span class="scan-date">${shortDate(p.announced_date)}</span>
     <span class="scan-arrow">→</span>
-  </div>`;
+  </a>`;
 }
 
 function renderBrief(p) {
