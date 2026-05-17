@@ -242,21 +242,24 @@ const activeSubjects = allSubjects.filter(s => s.active);
     .scan-arrow{font-size:11px;color:var(--ink-faint);flex-shrink:0;transition:transform .15s}
     .scan-row:hover .scan-arrow{transform:translateX(3px);color:var(--accent)}
 
-    /* ── Toggle button ───────────────────────────────────────── */
-    .p-toggle{position:absolute;top:32px;right:0;width:26px;height:26px;
-      border:1px solid var(--rule);border-radius:50%;background:transparent;
-      color:var(--ink-faint);cursor:pointer;font-family:var(--mono);font-size:13px;
-      display:flex;align-items:center;justify-content:center;transition:all .18s;z-index:2}
-    .p-toggle:hover{color:var(--accent);border-color:var(--accent)}
+    /* ── Toggle bar ───────────────────────────────────────── */
+    .card-toggle-bar{
+      margin-top:16px;padding:8px 0;text-align:center;border-top:1px solid var(--rule);
+      font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;
+      color:var(--ink-faint);cursor:pointer;transition:all .15s;user-select:none;
+    }
+    .card-toggle-bar:hover{color:var(--accent)}
 
     /* Collapse animations */
     .card-body,.brief-extra{max-height:3000px;overflow:hidden;opacity:1;
       transition:max-height .4s ease,opacity .25s ease}
     .full-card.collapsed .card-body,.brief-row.collapsed .brief-extra{max-height:0;opacity:0}
+    .full-card.collapsed .card-toggle-bar,.brief-row.collapsed .card-toggle-bar{display:none}
     .full-card.collapsed{padding:14px 0}
-    .full-card.collapsed .card-title{font-size:20px;margin:6px 0 3px}
+    .full-card.collapsed .card-title{font-size:20px;margin:6px 0 3px;cursor:pointer}
     .full-card.collapsed .card-authors{font-size:13px;margin-bottom:0}
     .brief-row.collapsed{padding:10px 0}
+    .brief-row.collapsed h3{cursor:pointer}
 
     /* ── Also published ──────────────────────────────────────── */
     .also-hdr{padding:22px 0 0;display:flex;align-items:center;gap:12px}
@@ -618,8 +621,7 @@ function renderBrief(p) {
   const cls = state.collapsed.has(p.id) ? ' collapsed' : '';
   return `<div class="brief-row${cls}" data-id="${p.id}">
     <div class="brief-body">
-      <h3><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a>
-        <button class="p-toggle" onclick="togglePaper('${p.id}',this)"></button></h3>
+      <h3><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a></h3>
       <p class="brief-authors">${p.authors} · <span style="color:var(--ink-faint);font-size:13px">${shortDate(p.announced_date)}</span></p>
       <div class="brief-extra">
         <p class="brief-hook">${p.hook || ''}</p>
@@ -628,6 +630,7 @@ function renderBrief(p) {
           <a href="${p.arxiv_url}" target="_blank"><em>${p.title_original}</em></a>
           <span class="arxiv-id">arXiv:${p.id}</span>
         </p>
+        <div class="card-toggle-bar" onclick="togglePaper('${p.id}',this)">▲ less</div>
       </div>
     </div>
   </div>
@@ -637,7 +640,6 @@ function renderBrief(p) {
 function renderFull(p) {
   const cls = state.collapsed.has(p.id) ? ' collapsed' : '';
   return `<article class="full-card${cls}" data-id="${p.id}">
-    <button class="p-toggle" onclick="togglePaper('${p.id}',this)"></button>
     <h2 class="card-title"><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a></h2>
     <p class="card-authors">${p.authors} · <span style="color:var(--ink-faint);font-size:14px">${shortDate(p.announced_date)}</span></p>
     <div class="card-body">
@@ -647,6 +649,7 @@ function renderFull(p) {
         <a href="${p.arxiv_url}" target="_blank"><em>${p.title_original}</em></a>
         <span class="arxiv-id">arXiv:${p.id}</span>
       </p>
+      <div class="card-toggle-bar" onclick="togglePaper('${p.id}',this)">▲ less</div>
     </div>
   </article>
   <hr style="border:none; border-top: 2px solid #d8cfbe; margin: 24px 0;">`
@@ -953,6 +956,17 @@ function handleSearch(val) {
 }
 document.getElementById('sb-search').addEventListener('input',  e => handleSearch(e.target.value));
 document.getElementById('mob-search').addEventListener('input', e => handleSearch(e.target.value));
+
+// Click on collapsed title to expand
+document.getElementById('feed').addEventListener('click', e => {
+  const card = e.target.closest('.full-card.collapsed, .brief-row.collapsed');
+  if (!card) return;
+  const title = e.target.closest('.card-title, h3');
+  if (title) {
+    const id = card.dataset.id;
+    togglePaper(id, card);
+  }
+});
 
 // Mobile sidebar
 document.getElementById('hamburger').addEventListener('click', () => document.body.classList.add('sb-open'));
