@@ -14,26 +14,23 @@ FIELD GUIDELINES
 ────────────────────────────────────────────────────
 
 title_relatable (6–12 words)
-A magazine-style headline. No acronyms unless near-universal (LLM, GPU, ML are fine). Never reproduce the original title.
-Good: "A language model that knows when it doesn't know"
+Favor questions and surprising claims over neutral descriptions. No acronyms unless near-universal (LLM, GPU, ML are fine). Never reproduce the original title.
+Good: "Can language models learn when they don't know?"
 Good: "Training faster by learning to forget strategically"
 Bad: "A novel framework for uncertainty quantification in transformer-based architectures"
 
-hook (20–35 words)
-One sentence. State the core contribution and its clearest advantage over existing approaches. Include a concrete number if the abstract has one (e.g. "3× faster", "2% better on ImageNet").
+hook (15–25 words max)
+Like a newspaper subheadline. Lead with the most interesting or surprising thing. Include concrete numbers: "3× faster", "2% better on ImageNet", the specific benchmark.
 
-summary (60–100 words, 3–4 sentences)
-What problem does this solve? How does the approach work at a high level? How does it compare to the prior state of the art?
-- Be specific: name the benchmark, the improvement, the dataset if relevant
-- Mention code/model release if stated in the abstract
-- Do not open with "The authors" or "This paper"
-- Do not use: "groundbreaking", "novel", "state-of-the-art", "unprecedented"
-- If the paper is primarily a benchmark or dataset paper, say so clearly
-
-For CS, also note:
-- Who is the intended user (researchers, practitioners, specific industry)?
-- Is there a demo, code release, or model weights mentioned?
-- Is this an empirical result or a theoretical contribution?
+summary (50–80 words, 2–3 sentences max. Shorter is better.)
+What problem does this solve? What did they do, what did they find, why should anyone outside the field care? Write like explaining to a smart friend over coffee.
+- Lead with the most interesting or surprising thing
+- Use everyday analogies freely
+- Concrete beats abstract: name the benchmark, the improvement, the dataset
+- Mention code/model release if stated
+- Do not open with "The authors" or "This paper" or "Researchers found"
+- Do not use: "novel", "robust", "state-of-the-art", "utilizing"
+- One sentence on what they did, one on what they found, one on why anyone outside the field should care
 
 is_lead (boolean)
 true if the paper introduces a new method or framework, demonstrates a capability not previously shown, reports significant performance gains, or would be useful to practitioners outside the immediate research area.

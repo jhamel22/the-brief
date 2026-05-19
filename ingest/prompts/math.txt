@@ -14,21 +14,22 @@ FIELD GUIDELINES
 ────────────────────────────────────────────────────
 
 title_relatable (6–12 words)
-A headline for the mathematical result. Accessible to a reader who has seen calculus and linear algebra. Avoid formal names if a plain description works better.
+Favor questions and surprising claims over neutral descriptions. Accessible to a reader who has seen calculus and linear algebra. Avoid formal names if a plain description works better.
+Good: "Can you actually count the ways a sphere folds onto itself?"
 Good: "A 50-year-old conjecture about prime gaps finally falls"
-Good: "Counting the ways a sphere can be folded onto itself"
 Bad: "On the p-adic L-functions associated to modular forms of half-integral weight"
 
-hook (20–35 words)
-One sentence. What was proved, and why do mathematicians care about it? If the abstract mentions a famous open problem that this resolves or advances, name it.
+hook (15–25 words max)
+Like a newspaper subheadline. What was proved, and why do mathematicians care? If it resolves or advances a famous open problem, name it.
 
-summary (60–100 words, 3–4 sentences)
-What was the problem? Why was it hard or interesting? What did the proof accomplish? What technique made it possible?
-- Assume the reader knows what a theorem and proof are, but not the specific subfield
-- Use analogies if they genuinely clarify (a famous one: "like finding a shortcut through a maze everyone thought was unsolvable")
-- Do not open with "The authors" or "This paper"
-- Do not use: "groundbreaking", "novel", "unprecedented", "state-of-the-art"
-- It is fine to say a result is "long-sought" or "difficult" if the abstract supports it
+summary (50–80 words, 2–3 sentences max. Shorter is better.)
+What was the problem? Why was it hard? What did the proof accomplish? Write like explaining to a smart friend over coffee.
+- Lead with the most interesting or surprising thing
+- Use everyday analogies freely
+- Concrete beats abstract: name the famous problem, state the implication
+- Do not open with "The authors" or "This paper" or "Researchers found"
+- Do not use: "novel", "robust", "state-of-the-art", "utilizing"
+- One sentence on what they did, one on what they found, one on why anyone outside the field should care
 
 is_lead (boolean)
 true if the paper resolves a known open problem, introduces a technique with clear broader applicability, reveals an unexpected connection, or would be interesting to mathematicians outside the immediate subfield.

@@ -14,22 +14,23 @@ FIELD GUIDELINES
 ────────────────────────────────────────────────────
 
 title_relatable (6–12 words)
-A magazine-style headline for the finding. No jargon, no acronyms unless universal (LIGO, GW, CMB are fine). Never reproduce the original title. Think: what would a science journalist write?
-Good: "Closing a 50-year loophole in the Penrose process"
+Favor questions and surprising claims over neutral descriptions. No jargon, no acronyms unless universal (LIGO, GW, CMB are fine). Never reproduce the original title. Think: what would a science journalist write?
+Good: "Can the Penrose process actually extract black hole energy?"
 Good: "Three ways to draw a black hole shadow, and when they disagree"
 Good: "Modified gravity can't quite hide from LIGO"
 Bad: "A novel investigation of thermodynamic topology in hairy black holes"
 
-hook (20–35 words)
-One sentence. State the key result or contribution plainly, and why it matters. Assume the reader is scientifically literate but not a specialist. No subordinate clauses if you can avoid them.
+hook (15–25 words max)
+Like a newspaper subheadline. Lead with the most interesting or surprising thing. Concrete beats abstract: name the thing, give the number, state the implication.
 
-summary (60–100 words, 3–4 sentences)
-What did they do, what did they find, what is the implication?
-- Do not open with "The authors" or "This paper" or "Researchers"
-- Use concrete language. One apt analogy if it genuinely clarifies
-- Do not call anything "groundbreaking", "novel", "unprecedented", "revolutionary", or "state-of-the-art"
-- If the paper is a re-upload of previously published work, flag it: "A re-deposit of a [year] paper..."
-- Do not invent claims not present in the abstract
+summary (50–80 words, 2–3 sentences max. Shorter is better.)
+What did they do, what did they find, why should anyone outside the field care? Write like explaining to a smart friend over coffee, not for a journal.
+- Lead with the most interesting or surprising thing
+- Use everyday analogies freely
+- Concrete beats abstract: name the thing, give the number, state the implication
+- Do not open with "The authors" or "This paper" or "Researchers found"
+- Do not use: "novel", "robust", "state-of-the-art", "utilizing"
+- One sentence on what they did, one on what they found, one on why anyone outside the field should care
 
 is_lead (boolean)
 true if the paper has clear observational implications, introduces a new method or framework, presents a surprising result, or would be interesting to a physicist outside the immediate subfield.

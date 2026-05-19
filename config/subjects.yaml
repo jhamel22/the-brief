@@ -28,6 +28,7 @@ subjects:
     domain: Physics
     slug: hep-th
     daily_cap: 10
+    model: haiku
     prompt_variant: physics
     description: "String theory, quantum field theory, holography, and the deep mathematical structure of fundamental physics — summarized daily. Always verify against the source."
     active: true
@@ -45,7 +46,8 @@ subjects:
     name: Cosmology
     domain: Physics
     slug: astro-ph-co
-    daily_cap: 20
+    daily_cap: 10
+    model: haiku
     prompt_variant: physics
     description: "The large-scale structure of the universe, dark matter, dark energy, and the cosmic microwave background — summarized daily. Always verify against the source."
     active: true
@@ -54,9 +56,11 @@ subjects:
     name: High Energy Physics — Phenomenology
     domain: Physics
     slug: hep-ph
-    daily_cap: 15
+    daily_cap: 8
+    model: haiku
     prompt_variant: physics
-    active: false
+    description: "Particle physics phenomenology — dark matter, collider results, and the bridge between theory and experiment — summarized daily. Always verify against the source."
+    active: true
 
   - code: cond-mat
     name: Condensed Matter
@@ -75,6 +79,16 @@ subjects:
     description: "Physics applied to social systems — networks, epidemics, inequality, collective behavior — summarized daily. Always verify against the source."
     active: true
 
+  - code: astro-ph.HE
+    name: High Energy Astrophysical Phenomena
+    domain: Physics
+    slug: astro-ph-he
+    daily_cap: 8
+    model: haiku
+    prompt_variant: physics
+    description: "Black holes, neutron stars, gamma-ray bursts, and the most energetic phenomena in the universe — summarized daily. Always verify against the source."
+    active: true
+
   # ── COMPUTER SCIENCE ──────────────────────────────────────
   # Note: cs.LG/cs.AI/cs.CL can each hit 150-200 papers/day.
   # daily_cap is critical here. These use a two-step pipeline:
@@ -83,7 +97,7 @@ subjects:
     name: Machine Learning
     domain: Computer Science
     slug: cs-lg
-    daily_cap: 20
+    daily_cap: 10
     prompt_variant: cs
     description: "Neural networks, optimization, generalization, and the mathematical foundations of learning — the best of machine learning research, summarized daily. Always verify against the source."
     use_filter: true   # enables cheap pre-ranking step for high-volume subjects
@@ -94,7 +108,7 @@ subjects:
     name: Artificial Intelligence
     domain: Computer Science
     slug: cs-ai
-    daily_cap: 15
+    daily_cap: 10
     prompt_variant: cs
     description: "Agents, reasoning, foundation models, and the latest from the AI research frontier — summarized daily. Always verify against the source."
     use_filter: true
@@ -105,7 +119,7 @@ subjects:
     name: Computation and Language
     domain: Computer Science
     slug: cs-cl
-    daily_cap: 12
+    daily_cap: 10
     prompt_variant: cs
     description: "Large language models, translation, dialogue, and the computational study of human language — summarized daily. Always verify against the source."
     use_filter: true
@@ -126,10 +140,21 @@ subjects:
     name: Robotics
     domain: Computer Science
     slug: cs-ro
-    daily_cap: 15
+    daily_cap: 8
     prompt_variant: cs
+    description: "Robots that learn, move, and interact — the latest from robotics research, summarized daily. Always verify against the source."
     use_filter: true
     model: haiku
+    active: true
+
+  - code: stat.ML
+    name: Machine Learning (Statistics)
+    domain: Statistics
+    slug: stat-ml
+    daily_cap: 6
+    model: haiku
+    prompt_variant: cs
+    description: "The statistical foundations of machine learning — theory, methods, and applications — summarized daily. Always verify against the source."
     active: true
 
   # ── MATHEMATICS ───────────────────────────────────────────
@@ -155,8 +180,19 @@ subjects:
     domain: Quantitative Biology
     slug: q-bio-nc
     daily_cap: 8
+    model: haiku
     prompt_variant: bio
     description: "Neuroscience, brain-computer interfaces, and the computational study of the mind — summarized daily. Always verify against the source."
+    active: true
+
+  - code: q-bio.PE
+    name: Populations and Evolution
+    domain: Quantitative Biology
+    slug: q-bio-pe
+    daily_cap: 8
+    model: haiku
+    prompt_variant: bio
+    description: "Evolution, population dynamics, and the mathematics of life — summarized daily. Always verify against the source."
     active: true
 
   - code: q-fin
@@ -167,11 +203,22 @@ subjects:
     prompt_variant: finance
     active: false
 
+  - code: q-fin.TR
+    name: Trading and Market Microstructure
+    domain: Quantitative Finance
+    slug: q-fin-tr
+    daily_cap: 8
+    model: haiku
+    prompt_variant: finance
+    description: "Trading strategies, market microstructure, and quantitative finance research — summarized daily. Always verify against the source."
+    active: true
+
   - code: econ.GN
     name: General Economics
     domain: Economics
     slug: econ-gn
     daily_cap: 8
+    model: haiku
     prompt_variant: econ
     description: "Economic theory, policy, and empirical research in plain English — summarized daily. Always verify against the source."
     active: true

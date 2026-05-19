@@ -50,7 +50,7 @@ def summarize_paper(
         try:
             response = client.messages.create(
                 model=model,
-                max_tokens=600,
+                max_tokens=400,
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_content}],
             )
