@@ -940,20 +940,15 @@ window.togglePaper = function(id, btn) {
 }
 
 function bulkToggle(collapse) {
+  // Update state first
+  const papers = filteredPapers();
+  if (collapse) {
+    papers.forEach(p => state.collapsed.add(p.id));
+  } else {
+    state.collapsed.clear();
+  }
+  // Re-render with updated state (will set inline styles correctly)
   render();
-  setTimeout(() => {
-    const items = document.querySelectorAll('.full-card, .brief-row');
-    console.log('bulkToggle found', items.length, 'items, collapse=', collapse);
-    items.forEach((el, i) => {
-      setTimeout(() => {
-        el.classList.toggle('collapsed', collapse);
-        const content = el.querySelector('.card-body, .brief-extra');
-        if (content) {
-          content.style.display = collapse ? 'none' : '';
-        }
-      }, i * 25);
-    });
-  }, 200);
 }
 
 function debugCollapse() {
