@@ -41,32 +41,58 @@ def _fetch_rss(subject_code: str) -> list[dict]:
 
 
 def _fetch_api(subject_code: str, target_date: Optional[str] = None) -> list[dict]:
-    try:
-        if target_date:
-            # Convert YYYY-MM-DD to YYYYMMDD format for arXiv API
-            dt = datetime.strptime(target_date, '%Y-%m-%d')
-            start_date = dt.strftime('%Y%m%d')
-            end_date = (dt + timedelta(days=1)).strftime('%Y%m%d')
-            date_filter = f"+AND+submittedDate:[{start_date}+TO+{end_date}]"
-            url = f"http://export.arxiv.org/api/query?search_query=cat:{subject_code}{date_filter}&sortBy=submittedDate&sortOrder=descending&max_results=100"
-        else:
-            url = API_URL.format(subject=subject_code)
+    """
+    Fetch papers from arXiv API with retry logic for rate limiting.
+    Retries up to 3 times on 429 or 5xx errors with exponential backoff.
+    """
+    if target_date:
+        # Convert YYYY-MM-DD to YYYYMMDD format for arXiv API
+        dt = datetime.strptime(target_date, '%Y-%m-%d')
+        start_date = dt.strftime('%Y%m%d')
+        end_date = (dt + timedelta(days=1)).strftime('%Y%m%d')
+        date_filter = f"+AND+submittedDate:[{start_date}+TO+{end_date}]"
+        url = f"http://export.arxiv.org/api/query?search_query=cat:{subject_code}{date_filter}&sortBy=submittedDate&sortOrder=descending&max_results=100"
+    else:
+        url = API_URL.format(subject=subject_code)
 
-        # Add User-Agent header and respect arXiv API rate limits
-        req = urllib.request.Request(url, headers={'User-Agent': 'TheBrief/1.0 (mailto:contact@example.com)'})
-        time.sleep(3)  # arXiv requires 3 seconds between requests
+    req = urllib.request.Request(url, headers={'User-Agent': 'TheBrief/1.0 (mailto:contact@example.com)'})
 
-        with urllib.request.urlopen(req) as r:
-            tree = ET.parse(r)
-        papers = []
-        for e in tree.findall('a:entry', ATOM_NS):
-            p = _parse_api_entry(e, subject_code)
-            if p:
-                papers.append(p)
-        return papers
-    except Exception as e:
-        print(f"  [ERROR] API error: {e}")
-        return []
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # Respect arXiv rate limits: 5s base delay (3s minimum + headroom)
+            time.sleep(5)
+
+            with urllib.request.urlopen(req) as r:
+                tree = ET.parse(r)
+            papers = []
+            for e in tree.findall('a:entry', ATOM_NS):
+                p = _parse_api_entry(e, subject_code)
+                if p:
+                    papers.append(p)
+            return papers
+
+        except urllib.error.HTTPError as e:
+            # Retry on rate limiting (429) or server errors (5xx)
+            if e.code == 429 or e.code >= 500:
+                if attempt < max_retries - 1:
+                    wait = 30 * (2 ** attempt)  # 30s, 60s, 120s
+                    print(f"  [WAIT] HTTP {e.code} — retrying in {wait}s (attempt {attempt + 1}/{max_retries})")
+                    time.sleep(wait)
+                    continue
+                else:
+                    print(f"  [ERROR] API error after {max_retries} attempts: HTTP Error {e.code}: {e.reason}")
+                    return []
+            else:
+                # Don't retry on other 4xx errors (bad request, not found, etc.)
+                print(f"  [ERROR] API error: HTTP Error {e.code}: {e.reason}")
+                return []
+
+        except Exception as e:
+            print(f"  [ERROR] API error: {e}")
+            return []
+
+    return []
 
 
 def _parse_rss_entry(entry, subject_code: str) -> Optional[dict]:

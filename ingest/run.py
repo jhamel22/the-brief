@@ -217,6 +217,7 @@ def main() -> int:
 
     total_papers = 0
     total_cost   = 0.0
+    subject_results = {}  # Track success/failure per subject
 
     # Generate date range (last 3 weekdays by default, or single date if specified)
     if args.date:
@@ -234,10 +235,15 @@ def main() -> int:
 
     for subject in subjects:
         print(f"\n── {subject['code']} ─────────────────────────")
+        subject_papers = 0
         for target_date in date_range:
             papers, cost = ingest_subject(subject, client, dry_run=args.dry_run, target_date=target_date)
             total_papers += papers
             total_cost   += cost
+            subject_papers += papers
+
+        # Track whether this subject succeeded (got any papers)
+        subject_results[subject['code']] = subject_papers > 0
 
     # ── Cost report ───────────────────────────────────────────────────────
     projected_monthly = total_cost * 30
@@ -254,6 +260,16 @@ def main() -> int:
     if projected_monthly > 20:
         print(f"\n  ⚠️  WARNING: Projected monthly cost (${projected_monthly:.2f})")
         print(f"     exceeds the $20 budget target.")
+
+    # ── Subject coverage summary ──────────────────────────────────────────
+    succeeded = [s for s, ok in subject_results.items() if ok]
+    failed = [s for s, ok in subject_results.items() if not ok]
+
+    if failed:
+        print(f"\n  [SUMMARY] {len(succeeded)} of {len(subjects)} subjects succeeded")
+        print(f"  [SUMMARY] Failed subjects: {', '.join(failed)}")
+    elif succeeded:
+        print(f"\n  [SUMMARY] All {len(subjects)} subjects succeeded")
 
     print(f"{'─' * 48}\n")
     return 0
