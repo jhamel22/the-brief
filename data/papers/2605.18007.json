@@ -1,0 +1,22 @@
+{
+  "id": "2605.18007",
+  "arxiv_url": "https://arxiv.org/abs/2605.18007",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Semantic Reranking at Inference Time for Hard Examples in Rhetorical Role Labeling",
+  "authors": "Anas Belfathi, Nicolas Hernandez, Laura Monceaux, Warren Bonnard, Richard Dufour",
+  "abstract": "Rhetorical Role Labeling (RRL) assigns a functional role to each sentence in a document and is widely used in legal, medical, and scientific domains. While language models (LMs) achieve strong average performance, they remain unreliable on hard examples, where prediction confidence is low. Existing approaches typically handle uncertainty implicitly and treat labels as discrete identifiers, overlooking the semantic information encoded in label names. We introduce RISE, an inference-time semantic reranking framework that leverages label semantics to refine predictions on hard instances. RISE automatically identifies low-confidence predictions and reranks model outputs using contrastively learned label representations, without retraining or modifying the underlying model. Experiments on eight domain-specific RRL datasets with seven LMs, including encoder-based and causal architectures, show an average gain of +9.15 macro-F1 points on hard examples. For explainability, we further propose manual hardness annotations to study difficulty from both model and human perspectives, revealing a moderate agreement with Cohen's kappa = 0.40.",
+  "title_relatable": "Fixing language models on hard examples using label meaning",
+  "hook": "A post-processing method uses learned label semantics to rerank model predictions on uncertain examples, improving hard-case performance by 9.15 macro-F1 points across multiple domains without retraining.",
+  "summary": "Rhetorical Role Labeling—assigning functional roles to sentences in legal, medical, and scientific documents—works well on average with language models but fails reliably on difficult, low-confidence cases. RISE addresses this by applying semantic reranking at inference time: it detects low-confidence predictions and reorders model outputs using contrastively learned representations of label names, leveraging the semantic information embedded in role descriptions. Tested on eight domain-specific datasets with seven models, the method yields consistent gains on hard examples. The authors also release manual hardness annotations to characterize what makes examples difficult from both model and human viewpoints (Cohen's kappa = 0.40), providing a resource for future work.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 935,
+  "tokens_out": 245,
+  "cost_usd": 0.001728,
+  "ingested_at": "2026-05-19T04:12:39.185496+00:00"
+}

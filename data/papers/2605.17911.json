@@ -1,0 +1,22 @@
+{
+  "id": "2605.17911",
+  "arxiv_url": "https://arxiv.org/abs/2605.17911",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "A Pilot Benchmark for NL-to-FOL Translation in Planetary Exploration",
+  "authors": "Hayden Moore, Suman Saha, Mahfuza Farooque",
+  "abstract": "Future planetary exploration envisions autonomous robotic agents operating under severe communication constraints, without global positioning, and with minimal human intervention. In such environments, agents must not only perceive and act, but also reason over mission objectives, operational constraints, and evolving environmental conditions. While prior work has largely focused on perception and control, the translation of high-level mission knowledge into structured, machine-interpretable representations remains underexplored. We introduce a pilot benchmark for translating natural language (NL) into First-Order Logic (FOL) within the domain of planetary exploration. The dataset is constructed from real mission documentation sourced from NASA's Planetary Data System (PDS), spanning missions from 2003 to 2013. These documents describe mission phases such as launch, boost, coast, cruise, and orbital operations in rich natural language. We manually annotate these documents with corresponding FOL representations that capture temporal structure, agent roles, and operational dependencies. In addition, we provide structured predicate vocabularies and typed constants to enable controlled experimentation with varying levels of prior knowledge. This pilot benchmark provides a foundation for research at the intersection of language understanding and formal reasoning, grounded in real-world, safety-critical mission data. The dataset is provided at: https://github.com/HaydenMM/planetary-logic-benchmark/blob/main/pilot_benchmark.json",
+  "title_relatable": "Translating mission plans into logic for autonomous space robots",
+  "hook": "A new benchmark dataset converts NASA mission documentation into formal logic representations, enabling research on autonomous reasoning for planetary exploration under communication constraints.",
+  "summary": "Autonomous robots operating on distant planets must reason about mission objectives and constraints without relying on human guidance or GPS. This work introduces the first benchmark for translating natural language mission documentation into First-Order Logic (FOL), using real NASA Planetary Data System records from 2003–2013 covering launch, cruise, and orbital phases. The authors manually annotated mission documents with FOL representations capturing temporal structure, agent roles, and operational dependencies, and provide predicate vocabularies to support controlled experiments with varying levels of prior knowledge. The dataset is released publicly and addresses a gap in research on converting high-level mission knowledge into machine-interpretable formal representations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 978,
+  "tokens_out": 212,
+  "cost_usd": 0.0016304000000000002,
+  "ingested_at": "2026-05-19T04:12:47.904182+00:00"
+}

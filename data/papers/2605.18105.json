@@ -1,0 +1,22 @@
+{
+  "id": "2605.18105",
+  "arxiv_url": "https://arxiv.org/abs/2605.18105",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "How Loud Rumbles Hit Newsstands: A Data Analysis of Coverage and Spatial Bias in German News about Landslides Around the World",
+  "authors": "Brielen Madureira, Andreas Niekler, Marc Keuschnigg, Mariana Madruga de Brito",
+  "abstract": "Landslides often hit newsstands due to their destructive and potentially fatal effects. News are a valuable source of information for creating or enriching disaster databases and for expediting media-based studies of the dynamics of media attention. To accomplish that, news datasets must be filtered, geolocated and validated. This paper focuses on how landslides around the world are reported in German newspapers. We analyse almost 60k news articles about 5.5k news events in a 25-year period, compare it with external measures of countries' susceptibility to landslides and provide insights, e.g.~the overreporting of Southern and Western Europe, to foment further studies on inequalities in media attention to international disasters.",
+  "title_relatable": "Why German news covers some landslides but ignores others",
+  "hook": "Analysis of 60,000 articles spanning 25 years reveals German newspapers systematically overcover landslides in Western Europe while underreporting disasters in equally vulnerable regions elsewhere.",
+  "summary": "This paper analyzes how German newspapers cover landslides globally, examining 60,000 articles about 5,500 events across 25 years. The authors geolocate and validate news coverage, then compare it against objective measures of landslide susceptibility by country. They find significant geographical bias: Southern and Western Europe receive disproportionate coverage relative to actual disaster risk, while other vulnerable regions are underreported. The work demonstrates how news datasets can be systematically analyzed to reveal inequalities in media attention to international disasters, with implications for disaster monitoring and understanding global information inequality.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 873,
+  "tokens_out": 213,
+  "cost_usd": 0.0015504000000000002,
+  "ingested_at": "2026-05-19T04:12:31.860301+00:00"
+}

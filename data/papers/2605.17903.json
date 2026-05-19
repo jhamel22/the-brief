@@ -1,0 +1,25 @@
+{
+  "id": "2605.17903",
+  "arxiv_url": "https://arxiv.org/abs/2605.17903",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.HC",
+    "cs.IR"
+  ],
+  "title_original": "Agentic Chunking and Bayesian De-chunking of AI Generated Fuzzy Cognitive Maps: A Model of the Thucydides Trap",
+  "authors": "Akash Kumar Panda, Olaoluwa Adigun, Bart Kosko",
+  "abstract": "We automatically generate feedback causal fuzzy cognitive maps (FCMs) from text by teaching large-language-model agents to break the text into overlapping chunks of text. Convex mixing of these chunk FCMs gives a representative cyclic FCM knowledge graph. The text chunks can have different levels of overlap. The chunk FCMs still mix to form a new FCM causal knowledge graph. The mixing technique scales because it uses light computation with sparse causal chunk matrices. The mixing structure allows an operator-level type of Bayesian inference that produces \"de-chunked\" or posterior-like FCMs from the mixed FCM. These de-chunked FCMs are useful in their own right and allow further iterations of Bayesian updating. We demonstrate these mixing techniques on the essay text of Allison's \"Thucydides Trap\" model of conflict between a dominant power such as the United States and a rising power such as China. The FCM dynamical systems predict outcomes as they equilibrate to fixed-point or limit-cycle attractors. Seven out of 8 FCM knowledge graphs predicted a type of war when we stimulated them by turning on and keeping on the concept node that stands for the rising power's ambition and entitlement. Gemini 3.1 LLMs served as the chunking AI agents.",
+  "title_relatable": "Breaking text into causal maps to predict geopolitical conflict",
+  "hook": "Researchers use AI agents to chunk text into overlapping segments, mix them into causal knowledge graphs, and apply Bayesian inference to model dynamics of great-power conflict—predicting war outcomes in 7 of 8 scenarios.",
+  "summary": "The method automatically generates fuzzy cognitive maps (FCMs)—directed graphs representing causal relationships—from text by having LLM agents create overlapping chunks and then mixing the resulting chunk-level FCMs through convex combination. A Bayesian inference step produces \"de-chunked\" posterior FCMs that can be iteratively refined. The approach scales efficiently using sparse matrix operations. Applied to essays on the Thucydides Trap (US-China conflict dynamics), seven of eight resulting FCM dynamical systems predicted war when the rising power's ambition was activated, as the systems equilibrated to attractors in the dynamical space.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 994,
+  "tokens_out": 236,
+  "cost_usd": 0.0017392,
+  "ingested_at": "2026-05-19T04:12:51.799531+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.17714",
+  "arxiv_url": "https://arxiv.org/abs/2605.17714",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "From Documents to Segments: A Contextual Reformulation for Topic Assignment",
+  "authors": "Hoonsang Yoon, Takyoung Kim, Wonkee Lee, Ilmin Cho, Dilek Hakkani-Tür, Stanley Jungkyu Choi",
+  "abstract": "Traditional topic modeling assigns a single topic to each document. In practice, however, many real-world documents, such as product reviews or open-ended survey responses, contain multiple distinct topics. This mismatch often leads to topic contamination, where unrelated themes are merged into a single topic, making it difficult to identify documents that truly focus on a specific subject. We address this issue by introducing segment-based topic allocation (SBTA), a reformulation of topic modeling that assigns topics not to entire documents, but to segments: short, coherent spans of text that each express a single theme. By modeling topical structure at the segment level, our approach yields cleaner and more interpretable topics and better supports analysis of multi-theme documents. To support systematic evaluation, we construct a SemEval-STM, a new dataset inspired by aspect-based sentiment analysis. Documents are first decomposed into topical segments using large language models (LLMs), followed by human refinement to ensure segment quality. We also propose a segment-level extension of the word intrusion task, enabling human evaluation of topical coherence at the granularity where topics are actually assigned. Across multiple models and evaluation metrics, we show that SBTA improves clustering quality and interpretability. Overall, this work provides a practical, scalable framework for fine-grained topic analysis in heterogeneous text corpora where documents naturally span multiple topics. URL: https://huggingface.co/datasets/LG-AI-Research/SemEval-STM",
+  "title_relatable": "Breaking documents into pieces to assign topics more precisely",
+  "hook": "Segment-based topic modeling assigns topics to short text spans rather than whole documents, eliminating topic contamination and improving interpretability on multi-theme texts.",
+  "summary": "Traditional topic modeling treats entire documents as single units, which fails for real-world texts like product reviews that cover multiple unrelated subjects. This work shifts the unit of analysis from documents to segments—coherent spans expressing one theme each—and proposes segment-based topic allocation (SBTA). The authors introduce SemEval-STM, a new benchmark dataset where LLMs decompose documents into topical segments, refined by human annotators. They extend the word intrusion evaluation task to the segment level for measuring coherence. Across multiple models, SBTA produces cleaner topics and better supports analysis of heterogeneous documents. The dataset and framework are released on Hugging Face.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1039,
+  "tokens_out": 226,
+  "cost_usd": 0.0017352000000000001,
+  "ingested_at": "2026-05-19T04:12:20.145411+00:00"
+}

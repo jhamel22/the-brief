@@ -1,0 +1,23 @@
+{
+  "id": "2605.18211",
+  "arxiv_url": "https://arxiv.org/abs/2605.18211",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Leveraging Graph Structure in Seq2Seq Models for Knowledge Graph Link Prediction",
+  "authors": "Luu Huu Phuc, Ratan Bahadur Thapa, Mojtaba Nayyeri, Jingcheng Wu, Evgeny Kharlamov, Steffen Staab",
+  "abstract": "We introduce Graph-Augmented Sequence-to-Sequence (GA-S2S), a novel framework that integrates a T5-small encoder-decoder with a Relational Graph Attention Network (RGAT) to improve link prediction in knowledge graphs. While existing Seq2Seq models rely solely on surface-level textual descriptions of entities and relations and at best, flatten the neighborhoods of a query entity into a single linear sequence, thereby discarding the inherent graph structure, GA-S2S jointly encodes both textual features and the full $k$-hop subgraph topology surrounding the query entity. By integrating raw encoder outputs with RGAT's relation-aware embeddings, our model captures and leverages richer multi-hop relational patterns and textual information. Our preliminary experiments on the CoDEx dataset demonstrate that GA-S2S outperforms competitive Seq2Seq-based baseline models, achieving up to a 19\\% relative gain in link prediction accuracy.",
+  "title_relatable": "Combining text and graph structure for knowledge graph predictions",
+  "hook": "A hybrid approach that merges sequence-to-sequence text encoding with graph attention networks achieves 19% higher link prediction accuracy by preserving full neighborhood topology instead of flattening it.",
+  "summary": "Knowledge graph link prediction typically relies on either text descriptions alone or flattened entity neighborhoods, losing relational structure. GA-S2S integrates a T5-small encoder-decoder with a Relational Graph Attention Network (RGAT) to jointly encode both textual features and k-hop subgraph topology around query entities. The model captures multi-hop relational patterns that sequential linearization discards. On the CoDEx dataset, it outperforms competitive Seq2Seq baselines by up to 19% in link prediction accuracy.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 938,
+  "tokens_out": 207,
+  "cost_usd": 0.0015784,
+  "ingested_at": "2026-05-19T04:12:25.227023+00:00"
+}

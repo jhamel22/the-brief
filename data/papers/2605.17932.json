@@ -1,0 +1,23 @@
+{
+  "id": "2605.17932",
+  "arxiv_url": "https://arxiv.org/abs/2605.17932",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Prompt Compression in Diffusion Large Language Models: Evaluating LLMLingua-2 on LLaDA",
+  "authors": "Sterling Huang, Abigayle Brown, Jiyoo Noh, Jiakang Xu, Wantong Huo, Kaung Myat Kyaw, Jonathan Chan",
+  "abstract": "Prompt compression reduces inference cost and context length in large language models, but prior evaluations focus primarily on autoregressive architectures. This study investigates whether prompt compression transfers effectively to diffusion large language models (DLLMs) using LLMLingua-2, specifically the 8B-parameter DLLM LLaDA. We evaluate compression performance on GSM8K, DUC2004, and ShareGPT using 250 prompts per dataset at an approximate 2$\\times$ compression ratio, across mathematical reasoning, prompt reconstruction, and summarization tasks. Outputs generated from original prompts, compressed prompts, reconstructed prompts, and reconstructed-prompt reasoning were compared using exact-match accuracy, BLEU, ROUGE, and BERTScore. Results show that semantic preservation does not necessarily imply stable downstream behavior in diffusion models. Summarization tasks remained comparatively robust under compression, while mathematical reasoning degraded substantially despite high semantic similarity scores. Reconstruction experiments further showed that semantically similar prompts may still omit reasoning-critical information required for stable denoising. Across tasks, BERTScore recall was consistently lower than precision, suggesting that compression failures are primarily driven by information omission rather than semantic drift. These findings indicate that prompt compression methods designed for autoregressive models do not transfer uniformly to diffusion large language models and motivate the development of diffusion-aware compression strategies.",
+  "title_relatable": "Does prompt compression work for diffusion language models?",
+  "hook": "Testing a standard prompt-compression method on diffusion language models reveals it degrades mathematical reasoning despite preserving semantic meaning, suggesting compression strategies need rethinking for non-autoregressive architectures.",
+  "summary": "Prompt compression reduces inference cost by shortening inputs, but its effectiveness has been studied mainly on autoregressive models like GPT. This work evaluates LLMLingua-2 on LLaDA, an 8B-parameter diffusion language model, using three benchmarks: GSM8K (math), DUC2004 (summarization), and ShareGPT (reconstruction). At 2× compression, compression methods preserved semantic similarity but failed differently across tasks—summarization remained stable while mathematical reasoning degraded sharply. The gap between BERTScore precision and recall suggests information loss drives failures rather than semantic drift. The finding that semantic similarity doesn't guarantee task stability in diffusion models indicates compression methods must be redesigned specifically for non-autoregressive architectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1032,
+  "tokens_out": 257,
+  "cost_usd": 0.0018536,
+  "ingested_at": "2026-05-19T04:12:45.148078+00:00"
+}

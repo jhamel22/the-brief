@@ -1,0 +1,23 @@
+{
+  "id": "2605.17937",
+  "arxiv_url": "https://arxiv.org/abs/2605.17937",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "BacktestBench: Benchmarking Large Language Models for Automated Quantitative Strategy Backtesting",
+  "authors": "Zhensheng Wang, Wenmian Yang, Qingtai Wu, Lequan Ma, Yiquan Zhang, Weijia Jia",
+  "abstract": "Quantitative backtesting is essential for evaluating trading strategies but remains hampered by high technical barriers and limited scalability. While Large Language Models (LLMs) offer a transformative path to automate this complex, interdisciplinary workflow through advanced code generation, tool usage, and agentic planning, the practical realization is significantly challenged by the current lack of a large-scale benchmark dedicated to automated quantitative backtesting, which hinders progress in this field. To bridge this critical gap, we introduce BacktestBench, the first large-scale benchmark for automated quantitative backtesting. Built from over 6 million real market records, it comprises 18,246 meticulously annotated question-answering pairs across four task categories: metrics calculation, ticker selection, strategy selection, and parameter confirmation. We also propose AutoBacktest, a robust multi-agent baseline that translates natural language strategies into reproducible backtests by coordinating a Summarizer for semantic factor extraction, a Retriever for validated SQL generation, and a Coder for Python backtesting implementation. Our evaluation on 23 mainstream LLMs, complemented by targeted ablations, identifies key factors that influence end-to-end performance and highlights the importance of grounded verification and standardized indicator representations.",
+  "title_relatable": "Can language models automate quantitative trading strategy testing?",
+  "hook": "BacktestBench, a benchmark of 18,246 annotated trading backtests built from 6 million real market records, enables evaluation of LLMs on automating quantitative strategy validation.",
+  "summary": "Quantitative backtesting—validating trading strategies against historical data—is technically complex and limits adoption. This work introduces BacktestBench, the first large-scale benchmark for automated backtesting, covering metrics calculation, ticker selection, strategy selection, and parameter tuning. The authors propose AutoBacktest, a multi-agent system that decomposes backtesting into semantic extraction, SQL retrieval, and Python code generation. Testing 23 mainstream LLMs reveals that grounded verification and standardized indicator representations are critical for end-to-end performance. The benchmark and baseline are designed for both researchers advancing LLM reasoning and quantitative finance practitioners seeking to lower barriers to strategy testing.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 988,
+  "tokens_out": 241,
+  "cost_usd": 0.0017544000000000001,
+  "ingested_at": "2026-05-19T04:12:42.064651+00:00"
+}

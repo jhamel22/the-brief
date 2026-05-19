@@ -1,0 +1,23 @@
+{
+  "id": "2605.18111",
+  "arxiv_url": "https://arxiv.org/abs/2605.18111",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "How Good LLMs Are at Answering Bangla Medical Visual Questions? Dataset and Benchmarking",
+  "authors": "Rafid Ahmed, Intesar Tahmid, Mir Sazzat Hossain, Tasnimul Hossain Tomal, Md Fahim, Md Farhad Alam Bhuiyan",
+  "abstract": "Recent advancements in Large Language Models (LLMs) and Large Vision Language Models (LVLMs) have enabled general-purpose systems to demonstrate promising capabilities in complex reasoning tasks, including those in the medical domain. Medical Visual Question Answering (MedVQA) has particularly benefited from these developments. However, despite Bangla being one of the most widely spoken languages globally, there exists no established MedVQA benchmark for it. To address this gap, we introduce BanglaMedVQA, a dataset comprising clinically validated image-question-answer pairs, along with a comprehensive evaluation of current foundation models on this resource. Consistent with prior findings that report low performance of current models on English MedVQA benchmarks, our analysis reveals that Bangla performance is substantially lower, reflecting the challenges inherent to low-resource languages. Even top-performing models such as Gemini and GPT-4.1 mini fail to accurately answer specialized diagnostic questions, indicating severe limitations in fine-grained medical reasoning. Although certain open-source models, such as Gemma-3, occasionally outperform these models in general categories, they too struggle with clinically complex questions, underscoring the urgent need for top-notch evaluation method.",
+  "title_relatable": "Benchmarking medical AI vision models in Bangla",
+  "hook": "New dataset of clinically validated medical image questions in Bangla reveals that even top LLMs like GPT-4.1 mini and Gemini perform substantially worse than on English, highlighting severe gaps in medical reasoning for low-resource languages.",
+  "summary": "BanglaMedVQA is the first medical visual question-answering benchmark for Bangla, a language spoken by hundreds of millions globally. The dataset contains clinically validated image-question-answer pairs evaluated against leading foundation models including GPT-4.1 mini, Gemini, and open-source alternatives like Gemma-3. Results show all tested models struggle significantly with fine-grained diagnostic reasoning in Bangla—even top performers fail on specialized medical questions. This work documents a critical performance gap between English and Bangla medical AI capabilities and establishes a baseline for future multilingual medical AI research.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1002,
+  "tokens_out": 237,
+  "cost_usd": 0.0017495999999999998,
+  "ingested_at": "2026-05-19T04:12:28.798940+00:00"
+}
