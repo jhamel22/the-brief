@@ -1,0 +1,24 @@
+{
+  "id": "2605.15893",
+  "arxiv_url": "https://arxiv.org/abs/2605.15893",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "astro-ph.IM"
+  ],
+  "title_original": "Probing the faint-end of simulated galaxy counts at z>3",
+  "authors": "Flaminia Fortuni, Emiliano Merlin, Marco Castellano, Adriano Fontana, Paola Santini",
+  "abstract": "Simulations and observations now probe comparable redshift regimes with unprecedented accuracy, enabling direct consistency tests through forward modeling. In a previous work, we identified a faint-end discrepancy between observed and simulated near-infrared galaxy counts in CANDELS GOODS-South. Here we investigate whether this tension originates from the forward-modeling procedure or from limitations of the underlying simulations, and we characterize the galaxy populations responsible for the tension. Using the FORECAST forward modeling code, we generated ten independent lightcone realizations and mock CANDELS images from the TNG100 and EAGLE simulations. We compared both the intrinsic lightcone catalogs and the mock-image detections with observations, testing dependencies on field and redshift, and validating the pipeline through stellar mass and multi-band analyses. The faint-end deficit is present in all CANDELS fields and appears at z>3 in both simulations. GOODS-South counts corrected for completeness exceed intrinsic simulation counts already at the 50% completeness limit, indicating that the missing population is not simply hidden below the detection threshold. Increasing the depth of mock images recovers the counts near the peak but overpredicts the faintest sources, showing that depth alone cannot resolve the discrepancy. Structural analyses reveal that compact galaxies with bright central cores observed in GOODS-South are underproduced in simulations, which instead favor diffuse low-surface-brightness systems. We conclude that the discrepancy arises both from detection losses of diffuse galaxies and, more fundamentally, from the inability of current hydrodynamical simulations to produce enough faint compact galaxies at z>3. This tension points to the need for improved modeling of early star formation, feedback, and dust treatment.",
+  "title_relatable": "Why simulations keep missing faint early galaxies",
+  "hook": "Both TNG100 and EAGLE underproduce faint, compact galaxies at z>3, and deeper mock images make things worse—pointing to a real physics gap, not just a detection problem.",
+  "summary": "Forward-modeling TNG100 and EAGLE simulations into synthetic CANDELS images reveals a persistent deficit of faint galaxies at redshifts above three across all observed fields. Crucially, even completeness-corrected observed counts exceed the raw simulation catalogs, ruling out the explanation that the missing galaxies are simply too faint to detect. The simulations favor extended, low-surface-brightness systems, while real high-redshift galaxies tend to be compact with bright cores—a structural mismatch that no tuning of image depth can fix. The shortfall implicates gaps in how current simulations handle early star formation, feedback, and dust.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1095,
+  "tokens_out": 231,
+  "cost_usd": 0.00675,
+  "ingested_at": "2026-05-19T01:22:02.280289+00:00"
+}

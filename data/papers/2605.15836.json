@@ -1,0 +1,23 @@
+{
+  "id": "2605.15836",
+  "arxiv_url": "https://arxiv.org/abs/2605.15836",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "GAP: Geometric Anchor Pre-training for Data-Efficient Visuomotor Learning of Manipulation Tasks",
+  "authors": "Davide Buoso, Andrea Protopapa, Stefano Di Carlo, Francesca Pistilli, Giuseppe Averta",
+  "abstract": "Learning visuomotor policies from scarce expert demonstrations remains a core challenge in robotic manipulation. A primary hurdle lies in distilling high-dimensional RGB representations into control-relevant geometry without overfitting. While using frozen pre-trained Vision Foundation Models (VFMs) improves data efficiency, it also shifts most task adaptation onto a small spatial pooling module, which can latch onto task-irrelevant shortcuts and lose geometric grounding when finetuned with few data samples. More broadly, pre-trained visual representations used for policy learning have been observed to struggle under even minor scene perturbations, highlighting the need for robustness-oriented inductive biases. We propose Geometric Anchor Pre-training (GAP), a simple, action-free warm-up stage that regularizes the spatial adapter before downstream imitation learning. GAP pre-trains the pooling layer on a lightweight simulated proxy task where object masks are available at no cost, encouraging the adapter to produce keypoints that lie on the object, cover its spatial extent, and remain sharp and repeatable over time. This yields stable geometric anchors that provide a reliable coordinate interface for few-shot policy learning, while keeping the VFM frozen. We evaluate GAP on RoboMimic and ManiSkill under severe data scarcity (15-50 demonstrations) and domain shift. A simple adapter regularized with GAP consistently outperforms stronger attention-based poolers and end-to-end fine-tuning, achieving 62% success on RoboMimic Can with 15 demonstrations (+16% over AFA), 63% on the long-horizon high-precision Tool Hang task with 50 demonstrations, and 61% on ManiSkill StackCube with 30 demonstrations (+11% over full fine-tuning). The proxy stage is lightweight and fully decoupled from downstream tasks, making it practical to reuse across environments and manipulation skills.",
+  "title_relatable": "Pre-training robot vision to learn from very few demonstrations",
+  "hook": "A lightweight pre-training method stabilizes spatial pooling in frozen vision models, boosting few-shot robotic manipulation by 16% on standard benchmarks with just 15 demonstrations.",
+  "summary": "Learning robot manipulation policies from scarce expert videos is hampered by overreliance on task-irrelevant visual features when adapting frozen pre-trained vision models. GAP introduces a lightweight warm-up stage that pre-trains the spatial pooling adapter on a simulated task with object masks, encouraging it to extract stable geometric keypoints before downstream imitation learning. Evaluated on RoboMimic and ManiSkill under severe data scarcity (15–50 demonstrations), GAP achieves 62% success on Can with 15 demos (+16% over attention-based poolers), 63% on Tool Hang, and 61% on StackCube (+11% over end-to-end fine-tuning). The approach is practical and reusable across tasks without requiring additional labeling.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1125,
+  "tokens_out": 265,
+  "cost_usd": 0.00196,
+  "ingested_at": "2026-05-19T01:25:03.026960+00:00"
+}

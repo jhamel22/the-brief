@@ -1,0 +1,23 @@
+{
+  "id": "2605.15769",
+  "arxiv_url": "https://arxiv.org/abs/2605.15769",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Lamarckian Inheritance in Dynamic Environments: How Key Variables Affect Evolutionary Dynamics",
+  "authors": "K. Ege de Bruin, Kyrre Glette, Kai Olav Ellefsen",
+  "abstract": "The co-optimization of a robot's body and brain presents a coupled challenge: the morphology constrains which control strategies are effective, while the control determines how well the morphology performs. To address this, we combine morphology optimization as evolution with controller optimization as lifetime learning, utilizing Lamarckian inheritance to transfer learned controller parameters from parent to offspring. In dynamic environments, existing literature presents conflicting evidence: while traditional evolutionary theory often suggests Lamarckian inheritance lacks benefit, recent studies in evolutionary robotics indicate it can improve performance. We hypothesize that this is because previous works have not included all relevant variables with dynamic environments. In this work, we show that the benefit of Lamarckian inheritance depends on two variables: how conflicting the environmental changes are to robot control, and the predictability of those changes for the robotic agent. Using virtual soft robots and two different learning approaches, Bayesian optimization and reinforcement learning, we show that Lamarckian inheritance only underperforms Darwinian inheritance when the changes are both conflicting and unpredictable. We find that adding a sensor to detect environmental changes restores the benefits for Lamarckian inheritance in conflicting environments, by allowing robotic agents to predict the need for a different behavior, thereby generalizing their control.",
+  "title_relatable": "When robots learn and inherit: Lamarckian evolution works in predictable change",
+  "hook": "Combining lifetime learning with evolutionary optimization using Lamarckian inheritance outperforms pure evolution in dynamic environments—but only when environmental changes are predictable or detectable.",
+  "summary": "Co-evolving robot bodies and controllers faces a fundamental coupling problem: morphology constrains what control strategies work, while control determines morphology performance. This work combines evolutionary optimization of body structure with lifetime learning of controllers, using Lamarckian inheritance to pass learned parameters from parent to offspring. Testing on virtual soft robots with two learning methods (Bayesian optimization and reinforcement learning), the authors show Lamarckian inheritance beats pure Darwinian evolution except when environmental changes are both conflicting and unpredictable. Adding sensors to detect environmental changes restores Lamarckian benefits by enabling robots to generalize their learned behaviors across conditions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 972,
+  "tokens_out": 228,
+  "cost_usd": 0.0016895999999999999,
+  "ingested_at": "2026-05-19T01:24:27.320603+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.16186",
+  "arxiv_url": "https://arxiv.org/abs/2605.16186",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Analytical method for computing the covariance matrix of cosmic shear two-point correlation function",
+  "authors": "Kosuke Nagura, Ryo Terasawa, Taisei Terawaki, Masahiro Takada",
+  "abstract": "Accurate estimation of the covariance matrix of cosmic shear statistics is essential for cosmological analyses using current and upcoming wide-area weak lensing surveys. In this work, we investigate analytical methods for computing the Gaussian covariance matrix of the cosmic shear two-point correlation function (2PCF), taking into account the effects of finite survey geometry. We compute the covariance of 2PCF based on the improved Narrow Kernel Approximation (iNKA), with a projection using the Legendre transformation. We also consider other analytical covariance estimators, the $f_{\\mathrm{sky}}$ approximation and the weighted quartic-counts method. We evaluate the accuracy of those analytical methods using the convergence fields with the HSC Year 3 survey mask as a test case. We find that the covariance of the 2PCF obtained by using the iNKA does not reproduce the covariance measured directly from Gaussian simulations. Although the iNKA accurately models the diagonal structure of the harmonic-space covariance, residual inaccuracies in the off-diagonal components propagate through the Legendre transformation and significantly affect the real-space covariance. In contrast, the weighted quartic-counts method shows better agreement with the simulations. Our results demonstrate that accurate modeling of the off-diagonal structure of the harmonic-space covariance is crucial for obtaining reliable covariance estimates of real-space weak lensing statistics in the presence of survey window effects.",
+  "title_relatable": "Which covariance estimator actually works for weak lensing surveys",
+  "hook": "A head-to-head test of analytical covariance methods for cosmic shear finds that a popular harmonic-space approximation fails in real space due to poorly modeled off-diagonal terms.",
+  "summary": "Covariance matrices tell cosmologists how much to trust their measurements, so errors there propagate directly into parameter constraints. Using simulated convergence fields with the actual Hyper Suprime-Cam Year 3 survey mask, three analytical estimators were benchmarked against direct simulation. The improved Narrow Kernel Approximation, despite accurately capturing diagonal structure in harmonic space, produces significant errors once transformed to real-space angular correlations via Legendre projection — the off-diagonal leakage is the culprit. A weighted quartic-counts method handles survey geometry more faithfully and matches simulations better, pointing to where future lensing pipelines should focus.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1043,
+  "tokens_out": 235,
+  "cost_usd": 0.006654,
+  "ingested_at": "2026-05-19T01:21:38.231496+00:00"
+}

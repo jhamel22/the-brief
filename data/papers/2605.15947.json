@@ -1,0 +1,22 @@
+{
+  "id": "2605.15947",
+  "arxiv_url": "https://arxiv.org/abs/2605.15947",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Dipoles for everyone: the pseudo-$C_\\ell$ approach to directional stacking",
+  "authors": "Lea Harscouet, Amy Wayland, David Alonso",
+  "abstract": "Stacking (i.e. averaging) the value of a given astrophysical field around sources allows us to detect new cosmological signatures, such as the kinematic Sunyaev-Zel'dovich, and gain insight on the astrophysical properties of galaxies and their environment. Further information may be gained by orienting these stacks along preferred axes defined by a local directed field, such as the transverse galaxy velocities, galaxy shapes, or the local tidal forces. Examples of this are searches for the moving lens effect, the detection of dipole signatures, or the study of cosmic filaments. Here we show that all directional stacking signals may be reconstructed, without loss of information, in terms of the cross-power spectrum between the quantity of interest and the $E$ and $B$ modes of the spin field used to define the preferred axes weighted by the local galaxy density. The power spectrum approach has several practical advantages, in terms of speed, finite-resolution effects, data visualisation, and combination with other cosmological probes. We also argue that, in some cases, such as stacking using velocities or tidal forces reconstructed from the density field, the recovered signal may be dominated by information that is already present in the cross-spectrum between the target field and the galaxy overdensity itself.",
+  "title_relatable": "A faster, cleaner way to find directional patterns around galaxies",
+  "hook": "Any directional stacking measurement can be recast as a power spectrum calculation, gaining speed and clarity while losing no information.",
+  "summary": "Directional stacking — averaging a field around sources while aligning each patch along a preferred axis like a galaxy's shape or local tidal force — is a standard tool for detecting subtle cosmological signals. This work shows that all such measurements are exactly equivalent to cross-power spectra between the target field and the E/B modes of the orienting spin field, weighted by galaxy density. The power spectrum formulation handles finite resolution, data visualization, and combination with other probes more naturally than pixel-space stacks. A secondary finding warns that signals built from density-derived velocities or tidal forces may largely recycle information already in the simpler galaxy–field cross-spectrum.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 983,
+  "tokens_out": 221,
+  "cost_usd": 0.006264,
+  "ingested_at": "2026-05-19T01:21:56.528506+00:00"
+}

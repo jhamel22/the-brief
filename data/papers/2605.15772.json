@@ -1,0 +1,23 @@
+{
+  "id": "2605.15772",
+  "arxiv_url": "https://arxiv.org/abs/2605.15772",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Accretion Effects on Primordial Black Hole Reheating Constraints",
+  "authors": "Chenhuan Wang",
+  "abstract": "In this work, we study the effects of accretion on the primordial black hole (PBH) reheating scenario. PBHs could form from primordial fluctuations. If they have the right mass and abundance, they could dominate the Universe and complete the reheating entirely through Hawking radiation. We find accretion effects on the BH can not only increase the BH mass, but also prolong such early matter domination. The consequence of the accretion is further investigated using isocurvature induced gravitational waves (GWs), which are generated right after the sudden evaporation of the BHs from the oscillation of the gravitational potential. Big Bang nucleosynthesis limits on the energy density of the GWs put important constraints on the PBH domination scenario. Inclusion of accretion shifts such constraints significantly towards smaller formation mass and smaller initial abundance. Furthermore, the PBH could undergo mergers leading to extended mass functions. We find similar shifts in the allowed parameters with the inclusion of accretion for the merger constraint. We find the constraints from isocurvature GWs typically stronger than the constraints from mergers.",
+  "title_relatable": "How accretion reshapes the rules for black hole reheating",
+  "hook": "Accounting for mass growth via accretion significantly tightens limits on primordial black holes as the sole engine of cosmic reheating, pushing constraints toward smaller masses and lower abundances.",
+  "summary": "Primordial black holes (PBHs) could, in principle, dominate the early Universe and reheat it entirely through Hawking evaporation — but accretion complicates that picture. By absorbing surrounding matter, PBHs grow heavier and prolong the matter-dominated era before they evaporate, altering the gravitational wave signal produced when they suddenly disappear. Big Bang nucleosynthesis bounds on that gravitational wave background then constrain the allowed PBH mass and initial abundance more tightly than previously estimated, shifting viable parameter space toward smaller formation masses. Merger-induced extended mass functions produce qualitatively similar shifts, though the gravitational-wave isocurvature constraint proves the more stringent of the two.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 943,
+  "tokens_out": 252,
+  "cost_usd": 0.006609,
+  "ingested_at": "2026-05-19T01:22:08.396925+00:00"
+}

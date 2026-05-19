@@ -1,0 +1,22 @@
+{
+  "id": "2605.15650",
+  "arxiv_url": "https://arxiv.org/abs/2605.15650",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "MyoChallenge 2025: A New Benchmark for Human Athletic Intelligence",
+  "authors": "Cheryl Wang, Chun Kwang Tan, Balint K. Hodossy, Eric Lyu, Jun Guo, Wentao Zhao, Huaping Liu, Chengkun Li, Merkourios Simos, Bianca Ziliotto, Alexander Mathis, Siyuan Liu, Jiahao Chen, Shanlin Zhong, Bo Jiang, Ci Song, Yaoye Zhu, Chenhui Zuo, Yanan Sui, Mohamed Irfan Refai, Massimo Sartori, Guillaume Durandau, Vikash Kumar, Vittorio Caggiano",
+  "abstract": "Athletic performance represents the pinnacle of human motor intelligence, demanding rapid choices, precise control, agility, and coordinated physical execution. Replicating this seamless combination of capabilities remains elusive in current artificial intelligence and robotic systems. Concurrently, understanding the biological mastery of these movements is hindered because complex muscle coordination is rarely measured in vivo due to the limitations of physical equipment. To bridge this fundamental gap in understanding, MyoChallenge at NeurIPS 2025 established a pioneering benchmark for motor control intelligence in sports, leveraging high-fidelity musculoskeletal models within physics simulation combined with machine learning-driven algorithms. The competition introduces two distinct tracks emphasizing either upper or lower limbs control: a table tennis rally task utilizing a biomechanic upper limb composed of an arm with a hand and a trunk; and a soccer penalty kick using a biomechanic model of legs and a trunk. Marking the fourth iteration of the MyoChallenge series, this event attracted almost 70 teams and over 560 submissions globally, uniting a diverse community ranging from physicians and neuroscientists to machine learning experts. The competition facilitated the development of several state-of-the-art control algorithms for a musculoskeletal system capable of sports agility, leveraging techniques such as physics-based motion planners, on-policy behaviour cloning, hierarchical planning, and muscle synergies. By integrating standardized tasks and physiologically realistic models into the open-source framework of MyoSuite, MyoChallenge'25 serves as a reproducible and reusable testbed to accelerate interdisciplinary research across machine learning, biomechanics, sports science, and neuroscience. Project page: https://www.myosuite.org//myochallenge/myochallenge-2025.",
+  "title_relatable": "Teaching robots athletic moves through realistic muscle simulation",
+  "hook": "A benchmark competition uses musculoskeletal physics simulation and machine learning to develop motor control algorithms capable of table tennis rallies and soccer penalty kicks.",
+  "summary": "MyoChallenge 2025 establishes a benchmark for motor control in sports by combining high-fidelity musculoskeletal models with machine learning. Two competition tracks test control of a biomechanical arm for table tennis and biomechanical legs for soccer penalty kicks. The competition attracted nearly 70 teams with over 560 submissions, yielding new control algorithms using physics-based planning, imitation learning, and hierarchical methods. Results are integrated into the open-source MyoSuite framework, enabling reproducible research across machine learning, biomechanics, and neuroscience.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1227,
+  "tokens_out": 207,
+  "cost_usd": 0.0018096,
+  "ingested_at": "2026-05-19T01:24:32.702888+00:00"
+}

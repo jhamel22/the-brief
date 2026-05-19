@@ -1,0 +1,23 @@
+{
+  "id": "2605.16030",
+  "arxiv_url": "https://arxiv.org/abs/2605.16030",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "Mind Dreamer: Untethering Imagination via Active Latent Intervention on Latent Manifolds",
+  "authors": "Shaojun Xu, Xiaoling Zhou, Yihan Lin, Yapeng Meng, Xinglong Ji, Luping Shi, Rong Zhao",
+  "abstract": "Model-Based Reinforcement Learning (MBRL) leverages latent imagination for sample efficiency, yet remains constrained by Historical Tethering: imagination is typically initialized from observed states. This creates a learning asymmetry, where the world model's manifold discovery outpaces the policy's sparse-reward optimization. We propose Mind Dreamer (MD), a framework that operationalizes Active Latent Intervention (ALI) to transcend Markovian continuity. MD reformulates discovery as the minimization of a global Relay Manifold Expected Free Energy (R-EFE); by sampling initial states from a learned generator $s_0 \\sim p_{gen}(\\cdot)$ rather than the historical buffer, MD utilizes an adversarial generator to synthesize non-continuous latent jumps to epistemic blind spots that are physically plausible yet cognitively challenging. To resolve the credit assignment paradox across these spatial ruptures, we derive the Relay Value Function (RVF) and Relay Uncertainty Function (RUF). These potentials treat synthesized anchors as counterfactual intermediary states, propagating pragmatic and epistemic value through a principled Bellman-style formulation. Notably, we prove that uncertainty propagation across discontinuities necessitates a quadratic discount $γ^2$, establishing a formal epistemic horizon. Theoretically, MD approximates a variance-minimizing importance sampler that expands the manifold's spectral gap, reducing the hitting time to critical bottleneck states. Empirically, MD achieves a 1.67$\\times$ average speedup over DreamerV3 on DeepMind Control Suite, reaching 8.8$\\times$ in sparse-reward tasks.",
+  "title_relatable": "Training robots to imagine beyond what they've seen",
+  "hook": "A reinforcement learning framework that generates synthetic imagined states beyond observed history, achieving 1.67× faster learning than prior methods by resolving credit assignment across discontinuous trajectories.",
+  "summary": "Model-based reinforcement learning typically limits imagination to continuations of observed states, creating a mismatch between what the world model learns and what the policy optimizes. Mind Dreamer breaks this constraint by using an adversarial generator to sample initial states for imagination that are physically plausible but cognitively novel—jumping to underexplored regions of the latent state space. The method introduces Relay Value and Uncertainty Functions to propagate value and epistemic information across these discontinuities, with a theoretical guarantee that uncertainty requires quadratic discounting. On DeepMind Control Suite benchmarks, it achieves 1.67× average speedup over DreamerV3, and up to 8.8× in sparse-reward settings.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1106,
+  "tokens_out": 245,
+  "cost_usd": 0.0018648000000000002,
+  "ingested_at": "2026-05-19T01:24:51.306362+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.15971",
+  "arxiv_url": "https://arxiv.org/abs/2605.15971",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "OHP-RL: Online Human Preference as Guidance in Reinforcement Learning for Robot Manipulation",
+  "authors": "Yunyang Mo, Jian Li, Qiwei Wu, Yihang Kang, Renjing Xu",
+  "abstract": "While reinforcement learning (RL) enables robots to acquire skills autonomously, its real-world deployment is severely limited by inefficient and unsafe exploration. Human-in-the-loop interventions offer a practical solution, yet existing methods typically exploit these interventions as auxiliary training signals, without fully capturing the richer information they provide about when and how autonomy should be guided. Human interventions often encode relative preferences over behavior under safety and task constraints, rather than prescribing exact actions to imitate. Motivated by this perspective, we propose Online Human Preference as Guidance in Reinforcement Learning (OHP-RL), a framework that leverages human interventions as preference information to guide policy learning. OHP-RL introduces a state-dependent preference gate that adaptively regulates when and to what extent human interventions should shape policy learning. This design enables the agent to benefit from intermittent and imperfect human feedback while preserving autonomous exploration and stable policy optimization. We evaluate OHP-RL on three challenging real-world contact-rich manipulation tasks on a Franka robot. Across all tasks, OHP-RL consistently achieves strong success rates, faster convergence, and substantially lower human intervention effort than prior approaches. Moreover, the learned policies exhibit more stable and human-aligned behavior throughout training.",
+  "title_relatable": "Teaching robots to learn from human preferences, not commands",
+  "hook": "A framework that interprets human interventions as preference signals rather than exact action prescriptions, enabling robots to learn manipulation tasks with less feedback and safer exploration.",
+  "summary": "Robot learning via reinforcement learning struggles with unsafe, inefficient exploration in real-world deployment. OHP-RL reframes human interventions during training not as behavioral demonstrations to copy, but as preference signals indicating when autonomy should be guided. The method uses a state-dependent preference gate that learns when and how much human feedback should influence the policy, allowing robots to benefit from intermittent, imperfect guidance while maintaining stable learning. Evaluated on three contact-rich manipulation tasks with a Franka robot, OHP-RL achieved higher success rates, faster convergence, and required substantially fewer human interventions than prior methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 980,
+  "tokens_out": 213,
+  "cost_usd": 0.001636,
+  "ingested_at": "2026-05-19T01:24:54.065093+00:00"
+}

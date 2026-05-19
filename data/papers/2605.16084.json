@@ -1,0 +1,22 @@
+{
+  "id": "2605.16084",
+  "arxiv_url": "https://arxiv.org/abs/2605.16084",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "A model-independent test of the cosmic distance-duality relation using galaxy clusters and Type Ia supernovae matched pairs",
+  "authors": "Jian Hu, Yi Liu, Jian-Ping Hu, Zhongmu Li",
+  "abstract": "The cosmic distance-duality relation (CDDR), expressed as $ D_L/D_A(1+z)^{-2}=1 $, is a fundamental relation in cosmology connecting luminosity distance ($ D_L $) and angular diameter distance ($ D_A $). Any departure from this relation would indicate new physics such as photon non-conservation, cosmic opacity, or non-metric gravity. We perform a stringent, model-independent test of the CDDR using a matched sample of 38 galaxy clusters from the Bonamente et al. compilation and Type Ia supernovae from the Pantheon+ sample. Employing the matched-pair technique, we simultaneously constrain the CDDR-violation parameter $ η$ and a possible redshift evolution of the SNe Ia absolute magnitude, parameterized as $ M_B(z)=M_0 + \\varepsilon z $. We assess the robustness against matching tolerance and further supplement the analysis with DESI 2024 BAO measurements. Our results yield $ η= 0.050^{+0.348}_{-0.307} $ and $ \\varepsilon = -0.184^{+0.724}_{-0.574} $ (68% CL), showing no statistically significant evidence for CDDR violation or SNe Ia evolution. The conclusions remain unchanged with stricter matching criteria and the inclusion of DESI BAO data. We also derive a cosmology-independent calibration of $ M_0 = -19.460^{+0.126}_{-0.124} $ mag. The standard cosmological model remains robust under this model-independent scrutiny.",
+  "title_relatable": "Cosmic geometry rule survives another careful test",
+  "hook": "A model-independent check using galaxy clusters and supernovae finds no violation of the distance-duality relation, a cornerstone of standard cosmology.",
+  "summary": "The distance-duality relation links how bright objects appear to how large they appear on the sky — any violation would signal exotic physics like photon loss or non-metric gravity. Using 38 galaxy clusters matched to Type Ia supernovae from the Pantheon+ catalog, the analysis simultaneously tests for distance-duality breakdown and for redshift evolution in supernova brightness. Both violation parameters are consistent with zero at 68% confidence, and the results hold when stricter matching criteria or DESI BAO data are added. A cosmology-independent supernova absolute magnitude calibration of M₀ = −19.46 mag emerges as a byproduct.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1086,
+  "tokens_out": 219,
+  "cost_usd": 0.006543,
+  "ingested_at": "2026-05-19T01:21:50.294181+00:00"
+}

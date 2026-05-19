@@ -1,0 +1,24 @@
+{
+  "id": "2605.16258",
+  "arxiv_url": "https://arxiv.org/abs/2605.16258",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "IVGT: Implicit Visual Geometry Transformer for Neural Scene Representation",
+  "authors": "Yuqi Wu, Tianyu Hu, Wenzhao Zheng, Yuanhui Huang, Haowen Sun, Jie Zhou, Jiwen Lu",
+  "abstract": "Reconstructing coherent 3D geometry and appearance from unposed multi-view images is a fundamental yet challenging problem in computer vision. Most existing visual geometry foundation models predict explicit geometry by regressing pixel-aligned pointmaps, often suffering from redundancy and limited geometric continuity. We propose IVGT, an Implicit Visual Geometry Transformer that implicitly models continuous and coherent geometry from pose-free multi-view images. This formulation learns a continuous neural scene representation in a canonical coordinate system and supports continuous spatial queries at any 3D positions, retrieving local features to predict signed distance (SDF) values and colors using lightweight decoders. It allows direct extraction of continuous and coherent surface geometry, enabling rendering of RGB images, depth maps, and surface normal maps from arbitrary viewpoints. We train IVGT via multi-dataset joint optimization with 2D supervision and 3D geometric regularization. IVGT demonstrates generalization across scenes and achieves strong performance on various tasks, including mesh and point cloud reconstruction, novel view synthesis, depth and surface normal estimation, and camera pose estimation.",
+  "title_relatable": "Implicit geometry transformer reconstructs 3D scenes from unposed images",
+  "hook": "A transformer-based approach that learns continuous 3D geometry from multi-view images without camera poses, enabling mesh reconstruction, novel view synthesis, and pose estimation from a single model.",
+  "summary": "Existing methods for 3D reconstruction from multi-view images rely on explicit geometry predictions that are often redundant and discontinuous. IVGT models geometry implicitly using signed distance functions in a canonical coordinate system, querying any 3D position to predict geometry and appearance. Trained with 2D supervision and 3D geometric regularization across multiple datasets, the model generalizes to unseen scenes and supports diverse downstream tasks: mesh and point cloud reconstruction, novel view synthesis, depth/normal estimation, and camera pose estimation. A single model handles all tasks without task-specific training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 940,
+  "tokens_out": 213,
+  "cost_usd": 0.001604,
+  "ingested_at": "2026-05-19T01:24:39.612574+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.15935",
+  "arxiv_url": "https://arxiv.org/abs/2605.15935",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "eess.SY",
+    "physics.plasm-ph"
+  ],
+  "title_original": "Dynamic Plasma Shape Control with Arbitrary Sensor Subsets",
+  "authors": "D. Sorokin, M. Stokolesov, A. Granovskiy, I. Prokofyev, E. Adishchev, M. Nurgaliev, E. Khayrutdinov, G. Subbotin, R. Clark, D. Orlov",
+  "abstract": "Plasma shape control in tokamaks requires a real-time controller that tracks dynamically changing shape targets while tolerating diagnostic failures. Classical approaches decompose the problem into equilibrium reconstruction followed by a linear controller, and assume a fixed, fully operational sensor set. We present a reinforcement learning agent that addresses both limitations simultaneously. The agent is trained in NSFsim, a high-fidelity tokamak simulator configured for DIII-D, on a curated dataset of 120 experimental plasma shapes. The shape targets are resampled as random step changes every 0.25 s, exposing the agent to diverse transitions across the full shape envelope. At test time the agent zero-shot tracks dynamic shape sequences; on a held-out static configuration in simulation it achieves a mean shape error of 2.01 cm, and dynamic trajectory following is demonstrated qualitatively in simulation and on the physical device. Diagnostic dropout randomly masks 30% of magnetic sensors per episode, yielding a single policy robust to arbitrary sensor subsets without backup controllers or mode-switching logic. An asymmetric actor-critic architecture with privileged equilibrium information improves value estimation under partial observability; an auxiliary shape reconstruction head on the actor enables end-to-end shape reconstruction from raw diagnostics and serves as an interpretability tool for policy analysis. The policy transfers to experimental DIII-D shots, where it directly commands the coil actuators on two dynamic shape maneuvers, and to the independent GSevolve simulator.",
+  "title_relatable": "A learning system controls plasma shape despite sensor failures",
+  "hook": "A reinforcement learning agent controls tokamak plasma shape in real time while handling arbitrary sensor dropouts, transferring directly from simulation to the DIII-D experimental device.",
+  "summary": "Tokamak plasma shape control typically requires equilibrium reconstruction followed by fixed linear controllers, and breaks when sensors fail. This work trains a reinforcement learning agent in high-fidelity simulation on 120 experimental DIII-D plasma shapes, exposing it to random shape targets updated every 0.25 s to cover diverse transitions. The agent achieves 2.01 cm mean shape error on held-out configurations and robustly handles 30% random sensor dropout without switching logic or backup controllers. An asymmetric actor-critic architecture uses privileged equilibrium information to improve estimates under partial observability, while an auxiliary reconstruction head enables interpretability. The policy transfers zero-shot to experimental DIII-D shots and an independent simulator, directly commanding coil actuators on dynamic shape maneuvers.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1057,
+  "tokens_out": 257,
+  "cost_usd": 0.0018736,
+  "ingested_at": "2026-05-19T01:24:59.856338+00:00"
+}

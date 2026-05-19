@@ -1,0 +1,23 @@
+{
+  "id": "2605.16087",
+  "arxiv_url": "https://arxiv.org/abs/2605.16087",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Towards Trustworthy and Explainable AI for Perception Models: From Concept to Prototype Vehicle Deployment",
+  "authors": "Till Beemelmanns, Shayan Sharifi, Manas Mehrotra, Ayushman Choudhuri, Lutz Eckstein",
+  "abstract": "Deep Neural Networks have become the dominant solution for Autonomous Driving perception, but their opacity conflicts with emerging Trustworthy AI guidelines and complicates safety assurance, debugging, and human oversight. While theoretical frameworks for safe and Explainable AI (XAI) exist, concrete implementations of Trustworthy AI for 3D scene understanding remain scarce. We address this gap by proposing a Trustworthy AI perception module that is remarkably robust, integrates faithful explainability, and calibrated uncertainty estimates. Building on a transformer-based detector, we derive explanation from the attention mechanism at inference time and validate their faithfulness using perturbation-based consistency tests. We further integrate an uncertainty estimation and calibration module, and apply robustness-enhancing training methods. Experiments show faithful saliency behavior, improved robustness, and well-calibrated uncertainty estimates. Finally, we deploy these Trustworthy AI elements in a prototype vehicle and provide an XAI Interface that visualizes documentation artifacts, model uncertainty state, and saliency maps, demonstrating the feasibility of trustworthy perception monitoring in real time. Supplementary materials are available at https://tillbeemelmanns.github.io/trustworthy_ai/ .",
+  "title_relatable": "Making autonomous vehicle perception systems explainable and trustworthy",
+  "hook": "A perception module for self-driving cars that explains its decisions through attention visualization, estimates uncertainty accurately, and has been deployed in a real prototype vehicle.",
+  "summary": "Deep neural networks power autonomous driving perception but their opacity conflicts with safety requirements and regulatory expectations. This work bridges that gap by building a transformer-based 3D object detector that provides faithful explanations via attention mechanisms, calibrated uncertainty estimates, and improved robustness. The team validated explanation faithfulness through perturbation tests, integrated uncertainty calibration, and applied robustness-enhancing training. The system was deployed in a prototype vehicle with a live interface showing saliency maps and model confidence, demonstrating practical feasibility for trustworthy perception monitoring during operation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 986,
+  "tokens_out": 199,
+  "cost_usd": 0.0015848000000000001,
+  "ingested_at": "2026-05-19T01:24:45.247699+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.15782",
+  "arxiv_url": "https://arxiv.org/abs/2605.15782",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "eess.SY"
+  ],
+  "title_original": "Reactive Robot-Centric Safety for Autonomous Navigation in Constrained and Dynamic Environments",
+  "authors": "Viswa Narayanan Sankaranarayanan, Vignesh K. Viswanathan, Akshit Saradagi, Sumeet Satpute, George Nikolakopoulos",
+  "abstract": "In this work, we address the problem of ensuring real-time safety in autonomous robot navigation, in spatially constrained dynamic environments, by utilizing only onboard sensors. We present a real-time control architecture that integrates a 3D LIDAR perception-based composite control barrier function(CBF)-based safety filter directly into the autonomy pipeline. The proposed perception-driven framework enforces collision avoidance constraints dynamically from onboard point cloud data, thus allowing a large number of constraints to be handled at the control frequency, while remaining minimally invasive to nominal task execution. The safety region is defined as an ellipsoid in the body-frame, consistent with the geometry of the platform, which induces time-varying constraints in the world frame as the robot rotates; this effect is handled through a dedicated formulation of time-varying (CBF) for each LIDAR point. We validate the system through multiple field experiments in underground environments by utilizing a quadruped platform performing a visual inspection task, demonstrating reliable operation in the presence of dynamic obstacles, unsafe high-level references, abrupt localization anomalies, and while traversing through narrow corridors.",
+  "title_relatable": "Real-time collision avoidance for robots in tight, crowded spaces",
+  "hook": "A control system that uses onboard LIDAR to enforce collision avoidance in real time, tested on quadrupeds navigating narrow underground corridors with dynamic obstacles.",
+  "summary": "Autonomous robots need to avoid collisions instantly using only their own sensors, especially in constrained spaces like underground tunnels. This work combines 3D LIDAR perception with control barrier functions—mathematical constraints that prevent collisions—applied directly at the control frequency. The safety region adapts to the robot's orientation as a time-varying ellipsoid, handling dynamic obstacles from point cloud data without disrupting the robot's primary task. Field experiments on a quadruped platform demonstrate reliable operation through narrow corridors, around moving obstacles, and under localization errors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 967,
+  "tokens_out": 206,
+  "cost_usd": 0.0015975999999999998,
+  "ingested_at": "2026-05-19T01:25:09.335549+00:00"
+}

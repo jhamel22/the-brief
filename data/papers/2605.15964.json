@@ -1,0 +1,23 @@
+{
+  "id": "2605.15964",
+  "arxiv_url": "https://arxiv.org/abs/2605.15964",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation",
+  "authors": "Baining Zhao, Jiacheng Xu, Weicheng Feng, Xin Zhang, Zhaolu Wang, Haoyang Wang, Shilong Ji, Ziyou Wang, Jianjie Fang, Zhiheng Zheng, Weichen Zhang, Yu Shang, Wei Wu, Chen Gao, Xinlei Chen, Yong Li",
+  "abstract": "Aerial vision-language navigation (VLN) requires agents to follow natural-language instructions through closed-loop perception and action in 3D environments. We argue that aerial VLN can be formulated as a prediction-driven world-action problem: the agent should anticipate latent world evolution and act according to the predicted consequences. To this end, we propose WorldVLN, the first autoregressive world action model for aerial VLN. Unlike full-sequence video-generation world models that generate an entire visual clip, WorldVLN adapts a latent autoregressive video backbone to predict short-horizon world-state transitions and directly decodes them into executable waypoint actions. After each action segment is executed, newly received observations are encoded back into the autoregressive context, enabling closed-loop world-action prediction. We further introduce a two-stage training framework that first grounds the video prior in instruction-conditioned navigation dynamics and then develops Action-aware GRPO, the first reinforcement learning method tailored to autoregressive WAMs, to optimize waypoint decisions through their downstream rollout consequences. On public outdoor and indoor benchmarks, WorldVLN consistently outperforms existing Vision-Language-Action baselines with 12\\%+ success-rate gains and larger advantages on challenging cases. It further transfers zero-shot to real drone deployment, suggesting that the proposed WorldVLN offers a promising route for spatial action tasks. Demos and code are available at https://embodiedcity.github.io/WorldVLN/.",
+  "title_relatable": "Teaching drones to follow directions by predicting what comes next",
+  "hook": "An autoregressive world model that predicts short-horizon environment changes and converts them into drone actions, achieving 12% success-rate gains on aerial navigation benchmarks and transferring to real drone deployment.",
+  "summary": "Aerial vision-language navigation requires drones to follow natural-language instructions in 3D environments using closed-loop perception and action. WorldVLN frames this as prediction-driven control: the agent anticipates how the world will evolve, then acts accordingly. Rather than generating full video sequences, it uses a latent autoregressive backbone to predict short-horizon world-state transitions and decode them directly into waypoint actions, with newly observed information fed back into the loop after each action. A two-stage training approach first grounds video priors in navigation dynamics, then applies Action-aware GRPO—a novel RL method for autoregressive world-action models—to optimize actions through rollout consequences. On public outdoor and indoor benchmarks, WorldVLN outperforms existing baselines by 12%+ on success rate and shows stronger gains on harder cases. Code and demos are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1089,
+  "tokens_out": 283,
+  "cost_usd": 0.0020032,
+  "ingested_at": "2026-05-19T01:24:57.056742+00:00"
+}

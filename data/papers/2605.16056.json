@@ -1,0 +1,22 @@
+{
+  "id": "2605.16056",
+  "arxiv_url": "https://arxiv.org/abs/2605.16056",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Health-Conditioned Vision-Language-Action Models for Malfunction-Aware Robot Control",
+  "authors": "Hüseyin Arslan, Özgür Erkent",
+  "abstract": "Research on Vision Language Action (VLA) models has been increasing rapidly in recent years. Although some of them focus on detecting, preventing, and recovering from task failures, they usually don't deal with adapting to robot's physical failures. In real-life scenarios, most robots face physical degradations in various ways such as joint degradation, actuator failure, or weak gripper. We introduce malfunction-aware (health-conditioned) VLA that takes a health vector as an input that gives information about robots' joints' operation angle and torque capability, and adapts its predictions to complete the tasks with the degraded joints. To achieve this, we inject a Health Projector module to the VLA-Adapter architecture and train it on malfunction robot data we collected on the LIBERO environment [1]. We collect 128 teleoperated episodes on Libero-Spatial tasks. Our results show that, with a very lightweight addition, the model can learn to operate successfully with different configurations of degraded joints which the default pretrained VLA-Adapter's Libero-Spatial-Pro model cannot. The code and dataset will be available soon at https://github.com/h-arslan/health-aware-vla",
+  "title_relatable": "Teaching robots to work around their own broken joints",
+  "hook": "A vision-language-action model that adapts robot behavior when joints degrade or fail, enabling continued task completion without retraining the core model.",
+  "summary": "Most robots encounter physical degradation in real deployments—worn joints, weakened grippers, actuator failures—but existing vision-language-action models don't adapt to these constraints. This work adds a lightweight Health Projector module to VLA architectures that ingests a health vector encoding joint angles and torque limits, then adjusts predictions accordingly. Trained on 128 teleoperated episodes of degraded-robot behavior in the LIBERO environment, the model successfully completes spatial manipulation tasks with various joint configurations that the baseline pretrained model cannot handle. Code and dataset are to be released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 949,
+  "tokens_out": 206,
+  "cost_usd": 0.0015832,
+  "ingested_at": "2026-05-19T01:24:48.283900+00:00"
+}

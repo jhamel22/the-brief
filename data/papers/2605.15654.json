@@ -1,0 +1,22 @@
+{
+  "id": "2605.15654",
+  "arxiv_url": "https://arxiv.org/abs/2605.15654",
+  "announced_date": "2026-05-15",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment",
+  "authors": "Chuancheng Zhang, Zhenhao Wang, Kaizheng Li, Yaran Lin, Qiang Guo, Bin Jiang",
+  "abstract": "Real-world autonomous driving, particularly in urban environments with numerous corner cases, requires rigorous testing to ensure product safety and robustness. However, few studies have explored integrating adversarial scenario generation with the training of safety agents in closed-loop testing, enabling efficient co-evolution and mutual enhancement of both. To address this challenge, an adversarial behavior knowledge repository is constructed by applying rule-based filtering to an open-source dataset, combined with knowledge retrieval modules tailored for simulation environments. A large language model (LLM) is employed to integrate knowledge-, data-, and adversarial-driven approaches, generating safety-critical traffic scenarios customized to user needs. Additionally, while evaluating the generated scenarios, we employ reinforcement learning models to train the behaviors of different types of vehicles, thereby enriching scenario diversity beyond existing datasets while preserving realism. Experimental results demonstrate that the proposed framework improves the accuracy of domain-specific language generation by 12\\%. Moreover, the success rate of newly generated scenario transformations increases by 8\\%, while obstacle-avoidance capability is enhanced by 30\\%. For the complete manuscript, please refer to: https://zhenhaooo.github.io/PCASim.github.io/",
+  "title_relatable": "Testing self-driving cars with AI-generated adversarial scenarios",
+  "hook": "A system that uses large language models and reinforcement learning to automatically generate safety-critical traffic scenarios for autonomous vehicles, improving obstacle-avoidance performance by 30% in closed-loop simulation.",
+  "summary": "PCASim addresses the challenge of testing autonomous driving systems in complex urban environments by combining adversarial scenario generation with safety agent training. The system builds a repository of adversarial driving behaviors from real data, uses an LLM to generate custom safety-critical scenarios based on user specifications, and trains vehicle behaviors with reinforcement learning to increase scenario diversity while maintaining realism. Experiments show 12% improvement in domain-specific language accuracy, 8% higher success rate for scenario transformations, and 30% better obstacle-avoidance performance compared to baseline approaches. Code and details are available online.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 972,
+  "tokens_out": 218,
+  "cost_usd": 0.0016496,
+  "ingested_at": "2026-05-19T01:24:29.893844+00:00"
+}

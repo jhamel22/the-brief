@@ -1,0 +1,24 @@
+{
+  "id": "2605.16201",
+  "arxiv_url": "https://arxiv.org/abs/2605.16201",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Irreducible Graviton Floor from Reheating",
+  "authors": "James M. Cline, Yong Xu",
+  "abstract": "Inflaton decay inevitably emits gravitons through bremsstrahlung during reheating. We show that the soft part of this emission amplitude, fixed by Weinberg's soft-graviton theorem, becomes an irreducible stochastic gravitational-wave (GW) background after accounting for cosmological evolution. The theorem fixes the infrared branch of the spectrum, $Ω_{\\rm GW}\\propto f$, independently of the microscopic operator responsible for inflaton decay, while the normalization is controlled by the hard inflaton decay rate and by a phase-space factor. We carry this out for inflaton $n$-body decays, including the phase-space integrals, finding that the maximum of the spectrum scales as $2/n$ relative to the $n=2$ case. The signal can reach $Ω_{\\rm GW}h^2\\sim \\mathcal O(10^{-17})$ at frequencies above the GHz scale. This predicts a stochastic graviton floor from perturbative reheating: a larger signal would require either other processes beyond perturbative bremsstrahlung or inflationary scenarios beyond conventional single-field slow roll.",
+  "title_relatable": "Every reheating era leaves an unavoidable graviton background",
+  "hook": "Graviton emission during post-inflation reheating is unavoidable and universal, setting a hard floor on the stochastic gravitational-wave background that any future high-frequency detector must beat.",
+  "summary": "When the inflaton decays to reheat the universe, it inevitably radiates gravitons via bremsstrahlung. The infrared shape of the resulting gravitational-wave spectrum is pinned by Weinberg's soft-graviton theorem regardless of the decay mechanism, giving a universal $\\Omega_{\\rm GW}\\propto f$ slope. Working through the phase-space integrals for general n-body inflaton decays, the peak signal reaches $\\Omega_{\\rm GW}h^2\\sim10^{-17}$ above GHz frequencies. Any detected signal exceeding this floor would demand physics beyond standard perturbative reheating or single-field slow-roll inflation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 952,
+  "tokens_out": 245,
+  "cost_usd": 0.006531,
+  "ingested_at": "2026-05-19T01:21:32.184028+00:00"
+}

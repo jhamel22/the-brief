@@ -1,0 +1,24 @@
+{
+  "id": "2605.15749",
+  "arxiv_url": "https://arxiv.org/abs/2605.15749",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Constraints on primordial black holes from the first part of LIGO-Virgo-KAGRA fourth observing run",
+  "authors": "M. Andrés-Carcasona, A. J. Iovino, E. Vallejo-Pagès, V. Vaskonen, H. Veermäe, M. Martínez, Ll. M. Mir",
+  "abstract": "We analyze PBH populations using state-of-the-art modeling of PBH binaries, deriving the strongest bounds on PBH abundance in the $0.6-100 M_\\odot$ range from LIGO-Virgo-KAGRA O4a data and demonstrating sensitivity in the $10^{-4}-10^4 M_\\odot$ range. The constraints are dominated by resolvable PBH mergers, while the associated gravitational wave background provides complementary but weaker limits. Allowing PBHs to account for a subset of the cataloged events slightly relaxes these bounds. However, a joint fit with astrophysical black holes shows no compelling evidence for a PBH contribution.",
+  "title_relatable": "LIGO's latest run tightens the leash on primordial black holes",
+  "hook": "Using O4a gravitational-wave data, researchers set the tightest limits yet on how much of the dark matter could be primordial black holes across a wide mass range.",
+  "summary": "Combining the first part of LIGO-Virgo-KAGRA's fourth observing run with detailed models of how primordial black hole (PBH) binaries form and merge, this analysis constrains PBH abundance across 0.6–100 solar masses more tightly than any previous gravitational-wave study. Individual resolvable merger events drive the constraints, while the stochastic gravitational-wave background adds only secondary limits. Allowing some cataloged events to be PBH mergers softens the bounds slightly, but a joint fit with astrophysical black holes finds no statistical evidence that any observed events require a primordial origin.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 915,
+  "tokens_out": 235,
+  "cost_usd": 0.00627,
+  "ingested_at": "2026-05-19T01:22:13.961863+00:00"
+}
