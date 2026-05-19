@@ -90,6 +90,16 @@ def summarize_paper(
                 print(f"    [ERROR] API error {e.status_code}: {e.message}")
                 return None
 
+        except anthropic.APIConnectionError as e:
+            # Network-level connection errors — retry with exponential backoff
+            if attempt < max_retries - 1:
+                wait = 5 * (3 ** attempt)  # 5s, 15s, 45s
+                print(f"    [WAIT] Connection error — retrying in {wait}s (attempt {attempt + 1}/{max_retries})")
+                time.sleep(wait)
+            else:
+                print(f"    [ERROR] Connection failed after {max_retries} attempts: {e}")
+                return None
+
         except Exception as e:
             print(f"    [ERROR] Unexpected: {e}")
             return None
@@ -120,22 +130,30 @@ def rank_papers(
 
     scored = []
     for paper in papers:
-        try:
-            response = client.messages.create(
-                model=HAIKU,
-                max_tokens=5,
-                system=system,
-                messages=[{
-                    "role": "user",
-                    "content": f"Title: {paper['title_original']}\nAbstract: {paper['abstract'][:500]}"
-                }],
-            )
-            score_text = response.content[0].text.strip()
-            score = int(re.search(r"\d+", score_text).group())
-            scored.append((score, paper))
-            time.sleep(0.1)
-        except Exception:
-            scored.append((5, paper))  # default mid-score on error
+        score = 5  # default mid-score
+        for attempt in range(3):
+            try:
+                response = client.messages.create(
+                    model=HAIKU,
+                    max_tokens=5,
+                    system=system,
+                    messages=[{
+                        "role": "user",
+                        "content": f"Title: {paper['title_original']}\nAbstract: {paper['abstract'][:500]}"
+                    }],
+                )
+                score_text = response.content[0].text.strip()
+                score = int(re.search(r"\d+", score_text).group())
+                break
+            except anthropic.APIConnectionError:
+                if attempt < 2:
+                    time.sleep(2 * (attempt + 1))  # 2s, 4s
+                    continue
+            except Exception:
+                break  # give up on other errors
+
+        scored.append((score, paper))
+        time.sleep(0.1)
 
     scored.sort(key=lambda x: x[0], reverse=True)
     return [p for _, p in scored[:top_n]]
