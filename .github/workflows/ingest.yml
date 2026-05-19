@@ -39,6 +39,30 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: API connectivity test
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 -c "
+          import os, sys, anthropic
+          key = os.environ.get('ANTHROPIC_API_KEY', '')
+          print(f'Key present: {bool(key)}, length: {len(key)}, prefix: {key[:8] if key else None}')
+          try:
+              client = anthropic.Anthropic(api_key=key)
+              r = client.messages.create(
+                  model='claude-haiku-4-5-20251001',
+                  max_tokens=10,
+                  messages=[{'role':'user','content':'ping'}]
+              )
+              print('SUCCESS:', r.content[0].text)
+          except anthropic.AuthenticationError as e:
+              print('AUTH FAILURE:', e); sys.exit(1)
+          except anthropic.APIConnectionError as e:
+              print('NETWORK FAILURE:', e); sys.exit(1)
+          except Exception as e:
+              print('OTHER FAILURE:', type(e).__name__, e); sys.exit(1)
+          "
+
       - name: Run ingest
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
