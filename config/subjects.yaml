@@ -18,7 +18,7 @@ subjects:
     name: General Relativity & Quantum Cosmology
     domain: Physics
     slug: gr-qc
-    daily_cap: 25
+    daily_cap: 15
     prompt_variant: physics
     description: "Black holes, gravitational waves, and the fabric of spacetime — the latest research, summarized daily. Always verify against the source."
     active: true
@@ -27,7 +27,7 @@ subjects:
     name: High Energy Physics — Theory
     domain: Physics
     slug: hep-th
-    daily_cap: 20
+    daily_cap: 10
     prompt_variant: physics
     description: "String theory, quantum field theory, holography, and the deep mathematical structure of fundamental physics — summarized daily. Always verify against the source."
     active: true
@@ -36,7 +36,7 @@ subjects:
     name: Quantum Physics
     domain: Physics
     slug: quant-ph
-    daily_cap: 20
+    daily_cap: 10
     prompt_variant: physics
     description: "Entanglement, quantum computing, quantum information, and the strange behavior of matter at the smallest scales — summarized daily. Always verify against the source."
     active: true
@@ -65,6 +65,15 @@ subjects:
     daily_cap: 15
     prompt_variant: physics
     active: false
+
+  - code: physics.soc-ph
+    name: Physics and Society
+    domain: Physics
+    slug: physics-soc-ph
+    daily_cap: 8
+    prompt_variant: physics
+    description: "Physics applied to social systems — networks, epidemics, inequality, collective behavior — summarized daily. Always verify against the source."
+    active: true
 
   # ── COMPUTER SCIENCE ──────────────────────────────────────
   # Note: cs.LG/cs.AI/cs.CL can each hit 150-200 papers/day.
@@ -96,8 +105,9 @@ subjects:
     name: Computation and Language
     domain: Computer Science
     slug: cs-cl
-    daily_cap: 20
+    daily_cap: 12
     prompt_variant: cs
+    description: "Large language models, translation, dialogue, and the computational study of human language — summarized daily. Always verify against the source."
     use_filter: true
     model: haiku
     active: true
@@ -144,9 +154,10 @@ subjects:
     name: Neurons and Cognition
     domain: Quantitative Biology
     slug: q-bio-nc
-    daily_cap: 10
+    daily_cap: 8
     prompt_variant: bio
-    active: false
+    description: "Neuroscience, brain-computer interfaces, and the computational study of the mind — summarized daily. Always verify against the source."
+    active: true
 
   - code: q-fin
     name: Quantitative Finance
@@ -160,6 +171,7 @@ subjects:
     name: General Economics
     domain: Economics
     slug: econ-gn
-    daily_cap: 10
+    daily_cap: 8
     prompt_variant: econ
-    active: false
+    description: "Economic theory, policy, and empirical research in plain English — summarized daily. Always verify against the source."
+    active: true
