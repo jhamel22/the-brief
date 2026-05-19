@@ -226,7 +226,7 @@ const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' 
       padding:8px 0;text-align:center;width:100%;border-top:1px solid var(--rule);
       font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
       color:var(--ink-faint);cursor:pointer;transition:color .15s;user-select:none;
-      display:block;
+      display:block!important;
     }
     .toggle-less:hover{color:var(--accent)}
 
@@ -234,7 +234,7 @@ const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' 
       padding:8px 0;text-align:center;width:100%;border-top:1px solid var(--rule);
       font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
       color:var(--ink-faint);cursor:pointer;transition:color .15s;user-select:none;
-      display:none;
+      display:none!important;
     }
     .toggle-more:hover{color:var(--accent)}
 
@@ -242,8 +242,10 @@ const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' 
     .card-body,.brief-extra{max-height:3000px;overflow:hidden;opacity:1;
       transition:max-height .4s ease,opacity .25s ease}
     .full-card.collapsed .card-body,.brief-row.collapsed .brief-extra{max-height:0;opacity:0}
-    .collapsed .toggle-less{display:none}
-    .collapsed .toggle-more{display:block}
+    .full-card.collapsed .toggle-less{display:none!important}
+    .full-card.collapsed .toggle-more{display:block!important}
+    .brief-row.collapsed .toggle-less{display:none!important}
+    .brief-row.collapsed .toggle-more{display:block!important}
     .full-card.collapsed{padding:14px 0}
     .full-card.collapsed .card-title{font-size:20px;margin:6px 0 3px;cursor:pointer}
     .full-card.collapsed .card-authors{font-size:13px;margin-bottom:0}

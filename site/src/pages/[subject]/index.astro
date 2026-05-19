@@ -229,18 +229,20 @@ const activeSubjects = allSubjects.filter(s => s.active);
       padding:8px 0;text-align:center;width:100%;border-top:1px solid var(--rule);
       font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
       color:var(--ink-faint);cursor:pointer;transition:color .15s;user-select:none;
-      display:block;
+      display:block!important;
     }
     .toggle-less:hover{color:var(--accent)}
     .toggle-more{
       padding:8px 0;text-align:center;width:100%;border-top:1px solid var(--rule);
       font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
       color:var(--ink-faint);cursor:pointer;transition:color .15s;user-select:none;
-      display:none;
+      display:none!important;
     }
     .toggle-more:hover{color:var(--accent)}
-    .collapsed .toggle-less{display:none}
-    .collapsed .toggle-more{display:block}
+    .full-card.collapsed .toggle-less{display:none!important}
+    .full-card.collapsed .toggle-more{display:block!important}
+    .brief-row.collapsed .toggle-less{display:none!important}
+    .brief-row.collapsed .toggle-more{display:block!important}
 
     /* Collapse animations */
     .card-body,.brief-extra{max-height:3000px;overflow:hidden;opacity:1;
