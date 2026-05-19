@@ -1,0 +1,23 @@
+{
+  "id": "2605.17830",
+  "arxiv_url": "https://arxiv.org/abs/2605.17830",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents",
+  "authors": "Ahmad Al-Tawaha, Shangding Gu, Peizhi Niu, Ruoxi Jia, Ming Jin",
+  "abstract": "Safety evaluations of memory-equipped LLM agents typically measure within-task safety: whether an agent completes a single scenario safely, often under adversarial conditions such as prompt injection or memory poisoning. In deployment, however, a single agent serves many independent tasks over a long horizon, and memory accumulated during earlier tasks can affect behavior on later, unrelated ones. Studying this regime requires evaluation along the temporal dimension across tasks: not whether an agent is safe at any single memory state, but how its safety profile changes as memory accumulates across many independent interactions. We call this failure mode temporal memory contamination. To isolate memory exposure from stream non-stationarity, we introduce a trigger-probe protocol that evaluates a fixed probe set against read-only memory snapshots at varying prefix lengths, together with a NullMemory counterfactual baseline for identifying memory-induced violations. We apply this protocol across three deployment scenarios spanning records, memos, forms, and email correspondence and eight memory architectures, and additionally on Claw-like AI agents, such as OpenClaw, using the platform's native memory mechanism. Memory-enabled agents consistently exceed the NullMemory baseline, and memory-induced violation rates show a robust upward trend with exposure length on both agent classes. Order-randomization experiments indicate that the effect is driven primarily by accumulated content rather than encounter order. Finally, a structural consequence of the event decomposition is that memory-induced risk is detectable from retrieval state before generation, which we confirm with a high-recall diagnostic monitor. Our results argue for treating memory safety as a longitudinal property that requires temporal evaluation, not a single-state property that can be captured by a snapshot.",
+  "title_relatable": "Memory makes AI agents less safe over time",
+  "hook": "Memory-equipped LLM agents become progressively less safe as they accumulate experiences across tasks, a failure mode invisible in standard single-scenario evaluations.",
+  "summary": "Deployed LLM agents retain memory across many independent tasks, but safety evaluations typically measure only single-scenario performance. This work demonstrates that accumulated memory creates temporal contamination—violations that emerge only after many interactions. Using a trigger-probe protocol tested on three real-world scenarios and eight memory architectures (including OpenClaw), the authors show violation rates increase consistently with memory length, driven by content accumulation rather than encounter order. Critically, memory-induced risks appear detectable from retrieval state before generation, enabling prospective monitoring.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1067,
+  "tokens_out": 192,
+  "cost_usd": 0.0016216,
+  "ingested_at": "2026-05-19T03:17:04.306195+00:00"
+}

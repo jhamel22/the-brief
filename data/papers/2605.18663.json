@@ -1,0 +1,24 @@
+{
+  "id": "2605.18663",
+  "arxiv_url": "https://arxiv.org/abs/2605.18663",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "GIM: Evaluating models via tasks that integrate multiple cognitive domains",
+  "authors": "Rohit Patel, Alexandre Rezende, Steven McClain",
+  "abstract": "As LLM benchmarks saturate, the evaluation community has pursued two strategies to increase difficulty: escalating knowledge demands (GPQA, HLE) or removing knowledge entirely in favor of abstract reasoning (ARC-AGI). The first conflates memorization with capability; the second divorces reasoning from the practical contexts in which it matters. We take a different approach. The Grounded Integration Measure (GIM) is a benchmark of 820 original problems (615 public, 205 private) where difficulty comes from integration; individual problems require coordinating multiple cognitive operations (constraint satisfaction, state tracking, epistemic vigilance, audience calibration) over broadly accessible knowledge, so that reasoning stays grounded in realistic tasks without being gated on specialized expertise. Each problem is an original expert-authored composition, majority with rubric-decomposed scoring (median 6 independently judged criteria). A balanced public--private split provides built-in contamination diagnostic. We calibrate a continuous response 2-parameter logistic (2PL) IRT model over >200k prompt-response pairs across 28 models, producing robust ability estimates that correctly order test-configurations even when raw accuracy is distorted by errors or missing data, addressing a common challenge in benchmark reporting. Using this framework, we present a comprehensive leaderboard spanning 22 models and 47 test-configurations (unique model, thinking-level pairs), and conduct what is to our knowledge the most extensive published study of how test-time compute trades off against model capability on a fixed benchmark: 11 models swept across 35 test-configurations. We observe that within-family configuration choices, such as thinking budget and quantization, matter as much as model selection. We release the evaluation framework, calibrated IRT parameters, and all public problems.",
+  "title_relatable": "A benchmark that measures reasoning across multiple cognitive skills",
+  "hook": "GIM evaluates language models on 820 problems requiring coordination of multiple reasoning types over realistic knowledge, using IRT calibration to produce robust ability estimates across 28 models and 47 configurations.",
+  "summary": "Current LLM benchmarks either inflate scores by testing specialized knowledge (GPQA, HLE) or rely purely on abstract reasoning divorced from practical context (ARC-AGI). GIM introduces 820 original problems where difficulty stems from integrating multiple cognitive operations—constraint satisfaction, state tracking, epistemic vigilance, audience calibration—grounded in broadly accessible knowledge. Each problem is expert-authored with rubric-decomposed scoring (median 6 criteria). The authors calibrate a 2-parameter logistic IRT model over 200k+ prompt-response pairs across 28 models, producing ability estimates robust to missing data and error distortion. A comprehensive leaderboard spans 22 models and 47 configurations; an extensive study of test-time compute shows that within-family choices (thinking budget, quantization) matter as much as model selection. The evaluation framework, IRT parameters, and 615 public problems are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1062,
+  "tokens_out": 292,
+  "cost_usd": 0.0020176,
+  "ingested_at": "2026-05-19T03:08:35.321786+00:00"
+}

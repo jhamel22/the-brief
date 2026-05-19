@@ -1,0 +1,23 @@
+{
+  "id": "2605.17072",
+  "arxiv_url": "https://arxiv.org/abs/2605.17072",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "RAGA: Reading-And-Graph-building-Agent for Autonomous Knowledge Graph Construction and Retrieval-Augmented Generation",
+  "authors": "Chengrui Han, Zesheng Cheng",
+  "abstract": "Existing LLM-driven knowledge graph (KG) construction methods predominantly employ stateless batch processing pipelines, exhibiting structural deficiencies in cross-chunk semantic relation capture, entity disambiguation, and construction process interpretability. These limitations undermine KG quality, retrieval precision, and deployment trust in high-stakes domains. We propose RAGA (Reading And Graph-building Agent), an LLM-based autonomous KG construction and retrieval fusion framework. RAGA provides an atomic toolset supporting full KG lifecycle CRUD operations and embeds a Read-Search-Verify-Construct cognitive constraint into a ReAct tool loop. A KG-vector synchronization mechanism enables hybrid symbolic-vector retrieval, while evidence-anchored verification links every knowledge entry to its source text for auditable provenance. Preliminary experiments on a subset of the QASPER scientific QA dataset indicate that RAGA's fusion retrieval outperforms zero-shot baselines, with KG integration providing measurable gains in both answer and evidence quality. The framework design and experimental baseline serve as a reference for agent-driven autonomous KG construction.",
+  "title_relatable": "Building knowledge graphs with agents that verify every fact",
+  "hook": "An LLM agent that constructs knowledge graphs incrementally while verifying facts against source text, achieving measurable improvements on scientific question-answering over zero-shot baselines.",
+  "summary": "Most existing knowledge graph construction pipelines process documents in batches without capturing semantic relationships across sections or verifying extracted information. RAGA combines an LLM agent with a structured toolkit for full knowledge graph operations (create, read, update, delete) and a Read-Search-Verify-Construct loop to build graphs while maintaining auditable provenance—every fact links back to source text. A hybrid retrieval mechanism merges symbolic graph queries with vector search. On QASPER (scientific QA), the approach outperforms zero-shot baselines and shows gains in both answer quality and evidence retrieval.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 934,
+  "tokens_out": 214,
+  "cost_usd": 0.0016032,
+  "ingested_at": "2026-05-19T03:20:13.288063+00:00"
+}

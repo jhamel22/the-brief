@@ -1,0 +1,23 @@
+{
+  "id": "2605.16776",
+  "arxiv_url": "https://arxiv.org/abs/2605.16776",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Distinguishable Deletion: Unifying Knowledge Erasure and Refusal for Large Language Model Unlearning",
+  "authors": "Puning Yang, Junchi Yu, Qizhou Wang, Philip Torr, Bo Han, Xiuying Chen",
+  "abstract": "Mitigating sensitive and harmful outputs is fundamental to ensuring safe deployment of LLMs. Existing approaches typically follow two paradigms: Knowledge Deletion (KD), which erases undesirable information during training, and Distinguishable Refusal (DR), which steers models away from using sensitive knowledge during inference. Despite rapid progress, KD-based unlearning struggles with biased deletion due to suppressing specific token sequences as a substitute for complete knowledge removal, whereas DR-based unlearning risks the re-emergence of harmful knowledge because the underlying knowledge remains intact. To address these issues, we propose Distinguishable Deletion ($\\mathrm{D^2}$), a paradigm that restricts the response distribution in the latent representation rather than specific tokens to erase undesirable knowledge, while distinguishing it from retained knowledge, enabling a refusal mechanism to handle unlearned inputs safely and coherently. To implement $\\mathrm{D^2}$, we introduce an energy index that quantifies the presence of knowledge and the separation between unlearned and retained content. Mathematical and empirical analyses show that energy is both accurate and efficient, enabling Energy-based Unlearning Alignment (EUA) to enforce energy-boundary unlearning during training and apply an energy-based refusal mechanism at inference. Extensive experiments demonstrate that EUA significantly outperforms previous methods, indicating the superiority of $\\mathrm{D^2}$. Our code is available at https://github.com/Puning97/EUA-for-LLM-Unlearning.",
+  "title_relatable": "A unified approach to safe LLM unlearning via energy-based deletion",
+  "hook": "Proposes a method that erases harmful knowledge from LLMs while maintaining coherent refusal, using an energy index to distinguish unlearned from retained information.",
+  "summary": "Existing LLM safety approaches either delete knowledge (risking incomplete erasure and token-sequence bias) or refuse harmful outputs (while leaving underlying knowledge intact). This work introduces Distinguishable Deletion, which constrains response distributions in latent space rather than targeting specific tokens, enabling both complete knowledge removal and principled refusal. The method uses an energy index to quantify knowledge presence and separation between unlearned and retained content, implemented via Energy-based Unlearning Alignment (EUA) during training and inference. Experiments show significant improvements over prior unlearning methods. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1052,
+  "tokens_out": 217,
+  "cost_usd": 0.0017096,
+  "ingested_at": "2026-05-19T03:11:31.573959+00:00"
+}

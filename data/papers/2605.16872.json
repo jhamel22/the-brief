@@ -1,0 +1,23 @@
+{
+  "id": "2605.16872",
+  "arxiv_url": "https://arxiv.org/abs/2605.16872",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CY",
+    "cs.AI"
+  ],
+  "title_original": "Some[Body] Must Receive That Pain for Agent Accountability",
+  "authors": "Botao Amber Hu, Helena Rong",
+  "abstract": "AI agents increasingly act consequentially in the real world. This creates a problem we call \\emph{consequence reception}: harm occurs, the producing system is identified, yet no continuing agent receives consequences in a way that changes future behavior. Pain, understood mechanistically as a corrective feedback signal, is foundational to canonical theories of punishment -- deterrence, rehabilitation, retribution, and incapacitation all assume a continuing locus that registers the signal and updates behavior. That, in turn, requires a body for the signal to land on: a boundary whose integrity it protects, a locus where it accumulates, consolidation that converts episodic signal into durable update, and a substrate that responds by altering future action. Current LLM agents -- software-defined composites of weights, prompts, tools, memory, and credentials, freely swapped, copied, reset, and reassembled -- satisfy none of these conditions. The two prevailing legal responses therefore fail to achieve consequence reception. The thin-identity agent-principal dyad has a body but no \\emph{consequence--agency coupling}: the human bears pain for behaviors beyond their control -- Elish's \\emph{moral crumple zone}. The thick-identity Arbel et al.'s \\emph{Algorithmic Corporation} creates legally legible entities but does not guarantee that any AI decision architecture receives pain as a behavioral signal. Achieving consequence-agency coupling is therefore a sociotechnical infrastructural problem, not only a legal one. Until such architectures exist, high-stakes AI deployment should remain tethered to accountable human principals with meaningful control, proportional liability, and authority to constrain or terminate the agent. \\emph{If some body does not receive the pain by design, some body will receive it by default.}",
+  "title_relatable": "Who bears responsibility when AI systems cause harm?",
+  "hook": "Current AI agents lack the structural properties needed for accountability—a 'body' that receives consequences and learns from them—making high-stakes deployment without human oversight legally and ethically problematic.",
+  "summary": "This paper identifies a fundamental gap in AI accountability: harm occurs, systems are identified, but no continuing agent experiences consequences that would change future behavior. The authors argue that punishment theories—deterrence, rehabilitation, retribution, incapacitation—all require a persistent entity that registers corrective signals and updates accordingly. Large language model agents, as software composites freely copied and reset, cannot satisfy this requirement. Current legal frameworks fail: either humans bear accountability for behaviors outside their control (the 'moral crumple zone'), or AI entities are created without ensuring the decision architecture receives feedback as a behavioral signal. The paper positions consequence-agency coupling as a sociotechnical infrastructure problem, concluding that until such architectures exist, high-stakes AI systems should remain under human principals with meaningful control and liability.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1058,
+  "tokens_out": 253,
+  "cost_usd": 0.0018584,
+  "ingested_at": "2026-05-19T03:16:00.061104+00:00"
+}

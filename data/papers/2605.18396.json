@@ -1,0 +1,22 @@
+{
+  "id": "2605.18396",
+  "arxiv_url": "https://arxiv.org/abs/2605.18396",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "NEWTON: Agentic Planning for Physically Grounded Video Generation",
+  "authors": "Yuxiang Feng, Juncheng Wang, Chao Xu, Yijie Qian, Huihan Wang, Wenlong Hou, Yang Liu, Baigui Sun, Yong Liu, Shujun Wang",
+  "abstract": "Video generation models produce visually compelling results but systematically violate physical commonsense -- on VideoPhy-2, the best model achieves only 32.6% joint accuracy. We identify a specification bottleneck: text prompts are lossy compression of the physical world, omitting the parameters that fully determine dynamics, and no amount of model scaling can recover what was never specified. From this diagnosis we derive three properties that physics conditioning must satisfy -- sufficiency, dynamism, and verifiability -- and show that no existing approach satisfies all three. We present NEWTON, in which video generation is demoted from the system output to one action inside an agent's toolbox: a learned planner orchestrates physics-aware tools (keyframe generation, scientific computation, prompt refinement) to construct rich conditioning, and a verifier closes the loop for iterative re-planning. The planner is the sole trainable component, optimized on-policy via Flow-GRPO inside the live multi-turn loop. On VideoPhy-2, NEWTON improves joint accuracy from 21.4% to 29.7% on LTX-Video and from 30.7% to 37.4% on Veo-3.1, without modifying either generator. Our project page: \\href{https://Newton026.github.io/newton}{https://Newton026.github.io/newton}",
+  "title_relatable": "Teaching video models to respect physics through planning",
+  "hook": "An agent-based planner that orchestrates physics tools around existing video generators improves physical accuracy by 22% on a new benchmark, without modifying the underlying models.",
+  "summary": "Video generation models create visually plausible footage but systematically violate physical laws—on the VideoPhy-2 benchmark, state-of-the-art models achieve only 32.6% accuracy at preserving realistic dynamics. The core problem is that text prompts cannot specify the full parameters needed to determine physical outcomes. NEWTON reframes video generation as one tool within an agentic system: a learned planner coordinates keyframe generation, physics simulation, and prompt refinement to create rich conditioning, then iteratively refines outputs using a verifier. Only the planner is trained, optimized on-policy via Flow-GRPO. On VideoPhy-2, NEWTON raises LTX-Video from 21.4% to 29.7% and Veo-3.1 from 30.7% to 37.4% joint accuracy without modifying either generator. Code and project details are available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1026,
+  "tokens_out": 283,
+  "cost_usd": 0.0019528000000000002,
+  "ingested_at": "2026-05-19T03:22:21.475194+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.17056",
+  "arxiv_url": "https://arxiv.org/abs/2605.17056",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph"
+  ],
+  "title_original": "Five legs @ three loops: N=4 sYM amplitude near mass-shell",
+  "authors": "Andrei V. Belitsky, Leonid V. Bork, Roman N. Lee, Vladimir A. Smirnov",
+  "abstract": "We present a three-loop analysis of the scattering amplitude of five nearly massless W-bosons in planar maximally supersymmetric Yang-Mills theory. The basis of the master integrals is established, making use of the unitarity-cut sewing technique in six-dimensional N=(1,1) super-Yang-Mills theory. Its dimensional reduction down to four allows us to generate masses for internal and external states. We descend on the special Coulomb branch of maximally supersymmetric Yang-Mills theory by setting all propagator masses to zero. Employing explicit expressions for all integrals that we calculated in a companion paper, we find a concise representation for this infrared-sensitive observable. We confirm its exponentiation, both for infrared and finite terms. The infrared double logarithm manifests the anticipated universality through the octagon anomalous dimension as its governing coefficient. Unlike our previous two-loop result, this consideration reveals that each of the three independent kinematic structures furnishing the amplitude possesses its own function of 't Hooft coupling.",
+  "title_relatable": "Five-particle scattering at three loops confirms a key symmetry prediction",
+  "hook": "A full three-loop calculation of five-particle scattering in maximally supersymmetric Yang-Mills theory confirms that infrared divergences exponentiate and are governed by the octagon anomalous dimension.",
+  "summary": "Using a six-dimensional unitarity-cut technique to generate masses and then reducing back to four dimensions, the authors computed the three-loop five-point scattering amplitude on the Coulomb branch of N=4 super-Yang-Mills. The result confirms that both infrared divergences and finite terms exponentiate as expected, with the leading double logarithm controlled by the octagon anomalous dimension. A surprise emerges at this loop order: each of the three independent kinematic structures in the amplitude carries its own distinct function of the 't Hooft coupling, a feature invisible at two loops.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 944,
+  "tokens_out": 224,
+  "cost_usd": 0.006192,
+  "ingested_at": "2026-05-19T02:58:10.327888+00:00"
+}

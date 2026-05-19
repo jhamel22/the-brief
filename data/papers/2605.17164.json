@@ -1,0 +1,25 @@
+{
+  "id": "2605.17164",
+  "arxiv_url": "https://arxiv.org/abs/2605.17164",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.DC",
+    "cs.AI",
+    "cs.LG",
+    "cs.PL"
+  ],
+  "title_original": "Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference",
+  "authors": "Mengtian Yang, Zhekun Zhang, Mingheng Wu, Jianwen Yan, Hanshi Sun, Li-wen Chang",
+  "abstract": "Deploying large-scale LLM training and inference with optimal performance is exceptionally challenging due to a complex design space of parallelism strategies, system optimizations, and hardware configurations. Accurate and rapid performance simulation is critical for guiding optimization efforts and system studies by validating \"what-if\" Hooker Figure hypotheses. To address this, we introduce Charon, a unified, modular, and fine-grained simulator for accurately predicting LLM performance. Experiments show Charon achieves high accuracy across different models and configurations, with an overall prediction error consistently under 5.35%, and even under 3.74% for training with a large-scale GPU cluster. In a practical inference deployment case, Charon discovered a configuration that improved system throughput over an engineering-tuned baseline, demonstrating its significant real-world value.",
+  "title_relatable": "A simulator for predicting large-scale LLM training and inference performance",
+  "hook": "Charon predicts LLM performance across parallelism strategies and hardware configurations with under 5.35% error, enabling rapid what-if analysis without expensive experiments.",
+  "summary": "Deploying large-scale LLM training and inference requires navigating a complex space of parallelism strategies, system optimizations, and hardware choices. Charon is a modular simulator that predicts performance across these configurations with high accuracy: under 5.35% prediction error overall, and 3.74% for training on large GPU clusters. In a practical inference case, the simulator identified a configuration that outperformed an engineering-tuned baseline, demonstrating utility for practitioners optimizing real systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 896,
+  "tokens_out": 198,
+  "cost_usd": 0.0015088000000000002,
+  "ingested_at": "2026-05-19T03:10:55.172195+00:00"
+}

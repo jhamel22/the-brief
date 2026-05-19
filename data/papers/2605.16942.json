@@ -1,0 +1,24 @@
+{
+  "id": "2605.16942",
+  "arxiv_url": "https://arxiv.org/abs/2605.16942",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math-ph",
+    "math.QA"
+  ],
+  "title_original": "Examples of Invertible Gauging via Orbifold Data, Zesting, and Equivariantisation",
+  "authors": "Benjamin Haake",
+  "abstract": "We study the gauging of invertible symmetries, particularly in 3 dimensions, using equivariantisation, $G$-crossed braided zesting, and the generalised orbifold construction. We discuss how these methods are related and illustrate them in various examples. We cover all $\\mathbb{Z}_2$-symmetries in Dijkgraaf--Witten $\\mathbb{Z}_2$-gauge theory $\\mathcal{D}(\\mathbb{Z}_2)$, the $\\mathbb{Z}_2$-symmetries described by Tambara--Yamagami categories, and obstructions to gauging the central symmetry in Chern--Simons $\\mathrm{SU}(2)_k$-gauge theory. We introduce zested orbifold data for symmetries related by zesting and show that the two associated orbifold data are Morita-equivalent, i.e.\\ they have the same underlying surface defect.",
+  "title_relatable": "Three ways to gauge symmetry in 3D quantum field theory, compared",
+  "hook": "Three algebraic methods for gauging invertible symmetries in 3D topological field theories turn out to be deeply related, and working through concrete examples shows precisely when and why gauging is obstructed.",
+  "summary": "Gauging a symmetry — promoting it from a global to a local structure — is a central tool in quantum field theory, but different algebraic frameworks for doing it can look unrecognizable from one another. Working through explicit models including Dijkgraaf–Witten theory, Tambara–Yamagami categories, and Chern–Simons SU(2)_k theory, this paper maps the relationships among equivariantisation, G-crossed braided zesting, and the generalised orbifold construction. A key result is that zested orbifold data, while superficially distinct, are Morita-equivalent — they define the same surface defect. This unification clarifies when symmetry gauging is obstructed and provides a practical toolkit for comparing results across formalisms.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 915,
+  "tokens_out": 270,
+  "cost_usd": 0.006795,
+  "ingested_at": "2026-05-19T02:58:17.241092+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.16482",
+  "arxiv_url": "https://arxiv.org/abs/2605.16482",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.str-el"
+  ],
+  "title_original": "When Symmetries Twist: Anomaly Inflow on Monodromy Defects",
+  "authors": "Christian Copetti",
+  "abstract": "Monodromy defects describe a dynamical termination of topological symmetry operators, and are sourced by a localized background magnetic flux. We study their properties in gapped SPT phases and, by inflow, in gapless theories with an anomalous symmetry. The background flux acts as a source for the anomaly, impacting the definition of the monodromy defect, which can only be defined as a domain wall between the symmetry generator and a topological order induced by the anomaly. The topological dressing has several consequences, such as the presence of protected chiral edge modes on the defect's worldvolume, and the adiabatic pumping of gapless degrees of freedom bound to the localized flux. We verify our predictions in several examples, focusing on monodromy defects for anomalous chiral symmetries, both in the continuum and on the lattice.",
+  "title_relatable": "How symmetry defects carry anomalies on their surfaces",
+  "hook": "Monodromy defects in anomalous theories can't be defined naively — they must be dressed with topological order, which forces protected gapless modes onto their worldvolumes.",
+  "summary": "When a continuous symmetry has a 't Hooft anomaly, the defects that terminate its topological operators acquire an unavoidable topological dressing — a layer of topological order that reconciles the anomaly inflow. This dressing is not cosmetic: it enforces chiral edge modes on the defect's worldvolume and allows gapless degrees of freedom to be pumped adiabatically by the background flux. The framework is verified explicitly for anomalous chiral symmetries in both continuum field theory and lattice models, connecting abstract anomaly data to concrete physical consequences on defects.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 885,
+  "tokens_out": 220,
+  "cost_usd": 0.005955,
+  "ingested_at": "2026-05-19T02:59:17.340224+00:00"
+}

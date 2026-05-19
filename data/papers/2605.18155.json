@@ -1,0 +1,22 @@
+{
+  "id": "2605.18155",
+  "arxiv_url": "https://arxiv.org/abs/2605.18155",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "FOL2NS: Generating Natural Sentences from First-Order Logic",
+  "authors": "Mei Jia",
+  "abstract": "Translating formal language into natural language is a foundational challenge in NLP, driving various downstream applications in semantic parsing, theorem validation, and question answering. In this study, we introduce First-Order Logic to Natural Sentence (FOL2NS), a neurosymbolic framework designed to generate synthetic FOL formulas and convert them into natural human expressions. It handles deeply nested structures with varying quantifier depths (QD), which are rarely captured by existing corpora. By combining rule-driven modules with fine-tuned language models, FOL2NS enhances the diversity and coverage of the generated samples. In our experiments, we systematically evaluate the framework's capabilities through both character-level analysis and overall performance metrics. Experimental results show that FOL2NS can reliably produce well-formed templates and fluent statements, but it faces challenges in achieving precise semantic representations and natural generation as structural complexity increases.",
+  "title_relatable": "Converting formal logic into natural language automatically",
+  "hook": "A neurosymbolic framework that generates first-order logic formulas and converts them to natural sentences, handling deeply nested structures with varying quantifier depths rarely seen in existing datasets.",
+  "summary": "FOL2NS addresses the gap between formal logic and natural language by generating synthetic training data for semantic parsing and theorem validation. The framework combines rule-driven modules with fine-tuned language models to produce diverse, well-formed logical expressions and their natural language counterparts. Experiments show the system generates fluent statements reliably on simpler structures, but struggles with semantic precision and natural phrasing as logical complexity—particularly nested quantifiers—increases. This work targets researchers building semantic parsing systems and formal reasoning pipelines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 863,
+  "tokens_out": 191,
+  "cost_usd": 0.0014544,
+  "ingested_at": "2026-05-19T03:17:16.166804+00:00"
+}

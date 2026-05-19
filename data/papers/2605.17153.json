@@ -1,0 +1,24 @@
+{
+  "id": "2605.17153",
+  "arxiv_url": "https://arxiv.org/abs/2605.17153",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.LO",
+    "math.OC"
+  ],
+  "title_original": "Stress-Testing Neural Network Verifiers with Provably Robust Instances",
+  "authors": "David Troxell, Yulia Alexandr, Sofia Hunt, Stephanie Lei, Guido Montúfar",
+  "abstract": "Neural network verifiers aim to provide formal guarantees on model behavior, but existing verification benchmarks are fundamentally limited by their lack of ground-truth labels. As a result, verifier evaluation relies on indirect heuristics, which prevents exact scoring and systematic study of verifier failure modes. We address this gap by introducing a reusable framework for generating verification instances whose ground-truth robustness labels are known a priori through analytic construction. Our framework led to the discovery of multiple numeric tolerance concerns and an implementation bug in popular verifiers, highlighting the need for ground-truth labels. Additionally, to systematically study verifier failure modes, we introduce the verification Difficulty Profile, a collection of estimable quantities capturing distinct sources of instance hardness. Using our framework and these profiles, we evaluate five state-of-the-art verifiers and show that different instances stress distinct aspects of the verification pipeline. We show that these results can aid the future development of verifiers as they provide actionable targets for improving numerical reliability, relaxation quality, and search behavior. Our code is publicly available: https://github.com/dtroxell19/VeriStressGT.git.",
+  "title_relatable": "Testing neural network verifiers with known-answer problems",
+  "hook": "A framework that generates verification benchmarks with analytically known robustness labels reveals bugs and numerical issues in five popular verifiers.",
+  "summary": "Neural network verifiers claim to provide formal guarantees, but existing benchmarks lack ground-truth labels, making it impossible to measure verifier accuracy or diagnose failure modes. This work introduces a reusable framework that analytically constructs verification instances with known-in-advance robustness labels. The authors discovered multiple numeric tolerance issues and an implementation bug in widely-used verifiers, demonstrating the value of ground-truth evaluation. They also define Difficulty Profiles—measurable properties that characterize what makes a verification instance hard—and use these to show that different verifiers struggle with different problem aspects. Code is released publicly.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 943,
+  "tokens_out": 207,
+  "cost_usd": 0.0015824,
+  "ingested_at": "2026-05-19T03:10:57.793854+00:00"
+}

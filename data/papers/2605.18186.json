@@ -1,0 +1,24 @@
+{
+  "id": "2605.18186",
+  "arxiv_url": "https://arxiv.org/abs/2605.18186",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "The Case for Astrons",
+  "authors": "Claudio Corianò, Paul H. Frampton, Leonardo Torcellini",
+  "abstract": "We examine a proposed population of primordial, electrically charged compact objects, which we call astrons, with fiducial parameters \\(M_A\\sim10^{12}M_\\odot\\), \\(Q_A\\sim4\\times10^{32}\\,\\mathrm{C}\\), and megaparsec-scale separations. We analyze charge generation, ordinary accretion saturation, charge persistence in an ionized medium, plasma screening, the Reissner--Nordström and Kerr--Newman geometric regimes, lensing, and the possible use of Lyman-\\(α\\) absorption as a probe of astron electric fields, and the cosmological interpretation of a sparse charged population. The large-charge branch is not obtained from ordinary accretion saturation; it should be treated as a primordial or early-universe charge-concentration hypothesis. A horizon-mass estimate places a \\(10^{12}M_\\odot\\) primordial object at times of order months after the Big Bang, so any relation to the early structures observed by the James Webb Space Telescope would be indirect, through later baryonic assembly around dark seeds. The main constraints are severe: plasma screening and neutralization must be avoided, the fiducial charge drives the exterior into a super-extremal regime without a Reissner--Nordström photon sphere, and the homogeneous interaction energy of a charged population scales as \\(a^{-4}\\). Thus the simplest FLRW perfect-fluid reduction does not generate asymptotic late-time acceleration. Any viable cosmological role for astrons must instead come from a controlled inhomogeneous Einstein--Maxwell averaging problem beyond the homogeneous approximation.",
+  "title_relatable": "Primordial charged giants: a new cosmic object examined and constrained",
+  "hook": "A proposed class of primordially charged, trillion-solar-mass compact objects fails its simplest cosmological tests, but the constraints clarify what any viable version would require.",
+  "summary": "Astrons are hypothetical primordial compact objects carrying enormous electric charge — roughly 10^32 coulombs packed into a trillion-solar-mass body separated from neighbors by megaparsecs. Analyzed across charge generation, plasma screening, Reissner-Nordström geometry, and gravitational lensing, the fiducial parameters push astrons into a super-extremal regime that lacks a photon sphere, and their interaction energy scales like radiation, producing no late-time cosmic acceleration. A horizon-mass argument places their formation months after the Big Bang, making any link to early JWST-observed structures indirect at best. Surviving as a cosmological actor would require inhomogeneous Einstein-Maxwell averaging well beyond standard FLRW treatment.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1068,
+  "tokens_out": 249,
+  "cost_usd": 0.006939,
+  "ingested_at": "2026-05-19T02:53:16.678048+00:00"
+}

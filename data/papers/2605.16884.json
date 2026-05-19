@@ -1,0 +1,24 @@
+{
+  "id": "2605.16884",
+  "arxiv_url": "https://arxiv.org/abs/2605.16884",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Warm inflation in Weyl geometric gravity",
+  "authors": "Runhua Huang, Tiberiu Harko, Shi-Dong Liang, Hong-Hao Zhang, Lei Ming",
+  "abstract": "We investigate the warm inflationary scenario in the Weyl geometric gravity theory, in which the action is constructed by adding matter to the simplest conformally invariant gravitational action in Weyl geometry. The $\\tilde{R}^2$ theory can be formulated equivalently as a linear theory supplemented by an additional scalar degree of freedom originating from higher-order curvature terms, with the equations of motion obtained via variational methods. We investigate the cosmological implications of the theory by considering the warm inflationary scenario of the early evolution of the Universe, in which radiation, the inflaton field, and the Weyl vector coexist. We consider the widely studied linear dissipation coefficient model along with a quartic potential, and investigate the influence of the Weyl vector term on the dynamics. We have performed numerical computations for different coupling models, and we have successfully developed a warm inflationary model in which the Universe transitions naturally from an inflationary epoch to a radiation-dominated era. The relevant cosmological observables have been calculated and compared with the latest observational constraints from the ACT data.",
+  "title_relatable": "Warm inflation tested inside an alternative geometric gravity theory",
+  "hook": "Embedding warm inflation in Weyl geometric gravity produces viable models that survive the latest CMB constraints from ACT, with the Weyl vector field leaving measurable imprints on inflationary observables.",
+  "summary": "Working within Weyl geometric gravity — a conformally invariant framework that promotes the metric connection to carry an extra vector field — the authors reformulate an R̃² action as a scalar-tensor theory and study warm inflation, where the inflaton continuously dissipates energy into radiation throughout the inflationary epoch. Using a quartic potential and a linear dissipation coefficient, numerical solutions show the Universe exits inflation directly into a radiation-dominated phase without a separate reheating stage. The predicted spectral index and tensor-to-scalar ratio are compared against ACT data, with the Weyl vector coupling serving as a distinguishing parameter.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 940,
+  "tokens_out": 223,
+  "cost_usd": 0.006165,
+  "ingested_at": "2026-05-19T02:55:03.954027+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.16222",
+  "arxiv_url": "https://arxiv.org/abs/2605.16222",
+  "announced_date": "2026-05-15",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Artificial Aphasias in Lesioned Language Models",
+  "authors": "Nathan Roll, Jill Kries, Laura Gwilliams, Cory Shain",
+  "abstract": "Aphasias, selective language impairments which can arise from brain damage, reveal the functional organization of human language by providing causal links between affected brain regions and specific symptom profiles. Drawing on this literature, we introduce an aphasia-inspired technique to characterize the emergent functional organization of language models (LMs). We ``lesion'' (zero-out) model parameters and measure the effects of this intervention against clinical aphasia symptoms, as diagnosed by the Text Aphasia Battery (TAB). When applied to 112,426 outputs from five 1B-scale LMs, the full range of evaluated symptoms surface, but in distributions largely distinct from those of humans. Our method uncovers broad symptom-profile differences between attention components (query, key, value, output) and feed-forward components (up, gate, down), with weaker evidence for differences among components within the same mechanism. We also find an effect of depth, where lesions in early layers disproportionately cause syntactic and semantic symptoms while late-middle layers yield higher rates of phonological and fluency deficits. Although some LM lesions induce quantitatively more similar profiles to some human aphasia types than others, qualitative differences in symptom patterns between LMs and humans suggest that aphasia syndromes are heavily influenced by the details of learning and processing rather than being a domain-invariant consequence of disrupted language processing.",
+  "title_relatable": "What happens when you damage a language model's brain",
+  "hook": "Researchers systematically lesion language model components and measure resulting symptoms against clinical aphasia diagnostics, revealing that LMs develop language impairments in patterns fundamentally different from human brains.",
+  "summary": "Aphasia—selective language loss from brain damage—provides a window into how human brains organize language function. This work adapts that clinical framework to language models by zeroing out parameters and measuring the resulting impairments using the Text Aphasia Battery, a diagnostic tool. Testing five 1B-scale models revealed that while all aphasia symptom types can emerge, their distributions differ markedly from human patterns. The study found that attention and feed-forward components produce distinct symptom profiles, and that lesioning early layers causes syntactic/semantic deficits while middle-late layers produce phonological and fluency problems. The qualitative differences between LM and human aphasia suggest that symptom patterns arise from learning and architecture details rather than being universal consequences of language disruption.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 988,
+  "tokens_out": 251,
+  "cost_usd": 0.0017944,
+  "ingested_at": "2026-05-19T03:19:42.237887+00:00"
+}

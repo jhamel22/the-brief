@@ -1,0 +1,23 @@
+{
+  "id": "2605.16679",
+  "arxiv_url": "https://arxiv.org/abs/2605.16679",
+  "announced_date": "2026-05-15",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "CHI-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?",
+  "authors": "Haolin Chen, Deon Metelski, Leon Qi, Tao Xia, Joonyul Lee, Steve Brown, Kevin Riley, Frank Wang, T. Y. Alvin Liu, Hank Capps MD, Zeyu Tang, Xiangchen Song, Lingjing Kong, Fan Feng, Tianyi Zeng, Zhiwei Liu, Zixian Ma, Hang Jiang, Fangli Geng, Yuan Yuan, Chenyu You, Qingsong Wen, Hua Wei, Yanjie Fu, Yue Zhao, Carl Yang, Biwei Huang, Kun Zhang, Caiming Xiong, Sanmi Koyejo, Eric P. Xing, Philip S. Yu, Weiran Yao",
+  "abstract": "End-to-end automation of realistic healthcare operations stresses three capabilities underrepresented in current benchmarks: policy density, decisions must be grounded in a large library of medical, insurance, and operational rules; Multi-role composition: a single task requires the agent to play multiple roles with handoffs; and multilateral interaction: intermediate workflow steps are multi-turn dialogs, such as peer-to-peer review and patient outreach. We introduce $χ$-Bench, a benchmark of long-horizon healthcare workflows across three domains: provider prior authorization, payer utilization management, and care management. Each task hands the agent a clinical case in a high-fidelity simulator of 20 healthcare apps exposed via 87 MCP tools, which it must drive to a terminal status through tool calls and writing the role's artifacts, guided by a 1,290+ document managed-care operations handbook skill. Across 30 agent harness/models configurations, the best agent resolves only 28.0% of tasks, no agent clears 20% on strict pass^3, and executing all tasks in a single session slumps the performance to 3.8%. These results raise the hypothesis that similar gaps are likely to surface in other policy-dense, role-composed, irreversible enterprise domains.",
+  "title_relatable": "Healthcare automation benchmark exposes limits of current AI agents",
+  "hook": "A new benchmark of realistic healthcare workflows reveals that even the best AI agents solve only 28% of tasks, highlighting gaps in handling policy-dense environments with multiple roles and irreversible decisions.",
+  "summary": "CHI-Bench tests whether AI agents can automate end-to-end healthcare operations across three domains: prior authorization, utilization management, and care coordination. Each task requires an agent to navigate a simulator with 87 tools representing 20 healthcare apps, follow a 1,290+ document operations handbook, and handle multi-turn interactions across multiple roles. The benchmark finds that the strongest agent-model combinations resolve only 28% of tasks, with performance dropping to 3.8% when tasks must complete in a single session. The results suggest similar capability gaps likely exist in other policy-dense, role-composed enterprise domains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1150,
+  "tokens_out": 222,
+  "cost_usd": 0.001808,
+  "ingested_at": "2026-05-19T03:19:31.590117+00:00"
+}

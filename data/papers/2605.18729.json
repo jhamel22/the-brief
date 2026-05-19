@@ -1,0 +1,23 @@
+{
+  "id": "2605.18729",
+  "arxiv_url": "https://arxiv.org/abs/2605.18729",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "Robo-Cortex: A Self-Evolving Embodied Agent via Dual-Grain Cognitive Memory and Autonomous Knowledge Induction",
+  "authors": "Nga Teng Chan, Yi Zhang, Yechi Liu, Renwen Cui, Fanhu Zeng, Zeyuan Ding, Xiancong Ren, Zhang Zhang, Qifeng Chen, Jian Liu, Yong Dai, Xiaozhu Ju",
+  "abstract": "The ability to navigate and interact with complex environments is central to real-world embodied agents, yet navigation in unseen environments remains challenging due to \"experiential amnesia,\" where existing trajectory-driven or reactive policies fail to synthesize generalizable strategies from past interactions. We propose Robo-Cortex, a self-evolving framework that enables robots to autonomously induce navigation heuristics and refine cognitive strategies through a continuous reflection-adaptation loop. By abstracting success patterns and failure pitfalls into natural-language heuristics, Robo-Cortex enables a transition from passive execution to active strategy evolution. Our core innovation is an Autonomous Knowledge Induction (AKI) mechanism that distills multimodal trajectories into a structured Navigation Heuristic Library for knowledge generalization. The architecture further incorporates a Dual-Grain Cognitive Memory system, comprising a Short-term Reflective Memory (SRM) for real-time local progress analysis, and a Long-term Principle Memory (LPM) that abstracts past trajectories into reusable guiding and cautionary principles. To ensure robust decision-making, we introduce a multimodal Imagine-then-Verify loop, where a world model simulates potential outcomes and a VLM-based evaluator validates action plans. Extensive evaluations on IGNav, AR, and AEQA show that Robo-Cortex consistently outperforms strong baselines in both task success and exploration efficiency, with gains of up to +4.16% SPL over the strongest prior method and up to +15.30% SPL under heuristic transfer to unseen environments. Preliminary real-world robotic experiments further support the effectiveness of Robo-Cortex in physical settings.",
+  "title_relatable": "Robot learns from mistakes to navigate new spaces better",
+  "hook": "A framework that lets robots extract navigation lessons from past failures and successes, improving performance on unseen environments by up to 15.3% through autonomous knowledge building.",
+  "summary": "Embodied agents struggle to generalize navigation strategies to unfamiliar environments because they lack structured ways to learn from experience. Robo-Cortex addresses this by automatically converting trajectories—both successful and failed—into natural-language heuristics stored in a Navigation Heuristic Library. The system combines short-term memory for tracking immediate progress with long-term memory that captures reusable principles, then uses a world model and vision-language model to simulate and verify action plans before execution. On three benchmarks (IGNav, AR, AEQA), Robo-Cortex achieved up to 4.16% improvement in success-weighted path length over prior methods, with 15.3% gains when transferring learned heuristics to new environments. Early physical robot experiments confirm the approach works beyond simulation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1136,
+  "tokens_out": 258,
+  "cost_usd": 0.0019408000000000001,
+  "ingested_at": "2026-05-19T03:22:06.285873+00:00"
+}

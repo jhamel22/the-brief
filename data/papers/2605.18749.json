@@ -1,0 +1,23 @@
+{
+  "id": "2605.18749",
+  "arxiv_url": "https://arxiv.org/abs/2605.18749",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.SD",
+    "cs.CV"
+  ],
+  "title_original": "WavFlow: Audio Generation in Waveform Space",
+  "authors": "Feiyan Zhou, Luyuan Wang, Shoufa Chen, Zhe Wang, Zhiheng Liu, Yuren Cong, Xiaohui Zhang, Fanny Yang, Belinda Zeng",
+  "abstract": "Modern audio generation predominantly relies on latent-space compression, introducing additional complexity and potential information loss. In this work, we challenge this paradigm with WavFlow, a framework that generates high-fidelity audio directly in raw waveform space without intermediate representations. To overcome the inherent difficulties of modeling high-dimensional and low-energy signals, we reshape audio into 2D token grids through waveform patchify and introduce amplitude lifting to align signal scales, enabling stable optimization via direct x-prediction in flow matching. To capture complex semantic alignment and temporal synchronization, we leverage an automated data pipeline to curate 5 million high-quality video-text-audio triplets, allowing the model to learn fine-grained acoustic patterns from scratch. Experimental results show that WavFlow achieves competitive performance on the video-to-audio benchmark VGGSound (FD_PaSST: 59.98, IS_PANNs: 17.40, DeSync: 0.44) and the text-to-audio benchmark AudioCaps (FD_PANNs: 10.63, IS_PANNs: 12.62), matching or exceeding the performance of established latent-based methods. Our work demonstrates that intermediate compression is not a prerequisite for high-quality synthesis, offering a simpler and more scalable alternative for multimodal audio generation.",
+  "title_relatable": "Generating high-quality audio directly from raw waveforms",
+  "hook": "WavFlow generates audio directly in waveform space without latent compression, matching latent-based methods on video-to-audio and text-to-audio benchmarks while reducing architectural complexity.",
+  "summary": "WavFlow generates audio directly from raw waveforms instead of using compressed latent representations, eliminating a standard intermediate step in modern audio synthesis. The approach reshapes audio into 2D token grids via waveform patchification and applies amplitude lifting to stabilize training under flow matching. The team curated 5 million video-text-audio triplets to train the model end-to-end on semantic alignment and temporal synchronization. Results on VGGSound and AudioCaps benchmarks match or exceed established latent-based methods, suggesting intermediate compression is unnecessary for high-fidelity synthesis.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1016,
+  "tokens_out": 222,
+  "cost_usd": 0.0017008000000000001,
+  "ingested_at": "2026-05-19T03:21:59.581399+00:00"
+}

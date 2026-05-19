@@ -1,0 +1,22 @@
+{
+  "id": "2605.16629",
+  "arxiv_url": "https://arxiv.org/abs/2605.16629",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Classical Dressing of Timelike Naked Singularities",
+  "authors": "Pablo León, G. Alencar, Manuel Gonzalez-Espinoza, Francisco Tello-Ortiz",
+  "abstract": "We investigate whether a timelike naked singularity of negative-mass Schwarzschild type can be causally dressed by a static anisotropic matter distribution in classical general relativity. Working within a spherically symmetric framework, we solve Einstein's equations for a general density profile \\(ρ(r)\\) and show that the horizon structure is governed by the auxiliary function \\(Φ(r)=2m(r)-r\\), whose zeros determine the existence and multiplicity of horizons. We derive sufficient conditions for the formation of a unique outer event horizon in terms of the total added mass, the localization of the matter profile, and the monotonic behavior of the effective compactness function \\(8πr^2ρ(r)\\). In particular, non-negative and sufficiently localized density profiles can cloak the timelike singularity when the cumulative matter contribution overcomes the negative bare mass, whereas non-monotonic profiles generically lead to multi-horizon geometries. We illustrate the formalism with discontinuous and smooth power-law profiles, logarithmic branches, and T-duality-inspired limiting configurations. These results provide a sufficient-condition framework for horizon formation around timelike naked singularities and clarify how the radial organization of matter controls causal accessibility in static general relativity.",
+  "title_relatable": "Can ordinary matter hide a naked singularity behind a horizon?",
+  "hook": "Surrounding a negative-mass Schwarzschild singularity with the right distribution of ordinary matter can generate an event horizon, restoring cosmic censorship by classical means.",
+  "summary": "Negative-mass Schwarzschild spacetime harbors a naked singularity — a point of infinite curvature with no surrounding horizon — in apparent violation of cosmic censorship. By solving Einstein's equations for a spherically symmetric shell of anisotropic matter wrapped around this singularity, the authors identify the mathematical condition for horizon formation: the cumulative mass profile must overcome the negative bare mass before the boundary of matter runs out. The analysis shows that smooth, well-localized density profiles can produce a single clean event horizon, while irregular or non-monotonic profiles generically spawn multiple horizons. The results offer a concrete, classical mechanism for dressing timelike singularities without invoking quantum effects.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 987,
+  "tokens_out": 232,
+  "cost_usd": 0.006441,
+  "ingested_at": "2026-05-19T02:55:34.710674+00:00"
+}

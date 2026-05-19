@@ -1,0 +1,23 @@
+{
+  "id": "2605.16817",
+  "arxiv_url": "https://arxiv.org/abs/2605.16817",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "eess.IV",
+    "cs.CV"
+  ],
+  "title_original": "Adaptive Fused Prior Transfer for Controllable Generative Image Compression",
+  "authors": "Yifei Pei, Ying Liu, Nam Ling",
+  "abstract": "Learned image compression has achieved competitive rate-distortion performance, but very-low-bitrate reconstruction remains difficult because the transmitted representation often cannot preserve fine textures and local structures. Perceptual and generative codecs address this problem by using learned reconstruction priors, and controllable codecs allow one model to cover different bitrate and reconstruction preferences. However, controllability alone does not resolve the decoder-side reconstruction-prior problem: under severe bit constraints, the decoder must infer missing details from limited transmitted information, while existing codebook-based controllable designs generally rely on single-codebook token-based priors. This paper proposes Adaptive Fused Prior Transfer for Controllable Generative Image Compression (AFP-GIC), a controllable codec that transfers an adaptive fused prior from a frozen pretrained AdaCode model. Encoder-side fused-prior features guide latent formation, while the decoder predicts a compatible fused prior from the compressed representation and selected control variables, enabling prior-guided reconstruction without transmitting the fused prior itself. A motivating analysis relates decoder-side fused-prior alignment to a reconstruction-error upper bound and shows that the fused-prior family contains single-codebook choices as special cases. Under the unified benchmark, AFP-GIC reduces decoder latency by 18.1% and the overall parameter count by 31.10 million (20.5%) relative to DC-VIC. Experiments on Kodak, CLIC2020, and DIV2K show competitive PSNR, with the clearest perceptual gains in NIQE scores and very-low-bitrate visual comparisons.",
+  "title_relatable": "Better image compression at ultra-low bitrates using adaptive priors",
+  "hook": "A controllable image codec that transfers learned priors from a pretrained model reduces decoder latency by 18% while maintaining visual quality across different compression levels.",
+  "summary": "Very-low-bitrate image compression struggles to preserve fine textures and local structures because the decoder has too little transmitted information to reconstruct missing details. This work proposes AFP-GIC, which uses an adaptive fused prior—learned patterns from a frozen pretrained model—to guide reconstruction at both encoding and decoding stages without transmitting the prior itself. The decoder predicts a compatible fused prior from the compressed bitstream and control variables, enabling a single model to handle variable bitrate and quality preferences. On standard benchmarks (Kodak, CLIC2020, DIV2K), AFP-GIC achieves competitive PSNR and stronger perceptual quality (measured by NIQE), with 18% lower decoder latency and 20.5% fewer parameters than the baseline DC-VIC.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1042,
+  "tokens_out": 260,
+  "cost_usd": 0.0018736,
+  "ingested_at": "2026-05-19T03:25:11.623058+00:00"
+}

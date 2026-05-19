@@ -1,0 +1,23 @@
+{
+  "id": "2605.16797",
+  "arxiv_url": "https://arxiv.org/abs/2605.16797",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "EgoKit: Towards Unified Low-Cost Egocentric Data Collection with Heterogeneous Devices",
+  "authors": "Liuchuan Yu, Erdem Murat, Beichen Wang, Yan Zeng, Tingting Luo, Huizhen Zhou, Shanghao Li, Huining Feng, Zhigen Zhao, Ning Yang, Ke Jing, Yunhao Liu, Ruoya Sheng",
+  "abstract": "Egocentric video is increasingly used as a data source for robot learning, activity understanding, and embodied AI research, but collecting it at scale remains fragmented in practice: each candidate host device, such as an Android phone, iPhone, iPad, smart glasses, or extended reality (XR) headset, exposes a different SDK, a different policy on raw camera access, and different limitations on external USB cameras and on-device tracking. Synchronized ego-view and wrist-view capture is therefore typically obtained by either committing to a single proprietary platform or building one-off rigs that do not transfer across devices. To address this gap, we present EgoKit, a toolkit that exposes the same egocentric recording workflow across six heterogeneous host devices. Across all supported devices, EgoKit presents the same recording interaction and produces locally stored video with a uniform log format; on XR headsets, it additionally logs head pose and OpenXR-standard 26-joint hand tracking aligned to the video streams. The companion accessories, including two wrist cameras with mounts, a head strap, and a USB-C hub, add wrist-view capture to any supported host without custom hardware fabrication. EgoKit is available at \\url{https://egokit.chuange.org/}.",
+  "title_relatable": "One toolkit for egocentric video across any device",
+  "hook": "EgoKit unifies egocentric video collection across phones, tablets, and XR headsets with standardized recording workflows and synchronized multi-view capture, eliminating device-specific fragmentation.",
+  "summary": "Egocentric video collection for robotics, activity recognition, and embodied AI is hampered by incompatible SDKs, camera access policies, and proprietary platforms across different devices. EgoKit provides a single toolkit that exposes the same recording workflow on six heterogeneous host devices (Android phones, iPhones, iPads, smart glasses, XR headsets) and produces locally stored video in a uniform log format. On XR headsets, it captures synchronized head pose and 26-joint hand tracking aligned to video. Companion accessories—two wrist cameras with mounts, head strap, and USB-C hub—add multi-view capability without custom fabrication. Code and design specifications available at egokit.chuange.org.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1031,
+  "tokens_out": 252,
+  "cost_usd": 0.0018328,
+  "ingested_at": "2026-05-19T03:25:14.182672+00:00"
+}

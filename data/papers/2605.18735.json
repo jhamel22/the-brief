@@ -1,0 +1,24 @@
+{
+  "id": "2605.18735",
+  "arxiv_url": "https://arxiv.org/abs/2605.18735",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR",
+    "cs.LG"
+  ],
+  "title_original": "PIXLRelight: Controllable Relighting via Intrinsic Conditioning",
+  "authors": "Miguel Farinha, Ronald Clark",
+  "abstract": "We present PIXLRelight, a feed-forward approach for physically controllable single-image relighting. Existing methods either provide limited lighting control (e.g. through text or environment maps), accumulate errors when chaining inverse and forward rendering, or require costly per-image optimization. Our key idea is to bridge physically based rendering (PBR) and learned image synthesis through a shared intrinsic conditioning that can be obtained from either real photographs or PBR renders. At training time, paired multi-illumination photographs are decomposed into albedo, diffuse shading, and non-diffuse residuals, which condition the model. At inference time, the same conditioning is computed from a path-traced render of a coarse 3D reconstruction of the input under user-specified PBR lights. A transformer-based neural renderer then applies the target illumination to the source photograph, preserving fine image detail through a per-pixel affine modulation. PIXLRelight enables arbitrary PBR-style lighting control, achieves state-of-the-art relighting quality, and runs in under a tenth of a second per image. Code and models are available at https://mlfarinha.github.io/pixl-relight/.",
+  "title_relatable": "Relight any photo with precise control over virtual lights",
+  "hook": "A fast feed-forward method that lets users relight photos with arbitrary 3D lights by conditioning on intrinsic image properties (albedo, shading), achieving photorealistic results in under 100ms without per-image optimization.",
+  "summary": "PIXLRelight solves the problem of relighting single images with fine-grained control over light direction and color—a task where existing methods either limit control to text prompts and environment maps, accumulate errors through inverse-then-forward rendering, or require slow per-image optimization. The approach uses physically based rendering (PBR) intrinsics (albedo, diffuse shading, non-diffuse residuals) as conditioning signals for a transformer-based neural renderer. At training, it learns from multi-illumination photograph sets; at inference, it extracts the same intrinsics from a quick path-traced render of a coarse 3D reconstruction under user-specified lights, then applies target illumination to the source photo while preserving fine detail. Runs in under 100ms per image. Code and trained models are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 942,
+  "tokens_out": 280,
+  "cost_usd": 0.0018736,
+  "ingested_at": "2026-05-19T03:22:43.001617+00:00"
+}

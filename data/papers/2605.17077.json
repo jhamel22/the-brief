@@ -1,0 +1,23 @@
+{
+  "id": "2605.17077",
+  "arxiv_url": "https://arxiv.org/abs/2605.17077",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "How to Instruct Your Robot: Dense Language Annotations Power Robot Policy Learning",
+  "authors": "Bosung Kim, Ruiyi Wang, David Acuna, Jaehun Jung, Alexander Trevithick, Brandon Cui, Yejin Choi, Prithviraj Ammanabrolu",
+  "abstract": "Scaling robot policy learning is bottlenecked by the cost of collecting demonstrations, while language annotations for existing demonstrations are comparatively cheap. We study language density as a lever for extracting more signal from a fixed robot or egocentric-video corpus. We introduce DeMiAn (Dense Multi-aspect Annotation), a two-stage approach that first re-labels demonstration segments with VLM-generated annotations along four complementary aspects: physical motion, scene composition, arm pose, and reasoning. A learned instructor then maps a task description and initial scene snapshot to a task-appropriate annotation at deployment, running asynchronously so generation latency is hidden behind policy execution. Across over 1M robot manipulation clips and 50K EgoVerse human-egocentric videos, DeMiAn improves both a vision-language-action policy and a video-based world-action model without collecting new demonstrations. On RoboCasa, the instructor raises success by 5 points over a task-only baseline and comes within 3 points of a per-task oracle. No fixed annotation aspect dominates across tasks, showing that selecting the right dense language matters. DeMiAn also improves composite-task and out-of-distribution performance, and shifts the compute-performance frontier in both mid-training and post-training after accounting for annotation-generation FLOPs. These results position dense re-annotation as a practical scaling lever for robot policy learning.",
+  "title_relatable": "Dense language descriptions unlock better robot learning",
+  "hook": "VLM-generated annotations across four complementary aspects improve robot manipulation success by 5 points without collecting new demonstrations.",
+  "summary": "Training robot policies requires expensive demonstrations, but annotating existing video is cheap. DeMiAn generates rich language descriptions for demonstration segments across four dimensions—physical motion, scene, arm pose, and reasoning—then learns an instructor to select task-appropriate annotations at deployment. Tested on over 1M robot clips and 50K egocentric videos, the approach improves both vision-language-action policies and world models, closing the gap to oracle performance by 3 points on RoboCasa while improving out-of-distribution generalization. The findings suggest dense language re-annotation is a practical way to scale robot learning without new data collection.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1027,
+  "tokens_out": 208,
+  "cost_usd": 0.0016535999999999999,
+  "ingested_at": "2026-05-19T03:15:45.408459+00:00"
+}

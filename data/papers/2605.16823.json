@@ -1,0 +1,22 @@
+{
+  "id": "2605.16823",
+  "arxiv_url": "https://arxiv.org/abs/2605.16823",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Atoms as Language: VQ-Atom: Semantic Discretization for Molecular Representation Learning",
+  "authors": "Takayuki Kimura",
+  "abstract": "Molecular representation learning has become a central approach in AI-driven drug discovery, yet existing molecular tokenizations such as SMILES remain largely syntactic and do not naturally align with chemically meaningful substructures. In this work, we introduce VQ-Atom, a semantic discretization framework that converts continuous atom-level graph representations into discrete tokens corresponding to local chemical environments. Using graph neural network embeddings and vector quantization, atoms are assigned to codebook entries representing chemically meaningful atomic contexts. These discrete tokens define a molecular language suitable for Transformer-based pretraining. We evaluate VQ-Atom in protein-ligand interaction prediction under a protein-cold split setting without relying on 3D structural information. Experimental results show that VQ-Atom consistently improves predictive performance compared to conventional tokenization approaches, suggesting that semantically grounded discretization can substantially enhance molecular representation learning. Our findings indicate that token design itself plays a critical role in enabling effective language modeling for chemistry.",
+  "title_relatable": "Teaching molecules a chemical language with atomic semantics",
+  "hook": "A discretization method that converts molecular structures into tokens based on chemical environment rather than syntax, improving protein-ligand prediction over standard SMILES representations.",
+  "summary": "Molecular AI currently relies on syntactic tokenizations like SMILES that don't capture chemical meaning. VQ-Atom uses graph neural network embeddings and vector quantization to assign atoms to discrete tokens representing their local chemical environments, creating a semantically grounded molecular language for Transformers. Tested on protein-ligand interaction prediction without 3D structures, VQ-Atom outperforms conventional tokenization approaches, demonstrating that token design fundamentally shapes how well language models capture molecular properties.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 889,
+  "tokens_out": 186,
+  "cost_usd": 0.0014552,
+  "ingested_at": "2026-05-19T03:11:28.875227+00:00"
+}

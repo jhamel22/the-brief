@@ -1,0 +1,25 @@
+{
+  "id": "2605.18656",
+  "arxiv_url": "https://arxiv.org/abs/2605.18656",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Statistical Limits and Efficient Algorithms for Differentially Private Federated Learning",
+  "authors": "Arnab Auddy, Xiangni Peng, Subhadeep Paul",
+  "abstract": "Federated Learning is a leading framework for training ML and AI models collaboratively across numerous user devices or databases. We study the trade-offs among estimation accuracy, privacy constraints, and communication cost for differentially private (DP) federated M estimation. The two standard methods in the literature are FedAvg, which may suffer from high federation bias, and FedSGD, which can incur high communication cost. Aimed at improving accuracy at a reduced communication cost, we propose FedHybrid, which uses FedSGD starting with an improved initialization by the FedAvg estimator. We propose FedNewton, which averages local Newton iterations to reduce bias in FedAvg, achieving an estimation accuracy comparable to FedSGD with much fewer communication rounds when the number of clients grows sufficiently slowly. We establish finite sample upper bounds on the mean-squared error rates of the DP versions of these estimators as functions of the number of clients, local sample sizes, privacy budget, and number of iterations. We further derive a minimax lower bound on the MSE of any iterative private federated procedure that provides a benchmark to assess the optimality gap of these methods. We numerically evaluate our methods for training a logistic regression and a neural network on the computer vision datasets MNIST and CIFAR-10.",
+  "title_relatable": "Balancing privacy, accuracy, and communication in federated learning",
+  "hook": "New algorithms for federated learning improve accuracy while reducing communication rounds, with theoretical guarantees on optimal privacy-utility trade-offs.",
+  "summary": "Federated learning trains models across distributed devices, but existing methods sacrifice either accuracy (FedAvg's bias) or communication efficiency (FedSGD's cost). This work proposes FedHybrid, which combines FedAvg initialization with FedSGD iterations, and FedNewton, which averages local Newton steps to reduce bias. The authors derive finite-sample error bounds for differentially private versions of these estimators and establish a minimax lower bound that benchmarks optimality. Experiments on logistic regression and neural networks on MNIST and CIFAR-10 validate the approach.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 972,
+  "tokens_out": 210,
+  "cost_usd": 0.0016175999999999999,
+  "ingested_at": "2026-05-19T03:13:40.247662+00:00"
+}

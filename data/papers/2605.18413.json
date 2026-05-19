@@ -1,0 +1,22 @@
+{
+  "id": "2605.18413",
+  "arxiv_url": "https://arxiv.org/abs/2605.18413",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Cracks in the Foundation: A Civil Infrastructure Dataset to Challenge Vision Foundation Models",
+  "authors": "Nicola Farronato, Niccolo Avogaro, Thomas Frick, Mattia Rigotti, Rizwan Ullah Khan, Michele Magno, Konrad Schindler, Cristiano Malossi, Florian Scheidegger",
+  "abstract": "Automated structural health monitoring is essential to prevent catastrophic infrastructure failures. Precise, pixel-level defect segmentation is needed to accurately assess structural integrity, but progress in defect segmentation for civil infrastructures has been held back by an extreme scarcity of data, which requires costly expert annotation. The need for data is accentuated by algorithmic hurdles intrinsic to the problem, including center-bias and the need to rely more on shape when inspecting nearly textureless building materials. To remove the bottleneck, we introduce Cracks in the Foundation (CiF), the largest and most detailed civil infrastructure (instance) segmentation dataset to date, comprising $\\approx$150,000 high-resolution images meticulously curated over five years in collaboration with civil engineering experts. With the help of this unprecedented data source, we expose a blind spot of current visual AI: despite the advent of promptable Foundation Models (FMs) and Vision Language Models (VLMs), and despite the impressive abilities of today's specialised segmentation models, it turns out that dense image understanding in the built environment is nowhere near solved. Our evaluations indicate that even the most recent zero-shot FMs face significant challenges when deployed on real-world infrastructure and even the performance of specialised models with domain-specific supervision plateaus at $\\approx$25% mAP. CiF establishes inspection of civil infrastructure, an elementary and seemingly easy perceptual task, as an open challenge that reveals fundamental weaknesses of present-day models trained predominantly on internet images, literally and figuratively highlighting cracks in the current foundation model paradigm.",
+  "title_relatable": "Why foundation models fail at spotting building cracks",
+  "hook": "A dataset of 150,000 high-resolution infrastructure images reveals that modern vision models, including foundation models, struggle severely at defect detection in civil infrastructure, with specialized models plateauing around 25% accuracy.",
+  "summary": "Automated inspection of building cracks and structural damage remains unsolved despite recent advances in foundation models and vision language models. This paper introduces Cracks in the Foundation (CiF), the largest infrastructure segmentation dataset to date with ~150,000 meticulously annotated high-resolution images collected over five years with civil engineering experts. Evaluations show that zero-shot foundation models and even specialized segmentation models fail significantly on real-world infrastructure, with performance capping around 25% mAP. The work identifies specific algorithmic challenges—center-bias and reliance on shape over texture—that explain why models trained on internet images underperform on nearly textureless building materials. This dataset and benchmark establish civil infrastructure inspection as an open problem.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1080,
+  "tokens_out": 253,
+  "cost_usd": 0.001876,
+  "ingested_at": "2026-05-19T03:22:18.329329+00:00"
+}

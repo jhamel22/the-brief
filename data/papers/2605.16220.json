@@ -1,0 +1,23 @@
+{
+  "id": "2605.16220",
+  "arxiv_url": "https://arxiv.org/abs/2605.16220",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "Non-minimal fluid Lagrangian couplings",
+  "authors": "Christian G. Boehmer, Erik Jensko, Eissa Al-Nasrallah",
+  "abstract": "Gravitational models with non-minimal couplings involving functions of the matter Lagrangian and curvature have become popular in recent decades. By coupling the matter Lagrangian directly to the gravitational Lagrangian, one hopes to construct theories that can explain dark energy or dark matter without introducing additional sources. When this matter Lagrangian describes a perfect fluid, some technicalities are involved in its variational formulation. We present a careful derivation of the gravitational field equations together with the complete set of fluid equations. The fluid's equations allow us to define thermodynamic quantities such as temperature, chemical potential and number density and thus allow us to understand the effects of the non-minimal couplings on these quantities. We demonstrate the non-equivalence of the Lagrangian formulations of Schutz and Brown for these types of models and provide a detailed interpretation of our results.",
+  "title_relatable": "How non-minimal gravity-matter couplings reshape fluid thermodynamics",
+  "hook": "Carefully deriving the full field and fluid equations for non-minimally coupled gravity reveals that two standard perfect-fluid Lagrangians, long assumed interchangeable, give physically distinct results.",
+  "summary": "Non-minimal couplings between curvature and the matter Lagrangian are a popular route to explaining dark energy or dark matter without new fields. Working through the variational formulation for a perfect fluid, the authors obtain the complete gravitational and fluid equations and extract thermodynamic quantities—temperature, chemical potential, and number density—showing explicitly how the coupling distorts them. A key finding is that the Schutz and Brown Lagrangian formulations, equivalent in standard general relativity, are no longer equivalent here. The distinction matters for any physical interpretation built on either formalism.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 886,
+  "tokens_out": 215,
+  "cost_usd": 0.005883,
+  "ingested_at": "2026-05-19T02:56:33.865592+00:00"
+}

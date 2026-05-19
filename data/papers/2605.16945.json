@@ -1,0 +1,24 @@
+{
+  "id": "2605.16945",
+  "arxiv_url": "https://arxiv.org/abs/2605.16945",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Circular polarization of the cosmic microwave background induced by the optical Magnus effect on gravitational lensing",
+  "authors": "Yusuke Nishida",
+  "abstract": "Polarization of the cosmic microwave background (CMB) brings out information not only on the early universe but also on the late-time large-scale structure via weak gravitational lensing. Here, we show that circular polarization is induced in principle from CMB temperature fluctuations when the optical Magnus effect is incorporated into gravitational lensing. This is a consequence of the transverse shift of a trajectory of light depending on its helicity that requires right-handed and left-handed components at the same observation point to be sourced from different points of the surface of last scattering. Whereas the resulting circular polarization is found far beyond the scope of current detection, our work establishes the optical Magnus effect on gravitational lensing as a new fundamental mechanism to produce circular polarization of CMB.",
+  "title_relatable": "Gravitational lensing gives the CMB a faint circular twist",
+  "hook": "Helicity-dependent light bending shifts left- and right-handed photons onto different paths, generating a new but undetectably small source of CMB circular polarization.",
+  "summary": "When light travels through curved spacetime, its trajectory shifts slightly sideways depending on its handedness — the optical Magnus effect. Applied to gravitational lensing of the CMB, this means left- and right-handed photons reaching the same detector originated from slightly different points on the last-scattering surface, mixing temperature fluctuations into circular polarization. The predicted signal is far below any current or near-future instrument's sensitivity, but the calculation identifies a previously unrecognized fundamental mechanism linking spin-Hall physics to CMB observables.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 861,
+  "tokens_out": 203,
+  "cost_usd": 0.005628,
+  "ingested_at": "2026-05-19T02:54:52.019190+00:00"
+}

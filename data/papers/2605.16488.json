@@ -1,0 +1,23 @@
+{
+  "id": "2605.16488",
+  "arxiv_url": "https://arxiv.org/abs/2605.16488",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "Thermostats, Not Engines: A New Picture of Halo Gas Regulation",
+  "authors": "Hiranya V. Peiris, Andrew Pontzen, Madalina N. Tudorache, Anik Halder, Stephen Thorp, Sinan Deger, Joop Schaye, Matthieu Schaller",
+  "abstract": "We propose that black hole feedback regulates gas in massive halos by establishing an entropy ceiling; the resulting buoyant gas migrates to the virial radius with no additional energy input required. The FLAMINGO simulations support this picture: at the virial radius, outflow entropy is mass-independent for isotropic thermal feedback but depends on the solid angle of directly heated gas for jet feedback. Above a critical halo mass $M_\\rm{crit} \\approx 10^{13.5\\text{--}14}\\, M_\\odot$, virial shocks overwhelm the ceiling, predicting rejuvenation of star formation in the most massive galaxies, supported by new low-redshift evidence from star formation rates and morphologies.",
+  "title_relatable": "Black holes set a gas thermostat, not an engine, in massive galaxies",
+  "hook": "Black hole feedback regulates halo gas by capping entropy rather than blasting it outward, a reframing with testable predictions for star formation in the most massive galaxies.",
+  "summary": "Rather than acting as engines that expel gas, black holes impose an entropy ceiling on the surrounding halo; buoyant gas then floats outward to the virial radius on its own. Analysis of the FLAMINGO cosmological simulations shows this ceiling is mass-independent for isotropic thermal feedback but shifts with jet geometry. Above a critical halo mass near 10^13.5–14 solar masses, virial shocks overcome the ceiling entirely—predicting a resumption of star formation in the universe's most massive galaxies, a signal the authors find in low-redshift star-formation rates and morphologies.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 904,
+  "tokens_out": 223,
+  "cost_usd": 0.006057,
+  "ingested_at": "2026-05-19T03:06:28.339856+00:00"
+}

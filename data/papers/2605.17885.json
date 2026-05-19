@@ -1,0 +1,23 @@
+{
+  "id": "2605.17885",
+  "arxiv_url": "https://arxiv.org/abs/2605.17885",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Multi-agent AI systems outperform human teams in creativity",
+  "authors": "Tiancheng Hu, Yixuan Jiang, Haotian Li, José Hernández-Orallo, Xing Xie, Nigel Collier, David Stillwell, Luning Sun",
+  "abstract": "Although artificial intelligence (AI) now matches or exceeds human performance across numerous cognitive tasks, creativity remains a highly contested frontier. As AI systems based on large language models (LLMs) are increasingly adopted in research and innovation, it is essential to understand and augment their creativity. Here we demonstrate that multi-agent LLM teams not only surpass single agents, but also substantially outperform human teams in creativity (Cohen's d=1.50) across 4,541 multi-agent LLM ideas and 341 human-team ideas on six diverse problem-solving tasks. This advantage is driven by novelty while maintaining comparable usefulness. To investigate the generative processes in both groups, we represent conversations as paths through semantic space using neural language model representations. Both LLM and human teams produce more creative ideas when conversations range widely rather than staying centered on a single theme (low global coherence). However, the additional patterns that predict creativity differ: LLM teams benefit from efficient exploration (high semantic spread, shorter paths), while human teams benefit from maintaining smooth conversational flow (high local coherence, frequent pivots). Additionally, we identify model choice and discussion structure as orthogonal design levers that together explain 26.8% of variance in LLM conversational dynamics, paving the way for systematic approaches to developing multi-agent systems with augmented creative capabilities.",
+  "title_relatable": "Multi-agent AI teams beat human creativity on hard problems",
+  "hook": "Teams of language models generate ideas 1.5 standard deviations more creative than human teams on six diverse problem-solving tasks, driven by exploration patterns that differ fundamentally from human collaboration.",
+  "summary": "This empirical study compares the creative output of multi-agent LLM teams to human teams across 4,541 AI-generated ideas and 341 human ideas on six tasks. LLM teams exceeded humans on creativity (Cohen's d=1.50) by favoring novelty while maintaining usefulness. Analysis of conversation semantics reveals both groups produce better ideas with less coherence around a single theme, but through different mechanisms: LLM teams benefit from efficient semantic exploration with short paths; human teams benefit from smooth conversational flow with frequent topic shifts. Model choice and discussion structure together explain 26.8% of variance in LLM team creativity. Results suggest systematic design levers for improving multi-agent creative capabilities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1006,
+  "tokens_out": 245,
+  "cost_usd": 0.0017848000000000002,
+  "ingested_at": "2026-05-19T03:16:51.551391+00:00"
+}

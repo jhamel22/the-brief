@@ -1,0 +1,24 @@
+{
+  "id": "2605.18139",
+  "arxiv_url": "https://arxiv.org/abs/2605.18139",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.quant-gas",
+    "nlin.PS",
+    "quant-ph"
+  ],
+  "title_original": "Confinement-controlled pattern selection in a finite population-imbalanced dipolar Bose-Einstein condensate",
+  "authors": "Zhenhao Wang, Weijing Bao, Jia-Rui Luo, Gentaro Watanabe, Kui-Tian Xi",
+  "abstract": "We study the ground-state density patterns of a population-imbalanced two-component dipolar Bose-Einstein condensate confined in a circular quasi-two-dimensional box. Using a mean-field model, we map out phase diagrams as functions of the axial confinement, interaction imbalance, and population ratio. The system supports a rich sequence of stationary morphologies, including a nearly uniform pancake state, pancake-droplet and ring-droplet coexistence states, droplet arrays, and concentric rings. These patterns show a close structural correspondence to microphase-separated morphologies in diblock-copolymer systems, with the population imbalance acting as an effective volume fraction that selects the pattern topology. Analysis of the density profiles and structure factors reveals that the modulated states possess an intrinsic nonzero characteristic wave vector, which remains essentially unchanged when the box size is varied. We also find that the characteristic pattern spacing scales linearly with the axial confinement length, indicating that the transverse thickness of the condensate controls the effective in-plane length scale. In a finite circular box, this smooth scaling is interrupted by discrete steps, reflecting geometric frustration and the integer locking of the number of rings or droplets. Our results show that box-trapped dipolar mixtures provide a controllable platform for studying finite-size pattern selection and nonlocal microphase formation in quantum fluids.",
+  "title_relatable": "Population imbalance steers droplet patterns in dipolar quantum gas",
+  "hook": "Tuning the ratio of two atomic species in a box-trapped dipolar condensate selects between droplets, rings, and uniform phases — mirroring pattern formation in block copolymers.",
+  "summary": "A mean-field study maps the ground-state morphologies of a two-component dipolar Bose-Einstein condensate confined in a circular 2D box, varying axial confinement, interaction strength, and population ratio. The system cycles through pancake states, droplet arrays, and concentric rings, with population imbalance acting like a volume fraction in block-copolymer microphase separation. The characteristic pattern spacing grows linearly with axial confinement length, but in a finite box this smooth trend breaks into discrete jumps as geometry forces integer numbers of rings or droplets — a clean signature of finite-size frustration. The work positions box-trapped dipolar mixtures as a tunable testbed for studying how boundary conditions and quantum fluctuations jointly govern self-organized structure.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1030,
+  "tokens_out": 262,
+  "cost_usd": 0.00702,
+  "ingested_at": "2026-05-19T03:00:25.563006+00:00"
+}

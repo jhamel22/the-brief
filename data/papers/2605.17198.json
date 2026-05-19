@@ -1,0 +1,23 @@
+{
+  "id": "2605.17198",
+  "arxiv_url": "https://arxiv.org/abs/2605.17198",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.CV"
+  ],
+  "title_original": "MIRAGE: Robust multi-modal architectures translate fMRI-to-image models from vision to mental imagery",
+  "authors": "Reese Kneeland, Cesar Kadir Torrico Villanueva, Jordyn Ojeda, Shuhb Khanna, Jonathan Xu, Paul S. Scotti, Thomas Naselaris",
+  "abstract": "To be useful for downstream applications, vision decoding models that are trained to reconstruct seen images from human brain activity must be able to generalize to internally generated visual representations, i.e., mental images. In an analysis of the recently released NSD-Imagery dataset, we demonstrated that while some modern vision decoders can perform quite well on mental image reconstruction, some fail, and that state-of-the-art (SOTA) performance on seen image reconstruction is no guarantee of SOTA performance on mental image reconstruction. Motivated by these findings, we developed MIRAGE, a method explicitly designed to train on vision datasets and cross-decode mental images from brain activity. MIRAGE employs a linear backbone and multi-modal text and image features as input to a diffusion model. Feature metrics and human raters establish MIRAGE as SOTA for mental image reconstruction on the NSD-Imagery benchmark. With ablation analysis we show that mental image reconstruction works best when decoders use image features with relatively few dimensions and include guidance from text-based and both high- and low-level image-based features. Our work indicates that--given the right architecture--existing large-scale datasets using external stimuli are viable training data for decoding mental images, and warrant optimism about the future success and utility of mental image reconstruction.",
+  "title_relatable": "Reconstructing mental images from brain scans with vision models",
+  "hook": "A method that translates vision decoding models trained on seen images to reconstruct mental imagery from brain activity, achieving state-of-the-art performance on the NSD-Imagery benchmark.",
+  "summary": "Brain-to-image decoding models trained to reconstruct viewed images often fail when applied to mental imagery—internally generated visual representations. MIRAGE addresses this gap by combining a linear backbone with multi-modal text and image features fed into a diffusion model, explicitly designed to cross-decode mental images. Testing on the NSD-Imagery dataset shows MIRAGE outperforms existing vision decoders on mental image reconstruction, even those with strong performance on seen images. Ablations reveal that lower-dimensional image features plus guidance from both text and multi-level visual features work best. The finding that large-scale external stimulus datasets can effectively train mental image decoders suggests practical utility for brain imaging applications.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1004,
+  "tokens_out": 239,
+  "cost_usd": 0.0017592,
+  "ingested_at": "2026-05-19T03:25:29.763034+00:00"
+}

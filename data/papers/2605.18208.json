@@ -1,0 +1,22 @@
+{
+  "id": "2605.18208",
+  "arxiv_url": "https://arxiv.org/abs/2605.18208",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Phonon-bottlenecked spin relaxation of Er$^{3+}$:CaWO$_4$ at milliKelvin temperatures",
+  "authors": "S. Rajendran, B. Mistri, P. K. Sharma, S. E. Kubatkin, A. V. Danilov, S. Dhomkar, S. E. de Graaf, V. Ranjan",
+  "abstract": "We study spin-lattice relaxation times of electron spins in Er$^{3+}$:CaWO$_4$ at millikelvin temperature, detected via their coupling to a low-mode volume superconducting resonator. At large magnetic field supporting strong phonon-emission rates, we observe a noticeable increase in relaxation times with increasing spin-excitations, which exhibit a unique $[\\tanh (\\hbar ω_0/k_\\text{B} T)]^2$ temperature dependence. These observations are typical of a phonon-bottlenecked spin relaxation, and have implications for quantum technologies that exploit rare-earth spin ensembles as coherent resources.",
+  "title_relatable": "Phonon traffic jams slow down erbium spin relaxation at ultralow temperatures",
+  "hook": "Erbium spins in a crystal relax more slowly when more spins are excited—a phonon bottleneck effect with direct consequences for rare-earth-based quantum memories.",
+  "summary": "Spin-lattice relaxation in Er³⁺:CaWO₄ was measured at millikelvin temperatures using a superconducting resonator with a small mode volume. At high magnetic fields, relaxation times grow with the number of excited spins and follow a distinctive tanh²(ℏω₀/k_BT) temperature dependence—the hallmark of a phonon bottleneck, where emitted phonons cannot escape the crystal fast enough and are reabsorbed. The finding matters for quantum technologies using rare-earth spin ensembles as quantum memories or transducers, where this bottleneck could degrade or extend coherence depending on the operating regime.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 912,
+  "tokens_out": 245,
+  "cost_usd": 0.006411,
+  "ingested_at": "2026-05-19T03:00:03.587290+00:00"
+}

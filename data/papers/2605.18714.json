@@ -1,0 +1,23 @@
+{
+  "id": "2605.18714",
+  "arxiv_url": "https://arxiv.org/abs/2605.18714",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Semantic Generative Tuning for Unified Multimodal Models",
+  "authors": "Songsong Yu, Yuxin Chen, Ying Shan, Yanwei Li",
+  "abstract": "Unified multimodal models (UMMs) strive to consolidate visual understanding and visual generation within a single architecture. However, prevailing training paradigms independently optimize understanding via sparse text signals and generation through dense pixel objectives. Such a decoupled strategy yields misaligned representation spaces, isolating visual understanding from generation and hindering their mutual reinforcement. This work presents the first systematic investigation into generative post-training, where we formulate hierarchical visual tasks as generative proxies to bridge the isolation in UMMs. Our empirical investigation reveals that high-level semantic tasks, particularly image segmentation, serve as optimal proxies. Unlike low-level tasks that distract models with texture details, segmentation provides structural semantics that significantly enhance both vision-centric perception and generative layout fidelity. Building upon these insights, we introduce Semantic Generative Tuning (SGT), a novel paradigm that leverages segmentation as a generative proxy to align and synergize multimodal capabilities. Mechanistic analyses further demonstrate that SGT fundamentally improves feature linear separability and optimizes visual-textual attention allocation pattern. Extensive evaluations show that SGT consistently improves both multimodal comprehension and generative fidelity across mainstream benchmarks. Our code is available on the https://song2yu.github.io/SGT/.",
+  "title_relatable": "Making image understanding and generation work together",
+  "hook": "A new training approach uses image segmentation to align visual understanding and generation in unified multimodal models, improving both perception and image creation quality.",
+  "summary": "Unified multimodal models that handle both vision understanding and generation typically train these tasks separately, leaving them isolated in feature space. This work identifies image segmentation as an optimal generative proxy task—more effective than low-level tasks—to bridge this gap. The authors introduce Semantic Generative Tuning (SGT), which leverages segmentation during post-training to strengthen both vision-language understanding and generative layout fidelity. Mechanistic analysis shows SGT improves feature separability and attention allocation between visual and textual modalities. Evaluated on standard benchmarks, the method consistently improves multimodal comprehension and image generation quality. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 979,
+  "tokens_out": 218,
+  "cost_usd": 0.0016552000000000001,
+  "ingested_at": "2026-05-19T03:22:54.810190+00:00"
+}

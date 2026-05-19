@@ -1,0 +1,24 @@
+{
+  "id": "2605.17919",
+  "arxiv_url": "https://arxiv.org/abs/2605.17919",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "Superform Approach to Equivariant Localization in Supergravity",
+  "authors": "Michele Galli, Christian Kennedy, Parth Raina, Gabriele Tartaglino-Mazzucchelli",
+  "abstract": "We identify a superspace mechanism behind equivariant localization in supergravity. We show that closed superforms generate, on supersymmetric backgrounds, equivariantly closed polyforms. After presenting the general mechanism, we construct such polyforms for vector and linear multiplets, and for chiral and BF action principles, in off-shell $4d$ $\\mathcal{N}=2$ conformal supergravity, reproducing and extending recent results. Our construction provides a geometric first step toward equivariant localization of BPS observables in supergravity, including higher-derivative theories, and holography.",
+  "title_relatable": "Superspace geometry explains why certain quantum gravity calculations simplify exactly",
+  "hook": "A superspace mechanism shows why equivariant localization works in supergravity, providing a geometric foundation for exact calculations of BPS observables including in holography.",
+  "summary": "Equivariant localization lets physicists compute path integrals exactly by reducing them to contributions from special field configurations, but its geometric underpinning in supergravity has been unclear. This work identifies closed superforms as the engine: on supersymmetric backgrounds they automatically generate the equivariantly closed polyforms that localization requires. The authors demonstrate the mechanism explicitly for several multiplets and action principles in four-dimensional N=2 conformal supergravity, recovering and extending known results. The framework is designed to handle higher-derivative theories and holographic applications, where exact results are rare.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 850,
+  "tokens_out": 214,
+  "cost_usd": 0.00576,
+  "ingested_at": "2026-05-19T02:53:58.901175+00:00"
+}

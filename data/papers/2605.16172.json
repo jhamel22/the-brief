@@ -1,0 +1,22 @@
+{
+  "id": "2605.16172",
+  "arxiv_url": "https://arxiv.org/abs/2605.16172",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Background-Equivariant BRST Observables and i-Particle Propagators from an Auxiliary Quartet in SU(3) Yang-Mills",
+  "authors": "M. M. Amaral, V. E. R. Lemes",
+  "abstract": "In this work, we construct a BRST-exact quartet mechanism in $SU(3)$ Yang-Mills theory in the Landau gauge. The quartet sector is cohomologically trivial in the standard vacuum, ensuring equivalence to pure Yang-Mills theory. The transformation rules carry both commutator and anticommutator structures, enlarging the field content from eight to nine degrees of freedom. Working in a prescribed Cartan-oriented background (compatible with the classical equations of motion), the theory induces a mass matrix reproducing the distinct $i$-particle propagator structure of earlier replica models without explicit breaking terms. To respect the BRST doublet theorem, we separate background generation from observable cohomology. Introducing a background-equivariant covariant Cartan frame, we show the filtered $i$-particle bilinear is the lowest perturbative component of an all-orders off-shell BRST cocycle. Despite the complex poles of elementary propagators, its leading two-point function retains a Källén--Lehmann representation with a real positive threshold and positive spectral density. The fully quantized action provides a consistent framework for renormalizability, establishing a systematic mechanism for recovering $i$-particle propagators and identifying BRST-controlled composite observables from a BRST-exact quartet extended to $SU(3)$.",
+  "title_relatable": "How gluon confinement hides inside BRST symmetry in Yang-Mills theory",
+  "hook": "A quartet of auxiliary fields in SU(3) Yang-Mills reproduces complex-pole 'i-particle' propagators linked to gluon confinement while preserving BRST symmetry and a well-behaved spectral density.",
+  "summary": "The paper constructs a cohomologically trivial quartet of fields in SU(3) Yang-Mills theory in Landau gauge — meaning no physical degrees of freedom are added in the standard vacuum. Choosing a Cartan-oriented background compatible with the equations of motion, the extended theory generates a mass matrix that reproduces the complex-pole propagator structure associated with confined gluons in earlier replica models, but without explicit symmetry breaking. A key result is that despite the complex poles in elementary propagators, a particular composite bilinear retains a Källén–Lehmann spectral representation with a real positive threshold, providing a BRST-consistent framework for renormalizability and confinement-related observables.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1009,
+  "tokens_out": 263,
+  "cost_usd": 0.006972,
+  "ingested_at": "2026-05-19T02:59:41.802105+00:00"
+}

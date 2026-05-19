@@ -1,0 +1,23 @@
+{
+  "id": "2605.18387",
+  "arxiv_url": "https://arxiv.org/abs/2605.18387",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Graph Hierarchical Recurrence for Long-Range Generalization",
+  "authors": "Stefano Carotti, Marco Pacini, Alessio Gravina, Davide Bacciu, Bruno Lepri, Sebastiano Bontorin",
+  "abstract": "Graph Neural Networks (GNNs) and Graph Transformers (GTs) are now a fundamental paradigm for graph learning, combining the representation-learning capabilities of deep models with the sample efficiency induced by their inductive biases. Despite their effectiveness, a large body of work has shown that these models still face fundamental limitations in tasks that require capturing correlations between distant regions of a graph. To address this issue, we introduce Graph Hierarchical Recurrence (GHR), a novel framework that operates jointly on the input graph and on a hierarchical abstraction obtained through pooling. We also show that the limitations of existing models are even more pronounced in out-of-range generalization, where test instances involve interactions over distances longer than those observed during training. By contrast, despite its simple design, GHR provides three key advantages: strong performance on long-range dependencies, improved out-of-range generalization, and high parameter efficiency. To corroborate these claims, we show that across a broad set of long-range benchmarks, GHR consistently outperforms existing graph models while using as little as 1% of the parameters of current state-of-the-art models. These results suggest a complementary direction to the current trend of scaling architectures to obtain graph foundation models, indicating that increased model capacity alone may not be sufficient for generalization.",
+  "title_relatable": "Graph neural networks that generalize to longer distances",
+  "hook": "A new framework processes graphs at multiple abstraction levels simultaneously, capturing long-range dependencies with 99% fewer parameters than existing models and generalizing to unseen distance scales.",
+  "summary": "Graph Neural Networks and Transformers struggle to capture correlations between distant nodes and fail when test graphs contain longer-range interactions than training data. Graph Hierarchical Recurrence (GHR) addresses this by operating jointly on the original graph and hierarchical pooled abstractions. Across long-range benchmarks, GHR matches or exceeds state-of-the-art performance while using as little as 1% of baseline parameters. The work demonstrates that parameter efficiency—not scaling capacity—may be key to out-of-distribution generalization on graph tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 989,
+  "tokens_out": 204,
+  "cost_usd": 0.0016072,
+  "ingested_at": "2026-05-19T03:09:05.325652+00:00"
+}

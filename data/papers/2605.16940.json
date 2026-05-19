@@ -1,0 +1,22 @@
+{
+  "id": "2605.16940",
+  "arxiv_url": "https://arxiv.org/abs/2605.16940",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Reconstruction of Tsallis Holographic Dark Energy via Modified Non-Metric Gravity: An $f(Q,C)$ Approach",
+  "authors": "Sanjeeda Sultana, Surajit Chattopadhyay",
+  "abstract": "In the current research, we have reported the Tsallis Holographic Dark Energy (THDE) (\\textit{JCAP}, 2018(12), p.012.) model reconstructed within the framework of $f(Q, C)$ gravity (\\textit{JCAP}, 2024(03), p.050.), combining entropy-based dark energy models with geometrically motivated modified gravity to explain late-time cosmic acceleration. The reconstructed model is found to exhibit significant sensitivity to the parameter space $(H_0, a_0, n, δ, ζ,r_d)$ and the initial conditions. The evolution of the equation of state and deceleration parameters is found to be highly dependent on these parameters. A comprehensive Markov Chain Monte Carlo analysis using observational datasets comprising {CC+Pantheon$^{+}$+DESI DR2} was performed, yielding best-fit values that demonstrate strong consistency with observational data, which is further validated for its consistency through the computation of the age of the Universe. The evolution of the jerk and snap parameters is examined and compared with the $Λ$CDM prediction. Statefinder diagnostics, through the evolutionary trajectories of the pairs $(r, s)$ and $(r, q)$ are derived and indicate that the model passes through the $Λ$CDM fixed point and the physical viability of the model is further consolidated through analysis of the four energy conditions.",
+  "title_relatable": "Tweaking gravity's geometry to explain dark energy's behavior",
+  "hook": "A modified gravity framework combining non-metric geometry with entropy-based dark energy reproduces cosmic acceleration and passes observational tests from three independent datasets.",
+  "summary": "This study reconstructs a Tsallis Holographic Dark Energy model inside f(Q,C) gravity — a theory where spacetime curvature is replaced by non-metricity and its boundary term. The reconstructed model is fitted against combined Cosmic Chronometers, Pantheon+, and DESI DR2 data via MCMC, yielding parameters consistent with the observed age of the Universe. Statefinder diagnostics show the model's trajectory passes through the ΛCDM fixed point, and all four standard energy conditions are satisfied. The results are strongly sensitive to initial conditions and the chosen parameter space, which limits predictive sharpness.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1036,
+  "tokens_out": 219,
+  "cost_usd": 0.006393,
+  "ingested_at": "2026-05-19T02:54:57.568378+00:00"
+}

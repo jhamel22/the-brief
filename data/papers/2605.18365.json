@@ -1,0 +1,22 @@
+{
+  "id": "2605.18365",
+  "arxiv_url": "https://arxiv.org/abs/2605.18365",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "GeoFlow: Enforcing Implicit Geometric Consistency in Video Generation",
+  "authors": "Jan Ackermann, Shengqu Cai, Boyang Deng, Zhengfei Kuang, Songyou Peng, Gordon Wetzstein",
+  "abstract": "Generating geometrically consistent videos remains an open challenge: text-to-video diffusion models trained on web-scale data treat geometry only implicitly, leading to object deformation, texture drift, and non-rigid backgrounds under camera motion. Existing solutions either improve consistency as a byproduct, apply only to static scenes or realign the latent space of the model completely. We introduce a geometry-consistency reward that directly measures whether motion in a generated video is compatible with a coherent scene. Our key insight is that in physically consistent videos, background motion should be explainable by rigid camera-induced flow, while independently moving objects should preserve appearance identity along motion trajectories. We operationalize this using optical flow, depth--pose predictions, and feature-based correspondence to separate rigid and dynamic regions and evaluate their respective consistency. Integrating this reward with reinforcement fine-tuning transforms geometric consistency from an emergent property into an explicit optimization objective for video generators. The approach is model agnostic and applies to diverse dynamic scenes containing both camera and object motion. Experiments show substantial reductions in temporal geometric artifacts over strong baselines while preserving perceptual quality. Code and model weights are published.",
+  "title_relatable": "Making video generators respect physics and geometry",
+  "hook": "A reward function that measures geometric consistency in generated videos by separating rigid camera motion from dynamic objects, then uses reinforcement learning to optimize for it directly.",
+  "summary": "Text-to-video diffusion models generate plausible motion but often produce geometric artifacts—deformed objects, texture drift, and unrealistic background movement. GeoFlow introduces a geometry-consistency reward that judges whether a generated video respects physical principles: backgrounds should move only due to camera motion (rigid flow), while moving objects should maintain visual identity. The method uses optical flow, depth-pose estimation, and feature matching to separate rigid and dynamic regions, then applies reinforcement learning to fine-tune any video model explicitly for this objective. Experiments show substantial reduction in geometric artifacts while maintaining visual quality. Code and weights are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 208,
+  "cost_usd": 0.0016,
+  "ingested_at": "2026-05-19T03:22:24.537681+00:00"
+}

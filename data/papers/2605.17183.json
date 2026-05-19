@@ -1,0 +1,24 @@
+{
+  "id": "2605.17183",
+  "arxiv_url": "https://arxiv.org/abs/2605.17183",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Dense $\\mathrm{QC_2D_2}$ with uniform matrix product states",
+  "authors": "Kohei Fujikura, Yoshimasa Hidaka",
+  "abstract": "We study cold dense single-flavor $\\mathrm{SU}(2)$ gauge theory in $(1+1)$ dimensions in the thermodynamic limit using a gauge-invariant variational uniform matrix product state ansatz. This formulation provides a sign-problem-free, first-principles approach to dense QCD. We show that, at finite baryon density, the infrared behavior is consistent with a Tomonaga--Luttinger liquid: the central charge is determined to be $c=1$, and the two-point function of the baryon-number density exhibits spatial modulation with the wavenumber predicted by Tomonaga--Luttinger liquid theory. The Luttinger parameter varies smoothly from $K\\simeq 1$ in the dilute-baryon regime to $K\\simeq 1/2$ at higher densities, suggesting a quarkyonic crossover. Furthermore, the quark distribution reveals the coexistence of a quark Fermi sea with a baryonic infrared description, thereby realizing the quarkyonic picture from first principles.",
+  "title_relatable": "Dense quark matter forms a Luttinger liquid in two dimensions",
+  "hook": "A sign-problem-free tensor-network calculation finds that dense two-color QCD behaves like a Luttinger liquid and directly realizes the quarkyonic picture from first principles.",
+  "summary": "Using a gauge-invariant matrix product state ansatz — essentially a one-dimensional quantum simulation free of the sign problem that plagues lattice QCD at finite density — the authors solve SU(2) gauge theory with matter in 1+1 dimensions across a range of baryon densities. The system consistently shows central charge c=1 and density correlations matching Tomonaga–Luttinger liquid theory, with the Luttinger parameter sliding from K≈1 at low density to K≈1/2 at higher density. Crucially, the quark momentum distribution reveals a quark Fermi sea coexisting with a baryonic low-energy description, providing a first-principles confirmation of the quarkyonic matter scenario proposed for real dense QCD.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 939,
+  "tokens_out": 258,
+  "cost_usd": 0.006687,
+  "ingested_at": "2026-05-19T02:57:47.842979+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.17087",
+  "arxiv_url": "https://arxiv.org/abs/2605.17087",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "The Learnability Gap in Medical Latent Diffusion",
+  "authors": "Mischa Dombrowski, Felix Nützel, Bernhard Kainz",
+  "abstract": "Generative data augmentation with latent diffusion models is a promising strategy for addressing class imbalance in medical imaging, yet current approaches focus on perceptual fidelity and domain-specific autoencoder fine-tuning while neglecting a more fundamental bottleneck. We identify and formalize the learnability gap: large-scale pretrained autoencoders faithfully encode discriminative features for medical classification, as evidenced by near-lossless performance in reconstruction space, yet their latent representations are structured in ways that are difficult for classifiers to learn from. Across five autoencoder families and four medical benchmarks spanning chest radiography, dermatoscopy, computed tomography, and echocardiography, we show that this gap persists regardless of architecture, initialization strategy, or hyperparameter tuning, and that medical-domain fine-tuning of the autoencoder does not close it. To probe and partially narrow the gap, we develop noise-conditioned latent classifiers with FiLM layers and image-space distillation that offer 64x throughput and 120x memory gains over image-space models while serving as diagnostic tools for latent space quality. Our analysis provides a new framework for evaluating autoencoder latent spaces and identifies their structure, rather than their fidelity or domain specificity, as the primary obstacle to closing the performance gap between real and synthetic medical training data.",
+  "title_relatable": "Why medical imaging models struggle with synthetic data",
+  "hook": "Medical diffusion models encode diagnostic features faithfully but in ways classifiers can't easily learn from—a structural problem that persists across architectures and domains.",
+  "summary": "Generative augmentation with latent diffusion models promises to address class imbalance in medical imaging, but this work identifies a fundamental bottleneck: pretrained autoencoders successfully reconstruct medical images yet organize their latent representations in ways that confuse downstream classifiers. Testing five autoencoder families across chest X-rays, dermatoscopy, CT, and echocardiography confirms the learnability gap exists regardless of architecture or hyperparameter choices. The authors introduce noise-conditioned latent classifiers with FiLM layers and image-space distillation that achieve 64× throughput gains and 120× memory savings while diagnosing latent space quality. The core finding: latent space structure, not perceptual fidelity or domain fine-tuning, is the primary barrier to closing the performance gap between real and synthetic medical data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 989,
+  "tokens_out": 266,
+  "cost_usd": 0.0018552,
+  "ingested_at": "2026-05-19T03:25:52.025790+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.18298",
+  "arxiv_url": "https://arxiv.org/abs/2605.18298",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.HC",
+    "cs.LG"
+  ],
+  "title_original": "DARE-EEG: A Foundation Model for Mining Dual-Aligned Representation of EEG",
+  "authors": "Yang Shao, Peiliang Gong, Qun Dai, Daoqiang Zhang",
+  "abstract": "Foundation models pre-trained through masked reconstruction on large-scale EEG data have emerged as a promising paradigm for learning generalizable neural representations across diverse brain-computer interface applications. However, a critical yet overlooked challenge is that EEG encoders must learn representations invariant to incomplete observations-when different masked views of the same signal have minimal overlap, existing methods fail to constrain them to a consistent latent subspace, leading to degraded transferability. To address this, we propose DARE-EEG, a self-supervised foundation model that explicitly enforces the mask-invariance property through dual-aligned representation learning during pre-training. Specifically, we introduce mask alignment that constrains representations from multiple masked views of the same EEG sample via contrastive learning, complementing anchor alignment that aligns masked representations to momentum-updated complete features for semantic stability. Additionally, we propose conv-linear-probing, a parameter-efficient strategy that adapts pre-trained representations to heterogeneous electrode configurations and sampling rates through decoupled spectro-spatial projections. Extensive experiments across diverse EEG benchmarks demonstrate that DARE-EEG consistently achieves state-of-the-art in accuracy performance while maintaining relatively low parameter complexity and superior cross-dataset portability compared to existing methods. Furthermore, DARE-EEG contributes to effectively discovering and utilizing the rich potential representations in EEG.",
+  "title_relatable": "Foundation model learns consistent brain signals despite incomplete data",
+  "hook": "A self-supervised EEG encoder that maintains consistent representations across partially masked signal views, improving cross-dataset transfer and downstream task accuracy.",
+  "summary": "EEG foundation models trained on masked reconstruction struggle when different masked views of the same signal have minimal overlap, failing to learn consistent representations. DARE-EEG solves this through dual-aligned representation learning: mask alignment uses contrastive learning to constrain representations from multiple masked views of the same sample, while anchor alignment stabilizes features against momentum-updated complete signals. The method also introduces conv-linear-probing to adapt pre-trained models to different electrode configurations and sampling rates without retraining. Experiments across EEG benchmarks show state-of-the-art accuracy with superior cross-dataset portability and lower parameter complexity than existing methods. This is aimed at brain-computer interface researchers and practitioners building generalizable EEG models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 999,
+  "tokens_out": 234,
+  "cost_usd": 0.0017352000000000001,
+  "ingested_at": "2026-05-19T03:09:20.494970+00:00"
+}

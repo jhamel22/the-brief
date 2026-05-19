@@ -1,0 +1,24 @@
+{
+  "id": "2605.17849",
+  "arxiv_url": "https://arxiv.org/abs/2605.17849",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Generating Pretraining Tokens from Organic Data for Data-Bound Scaling",
+  "authors": "Zichun Yu, Chenyan Xiong",
+  "abstract": "LLM pretraining is shifting from a compute-bound to a data-bound regime, where available human (organic) text falls far short of scaling demands. However, reaching the data-bound regime does not mean the model has fully utilized its organic corpus. In this paper, we introduce SynPro, a synthetic data generation framework that helps LLMs more thoroughly learn from limited organic data. SynPro applies two operations, rephrasing and reformat, that present the same organic source in diverse forms to facilitate deeper learning without introducing external information. Both generators are optimized via reinforcement learning with quality, faithfulness, and data influence rewards, and are continuously updated as pretraining plateaus to target content the model has yet to absorb. We pretrain 400M and 1.1B models with 10% of their Chinchilla-optimal tokens (0.8B and 2.2B) from DCLM-Baseline, reflecting a realistic data-bound regime in frontier pretraining. Our results reveal that organic data is significantly underutilized by standard repetition: SynPro unlocks 3.7-5.2x the effective tokens of repetition, even surpassing the non-data-bound oracle that trains on equivalent unique data at the 1.1B scale. Analyses confirm that faithful, model-aware synthesis sustains data-bound scaling without causing distribution collapse. We open-source our code at https://github.com/cxcscmu/SynPro.",
+  "title_relatable": "Multiplying training data by rephrasing instead of repeating",
+  "hook": "A framework that generates synthetic variants of limited training text achieves 3.7–5.2× more effective tokens than simple repetition, keeping language models scaling when organic data runs short.",
+  "summary": "Language model pretraining now faces a data bottleneck: there aren't enough human-written texts to feed the models that exist. SynPro addresses this by applying two operations—rephrasing and reformatting—to existing organic data, creating diverse versions without introducing false information. Both generators are tuned via reinforcement learning to maximize quality and model influence, updating continuously as pretraining progresses. On 400M and 1.1B parameter models using only 10% of Chinchilla-optimal tokens, SynPro outperforms naive repetition and even matches oracle performance (training on unique data) at the larger scale. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1011,
+  "tokens_out": 234,
+  "cost_usd": 0.0017448000000000001,
+  "ingested_at": "2026-05-19T03:17:40.849062+00:00"
+}

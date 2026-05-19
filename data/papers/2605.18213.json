@@ -1,0 +1,24 @@
+{
+  "id": "2605.18213",
+  "arxiv_url": "https://arxiv.org/abs/2605.18213",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math-ph",
+    "nlin.SI"
+  ],
+  "title_original": "The classical Yangian symmetry of Auxiliary Field Sigma Models",
+  "authors": "Daniele Bielli, Christian Ferko, Michele Galli, Gabriele Tartaglino-Mazzucchelli",
+  "abstract": "Integrable field theories exhibit infinitely many symmetries which underlie their solvability, but the structure of these symmetries can become obscured after performing an integrable deformation such as $\\TT$ or an auxiliary field deformation. In this paper, we present a systematic organizing principle for understanding deformed charges and their Yangian structure in a broad class of integrable sigma models and their auxiliary field deformations. We generalize the recursive procedure of Brezin, Itzykson, Zinn-Justin, and Zuber (BIZZ) for generating non-local charges, and give sufficient conditions under which the resulting charges obey a Yangian algebra. We apply these results to many examples of integrable sigma models and their auxiliary field deformations, finding a Yangian algebra and Maillet bracket structure in all cases. This offers a unified explanation for the persistence of Hamiltonian integrability and Yangian symmetry across a wide landscape of deformed sigma models.",
+  "title_relatable": "Hidden infinite symmetries survive across a family of deformed field theories",
+  "hook": "A unified framework shows that Yangian symmetry — the infinite tower of charges behind exactly solvable field theories — persists through a broad class of integrable deformations, explaining why these theories remain solvable.",
+  "summary": "Exactly solvable field theories possess infinitely many conserved charges organized into a Yangian algebra, but deforming such theories can obscure whether those charges survive. By generalizing a 1970s recursive procedure due to Brezin, Itzykson, Zinn-Justin, and Zuber, the authors derive sufficient conditions for deformed charges to still satisfy a Yangian algebra and the associated Maillet bracket structure. Applying this to a wide class of sigma models and their auxiliary-field deformations, they find Yangian symmetry intact in every case. The result provides a systematic explanation for why integrability is so robust under these deformations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 921,
+  "tokens_out": 241,
+  "cost_usd": 0.006378,
+  "ingested_at": "2026-05-19T02:57:25.815904+00:00"
+}

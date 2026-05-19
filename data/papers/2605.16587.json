@@ -1,0 +1,22 @@
+{
+  "id": "2605.16587",
+  "arxiv_url": "https://arxiv.org/abs/2605.16587",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "3d QFT IR divergences as UV divergences in 4d Holographic Cosmology",
+  "authors": "Matheus Cravo, Horatiu Nastase",
+  "abstract": "In this paper we consider IR divergences in a 3d toy model field theory for 4d holographic cosmology, and we analyze them by introducing a mass term in a way that preserves a certain form of the generalized conformal structure. This allows us to compute 2- and 3-point functions at 2-loops and study their IR structure below the mass scale, from which we argue for a possible IR finiteness beyond perturbation theory, consistent with lattice results. In the holographically dual 4d cosmology, this corresponds to UV finiteness, i.e., the absence of cosmological singularities. The 3d IR field theory methods could be extended beyond this specific application.",
+  "title_relatable": "How infrared glitches in 3D field theory hint at a singularity-free cosmos",
+  "hook": "Infrared divergences in a 3D quantum field theory map onto ultraviolet divergences in a holographic 4D cosmology, suggesting the Big Bang singularity may be absent.",
+  "summary": "Using a mass-regulated 3D toy model that preserves a generalized conformal structure, the authors compute two- and three-point functions at two-loop order and examine their infrared behavior below the mass scale. The results, consistent with lattice calculations, point toward infrared finiteness beyond perturbation theory. Via holographic duality, infrared safety in the 3D theory translates directly into ultraviolet safety in the dual 4D cosmology — meaning no cosmological singularities. The field-theory techniques developed here are general enough to apply beyond this specific holographic setting.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 852,
+  "tokens_out": 225,
+  "cost_usd": 0.005931,
+  "ingested_at": "2026-05-19T02:58:47.872110+00:00"
+}

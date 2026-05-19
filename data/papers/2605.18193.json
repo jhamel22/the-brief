@@ -1,0 +1,23 @@
+{
+  "id": "2605.18193",
+  "arxiv_url": "https://arxiv.org/abs/2605.18193",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR"
+  ],
+  "title_original": "Best Segmentation Buddies for Image-Shape Correspondence",
+  "authors": "Itai Lang, Dongwei Lyu, Dale Decatur, Rana Hanocka",
+  "abstract": "Finding correspondences is a fundamental and extensively researched problem in computer vision and graphics. In this work, we examine the underexplored task of estimating segmentation-to-segmentation correspondence between images in the wild and untextured 3D shapes. This task is highly challenging due to substantial differences in appearance, geometry, and viewpoint. Our approach bridges the cross-modality gap by linking pixels in the image segment to vertices in the corresponding semantic part of the 3D shape. To achieve this, we first distill deep visual features from a 2D vision model onto the 3D shape surface, allowing for the computation of feature similarity between image pixels and shape vertices. Then, we identify Best Segmentation Buddies, vertices whose most similar image pixel lies within the image segmentation region, enabling the reliable discovery of vertices in semantically corresponding shape parts. Finally, we leverage distilled 3D features from the 2D image segmentation model to segment the shape directly in 3D, bootstrapping the correspondence process. We demonstrate the generality and robustness of our approach across a wide range of image-shape pairs, showcasing accurate and semantically meaningful correspondences. Our project page is at https://threedle.github.io/bsb/.",
+  "title_relatable": "Matching image regions to 3D shapes without texture",
+  "hook": "A method for finding semantic correspondences between image segments and untextured 3D shapes by distilling 2D vision features onto 3D surfaces, then identifying vertices whose nearest image pixels fall within matching regions.",
+  "summary": "This work addresses the challenge of establishing correspondence between 2D image segments and 3D shape parts—a problem complicated by differences in appearance, geometry, and viewpoint. The approach distills features from a 2D vision model onto a 3D shape surface, then identifies \"Best Segmentation Buddies\": vertices whose most similar image pixels lie within the corresponding image segmentation region. This enables reliable cross-modal matching. The method works directly with untextured 3D shapes and requires only image segmentation labels, demonstrating robustness across diverse real-world image-shape pairs. Code and interactive results are available on the project page.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 956,
+  "tokens_out": 232,
+  "cost_usd": 0.0016928000000000002,
+  "ingested_at": "2026-05-19T03:22:27.212374+00:00"
+}

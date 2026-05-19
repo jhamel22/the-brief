@@ -1,0 +1,22 @@
+{
+  "id": "2605.18203",
+  "arxiv_url": "https://arxiv.org/abs/2605.18203",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Natural modification of quantum uncertainty, modified gravity, and cosmology",
+  "authors": "Christian G. Boehmer, Eissa Al-Nasrallah",
+  "abstract": "A common approach in physics and mathematics is to extend and modify theories and frameworks by considering what is often described as a `natural' extension or modification by including higher-order terms or by introducing other non-linearities. We show that such an approach must be taken with care as physical models can be connected in indirect ways. What looks like a natural approach in one setting will likely not be natural in another. We use the flat Friedmann-Lemaitre-Robertson-Walker equations of cosmology to connect the generalized uncertainty principle to modified theories of gravity. A simple additional term in one setting leads to enormous complications in the other. We identify Born-Infeld models as the only ones which appear natural in both settings.",
+  "title_relatable": "Born-Infeld gravity sits at the sweet spot of two quantum extensions",
+  "hook": "Modifying quantum uncertainty and modifying gravity both change cosmological equations, and only Born-Infeld models look natural from both sides simultaneously.",
+  "summary": "When physicists add 'natural' corrections to quantum mechanics — such as the generalized uncertainty principle — or to gravity, both changes ultimately reshape the same flat cosmological equations. This paper maps the two modifications onto each other through the Friedmann equations, revealing that a simple tweak in one framework can produce unwieldy, unnatural complexity in the other. Scanning across possible models, Born-Infeld-type theories emerge as the unique class that remains elegantly simple on both the quantum-uncertainty and the modified-gravity sides of the correspondence.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 841,
+  "tokens_out": 195,
+  "cost_usd": 0.005448,
+  "ingested_at": "2026-05-19T02:53:09.752008+00:00"
+}

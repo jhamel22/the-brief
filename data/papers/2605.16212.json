@@ -1,0 +1,23 @@
+{
+  "id": "2605.16212",
+  "arxiv_url": "https://arxiv.org/abs/2605.16212",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-ph",
+    "gr-qc"
+  ],
+  "title_original": "Impact of spectator fields and non-minimal couplings in spontaneous baryogenesis",
+  "authors": "Mattia Dubbini",
+  "abstract": "We investigate the model of spontaneous baryogenesis, considering two extensions to the background paradigm. Firstly, we introduce a non-minimal coupling between gravity and the inflaton, increasing the effective mass squared of the latter. In this way, the inflaton decays more likely into fermion-antifermion pairs during reheating, through baryon-number violating processes. Accordingly, we obtain an overall baryon asymmetry consistent with cosmological observations. Then, we consider a complex scalar spectator field interacting with the inflaton through a biquadratic coupling and non-minimally with gravity, and analyze the impact in terms of baryon asymmetry production. In this scenario too, the background model results significantly enhanced, but the predicted baryon-to-entropy ratio remains smaller than the experimental data.",
+  "title_relatable": "Two fixes for spontaneous baryogenesis, one working better than the other",
+  "hook": "Adding a non-minimal gravity coupling to the inflaton can bring spontaneous baryogenesis into agreement with observations, but introducing a spectator field falls short.",
+  "summary": "Spontaneous baryogenesis ties the matter-antimatter asymmetry to the rolling of a scalar field during reheating. Two modifications are tested: coupling the inflaton non-minimally to gravity raises its effective mass, boosting decays into fermion-antifermion pairs via baryon-number-violating processes enough to match the observed baryon-to-entropy ratio. A second extension adds a complex spectator field coupled both to the inflaton and to gravity, which enhances asymmetry production but still undershoots the measured value, ruling it out as a standalone solution.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 862,
+  "tokens_out": 211,
+  "cost_usd": 0.005751,
+  "ingested_at": "2026-05-19T02:56:39.051424+00:00"
+}

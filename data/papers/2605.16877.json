@@ -1,0 +1,22 @@
+{
+  "id": "2605.16877",
+  "arxiv_url": "https://arxiv.org/abs/2605.16877",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Zero-Shot Faithful Textual Explanations via Directional-Derivative Influence on Predictions",
+  "authors": "Toshinori Yamauchi, Hiroshi Kera, Kazuhiko Kawamoto",
+  "abstract": "Zero-shot textual explanations aim to make image classifiers more transparent by probing their internal representations, without relying on task-specific supervision or LVLMs. However, existing methods often miss the features that truly drive the prediction, resulting in limited \\textit{faithfulness} to the evidence underlying the model's decision. To address this, we propose FaithTrace. Motivated by the idea that faithful explanations should describe concepts that strongly influence the prediction, FaithTrace directly measures how much the representation induced by the explanation changes the class logit. We introduce an influence score, computed as the directional derivative of the class logit along the text-induced direction in the classifier's feature space, and use it as a proxy for faithfulness. Moreover, we extend this influence score into quantitative evaluation metrics, helping fill the gap in faithfulness evaluation for textual explanations. Experiments show that FaithTrace yields more faithful explanations than baselines, facilitating a more accurate understanding of the model. The code will be publicly released.",
+  "title_relatable": "Measuring what truly drives an image classifier's decision",
+  "hook": "A method that generates faithful text explanations for image classifiers by directly measuring how much each concept influences the prediction, without requiring labeled data or large language models.",
+  "summary": "Existing zero-shot textual explanation methods for image classifiers often miss the features that actually drive predictions. FaithTrace addresses this by computing an influence score—the directional derivative of the class logit along text-induced directions in feature space—to measure faithfulness directly. The approach extends this influence metric into quantitative evaluation benchmarks for textual explanations. Experiments demonstrate that FaithTrace produces more faithful explanations than baselines, offering practitioners a principled way to understand classifier decisions. Code will be released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 917,
+  "tokens_out": 192,
+  "cost_usd": 0.0015015999999999999,
+  "ingested_at": "2026-05-19T03:25:05.653020+00:00"
+}

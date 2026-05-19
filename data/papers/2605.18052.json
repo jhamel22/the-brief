@@ -1,0 +1,22 @@
+{
+  "id": "2605.18052",
+  "arxiv_url": "https://arxiv.org/abs/2605.18052",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Efficient 3D Content Reconstruction and Generation",
+  "authors": "Jiahao Li",
+  "abstract": "Automatic 3D content creation seeks to replace labor-intensive modeling and scanning pipelines with systems that can synthesize or recover 3D assets directly from text or images. Its applications span video games, virtual reality, robotics, and simulation, enabling rapid asset prototyping, diverse interactive world generation, and efficient 3D data collection for training foundation models. Contemporary solutions largely follow two complementary paradigms: (i) text- or image-to-3D generation, which learns priors over 3D geometry and appearance to create novel assets from natural language or a single view image; and (ii) 3D reconstruction, which estimates camera poses and geometry from RGB images. This thesis advances both directions. On the generation side, I introduce Instant3D, which combines multi-view diffusion with feed-forward sparse-view 3D reconstruction to produce high-quality assets in 5-20 seconds. On the reconstruction side, I develop FastMap, a structure-from-motion pipeline that achieves up to 10x speedup over prior state-of-the-art by using first-order optimization with fused GPU kernels extensively, while maintaining comparable pose accuracy and downstream novel view synthesis quality.",
+  "title_relatable": "Fast 3D models from images and text, ready in seconds",
+  "hook": "Two complementary systems speed up 3D asset creation: Instant3D generates models from text in 5–20 seconds via multi-view diffusion, while FastMap reconstructs camera poses and geometry 10× faster than prior methods.",
+  "summary": "Creating 3D assets traditionally requires manual modeling or expensive scanning. This work tackles both automatic generation and reconstruction. Instant3D combines multi-view diffusion with feed-forward sparse-view reconstruction to synthesize high-quality 3D assets from text or images in 5–20 seconds. FastMap reimplements structure-from-motion using first-order optimization and fused GPU kernels to achieve 10× speedup over state-of-the-art while preserving pose accuracy and novel view synthesis quality. Applications include rapid prototyping for games, VR, robotics, and efficient 3D data collection for training foundation models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 921,
+  "tokens_out": 241,
+  "cost_usd": 0.0017008000000000001,
+  "ingested_at": "2026-05-19T03:22:33.307673+00:00"
+}

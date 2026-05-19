@@ -1,0 +1,23 @@
+{
+  "id": "2605.16766",
+  "arxiv_url": "https://arxiv.org/abs/2605.16766",
+  "announced_date": "2026-05-16",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO"
+  ],
+  "title_original": "XRISM detection of the 6.4 keV Fe K$α$ line in the radio galaxy Cygnus A",
+  "authors": "Anwesh Majumder, T. Heckman, L. Gu, A. Simionescu, B. R. McNamara, A. Ptak, E. Hodges-Kluck, M. Yukita, M. W. Wise, N. Roy",
+  "abstract": "We detail the spectral analysis of a 170 ks XRISM Resolve observation of the core of Cygnus A. The high spectral resolution of Resolve have enabled us to probe the inner accretion region of Cygnus A by analyzing the 6.4 keV Fe K$α$ line complex. We find that it consists of two Keplerian broadened components. (1) A broad component with a velocity dispersion of $3400^{+800}_{-600}$ km s$^{-1}$ and (2) a narrow component of $440^{+60}_{-50}$ km s$^{-1}$. For an inclination of $50^{\\circ}-85^{\\circ}$, constrained by VLBI, we find that the broad component arises from a distance of $\\sim 0.1-0.17$ pc ($800-1400$ gravitational radii) and the narrow component from $\\sim 6-10$ pc ($50,000-80,000$ gravitational radii) from the central black hole depending on the inclination angle. Our result suggests that the origin of the broad component is consistent with the broad line region and the narrow component from the torus of Cygnus A. We also find a potential emission line possibly from intermediate ionized Fe XVII with a very low dispersion ($<80$ km s$^{-1}$) that originates from either the outer edge of the torus or the narrow line region. Finally, we find that the Fe K edge is redshifted compared to the Fe K$α$ line components, suggesting a line of sight bulk velocity of $470 \\pm 100$ km s$^{-1}$. Such a shift may be due to an inflowing wind or relative motion between the two components originating from the near and far side of an inflowing torus, respectively.",
+  "title_relatable": "XRISM maps iron emission zones around Cygnus A's black hole",
+  "hook": "XRISM's calorimeter resolves the iron K-alpha line in Cygnus A into two distinct components, pinpointing gas at 0.1 pc and 6–10 pc from the black hole with unprecedented precision.",
+  "summary": "A 170 ks observation with XRISM Resolve separates the 6.4 keV iron K-alpha line in the radio galaxy Cygnus A into a broad component (velocity dispersion ~3400 km/s) originating near the broad-line region at 0.1–0.17 pc, and a narrow component (~440 km/s) tracing the molecular torus at 6–10 pc. A third, nearly unresolved line hints at gas at the torus outer edge or narrow-line region. A redshift in the Fe K absorption edge suggests bulk inflow at ~470 km/s, possibly from an infalling wind or a rotating torus with asymmetric near/far-side contributions.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1187,
+  "tokens_out": 271,
+  "cost_usd": 0.007626,
+  "ingested_at": "2026-05-19T03:06:05.036188+00:00"
+}

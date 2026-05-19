@@ -1,0 +1,22 @@
+{
+  "id": "2605.18051",
+  "arxiv_url": "https://arxiv.org/abs/2605.18051",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Structural $f$-divergence: Tight universal bounds for cost function moments and gradients in parameterized quantum circuits",
+  "authors": "Tomohiro Nishiyama, Yoshihiko Hasegawa",
+  "abstract": "The barren plateau phenomenon, in which cost-function gradients of variational quantum algorithms vanish exponentially, remains a central obstacle for near-term quantum computing. Existing analyses typically depend on t-design or Haar-random assumptions and bound quantities at the level of unitary distributions, offering limited insight for designing probability measures on the parameter space of parameterized quantum circuits. In this paper, we introduce the structural $f$-divergence, a symmetric $f$-divergence-based measure between probability distributions on the parameter space. We establish analytically trade-off inequalities that bound the discrepancies in the expected gradient magnitude and in the cost-function moments between a distribution on PQC and a reference distribution; equality is attained by a minimal one-qubit, one-layer ansatz. As applications, we derive necessary conditions on probability measures for avoiding BPs and cost concentration, and sufficient conditions that suppress noise-induced deviations.",
+  "title_relatable": "A new measure pinpoints when quantum circuits escape the vanishing gradient trap",
+  "hook": "A new divergence measure sets tight, universal limits on how much gradient magnitude and cost-function statistics can differ across parameter distributions in variational quantum circuits.",
+  "summary": "Variational quantum algorithms suffer from barren plateaus — regions where gradients shrink exponentially, making training impossible — but most analyses assume idealized random-unitary ensembles that say little about how to choose parameter distributions in practice. The structural f-divergence introduced here quantifies how two distributions on circuit parameters differ in a way directly tied to gradient and cost-function statistics, yielding trade-off inequalities whose bounds are tight (achieved by a single-qubit, single-layer circuit). The framework converts abstract barren-plateau avoidance into concrete necessary and sufficient conditions on the parameter distribution, and also handles noise-induced deviations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 905,
+  "tokens_out": 218,
+  "cost_usd": 0.005985,
+  "ingested_at": "2026-05-19T03:01:27.080310+00:00"
+}

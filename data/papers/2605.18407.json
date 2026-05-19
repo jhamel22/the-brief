@@ -1,0 +1,25 @@
+{
+  "id": "2605.18407",
+  "arxiv_url": "https://arxiv.org/abs/2605.18407",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cond-mat.mes-hall",
+    "cond-mat.mtrl-sci",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Qumus: Realization of An Embodied AI Quantum Material Experimentalist",
+  "authors": "Lihan Shi, Zhaoyi Joy Zheng, Xinzhe Juan, Yimin Wang, Ming Yin, Mayank Sengupta, Kristina Wolinski, Yanyu Jia, Jingzhi Shi, Derek Saucedo, Neill Saggi, Haosen Guan, Kenji Watanabe, Takashi Taniguchi, Ali Yazdani, Mengdi Wang, Sanfeng Wu",
+  "abstract": "While modern Large Language Models (LLMs) and agentic artificial intelligence (AI) have demonstrated transformative capabilities in digital domains, the realization of embodied AI capable of real-world scientific discovery remains a difficult frontier. The advancements are hindered by the inherent complexity of integrating high-level reasoning, multimodal information processing and real-time physical execution. Here we introduce Qumus, the first AI quantum materials experimentalist. Physically embodied within a robotic mini-laboratory, Qumus is an intelligent, multimodal, and multi-agent system designed for the creation and nano-processing of atomically thin two-dimensional (2D) materials and stacked van der Waals (vdW) structures. Qumus autonomously navigates the full scientific cycle, from hypothesis generation and protocol planning to multi-step experimental execution, result analysis and reporting, acting as an experimentalist. Markedly, the system has achieved, for the first time, the AI-creation of graphene, as well as the first AI-fabrication of complex nanodevices including atomically thin field-effect transistors via vdW stacking. Qumus excels at these tasks by demonstrating autonomous error correction and closed-loop experimentation. Our results establish a generalizable framework for self-improving embodied AI systems that learn directly from the quantum world, opening a pathway toward accelerated discovery in quantum materials, electronics and beyond.",
+  "title_relatable": "A robot scientist that discovers quantum materials",
+  "hook": "An embodied AI system autonomously creates graphene and nanodevices by integrating reasoning, multimodal perception, and robotic control in a closed-loop experimental cycle.",
+  "summary": "Qumus is a robotic laboratory system that combines large language models with physical manipulation to conduct autonomous materials science research. The system performs the complete scientific workflow—hypothesis generation, experimental design, execution, and analysis—without human intervention. It has demonstrated AI-driven creation of graphene and fabrication of atomically thin field-effect transistors, marking the first autonomous realization of these achievements. The system uses closed-loop feedback and autonomous error correction to refine experiments in real time, establishing a framework for embodied AI systems that learn directly from physical experimentation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1087,
+  "tokens_out": 200,
+  "cost_usd": 0.0016695999999999998,
+  "ingested_at": "2026-05-19T03:13:17.197443+00:00"
+}

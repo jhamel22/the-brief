@@ -1,0 +1,24 @@
+{
+  "id": "2605.17160",
+  "arxiv_url": "https://arxiv.org/abs/2605.17160",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "When Bits Break Recourse: Counterfactual-Faithful Quantization",
+  "authors": "Chaymae Yahyati, Ismail Lamaakal, Khalid El Makkaoui, Ibrahim Ouahbi",
+  "abstract": "Quantization can preserve predictive accuracy under low-bit deployment while silently breaking algorithmic recourse: an actionable change that flips a decision before quantization may fail after quantization, or become substantially more costly. We formalize counterfactual sensitivity under quantization through validity, cost, and direction stability, and introduce two metrics: Validity Drop (VD) and Counterfactual Recourse Gap (CRG) that reveal recourse failures invisible to accuracy. We propose Counterfactual-Faithful Quantization (CFQ), which trains quantizer parameters and mixed-precision bit allocation to preserve counterfactual behavior by enforcing the target outcome at teacher recourse points under a global bit budget. A margin-based analysis gives a sufficient condition for recourse transfer under bounded quantization perturbations. Experiments on Adult, German Credit, and COMPAS show that accuracy-matched baselines can significantly degrade recourse stability, while CFQ maintains accuracy and substantially improves VD and CRG across bit budgets.",
+  "title_relatable": "Keeping AI explanations honest when compressing models",
+  "hook": "Quantizing neural networks preserves accuracy but can break counterfactual explanations—actionable changes that worked before compression fail after. CFQ enforces recourse stability during quantization, maintaining both model predictions and the explanations behind them.",
+  "summary": "Quantization reduces model size for deployment while keeping accuracy intact, but this work shows it silently breaks counterfactual recourse: the explanations that tell users how to change inputs to flip a model's decision. The authors formalize this problem with two metrics—Validity Drop and Counterfactual Recourse Gap—that catch failures invisible to accuracy benchmarks. Counterfactual-Faithful Quantization (CFQ) trains bit allocation to preserve recourse behavior at decision boundaries while respecting a global compression budget. Experiments on lending and criminal justice datasets show accuracy-matched baselines significantly degrade explanation stability, while CFQ maintains both prediction accuracy and recourse quality across different bit widths. This addresses practitioners deploying quantized models where explainability matters for trust and compliance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 925,
+  "tokens_out": 268,
+  "cost_usd": 0.001812,
+  "ingested_at": "2026-05-19T03:25:37.460156+00:00"
+}

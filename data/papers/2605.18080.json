@@ -1,0 +1,26 @@
+{
+  "id": "2605.18080",
+  "arxiv_url": "https://arxiv.org/abs/2605.18080",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cs.AI",
+    "econ.EM",
+    "econ.TH"
+  ],
+  "title_original": "Parameterized 4-Qubit EWL Quantum Game Circuits with Dirac-Solow-Swan Hamiltonian Integration for Quadruple Helix Disruptive Innovation Recommender Systems",
+  "authors": "Agung Trisetyarso, Fithra Faisal Hastiadi, Kridanto Surendro",
+  "abstract": "We present a novel parameterized 4-qubit Eisert-Wilkens-Lewenstein (EWL) quantum game circuit for recommender systems in quadruple helix innovation ecosystems (academia, industry, government, and civil society). The local strategy operators $U_{i} = R_y(θ_{i})$ for each helix actor are directly tuned by normalized dominance weights extracted from real participant funding data (\\texit{ecContribution}) in the European Commission CORDIS Horizon Europe database (project COVend, ID 101045956). The circuit employs a multi-qubit EWL entangler followed by parameterized local rotations, inverse entangler, and full measurement, achieving only 22 gates and circuit depth 11 while scaling as $O(n)$ for $n$-round helix communications. Measurement probabilities after the quantum game serve as recommender scores for disruptive versus sustaining innovation trends. These scores are subsequently mapped into the diagonal Dirac potential of a Dirac-Solow-Swan Hamiltonian, enabling time-evolution simulation of capital accumulation and bifurcation dynamics under disruptive innovation. Numerical experiments on real CORDIS quadruple-helix collaboration networks demonstrate the circuit's NISQ compatibility and its ability to forecast disruptive capital trajectories with high fidelity. The proposed framework bridges quantum game theory, parameterized quantum circuits, and relativistic economic growth models, offering a computationally efficient tool for innovation policy and strategic decision-making in complex socio-economic ecosystems. Complexity analysis and reproducibility are provided through open Qiskit implementations.",
+  "title_relatable": "Quantum circuits repurposed to rank innovation partnerships",
+  "hook": "A 4-qubit quantum game circuit converts funding-share data into recommender scores for innovation policy, then feeds them into an economic growth model.",
+  "summary": "Using real European Commission funding data, the authors parameterize a quantum game circuit so each player's rotation angle reflects actual funding shares among academia, industry, government, and civil society. The circuit's measurement probabilities become scores distinguishing disruptive from sustaining innovation, which are then fed into a Dirac-equation-inspired economic growth model to simulate capital dynamics. The construction is compact—22 gates, depth 11—and runs on near-term hardware. The connection between quantum game theory and a 'relativistic' economics Hamiltonian is asserted but not derived from first principles, leaving the physical motivation unclear.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1108,
+  "tokens_out": 208,
+  "cost_usd": 0.006444,
+  "ingested_at": "2026-05-19T03:01:20.925601+00:00"
+}

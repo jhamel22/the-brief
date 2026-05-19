@@ -1,0 +1,22 @@
+{
+  "id": "2605.18748",
+  "arxiv_url": "https://arxiv.org/abs/2605.18748",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Aurora: Unified Video Editing with a Tool-Using Agent",
+  "authors": "Yongsheng Yu, Ziyun Zeng, Zhiyuan Xiao, Zhenghong Zhou, Hang Hua, Wei Xiong, Jiebo Luo",
+  "abstract": "Recent video editing models have converged on a unified conditioning design: a single diffusion transformer jointly consumes text, source video, and reference images, and one set of weights covers replacement, removal, style transfer, and reference-driven insertion. The design is flexible, but it assumes that the user already provides model-ready text, reference images, and spatial grounding for local edits, which real requests often omit. We present Aurora, an agentic video editing framework that pairs a tool-augmented vision-language model (VLM) agent with a unified video diffusion transformer. The VLM agent maps a raw user request to a structured edit plan aligned with the transformer's conditioning channels, thereby resolving textual and visual underspecification before generation. We train the VLM agent with supervised data for complete edit planning and reference-image selection, together with preference pairs for robust tool use and instruction refinement. We introduce AgentEdit-Bench to evaluate agent-enhanced video editing under textual and visual underspecification. Experiments on AgentEdit-Bench and two existing video editing benchmarks show that Aurora improves over instruction-only baselines and that the VLM agent transfers to compatible frozen video editing models. Project page: https://yeates.github.io/Aurora-Page",
+  "title_relatable": "A video editor that understands what you actually mean",
+  "hook": "An AI agent interprets vague editing requests and generates structured plans for a unified video diffusion model, handling underspecified text and missing reference images.",
+  "summary": "Video editing models work best when users provide complete specifications—exact text descriptions, reference images, and spatial masks. Aurora adds a vision-language model agent that bridges the gap between messy real-world requests and model-ready inputs. The agent interprets ambiguous user instructions, selects or generates necessary reference images, and produces structured editing plans. Trained on supervised edit planning data and preference pairs for tool use, the agent transfers to compatible frozen video editing models. A new benchmark, AgentEdit-Bench, evaluates performance under realistic underspecification, where Aurora outperforms instruction-only baselines on both new and existing video editing benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 984,
+  "tokens_out": 216,
+  "cost_usd": 0.0016512,
+  "ingested_at": "2026-05-19T03:22:02.887270+00:00"
+}

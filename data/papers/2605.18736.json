@@ -1,0 +1,22 @@
+{
+  "id": "2605.18736",
+  "arxiv_url": "https://arxiv.org/abs/2605.18736",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Spectral Progressive Diffusion for Efficient Image and Video Generation",
+  "authors": "Howard Xiao, Brian Chao, Lior Yariv, Gordon Wetzstein",
+  "abstract": "Diffusion models have been shown to implicitly generate visual content autoregressively in the frequency domain, where low-frequency components are generated earlier in the denoising process while high-frequency details emerge only in later timesteps. This structure offers a natural opportunity for efficient generation, as high-resolution computation on noise-dominated frequencies is largely redundant. We propose Spectral Progressive Diffusion, a general framework that progressively grows resolution along the denoising trajectory of pretrained diffusion models. To this end, we develop a spectral noise expansion mechanism and derive an optimal resolution schedule from the model's power spectrum. Our framework supports training-free acceleration and a novel fine-tuning recipe that further improves efficiency and quality. We demonstrate significant speedups on state-of-the-art pretrained image and video generation models while preserving visual quality.",
+  "title_relatable": "Generating images faster by filling in details last",
+  "hook": "A framework that generates high-resolution images and videos progressively by matching the diffusion model's natural frequency structure, achieving significant speedups without retraining.",
+  "summary": "Diffusion models generate images by denoising over many steps, with low frequencies appearing early and fine details emerging late. Spectral Progressive Diffusion exploits this structure by progressively increasing image resolution during generation, avoiding redundant computation on noise-heavy, high-resolution stages. The method uses a spectral noise expansion mechanism and derives an optimal resolution schedule from the model's power spectrum. It works training-free on existing pretrained models and offers an optional fine-tuning approach to further improve speed and quality. Experiments on state-of-the-art image and video models show substantial acceleration while maintaining visual fidelity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 866,
+  "tokens_out": 213,
+  "cost_usd": 0.0015448000000000003,
+  "ingested_at": "2026-05-19T03:22:39.666830+00:00"
+}

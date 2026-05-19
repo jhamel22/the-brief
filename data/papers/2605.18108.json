@@ -1,0 +1,22 @@
+{
+  "id": "2605.18108",
+  "arxiv_url": "https://arxiv.org/abs/2605.18108",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum-Battery-Powered Geometric Landau-Zener Interferometry",
+  "authors": "Borhan Ahmadi",
+  "abstract": "Classical microwave drives are usually treated as ideal phase-coherent work sources for superconducting-qubit control. What if such a drive is replaced by a finite quantum battery. As a demanding benchmark, we consider echo-refocused geometric Landau--Zener interferometry powered by a single quantized bosonic mode. The qubit--battery dynamics are described by a Jaynes--Cummings Hamiltonian, while the echo pulse is retained as a qubit-only refocusing operation that cancels the dynamical phase. In the macroscopic coherent-state limit, the usual classical geometric interferometer is recovered. At finite mean photon number, however, the Jaynes--Cummings coupling generates photon-number-resolved avoided crossings with gaps $Ω_n=2g\\sqrt{n}$. The qubit-only echo redistributes amplitudes between neighboring excitation sectors, so the finite-battery protocol is not a single classical interferometer but a coherent sector-resolved quantum evolution. This produces contrast loss, interferogram distortions, and measurable battery back-action. We further show that reducing photon-number fluctuations alone is not sufficient: geometric control requires a first-order phase reference. Geometric Landau--Zener interferometry therefore provides a practical benchmark for certifying phase-coherent quantum-battery energy.",
+  "title_relatable": "What happens when a quantum battery powers a precision qubit interferometer",
+  "hook": "Replacing a classical microwave drive with a finite quantum battery distorts geometric Landau-Zener interferometry in measurable ways, revealing that phase coherence—not just photon number—is the critical resource.",
+  "summary": "Geometric Landau-Zener interferometry, a technique for probing qubit dynamics via interference of adiabatic sweeps, normally assumes a classical, phase-stable microwave source. Swapping that source for a quantized bosonic mode governed by Jaynes-Cummings coupling splits the dynamics into photon-number-resolved sectors, each with its own avoided-crossing gap proportional to √n. A refocusing echo pulse that cleanly cancels dynamical phases in the classical case instead mixes excitation sectors in the quantum case, producing contrast loss and interferogram distortions. The result positions this interferometry scheme as a practical test for certifying true phase-coherent energy delivery from a quantum battery.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 984,
+  "tokens_out": 251,
+  "cost_usd": 0.006717,
+  "ingested_at": "2026-05-19T03:00:43.453996+00:00"
+}

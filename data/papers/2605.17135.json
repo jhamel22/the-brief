@@ -1,0 +1,22 @@
+{
+  "id": "2605.17135",
+  "arxiv_url": "https://arxiv.org/abs/2605.17135",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Collaborative Learning for Semi-Supervised LiDAR Semantic Segmentation",
+  "authors": "Bin Yang, Alexandru Paul Condurache",
+  "abstract": "Annotating large-scale LiDAR point clouds for 3D semantic segmentation is costly and time-consuming, which motivates the use of semi-supervised learning (SemiSL). Standard LiDAR SemiSL methods typically adopt a two-step training paradigm, where pseudo-labels are separately generated from a single distillation source, either from the same or another LiDAR representation. Such supervision relies on a unique source of pseudo-labels, which can reinforce confirmation bias and propagate errors during training, ultimately limiting performance. To address this challenge, we introduce CoLLiS, a novel framework that leverages Collaborative Learning for LiDAR Semi-supervised segmentation. Unlike prior paradigms with decoupled pseudo-labeling and training phases, CoLLiS trains multiple representations collaboratively in a single step by treating them as coequal students. Each student is adaptively distilled from multiple representations, while inter-student disparities are monitored online to resolve contradictory supervision and effectively mitigate confirmation bias. Extensive experiments on three datasets demonstrate that CoLLiS consistently outperforms state-of-the-art LiDAR SemiSL methods, with particularly strong gains in low-label regimes.",
+  "title_relatable": "Learning from partially labeled 3D point clouds more efficiently",
+  "hook": "A collaborative framework that trains multiple LiDAR representations together to reduce labeling requirements for 3D scene understanding, outperforming single-source pseudo-labeling on multiple benchmarks.",
+  "summary": "Annotating 3D LiDAR point clouds for semantic segmentation requires extensive manual effort, making semi-supervised learning essential for practical deployment. CoLLiS addresses the confirmation bias problem in existing semi-supervised LiDAR methods by training multiple representations simultaneously as coequal students, each learning from the others while monitoring disagreements to resolve contradictory predictions. Testing on three datasets shows consistent improvements over prior methods, with particularly strong gains when labels are scarce. The approach integrates pseudo-labeling and training in a single step rather than the two-step pipeline used by competing methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 949,
+  "tokens_out": 217,
+  "cost_usd": 0.0016272,
+  "ingested_at": "2026-05-19T03:25:43.379485+00:00"
+}

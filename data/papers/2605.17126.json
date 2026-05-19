@@ -1,0 +1,24 @@
+{
+  "id": "2605.17126",
+  "arxiv_url": "https://arxiv.org/abs/2605.17126",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Multi-task Linear Regression without Eigenvalue Lower Bounds: Adaptivity, Robustness and Safety",
+  "authors": "Seok-Jin Kim",
+  "abstract": "We study the multi-task linear regression problem in the presence of contaminated tasks. We address the setting where the unknown parameters of a majority of tasks are close in the $\\ell_2$-norm, while a fraction of tasks are arbitrary outliers. Existing theoretical frameworks for this problem rely heavily on the assumption that the empirical second moment of each task has a minimum eigenvalue bounded away from zero (order $Ω(1)$). Crucially, this assumption fails in many high-dimensional scenarios, rendering prior guarantees vacuous. To overcome this limitation, we propose an estimator based on matrix-weighted norm regularization. We also introduce a relative balancedness condition, quantified by a balancedness constant, that compares each task's second moment with the average inlier geometry and relaxes the need for taskwise second-moment lower bounds. In favorable regimes with moderate balancedness, our prediction MSE bounds match the rate of Duan and Wang (2023) under substantially weaker spectral assumptions; the resulting task-overall MSE is minimax optimal up to logarithmic factors. Furthermore, we demonstrate that our estimator enjoys a safety guarantee: when the relevant balancedness constant is large or infinite, or when tasks are unrelated, the method performs no worse than independent task learning. Consequently, our methodology achieves simultaneous adaptivity to task similarity, robustness to outliers, and safety outside favorable transfer regimes.",
+  "title_relatable": "Multi-task regression that works without strong spectral assumptions",
+  "hook": "A new estimator for multi-task linear regression removes the requirement that task data have large minimum eigenvalues, enabling robust learning in high dimensions where previous methods fail.",
+  "summary": "Multi-task learning assumes most tasks share similar parameters while some are outliers. Prior work required each task's second moment matrix to have eigenvalues bounded away from zero—an assumption that breaks down in high dimensions. This work proposes a matrix-weighted regularization estimator that instead uses a relative balancedness condition comparing each task's geometry to the average inlier geometry. On well-balanced problems, the method achieves minimax-optimal prediction error rates. Critically, when balancedness is poor or tasks are unrelated, the estimator safely reverts to independent learning, ensuring no performance loss from attempted transfer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 992,
+  "tokens_out": 215,
+  "cost_usd": 0.0016535999999999999,
+  "ingested_at": "2026-05-19T03:11:00.626764+00:00"
+}

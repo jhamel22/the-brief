@@ -1,0 +1,23 @@
+{
+  "id": "2605.17133",
+  "arxiv_url": "https://arxiv.org/abs/2605.17133",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "CAM-VFD: Cross-Attention Multimodal Video Forgery Detection",
+  "authors": "Hoda Osama Elkhodary, Sherin Mostafa Youssef, Marwa Elshenawy, Dalia Sobhy",
+  "abstract": "The rapid advancement of Deepfake technologies and video manipulation tools poses a critical challenge to multimedia forensics, judicial evidence integrity, and information authenticity. Current detectors rely on single-modality signals, treating appearance, geometry, and motion independently. However, advanced generators maintain within-modality consistency while producing cross-modal contradictions, which are forensically discriminative but invisible to any single-modal detector. We propose CAM-VFD, a Cross-Attention Multimodal Video Forgery Detection framework that models cross-modal contradiction as a directional forensic signal. The framework uses a cross-attention fusion mechanism in which CLIP-based appearance representations serve as queries against VideoMAE motion features and MiDaS depth features, enabling the identification of contradictions between visual, temporal, and geometric evidence. We examine this design through cross-modal attention discrepancy analysis, observing statistically separable real and fake distributions ($p<0.001$, Cohen's $d=0.68$). Experimental results on two generative video benchmarks indicate consistent performance, with 95.31\\% Top-1 accuracy on GenVidBench and 93.43\\% accuracy, 90.63\\% F1-score, and 96.56\\% AUROC on GenVideo. Moreover, CAM-VFD demonstrates stable performance under compression, noise, blur, and adversarial perturbations, suggesting that cross-modal reasoning may improve robustness in media forensics. The code is publicly available at \\url{https://github.com/Hoda-Osama/CAM-VFD/tree/main}.",
+  "title_relatable": "Catching deepfakes by finding contradictions across vision, motion, and depth",
+  "hook": "A multimodal detector identifies deepfakes by finding cross-modal contradictions that single-modality detectors miss, achieving 95.31% accuracy on GenVidBench with publicly released code.",
+  "summary": "Advanced deepfake generators maintain consistency within individual modalities (appearance, motion, geometry) while inadvertently creating contradictions across them. CAM-VFD exploits this by using cross-attention fusion to compare CLIP-based appearance features against VideoMAE motion and MiDaS depth features, identifying forensic inconsistencies invisible to single-modal approaches. Testing on GenVidBench and GenVideo benchmarks shows 95.31% and 93.43% accuracy respectively, with strong robustness against compression, noise, blur, and adversarial perturbations. Code and models are publicly available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1065,
+  "tokens_out": 232,
+  "cost_usd": 0.00178,
+  "ingested_at": "2026-05-19T03:15:38.298343+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.17086",
+  "arxiv_url": "https://arxiv.org/abs/2605.17086",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "econ.GN",
+    "cs.AI",
+    "cs.CY",
+    "stat.AP"
+  ],
+  "title_original": "Global Automation Atlas",
+  "authors": "Prashant Garg, Tommaso Crosta, Jasmin Baier",
+  "abstract": "Automation affects the labour content of work differently across different contexts. Yet, most existing exposure measures assign fixed scores to tasks or occupations, limiting comparisons of automation exposure across countries. We develop a task-based and country-specific approach to classify automation exposure across the world to disentangle labor-substituting from labor-augmenting automation, the relevant technology channel, and the material role of AI. Our measure spans 124 countries, generating an atlas of 2.33 million task-country labels for economies covering 99% of world population and GDP. We present five descriptive results. First, exposure is highly uneven, ranging from 3.3% of tasks in South Sudan to 61.6% in China, and rises strongly with income, although substantial variation remains within income groups. Second, across countries, exposed tasks are skewed towards substitution rather than augmentation, but low-income countries are disproportionately exposed to substitution, whereas middle-income countries are more heterogeneous. Third, less technologically advanced forms of automation account for more than half of exposed tasks in low-income countries but about one quarter in high-income countries; while other more complex channels generally rise with income levels. Fourth, AI tends to be less prevalent in simpler channels of automation, but also more prevalent in labour-substituting margins in lower income settings and to augment labour in higher income settings. Fifth, we find that females seem to be disproportionately more exposed to labour-substituting automation than males. Our methodology provides a basis for comparing automation exposure across development stages, linking it with cross-country data and allowing us to treat exposure levels, labour margins, technological channels and AI involvement as separate dimensions.",
+  "title_relatable": "How automation affects workers differently around the world",
+  "hook": "A new dataset covering 124 countries reveals that automation exposure ranges from 3% to 62% of tasks and disproportionately threatens low-income workers through labor substitution rather than augmentation.",
+  "summary": "Existing automation measures treat tasks and occupations the same globally, obscuring how different countries experience technological change. This work creates a country-specific task-based framework spanning 124 countries and 2.33 million task-country labels (99% of global population and GDP). Key findings: automation exposure rises sharply with income but varies widely within income groups; low-income countries face more labor-substituting automation while middle-income countries show mixed effects; simpler automation dominates in poor countries while complex channels and AI scale with wealth; women face disproportionate substitution risk. The atlas disaggregates exposure by automation type, technology channel, and AI involvement—enabling cross-country comparisons and policy analysis tied to development stage.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1036,
+  "tokens_out": 246,
+  "cost_usd": 0.0018128000000000003,
+  "ingested_at": "2026-05-19T03:15:41.371482+00:00"
+}

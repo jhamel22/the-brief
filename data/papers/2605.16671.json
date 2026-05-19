@@ -1,0 +1,25 @@
+{
+  "id": "2605.16671",
+  "arxiv_url": "https://arxiv.org/abs/2605.16671",
+  "announced_date": "2026-05-15",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CV",
+    "cs.CY",
+    "cs.LG"
+  ],
+  "title_original": "Sustainable Intelligence for the Wild: Democratizing Ecological Monitoring via Knowledge-Adaptive Edge Expert Agents",
+  "authors": "Jiaxing Li, Hao Fang, Chi Xu, Miao Zhang, Jiangchuan Liu, William I. Atlas, Katrina M. Connors, Mark A. Spoljaric",
+  "abstract": "Rapid biodiversity loss underscore the urgency of effective monitoring, yet manual surveys remain resource-intensive. While on-device AI offers a scalable alternative, its performance in the wild is often challenged by environmental variability. Current methods rely heavily on cloud resource, which requires continuous uploading of field data for model retraining. This approach is unsuitable for remote deployments because it consumes limited power and network connectivity. To address these constraints, this research proposes a shift from model adaptation to knowledge adaptation. We introduce an architecture that separates visual perception from reasoning, combining a visual encoder with a dynamic knowledge base. We uses an explicit knowledge base to replace implicitly encoding expert knowledge into model parameters. This method also supports knowledge sustainability by preserving expert insights in a structured form. Through cross-disciplinary collaboration with biologists and Indigenous communities, this work advances ethical AI co-development, fostering responsible and culturally informed ecosystem management.",
+  "title_relatable": "Edge AI for wildlife monitoring that learns without the cloud",
+  "hook": "A new approach to ecological monitoring that separates visual perception from reasoning, allowing edge devices in remote locations to improve performance without uploading data to the cloud.",
+  "summary": "Biodiversity monitoring typically requires resource-intensive manual surveys or cloud-dependent AI systems unsuitable for remote field deployments with limited power and connectivity. This work proposes knowledge adaptation—replacing implicit model parameters with an explicit knowledge base that separates visual encoding from reasoning. The architecture allows field devices to improve performance by updating structured knowledge rather than retraining models, enabling sustainable on-device inference. Developed through collaboration with biologists and Indigenous communities, the system demonstrates how edge AI can support ecological monitoring while respecting local expertise and reducing infrastructure demands.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 918,
+  "tokens_out": 193,
+  "cost_usd": 0.0015064000000000002,
+  "ingested_at": "2026-05-19T03:11:43.802813+00:00"
+}

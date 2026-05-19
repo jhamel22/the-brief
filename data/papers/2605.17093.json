@@ -1,0 +1,23 @@
+{
+  "id": "2605.17093",
+  "arxiv_url": "https://arxiv.org/abs/2605.17093",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CV",
+    "cs.CL"
+  ],
+  "title_original": "HEED: Density-Weighted Residual Alignment for Hybrid Vision-Language Model Distillation",
+  "authors": "Yihao Liang, Niraj K. Jha",
+  "abstract": "Distilling vision-language models into faster hybrid architectures, such as 3:1 Mamba-2/attention mixes, is now standard practice for making inference efficient. Aggregate benchmarks suggest that this works but they hide selective failures. When we distill Qwen3-VL-8B-Instruct into a 3:1 Mamba-2/attention hybrid, student model stays within 2 points of the teacher across visual reasoning benchmarks like MMStar, MMBench, and MMMU-Pro, while dropping 13 points on optical-character-recognition and document tasks. The student can still understand the scene but loses the fine-grained text needed to answer. We localize much of the failure to a specific kind of position. In a high-resolution image, most patches are sky, wall, or smooth texture, while a small fraction carries text, edges, object boundaries, or other local details. In a token-level diagnostic, the top 10% highest-density patches have 3.6$\\times$ larger residual drift than the bottom 10% lowest-density patches and 3.5$\\times$ larger teacher-masking answer contribution. Uniform weighting devotes many loss terms to low-information background patches, whereas sparse answer-bearing patches receive no special protection. The required intervention is minimal: we replace uniform residual alignment with density-weighted residual alignment, using patch self-dissimilarity as a training-free proxy for position importance. We call this HEED. Compared with normal end-to-end distillation, HEED increases performance by 8.7 points on OCRBench v2 and 5.13 points on a 10-benchmark average. The gain is realized on different teacher models and hybrid architectures. After standard post-training, the student reaches teacher-level performance on the 10-benchmark average with a 4.12$\\times$ throughput and a 68% memory saving at 128k context, with no additional parameters and no inference-time cost.",
+  "title_relatable": "Protecting fine details when shrinking vision-language models",
+  "hook": "A simple density-weighting technique fixes selective failures in distilled vision-language models, recovering 8.7 points on OCR tasks while maintaining 4.12× faster inference.",
+  "summary": "Distilling large vision-language models into efficient hybrid architectures (mixing Mamba-2 and attention) preserves performance on reasoning benchmarks but fails dramatically on OCR and document tasks. The problem: low-density background patches (sky, texture) dominate loss computation during training, while sparse high-density patches containing text and edges receive insufficient protection. HEED replaces uniform residual alignment with density-weighted alignment, using patch self-dissimilarity as a training-free importance signal. On a 10-benchmark suite, HEED gains 5.13 points over standard distillation; on OCRBench v2 alone, it recovers 8.7 points. The final student reaches teacher-level performance with 4.12× throughput and 68% memory savings at 128k context, with no added parameters or inference overhead.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1141,
+  "tokens_out": 276,
+  "cost_usd": 0.0020168,
+  "ingested_at": "2026-05-19T03:20:00.338033+00:00"
+}

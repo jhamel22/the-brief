@@ -1,0 +1,25 @@
+{
+  "id": "2605.16828",
+  "arxiv_url": "https://arxiv.org/abs/2605.16828",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Prediction-Intervention Games and Invariant Sets",
+  "authors": "Linus Kühne, Felix Schur, Jonas Peters",
+  "abstract": "We consider the following two-player game: using observational data, the leader chooses a prediction function for a response variable $Y$ from given covariates. The follower then reacts with an intervention on some covariates in the underlying structural causal model to maximize their own objective. The leader knows the intervention targets, but may have limited knowledge of the follower's objective. We call this setup a prediction-intervention game, a special case of a Stackelberg game. Finding an optimal strategy for the leader is generally difficult. To avoid severe performance loss, the leader may base their prediction on the causal parents of $Y$, or more generally on an invariant subset of covariates. We prove, for two common classes of follower objectives, that predictors based on the stable blanket, a specific invariant subset, are always better or as good as those based on the causal parents. We further upper bound the leader's post-intervention risk by a worst-case risk over allowed interventions and strengthen existing distribution generalization results to analyze this bound: we give sufficient conditions under which stable-blanket predictors are worst-case optimal, and show by examples that these conditions cannot in general be dropped. Finally, we discuss practical strategies for settings with known and unknown graph, and test them on simulated and real-world data.",
+  "title_relatable": "When predictions face adversarial interventions: a game theory view",
+  "hook": "A prediction model must survive when someone actively intervenes to undermine it; using causal structure, particularly the stable blanket, guarantees worst-case optimality against adversarial interventions.",
+  "summary": "This paper models a two-player game where a leader chooses a prediction function for a target variable, and a follower then intervenes on the causal system to maximize their own objective. The leader knows what the follower will target but may not know their true objective. The key result: predictors built on the stable blanket—a specific invariant subset of causal parents—are guaranteed to perform at least as well as those based on causal parents alone, and under stated conditions, achieve worst-case optimality across all possible adversarial interventions. The authors prove this for two common classes of follower objectives, provide distribution generalization bounds, and demonstrate the approach on simulated and real-world data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 959,
+  "tokens_out": 242,
+  "cost_usd": 0.0017352000000000001,
+  "ingested_at": "2026-05-19T03:11:22.670956+00:00"
+}

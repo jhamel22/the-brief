@@ -1,0 +1,24 @@
+{
+  "id": "2605.16826",
+  "arxiv_url": "https://arxiv.org/abs/2605.16826",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Decoupling KL and Trajectories: A Unified Perspective for SFT, DAgger, Offline RL, and OPD in LLM Distillation",
+  "authors": "Anhao Zhao, Haoran Xin, Yingqi Fan, Junlong Tong, Wenjie Li, Xiaoyu Shen",
+  "abstract": "Knowledge distillation is central to LLM post-training, yet its design space remains poorly understood, especially alongside reinforcement learning (RL). We show that the prevailing paradigms, off-policy distillation and on-policy distillation (OPD), implicitly couple two orthogonal choices: prefix source and token-level KL direction. This follows from decomposing sequence-level KL over autoregressive response distributions: forward KL pairs teacher prefixes with token-level forward KL, and reverse KL pairs student prefixes with token-level reverse KL. We argue this coupling is not intrinsic: decoupling the two axes yields four valid objectives. We establish gradient-level identities showing forward KL gives SFT-style cross-entropy matching with teacher soft targets, whereas reverse KL gives an RL-style policy-gradient objective with a dense teacher-student log-ratio reward, connecting them to off-policy SFT, DAgger-style on-policy SFT, offline-RL-style distillation, and OPD. We conduct an extensive controlled study on math reasoning, evaluating the four objectives both as standalone methods and as initializations for subsequent RL. The results reveal three tradeoffs: KL direction induces an accuracy-entropy tradeoff, prefix source a quality-compute tradeoff, and training length an accuracy-stability tradeoff. Motivated by these findings, we propose KL mixing and an entropy-gated length curriculum. KL mixing shows long-sequence distillation requires substantial forward-KL weight to prevent entropy collapse and length inflation without sacrificing accuracy. The entropy-gated length curriculum improves Avg@k and Pass@k by 3.6 and up to 5.8 points, and cuts average response length by roughly 3x versus fixed long-horizon training. Our results provide a framework and practical methods for designing reasoning distillation objectives that balance accuracy, diversity, compute, and RL behavior.",
+  "title_relatable": "Four ways to distill language models, unified through KL decomposition",
+  "hook": "Decoupling prefix source and KL direction in LLM distillation reveals four distinct objectives—SFT, DAgger, offline RL, and on-policy distillation—each with different accuracy-diversity-compute tradeoffs, with proposed mixing achieving 5.8-point gains on math reasoning.",
+  "summary": "Language model distillation mixes several existing techniques (SFT, DAgger, offline RL, on-policy distillation) but the underlying design choices remain unclear. This work decomposes sequence-level KL divergence to show that standard distillation methods couple two independent decisions: whether to use teacher or student prefixes, and which KL direction (forward or reverse) to optimize. Decoupling yields four valid objectives with distinct empirical properties. On math reasoning, forward KL reduces entropy collapse in long sequences, student prefixes improve sample efficiency, and training length duration trades off accuracy against stability. The authors propose KL mixing (combining forward and reverse KL) and an entropy-gated curriculum that improves Pass@k by up to 5.8 points and cuts response length by 3× compared to fixed training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1166,
+  "tokens_out": 303,
+  "cost_usd": 0.0021448,
+  "ingested_at": "2026-05-19T03:11:26.308598+00:00"
+}

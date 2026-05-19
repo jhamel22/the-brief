@@ -1,0 +1,23 @@
+{
+  "id": "2605.17178",
+  "arxiv_url": "https://arxiv.org/abs/2605.17178",
+  "announced_date": "2026-05-16",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO"
+  ],
+  "title_original": "An EFT Map of Axion Dark Radiation from Reheating",
+  "authors": "Yong Xu",
+  "abstract": "Light, weakly coupled sectors can retain information about the cosmological background in which they are produced. We study light axions produced during reheating and their contribution to dark radiation, $ΔN_{\\rm eff}$. We develop a shift-symmetric EFT in which an inflaton-dependent axion kinetic term systematically organizes the leading production channels. The same kinetic function generates both direct inflaton decay and inflaton annihilation from the oscillating inflaton background. Direct decay is described by an invisible inflaton branching fraction, while annihilation is a genuinely reheating-sensitive source controlled by a coherent combination of Wilson coefficients. We derive the contribution to $ΔN_{\\rm eff}$ from both channels and show that they scale oppositely with the reheating temperature: the decay contribution falls as $T_{\\rm rh}^{-2}$, whereas the annihilation contribution grows approximately as $T_{\\rm rh}^{4/3}$. Their crossing is missed by treatments that keep only one production channel. We translate current and projected $ΔN_{\\rm eff}$ sensitivities into constraints on the Wilson coefficients of the kinetic function, obtaining a two-dimensional EFT map of axion dark radiation from reheating. This map can imply both lower and upper bounds on the reheating temperature, showing that light axion relics can turn dark radiation measurements into constraints on reheating.",
+  "title_relatable": "Dark radiation measurements could reveal when the universe first heated up",
+  "hook": "A new effective field theory framework shows that axion dark radiation carries a fingerprint of the reheating temperature, with two competing production channels implying both lower and upper bounds on when reheating ended.",
+  "summary": "Light axions produced during reheating contribute to dark radiation, quantified as ΔN_eff, through two distinct channels: direct inflaton decay and inflaton annihilation. These scale oppositely with reheating temperature — decay falls as T_rh^{-2} while annihilation grows as T_rh^{4/3} — so analyses that include only one channel miss the crossing between them. A shift-symmetric EFT organizes both contributions into a two-dimensional map of Wilson coefficients, translating current and future ΔN_eff measurements into simultaneous lower and upper bounds on the reheating temperature.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1009,
+  "tokens_out": 230,
+  "cost_usd": 0.006477,
+  "ingested_at": "2026-05-19T03:05:37.889919+00:00"
+}

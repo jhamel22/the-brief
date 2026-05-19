@@ -1,0 +1,25 @@
+{
+  "id": "2605.17840",
+  "arxiv_url": "https://arxiv.org/abs/2605.17840",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE",
+    "cond-mat.stat-mech",
+    "hep-th"
+  ],
+  "title_original": "Pole Skipping, Avoided Crossing, and Resonant Excitation in Kerr Quasinormal Modes near Algebraically Special Frequencies",
+  "authors": "Kei-ichiro Kubota, Hayato Motohash",
+  "abstract": "Kerr quasinormal modes near algebraically special frequencies exhibit anomalous behavior, including apparent bifurcation, disappearance, and a nonsmooth connection to the Schwarzschild limit, which has remained puzzling for decades. Tracking poles and zeros of Green-function building blocks across different Riemann sheets, we show that the bifurcation is due to an avoided crossing accompanied by resonant excitation, while the disappearance is due to pole skipping caused by cancellation of a quasinormal-mode pole by a Matsubara-mode zero. This resolves the physical origin of these long-standing anomalies.",
+  "title_relatable": "Decades-old mystery in spinning black hole vibrations finally resolved",
+  "hook": "Strange behaviors in Kerr black hole quasinormal modes—apparent bifurcations and disappearing overtones—turn out to stem from two distinct mathematical mechanisms now identified for the first time.",
+  "summary": "Rotating black holes ring down after perturbations in characteristic quasinormal modes, but near so-called algebraically special frequencies these modes behave erratically: they seem to split, vanish, or connect discontinuously to the non-rotating limit. By carefully tracking poles and zeros of the Green's function across multiple Riemann sheets, this work identifies two culprits—avoided crossings with resonant excitation explain the apparent bifurcations, while pole skipping (a quasinormal-mode pole cancelled by a Matsubara-mode zero) explains the disappearances. The result closes a puzzle that has persisted since the 1980s.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 855,
+  "tokens_out": 233,
+  "cost_usd": 0.00606,
+  "ingested_at": "2026-05-19T02:54:16.381532+00:00"
+}

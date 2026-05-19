@@ -1,0 +1,22 @@
+{
+  "id": "2605.16751",
+  "arxiv_url": "https://arxiv.org/abs/2605.16751",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Spatial curvature in Unimodular Gravity",
+  "authors": "Gilberto Aguilar-Pérez, Miguel Cruz, Samuel Lepe",
+  "abstract": "We investigate the cosmological implications of unimodular gravity (UG) featuring energy diffusion and spatial curvature. While standard diffusion models often suffer from thermodynamic inconsistencies, we propose a phenomenologically viable power-law Ansatz for the diffusion function, $Q(z) = Q_0(1+z)^β$, which strictly satisfies the second law of thermodynamics by demanding positive entropy production ($βQ_0 > 0$). Using a joint statistical analysis with the Pantheon+ Type Ia Supernova compilation and Baryon Acoustic Oscillation (BAO) measurements, we tightly constrain the parameter space. We find a diffusion exponent of $β= 0.503_{-0.126}^{+0.118}$ and a slight preference for a closed spatial geometry with $Ω_{k0} = -0.109_{-0.071}^{+0.076}$ at present time. Remarkably, the consideration of spatial curvature and diffusion naturally alleviates the Hubble tension, yielding $H_0 = 73.350_{-0.226}^{+0.221}$ km/s/Mpc while maintaining a consistent cosmic age of $t_0 \\simeq 13.61$ Gyr. Furthermore, the constrained diffusion scales as a stable, quintessence-like effective dark energy ($ω_{\\text{eff}} \\simeq -0.832$). Thus, unimodular diffusion provides a thermodynamically consistent phenomenological alternative that can alleviate the Hubble tension while preserving both the cosmic age and the sound-horizon scale, with a preference for a closed spatial geometry.",
+  "title_relatable": "Unimodular gravity with energy diffusion eases Hubble tension",
+  "hook": "A modified gravity framework with energy diffusion and spatial curvature pushes the Hubble constant to 73.35 km/s/Mpc, squarely in the local-measurement camp, without breaking cosmic age or sound-horizon constraints.",
+  "summary": "Unimodular gravity replaces the fixed cosmological constant with a dynamical energy exchange between matter and geometry. Adding a power-law diffusion term and allowing spatial curvature, the authors fit the Pantheon+ supernova and BAO datasets jointly, finding a mild preference for a closed universe and a diffusion exponent near 0.5. The framework satisfies the second law of thermodynamics by construction and produces an effective dark-energy equation of state around −0.83, closer to quintessence than a cosmological constant. The result shifts H₀ to the high end favored by local distance-ladder measurements while keeping the cosmic age near 13.6 Gyr.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1084,
+  "tokens_out": 256,
+  "cost_usd": 0.007092,
+  "ingested_at": "2026-05-19T02:55:28.856441+00:00"
+}

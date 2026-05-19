@@ -1,0 +1,24 @@
+{
+  "id": "2605.16235",
+  "arxiv_url": "https://arxiv.org/abs/2605.16235",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph",
+    "math.AP"
+  ],
+  "title_original": "Nonlinear stability of continuously self-similar naked singularities for the Einstein-scalar field equations I: main results",
+  "authors": "Weihao Zheng",
+  "abstract": "This is the first part of a series of papers proving the nonlinear stability of a one-parameter family of continuously self-similar $C^{1,α}$ naked singularity solutions, with $0<α\\ll1$, to the spherically symmetric Einstein-scalar field equations. The stability holds for initial perturbations lying in a small open neighborhood of the data generating these naked singularity solutions, measured in a localized Hölder topology. These continuously self-similar naked singularity spacetimes were previously constructed by Christodoulou [D. Christodoulou, Examples of naked singularity formation in the gravitational collapse of a scalar field, Ann. of Math. 140 (1994), 607--653], who also proved their instability to black hole formation under sufficiently rough perturbations [D. Christodoulou, The instability of naked singularities in the gravitational collapse of a scalar field, Ann. of Math. 149 (1999), 183--217], thereby verifying weak cosmic censorship within a rough functional framework. In complete contrast, in this paper, we obtain the first nonlinear stability of these naked singularity spacetimes under general perturbations of the same regularity as the background. We rely on the linearized stability result established in the companion paper [J. Singh and W. Zheng, Nonlinear stability of continuously self-similar naked singularities for the Einstein--scalar field equations II: linearized stability]. Our result underscores the decisive role of the functional framework in formulating the Weak Cosmic Censorship conjecture.",
+  "title_relatable": "Naked singularities can be stable — if you choose the right ruler",
+  "hook": "A naked singularity in gravitational collapse is nonlinearly stable under smooth perturbations, directly challenging how the Weak Cosmic Censorship conjecture should be stated.",
+  "summary": "Christodoulou showed in the 1990s that certain self-similar naked singularities form in scalar-field collapse and are unstable to black hole formation — but only under rough perturbations. This work proves the opposite: perturb the same solutions with smooth enough initial data and the naked singularity persists, stable at the nonlinear level. The result turns on the choice of functional space, showing that cosmic censorship is not a binary truth but a statement that depends critically on what class of perturbations is allowed. The finding forces a more precise formulation of one of general relativity's central open conjectures.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1046,
+  "tokens_out": 223,
+  "cost_usd": 0.006483,
+  "ingested_at": "2026-05-19T02:56:28.170939+00:00"
+}

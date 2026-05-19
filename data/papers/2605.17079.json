@@ -1,0 +1,24 @@
+{
+  "id": "2605.17079",
+  "arxiv_url": "https://arxiv.org/abs/2605.17079",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY"
+  ],
+  "title_original": "Can LLMs Think Like Consumers? Benchmarking Crowd-Level Reaction Reconstruction with ConsumerSimBench",
+  "authors": "Tianyu Wang, Jiajun Li, Jianghao Lin",
+  "abstract": "LLMs are increasingly used as ``digital consumers'' to simulate public opinion, pre-test marketing decisions, and anticipate audience response. However, existing evaluations rarely ask whether a model can reconstruct the concrete reaction patterns that real consumers surface in public discourse. We introduce ConsumerSimBench, a benchmark built from 1,553 real Chinese social-media topics and 23,122 atomic, rule-audited criteria spanning four reaction families. Rather than scoring open-ended generations with a holistic preference judge, ConsumerSimBench decomposes each task into auditable yes-no decisions over concrete reaction points, raising three-judge agreement from 65.8% to 92.1% with 98.4% agreement between pointwise judge decisions and human-majority labels. Across 13 frontier generators, the strongest model, Gemini-3.1-Pro, covers only 47.8% of real reaction criteria, while GPT-5.2 and Claude-4.6 trail far behind despite their strength on technical benchmarks. The failures reveal a sharp gap between technical-benchmark performance and socially grounded consumer intuition. A direct structured reasoning prompt decreases coverage, while a generate--reflect multi-agent pipeline improves MiMo-V2.5-Pro from 32.9% to 37.6% on a subset. ConsumerSimBench reframes consumer simulation as a forecasting problem over real public-discourse reactions, showing that frontier LLMs remain far from reliably predicting what consumers will actually care about in high-context Chinese consumer discourse.",
+  "title_relatable": "Can language models truly predict what consumers will say?",
+  "hook": "A new benchmark of 23,122 consumer reactions from real Chinese social media reveals that even frontier LLMs capture only 48% of actual reaction patterns, exposing a gap between technical performance and real-world consumer intuition.",
+  "summary": "This paper introduces ConsumerSimBench, a benchmark designed to test whether large language models can accurately simulate how real consumers respond to topics and marketing decisions. Built from 1,553 Chinese social-media topics and decomposed into concrete yes-no judgments rather than holistic evaluations, the benchmark achieves 92.1% inter-judge agreement. Testing 13 frontier models shows Gemini-3.1-Pro achieves only 47.8% coverage of real reaction criteria, while GPT-5.2 and Claude-4.6 perform worse despite strong performance on standard technical benchmarks. A multi-agent pipeline improved one model from 32.9% to 37.6% coverage, but the results highlight a fundamental gap: models excel at technical tasks but struggle to predict what matters to real consumers in high-context social discourse.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1037,
+  "tokens_out": 280,
+  "cost_usd": 0.0019496,
+  "ingested_at": "2026-05-19T03:20:10.236737+00:00"
+}

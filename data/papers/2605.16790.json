@@ -1,0 +1,24 @@
+{
+  "id": "2605.16790",
+  "arxiv_url": "https://arxiv.org/abs/2605.16790",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "TIER: Trajectory-Invariant Execution Rewards for Multi-Step Tool Composition",
+  "authors": "Anay Kulkarni, ChiaEn Lu, Dheeraj Mekala, Jayanth Srinivasa, Gaowen Liu, Jingbo Shang",
+  "abstract": "Tool use enables large language models to solve complex tasks through sequences of API calls, yet existing reinforcement learning approaches fail to scale to multi-step composition settings. Outcome-based rewards provide only sparse feedback, while trajectory-supervised rewards depend on annotated reference solutions, penalizing valid alternatives and limiting scalability. We propose TIER: Trajectory-Invariant Execution Rewards, a reward framework that derives supervision directly from function schemas and runtime execution, rather than from reference trajectories. The reward decomposes into format validity, schema adherence, execution success, and answer correctness, providing dense, interpretable sequence-level feedback derived from fine-grained verification of individual steps of tool use. This design allows any valid execution path to receive credit, naturally supporting multiple solution strategies and adapting to evolving tool interfaces. On DepthBench, a compositional benchmark stratified by depth (1 to 6 steps), TIER achieves >90% accuracy across steps, where trajectory-supervised rewards collapse beyond step-4. We further demonstrate consistent gains on benchmarks like BFCL v3 and NestFUL. Ablation studies confirm that all reward components are necessary, highlighting the importance of multi-level supervision for compositional reasoning.",
+  "title_relatable": "Rewarding tool use without reference solutions",
+  "hook": "A reward system for language models using tools achieves >90% accuracy on 6-step tasks by deriving feedback from function execution rather than annotated examples, outperforming trajectory-supervised baselines that fail beyond 4 steps.",
+  "summary": "Language models can solve complex tasks by calling APIs in sequence, but existing reinforcement learning approaches struggle with multi-step composition. Outcome-based rewards are too sparse; trajectory-supervised rewards require annotated solutions and penalize valid alternatives. TIER derives dense, interpretable rewards directly from function schemas and runtime execution—checking format validity, schema adherence, execution success, and answer correctness at each step. This allows any valid execution path to be rewarded, supporting multiple solution strategies and adapting when tool interfaces change. On DepthBench (1–6 step tasks), TIER maintains >90% accuracy across all depths, while trajectory-supervised rewards collapse beyond step 4. Gains are consistent on BFCL v3 and NestFUL benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 983,
+  "tokens_out": 263,
+  "cost_usd": 0.0018384,
+  "ingested_at": "2026-05-19T03:16:05.660208+00:00"
+}

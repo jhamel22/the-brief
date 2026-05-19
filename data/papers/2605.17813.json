@@ -1,0 +1,24 @@
+{
+  "id": "2605.17813",
+  "arxiv_url": "https://arxiv.org/abs/2605.17813",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Positive Running of the Spectral Index for Scalar Theory and Modified Gravity",
+  "authors": "S. D. Odintsov, V. K. Oikonomou",
+  "abstract": "In this work we address the possibility of having a positive running of the spectral index in inflationary theories. The recent ACT data indicate mildly that the running of the spectral index might be positive, and several other physical indications point out this possibility. If the running of the spectral index is confirmed to be positive by future cosmic microwave background experiments, this can rule out quite popular inflationary scenarios. We investigate how it is possible to obtain a positive running of the spectral index in the context of minimally coupled scalar field gravity and modified gravity. For the modified gravity we choose two mainstream and of string origin candidate theories, $F(R)$ gravity and Einstein-Gauss-Bonnet gravity. In the case of scalar field inflation and $F(R)$ gravity inflation, we demonstrate the difficulties for obtaining a positive running of the spectral index for a viable inflationary regime, so scalar theories and $F(R)$ gravity are mostly compatible with the Planck data. But nuanced scalar field scenarios can be compatible with the ACT data and produce a positive running of the spectral index. In the context of Einstein-Gauss-Bonnet theories which are compatible with the GW170817 event, the running of the spectral index can easily be positive while in parallel having a viable inflationary era.",
+  "title_relatable": "ACT's hint of positive spectral tilt favors Gauss-Bonnet inflation",
+  "hook": "New CMB data from ACT suggest the spectral index may run positive, and Einstein-Gauss-Bonnet gravity handles this naturally while simpler scalar and F(R) theories struggle.",
+  "summary": "Recent ACT measurements hint that the running of the primordial spectral index is positive — a result that would eliminate many standard inflationary models. Testing three frameworks, standard scalar-field inflation and F(R) gravity both find it difficult to produce a positive running while remaining consistent with Planck constraints. Einstein-Gauss-Bonnet gravity, already constrained by the neutron-star merger GW170817, accommodates a positive running easily, making it a observationally viable candidate if future CMB experiments confirm the ACT trend.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 982,
+  "tokens_out": 214,
+  "cost_usd": 0.006156,
+  "ingested_at": "2026-05-19T02:54:27.723026+00:00"
+}

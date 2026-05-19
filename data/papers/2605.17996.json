@@ -1,0 +1,23 @@
+{
+  "id": "2605.17996",
+  "arxiv_url": "https://arxiv.org/abs/2605.17996",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "math.NA",
+    "quant-ph"
+  ],
+  "title_original": "McLachlan-projected reduced dynamics for ill-posed Schrödingerized backward diffusion",
+  "authors": "Jeongbin Jo",
+  "abstract": "Backward diffusion is a prototype ill-posed evolution: high spatial frequencies grow exponentially in time, so mesh-based time marching without explicit regularization is quickly overwhelmed by noise. Schrödingerization embeds the semidiscrete generator into Hermitian dynamics on an extended space; we ask whether McLachlan projection onto a fixed low-dimensional frame supplies a structured regularizer whose error budget can be read from a projection defect that separates full lifted propagation from the reduced trajectory. We prove uniqueness of the reduced flow, Gram-norm conservation, a lifted--reduced gap bound in terms of that defect, and perturbation estimates that highlight overlap-matrix conditioning when matrix elements are estimated statistically. We also spell out a fair classical baseline -- spectral low-pass or Tikhonov filtering on the same semidiscrete model, with bandwidth or ridge strength matched to the information content of the chosen frame -- so numerical contrasts isolate the Schrödingerized reduced pipeline rather than an unregularized Crank--Nicolson march that mainly showcases blow-up. A calibrated one-dimensional benchmark pairs a spectrally truncated reference with snapshot-built subspace evolution and finite-shot Qiskit Aer estimation, illustrating how lift, projection, and sampling layers contribute differently to the overall error.",
+  "title_relatable": "Quantum embedding tames the instability of running diffusion backward",
+  "hook": "Embedding an ill-posed backward diffusion equation into unitary quantum dynamics, then projecting onto a small subspace, provides a principled regularizer whose error can be tracked analytically.",
+  "summary": "Backward diffusion amplifies high-frequency noise exponentially, making direct numerical time-stepping unstable. This work uses Schrödingerization — lifting the problem into a larger Hermitian system — combined with McLachlan variational projection onto a fixed low-dimensional subspace to tame that instability. The paper proves uniqueness of the reduced flow, conservation of the Gram norm, and explicit error bounds tied to how well the subspace captures the full dynamics. A one-dimensional benchmark implemented in Qiskit Aer disentangles errors from the lifting step, the projection, and finite quantum-shot sampling separately.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 974,
+  "tokens_out": 222,
+  "cost_usd": 0.006252,
+  "ingested_at": "2026-05-19T03:01:38.010002+00:00"
+}

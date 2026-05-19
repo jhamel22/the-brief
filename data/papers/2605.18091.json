@@ -1,0 +1,22 @@
+{
+  "id": "2605.18091",
+  "arxiv_url": "https://arxiv.org/abs/2605.18091",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum signatures and semiclassical limitations in the transmission of Fock states",
+  "authors": "Daniel Julian Nader",
+  "abstract": "Transmission through potential barriers is a fundamental problem in quantum mechanics. While semiclassical methods can approximate certain aspects of transmission, they fail to capture the intrinsically quantum interference associated with Wigner-function negativity. We numerically study the transmission of displaced Fock states through an inverted-oscillator barrier, with and without a Kerr nonlinearity that offers a potential route to experimental realization. These states allow only an approximate classical description, since their characteristic Wigner-function negativity is absent in phase space. The semiclassical simulation reproduces the overall transmission but deviate from exact results and fail to capture short-time plateaus that arise when regions of Wigner-function negativity cross the barrier. With the Kerr nonlinearity, reflections from nonlinear boundaries drive interference into classically forbidden regions, an effect that is inaccessible to semiclassical approaches. We find that these interference effects do not alter the maximum transmission probability, which is bounded by the initial positive-energy fraction and therefore already encoded in the phase-space structure of the Fock states. Because Fock states cannot be faithfully represented within classical phase space, the transmission through a barrier reveals fundamental limitations of semiclassical approaches.",
+  "title_relatable": "Where semiclassical physics breaks down for quantum barrier transmission",
+  "hook": "Sending Fock states through a potential barrier exposes precise failures of semiclassical approximations, including short-time plateaus and interference in classically forbidden regions that semiclassics cannot reproduce.",
+  "summary": "Displaced Fock states transmitted through an inverted-oscillator barrier serve as a clean probe of where semiclassical methods fail, because their Wigner functions carry negative regions that have no classical counterpart. Numerical simulations show that semiclassics captures the broad transmission envelope but misses short-time plateaus that appear exactly when Wigner-negative regions cross the barrier. Adding a Kerr nonlinearity pushes interference into classically forbidden phase-space regions, a feature entirely inaccessible to classical approaches. Despite these discrepancies, the maximum transmission probability remains bounded by the initial positive-energy fraction already encoded in the state's phase-space structure.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 234,
+  "cost_usd": 0.006354,
+  "ingested_at": "2026-05-19T03:01:15.108814+00:00"
+}

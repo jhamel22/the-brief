@@ -1,0 +1,24 @@
+{
+  "id": "2605.16510",
+  "arxiv_url": "https://arxiv.org/abs/2605.16510",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Is the Binary Black Hole Population Inference from Gravitational-Wave Data Robust?",
+  "authors": "Upasana Das, Suvodip Mukherjee",
+  "abstract": "Gravitational-wave observations are playing an instrumental role in understanding the population of binary compact objects in the Universe. These observations have begun to hint at the mass distribution of binary black holes (BBHs), with tentative evidence for features in the mass distribution beyond a simple power-law. Such features, hence, can be connected with different formation scenarios of BBHs and lead to important astrophysical conclusions. However, it is crucial to understand whether these features are truly astrophysical or connected with any unknown systematics. We show in this work that waveform modelling uncertainties can significantly distort inferred features in the BBH mass distribution, which can be more pronounced than the statistical uncertainty, even with the current generation detectors, which can peak close to the lower edge of the pair instability supernovae (PISN) mass gap, and also can impact the slope of the power-law distribution. So, in order to have a confirmed detection of astrophysical features in the BBH mass distribution and connecting them with BBH formation channels, it is important to consider waveform systematics in the astrophysical population analysis. We show the typical scaling of the systematic error and discuss a few avenues to mitigate this effect for robust measurements in the future.",
+  "title_relatable": "Waveform errors may be distorting our map of black hole masses",
+  "hook": "Uncertainties in gravitational-wave signal models can fake or erase features in the black hole mass distribution, potentially misleading conclusions about how black holes form.",
+  "summary": "When gravitational-wave astronomers infer the population of binary black holes, they rely on waveform templates to extract masses from the data. This analysis shows that errors in those templates can shift or blur features in the inferred mass distribution — such as the pile-up near the pair-instability supernova mass gap — by more than the statistical uncertainty even with current detectors. The problem is not merely academic: such distortions could be misread as genuine astrophysical signatures tied to black hole formation channels. The authors quantify how systematic errors scale and outline strategies to account for waveform uncertainty in future population studies.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 964,
+  "tokens_out": 217,
+  "cost_usd": 0.006147,
+  "ingested_at": "2026-05-19T02:56:04.202028+00:00"
+}

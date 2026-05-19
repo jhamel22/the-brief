@@ -1,0 +1,24 @@
+{
+  "id": "2605.17172",
+  "arxiv_url": "https://arxiv.org/abs/2605.17172",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "OpenJarvis: Personal AI, On Personal Devices",
+  "authors": "Jon Saad-Falcon, Avanika Narayan, Robby Manihani, Tanvir Bhathal, Herumb Shandilya, Hakki Orhun Akengin, Gabriel Bo, Andrew Park, Matthew Hart, Caia Costello, Chuan Li, Christopher Ré, Azalia Mirhoseini",
+  "abstract": "Personal AI stacks, like OpenClaw and Hermes Agent, are becoming central to daily work, yet they route nearly every query (often over sensitive local data) to cloud-hosted frontier models. Replacing frontier models with local models inside existing stacks does not work: swapping Claude Opus 4.6 for Qwen3.5-9B drops accuracy by 25-39 pp across personal AI tasks like PinchBench and GAIA. Existing stacks bundle agentic prompts, tool descriptions, memory configuration, and runtime settings around a specific cloud model. Only the prompts can be tuned, and state-of-the-art prompt optimizers close just 5 pp of the local-cloud gap on their own. This motivates a decomposed personal AI stack: one that exposes individual primitives which can be optimized individually or jointly to close the local-cloud gap. We present OpenJarvis, an architecture that represents a personal AI system as a typed spec over five primitives: Intelligence, Engine, Agents, Tools & Memory, and Learning. Each primitive is an independently editable field, making the stack end-to-end optimizable and measurable against accuracy, cost, and latency. Towards closing the local-cloud gap without surrendering local-model properties, OpenJarvis introduces LLM-guided spec search, a local-cloud collaboration in which frontier cloud models propose edits across the spec at search time, only non-regressing edits are accepted, and the resulting spec runs entirely on-device at inference time. With LLM-guided spec search, on-device specs match or exceed cloud accuracy on 4 of 8 benchmarks and land within 3.2 pp of the best cloud baseline on average. They also reduce marginal API cost by ~800x and end-to-end latency by 4x.",
+  "title_relatable": "Running personal AI assistants entirely on your own device",
+  "hook": "A system that optimizes local AI models to match cloud performance by decomposing the agent stack into editable components and using cloud models only at design time, reducing API costs by 800× and latency by 4×.",
+  "summary": "Personal AI assistants today send most queries to cloud services like Claude, raising privacy and cost concerns. Simply swapping in open local models causes 25–39 percentage point accuracy drops. OpenJarvis decomposes the AI stack into five independent, optimizable primitives: Intelligence, Engine, Agents, Tools & Memory, and Learning. The system uses frontier cloud models to propose edits to this specification at design time, accepting only non-regressive changes, then runs entirely on-device at inference. On eight benchmarks, on-device specs match or exceed cloud accuracy on four, with an average gap of just 3.2 percentage points, while cutting API costs by ~800× and end-to-end latency by 4×. Code and models are being released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1158,
+  "tokens_out": 262,
+  "cost_usd": 0.0019744000000000003,
+  "ingested_at": "2026-05-19T03:15:26.335175+00:00"
+}

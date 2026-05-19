@@ -1,0 +1,24 @@
+{
+  "id": "2605.17041",
+  "arxiv_url": "https://arxiv.org/abs/2605.17041",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.HC"
+  ],
+  "title_original": "Agentic AI Translate: An Agentic Translator Prototype for Translation as Communication Design",
+  "authors": "Masaru Yamada",
+  "abstract": "We present Agentic AI Translate, an agentic translator prototype that operationalises the thesis of Yamada (forthcoming) -- that the metalanguage of Translation Studies has become an instruction code for generative AI. The system replaces the dominant text-in / text-out paradigm of machine translation with a four-stage agentic cycle (Identify -> Prompt -> Generate -> Verify), preceded by an interactive specification phase in which the user composes -- through model-assisted dialogue -- a structured translation brief grounded in skopos theory, register, audience, and genre conventions. The verification stage adopts the GEMBA-MQM error-span protocol (Kocmi & Federmann, 2023) for evidence-grounded scoring, and document-level coherence is preserved through a DelTA-lite memory of proper nouns and a running bilingual summary, after Wang et al. (2025). We describe the philosophical motivation, the architectural commitments, the four reference-material categories the system consumes, and the principal design tensions the architecture makes explicit. Empirical validation is left for future work; the contribution here is conceptual and architectural -- an executable embodiment of the position that translation in the GenAI era is communication design, not text conversion.",
+  "title_relatable": "Teaching AI to translate like a professional communicator",
+  "hook": "A translator prototype replaces mechanical text conversion with an interactive four-stage process grounded in translation theory, letting users specify context, audience, and purpose before generation.",
+  "summary": "Current machine translation systems treat translation as text-in/text-out conversion, ignoring the communicative intent behind it. This prototype introduces an agentic cycle where users first compose a structured translation brief through dialogue—specifying skopos, register, audience, and genre—then the system generates and verifies output using evidence-grounded error scoring. The system maintains document coherence via named-entity memory and bilingual summaries. This is a conceptual and architectural contribution: the authors argue translation in the generative AI era should be communication design, not mechanical conversion. No empirical validation is included; the work is grounded in translation studies theory.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 955,
+  "tokens_out": 218,
+  "cost_usd": 0.001636,
+  "ingested_at": "2026-05-19T03:20:16.458910+00:00"
+}

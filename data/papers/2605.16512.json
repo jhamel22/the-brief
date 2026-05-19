@@ -1,0 +1,23 @@
+{
+  "id": "2605.16512",
+  "arxiv_url": "https://arxiv.org/abs/2605.16512",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.IM"
+  ],
+  "title_original": "Bidirectional Internal Squeezing for Gravitational-Wave Detectors",
+  "authors": "Sander M. Vermeulen, Umran Serra Koca, Lee McCuller",
+  "abstract": "We present a bidirectional internal squeezing scheme for gravitational-wave detectors and show that it saturates the lowest known lower bounds on quantum noise from internal optical dissipation. The scheme uses two optical parametric amplification stages inside the signal-extraction cavity that act on intra-cavity fields propagating in opposite directions. Thereby, most vacuum fields entering the interferometer are squeezed, while the signal and internal vacuum fields are amplified so that loss in the readout path adds no further noise. We show that the resulting signal-referred quantum noise spectral density is independent of the arm-cavity input and signal-extraction transmissivities at high frequencies, opening design freedom to mitigate technical constraints and radiation-pressure noise. We derive these results analytically, compare them with other internal squeezing and amplification schemes, and validate the full quantum-noise spectrum through numerical simulations. We also assess realistic implementations, including dissipation mechanisms and transverse mode mismatch introduced by the scheme, and find that 'mode healing' in the signal-extraction cavity can suppress mismatch losses. These results identify bidirectional internal squeezing as a possible upgrade path for gravitational-wave observatories such as LIGO, and the scheme may also benefit future observatories and other interferometry experiments.",
+  "title_relatable": "A squeezing upgrade that could push LIGO past its quantum limits",
+  "hook": "Placing two optical amplifiers inside a gravitational-wave detector's signal cavity, pointed in opposite directions, saturates the theoretical minimum quantum noise set by internal optical losses.",
+  "summary": "Internal optical losses are a fundamental barrier to sensitivity in interferometric gravitational-wave detectors — every photon absorbed or scattered inside the cavity adds irreducible noise. This scheme inserts two optical parametric amplifiers into the signal-extraction cavity, squeezing light traveling in both directions simultaneously. The result is a quantum noise floor that no longer depends on the transmissivities of the arm-cavity mirrors or signal-extraction optics at high frequencies, freeing engineers from a longstanding design trade-off. Analytical results are confirmed numerically, realistic loss mechanisms are assessed, and a 'mode healing' effect is identified that suppresses losses from imperfect beam overlap — making the scheme a credible upgrade path for LIGO and next-generation observatories.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 979,
+  "tokens_out": 247,
+  "cost_usd": 0.006642,
+  "ingested_at": "2026-05-19T02:55:58.189047+00:00"
+}

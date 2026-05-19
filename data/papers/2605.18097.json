@@ -1,0 +1,22 @@
+{
+  "id": "2605.18097",
+  "arxiv_url": "https://arxiv.org/abs/2605.18097",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Effects of formation channels and gravitational lensing on stochastic gravitational wave background",
+  "authors": "Xin-yi Lin, Zhengxiang Li",
+  "abstract": "Two primary formation channels for black holes have been proposed: the astrophysical channel, driven by the collapse of massive stars, and the primordial channel, involving their direct formation from density fluctuations in the early Universe. The key distinction between astrophysical black holes (ABHs) and primordial black holes (PBHs) is that PBHs can form at very high redshifts, before any stars have formed, leading to different stochastic gravitational-wave backgrounds (SGWBs). These SGWBs arise from the superposition of unresolved gravitational-wave signals accumulated over all redshifts. In this work, we employ the Hierarchical Bayesian Inference (HBI) framework and the publicly available GWTC-4 data to infer the population hyperparameters of PBHs. We then compute the SGWBs from ABHs and PBHs separately, accounting for the lensing effect, which can modify the strain amplitude of the SGWBs. By comparing the resulting SGWBs with the power-law integrated (PI) sensitivity curves of ground-based gravitational-wave detectors -- LIGO and the Einstein Telescope (ET) -- we find that both detectors can distinguish between these two black hole formation models within specific frequency ranges. However, LIGO is limited to a single method for distinguishing these models, and the lensing effect alters the frequency range over which discrimination is possible. In contrast, ET is capable of distinguishing ABHs from PBHs across a broader parameter space.",
+  "title_relatable": "LIGO and Einstein Telescope can tell stellar black holes from primordial ones",
+  "hook": "By modeling the gravitational-wave background from unresolved mergers, researchers show that next-generation detectors can distinguish primordial black holes from stellar-collapse black holes across a wider frequency range than current instruments allow.",
+  "summary": "Black holes formed in the early universe from density fluctuations leave a different imprint on the stochastic gravitational-wave background than those born from collapsing stars, mainly because primordial black holes merge at much higher redshifts. Using hierarchical Bayesian inference on GWTC-4 catalog data, the authors infer primordial black hole population parameters and compute both backgrounds separately, including the effect of gravitational lensing on signal amplitude. Comparing these predictions against LIGO and Einstein Telescope sensitivity curves, they find LIGO can discriminate between the two populations only in a narrow frequency window, while the Einstein Telescope does so across a substantially broader parameter space.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1039,
+  "tokens_out": 247,
+  "cost_usd": 0.006822,
+  "ingested_at": "2026-05-19T02:53:34.172077+00:00"
+}

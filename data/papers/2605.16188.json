@@ -1,0 +1,23 @@
+{
+  "id": "2605.16188",
+  "arxiv_url": "https://arxiv.org/abs/2605.16188",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Non-Invertible Symmetries in Compactified Supergravities",
+  "authors": "Fabián Caro-Pérez, María Pilar García del Moral, Álvaro Restuccia",
+  "abstract": "We study the \\textit{Kaluza--Klein} descent of non-invertible higher-form symmetry defects from eleven-dimensional Supergravity to Type IIA Supergravity. Starting from the eleven-dimensional construction of non-invertible Supergravity defects, we show that the full defect, including its auxiliary topological sector, admits a pushforward along the M-theory circle in the zero-mode Supergravity regime. The seven-dimensional \\textit{Chern--Simons}-like auxiliary theory descends to a six-dimensional \\(BF\\)-type sector. We also show that the compactification of the eleven-dimensional \\textit{Bianchi} sector splits into an invertible \\(H_{[3]}\\)-sector and a twisted non-invertible \\(\\widetilde F_{[4]}\\)-sector, controlled by \\(d\\widetilde F_{[4]}+H_{[3]}\\wedge F_{[2]}=0\\). The resulting Type IIA defect algebra contains both an invertible Picard subgroup and non-invertible \\(BF\\)-dressed defects, with charged probes identified through the standard M-theory/Type IIA brane dictionary.",
+  "title_relatable": "How exotic symmetries survive the journey from M-theory to string theory",
+  "hook": "Non-invertible symmetries in eleven-dimensional supergravity survive compactification to Type IIA, but split into invertible and genuinely non-invertible sectors with distinct topological structures.",
+  "summary": "Compactifying M-theory on a circle down to Type IIA supergravity is a well-worn path, but how its more exotic symmetries — defects that cannot be inverted like ordinary group elements — survive that descent is not obvious. The authors track the full non-invertible defect structure, including auxiliary topological sectors, through the Kaluza-Klein reduction. A seven-dimensional Chern-Simons-like theory collapses to a six-dimensional BF-type sector, while the Bianchi identity splits the symmetries into an ordinary invertible piece and a twisted non-invertible piece tied together by the Type IIA flux relation. The charged objects on each side are matched through the standard M-theory/Type IIA brane dictionary.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 989,
+  "tokens_out": 259,
+  "cost_usd": 0.006852,
+  "ingested_at": "2026-05-19T02:59:36.006099+00:00"
+}

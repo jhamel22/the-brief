@@ -1,0 +1,22 @@
+{
+  "id": "2605.16641",
+  "arxiv_url": "https://arxiv.org/abs/2605.16641",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "On bulk reconstruction in Lorentzian AdS and its flat space limit",
+  "authors": "Núria Navarro, Ana-Maria Raclariu",
+  "abstract": "We revisit the reconstruction of a free quantum field in 4-dimensional Lorentzian Anti-de-Sitter (AdS$_4$) spacetime in terms of primary operators in the boundary 3d CFT (CFT$_3$). We show that the positive and negative energy subspaces of solutions to the Klein-Gordon equation in AdS can be spanned with bulk-to-boundary propagators with appropriate time orderings. As a result, free scalar fields on a codimension-1 bulk hypersurface $Σ_τ$ can be expressed in terms of operators integrated over boundary regions in the past or future of $Σ_τ$ with kernels given by time-ordered or anti-time-ordered propagators. We present various equivalent representations for the bulk field in terms of either CFT primaries or their shadows. We show from both a representation theoretic perspective and by direct computation of various flat space limits that our construction is the AdS analog of the canonical quantization of a free scalar in flat space. Depending on the choice of $Δ$ and the location of the boundary insertions one obtains a decomposition of the scalar in either a plane wave basis ($Δ\\rightarrow \\infty$) or a Carrollian basis (fixed $Δ$). Finally, we show that the free scalar in AdS$_4$ can be alternatively decomposed in terms of wavefunctions associated with principal series representations of dimension $δ= 1 + iλ$ of an $\\mathfrak{so}(3,1)$ subalgebra of the AdS$_4$ isometry algebra. We demonstrate that the latter become, in the limit of large AdS radius and for fixed $δ$, scalar conformal primary wavefunctions in flat space.",
+  "title_relatable": "How bulk quantum fields in AdS encode their flat-space limit",
+  "hook": "A careful reanalysis of free scalar field reconstruction in AdS shows the procedure is the exact AdS analogue of canonical quantization, with flat-space plane-wave and Carrollian bases emerging naturally in controlled limits.",
+  "summary": "Starting from the Klein-Gordon equation in AdS₄, the authors show that bulk scalar fields on any time slice can be written as boundary CFT operator integrals, with time-ordered or anti-time-ordered propagators handling positive and negative energy modes separately. Multiple equivalent representations—using CFT primaries, their shadows, or principal-series wavefunctions—are derived and shown to be self-consistent. Taking the flat-space limit recovers either a plane-wave decomposition (when the conformal dimension is sent to infinity) or a Carrollian basis (at fixed dimension), cleanly connecting AdS bulk reconstruction to standard flat-space quantum field theory. The principal-series wavefunctions become scalar conformal primary wavefunctions in flat space when the AdS radius is taken large.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1093,
+  "tokens_out": 264,
+  "cost_usd": 0.007239,
+  "ingested_at": "2026-05-19T02:58:37.386778+00:00"
+}

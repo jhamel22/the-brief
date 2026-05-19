@@ -1,0 +1,26 @@
+{
+  "id": "2605.18598",
+  "arxiv_url": "https://arxiv.org/abs/2605.18598",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cond-mat.stat-mech",
+    "math.FA",
+    "math.PR",
+    "math.ST"
+  ],
+  "title_original": "Pointwise Generalization in Deep Neural Networks",
+  "authors": "Shaojie Li, Yunbei Xu",
+  "abstract": "We address the fundamental question of why deep neural networks generalize by establishing a pointwise generalization theory for fully connected networks. This framework resolves long-standing barriers to characterizing the rich nonlinear feature-learning regime and builds a new statistical foundation for representation learning. For each trained model, we characterize the hypothesis via a pointwise Riemannian Dimension, derived from the eigenvalues of the learned feature representations across layers. This establishes a principled framework for deriving hypothesis-dependent, representation-aware generalization bounds. These bounds offer a systematic upgrade over approaches based on model size, products of norms, and infinite-width linearizations, yielding guarantees that are orders of magnitude tighter in both theory and experiment. Analytically, we identify the structural properties and mathematical principles that explain the tractability of deep networks. Empirically, the pointwise Riemannian Dimension exhibits substantial feature compression, decreases with increased over-parameterization, and captures the implicit bias of optimizers. Taken together, our results indicate that deep networks are mathematically tractable in practical regimes and that their generalization is sharply explained by pointwise, feature-spectrum-aware complexity.",
+  "title_relatable": "Why deep networks generalize: a geometry-based theory",
+  "hook": "New theoretical framework explains deep network generalization using spectral properties of learned features, yielding bounds orders of magnitude tighter than prior approaches.",
+  "summary": "This work establishes a pointwise generalization theory for fully connected networks by introducing the pointwise Riemannian Dimension, a measure derived from eigenvalue spectra of learned representations across layers. The approach resolves previous barriers to characterizing feature learning in deep networks and provides representation-aware generalization bounds that improve significantly over existing methods based on model size, norm products, and infinite-width limits. Empirically, the framework shows that the Riemannian Dimension exhibits feature compression, decreases with over-parameterization, and captures optimizer implicit bias. The theory demonstrates that deep networks are mathematically tractable in practical settings and that their generalization behavior is explained by pointwise, feature-spectrum-aware complexity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 927,
+  "tokens_out": 231,
+  "cost_usd": 0.0016656,
+  "ingested_at": "2026-05-19T03:08:41.196887+00:00"
+}

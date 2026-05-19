@@ -1,0 +1,23 @@
+{
+  "id": "2605.17124",
+  "arxiv_url": "https://arxiv.org/abs/2605.17124",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Covariant extrinsic curvature expansion of the nonlocal effective action for a massless scalar field on a manifold with boundary",
+  "authors": "A. Boasso, C. D. Fosco, B. C. Guntsche, F. D. Mazzitelli",
+  "abstract": "We study the nonlocal effective action of a massless scalar field defined on a flat manifold with a curved boundary. Using a heat-kernel approach, we derive a covariant expansion of the nonlocal contribution to quadratic order in the extrinsic curvature tensor. Our construction provides a geometric framework that both reproduces earlier results obtained for Monge-patch embeddings and extends them to more general surfaces that need not admit a global Monge-patch description. The expansion is valid in the regime where gradients of the extrinsic curvature dominate over nonlinear curvature effects. As an application, we compute the particle-creation rate for an oscillating deformed ring in $2+1$ dimensions and an oscillating deformed sphere in $3+1$ dimensions.",
+  "title_relatable": "How curved boundaries shape quantum field behavior near surfaces",
+  "hook": "A covariant expansion of the quantum effective action near curved boundaries unifies earlier patchwork results and predicts particle creation rates for oscillating deformed shapes.",
+  "summary": "Starting from a heat-kernel approach, the authors derive how the nonlocal effective action of a massless scalar field depends on the extrinsic curvature of a flat space's boundary, carried to quadratic order in that curvature. The framework is fully covariant, so it applies to surfaces that cannot be described by a single height function — a limitation of earlier Monge-patch calculations. As a concrete test, they compute the rate at which quantum particles are created by an oscillating deformed ring in 2+1 dimensions and a deformed sphere in 3+1 dimensions, connecting the geometric formalism to a measurable physical effect.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 896,
+  "tokens_out": 218,
+  "cost_usd": 0.005958,
+  "ingested_at": "2026-05-19T02:57:53.121373+00:00"
+}

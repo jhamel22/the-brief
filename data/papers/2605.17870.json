@@ -1,0 +1,23 @@
+{
+  "id": "2605.17870",
+  "arxiv_url": "https://arxiv.org/abs/2605.17870",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Rotating black holes with primary hair in five-dimensional generalized Proca theory",
+  "authors": "Mokhtar Hassaine, Ulises Hernandez-Vera",
+  "abstract": "This work presents a new class of exact analytic rotating black hole solutions within five-dimensional generalized Proca theories. Through a Kerr-Schild ansatz where the Proca field is set along a null geodesic congruence, the non-linear field equations reduce to a consistent set of three master equations. This geometric configuration ensures that the vector field remains light-like on-shell, effectively restricting the theory's functional couplings to discrete constants and allowing for a fully analytic treatment. The resulting solutions, incorporating a cosmological constant and two independent angular momenta, exhibit primary hair given by an arbitrary function of the non-Killing angular coordinate. We identify several solution branches defined by specific algebraic relations between the Proca coupling constants, providing a significant generalization of the Myers-Perry family. Notably, the metric retains a Kerr-Schild form identical to the Myers-Perry representation, with an additional contribution constructed from the tensor product of the Proca one-form with itself.",
+  "title_relatable": "Exact rotating black holes with vector field hair in five dimensions",
+  "hook": "New analytic rotating black hole solutions in five dimensions carry 'primary hair' from a vector field, generalizing the standard Myers-Perry family while keeping the metric in closed form.",
+  "summary": "Using a Kerr-Schild ansatz that aligns a Proca vector field along null geodesics, the authors reduce the full nonlinear field equations to three manageable master equations. The trick forces the vector field to remain light-like, which pins the theory's free couplings to discrete values and makes exact analytic solutions possible. The resulting black holes carry two independent angular momenta, a cosmological constant, and primary hair encoded in an arbitrary function of one angular coordinate — a genuine physical degree of freedom not removable by gauge or coordinate choice. Several distinct solution branches emerge, each defined by specific relations among the Proca coupling constants.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 912,
+  "tokens_out": 223,
+  "cost_usd": 0.006081,
+  "ingested_at": "2026-05-19T02:54:04.337929+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.17131",
+  "arxiv_url": "https://arxiv.org/abs/2605.17131",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "A Systematic Survey on Deep Learning Architectures for Point Cloud Classification and Segmentation",
+  "authors": "Minhas Kamal, Hiranya Garbha Kumar, Balakrishnan Prabhakaran",
+  "abstract": "Point cloud stands as the most widely adopted format for representing 3D shapes and scenes due to its simplicity and geometric fidelity. However, its inherent unordered and irregular nature, exacerbated by sensor noise and occlusions, introduces unique challenges for machine learning based methodologies. To combat these issues, diverse strategies have been developed, including converting to a format that has orderliness, extracting local geometry, and permutation-invariant or self-attention-based processing. In this paper, our focus is directed towards deep learning models for three fundamental tasks in 3D vision: point cloud classification, part segmentation, and semantic segmentation. We begin by formally defining point cloud data, followed by an in-depth discussion on its structural characteristics. Then, we categorize notable works based on their backbone structure and evaluate their performance on popular benchmarks. Beyond empirical comparison, we offer insights into architectural innovations and limitations. We also outline open challenges and promising future directions for 3D point cloud understanding.",
+  "title_relatable": "Deep learning approaches for understanding 3D point clouds",
+  "hook": "A systematic review of neural network architectures designed to handle the unordered and irregular nature of 3D point cloud data for classification and segmentation tasks.",
+  "summary": "Point clouds—sparse 3D data from sensors—present unique challenges due to their unordered structure, noise, and occlusions. This survey categorizes deep learning approaches for three core tasks: classification, part segmentation, and semantic segmentation. The authors organize methods by backbone architecture and evaluate them on standard benchmarks, covering strategies like format conversion, local geometry extraction, and permutation-invariant processing. The paper synthesizes performance comparisons, discusses architectural innovations and their limitations, and identifies open problems for future research.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 907,
+  "tokens_out": 191,
+  "cost_usd": 0.0014896,
+  "ingested_at": "2026-05-19T03:25:46.254666+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.16483",
+  "arxiv_url": "https://arxiv.org/abs/2605.16483",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "The limits of feedback from active galactic nuclei",
+  "authors": "Andrew Pontzen, Hiranya V. Peiris, Joop Schaye, Matthieu Schaller",
+  "abstract": "We use FLAMINGO to investigate why feedback from active galactic nuclei (AGN) significantly depletes gas in galaxy groups but is ineffective in clusters. We delineate three radial zones: an inner zone where AGN feedback heats halo gas via shocks; an intermediate buoyancy zone where the heated halo gas rises; and an outer zone where the outflow may stall in a termination shock. Heating in the inner zone self-limits because, once the gas is sufficiently hot, shocks become too weak to deposit further entropy. Consequently, outflows have a ceiling entropy value ($360\\, {\\rm keV\\, cm^2}$) that is nearly independent of halo mass. These values (and trends with redshift and feedback variants) are explained using an argument based on the Rankine-Hugoniot relations. Outflows rise at fixed entropy through the buoyancy zone, escaping the halo if the ceiling value is sufficiently elevated over that of the inflowing gas. This condition is satisfied only for halo masses $M_{\\rm 200m}<10^{13.7}\\,{\\rm M_\\odot}$, because inflow entropy tracks the virial relation. Variants with stronger (or weaker) feedback have a higher (or lower) entropy ceiling and a correspondingly modified critical mass of $M_{\\rm 200m}=10^{14.0}\\,{\\rm M_\\odot}$ (or $10^{13.5}\\,{\\rm M_\\odot}$). In clusters above the critical mass, the increased inflow entropy causes the outflow to stall and potentially shock at the 'splashback' radius. We derive an expression for the time evolution of the virial gas fraction, which shows how lingering gas is reincorporated as the halo virial radius expands. This effect dominates over outflows unless they rejoin the Hubble flow; as a result, virial gas fractions rise as a function of mass starting at $M_{\\rm 200m} = 10^{13.0}\\,{\\rm M_\\odot}$. These effects explain why groups have depleted gas, while clusters have close to the cosmic baryon fraction.",
+  "title_relatable": "Why black hole jets hollow out galaxy groups but fail in clusters",
+  "hook": "A simple entropy ceiling set by shock physics explains why AGN feedback evacuates gas from galaxy groups but leaves massive clusters nearly untouched.",
+  "summary": "Using the FLAMINGO cosmological simulation, the authors dissect AGN-driven outflows into three radial zones and show that shock heating saturates at a fixed entropy ceiling (~360 keV cm²) regardless of halo mass. Whether an outflow escapes depends on how that ceiling compares to the entropy of infalling gas, which climbs with halo mass following the virial relation. Below roughly 10^13.7 solar masses the outflow wins and gas is expelled; above that threshold the inflow entropy is too high, the outflow stalls near the splashback radius, and clusters retain close to the cosmic baryon fraction. The transition mass shifts predictably with feedback strength, providing a physical handle for calibrating simulations against X-ray and Sunyaev–Zel'dovich observations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1194,
+  "tokens_out": 252,
+  "cost_usd": 0.007362,
+  "ingested_at": "2026-05-19T03:06:40.683398+00:00"
+}

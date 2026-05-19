@@ -1,0 +1,24 @@
+{
+  "id": "2605.17046",
+  "arxiv_url": "https://arxiv.org/abs/2605.17046",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "1GC-7RC: One Graphic Card -- Seven Research Challenges! How Good Are AI Agents at Doing Your Job?",
+  "authors": "Robin-Nico Kampa, Fabian Deuser, Anna Bößendörfer, Konrad Habel, Norbert Oswald",
+  "abstract": "Autonomous AI coding agents are becoming a core tool for ML practitioners in industry and research alike. Despite this growing adoption, no standardized benchmark exists to evaluate their ability to design, implement, and train models from scratch across diverse domains. We introduce **1GC-7RC** (*Single Graphic Card: Seven Research Challenges*), a benchmark comprising seven ML tasks spanning language modeling, image classification, semantic segmentation, graph learning, tabular prediction, time-series forecasting, and text classification. Each task provides a locked data-preparation and evaluation script together with a baseline training script; the agent may only modify the training code, has no access to pretrained weights (with one controlled exception for semantic segmentation), no internet access, and must complete each task within a task-specific wall-clock budget (40-120 minutes) on a single GPU. We evaluate seven coding agents: five proprietary (Claude Code with Sonnet 4.6, Opus 4.6, and Opus 4.7; Codex CLI with GPT 5.5; and OpenCode with Qwen 3.6+) and two open-source (OpenCode with Kimi K2.5, Kimi K2.6). Across 5 runs per agent-task pair, we report substantial performance differences that reveal varying levels of implicit ML knowledge, planning ability, and time-budget management. The benchmark, harness, and all evaluation artifacts are publicly available on GitHub at https://github.com/Strolchii/1GC-7RC-Benchmark to facilitate reproducible comparison of future agents. Because our benchmark design is modular, the benchmark can be extended to new tasks and domains, adapted to different GPU budgets, and used to study multi-agent settings, making it a flexible platform for future research on autonomous research agents.",
+  "title_relatable": "Can AI coding agents actually train machine learning models?",
+  "hook": "A new benchmark tests seven AI coding agents on real ML tasks—language modeling to time series—within strict resource limits, revealing large performance gaps and differences in planning ability.",
+  "summary": "No standardized way exists to evaluate whether autonomous AI agents can design, implement, and train ML models independently. 1GC-7RC provides seven tasks spanning diverse domains (NLP, vision, graphs, tabular, time series) where agents modify only training code, run on a single GPU, and must complete within 40–120 minutes. The authors tested five proprietary agents (Claude, GPT, Qwen) and two open-source variants, running five trials each. Results show substantial performance variation across agents and tasks, exposing differences in implicit ML knowledge, planning, and time management. The benchmark, code, and artifacts are publicly available on GitHub, with a modular design that supports extension to new tasks and multi-agent studies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1112,
+  "tokens_out": 241,
+  "cost_usd": 0.0018536,
+  "ingested_at": "2026-05-19T03:11:03.813202+00:00"
+}

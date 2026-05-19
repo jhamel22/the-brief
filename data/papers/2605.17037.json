@@ -1,0 +1,24 @@
+{
+  "id": "2605.17037",
+  "arxiv_url": "https://arxiv.org/abs/2605.17037",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "D$^2$Evo: Dual Difficulty-Aware Self-Evolution for Data-Efficient Reinforcement Learning",
+  "authors": "Ru Zhang, Renda Li, Ziyu Ma, Weijie Qiu, Chongyang Tao, Yong Wang, Xiangxiang Chu",
+  "abstract": "Reinforcement learning (RL) has demonstrated potential for enhancing reasoning in large language models (LLMs). However, effective RL training, which requires medium-difficulty training samples, faces two fundamental challenges: Effective Data Scarcity and Dynamic Difficulty Shifts, where medium-difficulty samples are scarce and become trivial as models improve. Existing methods mitigate this scarcity to some extent by generating training samples. However, these approaches suffer from anchor-free generation, ignoring co-evolution, and difficulty mismatch. To address these issues, we propose D$^2$Evo, a Dual Difficulty-aware self-Evolution RL framework. In each iteration, our method mines medium-difficulty anchors based on the current Solver's capability, trains the Questioner to generate diverse questions at appropriate difficulty levels, and jointly optimizes both components to enable progressive reasoning gains. Extensive experiments demonstrate that D$^2$Evo outperforms existing methods on mathematical reasoning benchmarks with fewer than 2K real mathematical samples, and exhibits strong generalization on general reasoning benchmarks.",
+  "title_relatable": "Training reasoning models efficiently with difficulty-matched questions",
+  "hook": "A self-evolving reinforcement learning framework that generates medium-difficulty training samples dynamically, achieving strong performance on math reasoning with under 2K real examples.",
+  "summary": "Training LLMs to improve reasoning via RL is hindered by scarcity of appropriately difficult samples and the problem that samples become too easy as models improve. D²Evo addresses this by jointly training a Questioner (generates training problems) and Solver (answers them), with the Questioner calibrated to the Solver's current capability. The method mines medium-difficulty anchors from the Solver's mistakes and generates diverse questions at matching difficulty levels. On mathematical reasoning benchmarks, D²Evo outperforms existing generation-based approaches using fewer than 2K real samples and generalizes to broader reasoning tasks. Code availability not mentioned.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 959,
+  "tokens_out": 221,
+  "cost_usd": 0.0016512,
+  "ingested_at": "2026-05-19T03:20:19.469356+00:00"
+}

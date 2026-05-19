@@ -1,0 +1,22 @@
+{
+  "id": "2605.16199",
+  "arxiv_url": "https://arxiv.org/abs/2605.16199",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Detectability of avoided crossings in black hole ringdowns",
+  "authors": "Hayato Imafuku, Naritaka Oshita, Hiroki Takeda",
+  "abstract": "Quasinormal modes (QNMs) of black holes can exhibit avoided crossings (ACs), in which specific QNM frequencies approach each other while their amplitudes are enhanced and acquire nearly opposite phases, leading to characteristic interference. Resolving such closely spaced modes through black hole spectroscopy is observationally challenging. In this paper, we investigate the detectability of nearly degenerate QNMs in the presence of an AC within a Bayesian framework using three waveform models. We examine how the inference of the complex frequencies and amplitudes depends on the separation between the two QNM frequencies and on the choice of template waveform. We find that resolving the individual QNM frequencies is difficult even under optimistic conditions. On the other hand, collective waveform signatures associated with ACs may still be identified through complementary waveform descriptions, provided that the AC-related modes dominate the observed ringdown signal and contamination from more slowly damped modes is negligible or can be removed.",
+  "title_relatable": "Why black hole ringdowns hide their most interesting frequency crossings",
+  "hook": "When two black hole vibrational frequencies nearly coincide, the resulting interference pattern is detectable, but resolving the individual frequencies remains out of reach even with optimistic observations.",
+  "summary": "Black hole quasinormal modes can undergo avoided crossings — events where two mode frequencies approach each other, their amplitudes surge, and they oscillate nearly out of phase, producing a distinctive interference signature in the ringdown signal. Using Bayesian inference with three different waveform models, this study tests how well current gravitational-wave spectroscopy could recover those frequencies. Separating the individual modes proves difficult under realistic conditions, but the collective waveform distortion from the crossing may still be identified if those modes dominate the signal and slower-decaying background modes can be subtracted away.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 912,
+  "tokens_out": 209,
+  "cost_usd": 0.005871,
+  "ingested_at": "2026-05-19T02:56:44.587081+00:00"
+}

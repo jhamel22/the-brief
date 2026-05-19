@@ -1,0 +1,22 @@
+{
+  "id": "2605.16254",
+  "arxiv_url": "https://arxiv.org/abs/2605.16254",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Fortuity and Complexity in a Simple Quark Model",
+  "authors": "Jackson R. Fliss, Vishnu Jejjala, Onkar Parrikar",
+  "abstract": "We observe and elaborate on a structural similarity between the categorization of monotone and fortuitous BPS operators in supersymmetric theories and gauge invariant quark operators in $SU(N_c)$ QCD. Our designation of fortuity does not rely on supersymmetry and instead uses the BRST cohomology. We argue that within this designation, baryon states are fortuitous while meson states are monotone. We illustrate that in the Veneziano limit of large number of flavors and colors, this designation displays features resembling the fortuitous vs. monotone categorization of BPS operators, e.g., an exponential vs. polynomial dichotomy in the counting of operators. We explore these ideas explicitly in a toy qubit model of quarks. We further investigate the stabilizer Rényi entropy of meson and baryon states as a proxy for the complexity of classical simulation for these states. We show that all mesons display power law complexity and present evidence that typical baryons display super-exponential complexity in the Veneziano limit.",
+  "title_relatable": "Baryons are exponentially harder to simulate than mesons",
+  "hook": "A structural analogy between supersymmetric operator classification and QCD reveals that baryons are exponentially more complex than mesons to simulate classically.",
+  "summary": "Using BRST cohomology rather than supersymmetry, the authors classify quark operators in SU(Nc) QCD into two families — 'fortuitous' baryons and 'monotone' mesons — mirroring a known dichotomy in supersymmetric theories. In the Veneziano limit of large flavor and color numbers, the two classes diverge sharply: meson operators grow polynomially in count while baryon operators grow exponentially. Probing this with stabilizer Rényi entropy as a complexity proxy in a qubit toy model, mesons show only power-law classical simulation complexity, whereas typical baryons show super-exponential complexity — suggesting confinement hides genuinely hard quantum structure inside baryons.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 929,
+  "tokens_out": 247,
+  "cost_usd": 0.006492,
+  "ingested_at": "2026-05-19T02:59:30.227381+00:00"
+}

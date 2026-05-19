@@ -1,0 +1,23 @@
+{
+  "id": "2605.17977",
+  "arxiv_url": "https://arxiv.org/abs/2605.17977",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.supr-con"
+  ],
+  "title_original": "Probing Tensor Singularities and Their Euler-Class Descendants via Non-Abelian Quantum Geometry Measurement",
+  "authors": "Zhe Wang, Yan-Qing Zhu, Xinsheng Tan, Giandomenico Palumbo, Lichang Ji, Wei Xin, Shi-Liang Zhu, Yang Yu",
+  "abstract": "We report the theoretical prediction and experimental observation of a new class of four-dimensional (4D) tensor singularities and their three-dimensional (3D) Euler-class descendants, protected by chiral and spacetime inversion symmetries on a superconducting circuit platform. The 4D point-like singularity/monopole, characterized by the Dixmier-Douady class of a real bundle gerbe associated with tensor gauge fields, is observed to evolve into a nodal ring carrying an additional first Euler class charge under symmetry-preserving perturbations. Dimensional reduction reveals 3D Euler and Euler curvature dipoles, exhibiting nontrivial Euler topology and a topological sum rule that ensures zero-energy flat bands inherit nontrivial topology even without interactions. Crucially, these high-dimensional degenerate systems are mapped and reconstructed using a hybrid analog-digital protocol designed for non-Abelian quantum geometry measurement within a superconducting qubit array. Our work not only expands the family of topological monopoles but also establishes a robust experimental framework for exploring high-order gauge theory and real-bundle topology across diverse quantum platforms.",
+  "title_relatable": "Superconducting qubits map exotic four-dimensional topology in the lab",
+  "hook": "A superconducting circuit experiment directly measures a new class of four-dimensional topological singularity and tracks how it decomposes into lower-dimensional structures under symmetry-breaking perturbations.",
+  "summary": "Using a superconducting qubit array, researchers implemented a hybrid analog-digital protocol to probe a four-dimensional topological object—a tensor monopole characterized by the Dixmier-Douady class of a real bundle gerbe—that lies beyond the reach of standard Berry-phase methods. When perturbed, this point-like singularity splits into a nodal ring carrying a first Euler class charge; further dimensional reduction yields 3D Euler dipoles governed by a topological sum rule that guarantees flat bands inherit nontrivial topology. The results extend the known zoo of topological monopoles and provide a concrete experimental route for studying non-Abelian quantum geometry and higher-order gauge theory on programmable quantum hardware.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1004,
+  "tokens_out": 253,
+  "cost_usd": 0.006807,
+  "ingested_at": "2026-05-19T03:01:43.646848+00:00"
+}

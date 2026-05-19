@@ -1,0 +1,23 @@
+{
+  "id": "2605.16489",
+  "arxiv_url": "https://arxiv.org/abs/2605.16489",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Bouncing singularities in Schwarzschild: a geometric origin of the QNM convergence region",
+  "authors": "Paolo Arnaudo, Benjamin Withers",
+  "abstract": "We show analytically that the convergence of the QNM expansion of the retarded Green's function of the Schwarzschild spacetime is set by a singularity in the complex time plane. The singularity has a simple geometric origin: it is an example of a `bouncing singularity' in the language of AdS/CFT literature, caused by a null geodesic which bounces from the black hole singularity. Our work explains why the QNM convergence region at real times is bounded by null ray which scatters from the gravitational potential at a seemingly unremarkable point ($r_* = 0$ in the conventions of previous work) -- this ray is the same distance from the origin as the bouncing singularity in the relevant complex plane. The same set of singularities are responsible for an annular region of convergence for the Matsubara mode sum which describes the early time behaviour of the Schwarzschild Green's function for perturbations close to the horizon.",
+  "title_relatable": "Why black hole ringing stops converging: a geometric answer",
+  "hook": "The radius at which Schwarzschild quasinormal mode expansions break down traces back to a null geodesic that literally bounces off the black hole singularity in complex time.",
+  "summary": "Quasinormal modes (QNMs) describe how a perturbed black hole rings down, but their expansion of the Green's function converges only within a finite time window — a fact previously unexplained. Arnaudo and Withers show analytically that this convergence boundary is set by a singularity in the complex time plane, arising from a null geodesic that reaches the Schwarzschild singularity and reflects back — a 'bouncing singularity' familiar from AdS/CFT. The seemingly arbitrary coordinate location r*=0 marking the convergence boundary in earlier work is demystified: it simply mirrors the distance of this bouncing singularity in the complex plane. The same geometry also controls an annular convergence region for the Matsubara sum governing early-time behavior near the horizon.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 911,
+  "tokens_out": 268,
+  "cost_usd": 0.006753,
+  "ingested_at": "2026-05-19T02:56:21.609125+00:00"
+}

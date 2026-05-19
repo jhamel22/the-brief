@@ -1,0 +1,22 @@
+{
+  "id": "2605.16521",
+  "arxiv_url": "https://arxiv.org/abs/2605.16521",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Strong-coupling results in (non-)conformal $\\mathcal{N}=2$ theories with fundamental flavors",
+  "authors": "M. Billo, A. Lerda, A. Testa",
+  "abstract": "We study a class of four-dimensional $\\mathcal{N}=2$ SU($N$) gauge theories with two massless hypermultiplets in the rank-two antisymmetric representation and $0\\leq N_f\\leq 4$ fundamental flavors. These theories are superconformal for $N_f=4$ and asymptotically free otherwise. Supersymmetric localization on the four-sphere applies in both cases and leads to matrix-model representations for a broad class of protected observables. Within this framework, we compute the free energy and the expectation value of the $\\frac{1}{2}$-BPS circular Wilson loop in the large-$N$ limit. For any $N_f$, we show that the infinite series of non-planar corrections at large 't Hooft coupling $λ$ can be resummed in terms of an effective coupling $\\widetildeλ$. In the non-conformal window ($0\\leq N_f<4$), this provides a first example in which localization leads to explicit results in the planar limit at strong 't Hooft coupling. In the superconformal case ($N_f=4$), the large-$N$ expansion in $\\widetildeλ$ suggests a refined AdS/CFT dictionary in which $\\widetildeλ$, rather than $λ$, plays the role of the bulk string coupling.",
+  "title_relatable": "Resumming quantum corrections hints at a refined AdS/CFT dictionary",
+  "hook": "By resumming an infinite series of non-planar corrections into a single effective coupling, this work extracts strong-coupling results from localization in theories where none existed before.",
+  "summary": "Using supersymmetric localization on the four-sphere, the authors compute the free energy and half-BPS Wilson loop expectation value for a family of N=2 gauge theories at large N. A key observation is that all non-planar 1/N corrections at large 't Hooft coupling λ resum neatly into an effective coupling λ̃. For the non-conformal theories (fewer than four flavors), this yields the first explicit planar strong-coupling results from localization. For the superconformal case, the pattern suggests that λ̃, not λ, is the natural expansion parameter on the string-theory side of AdS/CFT.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1031,
+  "tokens_out": 236,
+  "cost_usd": 0.006633,
+  "ingested_at": "2026-05-19T02:58:58.419519+00:00"
+}

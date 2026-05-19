@@ -1,0 +1,23 @@
+{
+  "id": "2605.16924",
+  "arxiv_url": "https://arxiv.org/abs/2605.16924",
+  "announced_date": "2026-05-16",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Magnetised CGM Gas at z~1 revealed by SPICE-RACS",
+  "authors": "Sunil Malik, S. P. O'Sullivan, A. J. M. Thomson, C. S. Anderson, C. Van Eck, L. Rudnick, Amit Seta, B. M. Gaensler, Y. K. Ma, Takuya Akahori, D. Alonso-López, M. Brüggen, E. Carretti, S. W. Duchesne, T. J. Galvin, G. Heald, O. Hlinka, A. Khadir, S. A. Mao, R. Omae",
+  "abstract": "Magnetic fields are expected to permeate the circumgalactic medium (CGM) of galaxies, yet direct constraints at high redshift remain limited by the lack of high-quality Faraday rotation measure (RM) data. Using the RMs from SPICE-RACS DR2 combined with the DESI DR1 quasar catalogue, we compile the largest sample to date of 2483 quasar sightlines with associated RMs, including 612 with intervening Mg II absorbers tracing foreground galaxies and 1871 control sightlines without Mg II absorbers. After subtracting the Galactic RM contribution and restricting the analysis to sightlines with low Milky Way HI column density and H$α$ intensity, we obtain a foreground-cleaned sample of 757 quasars (191 Mg II / 566 control) spanning redshifts $0.13<z<3.45$. In this foreground-cleaned sample, Mg II sightlines exhibit a $4.5σ$ excess in the residual RM dispersion of $4.13 \\pm 0.91~\\mathrm{rad\\,m^{-2}}$ relative to the control sample, at a median absorber redshift of $z\\sim1.14$. This implies model-dependent CGM magnetic field strengths of $\\sim0.4 - 0.8\\, μ$G over projected radii of $20 - 150$ kpc. This indicates that substantial CGM magnetisation was already established by $z\\sim1$, enabling new constraints on the growth and amplification of magnetic fields in galaxy halos over cosmic time.",
+  "title_relatable": "Galaxy halos were already magnetised a billion years after the Big Bang",
+  "hook": "Using 2,483 quasar sightlines, astronomers detect magnetic fields of 0.4–0.8 microgauss in galaxy halos at redshift ~1, showing CGM magnetisation was in place over 7 billion years ago.",
+  "summary": "By cross-matching Faraday rotation measures from the SPICE-RACS survey with DESI quasar spectra, the team identified sightlines passing through foreground galaxies traced by magnesium absorption. Those sightlines show a 4.5-sigma excess in rotation measure dispersion compared to clean control sightlines, a difference that persists after careful removal of Milky Way contamination. The excess implies circumgalactic magnetic field strengths of roughly 0.4–0.8 microgauss across projected radii of 20–150 kpc at a median redshift of z~1.14. This is the largest statistical sample used for this measurement and sets direct observational limits on when and how magnetic fields were amplified in galaxy halos.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1211,
+  "tokens_out": 279,
+  "cost_usd": 0.007818,
+  "ingested_at": "2026-05-19T03:05:58.371664+00:00"
+}

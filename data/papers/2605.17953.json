@@ -1,0 +1,23 @@
+{
+  "id": "2605.17953",
+  "arxiv_url": "https://arxiv.org/abs/2605.17953",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.dis-nn",
+    "quant-ph"
+  ],
+  "title_original": "Anderson Transition and Mobility Edges in a Family of 3D Fractal Lattices",
+  "authors": "Tianyu Li, Xin Tang, Sheng Liu, Haiping Hu",
+  "abstract": "Anderson localization is fundamentally controlled by dimensionality, yet the nature of the Anderson transition in continuously tunable noninteger dimensions remains largely unexplored. Here, we introduce a family of three-dimensional fractal lattices with continuously tunable spectral dimension $d_s\\in[2,3]$, providing a controlled platform for studying localization physics beyond integer dimensions and across the lower critical dimension $d_s=2$. Using large-scale finite-size scaling analysis, we systematically investigate the Anderson transition and identify mobility edges throughout the fractal family. The critical disorder strength evolves continuously from $0$ to $16.6$ as the spectral dimension increases from $2$ to $3$. We show that the spectral dimension predominantly governs the universality class of the transition, while the precise critical point is additionally influenced by microscopic geometric details of the underlying fractal lattice. The critical exponent exhibits an approximate inverse dependence on $d_s$, providing quantitative insight into scaling theory in noninteger dimensions. Our results establish tunable fractal lattices as a versatile framework for exploring localization and quantum critical phenomena beyond conventional integer-dimensional systems.",
+  "title_relatable": "Fractal lattices let physicists dial up dimensions between 2 and 3",
+  "hook": "By building a family of fractal lattices with continuously tunable effective dimension, researchers trace how the Anderson metal-insulator transition evolves across the boundary where localization first becomes possible.",
+  "summary": "Anderson localization — the quantum freezing of electron transport by disorder — is known to behave qualitatively differently in 2D versus 3D, but what happens at fractional dimensions in between has been hard to test. This work constructs a family of 3D fractal lattices whose spectral dimension can be tuned continuously from 2 to 3, then uses large-scale finite-size scaling to map out the full transition. The critical disorder strength rises smoothly from zero to 16.6 as the dimension climbs from 2 to 3, and the critical exponent follows an approximate inverse dependence on spectral dimension. Spectral dimension controls the universality class, while microscopic geometry shifts the precise critical point.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 954,
+  "tokens_out": 250,
+  "cost_usd": 0.006612,
+  "ingested_at": "2026-05-19T03:01:55.552084+00:00"
+}

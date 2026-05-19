@@ -1,0 +1,22 @@
+{
+  "id": "2605.16484",
+  "arxiv_url": "https://arxiv.org/abs/2605.16484",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Isolated Critical Points for Scherk-Schwarz Compactifications of M-theory",
+  "authors": "Zihni Kaan Baykara, Shi Chen, Cumrun Vafa",
+  "abstract": "We consider Scherk-Schwarz compactifications of M-theory (toroidal compactifications with a non-trivial spin structure) in various dimensions and find isolated critical points of the potential on the moduli space. We demonstrate this by identifying the unbroken duality group and finding isolated points on the moduli spaces which are fixed by elements of the unbroken duality group. We work out concrete examples involving compactifications down to $d=8,6, 5$ and $4$ spacetime dimensions. We also conjecture a duality covariant anomaly cancellation condition for M-theory on $T^n$ orbifolded by discrete $\\mathbb Z_N$ symmetries acting as phases on the charge lattice. This anomaly cancellation condition generalizes the level matching requirement for perturbative string orbifolds.",
+  "title_relatable": "Pinning down M-theory's free parameters with hidden symmetries",
+  "hook": "Scherk-Schwarz compactifications of M-theory can have genuinely isolated stable points in their parameter space, eliminating the usual landscape of undetermined moduli in specific dimensions.",
+  "summary": "One of string and M-theory's persistent problems is that compactifications generically leave a continuous family of free parameters—moduli—with no dynamical reason to prefer one value over another. By tracking which duality symmetries survive when M-theory is compactified on tori with a non-trivial spin structure, the authors locate discrete fixed points in moduli space that are pinned by symmetry and therefore isolated. Explicit constructions are worked out for compactifications to eight, six, five, and four spacetime dimensions. A proposed anomaly-cancellation condition for orbifold variants generalizes the level-matching rule familiar from perturbative string theory to a fully duality-covariant setting.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 888,
+  "tokens_out": 241,
+  "cost_usd": 0.006279,
+  "ingested_at": "2026-05-19T02:59:24.289148+00:00"
+}

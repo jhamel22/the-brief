@@ -1,0 +1,22 @@
+{
+  "id": "2605.18067",
+  "arxiv_url": "https://arxiv.org/abs/2605.18067",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "PPAI: Enabling Personalized LLM Agent Interoperability for Collaborative Edge Intelligence",
+  "authors": "Zile Wang, Qianli Liu, Kaibin Guo, Haodong Wang, Jian Lin, Zicong Hong, Song Guo",
+  "abstract": "Deploying large language model (LLM) on edge device enables personalized LLM agents for various users. The growing availability of diverse personalized agents presents a unique opportunity for peer-to-peer (P2P) collaboration, wherein each user can delegate tasks beyond the local agent's expertise to remote agents more suited for the specific query. This paper introduces PPAI, the first personalized LLM agent interoperability system, which enables users to collaborate with each other based on agent specialization. However, the ever-changing pool of agents and their interchangeable capacity introduce new challenges when it comes to matching queries to agents and balancing loads, compared with existing P2P systems. Therefore, we propose a scalable query-agent pair scoring mechanism based on prototypes to identify suitable agents within a P2P network with churn. Moreover, we propose a multi-agent interoperability Bayesian game to balance local demand and global efficiency, when changes in remote agent load occur too quickly to be observed. Finally, we implement a prototype of PPAI and demonstrate that it substantially broadens the range of tasks that could be carried out while maintaining load balance. On average, it achieves an accuracy improvement of up to 7.96% across multiple tasks, while reducing latency by 16.34% compared to the baseline.",
+  "title_relatable": "Connecting specialized AI agents across devices for collaborative tasks",
+  "hook": "A system that lets edge-deployed language models collaborate peer-to-peer, routing queries to specialized remote agents and achieving 7.96% higher accuracy while reducing latency by 16.34%.",
+  "summary": "PPAI addresses the challenge of connecting diverse personalized LLM agents deployed across edge devices so they can collaborate on tasks beyond any single agent's expertise. The system uses a prototype-based scoring mechanism to match queries to suitable agents in dynamic networks where devices join and leave, and employs a Bayesian game framework to balance local performance with global efficiency when remote agent loads shift rapidly. A prototype implementation shows the approach handles a broader range of tasks than single-agent baselines while maintaining load balance, with measurable gains in accuracy and latency across multiple benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 994,
+  "tokens_out": 209,
+  "cost_usd": 0.0016312,
+  "ingested_at": "2026-05-19T03:17:28.863285+00:00"
+}

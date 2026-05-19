@@ -1,0 +1,22 @@
+{
+  "id": "2605.16497",
+  "arxiv_url": "https://arxiv.org/abs/2605.16497",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "5d Trinions and Tetraons",
+  "authors": "Mario De Marco, Michele Del Zotto, Michele Graffeo, Andrea Sangiovanni",
+  "abstract": "Recently, an atomic classification scheme of 5d SCFTs has been proposed, relying on the identification of indecomposable building blocks that can be fused together to produce large classes of 5d SCFTs. These novel SCFTs are known as bifundamental 5d conformal matter theories, and their fusion produces linear generalized quivers. We generalize such picture employing M-theory geometric engineering to construct trinions and tetraon 5d SCFTs with flavor symmetry of type D. They correspond to non-linear generalized quivers displaying novel patterns of instantonic symmetry enhancement, and their fusion produces singular geometries that often are non-toric non-complete intersections. Finally, within our setup, we rule out trinions and tetraons of type E.",
+  "title_relatable": "New atomic building blocks for five-dimensional quantum field theories",
+  "hook": "Physicists extend the \"periodic table\" of 5d superconformal theories by constructing trinion and tetraon building blocks with D-type symmetry, while ruling out analogous E-type structures.",
+  "summary": "Using M-theory geometric engineering, the authors construct a new family of 5d superconformal field theories called trinions and tetraons — multi-legged junctions that generalize the simpler two-leg bifundamental building blocks used in linear quiver theories. These objects carry D-type flavor symmetry and, when fused, produce non-linear quiver theories with unexpected enhancements of instanton symmetry. The underlying geometry is often non-toric and cannot be expressed as a complete intersection, pushing beyond standard toolkits. A no-go result rules out analogous E-type trinions and tetraons, drawing a firm boundary on this classification program.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 866,
+  "tokens_out": 235,
+  "cost_usd": 0.006123,
+  "ingested_at": "2026-05-19T02:59:10.003695+00:00"
+}

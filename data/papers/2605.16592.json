@@ -1,0 +1,22 @@
+{
+  "id": "2605.16592",
+  "arxiv_url": "https://arxiv.org/abs/2605.16592",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Quantum corrections to cosmic perturbations for a bouncing background",
+  "authors": "Héctor Hernández Hernández, Hugo Morales Técotl, Gustavo Sánchez Herrera",
+  "abstract": "We compute second-order quantum corrections, as quantum dispersions and correlations, to a cosmological model coupling a single scalar perturbation mode to a bouncing background within Loop Quantum Cosmology (LQC). Using an effective quantization approach in which quantum moments extend the classical phase space as new dynamical degrees of freedom, and incorporating the cosmic bounce through holonomy corrections in the $μ_0$ scheme, we derive a coupled set of effective equations of motion for the expectation values and second-order quantum moments of both the gravitational and scalar sectors evolving with respect to a clock scalar field. Within the test-field approximation and for a vanishing scalar potential, the quantum moment equations reduce to a third-order ordinary differential equation for the mean squared deviation $G^{vv}$ of the Mukhanov-Sasaki variable in a de Sitter background with LQC bounce. Treating the effect of bounce as a perturbation of the solution, we construct the corresponding correction to the dimensionless curvature power spectrum. The leading correction is suppressed by the sixth power of the Planck length, producing a scale-dependent enhancement $δP_{R} \\propto (k \\ell_{\\rm Pl})^6$ that modifies the spectral index by $δn_s \\sim 6(k \\ell_{\\rm Pl})^6 \\ll 1$ for all cosmologically observable modes, in full consistency with current observational constraints. Numerical evolution of the full coupled system reveals a conditional ultraviolet regularization of the bounce-induced spectrum: the gravitational quantum moments generate a damping mechanism that suppresses the scalar perturbation amplitude after the bounce. Including cross-sector quantum correlations amplifies perturbation modes and introduces numerical instabilities at high wavenumbers, signaling the limits of the second-order truncation in the ultraviolet.",
+  "title_relatable": "Loop quantum bounce leaves a tiny but calculable mark on the CMB",
+  "hook": "Quantum corrections from a Loop Quantum Cosmology bounce modify the primordial power spectrum, but the effect is suppressed by six powers of the Planck length—far too small to conflict with current CMB observations.",
+  "summary": "Starting from Loop Quantum Cosmology, these calculations extend the classical phase space with quantum moments—dispersions and correlations—to track how a cosmic bounce alters scalar perturbations. In the test-field limit and flat potential, the Mukhanov-Sasaki variable satisfies a third-order equation whose bounce-induced correction shifts the spectral index by δnₛ ~ 6(kℓ_Pl)⁶, safely invisible to present instruments. A numerical treatment of the fully coupled system uncovers a more interesting feature: gravitational quantum moments damp scalar amplitudes after the bounce, while cross-sector correlations amplify modes and trigger ultraviolet instabilities that expose the breakdown of the second-order moment truncation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1113,
+  "tokens_out": 259,
+  "cost_usd": 0.007224,
+  "ingested_at": "2026-05-19T02:55:45.943805+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.16465",
+  "arxiv_url": "https://arxiv.org/abs/2605.16465",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "physics.comp-ph"
+  ],
+  "title_original": "Freeze-in Warm Dark Matter via Dimension-6 Operators in 3-3-1 Models",
+  "authors": "Fuwei Liu, Fujun Liu",
+  "abstract": "We propose a natural resolution to the fine-tuning problem inherent in the freeze-in dark matter paradigm by embedding a sterile singlet within a 3-3-1 electroweak extension. By imposing an exact $Z_{13}$ discrete gauge symmetry, we formally suppress all low-dimensional portals to ensure that the dark sector communicates with the Standard Model (SM) exclusively through a dimension-six operator. This theoretical structure allows the extraordinarily small coupling required for dark matter production to emerge naturally from the profound hierarchy between the electroweak scale and the ultra-high Peccei-Quinn symmetry breaking scale. Detailed numerical integration of the Boltzmann equations demonstrates that the sterile singlet can be produced via the infrared freeze-in mechanism to match the observed relic abundance of $Ω_S h^2 = 0.12$. The resulting keV-scale warm dark matter candidate remains consistent with stringent Lyman-alpha forest constraints while offering a viable solution to galactic-scale discrepancies such as the cusp-core and missing satellites problems. Ultimately, this framework provides a self-consistent unification of dark matter genesis and the strong CP solution that is completely independent of ad hoc parameter adjustments.",
+  "title_relatable": "A symmetry trick makes freeze-in dark matter naturally tuning-free",
+  "hook": "Embedding dark matter in a 3-3-1 electroweak model with a discrete gauge symmetry eliminates the need to fine-tune the tiny couplings that freeze-in production normally requires.",
+  "summary": "Freeze-in dark matter production demands couplings so small they feel unnatural — roughly one part in ten billion. By placing a sterile singlet inside a 3-3-1 electroweak extension and enforcing a Z₁₃ discrete symmetry, the authors force all low-dimensional portals to close, leaving only a dimension-six operator to connect dark matter to the Standard Model. The required tiny coupling then emerges automatically from the ratio of the electroweak scale to a high Peccei-Quinn scale. Boltzmann equation solutions show the mechanism reproduces the observed relic density at keV masses, satisfying Lyman-alpha constraints while addressing the cusp-core and missing satellites tensions in small-scale structure.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 967,
+  "tokens_out": 256,
+  "cost_usd": 0.006741,
+  "ingested_at": "2026-05-19T03:06:46.608884+00:00"
+}

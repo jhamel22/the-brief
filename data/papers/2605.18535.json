@@ -1,0 +1,23 @@
+{
+  "id": "2605.18535",
+  "arxiv_url": "https://arxiv.org/abs/2605.18535",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "Beyond Scaling: Agents Are Heading to the Edge",
+  "authors": "Chunlin Tian, Dongqi Cai, Wanru Zhao, Nicholas D. Lane",
+  "abstract": "The bottleneck of useful agentic intelligence has shifted from compressing world knowledge into a single model to executing a coordinated system. This position paper argues that personal-agent architecture must move to the edge because the core properties of agentic intelligence tasks, particularly their structural coupling with high-fidelity local context and the need for zero-latency execution loops, do not sit well with cloud-centric designs. We develop this claim through three structural shifts. First, the Prefrontal Turn: the main marginal lever of capability has moved from pre-training scale to framework-level executive control. Such control must remain physically close to the environment of action if the agent is to preserve cognitive alignment. Second, the Data-Geography Paradox, the ``dark matter'' of agentic data (local file hierarchies, real-time sensor streams, and transient OS states) degrades, disappears, or loses meaning once prepared for cloud transmission, thereby cutting the agent off from ground-truth context. Third, the interaction-alignment loop, the only economically and ecologically sustainable source of agentic refinement data is the high-fidelity implicit preference signal produced through real-time local interaction. Third, the interaction-alignment loop, the only economically and ecologically sustainable source of agentic refinement data is the high-fidelity implicit preference signal produced through real-time local interaction. We conclude with falsifiable predictions for the next deployment cycle of personal agents.",
+  "title_relatable": "Why AI agents need to run on your device, not the cloud",
+  "hook": "This position paper argues that useful AI agents must execute locally on edge devices rather than in the cloud, because they require immediate access to high-fidelity local context and zero-latency feedback loops to function effectively.",
+  "summary": "The authors contend that the limiting factor for agent intelligence has shifted from model scale to coordinated system execution. Three structural constraints demand edge deployment: agents need real-time executive control physically close to their environment to maintain cognitive alignment; local data—file systems, sensor streams, OS states—becomes useless once transmitted to the cloud; and the only sustainable way to improve agents is through high-fidelity implicit feedback from real-world local interaction. The paper outlines falsifiable predictions for the next deployment cycle of personal agents but does not present empirical benchmarks or new algorithms.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 999,
+  "tokens_out": 216,
+  "cost_usd": 0.0016632,
+  "ingested_at": "2026-05-19T03:08:47.658596+00:00"
+}

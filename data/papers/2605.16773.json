@@ -1,0 +1,24 @@
+{
+  "id": "2605.16773",
+  "arxiv_url": "https://arxiv.org/abs/2605.16773",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math.QA",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Shifted quantum toroidal algebra of type $\\mathfrak{gl}_{1|1}$ and the Pieri rule of the super Macdonald polynomials",
+  "authors": "Hiroaki Kanno, Ryo Ohkawa, Jun'ichi Shiraishi",
+  "abstract": "The super Macdonald polynomials indexed by the super partitions form a basis of the level zero super Fock module (combinatorial representation) of the quantum toroidal algebra $\\mathcal{U}_{q,t}(\\widehat{\\widehat{\\mathfrak{gl}}}_{1|1})$. The action of the super charges of $\\mathcal{U}_{q,t}(\\widehat{\\widehat{\\mathfrak{gl}}}_{1|1})$ implies the Pieri rule of the super Macdonald polynomials. We can express the Pieri rule in terms of differential operators in the power sums $p_k$ and the fermionic power sums $π_k$, which leads to the operators on the Fock space of a free boson and a free fermion. From the Pieri rule we compute the supersymmetric Hamiltonians given by the anti-commutator of the super charges and recover the results previously obtained in the literature. It is remarkable that we have to deal with a shifted quantum toroidal algebra.",
+  "title_relatable": "A new algebraic structure encodes symmetry rules for super Macdonald polynomials",
+  "hook": "A shifted quantum toroidal algebra governs how super Macdonald polynomials multiply, yielding explicit Pieri rules and supersymmetric Hamiltonians from first principles.",
+  "summary": "Super Macdonald polynomials—a supersymmetric generalization of classical Macdonald polynomials indexed by super partitions—form a natural basis for a representation of the quantum toroidal algebra associated with the superalgebra gl(1|1). By analyzing how supercharge operators act on this space, the authors derive Pieri rules: explicit formulas for multiplying a super Macdonald polynomial by a single-variable symmetric function. These rules translate into differential operators on a combined boson-fermion Fock space, and anti-commutators of the supercharges reproduce known supersymmetric Hamiltonians. A notable technical finding is that the relevant algebraic structure requires a shifted, rather than standard, quantum toroidal algebra.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 973,
+  "tokens_out": 259,
+  "cost_usd": 0.006804,
+  "ingested_at": "2026-05-19T02:58:31.395242+00:00"
+}

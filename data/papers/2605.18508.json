@@ -1,0 +1,23 @@
+{
+  "id": "2605.18508",
+  "arxiv_url": "https://arxiv.org/abs/2605.18508",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "DiPRL: Learning Discrete Programmatic Policies via Architecture Entropy Regularization",
+  "authors": "Chengpeng Hu, Yingqian Zhang, Hendrik Baier",
+  "abstract": "Programmatic reinforcement learning (PRL) offers an interpretable alternative to deep reinforcement learning by representing policies as human-readable and -editable programs. While gradient-based methods have been developed to optimize continuous relaxations of programs, they face a significant performance drop when converting the continuous relaxations back into discrete programs. Post-hoc discretization can discard optimized branches and parameters in a program, which results in a collapse of policy expressivity and lowered task performance, leading in turn to a need for additional fine-tuning. To overcome these limitations, we propose Differentiable Discrete Programmatic Reinforcement Learning (DiPRL), a method that learns programmatic policies that become nearly discrete during training, avoiding a separate post-hoc fine-tuning stage. We first analyze the inherent risks of performance drop introduced by post-hoc discretization of gradient-based methods. Then, we introduce programmatic architecture entropy regularization, which enables smooth, differentiable training that encourages convergence toward a discrete program. DiPRL maintains the efficiency of gradient-based optimization while mitigating the risks of post-hoc discretization. Our experiments across multiple discrete and continuous RL tasks demonstrate that DiPRL can achieve strong performance via interpretable programmatic policies.",
+  "title_relatable": "Learning interpretable robot policies without losing performance in discretization",
+  "hook": "A method that trains programmatic policies to stay discrete during learning, avoiding the performance collapse that happens when converting continuous-relaxed programs into readable code.",
+  "summary": "Programmatic reinforcement learning represents policies as human-readable programs, but gradient-based training methods rely on continuous approximations that lose performance when converted back to discrete code. DiPRL addresses this by adding architecture entropy regularization during training, which naturally encourages convergence toward discrete programs without requiring post-hoc fine-tuning. The approach maintains gradient-based optimization efficiency while preserving policy expressivity across discrete and continuous RL tasks, producing interpretable policies competitive with standard deep RL methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 185,
+  "cost_usd": 0.001508,
+  "ingested_at": "2026-05-19T03:08:53.650931+00:00"
+}

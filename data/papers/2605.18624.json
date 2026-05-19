@@ -1,0 +1,23 @@
+{
+  "id": "2605.18624",
+  "arxiv_url": "https://arxiv.org/abs/2605.18624",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CR",
+    "cs.LG"
+  ],
+  "title_original": "Learning to Look Benign: Targeted Evasion of Malware Detectors via API Import Injection",
+  "authors": "Juozas Dautartas, Olga Kurasova, Juozapas Rokas Čypas, Viktor Medvedev",
+  "abstract": "Machine learning-based malware detectors are widely deployed in antivirus and endpoint detection systems, yet their reliance on static features makes them vulnerable to adversarial manipulation. This paper investigates whether a malware sample can be intentionally misclassified as a specific benign software category, not merely as \"not malware\", by adding a small number of Win32 API imports characteristic of that selected category, without removing any existing imports or retraining the detector. We propose a framework centered on a Conditional Variational Autoencoder (CVAE) whose decoder is strictly additive. It can introduce new API calls but never remove existing ones, preserving malware functionality by design. For each malware sample, the framework automatically identifies which benign category it most closely resembles and uses that as the evasion target. A knowledge-distilled differentiable proxy enables gradient-based training against the non-differentiable ensemble detector. Experiments on a six-class dataset of binary Win32 API import vectors extracted from 3,799 Windows executables (five benign categories, one malware class) show that, against a detector achieving 87.5% malware recall, adding just 20 API imports reduces recall to 30%. At k=20, among samples that evaded detection, 99% are classified as the intended target category. The CVAE outperforms both a frequency-based baseline and random selection at every tested injection size (k = 5 to 50). Validation on real PE files submitted to VirusTotal confirms that the attack transfers to commercial static detection engines, with an average 54.5% reduction in flagging engines. These findings expose a concrete vulnerability in API-based malware classifiers and demonstrate that targeted evasion into a chosen benign category is achievable with minimal, functionality-preserving modifications.",
+  "title_relatable": "Making malware look like legitimate software to fool detectors",
+  "hook": "Researchers show how to evade ML-based malware detectors by injecting just 20 API calls to disguise malware as benign software, reducing detection on commercial antivirus engines by 54%.",
+  "summary": "This paper demonstrates a targeted adversarial attack against ML-based malware detectors that classifies Windows executables. Rather than simply evading detection, the attack causes malware to be misclassified as a specific benign software category by injecting API imports characteristic of that category. A Conditional Variational Autoencoder with an additive-only decoder preserves malware functionality while introducing benign-looking API calls; a knowledge-distilled proxy enables gradient-based attacks against non-differentiable ensemble detectors. On a 3,799-file dataset, adding 20 API imports drops detection recall from 87.5% to 30%, with 99% of evaded samples classified as the intended benign target. The attack transfers to commercial VirusTotal engines. This reveals concrete vulnerabilities in API-based malware classifiers.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1109,
+  "tokens_out": 279,
+  "cost_usd": 0.0020032,
+  "ingested_at": "2026-05-19T03:08:38.544468+00:00"
+}

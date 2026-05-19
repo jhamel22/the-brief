@@ -1,0 +1,22 @@
+{
+  "id": "2605.18095",
+  "arxiv_url": "https://arxiv.org/abs/2605.18095",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Shortcut-error signatures in coherence-retaining endpoint work quasistatistics",
+  "authors": "Gabriella G. Damas, G. D. de Moraes Neto",
+  "abstract": "Quantum work statistics differ from classical ones because initial energy coherence matters. The standard two-point measurement (TPM) gives a positive distribution but erases phase information. Coherence-retaining endpoint-work quasistatistics provide a compact probe of shortcut-to-adiabaticity performance. For work defined with respect to a reference Hamiltonian, an exact counterdiabatic shortcut pulls the final reference Hamiltonian back to an operator diagonal in the initial energy basis. Endpoint Kirkwood-Dirac or Margenau-Hill quasistatistics then lose sensitivity to initial coherence and reduce to the TPM result. Imperfect shortcuts restore this sensitivity: a non-commuting control error produces off-diagonal pulled-back Hamiltonian elements at first order in the error amplitude, whereas population-only transition probabilities change only at second order. Harmonic-oscillator and qubit benchmarks confirm this linear-versus-quadratic contrast. The result complements inclusive work-cost analyses: it does not measure the auxiliary field's energetic cost, but provides a phase-sensitive endpoint diagnostic of residual nonadiabaticity.",
+  "title_relatable": "Quantum work statistics catch shortcut errors that energy alone misses",
+  "hook": "Imperfect shortcuts to adiabaticity leave a first-order signature in quantum work quasistatistics but only a second-order trace in energy populations, making phase-sensitive statistics a sharper diagnostic tool.",
+  "summary": "Shortcuts to adiabaticity let quantum systems evolve quickly without unwanted excitations, but real implementations are imperfect. By examining endpoint quasistatistics — quantum generalizations of work distributions that retain phase information — errors in the shortcut show up linearly in off-diagonal terms, while conventional population measurements only detect them at second order in the error amplitude. Harmonic-oscillator and qubit examples confirm this linear-versus-quadratic contrast. The approach offers a sensitive, phase-aware way to benchmark how well a shortcut protocol actually works.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 951,
+  "tokens_out": 213,
+  "cost_usd": 0.006048,
+  "ingested_at": "2026-05-19T03:01:09.766708+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.16665",
+  "arxiv_url": "https://arxiv.org/abs/2605.16665",
+  "announced_date": "2026-05-15",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "physics.geo-ph"
+  ],
+  "title_original": "In-context learning enables continental-scale subsurface temperature prediction from sparse local observations",
+  "authors": "Daniel O'Malley, Christopher W. Johnson, Javier E. Santos, Pablo Lara, Sandro Malusà, Bharat Srikishan, John Kath, Arnab Mazumder, Mohamed Mehana, David Coblentz, Nathan DeBardeleben, Earl Lawrence, Hari Viswanathan",
+  "abstract": "Continental-scale knowledge of subsurface temperature is limited by the cost and sparsity of borehole measurements, but such information is essential for geothermal resource assessment and for understanding heat transport in the shallow crust. The thermal field reflects the interaction between lithology, crustal structure, radiogenic heat production, and advective fluid flow, sometimes producing sharp anomalies that are smoothed by conventional interpolation or difficult to capture with physical models. Here we introduce In-Context Earth, a transformer-based model that uses sparse local borehole observations as geological context to predict continuous temperature-at-depth fields with calibrated uncertainty. In the contiguous United States, the model achieves a mean absolute error of 4.7 °C, outperforming the physics-informed Stanford Thermal Model, a model based on AlphaEarth embeddings, the multimodal Transparent Earth model, and universal kriging, while resolving sharper thermal gradients in geothermal provinces. Its uncertainty estimates are well calibrated, with a Kolmogorov-Smirnov statistic of 2.5%. Without finetuning, the model adapts to Alberta, Australia, and the United Kingdom (UK) using only 20 local observations at inference time, maintaining high accuracy in geologically distinct test regions with a mean absolute error of 2.2 °C in Alberta, 6.2 °C in Australia, and 5.4 °C in the UK. Interpretability analyses show that the model learns internal representations of subsurface properties it never observes during training, including seismic velocities, geochemistry, and crustal structure, and uses these representations in physically consistent ways. More broadly, this work shows that in-context learning can use sparse borehole observations for continental-scale subsurface characterization, without requiring dense measurements or region-specific retraining.",
+  "title_relatable": "A transformer learns subsurface heat from sparse borehole data",
+  "hook": "A transformer-based model predicts continental-scale subsurface temperature from sparse borehole measurements with 4.7°C mean error, outperforming physics-informed baselines and adapting to new regions with zero finetuning.",
+  "summary": "Continental geothermal mapping relies on sparse, expensive borehole data, but conventional interpolation and physics-based models struggle with sharp thermal anomalies. In-Context Earth, a transformer, uses sparse local observations as context to predict continuous temperature-at-depth fields across the contiguous United States with 4.7°C mean absolute error—beating the physics-informed Stanford Thermal Model, AlphaEarth embeddings, and kriging. Without retraining, the model generalizes to Alberta, Australia, and the UK using only 20 observations at test time, achieving 2.2–6.2°C error. Uncertainty estimates are well calibrated, and interpretability analysis reveals the model learns unobserved subsurface properties (seismic velocity, geochemistry, crustal structure) and applies them consistently. Code and model weights are not mentioned in the abstract.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1159,
+  "tokens_out": 296,
+  "cost_usd": 0.0021111999999999997,
+  "ingested_at": "2026-05-19T03:11:46.898191+00:00"
+}

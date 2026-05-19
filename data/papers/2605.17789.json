@@ -1,0 +1,23 @@
+{
+  "id": "2605.17789",
+  "arxiv_url": "https://arxiv.org/abs/2605.17789",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?",
+  "authors": "Olukunle Owolabi",
+  "abstract": "Memory systems for AI assistants were built for single-user dialogue and fail characteristically when applied to multi-party social group settings. This gap matters for the social assistants being built today: group-acting agents embedded in chat platforms, and proactive personal-assistant agents whose holistic model of a user must include their social context. Existing memory benchmarks evaluate dyadic or workplace dialogue; none targets multi-party social groups, where memory must anchor facts in shared history rather than professional roles, separate group norms from individual exceptions, and correctly attribute even after member departure. We introduce SocialMemBench, a benchmark of human-verified synthetic social group networks across five archetypes (close friends, family, recreational, interest community, acquaintance network) and three group-size tiers (4-30 members), with 430 personas and 7,355 conversation turns, yielding 1,031 QA pairs across nine question categories. Each category isolates an architectural capability, and the five failure modes (single-stream conflation, temporal-state overwrite, entity merging at scale, missing cross-persona knowledge, norm-individual conflation) are testable hypotheses; our two research probes Subject-Mem and SMG provide evidence on two, three remain open. A full-context Gemini 2.5 Flash reference reaches only 0.721 against a blind-critic reasoning-model mean of 0.98 on small networks, indicating the benchmark is genuinely difficult even with complete access to the conversation. Across all 43 networks, the four open-source memory frameworks evaluated (Mem0, LangMem, Graphiti, Cognee) cluster in the 0.12-0.18 question-weighted range with overlapping 95% CIs, well below an uncompressed retrieval reference of 0.345 and a matched-answerer full-context reference of 0.369 (GPT-4o-mini). Current memory systems show a measurable gap.",
+  "title_relatable": "Can AI remember people in group chats?",
+  "hook": "A new benchmark reveals that current memory systems for AI assistants fail consistently in multi-party social settings, scoring 0.12–0.18 versus 0.37 for basic retrieval baselines.",
+  "summary": "Memory systems designed for one-on-one conversations break down when deployed in group chat settings, where facts must be tied to shared history, group norms must be distinguished from individual exceptions, and membership changes must be tracked accurately. SocialMemBench provides the first systematic evaluation: 1,031 QA pairs across five types of social groups (close friends, family, communities) and multiple sizes, identifying five distinct failure modes from single-stream conflation to entity merging at scale. Evaluation of four open-source memory frameworks (Mem0, LangMem, Graphiti, Cognee) shows they cluster around 0.12–0.18 accuracy, far below both retrieval baselines and human reasoning performance. Even Gemini 2.5 Flash with full conversation context scores only 0.72 on small networks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1111,
+  "tokens_out": 274,
+  "cost_usd": 0.0019848,
+  "ingested_at": "2026-05-19T03:17:44.181351+00:00"
+}

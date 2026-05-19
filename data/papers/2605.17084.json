@@ -1,0 +1,23 @@
+{
+  "id": "2605.17084",
+  "arxiv_url": "https://arxiv.org/abs/2605.17084",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "Scale Determines Whether Language Models Organize Representation Geometry for Prediction",
+  "authors": "Weilun Xu",
+  "abstract": "In language models, what a representation encodes is determined by the geometry of its representation space: distances, not activations, carry meaning. Existing tools characterize the shape of this geometry but do not ask what that shape is organized for. We introduce Subspace PGA, a metric that tests whether a layer's distance structure aligns with the readout subspace of the unembedding matrix $W_U$ more than with random subspaces of equal size. Across seven Pythia models (70M--6.9B) and three cross-family models, intermediate geometry is significantly organized for prediction (peak $z = 9$--$24$), but the degree is scale-dependent: small models ($d \\leq 1024$) progressively lose it at late layers during training -- even as loss keeps improving -- while large models ($d \\geq 2048$) preserve it throughout. We trace this to a capacity trade-off: a few dominant directions migrate away from $W_U$'s readout, masking rather than destroying the predictive structure beneath, and removing them restores alignment. Neither spectral metrics nor loss curves capture this distinction. Scale thus determines not only how well a model predicts, but how its representation geometry is organized to do so.",
+  "title_relatable": "Why bigger models organize their thinking differently",
+  "hook": "Small language models lose predictive structure in their hidden layers during training, while large models preserve it—revealing a fundamental capacity trade-off that loss curves alone cannot detect.",
+  "summary": "This work investigates how language model representations are geometrically organized using a new metric called Subspace PGA, which measures whether a layer's distance structure aligns with the prediction readout matrix. Testing seven Pythia models (70M–6.9B parameters) plus cross-family models, the authors find intermediate layers show significant predictive organization (z-scores 9–24), but behavior diverges by scale: models with dimension ≤1024 progressively lose this organization at late layers despite improving loss, while larger models (≥2048 dimensions) maintain it throughout. The difference traces to a capacity bottleneck—small models mask predictive information under dominant directions rather than fully destroying it. This distinction is invisible to spectral metrics or standard loss analysis, suggesting scale determines not just performance but the fundamental geometry through which models solve prediction.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 947,
+  "tokens_out": 261,
+  "cost_usd": 0.0018016,
+  "ingested_at": "2026-05-19T03:20:04.151020+00:00"
+}

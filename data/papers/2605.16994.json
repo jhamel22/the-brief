@@ -1,0 +1,23 @@
+{
+  "id": "2605.16994",
+  "arxiv_url": "https://arxiv.org/abs/2605.16994",
+  "announced_date": "2026-05-16",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Determination of the best dark matter profile for the Milky Way with Gaia DR3 using Bayesian Model Comparison",
+  "authors": "Aryan Singh, Shantanu Desai",
+  "abstract": "We carry out a Bayesian model comparison analysis to determine the dark matter model that best describes the Milky Way rotation curve, using four recent compilations of rotation-curve velocities with the Gaia data. We compare these data using three different baryonic models along with seven different dark matter models. Within the adopted modeling framework and Gaia-based rotation curve datasets, we find that the Einasto profile provides the preferred phenomenological fit compared to the NFW profile} across most combinations of datasets and baryonic models. We also find that the cored dark profiles are preferred over the (cuspy) NFW profile. We also test MOND using three different interpolating functions and find that, within the implementations considered, the models provide poorer fits than the preferred dark matter profiles. Finally, among the different baryonic models considered, none is decisively favored over the others.",
+  "title_relatable": "Gaia data picks a winner among dark matter halo shapes",
+  "hook": "A systematic Bayesian comparison using Gaia rotation-curve data finds the Einasto profile consistently outperforms the widely-used NFW profile for the Milky Way's dark matter halo.",
+  "summary": "Using four Gaia DR3 rotation-curve compilations and testing seven dark matter density profiles against three baryonic models, the analysis ranks the Einasto profile as the preferred fit in most dataset-model combinations. Cored profiles — those with a flat central density rather than a steep central cusp — also outperform the standard NFW profile, adding weight to the long-running 'cusp-core' debate. MOND, tested with three interpolating functions, fares worse than the leading dark matter profiles across the board. No single baryonic model stands out as decisively better than the others.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 891,
+  "tokens_out": 223,
+  "cost_usd": 0.006018,
+  "ingested_at": "2026-05-19T03:05:43.562173+00:00"
+}

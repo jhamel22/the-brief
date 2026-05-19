@@ -1,0 +1,23 @@
+{
+  "id": "2605.18556",
+  "arxiv_url": "https://arxiv.org/abs/2605.18556",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Key-Gram: Extensible World Knowledge for Embodied Manipulation",
+  "authors": "Jingjing Fan, Siyuan Li, Botao Ren, Zhidong Deng",
+  "abstract": "Embodied control increasingly requires models to follow compositional language instructions while reasoning over dynamic visual states. However, current vision-language-action policies and world-action models often couple linguistic knowledge with visual computation in a shared backbone or conditioning pathway, leading to modality competition and making knowledge extension dependent on backbone updates. In this paper, we introduce Key-Gram, a conditional-memory framework that separates language-derived world knowledge from visual-state reasoning for embodied control. At its core is a memory module that decomposes an instruction into task-specific key-grams, retrieves static linguistic priors through deterministic hashed lookup, and injects the retrieved entries into selected hidden layers through context-aware gating and lightweight convolutional fusion. This design allows the backbone to devote its main capacity to visual reasoning and action inference, while reusable instruction knowledge is stored in an extensible external memory. The logical memory table can be conveniently partitioned during training and, due to its $O(1)$ lookup pattern, efficiently placed on host memory during inference. Across RoboTwin2.0, LIBERO/LIBERO-Plus, and real-world dual-arm manipulation, Key-Gram consistently improves both $π_{0}$ and $π_{0.5}$ backbones, with average relative gains of $29.5\\%/9.9\\%$ on RoboTwin2.0, $35.8\\%/4.5\\%$ on LIBERO-Plus transfer without target-domain fine-tuning, and $15.4\\%/8.1\\%$ on real-world long-horizon tasks. These results demonstrate that externalized linguistic memory provides an effective and extensible mechanism for improving compositional grounding, transfer, and real-world manipulation.",
+  "title_relatable": "Separating language memory from vision for robot control",
+  "hook": "A memory-augmented framework that stores instruction knowledge separately from visual processing improves robot manipulation by 29.5% on simulation benchmarks and transfers better to new tasks without retraining.",
+  "summary": "Current robot control systems mix language understanding with visual reasoning in a single neural backbone, forcing them to compete for capacity. Key-Gram instead uses an external memory module that breaks instructions into task-specific components, retrieves linguistic knowledge via fast lookup tables, and injects it into the visual processing pipeline through gating mechanisms. This separation lets the backbone focus on visual reasoning while reusable instruction knowledge scales independently. Testing on RoboTwin2.0, LIBERO, and real dual-arm robots shows consistent gains: 29.5% improvement on simulation benchmarks and strong zero-shot transfer to new tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1084,
+  "tokens_out": 218,
+  "cost_usd": 0.0017392,
+  "ingested_at": "2026-05-19T03:13:49.584795+00:00"
+}

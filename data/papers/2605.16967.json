@@ -1,0 +1,22 @@
+{
+  "id": "2605.16967",
+  "arxiv_url": "https://arxiv.org/abs/2605.16967",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Expandable, Compressible, Mineable: Open-World Thermal Image Restoration",
+  "authors": "Pu Li, Huafeng Li, Yafei Zhang, Wen Wang, Neng Dong, Jie Wen",
+  "abstract": "In open-world settings, thermal infrared (TIR) image degradations continuously emerge and evolve, while most existing all-in-one restoration methods are built on a closed-set assumption and struggle to continually adapt to novel degradations. To address this, we propose ECMRNet, an Expandable, Compressible, and Mineable Restoration Network for open-world TIR restoration from a continual learning perspective. Conceptually, ECMRNet unifies continual degradation learning as an \"expand-compress-mine\" closed-loop process, enabling sustained adaptation to new degradations with controllable evolution. Structurally, ECMRNet decomposes intermediate representations into group-isolated subspaces, and achieves strict parameter isolation and fast adaptation to new degradations by freezing historical groups and isomorphically expanding new ones. To curb model growth as tasks accumulate, we present Structural Entropy Pruning, which identifies and removes redundant channel groups via two-dimensional structural entropy minimization, achieving information contribution-driven adaptive compression. Moreover, we design a Sub-degradation Knowledge Mining Module that dynamically retrieves and recombines transferable components from historical representations to improve restoration under compound degradations. Experimental results demonstrate that ECMRNet achieves superior overall performance across diverse single and compound degradations while using fewer parameters and lower computational cost. The source code is available at https://github.com/Kust-lp/ECMRNet.",
+  "title_relatable": "Thermal image restoration that learns and forgets continuously",
+  "hook": "A restoration network that adapts to new thermal image degradations without forgetting old ones, using structural pruning to prevent unbounded model growth.",
+  "summary": "Thermal infrared imaging degrades in ways that change over time—rain, fog, noise—but existing restoration methods assume a fixed set of degradations. ECMRNet addresses this by framing thermal image restoration as a continual learning problem. The network expands with new degradation types, compresses itself via Structural Entropy Pruning to remove redundant parameters, and mines historical representations to handle compound degradations. Experiments show it outperforms all-in-one baselines on both single and compound degradations while using fewer parameters. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1025,
+  "tokens_out": 198,
+  "cost_usd": 0.001612,
+  "ingested_at": "2026-05-19T03:24:57.452463+00:00"
+}

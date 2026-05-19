@@ -1,0 +1,22 @@
+{
+  "id": "2605.16621",
+  "arxiv_url": "https://arxiv.org/abs/2605.16621",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Extending the model of rotating acoustic geometries to include non-vanishing solid-body rotation: quasibound spectra",
+  "authors": "H. S. Vieira",
+  "abstract": "In a very recent paper, we computed the quasibound states of massless acoustic excitations interacting with a new (effective) acoustic geometry with circulation. Notably, the behavior of this acoustic black hole aligns with the phenomenology observed in recent experiments that include superfluids. Such vortex fluid flow bundles exhibit solid-body rotation at length scales larger than the inter-vortex distance, which adds some complexity to the study of quantum fluid behaviour. To theoretically deal with this issue, we present an extension of our previous results by including a solid-body rotation term at the angular fluid velocity and then we perform a spectral study by using the analytical solutions for the scalar wave equation of motion.",
+  "title_relatable": "Acoustic black holes get a spin upgrade for superfluid experiments",
+  "hook": "Adding solid-body rotation to acoustic black hole models brings theory closer to actual superfluid vortex experiments, enabling analytic quasibound spectra.",
+  "summary": "Acoustic black holes — fluid-flow analogues of gravitational black holes — normally model pure vortex circulation, but real superfluid experiments show solid-body rotation at scales larger than the vortex spacing. By adding a solid-body rotation term to the angular velocity profile, the author derives analytic solutions to the scalar wave equation and extracts quasibound-state spectra for this extended geometry. The results sharpen the theoretical framework for interpreting quantum fluid experiments that probe analogue Hawking physics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 842,
+  "tokens_out": 190,
+  "cost_usd": 0.005376,
+  "ingested_at": "2026-05-19T02:55:40.012887+00:00"
+}

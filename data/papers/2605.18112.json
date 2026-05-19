@@ -1,0 +1,22 @@
+{
+  "id": "2605.18112",
+  "arxiv_url": "https://arxiv.org/abs/2605.18112",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Linear-optical test of quantum contextuality with sequential measurements",
+  "authors": "Jiaqi Liu, Bita Olamaei, Lijian Zhang, Ali Asadian, Saleh Rahimi-Keshari",
+  "abstract": "Quantum contextuality provides a fundamental signature of nonclassical behavior that cannot be explained by noncontextual hidden-variable models. We propose and experimentally implement a linear-optical setup for demonstrating Kochen-Specker contextuality via a violation of the KCBS inequality using single photons. Our scheme employs sequential measurements realized with linear-optical networks and on-off photodetectors. The construction ensures that each co-measured observable is implemented by the same physical operation across different contexts. Our experimental results demonstrate a clear violation of the KCBS inequality and robustness against photon loss. Beyond fundamental investigations, the proposed setup provides a practical tool for probing non-classicality and photon-number statistics of quantum states, which in turn enables the verification of single-photon sources.",
+  "title_relatable": "Single photons break a classical rule about measurement order",
+  "hook": "A linear-optics experiment violates the KCBS inequality using sequential measurements on single photons, demonstrating quantum contextuality while remaining robust to photon loss.",
+  "summary": "Quantum contextuality—the fact that measurement outcomes depend on which other measurements are performed alongside them—is tested here using a photonic circuit with sequential linear-optical operations and simple on-off detectors. The setup carefully ensures each observable is implemented by the same physical device regardless of context, closing a key loophole in contextuality tests. Experimental results show a clear violation of the five-measurement KCBS inequality. Beyond foundational interest, the scheme doubles as a diagnostic for photon-number statistics, offering a practical way to certify single-photon sources.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 879,
+  "tokens_out": 200,
+  "cost_usd": 0.005637,
+  "ingested_at": "2026-05-19T03:00:36.849882+00:00"
+}

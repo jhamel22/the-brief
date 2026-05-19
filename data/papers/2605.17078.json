@@ -1,0 +1,22 @@
+{
+  "id": "2605.17078",
+  "arxiv_url": "https://arxiv.org/abs/2605.17078",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Boson Stars surrounded by Polish Doughnuts in Scalar-Tensor Theory",
+  "authors": "Kristian Gjorgjieski, Maxim Rose, Burkhard Kleihaus, Jutta Kunz, Petya Nedkova",
+  "abstract": "We investigate thick accretion disks (Polish Doughnuts) around rotating self-interacting boson stars in general relativity and scalar-tensor theories, focusing on spontaneously scalarized solutions and their general relativistic counterparts. Using equilibrium models with constant specific angular momentum, we analyze disk structures across the parameter space, with emphasis on the phase transition between GR and scalarized configurations. We find that scalarization induces qualitative changes in the spacetime that significantly affect disk morphology. In particular, scalarized boson stars can lack innermost circular orbits, allowing stable motion down to the center and enabling highly compact, quasi-spherical disks. For the most massive scalarized solutions, a non-monotonic angular momentum profile further permits two-centered disk configurations connected by a cusp. Overall, disks around scalarized boson stars are more compact and more strongly bound than those in general relativity, highlighting distinctive features that may serve as observational signatures of alternative gravity theories in the strong-field regime.",
+  "title_relatable": "Exotic accretion disks could betray boson stars in alternative gravity",
+  "hook": "Scalarized boson stars can host unusually compact accretion disks—including rare two-lobed structures—that have no counterpart in general relativity, offering potential observational signatures.",
+  "summary": "Thick accretion disks around rotating boson stars behave very differently when the underlying gravity theory allows spontaneous scalarization. Without an innermost stable circular orbit, infalling matter can spiral all the way to the center, producing quasi-spherical, tightly bound disks. For the most massive scalarized solutions, a non-monotonic angular momentum profile even allows a double-centered disk connected by a cusp—a configuration impossible around ordinary compact objects in GR. These distinctive disk geometries could, in principle, be identified through future high-resolution imaging or spectral observations of candidate boson-star systems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 937,
+  "tokens_out": 225,
+  "cost_usd": 0.006186,
+  "ingested_at": "2026-05-19T02:54:39.944829+00:00"
+}

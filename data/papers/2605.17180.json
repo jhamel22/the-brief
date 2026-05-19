@@ -1,0 +1,24 @@
+{
+  "id": "2605.17180",
+  "arxiv_url": "https://arxiv.org/abs/2605.17180",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "math.OC",
+    "stat.ML"
+  ],
+  "title_original": "The Geometry of Projection Heads: Conditioning, Invariance, and Collapse",
+  "authors": "Faris Chaudhry",
+  "abstract": "We develop a geometric theory of projection heads in self-supervised learning by modeling the head as a trainable Riemannian metric on the backbone representation manifold. We show that linear heads perform implicit subspace whitening, while nonlinear heads adapt local metrics to satisfy the specific topological constraints of the loss, with head depth empirically dictating this capacity. Analyzing dimensional collapse, we prove that smooth nonlinear heads natively induce negative eigenvalues in the Hessian at collapsed equilibria, making them unstable. We empirically validate this by continuously tracking the optimization geometry during training, which reveals that smooth activations like Swish can generate explicit negative curvature to escape collapse, whereas linear and ReLU heads under continuous-time gradient flow cannot, relying instead on discrete-time optimization dynamics and BatchNorm. Finally, we geometrically characterize how metric degeneracy governs the information-invariance trade-off, explaining why the head must be discarded. Evaluated across contrastive and decorrelation-based objectives on foundation models, our results demonstrate that the projection head acts as a universal geometric buffer, decoupling the semantic backbone from the rigid, destructive constraints of the pretraining objective.",
+  "title_relatable": "Why projection heads prevent neural networks from collapsing",
+  "hook": "Projection heads in self-supervised learning act as geometric buffers that prevent representation collapse by locally adapting metrics—a capacity that depends on head depth and activation function choice.",
+  "summary": "Self-supervised learning relies on projection heads to prevent dimensional collapse, but the mechanism remained unclear. This work models projection heads as trainable Riemannian metrics on the representation manifold and proves that smooth nonlinear heads naturally generate negative Hessian eigenvalues at collapsed states, making collapse unstable. Empirical tracking of optimization geometry during training shows that Swish activations exploit this negative curvature to escape collapse, while linear and ReLU heads cannot without relying on BatchNorm and discrete optimization steps. The analysis explains why deeper nonlinear heads are more effective and why projection heads must be discarded after pretraining—they impose rigid constraints incompatible with downstream tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 940,
+  "tokens_out": 233,
+  "cost_usd": 0.001684,
+  "ingested_at": "2026-05-19T03:10:49.180964+00:00"
+}

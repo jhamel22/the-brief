@@ -1,0 +1,23 @@
+{
+  "id": "2605.16177",
+  "arxiv_url": "https://arxiv.org/abs/2605.16177",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "Observational signatures of negative mass wormholes through their shadows",
+  "authors": "Shin'ichi Nojiri, Sergei D. Odintsov, Diego Sáez-Chillón Gómez",
+  "abstract": "We investigate systems containing objects with negative mass (NMOs). In a system consisting of one object with positive mass and one NMO, a bound state exists even though the force exerted by the NMO on the object with positive mass is repulsive. Unlike a standard system consisting of two objects with positive mass, the gravitational waves emitted from this system exhibit a decrease in frequency and amplitude over time. We propose a model of the time evolution of the Ellis-Bronnikov wormhole, along with a formulation that eliminates the ghost that appears when constructing the Ellis-Bronnikov wormhole, a candidate for an NMO. Furthermore, numerical simulations are performed to obtain the optical appearance of such NMOs. The observed luminosity is also compared with the Schwarzschild black hole and with the Simpson-Visser wormhole, leading to clear differences in the photon ring substructure around the central object.",
+  "title_relatable": "What a negative-mass wormhole would actually look like to telescopes",
+  "hook": "Negative-mass wormholes produce gravitational waves that shrink in frequency and amplitude over time, and cast shadows distinctly different from black holes or ordinary wormholes.",
+  "summary": "Pairing a positive-mass object with a negative-mass Ellis-Bronnikov wormhole creates a bound state despite the repulsive force — an unusual dynamic that leaves a clear imprint on emitted gravitational waves, which decrease in both frequency and amplitude rather than chirping upward. The authors also propose a ghost-free formulation of the Ellis-Bronnikov wormhole and simulate its optical appearance. Numerical ray-tracing shows that the photon ring substructure around the central object differs measurably from a Schwarzschild black hole and a Simpson-Visser wormhole, offering potential observational discriminators for future very-long-baseline interferometry campaigns.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 911,
+  "tokens_out": 236,
+  "cost_usd": 0.006273,
+  "ingested_at": "2026-05-19T02:56:56.397690+00:00"
+}

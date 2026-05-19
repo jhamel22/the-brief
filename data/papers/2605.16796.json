@@ -1,0 +1,23 @@
+{
+  "id": "2605.16796",
+  "arxiv_url": "https://arxiv.org/abs/2605.16796",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CR",
+    "cs.CV"
+  ],
+  "title_original": "Watermarks Attack Watermarks: Re-Watermarking as a Generic Removal Strategy",
+  "authors": "Maria Bulychev, Neil G. Marchant, Benjamin I. P. Rubinstein",
+  "abstract": "Watermarking combines an imperceptible change to an input image that will trigger a detector, to assert provenance and protect intellectual property. The literature has shown great interest in attacks on watermarking schemes: attackers are clearly motivated to steal copyrighted material or circumvent legislated deepfake protections. In this work, we make a simple-yet-powerful observation: that such attacks on watermarking-like watermarks themselves-seek an imperceptible change to an input image (now already watermarked) that will trigger a detector. This analogy comparing watermark attacks to watermarking itself is highly suggestive: that watermarks could be used to attack watermarks. Our first contribution validates this hypothesis. In rigorous experiments spanning 96 combinations of dataset, victim, and attack watermarks, we show that simply re-watermarking an already watermarked image reliably suppresses the original signal, without requiring gradients, surrogate models, or detection keys. Our second contribution is a simple classifier for detecting the presence and identity of an existing watermark in a given image. Surprisingly, experimental findings demonstrate outstanding overall accuracies 0.878-0.953. This result is of independent interest as a security vulnerability: research shows that method-specific attacks achieve substantially stronger removal than black-box attacks. Taken together, watermark identification combined with re-watermarking successfully reduces bit accuracy by at least 25% and up to 48%. Our work constitutes a cheap, generic, and highly effective attack pipeline, calling into question the reliability of current watermarking schemes to such a simple attack, as well as the value of existing sophisticated attacks.",
+  "title_relatable": "Using watermarks to remove watermarks from images",
+  "hook": "Researchers show that re-watermarking already-marked images reliably suppresses the original watermark signal without needing gradient access or detection keys, reducing bit accuracy by 25–48%.",
+  "summary": "Image watermarking is supposed to protect copyright and prevent deepfake abuse, but this work reveals a fundamental vulnerability: watermarks can be weaponized to attack watermarks. By treating watermark removal as an analogue to watermarking itself, the authors show that simply applying a second watermark to an already-watermarked image effectively erases the first one. They also develop a classifier that identifies existing watermarks with 87.8–95.3% accuracy across datasets. Together, watermark detection plus re-watermarking forms a generic, black-box attack requiring no gradient information or model knowledge—and outperforms most existing sophisticated removal methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1043,
+  "tokens_out": 228,
+  "cost_usd": 0.0017464000000000002,
+  "ingested_at": "2026-05-19T03:25:17.464197+00:00"
+}

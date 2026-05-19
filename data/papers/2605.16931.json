@@ -1,0 +1,24 @@
+{
+  "id": "2605.16931",
+  "arxiv_url": "https://arxiv.org/abs/2605.16931",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.str-el",
+    "nucl-th"
+  ],
+  "title_original": "Nonlinear response of the chiral magnetic effect in the D3/D7 holographic model",
+  "authors": "Masataka Matsumoto, Mirmani Mirjalali, Ali Vahedi",
+  "abstract": "We investigate the nonlinear response of the chiral magnetic current to an external magnetic field in a holographic setup. Using the D3/D7 brane system, where the chiral magnetic effect (CME) can be realized by considering rotating probe D7-branes, corresponding to introducing an axial chemical potential, we analyze the current-magnetic field relation beyond the linear regime. Focusing on the vicinity of the phase boundary between the insulating phase and the CME phase, we find that the chiral magnetic current exhibits a multi-valued dependence on the magnetic field, indicating a highly nonlinear response characteristic of this model. We further study the dynamical stability of the insulating phase near the transition point, and show that the presence of both an axial chemical potential and an external magnetic field cooperatively stabilize the system. Our results clarify the interplay between the axial chemical potential and the magnetic field in determining the phase structure and stability of the system, and reveal new nonlinear aspects of chiral transport in holographic gauge theories.",
+  "title_relatable": "Chiral magnetic current turns nonlinear near a phase boundary",
+  "hook": "A holographic model shows the chiral magnetic current becomes multi-valued near a phase transition, revealing unexpected nonlinear transport behavior beyond standard linear response.",
+  "summary": "Using the D3/D7 brane system in holography, the authors map how chiral magnetic current responds to an external magnetic field across a phase boundary separating an insulating phase from a chiral magnetic effect phase. Rather than a simple proportional relationship, the current becomes multi-valued near the transition — a signature of strong nonlinearity. They also find that an axial chemical potential and magnetic field together stabilize the insulating phase cooperatively. The results expose richer phase structure in chiral transport than linear-response calculations capture.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 925,
+  "tokens_out": 193,
+  "cost_usd": 0.00567,
+  "ingested_at": "2026-05-19T02:58:23.191287+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.16485",
+  "arxiv_url": "https://arxiv.org/abs/2605.16485",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "astro-ph.HE"
+  ],
+  "title_original": "Halo-driven Origin and Suppression of Over-massive Black Holes and Little Red Dots",
+  "authors": "Ritik Sharma, Mahavir Sharma",
+  "abstract": "We present a theoretical model in which the recently detected over-massive black holes (OBHs), and possibly Little Red Dots (LRDs), arise during a halo-driven transient phase preceding the established coevolution of supermassive black holes (SMBHs) and their host galaxies. In this model, halo gravity drives an early phase of rapid black hole growth, leading to systems in high-redshift haloes that lie above the local scaling relations. As the halo evolves, a transition in halo thermodynamics leads to the onset of a hot, pressure-supported medium that suppresses accretion, reducing the black hole growth rate and driving the system toward the local black hole mass$-$stellar mass relation. LRDs may represent an observational manifestation of the rapid, halo-driven growth phase, while OBHs trace its direct mass signature. Our model thus provides a unified framework in which these systems form and evolve toward the regulated coevolution observed in the local Universe.",
+  "title_relatable": "Why early universe black holes outgrew their galaxies — and then stopped",
+  "hook": "A single halo-thermodynamics model explains both over-massive black holes and Little Red Dots as two faces of the same brief, runaway growth episode in the early universe.",
+  "summary": "When dark matter halos are young and cold, their gravity can funnel gas onto central black holes faster than stellar feedback can resist, producing black holes far heavier than local scaling relations predict. As the halo matures, it develops a hot, pressure-supported atmosphere that chokes off accretion and steers the system back toward the familiar black-hole–stellar-mass track. In this picture, Little Red Dots are the luminous signature of that rapid growth phase, while over-massive black holes are its mass imprint. The framework unifies two puzzling JWST populations without invoking exotic seeding mechanisms.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 916,
+  "tokens_out": 219,
+  "cost_usd": 0.006033,
+  "ingested_at": "2026-05-19T03:06:34.212497+00:00"
+}

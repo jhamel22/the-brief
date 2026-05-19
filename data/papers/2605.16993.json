@@ -1,0 +1,24 @@
+{
+  "id": "2605.16993",
+  "arxiv_url": "https://arxiv.org/abs/2605.16993",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CY",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Adversarial Fragility and Language Vulnerability in Clinical AI: A Systematic Audit of Diagnostic Collapse Under Imperceptible Perturbations and Cross-Lingual Drift in Low-Resource Healthcare Settings",
+  "authors": "Anthonio Oladimeji Gabriel, Ahmad Rufai Yusuf",
+  "abstract": "Current clinical artificial intelligence (AI) systems are evaluated almost exclusively on clean, standardised, English-language inputs, conditions that do not reflect the realities of healthcare delivery in low-resource settings. This study presents the first systematic dual audit of two orthogonal safety vulnerabilities in clinical AI: adversarial image fragility and cross-lingual diagnostic drift. Using DenseNet121, the architecture underlying CheXNet, fine-tuned on the COVID-QU-Ex chest X-ray dataset (85,318 images; COVID-19, Non-COVID Pneumonia, Normal), we demonstrate that diagnostic accuracy collapses from 89.3% to 62.0% under a Fast Gradient Method (FGM) perturbation of epsilon=0.021, a magnitude imperceptible to the human eye. Standard defensive strategies including Gaussian smoothing and ensemble voting failed to restore clinical safety. In a parallel language fragility experiment, we tested Llama3.1:8b and NatLAS (N-ATLAS) on 20 COVID-19 clinical cases presented in Standard English, Nigerian Pidgin (Naija), and Yoruba-inflected English. Both models exhibited significant accuracy degradation: Llama3.1:8b dropped from 80.0% to 65.0% on Pidgin; NatLAS, an African-context model, collapsed from 85.0% to 55.0%, with diagnosis consistency falling to 50%. These findings establish a quantitative failure envelope for clinical AI under conditions representative of Primary Health Centre (PHC) deployment in Nigeria, and motivate urgent calls for adversarially hardened, linguistically inclusive clinical AI architectures.",
+  "title_relatable": "Clinical AI systems fail on tiny perturbations and non-English languages",
+  "hook": "A systematic audit shows diagnostic accuracy in clinical AI collapses from 89% to 62% under imperceptible image noise and drops 30 percentage points when switching from English to Nigerian Pidgin.",
+  "summary": "This study documents two critical safety failures in clinical AI systems deployed in low-resource settings: adversarial fragility and cross-lingual diagnostic drift. Researchers tested DenseNet121 (the backbone of CheXNet) on chest X-rays and large language models on COVID-19 cases, finding that tiny imperceptible image perturbations degrade accuracy drastically, while standard defenses like Gaussian smoothing and ensemble voting provide no protection. Language vulnerability is equally severe—both Llama3.1 and a purportedly African-context model (NatLAS) show 20–30 percentage point accuracy drops when processing clinical cases in Nigerian Pidgin or Yoruba-inflected English. Intended for healthcare practitioners and policy makers in Primary Health Centers in Nigeria and similar settings.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1088,
+  "tokens_out": 269,
+  "cost_usd": 0.0019464,
+  "ingested_at": "2026-05-19T03:11:16.358039+00:00"
+}

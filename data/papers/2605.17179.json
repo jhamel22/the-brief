@@ -1,0 +1,22 @@
+{
+  "id": "2605.17179",
+  "arxiv_url": "https://arxiv.org/abs/2605.17179",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "iMiGUE-3K: A Large-Scale Benchmark for Micro-Gesture Analysis with Self-Supervised Learning",
+  "authors": "Chengyan Wang, Haoyu Chen, Hui Wei, Yueyi Yang, Yunquan Chen, Guoying Zhao",
+  "abstract": "Emotion understanding is a fundamental challenge in affective computing and artificial intelligence. While existing approaches predominantly focus on facial expressions and speech, they often overlook the rich emotional cues conveyed through body language. Recently, micro-gestures (MGs), unintentional, subconscious movements driven by inner feelings, have attracted increasing attention as an alternative to other cues. However, there are no existing large-scale datasets supporting the pre-training of the MG foundation model. To advance MG research, we present a new benchmark for micro-gesture-based emotion understanding, featuring key contributions with a novel dataset (iMiGUE-3K) and a series of foundation models for different tasks. Using a model-based crowd-sourcing data collection strategy, we construct iMiGUE-3K, the largest MG dataset to date. It comprises video recordings from 332 distinct professional tennis players' public press interviews over the past seven years, totaling more than 3.4K long video clips and 37 million frames. The dataset includes 32 micro-gesture classes with rich descriptive annotations, making it the first large-scale, in-the-wild, video dataset for fine-grained gesture-based emotion analysis. Built on iMiGUE-3K, we propose MG-FMs, a discriminative foundation model for transferable gesture presentation learning. Based on the foundation model, we establish five comprehensive evaluation tasks: MG recognition (unsupervised, semi-supervised, supervised), MG retrieval, and MG emotion recognition. Our systematic evaluation of representative methods demonstrates that micro-gesture-based analysis significantly improves emotion understanding. We hope this work can provide comprehensive tools for MG analysis and set a solid foundation for future research in psychological diagnostics, affective computing, and advanced human-computer interaction.",
+  "title_relatable": "A dataset of 3.4K videos reveals emotions hidden in tiny gestures",
+  "hook": "New large-scale dataset of 37 million frames of micro-gestures from tennis players enables foundation models for emotion recognition from body language cues.",
+  "summary": "Micro-gestures—subtle, involuntary movements driven by emotion—offer untapped signals for affective computing, but lack large-scale datasets for training. This work introduces iMiGUE-3K, the first large-scale in-the-wild video dataset for micro-gesture analysis, collected from 332 professional tennis players' press interviews over seven years. The dataset contains 3.4K long video clips annotated with 32 micro-gesture classes. The authors propose MG-FMs, a discriminative foundation model trained with self-supervised learning, and establish five evaluation benchmarks: unsupervised, semi-supervised, and supervised micro-gesture recognition, plus retrieval and emotion recognition tasks. Experiments show micro-gesture analysis meaningfully improves emotion understanding beyond facial expressions and speech alone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1107,
+  "tokens_out": 262,
+  "cost_usd": 0.0019336,
+  "ingested_at": "2026-05-19T03:25:32.789386+00:00"
+}

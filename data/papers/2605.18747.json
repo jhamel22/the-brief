@@ -1,0 +1,23 @@
+{
+  "id": "2605.18747",
+  "arxiv_url": "https://arxiv.org/abs/2605.18747",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Code as Agent Harness",
+  "authors": "Xuying Ning, Katherine Tieu, Dongqi Fu, Tianxin Wei, Zihao Li, Yuanchen Bei, Jiaru Zou, Mengting Ai, Zhining Liu, Ting-Wei Li, Lingjie Chen, Yanjun Zhao, Ke Yang, Bingxuan Li, Cheng Qian, Gaotang Li, Xiao Lin, Zhichen Zeng, Ruizhong Qiu, Sirui Chen, Yifan Sun, Xiyuan Yang, Ruida Wang, Rui Pan, Chenyuan Yang, Dylan Zhang, Liri Fang, Zikun Cui, Yang Cao, Pan Chen, Dorothy Sun, Ren Chen, Mahesh Srinivasan, Nipun Mathur, Yinglong Xia, Hong Li, Hong Yan, Pan Lu, Lingming Zhang, Tong Zhang, Hanghang Tong, Jingrui He",
+  "abstract": "Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, from competitive programming to repository-level software engineering. In emerging agentic systems, code is no longer only a target output. It increasingly serves as an operational substrate for agent reasoning, acting, environment modeling, and execution-based verification. We frame this shift through the lens of agent harnesses and introduce code as agent harness: a unified view that centers code as the basis for agent infrastructure. To systematically study this perspective, we organize the survey around three connected layers. First, we study the harness interface, where code connects agents to reasoning, action, and environment modeling. Second, we examine harness mechanisms: planning, memory, and tool use for long-horizon execution, together with feedback-driven control and optimization that make harness reliable and adaptive. Third, we discuss scaling the harness from single-agent systems to multi-agent settings, where shared code artifacts support multi-agent coordination, review, and verification. Across these layers, we summarize representative methods and practical applications of code as agent harness, spanning coding assistants, GUI/OS automation, embodied agents, scientific discovery, personalization and recommendation, DevOps, and enterprise workflows. We further outline open challenges for harness engineering, including evaluation beyond final task success, verification under incomplete feedback, regression-free harness improvement, consistent shared state across multiple agents, human oversight for safety-critical actions, and extensions to multimodal environments. By centering code as the harness of agentic AI, this survey provides a unified roadmap toward executable, verifiable, and stateful AI agent systems.",
+  "title_relatable": "Code as the engine for reasoning and acting in AI agents",
+  "hook": "A survey arguing that code should be the central infrastructure for agent reasoning, memory, and coordination—not just the final output—with applications from coding assistants to multi-agent workflows.",
+  "summary": "This survey reframes the role of code in agentic AI systems. Rather than treating code as only a target output, the authors propose code as agent harness: a unified framework where code serves as the operational substrate for agent reasoning, action planning, environment modeling, and execution verification. The framework spans three layers—harness interface (connecting agents to reasoning and tools), harness mechanisms (planning, memory, feedback-driven control), and scaling to multi-agent systems (coordination and verification). The work covers practical applications across coding assistants, automation, embodied agents, scientific discovery, and enterprise workflows, while identifying open challenges including evaluation metrics beyond task success, verification with incomplete feedback, and safety oversight for safety-critical actions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1240,
+  "tokens_out": 237,
+  "cost_usd": 0.00194,
+  "ingested_at": "2026-05-19T03:13:20.140263+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.17931",
+  "arxiv_url": "https://arxiv.org/abs/2605.17931",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.quant-gas",
+    "quant-ph"
+  ],
+  "title_original": "Temperature-Controlled Resonance in a Heteronuclear Quantum Gas Mixture",
+  "authors": "Xiaoyi Yang, Tianyu Xu, Shengli Ma, Zhigang Wu, Ren Zhang",
+  "abstract": "Single-channel resonances are fundamental processes in scattering of atoms, yet their occurrence is largely incidental and lacks systematic control. In this Letter, we propose a mechanism to realize a continuously tunable single-channel resonance by controlling the temperature of the heteronuclear mixture. By extending the Casimir-like mediated interaction to finite temperature, we demonstrate that thermal smearing of the Fermi surface reshapes the effective potential between impurities, giving rise to a temperature-controlled resonance (TCR) over a wide parameter range. As a direct consequence, the resonance position shifts systematically with temperature variation, providing a clear experimental signature of this mechanism. We further investigate the quench dynamics of a Bose gas immersed in a Fermi sea and demonstrate that the observed temperature-dependent loss features in recent experiments are consistent with the TCR mechanism. Our results establish temperature as a simple and experimentally accessible control knob for single-channel resonances in ultracold quantum gases.",
+  "title_relatable": "Temperature alone can tune atomic scattering resonances in cold gases",
+  "hook": "A proposed mechanism lets experimentalists dial atomic interaction resonances simply by changing temperature, replacing the usual need for finely tuned magnetic fields.",
+  "summary": "In ultracold mixtures, scattering resonances normally arise by accident or require careful magnetic tuning. By extending Casimir-like fermion-mediated interactions to finite temperature, the authors show that thermal smearing of the Fermi surface reshapes the effective potential between impurity atoms, shifting the resonance position continuously with temperature. The resonance location moves predictably as temperature changes, offering a clean experimental signature. Recent loss-feature measurements in Bose-Fermi mixtures match this temperature-controlled resonance picture, suggesting the mechanism is already at work in existing experiments.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 918,
+  "tokens_out": 201,
+  "cost_usd": 0.005769,
+  "ingested_at": "2026-05-19T03:02:07.105717+00:00"
+}

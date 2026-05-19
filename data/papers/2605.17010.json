@@ -1,0 +1,26 @@
+{
+  "id": "2605.17010",
+  "arxiv_url": "https://arxiv.org/abs/2605.17010",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.SI",
+    "cs.AI",
+    "cs.CL",
+    "cs.CY",
+    "cs.HC"
+  ],
+  "title_original": "Algorithmic Cultivation: How Social Media Feeds Shape User Language",
+  "authors": "Olivia Pal, Agam Goyal, Eshwar Chandrasekharan, Koustuv Saha",
+  "abstract": "Algorithmic feeds have become primary environments for encountering information online, yet while they shape what people see, less is known about how sustained feed exposure shapes how people write. Drawing on Cultivation Theory, we examine whether algorithmic feeds function as online environments that leave measurable traces in users' language. We leverage a large-scale longitudinal dataset of 235M posts by 4M users on Bluesky, and conduct a quasi-experimental study matching an initial pool of 368,513 users exposed to one of three feeds -- News, Science, and Blacksky -- with a pool of 2,001,915 active control users who did not engage with any of these feeds. We examine linguistic evolution across three dimensions: lexico-semantics, psycholinguistics, and topics. We find that users exposed to these feeds show significantly greater stylistic accommodation, semantic alignment, and register formalization than matched controls. These effects vary markedly by feed identity -- Blacksky produces the deepest psycholinguistic restructuring, with significant shifts in cognitive processing, affective expression, and pronoun use, while News and Science effects are largely confined to register and topical focus. Regression models reveal that reposting is the most consistent predictor of linguistic convergence across all feeds, whereas posting and bookmarking show feed-dependent effects, with effects differing more than fourfold across feeds. Our work extends Cultivation Theory beyond belief formation to linguistic behavior, demonstrating that feeds function as persistent linguistic environments that gradually shape what and how users write online. Our work has implications for studying algorithmic influence, online identity formation, and the design and governance of feed-based platforms that mediate online interactions.",
+  "title_relatable": "How algorithmic feeds reshape the way people write",
+  "hook": "Sustained exposure to algorithmic feeds measurably changes users' language—from vocabulary to emotional tone—with effects varying dramatically by feed type, revealing feeds function as linguistic environments similar to physical communities.",
+  "summary": "This study applies Cultivation Theory to understand whether algorithmic feeds shape not just what people see, but how they communicate. Researchers analyzed 235 million posts from 4 million Bluesky users, comparing those exposed to News, Science, or Blacksky feeds against matched controls. Users on Blacksky showed the largest linguistic shifts, including changes in cognitive processing, emotional expression, and pronoun use; News and Science feeds primarily affected formality and topical focus. Reposting emerged as the strongest predictor of linguistic convergence across all feeds. The work demonstrates that algorithmic curation functions as a persistent social environment that gradually influences linguistic behavior, with implications for understanding algorithmic influence and platform governance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1053,
+  "tokens_out": 237,
+  "cost_usd": 0.0017904000000000002,
+  "ingested_at": "2026-05-19T03:15:51.041457+00:00"
+}

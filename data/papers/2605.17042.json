@@ -1,0 +1,22 @@
+{
+  "id": "2605.17042",
+  "arxiv_url": "https://arxiv.org/abs/2605.17042",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Thermal-Only Crowd Counting with Deployment-Time Privacy Protection",
+  "authors": "Yifei Qian, Zhongliang Guo, Chun Tong Lei, Bowen Deng, Chun Pong Lau, Xiaopeng Hong, Michael P. Pound",
+  "abstract": "While RGB-Thermal crowd counting has shown promise, the paradigm faces critical limitations: RGB data raises privacy concerns in public surveillance, and multi-modal misalignment degrades fusion performance. We propose the first thermal-only framework specifically designed for privacy-conscious crowd counting, eliminating RGB dependency at inference time and substantially reducing the privacy exposure associated with continuous RGB capture in public surveillance deployments. To mitigate thermal ambiguity, we leverage depth-to-RGB diffusion models as a cross-modal bridge, extracting discriminative features that enhance thermal representations. Critically, we demonstrate that single-step LCM denoising yields features most faithful to the structural content of the depth conditioning signal, while multi-step approaches progressively decouple features from the conditioning input and accumulate errors that degrade counting accuracy. Experiments on RGBT-CC and DroneRGBT datasets show our method achieves competitive performance against state-of-the-art RGB-T fusion methods, while requiring only thermal input during inference, eliminating the need for continuous RGB capture that constitutes the primary privacy concern in real-world surveillance deployment. The code will be made publicly available.",
+  "title_relatable": "Privacy-preserving crowd counting with thermal imaging alone",
+  "hook": "A thermal-only crowd counting system that matches RGB-thermal fusion methods while eliminating privacy-invasive RGB camera feeds at deployment time, using diffusion models to bridge the modality gap.",
+  "summary": "Crowd counting in public spaces raises privacy concerns from continuous RGB capture. This work proposes the first thermal-only framework that removes RGB dependency at inference time while maintaining competitive accuracy. The method uses depth-to-RGB diffusion models as a cross-modal bridge to extract features that enhance thermal representations; critically, single-step LCM denoising preserves structural fidelity better than multi-step approaches. Tested on RGBT-CC and DroneRGBT datasets, it matches state-of-the-art RGB-thermal fusion performance while requiring only thermal input, directly addressing privacy constraints in real surveillance systems. Code will be released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 965,
+  "tokens_out": 226,
+  "cost_usd": 0.001676,
+  "ingested_at": "2026-05-19T03:25:54.787411+00:00"
+}

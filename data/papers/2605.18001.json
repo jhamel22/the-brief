@@ -1,0 +1,22 @@
+{
+  "id": "2605.18001",
+  "arxiv_url": "https://arxiv.org/abs/2605.18001",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Bridging the Gap: Converting Read Text to Conversational Dialogue",
+  "authors": "Parshav Singla, Agnik Banerjee, Aaditya Arora, Shruti Aggarwal, Anil Kumar Verma, Vikram C M, Raj Prakash Gohil, Gopal Kumar Agarwal",
+  "abstract": "In recent advancements within speech processing, converting read speech to conversational speech has gained significant attention. The primary challenge in this domain is maintaining naturalness and intelligibility while minimizing computational overhead for real-time applications. Traditional read speech often lacks the nuanced prosodic variation essential for natural conversational interactions, posing challenges for applications in virtual assistants, customer service, and language learning tools. This paper introduces a novel approach, Prosodic Adjustment with Conversational Context (PACC), aimed at converting read speech into natural conversational speech used in various modern applications. PACC utilizes advanced deep neural networks to analyze and modify prosodic features such as intonation, stress, and rhythm. Unlike conventional methods, our approach uses High-Fidelity Generative Adversarial Networks (HiFi-GAN) for speech synthesis. Our experimental results demonstrate significant improvements in speech conversion, enhancing naturalness and achieving better model accuracy with additional training on speech datasets. This research establishes new benchmarks in speech conversion tasks and Mean Opinion Score (MOS) evaluation for testing model accuracy, and we show that our approach can be successfully extended to other speech conversion applications.",
+  "title_relatable": "Making robotic speech sound naturally conversational",
+  "hook": "A neural system adjusts prosody in read speech to match conversational patterns, using HiFi-GAN synthesis to improve naturalness for real-time applications like virtual assistants.",
+  "summary": "Read speech—the kind produced by text-to-speech systems—lacks the intonation, stress, and rhythm variations that make conversation sound natural. This work applies deep neural networks to analyze and modify prosodic features, using HiFi-GAN for high-quality synthesis. Tested on multiple datasets and evaluated by listener preference (Mean Opinion Score), the method improves naturalness and accuracy over conventional approaches. Intended for virtual assistants, customer service bots, and language learning tools where computational efficiency matters.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 982,
+  "tokens_out": 194,
+  "cost_usd": 0.0015616,
+  "ingested_at": "2026-05-19T03:17:34.871652+00:00"
+}

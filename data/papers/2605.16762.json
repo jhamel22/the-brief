@@ -1,0 +1,23 @@
+{
+  "id": "2605.16762",
+  "arxiv_url": "https://arxiv.org/abs/2605.16762",
+  "announced_date": "2026-05-16",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "Extracting redshifts from 2D slitless spectroscopic images using deep learning for the CSST galaxy survey",
+  "authors": "Xingchen Zhou, Yan Gong, Xin Zhang, Xian-Min Meng, Haitao Miao, Run Wen, Nan Li",
+  "abstract": "Wide-field slitless spectroscopic galaxy surveys, such as the one performed by the upcoming Chinese Space Station Survey Telescope (CSST), are crucial for precision cosmology but present formidable data analysis challenges. Because spectra are dispersed directly onto the detector, they are convolved with the 2-dimensional (2D) spatial morphology, which complicates wavelength calibration and consequently degrades the fidelity of subsequent 1-dimensional (1D) spectral extraction. To overcome these limitations, we present a deep learning framework that extracts redshifts directly from 2D slitless spectral images, bypassing 1D extraction entirely. We construct a realistic mock dataset for the CSST $GV$ and $GI$ band using high-resolution images from HSC-SSP PDR3 and spectral energy distributions (SEDs) from DESI DR1. A Bayesian convolutional neural network implemented by Monte Carlo dropout is employed to map the 2D spectral images to redshift estimations while simultaneously quantifying uncertainties. We find that our model can achieve a precision $σ_{\\rm NMAD}=0.0104$ and mean uncertainty $\\langle E / (1 + z_{\\rm true}) \\rangle=0.0155$ for sources with ${\\rm SNR}_{GI}\\geq1$. For sources with ${\\rm SNR}_{GI}$ higher than 3.0, 5.0 and 10.0, $σ_{\\rm NMAD}$ can achieve 0.0047, 0.0037 and 0.0024 respectively, matching the redshift precision requirements for studies such as BAO using the CSST slitless spectroscopic surveys. Furthermore, by utilizing spatial augmentations, the network demonstrates resilience to wavelength calibration errors. This work provides a novel and robust pathway for data analysis of next-generation slitless spectroscopic galaxy surveys.",
+  "title_relatable": "Teaching a neural network to read blurry space spectra directly",
+  "hook": "A Bayesian deep learning model extracts galaxy redshifts straight from raw 2D slitless spectral images, sidestepping the error-prone extraction step that normally degrades precision.",
+  "summary": "Slitless spectrographs smear a galaxy's spectrum across the detector in two dimensions, tangling spectral information with spatial shape and making wavelength calibration messy. Using mock CSST observations built from real HSC imaging and DESI spectra, a Bayesian convolutional network with Monte Carlo dropout reads redshifts directly from those 2D images. At signal-to-noise above 10, the method reaches σ_NMAD = 0.0024 — precise enough for baryon acoustic oscillation science — and spatial augmentation during training makes it robust against calibration offsets. The approach could streamline analysis pipelines for any future wide-field slitless survey.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1173,
+  "tokens_out": 245,
+  "cost_usd": 0.007194,
+  "ingested_at": "2026-05-19T03:06:12.307672+00:00"
+}

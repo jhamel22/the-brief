@@ -1,0 +1,23 @@
+{
+  "id": "2605.17163",
+  "arxiv_url": "https://arxiv.org/abs/2605.17163",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "title_original": "STRIDE-AI: A Threat Modeling Framework for Generative AI Security Assessment",
+  "authors": "Tsafac Nkombong Regine Cyrille, Franziska Schwarz",
+  "abstract": "Traditional cybersecurity methodologies target deterministic systems and fail to address the probabilistic nature of AI, leaving systems vulnerable to attack vectors such as model inversion, data poisoning, and prompt injection. Recent industry reports indicate that a majority of organizations deploying AI lack a dedicated security strategy, with adversarial attacks increasing rapidly year-over-year. We present \\textit{STRIDE-AI}, a framework that bridges the gap between high-level risk standards (NIST AI RMF) and technical vulnerability taxonomies (OWASP LLM Top 10). The framework defines a six-phase assessment lifecycle, introduces a threat modeling adaptation of classical STRIDE for AI systems, and is operationalized through a purpose-built web tool. We provide an initial validation of the approach through a black-box assessment of a deployed LLM chatbot, which successfully reduced the attack success rate from 80\\% to 15\\% in our sandbox case study.",
+  "title_relatable": "A security framework for testing generative AI systems",
+  "hook": "STRIDE-AI adapts classical threat modeling to AI systems, bridging NIST and OWASP standards, and reduces attack success rates from 80% to 15% in real-world chatbot assessments.",
+  "summary": "Organizations deploying generative AI lack systematic security practices, leaving systems exposed to model inversion, data poisoning, and prompt injection attacks. STRIDE-AI provides a six-phase assessment framework that translates high-level AI risk standards (NIST AI RMF) into technical vulnerability checks aligned with OWASP's LLM Top 10. The framework includes a web-based tool and has been validated on a deployed LLM chatbot, where it identified and helped remediate vulnerabilities that reduced attack success rates from 80% to 15%. Intended for security practitioners and organizations building AI systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 895,
+  "tokens_out": 226,
+  "cost_usd": 0.00162,
+  "ingested_at": "2026-05-19T03:15:31.835629+00:00"
+}

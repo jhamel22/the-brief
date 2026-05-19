@@ -1,0 +1,24 @@
+{
+  "id": "2605.16869",
+  "arxiv_url": "https://arxiv.org/abs/2605.16869",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Gauge-invariant cosmological perturbations in Type 3 New General Relativity and background-hierarchy bounds",
+  "authors": "Kyosuke Tomonari, Daniel Blixt, Sebastian Bahamonde",
+  "abstract": "In this paper, we investigate background-hierarchy bounds in Type~3 of New General Relativity (NGR). These bounds arise when the contribution associated with the evolution of the background spacetime exceeds that of the quadratic kinetic term in the perturbed Lagrangian. Type~3 of NGR has two free parameters and preserves diffeomorphism invariance and spatial rotations, while breaking Lorentz-boost invariance. We first review Type~3 and identify preferable gauge choices for metric-affine gauge theories of gravity with Weitzenböck connection, including NGR, from the viewpoint of symmetry in both Dirac--Bergmann analysis and linear perturbation theory. We then revisit the perturbative analysis of Type~3 and show that the propagating modes are correctly identified even when the perturbed Lagrangian is not written solely in terms of gauge-invariant variables. Finally, we derive the background-hierarchy bounds for the scalar, transverse-vector, and tensor modes around a flat FLRW background, and identify the region of parameter space in which the linear perturbation theory of Type~3 remains viable for cosmological applications.",
+  "title_relatable": "Which corners of a Lorentz-violating gravity theory survive cosmology",
+  "hook": "A careful perturbation analysis of a Lorentz-boost-breaking gravity theory pins down the parameter space where its cosmological predictions remain internally consistent.",
+  "summary": "Type 3 New General Relativity modifies gravity by relaxing Lorentz-boost invariance while keeping diffeomorphism symmetry, leaving two free parameters. Working around a flat expanding universe, the authors derive 'background-hierarchy bounds' — conditions under which the standard linear perturbation expansion doesn't break down because background evolution swamps the kinetic terms. Scalar, vector, and tensor modes are each analyzed, and the viable region of parameter space is mapped out. The work also clarifies which gauge choices are most natural for this class of metric-affine theories, tidying up an inconsistency in earlier treatments.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 965,
+  "tokens_out": 218,
+  "cost_usd": 0.006165,
+  "ingested_at": "2026-05-19T02:55:11.532364+00:00"
+}

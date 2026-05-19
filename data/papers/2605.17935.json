@@ -1,0 +1,24 @@
+{
+  "id": "2605.17935",
+  "arxiv_url": "https://arxiv.org/abs/2605.17935",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "The problem of time: a path integral view",
+  "authors": "Juan Manuel Diaz, Alejandro Perez",
+  "abstract": "We show that the emergence of time evolution in an otherwise timeless nonrelativistic closed quantum system -- viewed as a poor man's model of generally covariant quantum theory -- can be understood from the perspective of the path integral representation. As often happens in the functional integral approach, this viewpoint offers a more intuitive account of features that become cumbersome in the operator/Hilbert-space formulation. We show how Schrödinger evolution emerges once a clock degree of freedom is identified and placed in a suitable semiclassical `good-clock state'. Our analysis has a consequence that extends to path integral formulations of generally covariant systems with action $S$ (including gravity). In such theories certain transition amplitudes take the form $\\exp(iS/\\hbar)+\\exp(-iS/\\hbar)$ rather than the expected `forward propagating' $\\exp(iS/\\hbar)$. This feature, known as the {\\em cosine problem}, appears in concrete regularizations of the path integral, for example in the spin foam representation defining the physical inner product between spin network states in loop quantum gravity. Both formally and in explicit regularizations, this apparent difficulty has led some authors to seek modifications of the basic amplitudes to eliminate backward propagation. Our model shows that the cosine problem is instead a natural consequence of time-reversal invariance of the fundamental dynamics together with the time-neutral boundary states commonly used in transition amplitudes. When a suitable clock system is identified and placed in a semiclassical `good-clock state', it introduces a time arrow selecting the `forward propagating' $\\exp(iS/\\hbar)$, without modifying the fundamental dynamics. The analysis clarifies how time emerges under suitable conditions and emphasizes that, in the canonical formulation, quantum gravity is fundamentally timeless.",
+  "title_relatable": "Why quantum gravity looks timeless—and how clocks fix that",
+  "hook": "A path integral analysis shows the notorious 'cosine problem' in quantum gravity is not a bug but an inevitable consequence of time-reversal symmetry, resolved naturally by introducing a semiclassical clock.",
+  "summary": "In timeless, generally covariant quantum theories—including quantum gravity—transition amplitudes naturally take the form cos(S/ℏ), combining forward and backward propagating terms, rather than the expected single exponential. This 'cosine problem' has prompted attempts to modify the fundamental dynamics. Working in a simple nonrelativistic closed system as a proxy for full quantum gravity, the authors show that Schrödinger evolution emerges once a clock degree of freedom is placed in a semiclassical 'good-clock state,' which breaks time-reversal symmetry and selects the forward-propagating amplitude—no modification of the underlying dynamics required. The result sharpens the case that quantum gravity is fundamentally timeless, with the arrow of time an emergent property of the clock subsystem.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1078,
+  "tokens_out": 263,
+  "cost_usd": 0.007179,
+  "ingested_at": "2026-05-19T02:53:53.260466+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.18381",
+  "arxiv_url": "https://arxiv.org/abs/2605.18381",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Generating Physically Consistent Molecules with Energy-Based Models",
+  "authors": "Christoph Griesbacher, Lea Bogensperger, Andreas Habring, Thomas Pock",
+  "abstract": "Molecules in equilibrium follow a Boltzmann distribution, making the underlying energy landscape a physically grounded modeling objective. However, such landscapes are difficult to learn from data and, once learned, hard to sample from. Diffusion and flow-matching models sidestep these difficulties by learning a time-conditional score or transport field between noise and data, losing the energy inductive bias in exchange for a more tractable training objective. We introduce EBMol, an energy-based model (EBM) that restores this inductive bias by learning an atom-additive scalar potential without explicit simulation during training. Our method employs a flow-inspired Restoring Field Matching objective to approximate the energy landscape. We adopt the Mirror-Langevin algorithm for sampling, enabling unified updates of atomic positions and types, and incorporate parallel tempering for inference-time compute scaling. EBMol is the first EBM for 3D molecular generation to achieve state-of-the-art performance on QM9 and GEOM-Drugs. Moreover, we show that the learned energy landscape serves as a principled quality metric for ranking and filtering configurations, and demonstrate controllable generation without retraining through shape-steered sampling via potential composition and zero-shot linker design.",
+  "title_relatable": "Energy-based models learn realistic molecular physics directly",
+  "hook": "An energy-based model for 3D molecular generation that grounds sampling in physics principles achieves state-of-the-art results on QM9 and GEOM-Drugs while enabling controllable generation without retraining.",
+  "summary": "Molecules in equilibrium follow a Boltzmann distribution defined by their energy landscape. EBMol, an energy-based model, learns this landscape directly using a Restoring Field Matching objective without expensive molecular simulation during training. The model learns an atom-additive scalar potential and samples via Mirror-Langevin dynamics combined with parallel tempering. It matches or exceeds diffusion and flow-matching approaches on standard benchmarks while providing a physically grounded quality metric for molecular configurations. The learned energy landscape enables controllable generation through potential composition and zero-shot linker design without model retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 962,
+  "tokens_out": 226,
+  "cost_usd": 0.0016736,
+  "ingested_at": "2026-05-19T03:09:07.868603+00:00"
+}

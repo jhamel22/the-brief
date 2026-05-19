@@ -1,0 +1,25 @@
+{
+  "id": "2605.18303",
+  "arxiv_url": "https://arxiv.org/abs/2605.18303",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "PH-Dreamer: A Physics-Driven World Model via Port-Hamiltonian Generative Dynamics",
+  "authors": "Xueyu Luan, Chenwei Shi",
+  "abstract": "World models built on recurrent state space architectures enable efficient latent imagination, yet remain physically unstructured, producing dynamics that violate conservation and dissipative principles. We introduce a unified Port-Hamiltonian framework that remedies this through three synergistic mechanisms. First, we embed implicit physical priors into recurrent transitions by modeling projected latent evolution as action controlled energy routing governed by flow and dissipation, biasing the projected PH phase space toward a more compact and physically structured representation. Second, we develop a kinematics aware energy world model that estimates the Hamiltonian and power balance from proprioceptive observations, providing an explicit physical signal for thermodynamic reasoning. Third, leveraging these energy gradients, we establish an energy guided Actor-Critic that uses Lagrangian multipliers to regularize policy optimization toward lower energy and smoother control. Across visual control benchmarks, this paradigm not only attains superior asymptotic returns but also elevates internal simulator fidelity by establishing a tighter, lower variance alignment between imagined and real rewards, all while reducing latent phase space volume by 4.18-8.41%, energy consumption by up to 7.80%, and mean squared jerk by up to 9.38%.",
+  "title_relatable": "Teaching world models to respect physics through energy",
+  "hook": "A world model framework that embeds physical laws—conservation and dissipation—into latent dynamics, reducing energy consumption by up to 7.8% while improving control performance across visual tasks.",
+  "summary": "World models used in reinforcement learning typically learn dynamics without physical constraints, leading to unrealistic predictions. This work applies Port-Hamiltonian mechanics to enforce energy conservation and dissipation in latent space, computing explicit Hamiltonian functions from observations and using energy gradients to regularize policy learning. On visual control benchmarks, the approach achieves higher asymptotic returns, tighter alignment between imagined and real rewards, and 4–8% smaller latent representations, while cutting energy consumption by up to 7.8%. Intended for researchers building sample-efficient RL agents in continuous control; no code or model release mentioned in the abstract.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 961,
+  "tokens_out": 226,
+  "cost_usd": 0.0016728000000000001,
+  "ingested_at": "2026-05-19T03:09:17.754487+00:00"
+}

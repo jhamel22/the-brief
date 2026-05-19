@@ -1,0 +1,22 @@
+{
+  "id": "2605.16927",
+  "arxiv_url": "https://arxiv.org/abs/2605.16927",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "From Static Risk to Dynamic Trajectories: Toward World-Model-Inspired Clinical Prediction",
+  "authors": "Pujun Feng, Xiaoyu Guo, Seyed Ehsan Saffari, Min Hun Lee, Siew-Kei Lam, Erik Cambria, Xibin Sun, Yangtao Zhou, Tong Yang, Xiaoyu Zhang, Tao Tan, Yue Sun, Bin Cui",
+  "abstract": "Clinical decision-making is a feedback system where risk estimates influence treatment, which in turn changes disease trajectories, and both shape clinicians' measurement practices. Static prediction often fails clinically: models trained on observational care logs conflate disease biology with clinician behavior, particularly under treatment confounder feedback and irregular or informative observation. This Review focuses on intervention-aware disease trajectory modeling in clinical AI--methods estimating patient-specific longitudinal disease evolution and assessing trajectory changes under alternative treatments. We organize the field around six linked components: three decision tasks (factual forecasting, counterfactual estimation, policy evaluation) and three data-generating mechanisms (disease evolution, treatment assignment, observation process) that determine identifiability. We present the first unified framework bridging forecasting, counterfactual trajectories, and policy evaluation across discrete/continuous time, explicitly addressing treatment assignment, time-varying confounding, and observation bias. We synthesize key method families (multistate/joint models, temporal point-process, deep sequence architectures, longitudinal causal inference), map them to relevant components, and align evaluation with claim strength via overlap diagnostics, uncertainty quantification, off-policy robustness, and target-trial validation. This synthesis advances benchmark prediction to decision-grade clinical evidence, enabling treatment-sensitive individualized futures, pre-deployment policy stress-testing, and safer closed-loop learning health systems that adapt/abstain when evidence is insufficient.",
+  "title_relatable": "Predicting how patients will actually respond to treatment",
+  "hook": "A framework for modeling how disease and treatment interact over time, moving beyond static risk scores to account for how clinician decisions reshape patient outcomes.",
+  "summary": "Clinical prediction models trained on observational data often conflate disease biology with clinician behavior, leading to poor real-world performance. This review proposes a unified framework for intervention-aware trajectory modeling that estimates how individual patients evolve under different treatment scenarios. The approach organizes the problem around six components: three decision tasks (factual forecasting, counterfactual estimation, policy evaluation) and three data mechanisms (disease evolution, treatment assignment, observation bias). It synthesizes existing methods—multistate models, temporal point processes, deep sequence architectures, and causal inference—and provides principled evaluation using overlap diagnostics, uncertainty quantification, and target-trial validation. The framework is designed for clinical practitioners and health systems seeking treatment-sensitive predictions and safer adaptive learning systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1056,
+  "tokens_out": 237,
+  "cost_usd": 0.0017928000000000002,
+  "ingested_at": "2026-05-19T03:15:23.085807+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.18070",
+  "arxiv_url": "https://arxiv.org/abs/2605.18070",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Slow-roll inflation in (dual) Kaniadakis cosmology",
+  "authors": "Leila Liravi, Ahmad Sheykhi",
+  "abstract": "We investigate slow-roll inflation within the framework of Kaniadakis and dual Kaniadakis cosmology, where the usual entropy formalism is generalized through a deformation parameter $κ$. By deriving the modified Friedmann equations and the corresponding inflationary dynamics induced by Kaniadakis entropy, we analyze the deviations from standard inflation arising from $κ$-corrections. We compute the scalar and tensor spectral indices, the tensor-to-scalar ratio, and examine the observational constraints on the deformation parameter. Our results show that consistency with current observational data imposes stringent bounds on the deformation parameter $κ$. In the standard Kaniadakis formulation, viable slow-roll inflationary scenarios compatible with the Planck constraints on the scalar spectral index $n_s$ and the tensor-to-scalar ratio $r$ can be obtained, although the allowed values of $κ$ are strongly suppressed. For the dual Kaniadakis formulation, we find that the primordial power spectrum of scalar perturbations can remain consistent with observational data within certain parameter regions. We also verify the compatibility of the predicted scalar power spectrum with the latest Planck results and discuss the phenomenological implications of the $κ$-induced corrections. These findings suggest that Kaniadakis cosmology may leave potentially observable imprints on primordial perturbations, providing a possible connection between non-extensive thermodynamics and the physics of the early universe.",
+  "title_relatable": "Modified entropy cosmology tightly constrained by Planck inflation data",
+  "hook": "Replacing standard Boltzmann entropy with Kaniadakis statistics alters inflationary predictions, but Planck data forces the deformation parameter to be tiny.",
+  "summary": "Kaniadakis entropy generalizes standard thermodynamics via a single deformation parameter κ, and applying it to the early universe modifies the Friedmann equations and inflationary dynamics. Computing the scalar spectral index and tensor-to-scalar ratio for slow-roll inflation under both the standard and 'dual' Kaniadakis formulations, the authors find that agreement with Planck constraints requires κ to be strongly suppressed — meaning only small departures from conventional cosmology are allowed. The dual formulation offers somewhat more room in parameter space. The results confirm that non-extensive thermodynamic corrections can survive observational tests, but only barely.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1015,
+  "tokens_out": 226,
+  "cost_usd": 0.006435,
+  "ingested_at": "2026-05-19T02:53:40.472593+00:00"
+}

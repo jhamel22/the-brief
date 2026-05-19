@@ -1,0 +1,23 @@
+{
+  "id": "2605.18721",
+  "arxiv_url": "https://arxiv.org/abs/2605.18721",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "General Preference Reinforcement Learning",
+  "authors": "Muhammad Umer, Muhammad Ahmed Mohsin, Ahsan Bilal, Arslan Chaudhry, Andreas Haupt, Sanmi Koyejo, Emily Fox, John M. Cioffi",
+  "abstract": "Post-training has split large language model (LLM) alignment into two largely disconnected tracks. Online reinforcement learning (RL) with verifiable rewards drives emergent reasoning on math and code but depends on a programmatic verifier that cannot reach open-ended tasks, while preference optimization handles open-ended generation yet forgoes the continuous exploration that powers online RL. Closing this gap requires a verifier for open-ended quality, but a scalar reward model is the wrong shape for the job. Quality is multi-dimensional, and any scalar score is an incomplete proxy that lets online RL collapse onto whichever axis the score is most sensitive to. We turn instead to the General Preference Model (GPM), which embeds responses into $k$ skew-symmetric subspaces and represents preference as a structured, intransitivity-aware comparison. Building on this, we propose General Preference Reinforcement Learning (GPRL), which carries the $k$-way structure through to the policy update. GPRL computes per-dimension group-relative advantages, normalizes each on its own scale so no axis can dominate, and aggregates them with context-dependent eigenvalues. The same structure powers a closed-loop drift monitor that detects single-axis exploitation and corrects it on the fly by reweighting dimensions and tightening the trust region. Starting from $\\texttt{Llama-3-8B-Instruct}$, GPRL reaches a length-controlled win rate of $56.51\\%$ on AlpacaEval~2.0 while also outperforming SimPO and SPPO on Arena-Hard, MT-Bench, and WildBench by resisting reward hacking across extended training runs.",
+  "title_relatable": "Beyond scalar rewards: multi-dimensional preference learning for language models",
+  "hook": "A new reinforcement learning method uses multi-dimensional preferences instead of scalar rewards to prevent reward hacking and improve alignment on open-ended tasks, reaching 56.51% win rate on AlpacaEval 2.0.",
+  "summary": "Current LLM alignment splits between online RL (which requires programmable rewards for math/code) and preference optimization (which handles open-ended tasks but lacks continuous exploration). This work replaces scalar reward models with a General Preference Model that represents quality across k independent dimensions using skew-symmetric subspaces. General Preference Reinforcement Learning (GPRL) computes per-dimension advantages with independent scaling, preventing any single axis from dominating the policy update. A built-in drift monitor detects and corrects single-axis exploitation during training. Starting from Llama-3-8B-Instruct, GPRL achieves 56.51% length-controlled win rate on AlpacaEval 2.0 and outperforms SimPO and SPPO on Arena-Hard, MT-Bench, and WildBench over extended training runs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1089,
+  "tokens_out": 291,
+  "cost_usd": 0.0020352,
+  "ingested_at": "2026-05-19T03:08:26.289083+00:00"
+}

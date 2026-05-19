@@ -1,0 +1,23 @@
+{
+  "id": "2605.18182",
+  "arxiv_url": "https://arxiv.org/abs/2605.18182",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Gravitational lensing time delay beyond the Shapiro/geometry split",
+  "authors": "Luca Teodori, Kfir Blum, Zhaoyu Bai",
+  "abstract": "Time delays are a key observable in strong gravitational lensing systems. Their theoretical expression is usually written as a sum of a geometrical delay and a Shapiro delay, with cosmology entering through angular diameter distances and a redshift prefactor. In this work we derive this structure from the exact null geodesics of the Schwarzschild-de Sitter metric. The standard formula is recovered as the leading term in a small-angle expansion, and we identify the first correction to the usual geometrical-plus-Shapiro split. Such correction does not introduce any new cosmological dependence: it corresponds instead to a higher-order correction intrinsic to the Schwarzschild part of the metric. As a consequence, up to this order, the cosmological constant enters only through the unlensed angular diameter distances and the unlensed lens-redshift prefactor.",
+  "title_relatable": "Gravitational lensing time delays: where the standard formula breaks down",
+  "hook": "A careful derivation from exact geodesics shows the familiar geometry-plus-Shapiro split holds to higher order than assumed, with cosmological corrections entering only through standard distance factors.",
+  "summary": "The textbook formula for gravitational lensing time delays splits the signal into a geometric path-length term and a Shapiro (gravitational potential) term, with cosmology folded in via angular diameter distances. Starting from exact null geodesics in the Schwarzschild-de Sitter metric, this work derives the first correction to that split and finds it carries no new cosmological dependence — it is purely a higher-order Schwarzschild contribution. The cosmological constant therefore enters time delays only through the standard unlensed distances and redshift prefactor, tightening the theoretical footing for using lensing time delays as a cosmological probe.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 883,
+  "tokens_out": 229,
+  "cost_usd": 0.006084,
+  "ingested_at": "2026-05-19T02:53:22.635737+00:00"
+}

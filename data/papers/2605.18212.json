@@ -1,0 +1,23 @@
+{
+  "id": "2605.18212",
+  "arxiv_url": "https://arxiv.org/abs/2605.18212",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-ex"
+  ],
+  "title_original": "Short-Range Tests of the Gravitational Inverse-Square Law",
+  "authors": "Jiro Murata, Takuhiro Fujiie, Sae Suzuki",
+  "abstract": "Experimental constraints on the gravitational inverse-square law at short range are presented, employing a consistent formalism across a wide range of length scales. We provide comprehensive updates from the past decade, building upon our previous review. This work facilitates the direct comparison of experimental results with theoretical models that extend general relativity. Furthermore, a comparison between various model parametrizations, including extra-dimensional models, is introduced. Finally, results from tabletop experiments are compared with those from high-energy collider experiments for both Yukawa and power-law potentials.",
+  "title_relatable": "A decade of experiments hunting for cracks in gravity's short-range law",
+  "hook": "This review compiles ten years of tabletop and collider experiments testing whether gravity truly follows an inverse-square law at millimeter scales and below.",
+  "summary": "Testing whether gravity weakens as 1/r² at short distances is one of the cleanest ways to search for extra dimensions or new forces. Pulling together results from the past decade, this review applies a consistent framework to compare Yukawa and power-law deviations across length scales from micrometers to collider energies. A key contribution is placing tabletop torsion-balance experiments and high-energy collider searches on the same parametric footing, making it straightforward to see where each approach is competitive. No new violations are reported, but the unified comparison sharpens where future experiments should look.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 814,
+  "tokens_out": 212,
+  "cost_usd": 0.005622,
+  "ingested_at": "2026-05-19T02:52:59.180508+00:00"
+}

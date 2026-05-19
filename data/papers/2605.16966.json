@@ -1,0 +1,22 @@
+{
+  "id": "2605.16966",
+  "arxiv_url": "https://arxiv.org/abs/2605.16966",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Harnessing AI for Inverse Partial Differential Equation Problems: Past, Present, and Prospects",
+  "authors": "Zhentao Tan, Yuze Hao, Boyi Zou, Mingsheng Long, Yi Yang, Gang Bao",
+  "abstract": "Solving inverse partial differential equation (PDE) problems is a fundamental topic in scientific research due to its broad significance across a wide range of real-world applications. Inverse PDE problems arise across medical imaging, geophysics, materials science, and aerodynamics, where the goal is to infer hidden causes, design structures, or control physical states. In this paper, we provide a comprehensive review of recent advances in solving inverse PDE problems using artificial intelligence (AI). We first introduce the basic formulation, key challenges, and traditional numerical foundations of inverse PDE problems, and then organize it into three major categories: inverse problems, inverse design, and control problems. For each category, we further present a methodological paradigms, and review representative state-of-the-art approaches from recent years. We then summarize representative applications across scientific and industrial domains, including mechanical systems, aerodynamic problems, thermal systems, full-waveform inversion, system identification, and medical imaging. Finally, we discuss open challenges and future prospects, such as physics-informed architectures, limited real-world data, uncertainty quantification, and inverse foundation models. This survey aims to provide the first unified and systematic perspective on AI for inverse PDE problems, demonstrating how modern learning-based methods are reshaping inverse problems, inverse design, and control problems in PDE-governed systems.",
+  "title_relatable": "How AI is solving hidden-cause problems in physics and engineering",
+  "hook": "A comprehensive survey of machine learning methods for inverse PDE problems—inferring hidden causes, designing structures, and controlling physical systems across medical imaging, aerodynamics, and materials science.",
+  "summary": "Inverse PDE problems ask: given observations, what hidden parameters or designs produced them? This survey organizes recent AI approaches into three categories: inverse problems (inferring causes from data), inverse design (optimizing structure for desired outcomes), and control (managing physical states). Applications span medical imaging, geophysics, aerodynamics, and thermal systems. The review identifies emerging challenges including physics-informed architectures, handling sparse real-world data, quantifying uncertainty, and developing foundation models for inverse problems.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 991,
+  "tokens_out": 193,
+  "cost_usd": 0.0015648,
+  "ingested_at": "2026-05-19T03:15:20.087648+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.18740",
+  "arxiv_url": "https://arxiv.org/abs/2605.18740",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation",
+  "authors": "Qianhao Yuan, Jie Lou, Xing Yu, Hongyu Lin, Le Sun, Xianpei Han, Yaojie Lu",
+  "abstract": "Multimodal Large Language Models (MLLMs) still struggle with fine-grained visual understanding, where answers often depend on small but decisive evidence in the full image. We observe a regional-to-global perception gap: the same MLLM answers fine-grained questions more accurately when conditioned on evidence-centered crops than on the corresponding full images, suggesting that many failures stem from difficulty to focus on relevant evidence rather than insufficient local recognition ability. Motivated by this observation, we propose Vision-OPD (Vision On-Policy Distillation), a regional-to-global self-distillation framework that transfers the model's own privileged regional perception to its full-image policy. Vision-OPD instantiates two conditional policies from the same MLLM: a crop-conditioned teacher and a full-image-conditioned student. The student generates on-policy rollouts, and Vision-OPD minimizes token-level divergence between the teacher and student next-token distributions along these rollouts. This enables the model to internalize the benefit of visual zooming without external teacher models, ground-truth labels, reward verifiers, or inference-time tool use. Experiments on multiple fine-grained visual understanding benchmarks show that Vision-OPD models achieve competitive or superior performance against much larger open-source, closed-source, and \"Thinking-with-Images\" agentic models.",
+  "title_relatable": "Teaching multimodal AI to spot fine details by learning from itself",
+  "hook": "A self-training method that teaches multimodal models to focus on relevant image details by distilling knowledge from cropped regions to full-image understanding, matching larger models without external supervision.",
+  "summary": "Multimodal language models often miss fine-grained visual details in full images, even though they answer fine-grained questions accurately when shown cropped evidence. Vision-OPD fixes this by creating a teacher-student setup within the same model: a crop-conditioned teacher sees zoomed-in evidence, while a full-image student learns to mimic its reasoning on complete images. The method minimizes divergence in token-level predictions without requiring external labels, reward models, or runtime tools. On fine-grained benchmarks, Vision-OPD models match or exceed much larger open-source and closed-source models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1020,
+  "tokens_out": 225,
+  "cost_usd": 0.001716,
+  "ingested_at": "2026-05-19T03:22:36.746154+00:00"
+}

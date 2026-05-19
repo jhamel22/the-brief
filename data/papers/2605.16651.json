@@ -1,0 +1,23 @@
+{
+  "id": "2605.16651",
+  "arxiv_url": "https://arxiv.org/abs/2605.16651",
+  "announced_date": "2026-05-15",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Right Predictions, Misleading Explanations: On the Vulnerability of Vision-Language Model Explanations",
+  "authors": "Narges Babadi, Hadis Karimipour",
+  "abstract": "Explanation mechanisms are increasingly used to support transparency and trust in vision-language models (VLMs), particularly in settings where model decisions require human oversight. However, the robustness of these explanations remains insufficiently understood. In this work, we investigate whether explanation heatmaps in VLMs, particularly CLIP-based models, faithfully reflect model reasoning under adversarial conditions. We show that explanation maps can be systematically manipulated while preserving the model's original prediction, revealing a disconnect between predictive behavior and explanation faithfulness. To study this vulnerability, we introduce X-Shift, a novel grey-box attack that perturbs patch-level visual representations to redirect explanation heatmaps toward semantically irrelevant regions without altering the predicted output. Unlike conventional adversarial attacks that aim to induce misclassification, X-Shift specifically targets the integrity of the explanation process itself. The attack operates without modifying model parameters and generalizes across multiple CLIP architectures and explanation methods. We evaluate the proposed approach on ImageNet-1k, MS-COCO, and Flickr30K, demonstrating consistent degradation in explanation alignment under imperceptible perturbations while maintaining prediction stability. Furthermore, standard prediction-oriented adversarial attacks fail to reproduce the same explanation-shifting behavior even under substantially larger perturbation budgets. Our findings highlight a fundamental limitation of current explanation mechanisms in VLMs and raise concerns about their use as reliable indicators of model trustworthiness in high-impact applications.",
+  "title_relatable": "Vision models can hide what they're actually looking at",
+  "hook": "A new attack method reveals that vision-language models like CLIP can maintain correct predictions while their explanation heatmaps are systematically redirected to irrelevant image regions, calling into question whether these explanations reflect true model reasoning.",
+  "summary": "This work exposes a fundamental vulnerability in explanation mechanisms used to interpret vision-language models. The authors introduce X-Shift, an attack that perturbs patch-level visual features to manipulate explanation heatmaps toward semantically irrelevant regions while keeping predictions intact—meaning a model can get the right answer for the wrong reasons. Tested on ImageNet-1k, MS-COCO, and Flickr30K across multiple CLIP architectures, the attack consistently degrades explanation alignment under imperceptible perturbations. Conventional adversarial attacks cannot reproduce this effect even with much larger perturbation budgets, suggesting explanation faithfulness is a distinct vulnerability from prediction robustness. The findings challenge the reliability of explanation heatmaps as trustworthiness indicators in high-stakes applications.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1011,
+  "tokens_out": 269,
+  "cost_usd": 0.0018848000000000003,
+  "ingested_at": "2026-05-19T03:25:23.775596+00:00"
+}

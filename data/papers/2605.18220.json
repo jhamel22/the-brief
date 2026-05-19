@@ -1,0 +1,22 @@
+{
+  "id": "2605.18220",
+  "arxiv_url": "https://arxiv.org/abs/2605.18220",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Properties of the quantum vacuum in non-abelian gauge theories",
+  "authors": "Fernando Ezquerro",
+  "abstract": "In this thesis we analyze the quantum vacuum properties of non-abelian gauge theories. We calculate the energy of the quantum vacuum by non-perturbative methods using Monte Carlo simulations, focusing on the contribution of boundary effects to the Casimir energy. In particular, we analyze the dependence of the vacuum energy on the types of boundary conditions. The main goal is to clarify the behaviour of this energy for large separation L between the boundaries of the domain where the fields are confined. Usually this Casimir energy decreases polynomially with L for massless theories and exponentially for massive theories. Since gauge theories interpolate between these two regimes, being massless in the ultraviolet regime and massive in the infrared regime, one expects a very special change of behaviour from the perturbative to the non-perturbative approaches. In pure gauge theories there is evidence of the existence of glueball states in the low energy spectrum with a non-vanishing mass, the second goal will be testing if the mass of the lightest glueball is responsible for the exponential decay of the Casimir energy of gauge theories.",
+  "title_relatable": "How glueball mass shapes the vacuum energy between boundaries",
+  "hook": "Monte Carlo simulations test whether the lightest glueball mass drives the exponential falloff of Casimir energy in non-abelian gauge theories.",
+  "summary": "Non-abelian gauge theories occupy a peculiar middle ground: massless at high energies, massive at low energies, so their Casimir energy should shift from polynomial to exponential decay with boundary separation. Using lattice Monte Carlo methods, this thesis maps that crossover by measuring how vacuum energy depends on boundary conditions and separation distance. The central test is whether the lightest glueball mass sets the decay rate in the infrared regime. The results help connect the non-perturbative mass gap in pure gauge theory to a directly measurable geometric quantity.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 915,
+  "tokens_out": 197,
+  "cost_usd": 0.0057,
+  "ingested_at": "2026-05-19T02:57:17.698836+00:00"
+}

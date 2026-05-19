@@ -1,0 +1,23 @@
+{
+  "id": "2605.18163",
+  "arxiv_url": "https://arxiv.org/abs/2605.18163",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "TRACE: Trajectory Correction from Cross-layer Evidence for Hallucination Reduction",
+  "authors": "Tej Sanibh Ranade",
+  "abstract": "Hallucination correction is not a one-direction problem. We show that intermediate layers are neither uniformly more truthful than final layers nor uniformly less trustworthy. Yet hallucination reduction is usually instantiated through one fixed intervention form: contrast one layer against another, steer along a truthfulness direction, or defer to external evidence. This framing is structurally incomplete. Cross-layer factual evidence does not evolve uniformly: in some failures truthful support is present internally and later suppressed, whereas in others candidate competition remains genuinely multi-directional across depth, so no single signed scalar family is generally sufficient. We introduce Trajectory Correction from Cross-layer Evidence for Hallucination Reduction (TRACE), a deterministic, training-free algorithm which corrects hallucinations at inference time by deriving both the corrective layer and the appropriate correction operator from each input's cross-layer candidate trajectory inside the LLM's own forward pass. Under one frozen hyperparameter setting, TRACE selects among scalar reversal, earlier-state recovery, and candidate-space correction using only model-internal evidence. Evaluated as a single universal algorithm across 15 models, 8 model families, and 3 factuality benchmarks, TRACE improves every evaluation cell, yielding mean gains of +12.26 MC1 points and +8.65 MC2-style points with no regressions, with gains reaching +47.20 MC1 and +43.38 MC2-style points. The method uses no labels, retrieval, pretraining, finetuning, or per-model calibration.",
+  "title_relatable": "Fixing AI hallucinations by reading hidden patterns across network layers",
+  "hook": "A training-free method that corrects false outputs by analyzing internal signals across all layers of a language model, gaining up to 47 points on factuality benchmarks.",
+  "summary": "Language models hallucinate because intermediate layers contain conflicting signals about truth—sometimes accurate information gets suppressed, sometimes multiple candidate answers compete across the network depth. TRACE addresses this by examining the full trajectory of information across layers at inference time, automatically selecting which layer to intervene on and what type of correction to apply (reversal, recovery, or replacement). Tested across 15 models and 3 factuality benchmarks with no training or external data, TRACE improves every configuration by an average of 12 points, reaching 47-point gains on some benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1033,
+  "tokens_out": 210,
+  "cost_usd": 0.0016664000000000002,
+  "ingested_at": "2026-05-19T03:17:13.558317+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.17974",
+  "arxiv_url": "https://arxiv.org/abs/2605.17974",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Measuring the complete set of spatial Schmidt modes of entangled two-photon fields",
+  "authors": "Radhika Prasad, Nilakshi Senapati, Abhinandan Bhattacharjee, Suman Karan, Anand K. Jha",
+  "abstract": "Spontaneous parametric down-conversion (SPDC) is the most widely-used source of high-dimensional entangled two-photon states, and the entanglement in the spatial degree of freedom is considered best suited for harnessing high-dimensional advantages. Although the Schmidt basis provides a natural choice for state characterisation of entangled two-photon states in any degree of freedom, there is currently no technique that can measure the Schmidt basis of an entangled two-photon field. The existing techniques can only reconstruct the Schmidt spectrum when the Schmidt basis is known a priori. In contrast, we present a technique that measures the complete set of spatial Schmidt modes without any prior knowledge. Using this technique, we report measurement of states with over 3000 Schmidt modes -- highest reported yet -- with up to 98$\\%$ fidelity. We expect our work to significantly advance the harnessing of high-dimensional advantages in SPDC-based systems.",
+  "title_relatable": "First technique to measure all spatial modes of entangled photon pairs",
+  "hook": "A new method extracts the full Schmidt mode basis of entangled two-photon fields without prior assumptions, resolving a long-standing measurement gap in high-dimensional quantum optics.",
+  "summary": "Entangled photon pairs from spontaneous parametric down-conversion carry information across thousands of spatial modes, but until now experimenters could only measure how energy is distributed across those modes if they already knew what the modes looked like. This technique determines the complete spatial Schmidt basis from scratch, with no prior knowledge required. Applied to real SPDC sources, it successfully characterizes states containing over 3000 Schmidt modes at up to 98% fidelity — the largest number reported. The advance removes a key bottleneck for using spatial entanglement in high-dimensional quantum communication and computing protocols.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 930,
+  "tokens_out": 214,
+  "cost_usd": 0.006,
+  "ingested_at": "2026-05-19T03:01:49.699619+00:00"
+}

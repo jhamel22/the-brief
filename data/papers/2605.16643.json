@@ -1,0 +1,23 @@
+{
+  "id": "2605.16643",
+  "arxiv_url": "https://arxiv.org/abs/2605.16643",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "The EDGES Analysis Pipeline: Description and Validation",
+  "authors": "Steven G. Murray, Nivedita Mahesh, Akshatha K. Vydula, Peter Sims, Judd Bowman, Raul A. Monsalve, Alan E. E. Rogers, Rigel C. Capallo, John P. Barrett, Colin J. Lonsdale",
+  "abstract": "The sky-averaged redshifted 21-cm signal from Cosmic Dawn is expected to provide a unique view of the first compact objects. However, its measurement remains daunting. Difficulties are driven by the large dynamic contrast between the intervening foregrounds and the signal-of-interest, which places extremely high demands on instrumental calibration and data quality measures. The ongoing debate within the field concerning the evidence of a potential first detection by the EDGES experiment highlights the need for a more robust set of analysis methods and tools that are reliable and accessible. In this paper, we detail for the first time the precise calibration and analysis methodology adopted in previous EDGES data releases. These methods are presented in the context of a new open-source end-to-end analysis and simulation package for 21-cm global signal experiments that both formalizes these methods and provides general tools for the broader community. Finally, we describe the raw data used in previous EDGES papers and release these data publicly for extended scrutiny.",
+  "title_relatable": "EDGES opens its data and methods to outside scrutiny",
+  "hook": "The EDGES team has published its full analysis pipeline and raw data publicly, letting the broader community independently test the contested claim of a first Cosmic Dawn detection.",
+  "summary": "Six years after the disputed EDGES detection of a 21-cm absorption feature from Cosmic Dawn, the team has released both the raw data and a detailed, open-source description of its calibration and analysis methods. The pipeline handles the core challenge of extracting a millikelvin signal buried under foregrounds thousands of times brighter. By formalizing these methods in a publicly available software package, the collaboration enables independent groups to reprocess the data from scratch. This transparency is a direct response to ongoing scientific debate about whether the original detection was real or an instrumental artifact.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 955,
+  "tokens_out": 197,
+  "cost_usd": 0.00582,
+  "ingested_at": "2026-05-19T03:06:17.737686+00:00"
+}

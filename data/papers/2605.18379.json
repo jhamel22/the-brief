@@ -1,0 +1,22 @@
+{
+  "id": "2605.18379",
+  "arxiv_url": "https://arxiv.org/abs/2605.18379",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Beyond Square Roots: Explicit Memory-Efficient Factorization for Multi-Epoch Private Learning",
+  "authors": "Nikita P. Kalinin, Aki Rehn, Joel Daniel Andersson, Antti Honkela, Christoph H. Lampert",
+  "abstract": "Correlated-noise mechanisms are among the most promising approaches for improving the utility of differentially private model training, but rigorous guarantees require explicit, analyzable factorizations, and practical deployment requires memory efficiency. Recent works have developed banded inverse factorizations, which address both requirements by exploiting a banded structure in the correlation matrix. The bandwidth controls the size of the noise buffer used to correlate noise across iterations, and thus governs the tradeoff between utility and memory cost. Existing factorizations highlight this tradeoff: DP-$λ$CGD achieves high memory efficiency by using only a one-step noise buffer, but this limits its utility gains, while the banded inverse square root (BISR) factorization exploits larger correlation windows and is asymptotically optimal for large bandwidths but performs poorly at low bandwidths. We propose $γ$-BIFR, a unified generalization of both factorizations. In the low-memory, low-bandwidth regime, $γ$-BIFR significantly improves RMSE, amplified RMSE, and private training performance, while yielding tighter theoretical guarantees for multi-participation error in multi-epoch training.",
+  "title_relatable": "Better noise factorization for private machine learning",
+  "hook": "A new factorization method for differentially private training improves utility across all memory budgets, particularly when noise buffers are small.",
+  "summary": "Differentially private training uses correlated noise to improve model utility while preserving privacy guarantees. Existing methods like BISR work well with large noise buffers but degrade when memory is constrained. γ-BIFR generalizes prior approaches, achieving significantly better RMSE and error bounds across all bandwidth regimes—from memory-limited to asymptotically optimal settings. The method is analyzed theoretically for multi-epoch training and provides tighter guarantees for multi-participation scenarios.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 974,
+  "tokens_out": 182,
+  "cost_usd": 0.0015072,
+  "ingested_at": "2026-05-19T03:09:11.331666+00:00"
+}

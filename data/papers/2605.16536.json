@@ -1,0 +1,23 @@
+{
+  "id": "2605.16536",
+  "arxiv_url": "https://arxiv.org/abs/2605.16536",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Quantum-statistical constraints on Kerr-anti-de Sitter thermodynamics",
+  "authors": "T. L. Campos, M. C. Baldiotti, C. Molina",
+  "abstract": "We develop a general framework for interpreting the thermodynamic descriptions of Kerr-anti de Sitter black holes (KadS). These descriptions satisfy a first law and respect the homogeneity required by scaling properties. Additionally, they are subject to restrictions from semiclassical arguments. We show that temperature and angular velocity are kinematic quantities tied to a reference frame, identified through the Euclidean formalism. However, the pressure-volume contribution is a dynamical term that requires a gauge fixing of the potential mass and volume. It is established that the observer associated with a given thermodynamic description is directly encoded in the Killing vector that generates the horizon. We demonstrate that the quantum statistical relation restricts the infinite family of KadS descriptions to a subclass that reduces to Schwarzschild-adS and Kerr thermodynamics in the limits of vanishing cosmological constant and angular momentum. Furthermore, we establish the uniqueness of both the description associated with a frame co-rotating with infinity, and the description whose thermodynamic and geometric volumes coincide. Thus, our framework provides a coherent interpretation of the variety of KadS thermodynamics, reconciling geometric and quantum-statistical considerations.",
+  "title_relatable": "Which rotating black hole thermodynamics is physically correct?",
+  "hook": "A quantum-statistical constraint trims the infinite family of valid Kerr-anti-de Sitter thermodynamic descriptions down to a physically meaningful subclass with unique, well-defined limits.",
+  "summary": "Kerr-anti-de Sitter black holes admit many apparently valid thermodynamic descriptions, each satisfying the first law and correct scaling — an embarrassment of choices with no obvious selection principle. By applying the quantum statistical relation from the Euclidean path-integral formalism, the authors show that most descriptions are eliminated, leaving a subclass that smoothly recovers Schwarzschild-AdS and ordinary Kerr thermodynamics in the appropriate limits. They further prove that two special descriptions are unique: the one tied to a frame co-rotating with infinity, and the one where thermodynamic and geometric volumes agree. The work clarifies the observer-dependence of black hole thermodynamic quantities and gives a principled way to choose among competing descriptions.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 956,
+  "tokens_out": 248,
+  "cost_usd": 0.006588,
+  "ingested_at": "2026-05-19T02:55:51.970075+00:00"
+}

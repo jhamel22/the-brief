@@ -1,0 +1,23 @@
+{
+  "id": "2605.18135",
+  "arxiv_url": "https://arxiv.org/abs/2605.18135",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.IM"
+  ],
+  "title_original": "The impact of seasonality over the sensitivity of Einstein Telescope and the SNR of CBC signals at the Sardinia candidate site",
+  "authors": "Matteo Di Giovanni, Davide Rozza, Giovanni Diaferia, Andrea Contu, Rosario De Rosa, Carlo Giunchi, Luca Naticchioni, Marco Olivieri, Annalisa Allocca, Enrico Calloni, Giovanni Luca Cardello, Luciano Errico, Giovanni Losurdo, Irene Molinari, Lucia Trozzo, Domenico D'Urso",
+  "abstract": "This work investigates the impact of seasonal variations in seismic noise on the low-frequency performance of the Einstein Telescope (ET) at the Sardinia candidate site, focusing on implications for compact binary coalescence observations. Using seismic data collected between 2022 and 2025 in deep boreholes, we characterize monthly noise variations and identify representative best and worst case scenarios, corresponding to July and December. The measured seismic spectra are used to estimate the Newtonian noise contribution in the 2-10 Hz band and to derive modified ET sensitivity curves. These are implemented in a simulation framework to evaluate their effect on the signal-to-noise ratio (SNR) of binary neutron star and intermediate mass black hole signals, assuming the triangular ET configuration. We find that the low seismic noise of the Sardinia site results in only minor seasonal variations in detector sensitivity. The corresponding impact on SNR is limited to a few percent, even without including Newtonian noise mitigation. These results indicate that seasonal environmental fluctuation have a minor effect on the early inspired detectability of compact binaries, confirming the suitability of the Sardinia site for achieving ET low-frequency sensitivity goals.",
+  "title_relatable": "Sardinia's seasonal seismic calm bodes well for Einstein Telescope",
+  "hook": "Year-round seismic measurements at the Sardinia candidate site show seasonal noise swings affect Einstein Telescope signal detection by only a few percent, even without active noise cancellation.",
+  "summary": "Three years of borehole seismic data from Sardinia reveal that winter and summer represent the worst and best noise conditions, respectively, but the gap between them is narrow. Converting those measured spectra into Newtonian noise estimates and revised sensitivity curves, the authors find that binary neutron star and intermediate-mass black hole signal-to-noise ratios shift by just a few percent between seasons. This stability holds even before applying noise-subtraction techniques, which would shrink the effect further. The results support Sardinia as a viable host for ET's demanding low-frequency science goals.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1055,
+  "tokens_out": 214,
+  "cost_usd": 0.006375,
+  "ingested_at": "2026-05-19T02:53:28.206114+00:00"
+}

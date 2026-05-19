@@ -1,0 +1,23 @@
+{
+  "id": "2605.17028",
+  "arxiv_url": "https://arxiv.org/abs/2605.17028",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "PARALLAX: Separating Genuine Hallucination Detection from Benchmark Construction Artifacts",
+  "authors": "Khizar Hussain, Murat Kantarcioglu",
+  "abstract": "Large language models (LLMs) hallucinate with confidence: their outputs can be fluent, authoritative, and simply wrong. In medical, legal, and scientific applications this failure causes direct harm, and detecting it from internal model states offers a path to safer deployment. A growing body of work reports that this problem is increasingly tractable, with recent methods achieving high detection performance on widely used benchmarks. We show, however, that much of this apparent progress does not survive scrutiny. Four of the six corpora embed the ground-truth answer directly in the input prompt. A naïve text-similarity baseline we call \\textsc{TxTemb} exploits this to achieve near-perfect detection scores without any access to model internals. To measure what genuine detection capability remains once these artifacts are controlled, we conduct a large-scale evaluation spanning twenty-two detection methods, twelve open-source models spanning six architectural families, and six corpora. We further introduce \\textbf{DRIFT}, a supervised probe over inter-layer hidden-state transitions, as a point of comparison for live-generation detection. Our findings suggest that the field's reported progress on hallucination detection is substantially explained by benchmark construction artifacts in widely used corpora, and that the majority of established baselines perform near chance under controlled conditions; the consistent exceptions are SAPLMA and DRIFT, both supervised probes on upper-layer hidden states.",
+  "title_relatable": "Most hallucination detection methods exploit benchmark shortcuts",
+  "hook": "New analysis reveals that four of six widely used hallucination detection benchmarks embed answers directly in prompts, allowing naive text-similarity to achieve near-perfect scores without accessing model internals.",
+  "summary": "Recent work claims rapid progress in detecting when large language models hallucinate, but this paper shows much of that progress is illusory. The authors found that standard benchmarks contain construction artifacts—ground-truth answers embedded in input prompts—that a simple text-similarity baseline exploits to achieve near-perfect detection without any model knowledge. After controlling for these artifacts across 22 detection methods, 12 models, and 6 corpora, most established baselines collapse to chance performance. Only supervised probes on upper-layer hidden states (SAPLMA and DRIFT, a new method introduced here) show consistent genuine detection ability. This work suggests the field has overestimated progress and calls for more rigorous benchmark design.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 985,
+  "tokens_out": 242,
+  "cost_usd": 0.001756,
+  "ingested_at": "2026-05-19T03:19:22.040051+00:00"
+}

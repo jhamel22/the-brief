@@ -1,0 +1,23 @@
+{
+  "id": "2605.16746",
+  "arxiv_url": "https://arxiv.org/abs/2605.16746",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "State Contamination in Memory-Augmented LLM Agents",
+  "authors": "Yian Wang, Agam Goyal, Yuen Chen, Hari Sundaram",
+  "abstract": "LLM agents increasingly rely on persistent state, including transcripts, summaries, retrieved context, and memory buffers, to support long-horizon interaction. This makes safety depend not only on individual model outputs, but also on what an agent stores and later reuses. We study a failure mode we call memory laundering: toxic or adversarial context can be compressed into memory summaries that no longer appear toxic under standard detectors, while still preserving hostile framing or conflict structure that influences future generations. Using paired counterfactual multi-agent rollouts, we show that toxic-origin memory summaries can remain below common toxicity thresholds while nevertheless increasing downstream toxicity relative to matched neutral baselines. To measure this hidden influence, we introduce the sub-threshold propagation gap (SPG), which quantifies downstream behavioral differences conditioned on memory states that a deployed monitor would classify as safe. Our experiments show that toxicity propagates through distinct state channels: raw transcript reuse drives overt downstream toxicity, while compressed memory carries hidden sub-threshold influence. We further find that mitigation depends critically on intervention placement. Sanitizing toxic state before summarization substantially reduces the hidden propagation gap, whereas cleaning only the completed summary can leave laundered influence intact. These results suggest that safety in memory-augmented agents should be treated as a state-control problem over evolving context, with sanitization applied before unsafe information is compressed into persistent memory.",
+  "title_relatable": "How toxic content hides in AI agent memory",
+  "hook": "Adversarial inputs can be compressed into memory summaries that evade toxicity detectors while still influencing future outputs—a failure mode that requires intervention before, not after, summarization.",
+  "summary": "Memory-augmented LLM agents store persistent context that shapes future behavior, but this introduces a safety vulnerability: toxic content can be summarized into seemingly benign memory that still propagates hostile framing downstream. The authors document this \"memory laundering\" effect using paired multi-agent rollouts and introduce the sub-threshold propagation gap (SPG) to measure hidden toxicity influence in outputs that would pass safety checks. Experiments show raw transcripts drive overt toxicity, while compressed memory carries covert influence, and crucially, sanitizing content before summarization substantially reduces propagation—whereas cleaning only the final summary leaves the laundered influence intact. The work reframes safety in memory-augmented agents as a state-control problem requiring upstream intervention.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 990,
+  "tokens_out": 246,
+  "cost_usd": 0.001776,
+  "ingested_at": "2026-05-19T03:11:34.891365+00:00"
+}

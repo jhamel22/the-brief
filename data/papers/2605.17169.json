@@ -1,0 +1,24 @@
+{
+  "id": "2605.17169",
+  "arxiv_url": "https://arxiv.org/abs/2605.17169",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.MA"
+  ],
+  "title_original": "Responsible Agentic AI Requires Explicit Provenance",
+  "authors": "Jinwei Hu, Xinmiao Huang, Qisong He, Youcheng Sun, Yi Dong, Xiaowei Huang",
+  "abstract": "Agentic AI is rapidly proliferating across diverse real-world domains such as software engineering, yet public trust has not kept pace. The central reason is that responsibility, despite being widely discussed, remains a subjective and unenforced concept, as no current agentic framework produces the quantifiable, traceable, and interventionable provenance needed to assign it when harm emerges from compositions no single party designed. We position that what is missing is not better benchmark-level evaluation but $\\textbf{explicit provenance}$ across the full agentic lifecycle, which is the only viable basis for making responsibility computable and actionable. We advance this agenda along four axes: establishing $\\textit{why}$ such provenance is a structural necessity by identifying responsibility gaps across sociotechnical dimensions, formalizing $\\textit{what}$ it must encode through a causal attribution function and responsibility tensor, discussing $\\textit{how}$ it can be made computable across four lifecycle layers with preliminary experiments showing that provenance is estimable and interveneable online before irreversible harm accumulates, and examining $\\textit{who}$ bears responsibility through a concrete agentic incident. Explicit provenance is not a discretionary refinement but the necessary condition for responsible agentic AI, and no stakeholder across its ecosystem can afford to treat it as optional.",
+  "title_relatable": "Making AI agents accountable through tracked decision histories",
+  "hook": "Agentic AI systems need explicit provenance—a traceable record of decisions and their sources—to make responsibility computable and actionable when harm occurs, not just discussable.",
+  "summary": "Current agentic AI frameworks lack quantifiable provenance to assign responsibility when complex multi-agent compositions cause harm. This work argues that explicit provenance across the full agentic lifecycle—from task planning through execution—is structurally necessary, not optional. The authors formalize responsibility through causal attribution functions and a responsibility tensor, demonstrate that provenance is computable and interventionable online across four lifecycle layers, and ground the framework in a concrete agentic incident. The contribution is primarily conceptual and architectural rather than a new algorithm; it identifies gaps in how responsibility is tracked and proposes a framework for making it enforceable.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 995,
+  "tokens_out": 219,
+  "cost_usd": 0.001672,
+  "ingested_at": "2026-05-19T03:15:29.212749+00:00"
+}

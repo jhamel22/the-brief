@@ -1,0 +1,22 @@
+{
+  "id": "2605.16507",
+  "arxiv_url": "https://arxiv.org/abs/2605.16507",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Krylov complexity from a simple quantum mechanical model for a radiating black hole",
+  "authors": "Eric L Graef, Jeff Murugan, Horatiu Nastase, Hendrik J. R. van Zyl",
+  "abstract": "We investigate Krylov complexity in a simple quantum mechanical model describing a black hole coupled to its radiation. The model is constructed as a simplified ``mini-BMN\" matrix system inspired by a recent proposal of Maldacena. Our aim is not to reproduce the full dynamics of the BMN matrix model, but rather to isolate a tractable setting in which the information-theoretic behaviour of a radiating black hole can be studied explicitly. We analyze both the early- and late-time behaviour of Krylov complexity and the associated Krylov entropy. At early times, perturbative and numerical analyses reveal the expected growth characteristic of chaotic quantum dynamics. At late times, however, the dynamics saturates to a plateau, consistent with equilibration between the black hole and its radiation and with general expectations from finite-entropy quantum systems. We argue that this plateau behaviour admits a semiclassical interpretation in terms of Euclidean instanton contributions in an effective path-integral. The toy model studied here offers a controlled framework in which these features can be investigated analytically and numerically.",
+  "title_relatable": "A toy black hole model tracks information through Hawking radiation",
+  "hook": "A stripped-down quantum model of a radiating black hole shows Krylov complexity rising chaotically at first, then plateauing—consistent with the black hole and its radiation reaching equilibrium.",
+  "summary": "Using a simplified matrix quantum mechanics inspired by Maldacena's recent proposal, the authors track Krylov complexity—a measure of how broadly a quantum state spreads through operator space—as a black hole radiates. Early-time growth matches expectations for chaotic systems; late-time behavior saturates to a plateau signaling equilibration between the black hole and its emitted radiation. The plateau is given a semiclassical explanation via Euclidean instanton contributions in an effective path integral. The model is deliberately minimal, trading full dynamical fidelity for analytic and numerical tractability.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 937,
+  "tokens_out": 216,
+  "cost_usd": 0.006051,
+  "ingested_at": "2026-05-19T02:59:03.930588+00:00"
+}

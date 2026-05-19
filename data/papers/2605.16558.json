@@ -1,0 +1,23 @@
+{
+  "id": "2605.16558",
+  "arxiv_url": "https://arxiv.org/abs/2605.16558",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th"
+  ],
+  "title_original": "Notes on obstructions in the hyperbolic Clifford algebra bundle structure",
+  "authors": "J. M. Hoff da Silva, E. Notte-Cuello",
+  "abstract": "Starting from a general analysis of obstruction classes, we develop the investigation of obstructions associated with the bundle structure of the hyperbolic Clifford algebra. By taking into account particularities arising from the Whitney sum, it is shown that, unlike classical tangent bundle cases, the hyperbolic frame bundle admits lifting without any topological obstruction. This leads to the possibility of always defining spinor structures in hyperbolic Clifford bundles.",
+  "title_relatable": "Spinor structures always exist in hyperbolic Clifford bundles",
+  "hook": "A topological obstruction that blocks spinor fields in ordinary geometry simply vanishes in hyperbolic Clifford bundles, meaning spinor structures can always be defined there.",
+  "summary": "Spinor fields on a manifold normally require the tangent bundle to satisfy a specific topological condition—the vanishing of a certain characteristic class—which can fail and block their existence. By carefully tracking how obstruction classes behave under the Whitney sum construction specific to hyperbolic Clifford algebras, this analysis shows the relevant frame bundle always admits a spin lifting. The implication is that hyperbolic Clifford bundles provide a geometry in which spinor structures are universally available, free of the topological restrictions that constrain ordinary spacetime formulations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 791,
+  "tokens_out": 205,
+  "cost_usd": 0.005448,
+  "ingested_at": "2026-05-19T02:58:53.264245+00:00"
+}

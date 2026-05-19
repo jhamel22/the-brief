@@ -1,0 +1,25 @@
+{
+  "id": "2605.18032",
+  "arxiv_url": "https://arxiv.org/abs/2605.18032",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.HC",
+    "cs.SE"
+  ],
+  "title_original": "PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows",
+  "authors": "Kazuki Kawamura, Satoshi Waki, Kei Tateno",
+  "abstract": "Multi-agent LLM workflows -- systems composed of multiple role-specific LLM calls -- often outperform single-prompt baselines, but they remain difficult to debug and refine. Failures can originate from subtle errors in intermediate outputs that propagate to downstream nodes, requiring developers to inspect long traces and infer which agent to modify. We present PROTEA, a unified interface for offline, test-driven improvement of multi-agent workflows. PROTEA executes a workflow, scores intermediate node outputs with configurable rubrics, and overlays per-node states and rationales on the workflow graph to localize likely bottlenecks. To support complex systems where final-answer references are the primary supervision, PROTEA performs backward node evaluation: it generates candidate node-level expectations from final-answer references and graph context, then compares them with observed node outputs. For selected nodes, PROTEA presents targeted prompt revisions as editable before/after comparisons, then automatically reruns and re-evaluates the workflow to show output changes and score trajectories within the same interface. In two production-adjacent workflows, PROTEA improved document-inspection accuracy from 64.3% to 83.9% and recommendation Hit@5 from 0.30 to 0.38. In a formative study with six experienced LLM developers, participants valued graph-level localization, per-node rationales, and editable before/after prompt revisions.",
+  "title_relatable": "Debugging multi-agent AI workflows through intelligent bottleneck detection",
+  "hook": "A debugging tool that pinpoints failures in multi-agent LLM systems by working backward from final outputs, improving document inspection accuracy from 64.3% to 83.9%.",
+  "summary": "Multi-agent workflows—systems with multiple specialized AI agents—often outperform single-prompt approaches but are hard to debug when intermediate outputs fail silently. PROTEA addresses this by providing a test-driven interface that executes workflows, scores outputs at each step using configurable rubrics, and visualizes bottlenecks on a workflow graph. The key innovation is backward node evaluation: it infers what each agent's output should have been based on the final answer and workflow structure, then flags discrepancies. Developers can edit prompts and immediately see how changes propagate through the system. Two production workflows saw accuracy gains of 19.6 percentage points and Hit@5 improvement from 0.30 to 0.38. A user study with six experienced developers confirmed the tool's value for localization and iterative refinement.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1007,
+  "tokens_out": 269,
+  "cost_usd": 0.0018816,
+  "ingested_at": "2026-05-19T03:17:32.248306+00:00"
+}

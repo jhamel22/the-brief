@@ -1,0 +1,23 @@
+{
+  "id": "2605.16168",
+  "arxiv_url": "https://arxiv.org/abs/2605.16168",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Supergravity flows, wormholes and their pseudo-Hermitian holographic duals",
+  "authors": "Jose M. Begines, Antón F. Faedo, Carlos Hoyos, Daniele Musso",
+  "abstract": "We find solutions to consistent truncations of supergravity where some real scalars are analytically extended to imaginary values, ensuring the metric remains real-valued. Among the solutions there are Lorentzian traversable wormholes connecting two asymptotically Anti-de Sitter spacetimes and flows that have a real metric also when uplifted to ten or eleven dimensions. We argue that the holographic duals are pseudo-Hermitian and $PT$-symmetric theories. Wormhole solutions also admit an interpretation as the low-energy theory of two stacks of branes and antibranes after tachyon condensation. The wormhole is then dual to an entangled state of two copies of the theory that lives on a stack of branes. We present some evidence by computing the mutual information between the theories at each boundary and by identifying the Goldstone bosons associated to the breaking of the two copies of Poincaré symmetry to their diagonal subgroup.",
+  "title_relatable": "Traversable wormholes from imaginary scalars and their strange holographic twins",
+  "hook": "Analytically continuing supergravity scalars to imaginary values yields real, traversable Lorentzian wormholes whose boundary duals are PT-symmetric, pseudo-Hermitian quantum field theories.",
+  "summary": "By allowing scalar fields in supergravity truncations to take imaginary values while keeping the spacetime metric real, the authors construct explicit traversable wormhole solutions connecting two Anti-de Sitter boundaries. Via holography, each wormhole maps to an entangled pair of PT-symmetric field theories — an unusual class where energy eigenvalues can still be real despite non-standard hermiticity. A brane-antibrane interpretation ties the construction to tachyon condensation, and the claim is supported by computing boundary mutual information and identifying Goldstone bosons from broken Poincaré symmetry.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 924,
+  "tokens_out": 230,
+  "cost_usd": 0.006222,
+  "ingested_at": "2026-05-19T02:59:47.623504+00:00"
+}

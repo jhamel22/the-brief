@@ -1,0 +1,23 @@
+{
+  "id": "2605.17048",
+  "arxiv_url": "https://arxiv.org/abs/2605.17048",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Nonlinear electrodynamics in magnetars: systematic effects on radius constraints and timing analysis",
+  "authors": "Gabriel A. Porto, Jonas P. Pereira, Eduardo Bittencourt, Elda Guzmán-Herrera",
+  "abstract": "Magnetars are among the most extreme laboratories in the universe, harboring surface magnetic fields reaching $10^{15}$~G. At these supercritical scales, Maxwell's linear electrodynamics is superseded by Nonlinear Electrodynamics (NLED). While vacuum birefringence has provided initial observational evidence for these effects, its broader impact on photon propagation remains largely unexplored. In this work, we demonstrate that NLED significantly alters photon propagation in the vicinity of magnetars, deviating light from standard null-geodesics. We estimate that neglecting these corrections leads to relative errors in inferred stellar radii by means of ray-tracing techniques of approximately $10\\%$. Furthermore, we find that NLED induces a systematic minimal travel-time delay of approximately $350~n$s, a value that already far exceeds the $100$~ns temporal resolution of missions like NICER. These results are critical for the interpretation of X-ray pulse profiles from current and future observatories, such as eXTP, which rely on high-precision light-bending and timing models to determine neutron-star masses and radii. Finally, our results underscore the role of magnetars as a vital window into the physics of superdense matter and supercritical fields, and we briefly highlight other astrophysical observables--such as glitches and antiglitches--that may be affected by NLED.",
+  "title_relatable": "Strong magnetic fields bend light in ways that bias neutron-star size measurements",
+  "hook": "Nonlinear electrodynamics near magnetars introduces ~10% errors in inferred stellar radii and timing delays exceeding NICER's resolution, meaning current X-ray analyses may be systematically wrong.",
+  "summary": "Near magnetars, magnetic fields exceed the quantum electrodynamic critical threshold, causing photons to deviate from standard null geodesics in ways that linear Maxwell theory ignores. Accounting for this nonlinear electrodynamics, radius estimates from ray-tracing techniques carry roughly 10% systematic error, and light-travel times are delayed by at least 350 ns — more than three times NICER's 100 ns timing resolution. These biases propagate directly into neutron-star mass and radius inferences from X-ray pulse profiles. Missions like eXTP, designed for even higher precision, will need to incorporate these corrections to avoid drawing false conclusions about the dense-matter equation of state.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1034,
+  "tokens_out": 247,
+  "cost_usd": 0.006807,
+  "ingested_at": "2026-05-19T02:54:46.105478+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.18031",
+  "arxiv_url": "https://arxiv.org/abs/2605.18031",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "title_original": "Quantum Sidecar Architectures for Hybrid AI Training and Inference: Stateful Protected Registers, Stateless Reset-and-Reprepare Circuits and Quantum Weight-State Outlook",
+  "authors": "Y. Mo, G. D. Su",
+  "abstract": "We propose a quantum sidecar architecture family for future hybrid AI training and inference. The central idea is not to store an entire Transformer in a small quantum memory, nor to claim one-shot collapse into a fully trained model or an optimal answer. Instead, we identify two physically distinct operating modes for quantum co-processors attached to classical large-model pipelines. The first is a stateful protected-register mode, in which a protected register stores a reusable quantum resource while an ancilla or temporary register performs QND-style readout. The second is a stateless reset-and-reprepare mode, in which each query prepares a task-conditioned quantum circuit, evolves over bounded training or inference control variables, measures candidate signals, resets the qubits, and repeats. We simulate the stateful mode using 2/4/6/8 protected-qubit density-matrix QND-style parity readout with one ancilla and a Qiskit cross-check. For the stateless mode, we include both an abstract candidate-update sampler and a circuit-level QAOA-style statevector sampler over structured candidate landscapes, followed by reset-overhead sensitivity analysis. The resulting framework positions quantum sidecars as bounded signal generators for optimizer-side sampling, adapter or expert selection, retrieval, routing, and reasoning-path proposal. As a speculative outlook, we introduce quantum weight-state sidecars: restricted quantum representations over model-control variables, not direct encodings of complete classical weight tensors.",
+  "title_relatable": "A practical blueprint for plugging quantum chips into AI pipelines",
+  "hook": "Rather than claiming quantum computers will replace classical AI, this framework defines two concrete operating modes for quantum co-processors that assist classical large-model training and inference.",
+  "summary": "The proposal splits quantum co-processor roles into two physically distinct modes: a stateful mode where protected qubits store reusable quantum resources and are read out non-destructively, and a stateless mode where qubits are prepared fresh per query, evolved, measured, and reset. Both modes are demonstrated through density-matrix simulations and QAOA-style circuit samplers in Qiskit. The intended role is narrow — quantum sidecars generate candidate signals for optimizer sampling, routing, or reasoning-path selection — rather than replacing classical weight storage. A speculative extension sketches quantum representations over model-control variables, not full weight tensors.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1042,
+  "tokens_out": 217,
+  "cost_usd": 0.006381,
+  "ingested_at": "2026-05-19T03:01:32.323507+00:00"
+}

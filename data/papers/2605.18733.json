@@ -1,0 +1,22 @@
+{
+  "id": "2605.18733",
+  "arxiv_url": "https://arxiv.org/abs/2605.18733",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Advancing Narrative Long Video Generation via Training-Free Identity-Aware Memory",
+  "authors": "Jinzhuo Liu, Jiangning Zhang, Wencan Jiang, Yabiao Wang, Dingkang Liang, Zhucun Xue, Ran Yi, Yong Liu",
+  "abstract": "Autoregressive video generation has improved rapidly in visual fidelity and interactivity, but it still suffers from long-term inconsistency and memory degradation. Most existing solutions either compress historical frames using predefined strategies or retrieve keyframes based on coarse implicit attention signals, both of which fail to handle evolving prompts with shifting entity references, leading to identity drift, character duplication, and attribute loss. To address this, we propose IAMFlow, a training-free identity-aware memory framework that explicitly models and tracks persistent entity identities, enabling consistent generation across prompt transitions. Specifically, an LLM extracts entities with visual attributes from each prompt and assigns unique global IDs for identity-aware memory, while a VLM asynchronously verifies and refines attributes from rendered frames, enabling explicit entity tracking in place of implicit similarity-based matching. To keep the proposed framework computationally practical, we design a systematic inference acceleration pipeline, including asynchronous visual verification, adaptive prompt transition, and model quantization, which achieves faster generation than existing baselines. Furthermore, we introduce NarraStream-Bench, a benchmark for narrative streaming video generation that features 324 multi-prompt scripts spanning six dimensions and a three-dimensional evaluation protocol that integrates both traditional metrics and multimodal large language model-based assessments. Extensive experiments show that IAMFlow, despite being training-free, achieves the best overall performance on NarraStream-Bench, outperforming the strongest baseline by 2.56 points, while achieving a 1.39$\\times$ speedup over the most efficient baseline in the 60-second multi-prompt setting.",
+  "title_relatable": "Keeping video characters consistent across long narratives",
+  "hook": "A training-free method that tracks character identities throughout long videos with shifting prompts, outperforming fine-tuned baselines by 2.56 points while running 1.39× faster.",
+  "summary": "Long autoregressive video generation struggles to maintain consistent character identities when prompts change, causing identity drift and attribute loss. IAMFlow addresses this by using an LLM to extract entities and assign persistent global IDs, paired with a VLM that verifies character attributes from rendered frames rather than relying on implicit similarity matching. An inference acceleration pipeline with asynchronous verification and quantization keeps computation practical. The authors also introduce NarraStream-Bench, a benchmark with 324 multi-prompt scripts and multimodal evaluation metrics. IAMFlow achieves the best overall performance without any training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1074,
+  "tokens_out": 221,
+  "cost_usd": 0.0017432,
+  "ingested_at": "2026-05-19T03:22:48.690822+00:00"
+}

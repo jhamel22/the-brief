@@ -1,0 +1,22 @@
+{
+  "id": "2605.16903",
+  "arxiv_url": "https://arxiv.org/abs/2605.16903",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "WOW-Seg: A Word-free Open World Segmentation Model",
+  "authors": "Danyang Li, Tianhao Wu, Bin Li, Zhenyuan Chen, Yang Zhang, Yuxuan Li, Ming-Ming Cheng, Xiang Li",
+  "abstract": "Open world image segmentation aims to achieve precise segmentation and semantic understanding of targets within images by addressing the infinitely open set of object categories encountered in the real world. However, traditional closed-set segmentation approaches struggle to adapt to complex open world scenarios, while foundation segmentation models such as SAM exhibit notable discrepancies between their strong segmentation capabilities and relatively weaker semantic understanding. To bridge these discrepancies, we propose WOW-Seg, a Word-free Open World Segmentation model for segmenting and recognizing objects from open-set categories. Specifically, WOW-Seg introduces a novel visual prompt module, Mask2Token, which transforms image masks into visual tokens and ensures their alignment with the VLLM feature space. Moreover, we introduce the Cascade Attention Mask to decouple information across different instances. This approach mitigates inter-instance interference, leading to a significant improvement in model performance. We further construct an open world region recognition test benchmark: the Region Recognition Dataset (RR-7K). With 7,662 classes, it represents the most extensive category-rich region recognition dataset to date. WOW-Seg attains strong results on the LVIS dataset, achieving a semantic similarity of 89.7 and a semantic IoU of 82.4. This performance surpasses the previous SOTA while using only one-eighth the parameter count. These results underscore the strong open world generalization capabilities of WOW-Seg. The code and related resources are available at https://github.com/AAwcAA/WOW-Seg-Meta.",
+  "title_relatable": "Segmenting and naming any object without a vocabulary",
+  "hook": "A segmentation model that recognizes objects from unlimited categories by converting masks into visual tokens, achieving 89.7% semantic similarity on open-set benchmarks with one-eighth the parameters of prior methods.",
+  "summary": "Open-world segmentation must handle infinitely many object categories, but foundation models like SAM segment well but struggle to identify what they've segmented. WOW-Seg bridges this gap using Mask2Token, which converts image masks into visual tokens aligned with vision-language model embeddings, paired with Cascade Attention Masks to separate instances cleanly. The authors also release RR-7K, a 7,662-category region recognition benchmark. On LVIS, WOW-Seg achieves 89.7% semantic similarity and 82.4% semantic IoU, outperforming prior work while using 8× fewer parameters. Code and model weights are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1058,
+  "tokens_out": 242,
+  "cost_usd": 0.0018144,
+  "ingested_at": "2026-05-19T03:25:03.301385+00:00"
+}

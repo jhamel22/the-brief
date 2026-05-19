@@ -1,0 +1,26 @@
+{
+  "id": "2605.17871",
+  "arxiv_url": "https://arxiv.org/abs/2605.17871",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex",
+    "hep-th",
+    "nucl-ex",
+    "nucl-th"
+  ],
+  "title_original": "MAGE-HEP: Monte Carlo Analysis and Graphical Environment for High-Energy Physics",
+  "authors": "Rishabh Gupta, Kangkan Goswami, Suraj Prasad, Raghunath Sahoo",
+  "abstract": "Monte Carlo event generators are central to high-energy physics analysis. However, workflows based on handwritten scripts can be difficult to reuse, modify, and reproduce when multiple Monte Carlo models, tune variations, run variations, and output formats are involved. We present MAGE-HEP, short for Monte Carlo Analysis and Graphical Environment for High-Energy Physics, a Graphical User Interface (GUI) driven workflow environment for reproducible Monte Carlo-based analyses in high-energy physics. MAGE-HEP organizes analysis workflows through a project-study-run hierarchy. The project stores the workspace, the study stores the reusable analysis context, and each run represents a controlled execution of that context. The MAGE-HEP Node API provides the analysis-building layer for defining generator configurations, observables, selections, output rules, and generated C++/ROOT analysis code. A study context can be inspected, reused, or exported as a \\texttt{.mcx} context bundle, while the project state can be exported as a portable \\texttt{.mgp} bundle. The current beta implementation validates the core idea using a PYTHIA8 and ROOT workflow. It includes background execution, manifest-based run tracking, live ROOT inspection, and particle-table summaries for supported output layouts. This paper describes the architecture, workflow, and current beta implementation of MAGE-HEP.",
+  "title_relatable": "A graphical interface to tame Monte Carlo chaos in particle physics",
+  "hook": "MAGE-HEP wraps the notoriously script-heavy Monte Carlo workflow in a GUI, making particle physics simulations easier to reproduce, share, and rerun across models and configurations.",
+  "summary": "Particle physics simulations typically live in tangled webs of handwritten scripts that break when passed between collaborators or rerun months later. MAGE-HEP introduces a graphical environment that organizes work into a project-study-run hierarchy, letting analysts define generator configurations, observables, and selections through a structured interface that auto-generates C++/ROOT code. Studies can be bundled and exported as portable files for sharing. The current beta validates the concept using PYTHIA8 and ROOT, with live output inspection and manifest-based run tracking.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1013,
+  "tokens_out": 209,
+  "cost_usd": 0.006174,
+  "ingested_at": "2026-05-19T02:57:31.134265+00:00"
+}

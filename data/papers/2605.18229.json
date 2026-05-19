@@ -1,0 +1,23 @@
+{
+  "id": "2605.18229",
+  "arxiv_url": "https://arxiv.org/abs/2605.18229",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Are Sparse Autoencoder Benchmarks Reliable?",
+  "authors": "David Chanin",
+  "abstract": "Sparse autoencoders (SAEs) are a core interpretability tool for large language models, and progress on SAE architectures depends on benchmarks that reliably distinguish better SAEs from worse ones. We audit the SAE quality metrics in SAEBench, the de-facto standard SAE evaluation suite, through three complementary lenses: reseed noise on a fixed SAE, ground-truth correlation on synthetic SAEs, and discriminability across training trajectories. We find that two of these metrics, Targeted Probe Perturbation (TPP) and Spurious Correlation Removal (SCR), fail multiple lenses at their canonical settings and should not be used to evaluate SAEs. The other metrics show higher reseed noise and lower discriminability than the field assumes. The sae-probes variant of $k$-sparse probing is the most reliable metric we tested, but even sae-probes struggles to separate variants of the same SAE architecture. Our results show the field needs better SAE benchmarks.",
+  "title_relatable": "Why your sparse autoencoder benchmark might be lying to you",
+  "hook": "A systematic audit of SAEBench reveals that two widely-used metrics for evaluating sparse autoencoders fail reliability tests and should be abandoned, while others show higher noise than the field realizes.",
+  "summary": "Sparse autoencoders are a key tool for interpreting large language models, but their development relies on benchmarks that may not reliably distinguish good architectures from bad ones. This paper audits SAEBench, the standard evaluation suite, using three approaches: measuring noise when retraining the same SAE, testing correlation against synthetic ground truth, and checking whether metrics discriminate between training stages. Two metrics—Targeted Probe Perturbation and Spurious Correlation Removal—fail multiple tests and should not be used. The most reliable metric tested, sae-probes, still struggles to separate different variants of the same architecture. The work is primarily a diagnostic audit, revealing that the field needs fundamentally better evaluation methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 888,
+  "tokens_out": 248,
+  "cost_usd": 0.0017024000000000002,
+  "ingested_at": "2026-05-19T03:14:01.633960+00:00"
+}

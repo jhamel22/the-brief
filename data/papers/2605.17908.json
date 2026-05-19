@@ -1,0 +1,24 @@
+{
+  "id": "2605.17908",
+  "arxiv_url": "https://arxiv.org/abs/2605.17908",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.stat-mech",
+    "cond-mat.mes-hall",
+    "quant-ph"
+  ],
+  "title_original": "Quantum Mpemba effect for operators in open systems",
+  "authors": "Pitambar Bagui, Bijay Kumar Agarwalla",
+  "abstract": "The quantum Mpemba effect concerns with anomalous relaxation of quantum states that evolves either under unitary or non-unitary dynamics. In the context of open quantum systems, while most studies focus on quantum states evolving under completely positive trace-presing dynamics described by the Gorini-Kossakowski-Sudarshan-Lindblad (GKSL) master equation, we demonstrate that an analogous effect can arise at the level of operators. In particular, we show that operators that evolves under the adjoint Liouvillian -- despite not being a trace-preserving map -- can still exhibit a genuine Mpemba effect. We derive general conditions under which this phenomenon can occur and validate our predictions for three different open quantum setups. Our results broaden the scope of the Mpemba effect in quantum systems and provide a framework for controlling the relaxation of physically relevant observables.",
+  "title_relatable": "The Mpemba effect shows up in quantum operators, not just states",
+  "hook": "Quantum systems can relax faster when starting farther from equilibrium — and this counterintuitive Mpemba effect now extends to how physical observables evolve, not just quantum states.",
+  "summary": "The quantum Mpemba effect — where a system initialized further from equilibrium can paradoxically reach steady state faster — has mostly been studied for quantum states under dissipative dynamics. This work shows the same phenomenon can emerge at the level of operators evolving under the adjoint Liouvillian, the map that governs how observables change in open systems. General conditions for this operator-level Mpemba effect are derived and verified across three distinct open quantum setups. The results suggest a practical handle on controlling how quickly measurable quantities relax in quantum devices.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 886,
+  "tokens_out": 211,
+  "cost_usd": 0.005823,
+  "ingested_at": "2026-05-19T03:02:12.493282+00:00"
+}

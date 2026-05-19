@@ -1,0 +1,22 @@
+{
+  "id": "2605.18481",
+  "arxiv_url": "https://arxiv.org/abs/2605.18481",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "OCCAM: Open-set Causal Concept explAnation and Ontology induction for black-box vision Models",
+  "authors": "Chiara Maria Russo, Simone Carnemolla, Simone Palazzo, Daniela Giordano, Concetto Spampinato, Matteo Pennisi",
+  "abstract": "Interpreting the decisions of deep image classifiers remains challenging, particularly in black-box settings where model internals are inaccessible. We introduce OCCAM, a framework for open-set causal concept explanation and ontology induction in vision models. OCCAM discovers visual concepts in an open-set manner, localizes them via text-guided segmentation, and performs object-level interventions by removing concepts to measure changes in class confidence, estimating each concept's causal contribution. Beyond local explanations, OCCAM aggregates interventional evidence across a dataset to induce a structured concept ontology that captures how classifiers globally organize visual concepts. Reasoning over this ontology reveals consistent dependencies between concepts, exposes latent causal relations, and uncovers systematic model biases. Experiments on Broden and ImageNet-S across multiple classifiers show that OCCAM improves explanation quality in open-set black-box settings while providing richer global insight than per-image attribution methods.",
+  "title_relatable": "Explaining black-box image classifiers through causal concept discovery",
+  "hook": "Framework discovers what visual concepts drive classifier decisions, removes them to measure causal impact, and builds a structured concept map revealing global biases—all without model access.",
+  "summary": "Understanding why image classifiers make specific predictions is difficult without access to model internals. OCCAM discovers visual concepts automatically, pinpoints them in images via text-guided segmentation, and uses object removal (intervention) to measure each concept's causal contribution to the final prediction. The method then aggregates these local explanations across datasets to build a structured ontology showing how concepts relate and influence one another, exposing systematic biases and dependencies. Tested on Broden and ImageNet-S across multiple classifiers, OCCAM outperforms existing attribution methods and provides both per-image explanations and global insight into classifier reasoning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 934,
+  "tokens_out": 218,
+  "cost_usd": 0.0016192000000000001,
+  "ingested_at": "2026-05-19T03:13:55.567070+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.16513",
+  "arxiv_url": "https://arxiv.org/abs/2605.16513",
+  "announced_date": "2026-05-15",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Modeling the probability distribution for cosmological analysis with photometrically classified samples",
+  "authors": "Marcos P. Freaza, Ribamar R. R. Reis",
+  "abstract": "In this work we investigated methods for the accurate and efficient incorporation of photometrically classified supernovae into cosmological analyses, and to assess the impact of the additional uncertainty associated with this procedure on the ability of Type Ia supernovae (SNeIa) tests to place constraints on cosmological models. We proposed a simplified likelihood, in which the contamination is described as a redshift dependent change in the mean of the usually assumed Gaussian distribution, and we tested this hypothesis against the usual two-component approach, based on the BEAMS framework. Using the latest version of the DES supernova sample, dubbed DES-Dovekie, we compared the results when using type probabilities from different classifiers, such as SNIRF and SCONE, and applying different cuts on these probabilities. We show that the new model is strongly favored by the Bayes factor, when compared with the current one, for all configurations, allowing an improvement on the constraining power of photometric supernova data.",
+  "title_relatable": "A leaner statistical model unlocks more power from photometric supernovae",
+  "hook": "A simplified likelihood function outperforms the standard two-component framework for photometrically classified supernovae, tightening cosmological constraints from the DES survey.",
+  "summary": "Photometric supernova surveys classify Type Ia events without spectra, introducing contamination that standard analyses handle with a computationally expensive two-component mixture model. This work proposes instead to absorb that contamination as a redshift-dependent shift in the mean of a single Gaussian likelihood. Tested against DES-Dovekie data with two independent classifiers, the simplified model is strongly preferred by Bayes factor comparisons across all probability-cut configurations. The result suggests that photometric samples can deliver tighter cosmological constraints without the overhead of the full BEAMS framework.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 913,
+  "tokens_out": 211,
+  "cost_usd": 0.005904,
+  "ingested_at": "2026-05-19T03:06:23.160138+00:00"
+}

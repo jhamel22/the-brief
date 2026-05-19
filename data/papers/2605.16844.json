@@ -1,0 +1,22 @@
+{
+  "id": "2605.16844",
+  "arxiv_url": "https://arxiv.org/abs/2605.16844",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Artificial Adaptive Intelligence: The Missing Stage Between Narrow and General Intelligence",
+  "authors": "Boris Kriuk",
+  "abstract": "Between the narrow systems we deploy and the general intelligence we speculate about lies an entire regime of machine behavior that has never received its own name. This monograph argues that this regime is not empty: it is where meta-learning, neural architecture search, AutoML, continual learning, evolutionary computation, and physics-informed modeling have quietly converged on a common principle, namely the steady removal of the human from the loop of parameter specification. We name this regime Artificial Adaptive Intelligence (AAI) and define it operationally: a system exhibits AAI to the extent that it requires no human-specified tunable hyperparameters while maintaining competitive performance across a diverse distribution of tasks. To make the definition quantitative, we introduce an adaptivity index that measures progress along an axis orthogonal to scale, combining the fraction of hyperparameters absorbed by the system with the performance ratio against a task-specialized baseline. We develop the principle of parametric minimality and ground it in the minimum description length framework, showing that the appropriate hyperparameter count is data-determined rather than designer-determined. We then organize the field around three pathways to minimality: data- and task-aware configuration, structural and evolutionary morphing, and in-training self-adaptation. We analyze their stability, convergence, and governance implications, and illustrate them through case studies spanning aerospace design, financial regime detection, turbulence modeling, ecological dynamics, and vision-language systems. The thesis is that the path from ANI to AGI passes through AAI, and that naming this stage changes what we measure, what we build, and what we call a success.",
+  "title_relatable": "The missing AI stage between narrow and general intelligence",
+  "hook": "A new framework called Artificial Adaptive Intelligence identifies systems that remove human hyperparameter tuning while maintaining strong performance across diverse tasks—bridging the gap between today's narrow AI and hypothetical general intelligence.",
+  "summary": "Current AI systems fall into two categories: narrow (task-specific) and general (hypothetical). This monograph argues for a distinct intermediate regime where meta-learning, AutoML, continual learning, and evolutionary computation converge on a common goal: automating hyperparameter specification. The author defines Artificial Adaptive Intelligence operationally and introduces an adaptivity index to measure progress by combining the fraction of absorbed hyperparameters with performance against task-specialized baselines. Three pathways to removing human parameter specification are analyzed: data-aware configuration, structural morphing, and in-training self-adaptation. Case studies span aerospace design, finance, turbulence modeling, and vision-language systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1011,
+  "tokens_out": 236,
+  "cost_usd": 0.0017528,
+  "ingested_at": "2026-05-19T03:16:02.542131+00:00"
+}

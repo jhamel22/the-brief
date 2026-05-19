@@ -1,0 +1,23 @@
+{
+  "id": "2605.16150",
+  "arxiv_url": "https://arxiv.org/abs/2605.16150",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Gaussian fluctuations in the tunneling probability of a closed universe",
+  "authors": "L. Salasnich",
+  "abstract": "We consider the quantum creation of a closed universe within the Euclidean path-integral formalism. An analytical expression for the tunneling probability is derived, including both the exponential suppression and the exact Gaussian prefactor due to quadratic fluctuations around the instanton. The calculation is performed in a fixed-interval minisuperspace formulation, where the Hamiltonian constraint is imposed at the level of the classical instanton, while the full lapse integration is not included beyond the leading semiclassical approximation. The result provides a transparent and self-consistent semiclassical estimate of the nucleation rate, refining previous analyses with the inclusion of Gaussian fluctuations.",
+  "title_relatable": "Quantum universe creation rate sharpened with fluctuation corrections",
+  "hook": "A cleaner analytic formula for how likely a closed universe is to tunnel into existence now includes the Gaussian prefactor that previous semiclassical estimates left out.",
+  "summary": "Using Euclidean path integrals in a minisuperspace framework, this calculation extends the standard de Sitter instanton result by appending the exact Gaussian prefactor — the contribution from small quadratic fluctuations around the saddle point. The Hamiltonian constraint is applied at the classical level, keeping the treatment tractable while still going beyond the leading exponential suppression. The outcome is a self-consistent semiclassical nucleation rate for a closed universe that is more complete than earlier estimates, though it stops short of integrating over the full lapse function.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 828,
+  "tokens_out": 205,
+  "cost_usd": 0.005559,
+  "ingested_at": "2026-05-19T02:57:01.932338+00:00"
+}

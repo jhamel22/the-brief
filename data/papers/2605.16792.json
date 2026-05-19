@@ -1,0 +1,23 @@
+{
+  "id": "2605.16792",
+  "arxiv_url": "https://arxiv.org/abs/2605.16792",
+  "announced_date": "2026-05-16",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Static electromagnetic Love tensors of 5-dimensional Myers-Perry black holes",
+  "authors": "Boyang Yu",
+  "abstract": "We study the separable master equations for the electromagnetic and gravitational perturbations in five-dimensional Myers-Perry black holes. In the static limit, while the master equation for the electric polarization of the Maxwell field reduces to that of a massless scalar field, the magnetic polarization and gravitational perturbation yield Heun equations for both its angular and radial components. Remarkably, these Heun equations fall into a special class that admits exact analytic solutions in terms of hypergeometric functions. We reconstruct the gauge field using master fields and study its asymptotic behavior. When expanding the result in the basis of modified spherical harmonics, we find modes with higher angular momentum arise in response to the excitation of sources with lower angular momentum. The static tidal Love tensor that characterizes such mixing structure of the response can be computed iteratively. We also discuss the possible near zone approximation of the master equations for the magnetic polarization.",
+  "title_relatable": "How five-dimensional spinning black holes deform under electromagnetic tides",
+  "hook": "Five-dimensional rotating black holes mix angular-momentum modes when responding to electromagnetic tides, and their Love tensors can be computed exactly using hypergeometric functions.",
+  "summary": "Electromagnetic and gravitational perturbations of five-dimensional Myers-Perry black holes are studied in the static limit. The magnetic and gravitational sectors yield Heun equations that reduce to hypergeometric functions — rare closed-form solutions. A key finding is that tidal forcing at one angular momentum excites response modes at higher angular momenta, encoded in a Love tensor computed iteratively. This mixing structure has no four-dimensional analogue and illuminates how higher-dimensional black holes deform under external fields.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 879,
+  "tokens_out": 187,
+  "cost_usd": 0.005442,
+  "ingested_at": "2026-05-19T02:55:16.525900+00:00"
+}

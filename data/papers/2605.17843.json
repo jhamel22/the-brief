@@ -1,0 +1,22 @@
+{
+  "id": "2605.17843",
+  "arxiv_url": "https://arxiv.org/abs/2605.17843",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Potential Space Symmetries in Ernst-like Formulations of Einstein-Maxwell/ModMax-Scalar field Theories",
+  "authors": "Leonel Bixano, Tonatiuh Matos",
+  "abstract": "We complete the visible, hidden, sectorial, and discrete symmetries of Ernst-like potential spaces in stationary, axisymmetric Einstein-Maxwell-Scalar Field (EMSF) and Einstein-ModMax-Scalar Field (EMMSF) theories. In the real potential space \\((f,ε,ψ,χ,κ)\\), we determine the exact visible symmetries and their solvable Lie algebra. We characterize the hidden symmetries on invariant subspaces: Ehlers acts in the gravito-rotational sector, while electric and magnetic Harrison transformations act in static electromagnetic sectors. In the frozen EMMSF regime, \\(v=v_0,\\ w=w_0\\), we show how EMSF sectorial transformations are deformed in ModMax theory. We also show that coexistence of electric and magnetic sectorial Harrison transformations imposes \\(d w=0\\) and \\(d[(v^2+w^2)/w]=0\\), selecting precisely the frozen ModMax sector. We study the Hamiltonian formulation, Noether charges, and Casimir invariants of the sectorial algebras. In harmonic branches of the \\(A,B,C\\) one-forms, the affine geodesic energy is constant, so the quadrature for \\(k\\) is controlled by the affine-geodesic Hamiltonian. The functions \\(ω\\) and \\(A_\\varphi\\) follow from Noether charges along the Killing directions of \\(ε\\) and \\(χ\\), and are written using dual harmonic functions. We examine the electric and magnetic Lewis-Weyl-Papapetrou frames and their discrete map, which sends \\(κ\\mapstoκ^{-1}\\), \\(ψ\\mapstoχ\\), \\(χ\\mapsto-ψ\\), and \\(ε\\mapstoε-ψχ\\). Finally, we apply the sectorial transformations to harmonic scalar--acuum Weyl seeds with independent gravitational and scalar harmonics. Frozen-ModMax Harrison maps generate charged branches, while Ehlers generates the gravito-rotational branch. For these solutions we give the final quadratures for \\(k\\), \\(ω\\), and \\(A_\\varphi\\).",
+  "title_relatable": "Hidden symmetries mapped for gravity coupled to nonlinear electrodynamics",
+  "hook": "A systematic classification of symmetries in Einstein-Maxwell and ModMax scalar-field theories reveals how nonlinear electrodynamics deforms classical solution-generating techniques.",
+  "summary": "Stationary, axisymmetric gravity coupled to scalar and electromagnetic fields admits a rich structure of symmetries that can generate new exact solutions from known ones. This work catalogs the full set of visible, hidden, sectorial, and discrete symmetries for both standard Einstein-Maxwell-Scalar and the nonlinear ModMax variant, showing how Ehlers and Harrison transformations act on distinct sectors of the potential space. A key finding is that requiring electric and magnetic Harrison symmetries to coexist forces the ModMax theory into a frozen regime, selecting a specific sector of the nonlinear theory. The framework is applied to produce charged and rotating solution branches from simple vacuum Weyl seeds.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1243,
+  "tokens_out": 229,
+  "cost_usd": 0.007164,
+  "ingested_at": "2026-05-19T02:54:10.908597+00:00"
+}

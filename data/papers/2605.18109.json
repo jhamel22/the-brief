@@ -1,0 +1,24 @@
+{
+  "id": "2605.18109",
+  "arxiv_url": "https://arxiv.org/abs/2605.18109",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "TaskGround: Structured Executable Task Inference for Full-Scene Household Reasoning",
+  "authors": "ZhiYuan Feng, Yu Deng, Ruichuan An, Zhenhua Liu, Qixiu Li, Keming Wu, Zhiying Du, Weijie Wang, Haoxiao Wang, Shuang Chen, Sicheng Xu, Yaobo Liang, Jiaolong Yang, Baining Guo",
+  "abstract": "In real home deployments, household agents must often operate from a complete household scene and a situated household request, rather than from a clean task specification. Such requests require agents to identify task-relevant entities, recover intended task conditions, and resolve ordering constraints from the surrounding scene context. We formalize this capability as full-scene household reasoning: given a complete household scene and a situated household request, an agent must infer executable task structure before producing a grounded skill-level action sequence. This setting is challenging because complete household scenes contain substantial task-irrelevant information, making direct complete-scene prompting inefficient and error-prone. In practical deployment, this challenge is further amplified by privacy and local compute constraints, which favor compact open-weight models with limited long-context reasoning ability. We propose TaskGround, a training-free and model-agnostic Ground-Infer-Execute framework that grounds complete scenes into compact task-relevant scene slices, infers executable task structure, and compiles it into grounded skill-level action sequences. To evaluate this setting, we introduce FullHome, a human-validated evaluation suite of 400 household tasks spanning diverse home-scale environments and both goal-oriented and process-constrained requirements. On FullHome, TaskGround improves task success rates by large margins across both proprietary and open-weight models. Notably, it makes Qwen3.5-9B competitive with GPT-5 under direct complete-scene prompting while reducing total input-token cost by up to 18x. Our results identify executable task-structure inference as a central bottleneck in full-scene household reasoning and show that structured grounding can make compact local models substantially more effective for practical household deployment.",
+  "title_relatable": "Teaching household robots to find relevant details in cluttered homes",
+  "hook": "A grounding-inference-execution framework that lets compact language models reason about household tasks in complete scenes, achieving 18× token reduction and making 9B-parameter models competitive with GPT-5.",
+  "summary": "Household robots operating in real homes must extract task-relevant information from cluttered, irrelevant scene details—a harder problem than responding to clean task specifications. TaskGround addresses this by first grounding complete household scenes into compact task-relevant slices, then inferring executable task structure, then compiling actions. The method is training-free and works with any language model. The authors introduce FullHome, a 400-task evaluation suite with human validation spanning diverse home environments and constraint types. TaskGround significantly improves task success rates across proprietary and open-weight models, making a 9B-parameter open model competitive with GPT-5 on the benchmark while cutting input tokens by up to 18×—critical for privacy-constrained local deployment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1123,
+  "tokens_out": 254,
+  "cost_usd": 0.0019144000000000001,
+  "ingested_at": "2026-05-19T03:22:30.641346+00:00"
+}

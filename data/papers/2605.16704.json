@@ -1,0 +1,22 @@
+{
+  "id": "2605.16704",
+  "arxiv_url": "https://arxiv.org/abs/2605.16704",
+  "announced_date": "2026-05-15",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Convex Dataset Valuation for Post-Training",
+  "authors": "Siqi Zeng, Christopher Jung, Rui Li, Zhe Kang, Ming Li, Nima Noorshams, Zhigang Wang, Fuchun Peng, Han Zhao, Xue Feng",
+  "abstract": "Improving LLM performance on downstream tasks sometimes requires leveraging auxiliary datasets during post-training. In practice, however, developers face constraints on compute, labeling, and licensing costs that preclude using all available data, necessitating principled dataset-level selection. These constraints are increasingly shaped by dataset marketplaces, where data acquisition is governed by budgets and negotiation. We study dataset valuation as a subset selection problem during LLM post-training. Our goal is to identify and weight auxiliary datasets so as to maximize target task performance given constrained budgets. We first show that commonly used gradient alignment scores provide a reasonable yet incomplete valuation signal, as they ignore redundancy among datasets. To address this, we propose a scalable convex dataset-level valuation method based on kernel mean matching (KMM) in gradient space, which jointly accounts for alignment with the target task and redundancy across auxiliary datasets. Through extensive experiments across diverse post-training settings and tasks, we show that our approach consistently outperforms existing valuation baselines, achieving stronger performance with low computational overhead. Our results position dataset valuation as a practical decision tool for post-training data selection in market-constrained large language model settings. The code is available at https://github.com/uiuctml/convex_data_valuation.",
+  "title_relatable": "Picking the right training data for language models on a budget",
+  "hook": "A convex optimization method for valuing datasets during LLM post-training that accounts for both task alignment and redundancy, outperforming gradient-based baselines with low computational cost.",
+  "summary": "When fine-tuning language models on downstream tasks, developers must choose which auxiliary datasets to use under budget constraints. Existing gradient alignment scores measure how well a dataset helps the target task but ignore redundancy—overlapping information across datasets wastes resources. This work frames dataset valuation as a subset selection problem and proposes a kernel mean matching approach in gradient space that jointly optimizes for task alignment and dataset diversity. Experiments across multiple post-training settings show consistent improvements over baseline methods with minimal computational overhead. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 998,
+  "tokens_out": 200,
+  "cost_usd": 0.0015984,
+  "ingested_at": "2026-05-19T03:11:37.574838+00:00"
+}

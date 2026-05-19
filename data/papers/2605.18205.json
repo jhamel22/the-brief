@@ -1,0 +1,22 @@
+{
+  "id": "2605.18205",
+  "arxiv_url": "https://arxiv.org/abs/2605.18205",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Kerr-like black holes shadow surrounded by dark matter halos: Comparison between various dark matter profiles",
+  "authors": "Malihe Heydari-Fard, Mohaddese Heydari-Fard",
+  "abstract": "The study of shadows of static and rotating black holes immersed in various dark matter halo profiles has gained significant attention in recent years. In this paper, we consider the static black hole solution immersed in three dark matter halo profiles (King, Hernquist, and Moore) and, by using the Newman-Janis algorithm, obtain the corresponding rotating black hole solutions. The main goal of the paper is to study the influence of the characteristic density, characteristic radius, and the spin parameter on the inner and outer horizons, the ergoregion, and the shadow radius, and to compare the results with Kerr black holes and other dark matter profiles. Our findings indicate that the shadow radius of rotating black holes immersed in dark matter increases compared to that of the Kerr black hole in the absence of dark matter; however, the impact on the size and shape of the shadow is negligible for King, Hernquist, and Moore profiles, and for all other dark matter halo profiles considered, and is independent of whether the halo is cuspy or cored. Therefore, at least for these Kerr-like black holes, the black hole shadow is not a suitable tool for distinguishing the nature of the dark matter distribution in galactic centers.",
+  "title_relatable": "Black hole shadows can't distinguish dark matter profiles in galactic centers",
+  "hook": "Rotating black holes embedded in three different dark matter halo models all cast nearly identical shadows, undermining hopes of using shadow observations to map galactic dark matter.",
+  "summary": "Using the Newman-Janis algorithm, the authors construct rotating black hole solutions embedded in King, Hernquist, and Moore dark matter halo profiles and compute their shadows. While dark matter slightly enlarges the shadow compared to a pure Kerr black hole, the effect is negligibly small across all three profiles regardless of whether the halo is cuspy or cored. The spin parameter, characteristic density, and halo radius all leave similarly faint imprints. The upshot: shadow observations — even high-precision ones — are unlikely to discriminate between competing dark matter distributions near galactic centers.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 974,
+  "tokens_out": 208,
+  "cost_usd": 0.006042,
+  "ingested_at": "2026-05-19T02:53:04.231077+00:00"
+}

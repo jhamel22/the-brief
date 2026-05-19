@@ -1,0 +1,23 @@
+{
+  "id": "2605.18218",
+  "arxiv_url": "https://arxiv.org/abs/2605.18218",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "Photometric classification of quasars from DES and photo-$z$ estimation with Machine Learning",
+  "authors": "Pablo Motta, Filipe B. Abdalla, Elcio Abdalla, Gabriel S. Costa, Camila Cardoso",
+  "abstract": "This paper presents a comprehensive study of quasar photometric classification and redshift estimation using machine learning techniques. We cross-matched photometric data from the Dark Energy Survey Data Release 2 (DES DR2) with spectroscopic classifications from the Sloan Digital Sky Survey Data Release 16 (SDSS DR16), yielding an initial sample of 168,738 point-like objects. Using a K-Nearest Neighbors (KNN) algorithm with PSF magnitudes in the $g$, $r$, $i$, and $z$ bands, we achieved high-precision quasar/galaxy classification against stellar contaminants, reaching a recall of 0.77 at 0.99 precision. Photometric redshifts were subsequently estimated using a hybrid machine learning approach combining a Boosted Decision Tree from ANNz and a Decision Tree Regressor from scikit-learn. The resulting catalog spans redshifts from $z \\approx 0.5$ to $z > 3$, with a distinct population recovered at $z \\approx 4$. A stacked outlier classifier was developed to mitigate catastrophic redshift errors. The full photometric redshift sample contains 872,372 objects and remains reliable for cosmological applications at $z \\approx 4$. The cleaned catalog contains 675,683 objects and is suitable for large-scale structure studies in the range $0 < z < 3$. This robustly characterized quasar catalog provides a valuable resource for future cosmological investigations.",
+  "title_relatable": "Machine learning sorts nearly a million quasars from DES imaging",
+  "hook": "A KNN-plus-boosted-tree pipeline classifies 675,000 quasars from DES photometry with reliable redshifts out to z~3, offering a ready resource for large-scale structure studies.",
+  "summary": "Cross-matching DES DR2 photometry with SDSS DR16 spectra produced a training set of 168,738 point-like objects. A K-Nearest Neighbors classifier separated quasars from stars at 0.99 precision with 0.77 recall, and a hybrid decision-tree regressor then assigned photometric redshifts across 0 < z < 3, with a secondary population recovered near z ≈ 4. A stacked outlier classifier was added to suppress catastrophic redshift failures. The final cleaned catalog of 675,683 objects is intended for baryon acoustic oscillation and large-scale structure analyses.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1058,
+  "tokens_out": 243,
+  "cost_usd": 0.006819,
+  "ingested_at": "2026-05-19T03:05:21.598124+00:00"
+}

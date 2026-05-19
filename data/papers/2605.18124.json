@@ -1,0 +1,22 @@
+{
+  "id": "2605.18124",
+  "arxiv_url": "https://arxiv.org/abs/2605.18124",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Integrated time-bin entangled quantum light source on a 4H-SiC microring chip",
+  "authors": "Hong Zeng, Bing-Cheng Yang, Yun-Ru Fan, Li-Ping Zhou, Cheng-Li Wang, Bo-Wen Chen, Ai-Lun Yi, Yong Geng, Guang-Wei Deng, You Wang, Hai-Zhi Song, Jun-Tao Zhang, Hao Li, Li-Xing You, Zi-Hao Zhan, Kai Guo, Xin Ou, Guang-Can Guo, Qiang Zhou",
+  "abstract": "Integrated time-bin-entangled photon-pair source with cavity-enhanced nonlinear optical processes is essential for quantum information technologies. However, microcavities with a high quality factor inherently introduce a trade-off between generation efficiency and photon bandwidth, which hinders the development of high-speed quantum networks with an integrated source. Here, we address this challenge by optimizing the nonlinearity property of the material and the geometry of the integrated microring resonator with a 4H-silicon carbide platform. Operating at a loaded quality factor of 1.9 $\\times$ 10^5 - spectral bandwidth of 1.0 GHz and pumped with 300-ps double pulses separated by 1.25 ns at a repetition rate of 160 MHz, the device achieves a time-bin-entangled photon-pair generation rate of 1.35 $\\times$ 10^7 s^-1 mW^-2. A raw visibility of 95.55 $\\pm$ 0.18% is measured, showing a violation of Bell's inequality by more than 138 standard deviations, and a fidelity of 94.37 $\\pm$ 0.22% is obtained by quantum state tomography. These results provide a scalable pathway to an efficient and broadband time-bin entangled quantum light source, overcoming intrinsic limitations of cavity-based designs and advancing integrated platforms for future quantum communication networks.",
+  "title_relatable": "Silicon carbide chip generates fast, high-quality entangled photon pairs",
+  "hook": "A 4H-silicon carbide microring chip produces time-bin entangled photon pairs at gigahertz bandwidths, sidestepping the usual efficiency-versus-bandwidth trade-off that plagues cavity-based quantum light sources.",
+  "summary": "Cavity-enhanced photon-pair sources typically face a hard trade-off: higher quality factors boost generation efficiency but narrow the photon bandwidth, throttling data rates in quantum networks. By carefully engineering both the nonlinear properties of 4H-SiC and the microring geometry, this chip achieves a 1 GHz spectral bandwidth alongside a pair-generation rate of 1.35 × 10⁷ s⁻¹ mW⁻², with raw entanglement visibility of 95.6% and a Bell inequality violation exceeding 138 standard deviations. The result demonstrates that material and geometry co-optimization can break the efficiency–bandwidth constraint without sacrificing entanglement quality, pointing toward scalable, chip-integrated sources for high-speed quantum communication.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1144,
+  "tokens_out": 280,
+  "cost_usd": 0.007632,
+  "ingested_at": "2026-05-19T03:00:31.766707+00:00"
+}

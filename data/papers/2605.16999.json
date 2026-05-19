@@ -1,0 +1,22 @@
+{
+  "id": "2605.16999",
+  "arxiv_url": "https://arxiv.org/abs/2605.16999",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Ranking-Aware Calibration for Reliable Multimodal Reinforcement Learning",
+  "authors": "Peng Cui, Boyao Yang, Jun Zhu",
+  "abstract": "Reinforcement learning post-training has substantially improved the reasoning accuracy of vision-language models, yet the resulting policies remain poorly calibrated. Terminal correctness rewards provide no gradient that penalizes confident errors more than uncertain ones and no signal that ties confidence to the quality of visual evidence, a gap that becomes especially severe under corrupted or ambiguous inputs where models continue to report high confidence on incorrect answers. We introduce Ranking-Aware Calibration (RAC), a training-time framework that supervises confidence using two comparison signals that group-based RL already produces at no additional labeling cost. The ranking-aware group loss enforces that a better rollout receives higher confidence than a worse one within the same prompt. The clean--corrupted pairwise loss enforces that confidence attenuates as visual evidence degrades. Because the ranking signal forces the policy to distinguish between correct and incorrect reasoning paths, it also reinforces task accuracy beyond what correctness rewards alone produce. Both losses require no external confidence annotations and integrate naturally with group-based RL post-training. We instantiate RAC on Qwen2.5-VL and InternVL-3.5 backbones and evaluate on six multimodal reasoning benchmarks under clean and corrupted inputs. Empirical results show that the ranking-aware loss substantially improves task accuracy by teaching the policy to discriminate between better and worse reasoning, while the pairwise corruption loss reduces calibration error under degraded inputs. Their combination achieves the best calibration across all tested backbones while improving accuracy in the majority of settings.",
+  "title_relatable": "Making vision-language models confident only when they should be",
+  "hook": "A training method that teaches vision-language models to match confidence to correctness by comparing better and worse reasoning paths, improving both accuracy and calibration without additional labels.",
+  "summary": "Vision-language models fine-tuned with reinforcement learning often express high confidence in wrong answers, especially on corrupted or ambiguous images. Ranking-Aware Calibration (RAC) addresses this by adding two comparison-based losses during RL training: one that enforces higher confidence for better reasoning paths over worse ones within the same prompt, and another that reduces confidence when visual evidence degrades. Tested on Qwen2.5-VL and InternVL-3.5 across six multimodal benchmarks, RAC improves task accuracy and reduces calibration error under both clean and corrupted inputs, while requiring no external confidence annotations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1021,
+  "tokens_out": 225,
+  "cost_usd": 0.0017168,
+  "ingested_at": "2026-05-19T03:11:12.941675+00:00"
+}

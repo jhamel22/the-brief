@@ -1,0 +1,23 @@
+{
+  "id": "2605.18621",
+  "arxiv_url": "https://arxiv.org/abs/2605.18621",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "CrossView Suite: Harnessing Cross-view Spatial Intelligence of MLLMs with Dataset, Model and Benchmark",
+  "authors": "Wei Wang, Yuqian Yuan, Tianwei Lin, Wenqiao Zhang, Siliang Tang, Jun Xiao, Yueting Zhuang",
+  "abstract": "Spatial intelligence requires multimodal large language models (MLLMs) to move beyond single-view perception and reason consistently about objects, visibility, geometry, and interactions across multiple viewpoints. However, progress in cross-view reasoning remains limited by three major gaps: the scarcity of large-scale well-annotated training data, the lack of comprehensive benchmarks for systematic evaluation, and the absence of explicit alignment mechanisms that establish object-level consistency across views. To address these gaps, we thoroughly develop CrossView Suite across three coordinated components: CrossViewSet, CrossViewBench, and CrossViewer. Firstly, we introduce a multi-agent data engine to meticulously curate a large-scale, high-quality cross-view instruction dataset, termed CrossViewSet, covering 17 fine-grained task types with 1.6M samples. Second, we meticulously create a scene-disjoint CrossViewBench to comprehensively assess the cross-view spatial understanding capability of an MLLM, evaluating it across various aspects. Finally, we propose CrossViewer, a progressive three-stage framework for cross-view spatial reasoning in MLLMs, following a Perception -> Alignment -> Reasoning paradigm. Our method equips an adaptive spatial region tokenizer to capture fine-grained object representations, and then aligns the multi-view objects explicitly, and thus fuses aligned features for boosting the cross-view inference capacity for MLLMs. Extensive experiments and analyses show that large-scale training data, systematic evaluation, and explicit cross-view alignment are all critical for advancing MLLMs from single-view perception toward real-world spatial intelligence. The project page is available at https://github.com/Thinkirin/Crossview-Suite.",
+  "title_relatable": "Teaching vision models to reason across multiple viewpoints",
+  "hook": "A dataset, benchmark, and training framework that equips multimodal AI models with cross-view spatial reasoning—covering 1.6M samples across 17 task types with explicit object alignment across viewpoints.",
+  "summary": "Multimodal language models struggle to reason consistently about objects and scenes viewed from multiple angles. CrossView Suite addresses three concrete gaps: lack of training data, absence of evaluation benchmarks, and no explicit mechanisms for matching objects across views. The suite includes CrossViewSet (1.6M annotated samples), CrossViewBench (scene-disjoint evaluation benchmark), and CrossViewer (a three-stage framework using spatial region tokenization, cross-view object alignment, and multi-view feature fusion). Experiments confirm that large-scale training data, systematic evaluation, and explicit alignment all significantly improve cross-view spatial reasoning. Code and models are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1091,
+  "tokens_out": 230,
+  "cost_usd": 0.0017928000000000002,
+  "ingested_at": "2026-05-19T03:13:43.089285+00:00"
+}

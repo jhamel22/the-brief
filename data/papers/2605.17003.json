@@ -1,0 +1,23 @@
+{
+  "id": "2605.17003",
+  "arxiv_url": "https://arxiv.org/abs/2605.17003",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Learning-Zone Energy: Online Data Selection for Efficient RL Post-Training",
+  "authors": "Peng Cui, Boyao Yang, Jun Zhu",
+  "abstract": "Reinforcement Learning (RL) post-training has emerged as the dominant paradigm for eliciting mathematical reasoning in Large Language Models (LLMs), yet prevailing techniques such as GRPO and DAPO distribute rollout and gradient budgets nearly uniformly across prompts, squandering compute on samples that are already mastered or remain far beyond the model's current capability. To address this fundamental inefficiency, we propose Learning-Zone Energy (LZE), a theoretically grounded, fully online data selection framework that concentrates computation on the model's active learning frontier. At its core, we define a closed-form Learning-Zone Energy Score that fuses three complementary signals, an initial-difficulty anchor, a normalized outcome-uncertainty term, and a pass-rate momentum, into a single scalar that is provably aligned with the expected magnitude of group-relative policy gradient updates. A forward pruner with replay further reduces wall-clock time cost by skipping rollout generation for persistently solved prompts while periodically checking for forgetting. Evaluated on Qwen-family models (1.5B-8B) across GSM8K, MATH and DAPO-MATH, our method retains only 40% of the training data per step yet matches or surpasses full-data baselines, with especially pronounced out-of-distribution gains on AIME25 (+45.9%) and AMC23 (+18.2%), alongside an estimated 36% reduction in training FLOPs. Our code is available at https://github.com/Stellaris167/LZE.",
+  "title_relatable": "Training math models faster by focusing on the right problems",
+  "hook": "A data selection method for RL-based math reasoning that uses 40% fewer training examples while matching full-data performance, with 36% fewer FLOPs and +45.9% gains on harder benchmarks.",
+  "summary": "RL post-training on LLMs for math reasoning wastes compute on problems models have already solved or cannot yet handle. Learning-Zone Energy (LZE) scores each training example using difficulty, outcome uncertainty, and pass-rate momentum to identify the model's active learning frontier, then concentrates rollouts there. A forward pruner further cuts wall-clock time by skipping solved problems. Tested on Qwen models (1.5B–8B) across GSM8K, MATH, and DAPO-MATH, LZE retains 40% of data per step while matching or exceeding baselines, with especially large gains on harder benchmarks (AIME25 +45.9%). Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1027,
+  "tokens_out": 256,
+  "cost_usd": 0.0018456,
+  "ingested_at": "2026-05-19T03:11:10.244270+00:00"
+}

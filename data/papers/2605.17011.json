@@ -1,0 +1,24 @@
+{
+  "id": "2605.17011",
+  "arxiv_url": "https://arxiv.org/abs/2605.17011",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.GR",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Topo-GS: Continuous Volumetric Embedding of High-Dimensional Data via Topological Gaussian Splatting",
+  "authors": "João Paulo Gois, Luis Gustavo Nonato",
+  "abstract": "Dimensionality reduction algorithms map high-dimensional data into visualizable 2D or 3D spaces, but traditionally rely on a discrete point-cloud paradigm. This discrete abstraction is susceptible to visual occlusion and artificial discontinuities, often failing to represent the continuous density of the underlying manifold. To address these limitations, we introduce Topo-GS, a framework that repurposes 3D Gaussian Splatting (3DGS) to cast multidimensional projection as a meshless volumetric reconstruction process. Instead of standard photometric losses, Topo-GS is driven by local geometric constraints. By solving orthogonal Procrustes targets, the optimization enforces an As-Rigid-As-Possible prior while explicitly aligning the spatial covariance of each Gaussian to the local tangent space. Recognizing that unrolling data of varying intrinsic dimensionalities requires distinct spatial treatments, we utilize a topology-aware strategy that tailors the loss formulation to preserve either continuous 1D trajectories or cohesive 2D surfaces. Quantitative and visual evaluations demonstrate that Topo-GS successfully transforms discrete scatter plots into continuous volumetric representations, where inherent projection distortions explicitly manifest as observable geometric variations, while preserving local topological fidelity comparable to discrete baselines.",
+  "title_relatable": "Visualizing high-dimensional data as continuous volumes instead of scattered points",
+  "hook": "A new method adapts 3D Gaussian Splatting to create smooth, continuous visualizations of high-dimensional data that preserve local topology and avoid visual gaps inherent to point-cloud approaches.",
+  "summary": "Dimensionality reduction typically outputs discrete point clouds, which suffer from occlusion and fail to capture the continuous structure of underlying manifolds. Topo-GS repurposes 3D Gaussian Splatting as a volumetric reconstruction tool, optimizing Gaussians via geometric constraints derived from orthogonal Procrustes alignment and tangent-space covariance. The method adapts its loss function based on data topology—treating 1D curves and 2D surfaces differently—to preserve local structure. Experiments show Topo-GS converts scattered plots into smooth volumetric representations where projection artifacts appear as visible geometric distortion rather than artificial gaps, while maintaining topological fidelity comparable to discrete baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 991,
+  "tokens_out": 254,
+  "cost_usd": 0.0018088000000000002,
+  "ingested_at": "2026-05-19T03:11:07.047475+00:00"
+}

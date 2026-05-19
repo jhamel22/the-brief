@@ -1,0 +1,24 @@
+{
+  "id": "2605.18207",
+  "arxiv_url": "https://arxiv.org/abs/2605.18207",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "hep-ph",
+    "nucl-th",
+    "quant-ph"
+  ],
+  "title_original": "Positivity of the effective range for finite range attractive potentials with a repulsive core",
+  "authors": "Davide Germani",
+  "abstract": "In the phenomenological study of exotic hadrons, the sign of the effective range, $r_0$, is invoked as a criterion to distinguish between compact multiquark configurations (associated with $r_0 0$). Motivated by this, we investigate the fundamental constraints on the sign of the effective range for single-channel local interactions. We rigorously prove that for finite-range potentials, characterized by an inner repulsive core and an outer attractive tail, the effective range remains strictly positive provided that the scattering length is greater than the range of the potential ($a > R$).",
+  "title_relatable": "A sign rule for nuclear potentials finally gets a rigorous proof",
+  "hook": "A long-used criterion for identifying exotic hadrons—the sign of the effective range—now has a rigorous mathematical foundation for a broad class of realistic potentials.",
+  "summary": "Physicists studying exotic hadrons like tetraquarks use the sign of the effective range to tell compact quark clusters apart from loosely bound molecular states, but this criterion lacked a firm theoretical basis. This work proves rigorously that any finite-range potential with a repulsive core and an attractive outer tail must have a strictly positive effective range, provided the scattering length exceeds the range of the potential. The result validates a widely used phenomenological rule and sharpens the conditions under which a negative effective range can reliably signal exotic compact states.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 813,
+  "tokens_out": 201,
+  "cost_usd": 0.005454,
+  "ingested_at": "2026-05-19T03:00:08.603095+00:00"
+}

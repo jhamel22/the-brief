@@ -1,0 +1,22 @@
+{
+  "id": "2605.17120",
+  "arxiv_url": "https://arxiv.org/abs/2605.17120",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants",
+  "authors": "Divya Joshi, J. D. Peiffer, Colleen Peyton, R. James Cotton",
+  "abstract": "arly identification of motor impairment in infancy relies on expert visual assessment of spontaneous movement, motivating the development of automated, objective alternatives. One promising approach is using computer vision, which benefits from high quality pose estimation from video. In this study, we systematically evaluated three state-of-the-art pose estimation frameworks (MeTRAbs-ACAE, SAM 3D Body, and Sapiens) on 100 videos over 13 sessions of 8 infants recorded with a multi-view markerless motion capture system. We quantified keypoint detection accuracy using reprojection error, geometric consistency, and Procrustes-aligned 3D position error, and demonstrated proof-of-concept for fitting an inverse kinematic framework to infant data. While Sapiens achieved the lowest reprojection error and highest geometric consistency of the methods evaluated (22.8 pixels and 0.82, respectively), SAM 3D Body provided the most comprehensive 3D information for kinematic reconstruction with Procrustes-aligned position errors of 19 to 28 mm. We demonstrate in a case comparison example that biomechanical models fit to SAM 3D estimates distinguish representative movement patterns in infants related to motor development, as identified by a clinical expert. Together, these findings highlight both the promise and current limitations of 3D pose estimation for infant biomechanics and establish preliminary groundwork for scalable, video-based assessment of early motor development.",
+  "title_relatable": "Video analysis spots early motor problems in infants",
+  "hook": "Three pose-estimation models tested on infant video for automated detection of motor impairment, with SAM 3D Body achieving 19–28 mm accuracy for kinematic reconstruction.",
+  "summary": "Early detection of motor impairment in infants currently relies on expert observation. This study benchmarked three pose-estimation frameworks (MeTRAbs-ACAE, SAM 3D Body, Sapiens) on multi-view video of 8 infants to assess their ability to extract whole-body kinematics without markers. SAM 3D Body delivered the best 3D reconstruction accuracy (19–28 mm Procrustes error) and enabled biomechanical models to distinguish representative movement patterns linked to motor development. While Sapiens excelled at keypoint detection (22.8 pixel reprojection error), it provided less complete 3D information. The work establishes proof-of-concept for video-based, scalable screening but acknowledges current limitations in pose estimation accuracy for infant biomechanics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1022,
+  "tokens_out": 267,
+  "cost_usd": 0.0018855999999999999,
+  "ingested_at": "2026-05-19T03:25:49.348686+00:00"
+}

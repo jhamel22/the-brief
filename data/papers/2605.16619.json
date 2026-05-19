@@ -1,0 +1,22 @@
+{
+  "id": "2605.16619",
+  "arxiv_url": "https://arxiv.org/abs/2605.16619",
+  "announced_date": "2026-05-15",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Evaporating Black Hole Interior and Complexity Evolution",
+  "authors": "Nicolò Bragagnolo, S. Prem Kumar",
+  "abstract": "We study the evolution of the interior of an evaporating black hole in a simple model of Jackiw-Teitelboim (JT) gravity with an end-of-the-world (EoW) brane, where evaporation is modeled by entangling the brane's internal states with an auxiliary radiation system. To probe the black hole interior, we consider a geodesic length extracted from a boundary-to-brane two-point function and interpret its renormalised value as a measure of subsystem complexity. Our computation, based on quenched disorder averaging, includes non-perturbative gravitational effects from both spacetime wormholes and replica wormholes, encoding ensemble averaging over the dual random Hamiltonian and brane-state couplings. Unlike non-evaporating black holes where complexity first grows linearly and then plateaus at late times $\\sim{\\cal O}(e^{S_{\\rm BH}})$, we find that complexity evolution of the black hole subsystem in the evaporating case differs drastically, depending nontrivially on the dimension of the emitted radiation Hilbert space. It grows linearly at early times, reaches a maximum at Page time $\\sim{\\cal O}({S_{\\rm BH}})$, and then decays exponentially. We further show that the relative fluctuations of the interior length remain small before the Page time but become of order one and eventually large at later times: this signals a loss of self-averaging, with the ensemble-averaged complexity dominated by rare configurations rather than by typical realisations.",
+  "title_relatable": "Evaporating black holes lose complexity after the Page time",
+  "hook": "In an evaporating black hole model, interior complexity peaks at the Page time and then collapses exponentially — the opposite of what happens when a black hole isn't evaporating.",
+  "summary": "Using a two-dimensional gravity model with an end-of-the-world brane to mimic Hawking evaporation, the authors track how the complexity of the black hole interior evolves over time. Unlike static black holes — where complexity grows linearly for an exponentially long time before plateauing — the evaporating case peaks at the Page time and then decays exponentially. Beyond the Page time, fluctuations around the average grow large, signaling a breakdown of self-averaging: the ensemble mean is dominated by rare, atypical configurations rather than generic ones. The result suggests that evaporation fundamentally restructures the interior geometry in ways not captured by non-evaporating models.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1038,
+  "tokens_out": 235,
+  "cost_usd": 0.006639,
+  "ingested_at": "2026-05-19T02:58:42.607490+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.18652",
+  "arxiv_url": "https://arxiv.org/abs/2605.18652",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents",
+  "authors": "Ziyun Zeng, Hang Hua, Bocheng Zou, Mu Cai, Rogerio Feris, Jiebo Luo",
+  "abstract": "Recent GUI agents have made substantial progress in visual grounding and action prediction, yet they remain brittle in long-horizon tasks that require maintaining task state across many interface transitions. Existing agents typically rely on raw history replay or text-only memory, which either overwhelms the model with redundant screenshots or discards localized visual evidence needed for future decisions. To address these limitations, we introduce \\textbf{MementoGUI}, a plug-in agentic memory framework that equips MLLM-based GUI agents with \\textbf{MementoCore}, a learned controller for online memory selection, compression, and retrieval. Rather than treating interaction history as a fixed context, MementoGUI formulates long-horizon GUI control as an online memory-control problem: working memory selectively preserves task-relevant interface events with textual summaries and ROI-level visual evidence, while episodic memory retrieves reusable past trajectories through learned relevance selection. MementoCore modularizes memory control into specialized operators for step processing, memory compression, episodic writing, and episodic selection, enabling plug-in memory augmentation without finetuning the GUI agent backbone. We further develop a scalable data curation pipeline that converts computer-use trajectories into memory-controller training data, introduce \\textbf{MementoGUI-Bench} for evaluating long-horizon decision-making in GUI agents, and design MLLM-based metrics for semantic action matching, task progress, and memory consistency. Experiments on GUI-Odyssey, MM-Mind2Web, and MementoGUI-Bench show that MementoGUI consistently improves GUI agents over no-history, history-replay, and text-only memory baselines, with larger MementoCore backbones further strengthening memory-augmented GUI control.",
+  "title_relatable": "Teaching GUI agents to remember what matters",
+  "hook": "A learned memory controller helps visual AI agents handle long-horizon computer tasks by selectively storing and retrieving relevant interface states without replaying entire screenshot histories.",
+  "summary": "GUI agents struggle with multi-step tasks because they either store full screenshot histories (overwhelming the model) or rely on text-only summaries (losing visual details). MementoGUI adds a learned memory module called MementoCore that selectively preserves task-relevant interface events with both textual summaries and cropped visual regions, plus an episodic memory for retrieving past trajectories. The system works as a plug-in adapter—no need to retrain the base GUI agent. The authors curated a training dataset from computer-use trajectories, created MementoGUI-Bench for evaluation, and tested on GUI-Odyssey and MM-Mind2Web, showing consistent improvements over history-replay and text-only baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1118,
+  "tokens_out": 237,
+  "cost_usd": 0.0018424000000000001,
+  "ingested_at": "2026-05-19T03:22:09.273449+00:00"
+}

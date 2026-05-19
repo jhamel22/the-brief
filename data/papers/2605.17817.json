@@ -1,0 +1,23 @@
+{
+  "id": "2605.17817",
+  "arxiv_url": "https://arxiv.org/abs/2605.17817",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "A Renormalizable and Unitary Approach to Quantum Gravity",
+  "authors": "D. G. C. McKeon, F. T. Brandt, J. Frenkel, S. Martins-Filho",
+  "abstract": "A Lagrange multiplier field restricts the quantum corrections to the Einstein-Hilbert action at one-loop order, yielding a model that is renormalizable and unitary while reproducing the Einstein field equations in the classical limit.",
+  "title_relatable": "One extra field could make quantum gravity both finite and consistent",
+  "hook": "Adding a Lagrange multiplier field to general relativity tames its notorious one-loop divergences, producing a model that is simultaneously renormalizable and unitary.",
+  "summary": "Quantum gravity has long faced a fundamental tension: approaches that remove infinities typically violate unitarity, and vice versa. By introducing a Lagrange multiplier field that constrains quantum corrections at one-loop order, this model sidesteps that conflict while recovering standard Einstein field equations in the classical limit. The construction is minimal — no extra propagating degrees of freedom are added beyond what the constraint requires. If the unitarity and renormalizability claims hold under further scrutiny, this would represent a technically conservative path toward a self-consistent perturbative quantum gravity.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 760,
+  "tokens_out": 200,
+  "cost_usd": 0.00528,
+  "ingested_at": "2026-05-19T02:54:21.804753+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.18374",
+  "arxiv_url": "https://arxiv.org/abs/2605.18374",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Beyond Inference-Time Search: Reinforcement Learning Synthesizes Reusable Solvers",
+  "authors": "Soheyl Massoudi, Gabriel Apaza, Milad Habibi, Mark Fuge",
+  "abstract": "Large language models (LLMs) typically approach combinatorial optimization as an inference-time procedure, solving each instance separately through sampling, search, or repeated prompting. We ask whether reinforcement learning can instead shift part of this reasoning cost into the weights of a code LLM, so that the model synthesizes a reusable solver for an entire problem family. We study this question on Synergistic Dependency Selection (SDS), a controlled variant of constrained Quadratic Knapsack designed to expose a specific failure mode: local signals and strict feasibility constraints make greedy heuristics attractive but unreliable. Under identical scaffolding, Best-of-64 base-model sampling saturates at an approximately 28.7% gap to the global Virtual Best Solver (VBS); code audits show that the base model often retrieves Simulated Annealing templates but misimplements the Metropolis acceptance rule. We fine-tune Qwen2.5-Coder-14B-Instruct with Group Relative Policy Optimization (GRPO) using a feasibility-gated reward and light structural scaffolding. The resulting policy converges to a constraint-aware Simulated Annealing template in 99.8% of feasible SDS outputs, achieves a 5.0% gap to that VBS, and is 91 times cheaper in post-generation execution/search cost than cumulative Best-of-64 evaluation. A compile-once check shows that one best frozen solver per seed remains highly competitive when reused unchanged across the SDS test set, while an additional-domain evaluation on Job Shop Scheduling provides narrower but positive evidence that the scaffold transfers beyond SDS. Negative ablations reveal the limits of this recipe: standard stabilizers degrade performance, a soft feasibility gate fails, and results remain sensitive to reward normalization and domain-specific design choices.",
+  "title_relatable": "Teaching language models to write solvers once, reuse forever",
+  "hook": "Reinforcement learning fine-tunes a code LLM to synthesize reusable solvers for entire problem families, reducing execution cost by 91× while closing the gap to optimal from 28.7% to 5.0%.",
+  "summary": "Most LLM approaches to combinatorial optimization solve each instance independently at inference time. This work uses reinforcement learning to shift reasoning into model weights, training a code LLM to generate a single solver that works across an entire problem family. On Synergistic Dependency Selection (a constrained quadratic knapsack variant), Group Relative Policy Optimization with feasibility-gated rewards fine-tunes Qwen2.5-Coder-14B to reliably produce correct Simulated Annealing implementations. The resulting solver achieves 5% gap to optimal—versus 28.7% from base-model sampling—and costs 91× less to execute repeatedly. A single frozen solver generalizes across the test set; preliminary results on Job Shop Scheduling suggest partial transfer to new domains, though performance remains sensitive to reward design and scaffolding choices.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1111,
+  "tokens_out": 289,
+  "cost_usd": 0.0020448000000000003,
+  "ingested_at": "2026-05-19T03:09:14.605082+00:00"
+}

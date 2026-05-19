@@ -1,0 +1,22 @@
+{
+  "id": "2605.18577",
+  "arxiv_url": "https://arxiv.org/abs/2605.18577",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding",
+  "authors": "Ruixiang Zhao, Jie Yang, Zijie Xin, Tianyi Wang, Fengyun Rao, Jing LYU, Xirong Li",
+  "abstract": "Omni-proactive streaming video understanding, i.e., autonomously deciding when to speak and what to say from continuous audio-visual streams, is an emerging capability of omni-modal large language models. Existing benchmarks fall short in three key aspects: they rely primarily on visual signals, adopt polling or fixed-timestamp protocols instead of true proactive evaluation, and cover only a limited range of tasks, preventing reliable assessment and differentiation of omni-proactive streaming models. We present OmniPro, the first benchmark to jointly evaluate omni-modal perception, proactive responding, and diverse video understanding tasks. It comprises 2,700 human-verified samples spanning 9 sub-tasks and 3 cognitive levels, covering 6 basic video understanding capabilities. Notably, 84% of samples require audio signals (speech or non-speech), and each sample is annotated with modality-isolation labels to enable fine-grained multimodal analysis. We further introduce a dual-mode evaluation protocol: Probe mode assesses content understanding by querying the model before and after each ground-truth trigger, while Online mode evaluates full proactive ability by requiring models to autonomously decide when to respond in streaming input. Evaluating 11 representative models reveals three key findings: (1) audio provides consistent gains but with highly variable utilization across models, (2) performance degrades significantly over time, indicating limited long-horizon robustness, and (3) non-speech audio perception remains the weakest dimension.",
+  "title_relatable": "A benchmark for video models that know when to speak",
+  "hook": "OmniPro evaluates multimodal video understanding with 2,700 samples across 9 tasks, introducing a dual-mode protocol to test both content understanding and autonomous response timing.",
+  "summary": "OmniPro addresses a gap in evaluating omni-modal large language models on streaming video understanding—specifically, their ability to autonomously decide when and what to respond to in continuous audio-visual input. The benchmark spans 2,700 human-verified samples covering 9 sub-tasks at three cognitive levels, with 84% requiring audio signals (speech or non-speech). A dual-mode evaluation protocol includes Probe mode for content understanding and Online mode for assessing fully proactive response capability. Testing 11 models reveals that audio consistently improves performance but is underutilized, robustness degrades over extended streams, and non-speech audio perception remains a critical weakness. Code and benchmark are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1042,
+  "tokens_out": 244,
+  "cost_usd": 0.0018096,
+  "ingested_at": "2026-05-19T03:22:12.703280+00:00"
+}

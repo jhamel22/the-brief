@@ -1,0 +1,24 @@
+{
+  "id": "2605.17983",
+  "arxiv_url": "https://arxiv.org/abs/2605.17983",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA",
+    "gr-qc"
+  ],
+  "title_original": "Higher-order statistics of the stochastic gravitational wave background from supermassive black hole binaries",
+  "authors": "Hinano Hisamamtsu, Koutarou Kyutoku",
+  "abstract": "Recent progress in gravitational wave observations has positioned Pulsar Timing Arrays as a key tool for detecting the stochastic gravitational wave background in the nanohertz band. It is widely believed that this background is primarily attributed to the cosmic ensemble of inspiraling supermassive black hole binaries. While traditional analyses have predominantly focused on the spectral amplitude and frequency dependence of the gravitational wave background, higher-order statistics such as variance, skewness, and kurtosis could potentially be useful for extracting further physical information. However, these statistical moments are known to diverge when the redshift integration is extended down to z=0. In this study, we propose a strategy to resolve this issue by introducing a physically motivated lower integration limit, z_min, defined by the sensitivity for detecting individual sources. Since higher-order statistics are primarily determined by local sources, we may adopt the lowest-order approximation with respect to redshift in their computations. Under this approximation, we demonstrate that all higher-order statistics beyond the expectation value depend on the mass function only through a weighted average of the chirp mass, , irrespective of the redshift evolution model. We show that the ratio of the variance to the expectation value provides information on / independently of the total number of mergers. We also find a consistency relation between the kurtosis and the squared skewness, paving the way for testing the binary-origin hypothesis of the gravitational wave background. Our findings demonstrate that higher-order statistics provide a new window for interpreting the gravitational wave background, offering a methodology to break existing degeneracies and refine our understanding of the mass function.",
+  "title_relatable": "Higher-order statistics could fingerprint the black hole binary hum",
+  "hook": "Variance, skewness, and kurtosis of the gravitational wave background encode the chirp-mass distribution of supermassive black hole binaries in ways the mean spectrum alone cannot.",
+  "summary": "Pulsar Timing Arrays detect a hum of gravitational waves likely produced by millions of inspiraling supermassive black hole binaries, but standard analyses extract only the spectral shape. By introducing a physically motivated lower redshift cutoff tied to single-source detectability, higher-order statistical moments — previously plagued by divergences — become tractable. These moments turn out to depend on the binary mass function only through a single chirp-mass average, and the variance-to-mean ratio isolates that average independently of the total merger rate. A consistency relation between kurtosis and squared skewness also offers a direct test of whether binaries truly dominate the background.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1051,
+  "tokens_out": 232,
+  "cost_usd": 0.006633,
+  "ingested_at": "2026-05-19T02:53:46.349835+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.17944",
+  "arxiv_url": "https://arxiv.org/abs/2605.17944",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.DC"
+  ],
+  "title_original": "A System Aware Resource Allocation for Distributed Workflows in Quantum Computing Environments",
+  "authors": "Abhishek Sawaika, Udaya Parampalli, Rajkumar Buyya",
+  "abstract": "Rapid advancements in cloud based platforms providing access to quantum computing capabilities have opened up several challenges for efficient usage of these highly delicate and costly devices. Although most of the current systems use a priority based access protocol, they are unable to fully support reliable, efficient, and scalable execution of larger-scale applications. To overcome this limitation, we propose a comprehensive solution for efficient allocation of quantum programs to appropriate quantum devices, considering all the relevant cost metrics into account including, fidelity, execution time and communication overhead. We also formulate use-cases for distributed quantum workflow and propose modified graph based algorithms to solve for allocation of such use-cases, assuming a hybrid classical-quantum network. Since hardware advancements in large standalone devices is an ongoing process, it is critical to investigate such distributed workflows to maximize the best utilization of current NISQ devices. Our empirical study shows that the proposed techniques perform better than state-of-the-art methods for almost all evaluation parameters, with average improvements of approximately $5\\%$ in execution time, $30\\%$ in communication overhead, $40\\%$ in wait time and $2\\%$ in fidelity, providing better solutions to efficient allocation strategies.",
+  "title_relatable": "Smarter job scheduling cuts waste on today's quantum cloud hardware",
+  "hook": "A graph-based allocation scheme assigns quantum programs to networked NISQ devices more efficiently than current priority-queue methods, cutting wait time by 40% and communication overhead by 30%.",
+  "summary": "Current cloud quantum platforms rely on simple priority queues that ignore fidelity, latency, and inter-device communication costs when scheduling jobs. This work models distributed quantum workflows as graphs and applies modified graph algorithms to match program components to the best available devices across a hybrid classical-quantum network. Tested empirically, the approach yields roughly 5% faster execution, 30% lower communication overhead, 40% shorter wait times, and a 2% fidelity gain over existing schedulers. The framework is aimed squarely at the constraints of present-day NISQ hardware, where no single device is large enough to run ambitious applications alone.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 957,
+  "tokens_out": 223,
+  "cost_usd": 0.006216,
+  "ingested_at": "2026-05-19T03:02:01.520210+00:00"
+}

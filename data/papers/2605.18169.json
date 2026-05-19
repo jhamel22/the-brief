@@ -1,0 +1,23 @@
+{
+  "id": "2605.18169",
+  "arxiv_url": "https://arxiv.org/abs/2605.18169",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.ET"
+  ],
+  "title_original": "Adaptive Clifford+T Decomposition of Large Toffoli Gates with One Clean Ancilla",
+  "authors": "Abhoy Kole, Majd Assaad, Till Schnittka, Rolf Drechsler",
+  "abstract": "Multi-controlled Toffoli gates are fundamental building blocks in quantum computation, with applications in quantum arithmetic, simulation, and search algorithms. In fault-tolerant architectures, their realization is constrained by the high cost of non-Clifford resources, particularly in terms of T-count and T-depth. Recent advances have demonstrated that the use of ancillary qubits, relative-phase Toffoli gates, and dynamic circuit techniques can substantially reduce this overhead. In this work, we investigate the decomposition of large Toffoli gates using 3- and 4-input relative-phase Toffoli gates in the presence of a single clean ancilla and conditionally clean ancillas. We derive explicit resource bounds for Clifford+T implementations incorporating dynamic-circuit-based uncomputation and measurement-conditioned corrections. Our analysis emphasizes T-depth reduction under fixed CX and T-count overhead, ensuring relevance for near-term devices. We show that introducing 4-input relative-phase Toffoli gates enables significant T-depth reductions through enhanced parallelism while maintaining favorable ancilla requirements. We further validate our theoretical results through experimental evaluation and comparative analysis with existing approaches.",
+  "title_relatable": "Cheaper quantum gates by borrowing a single spare qubit",
+  "hook": "A new decomposition strategy cuts the T-depth of large multi-controlled quantum gates using just one extra qubit, reducing one of fault-tolerant computing's costliest bottlenecks.",
+  "summary": "Multi-controlled Toffoli gates are expensive in fault-tolerant quantum computers because non-Clifford operations (T gates) dominate resource costs and limit parallelism. This work derives tight resource bounds for breaking large Toffoli gates into 3- and 4-input relative-phase variants using a single clean ancilla, combined with dynamic-circuit uncomputation and measurement-conditioned corrections. The key finding is that 4-input relative-phase Toffoli gates unlock additional parallelism, cutting T-depth significantly without demanding many extra qubits. The results are validated experimentally and benchmarked against existing methods.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 968,
+  "tokens_out": 226,
+  "cost_usd": 0.006294,
+  "ingested_at": "2026-05-19T03:00:14.059076+00:00"
+}

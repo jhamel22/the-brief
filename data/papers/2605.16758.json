@@ -1,0 +1,22 @@
+{
+  "id": "2605.16758",
+  "arxiv_url": "https://arxiv.org/abs/2605.16758",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Language Acquisition Device in Large Language Models",
+  "authors": "Masato Mita, Taiga Someya, Ryo Yoshida, Yohei Oseki",
+  "abstract": "Large Language Models (LLMs) remain substantially less data-efficient than humans. Pre-pretraining (PPT) on synthetic languages has been proposed to close this gap, with prior work emphasizing highly expressive formal languages such as $k$-Shuffle Dyck. Inspired by the Language Acquisition Device (LAD) hypothesis, which posits that innate constraints preemptively restrict the learner's hypothesis space to natural-language-like structure, we propose LAD-inspired PPT: pre-pretraining on MP-STRUCT, a formal language whose strings encode hierarchical composition, feature-based dependencies, and long-distance displacement via MERGE, AGREE, and MOVE. A brief 500-step PPT with MP-STRUCT matches strong formal-language baselines in token efficiency while additionally imparting a human-like resistance to structurally implausible languages (e.g., REVERSE). Analyzing simplified variants, we find that MP-STRUCT CORE outperforms $k$-Shuffle Dyck despite not being definable in C-RASP (a formal bound on transformer expressivity), challenging the prior hypothesis that effective PPT languages must be both hierarchically expressive and circuit-theoretically learnable. We show that functional landmarks, which reduce dependency resolution ambiguity, are a key driver, suggesting that effective PPT design depends not only on expressivity but also on the accessibility of dependency resolution.",
+  "title_relatable": "Teaching AI the rules of human language structure",
+  "hook": "Pre-training language models on a synthetic language inspired by innate linguistic constraints matches baseline efficiency while instilling human-like resistance to unnatural sentence structures.",
+  "summary": "Large language models learn less efficiently from data than humans do. This work proposes pre-pretraining LLMs on MP-STRUCT, a formal language that encodes the core operations of human grammar (hierarchical composition, feature agreement, and long-distance dependencies) inspired by the Language Acquisition Device hypothesis. After just 500 steps of pre-training on MP-STRUCT, models match or exceed prior formal-language baselines in token efficiency and develop a distinctly human trait: rejecting structurally implausible languages like REVERSE. The analysis reveals that effective pre-training depends not on raw expressivity alone but on how clearly dependency relationships are marked—a finding that contradicts previous assumptions about what makes formal languages useful for bootstrapping natural language learning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 998,
+  "tokens_out": 239,
+  "cost_usd": 0.0017544000000000001,
+  "ingested_at": "2026-05-19T03:19:27.912224+00:00"
+}

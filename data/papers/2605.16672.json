@@ -1,0 +1,24 @@
+{
+  "id": "2605.16672",
+  "arxiv_url": "https://arxiv.org/abs/2605.16672",
+  "announced_date": "2026-05-15",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Multi-Object Tracking Consistently Improves Wildlife Inference",
+  "authors": "Mufhumudzi Muthivhi, Jiahao Huo, Fredrik Gustafsson, Terence L. van Zyl",
+  "abstract": "Camera traps have become a common tool for wildlife monitoring efforts in ecological research and biodiversity conservation. Wildlife classification models have benefited from the increase in wildlife visual data. These models reach high levels of accuracy on curated, high-quality datasets. However, their performance remains sensitive to real-world environmental constraints. They often produce inconsistent predictions when performing inference on temporally coherent sequences. The predicted label for a single individual shifts rapidly between frames. This study exploits the temporal nature of camera-trap data to augment inferred predictions from a wildlife classification model. Specifically, we adopt several standard Multi-Object Tracking (MOT) models to link detections across consecutive frames. The curated trajectories are used to fuse the softmax class probabilities. The fused probability score produces a single consensus class label estimate that overrides misclassifications caused by noise. The analysis of the experimental results shows that our proposed strategy improves over a standalone classifier over all datasets and for each metric. Specifically, the best-performing MOT models gain a weighted F1-Score of 5.1%, 3.1% and 2.0% over the classifier across three MOT datasets.",
+  "title_relatable": "Tracking animals across frames fixes wildlife camera classifier errors",
+  "hook": "Applying multi-object tracking to camera-trap sequences improves wildlife classification by 2–5% F1-score by fusing predictions across frames instead of treating each image independently.",
+  "summary": "Wildlife classifiers trained on curated datasets often misclassify individual animals in real camera-trap footage, producing inconsistent labels frame-to-frame. This work uses standard multi-object tracking algorithms to link detections across consecutive frames and fuse their softmax probabilities into a single consensus label. Tested on three datasets, the approach consistently outperforms standalone classifiers by 2.0–5.1% weighted F1-score, with no architectural changes to the base model. Intended for ecologists and conservation practitioners using camera-trap networks for biodiversity monitoring.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 949,
+  "tokens_out": 209,
+  "cost_usd": 0.0015952,
+  "ingested_at": "2026-05-19T03:11:40.919071+00:00"
+}

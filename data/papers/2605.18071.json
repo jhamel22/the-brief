@@ -1,0 +1,22 @@
+{
+  "id": "2605.18071",
+  "arxiv_url": "https://arxiv.org/abs/2605.18071",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "KVDrive: A Holistic Multi-Tier KV Cache Management System for Long-Context LLM Inference",
+  "authors": "Jian Lin, Jiazhi Mi, Zicong Hong, Haodong Wang, Qianli Liu, Haodyue Zhang, Peng Li, Song Guo",
+  "abstract": "Supporting long-context LLMs is challenging due to the substantial memory demands of the key-value (KV) cache. Existing offloading systems store the full cache in host memory and selectively fetch critical entries during decoding, but this strategy quickly hits a ceiling: sparsity cannot be pushed further without degrading accuracy. As a result, when context length and batch size grow, the volume of KV transfers rises sharply and becomes the dominant source of decoding latency. We present KVDrive, a holistic multi-tier KV cache management system spanning GPU memory, host DRAM, and SSD. Unlike prior work that pursues greater sparsity through algorithmic refinements, KVDrive tackles the problem from a systems perspective - jointly orchestrating cache placement, pipeline scheduling, and cross-tier coordination to sustain high-throughput inference under tight GPU budgets. KVDrive advances three fundamental capabilities: it adapts cache management to attention behavior to maximize reuse and minimize redundant data movement; it restructures the decoding pipeline to overlap I/O- and CPU/GPU compute-bound stages, eliminating stalls across heterogeneous resources; and it harmonizes data movement across memory tiers to unlock scalable long-context inference far beyond GPU and DRAM limits. We have implemented a fully functional prototype of KVDrive and evaluated it on long-context benchmarks with popular LLMs. The system achieves up to 1.74x higher throughput compared to state-of-the-art works while preserving accuracy.",
+  "title_relatable": "Managing memory for long-context language models across GPUs and SSDs",
+  "hook": "A multi-tier caching system that achieves 1.74× higher throughput for long-context LLM inference by coordinating data movement across GPU, DRAM, and SSD rather than pursuing sparsity alone.",
+  "summary": "Long-context language models require massive key-value caches that exceed GPU memory, forcing systems to offload to host DRAM and disk. Current approaches maximize sparsity—selectively keeping critical cache entries—but hit accuracy limits, causing transfer bottlenecks during decoding. KVDrive rethinks the problem as a systems optimization: it jointly manages cache placement across tiers, restructures the decoding pipeline to overlap computation and I/O, and coordinates data movement to minimize stalls. Implemented and tested on popular LLMs, the system achieves 1.74× throughput improvement over existing offloading systems while maintaining accuracy. Intended for practitioners deploying long-context inference under memory constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1055,
+  "tokens_out": 255,
+  "cost_usd": 0.001864,
+  "ingested_at": "2026-05-19T03:17:01.619275+00:00"
+}

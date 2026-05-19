@@ -1,0 +1,22 @@
+{
+  "id": "2605.18083",
+  "arxiv_url": "https://arxiv.org/abs/2605.18083",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "A Data-Efficient Path to Multilingual LLMs: Language Expansion via Post-training PARAM$Δ$ Integration into Upcycled MoE",
+  "authors": "Hao Zhou, Tianhao Li, Zhijun Wang, Shuaijie She, Linjuan Wu, Hao-Ran Wei, Baosong Yang, Jiajun Chen, Shujian Huang",
+  "abstract": "Expanding Large Language Models~(LLMs) to new languages is a costly endeavor, demanding extensive Continued Pre-Training~(CPT) and data-intensive alignment. While recent data-free merging techniques attempt to bypass alignment by fusing a multilingual CPT-enhanced model with its instruct counterpart, they are plagued by a critical trade-off: mitigating parameter conflicts to preserve original abilities inevitably dilutes new language acquisition, and vice-versa. To resolve this conflict, we introduce \\method, which upcycles a dense model into a Mixture-of-Experts~(MoE) architecture, allocating different experts to different languages. Alignment ability is then transferred by grafting a MoE-expanded parameter delta~($Δ_{\\text{post}}$) to the CPT-enhanced base model, bypassing the complex alignment phase. Experiments demonstrate \\method's superiority even against baselines with similar FLOPs or number of parameters; it improves performance on expanded languages while effectively preserving original capabilities. We further show our approach is highly applicable across different models and Post-training deltas.",
+  "title_relatable": "Expanding language models to new tongues without costly retraining",
+  "hook": "A Mixture-of-Experts approach that adds new languages to LLMs by grafting alignment knowledge without retraining, preserving original performance while improving new language quality.",
+  "summary": "Extending LLMs to new languages typically requires expensive continued pre-training and alignment phases. This work resolves the core tension in parameter merging—where reducing conflicts with the original model weakens new language learning—by converting a dense model into a Mixture-of-Experts architecture with language-specific experts. The method transfers alignment ability by merging a post-training parameter delta into the CPT-enhanced base, skipping full alignment. Experiments show performance gains on new languages while maintaining original capabilities, with the approach generalizing across different models and post-training deltas.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 993,
+  "tokens_out": 211,
+  "cost_usd": 0.0016384000000000001,
+  "ingested_at": "2026-05-19T03:17:50.092804+00:00"
+}

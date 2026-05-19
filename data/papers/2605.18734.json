@@ -1,0 +1,22 @@
+{
+  "id": "2605.18734",
+  "arxiv_url": "https://arxiv.org/abs/2605.18734",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "EgoExoMem: Cross-View Memory Reasoning over Synchronized Egocentric and Exocentric Videos",
+  "authors": "Ruiping Liu, Junwei Zheng, Yufan Chen, Di Wen, Shaofang Quan, Chengzhi Wu, Jiaming Zhang, Kailun Yang, Kunyu Peng, Rainer Stiefelhagen",
+  "abstract": "Egocentric memory is widely used in embodied intelligence, but it may be insufficient for comprehensive spatial-temporal reasoning. Inspired by human recall from both field and observer perspectives, we introduce EgoExoMem, the first benchmark for cross-view memory reasoning over synchronized egocentric and exocentric videos. EgoExoMem contains $2.6K$ high-quality MCQs across eight temporal, spatial, and cross-view QA types. To support dual-view retrieval, we propose E$^2$-Select, a training-free frame selection method for synchronized ego-exo videos. It combines relevance-based budget allocation with per-view k-DPP sampling to handle view asymmetry and cross-view temporal consistency. Experiments show that ego and exo views provide complementary memory cues, while existing MLLMs remain far from solving the benchmark: the best model reaches only $55.3\\%$. E$^2$-Select achieves state-of-the-art performance of $58.2\\%$ over frame-selection and RAG-based memory baselines. Further analysis reveals systematic view-preference conflicts between question framing and answer grounding, underscoring the novelty and challenge of cross-view memory reasoning.",
+  "title_relatable": "Teaching AI to remember from two viewpoints at once",
+  "hook": "First benchmark for reasoning over synchronized egocentric and exocentric video pairs, showing that combining first-person and observer perspectives improves memory-based question answering over single views alone.",
+  "summary": "EgoExoMem is a benchmark dataset of 2,600 multiple-choice questions testing spatial-temporal reasoning across synchronized first-person (egocentric) and third-person (exocentric) videos. The work introduces E²-Select, a training-free frame selection method that combines relevance-based budget allocation with sampling techniques to handle temporal misalignment and view differences. Current large multimodal models reach only 55.3% accuracy, while E²-Select achieves 58.2%—demonstrating that ego and exo views provide complementary information but that this cross-view reasoning task remains largely unsolved. The analysis reveals systematic conflicts between how questions frame scenarios and how answers ground in different viewpoints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1017,
+  "tokens_out": 243,
+  "cost_usd": 0.0017855999999999998,
+  "ingested_at": "2026-05-19T03:22:46.035294+00:00"
+}

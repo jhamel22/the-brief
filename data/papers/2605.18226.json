@@ -1,0 +1,23 @@
+{
+  "id": "2605.18226",
+  "arxiv_url": "https://arxiv.org/abs/2605.18226",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Context Memorization for Efficient Long Context Generation",
+  "authors": "Yasuyuki Okoshi, Hao Mark Chen, Guanxi Lu, Hongxiang Fan, Masato Motomura, Daichi Fujiki",
+  "abstract": "Modern large language model (LLM) applications increasingly rely on long conditioning prefixes to control model behavior at inference time. While prefix-augmented inference is effective, it incurs two structural limitations: i) the prefix's influence fades as generation proceeds, and ii) attention computation over the prefix scales linearly with its length. Existing approaches either keep the prefix in attention while compressing it, or internalize it into model parameters through gradient-based training. The former still attends to the prefix at inference, while the latter is training-intensive and ill-suited to prefix updates. To address these issues, we propose attention-state memory, a training-free approach that externalizes the prefix into a lightweight, lookup-based memory of precomputed attention states between prefix and query tokens. On ManyICLBench with LLaMA-3.1-8B, our method improves accuracy over in-context learning at 1K-8K memory budgets while reducing attention latency by 1.36x at 8K, and surpasses full-attention RAG performance on NBA benchmark using only 20% of its memory footprint.",
+  "title_relatable": "Speeding up long-context LLMs by caching attention states",
+  "hook": "A training-free method that caches prefix attention states reduces inference latency by 1.36× at 8K tokens while maintaining or improving accuracy over in-context learning.",
+  "summary": "Long conditioning prefixes help control LLM behavior but create two problems: their influence weakens during generation, and computing attention over them scales linearly with length. This work introduces attention-state memory, which precomputes and stores attention states between prefix and query tokens in a lightweight lookup table—avoiding redundant computation at inference time. Tested on ManyICLBench with LLaMA-3.1-8B, the approach improves accuracy over standard in-context learning at 1K–8K token budgets, cuts attention latency by 1.36× at 8K tokens, and matches retrieval-augmented generation (RAG) performance on NBA benchmark using only 20% of its memory. The method requires no training or gradient updates, making it practical for frequent prefix changes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 947,
+  "tokens_out": 263,
+  "cost_usd": 0.0018096,
+  "ingested_at": "2026-05-19T03:16:54.617783+00:00"
+}

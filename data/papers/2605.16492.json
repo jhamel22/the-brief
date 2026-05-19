@@ -1,0 +1,24 @@
+{
+  "id": "2605.16492",
+  "arxiv_url": "https://arxiv.org/abs/2605.16492",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Dynamical quasinormal mode excitation II: propagation and convergence in Schwarzschild",
+  "authors": "Marina De Amicis, Enrico Cannizzaro, Gregorio Carullo, Adrien Kuntz, Laura Sberna",
+  "abstract": "We study the dynamical excitation of quasinormal modes (QNMs) during the plunge of a particle into a Schwarzschild black hole, building on the framework of Phys. Rev. D 113 (2026) 2, 024048 (Paper I). Investigating the high-frequency behavior of Leaver's QNM solutions, we obtain a more accurate and general prescription for their propagation. We confirm the existence of a new \"characteristic radius\" for QNM excitation, the bounce radius $r_*=0$, in agreement with recent literature. To its right, the QNM signal scatters off this point before reaching the observer; to its left, it propagates directly on the light-cone. Applying the formalism of Paper I to inspiralling particles, and using this refined prescription, we obtain a QNM signal that accurately reproduces the oscillatory component of the waveform after the bounce crossing, yielding an essentially complete first-principles description of the waveform from shortly after the signal peak. The dynamical QNM signal undergoes a transition as the particle crosses the bounce radius: from a quasi-resonant regime, where successive overtones are driven in counter-phase and interfere destructively, to a free-oscillator one, where they are in phase and the QNM sum converges rapidly. These results provide a clear physical interpretation of the collective QNM behavior during the plunge, and a firm theoretical foundation for accurate ringdown modelling.",
+  "title_relatable": "How black hole ringdown signals actually build up during a plunge",
+  "hook": "A refined framework for quasinormal mode excitation during a particle's plunge into a Schwarzschild black hole now reproduces the full post-peak waveform from first principles, clarifying why overtone sums behave so differently before and after a key threshold.",
+  "summary": "When a particle spirals into a black hole, the gravitational wave signal's oscillatory 'ringdown' phase arises from the excitation of quasinormal modes — the black hole's natural vibration frequencies. By carefully analyzing the high-frequency behavior of these mode solutions, the authors identify a 'bounce radius' that divides the signal into two regimes: outside it, successive overtones interfere destructively; inside, they align in phase and the mode sum converges quickly. The resulting waveform matches the oscillatory component accurately from shortly after peak emission, providing a rigorous theoretical basis for ringdown modeling in gravitational wave astronomy.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1043,
+  "tokens_out": 243,
+  "cost_usd": 0.006774,
+  "ingested_at": "2026-05-19T02:56:15.474356+00:00"
+}

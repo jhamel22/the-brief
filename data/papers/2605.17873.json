@@ -1,0 +1,24 @@
+{
+  "id": "2605.17873",
+  "arxiv_url": "https://arxiv.org/abs/2605.17873",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
+  "authors": "Woongyeng Yeo, Yumin Choi, Taekyung Ki, Sung Ju Hwang",
+  "abstract": "Training long-horizon LLM agents with reinforcement learning is challenging because sparse outcome rewards reveal whether a task succeeds, but not which intermediate actions caused the outcome or how they should be corrected. Recent methods alleviate this issue by generating rewards or textual hints from turn-level action-output signals, or by using feedback-conditioned self-distillation. However, generating feedback at every turn is inefficient when many intermediate turns are already successful or neutral, and applying feedback at a fixed or misaligned turn often fails to supervise the actions that contributed to the failure. To bridge this gap, we propose HINT-SD, a targeted self-distillation framework that uses full-trajectory hindsight to select failure-relevant actions and applies feedback-conditioned distillation only on targeted action spans. Experiments on BFCL v3 and AppWorld show that our method improves over the dense per-turn feedback baseline by up to 18.80 percent while achieving 2.26$\\times$ lower time per training step, suggesting that selecting where to distill is a key factor for both effective and efficient long-horizon agent training.",
+  "title_relatable": "Training agents to learn from their mistakes more efficiently",
+  "hook": "A self-distillation method that targets only the actions causing failures in long-horizon tasks, improving performance by up to 18.8% while cutting training time by 2.26×.",
+  "summary": "Training LLM agents on long-horizon tasks with reinforcement learning is inefficient because sparse rewards don't indicate which intermediate steps caused failures. Existing methods apply feedback to every turn or use fixed feedback timing, wasting effort on already-successful actions. HINT-SD analyzes full trajectories after execution to identify which actions contributed to failures, then applies corrective feedback only to those targeted spans. Tested on BFCL v3 and AppWorld benchmarks, the method outperforms dense per-turn feedback baselines while significantly reducing computation per training step. Code availability not mentioned in the abstract.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 952,
+  "tokens_out": 218,
+  "cost_usd": 0.0016335999999999998,
+  "ingested_at": "2026-05-19T03:17:53.208073+00:00"
+}

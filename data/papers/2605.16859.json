@@ -1,0 +1,23 @@
+{
+  "id": "2605.16859",
+  "arxiv_url": "https://arxiv.org/abs/2605.16859",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "VGGT-CD: Training-Free Robust Registration for 3D Change Detection",
+  "authors": "Wei Zhang, Songhua Li, Yihang Wu, Qiang Li, Qi Wang",
+  "abstract": "3D change detection from multi-view images is essential for urban monitoring, disaster assessment, and autonomous driving. However, existing methods predominantly operate in the 2D domain, where viewpoint variations are mistaken for physical changes and depth is unavailable. While visual geometry foundation models like VGGT rapidly produce dense point clouds from unposed images, independent per-epoch reconstruction encounters fundamental obstacles: unpredictable inter-epoch scale ambiguity, registration-change paradox where scene changes corrupt alignment, and pervasive edge-flying noise. To address these challenges, we present VGGT-CD, a training-free pipeline decoupling cross-temporal registration from dynamic-change interference. In the Coarse Stage, sparse keyframe joint inference establishes a unified metric space and yields an initial Sim(3) prior. In the Fine Stage, dense reconstructions are purified by isolating static-background correspondences. A closed-form centroid alignment refines the translation while locking scale and rotation, using a residual self-check to mathematically guarantee non-degradation. Evaluated on an 11-scene benchmark from the World Across Time dataset, VGGT-CD reduces Absolute Trajectory Error by 44% outdoors and 59% indoors. It completes registration over 6 times faster, producing high-purity 3D change maps without task-specific training.",
+  "title_relatable": "Detecting what changed in 3D scenes without retraining",
+  "hook": "A training-free method for aligning 3D reconstructions across time that reduces registration error by 44–59% while running 6× faster than baseline approaches.",
+  "summary": "3D change detection from multi-temporal images requires precise alignment of reconstructions across different epochs—a task complicated by scale ambiguity, depth noise, and the paradox that scene changes themselves corrupt registration. VGGT-CD solves this by decoupling cross-temporal registration from dynamic-change interference using a two-stage pipeline: coarse-stage keyframe joint inference establishes a shared metric space and Sim(3) prior; fine-stage purification isolates static backgrounds and refines alignment via closed-form centroid optimization. Tested on 11 scenes from the World Across Time dataset, the method reduces Absolute Trajectory Error by 44% outdoors and 59% indoors while completing registration 6× faster, with no task-specific training required.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 990,
+  "tokens_out": 254,
+  "cost_usd": 0.001808,
+  "ingested_at": "2026-05-19T03:25:08.606130+00:00"
+}

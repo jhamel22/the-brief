@@ -1,0 +1,22 @@
+{
+  "id": "2605.16922",
+  "arxiv_url": "https://arxiv.org/abs/2605.16922",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Motion Cues from Image-based Point Tracking for LiDAR Scene Flow Estimation",
+  "authors": "Youngdong Jang, Gyeongrok Oh, Jong Wook Kim, Hyunju Ryu, Hyung-gun Chi, SeungHyeon Kim, Seungryong Kim, Jonghyun Choi, Sangpil Kim",
+  "abstract": "LiDAR scene flow estimation is essential for autonomous driving, as it provides 3D motion for each point. Self-supervised approaches use static-dynamic classification to mitigate the imbalance between static and dynamic points, deriving targeted supervision. However, existing methods rely on sparse geometric observations for this classification, making them vulnerable to data sparsity and occlusions. The resulting noisy labels provide incorrect motion guidance and degrade scene flow learning. To address this, we introduce TrackCue, a tracking-guided framework for improving dynamic object representation in LiDAR scene flow estimation. In particular, TrackCue repurposes point tracking to obtain dense image-space trajectories anchored to LiDAR points, providing motion cues beyond sparse geometric observations. Furthermore, we present a visually consistent motion compensation strategy that compares the tracked trajectories with ego-induced rigid trajectories in the image plane, effectively isolating true object motion from ego-induced apparent motion. To transfer these isolated motion cues back to the LiDAR domain, we perform visual motion cue lifting, which associates ego-compensated image trajectories with LiDAR points for static-dynamic label refinement. As a result, TrackCue produces more accurate static-dynamic classification and provides more reliable supervision for scene flow learning. Experimental results show that TrackCue significantly improves the precision and F1 score of dynamic labels, leading to performance gains in self-supervised scene flow estimation.",
+  "title_relatable": "Using camera tracking to improve 3D motion sensing in autonomous vehicles",
+  "hook": "A framework that combines image-based point tracking with LiDAR to better distinguish moving objects from stationary points, improving self-supervised 3D scene flow estimation for autonomous driving.",
+  "summary": "LiDAR scene flow estimation—tracking 3D motion for each point—is critical for autonomous driving but struggles to separate static from dynamic points when data is sparse or occluded. TrackCue addresses this by leveraging dense image-space trajectories from point tracking to provide motion cues that geometric observations alone cannot capture. The method compensates for ego-motion in the image plane, isolates true object motion, and lifts these visual motion cues back to LiDAR points to refine static-dynamic labels. Experimental results show significant improvements in dynamic label precision and F1 score, with corresponding gains in self-supervised scene flow learning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1049,
+  "tokens_out": 230,
+  "cost_usd": 0.0017592,
+  "ingested_at": "2026-05-19T03:25:00.309049+00:00"
+}

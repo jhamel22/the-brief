@@ -1,0 +1,22 @@
+{
+  "id": "2605.17141",
+  "arxiv_url": "https://arxiv.org/abs/2605.17141",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Dynamics of collective creativity in AI art competitions",
+  "authors": "Mason Youngblood, Jeff Nusz, Joel Simon",
+  "abstract": "Creativity is a fundamental aspect of how culture evolves, yet the mechanisms by which groups produce novelty are notoriously difficult to infer from the historical record. Iterated learning experiments have shown that cultural transmission reliably distorts artifacts toward the inductive biases of learners, but most of this work uses linear chains between human participants, leaving open how these dynamics play out in the networked, human-AI systems that increasingly shape cultural production. In this study, we leverage one such system, Artbreeder, which hosts daily \"remix parties\" where users iteratively build on each other's work from a single seed image, producing branching lineages of human-AI co-created images. We analyze a dataset of 130,882 images from 368 remix parties over 13 months and find that images become simpler and converge toward common thematic \"attractors\" (e.g., steampunk scenes, alien architecture). We also find that while more novel \"parent\" images produce more novel and complex \"children\" that attract more likes, users paradoxically prefer to remix images that are less novel and complex. Finally, larger remix parties produce more novelty at the cost of lower complexity.",
+  "title_relatable": "Why creative crowds converge toward familiar styles",
+  "hook": "Analysis of 130,882 images from human-AI art collaborations reveals that while novelty attracts engagement, users paradoxically prefer remixing simpler, less original work—causing collective creativity to drift toward recognizable themes.",
+  "summary": "Creativity in groups is hard to study, but online art platforms offer a natural laboratory. Researchers analyzed 13 months of Artbreeder remix parties—where users iteratively modify images seeded from a single source—and found that images systematically simplify and converge toward thematic \"attractors\" like steampunk or alien architecture. Paradoxically, novelty works: more original parent images produce more novel children that earn more likes. Yet users preferentially build on simpler, less novel work, creating a tension between individual taste and collective drift. Larger remix parties generate more novelty overall but lower complexity. The findings parallel iterated learning experiments showing how cultural transmission distorts artifacts toward learners' biases, but extend that framework to networked human-AI systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 927,
+  "tokens_out": 261,
+  "cost_usd": 0.0017855999999999998,
+  "ingested_at": "2026-05-19T03:15:35.522938+00:00"
+}

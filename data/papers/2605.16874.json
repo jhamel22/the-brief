@@ -1,0 +1,22 @@
+{
+  "id": "2605.16874",
+  "arxiv_url": "https://arxiv.org/abs/2605.16874",
+  "announced_date": "2026-05-16",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Reasoning Can Be Restored by Correcting a Few Decision Tokens",
+  "authors": "Changshuo Shen, Leheng Sheng, Yuxin Chen, An Zhang, Xiang Wang",
+  "abstract": "Large reasoning models (LRMs) substantially outperform their base LLM counterparts on challenging reasoning benchmarks, yet it remains poorly understood where base models go wrong during token-by-token generation and how to narrow this gap efficiently. We study the base-reasoning gap through quantifying token-level distributional disagreement between a base model and a stronger reasoning model using likelihood-based divergences. Across benchmarks, we find that the reasoning advantage is highly sparse and concentrates on a small set of early, planning-related decision tokens. For instance, on Qwen3-0.6B, only ~8% of generated tokens account for the salient disagreement, and these tokens concentrate early in the response, are strongly enriched in planning-related decisions (17x), and coincide with high base-model uncertainty -- suggesting that base models fail mainly at early planning points that steer the subsequent reasoning trajectory. Building on these findings, we propose disagreement-guided token intervention, a simple inference-time delegation scheme that performs a one-token takeover by the reasoning model only at high-disagreement positions and immediately switches back to the base model. With a small intervention budget, this sparse delegation substantially recovers and can even surpass the performance of a same-size reasoning model on challenging reasoning tasks. Code is available at https://github.com/AlphaLab-USTC/RRTokenIntervention.",
+  "title_relatable": "Fixing reasoning: delegate just a few critical tokens",
+  "hook": "Base models fail at early planning decisions; intervening on just 8% of tokens recovers reasoning performance at inference time without retraining.",
+  "summary": "Large reasoning models vastly outperform base LLMs on benchmarks, but the source of this gap is unclear. This work analyzes token-level disagreement between base and reasoning models, finding that reasoning advantage concentrates on a small set of early, planning-focused decision tokens where base models show high uncertainty. The authors propose disagreement-guided token intervention: at inference, delegate only high-disagreement tokens to the reasoning model, then immediately switch back to the base model. On Qwen3-0.6B, this sparse ~8% intervention recovers or exceeds same-size reasoning model performance on challenging tasks. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 994,
+  "tokens_out": 215,
+  "cost_usd": 0.0016552000000000001,
+  "ingested_at": "2026-05-19T03:15:56.297839+00:00"
+}

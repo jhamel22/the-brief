@@ -1,0 +1,23 @@
+{
+  "id": "2605.16183",
+  "arxiv_url": "https://arxiv.org/abs/2605.16183",
+  "announced_date": "2026-05-15",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.IM",
+    "gr-qc"
+  ],
+  "title_original": "Rapid data quality investigations of gravitational-wave events with the Data Quality Report Builder toolkit",
+  "authors": "Derek Davis, Zach Yarbrough, Joseph Areeda, Ronaldas Macas, Nicolas Arnaud, Adrian Helmling-Cornell, Paolina Doliva, Olivia Godwin, Hirotaka Yuzurihara, Benjamin Mannix, Sofia Alvarez-Lopez, Max Trevor, Rachael Huxford, Philippe Nguyen, Beverly Berger, Chayan Chatterjee, Francesco Di Renzo, Christiano Palomba, Viola Sordini, Dimitrios Pesios, Marissa Walker, Airene Ahuja, Man Leong Chan, Julian Ding, Raymond Frey, Franz Herbst, Yannick Lecoeuche, Annudesh Liyanage, Jess McIver, Raymond Ng, Sophie Perry, Caitlin Rawcliffe, Robert Schofield",
+  "abstract": "We present the Data Quality Report Builder toolkit, DQRbuild, a suite of data quality tools that have been developed to vet gravitational-wave events in preparation for the fourth LIGO-Virgo-KAGRA observing run. We explain the main functionality and the many scientific tests that we support. To validate the performance of the tools included in the toolkit, we run a series of tests on all significant candidates shared as public alerts in the third observing run to compare against what was manually reported using human intervention. We find that these automated tools can now identify 96% of the problems identified by humans during this previous observing run, with a 24% false alarm rate. We conclude with a commentary on the prospects and potential challenges for fully automating the process of vetting the data quality for gravitational-wave events identified in future observing runs.",
+  "title_relatable": "Automated software catches 96% of data quality problems in gravitational-wave alerts",
+  "hook": "A new automated toolkit replicates nearly all human data-quality checks on gravitational-wave candidates, a critical step toward real-time vetting as detection rates climb.",
+  "summary": "Identifying a genuine gravitational-wave event requires checking whether detector noise, glitches, or environmental disturbances might have mimicked or contaminated a signal — work previously done by human experts under time pressure. The DQRbuild toolkit automates this vetting process and was benchmarked against every significant public alert from LIGO-Virgo-KAGRA's third observing run. It recovered 96% of the problems human reviewers flagged, with a 24% false-alarm rate on spurious issues. As detection rates increase with improved detector sensitivity, automation of this kind becomes essential for timely multi-messenger follow-up.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1071,
+  "tokens_out": 226,
+  "cost_usd": 0.006603,
+  "ingested_at": "2026-05-19T02:56:50.928383+00:00"
+}

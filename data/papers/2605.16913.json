@@ -1,0 +1,26 @@
+{
+  "id": "2605.16913",
+  "arxiv_url": "https://arxiv.org/abs/2605.16913",
+  "announced_date": "2026-05-16",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cond-mat.dis-nn",
+    "cond-mat.stat-mech",
+    "cs.LG",
+    "math.PR"
+  ],
+  "title_original": "A Fourier perspective on the learning dynamics of neural networks: from sample complexities to mechanistic insights",
+  "authors": "Fabiola Ricci, Claudia Merger, Sebastian Goldt",
+  "abstract": "Neural networks trained with gradient-based methods exhibit a strong simplicity bias: they learn simpler statistical features of their data before moving to more complex features. Previous analyses of this phenomenon have largely focused on settings with (quasi-)isotropic inputs. In this work, we study the simplicity bias from a Fourier perspective, which allows us to include two key features of natural images in the analysis: approximate translation-invariance and power-law spectra. We first show experimentally that simple neural networks trained on image classification tasks first rely on amplitude information -- related to pair-wise correlations between pixels -- before exploiting phase information, which encodes edges and higher-order correlations. In view of this, we introduce a synthetic data model for translation-invariant inputs that allows precise control over amplitudes and phases while remaining tractable. We rigorously establish that for isotropic and high-dimensional inputs, classification based on phase information alone is a genuinely hard task: online stochastic gradient descent (SGD) cannot distinguish the structured inputs from noise within $n \\ll N^3$ steps, but needs at least $n \\gg N^3 \\log^2{N}$ steps. In contrast, we show both experimentally and theoretically that power-law spectra can dramatically accelerate the speed of learning phase information, even if the spectra do not help with classification. Simulations with two-layer networks trained on textures and with deep convolutional networks on ImageNet and CIFAR100 confirm this non-trivial interaction between amplitudes and phases, providing mechanistic insights into how deep neural networks can learn natural image distributions efficiently.",
+  "title_relatable": "Why neural networks learn edges before textures",
+  "hook": "Fourier analysis reveals that neural networks learn simple amplitude features before phase information encoding edges, with power-law spectra dramatically accelerating phase learning despite not improving classification directly.",
+  "summary": "Neural networks exhibit a strong simplicity bias, learning simple features before complex ones. This work analyzes that bias through a Fourier lens, revealing that networks trained on images first exploit amplitude (pixel correlations) before phase information (edges and higher-order structure). Using a synthetic translation-invariant data model with controllable amplitudes and phases, the authors prove that SGD requires at least N³ log² N steps to learn phase-only classification, versus far fewer for amplitude-based tasks. Crucially, power-law spectra—characteristic of natural images—dramatically accelerate phase learning even though they don't directly improve accuracy. Experiments on textures, ImageNet, and CIFAR100 confirm this mechanism, providing mechanistic insight into how deep networks efficiently learn natural image distributions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1040,
+  "tokens_out": 249,
+  "cost_usd": 0.001828,
+  "ingested_at": "2026-05-19T03:11:19.635058+00:00"
+}

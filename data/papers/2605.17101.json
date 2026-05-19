@@ -1,0 +1,23 @@
+{
+  "id": "2605.17101",
+  "arxiv_url": "https://arxiv.org/abs/2605.17101",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "SEMA-RAG: A Self-Evolving Multi-Agent Retrieval-Augmented Generation Framework for Medical Reasoning",
+  "authors": "Yongfeng Huang, Ruiying Chen, James Cheng",
+  "abstract": "Retrieval-Augmented Generation (RAG) is widely employed to mitigate risks such as hallucinations and knowledge obsolescence in medical question answering, yet its predominantly single-round, static retrieval paradigm misaligns with the multi-stage process of clinical reasoning. This compressed workflow induces two structural deficiencies: question-to-query translation often lacks clinically grounded semantic interpretation, and retrieval lacks iterative sufficiency feedback, making it difficult to form reliable evidence chains. We argue that both issues stem from a deeper cause: overloading a single reasoning chain with heterogeneous tasks of interpretation, exploration, and adjudication. The remedy is to reconstruct the workflow via task decoupling and dynamic multi-round exploration. To this end, we propose SEMA-RAG, a Self-Evolving Multi-Agent RAG framework for medical question answering, which assigns these roles to three specialist agents: the Interpreter Agent for clinical schema interpretation, the Explorer Agent for sufficiency-driven self-evolving retrieval, and the Arbiter Agent for evidence adjudication and answer selection. Across five benchmarks and five LLM backbones, SEMA-RAG improves the strongest baseline by +6.46 accuracy points on average, measured per backbone.",
+  "title_relatable": "Medical AI that learns to ask better questions and verify its sources",
+  "hook": "A multi-agent framework splits medical question-answering into specialized roles—one interprets clinical concepts, another iteratively retrieves evidence, a third validates findings—improving accuracy by 6.46 points over existing methods.",
+  "summary": "Current medical question-answering systems use RAG to reduce hallucinations but rely on single-round retrieval that doesn't match clinical reasoning's iterative nature. SEMA-RAG addresses this by decomposing the task: an Interpreter Agent translates questions into clinically grounded queries, an Explorer Agent performs multi-round retrieval with feedback on whether evidence is sufficient, and an Arbiter Agent adjudicates conflicting sources before answering. Tested across five benchmarks and five LLM backbones, the approach improves accuracy by an average of 6.46 points over the strongest baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 977,
+  "tokens_out": 232,
+  "cost_usd": 0.0017096,
+  "ingested_at": "2026-05-19T03:19:56.836380+00:00"
+}

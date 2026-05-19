@@ -1,0 +1,23 @@
+{
+  "id": "2605.16829",
+  "arxiv_url": "https://arxiv.org/abs/2605.16829",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.PL"
+  ],
+  "title_original": "Constrained Code Generation with Discrete Diffusion",
+  "authors": "Lize Shao, Michael Cardei, Zichen Xie, Ferdinando Fioretto, Wenxi Wang",
+  "abstract": "Discrete diffusion models are a powerful, emerging paradigm for code generation. They construct programs through iterative refinement of partially corrupted token sequences and enable parallel token refinement. Importantly, this paradigm exposes a global program state at each denoising step, which provides a natural intervention point for enforcing program-level functionality and security constraints, guiding the generation before the final code is committed. Building on this observation, the paper introduces Constrained Diffusion for Code (CDC), a training-free neurosymbolic inference framework that integrates constraint satisfaction directly into the reverse denoising process. CDC augments the base discrete diffusion sampler with constraint-aware denoising operators that combine mathematical optimization with program analysis to identify constraint-relevant regions of the intermediate program state and locally adjust the denoising trajectory, steering generation toward feasible programs while remaining close to the base model. Across code generation benchmarks, CDC consistently improves constraint satisfaction in functional correctness, security, and even syntax, outperforming discrete diffusion and autoregressive baselines with less corrective computation and more localized edits.",
+  "title_relatable": "Steering code generation toward working programs with constraints",
+  "hook": "Discrete diffusion models for code generation can enforce functional, security, and syntax constraints during generation through constraint-aware denoising, without retraining.",
+  "summary": "Code generation via discrete diffusion iteratively refines token sequences, exposing intermediate program states where constraints can be enforced. This paper introduces Constrained Diffusion for Code (CDC), a training-free framework that integrates constraint satisfaction into the denoising process using mathematical optimization and program analysis. CDC identifies constraint-relevant regions in intermediate programs and locally adjusts the generation trajectory to steer toward feasible outputs. On code generation benchmarks, CDC improves constraint satisfaction across functional correctness, security, and syntax metrics, outperforming both discrete diffusion and autoregressive baselines with fewer corrective edits.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 931,
+  "tokens_out": 211,
+  "cost_usd": 0.0015888000000000002,
+  "ingested_at": "2026-05-19T03:19:24.866037+00:00"
+}

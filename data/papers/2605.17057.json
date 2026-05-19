@@ -1,0 +1,22 @@
+{
+  "id": "2605.17057",
+  "arxiv_url": "https://arxiv.org/abs/2605.17057",
+  "announced_date": "2026-05-16",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Five legs @ three loops: slightly off-shell dual conformal integrals",
+  "authors": "Andrei V. Belitsky, Leonid V. Bork, Roman N. Lee, Andrei I. Onishchenko, Vladimir A. Smirnov",
+  "abstract": "We calculate the three-loop master integrals contributing to the three-loop five-point amplitude on the special Coulomb branch of $\\mathcal{N}=4$ SYM theory. For the genuine pentagon integrals, we follow the approach of Ref. [JHEP 12 (2025) 107], which includes a regularization preserving dual conformal invariance (DCI). As a new ingredient, we introduce a simple method, allowing to factor out the dependence on the DCI cross ratios from the contribution of each region. The remaining integrals are then essentially simplified by taking successive limits of vanishing external invariants. For 3 out of 82 regions contributing to the most complicated integral $\\mathcal{I}_5^{(3)}$ we were not able to perform the integration even after these simplifications. For these three regions, we perform the integration-by-parts (IBP) reduction in parametric representation and evaluate the resulting locally finite integrals using HyperInt.",
+  "title_relatable": "Three-loop, five-particle integrals solved with a new factoring trick",
+  "hook": "A new method factors out dual conformal cross-ratio dependence region by region, enabling near-complete analytic evaluation of the hardest five-point integrals at three loops.",
+  "summary": "Computing scattering amplitudes in maximally supersymmetric Yang-Mills theory requires master integrals that are extraordinarily difficult at three loops and five external legs. Working on the Coulomb branch — a slight deformation that regulates infrared divergences while preserving dual conformal symmetry — the authors introduce a technique that separates the kinematic cross-ratio dependence from individual integration regions, dramatically simplifying each piece. Of 82 regions in the most complex integral, 79 yield to this streamlined approach; the remaining three are handled via integration-by-parts reduction in parametric representation and the HyperInt package.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 945,
+  "tokens_out": 226,
+  "cost_usd": 0.006225,
+  "ingested_at": "2026-05-19T02:57:58.701191+00:00"
+}

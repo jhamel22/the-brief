@@ -1,0 +1,23 @@
+{
+  "id": "2605.18181",
+  "arxiv_url": "https://arxiv.org/abs/2605.18181",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Scalable Environments Drive Generalizable Agents",
+  "authors": "Jiayi Zhang, Fanqi Kong, Guibin Zhang, Maojia Song, Zhaoyang Yu, Jianhao Ruan, Jinyu Xiang, Bang Liu, Chenglin Wu, Yuyu Luo",
+  "abstract": "Generalizable agents should adapt to diverse tasks and unseen environments beyond their training distribution. This position paper argues that such generalization requires environment scaling: expanding the distribution of executable rule-sets that agents interact with, rather than only increasing trajectories or tasks within fixed benchmarks. Current scaling practices largely focus on collecting more experience or broader task sets under fixed interaction rules, leaving agents brittle when underlying interfaces, dynamics, observations, or feedback signals change. The core challenge is therefore a world-level distribution shift: agents need systematic exposure to environments with meaningfully different executable rule-sets. To clarify this challenge, we propose a unified taxonomy that separates trajectory scaling, task scaling, and environment scaling by their primary deliverables and by what changes in the executable rule-set. Building on this taxonomy, we synthesize construction paradigms for scalable environments, contrasting programmatic generators that prioritize controllability and verifiability with generative world models that offer broader coverage and open-endedness. We further outline how environment scaling can be coupled with stateful learning mechanisms, emphasizing learned update rules for cross-environment adaptation. We conclude by discussing alternative perspectives and argue that scalable environments provide the essential substrate for measurable and controllable progress toward robust general agents.",
+  "title_relatable": "Why agents need diverse worlds, not just more tasks",
+  "hook": "Generalizable agents require exposure to fundamentally different environments with varying rules and dynamics—not simply more trajectories or tasks—to adapt beyond their training distribution.",
+  "summary": "This position paper identifies a critical gap in how we train generalizable agents: current scaling efforts add more experience and tasks within fixed rule-sets, leaving agents brittle when interfaces, dynamics, or feedback change. The authors propose environment scaling—systematically varying the executable rules agents interact with—as distinct from trajectory and task scaling. They offer a taxonomy distinguishing these three scaling types and survey construction paradigms (programmatic generators for control versus generative world models for breadth), then discuss coupling environment scaling with learned adaptation mechanisms. The work argues that scalable environments are foundational for building agents robust to world-level distribution shifts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 980,
+  "tokens_out": 210,
+  "cost_usd": 0.001624,
+  "ingested_at": "2026-05-19T03:17:10.285859+00:00"
+}

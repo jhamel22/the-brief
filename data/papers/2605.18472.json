@@ -1,0 +1,24 @@
+{
+  "id": "2605.18472",
+  "arxiv_url": "https://arxiv.org/abs/2605.18472",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Flowing with Confidence",
+  "authors": "Friso de Kruiff, Dario Coscia, Max Welling, Erik Bekkers",
+  "abstract": "Generative models can produce nonsensical text, unrealistic images, and unstable materials faster than simulation or human review can absorb; without per-sample confidence, trust erodes. Existing fixes run $k$ ensembles or stochastic trajectories at $k\\times$ compute, measuring variability between models, not model confidence. We propose Flow Matching with Confidence (FMwC). FMwC injects input-dependent multiplicative noise at selected layers, propagates its variance through the network in closed form, and integrates it along the ODE trajectory, yielding a per-sample confidence score at standard sampling cost. The score supports multiple uses: filtering improves image quality and thermodynamic stability of crystals; editing rewinds trajectories to the points where the model commits and redirects them; and adaptive stepping concentrates ODE compute where the flow is ambiguous. We find that the confidence score correlates with the magnitude of the divergence of the learned velocity field, which gives us a window to understand the generative process, opening up surgical forms of guidance that target the moments that matter, new sampling algorithms and interpretability of generative models.",
+  "title_relatable": "Generative models that know when to doubt themselves",
+  "hook": "A method that adds per-sample confidence scores to flow-based generative models at no computational cost, enabling filtering, adaptive sampling, and trajectory editing.",
+  "summary": "Generative models often produce low-quality or physically impossible outputs, yet existing confidence measures require running multiple ensembles or stochastic trajectories at k× cost. Flow Matching with Confidence (FMwC) injects input-dependent noise at selected layers and propagates variance through the network in closed form, yielding a confidence score during standard sampling. The score filters unrealistic images and unstable crystal structures, enables trajectory editing by rewinding to decision points, and concentrates ODE integration where the model is uncertain. The confidence correlates with velocity field divergence, offering interpretability and guiding where to focus model refinement.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 929,
+  "tokens_out": 215,
+  "cost_usd": 0.0016032,
+  "ingested_at": "2026-05-19T03:08:56.594719+00:00"
+}

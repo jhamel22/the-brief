@@ -1,0 +1,26 @@
+{
+  "id": "2605.16245",
+  "arxiv_url": "https://arxiv.org/abs/2605.16245",
+  "announced_date": "2026-05-15",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CY",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.SI"
+  ],
+  "title_original": "AI-Mediated Communication Can Steer Collective Opinion",
+  "authors": "Stratis Tsirtsis, Kai Rawal, Chris Russell, Brent Mittelstadt, Sandra Wachter",
+  "abstract": "Generative artificial intelligence (AI) is increasingly integrated into the online platforms where humans exchange opinions; large language models (LLMs) now polish users' posts on LinkedIn and provide context for content shared on X. While prior work has shown that AI can express biased opinions and shape individuals' opinions during human-AI interactions, less attention has been paid to its influence on collective opinion formation when mediating human-to-human communication. We address this gap via a combination of empirical and theoretical analyses. We show empirically that LLMs from multiple popular families introduce directional biases when instructed to edit human-written texts on contested topics, for example, nudging texts in favor of gun control and against atheism. Building on this observation, we introduce a mathematical model of opinion dynamics in which an AI system sits between users on a social network, transforming the opinions they express and perceive. By analytically characterizing the equilibrium of this model and performing simulations on real social network data, we show that biases introduced by AI in human-to-human communication can be amplified through the network and shift collective opinion in their direction. In light of these findings, we investigate whether such biases are controllable by online platforms. We audit the \"Explain this post\" feature on X and find evidence of pro-life bias in Grok's outputs on abortion-related content, which we trace back to specific design choices. We conclude with a discussion of the broader implications of our findings in relation to ongoing legislative efforts in the European Union.",
+  "title_relatable": "How AI editing of posts can shift collective opinion on social networks",
+  "hook": "Large language models inserted between users on social networks can amplify subtle biases through the network structure, shifting collective opinion in predictable directions.",
+  "summary": "When LLMs mediate human-to-human communication by editing posts, they introduce directional biases—nudging texts toward gun control, away from atheism—that cascade through social networks. The researchers combine empirical analysis (testing multiple LLM families on contested topics) with a mathematical model of opinion dynamics to show how these biases compound across users, ultimately shifting collective positions. An audit of X's \"Explain this post\" feature reveals pro-life bias in Grok's outputs on abortion, traced to specific design choices. The work demonstrates that platform designers can control these biases but currently do not, with implications for EU regulatory frameworks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1015,
+  "tokens_out": 216,
+  "cost_usd": 0.001676,
+  "ingested_at": "2026-05-19T03:19:15.900619+00:00"
+}

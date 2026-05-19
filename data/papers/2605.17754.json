@@ -1,0 +1,22 @@
+{
+  "id": "2605.17754",
+  "arxiv_url": "https://arxiv.org/abs/2605.17754",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Coupled quintessence with a potential from supergravity exhibits sign-changing interaction",
+  "authors": "Jincheng Wang, Hongwei Yu, Puxun Wu",
+  "abstract": "Quintessence with a potential motivated by supergravity (SUGRA) exhibits several intriguing features. Depending on its initial conditions, it can behave either as dynamical dark energy or effectively as a cosmological constant. Moreover, when quintessence is coupled to dark matter, the effective dark-energy equation of state can cross the phantom divide. In this paper, we test both coupled and uncoupled SUGRA quintessence models using DESI BAO, DES-Dovekie SNIa, and Planck CMB data. We find that current observations strongly favor a coupling between dark energy and dark matter, with the coupling parameter deviating from zero at more than $4σ$. The data also favor the branch of coupled SUGRA quintessence in which the energy transfer between the two dark sectors changes sign, leading to a crossing of the phantom divide by the effective dark-energy equation of state. Interestingly, this coupled SUGRA branch is statistically indistinguishable from dark energy described by the CPL parametrization, with only a very small difference in $χ^2_\\mathrm{min}$. Our results suggest that coupled quintessence with a SUGRA potential provides a field-theoretic realization of the evolving dark energy behavior favored by the latest observations.",
+  "title_relatable": "DESI and Planck data push for dark energy that talks to dark matter",
+  "hook": "Combining DESI, DES, and Planck data, researchers find a coupling between dark energy and dark matter favored at more than 4σ, with energy flowing back and forth between the two sectors.",
+  "summary": "Testing quintessence models grounded in supergravity against the latest baryon acoustic oscillation, supernova, and CMB datasets, the analysis finds that an uncoupled scalar field is strongly disfavored. The preferred model has dark energy and dark matter exchanging energy in a direction that reverses over cosmic time, which drives the dark-energy equation of state across the phantom divide (w = −1). This coupled supergravity branch is statistically indistinguishable from the phenomenological CPL parametrization, offering a concrete field-theoretic mechanism behind the evolving dark energy hinted at by recent surveys.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 987,
+  "tokens_out": 233,
+  "cost_usd": 0.006456,
+  "ingested_at": "2026-05-19T03:05:27.032144+00:00"
+}

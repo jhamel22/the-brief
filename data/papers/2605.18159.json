@@ -1,0 +1,23 @@
+{
+  "id": "2605.18159",
+  "arxiv_url": "https://arxiv.org/abs/2605.18159",
+  "announced_date": "2026-05-18",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.ET"
+  ],
+  "title_original": "Measurement-Driven Adaptive Low-Overhead Implementation of Multi-Controlled Toffoli Gates",
+  "authors": "Abhoy Kole, Till Schnittka, Rolf Drechsler",
+  "abstract": "The Toffoli gate is a fundamental building block for quantum arithmetic and reversible logic, yet its efficient realization remains a major challenge in both near-term and fault-tolerant quantum architectures. Recent advances in dynamic quantum circuit capabilities, including mid-circuit measurement and classical feedforward, provide new opportunities for reducing the resource overhead of non-Clifford operations. In this work, we propose a set of dynamic decomposition strategies for multi-controlled Toffoli gates that exploit adaptive circuit execution and ancilla-assisted constructions. Our methods systematically reduce entangling-gate count, T-count, and T-depth compared with conventional static decompositions, while preserving fault-tolerance guarantees. Through analytical cost models and experimental evaluation, we demonstrate that relative-phase primitives and measurement-conditioned corrections enable scalable implementations with improved depth and resource efficiency.",
+  "title_relatable": "Mid-circuit measurements cut the cost of a quantum logic workhorse",
+  "hook": "Using mid-circuit measurements and classical feedforward, these decompositions reduce the gate count and circuit depth needed to implement multi-controlled Toffoli gates without sacrificing fault tolerance.",
+  "summary": "Multi-controlled Toffoli gates underpin quantum arithmetic but are expensive to compile into hardware-native operations. By splitting execution into adaptive stages — measuring ancilla qubits partway through and applying corrections conditioned on those results — the authors reduce both the number of entangling gates and the T-count relative to standard static decompositions. Relative-phase variants of primitive gates absorb some overhead that fixed circuits cannot. The gains scale with the number of controls, making the approach relevant for near-term and fault-tolerant devices alike.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 886,
+  "tokens_out": 202,
+  "cost_usd": 0.005688,
+  "ingested_at": "2026-05-19T03:00:20.006457+00:00"
+}

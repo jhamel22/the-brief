@@ -1,0 +1,22 @@
+{
+  "id": "2605.17751",
+  "arxiv_url": "https://arxiv.org/abs/2605.17751",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "An Alternative Viewpoint on Kinematic Flow from Tubing Splitting",
+  "authors": "Ji-Yuan Ke, Ping He",
+  "abstract": "The differential equations satisfied by the wavefunction coefficients of conformally coupled scalars in a power-law cosmology can be recast into an iterative differential system of basis functions. These functions can be encoded within graph tubings, and are governed by a set of rules describing how they flow in kinematic space. In this paper we propose a new viewpoint on the kinematic flow by reformulating the relations among these basis functions through reversing the evolution direction of the tubings. The differential equations can then be derived by constructing appropriate splitting rules equivalent to the kinematic flow (at tree level). While the implementation of these rules can be somewhat complicated, they reveal richer physical structures underlying the differential equations, such as singularities and local evolution. Under an alternative basis based on time ordering, these rules offer important implications for how time emerges from kinematic space. This conclusion is even not restricted to individual Feynman diagrams, and can be generalized to the tr $φ^3$ theory. This suggests that the tubings, as well as the kinematic flow, might be more fundamental objects than the differential equations, and have a life of their own.",
+  "title_relatable": "Reversing cosmological time to find simpler quantum rules",
+  "hook": "Flipping the direction of a graphical calculus for early-universe quantum amplitudes reveals how time itself might emerge from purely geometric, kinematic data.",
+  "summary": "Wavefunction coefficients describing scalar fields in an expanding power-law universe obey differential equations that can be represented as diagrams called graph tubings flowing through kinematic space. By reversing the direction of that flow and introducing new splitting rules, the authors show that the same differential equations, their singularities, and their local structure emerge naturally from the geometry rather than being imposed. The reframing works beyond individual Feynman diagrams and extends to an entire class of scalar theories, suggesting that the tubing structures—not the differential equations—are the more primitive objects, with time ordering appearing as a derived consequence.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 929,
+  "tokens_out": 209,
+  "cost_usd": 0.005922,
+  "ingested_at": "2026-05-19T02:57:36.924497+00:00"
+}

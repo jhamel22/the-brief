@@ -1,0 +1,24 @@
+{
+  "id": "2605.18079",
+  "arxiv_url": "https://arxiv.org/abs/2605.18079",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CC",
+    "cs.CL"
+  ],
+  "title_original": "The Expressive Power of Low Precision Softmax Transformers with (Summarized) Chain-of-Thought",
+  "authors": "Moritz Brösamle, Stephan Eckstein",
+  "abstract": "Existing expressivity results for transformers typically rely on hardmax attention, high precision, and other architectural modifications that disconnect them from the models used in practice. We bridge this gap by analyzing standard transformer decoders with softmax attention and rounding of activations and attention weights, while allowing depth and width to grow logarithmically with the context length. As an intermediate step, we construct hardmax transformers with ternary activations and well-separated attention scores that simulate Turing machines using Chain-of-Thought (CoT). This lets us convert the constructions to equivalent softmax transformers without the unrealistic parameter magnitudes or activation precision that prior approaches would require. Using the same technique, we analyze a recently proposed summarized CoT paradigm and show that it simulates Turing machines more efficiently, with model size scaling logarithmically in a space bound rather than a time bound. We empirically test predictions made by our results on a Sudoku reasoning task and find better alignment with learnability than for prior high-precision results. Our code is available at https://github.com/moritzbroe/transformer-expressivity.",
+  "title_relatable": "How low-precision transformers achieve real computational power",
+  "hook": "Proves that standard softmax transformers with realistic precision and logarithmic scaling can simulate Turing machines, closing the gap between theory and practical models.",
+  "summary": "Prior expressivity results for transformers required unrealistic assumptions: hardmax attention, high-precision arithmetic, or expensive architectural modifications. This work shows that standard transformer decoders with softmax attention and rounded activations/weights can compute anything a Turing machine can, as long as depth and width scale logarithmically with context length. The authors construct hardmax transformers using Chain-of-Thought to simulate Turing machines, then convert them to softmax equivalents without requiring extreme precision. They also analyze a recently proposed summarized CoT approach, showing it uses model size scaling logarithmically in space rather than time. Empirical validation on Sudoku reasoning tasks better predicts learnability than prior high-precision results. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 936,
+  "tokens_out": 240,
+  "cost_usd": 0.0017088000000000001,
+  "ingested_at": "2026-05-19T03:17:25.890369+00:00"
+}

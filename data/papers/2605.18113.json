@@ -1,0 +1,22 @@
+{
+  "id": "2605.18113",
+  "arxiv_url": "https://arxiv.org/abs/2605.18113",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "iPOE: Interpretable Prompt Optimization via Explanations",
+  "authors": "Jiahui Li, Sean Papay, Roman Klinger",
+  "abstract": "Prompt optimization has often been framed as a discrete search problem to find high-performing and robust instructions for an LLM. However, the search result might not make it transparent why and where specific prompt changes lead to performance gains. This is in contrast to how humans are instructed for annotation tasks. Here, researchers carefully design annotation guidelines, leading to enhanced annotation consistency. Our paper aims at joining these two approaches and introduces iPOE, a novel interpretable prompt optimization strategy via explanations. We guide the prompt optimization process by automatically created guidelines from explanations of annotation decisions (either automatically generated or from humans). This set of guidelines is furthermore optimized by as series of operations, including removing, adding, shuffling, and merging. The resulting prompt includes guidelines that instruct the annotation, making the decision process of the LLM and the optimization transparent. It therefore supports also laypeople in the area of prompt optimization, particularly in challenging domains requiring expertise. In our experiments on four datasets, we find that iPOE can improves over prompts without guidelines and with random selected guidelines by up to $31\\%$ and $35\\%$, respectively. Moreover, LLM explanations can replace human explanations in the proposed method.",
+  "title_relatable": "Making prompt optimization transparent through explanations",
+  "hook": "A method that optimizes prompts by automatically extracting and refining annotation guidelines from LLM explanations, improving performance by up to 35% over baseline prompts while keeping the reasoning transparent.",
+  "summary": "Prompt optimization typically treats instruction design as a black-box search problem, obscuring why changes succeed or fail. iPOE instead guides optimization by extracting guidelines from explanations of annotation decisions—either from the LLM itself or humans—then iteratively refines these guidelines through removal, addition, shuffling, and merging. The resulting prompts are interpretable, embedding explicit annotation instructions that make both the model's reasoning and the optimization process transparent. Tested on four datasets, iPOE achieves up to 35% improvement over random guidelines and up to 31% over prompts lacking guidelines. Importantly, automatically generated LLM explanations perform comparably to human explanations, lowering the barrier for non-experts to optimize prompts in specialized domains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 939,
+  "tokens_out": 249,
+  "cost_usd": 0.0017472,
+  "ingested_at": "2026-05-19T03:16:58.364717+00:00"
+}

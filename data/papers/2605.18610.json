@@ -1,0 +1,24 @@
+{
+  "id": "2605.18610",
+  "arxiv_url": "https://arxiv.org/abs/2605.18610",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "CATA: Continual Machine Unlearning via Conflict-Averse Task Arithmetic",
+  "authors": "Shen Lin, Junhao Dong, Rongjie Chen, Xiaoyu Zhang, Li Xu, Xiaofeng Chen",
+  "abstract": "Vision-language models (VLMs) have shown remarkable ability in aligning visual and textual representations, enabling a wide range of multimodal applications. However, their large-scale training data inevitably raises concerns about privacy, copyright, and undesirable content, creating a strong need for machine unlearning. While existing studies mainly focus on single-shot unlearning, practical VLM deployment often involves sequential removal requests over time, giving rise to continual machine unlearning. In this work, we make the first attempt to study continual unlearning for VLMs and identify three key challenges in this setting: effectiveness in removing target knowledge, fidelity in preserving retained model utility, and persistence in preventing knowledge re-emergence under sequential updates. To address these challenges, we propose CATA, a conflict-averse task arithmetic method that represents each forget request as an unlearning task vector. By maintaining historical task vectors and performing sign-aware conflict-averse aggregation, CATA suppresses conflicting update components that may weaken previous forgetting effects. Extensive experiments under both single-shot and continual settings show that CATA outperforms baselines in terms of forgetting effectiveness, model fidelity, and forgetting persistence.",
+  "title_relatable": "Teaching vision-language models to forget on demand",
+  "hook": "New method for continually removing unwanted knowledge from vision-language models while preserving their utility, addressing privacy and copyright concerns at scale.",
+  "summary": "Vision-language models trained on massive datasets often contain copyrighted or sensitive material that must be removable on demand. Existing unlearning approaches handle one-off deletion requests, but real deployments face sequential removal requests over time. CATA uses task arithmetic to represent each forget request as a vector, then aggregates these vectors while suppressing conflicting updates that would undo previous deletions. Experiments show CATA outperforms baselines in removing target knowledge, maintaining model performance on retained tasks, and preventing knowledge from re-emerging under sequential updates.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 971,
+  "tokens_out": 194,
+  "cost_usd": 0.0015528000000000002,
+  "ingested_at": "2026-05-19T03:13:45.633373+00:00"
+}

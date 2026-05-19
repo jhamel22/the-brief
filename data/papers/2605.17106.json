@@ -1,0 +1,23 @@
+{
+  "id": "2605.17106",
+  "arxiv_url": "https://arxiv.org/abs/2605.17106",
+  "announced_date": "2026-05-16",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "HyDRA: Hybrid Dynamic Routing Architecture for Heterogeneous LLM Pools",
+  "authors": "Aashna Garg, Siddharth Singha Roy, Jinu Jang, Federico Brancasi, Shengyu Fu",
+  "abstract": "Production LLM deployments increasingly maintain heterogeneous model pools spanning order-of-magnitude cost differences. Existing routers make binary strong-vs-weak decisions and couple learned parameters to specific model identities, requiring retraining whenever the catalog changes. We present HyDRA (Hybrid Dynamic Routing Architecture), a framework that predicts fine-grained, multi-dimensional capability requirements per query and matches them against configuration-defined model profiles via shortfall matching. A ModernBERT encoder with K=4 independent sigmoid heads scores each query along reasoning, code generation, debugging, and tool use; a shortfall-matching algorithm then selects the cheapest model whose capabilities meet the predicted requirements. The deployed predictor runs at 86 ms median CPU inference latency in production, and is fully decoupled from the model catalog -- adding or removing models requires only a configuration change, with zero retraining. On SWE-Bench Verified (5-model pool: GPT-5.4-mini, Claude Haiku 4.5, GPT-5.3 Codex, Claude Sonnet 4.6, GPT-5.4), HyDRA's tunable shortfall threshold spans three regimes: peak-quality exceeds the always-strong Claude Sonnet 4.6 baseline (75.4% vs. 74.2% resolution) at 12.9% cost savings; iso-quality matches Sonnet at 54.1% cost savings, a 6x improvement over our prior in-house binary router at 9.1%; aggressive pushes savings to 72.5% for a 3.2-point quality trade. Results generalize across LiveCodeBench, BigCodeBench, and tau-bench. HyDRA is deployed to all users in GitHub Copilot's VS Code Chat auto-mode and -- to our knowledge for the first time in the LLM routing literature -- demonstrates language-invariant routing across CJK, European, and other script families.",
+  "title_relatable": "Routing queries to the right AI model without retraining",
+  "hook": "A routing system that predicts what capabilities each query needs and matches it to the cheapest model that can handle it, cutting inference costs by 54% while maintaining quality.",
+  "summary": "Production LLM systems often maintain pools of models with vastly different costs and capabilities. HyDRA uses a ModernBERT encoder to score each query across four dimensions—reasoning, code generation, debugging, and tool use—then selects the cheapest model meeting those predicted needs. Unlike prior routers that require retraining when models are added or removed, HyDRA's predictor runs decoupled from the catalog, needing only configuration changes. On SWE-Bench Verified, it achieves 54.1% cost savings versus always using Claude Sonnet while matching its quality, and 6× better savings than the prior binary router. The system is deployed in GitHub Copilot's VS Code Chat and handles language-invariant routing across CJK, European, and other scripts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1152,
+  "tokens_out": 262,
+  "cost_usd": 0.0019695999999999997,
+  "ingested_at": "2026-05-19T03:19:18.984524+00:00"
+}
