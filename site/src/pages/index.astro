@@ -4,6 +4,7 @@
  *
  * Combined feed from all active subjects.
  */
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { getActiveSubjects, loadSubjectPapers, loadSubjectsConfig } from '../lib/data.js';
 
 const { subjects: allSubjects = [] } = loadSubjectsConfig();
@@ -28,32 +29,8 @@ const papersJSON = JSON.stringify(allPapers);
 const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' };
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>The Brief — arXiv distilled</title>
-  <meta name="description" content={`Daily arXiv summaries from across all subjects, distilled.`}/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap"/>
+<BaseLayout bodyClass="mode-full">
   <style>
-    /* ── Design tokens ────────────────────────────────────────── */
-    :root{
-      --bg:#f6f2e9;--ink:#1a1612;--ink-soft:#5a5048;--ink-faint:#8a8278;
-      --rule:#d8cfbe;--accent:#8b1a1a;--glow:rgba(139,26,26,.15);
-      --sidebar-w:260px;
-      --serif:'Newsreader',Georgia,serif;
-      --mono:'JetBrains Mono',monospace;
-      --display:'Instrument Serif',serif;
-    }
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{background:var(--bg);color:var(--ink);font-family:var(--serif);
-      font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh}
-
-    /* ── Layout ─────────────────────────────────────────────── */
     .layout{display:flex;min-height:100vh}
 
     /* ── Sidebar ─────────────────────────────────────────────── */
@@ -313,9 +290,8 @@ const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' 
       .brief-row{grid-template-columns:1fr;gap:6px}
     }
   </style>
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "91b5a6ff63094e21b49e68e6bd4006cd"}'></script><!-- End Cloudflare Web Analytics -->
-</head>
-<body class="mode-full">
+  </style>
+
 <div class="layout">
 
   <!-- SIDEBAR -->
@@ -1003,5 +979,4 @@ buildTopicChips();
 render();
 setTimeout(initScrollSpy, 100);
 </script>
-</body>
-</html>
+</BaseLayout>

@@ -1,0 +1,87 @@
+---
+/**
+ * site/src/layouts/BaseLayout.astro
+ *
+ * Shared base layout for all pages. Handles <head> metadata, fonts,
+ * analytics, and common styles. Pages provide their own <body> content.
+ */
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalURL?: string;
+  ogType?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogUrl?: string;
+  jsonLd?: object;
+  bodyClass?: string;
+}
+
+const {
+  title = "The Brief — arXiv distilled",
+  description = "Daily arXiv summaries from across all subjects, distilled.",
+  canonicalURL,
+  ogType = "website",
+  ogTitle,
+  ogDescription,
+  ogUrl,
+  jsonLd,
+  bodyClass = ""
+} = Astro.props;
+
+const finalOgTitle = ogTitle || title;
+const finalOgDescription = ogDescription || description;
+const finalOgUrl = ogUrl || canonicalURL || Astro.url.href;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+  <!-- SEO -->
+  <title>{title}</title>
+  <meta name="description" content={description}/>
+  {canonicalURL && <link rel="canonical" href={canonicalURL}/>}
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={ogType}/>
+  <meta property="og:title" content={finalOgTitle}/>
+  <meta property="og:description" content={finalOgDescription}/>
+  <meta property="og:url" content={finalOgUrl}/>
+
+  <!-- JSON-LD Structured Data -->
+  {jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}/>
+  )}
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap"/>
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "91b5a6ff63094e21b49e68e6bd4006cd"}'></script>
+
+  <style is:global>
+    /* ── Design tokens ────────────────────────────────────────── */
+    :root{
+      --bg:#f6f2e9;--ink:#1a1612;--ink-soft:#5a5048;--ink-faint:#8a8278;
+      --rule:#d8cfbe;--accent:#8b1a1a;--glow:rgba(139,26,26,.15);
+      --sidebar-w:260px;
+      --serif:'Newsreader',Georgia,serif;
+      --mono:'JetBrains Mono',monospace;
+      --display:'Instrument Serif',serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--ink);font-family:var(--serif);
+      font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh}
+  </style>
+</head>
+<body class={bodyClass}>
+  <slot />
+</body>
+</html>
