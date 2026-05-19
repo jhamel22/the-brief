@@ -315,14 +315,22 @@ const subjectConfig = { code: 'all', name: 'All Subjects', domain: 'All Fields' 
               const friendlyName = {
                 'gr-qc': 'Gen. Relativity',
                 'hep-th': 'HEP Theory',
+                'hep-ph': 'Particle Physics',
                 'quant-ph': 'Quantum Physics',
                 'astro-ph.CO': 'Cosmology',
+                'astro-ph.HE': 'High-Energy Astrophysics',
+                'physics.soc-ph': 'Physics & Society',
                 'cs.LG': 'Machine Learning',
                 'cs.AI': 'Artificial Intelligence',
                 'cs.CV': 'Computer Vision',
                 'cs.CL': 'Computation & Language',
                 'cs.RO': 'Robotics',
-              }[s.code] || s.code;
+                'stat.ML': 'Statistical ML',
+                'q-bio.NC': 'Neuroscience',
+                'q-bio.PE': 'Populations & Evolution',
+                'q-fin.TR': 'Trading',
+                'econ.GN': 'Economics',
+              }[s.code] || s.name || 'Other';
               return (
                 <a
                   class="sb-subject-link"
@@ -515,18 +523,68 @@ const topicNameMap = {
   'cs.SI': 'Social Networks',
   'cs.MM': 'Multimedia',
   'cs.NA': 'Numerical Analysis',
+  'cs.CY': 'Computers & Society',
+  'cs.LO': 'Logic in CS',
+  'cs.FL': 'Formal Languages',
+  'cs.SC': 'Symbolic Computation',
+  'cs.CE': 'Computational Engineering',
+  'cs.GR': 'Graphics',
+  'cs.DL': 'Digital Libraries',
+  'cs.DM': 'Discrete Math',
+  'cs.ET': 'Emerging Technologies',
+  'cs.MS': 'Math Software',
+  'cs.OH': 'Other CS',
+  'cs.PF': 'Performance',
+  'cs.OS': 'Operating Systems',
+  'cs.SD': 'Sound',
+  'physics.ao-ph': 'Atmospheric Physics',
+  'physics.app-ph': 'Applied Physics',
+  'physics.atom-ph': 'Atomic Physics',
+  'physics.bio-ph': 'Biological Physics',
+  'physics.chem-ph': 'Chemical Physics',
+  'physics.class-ph': 'Classical Physics',
+  'physics.comp-ph': 'Computational Physics',
+  'physics.flu-dyn': 'Fluid Dynamics',
+  'physics.gen-ph': 'General Physics',
+  'physics.geo-ph': 'Geophysics',
+  'physics.ins-det': 'Instrumentation',
+  'physics.med-ph': 'Medical Physics',
+  'physics.optics': 'Optics',
+  'physics.plasm-ph': 'Plasma Physics',
+  'physics.soc-ph': 'Physics & Society',
+  'physics.space-ph': 'Space Physics',
   'eess.SP': 'Signal Processing',
   'eess.IV': 'Image & Video',
   'eess.AS': 'Audio & Speech',
   'eess.SY': 'Systems & Control',
   'stat.ML': 'Statistical ML',
-  'stat.ME': 'Statistics',
+  'stat.ME': 'Statistical Methods',
+  'stat.AP': 'Applied Statistics',
+  'stat.CO': 'Statistical Computing',
+  'stat.OT': 'Other Statistics',
+  'stat.TH': 'Statistics Theory',
   'q-bio.NC': 'Neuroscience',
   'q-bio.BM': 'Biomolecules',
-  'q-bio.PE': 'Evolution',
-  'q-fin.TR': 'Trading',
-  'q-fin.RM': 'Risk Management',
+  'q-bio.CB': 'Cell Biology',
+  'q-bio.GN': 'Genomics',
+  'q-bio.MN': 'Molecular Networks',
+  'q-bio.OT': 'Other Bio',
+  'q-bio.PE': 'Populations & Evolution',
+  'q-bio.QM': 'Quantitative Methods',
+  'q-bio.SC': 'Subcellular',
+  'q-bio.TO': 'Tissues & Organs',
+  'q-fin.CP': 'Computational Finance',
+  'q-fin.EC': 'Financial Economics',
+  'q-fin.GN': 'General Finance',
+  'q-fin.MF': 'Mathematical Finance',
   'q-fin.PM': 'Portfolio Management',
+  'q-fin.PR': 'Pricing',
+  'q-fin.RM': 'Risk Management',
+  'q-fin.ST': 'Statistical Finance',
+  'q-fin.TR': 'Trading',
+  'econ.EM': 'Econometrics',
+  'econ.GN': 'Economics',
+  'econ.TH': 'Economic Theory',
 };
 
 // Short versions for scan tags
@@ -565,7 +623,7 @@ function getPaperTopic(p) {
 
 // Get readable topic name
 function getTopicName(code) {
-  return topicNameMap[code] || code;
+  return topicNameMap[code] || 'Other';
 }
 
 function filteredPapers() {
@@ -589,7 +647,7 @@ function filteredPapers() {
 // ═══════════════════════════════════════════════════
 function renderScan(p) {
   const topicCode = p.subjects_all?.[0] || p.subject || '';
-  const topic = topicTagMap[topicCode] || topicCode.split('.').pop()?.slice(0, 4).toUpperCase() || 'MISC';
+  const topic = topicTagMap[topicCode] || 'Other';
   return `<a href="/${p.subjectSlug}/${p.id}/" class="scan-row" style="padding: 16px 0; border-top: 1px solid rgba(138,130,120,0.4); display: flex; align-items: baseline; gap: 12px; text-decoration: none; color: inherit;">
     <span class="scan-tag">${topic}</span>
     <span style="color: var(--ink-faint); margin: 0 8px;">·</span>
