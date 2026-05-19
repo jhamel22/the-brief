@@ -225,27 +225,27 @@ const activeSubjects = allSubjects.filter(s => s.active);
     .scan-row:hover .scan-arrow{transform:translateX(3px);color:var(--accent)}
 
     /* ── Toggle bars ───────────────────────────────────────── */
-    .card-toggle-less{
-      margin-top:16px;padding:8px 0;text-align:center;border-top:1px solid var(--rule);
-      font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;
-      color:var(--ink-faint);cursor:pointer;transition:all .15s;user-select:none;
+    .toggle-less{
+      padding:8px 0;text-align:center;width:100%;border-top:1px solid var(--rule);
+      font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+      color:var(--ink-faint);cursor:pointer;transition:color .15s;user-select:none;
+      display:block;
     }
-    .card-toggle-less:hover{color:var(--accent)}
-
-    .card-toggle-more{
-      margin-top:8px;padding:8px 0;text-align:center;width:100%;
-      font-family:var(--mono);font-size:9px;letter-spacing:.15em;text-transform:uppercase;
-      color:var(--ink-faint);cursor:pointer;transition:all .15s;user-select:none;
+    .toggle-less:hover{color:var(--accent)}
+    .toggle-more{
+      padding:8px 0;text-align:center;width:100%;border-top:1px solid var(--rule);
+      font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+      color:var(--ink-faint);cursor:pointer;transition:color .15s;user-select:none;
       display:none;
     }
-    .card-toggle-more:hover{color:var(--accent)}
+    .toggle-more:hover{color:var(--accent)}
+    .collapsed .toggle-less{display:none}
+    .collapsed .toggle-more{display:block}
 
     /* Collapse animations */
     .card-body,.brief-extra{max-height:3000px;overflow:hidden;opacity:1;
       transition:max-height .4s ease,opacity .25s ease}
     .full-card.collapsed .card-body,.brief-row.collapsed .brief-extra{max-height:0;opacity:0}
-    .full-card.collapsed .card-toggle-less,.brief-row.collapsed .card-toggle-less{display:none}
-    .full-card.collapsed .card-toggle-more,.brief-row.collapsed .card-toggle-more{display:block}
     .full-card.collapsed{padding:14px 0}
     .full-card.collapsed .card-title{font-size:20px;margin:6px 0 3px;cursor:pointer}
     .full-card.collapsed .card-authors{font-size:13px;margin-bottom:0}
@@ -671,11 +671,11 @@ function renderScan(p) {
 
 function renderBrief(p) {
   const cls = state.collapsed.has(p.id) ? ' collapsed' : '';
-  return `<div class="brief-row${cls}" data-id="${p.id}">
+  return `<div class="brief-row${cls}" data-id="${p.id}" style="padding: 20px 0;">
     <div class="brief-body">
-      <h3><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a></h3>
-      <p class="brief-authors">${p.authors} · <span style="color:var(--ink-faint);font-size:13px">${shortDate(p.announced_date)}</span></p>
-      <div class="card-toggle-more" onclick="togglePaper('${p.id}',this)">▼ more</div>
+      <h3 style="margin-bottom: 10px;"><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a></h3>
+      <p class="brief-authors" style="margin-bottom: 10px;">${p.authors} · <span style="color:var(--ink-faint);font-size:13px">${shortDate(p.announced_date)}</span></p>
+      <div class="toggle-more" onclick="togglePaper('${p.id}',this)">▼ more</div>
       <div class="brief-extra">
         <p class="brief-hook">${p.hook || ''}</p>
         <p class="brief-cite">
@@ -683,7 +683,7 @@ function renderBrief(p) {
           <a href="${p.arxiv_url}" target="_blank"><em>${p.title_original}</em></a>
           <span class="arxiv-id">arXiv:${p.id}</span>
         </p>
-        <div class="card-toggle-less" onclick="togglePaper('${p.id}',this)">▲ less</div>
+        <div class="toggle-less" onclick="togglePaper('${p.id}',this)">▲ less</div>
       </div>
     </div>
   </div>
@@ -692,18 +692,18 @@ function renderBrief(p) {
 
 function renderFull(p) {
   const cls = state.collapsed.has(p.id) ? ' collapsed' : '';
-  return `<article class="full-card${cls}" data-id="${p.id}">
-    <h2 class="card-title"><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a></h2>
-    <p class="card-authors">${p.authors} · <span style="color:var(--ink-faint);font-size:14px">${shortDate(p.announced_date)}</span></p>
-    <div class="card-toggle-more" onclick="togglePaper('${p.id}',this)">▼ more</div>
+  return `<article class="full-card${cls}" data-id="${p.id}" style="padding: 40px 0; border-top: 2px solid var(--rule);">
+    <h2 class="card-title" style="margin-bottom: 14px; line-height: 1.15;"><a href="/${subjectSlug}/${p.id}/" style="color:inherit;text-decoration:none">${p.title_relatable || p.title_original}</a></h2>
+    <p class="card-authors" style="margin-bottom: 22px;">${p.authors} · <span style="color:var(--ink-faint);font-size:14px">${shortDate(p.announced_date)}</span></p>
+    <div class="toggle-more" onclick="togglePaper('${p.id}',this)">▼ more</div>
     <div class="card-body">
       <div class="card-summary">${p.summary || p.hook || ''}</div>
-      <p class="card-cite">
+      <p class="card-cite" style="margin-top: 24px; padding-top: 18px; border-top: 1px dashed var(--ink-faint);">
         <span class="cite-lbl">Published as</span>
         <a href="${p.arxiv_url}" target="_blank"><em>${p.title_original}</em></a>
         <span class="arxiv-id">arXiv:${p.id}</span>
       </p>
-      <div class="card-toggle-less" onclick="togglePaper('${p.id}',this)">▲ less</div>
+      <div class="toggle-less" onclick="togglePaper('${p.id}',this)">▲ less</div>
     </div>
   </article>
   <hr style="border:none; border-top: 2px solid #d8cfbe; margin: 24px 0;">`
