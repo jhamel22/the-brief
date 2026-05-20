@@ -1,0 +1,22 @@
+{
+  "id": "2605.18672",
+  "arxiv_url": "https://arxiv.org/abs/2605.18672",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Position: A Three-Layer Probabilistic Assume-Guarantee Architecture Is Structurally Required for Safe LLM Agent Deployment",
+  "authors": "S. Bensalem, Y. Dong, M. Franzle, X. Huang, J. Kroger, D. Nickovic, A. Nouri, R. Roy, C. Wu",
+  "abstract": "This position paper argues that enforcing LLM agent safety within a single abstraction layer is not merely suboptimal but categorically insufficient for deployed LLM agents -- a structural consequence of how agent execution works, not a contingent limitation of current systems. The three dimensions that jointly constitute safe operation -- semantic intent and policy compliance, environmental validity, and dynamical feasibility -- each depend on a strictly distinct set of information that becomes available at different stages of execution. No single guardrail can certify all three. We argue that the community must respond with a contract-based architecture in which each safety dimension is enforced by an independently certified layer whose probabilistic guarantee satisfies the next layer's assumption. We sketch such an architecture and derive the compositional system-level safety bounds it admits via the chain rule of probability. Three open problems stand between this and a deployable standard: bound estimation from non-i.i.d.\\ traces, graceful degradation of contracts under deployment drift, and extension to multi-agent settings -- the most important unfinished business in LLM agent runtime assurance.",
+  "title_relatable": "Why one safety layer isn't enough for AI agents",
+  "hook": "Safe LLM agents need three independent verification layers—one checking intent, one checking reality, one checking physics. A single guardrail cannot cover all three.",
+  "summary": "Current safety approaches for language model agents try to enforce all guarantees in one place, but this is structurally impossible. Different safety concerns—whether the agent's goals are legal, whether the world matches expectations, whether actions are physically feasible—become knowable only at different moments in execution. The authors propose a three-layer contract-based architecture where each layer independently certifies one concern and passes probabilistic guarantees to the next, deriving compositional safety bounds. Three hard problems remain: learning these bounds from messy real-world data, handling systems that drift from training, and extending to multi-agent scenarios.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 945,
+  "tokens_out": 211,
+  "cost_usd": 0.0016,
+  "ingested_at": "2026-05-20T00:31:48.075807+00:00"
+}

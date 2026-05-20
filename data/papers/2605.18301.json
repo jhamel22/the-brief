@@ -1,0 +1,22 @@
+{
+  "id": "2605.18301",
+  "arxiv_url": "https://arxiv.org/abs/2605.18301",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Probing Reionization up to the Mark: The Marked Power Spectrum to unveil the HI 21-cm signal from the EoR",
+  "authors": "Vishrut Pandya, Leon Noble, Suman Majumdar, Debanjan Sarkar, Mohd Kamran, Abhirup Datta",
+  "abstract": "The redshifted 21-cm signal from neutral hydrogen (HI) in the intergalactic medium (IGM) is a powerful probe of the Epoch of Reionization (EoR). Owing to the complex growth and morphology of ionized regions, the 21-cm brightness-temperature field becomes strongly non-Gaussian during the EoR, limiting the information captured by the standard power spectrum alone. While higher-order statistics such as the bispectrum can recover part of this information, they are computationally expensive and often less straightforward to interpret. In this work, we investigate marked statistics as an alternative framework for characterizing the EoR 21-cm signal. Using semi-numerical 21-cm simulations, we introduce a set of EoR-tailored mark functions, inspired by and extending existing marked-statistics ideas, and study both the power spectrum of the mark and that of the marked field. We show that suitably chosen marks can selectively enhance contributions from different IGM environments, capture additional non-Gaussian information beyond the standard power spectrum, and improve the statistical constraining power on EoR model parameters in a Fisher-matrix analysis. These results demonstrate that Fourier-space marked statistics, including both the power spectrum of the mark and that of the marked field, provide a computationally simple and flexible extension of standard two-point statistics for extracting astrophysical information from the EoR 21-cm signal.",
+  "title_relatable": "A simpler way to read the 21-cm signal from the cosmic dawn",
+  "hook": "Marked statistics can extract hidden information about reionization from 21-cm observations more easily than existing methods.",
+  "summary": "The 21-cm glow from neutral hydrogen during reionization is twisted into non-Gaussian patterns that standard power spectra miss. The authors tested marked statistics—a technique that weights data by custom properties to highlight specific features—on 21-cm simulations and found they capture reionization physics as well as expensive bispectrum analyses but with less computational cost. This approach could tighten constraints on how and when the universe reionized when applied to upcoming radio telescopes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1059,
+  "tokens_out": 182,
+  "cost_usd": 0.0015752000000000001,
+  "ingested_at": "2026-05-20T00:26:47.279231+00:00"
+}

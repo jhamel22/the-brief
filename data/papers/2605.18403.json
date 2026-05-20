@@ -1,0 +1,24 @@
+{
+  "id": "2605.18403",
+  "arxiv_url": "https://arxiv.org/abs/2605.18403",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Tachyonic (In)stability in Randall-Sundrum Braneworld Scenarios",
+  "authors": "Abhirup Karmakar, Soumitra SenGupta",
+  "abstract": "Low-energy effective theories provide a natural description of four-dimensional physics in higher-dimensional geometries, where the imprint of the bulk geometry appears as parameters of the lower-dimensional theory. Inspired by the Damour-Esposito-Farése (DEF) model of spontaneous scalarization in first generation Scalar-Tensor theories of gravity, we investigate the possibility of tachyonic instability and spontaneous scalarization in braneworld scenarios. We consider the two-brane Randall-Sundrum model where the low-energy effective theory on either brane is of scalar-tensor nature with the extra-dimensional radion playing the role of the scalar. We have determined the possibilities for tachyonic (in)stability of the radion field on either branes in three scenarios: the Randall-Sundrum (RS) model with fine-tuning conditions in which the potential of the radion field vanishes identically, the RS model without fine-tunings where the radion potential arises purely from the gravity sector, and the RS model with a bulk stabilizing field that generates a radion potential with a minimum. With the bulk stabilizing field, we have found that on-brane matter with $T>0$ changes the VEV of the radion, destroying the resolution of the gauge hierarchy problem, whereas on-brane matter with $T<0$ does not alter the stability and VEV of the radion. We further determined the exact condition of tachyonic (in)stability of radion field on Planck brane with the FLRW background geometry on the brane. Finally, we have extended the same formalism to study the tachyonic (in)stability conditions of $f(R)$ theories of gravity with the motivation that the 4D effective theory on RS branes can be casted into a $f(R)$ theory on the branes at the inflationary epoch of cosmology.",
+  "title_relatable": "Does extra-dimensional physics destabilize our universe's fundamental constants?",
+  "hook": "Matter with positive trace of stress-energy can shift the radion field's vacuum, potentially ruining the solution to the hierarchy problem.",
+  "summary": "In Randall-Sundrum braneworld models, a scalar field called the radion sets the size of the extra dimension and explains why gravity is so weak compared to other forces. This study maps out exactly when that radion becomes tachyonically unstable — essentially when it wants to roll away from its stable value — finding that ordinary positive-trace matter on the brane can destroy the mechanism that solves the hierarchy problem, while negative-trace matter leaves it intact. The result ties extra-dimensional stability directly to the matter content of our universe and extends to f(R) gravity theories relevant during inflation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1135,
+  "tokens_out": 205,
+  "cost_usd": 0.00648,
+  "ingested_at": "2026-05-20T00:20:11.610307+00:00"
+}

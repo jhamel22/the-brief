@@ -1,0 +1,23 @@
+{
+  "id": "2605.18428",
+  "arxiv_url": "https://arxiv.org/abs/2605.18428",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "Probing (sub-)solar-mass black holes and superspinars with current and next-generation gravitational-wave observatories",
+  "authors": "K. S. Sruthy, N. V. Krishnendu, Chandrachur Chakraborty, Nami Uchikata",
+  "abstract": "Gravitational-wave observations provide a powerful probe of compact objects and strong-field gravity. In this work, we investigate the detectability of binaries containing (sub-)solar-mass black holes and superspinars with current and next-generation gravitational-wave observatories. Such objects may arise from primordial formation channels or from more exotic high-energy scenarios, and their detection would provide important insights into the population of low-mass compact objects and the physics of extreme gravitational fields. We model the gravitational-wave signals using the frequency-domain post-Newtonian inspiral waveform model TaylorF2, and truncate the signal at the innermost stable circular orbit (ISCO) to avoid contamination from the post-inspiral regime. We assess the observability of these systems using the sensitivities of current detectors such as Advanced LIGO and upcoming third-generation observatories including the Einstein Telescope and Cosmic Explorer. Our results show that while current detectors have limited reach for very low-mass binaries, third-generation observatories can enhance both detection capability and parameter-estimation precision. Their improved strain sensitivity and extended low-frequency coverage allow these observatories to track the inspiral phase over a substantially larger number of gravitational-wave cycles. As a result, they achieve considerably higher signal-to-noise ratios and provide dramatically improved constraints on binary parameters. In particular, it is possible to measure the primary spin parameter with precision $Δχ_{1z}~\\sim~10^{-4}-10^{-3}$, potentially allowing clear observational discrimination between near-extremal black holes and superspinars in the mass range $0.1~M_\\odot-2~M_\\odot$ and with signal-to-noise ratio of $\\sim 100-350$.",
+  "title_relatable": "Could next-gen detectors tell black holes from spinning exotic objects?",
+  "hook": "Einstein Telescope could measure a compact object's spin to four decimal places — enough to distinguish black holes from hypothetical \"superspinars.\"",
+  "summary": "Using post-Newtonian waveform models, the authors assess how well current and future gravitational-wave detectors could characterize binaries containing sub-solar-mass black holes or superspinars — exotic objects that spin faster than general relativity normally allows. While Advanced LIGO struggles with these low-mass systems, third-generation detectors like Einstein Telescope and Cosmic Explorer could pin down the primary spin to within 0.001, achieving SNRs of 100–350. That precision would be enough to observationally separate near-extremal black holes from superspinars in the 0.1–2 solar-mass range.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1131,
+  "tokens_out": 222,
+  "cost_usd": 0.006723,
+  "ingested_at": "2026-05-20T00:20:01.161981+00:00"
+}

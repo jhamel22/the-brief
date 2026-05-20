@@ -1,0 +1,23 @@
+{
+  "id": "2605.18633",
+  "arxiv_url": "https://arxiv.org/abs/2605.18633",
+  "announced_date": "2026-05-18",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ME",
+    "stat.ML"
+  ],
+  "title_original": "Stable Causal Discovery via Directed Acyclic Graph Aggregation",
+  "authors": "Yunan Wu, Yue Wang, Chunlin Li, Chenglong Ye",
+  "abstract": "Directed Acyclic Graphs (DAGs) are central to uncovering causal structure in complex systems, yet learning a single DAG from data is often challenging: model uncertainty, finite samples, and a combinatorially large search space frequently yield unstable estimates. We propose DAGgr, a model averaging framework that aggregates multiple candidate DAGs into a single stable representation. Candidate graphs are weighted by their out-of-sample predictive likelihood across repeated data splits, and a thresholding rule on the resulting edge-importance scores guarantees that the aggregated graph is itself acyclic. We establish a finite-sample risk bound, prove that the procedure preserves acyclicity, and show that edge selection is consistent under mild conditions on the weights. Simulations across random, hub, and chain structures, together with an analysis of the Sachs et al. (2005) protein-signaling network, show that DAGgr matches or exceeds the best individual candidate while consistently outperforming bootstrap-aggregation baselines across structural recovery metrics.",
+  "title_relatable": "Averaging multiple causal graphs to find the right one",
+  "hook": "Combining multiple flawed causal models outperforms picking a single best one, with guarantees they stay acyclic.",
+  "summary": "Finding causal structure from data is unstable: small changes in the data yield wildly different graphs. DAGgr sidesteps this by aggregating multiple candidate DAGs, weighting them by predictive accuracy on held-out data, then thresholding edge strengths to ensure the final graph remains acyclic. On synthetic networks and real protein-signaling data, this ensemble approach beats both individual models and standard bootstrap averaging.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 903,
+  "tokens_out": 169,
+  "cost_usd": 0.0013984000000000002,
+  "ingested_at": "2026-05-20T00:36:59.534031+00:00"
+}

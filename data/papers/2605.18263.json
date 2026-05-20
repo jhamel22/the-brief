@@ -1,0 +1,22 @@
+{
+  "id": "2605.18263",
+  "arxiv_url": "https://arxiv.org/abs/2605.18263",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "RT-Splatting: Joint Reflection-Transmission Modeling with Gaussian Splatting",
+  "authors": "Ji Shi, Xianghua Ying, Bowei Xing, Ruohao Guo, Wenzhen Yue",
+  "abstract": "3D Gaussian Splatting (3DGS) enables real-time novel view synthesis with high visual quality. However, existing methods struggle with semi-transparent specular surfaces that exhibit both complex reflections and clear transmission, often producing blurry reflections or overly occluded transmission. To address this, we present RT-Splatting, a framework that disentangles each Gaussian's geometric occupancy from its optical opacity. This factorization yields a unified surface-volume scene representation with a single set of Gaussian primitives. Our hybrid renderer interprets this representation both as a surface to capture high-frequency reflections and as a volume to preserve clear transmission. To mitigate the ambiguity in jointly optimizing reflection and transmission, we introduce Specular-Aware Gradient Gating, which suppresses misleading gradients from highly specular regions into the transmission branch, effectively reducing distracting floaters. Experiments on challenging semi-transparent scenes show that RT-Splatting achieves state-of-the-art performance, delivering high-fidelity reflections and clear transmission with real-time rendering. Moreover, our factorization naturally enables flexible scene editing. The project page is available at https://sjj118.github.io/RT-Splatting.",
+  "title_relatable": "Rendering glass and mirrors with real-time 3D graphics",
+  "hook": "New method handles reflections and transparency together in 3D scenes, a notoriously difficult combination that previous approaches either blurred or obscured.",
+  "summary": "Semi-transparent surfaces like glass and mirrors are hard to render because they need sharp reflections *and* clear views through them. RT-Splatting solves this by separating how much space a Gaussian occupies from how much light it blocks, letting the same primitives act as both reflective surfaces and transparent volumes. A new technique called Specular-Aware Gradient Gating prevents the optimizer from sending bad signals to the transparency branch when it encounters shiny surfaces. Results on complex scenes show clearer reflections and transmission than prior work, while maintaining real-time speeds and enabling scene editing.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 974,
+  "tokens_out": 211,
+  "cost_usd": 0.0016232,
+  "ingested_at": "2026-05-20T00:35:31.490391+00:00"
+}

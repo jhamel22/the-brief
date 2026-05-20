@@ -1,0 +1,22 @@
+{
+  "id": "2605.18252",
+  "arxiv_url": "https://arxiv.org/abs/2605.18252",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "GaussianZoom: Progressive Zoom-in Generative 3D Gaussian Splatting with Geometric and Semantic Guidance",
+  "authors": "Jiale Shi, Jiarui Hu, Zesong Yang, Kaixuan Luan, Hujun Bao, Zhaopeng Cui",
+  "abstract": "We introduce GaussianZoom, a generative zoom-in 3D reconstruction system with an iterative progressive framework that combines geometry-consistent scene modeling and multi-scale semantic reasoning to enable high-fidelity extreme zoom-in rendering from low-resolution inputs. To achieve this, we develop a novel multi-view consistent super-resolution module with depth-based feature warping and VLM-driven detail synthesis, ensuring accurate multi-view correspondence while enriching fine-scale appearance beyond the observed resolution. To support zooming across large magnification ranges, we further introduce a new expandable continuous Level-of-Detail hierarchy that dynamically modulates Gaussian visibility for smooth, alias-free cross-scale rendering. Experiments on Mip-NeRF360 and Tanks\\&Temples demonstrate that GaussianZoom achieves superior perceptual quality, multi-view consistency, and robustness under extreme magnification, establishing a strong baseline for generative zoom-in 3D scene reconstruction.",
+  "title_relatable": "Zooming into blurry photos to see fine details in 3D",
+  "hook": "Generate high-resolution 3D scenes from low-res images by progressively adding detail at multiple zoom levels, validated on standard benchmarks.",
+  "summary": "GaussianZoom reconstructs high-fidelity 3D scenes that can be zoomed into 100× magnification, starting from low-resolution input. It uses depth-guided feature alignment to keep views consistent while a vision-language model synthesizes fine details beyond what was originally observed. A new level-of-detail system smoothly transitions between zoom levels without artifacts. Tests on Mip-NeRF360 and Tanks&Temples show it outperforms existing methods in perceptual quality and multi-view consistency under extreme magnification.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 926,
+  "tokens_out": 205,
+  "cost_usd": 0.0015608000000000002,
+  "ingested_at": "2026-05-20T00:35:34.094483+00:00"
+}

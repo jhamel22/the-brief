@@ -1,0 +1,23 @@
+{
+  "id": "2605.18451",
+  "arxiv_url": "https://arxiv.org/abs/2605.18451",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR"
+  ],
+  "title_original": "Code-as-Room: Generating 3D Rooms from Top-Down View Images via Agentic Code Synthesis",
+  "authors": "Yixuan Yang, Zhen Luo, Wanshui Gan, Jinkun Hao, Junru Lu, Jinghao Yan, Zhaoyang Lyu, Xudong Xu",
+  "abstract": "Designing realistic and functional 3D indoor rooms is essential for a wide range of applications, including interior design, virtual reality, gaming, and embodied AI. While recent MLLM-based approaches have shown great potential for 3D room synthesis from textual descriptions or reference images, text-based methods struggle to capture precise spatial information, and existing image-conditioned agents suffer from instability and infinite looping when tasked with holistic room generation from top-down views. To address these limitations, we propose Code-as-Room, an MLLM-based agentic framework equipped with a structured execution harness, which represents 3D rooms with Blender codes. Given a top-down room image, the framework parses the reference image to extract scene elements and their spatial relationships, and synthesizes executable Blender code for geometry, materials, and lighting in a principled, multi-stage pipeline. A cross-stage memory module is maintained throughout to mitigate context forgetting inherent to existing agent-based frameworks. We further introduce a dedicated benchmark for code-based 3D room synthesis, encompassing various evaluation protocols. Based on our benchmark, comprehensive comparisons against existing agent-based methods are conducted to validate the effectiveness of our proposed execution harness.",
+  "title_relatable": "Turning floor plans into 3D rooms with AI-generated code",
+  "hook": "A new method generates complete 3D indoor rooms from top-down view images by having an AI agent write Blender code, avoiding the instability that plagues existing approaches.",
+  "summary": "Generating realistic 3D rooms from images has been tricky—text descriptions lose spatial details, and AI agents tend to loop infinitely or crash when building entire rooms. Code-as-Room solves this by having a multimodal AI analyze a floor plan, then systematically write Blender code to create geometry, materials, and lighting in stages. A memory module tracks decisions across stages to prevent the agent from forgetting context. The authors released a benchmark for this task and show their approach outperforms existing agent-based methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 988,
+  "tokens_out": 203,
+  "cost_usd": 0.0016024000000000001,
+  "ingested_at": "2026-05-20T00:34:36.109453+00:00"
+}

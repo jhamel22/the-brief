@@ -1,0 +1,24 @@
+{
+  "id": "2605.18594",
+  "arxiv_url": "https://arxiv.org/abs/2605.18594",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "hep-th"
+  ],
+  "title_original": "Krylov complexity and fidelity susceptibility in two-band Hamiltonians",
+  "authors": "Rishav Chaudhuri, Ayush Raj, Soham Ray, Sai Satyam Samal",
+  "abstract": "We investigate Krylov spread complexity for the ground state of two-band Hamiltonians, where the reference state is a generic state on the Bloch sphere. The spread complexity is obtained by using a purely geometric formulation in terms of Bloch sphere data without constructing the circuit Hamiltonian. For generic reference states, the derivative of the spread complexity is logarithmically divergent at the topological phase transition in the Su-Schrieffer-Heeger (SSH) model. We demonstrate that the derivative of the spread complexity is bounded by fidelity susceptibility for general two-band models, indicating the sensitivity of the spread complexity to any gap closing (topological or trivial). This is illustrated in the massive Dirac Hamiltonian with a trivial gap closing. Finally, we introduce a non-unitary duality in the SSH model between the topological and trivial phases, which manifests itself in the spread complexity and fidelity susceptibility.",
+  "title_relatable": "How quantum complexity reveals hidden symmetries at phase transitions",
+  "hook": "A new geometric measure of quantum complexity diverges at topological transitions, exposing a hidden duality between distinct phases of matter.",
+  "summary": "A quantum system's complexity—how hard it is to build its ground state from simple operations—behaves in surprising ways near phase transitions. Using Bloch sphere geometry, researchers found that this complexity diverges logarithmically when crossing topological boundaries in the SSH model, and they proved complexity changes are always bounded by a quantity measuring quantum fragility (fidelity susceptibility). The result reveals an unexpected non-unitary symmetry linking topological and trivial phases, suggesting complexity could serve as a new probe of quantum criticality.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 928,
+  "tokens_out": 186,
+  "cost_usd": 0.0014864000000000001,
+  "ingested_at": "2026-05-20T00:21:03.812699+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.18240",
+  "arxiv_url": "https://arxiv.org/abs/2605.18240",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Quadratic Dark Energy Phase-Space Dynamics and Analysis",
+  "authors": "Sahar Mohammadi, Ebrahim Yusofi, Kosar Asadi",
+  "abstract": "We present a comprehensive phase-space analysis of a quadratic dark energy model where the pressure includes a nonlinear term proportional to the square of the energy density. This minimal extension beyond the $Λ$CDM framework introduces a dynamical parameter $η(z)$ that governs transitions between different cosmological regimes. Through dynamical systems theory, we identify critical points and their stability properties, revealing that negative $η$ values drive the system toward stable phantom attractors (sinks), while positive values correspond to unstable repellers (sources). The model exhibits a distinctive asymptotic approach to the phantom divide ($w_{\\rm eff}=-1$) from both quintessence and phantom sides without actual crossing, providing a non-crossing alternative to the phantom-crossing behavior preferred by recent DESI DR2 constraints. Our analysis shows that stable phantom attractors produce enhanced Hubble expansion rates and more pronounced late-time acceleration, features that can be compared with recent DESI observations suggesting evolving dark energy.",
+  "title_relatable": "Can dark energy's equation of state evolve without crossing the phantom divide?",
+  "hook": "A minimal tweak to dark energy avoids the phantom divide crossing that recent surveys prefer, by approaching it asymptotically instead.",
+  "summary": "Quadratic dark energy—where pressure depends on density squared—creates an evolving parameter that steers the universe toward either phantom-like acceleration or standard expansion. Phase-space analysis reveals the model approaches the phantom divide without crossing it, sidestepping a tension with DESI observations. The framework offers a minimal alternative to standard dark energy models while matching recent cosmological data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 921,
+  "tokens_out": 161,
+  "cost_usd": 0.0013808000000000002,
+  "ingested_at": "2026-05-20T00:26:49.792236+00:00"
+}

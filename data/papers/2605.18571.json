@@ -1,0 +1,23 @@
+{
+  "id": "2605.18571",
+  "arxiv_url": "https://arxiv.org/abs/2605.18571",
+  "announced_date": "2026-05-18",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "q-bio.QM"
+  ],
+  "title_original": "Incorporating vaccine effects into epidemiological models: common pitfalls and solutions",
+  "authors": "Casey E. Middleton, Oliver Eales, James M. McCaw, Freya M. Shearer",
+  "abstract": "Incorporating vaccination into mathematical models appears deceptively simple: models integrate vaccine-derived protections, such as reduced susceptibility to infection, using parameters informed by empirical estimates of vaccine efficacy or effectiveness (VE). In practice, however, empirical VE estimates often do not correspond directly to the parameters of epidemiological models. Here, we extend previous work to demonstrate that in order to accurately parameterize a model, one must consider both a vaccine's mechanism of action and the statistic used to infer VE from empirical data. When a vaccine confers leaky protection -- that is, vaccination partially rather than completely reduces individual infection risk -- we show that common empirical VE estimation methods do not provide directly applicable values for model parameters. Naive (i.e. direct) incorporation of these VE estimates into models results in an underestimate of population-level vaccine impact. To make progress when these estimates are the only available sources for VE, we introduce a parameterization approach which more accurately aligns the modeled effect of vaccination with empirical estimates. Under this adjusted parameterization approach, models predict fewer total infections and lower herd immunity thresholds for leaky vaccines than would be predicted under current parameterization practices. Our parameterization guidelines and adjustment approach can be used to improve accuracy in models that are used in vaccine decision making and public health planning.",
+  "title_relatable": "Why vaccine models keep getting the math wrong",
+  "hook": "Most epidemiological models misuse vaccine data, systematically underestimating how many infections vaccines prevent at the population level.",
+  "summary": "Mathematical models of disease spread typically plug vaccine efficacy numbers directly into their equations, but this ignores a crucial distinction: whether a vaccine blocks infection entirely or just reduces its severity. When vaccines provide \"leaky\" protection—lowering but not eliminating infection risk—standard estimates from clinical trials don't match the parameters models actually need. The authors show this mismatch causes models to underestimate vaccination's real-world impact and miscalculate herd immunity thresholds, then provide a correction method for more accurate public health projections.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 698,
+  "tokens_out": 187,
+  "cost_usd": 0.0013064,
+  "ingested_at": "2026-05-20T00:37:53.221466+00:00"
+}

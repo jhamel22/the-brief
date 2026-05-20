@@ -1,0 +1,22 @@
+{
+  "id": "2605.18631",
+  "arxiv_url": "https://arxiv.org/abs/2605.18631",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "$J\\bar{J}$-deformation as a Riemann bilinear dressing",
+  "authors": "Kangning Liu",
+  "abstract": "We propose a reformulation of the conformal perturbation theory of the correlation functions in $J\\bar{J}$-deformed CFTs as a dressing on the deformed operators, that matches both bare and renormalized perturbation theory. The key is to use the Riemann bilinear identity to convert the deformation into a dressing and a large-cycle integral for higher genus. Based on the proposal, we calculate the deformation of partition functions on the torus and higher genus Riemann surfaces, which can be written as kernel integrals that preserve modular invariance or covariance. We also calculate the flow of the conformal weights and conserved charges along the deformation. Based on this flow and the modular $S$-transformation, we propose a criterion for constructing dressed operators. We test our formalism and results by studying the $O(2, 2)$ theories and strings on the TsT background.",
+  "title_relatable": "A new way to handle twisted quantum field theories",
+  "hook": "A technique from 19th-century mathematics solves a stubborn problem in how deformed quantum field theories behave on curved surfaces.",
+  "summary": "J̄J-deformations twist conformal field theories in ways that break standard calculation methods. This work reformulates the problem using Riemann bilinear identities—a classical tool—to convert the deformation into a dressing that works systematically at all orders. The authors calculate how partition functions and operator weights change under deformation while preserving deep symmetries, then verify the method on concrete examples including string theory backgrounds.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 898,
+  "tokens_out": 168,
+  "cost_usd": 0.0013904000000000002,
+  "ingested_at": "2026-05-20T00:20:58.082947+00:00"
+}

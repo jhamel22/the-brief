@@ -1,0 +1,23 @@
+{
+  "id": "2605.18166",
+  "arxiv_url": "https://arxiv.org/abs/2605.18166",
+  "announced_date": "2026-05-18",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI"
+  ],
+  "title_original": "Hypergraphx-data: a repository for higher-order network data",
+  "authors": "Quintino Francesco Lotito, Lorenzo Betti, Berné Nortier, Alberto Montresor, Federico Battiston",
+  "abstract": "The availability of network datasets advances research in network science, machine learning and related fields by enabling empirical analyses and their reproducibility, algorithm development, model validation and benchmarking. Existing repositories, such as SNAP and Netzschleuder, have made traditional network datasets widely accessible with metadata, metrics, and basic visualizations. However, they primarily focus on pairwise interactions, limiting data access to systems with many-body interactions. To address this gap, we created hypergraphx-data, a repository of real-world hypergraph datasets for higher-order network analysis, spanning different domains from social networks to biology and finance, and supporting configurations such as weighted, directed, temporal, and multiplex hypergraphs. Each dataset includes relational information and metadata, provided in an open JSON format and a binarized format for Hypergraphx. We provide a user-friendly interface to facilitate browsing, filtering, and accessing the datasets, while also ensuring integrity and reproducibility through hash-based verification and data versioning. The repository is available at https://hgx-team.github.io/hypergraphx-data",
+  "title_relatable": "A new data library for networks where groups, not pairs, interact",
+  "hook": "Most network datasets only capture one-on-one links — this repository fixes that for group interactions.",
+  "summary": "Many real systems — co-authorship, disease spread, financial transactions — involve simultaneous interactions among three or more parties, not just pairs. The authors assembled hypergraphx-data, a curated open repository of real-world hypergraph datasets spanning social, biological, and financial domains, with support for weighted, directed, temporal, and multiplex structures. It fills a gap left by standard network repositories like SNAP, giving researchers a reproducible, versioned foundation for testing models that go beyond pairwise connections.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 960,
+  "tokens_out": 177,
+  "cost_usd": 0.005535,
+  "ingested_at": "2026-05-20T00:27:59.796967+00:00"
+}

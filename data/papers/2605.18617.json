@@ -1,0 +1,24 @@
+{
+  "id": "2605.18617",
+  "arxiv_url": "https://arxiv.org/abs/2605.18617",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "ManiSoft: Towards Vision-Language Manipulation for Soft Continuum Robotics",
+  "authors": "Ziyu Wei, Luting Wang, Chen Gao, Li Wen, Si Liu",
+  "abstract": "Most existing vision-language manipulation research targets rigid robotic arms, whose fixed morphology limits adaptability in cluttered or confined spaces. Soft robotic arms offer an appealing alternative due to their deformability, but confront challenges such as unreliable proprioception and distributed low-level actuation. To investigate these challenges, we introduce \\ManiSoft, a benchmark for vision-language manipulation with soft arms. ManiSoft features a tailored simulator that couples realistic soft-body dynamics with contact-rich interactions via an elastic force constraint. On this basis, ManiSoft defines four tasks, each highlighting distinct aspects of deformable control, from basic end-effector coordination to obstacle avoidance. To support policy training and evaluation, \\ManiSoft{} includes an automated pipeline that generates $6{,}300$ diverse scenes and corresponding expert trajectories. To produce high-quality trajectories at scale, we first employ a high-level planner to decompose each task into a sequence of waypoints, followed by a low-level reinforcement learning policy that generates torque commands to track waypoints. Benchmarking three representative policy models shows relatively promising results in clean scenes but substantial performance drop under randomization. Visualization analysis indicates that failures stem primarily from inaccurate visual estimation of proprioceptive state and limited exploitation of deformability for adaptive obstacle avoiding. We anticipate ManiSoft to serve as a valuable testbed, bridging the gap between rigid and soft arms in the context of vision-language manipulation. Out codes and datasets are released at https://buaa-colalab.github.io/ManiSoft.",
+  "title_relatable": "Teaching robots with bendy arms to follow instructions",
+  "hook": "A new benchmark for soft robotic manipulation reveals why vision-language models struggle when arms can deform—and why that matters for real-world clutter.",
+  "summary": "Soft robotic arms bend and squeeze, making them ideal for delicate or confined spaces, but they're harder to control than rigid arms because their deformation is unpredictable. Researchers created ManiSoft, a simulator and benchmark with 6,300 training scenarios and four manipulation tasks designed specifically for soft arms. Current vision-language models perform well on clean tasks but fail badly under randomization, primarily because they can't accurately estimate where a squishy arm actually is or exploit its flexibility to navigate obstacles.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1032,
+  "tokens_out": 190,
+  "cost_usd": 0.0015856,
+  "ingested_at": "2026-05-20T00:31:53.902690+00:00"
+}

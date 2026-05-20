@@ -1,0 +1,23 @@
+{
+  "id": "2605.18424",
+  "arxiv_url": "https://arxiv.org/abs/2605.18424",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Cosmological perturbations of TDiff fields",
+  "authors": "Antonio L. Maroto, Prado Martín-Moruno, Diego Tessainer",
+  "abstract": "We study scalar field theories that break diffeomorphism invariance down to the subgroup of transverse diffeomorphisms through the matter sector in cosmological backgrounds. We focus on single- and multi-field models and develop the corresponding cosmological perturbation theory. We analyze the different contributions to the pressure perturbation, discussing the adiabaticity and the effects in the perturbation coefficients of the interactions that arise in the multi-field case as a consequence of the symmetry breaking. We also consider the stability of the perturbations in terms of the effective speed of sound and present particular models that could be of phenomenological interest.",
+  "title_relatable": "What happens to cosmic ripples when spacetime symmetry breaks?",
+  "hook": "Trimming a fundamental symmetry of gravity from the matter sector reshapes how density perturbations evolve—and could leave measurable traces.",
+  "summary": "Standard cosmology assumes full diffeomorphism invariance, but some theories restrict this to a smaller group called transverse diffeomorphisms. Working out the perturbation theory for such fields reveals new interaction terms between multiple scalar fields that only appear because of the symmetry breaking, altering the effective speed of sound and conditions for stability. These changes could, in principle, show up in the cosmic microwave background or large-scale structure surveys.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 838,
+  "tokens_out": 170,
+  "cost_usd": 0.005064,
+  "ingested_at": "2026-05-20T00:20:05.874823+00:00"
+}

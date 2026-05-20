@@ -1,0 +1,22 @@
+{
+  "id": "2605.18645",
+  "arxiv_url": "https://arxiv.org/abs/2605.18645",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Articulation in Prime: Primitive-Based Articulated Object Understanding from a Single Casual Video",
+  "authors": "Arslan Artykov, Tom Ravaud, Nicolás Violante-Grezzi, Vincent Lepetit",
+  "abstract": "Retrieving the 3D kinematics of articulated objects from monocular video is a fundamental challenge in computer vision. Existing methods rely on complex video setups or cues such as long-term point tracking or wide-baseline matching, but are frequently brittle under severe occlusions, rapid camera ego-motion, or weak local features. Learning-based methods, meanwhile, struggle to generalize beyond their training categories. We propose a category-agnostic optimization framework that treats articulated object understanding as a primitive-fitting problem. Geometric primitives serve as a proxy representation that avoids the pitfalls of unstable point tracks; a novel mechanism organizes them into coherent parts constrained by revolute and prismatic joints. Our formulation jointly optimizes part segmentation and joint parameters, recovering complex kinematics from a single casually captured video. A visibility-aware procedure handles partial observations and occlusions inherent to real-world data. We also propose the AiP-synth and AiP-real benchmarks, featuring significant camera motion and heavy occlusions, and outperform existing methods. Project page: https://aartykov.github.io/Articulation-in-Prime/",
+  "title_relatable": "Understanding moving parts in video without tracking points",
+  "hook": "New method recovers how hinged and sliding joints move in casual videos by fitting geometric shapes instead of tracking pixels—works even with heavy occlusions and shaky camera.",
+  "summary": "Existing approaches to extracting 3D motion from articulated objects (doors, robot arms, etc.) fail when videos have occlusions or unstable point tracks. This work sidesteps point tracking entirely by representing objects as simple geometric primitives (boxes, cylinders) organized into parts connected by joints. A single optimization pass recovers joint parameters and segmentation from one video, handling partial visibility automatically. Outperforms existing methods on new benchmarks with heavy motion and occlusion.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 949,
+  "tokens_out": 186,
+  "cost_usd": 0.0015032000000000001,
+  "ingested_at": "2026-05-20T00:34:49.427730+00:00"
+}

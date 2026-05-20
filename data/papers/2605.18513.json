@@ -1,0 +1,22 @@
+{
+  "id": "2605.18513",
+  "arxiv_url": "https://arxiv.org/abs/2605.18513",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "A 4200-hour HyperFlash and ÉCLAT campaign on the hyperactive FRB 20240114A: constraining energetics with the most brilliant bursts",
+  "authors": "O. S. Ould-Boukattine, A. J. Cooper, A. M. Cook, J. W. T. Hessels, D. M. Hewitt, J. Huang, I. Cognard, T. J. Dijkema, M. P. Gawroński, W. Herrmann, F. Kirsten, A. Moroianu, Z. Pleunis, W. Puchalska, S. Ranguin, M. P. Snelders, T. Telkamp",
+  "abstract": "Hyperactive repeaters provide a unique window into the evolving environments and energy budgets of fast radio burst (FRB) sources, though they may not be representative of the FRB population in general. High-cadence observations are key to capturing the rarest and most energetic bursts, which occur only once per hundreds to thousands of hours. Here we present an unprecedented $4{,}200$-hour observing campaign targeting FRB 20240114A as part of the HyperFlash and ÉCLAT FRB monitoring programs. Over $806$ days, we detected $178$ high-energy ($\\sim$$10^{40-42}$ erg) bursts with HyperFlash, which together amount to $4.4 \\times 10^{42}$ erg of released radio energy (assuming isotropic emission and 1-GHz emission bandwidth). The cumulative energy of the HyperFlash bursts is about twice that of $\\sim$$11{,}000$ lower-energy bursts detected with FAST, emphasising the significant role that the highest-energy bursts play in depleting the central engine's stored energy. In fact, the single most brilliant burst from our sample, which we term the STROOP, contributes roughly $1/3$ of all the energy we measure, and is at the maximum energy seen in studies of both repeating and apparently one-off FRBs alike. We also find a break in the burst energy distribution at $\\sim$$2\\times10^{40}$ erg and a linear dispersion measure (DM) increase of $+0.96 \\pm 0.06$ pc cm$^{-3}$ over a period of $318$ days. We discuss these findings in the context of a magnetar source model and highlight comparisons with the energetics of intermediate and giant X-ray/$γ$-ray flares from Galactic sources.",
+  "title_relatable": "One burst released a third of the energy detected in 806 days of watching an FRB",
+  "hook": "A 4,200-hour surveillance campaign caught a single fast radio burst so brilliant it dwarfed 11,000 weaker ones combined—raising questions about what powers these cosmic transmitters.",
+  "summary": "Astronomers monitored FRB 20240114A for over two years and detected 178 high-energy bursts, accumulating 4.4×10⁴² erg of radio energy. A single \"STROOP\" burst contributed roughly one-third of this total—the brightest ever recorded in repeating or one-off FRBs. The data suggests the most energetic events, though rare, dominate how quickly the source depletes its energy budget, with implications for whether repeaters truly represent the broader FRB population.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1272,
+  "tokens_out": 222,
+  "cost_usd": 0.0019056,
+  "ingested_at": "2026-05-20T00:28:28.696350+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.18618",
+  "arxiv_url": "https://arxiv.org/abs/2605.18618",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Stochastic Penalty-Barrier Methods for Constrained Machine Learning",
+  "authors": "Adam Bosák, Andrii Kliachkin, Jana Lepšová, Gilles Bareilles, Jakub Mareček",
+  "abstract": "Constrained machine learning enables fairness-aware training, physics-informed neural networks, and integration of symbolic domain knowledge into statistical models. Despite its practical importance, no general method exists for the non-convex, non-smooth, stochastic setting that arises naturally in deep learning. We propose the Stochastic Penalty-Barrier Method (SPBM), which extends classical penalty and barrier methods to this setting via exponential dual averaging, a~stabilized penalty schedule, and the Moreau envelope to handle non-smoothness. Experiments across multiple settings show that SPBM matches or outperforms existing constrained optimization baselines while incurring only linear runtime overhead compared to unconstrained Adam for up to 10,000 constraints.",
+  "title_relatable": "Training neural networks with thousands of hard constraints",
+  "hook": "A new method handles fairness, physics, and domain knowledge constraints in deep learning with only linear overhead cost.",
+  "summary": "Training neural networks with constraints—for fairness, physics laws, or business rules—lacks a general solution for the messy non-convex setting that real deep learning creates. This work introduces SPBM, which combines penalty and barrier methods with exponential dual averaging and the Moreau envelope to handle constraints and non-smooth objectives simultaneously. Experiments show it matches or beats existing constrained optimization methods while adding just linear overhead, scaling to 10,000+ constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 850,
+  "tokens_out": 169,
+  "cost_usd": 0.001356,
+  "ingested_at": "2026-05-20T00:29:58.841276+00:00"
+}

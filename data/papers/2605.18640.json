@@ -1,0 +1,23 @@
+{
+  "id": "2605.18640",
+  "arxiv_url": "https://arxiv.org/abs/2605.18640",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Modular Lower Bounds on Reeh-Schlieder State Preparation",
+  "authors": "Javier Blanco-Romero, Florina Almenares Mendoza",
+  "abstract": "The Reeh-Schlieder theorem says that every target vector can be approximated from the vacuum by an operator localized in an arbitrarily small spacetime region, but it gives no quantitative cost for doing so. This note isolates a standard Tomita-Takesaki estimate as a model-independent preparation bound. Targets with deeply negative modular energy require large local operators. After rescaling such an operator to a physical contraction, the same estimate becomes a lower bound on postselection overhead. In geometries where the modular Hamiltonian is known, the bound becomes explicit. Bisognano-Wichmann turns it into a boost energy statement for wedges, and the Casini-Huerta-Myers formula gives a stress-tensor version for bounded regions of conformal field theories. Local unitaries can only reach states of nonnegative modular energy. Negative modular sectors require nonunitary or postselected outcomes, giving a preparation cost bound that complements vacuum embezzlement in type III local algebras.",
+  "title_relatable": "What does it really cost to prepare exotic quantum states?",
+  "hook": "A fundamental limit on how hard it is to create quantum states with negative modular energy—a measure of how far they deviate from the vacuum.",
+  "summary": "The Reeh-Schlieder theorem guarantees you can approximate any quantum state by applying an operator in a tiny region of spacetime, but says nothing about the price tag. This work derives a concrete lower bound: states with deeply negative modular energy demand either large operators or probabilistic postselection to prepare. The bound translates to testable predictions in quantum field theory geometries and conformal field theories, revealing a fundamental tension between locality and state preparation cost.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 934,
+  "tokens_out": 179,
+  "cost_usd": 0.0014632,
+  "ingested_at": "2026-05-20T00:20:55.467402+00:00"
+}

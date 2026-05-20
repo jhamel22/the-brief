@@ -1,0 +1,22 @@
+{
+  "id": "2605.18427",
+  "arxiv_url": "https://arxiv.org/abs/2605.18427",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Iron line diagnostics of the stellar wind in X1908+075",
+  "authors": "J. Planelles-Villalva, J. M. Torrejón, J. J. Rodes-Roca, G. Sanjurjo-Ferrín",
+  "abstract": "Aims. X1908+075 is a supergiant X-ray binary (SgXB) composed of an evolved OB star and a neutron star (NS) in a 4.4-day orbit. We aim to characterize the stellar wind, constrain the system geometry, and investigate the origin and variability of the Fe K$α$ fluorescence line. Methods. We analyzed three Chandra HETGS observations at different orbital phases. The continuum was modeled with a bulk motion Comptonization (Bmc) model including partial-covering absorption. We performed a blind line search with Monte Carlo simulations accounting for the look-elsewhere effect. The orbital modulation of $N_{\\rm H}$ was modeled through particle swarm optimization to constrain the inclination and donor mass-loss rate. Results. Fe K$α$ emission is detected in all observations and remains significant after correcting for multiple trials (global $p < 0.005$). Tentative features include a Compton shoulder and Fe K$β$ emission, indicating dense reprocessing material. No highly ionized Fe XXV or Fe XXVI lines are confirmed. The Fe K$α$ flux correlates with the continuum flux, while its equivalent width anticorrelates with both $N_{\\rm H}$ and orbital phase, opposite to the canonical curve of growth seen in many HMXBs. Line broadening reaches velocities of $\\sim3000$ km s$^{-1}$. Modeling of the $N_{\\rm H}$ variability yields an inclination $i = 46 \\pm 3^\\circ$ and a donor mass-loss rate $\\dot{M}_{\\rm W} = (9.1 \\pm 1.6) \\times 10^{-7}\\,M_\\odot\\,{\\rm yr}^{-1}$. Conclusions. X1908+075 is a classical wind-fed SgXB in the direct accretion regime. The observed continuum and line variability reflect the complex density and ionization structure of the stellar wind.",
+  "title_relatable": "Iron line reveals hidden geometry of a stellar wind feeding a neutron star",
+  "hook": "X-ray fluorescence from an evolved star's wind lets astronomers map the system's tilt and accretion geometry with unusual precision.",
+  "summary": "X1908+075 pairs a massive star with a neutron star in a tight 4.4-day orbit. Using high-resolution X-ray spectra, researchers detected iron fluorescence that behaves unexpectedly: its brightness correlates with continuum flux but its equivalent width drops when absorption rises, opposite to the usual pattern in these systems. By modeling how absorption varies with orbital phase, they pinned down the system's inclination (46°) and the stellar wind mass-loss rate, revealing the neutron star feeds directly from the wind rather than through a disk.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1196,
+  "tokens_out": 205,
+  "cost_usd": 0.0017768000000000003,
+  "ingested_at": "2026-05-20T00:28:31.621183+00:00"
+}

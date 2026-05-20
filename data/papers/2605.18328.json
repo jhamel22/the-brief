@@ -1,0 +1,22 @@
+{
+  "id": "2605.18328",
+  "arxiv_url": "https://arxiv.org/abs/2605.18328",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "CineMatte: Background Matting for Virtual Production and Beyond",
+  "authors": "Yuanjian He, Chen Zhang, Fasheng Chen, Jiangbo Cao",
+  "abstract": "LED Virtual Production (VP) uses large LED volumes to render backgrounds in real time, enabling in-camera visual effects but making post-shot changes labor-intensive. We address this with CineMatte, a robust background matting framework for VP and beyond. CineMatte employs a cross-attention-conditioned design. Instead of concatenating the background with the input, CineMatte employs a Siamese, frozen DINOv3 Vision Transformer with shared weights to encode the input frame and the captured background separately. A cross-attention module compares the two streams to predict the foreground, preserving pretrained semantics and improving robustness to background shifts. Previous ViT-based matting models use a parallel convolutional \"detail branch\" to recover fine details, which can cause boundary artifacts in real-world samples due to semantic misalignment with the backbone. We instead replace it with a pretrained, image-guided feature upsampler, which largely mitigates the problem. We also introduce CineMatte-4K, a 4K HDR image-video dataset captured on a professional LED VP stage. To the best of our knowledge, the image subset is the first dataset for VP matting and is non-synthetic, obtained via green-screen insertion; the video subset includes camera motion with tracked trajectories so that arbitrary backgrounds can be rendered later with correct parallax. Across CineMatte-4K and public benchmarks (VideoMatte240K, YouTubeMatte), CineMatte not only excels in VP but also generalizes robustly to real-world footage.",
+  "title_relatable": "Removing backgrounds from video without reshooting",
+  "hook": "New technique lets filmmakers swap LED-screen backgrounds in post-production instead of live, with a 4K professional dataset to train on.",
+  "summary": "Virtual production uses LED walls to render backgrounds in real time, but changing them later requires expensive reshoots. CineMatte solves this by accurately extracting foreground elements from video so backgrounds can be swapped afterward. The method uses two parallel vision transformers to separately analyze the frame and captured background, then compares them with cross-attention to predict the foreground—avoiding the boundary artifacts that plague earlier approaches. The authors also release CineMatte-4K, the first professional 4K HDR dataset for this task, shot on an actual LED stage with tracked camera motion for correct parallax.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1017,
+  "tokens_out": 205,
+  "cost_usd": 0.0016335999999999998,
+  "ingested_at": "2026-05-20T00:35:22.156419+00:00"
+}

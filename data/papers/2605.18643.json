@@ -1,0 +1,24 @@
+{
+  "id": "2605.18643",
+  "arxiv_url": "https://arxiv.org/abs/2605.18643",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+  "authors": "Xingtai Lv, Li Sheng, Kaiyan Zhang, Yichen You, Siyan Gao, Xueheng Luo, Yuxin Zuo, Yuchen Fan, Junlin Yang, Ganqu Cui, Bingning Wang, Fan Yang, Youbang Sun, Ning Ding, Bowen Zhou",
+  "abstract": "Mixture-of-Experts (MoE) scales language models efficiently through sparse expert activation, and its dynamic variant further reduces computation by adjusting the activated experts in an input-dependent manner. Existing dynamic MoE methods usually rely on pre-training from scratch or task-specific adaptation, leaving the practical conversion of fully trained MoE underexplored. Enabling such adaptation would directly alleviate the inference costs by allowing easy tokens to bypass unnecessary expert during serving. This paper introduces Zero-Expert Self-Distillation Adaptation (ZEDA), a low-cost framework that transforms post-trained static MoE models into efficient dynamic ones. To stabilize this architectural conversion, ZEDA injects parameter-free zero-output experts into each MoE layer and adapts the augmented model through two-stage self-distillation, utilizing the original MoE as a frozen teacher and applying a group-level balancing loss. On Qwen3-30B-A3B and GLM-4.7-Flash across 11 benchmarks spanning math, code, and instruction following, ZEDA eliminates over 50% of expert FLOPs at marginal accuracy loss. It outperforms the strongest dynamic MoE baseline by 6.1 and 4.0 points on the two models, and delivers ~1.20$\\times$ end-to-end inference speedup.",
+  "title_relatable": "Cutting MoE inference costs in half without retraining from scratch",
+  "hook": "A technique to convert already-trained mixture-of-experts models into faster dynamic versions, cutting expert computation by 50% with minimal accuracy loss and delivering 1.2× speedup.",
+  "summary": "Large language models using mixture-of-experts (MoE) activate different expert networks for different tokens—a neat efficiency trick. The problem: existing methods require retraining from scratch. This work introduces ZEDA, which takes a fully trained MoE model and converts it into a dynamic variant by adding dummy experts and fine-tuning via self-distillation. Result: 50% reduction in expert computation across Qwen and GLM models with negligible accuracy drop and 1.2× end-to-end speedup, beating prior dynamic methods by 4–6 points.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1052,
+  "tokens_out": 221,
+  "cost_usd": 0.0017255999999999999,
+  "ingested_at": "2026-05-20T00:31:51.055205+00:00"
+}

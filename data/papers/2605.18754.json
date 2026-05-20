@@ -1,0 +1,22 @@
+{
+  "id": "2605.18754",
+  "arxiv_url": "https://arxiv.org/abs/2605.18754",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Can These Views Be One Scene? Evaluating Multiview 3D Consistency when 3D Foundation Models Hallucinate",
+  "authors": "Soumava Paul, Prakhar Kaushik, Alan Yuille",
+  "abstract": "Multiview 3D evaluation assumes that the images being scored are observations of one static 3D scene. This assumption can fail in NVS and sparse-view reconstruction: inputs or generated outputs may contain artifacts, outlier frames, repeated views, or noise, yet still receive high 3D consistency scores. Existing reference-based metrics require ground truth, while ground-truth-free metrics such as MEt3R depend on learned reconstruction backbones whose failure modes are poorly characterized. We study this reliability problem by comparing neural reconstruction priors with classical geometric verification. We introduce \\benchmark, a controlled robustness benchmark for multiview 3D consistency, and a parametric family that decomposes neural metrics into backbone, residual, and aggregation components. This family recovers MEt3R and yields variants up to $3\\times$ more robust. Our analysis shows that VGGT, MASt3R, DUSt3R, and Fast3R can hallucinate dense geometry and cross-view support for unrelated scenes, repeated images, and random noise. We introduce COLMAP-based metrics that use matches, registration, dense support, and reconstruction failure as failure-aware consistency signals. On real NVS outputs and a structured human study, these metrics achieve up to $4\\times$ higher correlation with human judgments than MEt3R.",
+  "title_relatable": "When 3D models see things that aren't there",
+  "hook": "Modern 3D reconstruction models confidently hallucinate geometry from noise and unrelated images. New metrics catch these failures up to 4× better than existing methods.",
+  "summary": "3D foundation models like COLMAP and MASt3R can fool standard evaluation metrics by hallucinating consistent geometry from images that don't depict the same scene—noise, repeated frames, or completely unrelated views. Researchers benchmarked this failure mode and decomposed existing neural metrics to understand why they break. They built geometric verification metrics using classical computer vision that correlate 4× better with human judgment on real 3D reconstruction outputs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 974,
+  "tokens_out": 180,
+  "cost_usd": 0.0014992,
+  "ingested_at": "2026-05-20T00:34:33.229897+00:00"
+}

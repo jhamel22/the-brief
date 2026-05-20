@@ -1,0 +1,25 @@
+{
+  "id": "2605.18271",
+  "arxiv_url": "https://arxiv.org/abs/2605.18271",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.IR",
+    "cs.LG"
+  ],
+  "title_original": "From Volume to Value: Preference-Aligned Memory Construction for On-Device RAG",
+  "authors": "Changmin Lee, Jaemin Kim, Taesik Gong",
+  "abstract": "With the rapid emergence of personal AI agents based on Large Language Models (LLMs), implementing them on-device has become essential for privacy and responsiveness. To handle the inherently personal and context-dependent nature of real-world requests, such agents must ground their generation in device-resident personal context. However, under tight memory budgets, the core bottleneck is what to store so that retrieval remains aligned with the user. We propose EPIC (Efficient Preference-aligned Index Construction), which focuses on user preferences as a compact and stable form of personal context and integrates them throughout the RAG pipeline. EPIC selectively retains preference-relevant information from raw data and aligns retrieval toward preference-aligned contexts. Across four benchmarks covering conversations, debates, explanations, and recommendations, EPIC reduces indexing memory by 2,404 times, improves preference-following accuracy by 20.17 percentage points, and achieves 33.33 times lower retrieval latency over the best-performing baseline. In our on-device experiment, EPIC maintains a memory footprint under 1 MB with 29.35 ms/query latency in streaming updates.",
+  "title_relatable": "Storing less data to better match what users actually want",
+  "hook": "A method that shrinks on-device memory by 2,400× while improving how well AI agents follow user preferences—keeping everything under 1 MB.",
+  "summary": "Running personal AI agents locally requires storing user context in tight memory. EPIC solves this by focusing on user preferences rather than raw data, filtering what gets indexed and aligning retrieval to match what users actually care about. Across four benchmarks, it cuts memory needs by 2,404× and boosts preference-following accuracy by 20 percentage points, while keeping latency at 29 ms per query on devices.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 927,
+  "tokens_out": 174,
+  "cost_usd": 0.0014375999999999998,
+  "ingested_at": "2026-05-20T00:30:16.556203+00:00"
+}

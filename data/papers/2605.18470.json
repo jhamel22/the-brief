@@ -1,0 +1,22 @@
+{
+  "id": "2605.18470",
+  "arxiv_url": "https://arxiv.org/abs/2605.18470",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "(An)Isotropy in Pantheon+ and Type Ia supernova samples: intrinsic limits of directional tests",
+  "authors": "Antonio Quintana-Estellés, Pilar Ruiz-Lapuente",
+  "abstract": "The use of methods that investigate the value of the Hubble constant H$_0$ in different patches (60 $ or 90$^ size) across the sky to probe the statistical isotropy of the Universe using large SNe Ia databases has led to contradictory claims of either anisotropy or isotropy. The anisotropy directions vary amongst research works. The objective of this paper is to clarify the abovementioned claims and study the lack of basis for depicting directions of anisotropy with the present SNe Ia samples. We explain the type of limitation embedded in the SN Ia lightcurve method to determine the isotropy of H_0 and the corresponding consequences. The widely used analysis through the Region Fitting and the Hemisphere Comparison methods is done here using the Pantheon+ database, simulating 2000 distinct directions in the sky within a Bayesian Markov Chain Monte Carlo approach. We also study a smaller SNe Ia database, the Carnegie Supernova Project sample, leading to a similar kind of result as that from the Pantheon+ sample. We investigate the validity of the directions found for anisotropy within these analyses. We have found that within the tests used here, the Region Fitting method and the Hemisphere Comparison method, one can not determine with robustness the direction of an anisotropy of H$_0$ using the present SNe Ia large data samples. This is intrinsic to the way H$_0$ is obtained with the SN Ia lightcurve method. Achieving robust constraints will require a quite uniform sky coverage from larger SNe Ia samples with improved systematics.",
+  "title_relatable": "Why supernova surveys can't reliably find cosmic anisotropy",
+  "hook": "Popular methods for detecting lopsided expansion fail to pinpoint direction with current data—a fundamental limit of the technique itself.",
+  "summary": "Searches for cosmic anisotropy using Type Ia supernovae have produced contradictory claims about whether the universe expands at different rates in different directions. This work tests two standard analysis methods—Region Fitting and Hemisphere Comparison—on the Pantheon+ supernova catalog by simulating 2000 sky directions. The finding: current supernova samples can't reliably determine anisotropy directions, not because the universe is isotropic, but because the technique has an intrinsic blind spot. Settling the isotropy question will require larger, more uniformly distributed supernova samples.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1083,
+  "tokens_out": 211,
+  "cost_usd": 0.0017104000000000002,
+  "ingested_at": "2026-05-20T00:26:44.460318+00:00"
+}

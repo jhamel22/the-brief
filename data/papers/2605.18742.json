@@ -1,0 +1,23 @@
+{
+  "id": "2605.18742",
+  "arxiv_url": "https://arxiv.org/abs/2605.18742",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "A universal framework to identify eccentric binary mergers: GW200105 case study",
+  "authors": "Teagan A. Clarke, Isobel M. Romero-Shaw, Charlie Hoy, Jakob Stegmann, Paul D. Lasky, Eric Thrane",
+  "abstract": "Orbital eccentricity in gravitational-wave signals from merging compact object binaries is a powerful indicator of their formation channel. Several binary black hole mergers and a neutron star--black hole merger have been reported to exhibit signs of eccentricity, but which events are identified and the significance of the eccentricity differs between studies. Measurements of eccentricity can change depending on the choice of prior. The choice of prior is subtle: eccentricity is commonly measured at an arbitrary reference frequency, which varies from study to study. We use the candidate eccentric neutron star--black hole merger GW200105_162426 as a case study, employing a range of priors and reference frequencies, and find the results to be strongly prior-driven. We show that the varied results reported across different studies can be partially reconciled by accounting for the evolution of eccentricity with reference frequency. In order to make conclusive statements about eccentricity, we propose a detection statistic that does not depend on reference frequency, and which marginalises over astrophysically-motivated distributions in eccentricity. Using this detection statistic, we find reduced support for the eccentric hypothesis for GW200105_162426: we obtain a natural log Bayes factor ln B $\\leq$ 0.9 comparing the eccentric, aligned-spin hypothesis to the quasi-circular, precessing hypothesis. Our results cast doubt on the eccentric interpretation of GW200105_162426 and underscore the importance of modelling the astrophysical distributions of eccentricity in nature.",
+  "title_relatable": "Is that gravitational wave signal really eccentric, or just bad priors?",
+  "hook": "A supposedly eccentric neutron star–black hole merger may not be eccentric at all — the signal was prior-driven, not physics-driven.",
+  "summary": "Claims of orbital eccentricity in gravitational-wave events depend heavily on arbitrary analysis choices — specifically, which reference frequency is used and what prior distribution is assumed. Applying a new reference-frequency-independent detection statistic to GW200105, a neutron star–black hole merger flagged as eccentric by multiple groups, the evidence for eccentricity nearly vanishes (ln Bayes factor ≤ 0.9). Since eccentricity is the clearest fingerprint of how a binary formed, getting the measurement right matters enormously for understanding the origins of these mergers.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1073,
+  "tokens_out": 210,
+  "cost_usd": 0.006369,
+  "ingested_at": "2026-05-20T00:19:28.579811+00:00"
+}

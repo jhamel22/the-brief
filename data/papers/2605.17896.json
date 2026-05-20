@@ -1,0 +1,22 @@
+{
+  "id": "2605.17896",
+  "arxiv_url": "https://arxiv.org/abs/2605.17896",
+  "announced_date": "2026-05-18",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "The Effects of Innovation on Foreign Portfolio Investment: The Role of Institutions and Risk-Taking",
+  "authors": "Yimin Wu, Tomoo Kikuchi",
+  "abstract": "We study whether and how innovation intensity attracts foreign portfolio investment (FPI) using a panel of 60 countries from 1996 to 2021. Using an instrumental variable strategy based on regional shift-share and global push instruments, we estimate the causal response of debt and equity inflows to innovation intensity in the host country. We find that innovation increases FPI, with larger effects for equity than debt inflow. Moreover, the effect of innovation on equity inflow increases with technological development and institutional quality, whereas the effect on debt inflow is positive and significant only at high levels of these factors. We also find that countries with a higher risk-taking environment attract more FPI and that equity inflow responses are immediate and persistent, whereas debt inflow responses are modest and dampen over time.",
+  "title_relatable": "Does innovation actually attract foreign money?",
+  "hook": "Countries that innovate more draw in foreign investment, but institutions and risk tolerance determine whether it's equity or debt.",
+  "summary": "Analysis of 60 countries from 1996–2021 shows that innovation intensity causally increases foreign portfolio investment, but with a crucial twist: equity inflows surge in countries with strong institutions and high risk tolerance, while debt inflows require even stronger institutional conditions. Equity flows arrive quickly and persist; debt dries up over time.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 567,
+  "tokens_out": 141,
+  "cost_usd": 0.0010176,
+  "ingested_at": "2026-05-20T00:38:39.854208+00:00"
+}

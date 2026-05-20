@@ -1,0 +1,23 @@
+{
+  "id": "2605.18675",
+  "arxiv_url": "https://arxiv.org/abs/2605.18675",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "COOPO: Cyclic Offline-Online Policy Optimization Algorithm",
+  "authors": "Qisai Liu, Zhanhong Jiang, Joshua Russell Waite, Aditya Balu, Cody Fleming, Soumik Sarkar",
+  "abstract": "Offline reinforcement learning struggles with distributional shift and constrained performance due to static dataset limitations, while online RL demands prohibitive environment interactions. The recent advent of hybrid offline-to-online methods bridges these domains but suffers from distribution drift during transitions and catastrophic forgetting of offline knowledge. We introduce COOPO (Cyclic Offline-Online Policy Optimization), a generalized framework that repeatedly cycles between constrained offline training and online fine-tuning. Each cycle first anchors the policy to the dataset via KL-regularized advantage-weighted offline updates to minimize distributional shift and then fine-tunes it online using any policy optimization for stable exploration. Crucially, periodically returning to offline training eliminates forgetting and drift while maximizing dataset reuse. The cyclic behavior also helps reduce the online environment interactions. Theoretically, COOPO achieves better online sample efficiency, surpassing pure online RL, with guaranteed monotonic improvement under standard coverage assumptions. Extensive D4RL benchmarks demonstrate COOPO reduces online interactions versus state-of-the-art hybrids while improving final returns, maintaining robustness across diverse offline algorithms and online optimizers. This looped synergy sets new efficiency and performance standards for adaptive RL.",
+  "title_relatable": "Learning from old data while adapting online without forgetting",
+  "hook": "A new algorithm cycles between offline and online training to cut environment interactions in half while improving performance on standard RL benchmarks.",
+  "summary": "Hybrid offline-online reinforcement learning struggles when transitioning between static datasets and live environments—policies drift away from what they learned or forget old knowledge entirely. COOPO solves this by repeatedly looping: first anchoring the policy to the dataset with KL-regularized training, then fine-tuning online, then cycling back. This simple rhythm cuts environment interactions versus prior methods while boosting final performance on D4RL tasks. The approach works with any offline or online algorithm, making it a practical drop-in for practitioners.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 188,
+  "cost_usd": 0.00152,
+  "ingested_at": "2026-05-20T00:31:44.490148+00:00"
+}

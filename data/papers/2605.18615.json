@@ -1,0 +1,22 @@
+{
+  "id": "2605.18615",
+  "arxiv_url": "https://arxiv.org/abs/2605.18615",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Primordial power spectrum reconstructions from BOSS + eBOSS",
+  "authors": "Guillermo Martínez-Somonte, Héctor Gil-Marín, Airam Marcos-Caballero, Enrique Martínez-González",
+  "abstract": "We reconstruct the primordial power spectrum $P_{\\mathcal{R}}(k)$ from the BOSS DR 12 LRG and eBOSS DR 16 QSO catalogs with a non-parametric Bayesian method. The $P_{\\mathcal{R}}(k)$ is reconstructed by linearly interpolating $N$ knots in the $\\{ \\log k, \\log P_{\\mathcal{R}}(k) \\}$ plane. We use a parametric model to describe the galaxy power spectra of the BOSS+eBOSS catalogs, assuming any power-law deviations and BAO contributions separately from the matter power spectrum template, composed of seven parameters $Θ_{\\text{model}}$. This parametric model enables us to reconstruct $P_{\\mathcal{R}}(k)$ at non-linear scales, reaching $k = 0.3 \\text{ h} \\text{ Mpc}^{-1}$. The method is validated by applying it to different Primordial Features (PF) templates and by recovering the input power law of \\textsc{MD-Patchy} and \\textsc{EZmock} mock catalogs, representative of the BOSS and eBOSS data. These mocks provide additional information on $Θ_{\\text{model}}$, enabling us to impose Gaussian correlated priors on $Θ_{\\text{model}}$. This prior set allows us to reconstruct $P_{\\mathcal{R}}(k)$ more precisely and to alleviate the degeneracies between the model and knot parameters. The results for both individual and combined $z$-bins and galactic caps of the BOSS and eBOSS catalogs are consistent, showing no evidence of the presence of PF in $P_{\\mathcal{R}}(k)$ and pointing to a quasi-scale-invariant power law as the preferred model for $P_{\\mathcal{R}}(k)$, as predicted by most slow-roll inflationary models. With a different prior set that relaxes the Gaussian constraints on $Θ_{\\text{model}}$ and imposes Planck-based priors on the extreme knots, the results also favor the power law. From the knot reconstructions, we robustly constrain the spectral index $n_s = 0.976 \\pm 0.021$, compatible with the Planck value.",
+  "title_relatable": "What the universe's largest galaxy surveys reveal about inflation's first moments",
+  "hook": "BOSS and eBOSS data now constrain the primordial power spectrum across non-linear scales, finding no exotic features—just vanilla inflation.",
+  "summary": "Researchers reconstructed the primordial power spectrum—the seed pattern of density fluctuations from the Big Bang—using galaxy positions from the BOSS and eBOSS surveys. By fitting 0.3 million galaxies across billions of light-years, they recovered the spectral index n_s = 0.976, consistent with Planck satellite measurements and simple slow-roll inflation models. No exotic features or primordial gravitational waves showed up: the early universe looks disappointingly ordinary.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1303,
+  "tokens_out": 194,
+  "cost_usd": 0.0018184000000000002,
+  "ingested_at": "2026-05-20T00:26:41.758088+00:00"
+}

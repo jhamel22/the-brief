@@ -1,0 +1,23 @@
+{
+  "id": "2605.18673",
+  "arxiv_url": "https://arxiv.org/abs/2605.18673",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CY",
+    "cs.CL"
+  ],
+  "title_original": "Generative AI Advertising as a Problem of Trustworthy Commercial Intervention",
+  "authors": "Jingyi Qiu, Qiaozhu Mei",
+  "abstract": "Major deployed generative AI advertising systems preserve a visible boundary between commercial content and AI-generated responses. Yet empirical research shows that ads woven directly into large language model (LLM) outputs often go undetected by users. We argue that generative AI fundamentally changes advertising: rather than placing products into discrete slots, it enables interventions on the generative process itself, which induce commercial influence through less observable channels. This reframes generative AI advertising as a problem of trustworthy intervention rather than content placement. We introduce a taxonomy organized by influence tier, corresponding to interventions on progressively more latent variables: product mentions, information framing, behavioral redirection, and long-term preference shaping; and show how these tiers instantiate across modalities and system architectures, including retrieval-augmented generation and agentic pipelines where upstream decisions can sharply constrain downstream outcomes. Both major deployed systems and designed mechanisms concentrate on the most observable and easiest-to-govern tier, while the forms of commercial influence most consequential for user autonomy remain poorly understood and lack frameworks for detection, measurement, or disclosure. The central challenge is whether commercial influence in generative systems can be made trustworthy, i.e., attributable, measurable, contestable, and aligned with user welfare.",
+  "title_relatable": "Hidden ads in AI: when does persuasion become manipulation?",
+  "hook": "Ads embedded in LLM outputs go undetected by users, but the real threat is invisible influence on how the model thinks, not just what it says.",
+  "summary": "LLMs enable advertisers to shape outputs at deeper levels—not just mentioning products, but subtly reframing information, redirecting behavior, or reshaping long-term preferences. Most deployed systems focus only on surface-level product placement, leaving more consequential forms of commercial influence unmeasured and undisclosed. The paper proposes a taxonomy of influence tiers and argues generative AI advertising requires new frameworks for detection, measurement, and trustworthiness.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 945,
+  "tokens_out": 185,
+  "cost_usd": 0.001496,
+  "ingested_at": "2026-05-20T00:32:41.303695+00:00"
+}

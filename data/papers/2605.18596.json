@@ -1,0 +1,23 @@
+{
+  "id": "2605.18596",
+  "arxiv_url": "https://arxiv.org/abs/2605.18596",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.HE"
+  ],
+  "title_original": "Towards the Deployment of the First NectarCAM, a Medium-Sized-Telescope Camera for the Cherenkov Telescope Array Observatory",
+  "authors": "Pablo Correa, CTAO NectarCAM Collaboration",
+  "abstract": "NectarCAM is a Cherenkov camera designed to detect gamma rays with energies between 80 GeV and 50 TeV. It will equip nine medium-sized telescopes (MSTs) of the Cherenkov Telescope Array Observatory. NectarCAM consists of 1855 pixels distributed over 265 modules. Each pixel consists of a photomultiplier tube that is connected to a NECTAr3 chip. This NECTAr3 chip contains a 12-bit digitizer with a GHz sampling rate, and has a typical readout deadtime of ${\\sim}0.7$ $μ$s. In these proceedings, we highlight the performance of the NectarCAM in terms of time resolution and charge resolution. We also present the latest calibration techniques that were recently implemented for the camera. Finally, we briefly present the current status and plans of the NectarCAM production; the first production-line NectarCAM will be ready for shipment by Summer 2026, and it is planned to equip one of the MST pathfinders of CTAO.",
+  "title_relatable": "Building the camera that will map the gamma-ray sky",
+  "hook": "A new gamma-ray detector with nearly 2,000 pixels is entering production for the world's largest ground-based observatory, designed to catch the universe's highest-energy light.",
+  "summary": "NectarCAM is a specialized camera that detects gamma rays by catching the faint light they produce when hitting Earth's atmosphere. With 1,855 pixels and ultra-fast electronics sampling at gigahertz speeds, it achieves microsecond-level timing precision—crucial for pinpointing cosmic explosions and black hole jets. The first production unit ships in mid-2026 and will equip the Cherenkov Telescope Array, a global facility that will transform high-energy astrophysics the way modern radio arrays transformed astronomy.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 971,
+  "tokens_out": 207,
+  "cost_usd": 0.0016048000000000002,
+  "ingested_at": "2026-05-20T00:28:22.191872+00:00"
+}

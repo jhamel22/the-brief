@@ -1,0 +1,23 @@
+{
+  "id": "2605.18468",
+  "arxiv_url": "https://arxiv.org/abs/2605.18468",
+  "announced_date": "2026-05-18",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Shallow ReLU$^s$ Networks in $L^p$-Type and Sobolev Spaces: Approximation and Path-Norm Controlled Generalization",
+  "authors": "Weizhao Li, Fanghui Liu, Lei Shi",
+  "abstract": "We study approximation by shallow ReLU$^s$ networks, $σ_s(t)=\\max{0,t}^s$, and the generalization behavior of such networks under $\\ell_1$ path-norm control. For the $L^p$-type integral spaces $\\widetilde{\\mathcal{F}}_{p,τ_d,s}$, $1\\le p\\le2$, we establish approximation bounds for shallow networks using spherical harmonic analysis. In particular, when the parameter measure is the uniform measure $τ_d$ and $p<p^*=(2d+2)/(d+3)$, we obtain the rate $O(m^{-1/2-d(2-p)/(2d(2-p)+2p(2s+d+1))}\\log^{3/2}m)$, which improves the corresponding random-feature rate. We also derive approximation rates for Sobolev spaces $W^{α,p}$ in the range $1\\le p<2$ by embedding them into spectral Barron spaces. Finally, for nonparametric regression with sub-Gaussian noise, we prove minimax-optimal generalization bounds for path-norm-regularized shallow ReLU$^s$ networks over Barron and Sobolev spaces, with matching lower bounds up to logarithmic factors.",
+  "title_relatable": "How shallow neural networks approximate smooth functions",
+  "hook": "Shallow networks with powered ReLU activations can approximate smooth functions faster than random features, with matching minimax-optimal generalization bounds.",
+  "summary": "This work analyzes how shallow neural networks with ReLU^s activations (raising ReLU outputs to power s) approximate functions in smooth function spaces. Using spherical harmonic analysis, the authors derive approximation rates that beat random-feature baselines for L^p and Sobolev spaces. They also prove that regularizing the network by path norm—a measure of parameter size—achieves minimax-optimal generalization bounds for regression, meaning no algorithm can do substantially better without stronger assumptions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1013,
+  "tokens_out": 182,
+  "cost_usd": 0.0015384,
+  "ingested_at": "2026-05-20T00:37:07.696776+00:00"
+}

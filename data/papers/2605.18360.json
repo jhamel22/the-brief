@@ -1,0 +1,22 @@
+{
+  "id": "2605.18360",
+  "arxiv_url": "https://arxiv.org/abs/2605.18360",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Nested-GPT for variable-multiplicity parton showers: A case study in the resummation of non-global logarithms",
+  "authors": "Wanchen Li, Ding Yu Shao, Hao-Zhe Shi, Yu-Xuan Sun",
+  "abstract": "We introduce Nested-GPT, a hierarchical autoregressive Transformer architecture for simulating the variable-multiplicity parton-shower histories. As a controlled benchmark, we study the leading-logarithmic resummation of non-global logarithms in the large-$N_c$ limit, utilizing a stochastic Monte Carlo dipole shower to generate reference training data. We systematically evaluate Nested-GPT against a Transformer flow-matching baseline. The flow-matching framework successfully parameterizes the joint distribution of emission kinematics at fixed multiplicity. Its phase-space representation, however, requires the final number of emissions to be specified externally rather than generated dynamically. Conversely, Nested-GPT strictly enforces the ordered Markovian branching structure, predicting emissions sequentially and dynamically evaluating a learned sequence-termination condition. We benchmark both approaches using gap fraction observables under two complementary training regimes: direct training on vetoed histories and inclusive training followed by an analysis-level veto. The resulting generated samples agree with the reference shower within statistical uncertainties for the observables considered. These results establish Nested-GPT as a physically consistent autoregressive surrogate for variable-multiplicity shower generator and motivate extensions to subleading-logarithmic resummation and finite-$N_c$ color evolution.",
+  "title_relatable": "Can machine learning replace the parton shower?",
+  "hook": "Physicists built a neural network that mimics how quarks split into showers of particles, matching Monte Carlo simulations while learning when to stop branching.",
+  "summary": "Nested-GPT uses a hierarchical Transformer to generate variable-multiplicity parton-shower sequences—the cascading quark splits that happen in high-energy collisions. The model learns the ordered, branching structure of emissions directly and decides when to terminate the shower dynamically, unlike flow-matching baselines that need the final particle count specified upfront. Tests on non-global-logarithm resummation show the method reproduces reference simulations within statistical noise, opening a path toward AI-accelerated shower generators.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1020,
+  "tokens_out": 194,
+  "cost_usd": 0.001592,
+  "ingested_at": "2026-05-20T00:27:28.653903+00:00"
+}

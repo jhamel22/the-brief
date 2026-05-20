@@ -1,0 +1,24 @@
+{
+  "id": "2605.18251",
+  "arxiv_url": "https://arxiv.org/abs/2605.18251",
+  "announced_date": "2026-05-18",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "eess.SP",
+    "cs.LG",
+    "q-bio.NC"
+  ],
+  "title_original": "Subject-Specific Analysis of Self-Initiated Attention Shifts from EEG with Controlled Internal and External Attention Conditions",
+  "authors": "Yuwen Zeng, Dengzhe Hou, Zhang Zhang, Sai Sun, Yongsong Huang, Chia-huei Tseng, Satoshi Shioiri",
+  "abstract": "Self-initiated attention shifts play a critical role in voluntary behavior but are difficult to study due to the absence of explicit temporal markers. While previous studies have examined their neural correlates, it remains unclear how multi-dimensional electroencephalography (EEG) features contribute to their characterization within an interpretable computational framework. In this study, we build on an experimental paradigm developed in our previous work, which enables controlled comparison between task-constrained self-initiated shifts and externally instructed shifts under identical visual stimulation. Within this setting, we investigate whether preparatory EEG activity can distinguish these two types of attention shifts. We adopt a machine learning-based approach and conduct two complementary analyses: (1) a performance-oriented assessment of frequency-specific topographic patterns, and (2) a model-based feature attribution analysis using SHapley Additive exPlanations (SHAP). These analyses provide a structured view of how spectral features across regions of interest contribute to model behavior. Our results demonstrate reliable within-subject classification performance, indicating that preparatory EEG activity contains subject-specific discriminative information within this paradigm. The analysis shows that higher-frequency bands and frontal regions contribute strongly to model decisions, although such contributions should be interpreted cautiously due to the potential influence of non-neural artifacts in high-frequency EEG signals. Overall, this work highlights the value of interpretable machine learning for analyzing subject-specific EEG signal patterns in a controlled experimental setting, with potential applications in personalized and asynchronous brain-machine interface systems.",
+  "title_relatable": "Can brain waves reveal when you decide to pay attention?",
+  "hook": "EEG patterns before voluntary attention shifts differ from externally triggered ones—suggesting the brain leaves a readable signature of self-directed focus.",
+  "summary": "Researchers compared EEG activity when people voluntarily shifted attention versus when they were told to shift it, using a controlled paradigm with identical visual stimuli. Machine learning models reliably distinguished the two states from preparatory brain activity, with frontal regions and higher-frequency signals contributing most. The finding suggests voluntary attention has a distinct neural fingerprint that could eventually personalize brain-computer interfaces.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 772,
+  "tokens_out": 161,
+  "cost_usd": 0.0012615999999999999,
+  "ingested_at": "2026-05-20T00:37:31.736949+00:00"
+}

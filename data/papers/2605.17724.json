@@ -1,0 +1,25 @@
+{
+  "id": "2605.17724",
+  "arxiv_url": "https://arxiv.org/abs/2605.17724",
+  "announced_date": "2026-05-18",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "q-fin.TR",
+    "cs.LG",
+    "q-fin.CP",
+    "q-fin.ST"
+  ],
+  "title_original": "Sequential Structure in Intraday Futures Data: LSTM vs Gradient Boosting on MNQ",
+  "authors": "Mathias Mesfin",
+  "abstract": "This paper compares gradient boosting and long short-term memory (LSTM) architectures for intraday directional prediction in Micro E-Mini Nasdaq 100 futures (MNQ). Motivated by recent foundation-model research on financial candlestick data, including the Kronos architecture, we test whether five-minute OHLCV bar sequences contain exploitable sequential predictive structure at the scale of a single instrument dataset. Using 944 trading days from 2021-2025, four model configurations are evaluated under strict expanding-window walk-forward validation across three out-of-sample periods. The target variable is whether the session close exceeds the 10:30 AM open by more than ten points. No configuration produces statistically significant out-of-sample accuracy above the 51.8% base rate. Combined OOS accuracies range from 50.00% to 50.89% across gradient boosting variants, while the LSTM achieves 50.59%. Permutation tests yield p-values of 0.135 for the best gradient boosting model and 0.515 for the LSTM, indicating no statistically significant predictive edge. Feature importance instability across walk-forward folds suggests noise fitting rather than stable structural signal capture. The results indicate that four years of single-instrument five-minute OHLCV data are insufficient for reliable sequential ML-based intraday forecasting. The primary contribution is a documented evaluation of a Kronos-inspired architecture on a constrained real-world dataset, providing an empirical lower bound on data scale requirements for sequential financial ML.",
+  "title_relatable": "Can AI predict Nasdaq futures five minutes ahead? Not yet.",
+  "hook": "LSTM and gradient boosting both failed to beat 51.8% random guessing on Nasdaq futures, despite four years of data.",
+  "summary": "Researchers tested whether five-minute candlestick patterns in Micro Nasdaq futures (MNQ) contain predictable structure using LSTM and gradient boosting models on 944 trading days. Neither approach beat a coin flip: best accuracy was 50.89%, indistinguishable from noise. The finding suggests that even state-of-the-art sequential learning needs far more data or structural insight than raw price bars alone.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 757,
+  "tokens_out": 174,
+  "cost_usd": 0.0013016,
+  "ingested_at": "2026-05-20T00:38:17.806625+00:00"
+}

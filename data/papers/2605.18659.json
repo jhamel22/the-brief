@@ -1,0 +1,22 @@
+{
+  "id": "2605.18659",
+  "arxiv_url": "https://arxiv.org/abs/2605.18659",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Faster CMB lensing with control variates",
+  "authors": "Toshiya Namikawa, Blake D. Sherwin",
+  "abstract": "We present a new method for fast computation of the realization-dependent bias, a major computational bottleneck in measurements of the cosmic microwave background (CMB) lensing power spectrum. The method accelerates the bias calculation by differencing two correlated estimates: one based on fully realistic masked simulations and the other on isotropic simulations, for which the bias is analytically tractable. We show that our algorithm reduces the total computational cost of a lensing power spectrum measurement by approximately a factor of five for Atacama Cosmology Telescope- or Simons Observatory-like noise levels, or by a factor of three if current anisotropic filtering methods are left unchanged. Owing to its simplicity, the method can be readily implemented in existing CMB lensing analysis pipelines.",
+  "title_relatable": "Five times faster CMB lensing measurements—here's how",
+  "hook": "A new computational trick cuts the most expensive part of measuring gravitational lensing in the cosmic microwave background by a factor of five.",
+  "summary": "Computing the realization-dependent bias in CMB lensing measurements is painfully slow—it requires running thousands of realistic simulations to get right. Namikawa and Sherwin sidestep this by comparing masked simulations against analytically solvable isotropic ones, differencing away the bias instead of calculating it directly. The approach cuts total computational cost by five-fold for near-future experiments and slots directly into existing analysis pipelines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 867,
+  "tokens_out": 176,
+  "cost_usd": 0.0013976,
+  "ingested_at": "2026-05-20T00:26:39.027656+00:00"
+}

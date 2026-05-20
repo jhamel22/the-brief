@@ -1,0 +1,22 @@
+{
+  "id": "2605.18572",
+  "arxiv_url": "https://arxiv.org/abs/2605.18572",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "MA$^{2}$P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion",
+  "authors": "Dingyi Zhang, Ziqing Zhuang, Linhai Zhang, Ziyang Gao, Deyu Zhou",
+  "abstract": "Persuasive dialogue generation plays a vital role in decision-making, negotiation, counseling, and behavior change, yet it remains a challenging problem. In complex persuasion where the persuadee's internal states are not expressed clearly, the persuader must interpret responses, infer the persuadee's latent mental states (e.g., beliefs and desires), and translate them into targeted, strategy-consistent actions; however, current approaches often produce generic or weakly grounded responses even when such cues are identified. Moreover, although large language models (LLMs) can generate persuasive content, their performance varies substantially across domains due to uneven knowledge coverage and limited reasoning generalization. To address these challenges, we propose MA$^{2}$P, a meta-cognitive autonomous intelligent agent framework for complex persuasion. Specifically, we develop an autonomous multi-agent architecture that coordinates perception management, mental-state inference, strategy execution, memory maintenance, and performance evaluation. To mitigate cross-domain performance variation, we further design a meta-cognitive configurator that selects an appropriate meta-strategy from a structured knowledge base at the outset, thereby guiding subsequent reasoning and planning. Experimental results show that our approach achieves a higher persuasion success rate than baselines.",
+  "title_relatable": "Teaching AI to persuade by reading minds it can't see",
+  "hook": "An AI agent framework that infers hidden beliefs and desires to craft targeted persuasion—outperforming simpler LLM approaches across diverse domains.",
+  "summary": "Persuading someone requires reading between the lines: understanding unstated beliefs, desires, and resistance. This paper builds a multi-agent system that combines perception analysis, mental-state inference, strategy selection, and memory to generate persuasive dialogue in complex scenarios where the other person doesn't spell out their position. A key innovation is a \"meta-cognitive configurator\" that picks the right persuasion strategy upfront, anchoring all downstream reasoning. The system beats baseline LLM approaches on success rate across multiple domains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 969,
+  "tokens_out": 192,
+  "cost_usd": 0.0015432,
+  "ingested_at": "2026-05-20T00:32:56.044950+00:00"
+}

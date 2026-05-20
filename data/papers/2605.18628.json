@@ -1,0 +1,23 @@
+{
+  "id": "2605.18628",
+  "arxiv_url": "https://arxiv.org/abs/2605.18628",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.supr-con"
+  ],
+  "title_original": "Field Theory Models for a Holographic Superconductor in Two Dimensions",
+  "authors": "Salvatore Santoro, Roberto Auzzi, Stefano Bolognesi",
+  "abstract": "We investigate field theory models of holographic superconductors in which the condensation of the order parameter is induced by a Robin boundary condition. Assuming large-$c$ factorization, we study the phase diagram of a two-dimensional CFT deformed by a relevant double-trace perturbation. Using modular invariance, we relate the high- and low-temperature phases, reproducing analytically the results for the zero-winding sector of the holographic model. Moreover, we match the near-critical behaviour of the condensate with an effective Ginzburg--Landau field theory description. Another important feature of the holographic superconductor is the presence of vortices that carry fractional magnetic flux. We investigate a field theory toy model with similar properties and interpret it as a fractional Little--Parks effect.",
+  "title_relatable": "How field theory explains superconductivity hidden in black holes",
+  "hook": "Physicists use modular invariance to decode the phase transitions in a hypothetical superconductor that lives on a black hole's boundary.",
+  "summary": "Holographic superconductors—exotic quantum states that emerge from gravity-gauge theory duality—undergo phase transitions via a special boundary condition. The team mapped these transitions using conformal field theory and modular invariance, recovering analytical results that match gravitational calculations. They also found a field theory analog of vortices carrying fractional magnetic flux, suggesting these boundary superconductors behave like a strange variant of the Little–Parks effect, where quantum mechanics modifies superconductivity in peculiar ways.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 882,
+  "tokens_out": 189,
+  "cost_usd": 0.0014616,
+  "ingested_at": "2026-05-20T00:21:00.886617+00:00"
+}

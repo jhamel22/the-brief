@@ -1,0 +1,22 @@
+{
+  "id": "2605.18536",
+  "arxiv_url": "https://arxiv.org/abs/2605.18536",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "The Large Vector Multiplet and Gauging $(2,2)$ $σ$-models",
+  "authors": "Dmitri Bykov, Ulf Lindström, Martin Roček",
+  "abstract": "The Large Vector Multiple (LVM) is the relevant gauge multiplet for gauging isometries acting on both the chiral and the twisted chiral fields in a $(2, 2)$ sigma model. Here we show that a recently proposed new gauge multiplet is a constrained or partially dualized version of the LVM. Gauging using this multiplet results in a $(2, 2)$ $βγ$ system interacting with a sigma model.",
+  "title_relatable": "A simpler way to gauge quantum field theories in two dimensions",
+  "hook": "Physicists found that a recently proposed gauge multiplet is just a constrained version of an older one—and it naturally produces a hybrid system combining two classic models.",
+  "summary": "In 2D quantum field theories with specific symmetries, you need the right multiplet to gauge isometries. This work shows a newly proposed multiplet is actually a constrained variant of the Large Vector Multiplet, and using it produces a system where a βγ system couples to a sigma model—connecting what looked like separate structures.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 809,
+  "tokens_out": 158,
+  "cost_usd": 0.0012792,
+  "ingested_at": "2026-05-20T00:21:06.378058+00:00"
+}

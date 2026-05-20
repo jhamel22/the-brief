@@ -1,0 +1,22 @@
+{
+  "id": "2605.18390",
+  "arxiv_url": "https://arxiv.org/abs/2605.18390",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Vision Foundation Models as Generalist Tokenizers for Image Generation",
+  "authors": "Anlin Zheng, Qi Han, Xin Wen, Chuofan Ma, Lanxi Gong, Gang Yu, Xiangyu Zhang, Xiaojuan Qi",
+  "abstract": "In this work, we explore the largely unexplored direction of building a generalist image tokenizer directly on top of a frozen vision foundation model (VFM). To build this tokenizer, we utilize a frozen VFM as the encoder and introduce two key innovations: (1) a region-adaptive quantization framework to eliminate spatial redundancy in standard 2D grid features, and (2) a semantic reconstruction objective that aligns the decoded outputs with the VFM's representations to preserve semantic fidelity. Grounded in these designs, we propose VFMTok, a generalist visual tokenizer capable of operating seamlessly in both discrete and continuous latent spaces. VFMTok achieves substantial improvements in synthesis quality while drastically enhancing token efficiency. For discrete autoregressive (AR) generation, it accelerates model convergence by \\textbf{3 times} and achieves a state-of-the-art gFID of \\textbf{1.36} on ImageNet class-conditional synthesis. Similarly, for continuous-space generation, integrating VFMTok with a denoising model yields an exceptional gFID of \\textbf{1.25}. Furthermore, because the latent space inherently captures rich spatial semantics, VFMTok enables high-fidelity class-conditional synthesis without classifier-free guidance (\\textbf{w/o CFG}) across both generative paradigms, significantly accelerating inference speed. Beyond these remarkable empirical results, we systematically investigate the underlying mechanisms of our approach. We discover that the specific self-supervised learning objectives utilized during VFM pre-training dictate its effectiveness as a tokenizer. Specifically, a VFM jointly optimized with global contrastive learning and latent masked image modeling provides the optimal representations for image tokenization. These insights establish a strong foundation and offer valuable guidance for the design of future image tokenizers.",
+  "title_relatable": "Using vision foundation models as better image tokenizers",
+  "hook": "Freezing a pretrained vision model and adding smart compression yields 3× faster image generation and better quality (gFID 1.36 on ImageNet).",
+  "summary": "Building image tokenizers from frozen vision foundation models sounds backwards—why not train from scratch?—but it works. The team added region-adaptive quantization to remove spatial redundancy and a semantic reconstruction loss to preserve what the foundation model already learned. The result: VFMTok works in both discrete (autoregressive) and continuous (diffusion) generation, trains 3× faster, needs no classifier-free guidance for class-conditional synthesis, and hits state-of-the-art gFID scores (1.36 discrete, 1.25 continuous). They also show which self-supervised pretraining objectives matter most for turning any foundation model into a good tokenizer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1112,
+  "tokens_out": 230,
+  "cost_usd": 0.0018096,
+  "ingested_at": "2026-05-20T00:34:41.937890+00:00"
+}

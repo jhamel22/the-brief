@@ -1,0 +1,23 @@
+{
+  "id": "2605.18702",
+  "arxiv_url": "https://arxiv.org/abs/2605.18702",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Distilling Tabular Foundation Models for Structured Health Data",
+  "authors": "Aditya Tanna, Nassim Bouarour, Mohamed Bouadi, Vinay Kumar Sankarapu, Pratinav Seth",
+  "abstract": "Tabular foundation models (TFMs) achieve strong performance on health datasets, but their inference cost and infrastructure requirements limit practical use. We study whether their predictive behavior can be transferred to lightweight tabular models through knowledge distillation. Since in-context TFMs condition on the training set at inference time, naive distillation can introduce context leakage; we address this with stratified out-of-fold teacher labeling. Across $19$ healthcare datasets, $6$ TFM teachers, $4$ student families, and several multi-teacher ensembles, we find that distilled students retain at least $90\\%$ of teacher AUC, outperforming teachers in some cases, while running at least $26\\times$ faster on CPU and preserving calibration and fairness critical for health applications. Moreover, multi-teacher averaging does not consistently improve over the best single teacher. Leakage-aware distillation is thus a viable route for bringing TFM-quality predictions into inference-constrained health settings.",
+  "title_relatable": "Shrinking expensive health AI models without losing accuracy",
+  "hook": "Healthcare foundation models work well but are too slow for real clinics. Distilling them into lightweight models keeps 90% of their accuracy while running 26× faster on standard hardware.",
+  "summary": "Tabular foundation models excel at predicting health outcomes but require heavy computational infrastructure at inference time, blocking deployment in resource-constrained settings. Researchers used knowledge distillation to transfer the predictive power of large foundation models into lightweight tabular models, carefully avoiding context leakage by training teachers on hold-out folds. Across 19 healthcare datasets, distilled students maintained at least 90% of their teacher's AUC performance—sometimes exceeding it—while running 26× faster on CPU and preserving calibration and fairness metrics critical for clinical use.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 910,
+  "tokens_out": 210,
+  "cost_usd": 0.001568,
+  "ingested_at": "2026-05-20T00:31:34.304868+00:00"
+}

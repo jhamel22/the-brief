@@ -1,0 +1,22 @@
+{
+  "id": "2605.18467",
+  "arxiv_url": "https://arxiv.org/abs/2605.18467",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "InstructAV2AV: Instruction-Guided Audio-Video Joint Editing",
+  "authors": "Haojie Zheng, Yixin Yang, Siqi Yang, Shuchen Weng, Boxin Shi",
+  "abstract": "Recent diffusion-based methods have achieved impressive progress in video content manipulation. However, they typically ignore the accompanying audio, leaving the audio disjointed from the edited results. In this paper, we propose InstructAV2AV, the first end-to-end framework for instruction-guided audio-video joint editing. We first develop a scalable data synthesis pipeline and construct InsAVE-80K, the first large-scale audio-video editing dataset with high-quality source-to-target pairs. With this data foundation, we adapt an audio-video generation backbone to leverage its robust priors. We concatenate the audio-video input with noisy latent codes to anchor the source context, propose the source-instruction gated attention to improve instruction following and content preservation, and introduce a two-stage training strategy to effectively transfer these pre-trained priors. Extensive experiments demonstrate that InstructAV2AV outperforms state-of-the-art methods across 11 metrics spanning three aspects on two evaluation sets, highlighting its potential for controllable content creation. Project page: https://hjzheng.net/projects/InstructAV2AV/.",
+  "title_relatable": "Edit videos and their soundtracks together, not separately",
+  "hook": "First framework to edit video and audio jointly from text instructions, with a new 80K-pair dataset and 11-metric improvements over existing methods.",
+  "summary": "Video editing tools strip away audio, leaving you with silent clips or mismatched soundtracks. InstructAV2AV fixes this by editing audio and video together based on text instructions—if you change the scene, the sound changes too. The team built InsAVE-80K, the first large-scale paired dataset of audio-video edits, and trained a diffusion model with gated attention mechanisms to follow instructions while preserving the original content. The result beats prior work across speech quality, sound effects matching, and visual fidelity metrics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 936,
+  "tokens_out": 200,
+  "cost_usd": 0.0015488000000000001,
+  "ingested_at": "2026-05-20T00:35:06.819212+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.18537",
+  "arxiv_url": "https://arxiv.org/abs/2605.18537",
+  "announced_date": "2026-05-18",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "Probing for Representation Manifolds in Superposition",
+  "authors": "Alexander Modell",
+  "abstract": "This paper introduces the Manifold Probe, a supervised method for discovering representation manifolds in superposition. The method generalizes linear regression probes by learning the space of features of a concept that can be linearly predicted from the representations, and then learning the directions used to encode them. We demonstrate the probe on representations of time and space in Llama 2-7b, finding manifolds which linearly represent an interpretable set of features in each case. In the case of time, we show that by steering along the manifold, we can influence the model's completions about the years in which famous songs, movies and books were released, providing evidence that the Manifold Probe can discover manifolds which are causally involved in model behaviour.",
+  "title_relatable": "Finding hidden feature spaces buried in neural networks",
+  "hook": "A new technique reveals how large language models encode concepts like time and space as interpretable geometric structures—and lets you steer them by moving along these manifolds.",
+  "summary": "Neural networks compress meaning into dense vector representations that are hard to interpret. This paper introduces the Manifold Probe, which discovers low-dimensional geometric structures (manifolds) encoding specific concepts—like how Llama 2-7b represents time. The method finds which directions in the network's activations correspond to features like \"year\" or \"location,\" then shows these directions causally affect model outputs by steering predictions about when famous movies were released. This matters because it makes neural network internals more transparent and controllable.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 812,
+  "tokens_out": 191,
+  "cost_usd": 0.0014135999999999999,
+  "ingested_at": "2026-05-20T00:37:04.825548+00:00"
+}

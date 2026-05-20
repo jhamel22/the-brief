@@ -1,0 +1,24 @@
+{
+  "id": "2605.18730",
+  "arxiv_url": "https://arxiv.org/abs/2605.18730",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math.AP",
+    "math.DG"
+  ],
+  "title_original": "The spacetime Penrose inequality under a quasi final state hypothesis",
+  "authors": "Ahmed Ellithy",
+  "abstract": "Penrose's original heuristic for his eponymous spacetime inequality -- a conjectured lower bound on the ADM mass in terms of the area of a horizon cross-section -- relies on the black hole final state conjecture. In this paper we isolate a substantially weaker but precise late-time condition, which we call the quasi final state hypothesis and prove the spacetime Penrose inequality under this hypothesis. More precisely, for an asymptotically flat globally hyperbolic spacetime with a black-hole-type apparent horizon tube ${H}_{app}$ satisfying the dominant energy condition and the quasi final state hypothesis, we show that every asymptotically flat initial data set whose boundary is a MOTS cross-section of ${H}_{app}$ satisfies the spacetime Penrose inequality. The quasi final state hypothesis requires only a late-time decay condition on the normal component of the shift and the ratio of timelike to spacelike mean curvature, together with convergence of the cross-sectional areas of ${H}_{app}$ to a finite limit. Our approach is new and formulated directly in spacetime. The main geometric object is what we call a \\emph{tangentially maximal} hypersurface, carrying a foliation by spacelike spheres whose timelike mean curvature vanishes. We show that these hypersurfaces are governed by a quasilinear inward-parabolic PDE, and we develop the corresponding a priori theory and prove global existence. On these hypersurfaces, the spacetime Hawking mass reduces to the Riemannian Hawking mass, and the dominant energy condition gives nonnegative scalar curvature. The Riemannian Penrose inequality, combined with the area laws for dynamical and isolated horizons, then yields the result.",
+  "title_relatable": "A weaker assumption finally proves a 50-year-old mass inequality",
+  "hook": "The Penrose inequality links black hole size to total energy — now it's proved under far milder assumptions than before.",
+  "summary": "The Penrose inequality says a black hole can't be heavier than its size alone would suggest — a bound Penrose conjectured in 1973 but which has resisted proof in full generality. By introducing a minimal late-time condition on how a black hole settles down (it just needs to stabilize, not fully relax), the author constructs a new geometric object — a 'tangentially maximal' hypersurface — and reduces the spacetime problem to a known Riemannian result. The approach sidesteps decades of technical obstacles and brings the full spacetime inequality within reach.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1087,
+  "tokens_out": 207,
+  "cost_usd": 0.006366,
+  "ingested_at": "2026-05-20T00:19:34.060420+00:00"
+}

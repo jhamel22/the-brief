@@ -1,0 +1,22 @@
+{
+  "id": "2605.18416",
+  "arxiv_url": "https://arxiv.org/abs/2605.18416",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Quantum enhanced identification of boosted jets with quantum graph neural networks",
+  "authors": "Parichehr Kangaziankangazi, Abideh Jafari, Maurizio Pierini, Hamed Bakhshiansohi",
+  "abstract": "We present a quantum enhanced tagger to identify jets with large Lorentz boost at colliders. For the first time, a convolutional quantum graph neural network (QGNN) is designed to discriminate boosted jets arising from hadronic decays of the Z boson, against those produced from gluons with large momentum. The network receives data without any physics-driven refinement, relying solely on the dimensionality reduction. The reduction is performed using a convolutional autoencoder whose performance is improved in the presence of added noise. The latent data are put into a graph format and fed to the QGNN of ten qubits. The autoencoder and the QGNN are trained separately, and simultaneously, and the resulting performances are compared with a classic algorithm based on graph networks. The findings indicate a strong potential of quantum graph networks to reproduce the performance of classical methods.",
+  "title_relatable": "Can quantum computers identify boosted jets better than classical ones?",
+  "hook": "Physicists tested a quantum neural network on the hardest jet classification problem: spotting Z bosons hidden inside other debris at the LHC.",
+  "summary": "Researchers built a quantum graph neural network with ten qubits to identify jets from boosted Z bosons versus background gluon jets—a challenging task at colliders. The quantum tagger, fed preprocessed collision data through a classical autoencoder, matched classical graph networks' performance. The result matters because quantum advantage in particle physics remains unproven; this is a concrete test of whether quantum methods can scale to real LHC problems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 912,
+  "tokens_out": 176,
+  "cost_usd": 0.0014336,
+  "ingested_at": "2026-05-20T00:27:22.116775+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.18329",
+  "arxiv_url": "https://arxiv.org/abs/2605.18329",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Lost in the Folds: When Cross-Validation Is Not a Deep Ensemble for Uncertainty Estimation",
+  "authors": "Kirscher Tristan, Bujotzek Markus, Kirchhoff Yannick, Rokuss Maximilian, Isensee Fabian, Kahl Kim-Celine, Kovacs Balint, Maier-Hein Klaus",
+  "abstract": "Ensemble disagreement is widely used as a proxy for epistemic uncertainty in medical image segmentation. In practice, many studies form ensembles via K-fold cross-validation (CV), yet refer to them as ``deep ensembles'' (DE). Because CV members are trained on different data subsets, their disagreement mixes seed-driven variability with data-exposure effects, which can change how uncertainty should be interpreted. We audit recent segmentation uncertainty studies and find that terminology--implementation mismatches are common. We then compare a standard 5-fold CV ensemble to a 5-member DE (fixed training set, different random seeds) under otherwise identical configurations on three multi-rater segmentation datasets spanning three modalities. We evaluate uncertainty for calibration, failure detection, ambiguity modeling, and robustness under distribution shift. DE match segmentation accuracy while improving calibration and failure detection, whereas CV ensembles sometimes correlate more strongly with inter-rater variability on the studied datasets. Thus, ensemble construction should be chosen to match the research question: DE for reliability-oriented use (e.g., selective referral/failure detection) and CV ensembles as a proxy for ambiguity. We provide a lightweight nnU-Net modification enabling DE training within the default pipeline.",
+  "title_relatable": "Why cross-validation ensembles aren't what they seem for uncertainty",
+  "hook": "Medical imaging studies routinely call cross-validation ensembles \"deep ensembles\"—but they measure different things. A careful comparison shows which to use when.",
+  "summary": "When predicting segmentation uncertainty in medical images, researchers often use disagreement across ensemble members. The catch: calling a 5-fold cross-validation ensemble a \"deep ensemble\" conflates two different signals. Cross-validation mixes data-subset effects with random-seed variability, while true deep ensembles (same training data, different seeds) isolate seed variability alone. On three datasets across three imaging modalities, deep ensembles better detect failures and calibrate confidence, while cross-validation correlates more with inter-rater disagreement. The takeaway: pick ensemble type by your goal—deep ensembles for reliability, cross-validation for modeling annotation ambiguity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1001,
+  "tokens_out": 233,
+  "cost_usd": 0.0017328000000000003,
+  "ingested_at": "2026-05-20T00:30:08.712505+00:00"
+}

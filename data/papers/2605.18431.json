@@ -1,0 +1,22 @@
+{
+  "id": "2605.18431",
+  "arxiv_url": "https://arxiv.org/abs/2605.18431",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Seeing Together:Multi-Robot Cooperative Egocentric Spatial Reasoning with Multimodal Large Language Models",
+  "authors": "Kunyu Peng, Zhikun Zhou, Kailun Yang, Di Wen, Ruiping Liu, Yufan Chen, Junwei Zheng, Hao Shi, Yi Zhou, M. Saquib Sarfraz, Danda Pani Paudel, Luc Van Gool",
+  "abstract": "Multimodal Large Language Models (MLLMs) have made substantial progress in egocentric video understanding, but their ability to reason cooperatively from multiple embodied viewpoints remains largely unexplored. We study this problem through multi-robot cooperative dynamic spatial reasoning, where a model must answer spatial, temporal, visibility, and coordination questions by integrating synchronized egocentric videos from a team of moving robots. To support this setting, we introduce CoopSR, the first benchmark for this task, together with EgoTeam, a multi-robot egocentric QA dataset. EgoTeam contains 114,227 QA pairs spanning 19 question types, four difficulty tiers, and three team sizes in Habitat and iGibson, along with a real-world test set of around 2,326 QAs collected using two quadruped robots. We further propose SP-CoR (Spectral and Physics-Informed Cooperative Reasoner), an MLLM framework for fine-grained cooperative spatial reasoning. SP-CoR combines dynamics-aware multi-robot frame sampling, spectral- and physics-guided view fusion, and physics-aligned prompt distillation, enabling the model to benefit from privileged robot-pose supervision during training while requiring only egocentric videos at test time. Across 22 MLLM baselines, SP-CoR consistently improves cooperative reasoning, outperforming the strongest fine-tuned baseline by +3.87% on Habitat and +7.12% on iGibson. It also shows stronger generalization to unseen team sizes and real-world robot tests. Code can be found at https://github.com/KPeng9510/seeing-together.git.",
+  "title_relatable": "Can multiple robots reason about shared space together?",
+  "hook": "First benchmark for multi-robot cooperative vision: robots must answer spatial questions by combining live camera feeds, improving accuracy by 7% on real-world tests.",
+  "summary": "MLLMs excel at understanding single video streams, but coordinating knowledge across multiple robots seeing the same scene simultaneously is unexplored. Researchers introduce CoopSR, a benchmark with 114k QA pairs across simulated and real robot teams, plus SP-CoR, a framework that fuses egocentric views using physics-guided reasoning. The model learns from robot position data during training but works with only camera feeds at test time, reaching 7% better accuracy than baselines on real quadruped robots.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1119,
+  "tokens_out": 190,
+  "cost_usd": 0.0016552000000000001,
+  "ingested_at": "2026-05-20T00:34:39.064513+00:00"
+}

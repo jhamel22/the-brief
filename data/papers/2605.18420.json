@@ -1,0 +1,22 @@
+{
+  "id": "2605.18420",
+  "arxiv_url": "https://arxiv.org/abs/2605.18420",
+  "announced_date": "2026-05-18",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "The nestedness of higher-order networks",
+  "authors": "Timothy LaRock, Yanting Zhang, Jean-Gabriel Young, Nicole Eikmeier, Renaud Lambiotte, Nicholas W. Landry",
+  "abstract": "In contrast to dyadic interactions, higher-order interactions may contain one another, with subgroups naturally embedded within larger groups. These containment patterns arise empirically in ecology, sociology, computer science and the science of science, and have been studied under the names nestedness, simpliciality, encapsulation, and inclusion. In this chapter, we review each of these measures and unify them through a mathematical object known as the encapsulation directed acyclic graph, formulating each measure as a function of its properties. We demonstrate that nested structure is prevalent in social systems across several domains, show that different measures capture complementary aspects of this structure, and find that the absence of nestedness can itself be a powerful indicator of the mesoscale organization of a system.",
+  "title_relatable": "When groups contain groups: measuring hidden structure in networks",
+  "hook": "Real social networks aren't just pairwise links — groups nest inside larger groups, and measuring that reveals hidden organization.",
+  "summary": "Most network science treats connections as simple pairs, but real interactions often involve groups within groups — a lab within a department, a clique within a community. This review unifies several independent measures of this 'nestedness' under a single mathematical framework called the encapsulation graph. Across social datasets, nestedness turns out to be common — and strikingly, its absence is just as informative, signaling distinct mesoscale structure in the system.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 875,
+  "tokens_out": 164,
+  "cost_usd": 0.005085,
+  "ingested_at": "2026-05-20T00:27:54.622064+00:00"
+}

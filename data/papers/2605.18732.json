@@ -1,0 +1,24 @@
+{
+  "id": "2605.18732",
+  "arxiv_url": "https://arxiv.org/abs/2605.18732",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Predictable Confabulations: Factual Recall by LLMs Scales with Model Size and Topic Frequency",
+  "authors": "Matthew L. Smith, Jonathan P. Shock, Samuel T. Segun, Iyiola E. Olatunji, Tegawendé F. Bissyandé",
+  "abstract": "While scaling laws govern aggregate large language model performance, no scaling law has linked factual recall to both model size and training-data composition. We evaluated 38 models on over 8,900 scholarly references evaluated by an automated reference verification system. Recall quality follows a sigmoid in the log-linear combination of model parameter count and topic representation in training data. These two variables alone explain 60% of the variance across 16 dense models from four families, rising to 74-94% within individual families. The form matches a superposition-inspired account in which recall is gated by a signal-to-noise ratio: signal strength scales with concept frequency and the noise floor with model capacity.",
+  "title_relatable": "Why bigger language models remember facts better—and predictably so",
+  "hook": "Larger language models recall facts more accurately, and two variables alone—model size and how often a topic appears in training data—predict 60–94% of this variation.",
+  "summary": "Large language models hallucinate confidently, but their ability to recall actual facts follows a mathematical pattern. Researchers tested 38 models on over 8,900 scholarly references and found that factual accuracy scales predictably with model size and training-data frequency: a bigger model learning about uncommon topics performs like a smaller model learning about common ones. The relationship follows a sigmoid curve in the combination of these two factors, suggesting recall works like a signal-to-noise problem—more frequent topics cut through the noise, larger models reduce the noise floor.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 852,
+  "tokens_out": 203,
+  "cost_usd": 0.0014935999999999999,
+  "ingested_at": "2026-05-20T00:31:31.476597+00:00"
+}

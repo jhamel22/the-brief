@@ -1,0 +1,22 @@
+{
+  "id": "2605.18507",
+  "arxiv_url": "https://arxiv.org/abs/2605.18507",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Weakly Supervised Cross-Modal Learning for 4D Radar Scene Flow Estimation",
+  "authors": "Jingyun Fu, Zhiyu Xiang, Na Zhao",
+  "abstract": "Due to the difficulty of obtaining ground-truth data for 4D radar scene flow estimation, previous methods typically rely on either self-supervised losses or cross-modal supervision using 3D LiDAR data, 2D images, and odometry. However, self-supervised approaches often yield suboptimal results due to radar's inherently low-fidelity measurements, while existing cross-modal supervised methods introduce complex multi-task architecture and require costly LiDAR sensors to generate pseudo radar scene flow labels from pretrained 3D tracking models. To overcome these limitations, we propose a task-specific iterative framework for weakly supervised radar scene flow learning, using only images and odometry for auxiliary supervision during training. Specially, we establish two novel instance-aware self-supervised losses by exploiting off-the-shelf 2D tracking and segmentation algorithms to obtain tracked instance masks, which are back-projected into 3D space to provide instance-level semantic guidance; for static regions, we integrate vehicle odometry with radar's intrinsic motion cues to construct a rigid static loss. Extensive experiments on the real-world View-of-Delft (VoD) dataset demonstrate that our method not only surpasses state-of-the-art cross-modal supervised approaches that rely on 3D multi-object tracking on dense LiDAR point clouds but also outperforms existing fully supervised scene flow estimation methods. The code is open-sourced at \\href{https://github.com/FuJingyun/IterFlow}{https://github.com/FuJingyun/IterFlow}.",
+  "title_relatable": "Training radar to understand motion without expensive sensor labels",
+  "hook": "Radar scene flow estimation now beats methods using expensive LiDAR by using only cheap camera and odometry data during training.",
+  "summary": "4D radar scene flow—estimating how objects move in a scene—is hard to label, so current methods either guess poorly or require LiDAR sensors. This work uses just camera tracking and odometry as weak supervision: they extract instance masks from off-the-shelf 2D trackers, project them into 3D radar space for semantic guidance, and use vehicle motion to handle static regions. On the real-world VoD dataset, the approach outperforms both existing cross-modal supervised methods and fully supervised baselines while being cheaper to train. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1022,
+  "tokens_out": 197,
+  "cost_usd": 0.0016056,
+  "ingested_at": "2026-05-20T00:35:03.749870+00:00"
+}

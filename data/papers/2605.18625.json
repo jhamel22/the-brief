@@ -1,0 +1,24 @@
+{
+  "id": "2605.18625",
+  "arxiv_url": "https://arxiv.org/abs/2605.18625",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "physics.comp-ph"
+  ],
+  "title_original": "Emergent Thiemann coherent states in the near-kernel sector of quantum reduced loop gravity",
+  "authors": "Ilkka Mäkinen, Hanno Sahlmann, Waleed Sherif",
+  "abstract": "We study the near-kernel sector of the Hamiltonian constraint operator in the one-vertex model of quantum reduced loop gravity using variational Monte Carlo methods with neural quantum states. The analysis is based on the symmetric Hamiltonian containing both Euclidean and Lorentzian contributions, and on the variational minimization of the positive quadratic operator $\\hat{\\mathcal Q}=\\hat C \\hat C^\\dagger$ in truncated Hilbert spaces with spin cutoff up to $j_{\\mathrm{max}}=1001$. The resulting near-kernel states are found to organize into three qualitatively distinct classes. At low cutoffs, we find solutions that do not factorize across the three edge degrees of freedom. At larger cutoffs, we find two different factorized branches, both described to very high accuracy by products of one-edge wavefunctions but localized in different spin regimes. One of these branches is matched with near-unit fidelity by reduced Thiemann coherent states, providing evidence for an emergent semiclassical organization of the near-kernel sector. The other is likewise strongly factorized, but its one-edge factors are not well described by the same coherent-state family.",
+  "title_relatable": "A quantum gravity calculation hints at how classical spacetime emerges",
+  "hook": "Neural network methods applied to loop quantum gravity reveal semiclassical coherent states appearing spontaneously from the quantum equations.",
+  "summary": "Using neural-network-based variational methods, researchers searched for the low-energy states of a key operator in loop quantum gravity — the Hamiltonian constraint — at unprecedented spin cutoffs. They found three distinct classes of solutions, and one branch matches Thiemann coherent states (the loop-gravity analog of classical spacetime configurations) with near-perfect fidelity. This is concrete numerical evidence that recognizable semiclassical geometry can emerge organically from the quantum theory, a long-sought sanity check for the approach.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 983,
+  "tokens_out": 184,
+  "cost_usd": 0.005709,
+  "ingested_at": "2026-05-20T00:19:39.425266+00:00"
+}

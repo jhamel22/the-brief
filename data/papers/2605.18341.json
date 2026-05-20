@@ -1,0 +1,23 @@
+{
+  "id": "2605.18341",
+  "arxiv_url": "https://arxiv.org/abs/2605.18341",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph"
+  ],
+  "title_original": "Renormalisation Group Invariants from Scaling and Non-overlapping Symmetries",
+  "authors": "Apostolos Pilaftsis",
+  "abstract": "We show how the synergy of scaling and non-overlapping global symmetries can lead to Renormalisation Group Invariants (RGIs) among the parameters of potentials with multiple scalars. The instrumental role of scale-invariant field directions in the identification and construction of RGIs for bilinear field operators to all loops is demonstrated. We present a few illustrative examples to showcase our constructive spurion-field approach, which is applied to simple non-supersymmetric models as well as to scenarios reported recently in the literature that include the two-Higgs doublet model. The implications of our spurion-field formalism to address the gauge-hierarchy problem are discussed.",
+  "title_relatable": "Finding hidden symmetries that survive quantum corrections in Higgs physics",
+  "hook": "Scaling symmetries and non-overlapping global symmetries combine to produce quantities immune to quantum corrections—potentially constraining Higgs physics.",
+  "summary": "When multiple scalar fields interact, certain combinations of their coupling strengths remain unchanged by quantum corrections—a powerful constraint called renormalization group invariance. Using scaling symmetries and global symmetries that don't overlap, the authors construct these invariants systematically and show how they extend to all loop orders. The method applies to the two-Higgs doublet model and may help address why the Higgs mass doesn't blow up under quantum effects.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 843,
+  "tokens_out": 175,
+  "cost_usd": 0.0013744,
+  "ingested_at": "2026-05-20T00:21:14.761747+00:00"
+}

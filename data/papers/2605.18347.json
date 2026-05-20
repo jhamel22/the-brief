@@ -1,0 +1,22 @@
+{
+  "id": "2605.18347",
+  "arxiv_url": "https://arxiv.org/abs/2605.18347",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "A Three-Dimensional Exploration of Magnetic Fields, Rotation, and Shock Revival in a $39 M_\\odot$ Core-Collapse Supernova Progenitor",
+  "authors": "Liubov Kovalenko, Evan O'Connor, Haakon Andresen, Sean M. Couch",
+  "abstract": "We present three-dimensional hydrodynamic and magnetohydrodynamic core-collapse supernova simulations of a rapidly rotating, high-compactness $39 M_\\odot$ progenitor to investigate the roles of rotation and magnetic fields in shock revival and outflow morphology. This study is designed to separate neutrino-driven expansion, rotation-induced deformation, and magnetically aided polar outflow within the same progenitor. We evolve three models: a non-rotating hydrodynamic baseline, a rotating hydrodynamic model, and a rotating magnetized model. All three models reach runaway shock expansion within the simulated interval, but with markedly different morphologies and timescales. The magnetized model revives first and develops the clearest bipolar outflow. The rotating non-magnetized model undergoes the latest shock revival and remains comparatively compact at the end of the simulation. The non-rotating model also undergoes shock revival, but subsequently collapses to a black hole about one second after core bounce. In the magnetized model, Maxwell stresses redistribute angular momentum and extract energy from the differential rotation of the protoneutron star, reducing the inner-core spin and helping channel rotational free energy into the emerging polar outflow. Neutrino emission provides an additional, though smaller, angular-momentum sink in both rotating models. We find that rapid rotation and strong magnetic fields can launch an early magnetically aided polar outflow in 3D, while the resulting dynamics remain intrinsically non-axisymmetric. In this extreme progenitor, rotation also provides significant support against prompt black-hole formation, although the longer-term remnant stability remains uncertain beyond the simulated interval.",
+  "title_relatable": "How magnetic fields and spin rescue dying massive stars",
+  "hook": "Magnetic fields and rapid rotation can launch jets and delay black hole collapse in core-collapse supernovae—but only when working together in 3D simulations.",
+  "summary": "Simulations of a 39-solar-mass star's core collapse show that magnetic fields and rapid rotation dramatically reshape how shock waves rev­ive. Magnetic stresses extract rotational energy from the neutron star's core and channel it into polar jets, while also allowing shock revival to happen earlier than in non-magnetized cases. Rotation alone delays revival but can't sustain jets; without magnetism, even rotation fails to prevent black hole formation. This demonstrates how magnetic fields are essential for understanding which massive stars produce visible supernovae versus collapsing silently.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1110,
+  "tokens_out": 203,
+  "cost_usd": 0.0017,
+  "ingested_at": "2026-05-20T00:28:34.874310+00:00"
+}

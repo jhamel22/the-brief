@@ -1,0 +1,23 @@
+{
+  "id": "2605.18253",
+  "arxiv_url": "https://arxiv.org/abs/2605.18253",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Machine Unlearning for Masked Diffusion Language Models",
+  "authors": "Georu Lee, Seungwon Jeong, Hoki Kim, Jinseong Park, Woojin Lee",
+  "abstract": "Recent masked diffusion language models (MDLMs), such as LLaDA and Dream, have achieved performance comparable to autoregressive large language models. Unlike autoregressive models, which generate text sequentially, MDLMs generate text by iteratively denoising masked positions in parallel. During fine-tuning, MDLMs learn to recover responses from masked response states conditioned on a prompt, thereby shifting their predictions from a prompt-masked unconditional distribution toward a prompt-conditional distribution. Despite this distinct generative and fine-tuning mechanism, machine unlearning for MDLMs remains largely unexplored. In this paper, we propose Masked Diffusion Unlearning (MDU), the first unlearning framework for MDLMs, by revisiting the process of learning specific knowledge in terms of diffusion. Specifically, MDU minimizes a forward KL divergence from the prompt-conditional prediction to a prompt-masked unconditional anchor at every masked response position, with a temperature scaling parameter to control the privacy-utility trade-off. Our empirical results on standard benchmarks and MDLM backbones show that MDU achieves high unlearning performance compared to existing LLM unlearning methods. Code is available at https://github.com/leegeoru/MDU.",
+  "title_relatable": "Forgetting on command: unlearning for parallel text generation",
+  "hook": "First method to selectively erase knowledge from masked diffusion models, which generate text differently than standard LLMs—matching performance of existing unlearning techniques.",
+  "summary": "Masked diffusion language models like LLaDA generate text by denoising all positions in parallel rather than sequentially, but nobody has figured out how to make them forget specific information. This paper proposes Masked Diffusion Unlearning (MDU), which pushes the model back toward its unconditional state while keeping other knowledge intact. Testing shows MDU matches or beats existing unlearning methods on standard benchmarks. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 962,
+  "tokens_out": 182,
+  "cost_usd": 0.0014976,
+  "ingested_at": "2026-05-20T00:32:43.918645+00:00"
+}

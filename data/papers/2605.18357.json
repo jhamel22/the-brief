@@ -1,0 +1,22 @@
+{
+  "id": "2605.18357",
+  "arxiv_url": "https://arxiv.org/abs/2605.18357",
+  "announced_date": "2026-05-18",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Engagement vs. Commitment: The Economic Trade-Offs of Polarizing News Content",
+  "authors": "Shunyao Yan, Klaus M. Miller",
+  "abstract": "Content that drives engagement need not be the same content that drives willingness to pay. We study how polarizing content affects engagement (time on site) and commitment (subscriptions and retention) on a major news platform. We measure article-level polarization with deep-learning classifiers and large language models tailored to a multiparty system, and identify causal effects with two complementary instrumental variables: a Bartik instrument exploiting supply-side editorial variation, and an election instrument exploiting demand-side political salience. We find that supply-driven increases in polarizing content raise engagement but not subscriptions. During the high-salience election window, the same content reduces subscriptions and accelerates churn, with affective polarization driving the sharpest divergence. On the mechanism, we find evidence inconsistent with confirmation bias: three pre-determined ideology proxies do not moderate the engagement or subscription effects. By contrast, on ideological dimensions where the publisher covers both sides, exogenous shifts in the publisher's supply of content opposite readers' baseline ideology raise their consumption of that content, consistent with balanced consumption. These results document an asymmetric engagement-commitment trade-off for digital publishers: polarizing content reliably captures attention but does not convert to subscriptions, and actively damages commitment when political salience is elevated",
+  "title_relatable": "Why outrage clicks don't pay the bills for news sites",
+  "hook": "Polarizing articles drive clicks but lose subscribers. On a major news platform, election season made this tradeoff worse, suggesting readers reject extreme content when politics matter most.",
+  "summary": "Using deep learning to identify polarizing articles on a news platform, researchers found that editorially-driven increases in divisive content boosted time-on-site but did not increase subscriptions. During high-stakes elections, polarizing content actually accelerated subscriber churn and reduced willingness to pay. The mechanism wasn't readers seeking confirmation—it was that subscribers wanted balanced coverage when political stakes were highest.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 677,
+  "tokens_out": 171,
+  "cost_usd": 0.0012255999999999999,
+  "ingested_at": "2026-05-20T00:38:37.754772+00:00"
+}

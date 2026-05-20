@@ -1,0 +1,22 @@
+{
+  "id": "2605.17975",
+  "arxiv_url": "https://arxiv.org/abs/2605.17975",
+  "announced_date": "2026-05-18",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "M-SDT: A modelling framework for dengue transmission, forecasting, and intervention strategies in Ahmedabad Municipal Corporation",
+  "authors": "Sourav Roy, Rajendra Gadhavi, Bhavin Solanki, Chirag Shah, Raj C. Sharma, Indrajit Ghosh",
+  "abstract": "Dengue fever poses a persistent public health challenge in rapidly urbanizing Indian cities such as Ahmedabad, where spatial heterogeneity and seasonal variability complicate forecasting and control. In this study, we develop a data-driven compartmental framework to simulate transmission dynamics, generate forecasts, and evaluate intervention strategies across the Ahmedabad Municipal Corporation (AMC). We employ a Mechanistic Seasonal Dengue Transmission (M-SDT) model that incorporates symptomatic and asymptomatic infections. We calibrated the proposed model using zone-wise dengue case data during 2020--2024. Parameter uncertainty is rigorously quantified using a bootstrap sampling framework with negative binomial noise. The calibrated model reveals pronounced spatial heterogeneity across AMC zones, with persistent hotspots and distinct transmission regimes. Forecasts for 2026--2028 indicate continued endemic circulation with moderate inter-annual variability. Sensitivity analysis identifies the mosquito biting rate and vector mortality as dominant drivers of long-term disease burden, highlighting the central role of vector ecology in shaping epidemic outcomes. Evaluating seasonal vector control strategies shows a notable difference in operation; periodic fogging has a cumulative effect over the years, while sustained residual spraying can quickly curb outbreaks and decrease incidence by over 80%. The zone-wise analysis reveals that the mosquito-to-human ratio governs not only the baseline outbreak potential but also each zone's responsiveness to control strategies. Overall, the M-SDT modelling framework enables reconstruction of unobserved dynamics, rigorous uncertainty quantification, and evaluation of targeted, zone-specific interventions, underscoring the importance of integrating fine-scale surveillance data with mechanistic modelling for adaptive urban dengue control.",
+  "title_relatable": "Can math predict dengue outbreaks zone by zone?",
+  "hook": "Sustained spraying cuts dengue cases by over 80% in Indian city, but only if mosquito density is factored in first.",
+  "summary": "Researchers built a transmission model for dengue in Ahmedabad using five years of case data, accounting for both symptomatic and hidden infections. The model revealed hotspots vary sharply across city zones and that mosquito-killing strategies work best when tailored to local mosquito density. Periodic fogging helps gradually, but consistent residual spraying stops outbreaks fast—insight that could reshape vector control in dengue-endemic cities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 818,
+  "tokens_out": 175,
+  "cost_usd": 0.0013544000000000002,
+  "ingested_at": "2026-05-20T00:37:55.830576+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.18599",
+  "arxiv_url": "https://arxiv.org/abs/2605.18599",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling",
+  "authors": "Yihang Wu, Yihang Sun, Shaofeng Zhang, Zuxuan Wu, Junchi Yan, Xiaosong Jia, Yu-gang Jiang",
+  "abstract": "Transformer-based models have advanced feedforward novel view synthesis (NVS). Current architectures such as GS-LRM and LVSM mix semantic information (e.g., RGB) and spatial information (e.g., Plücker rays) into a shared feature space. Since Plücker rays naturally carry lattice-like spatial structure, these designs can make the spatial bias interfere with appearance representation and degrade rendering fidelity. To this end, we propose to decouple the representation of feedforward NVS transformers into separate semantic and spatial tokens. The decoupled design keeps semantic and spatial information explicit in their branches while preserving cross-branch interaction through shared attention routing. Built on this design, we introduce optional categorized supervision and bidirectional modulation: the former provides branch-specific training signals, while the latter improves interaction between the two branches. Notably, the base decoupled design introduces virtually zero additional inference latency due to its architectural design. The proposed designs achieve consistent improvements, demonstrating effectiveness across decoder-only and encoder-decoder feedforward NVS models.",
+  "title_relatable": "Separating appearance from geometry in AI view synthesis",
+  "hook": "Transformer models for novel view synthesis mix visual and spatial information in ways that hurt image quality. Decoupling them improves rendering without slowing inference.",
+  "summary": "Current feedforward view synthesis models blend semantic (color, texture) and spatial (ray position) information into one representation, which causes spatial structure to interfere with appearance quality. This paper separates them into distinct branches that still communicate through shared attention, adding optional branch-specific supervision and bidirectional modulation to improve their interaction. The approach works with both decoder-only and encoder-decoder architectures and adds virtually no inference cost.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 947,
+  "tokens_out": 171,
+  "cost_usd": 0.0014416,
+  "ingested_at": "2026-05-20T00:34:57.878795+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.18589",
+  "arxiv_url": "https://arxiv.org/abs/2605.18589",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Markov chain Monte Carlo (MCMC) based Likelihood Extraction of Chiral-Odd Compton Form Factors from Deeply Virtual Exclusive Experiments",
+  "authors": "Saraswati Pandey, Douglas Q. Adams, Simonetta Liuti",
+  "abstract": "A likelihood analysis of the observables in deeply virtual exclusive meson production off a proton target is presented. We consider the unpolarized process for which the largest amount of data with all the kinematic dependences are available from corresponding datasets with unpolarized beams and unpolarized as well as longitudinally polarized targets from Jefferson Lab. We employ a method which derives a joint likelihood of the Compton form factors, which parameterize the deeply virtual Compton scattering amplitude in QCD, for each observed combination of the kinematic variables defining the reaction. The twist-two cross-section likelihood constrain only three of the Compton form factors (CFFs). The joint likelihood analysis of cross-section and Asymmetry information adds more sophistication to the Compton form factors (CFFs). The derived likelihoods are explored using Markov chain Monte Carlo (MCMC) methods.",
+  "title_relatable": "How to extract the proton's hidden structure from collision data",
+  "hook": "A new statistical method squeezes more information from Jefferson Lab experiments about the proton's internal building blocks.",
+  "summary": "Physicists at Jefferson Lab collide electrons with protons to map the proton's internal structure through deeply virtual exclusive reactions. Previous analyses extracted only three of the key building-block descriptors—called Compton form factors—from cross-section data alone. This work combines cross-section and asymmetry measurements in a unified statistical framework, revealing more form factors than traditional methods, and uses Monte Carlo sampling to map out what the data actually constrains.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 921,
+  "tokens_out": 169,
+  "cost_usd": 0.0014128,
+  "ingested_at": "2026-05-20T00:27:14.087375+00:00"
+}

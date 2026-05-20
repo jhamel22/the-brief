@@ -1,0 +1,22 @@
+{
+  "id": "2605.18693",
+  "arxiv_url": "https://arxiv.org/abs/2605.18693",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents",
+  "authors": "Yifan Zhou, Zhentao Zhang, Ziming Cheng, Shuo Zhang, Qizhen Lan, Zhangquan Chen, Zhi Yang,  QianyuXu, Ronghao Chen, Huacan Wang, Sen Hu",
+  "abstract": "As LLM agents are increasingly built around reusable skills, a central challenge is no longer only whether agents can use provided skills, but whether they can generate correct, reusable, and executable skills from repositories and documents. Existing benchmarks primarily evaluate the efficacy of given skills or the ability of agents to solve downstream tasks from raw context, but they do not isolate skill generation itself as the object of study. We introduce SkillGenBench, a benchmark for evaluating skill generation pipelines under a unified and controlled protocol. In SkillGenBench, a generator receives raw corpora and produces standardized skill artifacts, which are then executed under fixed harnesses and assessed with unified evaluation procedures. The benchmark covers two generation regimes: task-conditioned generation, where a task-specific skill is synthesized after the task is revealed, and task-agnostic generation, where a reusable skill library must be distilled before downstream tasks are known. It also spans two complementary procedural sources: repository-grounded instances, where procedures are distributed across code, configuration, and scripts, and document-grounded instances, where procedures and constraints must be distilled from long-form text. We provide standardized task specifications, pinned environments, and evaluation protocols centered on deterministic execution-based checks, supplemented by auxiliary signals for diagnosis. Experiments across a range of skill-generation methods and backbones show substantial performance variation, highlight the difficulty of reusable skill distillation, and reveal distinct failure modes in skill generation from software repositories versus long-form documents. SkillGenBench establishes a reproducible testbed for studying skill generation as an independent research problem in agent systems.",
+  "title_relatable": "Can AI agents write their own tools reliably?",
+  "hook": "New benchmark tests whether language model agents can create correct, reusable skills from code and documents—a harder problem than just using pre-made ones.",
+  "summary": "Building effective AI agents requires not just using existing tools but generating new ones from raw materials. SkillGenBench isolates skill generation as its own problem, testing whether language models can synthesize executable skills from software repositories and long-form documents. The benchmark covers two scenarios: task-specific skills written after seeing a task, and reusable skill libraries built blindly before tasks arrive. Early results show current methods struggle significantly with skill reusability, especially when distilling procedures from documentation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1084,
+  "tokens_out": 183,
+  "cost_usd": 0.0015992,
+  "ingested_at": "2026-05-20T00:31:41.955058+00:00"
+}

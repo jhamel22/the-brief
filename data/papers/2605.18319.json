@@ -1,0 +1,25 @@
+{
+  "id": "2605.18319",
+  "arxiv_url": "https://arxiv.org/abs/2605.18319",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.DM",
+    "math.AG",
+    "math.CO"
+  ],
+  "title_original": "The Symmetries of Three-Layer ReLU Networks",
+  "authors": "Johanna Marie Gegenfurtner, Moritz Grillo, Guido Montúfar",
+  "abstract": "We develop a framework for analyzing parameter symmetries in deep ReLU networks and obtain a complete characterization of the generic parameter fibers for three-layer bottleneck architectures. Our approach provides explicit semi-algebraic descriptions of these fibers and yields a polynomial time algorithm for deciding functional equivalence of two parameters. The symmetries include discrete and continuous transformations arising from layer composition, and depend on whether deeper layers hide or preserve geometric structure from preceding layers. Finally, we show that some of these symmetries induce local conservation laws along gradient flow, while others do not.",
+  "title_relatable": "Why neural networks hide multiple copies of the same solution",
+  "hook": "Three-layer ReLU networks have vastly more distinct parameter settings than distinct functions they can compute—a redundancy that creates both mathematical structure and practical implications for training.",
+  "summary": "Neural networks are fundamentally redundant: different weight configurations can compute identical functions. This paper completely characterizes that redundancy for three-layer bottleneck networks, showing which symmetries arise from layer composition and which ones actually constrain how gradients flow during training. The result includes an algorithm to check if two parameter sets are functionally equivalent in polynomial time.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 795,
+  "tokens_out": 159,
+  "cost_usd": 0.001272,
+  "ingested_at": "2026-05-20T00:30:11.177761+00:00"
+}

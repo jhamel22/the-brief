@@ -1,0 +1,22 @@
+{
+  "id": "2605.18249",
+  "arxiv_url": "https://arxiv.org/abs/2605.18249",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Quasinormal modes of a rotating loop quantum black hole",
+  "authors": "Zhongzhinan Dong, Shulan Li, Dan Zhang, Jian-Pin Wu",
+  "abstract": "We investigate the quasinormal modes of a massless scalar field on an effective rotating loop quantum black hole background, constructed from a covariant spherical model via an improved Newman-Janis algorithm. Using the continued fraction method, we compute the spectrum for both fundamental and overtone modes, and systematically analyze how the frequencies depend on the quantum correction, spin, and angular structure of the perturbation. For all fundamental modes, increasing the quantum gravity correction monotonically reduces both the oscillation frequency and the damping rate, signaling slower oscillations and prolonged decay. Rotation imprints a nontrivial modulation: for a spherically symmetric perturbation, the real frequency displays a crossover as the spin grows, whereas this feature is suppressed once angular momentum is turned on; further activating the azimuthal component enhances the frequency and reduces the damping even more strongly. In the overtone sector, the rotating solution retains the hallmark quantum gravitational signatures of the spherical case - overtone outbursts and non-monotonic evolution - with rotation shifting these phenomena to weaker quantum corrections. Nonzero orbital angular momentum suppresses the outbursts, while the azimuthal degree of freedom boosts the frequency, giving rise to novel spectral inversions among higher overtones. Our results confirm that the effective rotating metric captures essential loop quantum gravity features, providing clear theoretical benchmarks for black hole spectroscopy and future gravitational-wave observations.",
+  "title_relatable": "How quantum gravity warps the 'ringing' of rotating black holes",
+  "hook": "Loop quantum gravity leaves a distinct fingerprint on black hole ringdown — and rotation makes it stranger, not simpler.",
+  "summary": "When a black hole is disturbed, it rings at characteristic frequencies called quasinormal modes — the signal gravitational-wave detectors like LIGO hunt for. Applying loop quantum gravity corrections to a spinning black hole, the authors find that quantum effects slow both the oscillation and the decay of these modes, while spin introduces unexpected crossovers and spectral inversions among higher overtones. These signatures could, in principle, distinguish quantum-corrected black holes from their classical counterparts in future high-precision gravitational-wave data.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1019,
+  "tokens_out": 187,
+  "cost_usd": 0.005862,
+  "ingested_at": "2026-05-20T00:20:31.180513+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.18557",
+  "arxiv_url": "https://arxiv.org/abs/2605.18557",
+  "announced_date": "2026-05-18",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.LG",
+    "cs.NE",
+    "q-bio.NC"
+  ],
+  "title_original": "Self-supervised local learning rules learn the hidden hierarchical structure of high-dimensional data",
+  "authors": "Ariane Delrocq, Wu S. Zihan, Guillaume Bellec, Wulfram Gerstner",
+  "abstract": "The brain learns abstract representations of high-dimensional sensory input, but the plasticity rules that enable such learning are unknown. We study biologically plausible algorithms on the Random Hierarchy Model (RHM), an artificial dataset designed to investigate how deep neural networks learn the intrinsic hierarchical structure of high-dimensional data. We focus on two types of local learning rules that avoid both a long convergence time and the use of a symmetric error network. The first type uses direct feedback signals to approximate error propagation from the output layer. The second type uses layerwise self-supervised contrastive or non-contrastive loss functions that do not explicitly approximate errors at the output layer. We show that all rules of the first type fail to solve the tasks of the RHM and trace this failure back to input-specific nonlinearities (`masking') that are implemented in full backpropagation and are essential for learning complex tasks. However, algorithms of the second type are able to learn the hierarchical hidden structure of the RHM tasks and are as data-efficient as supervised backpropagation training, while being compatible with known rules of synaptic plasticity in cortex.",
+  "title_relatable": "Can brain-like learning rules discover hidden structure in complex data?",
+  "hook": "Self-supervised learning in artificial neural networks matches backpropagation's efficiency while obeying biological constraints on how synapses actually change.",
+  "summary": "Researchers tested whether biologically plausible learning rules—using only local signals between neurons rather than brain-wide error signals—could learn hierarchical structure in high-dimensional data. Self-supervised approaches using contrastive learning succeeded where direct feedback approximations failed, matching supervised backpropagation's efficiency. This matters because it suggests the brain's actual plasticity rules may be sufficient for learning abstract representations without the unrealistic machinery backpropagation requires.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 664,
+  "tokens_out": 179,
+  "cost_usd": 0.0012472,
+  "ingested_at": "2026-05-20T00:37:29.071974+00:00"
+}

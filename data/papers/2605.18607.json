@@ -1,0 +1,23 @@
+{
+  "id": "2605.18607",
+  "arxiv_url": "https://arxiv.org/abs/2605.18607",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Forecasting Downstream Performance of LLMs With Proxy Metrics",
+  "authors": "Arkil Patel, Siva Reddy, Marius Mosbach, Dzmitry Bahdanau",
+  "abstract": "Progress in language model development is often driven by comparative decisions: which architecture to adopt, which pretraining corpus to use, or which training recipe to apply. Making these decisions well requires reliable performance forecasts, yet the two commonly used signals are fundamentally limited. Cross-entropy loss is poorly aligned with downstream capabilities, and direct downstream evaluation is expensive, sparse, and often uninformative at early training stages. Instead, we propose to construct proxy metrics by aggregating token-level statistics, such as entropy, top-k accuracy, and expert token rank, from a candidate model's next token distribution over expert-written solutions. Across three settings, our proxies consistently outperform loss- and compute-based baselines: 1) For cross-family model selection, they rank a heterogeneous population of reasoning models with mean Spearman Rho = 0.81 (vs. Rho = 0.36 for cross-entropy loss); 2) For pretraining data selection, they reliably rank 25 candidate corpora for a target model at roughly $10{,}000\\times$ less compute than direct evaluation, pushing the Pareto frontier beyond existing methods; and 3) for training-time forecasting, they extrapolate downstream accuracy across an $18\\times$ compute horizon with roughly half the error of existing alternatives. Together, these results suggest that expert trajectories are a broadly useful source of signal for assessing model capabilities, enabling reliable performance forecasting throughout the model development life cycle.",
+  "title_relatable": "Predicting LLM capabilities without waiting for full training",
+  "hook": "Researchers built proxy metrics that forecast downstream model performance 18× earlier in training and 10,000× cheaper than direct evaluation, ranking models with 0.81 correlation versus 0.36 for loss.",
+  "summary": "Deciding which model architecture or training data to use requires expensive downstream evaluations that are slow and uninformative early in training. The team constructed proxy metrics from token-level statistics (entropy, top-k accuracy, expert token rank) computed on expert-written solutions, then tested them across three scenarios: selecting among different model families (Rho = 0.81 vs. 0.36 for cross-entropy loss), ranking pretraining corpora, and forecasting final accuracy from early training stages. The proxies consistently outperformed loss-based baselines, enabling reliable performance prediction at 10,000× lower compute cost for data selection and tracking accuracy trajectories across an 18× compute span.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1007,
+  "tokens_out": 247,
+  "cost_usd": 0.0017936,
+  "ingested_at": "2026-05-20T00:32:50.292905+00:00"
+}

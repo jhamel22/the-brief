@@ -1,0 +1,22 @@
+{
+  "id": "2605.18595",
+  "arxiv_url": "https://arxiv.org/abs/2605.18595",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Impact of sky localization uncertainty on ringdown inference",
+  "authors": "Kallol Dey, Enrico Barausse, Marco Crisostomi, Roberto Trotta",
+  "abstract": "As gravitational-wave ringdown signals grow louder, quasinormal-mode inference depends increasingly on the treatment of extrinsic parameters. Standard analyses fix sky localization - and sometimes also polarization and inclination - to point estimates from a prior inspiral-merger-ringdown analysis, artificially breaking degeneracies and underestimating the true uncertainty of mode-amplitude values. We test two alternatives: uninformative priors on the extrinsic parameters, sampled jointly with the remnant mass, spin, mode amplitudes, and phases; and informed priors on sky position from the full signal posterior. The former yields wider marginal constraints on amplitude posteriors, and both avoid potential bias introduced by fixing the sky localization. In contrast, mode amplitude ratios remain consistent across approaches, making them a robust observable for Kerr spectroscopy. Our publicly available pipeline enables fast ringdown analyses capable of sampling all parameters, requiring tens of minutes on a laptop for a full inference. Applied to GW250114 and GW190521, our methods confirm the robust detection of the $(2,2,1)$ overtone in GW250114, and, for GW190521, find only mild evidence for the $(3,3,0)$ mode.",
+  "title_relatable": "How sky position uncertainty quietly skews black hole ringdown measurements",
+  "hook": "Fixing where a gravitational wave came from artificially sharpens results—and hides real uncertainty about the black hole left behind.",
+  "summary": "When a black hole merger ends, the remnant 'rings down' like a struck bell, and reading those tones tests whether Einstein's theory holds. Standard analyses pin the sky location of the source to a single best-guess value, which artificially tightens constraints on the ringdown amplitudes and can introduce bias. Treating sky position as uncertain—and marginalizing over it properly—gives more honest error bars, while amplitude *ratios* stay stable regardless, making them the safer observable for testing black hole physics.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 977,
+  "tokens_out": 185,
+  "cost_usd": 0.005706,
+  "ingested_at": "2026-05-20T00:19:45.543344+00:00"
+}

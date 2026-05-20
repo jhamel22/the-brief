@@ -1,0 +1,22 @@
+{
+  "id": "2605.18725",
+  "arxiv_url": "https://arxiv.org/abs/2605.18725",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Signatures of Quantum Chaos in the D1D5 System",
+  "authors": "Haoyu Zhang",
+  "abstract": "We investigate the emergence of random-matrix statistics in the D1D5 CFT by studying second-order lifting matrices in low-energy near-BPS sectors. We compare the $N=3$ finite-$N$ lifting problems with the planar large-$N$ limit at fixed orbifold conformal weight and R charges. In the planar large-$N$ limit at fixed orbifold energy, mixing between single-cycle and multi-cycle states is suppressed, and the symmetry-resolved lifting spectra display Poisson-like level statistics. At finite $N$, non-planar terms restore this mixing between different cycle structures. Within the resulting symmetry-resolved sectors, this finite-$N$ mixing is accompanied by level repulsion consistent with random-matrix behavior. These results suggest that, in the low-energy near-BPS sectors accessible to our analysis, non-planar cycle-structure mixing at finite $N$ is associated with the onset of level repulsion and random-matrix-like spacing statistics.",
+  "title_relatable": "Where do black hole microstates get chaotic?",
+  "hook": "Quantum chaos signatures emerge in string theory's favorite toy model—but only when you stop taking the large-N limit.",
+  "summary": "The D1D5 system is a string theory setup that encodes black hole microstates as a conformal field theory. By studying energy level statistics in this system, researchers found that at infinite N the spectrum looks random and featureless (Poisson-like), but at realistic finite N, mixing between different quantum states triggers level repulsion—the telltale signature of quantum chaos. Non-planar terms that vanish at large N are the culprit.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 910,
+  "tokens_out": 176,
+  "cost_usd": 0.001432,
+  "ingested_at": "2026-05-20T00:20:49.996342+00:00"
+}

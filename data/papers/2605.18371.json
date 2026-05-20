@@ -1,0 +1,22 @@
+{
+  "id": "2605.18371",
+  "arxiv_url": "https://arxiv.org/abs/2605.18371",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Dyonic Black Holes in Lorentz-Violating Gravity with a Background Kalb--Ramond Field",
+  "authors": "Yu-Xuan Lin, Jia-Zhou Liu, Yu-Xiao Liu",
+  "abstract": "By introducing a nonminimal coupling between the Kalb--Ramond field and the electromagnetic field, we construct an exact four-dimensional static, spherically symmetric dyonic black hole solution in Lorentz-violating gravity with a background Kalb--Ramond field. The curvature invariants show that the spacetime retains a genuine curvature singularity at $r=0$. We then analyze the geodesic motion of null and timelike particles and obtain the photon-sphere radius, the shadow radius, and the innermost stable circular orbit, demonstrating that both the Lorentz-violating parameter and the dyonic charges can appreciably modify the shadow size and the domain of stable circular motion. In the extended phase space, we derive the thermodynamic quantities and verify the first law of black hole thermodynamics together with the Smarr relation. The system also exhibits a first-order phase transition between small and large black holes, and its phase structure is strongly influenced by the Lorentz-violating parameter and the dyonic charges.",
+  "title_relatable": "What happens when black holes carry both electric and magnetic charge?",
+  "hook": "A black hole solution combining electric charge, magnetic charge, and Lorentz symmetry violation produces measurably different shadows and phase transitions.",
+  "summary": "Adding a nonminimal coupling between two exotic fields yields an exact black hole solution that carries both electric and magnetic charge while breaking Lorentz symmetry. The shadow cast by such a black hole shifts appreciably depending on the degree of symmetry violation and the charge mix — potentially observable with instruments like the Event Horizon Telescope. The same parameters also reshape the black hole's thermodynamic phase structure, shifting when and how it flips between small and large states.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 173,
+  "cost_usd": 0.005439,
+  "ingested_at": "2026-05-20T00:20:21.153259+00:00"
+}

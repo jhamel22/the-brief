@@ -1,0 +1,23 @@
+{
+  "id": "2605.18560",
+  "arxiv_url": "https://arxiv.org/abs/2605.18560",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "nucl-th",
+    "astro-ph.HE"
+  ],
+  "title_original": "Astrophysics equation of state inference with Bayesian chiral effective field theory uncertainties",
+  "authors": "Melissa Mendes, Hannah Göttling, Anna Hensel, Isak Svensson, Kai Hebeler, Achim Schwenk, Nathan Rutherford, Anna Watts",
+  "abstract": "We investigate Bayesian chiral effective field theory ($χ$EFT) uncertainties, which assign a statistical interpretation to equation of state (EOS) distributions near nuclear saturation density, n$_0$, as well as constraints from perturbative quantum chromodynamics (pQCD) to Bayesian EOS inference from LIGO/Virgo, NICER and pulsar mass observations. The tails of the $χ$EFT uncertainties allow for broader pressure ranges in our priors, but large parts of these are excluded by the astrophysical observations, so that the EOS and the resulting mass-radius posteriors are still very consistent with our earlier work. Within our broad prior ranges, we observe a clear stiffening of the EOS at $n \\gtrsim 3 n_0$. Moreover, the impact of the pQCD constraints on the posterior EOS and mass-radius range is negligible due to the astrophysics constraints. Exploiting the strong correlation between pure neutron matter and matter in beta equilibrium, we infer the symmetry energy slope parameter $L$ from astrophysics. For the $68\\%$ credible interval, we obtain $L=42.6-52$ MeV and $L=44.2-56.7$ MeV using piecewise-polytrope and speed-of-sound high-density extensions, respectively. The $L$ posterior is mainly driven by the combination of GW170817 LIGO/Virgo and PSR J0740+6620, PSR J0437-4715, and PSR J0614-3329 NICER observations.",
+  "title_relatable": "What neutron star collisions tell us about nuclear matter",
+  "hook": "LIGO and pulsar observations pin down the stiffness of matter inside neutron stars, ruling out extreme scenarios predicted by nuclear theory.",
+  "summary": "Neutron stars are cosmic laboratories for nuclear physics. By combining gravitational wave detections from colliding neutron stars (GW170817) with X-ray timing measurements from NICER and pulsar mass observations, researchers constrained the equation of state—how pressure relates to density inside these objects. Their Bayesian analysis shows astrophysics data tightens the allowed pressure range so much that theoretical uncertainties from nuclear physics barely matter. The result: the nuclear symmetry energy parameter is pinned to 43–57 MeV, and matter stiffens significantly at densities three times that of atomic nuclei.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1110,
+  "tokens_out": 213,
+  "cost_usd": 0.00174,
+  "ingested_at": "2026-05-20T00:28:25.578812+00:00"
+}

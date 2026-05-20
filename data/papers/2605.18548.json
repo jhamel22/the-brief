@@ -1,0 +1,23 @@
+{
+  "id": "2605.18548",
+  "arxiv_url": "https://arxiv.org/abs/2605.18548",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "STT-Arena: A More Realistic Environment for Tool-Using with Spatio-Temporal Dynamics",
+  "authors": "Tingfeng Hui, Hao Xu, Pengyu Zhu, Hongsheng Xin, Kun Zhan, Sen Su, Chunxiao Liu, Ning Miao",
+  "abstract": "Large language models (LLMs) deployed in real-world agentic applications must be capable of replanning and adapting when mid-task disruptions invalidate their prior decisions. Existing dynamic benchmarks primarily measure whether LLMs can detect temporal changes in a timely manner, leaving the complementary challenge of adaptive replanning under spatio-temporal dynamics largely unexplored. We introduce STT-Arena (Spatio-Temporal Tool-Use Arena), a benchmark of 227 high-quality interactive tasks spanning nine spatio-temporal conflict types and four solvability levels. Each task is grounded in a realistic, executable environment equipped with injected spatio-temporal triggers that can abruptly invalidate an ongoing plan, forcing the model to detect the state shift and construct a revised execution strategy. Extensive evaluation of frontier LLMs reveals that even the SOTA proprietary models, including Claude-4.6-Opus, achieves less than 40\\% overall accuracies, highlighting the fundamental difficulty of spatio-temporal dynamic reasoning. Systematic analysis of failure trajectories uncovers three recurring error modes of existing models: Stale-State Execution, Misdiagnosis of Dynamic Triggers, and Missing Post-Adaptation Verification. Guided by these findings, we propose an iterative trajectory refinement technique that eliminates these failure patterns from training data, and combine it with online RL to produce STT-Agent-4B which outperforms frontier LLMs on STT-Arena.",
+  "title_relatable": "When AI's plan falls apart mid-task: building smarter replanning",
+  "hook": "Even Claude-4.6-Opus fails on nearly two-thirds of dynamic reasoning tasks where a plan must be abandoned and rebuilt mid-execution as the environment changes.",
+  "summary": "Real-world AI agents need to detect when something unexpected happens and replan on the fly—yet existing benchmarks ignore this challenge. STT-Arena tests 227 tasks where spatio-temporal disruptions (like a target object moving or disappearing) force models to abandon their strategy and adapt. Frontier LLMs score below 40%, failing in three consistent ways: executing stale information, misidentifying what changed, and skipping verification after replanning. The authors fix these errors using trajectory refinement plus online RL, creating a 4B model that beats all tested frontier models on this benchmark.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1033,
+  "tokens_out": 218,
+  "cost_usd": 0.0016984,
+  "ingested_at": "2026-05-20T00:33:05.912720+00:00"
+}

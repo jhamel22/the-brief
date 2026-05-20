@@ -1,0 +1,22 @@
+{
+  "id": "2605.18646",
+  "arxiv_url": "https://arxiv.org/abs/2605.18646",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Language-Switching Triggers Take a Latent Detour Through Language Models",
+  "authors": "Francis Kulumba, Wissam Antoun, Théo Lasnier, Benoît Sagot, Djamé Seddah",
+  "abstract": "Backdoor attacks on language models pose a growing security concern, yet the internal mechanisms by which a trigger sequence hijacks model computations remain poorly understood. We identify a circuit underlying a language-switching backdoor in an 8B-parameter autoregressive language model, where a three-word Latin trigger (nine tokens) redirects English output to French. We decompose the circuit into three phases: (1) distributed attention heads at early layers compose the trigger tokens into the last sequence position; (2) the resulting signal propagates through mid-layers in a subspace orthogonal to the model's natural language-identity direction; (3) the MLP at the final layer converts this latent signal into French logits. The entire circuit flows through a serial bottleneck at a single position: corrupting that position at any layer entirely mitigate the trigger but also hinder the model's capabilities. The orthogonal latent encoding suggests that defenses that search for language-like signals in intermediate representations would miss this trigger entirely.",
+  "title_relatable": "How backdoor attacks hijack language models through hidden shortcuts",
+  "hook": "Researchers mapped the complete circuit of a language-switching backdoor attack: a three-word Latin trigger rewires an 8B model to output French instead of English by routing through a hidden subspace.",
+  "summary": "Backdoor attacks on language models work like sleeper agents—a hidden trigger phrase hijacks the model's output without obvious signs. By dissecting an 8B-parameter model, researchers traced exactly how a Latin trigger redirects English text to French: attention heads compress the trigger tokens, the signal travels through a subspace orthogonal to normal language processing, and the final layer converts it to French logits. They found a critical bottleneck—one position where blocking the signal defeats the attack—but also discovered that traditional defenses scanning for language patterns would completely miss this trigger.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 908,
+  "tokens_out": 214,
+  "cost_usd": 0.0015824,
+  "ingested_at": "2026-05-20T00:32:47.026881+00:00"
+}

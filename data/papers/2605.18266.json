@@ -1,0 +1,22 @@
+{
+  "id": "2605.18266",
+  "arxiv_url": "https://arxiv.org/abs/2605.18266",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Two kinds of Galactic source populations could explain the cosmic-ray observation up to the \"knee\" region",
+  "authors": "Furong Li, Wei Liu, Yali Shao, Yi-Qing Guo",
+  "abstract": "Observations of diffuse gamma rays above hundreds of TeV from the Galactic disk provide strong evidence for the existence of PeV cosmic-ray accelerators--so-called PeVatrons--in the Galaxy. However, mounting observations have ruled out most supernova remnants as likely PeVatron candidates, suggesting instead that multiple populations of cosmic-ray sources exist in the Galaxy. Recently, the LHAASO collaboration reported the detection of ultra-high-energy gamma rays from microquasars, establishing that the black holes in these systems, which accrete matter from companion stars, are powerful PeV particle accelerators. In this work, we propose a two-component source model to explain the observed cosmic-ray spectra and composition up to the PeV range. Below approximately 100 TeV, supernova remnants serve as the dominant sources; above this energy, microquasars are considered the primary candidate population. Within this scenario, the assumption of a charge-dependent cutoff well accounts for the latest measurements, including the proton and helium spectra up to the PeV range, the energy-dependent composition, and the all-particle spectrum. In contrast, the nuclei-dependent cutoff hypothesis is ruled out by the data.",
+  "title_relatable": "Black holes in binary stars could be the galaxy's ultrahigh-energy particle factories",
+  "hook": "A two-source model explains where the most energetic cosmic rays originate: supernova remnants up to 100 TeV, then black hole systems taking over.",
+  "summary": "Where do the most energetic cosmic rays come from? LHAASO recently detected PeV-scale gamma rays from microquasars—black holes feeding on companion stars—suggesting they're powerful particle accelerators. The authors show a two-population model fits observations: supernova remnants dominate below 100 TeV, then microquasars take over at higher energies. This resolves a decade-long puzzle about PeVatrons and matches proton, helium, and full composition data up to the knee region.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 986,
+  "tokens_out": 208,
+  "cost_usd": 0.0016208000000000001,
+  "ingested_at": "2026-05-20T00:28:41.376476+00:00"
+}

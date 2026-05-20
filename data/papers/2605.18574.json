@@ -1,0 +1,22 @@
+{
+  "id": "2605.18574",
+  "arxiv_url": "https://arxiv.org/abs/2605.18574",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Final-state rescattering in $\\bar{B}^{0}_{(s)}\\to Λ^{+}_{c}\\barΛ^{-}_{c}$ decays",
+  "authors": "Zhu-Ding Duan, Xiao Huang, Dong-Hao Li, Run-Hui Li, Jian-Peng Wang, Fu-Sheng Yu",
+  "abstract": "The LHCb Collaboration has recently reported the first observation of the decay $\\bar B_s^0\\to Λ_c^+\\barΛ_c^-$, along with measurements of the branching fractions for both $\\bar B^0\\to Λ_c^+\\barΛ_c^-$ and $\\bar B_s^0\\to Λ_c^+\\barΛ_c^-$. In this work, we investigate these two decays within the framework of final state re-scattering. Our results show that the predicted branching fractions are consistent with the experimental measurements, indicating the significant role of long-distance final-state interactions in such baryonic B decays. Furthermore, we present predictions for the direct CP asymmetries and the asymmetry parameters. Numerically, both decays exhibit nearly vanishing CP asymmetries, while $\\bar B^0\\to Λ_c^+\\barΛ_c^-$ displays a sizable longitudinal polarization, providing a sensitive observable for testing our theoretical framework in future experimental measurements.",
+  "title_relatable": "Why B meson decays produce charm baryons in pairs",
+  "hook": "LHCb just spotted a rare decay. New calculations show final-state collisions explain both the rate and the polarization.",
+  "summary": "B mesons can decay into pairs of charm baryons, a process LHCb recently observed for the first time. The authors model these decays using final-state rescattering—particles re-interacting after the initial decay—and find the predictions match the measured branching fractions. The theory predicts nearly zero CP violation but large polarization in one decay mode, a testable prediction for the next round of precision measurements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1016,
+  "tokens_out": 172,
+  "cost_usd": 0.0015008000000000003,
+  "ingested_at": "2026-05-20T00:27:16.814552+00:00"
+}

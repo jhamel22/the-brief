@@ -1,0 +1,22 @@
+{
+  "id": "2605.18074",
+  "arxiv_url": "https://arxiv.org/abs/2605.18074",
+  "announced_date": "2026-05-18",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "4DLidarOpen: An Open 4D FMCW Lidar Dataset for Motion-Aware Autonomous Driving",
+  "authors": "Kane Qian, Xin Zhao, Yining Shi, Rujun Yan, Zhengqing Pan, Kaojin Zhu, Mengmeng Yang, Kai Sun, Diange Yang, Kun Jiang",
+  "abstract": "We present 4DLidarOpen, a large-scale open multi-modal dataset for autonomous driving, centered on 4D frequency-modulated continuous-wave (FMCW) Lidar sensing. Unlike conventional time-of-flight Lidar datasets that mainly provide geometric measurements, 4DLidarOpen includes point-wise radial velocity measurements from a forward-facing 4D FMCW Lidar, together with multiple Lidars of different types, including rotating, solid-state, and blind-spot variants, surround-view cameras, and 6-DOF ego-vehicle poses. The dataset was collected in complex urban environments in Beijing and covers dense pedestrian interactions, congested traffic, high-speed driving, and unprotected maneuvers. 4DLidarOpen provides synchronized multi-sensor data and 3D bounding-box annotations with persistent track IDs across five object categories. A hybrid annotation strategy is adopted, where large-scale auto-labeled data support scalable training and human experts refine annotations for the human-annotated training and validation sets. Based on this dataset, we establish benchmarks for 3D object detection, birds-eye view (BEV) segmentation and flow prediction, and motion forecasting with planning. Extensive experiments show that direct velocity measurements from 4D FMCW Lidar provide complementary motion cues for dynamic-scene understanding. Compared with geometric-only sensing, the velocity-aware representation improves motion-related perception and downstream forecasting and planning, especially in scenarios involving vulnerable road users and fast-moving objects. These results indicate that 4D FMCW Lidar is a promising sensing modality for motion-aware autonomous driving. The dataset and evaluation toolkit are publicly released to support research on 4D scene understanding, multi-Lidar fusion, and velocity-aware perception and planning.",
+  "title_relatable": "New lidar dataset captures motion for autonomous driving",
+  "hook": "A 4D lidar that measures velocity directly—not just position—improves motion forecasting and safety planning in urban traffic.",
+  "summary": "Conventional lidar for self-driving cars measures where objects are; 4D FMCW lidar also measures how fast they're moving. This dataset from Beijing includes velocity readings from multiple lidar types plus cameras and ground truth, collected in dense urban scenes with pedestrians and high-speed traffic. Velocity-aware detection and motion forecasting improve especially for vulnerable road users and fast objects—suggesting this sensing mode is worth investing in. Dataset and benchmarks are open-sourced.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1137,
+  "tokens_out": 179,
+  "cost_usd": 0.0016255999999999998,
+  "ingested_at": "2026-05-20T00:36:38.188390+00:00"
+}

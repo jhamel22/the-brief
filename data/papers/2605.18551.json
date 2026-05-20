@@ -1,0 +1,24 @@
+{
+  "id": "2605.18551",
+  "arxiv_url": "https://arxiv.org/abs/2605.18551",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Scalar$-$Tensor Gravity as a Probe of Generalized Black Hole Entropy",
+  "authors": "Hussain Gohar",
+  "abstract": "We develop a geometric realization of a broad class of generalized black hole entropy functionals by establishing their direct correspondence with the Misner$-$Sharp quasilocal mass and the Wald Noether$-$charge entropy in scalar$-$tensor theories of gravity. The resulting models feature a scale-dependent effective gravitational coupling, whose functional dependence is determined by the underlying entropy parameters. Within this framework, we derive explicit Einstein-frame scalar potentials: for Barrow entropy, a steep exponential potential; for Tsallis$-$Cirto entropy, an exponential potential governed by the nonextensivity parameter; and for quantum-gravity and entanglement$-$induced corrections, an approximately linear potential. These distinct potentials generate characteristic cosmological phenomenology, with implications for inflationary dynamics, late-time dark-energy behavior, and non-singular bouncing cosmologies. The framework is compatible with current constraints from solar-system tests, big-bang nucleosynthesis, and pulsar-timing observations, and it yields predictions that can be probed by forthcoming observational surveys. In this way, the analysis establishes a unified and geometrically grounded connection between information$-$theoretic entropy proposals and gravitational field theory.",
+  "title_relatable": "What if black hole entropy shapes the whole universe's evolution?",
+  "hook": "Different black hole entropy formulas each predict a distinct cosmic potential — and upcoming surveys can tell them apart.",
+  "summary": "By linking exotic black hole entropy proposals (Barrow, Tsallis, quantum-gravity corrections) to scalar-tensor gravity via the Misner-Sharp mass, this work translates abstract information-theoretic ideas into concrete scalar field potentials. Barrow entropy gives a steep exponential; Tsallis entropy gives one tuned by a nonextensivity parameter; quantum corrections produce a nearly linear potential. Each drives different cosmological behavior — inflation, dark energy, or a bouncing universe — and the framework survives current solar-system and pulsar-timing tests while remaining testable by next-generation surveys.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 969,
+  "tokens_out": 200,
+  "cost_usd": 0.005907,
+  "ingested_at": "2026-05-20T00:19:50.755634+00:00"
+}

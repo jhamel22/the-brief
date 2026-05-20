@@ -1,0 +1,22 @@
+{
+  "id": "2605.18267",
+  "arxiv_url": "https://arxiv.org/abs/2605.18267",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SRC-Flow: Compact Semantic Representations Enable Normalizing Flows for Image Generation",
+  "authors": "Longtao Jiang, Jiangmin Bao, Zhendong Wang, Xin Tao, Pengfei Wan, Zhihui Li, Xiaojun Chang",
+  "abstract": "Normalizing flows (NFs) provide exact likelihoods and deterministic invertible sampling, but have historically lagged behind diffusion models for large-scale image generation. We identify a key obstacle: NFs are required to learn a single invertible transport over the full ambient space, making them highly sensitive to high-dimensional representations. This leads to a semantic-capacity mismatch in modern visual representation spaces, where semantic information is compact but encoded in overcomplete features. We propose SRC-Flow, which introduces a Semantic Representation Compressor (SRC) to compact high-dimensional RAE features into a low-dimensional semantic space before flow modeling and preserve reconstruction through the frozen RAE decoder. This compact space reduces the modeling burden of NFs and enables effective likelihood-based generation in semantic representation space. We further adopt constant noise regularization tailored to the fixed unconditional bijection learned by flows. On ImageNet $256 \\times 256$ and $512 \\times 512$, SRC-Flow achieves state-of-the-art generation quality among normalizing flow methods, with gFID scores of 1.65 and 2.07 under classifier-free guidance, while retaining exact likelihood computation in the compact semantic representation space and deterministic invertible sampling at the flow level. Codes and models will be available at https://github.com/longtaojiang/SRC-Flow.",
+  "title_relatable": "Making normalizing flows competitive for image generation",
+  "hook": "A new approach compresses high-dimensional image features into semantic-only space, letting normalizing flows match diffusion model quality while keeping exact likelihoods—gFID of 1.65 on ImageNet 256×256.",
+  "summary": "Normalizing flows can compute exact likelihoods and generate images deterministically, but struggle with high-dimensional data compared to diffusion models. The problem: flows must learn a single invertible path through the entire feature space, which wastes capacity on noisy, overcomplete representations. SRC-Flow inserts a compression step that squeezes redundant features into a compact semantic space before flow modeling, then reconstructs images through a frozen decoder. On ImageNet at 256×256 and 512×512, this achieves state-of-the-art flow-based generation (gFID 1.65 and 2.07) while preserving exact likelihood and deterministic sampling—useful for applications requiring provable density estimates or reproducible generation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1008,
+  "tokens_out": 259,
+  "cost_usd": 0.0018424000000000001,
+  "ingested_at": "2026-05-20T00:35:28.014734+00:00"
+}

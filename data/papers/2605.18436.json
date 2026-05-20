@@ -1,0 +1,22 @@
+{
+  "id": "2605.18436",
+  "arxiv_url": "https://arxiv.org/abs/2605.18436",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "A Dataset for the Recognition of Historical and Handwritten Music Scores in Western Notation",
+  "authors": "Pau Torras, Jiří Mayer, Carles Badal, Martina Dvořáková, Markéta Herzanová Vlková, Gerard Asbert, Vojtěch Dvořák, Samuel Šomorjai, Jan Hajič, Alicia Fornés",
+  "abstract": "A large amount of musical heritage has been digitised by memory institutions: libraries, museums, and archives. Nevertheless, the field of Optical Music Recognition (OMR) has struggled with making this music machine-readable, despite advances in deep learning, mostly because no datasets for training systems in realistic conditions were available. The MusiCorpus dataset aims to remedy this situation by providing 1,309 pages of historical sheet music, primarily handwritten, with MusicXML transcriptions and symbol annotations. It is the largest dataset of handwritten music to date and the first dataset containing a realistic and representative sample of musical document collections from memory institutions, suitable for training and evaluating both end-to-end and object detection-based OMR systems and comparing their performance.",
+  "title_relatable": "Teaching computers to read old handwritten sheet music",
+  "hook": "First large dataset of historical handwritten music scores with full transcriptions, enabling AI systems to digitize library collections.",
+  "summary": "Libraries and archives hold thousands of digitized historical sheet music pages that remain unsearchable and unreadable to machines. This dataset provides 1,309 pages of primarily handwritten scores with complete MusicXML transcriptions and symbol annotations—the largest handwritten music collection released to date. It comes from real memory institutions, not synthetic data, making it suitable for training both end-to-end and object detection systems for optical music recognition.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 889,
+  "tokens_out": 164,
+  "cost_usd": 0.0013672,
+  "ingested_at": "2026-05-20T00:35:12.884813+00:00"
+}

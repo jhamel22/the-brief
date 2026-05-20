@@ -1,0 +1,23 @@
+{
+  "id": "2605.18616",
+  "arxiv_url": "https://arxiv.org/abs/2605.18616",
+  "announced_date": "2026-05-18",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.GT"
+  ],
+  "title_original": "Toward an Origin of Human Randomness: Interaction-Driven Enhancement in the Rock-Paper-Scissors Game",
+  "authors": "Song-Ju Kim, Shoma Ohara, Hiroaki Kurokawa",
+  "abstract": "Human-generated randomness is constrained by cognitive, motor, and strategic biases. This study examines how these constraints appear in individual behavior and how they may be modified through interaction with another human. We analyzed repeated rock-paper-scissors data from 9 participants, yielding 108 human-human matches and 216 individual player sequences. Using Lempel-Ziv complexity (LZC), we compared human-human sequences with the RNG-opponent condition. In the RNG-opponent condition, the maximum human LZC value was 84, which we used as an empirical reference. In the human-human condition, most sequences remained below this value, but a small number exceeded it, producing a small high-complexity tail that was not present in the RNG-opponent condition. We introduced a sensitivity measure that captures whether a player responds to the opponent's recent frequency bias by choosing the move that beats the opponent's most frequent recent move. Partial regression showed that focal-player sensitivity positively predicted future entropy in the opponent's move sequence after controlling for the opponent's current entropy. Circular-shift surrogate analyses indicated that this relation was most clearly interaction-specific when the opponent was in a low-entropy state, where the recent move distribution contained a clear frequency bias. These results suggest that human randomness is not only an isolated individual capacity, but can be shaped by interaction in a state-dependent manner. The findings identify a local mechanism by which interaction may destabilize biased behavior and increase entropy, providing a concrete basis for future causal experiments and generative models of high-complexity human behavior.",
+  "title_relatable": "Playing rock-paper-scissors makes humans more random",
+  "hook": "Human opponents—not random number generators—push players toward harder-to-predict sequences in rock-paper-scissors.",
+  "summary": "When people play rock-paper-scissors against other humans rather than a computer RNG, a small fraction produce move sequences more complex than any seen against the machine. The key mechanism: when one player notices the opponent leaning on a favorite move and exploits it, the opponent is nudged out of that rut, boosting unpredictability. Randomness, it turns out, isn't just a fixed individual trait—it can be socially contagious.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1055,
+  "tokens_out": 167,
+  "cost_usd": 0.00567,
+  "ingested_at": "2026-05-20T00:27:49.793741+00:00"
+}

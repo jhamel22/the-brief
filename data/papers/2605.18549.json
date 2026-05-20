@@ -1,0 +1,23 @@
+{
+  "id": "2605.18549",
+  "arxiv_url": "https://arxiv.org/abs/2605.18549",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CR"
+  ],
+  "title_original": "Monitoring the Internal Monologue: Probe Trajectories Reveal Reasoning Dynamics",
+  "authors": "Maciej Chrabąszcz, Aleksander Szymczyk, Marcin Sendera, Tomasz Trzciński, Sebastian Cygert",
+  "abstract": "Large Reasoning Models (LRMs) introduce new opportunities for safety monitoring through their Chain of Thought (CoT) reasoning. However, CoT is not always faithful to the model's final output, undermining its reliability as a monitoring tool. To address this, we investigate the hidden representations of LRMs to determine whether future behavior can be predicted from prompt and CoT representations. By evaluating a probe at each generated token, we construct a probe trajectory, the continuous evolution of a concept's probability across the reasoning process. We find that future model behavior is more distinguishable when examined over the full trajectory than from a single static prediction. To characterize these temporal dynamics, we extract signal-processing features that capture volatility, trend, and steady-state behavior, significantly improving the separation of future model states. We also present two methodological insights. First, template-based training data achieves near-parity with dynamically generated model responses, eliminating the need for a costly initial inference and labeling. Second, the choice of pooling operation is critical: average-pooling and last-token methods collapse to near-random performance, while max-pooling achieves up to 95% AUROC and yields stable probe trajectories. Using four datasets and four reasoning models across the domains of safety and mathematics, we demonstrate that trajectory features encode task-specific dynamics that improve outcome separability. These findings establish probe trajectories as a complementary framework for monitoring LRM behavior. Warning: This article contains potentially harmful content.",
+  "title_relatable": "Reading a model's thoughts to predict what it will do",
+  "hook": "Large reasoning models leave traces in their hidden layers as they think. By tracking how these traces evolve during reasoning, researchers can predict final answers with 95% accuracy—better than checking the final output alone.",
+  "summary": "Large language models that show their reasoning (chain-of-thought) aren't always honest about how they'll behave. Instead of trusting what they write, researchers tracked the hidden mathematical representations during reasoning, measuring how a concept's probability shifts across each token. They found that watching this temporal trajectory—volatility, trends, drift—predicts final behavior far better than a single snapshot. Using 95% of max-pooled features from signal processing, they achieved 95% AUROC on safety and math tasks across four models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1014,
+  "tokens_out": 204,
+  "cost_usd": 0.0016272,
+  "ingested_at": "2026-05-20T00:33:02.578774+00:00"
+}

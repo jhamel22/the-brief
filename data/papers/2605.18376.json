@@ -1,0 +1,22 @@
+{
+  "id": "2605.18376",
+  "arxiv_url": "https://arxiv.org/abs/2605.18376",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Traversable Wormholes with Non-Exotic Matter: The Role of Higher Curvature Corrections",
+  "authors": "M Daniel Ranjan, Soumya Chakrabarti, Sanjit Das",
+  "abstract": "In this paper, we explore wormhole solutions in a higher-derivative theory of gravity where the action depends not only on the Ricci scalar \\(R\\), but also on its d'Alembertian, \\(\\Box R\\). Such \\(f(R,\\Box R)\\) models are motivated by quantum corrections to general relativity and naturally extend the space of possible gravitational geometries. Our goal is to examine whether traversable wormholes can exist in this framework and to understand the role of higher-order curvature terms in supporting them. We derive the field equations for a static, spherically symmetric wormhole and study their solutions using both analytical arguments and numerical methods. Particular attention is given to the classical energy conditions, which are usually violated in wormhole physics. We find that the higher-derivative corrections can effectively contribute to the stress-energy tensor, reducing the amount of exotic matter required at the throat, and in some cases eliminating the need for it altogether.",
+  "title_relatable": "Wormholes without exotic matter? Higher-order gravity might allow it",
+  "hook": "Quantum corrections to Einstein's gravity could let wormholes exist without requiring any impossible negative-energy matter.",
+  "summary": "Standard general relativity forces traversable wormholes to violate energy conditions, demanding exotic matter that likely doesn't exist. By adding quantum-motivated higher-derivative terms to Einstein's equations, the authors show these corrections contribute to the effective stress-energy at the wormhole throat, reducing or eliminating the need for exotic matter entirely. It's not a proof wormholes exist — but it narrows the gap between wormhole physics and physical plausibility.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 927,
+  "tokens_out": 173,
+  "cost_usd": 0.005376,
+  "ingested_at": "2026-05-20T00:20:16.582924+00:00"
+}

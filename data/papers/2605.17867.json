@@ -1,0 +1,23 @@
+{
+  "id": "2605.17867",
+  "arxiv_url": "https://arxiv.org/abs/2605.17867",
+  "announced_date": "2026-05-18",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.TH",
+    "econ.GN"
+  ],
+  "title_original": "Profit-Oriented Planning and Multi-Market Operation Model for Hybrid Energy Storage Systems",
+  "authors": "Lizhong Zhang, Junqi Liu, Jianxiao Wang, Lei Zhu",
+  "abstract": "The increasing penetration of renewable energy necessitates improved power system flexibility, driving the deployment of independent energy storage operators (ESOs). Existing research extensively investigates capacity sizing for price-taker storage systems or the operational coordination of aggregated distributed resources, lacking the joint optimization of capacity planning and multi-market bidding for a price-maker ESO with hybrid energy storage system (HESS) that preserves the technological heterogeneity of the integrated components. We propose a bi-level optimization framework to jointly optimize profit-oriented decisions on capacity and multi-market operation. The upper-level problem determines the optimal capacities of two heterogeneous storage systems while coordinating their bidding across day-ahead joint energy-reserve and real-time balancing markets. The lower-level problems represent market clearing of the system operator (SO). The model is reformulated into a mixed-integer linear program and solved with a Benders' decomposition algorithm. Results demonstrate that the ESO can allocate capacity between energy arbitrage and reserve provision strategically. The system with the high power-to-capacity ratio is used to capture arbitrage profits while the system with low power-to-capacity ratio is used to specialize in reserve markets. There can be internal power transfer between storage systems if there exist grid access constraints. The framework provides differentiated bidding strategies and market participation flexibility for HESS to enhance overall profitability.",
+  "title_relatable": "How battery operators profit from energy markets",
+  "hook": "Energy storage operators can double profits by splitting their batteries—one chasing price swings, one selling reliability—and shuffling power between them as needed.",
+  "summary": "A company running a hybrid battery system (two different types of storage) can maximize profit by treating them differently: use the quick-response battery for buying cheap and selling dear in spot markets, while the slower one focuses on reserve payments. The model shows when it makes sense to transfer power between batteries, especially if grid constraints leave them stranded. This matters because as renewables become dominant, battery operators increasingly set prices rather than just accepting them.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 707,
+  "tokens_out": 168,
+  "cost_usd": 0.0012376,
+  "ingested_at": "2026-05-20T00:38:42.721312+00:00"
+}

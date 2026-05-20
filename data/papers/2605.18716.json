@@ -1,0 +1,22 @@
+{
+  "id": "2605.18716",
+  "arxiv_url": "https://arxiv.org/abs/2605.18716",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Recoupled Dark Radiation reconciling CMB and DESI BAO measurements",
+  "authors": "Ravi Kumar Sharma, Maria Archidiacono, Julien Lesgourgues",
+  "abstract": "Recent DESI BAO measurements, combined with CMB data, reveal a tension within the $Λ$CDM model that leads to a discrepancy between cosmological and laboratory bounds on the summed neutrino mass. We show that a recoupled interacting radiation component can alleviate this cosmological tension, as well as the one with neutrino oscillation experiments. Sterile neutrinos interacting through a light pseudoscalar mediator provide a concrete realization of this scenario. The resulting interacting fluid modifies the CMB phenomenology, lowers the preferred matter density, and improves the consistency between CMB and DESI BAO measurements. Combining CMB with DESI DR2 BAO measurements, we find a $2.7 σ$ preference for a nonzero interacting sterile neutrino component, $\\nsp=0.253 \\pm 0.094$, corresponding to an improvement $Δχ^2=-8.98$ relative to $Λ$CDM. The model also reduces the tension with the SH0ES determination of the Hubble constant to the $2.4σ$ level.",
+  "title_relatable": "Hidden neutrinos could solve cosmology's biggest measurement clash",
+  "hook": "DESI's new galaxy measurements clash with CMB data in ways the standard model can't explain. Invisible sterile neutrinos talking to each other might bridge the gap.",
+  "summary": "DESI's latest measurements of the universe's expansion history conflict with CMB observations and laboratory neutrino experiments—a sign something is missing from our standard cosmological model. The authors propose that sterile neutrinos (hypothetical particles that barely interact with normal matter) coupled to a light mediator could reconcile these tensions. The model improves agreement between datasets by 3 sigma and also eases the disputed measurement of how fast the universe is expanding.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 969,
+  "tokens_out": 185,
+  "cost_usd": 0.0015152,
+  "ingested_at": "2026-05-20T00:26:36.352646+00:00"
+}

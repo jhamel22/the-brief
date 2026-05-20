@@ -1,0 +1,24 @@
+{
+  "id": "2605.18286",
+  "arxiv_url": "https://arxiv.org/abs/2605.18286",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Primary gravitational waves at high frequencies II: Emergence of the exponential cut-off in the power spectrum",
+  "authors": "Alipriyo Hoory, Jerome Martin, Arnab Paul, L. Sriramkumar",
+  "abstract": "[Abridged] In slow roll inflation, the power spectrum (PS) of primary gravitational waves (PGWs) generated from the quantum vacuum rises as $k^2$ over wave numbers $k$ which never leave the Hubble radius. In fact, over such small scales, the PS exhibits a similar behavior at any time after inflation. In a recent work, we had argued that the PS of PGWs has to be regularized to truncate the unphysical quadratic rise at large wave numbers. Assuming instantaneous transitions from inflation to the epochs of radiation and matter domination, we had shown that the regularized PS oscillates with a constant amplitude about a vanishing mean over small scales during these epochs. We had also smoothed the transition (actually, the `effective potential' governing the equation of motion of GWs) from inflation to radiation domination using a linear function and evaluated the regularized PS of PGWs post inflation. In such a case, we had shown that, over small scales, while the regularized PS continues to oscillate about zero, its amplitude decreases as $k^{-1}$. In this work, using the Born approximation, we examine the behavior of the regularized PS of PGWs over small scales when they are evolved through smoother and smoother transitions from inflation to the epochs of radiation and matter domination. We illustrate that, at small scales or high frequencies, the suppression in the regularized PS of PGWs occurs more and more sharply as the transition is smoothed further and further. With the help of examples, we also show that, in the case of transitions described by infinitely differentiable `effective potentials', the regularized PS of PGWs exhibits an exponential suppression on small scales. We argue that the observation of the exponential drop in the PS of PGWs can help us determine the energy scale and the time of the end of inflation. We clarify related issues and discuss the wider implications.",
+  "title_relatable": "Inflation's gravitational wave fingerprint fades exponentially at high frequencies",
+  "hook": "The smoothness of inflation's endpoint determines whether primordial gravitational waves vanish with a sharp exponential cutoff.",
+  "summary": "Primordial gravitational waves from inflation naively grow without bound at small scales — a physically meaningless result that requires careful regularization. This work shows that the smoother the transition between inflation and the hot Big Bang, the more sharply that power drops at high frequencies, with infinitely smooth transitions producing a clean exponential cutoff. If such a cutoff is ever detected, its shape and location would directly reveal when and at what energy inflation ended.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1146,
+  "tokens_out": 170,
+  "cost_usd": 0.005988,
+  "ingested_at": "2026-05-20T00:20:26.131767+00:00"
+}

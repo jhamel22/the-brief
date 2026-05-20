@@ -1,0 +1,25 @@
+{
+  "id": "2605.18519",
+  "arxiv_url": "https://arxiv.org/abs/2605.18519",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex",
+    "nucl-ex",
+    "nucl-th"
+  ],
+  "title_original": "Quark and gluon tomography of the helium-4 nucleus",
+  "authors": "V. Martínez-Fernández, B. Pire, P. Sznajder, J. Wagner",
+  "abstract": "QCD collinear factorization allows coherent hard exclusive reactions to reveal the quark-gluon structure of light nuclei, enabling their 3D tomography. We study elastic form factors and deeply virtual Compton scattering on a helium-4 target, achieving theoretical precision unprecedented even in proton studies. Constraining generalized parton distributions at next-to-leading order in $α_s$, incorporating kinematic twist corrections, and using full evolution equations, we provide the first tomography of a light nucleus, revealing distinct transverse spatial distributions of quarks and gluons.",
+  "title_relatable": "Inside a helium nucleus: mapping quarks and gluons in 3D",
+  "hook": "Physicists have created the first detailed 3D map of quark and gluon positions inside a helium-4 nucleus, using precision measurements that exceed what's been achieved for protons.",
+  "summary": "Elastic scattering and Compton scattering experiments on helium-4 can reveal the internal quark-gluon structure with unprecedented precision by exploiting quantum chromodynamics factorization. The team computed generalized parton distributions at next-to-leading order with full evolution, exposing how quarks and gluons occupy different transverse regions inside the nucleus. This is the first direct 3D tomography of any light nucleus and could anchor new tests of QCD in the nuclear regime.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 844,
+  "tokens_out": 208,
+  "cost_usd": 0.0015072,
+  "ingested_at": "2026-05-20T00:27:19.496863+00:00"
+}

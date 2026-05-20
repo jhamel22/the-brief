@@ -1,0 +1,24 @@
+{
+  "id": "2605.18552",
+  "arxiv_url": "https://arxiv.org/abs/2605.18552",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "q-bio.BM",
+    "q-bio.QM"
+  ],
+  "title_original": "Protein Fold Classification at Scale: Benchmarking and Pretraining",
+  "authors": "Dexiong Chen, Andrei Manolache, Mathias Niepert, Karsten Borgwardt",
+  "abstract": "Classifying protein topology is essential for deciphering biological function, but progress is held back by the lack of large-scale benchmarks that avoid duplicates and by models that do not scale well. We introduce TEDBench, a large-scale, non-redundant benchmark for protein fold classification constructed from the Encyclopedia of Domains (TED) and Foldseek-clustered AlphaFold structures. We show that on TEDBench, current protein representation learning methods either require very large models or fail to deliver strong performance. To address this challenge, we propose Masked Invariant Autoencoders (MiAE), a self-supervised framework for protein structure representation learning. MiAE uses an extremely high masking ratio of up to 90% with an $\\mathrm{SE(3)}$-invariant encoder and a lightweight decoder that reconstructs backbone coordinates from the latent representation and mask tokens. MiAE scales well and outperforms supervised counterparts and state-of-the-art baselines on TEDBench, establishing a strong recipe for protein fold classification. To test transfer beyond AlphaFold structures, we further benchmark on a curated dataset from experimental structures of CATH v4.4. TEDBench is available at https://github.com/BorgwardtLab/TEDBench.",
+  "title_relatable": "Teaching machines to recognize protein shapes at scale",
+  "hook": "New benchmark and self-supervised method outperform supervised models for classifying protein folds, with better transfer to real experimental structures.",
+  "summary": "Protein fold classification—sorting proteins by their 3D shape—matters for understanding biology, but researchers lacked large, clean benchmarks to train on. This work introduces TEDBench, a non-redundant benchmark built from AlphaFold predictions and experimental structures, and proposes Masked Invariant Autoencoders (MiAE), which learns protein structure representations by masking up to 90% of the input and reconstructing coordinates. MiAE outperforms supervised baselines on TEDBench and transfers better to real experimental protein structures, suggesting self-supervision is more efficient for learning protein topology than traditional supervised training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 976,
+  "tokens_out": 212,
+  "cost_usd": 0.0016288000000000001,
+  "ingested_at": "2026-05-20T00:30:02.140640+00:00"
+}

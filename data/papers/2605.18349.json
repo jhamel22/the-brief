@@ -1,0 +1,23 @@
+{
+  "id": "2605.18349",
+  "arxiv_url": "https://arxiv.org/abs/2605.18349",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Optimising CSRNet with parameter-free attention mechanisms for crowd counting in public transport",
+  "authors": "Aida Rostamza, Enrico Del Re, Joshua Cherian Varughese, Cristina Olaverri-Monreal",
+  "abstract": "Occupancy estimation and crowd counting are critical tasks in designing smart and efficient public transport vehicles. Given that public transport loading can vary from sparse to crowded, classical models for occupancy estimation must be adapted to suit this purpose. Attention mechanisms have shown remarkable capability in enhancing the representational power of deep neural networks for crowd counting in congested scenes with occlusion, complex backgrounds, and perspective distortion. However, conventional approaches, often implemented as parameterized sub-networks within convolutional layers, inevitably increase model size and computational cost, limiting deployment on resource-constrained edge devices. This paper investigates the effectiveness of state-of-the-art parameter-free attention mechanisms for crowd counting and density map estimation in highly congested scenes. We evaluate channel-wise (PFCA), spatial-wise (SA), and 3-D (SimAM) modules and compare their performance with parameterized attention modules constrained to introduce no more than 1% additional parameters. Furthermore, we present a novel combination of attention mechanisms that combines the strengths of PFCA and SA (PFCASA) customized for analyzing video streams onboard public transport systems. Using CSRNet as the backbone, experiments on the ShanghaiTech dataset demonstrate that parameter-free attention mechanisms achieve comparable or superior accuracy without introducing additional model parameters. A detailed performance analysis further reveals that PFCASA outperforms other attention modules in scenes with fewer than 40 individuals, while PFCA shows greater effectiveness as crowd density increases, underscoring their potential applicability for integration into smart public transport modalities.",
+  "title_relatable": "Counting crowds on buses without slowing down the computer",
+  "hook": "Parameter-free attention mechanisms match or beat standard approaches for crowd counting while adding zero overhead—crucial for running on bus onboard systems.",
+  "summary": "Counting passengers accurately on public transport requires handling occlusion, perspective distortion, and wildly varying density. This work replaces conventional attention modules (which add computational weight) with parameter-free alternatives—PFCA, SA, and SimAM—that extract useful patterns without extra learnable parameters. Testing on CSRNet with the ShanghaiTech dataset, a hybrid approach (PFCASA) performed as well as or better than parameterized baselines, with different mechanisms excelling at different crowd densities. Result: the same accuracy, smaller model, faster inference on edge devices.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1027,
+  "tokens_out": 205,
+  "cost_usd": 0.0016416,
+  "ingested_at": "2026-05-20T00:35:19.129212+00:00"
+}

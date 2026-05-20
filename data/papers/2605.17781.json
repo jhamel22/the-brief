@@ -1,0 +1,24 @@
+{
+  "id": "2605.17781",
+  "arxiv_url": "https://arxiv.org/abs/2605.17781",
+  "announced_date": "2026-05-18",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "cond-mat.stat-mech",
+    "nlin.CG",
+    "q-bio.PE"
+  ],
+  "title_original": "Universal interface fluctuations in absorbing-state phase transitions",
+  "authors": "Yohsuke T. Fukai, Keiichi Tamai, Tetsuya Hiraiwa",
+  "abstract": "Despite similarities between models exhibiting absorbing phase transitions (APTs) and those showing Kardar-Parisi-Zhang (KPZ) growth, the relationship between these universal fluctuations has remained elusive. We numerically study (1+1)-dimensional interfaces of (2+1)-dimensional models showing APTs of directed percolation (DP) and compact directed percolation (CDP) classes with an active boundary, finding a universal crossover from short-time APT-governed fluctuations to long-time KPZ fluctuations. Upon rescaling time and length by the APT correlation time and length, the cumulants of the interface height distributions collapse onto a single scaling function. The fluctuation properties of the discrete Domany-Kinzel model and the continuum stochastic Fisher-Kolmogorov-Petrovsky-Piskunov (sFKPP) equation coincide, indicating that the KPZ growth parameters are determined solely by fundamental properties of the APT. For the CDP sFKPP equation, a dimensionless parameter tunes both the critical interface distribution and the KPZ parameters, with the interface properties of the biased voter model recovered in a limiting case. These results uncover a universal crossover in which KPZ fluctuations emerge from APT fluctuations at long times, linking paradigmatic universality classes of nonequilibrium scale-invariant phenomena.",
+  "title_relatable": "Why do two unrelated patterns of chaos eventually match?",
+  "hook": "Two seemingly different ways systems fail and grow follow the same mathematical rules at different timescales—a hidden connection between absorbing states and spreading interfaces.",
+  "summary": "Physical systems that suddenly collapse (like disease extinction) and those that spread across space follow distinct rules initially but converge to identical behavior over time. By simulating model systems, researchers found that early random fluctuations give way to a universal growth pattern, with one set of parameters determining both phenomena. This bridges two major theories in nonequilibrium physics.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 716,
+  "tokens_out": 154,
+  "cost_usd": 0.0011888000000000003,
+  "ingested_at": "2026-05-20T00:37:58.510899+00:00"
+}

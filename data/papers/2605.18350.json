@@ -1,0 +1,24 @@
+{
+  "id": "2605.18350",
+  "arxiv_url": "https://arxiv.org/abs/2605.18350",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th",
+    "nucl-th"
+  ],
+  "title_original": "Gravitational form factors of light mesons from Basis Light-Front Quantization",
+  "authors": "Amrita Sain, Sreeraj Nair, Chandan Mondal, Xingbo Zhao, James P. Vary",
+  "abstract": "We compute the gravitational form factors (GFFs) of the pion and kaon using their light-front wave functions within the Basis Light-Front Quantization framework. The wave functions are obtained by solving a light-front effective Hamiltonian that incorporates three-dimensional confinement along with a color-singlet Nambu--Jona-Lasinio interaction between the constituent quark and antiquark. The form factor $A(Q^2)$ is found to be in overall agreement with recent lattice QCD and dispersive results. In contrast, $D(Q^2)$ is enhanced in magnitude at low $Q^2$ relative to both lattice QCD and dispersive determinations. This behavior arises from extracting the $D$-term using transverse components of the QCD energy--momentum tensor, which are more sensitive to the small-$x$ region and to light-front zero-mode effects in the present truncated framework. Using the resulting GFFs, we determine the mass (matter) and mechanical radii of the pion and kaon and analyze their mechanical structure through the corresponding pressure and shear-force distributions.",
+  "title_relatable": "What do pions and kaons look like under gravity?",
+  "hook": "New calculation reveals how quarks distribute mass and pressure inside light mesons, with surprises about internal forces.",
+  "summary": "Using light-front quantum mechanics, researchers calculated how pions and kaons respond to gravitational probes—essentially mapping their internal mass, pressure, and shear-force distributions. One gravitational form factor matched lattice QCD predictions; the other showed unexpected enhancement at low energies, pointing to subtle effects from quantum zero-modes. These mechanical snapshots let physicists see how quarks actually arrange themselves inside these fundamental particles.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 972,
+  "tokens_out": 163,
+  "cost_usd": 0.0014295999999999998,
+  "ingested_at": "2026-05-20T00:21:12.206260+00:00"
+}

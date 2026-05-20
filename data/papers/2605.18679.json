@@ -1,0 +1,22 @@
+{
+  "id": "2605.18679",
+  "arxiv_url": "https://arxiv.org/abs/2605.18679",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "NLO EW and QCD dimension-6 SMEFT results for Higgs and gauge boson decays in POPxf format",
+  "authors": "Luigi Bellafronte, Sally Dawson, Clara Del Pio, Matthew Forslund, Pier Paolo Giardino",
+  "abstract": "We present next-to-leading-order (NLO) QCD and electroweak (EW) results using the dimension-6 SMEFT for all 2- and 4- body Higgs decays, for $Z$ and $W$ decays along with the corresponding EW precision observables, and for the Higgstrahlung process $e^+e^-\\rightarrow ZH$ at $\\sqrt{s}=240$, $365$ and $500$ GeV. The results are presented in the POPxf format for ease of use in experimental and phenomenological studies. Of particular utility is the total Higgs width, including all dimension-6 contributions at NLO. In addition, we present the differential distributions $dΓ/dm_{Z*}$ for $H\\rightarrow l^+l^- Z^*, Z^*\\rightarrow l^+l^-$ at NLO in the SMEFT.",
+  "title_relatable": "High-precision Higgs and Z boson decay rates at next-to-leading order",
+  "hook": "Researchers computed how Higgs bosons and Z bosons decay with unprecedented precision, including quantum corrections, to help future colliders spot deviations from the Standard Model.",
+  "summary": "The team calculated next-to-leading-order quantum corrections to Higgs and Z boson decays within the Standard Model effective field theory, a framework for parameterizing potential new physics. They computed all two- and four-body decay channels, electroweak precision observables, and production rates at future electron-positron colliders. The results are packaged in a standard format ready for experimental analysis, making it easier for collider experiments to search for subtle hints of beyond-Standard-Model physics in decay patterns.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 953,
+  "tokens_out": 204,
+  "cost_usd": 0.0015784,
+  "ingested_at": "2026-05-20T00:27:11.591104+00:00"
+}

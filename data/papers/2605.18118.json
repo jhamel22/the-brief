@@ -1,0 +1,22 @@
+{
+  "id": "2605.18118",
+  "arxiv_url": "https://arxiv.org/abs/2605.18118",
+  "announced_date": "2026-05-18",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Functional Whole-Brain Models: A New Framework for Unifying Brain Structure and Cognitive Function",
+  "authors": "Mario Senden, Leonardo Dalla Porta, Jan Fousek, Jorge F. Mejias, Gorka Zamora-López",
+  "abstract": "Contemporary computational neuroscience features two prominent modeling traditions. Bottom-up whole-brain modeling (WBM) builds biophysically detailed simulations of brain structure and dynamics, whereas top-down neuroconnectionism optimizes deep neural networks for functional performance. Each has achieved remarkable success yet remains incomplete with WBMs lacking functional competence and neuroconnectionist models showing limited biological grounding. Here we propose functional whole-brain models (fWBMs) as a unified modeling paradigm that integrates structural and dynamical realism with task-performing capacity. fWBMs are defined by four minimal criteria: structural grounding in empirical connectomes and regional biology, continuous-time dynamical realism, functional competence across cognitive domains, and mappable observables to neuroimaging, electrophysiologcal and behavioral data. To formalize this integration, we establish a three-pillar roadmap across short-, mid-, and long-term horizons, and outline the scientific and clinical opportunities this paradigm enables. We argue that the disciplined pursuit of this integrative vision will generate the tools, common language, and cross-scale hypotheses needed to advance our understanding of the brain.",
+  "title_relatable": "Can brain models finally be both realistic and smart?",
+  "hook": "Two separate traditions dominate neuroscience: detailed brain simulations that don't think, and AI networks that work but ignore biology. A new framework tries to merge them.",
+  "summary": "Researchers propose functional whole-brain models that combine anatomically accurate brain structure with the ability to actually perform cognitive tasks—bridging a 30-year divide between biophysical realism and functional competence. The framework requires grounding in real connectome data, realistic continuous dynamics, and measurable outputs matching brain imaging and behavior. This could unify how neuroscientists build models and generate testable predictions about how structure enables cognition.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 673,
+  "tokens_out": 177,
+  "cost_usd": 0.0012464000000000002,
+  "ingested_at": "2026-05-20T00:37:34.479782+00:00"
+}

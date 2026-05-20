@@ -1,0 +1,23 @@
+{
+  "id": "2605.18132",
+  "arxiv_url": "https://arxiv.org/abs/2605.18132",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Who Generated This 3D Asset? Learning Source Attribution for Generative 3D Models",
+  "authors": "Sihan Ma, Siyuan Liang, Dacheng Tao",
+  "abstract": "Generative 3D models are deployed in gaming, robotics, and immersive creation, making source attribution critical: given a 3D asset, can we identify whether and which generative model created it? This problem faces two core challenges: dispersed attribution signals, where 3D fingerprints are distributed across multi-view, geometric, and frequency-domain cues; and realistic deployment constraints, where scarce labels, degraded prompts, and mixed real/synthetic assets undermine attribution reliability. To systematically study this problem, we construct, to the best of our knowledge, the first passive source attribution benchmark for modern generated assets, covering 22 representative 3D generators under standard, few-shot, and realistic deployment protocols. Based on this benchmark, we find that generative 3D models leave two types of stable fingerprints: cross-view inconsistency and structural artifacts reflected in geometric statistics and frequency-domain cues. To capture these dispersed signals, we propose a hierarchical multi-view multi-modal Transformer that fuses appearance, geometric, and frequency-domain features within each view and models global relationships across views. Extensive experiments demonstrate strong performance, achieving 97.22% accuracy under full supervision and 77.17% accuracy with only 1% training data, corresponding to fewer than five samples per generator. These results show that modern 3D generators leave stable and attributable fingerprints, establishing a new benchmark and methodological foundation for trustworthy 3D content provenance.",
+  "title_relatable": "Can you tell which AI made a 3D model?",
+  "hook": "Researchers built the first system to identify which generative model created a 3D asset, achieving 97% accuracy and working with minimal training data—critical for detecting AI-generated content.",
+  "summary": "As 3D generative models flood gaming and VR, determining their source matters for authenticity and provenance. This work identifies stable fingerprints that different generators leave behind—cross-view inconsistencies and geometric artifacts—then builds a multi-modal Transformer to detect them across appearance, geometry, and frequency domains. On a new benchmark of 22 generators, the system reaches 97% accuracy with full data and 77% with just five examples per model.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 996,
+  "tokens_out": 190,
+  "cost_usd": 0.0015568000000000001,
+  "ingested_at": "2026-05-20T00:34:46.574603+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.18694",
+  "arxiv_url": "https://arxiv.org/abs/2605.18694",
+  "announced_date": "2026-05-18",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "math.OC",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Can Adaptive Gradient Methods Converge under Heavy-Tailed Noise? A Case Study of AdaGrad",
+  "authors": "Zijian Liu",
+  "abstract": "Many tasks in modern machine learning are observed to involve heavy-tailed gradient noise during the optimization process. To manage this realistic and challenging setting, new mechanisms, such as gradient clipping and gradient normalization, have been introduced to ensure the convergence of first-order algorithms. However, adaptive gradient methods, a famous class of modern optimizers that includes popular $\\mathtt{Adam}$ and $\\mathtt{AdamW}$, often perform well even without any extra operations mentioned above. It is therefore natural to ask whether adaptive gradient methods can converge under heavy-tailed noise without any algorithmic changes. In this work, we take the first step toward answering this question by investigating a special case, $\\mathtt{AdaGrad}$, the origin of adaptive gradient methods. We provide the first provable convergence rate for $\\mathtt{AdaGrad}$ in non-convex optimization when the tail index $p$ satisfies $4/3<p\\leq2$. Notably, this result is achieved without requiring any prior knowledge of $p$ and is hence adaptive to the tail index. In addition, we develop an algorithm-dependent lower bound, suggesting that the existing minimax rate for heavy-tailed optimization is not attainable by $\\mathtt{AdaGrad}$. Lastly, we consider $\\mathtt{AdaGrad}\\text{-}\\mathtt{Norm}$, a popular variant of $\\mathtt{AdaGrad}$ in theoretical studies, and show an improved rate that holds for any $1<p\\leq2$ under an extra mild assumption.",
+  "title_relatable": "Why does AdaGrad work when gradients go haywire?",
+  "hook": "Popular optimizers like AdaGrad converge under messy, heavy-tailed noise without extra tricks—the first proof of why.",
+  "summary": "Machine learning training often encounters extreme gradient noise that breaks standard optimizers. This work proves AdaGrad converges reliably under such heavy-tailed noise without needing gradient clipping or normalization, and does so while automatically adapting to the noise severity. The convergence rate is tight enough to show AdaGrad can't match the theoretical optimum for this setting—a gap between practice and theory worth understanding.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1024,
+  "tokens_out": 172,
+  "cost_usd": 0.0015072,
+  "ingested_at": "2026-05-20T00:36:57.140506+00:00"
+}

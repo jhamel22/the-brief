@@ -1,0 +1,24 @@
+{
+  "id": "2605.18544",
+  "arxiv_url": "https://arxiv.org/abs/2605.18544",
+  "announced_date": "2026-05-18",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "The Classical Gravitational Impulse at High Energies",
+  "authors": "Michael Saavedra",
+  "abstract": "We compute the gravitational impulse for two classical massive scalars in the ultrarelativistic limit to all orders in Newton's constant $G_N$ at fixed $G_N s/m b$ to $O(m^4/s^2)$. By computing the 4 and 5-point scattering amplitudes in the small-mass regime of $-t\\sim m^2$, we are able to resum all large $G_N s$ corrections. Applying the KMOC formula for the impulse and taking the large mass limit, we recover the classical result at high energies. This resummation is in complete agreement with known results in the post-Minkowski expansion, and in the massless limit we recover previous results for the radiated energy. We use this resummed amplitude to predict the leading high-energy behavior of the PM expansion to eleventh post-Minkowski order.",
+  "title_relatable": "Predicting gravity's kick at near-light speed, to all orders",
+  "hook": "A resummation of gravitational scattering amplitudes predicts new results up to eleventh post-Minkowski order.",
+  "summary": "When two massive objects fly past each other at nearly the speed of light, how hard does gravity deflect them? By resumming quantum scattering amplitudes in the small-mass limit, this work captures all large-energy corrections to the gravitational impulse at once, rather than order by order. The results agree with known post-Minkowski expansions and extend predictions to eleventh order — a benchmark that would otherwise require enormous independent calculations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 888,
+  "tokens_out": 170,
+  "cost_usd": 0.005214,
+  "ingested_at": "2026-05-20T00:19:55.672220+00:00"
+}

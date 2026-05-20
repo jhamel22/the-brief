@@ -1,0 +1,23 @@
+{
+  "id": "2605.18731",
+  "arxiv_url": "https://arxiv.org/abs/2605.18731",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.SR"
+  ],
+  "title_original": "Pulse profile modelling of the 2024 outburst of the accreting millisecond pulsar SRGA J144459.2-604207",
+  "authors": "Bas Dorsman, Tuomo Salmi, Anna L. Watts, Mason Ng, Anna Bobrikova, Alessandro Di Marco, Duncan K. Galloway, Sebastien Guillot, Mariska Hoogkamer, Yves Kini, Fabio La Monaca, Vladislav Loktev, Matteo Lucchini, Christian Malacaria, Ying-Han Mao, Alessandro Papitto, Juri Poutanen",
+  "abstract": "Pulse profile modelling via relativistic ray-tracing can constrain the system parameters of neutron stars, notably their mass and radius. Among these objects, accreting millisecond pulsars (AMPs) are promising targets, because they are bright in X-rays and their potentially polarized radiation can lead to complementary constraints on the emission geometry. We perform combined analysis of NICER and IXPE observations of the recently discovered the 448-Hz pulsar SRGA J144459.2-604207, with IXPE providing X-ray polarization information. NICER and IXPE jointly favour a large mass and radius for our best-fitting model, for which the neutron star has two independent hotspots. The primary hotspot is centered near the northern rotational pole, the secondary in the southern hemisphere, and the observer inclination is in the range 50-75 degrees. The primary hotspot is large (up to half the surface area) and contributes the majority of the non-pulsed X-rays, while the secondary is hotter and the major contributor to the overall pulse profile shape. However, many parameters are inferred to be near the prior bounds, which could indicate that the model does not adequately account for important physics. Furthermore, we tested several different methodologies for joint analysis of the two data sets: the results are sensitive to the method used, something that merits further study with synthetic data. In the future, we expect simultaneously recorded data will lead to improved parameter constraints, especially when multi-band and polarized data are combined.",
+  "title_relatable": "What a millisecond pulsar's X-ray hotspots reveal about neutron star size",
+  "hook": "Joint X-ray and polarization data from a newly discovered pulsar constrain its mass and radius, but hint that current models may be missing something crucial.",
+  "summary": "Astronomers combined sharp X-ray images and polarization measurements from two space telescopes (NICER and IXPE) to map the glowing hotspots on a rapidly spinning neutron star. The pulsar's dual hotspots—one near each pole—suggest a massive, large neutron star, though many parameters sit at the edge of what the model can explain. The mismatch suggests their current picture of how these objects emit light is incomplete.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1157,
+  "tokens_out": 191,
+  "cost_usd": 0.0016895999999999999,
+  "ingested_at": "2026-05-20T00:28:19.300343+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.18697",
+  "arxiv_url": "https://arxiv.org/abs/2605.18697",
+  "announced_date": "2026-05-18",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.DC",
+    "cs.AI",
+    "cs.PL"
+  ],
+  "title_original": "PopPy: Opportunistically Exploiting Parallelism in Python Compound AI Applications",
+  "authors": "Stephen Mell, David Mell, Konstantinos Kallas, Steve Zdancewic, Osbert Bastani",
+  "abstract": "Compound AI applications, which compose calls to ML models using a general-purpose programming language like Python, are widely used for a variety of user-facing tasks, from software engineering to enterprise automation, making their end-to-end latency a critical bottleneck. In contrast to traditional applications, execution time is dominated by the external components, which cannot be handled by traditional language optimization systems, like optimizing compilers. To address this problem, we develop PopPy, a system that can uncover parallelization opportunities in Python applications that invoke these heavy external components, including those used in compound AI applications. PopPy supports a very expressive fragment of Python and requires minimal developer input to uncover parallelism. It combines an ahead-of-time compiler with a runtime, addressing three key challenges in extracting parallelism from Python applications: language complexity, dynamic dispatch, and variable mutation. On a set of real-world compound AI applications, PopPy achieves up to $6.4\\times$ speedups in end-to-end execution time compared to standard Python execution while preserving the sequential program semantics.",
+  "title_relatable": "Making Python AI pipelines 6× faster by parallelizing automatically",
+  "hook": "PopPy automatically finds parallelization opportunities in Python code that calls ML models, achieving up to 6.4× speedups without requiring developers to rewrite their applications.",
+  "summary": "Compound AI applications—Python code that chains together calls to language models and other ML services—are bottlenecked by waiting for external services sequentially. PopPy analyzes Python code to find parallelization opportunities, then runs independent operations concurrently while preserving the program's original behavior. On real-world applications, it delivers up to 6.4× speedups with minimal developer effort.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 922,
+  "tokens_out": 175,
+  "cost_usd": 0.0014375999999999998,
+  "ingested_at": "2026-05-20T00:31:36.782964+00:00"
+}

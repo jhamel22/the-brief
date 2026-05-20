@@ -1,0 +1,23 @@
+{
+  "id": "2605.17723",
+  "arxiv_url": "https://arxiv.org/abs/2605.17723",
+  "announced_date": "2026-05-18",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "eess.SY",
+    "econ.GN"
+  ],
+  "title_original": "Residential Battery Pooling Under Backup Commitments",
+  "authors": "Jerry Anunrojwong, Baosen Zhang",
+  "abstract": "Residential batteries increasingly serve two roles: they can earn money by arbitraging wholesale prices and providing grid services, and they provide backup power during outages. This dual use creates a basic tradeoff between earning market value and preserving outage readiness. Coordination across many batteries can help, but a provider cannot treat the fleet as a single virtual battery when each household is promised its own backup protection. We compare standalone control, in which each home is dispatched independently, with pooling, in which homes are coordinated while each battery retains its own state of charge and household-specific backup requirement. Both regimes are implemented as model predictive control problems with 15-minute decision intervals and evaluated using household telemetry together with ERCOT market inputs. The empirical design focuses on the 543 homes in our sample that can support at least one backup product in standalone operation and studies backup caps ranging from 2 to 24 hours. Lower caps relax backup obligations, while the 24-hour cap coincides with assigning each home its own longest feasible backup tier. Pooling remains beneficial in this service-constrained setting, but its value declines smoothly as backup obligations tighten. Standalone firm margin ranges from \\$11.06 per home per week at the 2-hour cap to \\$10.79 at the 24-hour cap, while pooling benefit falls from \\$1.49 to \\$1.27 per home per week. Relative to standalone firm margin, pooling is worth about 13.5% at the 2-hour cap and about 11.8% at the 24-hour cap. Coordination therefore still helps after preserving household-level backup guarantees, but its value declines as backup obligations tighten.",
+  "title_relatable": "Can home batteries make money and stay charged for blackouts?",
+  "hook": "Pooling home batteries improves grid profits by 12% even when each household must keep its own backup power ready for outages.",
+  "summary": "Researchers tested whether coordinating 543 residential batteries across ERCOT's wholesale market—where they earn money by buying low and selling high—works when each home must reserve power for blackouts. Pooling batteries while respecting individual backup requirements still beats standalone operation, but the benefit shrinks as backup obligations tighten (from 13.5% at 2-hour reserves down to 11.8% at 24-hour reserves). The tradeoff matters: tighter backup commitments lock up battery capacity that could otherwise earn money.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 779,
+  "tokens_out": 197,
+  "cost_usd": 0.0014112,
+  "ingested_at": "2026-05-20T00:38:45.813343+00:00"
+}

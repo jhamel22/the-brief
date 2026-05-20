@@ -1,0 +1,23 @@
+{
+  "id": "2605.18514",
+  "arxiv_url": "https://arxiv.org/abs/2605.18514",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math.AG"
+  ],
+  "title_original": "Monodromy of Calabi-Yau threefold flops via grade restriction rule and their quantum Kahler moduli",
+  "authors": "Ban Lin, Mauricio Romo",
+  "abstract": "We present exact expressions, based on the grade restriction rule and window categories, for monodromies associated to certain Calabi-Yau threefold flops. We show a general formula for the monodromy action on the lattice of B-brane charges, based on the hemisphere partition function for abelian and nonabelian gauged linear sigma models. We exploit the explicit form of the discriminant in the quantum Kähler moduli to further refine the form of the monodromies, in several examples, using their relation to the fundamental group of nested torus links.",
+  "title_relatable": "How geometric surgery in string theory reshapes quantum symmetries",
+  "hook": "A new formula reveals how flipping Calabi-Yau geometries transforms the charges of branes—and links the answer to knot theory.",
+  "summary": "String theorists flipping Calabi-Yau threefolds—geometric transitions that leave the physics intact—can now predict exactly how this surgery permutes the quantum charges carried by D-branes. The authors derive explicit formulas using a category-theoretic tool called the grade restriction rule, then verify the predictions against hemisphere partition functions from gauge theory. The result connects string geometry to knot invariants, offering a rare bridge between topological surgery and quantum field theory.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 836,
+  "tokens_out": 182,
+  "cost_usd": 0.0013968000000000001,
+  "ingested_at": "2026-05-20T00:21:09.461636+00:00"
+}

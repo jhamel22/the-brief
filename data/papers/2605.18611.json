@@ -1,0 +1,22 @@
+{
+  "id": "2605.18611",
+  "arxiv_url": "https://arxiv.org/abs/2605.18611",
+  "announced_date": "2026-05-18",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors",
+  "authors": "Yidan Lu, Yichao Zhong, Liu Zhao, Wanyue Li, Peng Lu",
+  "abstract": "We propose a unified reinforcement learning framework that enables a single policy to perform walking, running, and fall recovery on the Unitree G1 humanoid robot, validated on physical hardware without any explicit mode-switching command at deployment. The framework extends Adversarial Motion Priors (AMP) by replacing the conventional global reference distribution with a state-dependent gate that routes each training transition to one of two discriminators: a dedicated recovery discriminator and a velocity-conditioned locomotion discriminator that jointly covers walking and running. The gate is defined by a single fixed threshold on projected gravity: the recovery discriminator is activated when body tilt exceeds approximately $37^\\circ$ from vertical ($|g_z+1|>0.6$); otherwise the locomotion discriminator is used, with the normalized commanded velocity serving as a condition that selects the appropriate reference trajectory between walk and run clips. Only three LAFAN1 reference clips are required to regularize the complete behavior set. At deployment, a single frozen ONNX policy executes at 50\\,Hz with no runtime mode logic; hardware experiments demonstrate successful recovery from both prone and supine falls and smooth walk-to-run transitions under the same controller.",
+  "title_relatable": "One robot policy walks, runs, and gets up—no mode switching",
+  "hook": "A single reinforcement learning policy controls a humanoid robot through walking, running, and fall recovery without explicit mode commands, validated on physical hardware.",
+  "summary": "Researchers extended Adversarial Motion Priors to train a unified policy that handles multiple locomotion modes on the Unitree G1 humanoid. The key insight: route training data to different discriminators based on body tilt angle (a simple threshold at 37° determines recovery vs. locomotion) and commanded velocity (which selects between walk and run). With just three reference motion clips, the frozen policy runs at 50 Hz on hardware, executing seamless walk-to-run transitions and recovering from falls without any mode-switching logic at runtime.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 950,
+  "tokens_out": 202,
+  "cost_usd": 0.001568,
+  "ingested_at": "2026-05-20T00:36:30.016946+00:00"
+}

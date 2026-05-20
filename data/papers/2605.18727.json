@@ -1,0 +1,23 @@
+{
+  "id": "2605.18727",
+  "arxiv_url": "https://arxiv.org/abs/2605.18727",
+  "announced_date": "2026-05-18",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "DexHoldem: Playing Texas Hold'em with Dexterous Embodied System",
+  "authors": "Feng Chen, Tianzhe Chu, Li Sun, Pei Zhou, Zhuxiu Xu, Shenghua Gao, Yuexiang Zhai, Yanchao Yang, Yi Ma",
+  "abstract": "Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a real-world system-level benchmark built around Texas Hold'em dexterous manipulation with a ShadowHand. DexHoldem provides 1,470 teleoperated demonstrations across 14 Texas Hold'em manipulation primitives, a standardized physical policy benchmark, and an agentic perception benchmark that tests whether agents can recover the structured game state needed for embodied decision making. On primitive execution, $π_{0.5}$ obtains the highest task completion rate ($61.2\\%$), while $π_{0.5}$ and $π_0$ tie on scene-preserving success rate ($47.5\\%$). On agentic perception, Opus 4.7 obtains the best strict problem-level accuracy ($34.3\\%$), while GPT 5.5 obtains the best average field-wise accuracy ($66.8\\%$), exposing a gap between isolated visual sub-capabilities and complete routing-relevant state recovery. Finally, we instantiate the full embodied-agent loop in three case studies, where waiting, recovery dispatches, human-help requests, and repeated primitive execution reveal how perception and policy errors accumulate during closed-loop deployment. DexHoldem therefore evaluates dexterous tabletop execution, agentic perception, and embodied decision routing in a shared physical setting. Project page: https://dexholdem.github.io/Dexholdem/.",
+  "title_relatable": "Teaching a robot hand to play poker reveals real challenges",
+  "hook": "A new benchmark tests whether dexterous robots can perceive, decide, and act in complex tabletop scenes—revealing that perception alone doesn't guarantee successful embodied decision-making.",
+  "summary": "Playing poker requires a robot to do more than execute isolated tricks: it must see cards, choose moves, execute them with a dexterous hand, and leave the table usable. DexHoldem is a real-world benchmark built around Texas Hold'em with a ShadowHand robot, including 1,470 teleoperated demonstrations and tests for both primitive execution and agentic perception. Top policies achieve 61% task completion but only 47.5% on the harder metric of preserving the scene, while leading vision models reach just 34% accuracy on game-state recovery—exposing a gap between visual skills and embodied decision-making.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1089,
+  "tokens_out": 229,
+  "cost_usd": 0.0017872,
+  "ingested_at": "2026-05-20T00:36:27.123324+00:00"
+}

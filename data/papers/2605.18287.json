@@ -1,0 +1,23 @@
+{
+  "id": "2605.18287",
+  "arxiv_url": "https://arxiv.org/abs/2605.18287",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "StableVLA: Towards Robust Vision-Language-Action Models without Extra Data",
+  "authors": "Yiyang Fu, Chubin Zhang, Shukai Gong, Yufan Deng, Kaiwei Sun, Qiyang Min, Qibin Hou, Yansong Tang, Jianan Wang, Daquan Zhou",
+  "abstract": "It is infeasible to encompass all possible disturbances within the training dataset. This raises a critical question regarding the robustness of Vision-Language-Action (VLA) models when encountering unseen real-world visual disturbances, particularly under imperfect visual conditions. In this work, we conduct a systematic study based on recent state-of-the-art VLA models and reveal a significant performance drop when visual disturbances absent from the training data are introduced. To mitigate this issue, we propose a lightweight adapter module grounded in information theory, termed the Information Bottleneck Adapter (IB-Adapter), which selectively filters potential noise from visual inputs. Without requiring any extra data or augmentation strategies, IB-Adapter consistently improves over the baseline by an average of 30%, while adding fewer than 10M parameters, demonstrating notable efficiency and effectiveness. Furthermore, even with a 14x smaller backbone (0.5B parameters) and no pre-training on the Open X-Embodiment dataset, our model StableVLA achieves robustness competitive with 7B-scale state-of-the-art VLAs. With negligible parameter overhead (<10M), our approach maintains accuracy on long-horizon tasks and surpasses OpenPi under both synthetic and physical visual corruptions.",
+  "title_relatable": "Making robot vision robust without retraining on new data",
+  "hook": "Robot models trained on clean images fail badly when cameras get dirty or lighting changes. A 10M-parameter adapter fixes this 30% performance drop without any new training data.",
+  "summary": "Vision-language-action (VLA) models—used to teach robots to act from visual input—collapse when encountering real-world corruptions like blur, fog, or noise that weren't in their training set. The authors propose Information Bottleneck Adapter, a lightweight module that filters noise from visual inputs without requiring extra data or augmentation. On long-horizon robot tasks, it recovers 30% of lost performance and lets even tiny 0.5B-parameter models match 7B-scale robots under corrupted visuals.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1006,
+  "tokens_out": 202,
+  "cost_usd": 0.0016128000000000002,
+  "ingested_at": "2026-05-20T00:35:24.977816+00:00"
+}

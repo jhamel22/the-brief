@@ -1,0 +1,22 @@
+{
+  "id": "2605.18512",
+  "arxiv_url": "https://arxiv.org/abs/2605.18512",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Easier to Judge than to Find: Predicting In-Context Learning Success for Demonstration Selection",
+  "authors": "Haochun Wang, Chaofen Yang, Jiatong Liu, Jingbo Wang, Zewen Qiang, Sendong Zhao, Bing Qin, Ting Liu",
+  "abstract": "In-context learning (ICL) is highly sensitive to which demonstrations appear in the prompt, but selecting them is expensive because the space of possible demonstration contexts and combinations is enormous. We argue that demonstration selection is \\emph{easier to judge than to find}: predicting whether a specific query--context pair $(q,D)$ will succeed is cheaper and more general than searching for an optimal $D^\\star$. Based on this insight, we propose DiSP, a sample-and-judge framework that stratifies queries by difficulty. DiSP runs random demonstration trials to estimate success rate of each training query, trains a lightweight router to predict difficulty from the query, and trains level-specific judges for sampled demonstrations. At inference, DiSP performs stop-on-acceptance judging under an explicit budget, emitting diagnostic risk tags when no suitable context is found. Across five classification datasets with Llama~3--8B and Qwen~2.5--7B, DiSP achieves the best average accuracy, improving over strong learned selection baselines by up to 3.4\\%, while achieving up to $23\\times$ end-to-end wall-clock speedup.",
+  "title_relatable": "Why judging demos beats searching for perfect ones",
+  "hook": "Instead of hunting for ideal demonstrations, predict which ones will work—cutting selection time by 23× while boosting accuracy by 3.4%.",
+  "summary": "In-context learning heavily depends on which examples you show the model, but finding optimal ones is computationally brutal. This work flips the problem: rather than search through combinations, train lightweight classifiers to judge whether a given query-demo pair will succeed. DiSP stratifies queries by difficulty, runs random trials to calibrate success rates, then uses a router and level-specific judges to accept suitable demonstrations under a budget constraint. On five classification tasks with Llama and Qwen models, it beats learned selection baselines by up to 3.4% accuracy while achieving 23× wall-clock speedup.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 210,
+  "cost_usd": 0.001608,
+  "ingested_at": "2026-05-20T00:33:08.673155+00:00"
+}

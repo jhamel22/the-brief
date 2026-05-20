@@ -1,0 +1,23 @@
+{
+  "id": "2605.18283",
+  "arxiv_url": "https://arxiv.org/abs/2605.18283",
+  "announced_date": "2026-05-18",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.HE"
+  ],
+  "title_original": "Constraining the magnetic field strength of a flaring radio core in the compact steep spectrum source 3C 138",
+  "authors": "Shan Li, Sang-Sung Lee, Whee Yeon Cheong, Tao An, Seiji Kameno, Ruediger Kneissl",
+  "abstract": "Compact steep spectrum (CSS) sources generally show weak Doppler boosting, yet some exceptions show multi-year-scale radio flux variability and high-energy activity. Since 2022, the CSS quasar 3C 138 has been in a radio high state accompanied by multiple gamma-ray outbursts, offering unique opportunities to study changes in jet physical conditions. We estimated the synchrotron self-absorption (SSA) magnetic field ($B_{\\rm SSA}$) in the SSA core of 3C 138 during its high state and compared it with the equipartition magnetic field ($B_{\\rm eq}$) to assess the core field environment. Using extended Korean Very long-baseline interferometry Network (KVN) data at 22, 43, 86, and 129 GHz (2024-2025), we calibrated the visibilities and modeled resolved components with circular Gaussians. A single-zone SSA model fitted to the core spectrum provided the turnover frequency and peak flux density, from which we estimated the $B_{\\rm SSA}$ and $B_{\\rm eq}$. We used Very Large Array and Atacama Large Millimeter/submillimeter Array data to constrain the broadband spectra with the same model. The KVN SSA core shows a turnover at about 33 GHz and a peak flux of about 1.45 Jy. The inferred $B_{\\rm SSA}$ is far below equipartition, with $B_{\\rm SSA}/B_{\\rm eq}\\approx0.05$. The flux variability of 3C 138 is driven by a compact, particle-dominated core. Shock-driven particle injection in the inner jet could account for the core brightening and the production of X-ray/gamma-ray emissions through an inverse-Compton process without requiring extreme relativistic beaming effects.",
+  "title_relatable": "Why a distant quasar's radio core is mysteriously weak on magnetism",
+  "hook": "A flaring quasar's brightest radio region has barely 5% of the magnetic field strength needed to balance particle energy—suggesting shocks in the jet feed gamma-ray bursts without extreme relativistic effects.",
+  "summary": "3C 138, a distant quasar that erupted in radio and gamma rays in 2022, reveals an unusual magnetic environment in its compact radio core. Using radio telescopes across multiple frequencies, researchers measured the magnetic field strength via synchrotron radiation and compared it to theoretical equipartition expectations, finding the actual field is only about 5% as strong. This particle-dominated, weakly magnetized core can still produce X-rays and gamma rays through inverse Compton scattering when shocks accelerate particles—a cleaner picture than requiring exotic relativistic beaming.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1163,
+  "tokens_out": 225,
+  "cost_usd": 0.0018304,
+  "ingested_at": "2026-05-20T00:28:38.673961+00:00"
+}

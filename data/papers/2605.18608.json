@@ -1,0 +1,22 @@
+{
+  "id": "2605.18608",
+  "arxiv_url": "https://arxiv.org/abs/2605.18608",
+  "announced_date": "2026-05-18",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Dance Across Shifts: Forward-Facilitation Continual Test-Time Adaptation through Dynamic Style Bridging",
+  "authors": "Zhilin Zhu, Yabin Wang, Zhiheng Ma, Yaguang Song, Yaowei Wang, Xiaopeng Hong",
+  "abstract": "Continual Test-Time Adaptation (CTTA) aims to empower perception systems to handle dynamic distribution shifts encountered after deployment. Existing methods predominantly follow a backward-alignment paradigm, which rigidly aligns incoming data with supervisory surrogates derived from the source domain. Consequently, they struggle with unreliable supervision and evolving distribution shifts. To overcome these limitations, we introduce a novel forward-facilitation paradigm through a method termed Dynamic Style Bridging. Prior to deployment, we construct a compact knowledge base of generated class exemplars. During test time, to mitigate inherent generative bias and adapt these proxies to incoming data, we propose a multi-level bridging mechanism. This mechanism dynamically injects the proxies with incoming data styles at the input, statistical, and representation levels, while preserving the original semantics of the proxies. These high-fidelity proxies are then used to provide reliable, on-demand supervisory signals, enabling stable adaptation under continual shifts. Extensive experiments across standard CTTA benchmarks demonstrate that our method achieves consistent and substantial improvements over recent state-of-the-art approaches. Code is available at \\href{https://github.com/z1358/DAS}.",
+  "title_relatable": "Teaching vision systems to adapt when the world changes",
+  "hook": "A new approach to continual adaptation that generates reliable training signals on-the-fly rather than struggling with noisy source-domain surrogates.",
+  "summary": "Perception systems deployed in the real world encounter shifting visual conditions—camera angles change, lighting varies, object appearances evolve. Standard continual adaptation methods try to align new data back to the original training domain, but this produces unreliable guidance. This work flips the strategy: instead, it pre-builds a bank of synthetic class examples, then dynamically adapts them to match incoming data's style at three levels (input, statistics, representation) while keeping their core meaning intact. The result is clean, trustworthy training signals that let models adapt stably through continuous shifts. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 965,
+  "tokens_out": 202,
+  "cost_usd": 0.00158,
+  "ingested_at": "2026-05-20T00:34:55.419273+00:00"
+}

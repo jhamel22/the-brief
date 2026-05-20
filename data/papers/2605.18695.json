@@ -1,0 +1,24 @@
+{
+  "id": "2605.18695",
+  "arxiv_url": "https://arxiv.org/abs/2605.18695",
+  "announced_date": "2026-05-18",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math-ph",
+    "nlin.SI"
+  ],
+  "title_original": "From classical Lax ODEs to quantum integrable theories: the moduli",
+  "authors": "Davide Fioravanti, Marco Rossi",
+  "abstract": "The general idea of this paper is to start from a classical integrable (partial differential) equation which arises as a compatibility condition for a matrix linear differential problem. For definitiveness' sake, a generalised sinh-Gordon equation depending on $2N-1$ complex coefficients or moduli is considered. Then, the connexion coefficients (Wronskians) of different solutions to this problem satisfy, in the spirit of the Ordinary Differential Equation/Integrable Model correspondence, functional relations, which can be considered, -- if supplemented by suitable asymptotic behaviours --, as identifying a specific state of a quantum integrable model: in fact they are the eigenvalues of extensions of Baxter operators $Q$ and $T$, the transfer matrix. Moreover, Y-system and (implementing the asymptotic conditions) thermodynamic Bethe Ansatz equations originate from them, without any passage through the scattering theory, and providing an invariant parametrisation of the monodromy space. The crucial novelty is the modification of all the relations because of their dependence on the moduli. For zero momentum, they fully describe physically the quantum homogeneous sine-Gordon model, {\\it i.e.} scattering amplitudes of gauge fields in $\\mathcal{N} = 4$ SYM at strong coupling or their dual null polygonal light-like Wilson loops in $AdS_3$. As a direct consequence of the correspondence, two Zamolodchikov's conjectures, based on previous results, are also proven.",
+  "title_relatable": "How classical equations hide quantum integrability inside their hidden symmetries",
+  "hook": "Starting from classical differential equations, researchers extract quantum integrable systems and their exact solutions—proving two long-standing conjectures about gauge theory scattering.",
+  "summary": "Classical integrable equations like sinh-Gordon arise from compatibility conditions on matrix differential problems. The Wronskian coefficients connecting different solutions encode quantum data: they are eigenvalues of transfer matrices and Baxter operators that satisfy Y-systems and thermodynamic Bethe Ansatz equations, all without invoking scattering theory. This framework includes N=4 super Yang-Mills at strong coupling and dual Wilson loops in AdS_3, and directly proves two Zamolodchikov conjectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1038,
+  "tokens_out": 194,
+  "cost_usd": 0.0016064,
+  "ingested_at": "2026-05-20T00:20:52.880868+00:00"
+}

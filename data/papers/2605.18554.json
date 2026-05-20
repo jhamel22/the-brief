@@ -1,0 +1,23 @@
+{
+  "id": "2605.18554",
+  "arxiv_url": "https://arxiv.org/abs/2605.18554",
+  "announced_date": "2026-05-18",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Federated Martingale Posterior Samping",
+  "authors": "Boning Zhang, Matteo Zecchin, Mingzhao Guo, Dongzhu Liu, Osvaldo Simeone",
+  "abstract": "Federated Bayesian neural networks require fixing a prior on the model parameters together with a likelihood. Eliciting meaningful priors on the weight space of modern overparameterized models is notoriously difficult, and misspecification of either component can severely degrade accuracy and calibration. Motivated by the rapid progress of predictive models such as large language models, the martingale posterior, also known as predictive Bayes, replaces the prior--likelihood pair with a predictive distribution and recovers parameter uncertainty by repeatedly drawing predictive samples and refitting the model. A direct federated implementation, however, would require clients to share the local data sets. This letter proposes {federated martingale posterior} (FMP) sampling, a one-shot embarrassingly parallel protocol in which each client uploads a small set of trainable data embeddings and the server runs the predictive sampler centrally. Experiments on MNIST, CIFAR-10, and CIFAR-100 show that FMP closely matches the centralized counterpart and significantly improves calibration over consensus-style baselines.",
+  "title_relatable": "Uncertainty without sharing data: federated Bayesian learning",
+  "hook": "Bayesian neural networks in federated settings without requiring clients to specify priors or share raw data—using only trainable embeddings.",
+  "summary": "Standard federated Bayesian learning requires agreeing on priors across clients, which is impractical for large models. This work adapts the martingale posterior (predictive Bayes) to the federated setting: clients send only small learned embeddings of their data, and the server recovers parameter uncertainty by repeatedly sampling and refitting. Tests on MNIST, CIFAR-10, and CIFAR-100 show the method matches centralized performance and improves calibration significantly over existing federated approaches.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 920,
+  "tokens_out": 190,
+  "cost_usd": 0.001496,
+  "ingested_at": "2026-05-20T00:37:01.843925+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.17984",
+  "arxiv_url": "https://arxiv.org/abs/2605.17984",
+  "announced_date": "2026-05-18",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "eess.IV",
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "See Silhouettes in Motion with Neuromorphic Vision",
+  "authors": "Pei Zhang, Shijie Lin, Zhou Ge, Jinpeng Chen, Wei Pu",
+  "abstract": "Quasi-bimodal objects, such as text, road signs, and barcodes, play a basic yet vital role in daily visual communication. By boiling these down to clear silhouettes, binarization uses a minimal language to convey essential vision cues for maximum downstream efficiency. The catch is that frame-based imaging often struggles on mobile platforms like drones, self-driving cars, and underwater vehicles. In these dynamic scenes, rapid motion and harsh lighting can make it blind, causing severe motion blur and erasing crucial details. To overcome the limits, neuromorphic vision via event cameras, featuring microsecond-level temporal resolution and high dynamic range, steps in as a natural solution. Building upon this event-driven sensing paradigm, we introduce a simple yet effective dual-modal approach that harnesses the synergy between frames and events to achieve real-time, high-frame-rate binarization on CPU-only devices. Extensive evaluations present that it earns competitive performance against leading techniques in reducing motion blur, while delivering impressive improvements under challenging illumination. Besides, our asynchronous workflow bypasses event scarcity that breaks traditional time-binning reconstruction, maintaining clear target shapes even at extreme kilohertz frame rates. Its binary results further serve as reliable representations that facilitate a range of downstream tasks. This work paves the way towards lightweight perception and interaction in embodied intelligence on resource-constrained edge platforms.",
+  "title_relatable": "Extracting sharp shapes from fast motion using neuromorphic cameras",
+  "hook": "Event cameras combined with traditional frames enable real-time, CPU-only binarization of text and signs in high-speed, challenging scenes—critical for drones and autonomous vehicles.",
+  "summary": "Motion blur and harsh lighting kill traditional cameras on mobile robots, but event cameras sense change at microsecond resolution. This work pairs events with frames to extract clean binary silhouettes of objects like text and road signs in real time on edge devices. The approach handles extreme frame rates and severe illumination changes where standard binarization fails, making perception viable for resource-constrained platforms like drones and underwater vehicles.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 976,
+  "tokens_out": 175,
+  "cost_usd": 0.0014808000000000002,
+  "ingested_at": "2026-05-20T00:36:24.071345+00:00"
+}

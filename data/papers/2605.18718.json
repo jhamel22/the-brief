@@ -1,0 +1,22 @@
+{
+  "id": "2605.18718",
+  "arxiv_url": "https://arxiv.org/abs/2605.18718",
+  "announced_date": "2026-05-18",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Sensitivity of MAGIX@MESA to BSM effects via Bethe-Heitler pair production",
+  "authors": "Aleksandr Pustyntsev, Marc Vanderhaeghen",
+  "abstract": "We explore the sensitivity of the upcoming MAGIX experiment at the MESA facility to light Beyond the Standard Model (BSM) mediators in the few to hundred MeV mass range. Utilizing high-intensity electron beams of 55 MeV and 105 MeV on a heavy $^{181}\\text{Ta}$ target, we investigate the production of scalar, pseudoscalar, vector, and axial vector mediators via the Bethe-Heitler process. By optimizing the asymmetric kinematic acceptance of the double-spectrometer setup to enhance the signal over background ratio, we demonstrate that MAGIX can probe mediator-electron couplings down to $\\mathcal{O}(10^{-4})$, offering a competitive probe of the dark sector in the sub-GeV mass range.",
+  "title_relatable": "Can a new electron beam find hidden particles between atoms and nuclei?",
+  "hook": "An upcoming German experiment could detect invisible mediators that couple to electrons with unprecedented sensitivity in the 10–100 MeV range.",
+  "summary": "MAGIX, a precision electron-scattering experiment at MESA, will fire 55 and 105 MeV beams at tantalum to create exotic particles via pair production. By carefully selecting which collision products they measure, the team shows they can detect scalar, vector, and axial mediators down to electron coupling strengths of 10−4—competitive with particle physics' best dark sector searches. This opens a new window on light BSM physics that higher-energy colliders miss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 894,
+  "tokens_out": 189,
+  "cost_usd": 0.0014712,
+  "ingested_at": "2026-05-20T00:27:08.838357+00:00"
+}

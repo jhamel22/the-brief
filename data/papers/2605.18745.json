@@ -1,0 +1,27 @@
+{
+  "id": "2605.18745",
+  "arxiv_url": "https://arxiv.org/abs/2605.18745",
+  "announced_date": "2026-05-18",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "math.NA",
+    "math.PR",
+    "q-fin.MF",
+    "stat.CO"
+  ],
+  "title_original": "SURGE: Approximation-free Training Free Particle Filter for Diffusion Surrogate",
+  "authors": "Lifu Wei, Yinuo Ren, Naichen Shi, Yiping Lu",
+  "abstract": "Diffusion-based generative models increasingly rely on inference-time guidance, adding a drift term or reweighting mixture of experts, to improve sample quality on task-specific objectives. However, most existing techniques require repeated score or gradient evaluations, introducing bias, high computational overhead, or both. We introduce \\texttt{URGE}, Unbiased Resampling via Girsanov Estimation, a derivative-free inference-time scaling algorithm that performs path-wise importance reweighting via a Girsanov change of measure. Instead of computing gradient-based particle weights in previous work, \\texttt{URGE} attaches a simple multiplicative weight to each simulated trajectory and periodically resamples. No score, no Hessian, and no PDE evaluation is required. We establish an equivalence between path-wise and particle-wise SMC: the Girsanov path weight admits a backward conditional expectation that recovers the previous particle-level weights, guaranteeing that both schemes produce the same unbiased terminal law. Empirically, \\texttt{URGE} outperforms existing inference-time guidance baselines on synthetic tests and diffusion-model benchmarks, achieving better generation quality, while being significantly simpler to implement and fully gradient-free.",
+  "title_relatable": "Guiding diffusion models without computing gradients",
+  "hook": "New method steers diffusion models toward task-specific goals without gradient calculations, reducing computational cost while improving sample quality.",
+  "summary": "Diffusion models often need guidance at inference time to match specific objectives—like generating images of a certain style. Current methods require repeated gradient or score evaluations, which is expensive and can introduce errors. URGE replaces this with trajectory reweighting: each generated sample path gets a simple multiplicative weight, and the algorithm periodically resamples based on those weights. No gradients, Hessians, or PDE solving needed. The method is mathematically proven equivalent to prior particle-filtering approaches but simpler to implement and faster in practice.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 190,
+  "cost_usd": 0.001528,
+  "ingested_at": "2026-05-20T00:30:22.324553+00:00"
+}
