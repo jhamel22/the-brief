@@ -1,0 +1,23 @@
+{
+  "id": "2605.21148",
+  "arxiv_url": "https://arxiv.org/abs/2605.21148",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Photon-initiated enhancements in the pair production of highly charged coloured particles",
+  "authors": "Tanumoy Mandal, Subhadip Mitra, Rachit Sharma",
+  "abstract": "Strong interaction is typically assumed to dominate the pair production of heavy coloured resonances at the LHC. However, mixed QCD-QED contributions from gluon-photon ($gγ$) initial states become critical for highly charged states. This contribution scales with the square of their electric charges and maximises for particles in the fundamental colour representation. We study this effect for leptoquarks, which are colour-triplet bosons. We demonstrate that tree-level mixed QCD-QED contributions enhance their pair-production rates by up to $\\sim 33\\%$ for a charge-$5/3$ state, rivalling the size of next-to-leading-order QCD corrections. The asymmetric colour flow of $gγ$ fusion affects the radiation pattern, altering jet multiplicities and angular distributions. By recasting the latest ATLAS $μμjj$ search data, we find that these often-overlooked QED effects systematically strengthen mass exclusion limits, establishing a necessary precision standard for bounding highly charged coloured states.",
+  "title_relatable": "How photons sneak into searches for exotic heavy particles",
+  "hook": "A forgotten quantum effect boosts pair production of charged particles by a third—and tightens constraints on new physics at the LHC.",
+  "summary": "When searching for exotic heavy particles at the LHC, physicists usually focus on gluon interactions. But for highly charged particles like leptoquarks, mixing in photons from a separate initial state can enhance production rates by up to 33%—comparable to precision QCD corrections. This overlooked QED contribution shifts jet patterns and angular distributions, systematically tightening experimental mass limits when properly accounted for.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 937,
+  "tokens_out": 169,
+  "cost_usd": 0.0014256,
+  "ingested_at": "2026-05-21T23:52:19.662549+00:00"
+}

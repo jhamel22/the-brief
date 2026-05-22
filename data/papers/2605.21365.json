@@ -1,0 +1,23 @@
+{
+  "id": "2605.21365",
+  "arxiv_url": "https://arxiv.org/abs/2605.21365",
+  "announced_date": "2026-05-20",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "math.ST",
+    "stat.ML"
+  ],
+  "title_original": "$L^2$ over Wasserstein: Statistical Analysis for Optimal Transport",
+  "authors": "Riccardo Passeggeri, Rohan M. Shenoy, Pengcheng Ye",
+  "abstract": "Optimal transport provides an inherently geometric and highly structured framework for studying spaces of probability measures, supplying a rich theoretical toolkit for contemporary statistics, machine learning, and generative modelling. In applications, however, the measures of interest are almost never known precisely, calling for a theory of optimal transport that accounts for statistical uncertainty. We construct such a framework, lifting the classical theory to the setting of random probability measures. We introduce the $L^2$ over Wasserstein space establishing that it inherits the formal Riemannian structure of the Wasserstein space by characterising distances and geodesic geometry. The structure induces random flows with Wasserstein gradient flow sample paths, making it the natural extension of the Wasserstein space which allows for random gradient flow dynamics. We ensemble statistical convergence results of the optimal transport machinery using the empirical measure within the $L^2$ over Wasserstein framework. Moreover, in the setting of Bayesian non-parametrics, we refine Schwartz's consistency theorem to the Wasserstein topology and deduce posterior convergence of the same machinery in the $L^2$ over Wasserstein space. We demonstrate that the growing theory of random token sampling for transformer models using self-attention flow paths can be embedded into the our framework. The results provide a unified treatment of random optimal transport and its consequences for principled inference and generative modelling under the statistical uncertainty of random sampling.",
+  "title_relatable": "How do we do optimal transport when we don't know the data?",
+  "hook": "A new mathematical framework accounts for statistical uncertainty in optimal transport, with applications to transformer attention and generative models.",
+  "summary": "Optimal transport is powerful for comparing probability distributions, but real applications work with noisy, finite samples—not perfect data. This work lifts optimal transport theory to handle random probability measures, introducing a new space (L² over Wasserstein) that preserves the geometric structure while letting uncertainty flow through. The framework unifies sampling-based inference and connects to recent transformer attention mechanisms, showing how uncertainty propagates in both Bayesian non-parametrics and generative models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 987,
+  "tokens_out": 175,
+  "cost_usd": 0.0014896,
+  "ingested_at": "2026-05-22T00:17:19.681648+00:00"
+}

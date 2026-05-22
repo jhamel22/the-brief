@@ -1,0 +1,24 @@
+{
+  "id": "2605.19401",
+  "arxiv_url": "https://arxiv.org/abs/2605.19401",
+  "announced_date": "2026-05-19",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN",
+    "q-fin.GN",
+    "stat.AP"
+  ],
+  "title_original": "External Demand, Domestic Monetary Conditions, and Remittance Dynamics in Nepal",
+  "authors": "Sahaj Raj Malla",
+  "abstract": "This study investigates the macroeconomic determinants and dynamic behaviour of personal remittances as a share of Gross Domestic Product (GDP) in Nepal, emphasizing external demand in major destination countries and domestic monetary policy. Using annual data (1993-2024), we construct composite indices via Principal Component Analysis (PCA) for multi-country external demand and a domestic Monetary Conditions Index (MCI). Our small-sample econometric pipeline includes Autoregressive Distributed Lag (ARDL) bounds testing, Engle-Granger cointegration, Dynamic OLS (DOLS), and a two-step Error Correction Model (ECM). We also employ Granger causality tests and multi-model forecasting using machine learning and ECM scenarios. The analysis reveals a strong positive long-run effect of external demand on remittances and a significant negative impact of tighter domestic monetary conditions. The ECM confirms a stable cointegrating relationship, correcting approximately 26% of disequilibria annually. Medium-term projections indicate remittances will remain structurally important, reaching around 28.3% of GDP by 2030 under baseline conditions, while exhibiting high sensitivity to external demand shocks. This study advances the literature by integrating PCA-derived external demand and monetary conditions indices within a unified ARDL-ECM framework for small samples. Focusing on one of the world's most remittance-dependent economies, it offers actionable insights for monetary policy calibration, migration diversification, and the productive utilization of remittance inflows.",
+  "title_relatable": "Why Nepal's economy hinges on foreign job markets and interest rates",
+  "hook": "Remittances make up nearly 28% of Nepal's GDP by 2030—and tightening interest rates could seriously damage that lifeline.",
+  "summary": "Nepal receives remittances from workers abroad equal to roughly a quarter of its GDP. This study shows that remittances depend heavily on job growth in destination countries (India, Gulf states, Malaysia) and drop when Nepal's central bank tightens monetary policy. The finding matters because many developing economies rely on remittances as their financial backbone, yet rarely coordinate migration policy with monetary decisions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 740,
+  "tokens_out": 165,
+  "cost_usd": 0.001252,
+  "ingested_at": "2026-05-22T00:19:35.866233+00:00"
+}

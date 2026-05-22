@@ -1,0 +1,22 @@
+{
+  "id": "2605.21469",
+  "arxiv_url": "https://arxiv.org/abs/2605.21469",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "The giant pulse population of PSR B0355+54",
+  "authors": "Sergei L. Kurdubov, Dmitry A. Marshalov",
+  "abstract": "Giant pulses are rare bright radio bursts that occur in restricted ranges of pulsar rotational phase. Here we report giant pulses from PSR B0355+54, a pulsar with spin period ~0.156 s. Using 7.97 hours of observations centred at 1.46 GHz, with 128 MHz bandwidth in each circular polarizations, we identify 432 pulse periods containing bright pulses. The giant pulses recur in two compact longitude regions inside the radio emission window. They are narrow compared with the mean profile, with median W50=290.3 us, and reach relative peak flux density ratios up to 149.7. The early longitude group has a timing scatter of 139.7 us, or 8.9*10^{-4} of a rotation. The first longitude group favours right, while the second favours left circular polarization.",
+  "title_relatable": "Why do giant pulses from this pulsar occur in only two spots?",
+  "hook": "A pulsar 432 times over seven hours revealed its giant pulses cluster in two precise locations with wildly different polarizations.",
+  "summary": "PSR B0355+54 occasionally unleashes radio bursts 150 times brighter than its average pulse, but only from two narrow regions of its rotation. Using nearly 8 hours of observation, researchers found 432 of these giant pulses and mapped their locations with microsecond precision, discovering the two emission zones prefer opposite circular polarizations. This localization hints at separate magnetic structures producing giant pulses, constraining how pulsar magnetospheres organize their radio emission.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 899,
+  "tokens_out": 184,
+  "cost_usd": 0.0014552,
+  "ingested_at": "2026-05-21T23:54:06.391304+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21219",
+  "arxiv_url": "https://arxiv.org/abs/2605.21219",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Enhanced quantum metrology by criticality-assisted noncommutative preparation",
+  "authors": "Ningxin Kong, Matteo G. A. Paris, Qiongyi He",
+  "abstract": "Quantum criticality is a resource for quantum-enhanced metrology, but existing schemes face intrinsic limitations. These arise because using criticality directly in the encoding dynamics restricts the accessible parameters to those explicitly supported by the critical Hamiltonian, and the requirement for critical conditions narrows the effective estimation range. To solve this, we introduce a general framework termed criticality-assisted noncommutative preparation (CANP). In this approach, critical evolution is employed as a state-preparation resource. We establish the underlying algebraic conditions and show that the intrinsic noncommutativity between the preparation and encoding operations leads to a genuine enhancement of the quantum Fisher information (QFI). Remarkably, this enhancement may be achieved at fixed total sensing time and energy cost. The effect is quantified by the Wigner-Yanase skew information, which measures noncommutativity and exhibits the same critical scaling as the QFI. We demonstrate effective use of CANP in the quantum Rabi and Lipkin-Meshkov-Glick models. Our results establish CANP as a robust technique to effectively implement criticality-enhanced quantum metrology.",
+  "title_relatable": "Using quantum phase transitions to make better measurement devices",
+  "hook": "A new framework exploits quantum criticality as a preparation tool, not just an encoding trick, to boost measurement precision without extra time or energy.",
+  "summary": "Near a quantum phase transition, systems become exquisitely sensitive to tiny perturbations — a property useful for precision measurement. This work shows that instead of encoding the quantity you want to measure directly in a critical Hamiltonian (which limits what you can measure and over what range), you can use critical evolution just to prepare the probe state, then measure something else entirely. The resulting mismatch between preparation and encoding — quantified by a quantity called skew information — amplifies the quantum Fisher information, the gold standard for measurement precision, at no extra time or energy cost.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 953,
+  "tokens_out": 192,
+  "cost_usd": 0.005739,
+  "ingested_at": "2026-05-21T23:50:03.749968+00:00"
+}

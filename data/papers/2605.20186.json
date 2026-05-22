@@ -1,0 +1,24 @@
+{
+  "id": "2605.20186",
+  "arxiv_url": "https://arxiv.org/abs/2605.20186",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "WIMP-like Dark Matter Without Thermalization At Freeze-Out",
+  "authors": "Dan Hooper, Gordan Krnjaic, Gabriele Montefalcone",
+  "abstract": "In the standard thermal relic scenario, dark matter remains in chemical equilibrium with the Standard Model radiation bath until freeze-out occurs at $T \\sim m_X/20$, where $m_X$ is the dark matter mass. In this familiar class of models, the observed relic density is obtained for annihilation cross sections of order $σv \\sim 10^{-26}$ cm$^3$/s. We show that comparable cross sections can naturally be realized in hidden-sector models in which the dark matter and Standard Model sectors decouple at a very high temperature, $T \\gg m_X$, and subsequently evolve with separate thermal histories. Despite this decoupling, the two sectors have similar temperatures during freeze-out, leading to the usual thermal relic abundance. As a consequence, the coupling between the Standard Model and hidden sectors can be extremely small, potentially placing direct detection and collider signals far below foreseeable sensitivities.",
+  "title_relatable": "How dark matter could hide from every detector we build",
+  "hook": "Dark matter might have the right abundance to explain the universe, yet remain invisible to direct detection and colliders—if it decouples from normal matter at extreme temperatures.",
+  "summary": "Standard dark matter models require particles to stay in contact with the Standard Model until freeze-out. These researchers show that dark matter can achieve the correct relic density even if it separates from ordinary matter at temperatures far above its own mass, then cools independently. The trick: the two sectors end up at similar temperatures during freeze-out by coincidence, giving the right abundance without direct contact. This opens a hiding place for dark matter where neither underground detectors nor particle colliders can find it.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 913,
+  "tokens_out": 186,
+  "cost_usd": 0.0014744,
+  "ingested_at": "2026-05-21T23:48:28.528780+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.20996",
+  "arxiv_url": "https://arxiv.org/abs/2605.20996",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "math.OC"
+  ],
+  "title_original": "Beyond the Bellman Recursion: A Pontryagin-Guided Framework for Non-Exponential Discounting",
+  "authors": "Hojin Ko, Jeonggyu Huh",
+  "abstract": "Most value-based and actor--critic reinforcement learning methods rely on Bellman-style recursions, yet these recursions collapse under non-exponential discounting common in human preferences and survival processes. We show the breakdown is structural: exponential discounting sits at a fragile intersection of multiplicativity and time homogeneity, and violating either property breaks standard dynamic programming. To overcome this, we propose Pontryagin-Guided Direct Policy Optimization (PG-DPO), a variational framework that abandons recursion and couples the Pontryagin Maximum Principle with Monte Carlo rollouts via an Adjoint-MC projection enforcing pointwise Hamiltonian maximization. Across multi-dimensional hyperbolic and survival-discount benchmarks, PG-DPO improves accuracy and stability where equation-driven solvers and critic-based baselines diverge.",
+  "title_relatable": "Why standard AI learning breaks with human-like time preferences",
+  "hook": "Standard reinforcement learning assumes we value future rewards predictably, but humans don't. This framework fixes the math to handle realistic discount rates.",
+  "summary": "Almost all RL algorithms use the Bellman equation, which assumes exponential discounting—that rewards decay smoothly over time. But humans and survival processes don't work that way; we often weight immediate and distant rewards differently (hyperbolic discounting). The authors show this mismatch is fundamental: the Bellman recursion mathematically requires both exponential decay and time homogeneity. They propose PG-DPO, a new method based on optimal control theory that skips recursion entirely, using Pontryagin's principle and Monte Carlo rollouts instead. On benchmarks with realistic discount rates, PG-DPO stays stable where traditional critic-based methods fail.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 873,
+  "tokens_out": 226,
+  "cost_usd": 0.0016024000000000001,
+  "ingested_at": "2026-05-21T23:58:40.747090+00:00"
+}

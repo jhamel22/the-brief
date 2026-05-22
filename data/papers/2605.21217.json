@@ -1,0 +1,23 @@
+{
+  "id": "2605.21217",
+  "arxiv_url": "https://arxiv.org/abs/2605.21217",
+  "announced_date": "2026-05-20",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Federated LoRA Fine-Tuning for LLMs via Collaborative Alignment",
+  "authors": "Shuaida He, Liwen Chen, Long Feng",
+  "abstract": "Low-rank adaptation (LoRA) has emerged as a powerful tool for parameter-efficient fine-tuning of large language models (LLMs). This paper studies LoRA under a federated learning setting, enabling collaborative fine-tuning across clients while preserving parameter efficiency. We focus on a highly heterogeneous regime in which clients share only partial structure and a substantial subset may be contaminated. We propose Collaborative Low-rank Alignment and Identifiable Recovery (CLAIR), a contamination-aware framework that relies only on preliminary local estimators. Its formulation applies broadly, from linear regression to neural network and LLM modules, whenever local adaptation can be represented by matrix-valued updates. CLAIR recovers the shared LoRA subspace and detects contaminated clients via a structured low-rank plus block-sparse decomposition. We prove exact recovery of the shared LoRA subspace in the noiseless case, stable recovery under preliminary estimation error, and consistent collaborative-set recovery under mild separation conditions. We further quantify the gain from CLAIR refinement: it reduces off-subspace estimation error through cross-client averaging while preserving client-specific variation within the shared LoRA subspace, thus improves over local fine-tuning whenever this oracle gain outweighs the costs of subspace estimation and benign-client heterogeneity. Empirically, we demonstrate the benefits of CLAIR by fine-tuning a Transformer architecture on a text-copying task. The results show accurate contamination detection and improved benign-client performance compared with local fine-tuning and non-robust federated averaging.",
+  "title_relatable": "Fine-tuning language models together while detecting bad actors",
+  "hook": "A method for groups of computers to collaboratively train LLMs without trusting each other—and automatically spot which ones are corrupted.",
+  "summary": "Federated learning lets multiple computers train models together while keeping data local, but it breaks when some participants are malicious or have corrupted data. CLAIR detects these bad actors while recovering a shared low-rank subspace for LLM fine-tuning, even when clients use different data and model variants. On text tasks, it identifies contaminated clients accurately and improves performance over isolated local training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1022,
+  "tokens_out": 165,
+  "cost_usd": 0.0014776,
+  "ingested_at": "2026-05-22T00:17:37.057494+00:00"
+}

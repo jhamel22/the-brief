@@ -1,0 +1,22 @@
+{
+  "id": "2605.20794",
+  "arxiv_url": "https://arxiv.org/abs/2605.20794",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "The Alternative Left-Right Scenario: Unitarity, Vacuum Stability and RG Evolution",
+  "authors": "Hrishikesh Deka,  Avnish, Sumit K. Garg, Poulose Poulose",
+  "abstract": "We study the theoretical constraints on the scalar sector of the Alternative Left-Right Model (ALRM), an $E_6$-motivated extension of the Standard Model based on the gauge group $\\mathrm{SU}(3)_c \\otimes \\mathrm{SU}(2)_L \\otimes \\mathrm{SU}(2)_{R'} \\otimes \\mathrm{U}(1)_{B-L}$, supplemented by a global $\\mathrm{U}(1)_S$ symmetry. We derive the complete set of tree-level perturbative unitarity constraints on the model, resulting in 14 independent conditions on the quartic scalar couplings. When combined with the boundedness-from-below conditions and the requirement of positive-definite scalar mass-squared eigenvalues, these constraints are found to be complementary, with their simultaneous imposition yielding significantly more stringent restrictions on the parameter space than either set alone. We then perform a one loop renormalization group analysis, evolving the model parameters from the electroweak scale up to a high energy cut-off scale, and requiring that the vacuum stability, the unitarity, and the perturbativity conditions are preserved throughout. The renormalisation group evolution is found to restrict the allowed parameter space considerably beyond the tree-level bounds, with the constraints on the quartic couplings becoming more stringent as the cut off scale is raised. Consequently, the physical scalar masses in the model acquire upper bounds. For the right-hand symmetry breaking scale, $v_R = 10$ TeV and requiring theoretical consistency up to $10^{16}$ GeV, we obtain $m_{H_1^\\pm} \\lesssim 6.5$ TeV, $m_{H_2^\\pm} \\lesssim 1.5$ TeV, and $m_{H_1^0} \\simeq m_{A_1} \\lesssim 1.3$ TeV, with all bounds scaling with $v_R$. These findings offer a predictive and falsifiable framework for searches of the extended Higgs sector of the ALRM at the current and future collider experiments.",
+  "title_relatable": "What forces can constrain a left-right mirror of the Standard Model?",
+  "hook": "Demanding the theory stay sensible all the way to 10^16 GeV pins down the masses of exotic Higgs bosons to testable ranges.",
+  "summary": "A left-right symmetric extension of the Standard Model, motivated by grand unification, has a richer Higgs sector than the familiar theory. The authors derived all constraints that keep the theory mathematically consistent: unitarity (particles can't scatter with probability > 1), vacuum stability (the universe doesn't spontaneously decay), and perturbativity (coupling strengths don't blow up). Running these constraints from electroweak energies up to 10^16 GeV tightens the allowed masses of exotic charged and neutral Higgs bosons to 1–6 TeV, making them potentially discoverable at the Large Hadron Collider.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1213,
+  "tokens_out": 230,
+  "cost_usd": 0.0018904000000000002,
+  "ingested_at": "2026-05-21T23:52:39.852264+00:00"
+}

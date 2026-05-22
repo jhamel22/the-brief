@@ -1,0 +1,24 @@
+{
+  "id": "2605.21437",
+  "arxiv_url": "https://arxiv.org/abs/2605.21437",
+  "announced_date": "2026-05-20",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "physics.geo-ph",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Neural Negative Binomial Regression for Weekly Seismicity Forecasting: Per-Cell Dispersion Estimation and Tail Risk Assessment",
+  "authors": "Alim Igilik",
+  "abstract": "Standard approaches to forecasting the weekly number of earthquakes on a spatial grid rely on the Poisson distribution with a single global dispersion assumption. We show that this assumption is systematically violated in seismic data from Central Asia (2010-2024), where a likelihood-ratio test with boundary correction strongly rejects the Poisson hypothesis (p = 5), where the continuous ranked probability score (CRPS) of the proposed model is 12.5 percent lower than that of the baseline, indicating improved calibration in extreme-event forecasting.",
+  "title_relatable": "Better earthquake forecasts by ditching Poisson's one-size-fits-all assumption",
+  "hook": "A neural model that estimates earthquake variability per region outperforms standard methods by 12.5% on extreme events, with Poisson's equal-variance assumption statistically ruled out.",
+  "summary": "Weekly earthquake forecasting typically assumes earthquakes follow a Poisson distribution with the same variability everywhere—a mathematically convenient but empirically wrong assumption. This work replaces it with neural negative binomial regression that learns different dispersion (variability) for each grid cell in Central Asia. The new model improves the standard benchmark (CRPS) by 12.5% and better calibrates forecasts for rare, large earthquakes—exactly where predictions matter most.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 794,
+  "tokens_out": 196,
+  "cost_usd": 0.0014192,
+  "ingested_at": "2026-05-22T00:17:14.139302+00:00"
+}

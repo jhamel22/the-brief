@@ -1,0 +1,22 @@
+{
+  "id": "2605.20611",
+  "arxiv_url": "https://arxiv.org/abs/2605.20611",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Gravitational entropy in Petrov Type I spacetimes",
+  "authors": "Maharshi Sarma, Sebastián Nájera, Roberto A. Sussman",
+  "abstract": "The gravitational entropy proposal of Clifton, Ellis and Tavakol (CET) is based on an effective energy momentum tensor formed by the algebraic decomposition of the 4th order Bel-Robinson tensor. So far the application of the CET proposal has been limited to spacetimes of Petrov types D and N for which this algebraic decomposition is unique. To address this limitation we examine in detail the effective energy momentum tensors that result from the algebraic decomposition of the Bel-Robinson tensor in Petrov type I spacetimes. As a test case we apply these results to the Szekeres models of class II, a Petrov type I analytic solution.",
+  "title_relatable": "How do you measure gravitational disorder in the most general spacetimes?",
+  "hook": "A key entropy formula for curved spacetime only worked in special cases — now it's been extended to the general ones.",
+  "summary": "A promising way to define gravitational entropy — how disordered or clumpy a gravitational field is — has been stuck working only in highly symmetric spacetimes. Sarma, Nájera, and Sussman push it into the most general case (Petrov Type I), where the underlying math has multiple valid decompositions rather than a unique one, and test it on an exact cosmological solution. The ambiguity they uncover matters: different choices of decomposition can yield different entropy values, raising a foundational question about whether gravitational entropy is well-defined in generic spacetimes.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 856,
+  "tokens_out": 203,
+  "cost_usd": 0.005613,
+  "ingested_at": "2026-05-21T23:46:16.255261+00:00"
+}

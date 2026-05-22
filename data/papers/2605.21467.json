@@ -1,0 +1,23 @@
+{
+  "id": "2605.21467",
+  "arxiv_url": "https://arxiv.org/abs/2605.21467",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards",
+  "authors": "Kaiyi Zhang, Wei Wu, Yankai Lin",
+  "abstract": "Reinforcement learning from verifiable rewards (RLVR) has emerged as a central technique for improving the reasoning capabilities of large language models. Despite its effectiveness, how response-level rewards translate into token-level probability changes remains poorly understood. We introduce a discriminator view of RLVR updates, showing that the policy-gradient update direction implicitly acts as a linear discriminator over token-gradient vectors and thereby determines which token probabilities are increased or decreased during learning. Under standard sequence-level RLVR, this discriminator is constructed from positive- and negative-side centroids formed by advantage-weighted averaging of token-gradient vectors. However, such centroid construction can be dominated by shared high-frequency patterns, such as formatting tokens, diluting sparse yet discriminative directions that better distinguish high-reward responses from low-reward ones. To address this limitation, we propose $\\textbf{DelTA}$, a discriminative token credit assignment method that estimates token coefficients to amplify side-specific token-gradient directions and downweight shared or weakly discriminative ones. These coefficients reweight a self-normalized RLVR surrogate, making the effective side-wise centroids more contrastive and thereby reshaping the RLVR update direction. On seven mathematical benchmarks, DelTA outperforms the strongest same-scale baselines by 3.26 and 2.62 average points on Qwen3-8B-Base and Qwen3-14B-Base, respectively. Additional results on code generation, a different backbone, and out-of-domain evaluations further demonstrate the generalization ability of DelTA.",
+  "title_relatable": "Teaching language models which tokens matter for better reasoning",
+  "hook": "When training reasoning models on correct/incorrect examples, most token updates go to formatting. A new method redirects learning toward tokens that actually distinguish good answers.",
+  "summary": "Current reinforcement learning methods for language models treat all tokens equally when learning from right and wrong answers—so formatting tokens dominate, drowning out the reasoning-critical updates. DelTA identifies which tokens genuinely distinguish high-reward from low-reward responses, then amplifies their gradient signal while suppressing noise. On math benchmarks, this yields 3.26-point gains over comparable models, with consistent improvements on code and out-of-distribution tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1027,
+  "tokens_out": 175,
+  "cost_usd": 0.0015216,
+  "ingested_at": "2026-05-22T00:07:22.601149+00:00"
+}

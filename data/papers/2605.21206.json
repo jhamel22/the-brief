@@ -1,0 +1,23 @@
+{
+  "id": "2605.21206",
+  "arxiv_url": "https://arxiv.org/abs/2605.21206",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "quant-ph",
+    "gr-qc"
+  ],
+  "title_original": "Velocity-Controlled Directional Readout of Single Photons",
+  "authors": "Mohamed Hatifi",
+  "abstract": "Photodetection is usually treated in the frame in which the detector is at rest relative to the optical apparatus. We show that uniform motion of an electric Glauber detector changes the single-click POVM realized on two counterpropagating single-photon modes. Motion Doppler-shifts the alternatives in the detector frame; finite bandwidth then converts propagation direction into a detection bias without decohering the photon. For a Lorentzian response near one Doppler branch, the readout crosses from phase-sensitive to direction-sensitive with a quality-factor-enhanced onset. Finite-time integration adds Doppler-beat visibility loss, separating passive covariance from measurement change.",
+  "title_relatable": "A moving detector can sort photons by direction without disturbing them",
+  "hook": "Sliding a photodetector sideways turns it into a directional filter for single photons—no optics required.",
+  "summary": "Moving a photodetector at a controlled velocity Doppler-shifts the frequencies of counterpropagating photons differently, letting the detector's finite bandwidth do the sorting: one direction registers, the other doesn't. The photon itself isn't decohered—the directionality comes purely from the measurement basis the motion selects. This offers a velocity-tunable way to read out photon propagation direction, with sharpness set by the detector's quality factor rather than any optical element.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 841,
+  "tokens_out": 178,
+  "cost_usd": 0.005193,
+  "ingested_at": "2026-05-21T23:45:11.154746+00:00"
+}

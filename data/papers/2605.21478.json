@@ -1,0 +1,23 @@
+{
+  "id": "2605.21478",
+  "arxiv_url": "https://arxiv.org/abs/2605.21478",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR"
+  ],
+  "title_original": "Latent Dynamics for Full Body Avatar Animation",
+  "authors": "Shichong Peng, Chengxiang Yin, Fei Jiang, Zhongshi Jiang, Lingchen Yang, Qingyang Tan, Amin Jourabloo, Jason Saragih, Ke Li, Christian Häne",
+  "abstract": "Pose-driven full-body avatars built on neural rendering produce high-quality novel views of a captured subject. Yet loose clothing and other dynamic elements deform in ways pose alone cannot explain: the same pose can correspond to many different states, because their motion depends on history, inertia, and contact. Explicit simulation and layered-garment methods can model such dynamics, but they require either a dedicated garment template, which raw multi-view capture does not naturally provide, or a test-time physics simulator with non-trivial runtime cost. A parallel line of work learns data-driven clothing avatars that avoid explicit garment layers. These methods add an auxiliary latent for variation beyond pose; at inference, they fix it, regress it from pose, or retrieve it from training data, without explicitly modeling how the latent evolves with its own dynamics. Additionally, even in everyday motion with loose clothing, existing architectures often struggle to capture fine-grained detail, producing blurry renderings and temporal artifacts. We augment a pose-conditioned 3D Gaussian avatar with a transformer-based decoder and a dynamics residual latent that captures temporal appearance and geometry variation beyond the driving signals. At inference, a learned latent dynamics model evolves the residual latent from a short pose history and the previous latent state. The model decomposes each update into driving, restoring, and dissipative forces, producing temporally coherent, history-dependent rollouts with negligible added cost. Different initial conditions yield diverse yet plausible motion trajectories, and the force decomposition exposes controls such as stiffness. Across nine captured sequences of everyday motion with diverse loose garments, quantitative metrics and a perceptual user study show improved animation quality over recent data-driven baselines.",
+  "title_relatable": "How to animate loose clothes without physics simulations",
+  "hook": "Neural avatars struggle with dynamic clothing—same pose, different fabric states. New method learns to predict cloth motion from history alone, matching physics realism without the computational cost.",
+  "summary": "Pose alone can't explain how loose clothing drapes and moves; the same body position produces different garment states depending on momentum and contact. This work adds a learned dynamics model to neural avatars that evolves a latent code over time, decomposing motion into driving, restoring, and damping forces—mimicking physics without explicit simulation. Across nine sequences of everyday motion, the method generates temporally coherent, history-dependent animations with sharper details than prior data-driven approaches, verified through metrics and user studies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1094,
+  "tokens_out": 195,
+  "cost_usd": 0.0016552000000000001,
+  "ingested_at": "2026-05-22T00:11:01.131226+00:00"
+}

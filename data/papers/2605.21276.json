@@ -1,0 +1,23 @@
+{
+  "id": "2605.21276",
+  "arxiv_url": "https://arxiv.org/abs/2605.21276",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.atom-ph"
+  ],
+  "title_original": "Benchmarking a machine-learning differential equations solver on a neutral-atom logical processor",
+  "authors": "Pauline Mathiot, Elio Garnaoui, Axel-Ugo Leriche, Evan Philip, Boris Albrecht, Clémence Briosne-Fréjaville, Lorenzo Cardarelli, Antoine Cornillot, Gwennolé Cournez, Luc Couturier, Julius De Hond, Rebecca El Koussaifi, Thomas Eritzpokoff, Florian Fasola, Antonio Andrea Gentile, Casper Gyurik, Clotilde Hamot, Loïc Henriet, Gaétan Hercé, Michael Kaicher, Lucas Lassablière, François-Marie Le Régent, Edgar Leroux, Yohann Machu, Hadriel Mamann, Luis Ortiz, Annie Paine, Thomas Pansiot, Arnaud Peloquin, Francisco Ponciano, Julien Ripoll, Raja Selvarajan, Adrien Signoles, Henrique Silvério, Siddhy Tan, Marie Taouzinet, Selim Touati, Louis Vignoli, Antoine Browaeys, Pascal Scholl",
+  "abstract": "We report on a performance comparison between physical and logical computations on a prototypical machine-learning application: solving differential equations using quantum kernel methods. The algorithm is implemented on an atom-based logical quantum processor, both at the physical and logical levels. We show that the kernel estimated from the logical implementation performs better than its physical counterpart on relevant metrics. We observe how such performance improvement can be traced back to specific noise-induced errors detected by the chosen encoding. We apply the computed quantum kernel to the task of solving differential equations, confirming how the superior performance of a logical quantum kernel is retained also at an end-to-end applicative level. Our findings show that experimental validation of end-to-end protocols can already highlight the positive impact of fault-tolerant implementations despite their higher quantum resource count, and guide application-informed architectural choices.",
+  "title_relatable": "Logical qubits already outperform physical ones on a real task",
+  "hook": "A neutral-atom quantum processor solved differential equations better with error-corrected logical qubits than raw physical ones.",
+  "summary": "Running a machine-learning algorithm for solving differential equations on the same neutral-atom hardware at both the physical and logical qubit levels, the logical implementation produced more accurate quantum kernels despite using more quantum resources. The improvement was traced directly to noise errors that the error-correcting encoding caught and suppressed. It's an early but concrete demonstration that fault-tolerant overhead already pays off on end-to-end tasks, not just in abstract error benchmarks.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1143,
+  "tokens_out": 169,
+  "cost_usd": 0.005964,
+  "ingested_at": "2026-05-21T23:49:31.489725+00:00"
+}

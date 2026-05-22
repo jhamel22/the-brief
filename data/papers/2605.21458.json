@@ -1,0 +1,24 @@
+{
+  "id": "2605.21458",
+  "arxiv_url": "https://arxiv.org/abs/2605.21458",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Mind the Sim-to-Real Gap & Think Like a Scientist",
+  "authors": "Harsh Parikh, Gabriel Levin-Konigsberg, Dominique Perrault-Joncas, Alexander Volfovsky",
+  "abstract": "Suppose a planner has a pre-trained simulator of a sequential decision problem and the option to run real experiments in the field. The simulator is cheap to query but inherits confounding and drift from its calibration data. Experimentation is unbiased but consumes one real unit per trial. We study when, and how, the planner should supplement the simulator with experiments. We give three results. First, an extended simulation lemma decomposes the simulator's value error into a calibration--deployment shift that randomization can identify and a parametric residual that no further interaction can reduce. Second, the value gap between the simulator-optimal policy and the optimum splits into a local component, on states the deployed policy already visits, and a reachability component, on states it does not. The reachability component stays bounded away from zero at any horizon under purely passive learning. Third, we propose Fisher-SEP, a simulation-aided experimental policy (SEP) that minimizes the posterior predictive variance of a target policy's value, with reward-only and transition-only specializations. Two case studies illustrate the regimes. In a vending-machine supply chain, front-loaded experimentation overtakes posterior updating once the horizon is long enough to amortize the pilot. In an HIV mobile-testing example with a corridor that separates a well-surveilled region from a poorly-surveilled one, only designed exploration reaches the poorly-surveilled region.",
+  "title_relatable": "When should you trust a simulator versus run real experiments?",
+  "hook": "A planner decides whether to query a cheap but biased simulator or run costly unbiased real experiments. New theory identifies which parts of the problem can be fixed with data.",
+  "summary": "When you have a simulator trained on historical data, it's cheap but inherits biases from how that data was collected. Real experiments are unbiased but expensive. The paper decomposes what a simulator gets wrong into two parts: shift that randomized experiments can identify, and irreducible error that extra data won't fix. It then proposes Fisher-SEP, a strategy that decides when to experiment by minimizing uncertainty about a policy's value. Vending-machine and HIV-testing examples show when front-loaded pilots beat ongoing simulation, and when exploration is the only way to reach undersampled regions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 996,
+  "tokens_out": 216,
+  "cost_usd": 0.0016608000000000003,
+  "ingested_at": "2026-05-21T23:56:43.899022+00:00"
+}

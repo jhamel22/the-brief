@@ -1,0 +1,22 @@
+{
+  "id": "2605.21363",
+  "arxiv_url": "https://arxiv.org/abs/2605.21363",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "\"I didn't Make the Micro Decisions\": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration",
+  "authors": "Eunsu Kim, Jessica R. Mindel, Kyungjin Kim, Sherry Tongshuang Wu",
+  "abstract": "As large language models (LLMs) increasingly shape how users form, refine, and extend their goals, attributing contributions in human-AI collaboration becomes critical for users calibrating their own reliance and for evaluators assessing AI-assisted work. Yet existing methods focus on final artifacts, missing the process through which goals themselves are jointly shaped. We introduce a goal-level attribution framework, CoTrace, that decomposes explicit goals into verifiable requirements and traces both direct contributions and indirect influences across dialogue turns. Applying CoTrace to 638 real-world collaboration logs, we find that while models account for only 11-26% of goal-shaping contribution, they contribute substantially more on introducing lower-level concrete requirements, and make various kinds of indirect contributions. Through controlled simulations, we show that interaction design choices significantly affect model goal-shaping behavior. In a user study, exposing participants to goal-level analyses shifts their perceived contributions by nearly 2 points on a 5-point scale, revealing systematic miscalibration in how users understand their own AI-assisted work.",
+  "title_relatable": "Who really shaped the goal? Measuring AI's hidden influence in collaboration",
+  "hook": "LLMs contribute to only 11–26% of explicit goals in human-AI work, but influence user decisions in ways people systematically misunderstand.",
+  "summary": "When people work with AI to solve problems, credit for the final result is blurred—the AI may have subtly shaped what people wanted to achieve in the first place. This paper introduces CoTrace, a framework that traces goal-shaping contributions across dialogue turns by decomposing goals into verifiable requirements. Analysis of 638 real collaborations reveals models contribute modestly to high-level goals but heavily influence lower-level requirements and make indirect contributions users don't notice. A user study shows exposing people to this breakdown shifts their perceived AI contribution by 2 points on a 5-point scale, exposing systematic miscalibration.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 927,
+  "tokens_out": 221,
+  "cost_usd": 0.0016255999999999998,
+  "ingested_at": "2026-05-22T00:09:05.396323+00:00"
+}

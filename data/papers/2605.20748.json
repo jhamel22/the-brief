@@ -1,0 +1,23 @@
+{
+  "id": "2605.20748",
+  "arxiv_url": "https://arxiv.org/abs/2605.20748",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Probing late-time deviations from $Λ$CDM with a quadratic dark energy expansion",
+  "authors": "Sehjal Khandelwal, Abraão J. S. Capistrano, Suresh Kumar, Rafael C. Nunes",
+  "abstract": "We investigate the observational viability of a quadratic dark energy expansion (QDEE) model as a phenomenological extension of the standard $Λ\\mathrm{CDM}$ cosmological framework. This approach introduces the additional degrees of freedom that permit mild late-time deviations from a constant dark-energy component while preserving the standard early-Universe behavior. We constrain the model using a comprehensive combination of cosmological datasets, including Planck 2018 cosmic microwave background (CMB) measurements, Atacama Cosmology Telescope (ACT) Data Release 6 (DR6) and South Pole Telescope (SPT-3G) data, Dark Energy Spectroscopic Instrument (DESI) Data Release 2 (DR2), and the Pantheon Plus type Ia supernova compilation. Our results show that the QDEE framework shifts the inferred Hubble constant toward higher values relative to $Λ\\mathrm{CDM}$, partially alleviating the tension with local measurements while remaining consistent with early-Universe constraints. Bayesian model comparison indicates strong evidence in favor of this framework over standard $Λ\\mathrm{CDM}$ across multiple dataset combinations. Posterior predictive checks further demonstrate that the model yields predictions consistent with the observed data within statistical uncertainties.",
+  "title_relatable": "Does dark energy wobble? New data pushes back against a flat universe",
+  "hook": "A flexible dark energy model shifts the Hubble constant upward and beats ΛCDM in Bayesian comparison across five major datasets.",
+  "summary": "Using CMB, DESI DR2, and supernova data together, this analysis tests whether dark energy deviates from a simple cosmological constant by adding a quadratic time-dependence. The model nudges the inferred Hubble constant higher, easing some tension with local distance-ladder measurements, and Bayesian evidence consistently favors it over standard ΛCDM. With DESI data accumulating rapidly, frameworks like this will face increasingly sharp tests.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1022,
+  "tokens_out": 180,
+  "cost_usd": 0.005766,
+  "ingested_at": "2026-05-21T23:46:10.392239+00:00"
+}

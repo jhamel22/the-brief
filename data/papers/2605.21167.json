@@ -1,0 +1,23 @@
+{
+  "id": "2605.21167",
+  "arxiv_url": "https://arxiv.org/abs/2605.21167",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "A Rigorous, Tractable Measure of Model Complexity",
+  "authors": "Oskar Allerbo, Thomas B. Schön",
+  "abstract": "An accurate assessment of a model's complexity is crucial for topics such as interpretation, generalization, and model selection. However, most existing complexity measures either rely on heuristic assumptions or are computationally prohibitive. In this paper, we present a mathematically rigorous yet easy-to-compute measure of model complexity that is based on the similarities between the model gradients across inputs. It is thus well-defined for any parametric model, but also for kernel-based non-parametric models. We prove that our measure of complexity generalizes model-specific complexity measures such as polynomial degree (for polynomial regression), kernel length scale (for Matérn kernels), number of neighbors (for k-nearest neighbors), number of splits (for decision trees), and number of trees (for random forests). We also use our measure to obtain new insights into the double descent phenomenon for random Fourier features, random forests, neural networks, and gradient boosting.",
+  "title_relatable": "A universal measure of how complex any model really is",
+  "hook": "Researchers built a single, fast complexity metric that works across all model types—from neural networks to decision trees—and explains why some models suddenly get smarter with more data.",
+  "summary": "Most complexity measures are either vague rules of thumb or computationally expensive. This work proposes a mathematically rigorous measure based on how much model predictions change across different inputs, applicable to any parametric or kernel-based model. The measure unifies existing complexity concepts (polynomial degree, kernel length scales, tree depth) and reveals new insights into double descent—the counterintuitive phenomenon where test error drops after initially rising as models get larger.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 864,
+  "tokens_out": 179,
+  "cost_usd": 0.0014072,
+  "ingested_at": "2026-05-21T23:58:24.973312+00:00"
+}

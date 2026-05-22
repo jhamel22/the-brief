@@ -1,0 +1,23 @@
+{
+  "id": "2605.21429",
+  "arxiv_url": "https://arxiv.org/abs/2605.21429",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "roto 2.0: The Robot Tactile Olympiad",
+  "authors": "Elle Miller, Jayaram Reddy, Ayush Deshmukh, Trevor McInroe, David Abel, Oisin Mac Aodha, Sethu Vijayakumar",
+  "abstract": "Tactile-based reinforcement learning (RL) is currently hindered by fragmented research and a focus on over-saturated orientation tasks. We introduce v2 of the Robot Tactile Olympiad (\\texttt{roto 2.0}), a GPU-parallelised benchmark designed to standardise tactile-based RL across four distinct robotic morphologies (16-DOF to 24-DOF). Unlike prior benchmarks, roto focuses on end-to-end \"blind\" manipulation, utilising only proprioception and tactile sensing without state information or distillation. We demonstrate a significant performance leap, with our blind agents achieving 13 Baoding ball rotations in 10 seconds, an order of magnitude faster than current state-of-the-art speeds. By open-sourcing our environments and robustly tuned baselines, we reduce the barrier to entry and enable researchers to prioritise fundamental algorithmic challenges over tedious RL tuning. Website: https://elle-miller.github.io/roto/",
+  "title_relatable": "Teaching robots to feel their way through complex tasks",
+  "hook": "A new benchmark for touch-based robot learning achieves 13× speedup on manipulation without cameras or position sensors.",
+  "summary": "Tactile sensing—touch feedback—is underused in robot learning despite being how humans manipulate objects without looking. This benchmark standardizes tactile reinforcement learning across four robot designs and focuses on truly blind manipulation using only touch and joint position. Agents tuned on the platform perform dexterous tasks like spinning Baoding balls 13× faster than prior methods, and the team released code and baseline models to let researchers focus on algorithms rather than tedious hyperparameter tuning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 930,
+  "tokens_out": 174,
+  "cost_usd": 0.00144,
+  "ingested_at": "2026-05-22T00:15:12.242863+00:00"
+}

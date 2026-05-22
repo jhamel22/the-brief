@@ -1,0 +1,22 @@
+{
+  "id": "2605.21247",
+  "arxiv_url": "https://arxiv.org/abs/2605.21247",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Graph Navier Stokes Networks",
+  "authors": "Zexing Zhao, Guangsi Shi, Yu Gong, Tianyu Wang, Shirui Pan, Hongye Cheng, Yuxiao Li",
+  "abstract": "Graph Neural Networks (GNNs) have emerged as a cornerstone of deep learning, with most existing methods rooted in graph signal processing and diffusion equations to model message passing. However, these approaches inherently suffer from the oversmoothing problem, where node features become indistinguishable as the network depth increases. Inspired by the Navier Stokes equations, we introduce Graph Navier Stokes Networks (GNSN), a novel architecture that transcends conventional diffusion-based message passing by incorporating convection into graph structures. GNSN defines a dynamic velocity field on the graph to govern convection, enabling more efficient and direct message propagation. By adaptively balancing convection and diffusion, GNSN is able to efficiently handle datasets with varying levels of homophily. Extensive evaluations across twelve real-world datasets demonstrate that GNSN consistently outperforms state-of-the-art baselines in classification accuracy. Moreover, experimental results further emphasize its effectiveness in alleviating the oversmoothing problem.",
+  "title_relatable": "How physics equations could fix deep neural networks on graphs",
+  "hook": "A new graph neural network inspired by fluid dynamics outperforms existing methods on 12 datasets while solving the oversmoothing problem that plagues deeper networks.",
+  "summary": "Graph neural networks typically pass messages via diffusion, which causes node features to blur into indistinguishability at depth. This team borrowed ideas from the Navier Stokes equations—adding convection (directional flow) alongside diffusion to create a dynamic velocity field on graphs. This lets information travel more efficiently and adaptively while working across datasets with varying structure. On 12 real-world benchmarks, Graph Navier Stokes Networks beat existing methods and demonstrably reduce the oversmoothing problem that limits depth.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 913,
+  "tokens_out": 196,
+  "cost_usd": 0.0015144000000000002,
+  "ingested_at": "2026-05-21T23:56:58.287319+00:00"
+}

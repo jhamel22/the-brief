@@ -1,0 +1,23 @@
+{
+  "id": "2605.20427",
+  "arxiv_url": "https://arxiv.org/abs/2605.20427",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Conformal anomaly in a vector field model with auxiliary scalar field",
+  "authors": "Samuel W. P. Oliveira, Públio Rwany B. R. do Vale, Ilya L. Shapiro",
+  "abstract": "The conformal anomaly has well-known ambiguities related to the possible schemes of regularization and renormalization. In case of dimensional regularization, one of the options is to formulate the theory as conformal in the dimension $D \\neq 4$. For a gauge vector field this can be done in several ways and one of the options is to introduce an auxiliary scalar playing the role of a compensator. The advantage of this approach is that it preserves gauge symmetry and avoids problems with possible violation of unitarity. We explore the consequences of introducing such an auxiliary field for the anomaly and anomaly-induced action. It is shown that the new scalar degree of freedom gains an independent dynamics after taking the $4D$ limit. The remnant scalar, also, demonstrates some interesting properties.",
+  "title_relatable": "A ghost scalar field unexpectedly gains its own dynamics",
+  "hook": "A helper field introduced just to fix a math trick turns out to have real physical consequences.",
+  "summary": "To regularize gauge fields in curved spacetime without breaking symmetry, one trick is adding an auxiliary scalar field as a compensator. This paper finds that when the calculation is complete and the dimension is taken back to four, that \"helper\" scalar doesn't disappear — it acquires independent dynamics and interesting properties of its own. The result matters for how we compute quantum corrections to gravity and whether seemingly arbitrary technical choices can leave physical fingerprints.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 883,
+  "tokens_out": 156,
+  "cost_usd": 0.004989,
+  "ingested_at": "2026-05-21T23:46:54.705305+00:00"
+}

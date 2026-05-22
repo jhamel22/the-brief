@@ -1,0 +1,22 @@
+{
+  "id": "2605.21243",
+  "arxiv_url": "https://arxiv.org/abs/2605.21243",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Collapse of the state vector and nonlocal correlations in quantum mechanics",
+  "authors": "Grgeory D. Scholes",
+  "abstract": "It is shown how to obtain state vectors associated with measurements on the separated subystems of an entangled state, revealing how a single wavefunction encodes a set of statistical measurement outcomes. The result explains why measurements on the subsystems give definite outcomes and why measurements on one subsystem are correlated with those on the other. It is therefore concluded that the theory of quantum mechanics, without nonlinearities or \\emph{ad hoc} assertions, can explain both the mechanism of state vector collapse and the reason for the paradoxical nonlocal correlations between separated subsystems.The theory also explains how quantum correlations, including correlations that violate Bell's inequality, are read out by classical measurements.",
+  "title_relatable": "Does quantum mechanics already explain its own 'spooky action'?",
+  "hook": "A new reading of standard quantum mechanics claims to explain wavefunction collapse and Bell correlations without adding anything extra.",
+  "summary": "By carefully tracking how a single wavefunction encodes measurement statistics for each part of an entangled pair, the author argues that definite outcomes and nonlocal correlations — including Bell inequality violations — follow from ordinary quantum mechanics alone, with no new postulates or nonlinearities required. The claim is that collapse isn't a physical process that needs explaining but an artifact of how subsystem state vectors are extracted from the joint wavefunction. If the argument holds up, it dissolves two of the most debated puzzles in quantum foundations using only existing machinery.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 843,
+  "tokens_out": 191,
+  "cost_usd": 0.005394,
+  "ingested_at": "2026-05-21T23:49:52.689153+00:00"
+}

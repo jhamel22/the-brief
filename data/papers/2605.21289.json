@@ -1,0 +1,24 @@
+{
+  "id": "2605.21289",
+  "arxiv_url": "https://arxiv.org/abs/2605.21289",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "On the Possibility of an Extragalactic Positron Annihilation Signal",
+  "authors": "Thomas Siegert, Hiroki Yoneda",
+  "abstract": "With 20 years of INTEGRAL/SPI observations, Yoneda et al. (2025) created the most detailed map of the positron annihilation line at 511keV. While central bulge and extended disk are readily recognised in this map, several hotspots at high latitude regions may either be imaging artefacts or true signals. We discuss the possibility of extragalactic positron annihilation signals from hotspots in this map. We also calculate a cosmological positron annihilation signal as a contribution to the Cosmic Gamma-ray Background (CGB). For this investigation, we compare 511 keV emission hotspots away from the Galactic plane with a high velocity cloud column density map as well as with the catalogue of Local Volume Galaxies (LVGs) up to 25 Mpc. We find that in particular the Magellanic Stream in the southern and Complex C in the northern sky matches the brightest hotspots, which may indicate a higher positron production rate inside the Milky Way than measured from the Galactic interstellar medium alone, of $10^{44}\\,\\mathrm{s^{-1}}$. In addition, we can explain other hotspots by the cumulative effect of LVGs in the selected regions. The CGB contribution from positron annihilation might be sub-dominant on the per-cent level. However, depending on the true intrinsic annihilation spectrum, in particular depending on the positron injection energy for in-flight annihilation and the star formation rate per galaxy, a much higher imprint beyond 10% is possible above several MeV. If these findings turn out to be true, next generation MeV telescopes will, for the first time, identify individual extragalactic 511 keV sources. In particular, several dwarf spheroidal galaxies with fluxes of up to $(1$-$2) \\times 10^{-5}\\,\\mathrm{ph\\,cm^{-2}\\,s^{-1}}$, the galaxies M31 and M33, as well as some of their satellites, with potentially several $10^{-6}\\,\\mathrm{ph\\,cm^{-2}\\,s^{-1}}$, each, may be detected.",
+  "title_relatable": "Where do positrons come from? A new 511 keV map hints at surprises",
+  "hook": "Twenty years of gamma-ray data reveal unexpected positron signals beyond the Milky Way's disk, possibly from nearby galaxies and stellar streams.",
+  "summary": "A new map of 511 keV positron annihilation radiation from 20 years of INTEGRAL observations shows hotspots at high galactic latitudes that don't match known Galactic sources. These could trace extragalactic positrons from nearby dwarf galaxies and the Magellanic Stream, implying a positron production rate 10× higher than previously measured. Next-generation MeV telescopes could resolve individual extragalactic sources for the first time.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1217,
+  "tokens_out": 193,
+  "cost_usd": 0.0017456,
+  "ingested_at": "2026-05-21T23:51:05.697679+00:00"
+}

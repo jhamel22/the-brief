@@ -1,0 +1,24 @@
+{
+  "id": "2605.20913",
+  "arxiv_url": "https://arxiv.org/abs/2605.20913",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.str-el",
+    "quant-ph"
+  ],
+  "title_original": "Chaos-Integrability Transition in the BPS Subspace of the $\\mathcal{N}=2$ SYK Model",
+  "authors": "Leon Miyahara, Shono Shibuya",
+  "abstract": "We study chaos-integrability transition purely within a BPS subspace of a specific supersymmetric model that interpolates between the chaotic $\\mathcal{N}=2$ SYK model and an integrable $\\mathcal{N}=2$ \"commuting\" SYK model. Using the framework of BPS chaos, we analyze the spectrum of an operator projected onto the BPS subspace. We numerically find that its spectral statistics exhibit random-matrix behavior near the SYK limit and smoothly transitions to Poisson statistics near the integrable limit. Our results provide a direct example of a chaos-integrability crossover diagnosed solely from BPS states.",
+  "title_relatable": "When chaos turns orderly: tracking a hidden transition in quantum systems",
+  "hook": "In a supersymmetric model, quantum chaos gradually disappears in a restricted subspace—and spectral statistics alone reveal the switch.",
+  "summary": "The team studied a quantum model that can be tuned from chaotic to integrable, looking only at special quantum states called BPS states that respect the model's symmetries. As parameters shift, the statistical signature of these states changes from random-matrix behavior—the hallmark of chaos—to Poisson statistics characteristic of orderly, integrable systems. This demonstrates that chaos-to-order transitions can happen in hidden subspaces, visible only if you know where to look.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 865,
+  "tokens_out": 181,
+  "cost_usd": 0.001416,
+  "ingested_at": "2026-05-21T23:47:41.698956+00:00"
+}

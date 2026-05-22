@@ -1,0 +1,23 @@
+{
+  "id": "2605.20591",
+  "arxiv_url": "https://arxiv.org/abs/2605.20591",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CY"
+  ],
+  "title_original": "Do No Harm? Hallucination and Actor-Level Abuse in Web-Deployed Medical Large Language Models",
+  "authors": "Sunday Oyinlola Ogundoyin, Muhammad Ikram, Rahat Masood",
+  "abstract": "Medical large language models (LLMs), including custom medical GPTs (MedGPTs) and open-source models, are increasingly deployed on web platforms to provide clinical guidance. However, they pose risks of hallucination, policy noncompliance, and unsafe design. We conduct a large-scale assessment of 6,233 MedGPTs, evaluating a stratified sample of 1,500, together with 10 open-source LLMs. We introduce two frameworks: MedGPT-HEval for hallucination detection and an LLM-based pipeline for assessing policy violations and developer intent. Our results show that 25-30% of MedGPTs exhibit low factual accuracy, with bottom- and middle-tier models at highest risk; 33.6-54.3% violate operational thresholds, and 57.06% of Action-enabled models lack adequate privacy disclosures. Compared with open-source models, MedGPTs achieve higher factual accuracy and semantic alignment, though open-source models are more stable. These results reveal systemic gaps in hallucination and compliance, highlighting the need for multi-metric evaluation and stronger safeguards. We release HAA-MedGPT, a structured dataset that supports future research on the safety of web-facing medical LLMs.",
+  "title_relatable": "One in four medical AI chatbots gives dangerously wrong answers",
+  "hook": "Researchers tested 1,500 medical AI tools deployed online and found 25–30% hallucinate medical facts, while half violate safety policies with inadequate privacy protections.",
+  "summary": "Medical chatbots deployed on the web are giving patients false information at scale. Researchers audited 1,500 custom medical GPTs and 10 open-source models, finding that a quarter to a third confidently state incorrect medical facts, while over half violate operational safety thresholds—many without disclosing how they handle private health data. The team built automated tools to detect hallucinations and policy violations, revealing that cheaper, less polished models pose the highest risk. They released a dataset to help the field build better safeguards.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 979,
+  "tokens_out": 210,
+  "cost_usd": 0.0016232,
+  "ingested_at": "2026-05-22T00:07:19.446342+00:00"
+}

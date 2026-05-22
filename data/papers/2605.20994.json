@@ -1,0 +1,23 @@
+{
+  "id": "2605.20994",
+  "arxiv_url": "https://arxiv.org/abs/2605.20994",
+  "announced_date": "2026-05-20",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Towards Context-Invariant Safety Alignment for Large Language Models",
+  "authors": "Yixu Wang, Yang Yao, Xin Wang, Yifeng Gao, Yan Teng, Xingjun Ma, Yingchun Wang",
+  "abstract": "Preference-based post-training aligns LLMs with human intent, yet safety behavior often remains brittle. A model may refuse a harmful request in a standard prompt but comply when the same intent is wrapped in adversarial wording. We suggest that robust safety requires context-invariant alignment, where behavior depends on the underlying intent rather than surface form. Enforcing invariance is difficult in alignment because not all training signals are equally trustworthy; for some prompt variants we can obtain verifiable feedback (e.g., multiple-choice), while for open-ended variants we typically rely on noisy, gameable reward proxies (e.g., learned judges). As a result, standard symmetric invariance regularizers can reduce cross-context discrepancies by lowering performance on reliable variants instead of improving open-ended robustness. To address this, we introduce Anchor Invariance Regularization (AIR), which treats verifiable prompts as anchors and uses a stop-gradient target to regularize only the open-ended variants toward the anchor performance. AIR is implemented as a plug-in auxiliary loss and combined with group-based preference optimization (e.g., GRPO) via heterogeneous prompt grouping. Across Safety, Moral Reasoning, and Math, AIR improves context invariance, boosting in-distribution group accuracy by 12.71% and out-of-distribution consistency by 33.49%, making safety constraints robust to adversarial framings.",
+  "title_relatable": "Making AI safety rules stick across sneaky rewording",
+  "hook": "LLMs refuse harmful requests in straightforward prompts but comply when the same request is disguised differently. A new regularization method improves cross-context consistency by 33.49%.",
+  "summary": "Large language models can be tricked into unsafe behavior through adversarial rephrasing—a model might refuse a request directly but comply when it's wrapped in flowery language. The core problem: standard safety training treats all prompt variants equally, but some yield verifiable feedback (like multiple-choice) while others rely on noisy reward signals. Anchor Invariance Regularization (AIR) treats reliable prompts as reference points and uses stop-gradient targets to guide open-ended variants toward consistent behavior without degrading performance on trustworthy signals. Combined with preference optimization, AIR boosts in-distribution accuracy by 12.71% and out-of-distribution consistency by 33.49% across safety, reasoning, and math tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1010,
+  "tokens_out": 246,
+  "cost_usd": 0.001792,
+  "ingested_at": "2026-05-22T00:00:32.735250+00:00"
+}

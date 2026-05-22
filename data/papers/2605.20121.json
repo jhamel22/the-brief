@@ -1,0 +1,23 @@
+{
+  "id": "2605.20121",
+  "arxiv_url": "https://arxiv.org/abs/2605.20121",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Galaxy Proximate Damped Lyman-Alpha Systems and HI Reionization Topology in TECHNICOLOR DAWN",
+  "authors": "Maya Steen, Kristian Finlator, Samir Kušmić, Ezra Huscher",
+  "abstract": "Recent observations from the James Webb Space Telescope (JWST) have revealed proximate damped Lyman-$α$ systems (PDLAs) in the foreground of high redshift galaxies ($z \\gt 5$), which have been interpreted as neutral circumgalactic media (CGM). The ionization state of the CGM, potentially inferred from DLA strength, may serve as a probe to trace the progress of reionization, similarly to the ionization state of the intergalactic medium (IGM). To determine if this method has merit, we use the cosmological hydrodynamical simulation TECHNICOLOR DAWN to study simulated gas halos at redshifts $z = 10, 8, 6,$ and $5.5$. We investigate the reionization topology to determine whether the CGM and IGM have similar ionization histories, and we study the relation between column density of neutral hydrogen (observationally measured by DLA strength), neutral fraction, and gas mass fraction of the foreground gas to determine whether PDLAs can be used to trace the progress of reionization. We find an inside-out-middle reionization topology, where the CGM reionizes after the IGM and remains partially neutral at $ z= 5.5$. The foreground column density of neutral hydrogen depends mostly on halo mass, with a weak dependence on neutral fraction or redshift. Therefore, provided precise estimates of halo or stellar mass, PDLAs may be used to trace the progress of reionization particularly at high redshifts.",
+  "title_relatable": "Can galaxies' gas halos reveal when the universe reionized?",
+  "hook": "JWST spots neutral gas clouds in front of distant galaxies—they might be cosmic clocks for reionization.",
+  "summary": "Simulations show that gas halos around galaxies reionize later than the space between them, creating an \"inside-out\" pattern during the universe's reionization epoch. The thickness of neutral hydrogen clouds observed in front of distant galaxies depends mainly on halo mass, making them potential tracers of reionization progress if we know the galaxy's mass. This opens a new window into mapping how and when the early universe transformed from opaque to transparent.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1069,
+  "tokens_out": 177,
+  "cost_usd": 0.0015632,
+  "ingested_at": "2026-05-21T23:51:36.111821+00:00"
+}

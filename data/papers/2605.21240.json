@@ -1,0 +1,23 @@
+{
+  "id": "2605.21240",
+  "arxiv_url": "https://arxiv.org/abs/2605.21240",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents",
+  "authors": "Yibo Li, Jiashuo Yang, Zhi Zheng, Zhiyuan Hu, Yuan Sui, Shizun Wang, Yufei He, Bryan Hooi",
+  "abstract": "LLM agents have shown strong performance across a wide range of complex tasks, including interactive environments that require long-horizon decision making. But these agents cannot learn on the fly at test time. Self-evolving agents address this by accumulating memory and reflection across episodes rather than requiring model-weight updates. However, these agents often suffer from exploration collapse: as memory grows, behavior concentrates around familiar high-reward routines, reducing the chance of discovering better alternatives. To address this problem, we propose Autonomous Policy EXploration (APEX), which builds and maintains an explicit strategy space through a strategy map-a directed acyclic graph of milestones with prerequisite dependency edges. In APEX, Fork Discovery expands the map with evidence-grounded unexplored directions, while Policy Selection balances exploration and exploitation during planning. Evaluated on nine Jericho text-adventure games and WebArena, a realistic web interaction benchmark, APEX outperforms all baselines. Extensive ablations validate each component's contribution and demonstrate robustness across diverse settings, demonstrating APEX's effectiveness for sustained exploration in self-evolving agents.",
+  "title_relatable": "How LLM agents can escape their comfortable habits to discover better strategies",
+  "hook": "Self-learning agents get stuck repeating successful moves instead of exploring. APEX breaks the deadlock by mapping out unexplored strategy paths and deciding when to take them.",
+  "summary": "LLM agents that learn during episodes often fall into exploration collapse—they stick with familiar high-reward actions and stop trying alternatives. APEX maintains an explicit map of strategies as a directed graph with prerequisite dependencies, using Fork Discovery to surface evidence-grounded new directions and Policy Selection to balance trying proven versus novel approaches. On text-adventure games and web interaction tasks, APEX beats all baselines and proves each component matters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 943,
+  "tokens_out": 178,
+  "cost_usd": 0.0014664,
+  "ingested_at": "2026-05-21T23:57:01.113107+00:00"
+}

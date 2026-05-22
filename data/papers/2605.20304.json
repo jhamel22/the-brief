@@ -1,0 +1,22 @@
+{
+  "id": "2605.20304",
+  "arxiv_url": "https://arxiv.org/abs/2605.20304",
+  "announced_date": "2026-05-19",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Terrestrial Soft Mobile Robots: A Review",
+  "authors": "Dimuthu D. K. Arachchige",
+  "abstract": "Soft mobile robots have emerged as a promising area of research with potential applications in various disciplines including but not limited to search-and-rescue, service, surveillance, explorations, and manufacturing. In this article, we provide a comprehensive review of the current state of soft mobile robot research, focusing on wheelless terrestrial locomotive systems. We include past and present developments in locomotion strategies, actuation methods, modeling approaches, and control systems. Further, we identify key research challenges that must be overcome to enable the widespread adoption of soft mobile robots in various applications. Overall, this article provides a valuable resource for researchers and practitioners interested in the field of soft mobile robots and soft robotics.",
+  "title_relatable": "How squishy robots learn to move without wheels",
+  "hook": "Soft robots that bend and flow instead of rolling could transform search-and-rescue and manufacturing—but they need better control and faster actuation.",
+  "summary": "Soft mobile robots abandon rigid wheels for deformable bodies that slither, crawl, or undulate across terrain. This review surveys locomotion strategies, actuation methods (pneumatic, hydraulic, cable-driven), and control approaches developed over the past two decades. The appeal is clear: flexibility lets them squeeze through tight spaces and navigate unpredictable environments better than conventional robots, but challenges remain in modeling their complex dynamics and building systems that respond fast enough for real-world tasks.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 801,
+  "tokens_out": 182,
+  "cost_usd": 0.0013688,
+  "ingested_at": "2026-05-22T00:16:37.185364+00:00"
+}

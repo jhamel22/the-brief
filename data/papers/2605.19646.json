@@ -1,0 +1,23 @@
+{
+  "id": "2605.19646",
+  "arxiv_url": "https://arxiv.org/abs/2605.19646",
+  "announced_date": "2026-05-19",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.LG"
+  ],
+  "title_original": "BCI-sift: An automated feature selection toolbox for Brain Computer Interface applications",
+  "authors": "Elena C Offenberg, Dirk Keller, Mariska J Vansteensel, Zachary V Freudenburg, Nick F Ramsey, Julia Berezutskaya",
+  "abstract": "Advancements in clinical Brain-Computer Interfaces (BCIs) depend on precise and reliable signal interpretation. However, the high-dimensional and noisy nature of data captured from both implanted and non-implanted BCIs poses significant challenges, motivating the use of feature selection algorithms. We introduce BCI-sift (BCI Systematic and Interpretable Feature Tuning), a Python-based toolbox designed to streamline the application of diverse optimization algorithms to BCI datasets for identifying the most relevant features in machine learning tasks. Our scikit-learn-compatible toolbox (github.com/UMCU-RIBS/BCI-sift) simplifies feature selection in BCI tasks by integrating advanced optimization methods. We validated the toolbox on high-density electrocorticography (HD ECoG) data from eight able-bodied participants with 64-128 electrodes implanted over the sensorimotor cortex, who repeatedly spoke 12 words. BCI-sift identified informative neural features across electrode, temporal, and frequency dimensions. The anatomical locations of electrode selections were consistent across participants and aligned with known functional organization of the sensorimotor cortex. Relevant time points clustered around speech production, and the high-frequency band was identified as most informative, in line with prior work. Feature selection improved classification accuracy compared to using all features. BCI-sift provides an accessible and versatile platform for feature selection in BCI research, enabling improved decoding performance, automated feature analysis, and enhanced interpretability. While validated on HD ECoG data, the approach is broadly applicable to other BCI modalities. By enhancing classification accuracy and interpretability, BCI-sift addresses key challenges in developing efficient and transparent BCI systems.",
+  "title_relatable": "Open-source tool picks the right brain signals for mind-reading devices",
+  "hook": "Brain implants produce overwhelming noise. This automated tool finds the few thousand electrode readings that actually matter.",
+  "summary": "Researchers built BCI-sift, a Python toolbox that automatically identifies which brain signals matter most for decoding tasks like speech. Tested on implanted electrodes recording from speech areas, the tool consistently picked the same informative channels across different people and improved classification accuracy by filtering out noise. The same approach works for any brain-interface device, potentially speeding up clinical BCI development.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 808,
+  "tokens_out": 156,
+  "cost_usd": 0.0012704,
+  "ingested_at": "2026-05-22T00:18:20.898281+00:00"
+}

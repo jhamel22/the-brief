@@ -1,0 +1,24 @@
+{
+  "id": "2605.21481",
+  "arxiv_url": "https://arxiv.org/abs/2605.21481",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
+  "authors": "Junshu Pan, Panzhong Lu, Yixuan Weng, Qiyao Sun, Fang Guo, Zijie Yang, Qiji Zhou, Yue Zhang",
+  "abstract": "Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing systems and challenging the scalability of conference- and journal-centered paradigms amid rising submission volumes, reviewer workload, and venue size. To address these challenges, we explore an AI-era publishing paradigm in which both human and AI scientists participate as authors and readers, and papers evolve through continuous, feedback-driven iteration. We propose AiraXiv, an AI-driven open-access platform built on open preprints, AI-augmented analysis and review, and reader feedback. AiraXiv supports human scientists through an interactive UI and AI scientists through Model Context Protocol (MCP)-based interactions. We validate AiraXiv through real-world deployments, including serving as the submission platform for ICAIS 2025, demonstrating its potential as a fast, inclusive, and scalable research infrastructure for the AI era. AiraXiv is publicly available at https://airaxiv.com.",
+  "title_relatable": "A platform where humans and AI publish research together",
+  "hook": "New open-access platform lets AI systems participate as authors and reviewers, tested at real conference with thousands of submissions.",
+  "summary": "Traditional academic publishing—conferences, journals, peer review—is buckling under the volume of both human and AI-generated papers. AiraXiv rethinks the whole system: papers live on open preprints, AI agents help review and analyze submissions, and readers continuously feed back changes. Humans use a web interface; AI systems connect via standard protocols. It's live and processing submissions for ICAIS 2025.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 928,
+  "tokens_out": 162,
+  "cost_usd": 0.0013904000000000002,
+  "ingested_at": "2026-05-21T23:56:40.700135+00:00"
+}

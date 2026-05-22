@@ -1,0 +1,23 @@
+{
+  "id": "2605.21320",
+  "arxiv_url": "https://arxiv.org/abs/2605.21320",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "title_original": "FR0 radio galaxy jets -- I. linking jet dynamics and high-energy emission in LEDA 55267 and LEDA 58287",
+  "authors": "André F. S. Cardoso, Rita C. Anjos",
+  "abstract": "Fanaroff-Riley type 0 (FR0) radio galaxies host anomalously compact jets whose disruption mechanism and high-energy emission remain poorly understood. We combine three-dimensional relativistic hydrodynamical (RHD) simulations with broadband spectral energy distribution (SED) modeling from radio to TeV energies, focusing on LEDA~55267 and LEDA~58287. Our simulations show that recollimation shocks trigger hydrodynamical instabilities that drive turbulence and rapid deceleration, preventing the jets from propagating beyond a few tens of parsecs and reproducing the observed compact radio morphology. Leptonic SED models adequately describe the observed emission up to GeV energies, but when simulated CTAO observations are included, statistical model comparison indicates strong evidence in favor of lepto-hadronic scenarios at TeV energies for both sources, a result that should be interpreted as a theoretical prediction to be tested by future observations. A leptonic analysis of the simulations reveals magnetized emitting regions with plasma beta parameters $β_{\\rm p} \\sim 10^{-5}$-$10^{-3}$, orders of magnitude below values reported for extended FRI jets, consistent with jets retaining the magnetization inherited from the launching region and providing a natural physical link between the compact jet dynamics and the lepto-hadronic emission.",
+  "title_relatable": "Why do some galaxy jets stop growing? Simulations hint at magnetic fields",
+  "hook": "Compact jets in FR0 radio galaxies stall within tens of parsecs—simulations suggest magnetic turbulence from shock instabilities chokes them off, and predict detectable TeV emission.",
+  "summary": "FR0 radio galaxies host unusually short jets that defy explanation. Using 3D simulations plus broadband spectral modeling, researchers traced jet stalling to recollimation shocks that seed turbulence and rapid deceleration. The simulations predict lepto-hadronic emission at TeV energies—testable with the next-generation CTAO telescope—and reveal these jets retain extreme magnetization from their launch point, orders of magnitude stronger than in longer jets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1028,
+  "tokens_out": 201,
+  "cost_usd": 0.0016264,
+  "ingested_at": "2026-05-21T23:54:15.584414+00:00"
+}

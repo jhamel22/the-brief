@@ -1,0 +1,23 @@
+{
+  "id": "2605.21326",
+  "arxiv_url": "https://arxiv.org/abs/2605.21326",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Matching $A$ with $F$ in long-range QFTs",
+  "authors": "Lorenzo Benfatto, Omar Zanusso",
+  "abstract": "Unitarity is often a crucial ingredient in establishing theorems -- such as the $A$-theorem -- on the irreversibility of the renormalization group flow. The strongest thesis of this type of theorems would be that there exists a scalar function $A$ and a positive definite metric $G_{IJ}$ in the space of couplings such that the renormalization group flow satisfies a gradient equation, $\\partial_I A= G_{IJ}β^J$, in which case $A$ is locally monotonic along the flow. In this paper we consider the long-range multiscalar $φ^4$ theory, which is a nonunitary model that is believed to be conformally invariant at fixed points, and show that its renormalization group flow satisfies the gradient structure up to the third loop order in the coupling. We also show that $A$ and $G_{IJ}$ can be matched to the leading nontrivial order with the sphere free-energy $\\tilde{F}$ and Zamolodchikov's metric $C_{IJ}$ of the corresponding conformal theory concentrating on the examples of the long-range vector $O(N)$ and hypercubic $H_N$ models. Our results imply a perturbative proof of the $\\tilde{F}$-theorem at the leading nontrivial order. We conclude the paper discussing briefly whether this result should hold to the next orders in perturbation theory.",
+  "title_relatable": "Can a nonunitary theory prove the irreversibility theorem?",
+  "hook": "A nonunitary quantum field theory—thought to violate unitarity's iron rules—nonetheless satisfies the gradient flow that proves irreversibility, matching known conformal symmetry measures.",
+  "summary": "Long-range quantum field theories break unitarity but still exhibit conformal symmetry at fixed points. The authors show that even without unitarity, the renormalization group flow obeys a strict gradient equation (the A-theorem structure) up to three-loop order, with the flow function matching the sphere free-energy from conformal field theory. This suggests irreversibility and a fundamental theorem can hold even when unitarity fails.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1023,
+  "tokens_out": 180,
+  "cost_usd": 0.0015384,
+  "ingested_at": "2026-05-21T23:47:36.250894+00:00"
+}

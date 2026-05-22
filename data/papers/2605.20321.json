@@ -1,0 +1,23 @@
+{
+  "id": "2605.20321",
+  "arxiv_url": "https://arxiv.org/abs/2605.20321",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Poles-zeros duality in semi-holographic Mott insulators",
+  "authors": "Thomas Kögel, Alessio Caddeo, Amelie Pitters, Francesca Paoletti, Lorenzo Crippa, Giorgio Sangiovanni, René Meyer, Johanna Erdmenger",
+  "abstract": "Inspired by the poles-zeros duality of Green's functions that appears in transitions into Mott-insulating phases in strongly correlated condensed matter systems, we propose a semi-holographic approach to Mott insulators. In this model, a fundamental fermion is coupled to a large-$N$, strongly interacting sector that generates a self-energy for the fundamental fermion's Green's function. This coupling amounts to a hybridization of the fundamental fermion with a strongly correlated fermionic composite. Within the holographic framework, at large $N$, the Green's function of the composite fermion naturally exhibits a poles-zeros duality. Zeros of the Green's function are caused by the poles of the self-energy that correspond to collective many-body excitations of the holographic strongly interacting sector. We calculate the spectral function of the fundamental fermion, from which we characterize the semi-holographic metallic and the Mott-insulating phases. In addition to the new physical interpretation of the zeros, our analysis yields a well-defined picture of the poles-zeros duality in terms of the freedom to choose between standard and alternative quantization in the strongly coupled sector.",
+  "title_relatable": "How holography reveals hidden order in Mott insulators",
+  "hook": "Physicists found that zeros in electron properties emerge from collective vibrations in strongly interacting materials—a connection that sharpens our understanding of where metals turn into insulators.",
+  "summary": "A metal becomes an insulator when electrons get trapped by strong interactions, leaving behind peculiar zero points in their quantum behavior. This team used holographic duality—a gravity-inspired trick that maps complex quantum systems onto simpler ones—to decode what those zeros actually represent: collective excitations reverberating through the material. The result is a clearer picture of the metallic-to-insulator transition and a new handle on quantum systems too complex to solve by hand.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 991,
+  "tokens_out": 186,
+  "cost_usd": 0.0015368000000000003,
+  "ingested_at": "2026-05-21T23:48:25.674068+00:00"
+}

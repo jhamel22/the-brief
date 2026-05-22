@@ -1,0 +1,23 @@
+{
+  "id": "2605.20072",
+  "arxiv_url": "https://arxiv.org/abs/2605.20072",
+  "announced_date": "2026-05-19",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Probing Embodied LLMs: When Higher Observation Fidelity Hurts Problem Solving",
+  "authors": "Oussama Zenkri, Oliver Brock",
+  "abstract": "Large Language Models are increasingly proposed as cognitive components for robotic systems, yet their opaque decision processes make it difficult to explain success or failure in closed-loop embodied tasks. Following an empirical AI methodology, we study embodied LLM agents behaviorally by varying the information available to the agent and measuring the resulting changes in behavior. Using the Lockbox, a sequential mechanical puzzle with hidden interdependencies, we evaluate LLMs across RGB, RGB-D, and ground-truth symbolic observations in a physical robotic setup and use controlled simulation to probe the resulting behavior. Counterintuitively, agents perform best under raw RGB input and worst under perfect ground-truth observations. In simulation, we probe this effect by randomly flipping perceived action outcomes and find that moderate noise improves performance, peaking at a 40% flip probability with a 2.85-fold success rate increase over the noise-free baseline. Further analysis links this gain to a reduction in repetitive action loops. These findings suggest that success rates alone are insufficient for evaluating LLMs, as measured performance may reflect the interaction between perceptual errors and reasoning failures rather than robust problem solving.",
+  "title_relatable": "Why blurry robot vision sometimes beats perfect sight",
+  "hook": "LLMs controlling robots solve puzzles better with degraded sensor data—perfect information actually makes them worse, and noise helps them escape reasoning traps.",
+  "summary": "When language models control robots, giving them perfect sensor data backfires. Researchers tested LLM agents on a mechanical puzzle using three input types: raw camera images, depth-enhanced images, and perfect symbolic state. Counterintuitively, agents succeeded most often with noisy RGB video and failed most with ground truth. In simulation, deliberately corrupting action feedback improved performance 2.85× by disrupting repetitive loops where agents got stuck. The finding flips how we evaluate embodied AI: raw success rates hide whether models are truly reasoning or just compensating for sensor noise.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 920,
+  "tokens_out": 203,
+  "cost_usd": 0.001548,
+  "ingested_at": "2026-05-22T00:16:52.047102+00:00"
+}

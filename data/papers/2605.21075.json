@@ -1,0 +1,23 @@
+{
+  "id": "2605.21075",
+  "arxiv_url": "https://arxiv.org/abs/2605.21075",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "SpectralEarth-FM: Bringing Hyperspectral Imagery into Multimodal Earth Observation Pretraining",
+  "authors": "Nassim Ait Ali Braham, Aaron Banze, Conrad M. Albrecht, Julien Mairal, Jocelyn Chanussot, Xiao Xiang Zhu",
+  "abstract": "Earth observation (EO) foundation models (FMs) are increasingly trained on multisensor data, spanning multispectral imagery (MSI), synthetic aperture radar (SAR), and derived geospatial layers, but hyperspectral imagery (HSI) remains underrepresented. Conversely, existing hyperspectral FMs are trained on HSI alone, leaving joint pretraining and fusion of HSI with co-located EO sensors unexplored. We introduce SpectralEarth-FM, a hierarchical transformer for multisensor EO input with heterogeneous spectral dimensionality. The architecture combines spectral tokenization for hyperspectral inputs, sensor-specific encoders, a cross-sensor fusion module, and a shared hierarchical encoder, enabling joint processing of HSI and lower-channel observations. To pretrain SpectralEarth-FM, we curate SpectralEarth-MM, a dataset that co-locates HSI from three spaceborne sensors (EnMAP, EMIT, DESIS) with Sentinel-2, Landsat-8/9 optical imagery, Landsat land surface temperature (LST), and Sentinel-1 SAR, over common geographic footprints. It comprises approximately 2M globally distributed locations, 25M georeferenced patches, and over 40TB of data. Pretraining uses a Joint-Embedding Predictive Architecture (JEPA)-style objective that matches representations between global views and single-sensor local views from the same location. We evaluate SpectralEarth-FM on hyperspectral downstream tasks and standard EO benchmarks following the PANGAEA protocol, achieving state-of-the-art results across both evaluation settings.",
+  "title_relatable": "Combining hyperspectral and standard satellite images in one model",
+  "hook": "First foundation model to jointly train on hyperspectral and multispectral Earth imagery, reaching top performance on both data types.",
+  "summary": "Hyperspectral satellites capture far more spectral detail than standard multispectral ones, but no foundation model has combined them effectively. SpectralEarth-FM uses a hierarchical transformer with spectral tokenization and cross-sensor fusion to handle all five data types simultaneously—hyperspectral, optical, thermal, and radar. The team curated a 40TB dataset linking hyperspectral images from three satellites (EnMAP, EMIT, DESIS) with co-located Sentinel and Landsat data, then pretrained on 25M patches using a contrastive objective. It tops benchmarks for both hyperspectral tasks and standard Earth observation metrics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1099,
+  "tokens_out": 227,
+  "cost_usd": 0.0017872,
+  "ingested_at": "2026-05-22T00:11:23.488921+00:00"
+}

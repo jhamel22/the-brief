@@ -1,0 +1,25 @@
+{
+  "id": "2605.20333",
+  "arxiv_url": "https://arxiv.org/abs/2605.20333",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Indirect Parametric Resonance of the Electromagnetic Field Driven by an Oscillating SU(2) Dark Matter Condensate",
+  "authors": "Tatsuya Daniel, Vahid Kamali, Robert Brandenberger",
+  "abstract": "We study a local patch of an axion-like dark sector in Minkowski spacetime, containing an initially homogeneous and isotropic non-Abelian $SU(2)$ condensate, and a real pseudoscalar field $χ$, coupled to an Abelian $U(1)$ gauge field which could be that of usual electromagnetism. The pseudoscalar couples directly to both gauge sectors through Chern-Simons interactions, while the $U(1)$ field couples to the $SU(2)$ condensate only indirectly, through the pseudoscalar. We show analytically that a homogeneous oscillating $SU(2)$ background $Q(t)$ acts as a periodic source for $χ$, generating a homogeneous oscillatory condensate $\\dotχ$ that in turn modulates the frequency of the $U(1)$ helicity modes. In the linear regime this produces a Hill equation, and when the first harmonic dominates it reduces to a Mathieu equation. We derive the approximate resonance conditions, the leading Floquet exponent, and the conditions for a two-stage enhancement $Q \\to χ\\to U(1)$. We also highlight an important point: in the exactly periodic, zero-bias limit, the indirect resonance is not intrinsically chiral, because the two Abelian helicities are related by a half-period time shift.",
+  "title_relatable": "How dark matter oscillations could secretly amplify electromagnetic fields",
+  "hook": "A hidden dark sector could indirectly trigger runaway growth in ordinary light through a two-stage resonance cascade—but the mechanism isn't chiral in the way physicists expected.",
+  "summary": "Physicists modeled what happens when a non-Abelian dark matter condensate oscillates in the presence of electromagnetic fields coupled only indirectly through a pseudoscalar intermediary. The oscillating dark matter drives the intermediary field, which then modulates electromagnetic wave frequencies and triggers parametric resonance—a situation described by Mathieu equations familiar from classical mechanics. Surprisingly, in the perfectly periodic regime, both electromagnetic polarizations grow identically rather than preferring one helicity, overturning a naive expectation about chirality.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1038,
+  "tokens_out": 203,
+  "cost_usd": 0.0016424,
+  "ingested_at": "2026-05-21T23:48:16.894113+00:00"
+}

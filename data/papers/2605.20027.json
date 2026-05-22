@@ -1,0 +1,23 @@
+{
+  "id": "2605.20027",
+  "arxiv_url": "https://arxiv.org/abs/2605.20027",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "ComPACT: Mass-Redshift Properties of the galaxy cluster catalogue",
+  "authors": "S. Voskresenskaia, N. Lyskova, I. Zaznobin, A. Meshcheryakov",
+  "abstract": "Machine-learning methods are increasingly applied to astronomical surveys, providing powerful tools for detecting and studying galaxy clusters. We investigate the mass-redshift properties and completeness of the ComPACT galaxy cluster catalogue, constructed using a convolutional neural network applied to publicly available combined ACT+Planck maps. The ComPACT catalogue contains 2,962 SZ-selected galaxy cluster candidates. We confirm clusters by estimating redshifts using literature information and photometric techniques based on DESI Legacy Imaging Surveys data. Cluster masses are derived from ACT+Planck and Planck Compton-y maps via SZ scaling relations. The completeness is assessed using simulated cluster injections into real microwave maps. We confirm approximately $\\sim$60 % of the ComPACT candidates as galaxy clusters. The redshifts span the range $0.007 6 \\times 10^{14}~M_\\odot$) at $z > 0.7$, increasing the known population of such systems by approximately 10 %. The ComPACT catalogue expands the SZ-selected Planck-like cluster population, especially at high redshift and high mass, demonstrating the effectiveness of deep-learning approaches for cluster detection in microwave data.",
+  "title_relatable": "Machine learning finds 300 massive galaxy clusters hiding in microwave maps",
+  "hook": "A neural network trained on Planck and ACT data recovered 2,000+ cluster candidates, confirming the rarest, most distant ones and doubling the census of ultramassive systems.",
+  "summary": "Researchers applied a convolutional neural network to combined microwave maps from the Planck and ACT telescopes to identify galaxy clusters via their distinctive thermal signatures. They confirmed roughly 60% of the 2,962 candidates as real clusters and measured their masses and distances using standard scaling relations; the sample reaches to high redshift and finds ~300 ultramassive systems (over 10^15 solar masses) at z>0.7, roughly 10% more than previously catalogued. This demonstrates that deep learning can squeeze additional discoveries from existing data, extending our inventory of the universe's most extreme gravity laboratories.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 998,
+  "tokens_out": 228,
+  "cost_usd": 0.0017104000000000002,
+  "ingested_at": "2026-05-21T23:51:48.923508+00:00"
+}

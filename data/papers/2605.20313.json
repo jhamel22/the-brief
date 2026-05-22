@@ -1,0 +1,22 @@
+{
+  "id": "2605.20313",
+  "arxiv_url": "https://arxiv.org/abs/2605.20313",
+  "announced_date": "2026-05-19",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "The Securitization of Science: A Systems Perspective on Policy and Measurement",
+  "authors": "Caroline S. Wagner",
+  "abstract": "International scientific collaboration is organized primarily by researcher-level logic and network dynamics in which scientists seek partners at the frontier of their field with little consideration of national affiliation. Research security policies that raise the friction costs of international collaboration are often assumed to operate against this logic, aiming to produce selective withdrawal from sensitive fields to deny knowledge transfer to specific countries. This paper tests that assumption against eight years of bibliometric evidence from China's scientific output from 2018 through 2025 across 27 Scopus subject categories. China's internationally co-authored publication share declined universally across all fields after 2018, consistent with China's push for domestic capacity maturation, but the pattern of decline is inconsistent with the deterrence prediction. Fields with high dual-use proximity, including computer science, materials science, physics and astronomy, chemical engineering, and engineering, showed the least contraction (3-6 percentage points), while fields with minimal dual-use salience (psychology, nursing, dentistry, and health professions) showed the steepest declines (8-24 percentage points). The findings suggest that governments raised the friction level but did not redirect the network nor suppress collaboration in sensitive areas. Researchers practiced adaptive participation, maintaining frontier collaborations while adjusting the form and language of their engagement. This pattern matches what the invisible college theory and the Ostrom knowledge commons framework predict.",
+  "title_relatable": "Security crackdowns on science collaboration backfired in a surprising way",
+  "hook": "Fields targeted by research security policies — physics, engineering, computer science — saw the least drop in US-China collaboration.",
+  "summary": "Eight years of bibliometric data across 27 fields shows China's international co-authorship fell after 2018, but not where governments expected. Sensitive dual-use fields like physics and materials science declined only 3–6 percentage points, while nursing and dentistry fell 8–24 points. Scientists kept collaborating at the research frontier regardless of security friction — they just changed how they described the work.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 981,
+  "tokens_out": 161,
+  "cost_usd": 0.005358,
+  "ingested_at": "2026-05-21T23:53:42.842830+00:00"
+}

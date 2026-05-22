@@ -1,0 +1,23 @@
+{
+  "id": "2605.20791",
+  "arxiv_url": "https://arxiv.org/abs/2605.20791",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "First mass determination of electroweak vortex rings in the Standard Model",
+  "authors": "Dan Zhu, Xurong Chen, Qingyue Zhang, Khai-Ming Wong",
+  "abstract": "We report the first rigorous evaluation of the physical mass of electroweak vortex rings, establishing precise values of 18.01 and 26.80 TeV for solutions characterized by different winding numbers. Analysis of the internal structure reveals that repulsive interactions shape the geometry of these configurations, while complex current distributions lead to a neutral analogue of Ampere's circuital law, suggesting a corresponding self-stabilizing pinch mechanism. These findings set the energy scales for the potential observation of such configurations at future colliders and offer a framework for understanding topological structures in the Standard Model.",
+  "title_relatable": "What do electroweak vortex rings actually weigh?",
+  "hook": "Physicists calculated the mass of exotic topological structures hidden in the Standard Model—18 to 27 TeV—suggesting where to look at future colliders.",
+  "summary": "Electroweak vortex rings are stable topological configurations predicted by the Standard Model but never directly observed. By solving the field equations rigorously, the team pinned down their masses: around 18 and 27 TeV depending on internal structure. These energy scales define where experiments should hunt for these objects and reveal how repulsive forces and unusual current patterns naturally stabilize them.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 835,
+  "tokens_out": 171,
+  "cost_usd": 0.001352,
+  "ingested_at": "2026-05-21T23:47:46.864118+00:00"
+}

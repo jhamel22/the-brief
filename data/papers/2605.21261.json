@@ -1,0 +1,22 @@
+{
+  "id": "2605.21261",
+  "arxiv_url": "https://arxiv.org/abs/2605.21261",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "STiTch: Semantic Transition and Transportation in Collaboration for Training-Free Zero-Shot Composed Image Retrieval",
+  "authors": "Miaoge Li, Dongsheng Wang, Zening Sun, Jinsen Zhang, Wenhan Luo, Jingcai Guo",
+  "abstract": "Training-free zero-shot composed image retrieval models are recently gaining increasing research interest due to their generalizability and flexibility in unseen multimodal retrieval. Recent LLM-based advances focus on generating the expected target caption by exploring the compositional ability behind the LLMs. Although efficient, we find that 1) the generated captions tend to introduce unexpected features from the reference image due to the semantic gap between the input image and text modification, where the image contains much more details than the text; 2) the point-to-point alignment during the retrieval stage fails to capture diverse compositions. To address these challenges, we introduce a novel Semantic Transition and Transportation in collaboration framework for training-free zero-shot CIR tasks. Specifically, given the composed caption inferred by an LLM, we aim to refine it through a transition vector in the embedding space and make it closer to the target image. Combining LLMs with user instruction, the refined caption concentrates more on the core modification intent and thus filters out unnecessary noise. Moreover, to explore diverse alignment during the retrieval stage, we model the caption and image as discrete distributions and reformulate the retrieval task as a set-to-set alignment task. Finally, a bidirectional transportation distance is developed to consider fine-grained alignments across modalities and calculate the retrieval score. Extensive experiments demonstrate that our method can be general, effective, and beneficial for many CIR tasks.",
+  "title_relatable": "Finding images by describing changes, without training",
+  "hook": "New method combines language models and optimal transport to retrieve images based on text-guided modifications—no training required.",
+  "summary": "Searching for images using text descriptions of changes (\"make it sunnier\") is tricky because language models generate captions with unwanted details from the original image. This work refines LLM-generated captions by adjusting them in embedding space toward the actual target, then treats image-caption matching as a distribution alignment problem solved with optimal transport. Tests show the method works across multiple composed image retrieval tasks without any model training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1013,
+  "tokens_out": 162,
+  "cost_usd": 0.0014584,
+  "ingested_at": "2026-05-22T00:13:38.237552+00:00"
+}

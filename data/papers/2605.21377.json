@@ -1,0 +1,25 @@
+{
+  "id": "2605.21377",
+  "arxiv_url": "https://arxiv.org/abs/2605.21377",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph",
+    "math-ph",
+    "nucl-th"
+  ],
+  "title_original": "Causal UV completions of relativistic hydrodynamics",
+  "authors": "Robbe Brants",
+  "abstract": "Relativistic hydrodynamics successfully provides an effective field theory description for the low energy regime of many out-of-equilibrium systems. On the other hand, in this paper we proof that any stand-alone hydrodynamic EFT is inherently acausal and therefore requires the addition of transient UV modes in order to restore causality. This is made possible by the exponential decay of dissipative hydrodynamics in a majority of the lightcone, allowing the possibility of a causal description that still reduces to the hydrodynamic one at late timescales. We then investigate the emergence and possible restrictions of the non-hydrodynamic modes in these causal UV completions.",
+  "title_relatable": "Why hydrodynamics breaks causality—and how to fix it",
+  "hook": "Fluid dynamics equations used everywhere in physics are secretly acausal. Restoring causality requires invisible high-energy modes that vanish at late times.",
+  "summary": "Relativistic hydrodynamics is an excellent low-energy effective theory, but the authors prove it violates causality as a standalone framework—some disturbances propagate faster than light. The fix: add short-lived ultraviolet modes that restore causal evolution while still matching hydrodynamic predictions at late times. This sets constraints on what those hidden modes can be.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 838,
+  "tokens_out": 166,
+  "cost_usd": 0.0013344000000000001,
+  "ingested_at": "2026-05-21T23:47:30.530780+00:00"
+}

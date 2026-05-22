@@ -1,0 +1,23 @@
+{
+  "id": "2605.20319",
+  "arxiv_url": "https://arxiv.org/abs/2605.20319",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph"
+  ],
+  "title_original": "The Equivalence Principle at High Energies Completes the Spectrum",
+  "authors": "Francesco Calisto, Clifford Cheung, Grant N. Remmen, Francesco Sciotti, Michele Tarquini",
+  "abstract": "We prove a version of the completeness hypothesis that follows from the coexistence of symmetry and gravity: tree-level gravitational scattering mandates single-particle states in all possible irreducible representations of the symmetry group constructible from a single seed charge. Our main assumption is that the leading high-energy behavior of scattering is universal irrespective of charge, thus satisfying the equivalence principle. Curiously, we discover that these newly-deduced states contribute democratically - that is, with equal interaction strengths - to scattering.",
+  "title_relatable": "Gravity and symmetry together demand a complete particle menu",
+  "hook": "The equivalence principle—gravity treats all objects equally—forces quantum fields to include every possible particle that symmetry allows.",
+  "summary": "Gravitational scattering amplitudes at high energy obey a universal behavior independent of particle charge, a requirement that follows from the equivalence principle. This constraint forces the theory to include particles in all irreducible representations of its symmetry group. Surprisingly, all these required states interact with equal strength, suggesting gravity acts as a completeness check on what particles must exist.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 834,
+  "tokens_out": 153,
+  "cost_usd": 0.0012792,
+  "ingested_at": "2026-05-21T23:48:22.694043+00:00"
+}

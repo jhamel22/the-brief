@@ -1,0 +1,22 @@
+{
+  "id": "2605.20888",
+  "arxiv_url": "https://arxiv.org/abs/2605.20888",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Constraint-satisfying binary boson star initial data via XCFC",
+  "authors": "Gabriele Palloni, Nicolas Sanchis-Gual, José A. Font, Samuel Santos-Pérez, Isabel Cordero-Carrión, Pablo Cerdá-Durán, Claudio Lazarte",
+  "abstract": "Numerical-relativity simulations with non-trivial matter configurations require initial data that satisfy the Hamiltonian and momentum constraints of the Einstein equations. We construct constraint-satisfying scalar-field initial data using the eXtended Conformally Flat Condition (XCFC) formalism, in which the matter variables are conformally rescaled and an auxiliary vector field is introduced. In doing so, we overcome the issues of local uniqueness and convergence of the solutions that arise in the second-order elliptic equations associated with the constraints. Using an iterative solver method, we demonstrate the convergence of the XCFC approach to a solution for several scalar-field matter systems. Those include Gaussian-like profiles, topological torus configurations, and equal-mass boson star binaries. In particular, for the latter case, it is common to employ the superposition of two isolated boson star solutions in order to build the initial data. We show that our formalism significantly improves upon a superposition approach by generating genuinely constraint-satisfying initial data for boson star binaries.",
+  "title_relatable": "Better starting conditions for simulating exotic star collisions",
+  "hook": "Superposing two isolated boson stars to start a merger simulation introduces errors; a new approach eliminates them.",
+  "summary": "Simulating collisions of boson stars — hypothetical objects made of scalar fields, candidate dark matter components — requires feeding the simulation a physically consistent starting snapshot. The standard shortcut of simply adding two isolated solutions together violates Einstein's constraint equations from the outset. Using a reformulated elliptic solver called XCFC, the team generates genuinely constraint-satisfying initial data for boson star binaries, fixing a systematic error that has quietly plagued merger simulations in this field.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 971,
+  "tokens_out": 172,
+  "cost_usd": 0.005493,
+  "ingested_at": "2026-05-21T23:45:59.459018+00:00"
+}

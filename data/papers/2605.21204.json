@@ -1,0 +1,22 @@
+{
+  "id": "2605.21204",
+  "arxiv_url": "https://arxiv.org/abs/2605.21204",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "PIQC: Scalable Distributed Quantum Computing via Photonic Integration of Designed Molecular Quantum Nodes",
+  "authors": "Anna Aubele, Gregor Bayer, Tim R. Eichhorn, Tobias Hahn, Fedor Jelezko, Paul Mentzel, Philipp Neumann, Matthias Pfender, Martin B. Plenio, Alex Retzker, Simon Roggors, Alon Salhov, Jochen Scharpf, Tobias A. Schaub, Nico Striegler, Thomas Unden, Julia Zolg, Sella Brosh, Ilai Schwartz",
+  "abstract": "There is a growing consensus that large-scale, fault-tolerant quantum computing (FTQC) necessitates high-fidelity photonic interconnects to overcome the scaling limits of monolithic architectures. However, most current platforms were not originally designed for native photonic connectivity and require significant engineering overhead. To overcome these fundamental hardware limitations, we recently introduced a rationally designed organic molecule that serves as an ideal quantum node, featuring a robust qubit-photon interface (QPI) and a long-lived nuclear-spin register. In this work, we present PIQC (Photonic Integrated Quantum Circuits), a distributed architecture designed to scale these molecular nodes into a functional quantum computer. The PIQC framework integrates five mutually reinforcing innovations: (i) Designer molecular qubits, i.e. carbene molecules in an isosteric host that provide millisecond-coherence electron spins with high spectral stability and spin-dependent optical emission, (ii) deterministic nuclear registers made of synthetically placed $^{13}$C or $^{14}$N labels that enable fast ($\\sim 1~μ$s), high-fidelity electron-nuclear gates, (iii) hybrid photonic integration, which allows molecular films to seamlessly integrate with existing mature fabrication technologies, e.g. thin-film lithium niobate (TFLN), (iv) heralded entanglement protocols that can tolerate up to 70% photon loss, and (v) stairway Floquetification, i.e. high-rate quantum low-density parity-check (qLDPC) codes that are converted into Floquet codes, reducing syndrome extraction to weight-two Bell-pair measurements that match PIQC's networked hardware. PIQC offers a hardware-efficient, commercially viable pathway toward a utility-scale quantum computer based on distributed FTQC.",
+  "title_relatable": "Designer molecules could be the missing piece for scalable quantum computers",
+  "hook": "A custom-built organic molecule doubles as a near-perfect quantum node, tolerating 70% photon loss while linking into a distributed quantum computer.",
+  "summary": "Most quantum computing platforms were built without photonic networking in mind, creating a scaling wall. PIQC proposes using rationally engineered carbene molecules — with millisecond-coherence spins, synthetically placed nuclear qubits, and bright optical emission — as plug-and-play quantum nodes wired together via lithium niobate photonic chips. The architecture pairs these hardware choices with error-correcting codes tailored to the platform's strengths, offering a concrete blueprint for fault-tolerant distributed quantum computing that doesn't require rebuilding existing fabrication infrastructure.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1247,
+  "tokens_out": 200,
+  "cost_usd": 0.006741,
+  "ingested_at": "2026-05-21T23:50:17.157667+00:00"
+}

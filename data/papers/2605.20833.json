@@ -1,0 +1,22 @@
+{
+  "id": "2605.20833",
+  "arxiv_url": "https://arxiv.org/abs/2605.20833",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "MemGym: a Long-Horizon Memory Environment for LLM Agents",
+  "authors": "Wujiang Xu, Yu Wang, Kai Mei, Kaiqu Liang, Zhenting Wang, Mingyu Jin, Han Zhang, Shi-Xiong Zhang, Wenyue Hua, Sambit Sahu, Dimitris N. Metaxas",
+  "abstract": "Memory is a central capability for LLM agents operating across long-horizon tasks. Existing memory benchmarks predominantly evaluate retention of personalized information in multi-turn chat scenarios, overlooking the dynamic memory formation that occurs during extended agent execution. Consequently, the memory systems they produce transfer poorly to realistic agentic environments, such as coding and web navigation. We present MemGym, a benchmark for agentic memory that unifies existing agent gyms and in-house memory-grounded pipelines behind one memory-reasoning interface. MemGym spans five evaluation tracks grouped into four agentic regimes: tool-use dialogue (tau2-bench), multi-turn deep-research search (MEMGYM-DR), coding (SWE-Gym and MEMGYM-CODEQA), and computer use (WebArena-Infinity). MemGym reports memory-isolated scores that decouple memory performance from reasoning, retrieval, and tool-use ability, so memory strategies can be ranked without those confounders. Our synthetic pipelines for MEMGYM-CODEQA and MEMGYM-DR are length-controllable, ablation-verified at every stage, and tightly aligned with downstream scenarios. To make evaluation on coding environments academically tractable, we train MemRM, a lightweight reward model (Qwen3-1.7B fine-tuned with QLoRA) that scores compression quality as a fast scalar read in place of full Docker rollouts.",
+  "title_relatable": "How well do language models remember during real tasks?",
+  "hook": "Most memory benchmarks test chat retention. MemGym evaluates how LLM agents form and use memories across coding, web navigation, and research—five environments where memory actually matters.",
+  "summary": "Language models need working memory to handle long tasks like coding or web navigation, but existing benchmarks only test retention in chat. MemGym isolates memory performance from reasoning and tool-use across five real-world environments (coding, web browsing, research), letting researchers rank memory strategies fairly. The team built fast evaluation pipelines, including a lightweight reward model for coding tasks, making it tractable to benchmark memory at scale.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1048,
+  "tokens_out": 178,
+  "cost_usd": 0.0015504000000000002,
+  "ingested_at": "2026-05-22T00:09:08.200675+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.21223",
+  "arxiv_url": "https://arxiv.org/abs/2605.21223",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.atom-ph"
+  ],
+  "title_original": "High-order harmonic generation from an atom in a disordered environment",
+  "authors": "Simon His, Camille Lévêque, Jérémie Caillat, Richard Taïeb, Jonathan Dubois",
+  "abstract": "Using one-dimensional simulations analyzed through the lens of open quantum systems, we study the photoelectron's strong-field dynamics from an atom surrounded by a scattering environment stochastically structured. We theoretically investigate high-order harmonic generation from this situation. We show that local dephasing of the photoelectron wavepacket induced by elastic scattering leads to global decoherence. This drives a transition from quantum to classical behavior, as witnessed by the photoelectron probability density localizing around specific trajectories of the classical analog system: unstable periodic orbits. This phenomenon mirrors quantum scars traditionally observed in the eigenfunctions of time-independent systems, such as quantum billiards. Here, it emerges in-situ within a time-dependent framework, manifesting directly in the real-time dynamics from the ground state rather than solely through spectral analysis.",
+  "title_relatable": "Disorder around an atom makes quantum electrons behave classically",
+  "hook": "Elastic scattering from a disordered environment nudges quantum electrons onto classical orbits — a real-time version of quantum scarring.",
+  "summary": "When a hydrogen-like atom sits inside a disordered, scattering environment and is hit with an intense laser, the photoelectron gradually loses its quantum coherence and starts hugging specific classical trajectories — unstable periodic orbits. This is quantum scarring, a phenomenon usually spotted in static billiard-like systems, but here it emerges live in the real-time wavepacket dynamics. The result links open-system decoherence to a striking quantum-to-classical crossover that leaves a clear fingerprint in high-harmonic emission spectra.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 904,
+  "tokens_out": 199,
+  "cost_usd": 0.005697,
+  "ingested_at": "2026-05-21T23:49:58.073414+00:00"
+}

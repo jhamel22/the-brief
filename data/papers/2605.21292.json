@@ -1,0 +1,25 @@
+{
+  "id": "2605.21292",
+  "arxiv_url": "https://arxiv.org/abs/2605.21292",
+  "announced_date": "2026-05-20",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG",
+    "math.DS"
+  ],
+  "title_original": "Large-Step Training Dynamics of a Two-Factor Linear Transformer Model",
+  "authors": "Krishnakumar Balasubramanian",
+  "abstract": "Gradient-flow analyses show that simplified linear transformers can learn the in-context linear-regression algorithm, but they do not explain the finite-step behavior of gradient descent at large learning rates. Motivated by empirical work on high-learning-rate transformer instabilities and by the cubic-map phase diagram for quadratic regression, we study an exactly reducible one-prompt linear-transformer training problem. After normalization, the dynamics reduce to a two-factor product map with an effective step-size parameter \\(μ\\). On the balanced slice, this map recovers the known scalar cubic transition from monotone convergence to catapult convergence, periodic and chaotic bounded nonconvergence, and divergence. We then analyze the full two-dimensional system and show that, for \\(0<μ<2\\), it has an explicit invariant Chebyshev ellipse separating forward-invariant regions; this ellipse carries off-balanced chaotic dynamics but is transversely repelling, while balanced scalar attractors can be transversely attracting. These results show that large constant learning rates can change the training attractor of the learned transformer rather than merely accelerating convergence: beyond sharp stability thresholds, finite-step training may settle into cycles, bounded chaos, or divergence instead of a single in-context linear-regression solution. We also discuss the consequences for mini-batch gradient descent based training methods.",
+  "title_relatable": "Why transformers go haywire at high learning rates",
+  "hook": "Large learning rates don't just speed up transformer training—they can fundamentally break it, triggering cycles and chaos instead of convergence.",
+  "summary": "Transformers trained with high learning rates can suddenly switch from normal convergence to periodic oscillations, chaos, or divergence, even when lower rates work fine. By analyzing a simplified linear-transformer model, researchers mapped this instability landscape using dynamical-systems theory and found explicit thresholds where training attractors shift from stable points to chaotic cycles. The findings explain why practitioners see mysterious training failures at certain learning rates and suggest that current mini-batch methods may hide these instabilities by accident.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 968,
+  "tokens_out": 182,
+  "cost_usd": 0.0015024,
+  "ingested_at": "2026-05-22T00:17:26.063065+00:00"
+}

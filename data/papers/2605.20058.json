@@ -1,0 +1,22 @@
+{
+  "id": "2605.20058",
+  "arxiv_url": "https://arxiv.org/abs/2605.20058",
+  "announced_date": "2026-05-19",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Renormalisation and invariants for two U(1)s",
+  "authors": "Sacha Davidson, Martin Gorbahn",
+  "abstract": "We revisit the renormalisation of models with two U(1) gauge symmetries, in a formulation with non-canonical gauge kinetic terms which is covariant under field reparametrisations among the two gauge bosons. This approach is convenient to study the appearance of kinetic mixing in scale evolution, because a coupling matrix is attributed to the gauge kinetic terms. We obtain simple MSbar renormalisation group equations up to two-loop, which can be solved to give effective millicharges at low energy which depend on the running couplings and heavy mass scales of the model. This formulation allows to construct ``invariants'' out of running Lagrangian parameters, which are invariant under generic gauge field reparametrisations, including rescalings, and which can be related directly to observables such as the millicharge.",
+  "title_relatable": "What stays the same when you reshuffle two U(1) forces?",
+  "hook": "A new way to track how dual electromagnetic-like forces mix and run at different energy scales, with direct implications for hidden charge detection.",
+  "summary": "When a theory has two U(1) gauge symmetries, their interaction—kinetic mixing—evolves differently at different energies. Using a reformulation that treats gauge bosons symmetrically, the authors derive clean two-loop equations showing how this mixing scales up and down, then identify mathematical invariants that survive arbitrary field redefinitions. These invariants connect directly to measurable millicharges, making it easier to predict what experiments should see.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 873,
+  "tokens_out": 178,
+  "cost_usd": 0.0014104,
+  "ingested_at": "2026-05-21T23:52:51.044242+00:00"
+}

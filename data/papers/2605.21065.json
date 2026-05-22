@@ -1,0 +1,23 @@
+{
+  "id": "2605.21065",
+  "arxiv_url": "https://arxiv.org/abs/2605.21065",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "The Single Photon Signature of a Light Long-lived Neutralino at Remote Detectors at the LHC",
+  "authors": "Herbi K. Dreiner, Julian Günther, Dominik Köhler, Apoorva Shah",
+  "abstract": "We investigate the phenomenology of light long-lived neutralinos in R-parity violating supersymmetric models, focusing on the proposed remote detectors $\\texttt{ANUBIS}$, $\\texttt{CODEX-b}$, $\\texttt{FACET}$, $\\texttt{FASER}$, $\\texttt{FASER2}$, $\\texttt{MAPP}$, $\\texttt{MAPP2}$, and $\\texttt{MATHUSLA}$ at the LHC. We assume the production of the neutralinos at the ATLAS or CMS interaction points via rare scalar meson decays induced by R-parity violating couplings. We study six supersymmetric R-parity violating benchmark scenarios in which the dominant neutralino decay is $\\tildeχ^0_1 \\rightarrow γ+ ν$. For each scenario, we determine the projected search sensitivity at the above listed detectors. Extending previous work focused primarily on $\\texttt{FASER}$ and $\\texttt{FASER2}$, we improve the simulation by taking into account the extended flight path of the parent meson. We find that $\\texttt{ANUBIS}$ provides the best sensitivity to our benchmark scenarios and $\\texttt{FASER}$ the least among the considered experiments, while of course $\\texttt{FASER}$ has already taken data.",
+  "title_relatable": "Can hidden LHC detectors spot ghostly supersymmetry particles?",
+  "hook": "Eight new remote detectors around the LHC could catch elusive neutralinos that decay into single photons, with one detector outperforming all others.",
+  "summary": "Physicists modeled how light, long-lived neutralinos—predicted by supersymmetric models—would create distinctive single-photon signals at eight proposed remote detectors ringing the LHC. They found ANUBIS far outperforms other detectors by accounting for the full flight path of the parent meson carrying the neutralino, while FASER lags considerably. These results reshape the discovery potential for a class of supersymmetry theories already producing rare meson decays.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1059,
+  "tokens_out": 194,
+  "cost_usd": 0.0016232,
+  "ingested_at": "2026-05-21T23:52:25.181048+00:00"
+}

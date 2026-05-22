@@ -1,0 +1,24 @@
+{
+  "id": "2605.21474",
+  "arxiv_url": "https://arxiv.org/abs/2605.21474",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Gravitational Waves from Black Hole Reheating: The Scalar-Induced Component",
+  "authors": "Yann Gouttenoire, Nicholas Leister, Pedro Schwaller",
+  "abstract": "The reheating of the universe by the evaporation of light primordial black holes (PBHs) can leave a stochastic gravitational-wave (GW) background in the early Universe. In the monochromatic limit, their simultaneous evaporation produces an abrupt matter-to-radiation transition, triggering the so-called Poltergeist GW signal, usually predicted to be dominant and observable. We revisit this result by including the irreducible mass spread implied by gravitational collapse in General Relativity, whose infrared tail scales as $d f_{\\rm PBH}/d\\ln M_{\\rm PBH}\\propto M_{\\rm PBH}^{3.78}$. We show that this minimal width smooths reheating enough to suppress the Poltergeist background by orders of magnitude, down to the level of the scalar-induced GW signal produced during a generic early matter era, such as one driven by the decay of a heavy relic. We provide a complete decomposition of the scalar-induced spectrum into eight production channels and find that none, except the one from PBH formation, reaches either the $ΔN_{\\rm eff}$ bound or the projected sensitivity of future GW observatories. This reopens regions of ultra-light PBH parameter space previously thought to be excluded by these constraints.",
+  "title_relatable": "The 'Poltergeist' gravitational wave signal from black holes was wildly overestimated",
+  "hook": "A realistic spread in primordial black hole masses suppresses a supposedly detectable gravitational wave signal by orders of magnitude.",
+  "summary": "When tiny primordial black holes evaporate and reheat the early universe, they were predicted to produce a strong 'Poltergeist' gravitational wave burst. Including the inevitable mass spread from gravitational collapse — a consequence built into General Relativity itself — smooths the transition enough to kill that signal almost entirely, leaving only a much quieter background. The result reopens a swath of parameter space for ultra-light primordial black holes that observers thought they had already ruled out.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1011,
+  "tokens_out": 189,
+  "cost_usd": 0.005868,
+  "ingested_at": "2026-05-21T23:44:32.463715+00:00"
+}

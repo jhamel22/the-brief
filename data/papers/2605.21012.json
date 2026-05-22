@@ -1,0 +1,22 @@
+{
+  "id": "2605.21012",
+  "arxiv_url": "https://arxiv.org/abs/2605.21012",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Reconstruction of Reionization Histories from 21 cm Power-Spectrum Evolution with Artificial Neural Networks",
+  "authors": "Yu-Le Wang, Hayato Shimabukuro",
+  "abstract": "We investigate whether the redshift evolution of the fixed-$k$ dimensionless 21 cm power spectrum, $Δ^2_{21}(k, z)$, contains sufficient information to reconstruct reionization histories $x_{\\mathrm{HI}}(z)$ with artificial neural networks. Using semi-numerical realizations generated within a restricted three-parameter 21cmFAST model family, we train a compact feed-forward network to learn the inverse mapping from power-spectrum trajectories to the neutral-fraction history over $6 \\le z \\le 15$. For $k = 0.1$, $0.5$, and $1.0\\ h\\ \\mathrm{Mpc}^{-1}$, representative tests on an independent test set show that the midpoint redshift $z_{50}$ is recovered more accurately than the duration $Δz = z_{75} - z_{25}$: $z_{50}$ is reconstructed with MAE = 0.0046 and RMSE = 0.0100, whereas $Δz$ yields MAE = 0.0302 and RMSE = 0.0378. This result indicates that fixed-$k$ power-spectrum evolution carries stronger information about the timing of reionization than about the detailed width of the transition within the adopted prior. We further test an idealized foreground-free SKA1-Low-like thermal-plus-sample-variance noise model and find that the reconstruction remains stable in the favorable signal-to-noise regime considered here. These results demonstrate that neural networks can serve as prior-dependent inverse mapping for reconstructing reionization histories from 21 cm power-spectrum evolution.",
+  "title_relatable": "Can 21 cm signals reveal when the universe's dark age ended?",
+  "hook": "Neural networks can reverse-engineer reionization history from radio observations, but they're better at pinning down *when* it happened than *how fast*.",
+  "summary": "The early universe's reionization—when ultraviolet light from stars relit neutral hydrogen—left a fingerprint in 21 cm radio emissions. Using neural networks trained on simulations, researchers show they can reconstruct the neutral-fraction history from how the 21 cm power spectrum evolves with redshift, recovering the midpoint timing to within z ≈ 0.01. The technique works even with realistic noise levels for next-generation radio telescopes like SKA, though it struggles to pin down the sharpness of the transition itself.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1091,
+  "tokens_out": 206,
+  "cost_usd": 0.0016968000000000003,
+  "ingested_at": "2026-05-21T23:51:17.016432+00:00"
+}

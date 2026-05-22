@@ -1,0 +1,22 @@
+{
+  "id": "2605.21431",
+  "arxiv_url": "https://arxiv.org/abs/2605.21431",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "iTryOn: Mastering Interactive Video Virtual Try-On with Spatial-Semantic Guidance",
+  "authors": "Jun Zheng, Zhengze Xu, Mengting Chen, Jing Wang, Jinsong Lan, Xiaoyong Zhu, Kaifu Zhang, Bo Zheng, Xiaodan Liang",
+  "abstract": "Video Virtual Try-On (VVT) aims to seamlessly replace a garment on a person in a video with a new one. While existing methods have made significant strides in maintaining temporal consistency, they are predominantly confined to non-interactive scenarios where models merely showcase garments. This limitation overlooks a crucial aspect of real-world apparel presentation: active human-garment interaction. To bridge this gap, we introduce and formalize a new challenging task: Interactive Video Virtual Try-On (Interactive VVT), where subjects in the video actively engage with their clothing. This task introduces unique challenges beyond simple texture preservation, including: (1) resolving the semantic ambiguity of interactions from standard pose information, and (2) learning complex garment deformations from video where interactive moments are sparse and brief. To address these challenges, we propose iTryOn, a novel framework built upon a large-scale video diffusion Transformer. iTryOn pioneers a multi-level interaction injection mechanism to guide the generation of complex dynamics. At the spatial level, we introduce a garment-agnostic 3D hand prior to provide fine-grained guidance for precise hand-garment contact, effectively resolving spatial ambiguity. At the semantic level, iTryOn leverages global captions for overall context and time-stamped action captions for localized interactions, synchronized via our novel Action-aware Rotational Position Embedding (A-RoPE). Extensive experiments demonstrate that iTryOn not only achieves state-of-the-art performance on traditional VVT benchmarks but also establishes a commanding lead in the new interactive setting, marking a significant step towards more dynamic and controllable virtual try-on experiences.",
+  "title_relatable": "Teaching AI to watch people interact with clothes they're trying on",
+  "hook": "A new method generates videos of people wearing different clothes while actively moving and touching the garments—a step toward realistic virtual fitting rooms.",
+  "summary": "Video virtual try-on usually just swaps garments on static poses, missing how people actually interact with clothing. iTryOn tackles interactive scenarios where subjects grab, adjust, or manipulate their clothes by combining spatial guidance (3D hand position tracking for precise hand-garment contact) and semantic guidance (captions describing actions at specific moments). Built on a diffusion Transformer, the system handles complex garment deformations during brief interactive moments and outperforms prior methods on both traditional and interactive benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1075,
+  "tokens_out": 185,
+  "cost_usd": 0.0016,
+  "ingested_at": "2026-05-22T00:11:06.489855+00:00"
+}

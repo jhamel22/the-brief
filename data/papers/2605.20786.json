@@ -1,0 +1,22 @@
+{
+  "id": "2605.20786",
+  "arxiv_url": "https://arxiv.org/abs/2605.20786",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Building Arabic NLP from the Ground Up: Twenty Years of Lessons, Failures, and Open Problems",
+  "authors": "Wajdi Zaghouani",
+  "abstract": "This paper reflects on twenty years of building NLP resources and research infrastructure for Arabic, a language spoken by hundreds of millions yet historically underserved relative to languages such as English or Chinese. The first decade focused on foundational linguistic infrastructure; the second shifted toward computational social science, social media analysis, and socially oriented applications. Rather than cataloguing outputs, the paper examines what the experience of building them revealed. Three counterintuitive lessons emerge: building datasets is as much a social process as a technical one; communities formed around shared tasks often matter more than the tasks themselves; and moving from language resources to computational social science exposes challenges that traditional NLP training does not address. We discuss three failures: a depression detection corpus that never reached clinical practice, a period of spreading across too many shared tasks without sufficient depth, and a long-standing assumption that Modern Standard Arabic infrastructure would transfer cleanly to dialectal tasks. These experiences suggest that the hardest problems in developing NLP for underserved communities are not linguistic but social, institutional, and epistemic, and require competencies the field rarely teaches.",
+  "title_relatable": "Why twenty years of Arabic NLP taught lessons about people, not language",
+  "hook": "Building NLP for 400 million Arabic speakers revealed an uncomfortable truth: the biggest barriers aren't linguistic—they're social, institutional, and epistemic.",
+  "summary": "Wajdi Zaghouani reflects on two decades of constructing Arabic NLP resources and infrastructure, from foundational linguistic datasets to social media analysis tools. He identifies three counterintuitive lessons: dataset creation is fundamentally a social process, communities matter more than individual tasks, and traditional NLP training leaves practitioners unprepared for real-world deployment challenges. Three high-profile failures—a depression detection corpus that never reached clinical use, overextension across shared tasks, and the false assumption that Modern Standard Arabic resources would transfer to dialects—reveal that the hardest problems in serving underserved languages are not technical but social and institutional.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 894,
+  "tokens_out": 220,
+  "cost_usd": 0.0015952,
+  "ingested_at": "2026-05-22T00:07:16.227078+00:00"
+}

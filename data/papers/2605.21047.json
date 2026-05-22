@@ -1,0 +1,23 @@
+{
+  "id": "2605.21047",
+  "arxiv_url": "https://arxiv.org/abs/2605.21047",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Thermodynamics of homogeneous Universes: de Sitter, Bonnor-Melvin and static Einstein",
+  "authors": "G. E. Volovik",
+  "abstract": "In the theories, in which dynamic gravitational field emerges from the underlying matter fields, the gravitational field can be considered as a part of matter. Using this approach, we construct the thermodynamics of the homogeneous Universes -- the de Sitter Universe, the Bonnor-Melvin-$Λ$ Universe and the static Einstein Universe. It is demonstrated that although these three Universes have different types of matter fields (ordinary matter, magnetic field, gravitational field and vacuum energy), they have the same thermodynamic properties. Their energy densities obey the same equation, which contains the corresponding matter densities and the pairs of the thermodynamically conjugate variables. In Minkowski vacuum, where the ordinary matter and magnetic and gravitational fields are absent, this thermodynamic approach automatically leads to zero cosmological constant.",
+  "title_relatable": "Three very different universes share identical thermodynamic laws",
+  "hook": "A de Sitter universe, a magnetic universe, and Einstein's static universe turn out thermodynamically identical.",
+  "summary": "Treating gravity as just another matter field, Volovik works out the thermodynamics of three toy universes — one driven by vacuum energy, one by a magnetic field, one by ordinary matter — and finds all three obey exactly the same thermodynamic equation. As a bonus, in empty Minkowski space the framework automatically sets the cosmological constant to zero. The result hints that deep thermodynamic structure may be independent of what actually fills a universe.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 884,
+  "tokens_out": 166,
+  "cost_usd": 0.005142,
+  "ingested_at": "2026-05-21T23:45:32.957508+00:00"
+}

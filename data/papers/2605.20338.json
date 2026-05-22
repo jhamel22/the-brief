@@ -1,0 +1,25 @@
+{
+  "id": "2605.20338",
+  "arxiv_url": "https://arxiv.org/abs/2605.20338",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th",
+    "math.SP",
+    "nlin.SI"
+  ],
+  "title_original": "Higher-Rank Connections and Deformed Schrödinger Operators",
+  "authors": "Jonah Baerman, Alba Grassi, Giovanni Ravazzini",
+  "abstract": "We study the connection problem for a class of linear differential equations of order $N$ closely related to the Baxter equation of the quantum Toda chain. The space of solutions is $N$-dimensional and several linearly independent solutions decay at each singularity, leading to a rich structure of boundary value problems. We derive the weakest quantization conditions compatible with decaying behavior at both singularities, and formulate these conditions in terms of the associated monodromy data. In doing so, we prove the quantization conditions predicted by the topological string/spectral theory duality for a family of deformed Schrödinger equations. More generally, our results point to a hierarchy of spectral problems interpolating between the minimal conditions studied here and the maximally decaying boundary conditions of the $N$-particle quantum Toda chain.",
+  "title_relatable": "When quantum waves decay at both ends, what stays quantized?",
+  "hook": "A proof that topological string theory correctly predicts which energy levels survive in certain quantum systems—connecting two distant corners of theoretical physics.",
+  "summary": "Solving differential equations where multiple independent solutions decay at each boundary creates unusual constraints. The authors derive the weakest quantization conditions compatible with this dual decay, then show these match predictions from topological string/spectral duality for deformed Schrödinger equations. This bridges quantum mechanics, integrable systems, and string theory in a concrete way.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 880,
+  "tokens_out": 153,
+  "cost_usd": 0.001316,
+  "ingested_at": "2026-05-21T23:48:13.386328+00:00"
+}

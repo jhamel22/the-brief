@@ -1,0 +1,22 @@
+{
+  "id": "2605.20688",
+  "arxiv_url": "https://arxiv.org/abs/2605.20688",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Fusion of Integrable Defects and the Defect $g$-Function",
+  "authors": "Yang He, Yunfeng Jiang, Yuxiao Liu",
+  "abstract": "We study exact defect $g$-functions for integrable line defects in two-dimensional integrable quantum field theory and use them to probe defect fusion. We consider three settings: fusion of purely transmitting topological defects, fusion of non-topological defects with reflection and transmission, and fusion of a defect with an integrable boundary. For topological defects, the separated logarithmic $g$-function is additive, and the fusion limit is controlled by the multiplicative composition of transmission factors. For non-topological defects, separation-dependent phases in the Bethe-Yang equations produce oscillatory finite-size effects, while the fused defect is described by effective reflection and transmission amplitudes. In the Ising examples studied here, fusion involving non-topological defects lowers the finite localized contribution to the entropy, whereas topological defect-boundary fusion leaves it unchanged.",
+  "title_relatable": "How integrable defects merge and what happens to entropy",
+  "hook": "Physicists have mapped the exact rules for when quantum line defects fuse together, revealing that topological and non-topological defects behave fundamentally differently.",
+  "summary": "Defects—like domain walls or impurities—in integrable quantum systems have exact mathematical descriptions called g-functions. The researchers computed what happens when two defects collide and merge across three distinct scenarios: purely transmitting defects, defects that partially reflect particles, and defects meeting boundaries. Topological defects simply multiply their transmission properties upon fusion, but non-topological ones generate oscillating quantum corrections and reduce the system's localized entropy. The results pin down an exact dictionary for defect fusion in solvable 2D systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 898,
+  "tokens_out": 203,
+  "cost_usd": 0.0015304000000000001,
+  "ingested_at": "2026-05-21T23:47:50.709679+00:00"
+}

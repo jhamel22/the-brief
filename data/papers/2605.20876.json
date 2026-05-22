@@ -1,0 +1,23 @@
+{
+  "id": "2605.20876",
+  "arxiv_url": "https://arxiv.org/abs/2605.20876",
+  "announced_date": "2026-05-20",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Terminal-World: Scaling Terminal-Agent Environments via Agent Skills",
+  "authors": "Zihao Cheng, Hongru Wang, Zeming Liu, Xinyi Wang, Xiangrong Zhu, Yuhang Guo, Wei Lin, Jeff Z. Pan, Yunhong Wang",
+  "abstract": "Terminal agents extend Large Language Models with the ability to execute tasks directly in command-line environments, but their progress is bottlenecked by the scarcity of high-quality training data. Existing approaches bootstrap from partial sources such as human-defined seeds or GitHub repositories to instantiate one component and then complete the rest, producing tasks confined to narrow seed distributions, environments misaligned with task semantics, and inefficient trajectories from unguided exploration. To address these limitations, we introduce Terminal-World, a fully automated pipeline that uses agent skills as the central synthesis primitive, which jointly encode what to accomplish, when to apply (preconditions and environment state), and how to execute, enabling task instructions, environments, and teacher trajectories to be co-derived. To further broaden the synthesis space, Terminal-World composes skills into skill teams and skill graphs for multi-role and cross-domain task synthesis. Using this pipeline, we construct 5,723 training environments and train Terminal-World-8B/14B/32B, evaluated across 6 benchmarks where the Terminal-World series consistently outperforms terminal-agent baselines. Notably, using the same teacher model and only 1.2% of the training data, Terminal-World-32B surpasses Nemotron-Terminal-32B on Terminal-Bench 2.0 by +4.5 Pass@1 (31.5) and achieves 43.8 Pass@3.",
+  "title_relatable": "Teaching AI to master the command line at scale",
+  "hook": "New dataset pipeline generates 5,723 training environments for terminal agents using automated skill composition, outperforming larger baselines with 1.2% of the data.",
+  "summary": "Training language models to execute terminal commands faces a data bottleneck—existing approaches splice together incomplete sources (human seeds, GitHub) that produce narrow, misaligned tasks. Terminal-World sidesteps this by using composable agent skills as building blocks that encode both what to do and how to do it, then automatically derives compatible tasks, environments, and trajectories together. The team synthesized 5,723 environments and trained models up to 32B parameters, achieving 31.5 Pass@1 on Terminal-Bench 2.0—beating a larger baseline with far less data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1021,
+  "tokens_out": 211,
+  "cost_usd": 0.0016608000000000003,
+  "ingested_at": "2026-05-22T00:00:39.083037+00:00"
+}

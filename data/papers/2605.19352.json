@@ -1,0 +1,24 @@
+{
+  "id": "2605.19352",
+  "arxiv_url": "https://arxiv.org/abs/2605.19352",
+  "announced_date": "2026-05-19",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Brain alignment of reasoning and action representations from vision-language and action models during naturalistic gameplay",
+  "authors": "Subba Reddy Oota, Anant Khandelwal, Khushbu Pahwa, Satya Sai Srinath Namburi, Tanmoy Chakraborty, Bapi S. Raju, Manish Gupta",
+  "abstract": "Understanding how humans and artificial intelligence systems predict and plan by interacting with their environment is a fundamental challenge at the intersection of neuroscience and machine learning. Most brain-encoding studies focus on aligning artificial models with brain activity during language comprehension or passive visual processing, while interactive brain-alignment studies have to date been largely limited to reinforcement-learning (RL) agents and theory-based models. To address this gap, we study brain alignment of representative models from two foundation-model families, namely vision-language models (VLMs) and large-action models (LAMs), using fMRI recordings from participants playing naturalistic Atari-style video games. Specifically, we examine how action-focused and reasoning-focused prompts shape model's internal representations and align with fMRI brain activity. First, we find that both VLMs and LAMs exhibit significantly exhibit voxel-wise encoding performance than RL baselines, with the advantage holding even under matched feature dimensionality. Second, prompt-driven gains scale with the cortical processing hierarchy: the largest improvements appear in frontal-parietal and motor-planning regions, while early visual cortex gains roughly half as much. Third, variance partitioning reveals a qualitatively different representational organization: VLM is prompt-symmetric (12.5% unique action vs. 13.6% unique reasoning), whereas LAM is prompt-asymmetric (27% unique action vs. -5% unique reasoning), with the asymmetry strongest in frontal-motor cortex. Together, these results demonstrate that action-specialized fine-tuning reorganizes multimodal representations toward action-relevant neural computations even when whole-brain prediction accuracy is statistically equivalent between VLM and LAM.",
+  "title_relatable": "Do AI models think like our brains when playing video games?",
+  "hook": "Vision-language models and action-specialized AI align with brain activity during gameplay better than reinforcement learning agents, with reasoning and action plans recruiting different cortical regions.",
+  "summary": "Researchers recorded brain activity via fMRI while people played Atari-style games, then compared how well two types of foundation models (vision-language and action-specialized models) predicted neural activity. Action-focused models showed better alignment with brain regions for motor planning and reasoning, with the largest gains in frontal-parietal cortex. The finding suggests AI systems that specialize in action planning organize their internal representations more like human brains organizing decisions and movement—not just passive perception.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 824,
+  "tokens_out": 189,
+  "cost_usd": 0.0014152000000000001,
+  "ingested_at": "2026-05-22T00:18:23.748185+00:00"
+}

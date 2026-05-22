@@ -1,0 +1,23 @@
+{
+  "id": "2605.21212",
+  "arxiv_url": "https://arxiv.org/abs/2605.21212",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Detection of a dark matter subhalo in the strongly lensed system PJ011646",
+  "authors": "Aristeidis Amvrosiadis, James W. Nightingale, Qiuhan He, Andrew Robertson, Shaun Cole, Carlos S. Frenk, Samuel Lange, Richard Massey, Maximilian von Wietersheim-Kramsta, Xiaoyue Cao, Ran Li, Shubo Li, Kaihao Wang, Xianghao Ma, Leo W. H. Fung",
+  "abstract": "We present a strong lensing analysis of the system PJ011646 using high-resolution ($\\sim$0.1 arcsec) Atacama Large Millimeter/submillimeter Array (ALMA) dust-continuum observations to test for the presence of dark matter substructures. The lens mass distribution is modelled with an elliptical power law and third- and fourth-order multipoles (PL+MP; $m=3,4$), plus external shear. The multipoles have amplitudes of $\\simeq$1.5 per cent of the convergence, consistent with nearby early-type galaxies, and improve the fit by $Δ\\ln Z = 52.1$ relative to a pure PL model. Using this best-fitting macromodel, we perform a grid-based subhalo search in the image plane, parametrising the perturber as a spherical NFW. A subhalo in two locations in the image plane improves the fit by $Δ\\ln Z>10$. Both correspond to the same location in the source plane, so they are partially degenerate; follow-up analysis suggests that only one is physically real. This is a subhalo of mass $M_{200} = {2.78}_{-0.66}^{+0.43} \\times 10^{10} \\, M_\\odot$ and concentration $c_{200} = 30_{-7}^{+5}$, detected at $\\sim$5.8$σ$ significance (relative to the PL+MP). This concentration is consistent with that expected for a typical tidally stripped Navarro-Frenk-White subhalo. The enclosed projected mass is most tightly constrained within a radius of 2 kpc, where we infer $M_{\\rm sub} = {3.57}_{-0.14}^{+0.16}\\times 10^9 \\, M_\\odot$. From grid cells consistent with no detection ($Δ\\ln Z < 10$), we derive limits on the minimum subhalo mass that could have been detected at $3σ$ significance, finding $M_{200} \\approx 8 \\times 10^{8} \\, M_\\odot$ in the most sensitive regions of the lensed arcs. This demonstrates that ALMA continuum imaging at sub-arcsecond resolution can probe dark matter substructure in a mass regime where cold and warm dark matter models predict different abundances of subhalos.",
+  "title_relatable": "Dark matter clump spotted in a distant gravitational lens",
+  "hook": "A subhalo weighing 28 billion suns detected through its subtle warping of distant light—directly testing whether dark matter is cold or warm.",
+  "summary": "Using ALMA's sharpest millimeter observations of a strongly lensed galaxy, astronomers found unmistakable evidence for a dark matter subhalo embedded in the lens. The subhalo has a mass of roughly 28 billion suns and shows concentration values typical of N-body simulations. This detection matters because cold and warm dark matter models predict wildly different numbers of such substructures—a direct way to distinguish between them.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1365,
+  "tokens_out": 178,
+  "cost_usd": 0.001804,
+  "ingested_at": "2026-05-21T23:51:08.407965+00:00"
+}

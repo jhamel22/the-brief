@@ -1,0 +1,25 @@
+{
+  "id": "2605.20758",
+  "arxiv_url": "https://arxiv.org/abs/2605.20758",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CV",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "Conflict-Aware Additive Guidance for Flow Models under Compositional Rewards",
+  "authors": "Xuehui Yu, Fucheng Cai, Meiyi Wang, Xiaopeng Fan, Harold Soh",
+  "abstract": "Inference-time guided sampling steers state-of-the-art diffusion and flow models without fine-tuning by interpreting the generation process as a controllable trajectory. This provides a simple and flexible way to inject external constraints (e.g., cost functions or pre-trained verifiers) for controlled generation. However, existing methods often fail when composing multiple constraints simultaneously, which leads to deviations from the true data manifold. In this work, we identify root causes of this off-manifold drift and find that the approximation error scales severely with gradient misalignment. Building on these findings, we propose Conflict-Aware Additive Guidance ($g^\\text{car}$), a lightweight and learnable method, which actively rectifies off-manifold drift by dynamically detecting and resolving gradient conflicts. We validate $g^\\text{car}$ across diverse domains, ranging from synthetic datasets and image editing to generative decision-making for planning and control. Our results demonstrate that $g^\\text{car}$ effectively rectifies off-manifold drift, surpassing baselines in generation fidelity while using light compute. Code is available at https://github.com/yuxuehui/CAR-guidance.",
+  "title_relatable": "Fixing flow models when multiple constraints fight each other",
+  "hook": "When you ask a generative model to satisfy multiple constraints at once, it often wanders off the realistic data distribution. A new method detects and resolves these conflicts during sampling.",
+  "summary": "Flow models can be steered at inference time to satisfy multiple constraints—like \"realistic image\" and \"matches this description\"—without retraining. The problem: when constraints contradict or push in different directions, the model generates unrealistic outputs by drifting off the learned data manifold. The authors identify that gradient misalignment causes this drift and propose Conflict-Aware Additive Guidance, which dynamically detects conflicting constraint signals and reconciles them during generation. Tests across image editing, planning, and control tasks show it maintains fidelity while satisfying multiple goals simultaneously.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 952,
+  "tokens_out": 212,
+  "cost_usd": 0.0016095999999999999,
+  "ingested_at": "2026-05-22T00:16:42.605002+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.20980",
+  "arxiv_url": "https://arxiv.org/abs/2605.20980",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Wormholes in $f(Q,T)$ gravity with different matter Lagrangian density",
+  "authors": "Sodabe Nasirimoghadam, Foad Parsaei, Sara Rastgoo",
+  "abstract": "This study explores asymptotically flat wormhole solutions in $f(Q,T)=αQ+ βT$ gravity, expanding upon our prior work (arXiv:2602.00527v1) with matter Lagrangian density, $L_m=-P$ . Here, we examine the implications of employing $Lm=-T$ and $L_m=ρ$. The field equations, derived via action variation, share a common general structure but are fundamentally dictated by the parameters $α$ and $β$ through the coefficients $A_i$. Solutions with linear and asymptotically linear equation of state are explored. We conclude that non-exotic asymptotically flat wormhole solutions exist for all considered matter Lagrangian densities. A key outcome is the demonstration that different $L_m$ choices enable the same shape function to be supported by varied fluid configurations, or vice versa, identical fluids to yield different geometries. The energy conditions and physical characteristics of these solutions are shown to be distinct and critically dependent on the selected $L_m$.",
+  "title_relatable": "Wormholes without exotic matter: does the choice of physics formula matter?",
+  "hook": "The same wormhole shape can be supported by completely different fluids — depending on a single mathematical choice.",
+  "summary": "In modified gravity theories where geometry couples to matter, the choice of how you define 'matter Lagrangian' turns out to matter enormously: the same wormhole geometry can be threaded by different fluids, or identical fluids can produce different geometries. Working in f(Q,T) gravity, the authors find traversable, asymptotically flat wormholes that don't require exotic (negative-energy) matter across all tested Lagrangian choices. This highlights a genuine physical ambiguity in modified gravity that affects which solutions are considered physically viable.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 956,
+  "tokens_out": 196,
+  "cost_usd": 0.005808,
+  "ingested_at": "2026-05-21T23:45:54.267300+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21447",
+  "arxiv_url": "https://arxiv.org/abs/2605.21447",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Combining non-parametric quantum states and MERA tensor networks for ground-state optimization",
+  "authors": "Julian Schuhmacher, Alberto Baiardi, Francesco Tacchino, Ivano Tavernelli",
+  "abstract": "Hybrid tensor networks offer a promising route to enhance the expressivity of classical tensor network methods by incorporating quantum states prepared on a quantum computer. Existing approaches are limited by the variational optimization of the quantum component of the tensor network. In this work, we introduce an alternative strategy that combines a non-parametric quantum state prepared through quantum annealing and a classical isometric tensor network. The latter is variationally optimized while the former is used as a fixed, boundary tensor resource in the form of classical shadows. We demonstrate the feasibility of this approach through extensive numerical simulations on the transverse-field Ising model, showing that the optimization procedure remains robust under statistical and hardware noise. Moreover, our results indicate that our newly proposed setup improves the accuracy of the obtained ground state approximation compared to the original quantum simulation, without increasing the depth of the applied quantum circuits. Therefore, this setup offers a practical route to scale variational quantum algorithms towards the quantum utility scale.",
+  "title_relatable": "Mixing quantum annealing and classical networks beats either alone",
+  "hook": "A hybrid scheme uses quantum annealing as a fixed input—not a tunable knob—letting classical tensor networks do the heavy optimization lifting.",
+  "summary": "Instead of jointly optimizing quantum and classical components (a notoriously difficult problem), this approach freezes a quantum-annealed state and uses it as a boundary condition for a classical tensor network that is then optimized on its own. Tested on the transverse-field Ising model, the hybrid beats the raw quantum simulation in accuracy without adding circuit depth. The trick sidesteps the fragile variational quantum optimization step that has hampered most hybrid schemes.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 917,
+  "tokens_out": 175,
+  "cost_usd": 0.005376,
+  "ingested_at": "2026-05-21T23:48:57.741806+00:00"
+}

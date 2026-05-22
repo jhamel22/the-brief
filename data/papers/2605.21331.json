@@ -1,0 +1,22 @@
+{
+  "id": "2605.21331",
+  "arxiv_url": "https://arxiv.org/abs/2605.21331",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Searching for links between energetic millisecond pulsars and repeating fast radio bursts",
+  "authors": "R. J. van Ruiten, J. W. T. Hessels, S. Bhandari, P. Chawla, A. Gopinath, D. M. Hewitt, K. Nimmo, M. P. Snelders",
+  "abstract": "The unexpected localization of the repeating FRB 20200120E to a globular cluster challenges conventional FRB models based on magnetars formed via core collapse. One alternative model suggests that FRB 20200120E is a millisecond pulsar (MSP) producing giant pulses (GPs). To test this hypothesis, we compared the characteristics of FRB 20200120E bursts with the GPs of the most energetic Galactic MSP known, M28A (PSR B1821$-$24A), using observations with the Parkes (Murriyang) telescope's Ultra Wideband Low-frequency (UWL) receiver. Our analysis provides insight into the spectral structure and frequency extent of M28A's GPs, revealing broad-band spectra spanning $700-4000$ MHz (in some cases) with complex spectral peaks. We find that known M28A GP characteristics persist at this bandwidth, such as durations, luminosities, periodicity, wait-time, and energy distribution. A sub-band search for narrow-band GPs yielded no detection of genuinely narrow-band GPs. However, we do find narrow-band spectral peaks of $\\sim100$ MHz bandwidth, a similar scale observed for FRB 20200120E's bursts. Compared to FRB 20200120E's bursts, M28A's GPs have $50\\times$ shorter durations, $10^5\\times$ lower spectral luminosities, clear periodicity (vs. no periodicity), a purely Poissonian wait-time distribution (vs. quasi-Poissonian), and generally broad-band spectra with narrow-band peaks (vs. only narrow-band bursts). Both sources show a steep energy distribution and minor dispersion measure variability. Our study finds no strong links between M28A and FRB 20200120E. However, we cannot rule out the possibility that FRB 20200120E is a rare and unique type of MSP with no Galactic analogue. Furthermore, higher-cadence monitoring of M28A, for hundreds to thousands of hours, might reveal rare but extremely luminous pulses.",
+  "title_relatable": "Do energetic pulsars produce bursts like mysterious fast radio bursts?",
+  "hook": "A globular cluster fast radio burst doesn't match the giant pulses from our galaxy's most extreme millisecond pulsar—but rare outliers might still hide the link.",
+  "summary": "Astronomers compared the repeating fast radio burst FRB 20200120E, found in a globular cluster, with giant pulses from M28A, the brightest millisecond pulsar in the galaxy. The two sources show striking differences: M28A's pulses are 50 times shorter, far dimmer, regularly periodic, and broad-spectrum, while FRB 20200120E's bursts are unpredictable, narrow-band, and intense. The findings don't rule out a pulsar origin for FRBs but suggest FRB 20200120E would have to be a completely novel type with no known Galactic match.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1240,
+  "tokens_out": 238,
+  "cost_usd": 0.001944,
+  "ingested_at": "2026-05-21T23:54:12.435575+00:00"
+}

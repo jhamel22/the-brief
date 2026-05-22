@@ -1,0 +1,25 @@
+{
+  "id": "2605.20415",
+  "arxiv_url": "https://arxiv.org/abs/2605.20415",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.mes-hall",
+    "cond-mat.supr-con",
+    "gr-qc"
+  ],
+  "title_original": "The dual Ginzburg-Landau theory for a holographic superfluid/superconductor: Critical dynamics",
+  "authors": "Makoto Natsuume",
+  "abstract": "Holographic superfluids/superconductors are one of the most studied systems in the AdS/CFT duality. In the low-energy, in the long-wavelength limit, they should be described by a Ginzburg-Landau theory. For critical dynamics, one expects that they belong to \"model F\" universality class. We consider a bulk 5-dimensional holographic superfluid/superconductor in the probe limit. For the holographic superconductor, we impose the boundary Maxwell equation to make the boundary Maxwell field dynamical. We identify the dual model F equations where numerical coefficients are obtained exactly.",
+  "title_relatable": "What universality class does a holographic superconductor belong to?",
+  "hook": "A holographic superconductor near its critical point obeys the same dynamical equations as real superfluid helium.",
+  "summary": "Using the AdS/CFT correspondence, this work derives the exact Ginzburg-Landau equations governing a 5-dimensional holographic superconductor near its phase transition, pinning down all numerical coefficients analytically. The system falls into 'model F' — the same dynamical universality class as superfluid helium-4 near the lambda point. This confirms that holographic methods reproduce the correct critical dynamics of real physical systems, with exact coefficients that would otherwise require fitting to experiments or numerical simulation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 842,
+  "tokens_out": 189,
+  "cost_usd": 0.005361,
+  "ingested_at": "2026-05-21T23:46:59.726946+00:00"
+}

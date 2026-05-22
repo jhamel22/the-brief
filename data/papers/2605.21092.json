@@ -1,0 +1,24 @@
+{
+  "id": "2605.21092",
+  "arxiv_url": "https://arxiv.org/abs/2605.21092",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "astro-ph.HE"
+  ],
+  "title_original": "Audible Axion Magnetogenesis: Linking Intergalactic Magnetic Fields and Gravitational Waves",
+  "authors": "Christopher Gerlach, Daniel Schmitt, Pedro Schwaller",
+  "abstract": "Identifying dark matter candidates that simultaneously generate multiple observable cosmological signatures is a key goal in connecting particle physics with upcoming observations. Axion-like particles coupled to the Standard Model photon offer a promising framework. In the trapped misalignment mechanism, the onset of axion oscillations is delayed, inducing a period of supercooling in the early Universe. This can lead to exponential production of photon quanta via a tachyonic instability, generating observable gravitational wave signatures. Simultaneously, reheating of the Standard Model plasma produces strong, helical magnetic fields on intergalactic scales. The parameter space most promising for gravitational wave detection yields magnetic field strengths that exceed lower bounds from blazar observations.",
+  "title_relatable": "Can axions explain both cosmic magnetic fields and gravitational waves?",
+  "hook": "A single particle type could simultaneously create the Universe's magnetic fields and produce detectable gravitational waves—if axions behave in an unexpected way.",
+  "summary": "Axion-like particles coupled to photons can delay their onset of oscillation, triggering a burst of photon production via quantum instability. This process generates observable gravitational waves while simultaneously creating strong magnetic fields that match observations of intergalactic space. The model predicts magnetic field strengths consistent with blazar data, making it testable.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 866,
+  "tokens_out": 157,
+  "cost_usd": 0.0013208000000000002,
+  "ingested_at": "2026-05-21T23:51:14.007186+00:00"
+}

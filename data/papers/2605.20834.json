@@ -1,0 +1,23 @@
+{
+  "id": "2605.20834",
+  "arxiv_url": "https://arxiv.org/abs/2605.20834",
+  "announced_date": "2026-05-20",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Conditional Equivalence of DPO and RLHF: Implicit Assumption, Failure Modes, and Provable Alignment",
+  "authors": "Zhiqin Yang, Yonggang Zhang, Wei Xue, Dong Fang, Bo Han, Yike Guo",
+  "abstract": "Direct Preference Optimization (DPO) has emerged as a popular alternative to Reinforcement Learning from Human Feedback (RLHF), offering theoretical equivalence with simpler implementation. We prove this equivalence is conditional rather than universal, depending on an implicit assumption frequently violated in practice: the RLHF-optimal policy must prefer human-preferred responses. When this assumption fails, DPO optimizes relative advantage over the reference policy rather than absolute alignment with human preferences, leading to pathological convergence where policies decrease DPO loss while preferring dispreferred responses. We characterize when this assumption is violated, show the existence of an undesirable solution space, and prove that DPO and RLHF optimize fundamentally different objectives in such cases. To address this, we introduce Constrained Preference Optimization (CPO), augmenting RLHF with constraints for provable alignment. We further provide a geometric interpretation through soft margin ranking, revealing that DPO implements margin ranking with potentially negative targets. Our theoretical analysis establishes when DPOs' guarantees hold and provides solutions preserving simplicity with provable alignment. Comprehensive experiments on standard benchmarks demonstrate that CPO achieves state-of-the-art performance. Code is available at: https://github.com/visitworld123/CPO.",
+  "title_relatable": "When does DPO actually work like RLHF?",
+  "hook": "DPO and RLHF aren't equivalent in practice—DPO can optimize the wrong thing entirely, preferring bad responses while lowering loss.",
+  "summary": "DPO's claimed equivalence to RLHF relies on a hidden assumption that often breaks in real training: that the best policy under RLHF actually prefers human-chosen responses. When this fails, DPO optimizes relative rankings against its reference policy rather than alignment with human preferences, creating a failure mode where models decrease loss while learning to prefer worse outputs. The authors introduce Constrained Preference Optimization (CPO) to fix this, adding constraints that guarantee true alignment, and show it outperforms both DPO and RLHF on standard benchmarks. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 988,
+  "tokens_out": 219,
+  "cost_usd": 0.0016664000000000002,
+  "ingested_at": "2026-05-22T00:00:45.175984+00:00"
+}

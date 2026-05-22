@@ -1,0 +1,24 @@
+{
+  "id": "2605.20941",
+  "arxiv_url": "https://arxiv.org/abs/2605.20941",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR",
+    "cs.HC"
+  ],
+  "title_original": "PaintCopilot: Modeling Painting as Autonomous Artistic Continuation",
+  "authors": "Yunge Wen, Yuancheng Shen, Paul Pu Liang",
+  "abstract": "We present PaintCopilot, a co-creative neural painting assistant that models painting as an open-ended autoregressive artistic behavior conditioned on evolving canvas states and prior brushstroke history, without requiring a target image. Unlike existing neural painting methods that frame painting as pixel reconstruction toward a predefined reference, PaintCopilot predicts future strokes directly from learned artistic dynamics, analogous to how large language models continue text sequences from prior context. The framework proposes three complementary models: a ViT-based Target Predictor that infers artist intent from partial canvas observations, an autoregressive Next Stroke Predictor that generates temporally coherent brushstrokes via flow matching, and a VAE-based Region Sampler that synthesizes semantically localized stroke sequences on demand. Built on three differentiable brush representations (Hard Round, Brush Tip, and 2D Gaussian), the system supports four interactive workflows: Optimize History, Stroke Completion, Region Inpainting, and Dynamic Brush. Through case studies with professional artists, we demonstrate that PaintCopilot enables fluid co-creative painting workflows in which artists and AI continuously alternate control throughout the creative process.",
+  "title_relatable": "Teaching AI to paint like an artist, not copy a picture",
+  "hook": "Instead of trying to reproduce a target image, a new system learns to continue paintings autonomously by predicting the next brushstroke—like autocomplete for visual art.",
+  "summary": "PaintCopilot models painting as sequential artistic decisions rather than pixel-by-pixel reconstruction toward a reference image. It uses three neural models working together: one to infer what the artist intends, another to generate the next coherent brushstroke, and a third to suggest where to paint. Professional artists can interactively collaborate with the system, alternating control to co-create paintings through completion, inpainting, and stroke suggestion workflows.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 937,
+  "tokens_out": 181,
+  "cost_usd": 0.0014735999999999998,
+  "ingested_at": "2026-05-22T00:11:29.096284+00:00"
+}

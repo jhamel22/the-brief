@@ -1,0 +1,22 @@
+{
+  "id": "2605.20894",
+  "arxiv_url": "https://arxiv.org/abs/2605.20894",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Mobile UMI: Cross-View Diffusion Policy with Decoupled Kinematics for Mobile Manipulation",
+  "authors": "Haoran Huang, Haonan Dong, Huixu Dong",
+  "abstract": "Mobile imitation learning on portable demonstration interfaces faces two coupled bottlenecks: locomotion-contaminated action labels and inference-induced execution latency on a continuously moving base. Recent wrist-mounted interfaces lower the cost of tabletop data collection, yet a single wrist view does not capture the global context required for base navigation. Adding a body-mounted camera entangles human walking with hand motion. Meanwhile, generative policies introduce hundreds of milliseconds of inference latency, during which the base advances past predicted waypoints, forcing backward corrections at action splices. This paper presents Mobile UMI, a hardware-free demonstration framework that addresses both gaps through three components. First, a dual-camera capture system records chest-centric global context and wrist-centric local interaction without any robot present. Second, a one-shot ChArUco-based spatial anchor unifies the chest and hand visual-inertial frames; the hand pose is then re-expressed relative to the chest to extract decoupled SE(3) manipulation and SE(2) base trajectories. Third, an asynchronous receding-horizon executor performs online state matching: each generated action chunk is realigned with the current physical pose so that expired waypoints are discarded before execution. The full system is evaluated on four long-horizon household tasks, achieving an average success rate of 83.8% over 100 trials per task. Controlled comparisons against ACT and Diffusion Policy show that the chest-relative label alone closes much of the gap; online state matching closes the remainder. These results indicate that, for mobile imitation learning under the tested conditions, explicit kinematic factorization combined with state-level latency alignment provides an effective solution without requiring architectural changes to the underlying policy class.",
+  "title_relatable": "Teaching robots to walk and manipulate from human videos",
+  "hook": "Mobile manipulation from wrist-camera videos: decoupling hand motion from walking doubles success rates on household tasks by fixing inference lag and video perspective mismatches.",
+  "summary": "Mobile robots learning from human demonstrations face two tangled problems: camera footage mixes walking with hand motion, and inference delays cause the moving base to drift from predicted positions. Mobile UMI solves this using two cameras (one on chest, one on wrist) recorded without a robot present, then mathematically separates base movement from arm motion using spatial anchoring. An online executor continuously realigns actions to the robot's actual pose before they execute, discarding outdated waypoints. On four household tasks, the system achieved 83.8% success—substantially better than prior approaches, with decoupled kinematics and latency correction each closing significant gaps.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1056,
+  "tokens_out": 220,
+  "cost_usd": 0.0017248,
+  "ingested_at": "2026-05-22T00:15:02.874154+00:00"
+}

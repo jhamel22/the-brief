@@ -1,0 +1,25 @@
+{
+  "id": "2605.19742",
+  "arxiv_url": "https://arxiv.org/abs/2605.19742",
+  "announced_date": "2026-05-19",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.GT",
+    "cs.CR",
+    "math.PR",
+    "q-fin.TR"
+  ],
+  "title_original": "The Privacy Subsidy in Glosten-Milgrom: Bid-Ask Spread and Welfare under Flip-Noise Direction Observation",
+  "authors": "Yuki Nakamura",
+  "abstract": "We derive a closed-form bid-ask spread and welfare decomposition for the Glosten-Milgrom 1985 sequential-trading model when the market maker observes the trade direction perturbed by a binary flip channel of probability $η$ -- a natural information-theoretic model of privacy mechanisms acting on the direction signal. Under a committed Bayesian market-maker pricing rule, the equilibrium spread is $μ(1-2η)Δ$, where $μ$ is the informed-trader fraction and $Δ= v_H - v_L$ the value range. The welfare decomposition identifies a per-trade transfer $μηΔ$ from the protocol's liquidity pool to traders -- the \"privacy subsidy\", mirroring the Gaussian-Kyle analog established in prior work. The result extends the privacy-subsidy concept from continuous Gaussian to discrete two-state microstructure, demonstrating robustness across both classical models. Primary application: MPC-based matching engines with $\\varepsilon$-differentially-private direction disclosure, where the engine prices on a noisy direction signal.",
+  "title_relatable": "Does hiding trade direction make markets cheaper or just shift costs?",
+  "hook": "Privacy noise in trading reduces spreads by a predictable formula, but someone pays the bill—likely the liquidity pool.",
+  "summary": "When a market maker can't see the true direction of trades (only a noisy version due to privacy tech), the bid-ask spread shrinks to μ(1−2η)Δ. But this isn't free: a \"privacy subsidy\" worth μηΔ per trade flows from the liquidity pool to traders. The finding shows privacy mechanisms in markets have a precise, measurable cost hidden in spreads.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 667,
+  "tokens_out": 169,
+  "cost_usd": 0.0012096,
+  "ingested_at": "2026-05-22T00:19:12.302347+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21138",
+  "arxiv_url": "https://arxiv.org/abs/2605.21138",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Safety-Critical Control for Smoothed Implicit Contact Dynamics",
+  "authors": "Haegu Lee, Yitaek Kim, Christoffer Sloth",
+  "abstract": "Smoothed implicit contact dynamics enables gradient-based planning and control for contact-rich tasks without predefined mode sequences. However, safety-critical control remains challenging because implicit contact dynamics makes safety-filter design nontrivial. The smoothing parameter $κ$ relaxes contact complementarity constraints, which makes the dynamics smooth but affects the contact force. This paper provides a method for bounding the actual contact force despite the use of relaxed complementarity constraints. We show that constraint violations can be non-monotonic in $κ$. Smaller $κ$ reduces force-approximation error, but it does not necessarily improve safety performance. To address this issue, we introduce boundary-focused rollouts to screen $κ$ by comparing the safety margin with the approximation error. We then develop a discrete-time control barrier function (CBF) framework based on a first-order Taylor approximation of the implicitly defined contact force. To account for possible force under-prediction, we augment the resulting safety constraint with a fixed robust margin. Simulations on four contact-rich systems show that the proposed method eliminates force violations observed under a standard CBF.",
+  "title_relatable": "How to control robots safely when they touch things",
+  "hook": "Contact forces in smoothed dynamics are hard to predict safely. New method bounds actual forces and uses adaptive margins to prevent constraint violations.",
+  "summary": "Robots doing contact-rich tasks like pushing or grasping need smooth dynamics models for gradient-based control, but smoothing parameters hide the true contact forces—making safety filters unreliable. This work provides a way to bound actual contact forces despite smoothing, then builds a safety framework that automatically tunes the smoothing level and adds adaptive margins to handle force prediction errors. Simulations show it eliminates violations that standard safety methods miss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 913,
+  "tokens_out": 167,
+  "cost_usd": 0.0013984000000000002,
+  "ingested_at": "2026-05-22T00:15:18.351965+00:00"
+}

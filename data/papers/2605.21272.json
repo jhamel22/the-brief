@@ -1,0 +1,23 @@
+{
+  "id": "2605.21272",
+  "arxiv_url": "https://arxiv.org/abs/2605.21272",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "MONET: A Massive, Open, Non-redundant and Enriched Text-to-image dataset",
+  "authors": "Benjamin Aubin, Gonzalo Iñaki Quintana, Onur Tasar, Sanjeev Sreetharan, Urszula Czerwinska, Damien Henry, Clément Chadebec",
+  "abstract": "Training large text-to-image models requires high-quality, curated datasets with diverse content and detailed captions. Yet the cost and complexity of collecting, filtering, deduplicating, and re-captioning such corpora at scale hinders open and reproducible research in the field. We introduce MONET, an open Apache 2.0 dataset of approx. 104.9M image--text pairs collected from 2.9B raw pairs across heterogeneous open sources through successive stages of safety filtering, domain-based filtering, exact and near-duplicate removal, and re-captioning with multiple vision-language models covering short to long-form descriptions, and further augmented with synthetically generated samples. Each image is shipped with pre-computed embeddings and annotations to accelerate downstream use. To validate the effectiveness of MONET, we train a 4B-parameter latent diffusion model exclusively on it and reach competitive GenEval and DPG scores, demonstrating that our dataset lowers the barrier to large-scale, reproducible text-to-image research.",
+  "title_relatable": "A massive, open dataset designed for training image-generation models",
+  "hook": "104.9M image-caption pairs, aggressively cleaned and re-captioned, enable competitive text-to-image models without proprietary data.",
+  "summary": "Training text-to-image models typically requires expensive, proprietary datasets. MONET provides an open alternative: 104.9M image-caption pairs curated from 2.9B raw sources through automated filtering, deduplication, and re-captioning with multiple vision-language models. A 4B-parameter diffusion model trained only on MONET matched state-of-the-art scores on standard benchmarks, proving the dataset's quality and making reproducible image-generation research accessible to anyone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 945,
+  "tokens_out": 193,
+  "cost_usd": 0.001528,
+  "ingested_at": "2026-05-22T00:11:11.757370+00:00"
+}

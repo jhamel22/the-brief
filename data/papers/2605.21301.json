@@ -1,0 +1,23 @@
+{
+  "id": "2605.21301",
+  "arxiv_url": "https://arxiv.org/abs/2605.21301",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "Automatic Discovery of Disease Subgroups by Contrasting with Healthy Controls",
+  "authors": "Robin Louiset, Edouard Duchesnay, Benoit Dufumier, Antoine Grigis, Pietro Gori",
+  "abstract": "In biomedical Subgroup Discovery, practitioners are interested in discovering interpretable and homogeneous subgroups within a group of patients. In this paper, assuming that healthy subjects (i.e., controls) share common but irrelevant factors of variation with the patients, we motivate and develop a Contrastive Subgroup Discovery method, entitled Deep UCSL. By contrasting patients with controls, Deep UCSL identifies subgroups driven solely by pathological factors, ignoring common variability shared with healthy subjects. Our framework employs a deep feature extractor to learn a discriminative representation space. Mathematically, we derive a novel loss based on the conditional joint likelihood of latent clusters and patient/control labels, optimized via an Expectation-Maximization strategy alternating between subgroup inference and feature encoder updates. A regularization term further encourages representations to capture disease-specific variability while ignoring variability shared with controls. Compared to previous related works, our approach quantitatively improves the quality of the estimated subgroups, as demonstrated on a MNIST example and four distinct real medical imaging datasets. Code and datasets are available at: https://github.com/rlouiset/deep_ucsl.",
+  "title_relatable": "Finding disease subtypes by ignoring what healthy people share",
+  "hook": "New method automatically discovers patient subgroups by filtering out variation that healthy controls also have, improving subgroup quality on medical imaging datasets.",
+  "summary": "When doctors search for disease subtypes, noise from normal human variation gets in the way. This work uses contrastive learning to identify patient subgroups driven purely by disease factors, ignoring common patterns shared with healthy controls. The method uses a deep learning model that optimizes a custom loss function via expectation-maximization, tested on MNIST and four medical imaging datasets with improved results over prior approaches. Code and datasets are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 951,
+  "tokens_out": 168,
+  "cost_usd": 0.0014328000000000001,
+  "ingested_at": "2026-05-21T23:58:19.037802+00:00"
+}

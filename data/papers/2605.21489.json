@@ -1,0 +1,26 @@
+{
+  "id": "2605.21489",
+  "arxiv_url": "https://arxiv.org/abs/2605.21489",
+  "announced_date": "2026-05-20",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV",
+    "stat.CO",
+    "stat.ML"
+  ],
+  "title_original": "Variance Reduction for Expectations with Diffusion Teachers",
+  "authors": "Jesse Bettencourt, Xindi Wu, Matan Atzmon, James Lucas, Jonathan Lorraine",
+  "abstract": "Pretrained diffusion models serve as frozen teachers feeding downstream pipelines such as text-to-3D, single-step distillation, and data attribution. The teacher gradients these pipelines consume are Monte Carlo (MC) expectations over noise levels and Gaussian noise samples; their estimator variance dominates compute cost because each draw requires expensive upstream work (rendering, simulation, encoding). We introduce CARV, a compute-aware variance-accounting framework that motivates a hierarchical MC estimator: amortize the expensive upstream computation over cheap diffusion-noise resamples, sharpened by timestep importance sampling and a stratified-inverse-CDF construction. In our text-to-3D distillation and attribution experiments, CARV delivers 2-3x effective compute multipliers (most from amortized reuse; ~25% additional from IS+stratification) without changing the objective; in single-step distillation, the same techniques cut gradient variance by an order of magnitude but do not improve downstream FID, marking the regime where MC variance is no longer the bottleneck.",
+  "title_relatable": "Making diffusion model gradients 3× cheaper to compute",
+  "hook": "Diffusion models are expensive teachers for downstream tasks. A new variance-reduction technique cuts compute costs 2–3× by reusing expensive computations across multiple noise samples.",
+  "summary": "Diffusion models train text-to-3D systems and other pipelines, but computing gradients through them is expensive—each gradient requires costly upstream work like rendering or simulation. CARV reuses that expensive computation across multiple noise samples, then sharpens estimates with importance sampling and stratification. The method delivers 2–3× speedups in real tasks like 3D distillation and data attribution, though single-step distillation shows the technique hits diminishing returns when other bottlenecks dominate.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 911,
+  "tokens_out": 198,
+  "cost_usd": 0.0015208,
+  "ingested_at": "2026-05-22T00:17:11.058939+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21274",
+  "arxiv_url": "https://arxiv.org/abs/2605.21274",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Semidefinite Programming for Optimal Quantum Cloning: A Computational Framework",
+  "authors": "Jörg Hettel",
+  "abstract": "While algebraic derivations establish theoretical limits for quantum cloning, practical implementations require explicit operator representations that are often unavailable analytically. We present a computational framework that reformulates cloning optimization as a search over completely positive trace-preserving maps using the Choi-Jamiolkowski isomorphism and Semidefinite Programming. The framework (i) numerically certifies global optimality through primal-dual strong duality and (ii) automatically extracts operational Kraus operators from the optimal Choi matrix via spectral decomposition. We systematically treat universal, phase-covariant, asymmetric, and entanglement cloning scenarios, providing -for the first time - a unified computational catalogue of explicit, implementable Kraus representations across all major cloning families, including higher-order processes and arbitrary input state distributions. As an application, we analyse optimal cloning attacks on BB84 under depolarizing noise, demonstrating how the extracted operators enable quantitative security analysis in realistic noisy quantum channels. An open-source implementation enables community validation and extension.",
+  "title_relatable": "One tool to solve every quantum cloning problem numerically",
+  "hook": "A single computational framework now yields explicit, ready-to-run quantum cloning circuits for every major scenario—including eavesdropping attacks on BB84.",
+  "summary": "Quantum cloning—copying quantum states as faithfully as physics allows—has known theoretical limits, but turning those limits into actual physical operations has required case-by-case algebra. This framework recasts every cloning problem as a semidefinite program, automatically spitting out the Kraus operators (the concrete instructions for a quantum device) from the solution. As a practical payoff, it quantifies how well an eavesdropper can clone qubits in a noisy BB84 channel, bridging the gap between information-theoretic bounds and real-world security analysis.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 923,
+  "tokens_out": 203,
+  "cost_usd": 0.005814,
+  "ingested_at": "2026-05-21T23:49:37.037617+00:00"
+}

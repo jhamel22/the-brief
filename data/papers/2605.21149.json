@@ -1,0 +1,23 @@
+{
+  "id": "2605.21149",
+  "arxiv_url": "https://arxiv.org/abs/2605.21149",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.IM"
+  ],
+  "title_original": "CosmoForge I: A unified framework for QML power spectrum estimation and pixel-based likelihood analysis",
+  "authors": "Giacomo Galloni, Luca Pagano",
+  "abstract": "Optimal power spectrum estimation on the largest angular scales of the cosmic microwave background relies on the Quadratic Maximum Likelihood (QML) estimator. Existing public implementations, however, each address only a subset of the problem and none combine power spectrum estimation with a self-consistent pixel-space likelihood within a single framework. We present CosmoForge, a public Python framework that unifies QML power spectrum estimation and pixel-based Gaussian likelihood evaluation for spin-0 and spin-2 fields on the sphere, with general (non-diagonal) noise covariances. The framework is split into three installable packages: CosmoCore (infrastructure), QUBE (Fisher and QML estimation), and PICSLike (pixel-space likelihood). A common interface exposes two interchangeable computation bases $-$ a harmonic basis built on the Sherman-Morrison-Woodbury identity and a direct pixel-space basis $-$ selecting whichever is cheaper for the configuration at hand. Exact algorithmic optimisations reduce the Fisher cost to $\\mathcal{O}(\\ell_{\\rm max}^4)$ for arbitrary noise covariances, with Numba JIT compilation of the hot kernels and MPI parallelisation of the likelihood scan. CosmoForge reproduces the Planck low-$\\ell$ Fortran reference implementation across both the QML and pixel-space likelihood pipelines, consistently with double-precision arithmetic. Native multipole binning and three output normalisations (deconvolved, decorrelated, window-convolved) are exposed through a single code path, and the same covariance infrastructure powers both QML estimation and likelihood evaluation. CosmoForge offers a general-purpose, modular, and validated tool for the optimal analysis of large-scale data on the sphere. It is publicly available, pip-installable, and extensible to non-CMB observables.",
+  "title_relatable": "A unified toolkit for extracting cosmic signals from noisy sphere data",
+  "hook": "New open-source framework combines two previously separate analysis pipelines for CMB data, matching Planck's reference results and running orders of magnitude faster.",
+  "summary": "CosmoForge unifies power spectrum estimation and likelihood analysis—the two main ways cosmologists squeeze information from CMB maps—into a single Python toolkit. The framework intelligently switches between harmonic and pixel-space calculations depending on which is cheaper for a given problem, and includes algorithmic tricks that cut computational cost to O(ℓ_max^4). It reproduces Planck's official Fortran results exactly, works with arbitrary noise patterns, and scales via MPI parallelization.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1123,
+  "tokens_out": 191,
+  "cost_usd": 0.0016624,
+  "ingested_at": "2026-05-21T23:51:11.699383+00:00"
+}

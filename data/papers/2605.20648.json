@@ -1,0 +1,23 @@
+{
+  "id": "2605.20648",
+  "arxiv_url": "https://arxiv.org/abs/2605.20648",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Jointly Learning Predicates and Actions Enables Zero-Shot Skill Composition",
+  "authors": "Benedict Quartey, Sebastian Castro, Eric Rosen, Wil Thomason, George Konidaris, Stefanie Tellex",
+  "abstract": "Learning from Demonstration (LfD) enables robots to learn complex behaviors from expert examples, yet existing approaches often fail to generalize to new compositions of known skills without retraining. Modern generative policies model distributions over action trajectories alone, thus are unable to reason about the symbolic outcomes required for robust composition. We propose that skills should jointly model action trajectories and the symbolic outcomes they induce. To address this gap, we introduce Predicate Action Skills (PACTS), a class of closed-loop visuomotor policies that model skills as a joint generative process over action and predicate belief trajectories, producing coherent action-outcome rollouts within a single model. Jointly generating actions and predicates enables PACTS to learn internal representations that improve both action generation and predicate classification. Furthermore, we demonstrate zero-shot composition of learned skills via planning by leveraging online predicate predictions from PACTS as a symbolic interface for sequencing and monitoring execution. Project website: https://planpacts.github.io/",
+  "title_relatable": "Teaching robots to compose skills without relearning",
+  "hook": "Robots that learn skills as action-outcome pairs can combine them zero-shot—without retraining—by reasoning symbolically about what each skill accomplishes.",
+  "summary": "Current robot learning systems treat skills as pure action sequences, missing the symbolic outcomes that make composition possible. PACTS models each skill as a joint distribution over both actions and their symbolic effects, letting a single policy generate coherent action-outcome rollouts. At test time, the model predicts symbolic outcomes in real time, enabling a planner to sequence skills together without ever seeing that combination before.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 903,
+  "tokens_out": 163,
+  "cost_usd": 0.0013744,
+  "ingested_at": "2026-05-22T00:15:06.144166+00:00"
+}

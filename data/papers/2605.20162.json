@@ -1,0 +1,23 @@
+{
+  "id": "2605.20162",
+  "arxiv_url": "https://arxiv.org/abs/2605.20162",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO"
+  ],
+  "title_original": "Dark Matter Interpretation of the Super-Kamiokande Antineutrino Excess and Predictions for JUNO",
+  "authors": "Alessandro Granelli, Silvia Pascoli, Salvador Rosauro-Alcaraz",
+  "abstract": "Super-Kamiokande has reported a small excess of electron antineutrino events in the 20 MeV energy range, in the search for the diffuse supernova neutrino background. We interpret this signal as a possible indication of dark matter that annihilates dominantly into neutrinos, pointing to a thermal dark matter candidate with $s$-wave annihilation and with mass in the tens of MeV range. This mass scale naturally fits into rich dark sector extensions of the Standard Model. Neutrino experiments, including JUNO, will be able to test this hypothesis in the coming years.",
+  "title_relatable": "Did Super-Kamiokande catch dark matter annihilating into neutrinos?",
+  "hook": "A small excess of antineutrinos in Super-Kamiokande could signal dark matter particles in the tens-of-MeV range, testable with the next generation of neutrino detectors.",
+  "summary": "Super-Kamiokande detected more electron antineutrinos than expected in the 20 MeV range, normally attributed to distant supernovae. The authors propose this excess comes instead from dark matter annihilating into neutrinos—a scenario that points to a thermal dark matter candidate weighing tens of MeV. Upcoming experiments like JUNO can test this hypothesis directly.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 857,
+  "tokens_out": 192,
+  "cost_usd": 0.0014536,
+  "ingested_at": "2026-05-21T23:51:33.464973+00:00"
+}

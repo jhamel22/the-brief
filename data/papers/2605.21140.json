@@ -1,0 +1,22 @@
+{
+  "id": "2605.21140",
+  "arxiv_url": "https://arxiv.org/abs/2605.21140",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Optimization of Secret Key Rate for BB84 under Collective Rotation Noise",
+  "authors": "Wajiha Masood, Muhammad Waseem, Afshan Irshad",
+  "abstract": "Practical quantum key distribution (QKD) systems operate under noise, but security of most protocols have been analyzed under ideal noiseless scenarios. In this work, we investigated security performance of BB84 protocol under effect of collective rotation noise. Using theoretical quantum information frameworks, we analyzed key security parameters including quantum bit error rate (QBER), mutual information and secret key rate (SKR). Security of protocol is studied under various eavesdropping scenarios based on intercept and resend attacks. Our results show that collective rotation noise has a significant impact on the information shared between the two parties. Particularly, we extended prior treatments by suggesting a noise engineering strategy where we identified a non-zero noise range where information accessed by Eve is minimized while corresponding SKR degradation remains relatively small. This analysis provide insights into robustness of BB84 protocol under realistic noisy channels and may contribute towards development of more resilient QKD systems.",
+  "title_relatable": "Finding a noise sweet spot that keeps quantum keys secure",
+  "hook": "A specific rotation noise range actually limits eavesdropper information while barely hurting key rates.",
+  "summary": "BB84 quantum key distribution is usually analyzed assuming perfect, noiseless channels — not how real hardware behaves. Analyzing collective rotation noise systematically, the authors found a non-zero noise window where an eavesdropper's intercepted information is minimized while the secret key rate drops only modestly. The result suggests noise itself could be engineered as a security feature rather than treated purely as a liability.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 903,
+  "tokens_out": 152,
+  "cost_usd": 0.004989,
+  "ingested_at": "2026-05-21T23:50:27.738261+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21090",
+  "arxiv_url": "https://arxiv.org/abs/2605.21090",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "TextSculptor: Training and Benchmarking Scene Text Editing",
+  "authors": "Yiheng Lin, Siyu Jiao, Xiaohan Lan, Wei Zhou, Qi She, Fei Yu, Heyun Chen, Zhengwei Wang, Jinghuan Chen, Moran Li, Yingchen Yu, Zijian Feng, Yao Zhao, Yunchao Wei, Yujie Zhong",
+  "abstract": "Recent advances in Multimodal Large Language Models (MLLMs) and diffusion-based generative models have substantially improved prompt-driven image editing. However, scene text editing remains challenging, as it requires models to precisely modify textual content while preserving visual realism and non-target regions. Current open-source models still lag behind proprietary systems, largely due to the scarcity of high-quality training data and the lack of standardized benchmarks tailored to text editing. To address these challenges, we present TextSculptor, a comprehensive framework for data construction and evaluation of scene text editing. We first develop an automated data construction pipeline that combines text-aware image synthesis with programmatic text rendering and compositing. Based on this pipeline, we build TextSculpt-Data, a large-scale dataset containing 3.2M training samples, including 1.2M OCR-verified text-to-image samples and 2M paired text editing samples with naturally aligned source-target images and strong background consistency. We further introduce TextSculpt-Bench, a benchmark covering four fundamental text editing tasks: text addition, text replacement, text removal, and hybrid editing. To support reliable evaluation, we design a tailored protocol that measures text accuracy, visual quality, and background preservation through OCR-based text alignment, multimodal judgment, and background-region similarity. Extensive experiments show that TextSculptor improves open-source text editing performance and narrows the gap to proprietary models. The data and benchmark are available at https://github.com/linyiheng123/TextSculptor.",
+  "title_relatable": "Teaching AI to edit text in photos without breaking everything else",
+  "hook": "New dataset and benchmark for editing text in images: 3.2M training samples, 4 editing tasks, closes the gap between open-source and proprietary systems.",
+  "summary": "Scene text editing—changing words in photos while keeping images realistic—is hard because models must preserve backgrounds and non-target areas. TextSculptor provides a 3.2M-sample dataset built from automated synthesis and real compositing, plus TextSculpt-Bench, a standardized test covering text addition, replacement, removal, and mixed edits. The framework includes OCR-based evaluation to measure both text accuracy and visual quality. Results show open-source models can now match proprietary systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1084,
+  "tokens_out": 194,
+  "cost_usd": 0.0016432,
+  "ingested_at": "2026-05-22T00:14:10.099029+00:00"
+}

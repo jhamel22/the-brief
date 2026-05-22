@@ -1,0 +1,25 @@
+{
+  "id": "2605.21486",
+  "arxiv_url": "https://arxiv.org/abs/2605.21486",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cond-mat.dis-nn",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "Quantifying Hyperparameter Transfer and the Importance of Embedding Layer Learning Rate",
+  "authors": "Dayal Singh Kalra, Maissam Barkeshli",
+  "abstract": "Hyperparameter transfer allows extrapolating optimal optimization hyperparameters from small to large scales, making it critical for training large language models (LLMs). This is done either by fitting a scaling law to the hyperparameters or by a judicious choice of parameterization, such as Maximal Update ($μ$P), that renders optimal hyperparameters approximately scale invariant. In this paper, we first develop a framework to quantify hyperparameter transfer through three metrics: (1) the quality of the scaling law fit, (2) the robustness to extrapolation errors, and (3) the asymptotic loss penalty due to choice of parameterization. Next, we investigate through a comprehensive series of ablations why $μ$P appears to offer high-quality learning rate transfer relative to standard parameterization (SP), as existing theory is inadequate. We find that the overwhelming benefit of $μ$P relative to SP when training with AdamW arises simply from maximizing the learning rate of the embedding layer. In SP, the embedding layer learning rate acts as a bottleneck that induces training instabilities; increasing it by a factor of width to match $μ$P dramatically smooths out training while improving hyperparameter transfer. We also find that weight decay improves the scaling law fits, while, in the fixed token-per-parameter setting, it hurts the robustness of the extrapolation.",
+  "title_relatable": "Why embedding layer learning rate matters more than you think",
+  "hook": "The secret to training larger language models with the same hyperparameters? It's not fancy math—it's letting the embedding layer learn faster.",
+  "summary": "Training massive language models requires finding hyperparameters that work across scales. This paper explains why μP, a popular method for transferring hyperparameters from small to large models, actually works: it simply increases the embedding layer's learning rate, which becomes a critical bottleneck in standard training. The authors quantify hyperparameter transfer through three metrics and show that this one change—boosting embedding layer learning rate by a factor of model width—smooths training and improves scaling, while weight decay helps fits but hurts robustness.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 983,
+  "tokens_out": 194,
+  "cost_usd": 0.0015624,
+  "ingested_at": "2026-05-21T23:58:43.355764+00:00"
+}

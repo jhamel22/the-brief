@@ -1,0 +1,23 @@
+{
+  "id": "2605.21121",
+  "arxiv_url": "https://arxiv.org/abs/2605.21121",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR"
+  ],
+  "title_original": "ROAR-3D: Routing Arbitrary Views for High-Fidelity 3D Generation",
+  "authors": "Hanxiao Sun, Mingxin Yang, Shuhui Yang, Zebin He, Xintong Han, Hongbo Fu, Chunchao Guo, Wenhan Luo",
+  "abstract": "Single-image-to-3D generative models can now produce high-quality geometry, yet conditioning on a single view inevitably introduces ambiguity about unseen regions. Multi-view conditioning can reduce this ambiguity, but existing methods either require fixed canonical viewpoints or rely on external reconstruction modules that impose heavy training costs and limit generation quality. We observe that pretrained single-view models already possess strong 2D-to-3D grounding that can be reused for multi-view conditioning. However, a closer analysis reveals that their conditioning mechanism entangles orientation control with geometry transfer, two functions that conflict when images from different viewpoints are naively combined. Based on this analysis, we propose ROAR-3D, a lightweight method that upgrades a pretrained single-view model to accept an arbitrary number of unposed images. A token-wise view router assigns each 3D latent token to its most relevant view, implicitly establishing 2D-to-3D correspondences without explicit pose input. A dual-stream attention design preserves the pretrained primary-view behavior while routing auxiliary views through a separate path dedicated to geometric enrichment. An orientation perturbation strategy ensures the auxiliary path learns orientation-independent geometry transfer. These components introduce minimal trainable parameters and add negligible inference overhead relative to the single-view baseline. ROAR-3D achieves state-of-the-art multi-view 3D generation quality and supports test-time view scaling from 1 to 12+ views with consistent improvements.",
+  "title_relatable": "How to turn one blurry 3D model into crystal clarity with multiple angles",
+  "hook": "A lightweight upgrade to existing 3D generators that intelligently routes information from multiple views without needing pose estimates, matching state-of-the-art quality while requiring almost no new training.",
+  "summary": "Single images produce ambiguous 3D models because half the object is invisible. ROAR-3D fixes this by upgrading pretrained single-view 3D models to accept arbitrary multi-view images without explicit camera poses. A token router assigns each 3D location to its most relevant view, while dual-stream attention keeps the original model's behavior intact while funneling geometric detail from auxiliary angles. The method adds minimal training overhead and scales from 1 to 12+ views at test time.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1034,
+  "tokens_out": 203,
+  "cost_usd": 0.0016392,
+  "ingested_at": "2026-05-22T00:14:03.601490+00:00"
+}

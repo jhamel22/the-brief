@@ -1,0 +1,22 @@
+{
+  "id": "2605.21421",
+  "arxiv_url": "https://arxiv.org/abs/2605.21421",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "AIGaitor: Privacy-preserving and cloud-free motion analysis for everyone, using edge computing",
+  "authors": "Lauhitya Reddy, Trisha M. Kesar, Hyeokhyen Kwon",
+  "abstract": "Motion capture is the gold standard for measuring human movement, but clinical use remains limited by cost, technical complexity, and privacy concerns. AIGaitor is a privacy-preserving, cloud-free motion analysis system that runs markerless monocular motion-capture pipelines and downstream deep-learning analysis entirely on a consumer smartphone using on-device neural accelerators. To motivate its design, we surveyed 74 rehabilitation clinicians: 92 percent said they would adopt an accurate, cost-effective, easy-to-use AI gait analysis tool, while 79.7 percent cited operating cost, 68.9 percent insufficient training, and 64.9 percent privacy concerns as leading barriers. We then optimized and benchmarked mobile iOS implementations of current monocular pipeline components, including 2D and 3D pose estimation, pose optimization, skeleton-based deep-learning analysis, and a vision-language model. A Time-Priority end-to-end on-device pipeline processes a 10 s 4K 60 fps video clip in 77 s on an iPhone 14, matching or beating the same pipeline on a high-end NVIDIA H200 cloud server when network transfer is included: 94 s at global mobile-average uplink and 66 s at developed-world Wi-Fi. Lightweight models such as ViTPose-s achieve real-time keypoint extraction, and skeleton-based action-recognition models provide sub-millisecond gait classification on the same clip. To our knowledge, AIGaitor is the first monocular system to demonstrate end-to-end on-device motion capture and downstream deep-learning analysis, supporting clinically applicable movement analysis that is low-cost, private, and accessible to smartphone users.",
+  "title_relatable": "Running clinical motion capture on your smartphone, privately",
+  "hook": "Gait analysis on a phone beats cloud servers when you count network lag. Clinicians overwhelmingly want this.",
+  "summary": "Clinical gait analysis normally requires expensive motion-capture labs and trained technicians. AIGaitor runs the entire pipeline—pose estimation, pose optimization, and AI classification—locally on a smartphone using its neural accelerator, with no cloud uploads. On an iPhone 14, it processes 10-second 4K video in 77 seconds, faster than uploading to a high-end cloud GPU when network latency is included. A survey of 74 rehabilitation clinicians found 92% would adopt an accurate, affordable, easy-to-use tool; privacy and operating cost were their top barriers.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1066,
+  "tokens_out": 201,
+  "cost_usd": 0.0016568000000000002,
+  "ingested_at": "2026-05-22T00:11:09.372347+00:00"
+}

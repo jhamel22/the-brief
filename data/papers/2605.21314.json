@@ -1,0 +1,22 @@
+{
+  "id": "2605.21314",
+  "arxiv_url": "https://arxiv.org/abs/2605.21314",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "$B_c \\to η_c$ form factors at large recoil: SCET analysis and a three-loop consistency check",
+  "authors": "Guido Bell, Philipp Böer, Thorsten Feldmann, Dennis Horstmann, Vladyslav Shtabovenko",
+  "abstract": "The double-logarithmic series of non-relativistic $B_c \\to η_c$ form factors at large recoil is governed by a coupled set of integral equations, reflecting an intricate interplay between arbitrarily many soft-quark and soft-gluon exchanges. Whereas we previously derived these integral equations with diagrammatic resummation techniques, we analyze the form factors in the limit $m_b \\gg m_c \\gg Λ_{\\rm QCD}$ with methods from Soft-Collinear Effective Theory (SCET) in this work. Although the resulting factorization theorem for the so-called soft-overlap contribution is known to be spoilt by endpoint divergences, it can still be used at the level of bare (regularized) quantities at any fixed order in perturbation theory. By calculating the required ingredients, we show that the SCET analysis confirms the predictions of the integral equations up to three-loop order. We also argue that the iterative structure and the intertwined soft-quark and soft-gluon effects can be derived from standard renormalization-group equations of the $B_c$-meson light-cone distribution amplitudes, provided their inverse moments are regularized with an appropriate cutoff.",
+  "title_relatable": "Do two ways of calculating rare B meson decays agree?",
+  "hook": "Physicists cross-check a complex calculation of how heavy B mesons decay using two independent methods—and confirm they match through three loops of quantum corrections.",
+  "summary": "Rare decays of B_c mesons involve intricate quantum interference between soft quarks and gluons. The authors verify that two different theoretical approaches—one using SCET (a modern effective theory) and another using integral equations—give identical predictions for how these decays proceed. This three-loop consistency check is crucial because it validates the approximations needed to make otherwise intractable calculations tractable.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1012,
+  "tokens_out": 171,
+  "cost_usd": 0.0014935999999999999,
+  "ingested_at": "2026-05-21T23:52:10.642546+00:00"
+}

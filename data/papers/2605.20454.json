@@ -1,0 +1,24 @@
+{
+  "id": "2605.20454",
+  "arxiv_url": "https://arxiv.org/abs/2605.20454",
+  "announced_date": "2026-05-19",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI",
+    "q-bio.QM"
+  ],
+  "title_original": "Sparse Contextual Coupling Reshapes Diffusion Geometry in Multilayer Hypergraphs",
+  "authors": "Hao Ding, Sanjukta Krishnagopal",
+  "abstract": "Many complex systems combine dense background structure with sparse contextual information. We introduce a diffusion-based framework for analyzing how sparse condition-specific layers reshape diffusion geometry in multilayer hypergraphs. Each layer is represented as a weighted hypergraph, layers are coupled through shared entities, and random walks on the coupled system induce multiscale diffusion distances between nodes. We apply the framework to disease-conditioned gene networks by coupling a dense MSigDB functional gene-set layer to sparse disease-specific DGIdb drug-gene hypergraphs, with disease-associated drugs selected from DDDB and HumanNet-GSP used to define external gene weights. Across Bipolar Disorder, Schizophrenia, Leukemia, and Breast Cancer, the disease-specific layer contains less than 2 percent of genes in the coupled system, yet substantially changes diffusion distances and community structure. Centrality analysis suggests that this disproportionate effect arises because DGIdb-associated genes occupy influential positions in the MSigDB-derived functional network. The resulting diffusion-derived communities are stable under subsampling and show coherent post hoc functional enrichment, including signaling and neurotransmission categories in neuropsychiatric diseases and immune, translational, and metabolic categories in cancer-associated diseases. Community-level comparisons further reveal disease similarities not reducible to direct DGIdb gene overlap, including a Breast Cancer-Schizophrenia relationship consistent with recent biomedical evidence. These results show that sparse contextual layers can induce interpretable nonlocal changes in higher-order network geometry.",
+  "title_relatable": "A tiny slice of a network can reshape the whole map",
+  "hook": "Just 2% of genes in a disease network can dramatically reorganize its entire community structure.",
+  "summary": "Coupling a sparse disease-specific drug-gene layer to a large general gene-function network reshapes how information spreads across the whole system — far out of proportion to its size. Across bipolar disorder, schizophrenia, leukemia, and breast cancer, that thin contextual slice (under 2% of genes) consistently reorganized network communities and revealed unexpected disease similarities, including a breast cancer–schizophrenia connection with emerging biomedical support. The finding has practical implications for drug discovery: the genes most targeted by drugs happen to sit in the most influential network positions, acting as levers that move everything else.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1068,
+  "tokens_out": 200,
+  "cost_usd": 0.006204,
+  "ingested_at": "2026-05-21T23:53:28.870217+00:00"
+}

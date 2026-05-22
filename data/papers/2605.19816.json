@@ -1,0 +1,22 @@
+{
+  "id": "2605.19816",
+  "arxiv_url": "https://arxiv.org/abs/2605.19816",
+  "announced_date": "2026-05-19",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Performance of low vision individuals when selecting a target with head-pointing in virtual reality",
+  "authors": "Camille Bordeau, Célia Passerel, Ambre Denis-Noël, Jean-Baptiste Melmi, Marianne Vaugoyeau, Carlos Aguilar, Iliana Huyet, Caroline Topart, François Devin, Frédéric Matonti, Pierre Kornprobst, Eric Castet",
+  "abstract": "Purpose: To investigate psychophysically the ability of low vision individuals with central visual field loss (CFL) to perform a visually-guided pointing task in a virtual reality environment. Methods: Patients with CFL (n=25, ages = 67-90 years) and normally-sighted controls (n=26, ages = 67-85 years) had to select a target (2{\\textdegree} diameter dot) with a head-contingent cursor (6{\\textdegree} diameter reticle). Target selection occurred when target was validly pointed at for 1.5 seconds. Pointing was valid when target was inside an invisible pointer activation zone (PAZ) centered on reticle. Task difficulty was decreased by increasing PAZ diameter from 0.5{\\textdegree} to 8{\\textdegree}. Performance was assessed by measuring the time needed to select the target. The task was also performed with an array of three simultaneously-displayed cursors. Results: Selection times decreased (from 14.1 and 8.4 seconds for patients and controls respectively) with increasing PAZ diameter and reached a similar asymptote for both groups (1.4 seconds). The rate of this decrease was smaller for patients so that PAZ diameter needed for their best performance was much larger than PAZ diameter needed for controls' best performance (average: 3.48{\\textdegree} vs 1.32{\\textdegree}). In the three-reticle condition, both groups tended to use the cursor closer to the target. Conclusions: Patients with CFL are able to point at a 2{\\textdegree} target thanks to head-pointing. Their performance can get close to controls' best performance by increasing PAZ size. Translational relevance: This research suggests guidelines to improve the accessibility of visually-guided pointing tools for human-machine interfaces designed for low vision individuals.",
+  "title_relatable": "Can people with central vision loss point at targets using their head?",
+  "hook": "Elderly patients with central vision loss can hit small targets using head movements if the computer makes the activation zone bigger—widening accessibility for VR interfaces.",
+  "summary": "Researchers had 25 elderly patients with central vision loss and 26 sighted controls select 2-degree dots in VR using head-contingent cursors. Patients needed a larger activation zone (3.48° vs 1.32°) to match controls' speed, but both groups eventually reached similar selection times (~1.4 seconds) when the zone expanded. This suggests simple interface tweaks—bigger clickable zones—could make VR tools usable for people with vision loss.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 886,
+  "tokens_out": 191,
+  "cost_usd": 0.0014728000000000002,
+  "ingested_at": "2026-05-22T00:18:17.777726+00:00"
+}

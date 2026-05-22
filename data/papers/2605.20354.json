@@ -1,0 +1,23 @@
+{
+  "id": "2605.20354",
+  "arxiv_url": "https://arxiv.org/abs/2605.20354",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Transfer observables of rotating acoustic black holes from ray tracing: shadow centroid, redshift asymmetry and flux imbalance",
+  "authors": "Faizuddin Ahmed, Ahmad Al-Badawi, Fernando M. Belchior, Edilberto O. Silva",
+  "abstract": "We construct an impact-parameter-resolved transfer framework for null acoustic rays in the rotating draining-bathtub spacetime. The formalism separates the source-independent ray geometry from the source and detector model by keeping explicit the acoustic redshift, transfer convention, emissivity, emitter velocity field, and source-to-screen mapping. The geometric capture interval provides two clean observables: a shadow centroid that shifts linearly with circulation and a shadow width that grows monotonically with circulation. Observable profiles are obtained from direct ray-source intersections, finite source width or extended-disk integration, detector convolution, and convergence checks, rather than from an approximate semi-analytic ring map. The transfer calculation shows that rotation produces a left-right redshift tilt and a branch-dependent flux imbalance, while the total flux alone remains a degenerate circulation diagnostic. The most useful diagnostics are differential quantities: the shadow centroid, branch-integrated flux asymmetry, peak asymmetry, left-right redshift asymmetry, and global redshift contrast. We also discuss how these observables respond to the transfer convention, intrinsic azimuthal emissivity, the choice of left-right split, finite resolution, and physical limitations such as dispersion, viscosity, and finite-depth corrections.",
+  "title_relatable": "Three ways rotation shifts an acoustic black hole's shadow",
+  "hook": "Spinning acoustic black holes—laboratory analogs of Kerr holes—leave measurable, asymmetric fingerprints in sound that total flux alone can't reveal.",
+  "summary": "Acoustic black holes are vortex flows in fluids where sound rays mimic light near a real black hole. By ray-tracing null acoustic paths through a rotating 'draining-bathtub' flow, the authors identify three clean observational handles: a shadow centroid that shifts linearly with circulation, a left-right redshift tilt, and a branch-dependent flux imbalance. Total flux is a poor diagnostic of rotation, but these differential quantities could guide tabletop experiments seeking to probe the acoustic analog of frame-dragging.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1004,
+  "tokens_out": 197,
+  "cost_usd": 0.005967,
+  "ingested_at": "2026-05-21T23:47:10.265479+00:00"
+}

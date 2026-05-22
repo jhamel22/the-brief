@@ -1,0 +1,22 @@
+{
+  "id": "2605.20991",
+  "arxiv_url": "https://arxiv.org/abs/2605.20991",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Lack of Significant Orbital-Phase Locking in the Active Phases of the Recurrent Nova T CrB",
+  "authors": "Songpeng Pei, Xiaowan Zhang, Renzhi Su, Yongzhi Cai, Ziwei Ou, Qiang Li, Xiaoqin Ren, Yu Liu, Taozhi Yang",
+  "abstract": "T Coronae Borealis (T CrB) is a symbiotic recurrent nova (RN) that exhibits both nova eruptions and long-term active phases resembling superoutbursts and normal outbursts. Motivated by proposed connections between these events and the binary orbit, we test whether the onset, maximum, or termination of the active phases is locked to orbital phase. We use long-term optical $B$- and $V$-band light curves from the American Association of Variable Stars Observers (AAVSO) International Database and historical photometry from the literature. We measure the onset, maximum, and termination times of superoutbursts and normal outbursts and convert these times to orbital phase. We test the resulting circular distributions with Kuiper and Watson statistics. We find no statistically significant orbital-phase locking. The maxima and termination are consistent with a uniform phase distribution. The smallest probabilities occur for the normal-outburst onset phases ($p_{\\rm MC}=0.083$ for the Kuiper statistic and $p_{\\rm MC}=0.079$ for the Watson statistic), but these values do not satisfy either a commonly used $p<0.05$ criterion or a $3σ$ criterion ($p=0.0027$). We therefore treat any apparent onset preference as a non-detection. The four historical nova eruptions likewise do not provide robust evidence for a unique ignition phase once the small sample size, historical date uncertainties, and long-term period changes are considered. The two known secondary eruptions occurred at similar phases, but two events are insufficient to establish an orbital-geometry connection. Overall, the active phases of T CrB appear to be governed primarily by accretion-disk physics rather than by a fixed binary phase.",
+  "title_relatable": "Why T CrB's outbursts ignore its orbital schedule",
+  "hook": "A recurrent nova's eruptions don't lock to orbital phase, suggesting accretion-disk instability drives them instead.",
+  "summary": "T Coronae Borealis is a symbiotic binary that alternates between nova eruptions and long outburst phases, prompting the question: do these events trigger at specific orbital positions? Statistical analysis of 150+ years of optical data finds no significant phase-locking for outburst onset, peak, or end. The result suggests accretion-disk dynamics, not binary geometry, governs when the system erupts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1145,
+  "tokens_out": 172,
+  "cost_usd": 0.001604,
+  "ingested_at": "2026-05-21T23:54:36.815959+00:00"
+}

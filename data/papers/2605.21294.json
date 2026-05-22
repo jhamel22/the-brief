@@ -1,0 +1,22 @@
+{
+  "id": "2605.21294",
+  "arxiv_url": "https://arxiv.org/abs/2605.21294",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Optical Super-orbital Modulation of SMC X-1: Disk Precession and a Revised Pulsar Mass",
+  "authors": "Masafumi Niwano, Nobuyuki Kawai, Michael Fausnaugh",
+  "abstract": "The observational determination of the lower limit of neutron star masses is crucial for the physics of core-collapse supernovae. In this light, SMC X-1 is an important object because of its estimated pulsar mass lying near or potentially below the theoretical lower limit. SMC X-1 exhibits a double peaked optical orbital light curve due to the tidal distortion of the donor star, and analysis of this allows us to constrain the binary parameters. In this study, we analyzed optical and X-ray light curves of SMC X-1 obtained by Transiting Exoplanet Survey Satellite and Monitor of All-sky X-ray Image. We found the systematic variations in the optical orbital light curves synchronized with the X-ray super-orbital modulation, regarding the following two aspects: the minimum at inferior conjunction and the double-peak asymmetry. To explain this behavior, we developed a modified ellipsoidal modulation model in which the precessing accretion disk changes the geometry of X-ray irradiation on the donor and that of optical irradiation on the disk. As a result, this model succeeded in reproducing the observed optical and X-ray light curves. Furthermore, we discovered that intense X-ray irradiation could cause the optical emission center to shift away from the gravitational center, potentially leading to an underestimation of the radial velocity of the donor by approximately 20%. Correcting for this effect yields an updated pulsar mass estimation of about $1.35\\>M_\\odot$.",
+  "title_relatable": "A wobbling disk reveals a neutron star's true weight",
+  "hook": "Precessing accretion disk shifts the light we use to measure a pulsar's mass—by enough to matter for theories of stellar collapse.",
+  "summary": "SMC X-1 is a neutron star pulling material from a companion star, and its brightness flickers in ways linked to the disk's precession. By modeling how the warped disk redirects X-rays onto the donor star—and how that shifts the apparent center of optical emission—researchers recovered light curve patterns previously unexplained. Correcting for this 20% radial velocity bias raises the pulsar's estimated mass to 1.35 solar masses, pushing it closer to or past theoretical limits for core-collapse supernovae.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1051,
+  "tokens_out": 198,
+  "cost_usd": 0.0016328000000000002,
+  "ingested_at": "2026-05-21T23:54:18.790063+00:00"
+}

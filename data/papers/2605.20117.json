@@ -1,0 +1,24 @@
+{
+  "id": "2605.20117",
+  "arxiv_url": "https://arxiv.org/abs/2605.20117",
+  "announced_date": "2026-05-19",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA",
+    "hep-ph"
+  ],
+  "title_original": "The potential of diffuse Galactic Ridge neutrino measurements to constrain dark matter",
+  "authors": "Jaume Zuriaga-Puig, Pedro de la Torre Luque, Viviana Gammaldi",
+  "abstract": "We use the latest ANTARES Galactic Ridge neutrino measurements to investigate their implications for indirect dark matter (DM) searches. We consider both annihilating and decaying DM scenarios, spanning a wide range of masses and final states, and systematically compare the resulting neutrino fluxes with the expected astrophysical Galactic diffuse emission. Furthermore, we compare the results for different DM density profiles allowed by the observations, from spike and cuspy to cored profiles. We do so for the WIMP model-independent scenario and explore two more specific models: branons and very heavy sterile neutrinos, where a cold DM candidate arises naturally from the theory. We show the potential neutrino measurements in the Galactic Ridge for DM and make predictions for future neutrino observatories.",
+  "title_relatable": "Can neutrinos from the galaxy's core reveal dark matter?",
+  "hook": "Using a neutrino telescope's first measurements of the galactic center, researchers set new constraints on dark matter particles and predict what larger detectors will find.",
+  "summary": "Neutrino detectors pointed at the Milky Way's dense center can reveal dark matter if annihilating or decaying particles produce detectable neutrinos there. The authors compared ANTARES telescope data against backgrounds from astrophysical sources, testing both generic dark matter models and specific theories like branons. Their analysis spans different dark matter density profiles and predicts sensitivity gains for next-generation observatories.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 892,
+  "tokens_out": 174,
+  "cost_usd": 0.0014096,
+  "ingested_at": "2026-05-21T23:52:47.982824+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.20524",
+  "arxiv_url": "https://arxiv.org/abs/2605.20524",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Light Deflection due to Spinoptic Effects in Parametrized and Spherically Symmetric Hairy Black Holes",
+  "authors": "Kelvin S. Alves, Rogerio T. Cavalcanti, Santiago E. Perez Bergliaffa",
+  "abstract": "In the standard geometric optics approximation, null rays propagating in a spherically symmetric black hole background follow planar geodesics. This picture changes, however, when the helicity-dependent effects of light are incorporated into the dynamics. Specifically, the interaction between the helicity of light and the spacetime curvature induces a significant angular deflection out of the geodesic plane. In this paper, we employ the spinoptics formalism to study light deflection due to the helicity-curvature interaction in two spherically symmetric geometries: the Rezzolla--Zhidenko (RZ) parametrized metric, and a hairy regular black hole solution obtained via gravitational decoupling. Our results reveal clear imprints of both the RZ parametrization coefficients and the hairy black hole parameter on the deflection angle. Furthermore, we assess the viability of using the RZ parametrization to mimic the regular hairy black hole, discussing the validity and limitations of such an approximation.",
+  "title_relatable": "Does light's polarization change how much a black hole bends it?",
+  "hook": "Light bends differently depending on its helicity — and the difference could fingerprint exotic black hole hair.",
+  "summary": "Beyond standard ray optics, a photon's polarization (helicity) interacts with spacetime curvature and nudges light off its expected geodesic path. Calculating this spin-optics deflection for two classes of black holes — a general parametrized metric and a 'hairy' regular black hole — the authors find each leaves a distinct signature in the deflection angle. The result raises the prospect of using precision light-bending measurements to distinguish exotic black hole solutions from ordinary ones.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 178,
+  "cost_usd": 0.005514,
+  "ingested_at": "2026-05-21T23:46:39.156903+00:00"
+}

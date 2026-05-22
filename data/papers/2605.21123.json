@@ -1,0 +1,23 @@
+{
+  "id": "2605.21123",
+  "arxiv_url": "https://arxiv.org/abs/2605.21123",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Linear-DPO: Linear Direct Preference Optimization for Diffusion and Flow-Matching Generative Models",
+  "authors": "Kesong Li, Yixuan Xu, Kuo-kun Tseng, Weiyi Lu, Kan Liu, Tao Lan",
+  "abstract": "Direct Preference Optimization (DPO) is successful for alignment in LLMs but still faces challenges in text-to-image generation. Existing studies are confined to denoising diffusion models while overlooking flow-matching, and suffer from an objective mismatch when applying discrete NLP-based DPO to regression-based generative tasks.\\ In this paper, we derive a generalized DPO objective that covers both diffusion and flow-matching via a unified reverse-time SDE framework, and point out from a gradient perspective that the standard DPO objective is suboptimal for text-to-image generation. Consequently, we propose Linear-DPO, which replaces the aggressive sigmoid-based utility function with a sustained linear utility and incorporates an EMA-updated reference model. Qualitative and quantitative experiments on diffusion models (SD1.5, SDXL) and flow-matching model (SD3-Medium) demonstrate the superiority of our approach over existing baselines.",
+  "title_relatable": "Making image generators prefer better outputs the right way",
+  "hook": "A mismatch between how we train language models and image generators means standard preference optimization fails. Linear-DPO fixes it across both diffusion and flow-matching models.",
+  "summary": "Getting image generators to prefer human-approved outputs requires different math than language models. The authors show standard DPO uses the wrong utility function for image generation—it's too aggressive. Linear-DPO swaps in a gentler linear utility and improves results on Stable Diffusion 1.5, SDXL, and SD3-Medium, making alignment work across both major generative model architectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 916,
+  "tokens_out": 174,
+  "cost_usd": 0.0014288000000000003,
+  "ingested_at": "2026-05-22T00:13:18.109270+00:00"
+}

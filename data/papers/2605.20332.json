@@ -1,0 +1,24 @@
+{
+  "id": "2605.20332",
+  "arxiv_url": "https://arxiv.org/abs/2605.20332",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Cosmological History of Flavour Deconstruction Models: Constraints from Monopole Production",
+  "authors": "Marko Pesut, Davide Racco, Yunlong Zhao",
+  "abstract": "We highlight a generic connection between extensions of the Standard Model featuring low-scale semi-simple embeddings of $\\rm{U}(1)_{\\rm EM}$ and the phenomenology of magnetic monopoles in the early Universe. In particular, flavour non-universal models provide a well-motivated framework to address the hierarchical structure of Yukawa couplings while allowing new dynamics close to the TeV scale compatible with experimental bounds. In these constructions, the sequential breaking of semi-simple gauge groups through intermediate stages containing an unbroken $\\rm{U}(1)$ factor generically leads to the production of light magnetic monopoles whose masses are set by scales far below the scale of Grand Unified Theories. Combining cosmological, astrophysical, and direct-search constraints, the parameter region naturally predicted by these models requires low-scale inflation to dilute the monopoles, followed by reheating below the monopole-production scale, typically around $10^{3}\\text{--}10^4\\,\\mathrm{TeV}$. These results significantly reduce the otherwise large allowed inflationary window and establish a direct connection between flavour physics and the thermal history of the early Universe: future evidence for flavour non-universal interactions would point towards a low-scale reheating, while probes of primordial gravitational waves could directly constrain the scale at which semi-simple groups can appear in flavour models.",
+  "title_relatable": "Why flavour physics demands a cold early universe",
+  "hook": "Models that explain why electron and tau have different masses unavoidably produce magnetic monopoles that constrain how hot the early universe could get.",
+  "summary": "Extensions of the Standard Model that explain the hierarchy of particle masses through flavour-dependent gauge groups inevitably produce light magnetic monopoles in the early universe. Combining constraints from cosmology, astrophysics, and direct searches, the authors show these monopoles require reheating temperatures around 10³–10⁴ TeV—roughly a thousand times hotter than the TeV scale but far cooler than the Grand Unified Theory scale. This creates a direct link: evidence for flavour physics would imply a cold early universe, while gravitational wave observations could pin down the scale at which these gauge structures emerge.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1021,
+  "tokens_out": 208,
+  "cost_usd": 0.0016488000000000002,
+  "ingested_at": "2026-05-21T23:51:31.213031+00:00"
+}

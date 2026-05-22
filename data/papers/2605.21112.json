@@ -1,0 +1,22 @@
+{
+  "id": "2605.21112",
+  "arxiv_url": "https://arxiv.org/abs/2605.21112",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding",
+  "authors": "Weiyi Xiong, Bing Zhu",
+  "abstract": "4D automotive radar is indispensable for autonomous driving due to its low cost and robustness, yet its point cloud sparsity challenges 3D object detection. Existing 4D radar-camera fusion methods focus on complex fusion strategies, trading inference speed for marginal gains. This trade-off hinders real-time deployment due to heavy computation on dense feature maps. In contrast, feature extraction from sparse radar points is less time-consuming but remains under-explored. This work uncovers that simply enhancing radar feature extraction can achieve comparable or even higher performance than elaborate fusion modules, while maintaining real-time performance. Based on this finding, we propose RCGDet3D, which centers on radar feature encoding and simplifies multi-modal fusion. Its encoder inherits from the efficient Gaussian Splatting-based Point Gaussian Encoder (PGE) in RadarGaussianDet3D with two key improvements. First, the Ray-centric PGE (R-PGE) predicts Gaussian attributes in ray-aligned coordinate systems before unifying them to Bird's-Eye View (BEV) space, significantly improving geometric consistency and reducing learning difficulty by decoupling the coordinate transformation from representation learning. Second, a Semantic Injection (SI) module incorporates visual cues from images, producing more geometrically accurate and semantically enriched radar features. Experiments on View-of-Delft (VoD) and TJ4DRadSet show that RCGDet3D outperforms state-of-the-art methods in both accuracy and speed, setting a new benchmark for real-time deployment.",
+  "title_relatable": "Making radar better at seeing: why simpler fusion beats complexity",
+  "hook": "Better radar feature extraction alone outperforms elaborate fusion strategies while running in real time—a counterintuitive finding that rewrites the playbook for autonomous driving perception.",
+  "summary": "3D object detection for self-driving cars relies on fusing radar and camera data, but sparse radar points have always been a bottleneck. This work flips the conventional wisdom: instead of building complex fusion modules, the authors show that improving how you extract features from radar alone achieves better accuracy faster. RCGDet3D uses ray-aligned coordinate prediction to make geometric learning easier, then adds visual cues from cameras afterward. On two benchmark datasets, it beats prior methods in both speed and accuracy—with clear potential for real-world deployment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1043,
+  "tokens_out": 202,
+  "cost_usd": 0.0016424,
+  "ingested_at": "2026-05-22T00:14:07.459010+00:00"
+}

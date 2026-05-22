@@ -1,0 +1,22 @@
+{
+  "id": "2605.21286",
+  "arxiv_url": "https://arxiv.org/abs/2605.21286",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Software Between Quantum and Machine Learning -- And Down to Pulses",
+  "authors": "Maja Franz, Melvin Strobl, Jonathan Hunz, Lukas Scheller, Lucas van der Horst, Eileen Kuehn, Achim Streit, Wolfgang Mauerer",
+  "abstract": "Contemporary quantum computing platforms remain, in essence, programmable physical systems whose control is typically mediated through unitary gate abstractions. While such abstractions provide a uniform interface, they obscure important aspects of the underlying hardware and may limit the exploitation of its full capabilities. Direct operation at the control-pulse level offers a more expressive and physically faithful paradigm, enabling, for instance, the implementation of tailored error-mitigation and optimisation strategies. However, this increased expressivity comes at the cost of greater quantum software development complexity, necessitating structured and accessible tooling. We present a software framework, integrated within the QML-Essentials package, that extends quantum machine learning (QML) methodologies to encompass pulse-level modelling. By embedding quantum optimal control techniques within a QML setting, our approach enables the seamless combination of gate-based and pulse-level representations. The framework provides a comprehensive suite of modelling and analytical capabilities. In particular, we introduce composable ansatz constructions based on interchangeable building blocks, and support for end-to-end optimisation of pulse parameters. Motivated by the central role of quantum Fourier models, we further incorporate a range of Fourier-analytic diagnostics, complemented by extended measures of entanglement. All performance-critical components are implemented in a high-performance environment using JAX and supported by a dedicated quantum simulator. Taken together, the framework facilitates reproducible and systematic investigations, while bridging the conceptual and practical divide between abstract circuit models and hardware-aware optimisation. It provides a robust foundation for future developments at the intersection of QML and quantum control.",
+  "title_relatable": "Programming quantum computers at the pulse level, not just gates",
+  "hook": "A new software toolkit lets researchers bypass gate abstractions and tune quantum hardware directly through control pulses.",
+  "summary": "Most quantum programs are written in terms of abstract logic gates, but the actual hardware speaks in microwave pulses — and that gap hides optimization opportunities. This framework, built into the QML-Essentials package, bridges gate-based quantum machine learning with pulse-level control, letting researchers mix both representations and optimize at either layer. For anyone trying to squeeze more performance out of near-term quantum hardware, it could shorten the path from algorithm to physical implementation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1079,
+  "tokens_out": 163,
+  "cost_usd": 0.005682,
+  "ingested_at": "2026-05-21T23:49:26.320107+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.21355",
+  "arxiv_url": "https://arxiv.org/abs/2605.21355",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "math-ph",
+    "math.FA",
+    "math.SP",
+    "quant-ph"
+  ],
+  "title_original": "Essentially singular limits of Jacobi operators and applications to higher-order squeezing",
+  "authors": "Felix Fischer, Daniel Burgarth, Davide Lonigro",
+  "abstract": "We study a family of Jacobi operators in which the diagonal entries are multiplied by a coupling parameter $λ\\geq0$. Under suitable conditions, the operator is self-adjoint for every $λ>0$, while the formal limit at $λ=0$ is a symmetric Jacobi operator admitting a one-parameter family of self-adjoint extensions. A central ingredient of our analysis is the derivation of uniform bounds for square-summable generalized eigenvectors in the small-$λ$ regime, which combines discrete WKB methods with Airy-function asymptotics. Using these estimates, we analyze the limiting behavior $λ\\to0$ in the strong resolvent sense, proving that for every sequence $λ_j\\to0$ one can extract a subsequence along which the corresponding Jacobi operators converge to some self-adjoint extension of the limiting operator; conversely, every such extension can be obtained in this way. We call this behavior an essentially singular limit, by analogy with essential singularities in complex analysis. As an application, we study higher-order squeezing operators arising in quantum optics. Using the connection with Jacobi operators, we show that when the relative strength of the free-field term tends to zero, different self-adjoint extensions of the squeezing operator are selected along different sequences. In particular, this limit does not single out a physically distinguished self-adjoint extension, but instead identifies a distinguished subclass of extensions compatible with the underlying symmetry.",
+  "title_relatable": "Quantum squeezing operators have no single 'natural' version",
+  "hook": "A quantum optics operator thought to have a preferred physical form actually admits infinitely many valid versions, with no distinguished choice.",
+  "summary": "When a squeezing operator in quantum optics has its free-field term dialed to zero, you might expect it to settle on one natural mathematical form — but it doesn't. Using a mix of discrete WKB methods and Airy-function asymptotics, the authors show that different ways of taking this limit select different self-adjoint extensions, with no single physically preferred one emerging. This matters practically: it means the squeezing operator's behavior isn't pinned down by the limit, and any calculation assuming a canonical choice may be making an implicit, unjustified assumption.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1034,
+  "tokens_out": 200,
+  "cost_usd": 0.006102,
+  "ingested_at": "2026-05-21T23:49:08.834632+00:00"
+}

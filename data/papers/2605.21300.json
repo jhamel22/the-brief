@@ -1,0 +1,22 @@
+{
+  "id": "2605.21300",
+  "arxiv_url": "https://arxiv.org/abs/2605.21300",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Reducing Object Hallucination in LVLMs via Emphasizing Image-negative Tokens",
+  "authors": "Meng Shen, Minghao Wu, Deepu Rajan",
+  "abstract": "Object hallucination is a significant challenge that hinders the application of large vision-language models (LVLMs) in practice. We hypothesize that one possible origin of hallucination is the model's tendency to prioritize text generation over meaningful interaction with images. To explore this, we examine the generation process and categorize text tokens into three groups: image-positive, invariant, and negative, based on their visual dependence on input image tokens. Our analysis reveals that most generated tokens are minimally influenced by the image information. This suggests that during the model's training stage, more emphasis is placed on learning how to follow textual instructions, rather than extracting information from images. Based on this finding, we propose adjusting the training weights of different tokens depending on their visual dependence to control hallucination. Additionally, we remove a portion of the training data that potentially contains more hallucinations as a data filtering strategy. Both methods achieve a reduction in hallucination without compromising response length or introducing additional computational costs during inference. We validate our methods across three LVLM variants, demonstrating the effectiveness and general applicability.",
+  "title_relatable": "Why vision-language models ignore images and hallucinate objects",
+  "hook": "LVLMs generate most tokens without looking at the image. Reweighting training by visual dependence cuts hallucinations without slowing inference.",
+  "summary": "Large vision-language models often describe objects that aren't actually in images—a problem called hallucination. The authors found that most generated tokens rely minimally on image information, suggesting models learn to follow text instructions better than extract visual details. They propose two fixes: reweight training to emphasize tokens that truly depend on the image, and filter training data with high hallucination risk. Both reduce false object descriptions while keeping response length unchanged and adding zero inference cost.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 914,
+  "tokens_out": 179,
+  "cost_usd": 0.0014472,
+  "ingested_at": "2026-05-22T00:13:32.737073+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.21074",
+  "arxiv_url": "https://arxiv.org/abs/2605.21074",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "math-ph",
+    "gr-qc"
+  ],
+  "title_original": "Alpha-Dependent Cross-Tidal Residuals Beyond the Diagonal Newtonian Lunar Tensor: A Halilsoy-Inspired 45° Eigenframe Channel",
+  "authors": "Muhittin Cenk Eser, Mustafa Halilsoy",
+  "abstract": "The Earth-Moon tide is classically explained by the Newtonian quadrupolar tidal tensor. In its principal frame, this tensor gives the familiar 90-degree stretching-squeezing geometry and contains only the ordinary plus-type tidal channel. A projected acceleration can be evaluated along any direction, including the 45-degree direction, but this projection is not an independent cross-tidal residual. In this work, we propose a Halilsoy-inspired residual extension of the lunar tidal tensor. The motivation comes from Halilsoy's cross-polarized cylindrical gravitational waves, where an off-diagonal tidal sector naturally rotates the local tidal eigenframe. Using this relativistic mechanism as a guide, we introduce an alpha-dependent residual coefficient, chi_H(alpha,t,rho), representing a possible hidden off-diagonal tidal component beyond the diagonal Newtonian principal-frame tensor. The proposed residual does not destroy the ordinary 90-degree separation of the principal tidal axes. Instead, it rotates the whole eigenframe and produces a distinct 45-degree-type angular signature. This signature appears as an additional sin(2 beta) residual channel whose strongest directions are 45, 135, 225, and 315 degrees. The corresponding residual acceleration scale is controlled by chi_H. The model does not replace standard lunar tidal theory and does not identify the Earth-Moon system with a Halilsoy spacetime. Rather, it provides a testable residual ansatz: Newtonian gravity explains the dominant lunar tide, while the Halilsoy-inspired sector supplies an alpha-dependent off-diagonal cross channel that is absent from the diagonal Newtonian principal-frame description.",
+  "title_relatable": "Is there a hidden 45-degree channel in Earth's tidal forces?",
+  "hook": "A relativistic wave geometry hints at a subtle off-diagonal lunar tide invisible to standard Newtonian theory.",
+  "summary": "Standard tidal theory describes the Moon's pull as a simple stretch-squeeze along two perpendicular axes, but this paper borrows a structure from cross-polarized cylindrical gravitational waves to propose a small extra tidal component rotated 45 degrees from those axes. The proposed correction introduces a coefficient that controls the strength of this hidden channel without disturbing the familiar tidal pattern. Whether any such signal exists in real tidal data remains to be tested, but the framework offers a concrete, measurable prediction.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1109,
+  "tokens_out": 181,
+  "cost_usd": 0.006042,
+  "ingested_at": "2026-05-21T23:45:17.056506+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21040",
+  "arxiv_url": "https://arxiv.org/abs/2605.21040",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Are There Closed Timelike Curves in $f(R,\\mathcal{L}_m,Φ,g^{μν}\\nabla_μΦ\\nabla_νΦ)$-Gravity?",
+  "authors": "Faizuddin Ahmed, A. F. Santos",
+  "abstract": "A modified gravitational model whose action is given by an arbitrary function of the Ricci scalar, the matter Lagrangian density, a scalar field, and its kinetic term is investigated as an extension of the gravitational sector including an additional dynamical degree of freedom. Within this framework, the causal structure of rotating cosmological solutions is analyzed by considering a cylindrically symmetric Pertov-type N space-times and an axially symmetric Petrov type-III with a cosmological constant as background geometries used as theoretical probes of the model consistency. In both cases, pure radiation as matter sources are examined, including a scalar-field configurations. We demonstrate that, although the considered space-times are exact solutions to the field equations of general relativity with a matter source, they are inconsistent within the modified gravity theory considered here.",
+  "title_relatable": "Can modified gravity theories host time travel geometries?",
+  "hook": "Two spacetimes that allow closed timelike curves in general relativity simply don't work in this modified gravity theory.",
+  "summary": "Certain exotic rotating spacetimes — ones that technically permit closed timelike curves, or paths through spacetime that loop back in time — are exact solutions in standard general relativity but fail entirely when plugged into a modified gravity framework that adds a scalar field and its kinetic energy to the gravitational action. Testing two classic geometries (Petrov type-N and type-III spacetimes), the authors show the field equations become inconsistent. This suggests the modified theory is more restrictive about what causal structures it can support, which matters for assessing whether such theories are physically viable.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 912,
+  "tokens_out": 193,
+  "cost_usd": 0.005631,
+  "ingested_at": "2026-05-21T23:45:38.600123+00:00"
+}

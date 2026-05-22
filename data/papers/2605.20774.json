@@ -1,0 +1,22 @@
+{
+  "id": "2605.20774",
+  "arxiv_url": "https://arxiv.org/abs/2605.20774",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "VLA-REPLICA: A Low-Cost, Reproducible Benchmark for Real-World Evaluation of Vision-Language-Action Models",
+  "authors": "Alex S. Huang, Jiahui Zhang, Shiqing Tang, Yu Xiang",
+  "abstract": "Vision-Language-Action (VLA) models have shown strong promise for general-purpose robotic manipulation, but their real-world evaluation remains limited by a lack of accessible, reproducible, and consistent benchmarks. Simulation benchmarks fail to capture real-world complexity, while existing real-world benchmarks often require expensive hardware, centralized evaluation, or are limited in task diversity. We introduce VLA-REPLICA, a low-cost, easily reproducible real-world benchmark for evaluating VLA models. Built from off-the-shelf components, our system can be quickly assembled and replicated across laboratories, providing a consistent environment for policy evaluation anywhere in the world. VLA-REPLICA includes a diverse suite of manipulation tasks and a small-scale demonstration dataset for target-domain adaptation, with real-world evaluation protocols for both in-distribution and out-of-distribution settings. Experiments with imitation learning and state-of-the-art VLA models reveal model strengths and limitations, while consistent results across independently constructed setups demonstrate the reproducibility of our benchmark.",
+  "title_relatable": "A cheap, copyable test bench for robot learning models",
+  "hook": "Most robot learning benchmarks cost tens of thousands and only work in one lab. This one uses off-the-shelf parts and replicates consistently across sites.",
+  "summary": "Evaluating robot learning models in the real world has been blocked by expensive, hard-to-replicate benchmarks. VLA-REPLICA solves this with a low-cost setup built from standard components that any lab can assemble, complete with a diverse task suite and adaptation data. Tests on imitation learning and state-of-the-art VLA models show consistent results across independently built copies, proving the benchmark actually works as intended.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 914,
+  "tokens_out": 177,
+  "cost_usd": 0.0014392,
+  "ingested_at": "2026-05-22T00:16:39.600577+00:00"
+}

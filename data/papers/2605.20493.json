@@ -1,0 +1,23 @@
+{
+  "id": "2605.20493",
+  "arxiv_url": "https://arxiv.org/abs/2605.20493",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Electromagnetic duality degeneracy in dynamical black hole mergers",
+  "authors": "José Ferreira, Gabriele Bozzola, Carlos A. R. Herdeiro, Vasileios Paschalidis, Miguel Zilhão",
+  "abstract": "Electromagnetic duality is a symmetry of the source-free Einstein-Maxwell equations that rotates electric and magnetic fields while leaving the stress-energy tensor invariant. We present the first fully nonlinear realization of this symmetry in dynamical strong-gravity regimes by performing numerical relativity simulations of charged black hole mergers across a continuous duality family. Starting from electrically charged binaries, we generate dyonic and magnetically charged configurations via duality rotations and evolve them within a common numerical framework. We find that all dual configurations exhibit identical spacetime dynamics, while the emitted electromagnetic radiation is related by a rotation of its polarization equal to the duality angle. Our results demonstrate a degeneracy of gravitational observables under electromagnetic duality and provide a concrete mapping between dual configurations at the level of radiation, establishing electromagnetic duality as an organizing principle for dynamical Einstein-Maxwell solutions.",
+  "title_relatable": "Black hole mergers can't tell electric from magnetic charge",
+  "hook": "Swapping electric for magnetic charge in a black hole merger changes nothing about the gravitational waves — only the light's polarization rotates.",
+  "summary": "Electromagnetic duality — the symmetry that swaps electric and magnetic fields — has now been tested for the first time in full numerical relativity simulations of merging black holes. Across an entire family of electrically, magnetically, and 'dyonically' charged binaries, the gravitational waves are identical; only the polarization of the emitted electromagnetic radiation rotates by the duality angle. This means gravitational-wave detectors alone could never distinguish an all-electric black hole binary from a magnetic one, a concrete degeneracy with implications for interpreting future multi-messenger observations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 911,
+  "tokens_out": 201,
+  "cost_usd": 0.005748,
+  "ingested_at": "2026-05-21T23:46:44.562537+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.21041",
+  "arxiv_url": "https://arxiv.org/abs/2605.21041",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Conditioning Gaussian Processes on Almost Anything",
+  "authors": "Henry Moss, Lachlan Astfalck, Thomas Cowperthwaite, Colin Doumont, Sam Willis, Philipp Hennig, Christopher Nemeth, Andrew Zammit-Mangion",
+  "abstract": "Gaussian processes (GPs) offer a principled probabilistic model over functions, but exact inference is restricted to the linear-Gaussian regime. We establish an explicit equivalence between GPs and a class of linear diffusion models, recasting predictive sampling as an ODE with closed-form Gaussian dynamics and a likelihood-dependent guidance term that admits a simple Monte Carlo approximation. In the linear-Gaussian setting, we recover standard GP conditioning exactly; beyond conjugacy, the same machinery handles any conditioning statement admitting point-wise likelihood evaluation -- including non-linear physics, and, for the first time, natural language via large language models. Whitening isolates the irreducible non-Gaussian dynamics, minimising Wasserstein-2 transport cost and eliminating numerical stiffness. The result is a general-purpose GP inference scheme requiring no bespoke derivations. Together, these results provide a general mechanism for incorporating the full richness of real-world knowledge as conditioning information, opening a new frontier for the probabilistic modelling of real-world problems.",
+  "title_relatable": "Teaching Gaussian processes to handle any constraint you can imagine",
+  "hook": "Standard Gaussian processes only handle simple linear constraints. A new method conditions them on anything with a likelihood—physics simulations, language models, real-world data—using a single unified algorithm.",
+  "summary": "Gaussian processes are mathematically elegant for probabilistic modeling but break down when you try to condition on anything messier than linear relationships. Researchers connected GPs to diffusion models and showed the conditioning problem becomes an ODE with closed-form solutions, enabling a single Monte Carlo algorithm that handles nonlinear physics constraints, LLM-based constraints, and traditional data simultaneously. No more deriving custom inference for each problem type.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 925,
+  "tokens_out": 179,
+  "cost_usd": 0.001456,
+  "ingested_at": "2026-05-21T23:58:37.346572+00:00"
+}

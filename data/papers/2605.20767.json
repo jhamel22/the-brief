@@ -1,0 +1,24 @@
+{
+  "id": "2605.20767",
+  "arxiv_url": "https://arxiv.org/abs/2605.20767",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "The Illusion of Intervention: Your LLM-Simulated Experiment is an Observational Study",
+  "authors": "Victoria Lin, Taedong Yun, Maja Matarić, John Canny, Arthur Gretton, Alexander D'Amour",
+  "abstract": "Large language models (LLMs) show potential as simulators of human behavior, offering a scalable way to study responses to interventions. However, because LLMs are trained largely on observational data, interventions in experiments with LLM-simulated synthetic users can induce unintended shifts in latent user attributes, causing user drift where the implicit simulated population differs across treatment conditions, potentially distorting effect estimates. We formalize the confounding or selection bias that can arise due to user drift and show how intervention-dependent shifts can inflate or attenuate observed differences in user responses under intervention. To diagnose confounding, we propose using negative control outcomes--attributes that should remain invariant under intervention--to identify distribution shifts across intervention conditions, providing evidence of user drift. To mitigate drift, we study adjusting the persona specification by eliciting additional confounders, finding that targeted, setting-relevant confounders can substantially reduce bias across survey-style and multi-turn agent evaluations.",
+  "title_relatable": "Why your AI simulation experiments might be misleading",
+  "hook": "When you run an experiment with an LLM playing a human, the intervention itself can secretly change who the LLM is pretending to be—invalidating your results.",
+  "summary": "LLMs trained on real-world data carry hidden biases that shift when you intervene experimentally. Asking an LLM-simulated user how they'd respond to a treatment can subtly alter their demographics or preferences in ways that bias your effect estimates. The authors show how to catch this problem using negative controls—outcomes that shouldn't change—and fix it by specifying confounding variables upfront. This matters because LLM-based experiments are becoming common for testing interventions cheaply at scale.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 910,
+  "tokens_out": 192,
+  "cost_usd": 0.001496,
+  "ingested_at": "2026-05-22T00:07:28.470873+00:00"
+}

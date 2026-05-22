@@ -1,0 +1,24 @@
+{
+  "id": "2605.21347",
+  "arxiv_url": "https://arxiv.org/abs/2605.21347",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG",
+    "cs.SE"
+  ],
+  "title_original": "Insights Generator: Systematic Corpus-Level Trace Diagnostics for LLM Agents",
+  "authors": "Akshay Manglik, Apaar Shanker, Kaustubh Deshpande, Jason Qin, Yash Maurya, Veronica Chatrath, Vijay S. Kalmath, Levi Lentz,  Yuan,  Xue",
+  "abstract": "Diagnosing failures in LLM agents remains largely manual. Practitioners inspect a small subset of execution traces, form ad-hoc hypotheses, and iterate. This process misses patterns that only emerge across trace populations and does not scale to production corpora where individual traces span tens of thousands of tokens. We formalize the problem of corpus-level trace diagnostics. Given a corpus of execution traces, the goal is to produce grounded natural-language insights that characterize systematic behavioral patterns across trace groups, each linked to supporting evidence. We present the Insights Generator (IG), a multi-agent system that answers diagnostic questions by proposing and testing hypotheses across the trace corpus to produce an evidence-backed insights report. We evaluate IG across qualitative and objective dimensions, spanning rubric-based report assessment and downstream performance improvements achieved by implementing IG insights. Human experts using IG reports improve scaffold performance by 30.4pp over the unmodified baseline scaffold, and coding agents leveraging IG-derived insights show consistent and stable gains. Across benchmarks, IG's scout-investigator architecture produces findings comparable in detection coverage to competing approaches, while domain experts rated IG reports as leading depth and evidence quality.",
+  "title_relatable": "Diagnosing why AI agents fail at scale",
+  "hook": "A system that automatically analyzes thousands of LLM agent failures to surface hidden patterns—and fixes based on its findings improved performance by 30 percentage points.",
+  "summary": "Debugging LLM agents today means manually inspecting a handful of failed runs. Insights Generator instead treats the entire corpus of execution traces as diagnostic data, automatically proposing and testing hypotheses to uncover systematic behavioral patterns across failures. The system produced natural-language reports with supporting evidence that experts found more useful than manual analysis, and implementing insights from these reports improved scaffold performance by 30.4 percentage points and showed consistent gains on coding tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 984,
+  "tokens_out": 176,
+  "cost_usd": 0.0014912,
+  "ingested_at": "2026-05-21T23:56:52.511866+00:00"
+}

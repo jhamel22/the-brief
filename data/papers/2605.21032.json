@@ -1,0 +1,22 @@
+{
+  "id": "2605.21032",
+  "arxiv_url": "https://arxiv.org/abs/2605.21032",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation",
+  "authors": "Bowyn Tan, Yutong Xie, Bai Huang, Fan Luo, Xiao Li, Naizheng Wang, Yang Guan, Shengbo Eben Li",
+  "abstract": "High-fidelity street scene reconstruction is pivotal for end-to-end autonomous driving simulation, where novel-view synthesis (NVS) and time-varying information modeling are two fundamental capabilities to facilitate closed-loop training. However, existing 3DGS methods and their 4D extensions fail to simultaneously achieve both. To bridge this gap, we establish an information-geometric diagnostic framework, revealing that this limitation stems from a credit assignment dilemma between spatial and temporal parameters. Specifically, the deterministic coupling between viewpoint and time in single-source observation creates a low-rank structure that induces massive null-space ambiguity between static view-dependent and dynamic time-varying components. Temporal information overshadows spatial cues, causing the estimation variance of spatial parameters to diverge. To address this issue, we propose Orthogonal Projected Gradient (OPG), a hierarchical training method designed to restore spatial identifiability. OPG prioritizes the integrity of spatial representations by securing them in an initial stage, then restricts temporal updates to the spatial null space, enabling proactive credit assignment. While OPG isolates temporal updates algebraically, Temporal Regularization Strategy is proposed to further refine the temporal solution space by imposing a smoothness constraint based on the physical prior of consistent appearance evolution, ensuring that the reconstructed scene remains physically consistent in closed-loop simulation. Extensive experiments demonstrate that our method not only maintains stable NVS capabilities but also demonstrates superior performance in traditional observation-reproducing metrics, which indirectly reflect the capability of modeling temporal dynamics.",
+  "title_relatable": "Reconstructing street scenes that stay physically realistic in driving simulations",
+  "hook": "New method fixes a fundamental problem in 4D scene reconstruction: spatial and temporal information fight each other, causing driving simulators to produce unrealistic behavior.",
+  "summary": "Building high-fidelity 4D street scenes for autonomous driving simulation requires both photorealistic novel views and accurate motion modeling—but existing methods fail at both simultaneously. The authors discovered the problem: a mathematical ambiguity that forces the model to choose between learning spatial details or temporal dynamics. They propose Orthogonal Projected Gradient, which protects spatial structure first, then constrains temporal updates to avoid corrupting it, plus a smoothness constraint that enforces physically plausible motion. Tests show the method maintains visual quality while modeling time-varying effects needed for closed-loop driving training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1046,
+  "tokens_out": 209,
+  "cost_usd": 0.0016728000000000001,
+  "ingested_at": "2026-05-22T00:13:24.669038+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.21395",
+  "arxiv_url": "https://arxiv.org/abs/2605.21395",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Towards Resilient and Autonomous Networks: A BlueSky Vision on AI-Native 6G",
+  "authors": "Liang Wu, Kelly Wan, Mayank Darbari, Liangjie Hong",
+  "abstract": "The proliferation of emerging applications, such as autonomous driving and immersive experiences, demands cellular networks that are not only faster, but fundamentally more resilient and autonomous. This paper presents a BlueSky vision on how Artificial Intelligence will be natively integrated into 6G, shifting the paradigm from \\underline{Network for AI} to \\underline{AI for Network}. We envision that, unlike 5G's reliance on scattered, ad-hoc models each trained for a single task, native AI in the 6G era will be anchored by a foundation model and and orchestrated via collaborative multi-agent systems, framing network management as a unified, multi-modal, multi-task optimization problem. Built on this vision, we outline two transformative directions. The first focuses on developing a 6G foundation model as a unified backbone, with task-specific knowledge distilled into compact models suited for diverse edge deployments. The second advances multi-agent systems designed to autonomously diagnose, maintain, and recover networks with minimal human intervention. These directions chart a roadmap for 6G to evolve into an intelligent, self-sustaining communication infrastructure.",
+  "title_relatable": "How AI could make future wireless networks fix themselves",
+  "hook": "6G networks should be managed by foundation models and multi-agent AI systems that diagnose and repair themselves autonomously, rather than thousands of single-task models like in 5G.",
+  "summary": "Today's 5G networks rely on separate AI models for different tasks—traffic prediction, fault detection, optimization—each trained independently. This vision paper argues 6G should instead use a single foundation model as the backbone, with task-specific knowledge distilled into lightweight models for edge devices, orchestrated by multi-agent AI systems that autonomously manage the network. The shift moves from building \"networks for AI\" to \"AI for networks,\" enabling self-healing infrastructure that diagnoses and recovers from failures with minimal human intervention.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 931,
+  "tokens_out": 197,
+  "cost_usd": 0.0015328000000000002,
+  "ingested_at": "2026-05-21T23:56:49.946921+00:00"
+}

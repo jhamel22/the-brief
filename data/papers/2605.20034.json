@@ -1,0 +1,24 @@
+{
+  "id": "2605.20034",
+  "arxiv_url": "https://arxiv.org/abs/2605.20034",
+  "announced_date": "2026-05-19",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph",
+    "nucl-th"
+  ],
+  "title_original": "Charmonium properties at high temperatures from lattice QCD",
+  "authors": "Rasmus Normann Larsen, Peter Petreczky, Jorge Luis Dasilva Golan, Johannes H. Weber",
+  "abstract": "We study charmonium properties at non-zero temperature in the temperature range 153 MeV $<T<$ 305 MeV using lattice QCD. We use HISQ action for dynamical quarks and Wilson clover action for valence charm quarks and calculate the correlation function of extended meson operators. Our lattice QCD results are consistent with the existence of all charmonium states below the open charm threshold in this temperature region. However, charmonium states acquire sizable thermal width, which increases with increasing temperature. The size of the thermal width follows the hierarchy of charmonium sizes, i.e. the smaller ground state charmonium has a smaller thermal width than the larger excited charmonia.",
+  "title_relatable": "How charmonium particles melt as the universe heats up",
+  "hook": "Exotic particles made of charm quarks gain fuzzy edges and shorter lifetimes at the temperatures reached in particle collisions—a signature of the quark-gluon plasma.",
+  "summary": "Charm quarks bound together into charmonium states don't survive intact at high temperatures; instead they acquire thermal width—a measure of how quickly they decay. Using lattice QCD simulations, researchers found all charmonium states survive up to 305 MeV but become increasingly blurred and short-lived as temperature rises. Smaller particles decay slower than larger ones, a hierarchy that helps physicists understand how matter behaves in the extreme conditions of the early universe and particle accelerators.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 870,
+  "tokens_out": 195,
+  "cost_usd": 0.001476,
+  "ingested_at": "2026-05-21T23:52:56.142765+00:00"
+}

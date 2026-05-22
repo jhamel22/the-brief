@@ -1,0 +1,22 @@
+{
+  "id": "2605.21358",
+  "arxiv_url": "https://arxiv.org/abs/2605.21358",
+  "announced_date": "2026-05-20",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "From Summer to Spring: A Shift in US Housing Market Seasonality",
+  "authors": "Yihan Hu, Cemil Selcuk",
+  "abstract": "The US housing market exhibits pronounced seasonal cycles: prices and sales rise through spring, peak in summer, and decline through autumn and winter. Since 2021, this pattern has shifted earlier in the calendar year, with spring strengthening at the expense of the traditional summer peak. A leading explanation for housing market seasonality is the search-and-matching model of Ngai and Tenreyro (2014), which links these cycles to household mobility through a thick-market mechanism. In this framework, periods with higher mobility generate thicker markets and higher prices and transaction volumes. Viewed through this lens, a shift in the seasonal cycle of prices and sales raises the question of whether the timing of household moves has changed. Did residential mobility shift earlier in the calendar year after 2021? We find that it did. Using SIPP data, and corroborating evidence from Google Trends indicators, we document a post-2021 shift in mobility toward spring. We extend the model to a monthly frequency, prove the existence and uniqueness of the equilibrium, and calibrate it to the observed mobility patterns. The calibrated model reproduces the spring shift in both prices and transaction volumes, consistent with the view that a change in the timing of household mobility alone can account for the recent shift in housing market seasonality.",
+  "title_relatable": "Why are Americans moving in spring instead of summer now?",
+  "hook": "After 2021, spring became peak moving season instead of summer. Families shifted their relocations earlier, and housing prices followed.",
+  "summary": "The US housing market's seasonal peak shifted from summer to spring after 2021. Using household mobility data, researchers found Americans began moving earlier in the year, and a calibrated economic model shows this timing change alone explains the shift in when home prices and sales peak.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 672,
+  "tokens_out": 133,
+  "cost_usd": 0.0010696,
+  "ingested_at": "2026-05-22T00:19:25.080229+00:00"
+}

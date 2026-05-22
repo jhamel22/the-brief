@@ -1,0 +1,24 @@
+{
+  "id": "2605.21182",
+  "arxiv_url": "https://arxiv.org/abs/2605.21182",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "Manga109-v2026: Revisiting Manga109 Annotations for Modern Manga Understanding",
+  "authors": "Jeonghun Baek, Atsuyuki Miyai, Shota Onohara, Hikaru Ikuta, Kiyoharu Aizawa",
+  "abstract": "Manga is a culturally distinctive multimodal medium and one of the most influential forms of Japanese popular culture. As AI systems increasingly target manga understanding, OCR, and translation, Manga109 has become a foundational dataset for manga-related AI research. However, the current Manga109 dataset contains transcription errors and coarse annotations, which do not align well with modern OCR and multimodal manga understanding tasks. In this work, we revisit the dialogue text annotations of Manga109 and identify five categories of annotation issues, including transcription errors, missing text regions, overlapping dialogue and onomatopoeia, and under-segmented speech balloons. To address these issues, we combine OCR-based issue detection and manual revision to construct Manga109-v2026, revising approximately 29,000 dialogue annotations. Our revisions better align Manga109 with modern OCR and multimodal manga understanding systems while preserving expressive structures characteristic of manga.",
+  "title_relatable": "Fixing manga's biggest dataset for modern AI systems",
+  "hook": "Manga109, the standard benchmark for manga AI, had tens of thousands of errors. Researchers cleaned up 29,000 dialogue annotations to match what OCR systems actually need.",
+  "summary": "Manga109 is the main dataset for training AI on manga understanding and translation, but its dialogue annotations contained transcription errors, missing text, and inconsistent segmentation that sabotaged modern OCR systems. Researchers systematically identified five categories of annotation problems and fixed approximately 29,000 entries using automated detection plus manual review, creating Manga109-v2026. The cleaned dataset now aligns with how contemporary multimodal models process manga panels.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 911,
+  "tokens_out": 184,
+  "cost_usd": 0.0014648000000000003,
+  "ingested_at": "2026-05-22T00:13:54.977338+00:00"
+}

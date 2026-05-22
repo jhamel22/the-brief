@@ -1,0 +1,23 @@
+{
+  "id": "2605.20730",
+  "arxiv_url": "https://arxiv.org/abs/2605.20730",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Distributional Alignment as a Criterion for Designing Task Vectors in In-Context Learning",
+  "authors": "Jihoon Kwon, Jiwon Choi, Jy-yong Sohn",
+  "abstract": "In-context learning (ICL) allows large language models (LLMs) to adapt to new tasks through demonstrations, yet it suffers from escalating inference costs as context length increases. While task vectors offer a promising alternative by compressing demonstrations into compact hidden-state representations, their quality has been evaluated only through downstream task accuracy. This indirect criterion provides limited insight into how to design more effective task vector extraction methods. In this paper, we posit that inference using task vectors should align their predictive distribution with that of ICL. To quantify this, we introduce $d_{\\text{NTP}}$, a metric that measures the discrepancy in next-token probabilities between task vector-based and ICL-based inference. Our empirical analysis reveals that $d_{\\text{NTP}}$ serves as a performance proxy, exhibiting a strong negative correlation with downstream accuracy. Motivated by this, we develop Linear Task Vector (LTV), a method designed to minimize $d_{\\text{NTP}}$ via a closed-form linear mapping that estimates demonstration effects through regression. Across eight classification benchmarks and five LLMs, LTV consistently outperforms existing task vector baselines, improving average accuracy by 9.2\\% while reducing inference latency. We further show that LTV outperforms the baselines on regression tasks. Moreover, we investigate the transferability of LTV across different model scales; an aspect that has remained nascent in task vector research. Specifically, we empirically show that task vectors from a larger model can enhance a smaller model's performance by 6.4\\%, suggesting a new utility for extracted task representations.",
+  "title_relatable": "What makes a task vector actually work for faster inference?",
+  "hook": "Task vectors compress demonstrations into compact representations, cutting inference costs—but a new metric shows how to make them 9.2% more accurate while staying fast.",
+  "summary": "In-context learning lets LLMs adapt to new tasks via examples, but longer contexts mean slower inference. Task vectors compress those demonstrations into hidden states, but existing methods only check if they work—not why. The authors introduce a metric that directly measures whether a task vector's predictions match in-context learning's distribution, then use it to design Linear Task Vector (LTV), which minimizes this gap via closed-form regression. Across eight benchmarks and five LLMs, LTV improves accuracy by 9.2% while cutting latency, and task vectors from larger models even boost smaller models' performance by 6.4%.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1032,
+  "tokens_out": 218,
+  "cost_usd": 0.0016975999999999998,
+  "ingested_at": "2026-05-22T00:07:31.870480+00:00"
+}

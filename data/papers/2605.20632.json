@@ -1,0 +1,22 @@
+{
+  "id": "2605.20632",
+  "arxiv_url": "https://arxiv.org/abs/2605.20632",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Multi-wavelength Emission for a Post-merger Magnetar: The Magnetar-Driven Poynting Jet and Its Associated Pulsar Wind Nebula",
+  "authors": "Yun-Peng Li, Da-Bin Lin, Ning-Yuan Zhang, En-Wei Liang",
+  "abstract": "A newborn, rapidly rotating magnetar may form in a binary neutron star merger and drive a Poynting-flux-dominated relativistic jet. As the jet propagates outward, a forward shock (FS) and a reverse shock (RS) are formed, inflating a pulsar wind nebula (PWN) between them. We present a systematic study of the emission from both the PWN and the jet, whose magnetic energy is subject to dissipation. By following the dynamics of the jet-ejecta-PWN system, we find that, in most cases, the RS is long-lived: it first lags behind the contact discontinuity and eventually coincides with both the contact discontinuity and the FS after the jet breakout into the external medium. As a result, the emission exhibits a characteristic temporal evolution. Depending on the optical depth, the emission is initially dominated by thermal radiation from the optically thick ejecta, then by a jet-powered X-ray plateau once the system becomes optically thin, and finally by synchrotron and inverse-Compton radiation from the PWN FS at late times. In particular, external inverse-Compton scattering of jet photons by the FS naturally produces a late-time GeV bump together with a substantial TeV component. Our model can simultaneously account for early thermal emission, X-ray plateaus, and late-time GeV excesses in merger-driven gamma-ray bursts, and also indicates that post-merger magnetar-driven PWNs are potential TeV photon sources.",
+  "title_relatable": "What happens when a magnetar powers a neutron star merger jet?",
+  "hook": "A newborn magnetar born in a neutron star collision can drive a jet that creates a glowing nebula, producing X-rays, then GeV and TeV gamma rays over days—matching observations of recent merger events.",
+  "summary": "When two neutron stars merge, a rapidly spinning magnetar can form and launch a relativistic jet outward, creating a pulsar wind nebula trapped between forward and reverse shocks. The team modeled the full multiwavelength emission from this system as it evolves: early thermal glow from the merger debris, followed by X-ray plateaus as the jet breaks through, and finally high-energy gamma rays from the nebula's shock at late times. The model successfully explains the diverse light curves and gamma-ray bumps seen in recent neutron star merger events and predicts these systems should be detectable TeV sources.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1074,
+  "tokens_out": 233,
+  "cost_usd": 0.0017912,
+  "ingested_at": "2026-05-21T23:54:55.415229+00:00"
+}

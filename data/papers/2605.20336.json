@@ -1,0 +1,22 @@
+{
+  "id": "2605.20336",
+  "arxiv_url": "https://arxiv.org/abs/2605.20336",
+  "announced_date": "2026-05-19",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Gauged Flavour for Asymmetric Dark Matter",
+  "authors": "Mattias Blennow, Enrique Fernandez-Martinez, David Garcia-Garcia, Javier M. Lizana",
+  "abstract": "We propose a framework that links the origin of the Standard Model flavour hierarchies to the generation of asymmetric dark matter via leptogenesis. The key new ingredient is a gauged $SO(3)$ flavour symmetry acting on both the visible and dark sectors, whose spontaneous breaking generates fermion mass hierarchies. Right-handed neutrino decays produce a primordial lepton asymmetry, which is redistributed into baryon and dark matter asymmetries by electroweak and flavour sphalerons respectively. Dark matter arises as baryon-like bound states of a confining $SU(3)$, providing a natural rationale for the similar mass scales of visible and dark matter. We analyze flavour, collider, electroweak, and cosmological constraints. Anomaly cancellation requires the presence of mirror fermions, inducing a seesaw-like suppression of new physics effects in the lighter generations, such that different observables are sensitive to different flavour-breaking scales. Meson oscillations provide the dominant constraints, with $K$ and $B_s$ observables constraining the highest and intermediate scales, while the lowest scale may place some mirror fermions potentially within reach of future collider searches and is currently probed by flavour violating $B_s$ decays and electroweak observables. Flavour interactions are also bounded from below by the requirement of a sufficiently fast decay of the symmetric dark matter component, leading to a tightly constrained and predictive scenario testable through several complementary probes.",
+  "title_relatable": "Why dark matter and atoms weigh nearly the same—and what flavor symmetry has to do with it",
+  "hook": "A new theory connects the mysterious hierarchy of particle masses to dark matter's origin, and predicts testable signals in meson decays and future colliders.",
+  "summary": "The authors propose that a gauged flavor symmetry—the same force that shapes why electron and top quark masses differ wildly—also generates dark matter through leptogenesis. Right-handed neutrinos decay to create a lepton asymmetry, which is then split between ordinary matter and dark matter by quantum processes, naturally explaining why visible and dark matter have comparable mass scales. Meson oscillations and rare B decays already constrain this scenario tightly, with mirror fermions potentially appearing at future colliders.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1047,
+  "tokens_out": 202,
+  "cost_usd": 0.0016455999999999999,
+  "ingested_at": "2026-05-21T23:52:45.355624+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.20851",
+  "arxiv_url": "https://arxiv.org/abs/2605.20851",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Integrable sigma models with Haantjes structure on ${H_{4}}$ Lie group",
+  "authors": "Mirenayatollah Bahadori, Ali Eghbali, Adel Rezaei-Aghdam",
+  "abstract": "By solving algebraic relations for the conditions of Haantjes structure on a Lie algebra ${\\G}$ and by using the corresponding automorphism group we proceed to classify all inequivalent algebraic Haantjes structures on ${\\G}$. In this manner, we obtain 34 inequivalent algebraic Haantjes structures on the ${h_{4}}$ Lie algebra. We deform the chiral sigma model on a Lie group by using Haantjes structure on it. Then we try to obtain conditions on this structure such that the deformed sigma model remains to be integrable. Finally, using the ${h_{4}}$ Haantjes structures and solving this conditions three new integrable sigma models on the ${H_{4}}$ Lie group are obtained.",
+  "title_relatable": "Three new integrable models found by classifying geometric structures",
+  "hook": "Mathematicians systematically classified 34 geometric structures on a specific Lie group, then used them to construct three previously unknown integrable field theories.",
+  "summary": "Integrable systems—ones that can be solved exactly—are rare and prized in physics. The authors classified all distinct geometric structures (called Haantjes structures) on the h₄ Lie algebra, finding 34 inequivalent ones. They then deformed a standard quantum field model using these structures and derived conditions under which integrability survives. Three new integrable sigma models emerged as a result.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 891,
+  "tokens_out": 171,
+  "cost_usd": 0.0013968000000000001,
+  "ingested_at": "2026-05-21T23:47:44.289239+00:00"
+}

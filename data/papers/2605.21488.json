@@ -1,0 +1,22 @@
+{
+  "id": "2605.21488",
+  "arxiv_url": "https://arxiv.org/abs/2605.21488",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Equilibrium Reasoners: Learning Attractors Enables Scalable Reasoning",
+  "authors": "Benhao Huang, Zhengyang Geng, Zico Kolter",
+  "abstract": "Scaling test-time compute by iteratively updating a latent state has emerged as a powerful paradigm for reasoning. Yet the internal mechanisms that enable these iterative models to generalize beyond memorized patterns remain unclear. We hypothesize that generalizable reasoning arises from learning task-conditioned attractors: latent dynamical systems whose stable fixed points correspond to valid solutions. We formalize this process through Equilibrium Reasoners (EqR), which enable test-time scaling without external verifiers or task-specific priors. EqR scales internal dynamics along two axes: depth, by running more iterations, and breadth, by aggregating stochastic trajectories from multiple initializations. Empirically, gains from test-time scaling are tightly coupled with stronger convergence toward solution-aligned attractors. This attractor perspective allows neural networks to adaptively allocate test-time compute based on task difficulty. While simple cases converge within 1 to 5 iteration steps, harder cases benefit from massive test-time scaling. By unrolling up to the equivalent of 40,000 layers, scalable latent reasoning boosts accuracy from 2.6% for feedforward models to over 99% on Sudoku-Extreme. These results suggest that learned attractor landscapes provide a useful mechanistic lens for understanding scalable reasoning in iterative latent models.",
+  "title_relatable": "Why iterating in hidden space helps neural networks reason better",
+  "hook": "Iterative reasoning with internal states converges toward solution attractors, enabling feedforward models to jump from 2.6% to 99% on hard Sudoku by scaling test-time compute to 40,000 effective layers.",
+  "summary": "Neural networks can improve reasoning by iterating on a hidden state at test time rather than computing an answer once. This paper shows that this works because networks learn to create dynamical systems with stable fixed points—attractors—that pull toward correct solutions. Equilibrium Reasoners scale two ways: running more iterations (depth) and sampling multiple trajectories from different starting points (breadth). On Sudoku-Extreme, the approach reaches 99% accuracy versus 2.6% for single-pass models, with performance gains closely tied to convergence toward solution-aligned attractors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 969,
+  "tokens_out": 223,
+  "cost_usd": 0.0016672,
+  "ingested_at": "2026-05-21T23:56:38.227727+00:00"
+}

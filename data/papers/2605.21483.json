@@ -1,0 +1,23 @@
+{
+  "id": "2605.21483",
+  "arxiv_url": "https://arxiv.org/abs/2605.21483",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "cs.LG"
+  ],
+  "title_original": "Velocityformer: Broken-Symmetry-Matched Equivariant Graph Transformers for Cosmological Velocity Reconstruction",
+  "authors": "Tilman Tröster, David Mirkovic, Veronika Oehl, Arne Thomsen",
+  "abstract": "Precise measurement of the kinematic Sunyaev-Zel'dovich (kSZ) effect - a probe of the large-scale distribution of baryonic matter, a key observable for cosmological inference - requires accurate reconstruction of galaxy velocities from spectroscopic surveys. The signal-to-noise ratio (SNR) of kSZ measurements scales directly with the correlation coefficient $r$ between reconstructed and true velocities. We introduce Velocityformer, an equivariant graph transformer architecture designed to match the specific symmetry of the observational data. While the underlying physics is equivariant with respect to translations and rotations, observational effects break this symmetry due to the preferred line-of-sight direction. Matching the model's inductive bias to the data's broken symmetry consistently improves performance across all model sizes and training volumes, with Velocityformer improving $r$ by 35% over the standard linear theory baseline and outperforming ML baselines at every data volume. By matching the model's inductive bias to the data and conditioning on the physics-based long-wavelength solution, Velocityformer is highly data-efficient, training to high accuracy on as few as 4 low-fidelity simulations, and generalises zero-shot across input geometry, cosmological parameters, and galaxy sample. On high-fidelity simulated galaxy catalogues, this yields a 30% improvement in $r$ over the physical baseline, directly translating to the same SNR gain on observational data.",
+  "title_relatable": "Machine learning reconstructs cosmic velocities with physics-aware shortcuts",
+  "hook": "A new architecture designed to respect how the cosmos actually looks from Earth improves galaxy velocity predictions by 35%, enabling better measurements of matter distribution across the universe.",
+  "summary": "Measuring the kinetic Sunyaev-Zel'dovich effect—which maps large-scale baryon distribution—requires accurately reconstructing galaxy velocities from spectroscopic data. Velocityformer, an equivariant graph transformer, deliberately breaks translation/rotation symmetries to match the observer's perspective, where the line of sight sets a preferred direction. The result: 35% better correlation with true velocities than physics-based methods, trained on just 4 simulations, and it generalizes across different surveys, cosmologies, and galaxy samples without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1065,
+  "tokens_out": 210,
+  "cost_usd": 0.001692,
+  "ingested_at": "2026-05-21T23:50:56.821202+00:00"
+}

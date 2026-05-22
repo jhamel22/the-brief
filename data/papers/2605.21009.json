@@ -1,0 +1,24 @@
+{
+  "id": "2605.21009",
+  "arxiv_url": "https://arxiv.org/abs/2605.21009",
+  "announced_date": "2026-05-20",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN",
+    "q-fin.PR",
+    "q-fin.ST"
+  ],
+  "title_original": "Wartime Controls, Political Connections, and the Pricing of Zaibatsu Rents in Japan, 1930-1943",
+  "authors": "Keiichi Morimoto, Akihiko Noda, Takenobu Yuki",
+  "abstract": "This paper examines how wartime economic controls shaped stock-price formation in Japan from 1930 to 1943. We develop a four-portfolio asset-pricing model in which zaibatsu affiliation affects expected payoffs and the translation of valuations into economic scale through lower financing wedges. We then construct daily capitalization-weighted indices and four benchmark portfolios based on a two-by-two sort by zaibatsu affiliation and military orientation. Using a CAPM-AR(p)-SV event-study framework that allows for serial correlation and stochastic volatility, we show that the model rationalizes capitalization concentration, segmented abnormal returns, delayed cumulative adjustment, regime-risk insulation of zaibatsu portfolios, and zaibatsu-concentrated responses to embedded-rent or group-continuation shocks. The evidence is consistent not with a collapse of semi-strong efficiency, but with institutionally contingent efficiency: stock prices continued to respond to news while capitalizing uneven access to credit, materials, and procurement.",
+  "title_relatable": "How Japan's war machine rigged stock prices for connected companies",
+  "hook": "During WWII, Japan's biggest conglomerates got cheaper money and better access to supplies—and the stock market priced this advantage in real time.",
+  "summary": "Researchers analyzed Japanese stock prices from 1930 to 1943, finding that zaibatsu (major conglomerates) consistently outperformed competitors on the market—not because they were more profitable, but because wartime controls gave them preferential access to credit and materials. The market wasn't broken; it was working exactly as designed, correctly reflecting the political advantage of being well-connected.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 651,
+  "tokens_out": 170,
+  "cost_usd": 0.0012008000000000001,
+  "ingested_at": "2026-05-22T00:19:27.738631+00:00"
+}

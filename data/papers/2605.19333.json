@@ -1,0 +1,23 @@
+{
+  "id": "2605.19333",
+  "arxiv_url": "https://arxiv.org/abs/2605.19333",
+  "announced_date": "2026-05-19",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.BM",
+    "q-bio.PE"
+  ],
+  "title_original": "Deep-time consistency in proteome elemental composition across cellular and viral life",
+  "authors": "L. Felipe Benites, Louie Slocombe, Sara I. Walker",
+  "abstract": "Proteins are constructed from a limited alphabet of ~20 amino acids, yet the origins and selection of this specific alphabet are unresolved. One largely overlooked aspect is whether elemental composition constrains the range of viable proteomes. Here, we analyze the elemental composition of thousands of proteomes spanning cellular domains and viral realms. Despite evolutionary divergence and orders-of-magnitude variation in proteome size and gene content, proteomes exhibit strikingly consistent elemental composition. This consistency is substantially more constrained than amino acid frequencies or physicochemical properties and is not explained by evolutionary relatedness, biological function, or amino acid usage alone. Viral proteomes occupy the same elemental composition space observed in cellular organisms despite the absence of a single viral common ancestor, suggesting common biochemical constraints shape proteome organization across life. To investigate the evolutionary origins of this pattern, we compare modern proteomes with multiple independent reconstructions of the Last Universal Common Ancestor (LUCA) and with synthetic reduced-alphabet proteomes generated from primordial amino acid alphabets. LUCA proteomes occupy the same constrained elemental composition space observed in modern Bacteria and Archaea, whereas reduced primordial-like alphabets systematically generated alternative elemental regimes outside the modern range despite retaining high sequence similarity to extant proteins. Reduced alphabets disrupt fold space and reorganize relationships between elemental composition and predicted protein structural organization. Our results suggest that constrained elemental composition represents a fundamental organizational property of proteomes, which emerged early in evolution and may have contributed to the selection and stabilization of the modern amino acid alphabet.",
+  "title_relatable": "Why all life uses the same protein recipe, across billions of years",
+  "hook": "Proteins across bacteria, viruses, and humans maintain identical elemental ratios despite billions of years of evolution—hinting that chemistry itself may have locked in the 20 amino acids we use.",
+  "summary": "By analyzing thousands of proteomes from bacteria to viruses, researchers discovered that despite radical evolutionary divergence, all life maintains nearly identical ratios of carbon, nitrogen, oxygen, and other elements in their proteins. Ancient reconstructions of early life and experiments with simpler amino acid alphabets showed this elemental constraint emerged early and wasn't accidental—primitive proteins using fewer amino acids either couldn't fold properly or fell outside this narrow range, suggesting chemistry filtered which amino acids could survive.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 740,
+  "tokens_out": 192,
+  "cost_usd": 0.00136,
+  "ingested_at": "2026-05-22T00:18:50.683861+00:00"
+}

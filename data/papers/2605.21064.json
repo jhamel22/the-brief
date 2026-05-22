@@ -1,0 +1,22 @@
+{
+  "id": "2605.21064",
+  "arxiv_url": "https://arxiv.org/abs/2605.21064",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Fermion condensate at the event horizon",
+  "authors": "Vladimir Dzhunushaliev, Vladimir Folomeev",
+  "abstract": "Some arguments are considered in favor of the idea that the canonical anticommutation relations for fermions should be modified in curved spacetime near the event horizon of a black hole. Such a modification is expected to lead to a change in the source term of the inhomogeneous Dirac equation describing the two-point Green's function. By introducing an {\\it ad hoc} source into the Dirac equation that mimics the modification of these anticommutation relations, stationary solutions are obtained and interpreted as two-point Green's functions of fermions located near the event horizon. Owing to their stationarity, these Green's functions describe a fermion condensate near the event horizon.",
+  "title_relatable": "Do fermions condense and freeze at a black hole's edge?",
+  "hook": "Modified quantum rules near event horizons may lock fermions into a permanent condensate — defying their usual antisocial statistics.",
+  "summary": "Near a black hole's event horizon, the usual quantum rules governing fermions — particles that normally refuse to share the same state — may need revision due to extreme spacetime curvature. Injecting a modified source term into the Dirac equation yields stationary, time-independent solutions interpretable as a fermion condensate sitting just outside the horizon. If real, this would mean black holes are cloaked in a frozen fermionic halo, with implications for their thermodynamics and information content.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 837,
+  "tokens_out": 181,
+  "cost_usd": 0.005226,
+  "ingested_at": "2026-05-21T23:45:22.592368+00:00"
+}

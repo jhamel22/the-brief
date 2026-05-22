@@ -1,0 +1,22 @@
+{
+  "id": "2605.21457",
+  "arxiv_url": "https://arxiv.org/abs/2605.21457",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "An Exponential Sample-Complexity Advantage for Coherent Quantum Inference",
+  "authors": "Zhaoyi Li, Elias Theil, Aram W. Harrow, Isaac Chuang",
+  "abstract": "Standard quantum inference converts quantum data into classical outputs. We study an alternative inference setting in which the desired output is quantum, preserving coherence. Such settings include quantum purity amplification (QPA), mixed-state approximate purification or cloning, and density matrix exponentiation. We show that such protocols can achieve exponentially lower sample complexity than incoherent, measurement-mediated protocols. For QPA with principal eigenstate targets and $d$-dimensional inputs, coherent processing achieves error $\\varepsilon$ using $O(1/\\varepsilon)$ copies, versus the $Ω(d/\\varepsilon)$ copies required by any incoherent protocol. Together, these sharp coherent-incoherent separations seed a theory of coherent quantum inference, with an entanglement-breaking limit identifying the optimal incoherent counterpart of each coherent protocol.",
+  "title_relatable": "Keeping quantum data quantum slashes the samples needed",
+  "hook": "Processing quantum states without measuring them first requires exponentially fewer copies — a provable advantage.",
+  "summary": "When you want to purify or clone a quantum state, the standard approach measures it first and reconstructs — but that destroys coherence. Skipping measurement and processing quantum data directly requires only O(1/ε) copies to hit precision ε, versus Ω(d/ε) for any measure-first protocol — an exponential saving in the system dimension d. The result establishes a sharp, proven boundary between quantum and classical inference strategies, with direct implications for quantum computing tasks like density matrix exponentiation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 910,
+  "tokens_out": 175,
+  "cost_usd": 0.005355,
+  "ingested_at": "2026-05-21T23:48:48.047029+00:00"
+}

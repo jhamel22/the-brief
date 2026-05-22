@@ -1,0 +1,25 @@
+{
+  "id": "2605.20076",
+  "arxiv_url": "https://arxiv.org/abs/2605.20076",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-th",
+    "physics.space-ph"
+  ],
+  "title_original": "A novel pre-inflationary model in view of the lack of angular correlation of CMB",
+  "authors": "M. Montes, José Edgar Madriz Aguilar, A. Bernal, Diego Allan Reyna",
+  "abstract": "In this paper we propose a novel unified cosmological model that connects a pre-inflationary epoch, starting at the Planckian time, with the onset of inflation within a single scalar-field framework. The pre-inflationary phase is characterized by a decelerated expansion with an increasing comoving Hubble horizon, followed by a gradually transition to an accelerated inflationary regime. This early dynamics leads to a modified causal structure that naturally accounts for the suppression of large-angle $(θ\\gtrsim 60^\\circ)$ correlations in the cosmic microwave background (CMB) reported by the satellite PLANCK. We study the quantum fluctuations of the scalar field using the Mukhanov-Sasaki formalism and a canonical quantization procedure based on energy minimization. We find that the vacuum state is well-defined only for sub-horizon modes at the onset of inflation, which induces a natural cutoff in the primordial power spectrum. The resulting spectrum exhibits a suppression at large scales while remaining nearly scale-invariant at small scales. In the appropriate limit, the model recovers the standard de Sitter result, in agreement with current observational constraints. These results highlight the relevance of pre-inflationary dynamics for addressing large-scale anomalies within a consistent inflationary framework.",
+  "title_relatable": "How an early cosmic slowdown could explain CMB's missing long-range patterns",
+  "hook": "A pre-inflationary phase might suppress correlations across the largest CMB scales—matching puzzling Planck observations without abandoning inflation.",
+  "summary": "Large-angle correlations in the CMB are unexpectedly weak, a tension standard inflation struggles to explain. This model inserts a decelerated pre-inflationary phase before inflation proper, which reshapes the causal structure early in cosmic history and naturally truncates the primordial power spectrum at large scales. The prediction matches Planck's anomaly while remaining consistent with small-scale observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1003,
+  "tokens_out": 171,
+  "cost_usd": 0.0014864000000000001,
+  "ingested_at": "2026-05-21T23:51:42.740159+00:00"
+}

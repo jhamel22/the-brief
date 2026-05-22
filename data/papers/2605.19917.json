@@ -1,0 +1,24 @@
+{
+  "id": "2605.19917",
+  "arxiv_url": "https://arxiv.org/abs/2605.19917",
+  "announced_date": "2026-05-19",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "quant-ph",
+    "hep-th",
+    "physics.soc-ph"
+  ],
+  "title_original": "Spin-Induced Non-Markovian Time-Crystal-Like Dynamics and Fractal Scaling in the Bateman Dual Oscillator",
+  "authors": "Partha Nandi, Giuseppe Vitiello",
+  "abstract": "Can a closed quantum system generate persistent time-crystal-like dynamics without external driving? Within the Bateman dual oscillator framework, we show that the answer is affirmative. We consider a nonrelativistic (2+1)-dimensional system in which spin-induced spatial deformation generates an effective Bateman oscillator structure. After quantization, the system is governed by a time-independent Hermitian Hamiltonian describing coherent coupling between damped and amplified oscillator sectors while preserving the total energy of the global doubled system. Tracing over the amplified sector, we derive an effective non-Markovian reduced dynamics for the observable subsystem. The resulting memory effects sustain persistent oscillations of subsystem observables and generate emergent time-crystal-like temporal ordering without external periodic driving or equilibrium spontaneous symmetry breaking. Since the oscillatory behavior originates from nonequilibrium reduced subsystem dynamics rather than equilibrium expectation values of the full Hamiltonian, the mechanism lies outside the assumptions of conventional no-go theorems for equilibrium time crystals. The same dynamics further exhibits logarithmic-spiral trajectories and self-similar fractal scaling, revealing a direct connection between coherent dissipative dynamics, non-Markovian memory effects, and emergent temporal ordering in a globally unitary quantum system. In this specific sense, \"watching the growth\" of these self-similar structures corresponds to observing the gradual formation of time-crystal-like ordering.",
+  "title_relatable": "A closed quantum system that beats like a clock forever",
+  "hook": "Without any external driving, a quantum oscillator model generates persistent clock-like oscillations and fractal spiral trajectories.",
+  "summary": "Using the Bateman dual oscillator — a framework that pairs a damped oscillator with an energy-gaining counterpart to keep the total system conservative — the authors show that tracing out the hidden half produces a memory-laden reduced dynamics that sustains indefinite oscillations in the observable subsystem. Because the effect arises from non-equilibrium subsystem dynamics rather than ground-state symmetry breaking, it sidesteps the no-go theorems that forbid equilibrium time crystals. The same equations also carve out logarithmic-spiral, self-similar fractal trajectories, linking dissipation, memory, and temporal order in one closed quantum system.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1035,
+  "tokens_out": 210,
+  "cost_usd": 0.006255,
+  "ingested_at": "2026-05-21T23:53:47.965102+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.20995",
+  "arxiv_url": "https://arxiv.org/abs/2605.20995",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Wasserstein Space of Quantum Chaos",
+  "authors": "Koji Hashimoto, Norihiro Tanahashi, Kentaroh Yoshida",
+  "abstract": "We find that the effective dimension of the Wasserstein space of energy eigenstates decreases as a quantum system becomes more chaotic. To demonstrate this, we study a quantum coupled harmonic oscillator system using Husimi Q-representations, to which Sinkhorn-regularized optimal transport is applied to construct an embedding geometry via the Gram-spectrum method. We also demonstrate that exponential OTOC growth, referred to here as quantum scrambling even in the absence of chaos, induces a folding structure in the emergent Wasserstein space, which may underlie the chaotic reduction of the Wasserstein dimension. At the separatrix (the scrambling point) of the inverted harmonic oscillator, the Wasserstein distance correctly captures the Lyapunov exponent. Furthermore, we discover that a branching structure in the Wasserstein space signals quantum scar states within the chaotic sea of phase space. Our optimal transport approach thus provides a new diagnostic for quantum chaos, quantum scrambling, quantum scars, and quantum Lyapunov exponents. The observed chaotic dimensional reduction also supports the recent conjecture [arXiv:2604.17649] that the Wasserstein space serves as an emergent holographic space through the manifold hypothesis, since chaoticity is a characteristic signature of black holes in holography.",
+  "title_relatable": "A new geometry reveals quantum chaos hiding in plain sight",
+  "hook": "The 'distance' between quantum states shrinks as chaos grows — and it can read off Lyapunov exponents.",
+  "summary": "By treating quantum states as probability distributions and measuring the optimal-transport distance between them, the authors find that chaotic systems occupy a lower-dimensional geometry than orderly ones. The method recovers Lyapunov exponents directly from state-space distances, and spots quantum scar states — islands of order inside chaos — as branching structures in the geometry. Because black holes are maximally chaotic in holography, this dimensional collapse may be the fingerprint of an emergent holographic space.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 995,
+  "tokens_out": 175,
+  "cost_usd": 0.00561,
+  "ingested_at": "2026-05-21T23:45:43.372464+00:00"
+}

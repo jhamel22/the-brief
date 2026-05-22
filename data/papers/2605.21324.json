@@ -1,0 +1,23 @@
+{
+  "id": "2605.21324",
+  "arxiv_url": "https://arxiv.org/abs/2605.21324",
+  "announced_date": "2026-05-20",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.LG"
+  ],
+  "title_original": "Stimulus symmetries can confound representational similarity analyses",
+  "authors": "Farhad Pashakhanloo, Jacob A. Zavatone-Veth",
+  "abstract": "What can representational similarity matrices (RSMs) tell us about a neural code? As the popularity of these summary statistics grows, so too does the need for a more complete characterization of their properties. Here, we show that symmetries in network inputs can confound RSM-based analyses. Stimulus symmetries render many representations functionally equivalent, but these different configurations can lead to different RSMs. These different RSMs reflect qualitatively different representational geometries. We show that stochastic gradient descent or energetic regularization can generate sparse, drifting codes, leading in turn to drifting RSMs. Moreover, we demonstrate that these phenomena are present in networks trained to encode image data, where the symmetry is latent. Our results illustrate the challenges inherent in comparing nonlinear neural codes, when functionally-equivalent representations are not related by a simple rotation.",
+  "title_relatable": "Why brain-scanning statistics can mislead you about neural codes",
+  "hook": "A widely-used method for decoding brain activity can show completely different patterns even when the underlying neural code is functionally identical.",
+  "summary": "Neuroscientists often compare neural activity patterns across brains or conditions using representational similarity matrices—essentially measuring which neurons fire together. But hidden symmetries in incoming signals can fool these analyses: networks can encode information in multiple functionally equivalent ways that produce wildly different similarity patterns. This matters because researchers comparing neural codes across studies or species could mistake identical computations for different ones.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 585,
+  "tokens_out": 157,
+  "cost_usd": 0.001096,
+  "ingested_at": "2026-05-22T00:18:04.167918+00:00"
+}

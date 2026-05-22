@@ -1,0 +1,22 @@
+{
+  "id": "2605.20103",
+  "arxiv_url": "https://arxiv.org/abs/2605.20103",
+  "announced_date": "2026-05-19",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Face morphometric profiles of groups as early markers for certain diseases?",
+  "authors": "Roberto Herrero, Yoanna Martinez-Diaz, Heydi Mendez-Vazquez, Joan Nieves, Augusto Gonzalez",
+  "abstract": "Background: Face morphometry has been shown to work as a diagnosis tool in a set of syndromes. Face similarities are usually indications of more complete genetic similarities. Purpose: To show preliminary results on the face morphometry profile of the Cuban population and to argue that it could be used to define early markers for diseases, like Alzheimer. Methods: A dataset composed of photos of 200000 men is processed. Facial landmarks are extracted by means of the DLIB library and distances between them are computed. By clustering samples with similar facial traits, groups are formed and their densities inside the population are computed. Results: The face morphometry profiles for two age cohorts are obtained, showing the population dynamics. Genes involved in facial development are shown to be related to Alzheimer's disease. Conclusions: Late multifactorial diseases develop against the genetic background of each individual, which is expressed by its face morphometry. The latter can be thus considered a risk marker.",
+  "title_relatable": "Can your face shape predict Alzheimer's disease?",
+  "hook": "Facial geometry varies predictably across populations and may reflect genetic vulnerability to late-life diseases like Alzheimer's.",
+  "summary": "Researchers analyzed facial landmarks in 200,000 Cuban men to create morphometric profiles of age groups, then linked genes controlling facial development to Alzheimer's risk. The argument: your face shape encodes your genetic background, which shapes disease susceptibility—making facial geometry a potential early warning sign. This works only if facial development and neurodegeneration share genetic roots.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 623,
+  "tokens_out": 153,
+  "cost_usd": 0.0011104,
+  "ingested_at": "2026-05-22T00:18:45.252928+00:00"
+}

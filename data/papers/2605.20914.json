@@ -1,0 +1,22 @@
+{
+  "id": "2605.20914",
+  "arxiv_url": "https://arxiv.org/abs/2605.20914",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "RISE: Reliable Improvement in Self-Evolving Vision-Language Models",
+  "authors": "Chaoran Xu, Yingmao Miao, Pengfei Zhang, Hao Dou, Lei Sun, Xiangxiang Chu",
+  "abstract": "Vision-language models (VLMs) have achieved strong multimodal reasoning capabilities, but further improving them still relies heavily on large-scale human-constructed supervision for post-training. Such supervision is costly to obtain, especially for reasoning-intensive multimodal tasks where questions, answers, and feedback signals must be carefully designed. This motivates self-evolving learning, where a model improves itself through a dual-role closed loop: a questioner autonomously poses questions and a solver learns to solve them. However, we observe that current VLM self-evolving methods still face three major challenges: coarse-grained role alternation delays the interaction between question generation and solver adaptation; generated questions can progressively degrade in quality; and question types may collapse toward a narrow distribution. These issues limit the efficiency and reliability of self-evolution. Thus, we propose \\textbf{RISE}, a reliable self-evolving framework for vision-language models. RISE is built on three complementary designs: fine-grained role alternation, which shortens the feedback loop between the questioner and the solver to improve efficiency; a quality supervisor, which improves question validity and pseudo-label reliability; and skill-aware dynamic balancing, which mitigates mode collapse and maintains broad skill coverage during evolution. Together, these components enable more reliable and effective self-evolution from unlabeled images. Experiments on two VLM backbones across seven benchmarks show that RISE consistently improves the base models, yielding broad and sustained gains. Our code is publicly available at https://github.com/AMAP-ML/RISE.",
+  "title_relatable": "Teaching vision-language models to improve themselves without human feedback",
+  "hook": "Self-improving AI that generates its own training questions struggles with quality collapse and narrow skill distribution. New framework adds quality checks and dynamic balancing to enable reliable self-evolution.",
+  "summary": "Vision-language models can improve themselves by generating questions and learning to answer them, but current methods suffer from degrading question quality and skill collapse. RISE addresses this with three mechanisms: tighter feedback loops between question generation and solver adaptation, a quality supervisor to validate generated questions, and skill-aware balancing to prevent the model from repeatedly practicing the same narrow capabilities. Experiments across seven benchmarks show consistent improvements over baseline models, with code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1037,
+  "tokens_out": 178,
+  "cost_usd": 0.0015416,
+  "ingested_at": "2026-05-22T00:13:27.370130+00:00"
+}

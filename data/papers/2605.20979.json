@@ -1,0 +1,23 @@
+{
+  "id": "2605.20979",
+  "arxiv_url": "https://arxiv.org/abs/2605.20979",
+  "announced_date": "2026-05-20",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Equilibrium and dynamics of a three-state opinion model on a network of networks",
+  "authors": "Irene Ferri, Albert Díaz-Guilera, Hiroki Sayama",
+  "abstract": "Opinion formation models typically represent each individual as a single variable. However, in practice each individual holds interconnected beliefs whose internal organization may influence collective outcomes. To explore this dependence, we study a three-state opinion model on a network of networks in which each agent has an internal belief graph and interacts with other agents through an external social graph. Each belief can take two opposite polarized states or a neutral one and a neutrality parameter tunes the relative conviction of the neutral stance. We incorporate temperature into the model to account for external social agitation and for the tolerance of internal cognitive dissonance. We explore the stationary state and dynamics of the model using analytical approaches and Monte Carlo simulations on a fully connected external social graph, with internal belief topologies given by one-dimensional chains, cliques, and star-like structures, where there is a central core belief to which all other beliefs are connected. We find that the critical temperature at which the polarized consensus destabilizes increases with the addition of more beliefs to star-like agents but saturates in the case of ring- and clique-like internal topologies. We also consider binary mixtures of agents with different internal topologies in equal proportions, showing that the interplay between agents is regime-dependent, with the dominant topology depending on the value of the neutrality parameter.",
+  "title_relatable": "Does the structure of your beliefs shape how whole societies polarize?",
+  "hook": "Modeling people as bundles of interconnected beliefs—not single variables—changes when and how societies reach polarized consensus.",
+  "summary": "Most opinion models treat each person as a single yes/no switch, but real people hold networks of beliefs that constrain each other. This model gives each agent an internal belief graph and connects agents through a social network, then asks how internal structure shapes collective polarization. Star-shaped belief networks—where one core belief anchors all others—keep societies resistant to de-polarization at higher social temperatures than ring or clique structures, and mixing agent types produces regime-dependent surprises depending on how strongly neutral stances are weighted.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 986,
+  "tokens_out": 182,
+  "cost_usd": 0.005688,
+  "ingested_at": "2026-05-21T23:53:17.802767+00:00"
+}

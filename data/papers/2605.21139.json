@@ -1,0 +1,23 @@
+{
+  "id": "2605.21139",
+  "arxiv_url": "https://arxiv.org/abs/2605.21139",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving",
+  "authors": "Yang Wu, Qiang Meng, Zhaojiang Liu, Youquan Liu, Jian Yang, Jin Xie",
+  "abstract": "Current end-to-end autonomous driving models are fundamentally constrained by the behavioral cloning ceiling of imitation learning. While reinforcement learning offers a path to smarter autonomy, it demands two missing pieces of infrastructure: (1) a cognitive foundation that understands traffic semantics and driving intent, and (2) a foresighted physical environment that can anticipate the consequences of candidate actions. To this end, we propose CoPhy, a CognitivePhysical reinforcement learning framework for autonomous driving. To distill to think, we distill VLM knowledge into the BEV encoder and then discard the VLM entirely, retaining cognitive ability at zero inference cost while releasing the cognitive channel as a pluggable interface for optional human language commands. To foresee to act, we build an auto-regressive BEV world model that explicitly predicts future semantic maps conditioned on candidate actions, serving as an interpretable physical sandbox from which safety metrics are directly derived. Built upon this dual infrastructure, we optimize the driving policy via GRPO with a novel dual-reward mechanism: a physical reward derived from BEV rollouts enforces hard safety constraints, while a cognitive reward from a language-aligned scorer ensures intent compliance. Extensive experiments demonstrate that CoPhy not only achieves state-of-the-art results on NAVSIM v1 and v2 benchmarks, but also enables safer driving via cognitively informed scene compliance and flexible intent control through user-defined language instructions.",
+  "title_relatable": "Teaching self-driving cars to think ahead and follow instructions",
+  "hook": "A reinforcement learning system for autonomous vehicles that distills language understanding into driving decisions and predicts future outcomes before acting—achieving top results on major driving benchmarks.",
+  "summary": "Current end-to-end autonomous driving models hit a wall: they can only imitate human behavior. CoPhy adds two missing pieces: a cognitive layer that understands traffic semantics and intent (distilled from a vision-language model with zero inference cost), and a forward-looking world model that predicts how the car's actions will unfold. The system uses dual rewards—physical safety from simulated rollouts and cognitive alignment from language—to train the driving policy. Results on NAVSIM benchmarks show state-of-the-art performance plus explicit safety guarantees and the ability to follow natural language instructions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1016,
+  "tokens_out": 214,
+  "cost_usd": 0.0016688000000000002,
+  "ingested_at": "2026-05-22T00:13:57.943980+00:00"
+}

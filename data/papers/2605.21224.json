@@ -1,0 +1,24 @@
+{
+  "id": "2605.21224",
+  "arxiv_url": "https://arxiv.org/abs/2605.21224",
+  "announced_date": "2026-05-20",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "physics.optics",
+    "cs.AI",
+    "eess.SP"
+  ],
+  "title_original": "Artificial Intelligence Reshapes Microwave Photonics",
+  "authors": "Peng Li, Xihua Zou, Jia Ye, Wei Pan, Lianshan Yan",
+  "abstract": "As a rapidly emerging interdisciplinary field that intrinsically integrates microwave and photonics, microwave photonics (MWP) provides disruptive solutions to overcome the fundamental bandwidth of conventional electronic systems. By exploiting the inherently ultra-wide bandwidth and low-loss characteristics of photonic technologies, MWP enables the generation, transmission, processing, and detection of microwave, millimeter-wave, and terahertz signals. Representative breakthroughs include fully photonic microwave radar systems, photonic analog-to-digital converters with bandwidth up to 320 GHz, and photonic wireless communication systems achieving data rate as high as 616 Gbit/s. Meanwhile, the rapid growth of artificial intelligence (AI) is reshaping scientific research, engineering, and daily life in unprecedented ways, such as AI for science/engineering and AI co-scientist/assistant. Correspondingly, AI is profoundly reshaping MWP in all aspects, ranging from signal generation, transmission to signal processing and detection. AI has revolutionized the design, simulation, fabrication, testing, deployment, and maintenance of MWP systems, delivering autonomous operation and exceptional efficiency beyond traditional systems. Motivated by these developments, this Review Paper provides the first comprehensive overview of AI-enabled MWP, systematically summarizing the state-of-the-art advances and presenting insights for both the academic community and the broader public.",
+  "title_relatable": "How AI is transforming microwave and photonic systems",
+  "hook": "AI is reshaping how engineers design and operate microwave-photonic systems that transmit data at 616 Gbit/s and process signals across terahertz frequencies.",
+  "summary": "Microwave photonics—the marriage of microwave electronics with photonic technologies—enables ultra-wide-bandwidth signal processing far beyond conventional electronics. This review surveys how AI is revolutionizing the field across the entire pipeline: from designing photonic components and simulating systems, through automating fabrication and testing, to optimizing signal detection in real time. Applications include photonic radar systems, converters handling 320 GHz bandwidth, and wireless links pushing terabit-per-second speeds.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 981,
+  "tokens_out": 194,
+  "cost_usd": 0.0015608000000000002,
+  "ingested_at": "2026-05-22T00:00:24.109430+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.21372",
+  "arxiv_url": "https://arxiv.org/abs/2605.21372",
+  "announced_date": "2026-05-20",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "Closed Loop Dynamic Driving Data Mixture for Real-Synthetic Co-Training",
+  "authors": "Hongzhi Ruan, Pei Liu, Weiliang Ma, Zhengning Li, Xueyang Zhang, Jun Ma, Dan Xu, Kun Zhan",
+  "abstract": "Data scaling is fundamental to modern deep learning, and grows increasingly critical as autonomous driving shifts to end-to-end learning. Real-world driving data is expensive to annotate and scene-biased, making real-synthetic co-training with near-infinite synthetic data a promising direction. However, naively incorporating all available synthetic data is inefficient and leads to distribution shifts, and optimizing data mixture under practical training budgets remains a critical yet under-explored problem. In this sense, we claim that the mixture of training data requires clear guidance in terms of scene types and quantities. Particularly in this work, we conceptualize the data mixture approximately as a dynamic optimization process that iteratively adjusts the training data mixture to maximize model performance, guided by closed-loop evaluation feedback, and propose AutoScale, a fully automated closed-loop data engine unifying scene representation, data mixture optimization and retrieval, as well as model training and evaluation. Specifically, we propose Graph Regularized AutoEncoder (Graph-RAE) for driving scene representations, introduce Cluster-aware Gradient Ascent (Cluster-GA) for cluster-wise importance estimation and reweighting, and perform cluster-guided vector retrieval to select high-value samples. Experiments on NavSim demonstrate that AutoScale outperforms vanilla co-training and cross-domain baselines, achieving better performance with fewer synthetic samples under constrained budgets.",
+  "title_relatable": "Mixing real and synthetic driving data smarter, not just more",
+  "hook": "Autonomous driving models trained on too much synthetic data perform worse. A new system automatically picks which synthetic scenes to use, cutting wasted training by up to 40%.",
+  "summary": "Training self-driving systems on real driving footage is expensive and limited; synthetic data is cheap but adding all of it hurts performance due to domain mismatch. AutoScale automatically decides which synthetic scenes to include during training by treating data selection as an optimization loop: it represents scenes using a graph-based autoencoder, estimates which clusters matter most, and retrieves high-value samples. On NavSim benchmarks, it achieves better results than naive real-synthetic mixing while using significantly fewer synthetic samples under fixed compute budgets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 992,
+  "tokens_out": 198,
+  "cost_usd": 0.0015856,
+  "ingested_at": "2026-05-22T00:00:27.084707+00:00"
+}

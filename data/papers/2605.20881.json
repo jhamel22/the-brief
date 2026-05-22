@@ -1,0 +1,22 @@
+{
+  "id": "2605.20881",
+  "arxiv_url": "https://arxiv.org/abs/2605.20881",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Relativistic Scattering in the Funnel of Cygnus X-3",
+  "authors": "Suraj K. Chaurasia, Ranjeev Misra, Amit Pathak",
+  "abstract": "Cygnus X-3 presents significant challenges to standard accretion models. Recent polarimetric observations by IXPE reveal high polarization degrees (PD) in the hard state ($\\sim 23\\%$) and unexpectedly significant polarization in the soft state ($\\sim 12\\%$), which are difficult to reconcile with static scattering models at low inclination ($i \\approx 30^\\circ$). We present a relativistic scattering model within a funnel-shaped geometry that resolves this discrepancy. We show that a single funnel-outflow configuration with variable bulk velocity $β$ can reproduce both polarization states, with lower velocities ($β\\approx 0$) yielding $\\sim 12\\%$ polarization (soft state) and mildly relativistic velocities ($β\\lesssim 0.4$) producing $\\sim 23\\%$ polarization (hard state) at $i \\approx 30^\\circ$ for half funnel opening angles of $\\sim 13^\\circ$-$16^\\circ$. Relativistic aberration modifies the effective scattering angle in the comoving frame, enhancing polarization in the hard state while recovering the static limit in the soft state. The model also yields a consistent estimate of the intrinsic luminosity, of order $\\sim 10^{40}$ erg s$^{-1}$, supporting a super-Eddington interpretation. This framework provides a unified explanation of the observed polarization properties of Cygnus X-3.",
+  "title_relatable": "How fast jets reshape X-ray polarization in Cygnus X-3",
+  "hook": "IXPE's polarimetric measurements of a mysterious black hole system only make sense if relativistic jets are sculpting the radiation geometry.",
+  "summary": "Cygnus X-3 emits unexpectedly high polarized X-rays in both its hard and soft states, a pattern that static scattering models cannot explain. The team shows that relativistic outflows within a funnel-shaped geometry resolve the puzzle: slower flows produce 12% polarization (soft state), faster ones reaching 0.4c produce 23% (hard state). Relativistic aberration bends light paths in ways that amplify polarization, and the model also predicts a super-Eddington accretion rate—suggesting this system feeds on matter faster than gravity usually allows.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1070,
+  "tokens_out": 219,
+  "cost_usd": 0.001732,
+  "ingested_at": "2026-05-21T23:54:43.098171+00:00"
+}

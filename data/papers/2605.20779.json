@@ -1,0 +1,22 @@
+{
+  "id": "2605.20779",
+  "arxiv_url": "https://arxiv.org/abs/2605.20779",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "A MINOT-based Study of Gamma-ray emission from SPT-CL J2012-5649/Abell 3667",
+  "authors": "Siddhant Manna, Shantanu Desai",
+  "abstract": "We present an analysis of the non-thermal properties of the merging galaxy cluster SPT-CL J2012-5649/Abell~3667 ($z = 0.0556$, $M_{500} = 7.16 \\times 10^{14}\\ M_\\odot$) using the MINOT non-thermal emission modelling framework. The predicted hadronic gamma-ray flux from $pp$ interactions in the $1$--$300\\ \\mathrm{GeV}$ band is $2.82 \\times 10^{-11}\\ \\mathrm{cm^{-2}\\ s^{-1}}$ within $R_{500}$, rising to $1.15 \\times 10^{-10}\\ \\mathrm{cm^{-2}\\ s^{-1}}$ at the truncation radius ($3.7\\,R_{500}$), in order-of-magnitude agreement with the Fermi-LAT reported flux of $1.3 \\times 10^{-10}\\ \\mathrm{cm^{-2}\\ s^{-1}}$. Approximately $76\\%$ of the predicted hadronic flux originates from beyond $R_{500}$. The IC contribution from cosmic-ray electrons is subdominant relative to the hadronic $π^0$-decay gamma-ray component by a factor of ${\\sim}20$ in the $1$--$300\\ \\mathrm{GeV}$ energy band, and therefore does not contribute significantly to the observable signal. Although the expected hadronic flux is in approximate agreement with the observed Fermi-LAT flux level in the $1$--$300\\ \\mathrm{GeV}$ band, the observed spectral index ($Γ= -3.61 \\pm 0.33$) is in tension with the hadronic prediction ($Γ\\approx -2.4$ to $-2.6$).",
+  "title_relatable": "Can gamma rays from a merging cluster match what Fermi actually sees?",
+  "hook": "A detailed model of gamma-ray emission from a colliding galaxy cluster reproduces the observed flux but can't explain why the radiation is so much steeper than physics predicts.",
+  "summary": "Using the MINOT framework, researchers modeled gamma-ray production in the merging galaxy cluster Abell 3667 from collisions between cosmic rays and gas. Their hadronic model predicts a 1–300 GeV flux matching Fermi-LAT observations, with most emission from the cluster's outer regions. But the observed spectrum is much steeper than theory expects—a tension suggesting either missing physics or systematic uncertainties in the measurements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1177,
+  "tokens_out": 190,
+  "cost_usd": 0.0017016,
+  "ingested_at": "2026-05-21T23:54:52.178414+00:00"
+}

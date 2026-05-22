@@ -1,0 +1,23 @@
+{
+  "id": "2605.21463",
+  "arxiv_url": "https://arxiv.org/abs/2605.21463",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Mem-$π$: Adaptive Memory through Learning When and What to Generate",
+  "authors": "Xiaoqiang Wang, Chao Wang, Hadi Nekoei, Christopher Pal, Alexandre Lacoste, Spandana Gella, Bang Liu, Perouz Taslakian",
+  "abstract": "We present Mem-$π$, a framework for adaptive memory in large language model (LLM) agents, where useful guidance is generated on demand rather than retrieved from external memory stores. Existing memory-augmented agents typically rely on similarity-based retrieval from episodic memory banks or skill libraries, returning static entries that often misalign with the current context. In contrast, Mem-$π$ uses a dedicated language or vision-language model with its own parameters, separate from the downstream agent, to generate context-specific guidance for complex tasks. Conditioned on the current agent context, the model jointly decides when to produce guidance and what guidance to produce. We train it with a decision-content decoupled reinforcement learning (RL) objective, enabling it to abstain when generation would not help and otherwise produce concise, useful guidance. Across diverse agentic benchmarks spanning web navigation, terminal-based tool use, and text-based embodied interaction, Mem-$π$ consistently outperforms retrieval-based and prior RL-optimized memory baselines, achieving over 30% relative improvement on web navigation tasks.",
+  "title_relatable": "Teaching AI agents to generate helpful memories on demand",
+  "hook": "Instead of searching fixed memory banks, an AI agent learns to generate custom guidance when needed—achieving 30% better performance on web navigation.",
+  "summary": "Most AI agents retrieve pre-stored memories when they need help, but those stored entries don't always fit the current situation. Mem-π flips this: a separate language model learns to decide when guidance would actually help and what to generate in that moment, conditioned on what the agent is currently doing. Trained with reinforcement learning to balance generating useful advice with knowing when to stay silent, it outperforms retrieval-based memory systems across web navigation, terminal commands, and text-based tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 950,
+  "tokens_out": 182,
+  "cost_usd": 0.001488,
+  "ingested_at": "2026-05-22T00:08:59.672069+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.20843",
+  "arxiv_url": "https://arxiv.org/abs/2605.20843",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "title_original": "Characterizing the origins of gamma-ray variability of the jetted active galactic nuclei observed with the Fermi-LAT",
+  "authors": "Yongyun Chen, Qiusheng Gu, Junhui Fan, Dingrong Xiong, Xiaoling Yu, Xiaogu Zhong, Xiaotong Guo, Nan Ding",
+  "abstract": "We conducted an analysis of gamma-ray variability in a large sample of jetted active galactic nuclei (AGNs) by utilizing archival Fermi-LAT light curves and applying damped random walk modeling to obtain variability amplitude. Our primary findings are summarized as follows: (1) The mean variability damping timescales of our sources are approximately 100 days. This damping timescale may imply that the diffusive shock acceleration plays an important role in the variability of gamma-ray emission. (2) Flat-spectrum radio quasars (FSRQs) demonstrate greater variability amplitude compared to BL Lacertae objects (BL Lacs). (3) The ratio of the distance of the emission region from the central supermassive black hole to the dusty torus radius for our sources is $R\\approx2-4.5R_{\\rm DT}$. In contrast, the ratio of the distance of the emission region from the central supermassive black hole to the BLR radius for our sources is $R\\approx135-295R_{\\rm BLR-in}$ and $R\\approx123-270R_{\\rm BLR-out}$. These findings indicate that the $γ$-ray emission region in jetted AGNs is likely located beyond the BLR, potentially could be associated with the dusty torus. (4) A statistical correlation is observed between variability amplitude and radio luminosity, radio loudness, X-ray luminosity, X-ray loudness, gamma-ray luminosity, and gamma-ray loudness, indicating a potential relationship between gamma-ray variability and jet activity. (5) Variability amplitude also shows a statistical correlations with synchrotron peak frequency luminosity, inverse Compton peak frequency luminosity, and Compton dominance. (6) Variability amplitude also correlates with black hole mass, accretion disk luminosity, and Eddington ratio, implying that the accretion disk may also contribute to gamma-ray variability.",
+  "title_relatable": "Where do gamma rays come from in active galaxies?",
+  "hook": "Fermi satellite data reveals gamma-ray flares in jets originate beyond the broad-line region, tied to both jet power and black hole feeding rates.",
+  "summary": "Analyzing eight years of Fermi observations of jetted active galaxies, researchers mapped the location and origin of gamma-ray flares using statistical modeling. The emission region sits 2–4 times farther from the black hole than the dusty torus, beyond the broad-line region entirely. Variability correlates with both jet activity (radio/X-ray luminosity) and accretion disk properties (black hole mass, feeding rate), suggesting the flares arise from a interplay between the jet and the material feeding the black hole.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1216,
+  "tokens_out": 200,
+  "cost_usd": 0.0017728000000000002,
+  "ingested_at": "2026-05-21T23:54:48.949604+00:00"
+}

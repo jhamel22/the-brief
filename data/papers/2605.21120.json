@@ -1,0 +1,22 @@
+{
+  "id": "2605.21120",
+  "arxiv_url": "https://arxiv.org/abs/2605.21120",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Spectroscopy of hidden-heavy tetraquark states with $J^{PC}=0^{--}$ in a color-octet configuration",
+  "authors": "Bing-Dong Wan, Jun-Hao Zhang, Yan Zhang, Ming-Yang Yuan",
+  "abstract": "Within the framework of QCD sum rules, we investigate hidden-heavy tetraquark states with the exotic quantum number $J^{PC}=0^{--}$ in color-octet configurations, namely $[Q\\bar q]_{8_c}\\otimes[q\\bar Q]_{8_c}$ and $[Q\\bar Q]_{8_c}\\otimes[\\bar q q]_{8_c}$ with $Q=c,b$. Since the $0^{--}$ quantum number cannot be realized by conventional $q\\bar q$ mesons, the observation of such a state would provide a particularly clean signal for exotic hadronic structures. We construct four color-octet interpolating currents for the hidden-heavy systems and carry out the operator product expansion up to dimension-eight condensates. Our numerical analysis indicates that the hidden-bottom sector exhibits the clearest sum-rule stability, with flatter Borel platforms than the corresponding hidden-charm sector. We obtain four $0^{--}$ hidden-bottom tetraquark candidates in the mass range $10.8$--$11.1~\\mathrm{GeV}$, while their hidden-charm partners are predicted around $4.3$--$4.6~\\mathrm{GeV}$. The extracted masses suggest a compact spectral pattern with a mild dependence on the underlying color-octet clustering structure. We also discuss possible decay patterns and emphasize that the absence of the lowest pseudoscalar--pseudoscalar heavy-meson channels is a distinctive consequence of the exotic $0^{--}$ assignment. These results provide useful theoretical guidance for future searches for hidden-heavy exotic states at Belle II and LHCb, with complementary probes of the hidden-charm partners at BESIII.",
+  "title_relatable": "Hunting for impossible particles made of four quarks",
+  "hook": "Exotic tetraquarks with quantum numbers that conventional matter cannot have should appear at specific masses—and decay in distinctly odd ways.",
+  "summary": "A team used QCD sum rules to predict masses of hidden-heavy tetraquarks with the exotic quantum number 0−−, which ordinary two-quark mesons cannot possess. They found four candidates in the hidden-bottom sector around 10.8–11.1 GeV and four hidden-charm partners near 4.3–4.6 GeV. These particles would be smoking-gun evidence for exotic four-quark structures and should be within reach of Belle II and LHCb experiments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1124,
+  "tokens_out": 191,
+  "cost_usd": 0.0016632,
+  "ingested_at": "2026-05-21T23:52:22.483614+00:00"
+}

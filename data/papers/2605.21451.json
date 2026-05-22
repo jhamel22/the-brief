@@ -1,0 +1,25 @@
+{
+  "id": "2605.21451",
+  "arxiv_url": "https://arxiv.org/abs/2605.21451",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cond-mat.dis-nn",
+    "cs.AI",
+    "cs.NE"
+  ],
+  "title_original": "Approximation Theory for Neural Networks: Old and New",
+  "authors": "Soumendu Sundar Mukherjee, Himasish Talukdar",
+  "abstract": "Universal approximation theorems provide a mathematical explanation for the expressive power of neural networks. They assert that, under mild conditions on the activation function, feedforward neural networks are dense in broad function classes, such as continuous functions on compact subsets of $\\mathbb{R}^d$, $L^p$ spaces, or Sobolev spaces. Over the past four decades, these qualitative universality results have evolved into a rich quantitative theory addressing approximation rates, parameter efficiency, and the role of architectural features such as depth and width. This survey presents several glimpses into this theory. We review classical density results for single-hidden-layer networks, as well as quantitative bounds that relate approximation error to network size and smoothness assumptions on target functions. Particular emphasis is placed on depth--width trade-offs and on results demonstrating that deeper architectures can achieve superior parameter efficiency for structured function classes. In addition to standard feedforward neural networks, we also review recent developments on Kolmogorov--Arnold Networks (KANs), which offer an alternative architectural paradigm and whose approximation-theoretic properties have begun to attract significant theoretical attention.",
+  "title_relatable": "How many neurons does it take to approximate any function?",
+  "hook": "A comprehensive survey of why neural networks work mathematically—from classical density theorems to modern depth-width trade-offs and the emerging Kolmogorov-Arnold networks.",
+  "summary": "Neural networks are mathematically guaranteed to approximate any continuous function well enough, but the hard question is how many neurons you actually need. This survey traces four decades of theory on approximation rates, showing how deeper networks dramatically improve parameter efficiency compared to shallow ones, and reviews recent work on Kolmogorov-Arnold networks as an alternative architecture. Understanding these tradeoffs matters for practitioners deciding how to structure networks for efficient learning.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 915,
+  "tokens_out": 174,
+  "cost_usd": 0.001428,
+  "ingested_at": "2026-05-21T23:56:35.220487+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21293",
+  "arxiv_url": "https://arxiv.org/abs/2605.21293",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum Nonlocality and Device-Independent Randomness are Robust to Noisy Signaling Channels",
+  "authors": "Kuntal Sengupta, Lewis Wooltorton",
+  "abstract": "Given a pair of isolated devices that accept random binary inputs and return binary outputs, a user can deduce from the observed data alone if the underlying mechanism can be explained classically. Bell's theorem further states that a classical explanation can be ruled out if the devices perform certain measurements on an entangled quantum state, underpinning the security of cryptographic protocols that are device-independent (DI). For certain protocols, such as those performed in a tight space, it might be difficult to perfectly enforce the non-signaling assumption required in Bell's theorem. This prompts the question: is quantum nonlocality robust to such imperfections? We show that if a binary channel sends a noisy copy of one party's input to the other before any measurements take place, the answer is yes. We completely characterize the vertices and facets of the local polytope in this scenario, and identify Bell inequalities that certify non-signaling quantum correlations. This is possible even when a near perfect copy of the input is sent. We go on to show that the identified inequalities are more robust to depolarizing noise than the Clauser-Horne-Shimony-Holt inequality when certifying DI randomness in this scenario. In addition, we characterize the local polytope when both parties receive a noisy copy of each other's input and make similar conclusions, leaving many new potential Bell inequalities to be explored.",
+  "title_relatable": "Quantum randomness stays secure even when devices secretly leak signals",
+  "hook": "Even if one device partially reveals its input to the other, Bell inequality violations—and their cryptographic guarantees—survive.",
+  "summary": "Bell tests for device-independent cryptography require that the two measurement devices can't communicate, but in practice perfect isolation is hard. This work shows that even when a noisy copy of one party's input leaks to the other before measurement, quantum nonlocality can still be certified. The authors fully map out the geometry of allowed classical correlations in this leaky scenario and find Bell inequalities that are actually more noise-tolerant than the standard CHSH inequality—good news for real-world quantum cryptography in tight quarters.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1008,
+  "tokens_out": 182,
+  "cost_usd": 0.005754,
+  "ingested_at": "2026-05-21T23:49:21.031074+00:00"
+}

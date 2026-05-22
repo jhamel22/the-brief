@@ -1,0 +1,23 @@
+{
+  "id": "2605.20352",
+  "arxiv_url": "https://arxiv.org/abs/2605.20352",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "On the correlation between globular clusters and the distribution of dark matter in galaxy clusters: the case of Abell 2744",
+  "authors": "Marta Reina-Campos, Joshua S. Speagle, William E. Harris",
+  "abstract": "Globular clusters (GCs) lie scattered around the inner $40\\%$ of the virial radius of galaxy clusters, potentially being excellent tracers of the underlying mass distribution. In this paper, we present a statistical method based on assuming that the location of GCs around a galaxy cluster follows an inhomogenous spatial Poisson point process, and we use this method to assess to which galactic component GCs are better tracers of. We apply the method to the galaxy cluster Abell 2744, and we find that the spatial distribution of bright GCs roughly traces the three main interacting clumps in the galaxy cluster, alongside other galaxies with sizeable GC populations. The GC populations are more closely correlated to the predicted mass maps than any other galactic component (Spearman rank coefficients $>0.7$). A perk of this statistical method is that it allows us to distinguish to which map the agreement is closest to. In particular, we find that the Bright Blue GCs are compatible with the mass map solely derived from weak lensing, suggesting that they can provide complementary and independent information on the mass distribution in galaxy clusters with a similar level of detail to that of weak lensing. This statistical method is available in a public repository, and combined with catalogs of GCs in galaxy clusters at different cosmic epochs, it provides an independent method for investigating the mass distribution in these galactic environments.",
+  "title_relatable": "Globular clusters reveal dark matter's hidden scaffolding in galaxy clusters",
+  "hook": "Bright star clusters trace dark matter as well as weak lensing does, offering a independent way to map invisible mass in distant galaxy clusters.",
+  "summary": "Globular clusters scattered around galaxy clusters can serve as tracers of underlying dark matter. Using a statistical method based on spatial point processes, researchers found that the distribution of bright globular clusters in Abell 2744 correlates strongly with predicted mass maps from multiple sources, with agreement coefficients exceeding 0.7. Notably, blue globular clusters match weak-lensing mass maps as closely as that technique does, suggesting they could provide independent constraints on dark matter distribution across the universe's history.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1022,
+  "tokens_out": 191,
+  "cost_usd": 0.0015815999999999998,
+  "ingested_at": "2026-05-21T23:51:28.091962+00:00"
+}

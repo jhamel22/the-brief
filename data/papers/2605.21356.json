@@ -1,0 +1,22 @@
+{
+  "id": "2605.21356",
+  "arxiv_url": "https://arxiv.org/abs/2605.21356",
+  "announced_date": "2026-05-20",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "A simple model of co-emergence of grid and place fields",
+  "authors": "Zhaoze Wang, Genela Morris, Dori Derdikman, Pratik Chaudhari, Vijay Balasubramanian",
+  "abstract": "Grid cells in the medial entorhinal cortex and place cells in the hippocampus together support spatial navigation. The two regions are reciprocally connected, and there is a chicken-and-egg problem for how both arise and reinforce each other during development. Current computational accounts either derive one type from the other or use network dynamics to model the emergence of one type in isolation. We introduce a unified recurrent network model that instantiates Dale's Law (every neuron is either excitatory or inhibitory), and is trained to predict the next sensory observation from masked previous sensory observations and egocentric motion. To our knowledge, this is the first single-objective model in which grid and place cells co-emerge without supervision of either type, or reliance on pre-existing spatial-cell representations. The two kinds of spatial codes coexist across 1,000 different training configurations, with their balance set by the amount of sensory noise and masking. Without retraining, the network qualitatively reproduces experimentally observed grid fragmentation in hairpin mazes, grid merging after wall removal, lattice alignment across connected rooms, locally ordered 3D fields observed in freely flying bats, as well as the developmental order in which place cells precede grid cells. We interpret these results in terms of two complementary encoding pressures within a single sensory-prediction objective: (1) correcting errors or reconstructing missing components of sensory observations, and (2) prediction of the next sensory state during navigation. Our results suggest a circuit-level account of the co-emergence of grid and place cells, and experimentally testable predictions for the two kinds of spatial codes.",
+  "title_relatable": "How do brains build two maps at once?",
+  "hook": "A single neural network spontaneously develops both grid cells and place cells—the brain's dual navigation system—without being told what to build.",
+  "summary": "Neuroscientists modeled how two types of spatial cells in the brain could emerge together during development. A recurrent network trained only to predict sensory observations spontaneously developed both grid cells (which form hexagonal firing patterns) and place cells (which fire at specific locations), matching the reciprocal connections between entorhinal cortex and hippocampus. The model reproduces real phenomena like grid reorganization in mazes and the developmental sequence where place cells mature before grid cells, suggesting navigation might self-organize from a single objective: predicting what you'll see next.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 773,
+  "tokens_out": 201,
+  "cost_usd": 0.0014224,
+  "ingested_at": "2026-05-22T00:18:01.463413+00:00"
+}

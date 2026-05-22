@@ -1,0 +1,25 @@
+{
+  "id": "2605.20692",
+  "arxiv_url": "https://arxiv.org/abs/2605.20692",
+  "announced_date": "2026-05-20",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "stat.ME",
+    "q-bio.PE",
+    "q-bio.QM",
+    "stat.AP"
+  ],
+  "title_original": "Inferring infectiousness: a joint model of the within-host viral kinetics of SARS-CoV-2",
+  "authors": "Christopher B. Boyer, Stephen M. Kissler, Seran Hakki, Jakob Jonnerby, Ajit Lalvani, Marc Lipsitch",
+  "abstract": "During an infectious disease outbreak, providing accurate answers to policy questions about transmission requires a detailed model of the natural history of infectiousness. Unfortunately, direct measures of infectiousness are generally unavailable. Instead, we often rely on indirect proxies, such as viral load measured by PCR or antigen tests, viral culture to detect replication-competent virus, or symptom onset, each of which reflects different aspects of viral dynamics or host response. However, these proxies vary in terms of the ease of collection, scalability, and their relationship to viral shedding and therefore underlying infectiousness. Here, we use data from five prospective, densely sampled cohorts with longitudinal data on multiple proxies of viral shedding for approximately 2,000 infections to develop a Bayesian joint model for the within-host viral kinetics of SARS-CoV-2 infection. Modeling the joint distribution allows us to infer the trajectory of infectious virus shedding -- the most direct correlate of infectiousness -- for individuals who contribute only PCR data, and to compute derived quantities that are inaccessible from any single proxy alone. These include the population-level probability and expected duration of ongoing infectiousness as a function of time since diagnosis, stratified by variant, vaccination status, and infection history; the residual risk of releasing an individual from isolation; and personalized, real-time estimates of infectiousness that are sequentially updated as new test results become available.",
+  "title_relatable": "Can we predict when someone stops spreading COVID?",
+  "hook": "Researchers combined five datasets tracking viral dynamics to infer who's actually contagious—using PCR tests, viral cultures, and symptoms to estimate real infectiousness.",
+  "summary": "A Bayesian model pooling 2,000 SARS-CoV-2 infections with multiple measurements (PCR, antigen tests, viral cultures) infers when people shed infectious virus, not just detectable RNA. This reveals infectiousness duration by variant and vaccination status, letting doctors estimate real transmission risk from test results. Practical payoff: better isolation guidance and knowing when someone is genuinely safe around others.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 748,
+  "tokens_out": 176,
+  "cost_usd": 0.0013024,
+  "ingested_at": "2026-05-22T00:18:37.225817+00:00"
+}

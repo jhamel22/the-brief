@@ -1,0 +1,22 @@
+{
+  "id": "2605.20324",
+  "arxiv_url": "https://arxiv.org/abs/2605.20324",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Closed String Field Theory in 25.99 Dimensions",
+  "authors": "Ahmadain Amr, Frenkel Alexander, Yin Xi",
+  "abstract": "We return to and refine Zwiebach's formulation of closed string field theory (CSFT) built around non-critical backgrounds [1,2], restricting our attention to genus zero. The structure involves a special string state $F$ that encodes the failure of worldsheet BRST invariance, and a metric-dependent descent operator $\\mathcal{B}$ adapted to the Weyl frame. We construct the mixed moduli spaces needed for the classical BV action, prove their existence, and extend the Sen-Zwiebach background independence argument to first order off of the conformal locus. We apply the formalism to the mildest deviation away from criticality - worldsheet CFTs with nonzero central charge: we consider both D=26-$ε$ dimensional flat space and linear dilaton profiles in bosonic string theory, focusing for simplicity on building solutions that depend on only one of the D dimensions.",
+  "title_relatable": "How to build string theory in almost 26 dimensions",
+  "hook": "Physicists refined the mathematical framework for closed string field theory in non-critical dimensions, opening a path to study strings in spacetime that doesn't quite match the theory's perfect setup.",
+  "summary": "Zwiebach's formulation of closed string field theory works best in exactly 26 dimensions for bosonic strings, but real physics might happen nearby. This work constructs the precise mathematical machinery—mixed moduli spaces and descent operators—needed to write down the theory when you deviate even slightly from criticality, then tests it on strings in 26-ε dimensions and linear dilaton backgrounds. The result bridges formal consistency and potential physical applications.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 902,
+  "tokens_out": 183,
+  "cost_usd": 0.0014536,
+  "ingested_at": "2026-05-21T23:48:19.829857+00:00"
+}

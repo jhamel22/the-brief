@@ -1,0 +1,23 @@
+{
+  "id": "2605.21222",
+  "arxiv_url": "https://arxiv.org/abs/2605.21222",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "$D^0$--$D_s^+$ elliptic-flow splitting from sequential hadronization in O--O collisions at $\\sqrt{s_{NN}} = 5.36$ TeV",
+  "authors": "Hui Du, Xiao-Wei Hao, Wei Dai, Jiaxing Zhao, Ben-Wei Zhang, Enke Wang",
+  "abstract": "We investigate the elliptic-flow splitting between prompt $D^0$ and $D_s^+$ mesons in O--O and Pb--Pb collisions within a heavy-quark transport framework with sequential hadronization, in which $D_s^+$ forms at $1.2\\,T_c$ and $D^0$ at $T_c$. We present predictions for the $p_T$-differential $v_2$ and $D_s^+/D^0$ yield ratio in O--O $0$--$20\\%$ collisions at $\\sqrt{s_{NN}} = 5.36$~TeV. The sequential scenario reproduces the $v_2(D^0) > v_2(D_s^+)$ ordering observed in preliminary ALICE data and predicts an enhanced $D_s^+/D^0$ ratio at low $p_T$, whereas a simultaneous baseline yields the opposite $v_2$ ordering. The splitting in O--O is substantially smaller than in Pb--Pb $30$--$50\\%$, which we trace to the competition between the initial geometric eccentricity and the duration of the $1.2\\,T_c \\to T_c$ evolution window. A systematic scan across nine collision configurations reveals a universal linear scaling between the hadronic splitting and the partonic flow increment accumulated during this window, establishing the $D^0$--$D_s^+$ flow splitting as a hadronization chronometer of the quark-gluon plasma.",
+  "title_relatable": "When charm mesons form matters: tracking quark-gluon plasma temperature",
+  "hook": "Heavy quarks crystallizing at different temperatures create a 'hadronization clock' that reveals the inner workings of primordial matter.",
+  "summary": "In collisions of oxygen nuclei at the Large Hadron Collider, two types of charm mesons flow differently through the hot plasma created in the collision—but only if they form at different temperatures. The team used simulations to show that $D_s^+$ mesons freezing out at 1.2 times the critical temperature, while $D^0$ mesons form at the critical temperature itself, naturally explains ALICE detector measurements. This timing difference acts as a thermometer for the quark-gluon plasma.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1103,
+  "tokens_out": 200,
+  "cost_usd": 0.0016824000000000001,
+  "ingested_at": "2026-05-21T23:47:39.064017+00:00"
+}

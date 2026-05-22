@@ -1,0 +1,22 @@
+{
+  "id": "2605.21280",
+  "arxiv_url": "https://arxiv.org/abs/2605.21280",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Let EEG Models Learn EEG",
+  "authors": "Yifan Wang, Yijia Ma, Wen Li, Chenyu You",
+  "abstract": "High-fidelity EEG generation is critical for alleviating data scarcity and addressing privacy constraints in large-scale neural modeling. Despite recent progress, most existing approaches formulate EEG generation via discrete denoising objectives, which inadequately reflect the inherently continuous temporal dynamics and spectral structure of neural activity. As a result, these methods often struggle to preserve long-range temporal dependencies and exhibit mismatches in the spectral and temporal structure of the generated signals. In this work, we argue that effective EEG generation requires models that operate directly on the continuous evolution of neural signals. We introduce Just EEG Transformer (JET), a generative framework based on conditional flow matching that models EEG as raw sequences evolving along continuous trajectories. By learning a smooth vector field that transports noise to the EEG data distribution, JET captures temporal continuity and transient dynamics without relying on discretized denoising schemes or domain-specific representations. To ensure that the learned dynamics remain consistent with key properties of EEG signals, we introduce principled constraints that preserve spectral structure, temporal stationarity, and signal-level statistics. Across three large-scale benchmarks, JET consistently achieves state-of-the-art performance, reducing TS-FID by over 40% compared to strong baselines. Extensive analyses show that JET captures key structural properties of neural dynamics, providing a scalable and principled approach to EEG generation. Project page: https://y-research-sbu.github.io/JET/ .",
+  "title_relatable": "Generating realistic brain waves by modeling how they actually flow",
+  "hook": "New method cuts EEG generation error by 40% by treating brain signals as continuous streams instead of discrete chunks, capturing the temporal dynamics that matter.",
+  "summary": "EEG data is scarce and sensitive, making synthetic generation valuable for research. Existing methods treat EEG generation as discrete denoising tasks, which misses the continuous, flowing nature of brain signals. Just EEG Transformer (JET) uses flow matching to model EEG as smooth trajectories through noise space, adding constraints that preserve spectral structure and signal statistics. On three benchmarks, it reduces TS-FID error by over 40% and better captures the actual structural properties of neural dynamics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1002,
+  "tokens_out": 193,
+  "cost_usd": 0.0015735999999999999,
+  "ingested_at": "2026-05-22T00:13:12.595326+00:00"
+}

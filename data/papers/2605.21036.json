@@ -1,0 +1,22 @@
+{
+  "id": "2605.21036",
+  "arxiv_url": "https://arxiv.org/abs/2605.21036",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum theory of a three-photon Kerr parametric oscillator",
+  "authors": "Alessandro Bruno, Patrick P. Potts, Alexander Grimm, Matteo Brunelli",
+  "abstract": "We investigate the quantum properties of a nonlinear Kerr oscillator driven by a three-photon pump. We derive both exact and approximate analytical expressions for the ground state of this interacting model. The exact solution arises at an exact spectral degeneracy, while the approximate solution describes regimes of quasi-degeneracy of the energy spectrum. In both cases, the threefold (quasi)degenerate ground-state manifold consists of quantum superpositions of three macroscopically distinct states. These states differ qualitatively from conventional three-component Schrödinger's cat states due to the presence of squeezing with a distinctive parametric dependence. By varying the detuning between the oscillator and the three-photon pump, we show that the squeezing can be enhanced, suppressed, or even reversed, leading to a squeezing-to-anti-squeezing transition. We analyze the generation and stabilization of these superposition states, their robustness against perturbations and analytically quantify the leakage to excited states. Our analysis elucidates how the three-photon Kerr parametric oscillator can be used to encode a Kerr-cat qutrit protected against phase-flip errors.",
+  "title_relatable": "A new quantum oscillator encodes a qutrit protected from phase-flip errors",
+  "hook": "A three-photon-driven quantum oscillator naturally generates three-way Schrödinger cat states with tunable squeezing — a potential building block for error-protected qutrits.",
+  "summary": "Driving a nonlinear quantum oscillator with three photons at once produces a ground state that is a superposition of three macroscopically distinct states — a three-legged cat. Unlike standard cat states, these carry an unusual squeezing that can be dialed up, down, or flipped in sign just by tuning the drive frequency. The threefold degeneracy of the ground state naturally protects encoded quantum information against phase-flip errors, pointing toward a hardware-efficient route to error-protected qutrits.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 977,
+  "tokens_out": 206,
+  "cost_usd": 0.006021,
+  "ingested_at": "2026-05-21T23:50:38.349192+00:00"
+}

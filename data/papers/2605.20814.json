@@ -1,0 +1,22 @@
+{
+  "id": "2605.20814",
+  "arxiv_url": "https://arxiv.org/abs/2605.20814",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Effective spherical symmetry in Loop Quantum Gravity: A path integral approach",
+  "authors": "Juan Carlos Del Águila, Hugo A. Morales",
+  "abstract": "In this work a loop quantum corrected model is obtained for spherically symmetric space-times in the vacuum. This effective model is derived by the use of the path integral method, previously employed in several models of Loop Quantum Cosmology. Our principal aim is to find explicit corrections corresponding to inverse triad and holonomy effects that commonly arise from the loop quantization procedure. These corrections modify the Hamiltonian constraint of the classical theory, adding quantum parameters that represent the length of the holonomies considered during quantization. The semiclassical theory yielded reduces to the classical case when small values of such length are taken to be small. Solutions to the effective dynamics of a simplified version of the complete corrected theory are then found and used to describe an effective geometry with inverse triad corrections. This modified space-time represents a black hole with a curvature singularity in its interior which, contrary to its classical counterpart, does not lead to null geodesic incompleteness. For the case of holonomy corrections, preliminary arguments are given in favor of a potential singularity resolution.",
+  "title_relatable": "Loop quantum gravity's path integral approach tames black hole singularities",
+  "hook": "A quantum-corrected black hole still has a curvature spike inside, but geodesics no longer dead-end there.",
+  "summary": "Using path integral methods borrowed from loop quantum cosmology, the authors derive quantum corrections to the gravitational equations governing spherically symmetric black holes in vacuum. With inverse triad corrections alone, the interior singularity survives mathematically but stops cutting off geodesics — meaning infalling observers' paths no longer terminate abruptly. Holonomy corrections hint at full singularity resolution, suggesting loop quantum gravity could patch the central breakdown that classical general relativity leaves unresolved.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 929,
+  "tokens_out": 176,
+  "cost_usd": 0.005427,
+  "ingested_at": "2026-05-21T23:46:04.621155+00:00"
+}

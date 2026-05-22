@@ -1,0 +1,24 @@
+{
+  "id": "2605.20693",
+  "arxiv_url": "https://arxiv.org/abs/2605.20693",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "Interpretable Discriminative Text Representations via Agreement and Label Disentanglement",
+  "authors": "Tong Wang, Yiqing Xu, Leo Yang Yang",
+  "abstract": "Interpretable text representations should expose coordinates that are not only predictive, but also meaningful enough for independent auditors to apply. Existing discriminative representations often use anonymous embedding directions, while concept-bottleneck and LLM-assisted methods attach natural-language names to features without ensuring that those definitions are reproducible or distinct from the target label. We propose an operational criterion for interpretable discriminative text representations: each coordinate should satisfy conceptual clarity, measured by chance-adjusted agreement between independent annotators applying the feature definition, and label disentanglement, meaning the feature should not merely paraphrase the prediction target. We instantiate this criterion in LLM-assisted Feature Discovery (LFD), an iterative method that proposes lexical and semantic features from contrastive outcome-opposed text pairs, screens candidates using cross-LLM Cohen's $κ$, and selects features by residual held-out predictive gain. A stylized analysis connects the $κ$ screen to a per-feature annotation-noise bound, formalizing agreement as a reliability check. Across ten text-classification tasks spanning seven corpora, LFD matches the predictive performance of a strong text bottleneck baseline while producing substantially clearer and less label-entangled features. Human audits with 232 raters show that LFD features achieve higher human--human and human--LLM agreement than baseline concepts, and raters consistently judge them as less label-leaking. These results suggest that agreement-tested, label-disentangled coordinates provide a practical auditability standard for interpretable text classification.",
+  "title_relatable": "Making AI text decisions explainable to human auditors",
+  "hook": "A method that generates interpretable text features by forcing AI to agree with itself and prove they're not just rephrasing the target label.",
+  "summary": "Machine learning models often use uninterpretable features—directions in embedding space that work but mean nothing to humans. The authors propose a practical standard: each feature must pass two tests. First, independent annotators applying the feature definition must agree (measured by Cohen's κ), ensuring it's actually describing something real. Second, the feature must add predictive power beyond just rewording the target label. They built LFD, which generates candidate features from text pairs, screens them for inter-rater agreement, then selects by residual predictive gain. Across ten text-classification tasks, LFD matched strong baselines while producing features that human auditors consistently rated as clearer and less label-leaking. This matters outside NLP: any high-stakes classifier (hiring, lending, content moderation) needs features auditors can actually check.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1014,
+  "tokens_out": 257,
+  "cost_usd": 0.0018392,
+  "ingested_at": "2026-05-22T00:07:35.538869+00:00"
+}

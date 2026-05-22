@@ -1,0 +1,25 @@
+{
+  "id": "2605.19953",
+  "arxiv_url": "https://arxiv.org/abs/2605.19953",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Probing String-Theory-Inspired Topologies of the Early Universe through CMB Temperature and Polarization Anisotropies",
+  "authors": "Nick E. Mavromatos, Miguel-Angel Sanchis-Lozano",
+  "abstract": "TeV string-mass-scale strings have been excluded experimentally at colliders, as their effects have not been observed at the Large Hadron Collider (CERN). On the other hand, higher-scale string theory, with mass scales typically close to the Planck scale, is often regarded as experimentally inaccessible due to the enormous energies required for direct tests, and far beyond the reach of present or foreseeable particle accelerators. Nevertheless, the early Universe may provide an indirect observational window for high-string scale through imprints left on the Cosmic Microwave Background (CMB). In this work, building on previous studies, we reexamine temperature and polarization angular correlations as probes of the geometry and topology of the pre-inflationary Universe. We focus in particular on two-point correlation functions at large angular scales, where signatures of nontrivial spatial topology may survive as relics of primordial physics. We investigate the observational consequences of toroidal compactification and analyze their impact on the primordial power spectrum of the CMB provided by the Planck satellite. Within the current experimental and theoretical uncertainties, we identify a possible indication closely related to spatial-parity breaking, consistent with the presence of six spatial extra dimensions in the early Universe, compactified at the GUT epoch before the start of inflation. Finally, we extend our framework to B-mode polarization, highlighting its potential as a sensitive probe in forthcoming ground-based and space-borne experiments with unprecedented precision.",
+  "title_relatable": "Does the CMB harbor hidden fingerprints of string theory's extra dimensions?",
+  "hook": "CMB patterns might encode evidence of six curled-up spatial dimensions predicted by string theory, detectable through temperature and polarization correlations at large angular scales.",
+  "summary": "The early universe may encode signatures of string theory's extra dimensions in the CMB's large-scale patterns. The authors analyzed temperature and polarization correlations from Planck data, finding hints of spatial topology consistent with six compactified extra dimensions formed before inflation. If confirmed by future B-mode measurements, this would provide indirect evidence for high-scale string theory where direct particle-accelerator tests remain impossible.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1047,
+  "tokens_out": 174,
+  "cost_usd": 0.0015336,
+  "ingested_at": "2026-05-21T23:51:51.467296+00:00"
+}

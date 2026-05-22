@@ -1,0 +1,23 @@
+{
+  "id": "2605.20349",
+  "arxiv_url": "https://arxiv.org/abs/2605.20349",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "The fate of Reissner--Nordström--de Sitter black holes: nonequilibrium discharge and evaporation",
+  "authors": "Damien A. Easson",
+  "abstract": "We develop a semiclassical description of Reissner--Nordström--de Sitter (RN--dS) evaporation by combining a spherically reduced two-dimensional dilaton gravity model with Polyakov anomaly backreaction. The framework captures the causal and thermodynamic structure of the static patch and yields closed adiabatic evolution equations for the mass and charge. With an outward-oriented flux convention, the anomaly-induced Killing-energy flux is $\\mathcal F=(N_{\\rm eff}/48π)(κ_b^2-κ_c^2)$, while the full mass evolution is $\\dot M=-\\mathcal F+Φ_b\\dot Q$, with $Φ_b=Q/r_b$. We prove analytically that along the entire sub-Nariai neutral Schwarzschild--de Sitter branch $κ_b>κ_c$, so neutral black holes lose mass monotonically. Schwinger pair production provides the discharge channel. In the rapid-discharge regime, controlled charged trajectories become effectively neutral on a timescale short compared with the anomaly-driven Hawking mass-loss time and then follow the neutral SdS channel toward empty de Sitter space. The classical lukewarm locus $T_b=T_c$ is only the nullcline of the anomaly-induced heat flux: the electromagnetic work term tilts the full semiclassical vector field away from this curve, so it is not an invariant trajectory. When sufficiently light charged species provide a rapid-discharge channel, the classical cold/extremal, charged Nariai, ultracold, and lukewarm loci are not semiclassical attractors for controlled nondegenerate trajectories. These results give an adiabatically backreacted derivation of the RN--dS evaporation endpoint in the regime controlled by anomaly-induced flux and rapid charge discharge, and provide the semiclassical background for generalized-second-law monotonicity and conservative quantum-extremal-surface/island estimates.",
+  "title_relatable": "Why charged black holes in expanding space won't stay charged",
+  "hook": "A charged black hole in de Sitter space evaporates faster than classical thermodynamics predicts—quantum effects force it to shed charge and mass simultaneously, avoiding the traps that classical solutions suggest.",
+  "summary": "Charged black holes in an expanding universe (Reissner–Nordström–de Sitter geometry) obey quantum-corrected equations that drive them away from their classical equilibrium states. Using semiclassical gravity, the authors show that quantum anomalies push the black hole to dump its charge via Schwinger pair production and lose mass through Hawking radiation simultaneously, following a path that bypasses the classical cold and lukewarm equilibrium points entirely. This matters for understanding quantum gravity's second law and how information escapes from black holes in an accelerating cosmos.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1174,
+  "tokens_out": 216,
+  "cost_usd": 0.0018032,
+  "ingested_at": "2026-05-21T23:48:07.931970+00:00"
+}

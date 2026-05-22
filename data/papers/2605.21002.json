@@ -1,0 +1,25 @@
+{
+  "id": "2605.21002",
+  "arxiv_url": "https://arxiv.org/abs/2605.21002",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CR",
+    "cs.CV",
+    "cs.CY",
+    "cs.MM"
+  ],
+  "title_original": "Verifiable Provenance and Watermarking for Generative AI: An Evidentiary Framework for International Operational Law and Domestic Courts",
+  "authors": "Gustav Olaf Yunus Laitinen-Fredriksson Lundström-Imanov, Nurana Abdullayeva",
+  "abstract": "Generative artificial intelligence now synthesizes photorealistic imagery, audio, and video at a cost that defeats traditional forensic intuition. The legal consequences span three regimes studied so far in isolation: international operational law, domestic procedure, and product regulation. This article presents a unified evidentiary framework that maps cryptographic content provenance, robust statistical watermarking, and zero knowledge attestation to the proof requirements of each regime. We define a five tier threat model spanning naive regeneration, adversarial laundering, cross model regeneration, active watermark removal, and insider provenance forgery. We release a public benchmark of 12000 generated items across image, audio, and video modalities under six laundering pipelines for 72000 evaluation samples. We evaluate four representative schemes and report true positive rate at fixed false positive rate, robustness area under the curve, computational overhead, and a regime conditioned legal sufficiency score. We translate empirical detection bounds into legal sufficiency thresholds for command decisions under the law of armed conflict, for criminal and civil admissibility under domestic procedure, and for persistence audits under the European Union Artificial Intelligence Act and analogous regimes. The result is a reproducible reference pipeline, a public benchmark, and model annexes that lawyers, engineers, and operators can deploy together.",
+  "title_relatable": "How courts can prove AI-generated content is real",
+  "hook": "New framework connects watermarking and cryptography to legal standards across courts, military law, and EU regulation—with a 72,000-sample benchmark.",
+  "summary": "Deepfakes are now cheap and convincing, but courts and military commanders need reliable ways to prove whether AI generated something. This work bridges cryptography, watermarking, and law by mapping technical detection methods to the specific evidence standards that lawyers actually use. They release a 72,000-sample benchmark testing watermarking robustness against six attack types, evaluate four schemes, and provide concrete thresholds for when evidence is legally sufficient under armed-conflict rules, criminal procedure, and EU AI regulation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 979,
+  "tokens_out": 188,
+  "cost_usd": 0.0015352,
+  "ingested_at": "2026-05-22T00:11:26.443805+00:00"
+}

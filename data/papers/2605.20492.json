@@ -1,0 +1,22 @@
+{
+  "id": "2605.20492",
+  "arxiv_url": "https://arxiv.org/abs/2605.20492",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Remarks on electrical Penrose process for magnetized Reissner-Nordström black hole",
+  "authors": "A. Baez, Nora Breton, I. Cabrera-Munguia",
+  "abstract": "The energy extraction from a magnetized Reissner-Nordström black hole is analyzed within the framework of the electric Penrose mechanism. The presence of an external magnetic field induces an axisymmetric configuration and an ergosphere (the region where energy extraction is possible) arises, allowing for negative energy states even in an otherwise static spacetime. By analyzing the decay of particles at turning points of the radial motion, we derive the general expression for the efficiency of the process in terms of the metric coefficients and the electromagnetic potential. This formulation provides a direct criterion for identifying the ergoregions and we show that the magnetic field acts as a control parameter that governs both the configuration of the ergosphere and the efficiency of the process. In particular, analytical expressions for the critical magnetic fields that determine the onset and suppression of energy extraction are determined. Our results extend previous analysis of the electric Penrose process for magnetized configurations and clarify the role of the external field in enhancing or inhibiting energy extraction from charged black holes.",
+  "title_relatable": "Can a magnetic field help drain energy from a charged black hole?",
+  "hook": "An external magnetic field can both switch on and switch off energy extraction from a static charged black hole — with a calculable critical threshold.",
+  "summary": "Static charged black holes normally lack the ergosphere needed for the Penrose process, but wrapping one in an external magnetic field breaks that symmetry and creates one. Analyzing particle decay at turning points, the authors derive exact efficiency formulas and find specific critical field strengths that either trigger or suppress energy extraction. The result gives a clean, tunable control parameter — magnetic field strength — for how much energy can be pulled from a charged black hole.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 932,
+  "tokens_out": 168,
+  "cost_usd": 0.005316,
+  "ingested_at": "2026-05-21T23:46:49.939958+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21278",
+  "arxiv_url": "https://arxiv.org/abs/2605.21278",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Chandra X-ray Observations of the Pulsar Wind Nebula within CTA 1",
+  "authors": "Seth Gagnon, Oleg Kargaltsev, Jason Alford, Joseph Gelfand, Alexander Lange",
+  "abstract": "We present deep Chandra observations of the pulsar wind nebula (PWN) powered by PSR J0007+7303 in the composite supernova remnant CTA 1. The merged ACIS image shows a $\\sim20''$ jet extending south of the pulsar and bending toward the southwest, a faint counter-jet to the north, and a compact torus oriented approximately perpendicular to the jet axis. Using an archival observation from 2003 we perform relative astrometry over a $\\sim20$ yr baseline and constrain the pulsar's transverse velocity to $\\lesssim 200~\\mathrm{km~s^{-1}}$ at the distance of 1.4 kpc at 95% confidence. Spatially resolved spectroscopy shows hard spectra for the jet and torus (photon indicies $Γ\\approx 1.2-1.4$) and a softer spectrum for the extended nebula ($Γ= 1.85 \\pm 0.11$), indicating minimal radiative cooling in the compact regions. Modeling of the torus, associated with the termination shock, as an inclined circle yields a viewing angle $ζ\\approx 50^\\circ$. The outer gap and two-pole caustic pulsar emission models then imply a moderate magnetic inclination ($α\\sim 20^\\circ$-$70^\\circ$). Broadband spectral energy distribution (SED) modeling from radio to PeV $γ$-rays for a one-zone leptonic scenario yields a low magnetic field ($B \\approx 1.4$-$3.2~μ\\mathrm{G}$) and a high electron cutoff energy ($E_{\\rm cut} \\sim 0.2$-$0.3~\\mathrm{PeV}$), indicating that the magnetic field decreases rapidly outside of the compact nebula. These results establish CTA 1 as a young, low X-ray efficiency PWN with a hard injection spectrum capable of accelerating particles to PeV energies.",
+  "title_relatable": "Deep X-ray survey reveals a pulsar shooting jets at near light-speed",
+  "hook": "Twenty years of observations pin down a pulsar's motion and show it's accelerating particles to a petaelectronvolt—a million times more energetic than the most powerful particle accelerators.",
+  "summary": "Deep Chandra X-ray images of the pulsar wind nebula in CTA 1 reveal a dramatic jet structure extending from the pulsar, plus a perpendicular torus at the shock termination zone. Comparing observations from 2003 to now constrains the pulsar's motion to under 200 km/s. Modeling the jet and nebula across radio to gamma-ray wavelengths shows the pulsar accelerates electrons to 0.2–0.3 petaelectronvolts in a surprisingly weak magnetic field, marking CTA 1 as a young, efficient cosmic particle accelerator.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1202,
+  "tokens_out": 232,
+  "cost_usd": 0.0018896,
+  "ingested_at": "2026-05-21T23:54:21.782935+00:00"
+}

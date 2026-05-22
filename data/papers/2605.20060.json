@@ -1,0 +1,22 @@
+{
+  "id": "2605.20060",
+  "arxiv_url": "https://arxiv.org/abs/2605.20060",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Interacting Dark Sector field theory with phantom crossing",
+  "authors": "E. Abdalla, O. P. F. Piedra, A. A. Escobal, A. M. Vicente, F. B. Abdalla, B. Wang, A. Marins",
+  "abstract": "Recent results from the Dark Energy Spectroscopic Instrument (DESI) provide evidence for a dynamical dark-energy component, whose equation of state appears to have recently crossed the phantom divide. In this Letter, we present an interacting dark-energy model, grounded in field theory, that naturally accommodates such a double crossing. In our framework, fermionic dark matter is coupled via a Yukawa interaction to a tachyonic scalar field governed by Born-Infeld dynamics. The phantom crossing arises at the level of the effective dark-energy equation of state, while the underlying scalar-field dynamics remains nonphantom and well bounded. We confront our model with data including BAO from the DESI (DR2) survey, CMB distance priors from Planck 2018, and the latest Type Ia supernovae compilations, obtaining robust constraints across the different data combinations and reconstructing a recent double crossing of the phantom divide. Furthermore, under naturalness assumptions, the model expects an ultralight fermionic dark matter mass of order $1.9\\times10^{-3}\\,\\mathrm{eV}$, suggesting a possible connection with new light particles in the dark sector and motivating future tests with cosmological perturbations.",
+  "title_relatable": "Dark matter and energy can cross the phantom divide without breaking physics",
+  "hook": "DESI data hints that dark energy just flipped from acceleration to deceleration. A new theory explains how, and predicts ultra-light dark matter particles.",
+  "summary": "Dark energy's equation of state appears to have recently crossed the phantom divide—a boundary where acceleration flips sign—according to DESI observations. The authors propose a field theory where fermionic dark matter couples to a tachyonic scalar field, naturally producing this double crossing at the effective level while keeping the underlying dynamics stable and well-behaved. The model fits DESI, Planck, and supernova data and predicts fermionic dark matter at 0.002 eV, opening a new window on the dark sector.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1003,
+  "tokens_out": 202,
+  "cost_usd": 0.0016104000000000001,
+  "ingested_at": "2026-05-21T23:51:45.452219+00:00"
+}

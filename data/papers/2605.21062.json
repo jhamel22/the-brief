@@ -1,0 +1,23 @@
+{
+  "id": "2605.21062",
+  "arxiv_url": "https://arxiv.org/abs/2605.21062",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.SR",
+    "astro-ph.HE"
+  ],
+  "title_original": "Neutron star-companion interaction in core collapse supernovae. Population synthesis based on detailed binary evolution models",
+  "authors": "Andrea Ercolino, Norbert Langer, Avishay Gal-Yam, Abel Schootemeijer, Caroline Mannes, Harim Jin, Ruggero Valli, Selma de Mink, Luc Dessart",
+  "abstract": "Most massive stars live in binary systems. When the first supernova (SN) in a binary occurs, the ejecta hit the companion, which may inflate as a consequence, and then interacts with the newly formed compact object. The recent Type Ic SN2022jli shows a periodic modulation in its emission, which is interpreted as evidence for such interaction. We derive predictions for the occurrence rate and observables of SNe exhibiting these companion - compact-object interactions (CCIs). We analyze a comprehensive, state-of-the-art grid of detailed binary stellar evolution models, and implement analytic prescriptions for the expansion of the companion star following its interaction with the SN ejecta. We employ the newly developed population synthesis code SN-ORACLE to derive the distribution functions of the properties of the SNe affected by CCI and their companions, where we use different explodability and neutron star birth kick distributions. We find that periodic CCI is expected to occur in more than half of the binary systems that produce a hydrogen-poor core collapse SN and are not disrupted, while the occurrence rate in systems producing hydrogen-rich SNe is small. We find broad period ranges, peaking around 20-50 days, with the interaction lasting for 0.5-10 years. We identify specific binary evolution models that reproduce the observed period of the light curve undulations of SN2022jli, SN2015ap, and SN2022esa. The inflation of the companion also increases its luminosity and brightness, increasing its detectability with current instruments. For SN2022jli, our best fitting models predict a J-band magnitude of 21-23 for up to 10 years. We find that up to 27% of H-poor SNe could show periodicity in their light curves, while only a few such events have been identified so far. Our results may help find periodic CCI features in future and archival SN observations.",
+  "title_relatable": "Why do some supernovae flicker in rhythm?",
+  "hook": "When a neutron star forms, it batters its companion star in a regular pattern. New simulations predict this happens in half of all hydrogen-poor supernovae—but we've barely spotted it.",
+  "summary": "Neutron stars born in binary systems pummel their companion stars with supernova ejecta, causing the companions to swell and shine brighter at predictable intervals. Using detailed models of binary evolution and a new population synthesis code, the team predicted that periodic modulation should appear in over half of hydrogen-poor core-collapse supernovae, with light-curve undulations peaking every 20–50 days and lasting years. They matched observations of three recent supernovae (including SN2022jli) and predict companion stars bright enough to detect with current telescopes, suggesting many hidden periodic signatures wait in archival data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1180,
+  "tokens_out": 227,
+  "cost_usd": 0.001852,
+  "ingested_at": "2026-05-21T23:54:28.254903+00:00"
+}

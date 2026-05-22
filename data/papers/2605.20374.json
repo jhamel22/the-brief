@@ -1,0 +1,23 @@
+{
+  "id": "2605.20374",
+  "arxiv_url": "https://arxiv.org/abs/2605.20374",
+  "announced_date": "2026-05-19",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Two asymptotically flat spinning black holes balanced by their self-interacting, synchronised scalar hair",
+  "authors": "Chen Liang, Carlos Herdeiro, Eugen Radu",
+  "abstract": "Asymptotically flat balanced configurations of two spinning black holes with synchronised scalar hair (2sBHs) are possible (arXiv:2305.15467). These are constructed within a generalized Bach-Weyl framework and arise from two spinning boson stars (2sBSs) by placing a horizon at the center of each component. Here, we investigate the effects of quartic scalar self-interactions on this family of solutions, comprising the 2sBSs, the 2sBHs, and an intermediate configuration--single spinning black hole with quadrupolar scalar hair (1sBHs). For 2sBSs, the additional repulsive force introduced by the self-interactions drives a topological transition of the ergoregion, from a single torus to a double torus, in the strong-gravity regime. For 1sBHs, as the self-interaction coupling strength increases, the solutions become \"hairier\" but their horizons cannot become heavier; moreover, the self-interactions broaden the regime in which an analytical effective model accurately describes these solutions. For 2sBHs, increasing the coupling reshapes the bifurcation structure of the solution sequences and, as in the 1sBH case, repulsive self-interactions cannot make the horizons heavier; horizons carrying a larger mass fraction are obtained only when attractive self-interactions are considered.",
+  "title_relatable": "Two spinning black holes held apart by their own hair",
+  "hook": "Scalar field 'hair' can balance two spinning black holes in stable equilibrium — and self-interactions reshape which configurations are possible.",
+  "summary": "Normally, two black holes can't just hover near each other — gravity pulls them together and nothing classical stops the collapse. This work shows that a self-interacting scalar field, synchronized with the black holes' spin, can provide the missing repulsive force to maintain equilibrium. Adding quartic self-interactions reshapes the solution landscape in unexpected ways: ergoregions undergo topological transitions from single to double tori, and repulsive self-interactions make horizons 'hairier' but not heavier — only attractive self-interactions can increase the horizon mass fraction.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1015,
+  "tokens_out": 194,
+  "cost_usd": 0.005955,
+  "ingested_at": "2026-05-21T23:47:04.598223+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21205",
+  "arxiv_url": "https://arxiv.org/abs/2605.21205",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Comprehensive study of hidden charm pentaquarks with an improved unitarization method",
+  "authors": "E. E. Garcia-Gonzales, V. K. Magas, A. Ramos",
+  "abstract": "This work investigates dynamically generated hidden-charm baryon resonances arising from meson-baryon interactions. Using the local hidden gauge formalism, we model the interaction via t-channel vector meson exchange and unitarize the amplitude using the Bethe-Salpeter equation. To address regularization issues, we propose a novel ``hybrid loop function'' scheme that eliminates the unphysical poles -- common artifacts in cutoff or dimensional regularization -- while keeping the predictions of physical states. Consequently, the model successfully reproduces six experimentally known hidden-charm pentaquarks as well as earlier theoretical results, and predicts new states in the S=-1, I=1 sector.",
+  "title_relatable": "A better way to find hidden-charm pentaquarks in particle collisions",
+  "hook": "New mathematical approach eliminates spurious predictions and reproduces all known hidden-charm pentaquarks, plus forecasts undiscovered states.",
+  "summary": "Hidden-charm pentaquarks—exotic five-quark particles—emerge from meson-baryon interactions, but standard calculation methods produce unphysical artifacts that obscure real predictions. This work introduces a hybrid loop function scheme that strips away these fake poles while preserving genuine states, successfully matching all six experimentally confirmed hidden-charm pentaquarks and forecasting new resonances in unexplored regions of quark flavor space.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 858,
+  "tokens_out": 177,
+  "cost_usd": 0.0013944,
+  "ingested_at": "2026-05-21T23:52:16.684047+00:00"
+}

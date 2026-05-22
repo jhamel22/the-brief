@@ -1,0 +1,24 @@
+{
+  "id": "2605.20477",
+  "arxiv_url": "https://arxiv.org/abs/2605.20477",
+  "announced_date": "2026-05-19",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Training Language Agents to Learn from Experience",
+  "authors": "Yuval Shalev, Zifeng Ding, Mateja Jamnik",
+  "abstract": "Language agents can adapt from experience in interactive environments, but current reflection-based methods can only self-correct within a single task instance. Whether such experience can be distilled into reusable lessons that improve performance on future unseen tasks remains unclear. We address this problem by introducing the In-context Training (ICT) task, a framework for evaluating cross-task self-improvement in language agents. In ICT, a reflector model observes trajectories collected by an actor model and generates system prompts intended to improve the actor's performance on future unseen tasks. We then propose an RL-based training pipeline for learning such reflections directly from experience, without human-provided examples. Across ALFWorld and MiniHack, our trained reflectors outperform an untrained baseline on most held-out task families, showing that the ability to learn from experience can itself be learned. In some cases, we observe generalisation beyond the benchmark on which the reflector was trained, to substantially different environments. Finally, we introduce MetaGym, a generic Python library for constructing meta-environments, enabling future research on self-improving language agents.",
+  "title_relatable": "Can language agents learn lessons that transfer to new tasks?",
+  "hook": "Language models can now learn from their own failures and generate instructions that improve performance on unseen tasks—without human examples.",
+  "summary": "Most language agents can only fix mistakes within a single task. This work asks whether they can extract general lessons that transfer to entirely new problems. Researchers built a system where a reflector model watches an actor agent fail, then writes improved prompts that help the actor succeed on future tasks. Using reinforcement learning, they trained reflectors from scratch on ALFWorld and MiniHack environments. The trained reflectors beat baselines on held-out tasks and sometimes generalize to radically different environments. They also released MetaGym, a library for building and testing self-improving agents.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 909,
+  "tokens_out": 197,
+  "cost_usd": 0.0015152,
+  "ingested_at": "2026-05-22T00:09:26.221573+00:00"
+}

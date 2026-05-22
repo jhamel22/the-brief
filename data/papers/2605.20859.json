@@ -1,0 +1,23 @@
+{
+  "id": "2605.20859",
+  "arxiv_url": "https://arxiv.org/abs/2605.20859",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Impact of matter effects on the unitarity test of lepton mixing",
+  "authors": "Ryuichiro Kitano, Joe Sato, Sho Sugama",
+  "abstract": "Testing the unitarity of the lepton mixing matrix, in a manner analogous to the unitarity tests of the CKM matrix in the quark sector, is an important step toward probing physics beyond the standard three-generation framework. In long baseline neutrino oscillation experiments, the formula of the oscillation probabilities can be written as a sum of terms with various combinations of the mixing-matrix elements, and their coefficients depend differently on energy. By observing the spectral information of long baseline experiments such as T2HK and a future neutrino factory at J-PARC with a $ν_e$ beam, the elements of the mixing matrix can be extracted without assuming a specific parametrization of the mixing matrix. We investigate how such an extraction method can be applied to neutrino oscillations by taking into account matter effects, and discuss how one can test unitarity of the mixing matrix in future long baseline experiments. As a concrete example, we examine the unitarity test by using a four-generation model, where we look at a quantity which should be vanishing in a unitary model. Among possible combinations of measurements, the most powerful test can be provided from the energy spectra of the CP-conjugate appearance channels $ν_μ\\to ν_e$ and $\\barν_μ\\to \\barν_e$ at T2HK, as well as from the T-conjugate pair $ν_μ\\to ν_e$ and $ν_e \\to ν_μ$ available at neutrino factories.",
+  "title_relatable": "How matter effects complicate tests of neutrino mixing rules",
+  "hook": "Future neutrino experiments can check whether mixing angles obey unitarity—but only if physicists account for how matter bends neutrino paths.",
+  "summary": "Physicists want to test whether the neutrino mixing matrix obeys unitarity, a fundamental symmetry that would break if a fourth generation of neutrinos exists. Using energy spectra from long baseline experiments like T2HK and a proposed neutrino factory, they can extract mixing parameters without assuming a specific model—but Earth's matter scrambles the signal. The team shows that CP-conjugate and T-conjugate measurements offer the cleanest unitarity test, potentially revealing physics beyond the standard three-generation picture.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1040,
+  "tokens_out": 193,
+  "cost_usd": 0.001604,
+  "ingested_at": "2026-05-21T23:52:33.333782+00:00"
+}

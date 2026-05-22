@@ -1,0 +1,22 @@
+{
+  "id": "2605.21207",
+  "arxiv_url": "https://arxiv.org/abs/2605.21207",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "PGC: Peak-Guided Calibration for Generalizable AI-Generated Image Detection",
+  "authors": "Xiaoyu Zhou, Jianwei Fei, Peipeng Yu, Jingchang Xie, Chong Cheng, Zhihua Xia",
+  "abstract": "The rapid evolution of generative AI, from GANs to modern diffusion models, has resulted in increasingly subtle discriminative clues. These fine-grained signals are often overshadowed by dominant, high-fidelity image content (e.g., the main subject), limiting the reliability of existing detectors that predominantly rely on global representations. To address this challenge, we propose the Peak-Guided Calibration (PGC) framework. PGC introduces a novel strategy that aggregates salient features via a peak-focusing mechanism. Specifically, by employing a peak-sensitive aggregation that accentuates the most discriminative local clues, PGC leverages these critical signals to calibrate the global decision. This approach recovers subtle patterns that would otherwise be submerged in the global context. Furthermore, to better simulate real-world threats, we introduce the CommGen15 dataset, a challenging benchmark comprising samples from 15 commercial models. Extensive experiments demonstrate that PGC achieves state-of-the-art performance. Specifically, it improves mean accuracy by +12.3% on our CommGen15 dataset, and sets new records on standard benchmarks, including GenImage (+2.1%), AIGI (+3.5%), and UniversalFakeDetect (+1.7%). Code is available at https://github.com/xiaoyu6868/PGC.",
+  "title_relatable": "Spotting AI-made images by hunting for hidden traces",
+  "hook": "A new technique boosts detection of AI-generated images by 12% on a challenging dataset of 15 commercial generators—refocusing detectors on subtle clues rather than obvious content.",
+  "summary": "AI image generators keep getting better, making fake images harder to spot because obvious tells get buried under realistic details. This work introduces Peak-Guided Calibration, which identifies and amplifies the subtle, discriminative patterns that distinguish AI images from real ones—like tiny statistical anomalies detectors usually miss. On a new benchmark mixing outputs from 15 different generators, it achieves 12.3% higher accuracy; it also improves detection on existing benchmarks by 2–3.5%. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1004,
+  "tokens_out": 200,
+  "cost_usd": 0.0016032,
+  "ingested_at": "2026-05-22T00:13:47.025251+00:00"
+}

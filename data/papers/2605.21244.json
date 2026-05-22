@@ -1,0 +1,22 @@
+{
+  "id": "2605.21244",
+  "arxiv_url": "https://arxiv.org/abs/2605.21244",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SR-Ground: Image Quality Grounding for Super-Resolved Content",
+  "authors": "Artem Borisov, Evgeney Bogatyrev, Khaled Abud, Dmitriy Vatolin",
+  "abstract": "Super-Resolution (SR) has advanced rapidly in recent years, with diffusion-based models achieving unprecedented fidelity at the cost of introducing new types of visual artifacts. While existing Image Quality Assessment (IQA) methods provide holistic quality scores, they lack interpretability and fail to distinguish between different artifact types arising from modern SR approaches. To address this gap, we introduce SR-Ground, a large-scale dataset specifically designed for fine-grained artifact segmentation in super-resolved images. The dataset comprises images processed by a diverse set of state-of-the-art SR models, with pixel-level annotations for multiple artifact categories. We conduct a large-scale crowdsourcing study involving 1,062 participants to validate and refine automatically generated segmentations, resulting in a high-quality dataset of 63,000 images spanning 6 distinct artifact types. We demonstrate that training IQA models with grounding capabilities on SR-Ground significantly improves performance on downstream tasks. Furthermore, we introduce a fine-tuning pipeline that leverages our grounding model to reduce perceptible artifacts in SR outputs, showcasing the practical utility of our dataset.",
+  "title_relatable": "Where do AI image upscalers actually fail?",
+  "hook": "New dataset maps exactly which artifacts plague AI upscalers—blurs, distortions, color shifts—enabling models to pinpoint and fix problems humans can see.",
+  "summary": "Diffusion-based image upscalers produce sharp results but introduce subtle, hard-to-describe artifacts. SR-Ground, a 63,000-image dataset with pixel-level annotations for 6 artifact types (created via crowdsourced validation from 1,062 people), lets researchers train quality models that explain *why* an upscale looks wrong instead of just scoring it. Models trained on this grounding data improve downstream artifact detection and can be fine-tuned to reduce visible defects in upscaler outputs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 929,
+  "tokens_out": 201,
+  "cost_usd": 0.0015472,
+  "ingested_at": "2026-05-22T00:13:41.300276+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.20393",
+  "arxiv_url": "https://arxiv.org/abs/2605.20393",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "The Splashback Mass Function of Galaxy Clusters from Photometric Data",
+  "authors": "Lucas Gabriel-Silva, Laerte Sodré",
+  "abstract": "The splashback radius marks the physical boundary of galaxy clusters, separating orbiting from infalling material, and provides a halo definition free from pseudo-evolution. In this work, we present a fully photometric framework to measure individual cluster splashback radii and masses, and to construct an observational splashback mass function. Using Sloan Digital Sky Survey data, we develop a probabilistic cluster membership method based on radial and photometric redshift information, optimized through an adaptive probability cut that maximizes the detection significance of the cluster core relative to its outskirts. We apply this methodology to a sample of 499 galaxy clusters from the \\textsc{CoMaLit} weak-lensing compilation and recover splashback radii from modeling cumulative galaxy number profiles. The resulting splashback radii exhibit a median ratio $R_{\\mathrm{sp}}/R_{200\\mathrm{m}} \\simeq 1.1$, consistent with previous observational studies. Using these measurements, we recalibrate the $M_{\\mathrm{sp}}$--$R_{\\mathrm{sp}}$ scaling relation over a wide redshift range ($0.01 < z < 0.8$), finding a slope shallower than the constant-density expectation and no significant redshift evolution. We then apply this relation to \\textsc{redMaPPer} clusters in the SDSS Northern Galactic Cap to derive splashback masses for more than $1.5\\times10^4$ systems and construct the first observational splashback mass function based solely on photometric data. The resulting mass function agrees with simulation-based predictions at the high-mass end, while deviations at lower masses are consistent with known completeness limits of optical cluster catalogs. Our results demonstrate that splashback-based cluster sizes, masses, and abundances can be robustly measured in photometric surveys, enabling cosmological studies without spectroscopic or lensing data.",
+  "title_relatable": "Where do galaxy clusters really end? A new boundary from light alone",
+  "hook": "Astronomers can now measure galaxy cluster boundaries and masses using only photographic data, opening the door to counting thousands of clusters in upcoming surveys.",
+  "summary": "The splashback radius marks where material stops orbiting a galaxy cluster and begins falling inward—a natural, physics-based edge independent of how astronomers define cluster size. Using SDSS imaging data and a probabilistic membership method, researchers measured splashback radii for 500 clusters and derived a mass–size scaling relation across redshifts. They then applied this relation to 15,000 photometric clusters to construct the first splashback mass function from images alone, finding good agreement with simulations at high masses and explaining lower-mass discrepancies by known catalog limits.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1134,
+  "tokens_out": 207,
+  "cost_usd": 0.0017352000000000001,
+  "ingested_at": "2026-05-21T23:51:25.386086+00:00"
+}

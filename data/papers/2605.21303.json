@@ -1,0 +1,24 @@
+{
+  "id": "2605.21303",
+  "arxiv_url": "https://arxiv.org/abs/2605.21303",
+  "announced_date": "2026-05-20",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.LO"
+  ],
+  "title_original": "From Circuit Evidence to Mechanistic Theory: An Inductive Logic Approach",
+  "authors": "Nura Aljaafari, Danilo S. Carvalho, Andre Freitas",
+  "abstract": "Mechanistic interpretability produces circuit-level causal analyses of neural network behaviour, but discovered circuits often remain isolated experimental artefacts: there is no shared formal representation for what circuits compute, how they relate, or when two findings provide evidence for the same mechanism. This work provides a formal infrastructure for cumulative mechanistic science by treating circuit interpretation as inductive theory construction. Each circuit is characterised at two levels: a Causal Functional Signature (CFS), which grounds component behaviour in causal attribution evidence and token role profiles, and an architectural signature $τ_{\\mathrm{arch}}$, learned by inductive logic programming (ILP) from scale-invariant structural predicates. Together, these constitute a formal coherence layer that makes mechanistic claims explicit, comparable via $θ$-subsumption, and portable across model scales. CFS reveals qualitatively distinct computational strategies across task types, including attention-mediated copying versus MLP-mediated binding. ILP signatures achieve substantially better structural separation than graph kernel and feature-vector baselines, and support principled transfer across model scales and architecture families.",
+  "title_relatable": "How to turn circuit diagrams into testable scientific theories",
+  "hook": "Neural network interpretability has found many circuits but no way to compare them. A formal system using logic programming makes mechanistic claims portable across models.",
+  "summary": "Neural network circuits are discovered in isolation with no shared language to compare findings or test if two discoveries describe the same mechanism. This work creates that infrastructure by representing each circuit through two signatures: one capturing what components causally do (grounded in evidence), another learned via logic programming from structural patterns. The approach reveals distinct computational strategies across tasks and transfers circuit descriptions reliably across model sizes and architectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 916,
+  "tokens_out": 161,
+  "cost_usd": 0.0013768000000000003,
+  "ingested_at": "2026-05-21T23:56:55.232155+00:00"
+}

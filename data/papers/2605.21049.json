@@ -1,0 +1,22 @@
+{
+  "id": "2605.21049",
+  "arxiv_url": "https://arxiv.org/abs/2605.21049",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Cross-lingual robustness of LLM-brain alignment and its computational roots",
+  "authors": "Ni Yang, Rui He, Philipp Homan, Iris Sommer, Davide Staub, Wolfram Hinzen",
+  "abstract": "Large language models (LLMs) reliably predict neural activity during language comprehension and transformer depth has been interpreted as mirroring hierarchical cortical organization. However, it remains unclear whether such alignment extends to subcortical regions, overlaps spatially across languages, and what the computational roots of such alignment are. Here, we used a multilingual, whole-brain encoding framework to examine brain-LLM alignment across three typologically distinct languages: Mandarin, English, and French during naturalistic story listening. Our results show that across languages, transformer-based models predicted activity in a distributed landscape spanning widely distributed cortical functional networks like limbic, ventral attention, default mode network, and subcortical structures. Spatial alignment patterns showed substantial cross-linguistic overlap and remained largely stable across model layers, with limited layer progression consistent with functional cortical hierarchies. Contrary to previous evidence, contextual embeddings did not outperform static embeddings. To test candidate computational explanations, we examined whether layer-wise brain scores reflect surprisal and intrinsic dimensionality, and thereby predictive processing and information compression. Neither of these two computational metrics mirrored neural alignment profiles. Our findings suggest that brain-LLM alignment is spatially robust and cross-linguistically stable but not explainable from predictive uncertainty or representational geometry. Rather than directly reflecting shared hierarchical computation, neural predictivity may primarily arise from distributed lexical-semantic correspondences that generalize across languages.",
+  "title_relatable": "Why language models predict brain activity across all languages",
+  "hook": "LLMs predict neural activity during language comprehension across Mandarin, English, and French—but not for the reasons researchers thought.",
+  "summary": "Neural encoding models built from large language models reliably predict brain activity during story listening across three typologically different languages, with spatial alignment patterns that remain consistent whether comparing English to Mandarin or examining deeper model layers. The surprise: this alignment doesn't come from the two leading computational candidates—predictive uncertainty (how surprising each word is) or information compression (how efficiently the model represents meaning). Instead, the alignment appears to arise from simpler lexical-semantic correspondences that transfer across languages, suggesting LLM-brain alignment is more about shared vocabulary-level features than mirrored hierarchical computation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1003,
+  "tokens_out": 201,
+  "cost_usd": 0.0016064,
+  "ingested_at": "2026-05-22T00:07:25.418426+00:00"
+}

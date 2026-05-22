@@ -1,0 +1,23 @@
+{
+  "id": "2605.19592",
+  "arxiv_url": "https://arxiv.org/abs/2605.19592",
+  "announced_date": "2026-05-19",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Implicit Action Chunking for Smooth Continuous Control",
+  "authors": "Bosun Liang, Shuo Pei, Zirui Chen, Chuanzhi Fan, Chen Sun, Yuankai Wu, Huachun Tan, Yong Wang",
+  "abstract": "Reinforcement learning often produces high-frequency oscillatory control signals that undermine the safety and stability required for physical deployment. Explicit action chunking addresses this by predicting fixed-horizon trajectories but scales the policy output dimension proportionally with the horizon length, leading to optimization difficulties and incompatibility with standard step-wise interaction. To overcome these challenges, this paper proposes Dual-Window Smoothing (DWS), an implicit action chunking framework for smooth continuous control. Unlike explicit methods, DWS enforces temporal coherence without expanding the action space. It uses a dual-window design: an execution window that ensures physical smoothness through deterministic modulation, and a value window that aligns temporal-difference targets over the horizon to correct critic bias caused by open-loop execution. DWS also includes a lightweight actor-side temporal regularizer based on first-order action differences to promote global continuity. This design effectively bridges the gap between temporal abstraction and reactive step-wise control. Experiments on benchmarks including the DeepMind Control Suite and industrial energy management tasks show that DWS outperforms state-of-the-art (SOTA) baselines. In complex vision-based autonomous driving tasks, DWS achieves smoother control, safer behavior with reduced jitter, and attains a 100% success rate.",
+  "title_relatable": "Smooth robot control without oscillations or extra complexity",
+  "hook": "New method eliminates jittery control signals in reinforcement learning while keeping the policy compact—achieves 100% success on autonomous driving tasks.",
+  "summary": "Robots trained with reinforcement learning often produce shaky, high-frequency control signals that cause instability and safety problems in the real world. Existing fixes require predicting long action sequences, which bloats the network and breaks standard training. This paper introduces Dual-Window Smoothing (DWS), which enforces smooth control by constraining how actions can change between steps rather than expanding the output size. Tests on robot control benchmarks and autonomous driving show DWS produces steadier, safer behavior than competing methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 982,
+  "tokens_out": 189,
+  "cost_usd": 0.0015416,
+  "ingested_at": "2026-05-22T00:16:57.611922+00:00"
+}

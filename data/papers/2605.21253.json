@@ -1,0 +1,23 @@
+{
+  "id": "2605.21253",
+  "arxiv_url": "https://arxiv.org/abs/2605.21253",
+  "announced_date": "2026-05-20",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Theoretical guidelines for annealed Langevin dynamics in compositional simulation-based inference",
+  "authors": "Camille Touron, Gabriel V. Cardoso, Julyan Arbel, Pedro L. C. Rodrigues",
+  "abstract": "Compositional score-based approaches to simulation-based inference (SBI) approximate the posterior over a shared parameter given $n$ independent observations by aggregating individually learned posterior scores: currently, there are two main propositions of such methods (Geffner et al. (2023), Linhart et al. (2026)). As the resulting composite score does not correspond to the score of any distribution along the forward diffusion path of the true multi-observation posterior, sampling from it via a reverse SDE leads to an irreducible bias. Annealed Langevin dynamics provides a principled alternative: it treats the composite score as the genuine score of a sequence of tractable bridging densities and samples from them in succession. When properly tuned, it could lead to a controllable bias. However, its hyperparameters, namely step sizes, the number of steps per level, and the number of annealing levels, have so far been chosen empirically. We derive Wasserstein bounds for annealed Langevin with approximate scores and translate them into explicit decision rules for these hyperparameters that guarantee a prescribed sampling accuracy, while highlighting different theoretical aspects of each composite score formulation. In the Gaussian setting, we obtain closed-form expressions for all relevant quantities and prove that the bridging densities of Linhart et al. (2026) consistently admit larger step sizes and require fewer total Langevin steps than those of Geffner et al. (2023). Furthermore, we show empirically that the tuning obtained in the Gaussian setting generalizes to more complex problems, thus providing a well-understood and theoretically grounded starting point for practitioners using compositional score-based approaches.",
+  "title_relatable": "How to tune sampling algorithms for Bayesian inference from simulations",
+  "hook": "Theory finally catches up to practice: researchers derive concrete rules for tuning annealed Langevin dynamics in compositional score-based inference, with provable accuracy guarantees.",
+  "summary": "When inferring parameters from simulation models, combining multiple observations requires aggregating learned score functions—but this composite score doesn't match any true distribution, introducing bias. Annealed Langevin dynamics sidesteps this by treating the composite score as exact and sampling through a sequence of bridging densities. The authors derive Wasserstein error bounds and convert them into explicit tuning rules for step sizes, iteration counts, and annealing levels. In Gaussian settings, they prove one recent method requires fewer total steps than another; empirically, those rules generalize to nonlinear problems, giving practitioners a theoretically grounded starting point instead of ad-hoc hyperparameter choices.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1052,
+  "tokens_out": 234,
+  "cost_usd": 0.0017775999999999998,
+  "ingested_at": "2026-05-22T00:17:34.568043+00:00"
+}

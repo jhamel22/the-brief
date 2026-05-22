@@ -1,0 +1,22 @@
+{
+  "id": "2605.21050",
+  "arxiv_url": "https://arxiv.org/abs/2605.21050",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Constraints on Kaniadakis Cosmology from Starobinsky Inflation and Primordial Tensor Perturbations",
+  "authors": "Abdelhakim Benkrane, Giuseppe Gaetano Luciano",
+  "abstract": "We investigate a generalized entropic cosmology obtained by applying the gravity-thermodynamics conjecture to the Universe horizon using Kaniadakis statistics, namely a relativistic extension of the standard Boltzmann--Gibbs formalism. The resulting deformation of the horizon entropy naturally modifies the Friedmann dynamics and provides a phenomenologically consistent extension of the $Λ$CDM paradigm. Within this framework, we explore the implications of the modified cosmological dynamics for the physics of the early Universe, focusing in particular on primordial gravitational waves (PGWs) and slow-roll inflation in a Starobinsky-like scenario. We show that the generalized entropic corrections simultaneously affect the evolution of tensor perturbations and the inflationary slow-roll dynamics, inducing characteristic deviations in the PGW spectrum as well as nontrivial corrections to the main inflationary observables. By confronting the theoretical predictions with the latest Planck and BICEP/Keck observations, we derive stringent constraints on the Kaniadakis parameter and assess the observational viability of the model. Our results establish a direct connection between generalized horizon thermodynamics and inflationary cosmology, showing that quantum-statistical modifications of the entropy-area law can propagate into potentially observable signatures in the physics of the early Universe.",
+  "title_relatable": "What if black hole thermodynamics leaves fingerprints on the Big Bang?",
+  "hook": "Tweaking the entropy formula for the universe's horizon shifts gravitational wave predictions enough to constrain with Planck data.",
+  "summary": "Kaniadakis statistics replaces standard entropy with a relativistic deformation, and when applied to the universe's horizon it subtly alters the Friedmann equations governing cosmic expansion. Running Starobinsky inflation through this modified framework shifts the predicted primordial gravitational wave spectrum and slow-roll observables in measurable ways. Comparing against Planck and BICEP/Keck data sets tight limits on how large the deformation can be — linking abstract quantum-statistical tweaks to concrete early-universe observables.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1007,
+  "tokens_out": 190,
+  "cost_usd": 0.005871,
+  "ingested_at": "2026-05-21T23:45:28.215207+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.21129",
+  "arxiv_url": "https://arxiv.org/abs/2605.21129",
+  "announced_date": "2026-05-20",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "econ.GN",
+    "nlin.AO",
+    "q-bio.PE"
+  ],
+  "title_original": "How hate spreads online and why it returns: Re-entrant phases driven by collective behavior",
+  "authors": "Chen Xu, Pak Ming Hui, Chenkai Xia, Neil F. Johnson",
+  "abstract": "The 2025 Bondi Beach mass-shooting was perpetrated by individuals inspired by ISIS (Islamic State) propaganda that increasingly featured anti-Semitic hate content following the October 2023 start of the Israel-Palestine war. Similar stories hold for other types of hate attacks, e.g. against Muslims on May 18, 2026. There is an urgent need to get ahead of future threats by understanding how and when a newly created piece of hate content will spread system-wide online. We present a two-species coalescence-fragmentation model with Susceptible-Infected-Recovered dynamics that incorporates the following published empirical features: (1) New pieces of hate content tend to be generated and promoted by a subset of in-built communities on less regulated platforms. (2) These `hate' communities create links (hyperlinks) with each other and with non-hate communities across all platforms to form dynamically evolving clusters (i.e. coalescence) across which new hate content can then spread. (3) These clusters can get broken up by moderator shutdowns (i.e. fragmentation). We present numerical solutions and derive two levels of approximate mean-field theory: Effective Medium Theory (EMT) and Beyond Effective Medium Theory (BEMT). Both numerical and analytic solutions reveal that system-wide spreading is governed by re-entrant threshold phases: as the fraction of hate communities varies, the system can transition from spreading to no-spreading and back to spreading. The derived analytic formulae give explicit insight into how these phase boundaries might be manipulated to prevent system-wide spreading. More broadly, the re-entrant phase behavior warns that policies which steadily reduce the number of hate communities can initially succeed but then backfire if pushed further, suggesting that blanket requirements for platforms to simply do `more' are over-simplistic.",
+  "title_relatable": "Why banning hate groups online can accidentally make things worse",
+  "hook": "A physics model shows that removing hate communities past a certain threshold can paradoxically reignite system-wide spread.",
+  "summary": "Using a model borrowed from statistical physics — where online communities coalesce and fragment like clusters in a fluid — researchers mapped how hate content spreads across platforms. They found the system has 're-entrant' phases: as regulators shut down hate communities, spreading first stops, but if crackdowns go too far without targeting the right nodes, it can restart. The result is a concrete warning that blanket 'do more' moderation policies can backfire, and the math points to specific thresholds where intervention actually works.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1106,
+  "tokens_out": 181,
+  "cost_usd": 0.006033,
+  "ingested_at": "2026-05-21T23:53:12.145068+00:00"
+}

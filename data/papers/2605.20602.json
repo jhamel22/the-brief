@@ -1,0 +1,24 @@
+{
+  "id": "2605.20602",
+  "arxiv_url": "https://arxiv.org/abs/2605.20602",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Self-Training Doesn't Flatten Language -- It Restructures It: Surface Markers Amplify While Deep Syntax Dies",
+  "authors": "Ming Liu",
+  "abstract": "Successive self-training on a language model's own outputs is widely characterized as a process of flattening: diversity drops, distributions narrow, and the text becomes \"more like itself.\" We provide evidence that this characterization is incomplete. Across eleven generations of self-training on five models (GPT-2 124M, Pythia-410M, Pythia-1.4B, OPT-1.3B, Pythia-2.8B), language is not flattened uniformly -- it is restructured. Surface markers (discourse connectives, hedges, em-dashes) rise, while mid- and deep-syntactic structures (questions, parentheticals, passives, subjunctives) collapse. We formalize this asymmetric collapse as the Structural Depth Hypothesis (SDH): the per-generation decay rate of a linguistic feature is predicted primarily by its structural depth -- the number of nested syntactic dependencies it requires -- and only secondarily by its generation-zero output frequency. Pooling 17-feature panels from five models spanning three architecture families (N=85), the pooled Spearman correlation is rho=0.540 (p < 10^{-6}; cluster-bootstrap 95% CI [0.434, 0.634]), while frequency is a substantially weaker predictor (rho=0.225). A matched human-text fine-tuning control yields rho=0.039 (p=0.88), confirming the gradient is self-training-specific. We further document a Superficial Complexity Paradox: aggregate complexity proxies (dep-tree depth, TTR, word length) all rise as the underlying clause structure dies, with direct implications for training-data curation and LLM-text detection.",
+  "title_relatable": "Self-training kills grammar while amplifying filler words",
+  "hook": "When language models train on their own outputs, they don't flatten uniformly—they lose complex syntax while gaining surface markers like hedges and dashes, making text sound more complex while becoming grammatically simpler.",
+  "summary": "Self-training on model outputs doesn't simplify language uniformly; instead it restructures it. Across five models over eleven generations, surface markers (discourse connectives, hedges) proliferate while deep syntactic structures (questions, passives, subjunctives) collapse. The researchers formalize this as the Structural Depth Hypothesis: decay rate is primarily predicted by how many nested dependencies a feature requires, not its initial frequency. A pooled analysis across 85 feature panels shows correlation of 0.540 versus 0.225 for frequency alone—and human fine-tuning shows no such pattern. The paradox: aggregate complexity metrics rise even as underlying clause structure dies, with direct implications for detecting LLM-generated text and curating training data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1059,
+  "tokens_out": 256,
+  "cost_usd": 0.0018712,
+  "ingested_at": "2026-05-22T00:09:17.157011+00:00"
+}

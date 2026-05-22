@@ -1,0 +1,24 @@
+{
+  "id": "2605.21061",
+  "arxiv_url": "https://arxiv.org/abs/2605.21061",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Grounding Driving VLA via Inverse Kinematics",
+  "authors": "Junsung Park, Hyunjung Shim",
+  "abstract": "Existing Driving VLAs predict trajectories while largely ignoring their visual tokens -- a phenomenon we trace not to insufficient training but to a structurally ill-posed task formulation. We show that trajectory recovery, when viewed through the lens of inverse kinematics, requires both a current and a future visual state as boundary conditions; existing VLAs supply only the former, which encourages the model to shortcut through ego status and text commands alone. To address this, we re-design Driving VLA in the style of an inverse kinematics solver. First, a next visual state prediction objective that requires the LLM to predict the future visual scene provides dense visual supervision and suppresses shortcut paths. Second, a separate Inverse Kinematics Network (a cross-attention-based conditional diffusion model) that takes only the current and future visual states as input is designed to suppress reliance on ego status and textual shortcuts during trajectory decoding. With this simple prescription alone, our 0.5B-scale model recovers visual grounding and reaches trajectory planning performance comparable to 7B--8B VLAs more than an order of magnitude larger, on both the closed-loop NAVSIM-v2 and the nuScenes benchmarks. Extensive analysis further shows that this improvement stems from a recovered ability to exploit visual features, with the effect being most pronounced in dynamic driving situations such as turning.",
+  "title_relatable": "Why self-driving models ignore what they see—and how to fix it",
+  "hook": "Existing autonomous driving AI models largely ignore visual input despite having eyes. Reformulating the problem as inverse kinematics makes a 0.5B model match 7B-8B parameter competitors on trajectory planning.",
+  "summary": "Driving models trained to predict vehicle trajectories develop a blind spot: they rely almost entirely on text commands and ego status, barely using visual features despite being vision-language models. The authors show this isn't a training problem but a structural one—trajectory prediction, viewed as inverse kinematics, fundamentally requires both current and future visual states to constrain the solution. They redesigned the model to predict future visual scenes alongside trajectories and decouple trajectory decoding from ego shortcuts. The result: a 0.5B model matches much larger 7B-8B baselines on NAVSIM-v2 and nuScenes benchmarks, with largest gains in dynamic situations like turns.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 963,
+  "tokens_out": 246,
+  "cost_usd": 0.0017544000000000001,
+  "ingested_at": "2026-05-22T00:13:21.559221+00:00"
+}

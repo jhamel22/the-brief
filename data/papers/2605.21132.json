@@ -1,0 +1,22 @@
+{
+  "id": "2605.21132",
+  "arxiv_url": "https://arxiv.org/abs/2605.21132",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SurgOnAir: Hierarchy-Aware Real-Time Surgical Video Commentary",
+  "authors": "Jingyi He, Yue Zhou, Long Bai, Kun Yuan, Nassir Navab, Yuan Bi",
+  "abstract": "Understanding surgical workflow in real time is fundamental for intelligent surgical embodiment, where AI systems continuously perceive and respond as surgery proceeds. In the operating room, critical decisions depend on subtle, moment-to-moment changes, such as fine instrument movements and evolving tissue states, where even slight perceptual delays can limit assistance or compromise safety. Yet existing methods remain offline or operate at coarse temporal scales, generating descriptions only after processing clips, preventing immediate reaction. We address this by proposing SurgOnAir, a streaming vision-language model that processes frames sequentially without future access and progressively generates narration tokens as visual input arrives. SurgOnAir achieves fine-grained frame-to-token generation, enabling instant responsiveness to evolving surgical dynamics. Built upon our curated hierarchical dataset SurgOnAir-11k spanning action-, step-, and phase-level supervision, the model is trained to produce multi-level textual responses that reflect the inherent hierarchy of surgical procedures. Furthermore, special transition tokens are generated to explicitly mark state changes, allowing SurgOnAir to capture and signal key workflow transitions as they occur. Experiments show that SurgOnAir enables real-time understanding through a single vision-language model that unifies streaming across multiple hierarchies of the surgical workflow, generating superior and hierarchy-aware narrations. Code and dataset will be public.",
+  "title_relatable": "Narrating surgery in real time as it happens",
+  "hook": "A streaming AI system that generates surgical commentary one frame at a time, capturing fine instrument movements and tissue changes without delays—critical for OR safety.",
+  "summary": "Existing surgical AI systems lag behind reality, analyzing video only after the fact. SurgOnAir processes frames live and generates narration tokens continuously, reacting instantly to evolving surgical dynamics. The team built a new 11k-video dataset with three levels of annotation (action, step, phase) and trained a vision-language model to produce hierarchy-aware commentary and flag workflow transitions as they occur. Real-time surgical guidance now fits in a single unified model.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 975,
+  "tokens_out": 177,
+  "cost_usd": 0.001488,
+  "ingested_at": "2026-05-22T00:11:16.948386+00:00"
+}

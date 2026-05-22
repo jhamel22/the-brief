@@ -1,0 +1,22 @@
+{
+  "id": "2605.20596",
+  "arxiv_url": "https://arxiv.org/abs/2605.20596",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Binary Neutron Star Merger Evolution and r-Process Enrichment in the Milky Way Disk",
+  "authors": "Joon Young Lee, Hsin-Yu Chen, Muhammed Saleem",
+  "abstract": "The origin of half of the rapid neutron-capture nucleosynthesis (r-process) elements in the Universe remains an open question. Binary neutron star (BNS) mergers have been shown to face difficulties in reproducing the observed r-process enrichment in Milky Way disk stars. However, their r-process enrichment efficiency may evolve with redshift beyond the star formation history, potentially due to evolution in the merger rate or the average r-process yield in the early Universe. In this paper, we explore the possibility that BNS mergers with an evolving enrichment efficiency could serve as the sole r-process production channel. By jointly comparing gravitational-wave observations from LIGO--Virgo--KAGRA, short gamma-ray bursts, Galactic neutron star populations, and stellar abundance measurements in Milky Way disk stars, we find that scenarios with additional evolution are strongly preferred over non-evolving scenarios, with Bayes factors exceeding $10^{20}$. We quantify the required evolution in both the merger rate and yield, and directly compare them with observations and theoretical predictions. We find that the evolved scenarios are in tension with short gamma-ray burst observations and predictions from multiple population synthesis models, while remaining consistent with current stochastic gravitational-wave background constraints. Our results provide a quantitative framework for evaluating whether BNS mergers with evolving enrichment efficiency can account for the observed r-process enrichment history of Milky Way disk stars.",
+  "title_relatable": "Can merging neutron stars alone explain where heavy elements come from?",
+  "hook": "Neutron star collisions may produce heavy elements only if their efficiency changed over cosmic time—but the data suggest this doesn't quite work.",
+  "summary": "Half the universe's heaviest elements (gold, platinum, uranium) come from somewhere, and neutron star mergers are the leading suspect. Using gravitational wave detections, gamma-ray bursts, and stellar abundances in the Milky Way, researchers tested whether mergers alone could explain observed heavy-element patterns if their production efficiency evolved across cosmic history. The data strongly prefer evolved scenarios, but these conflict with gamma-ray burst observations and theoretical predictions, suggesting either missing physics or an additional production source.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1036,
+  "tokens_out": 189,
+  "cost_usd": 0.0015848000000000001,
+  "ingested_at": "2026-05-21T23:54:58.294358+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.20417",
+  "arxiv_url": "https://arxiv.org/abs/2605.20417",
+  "announced_date": "2026-05-19",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph",
+    "nucl-th",
+    "quant-ph"
+  ],
+  "title_original": "Quantum Simulation of Gauge Theories for Particle and Nuclear Physics",
+  "authors": "Zohreh Davoudi",
+  "abstract": "Lattice field theory, along with its algorithmic and hardware ecosystems, has been at the forefront of computational particle and nuclear physics. It continues to deliver impressive results on the hadronic spectrum, structure, decays, and reactions. Yet, this vigorous campaign has fallen short in addressing a range of problems involving dense matter and general dynamical phenomena. The reason is that such problems require an exponential scaling of computing time and space in system size. Quantum simulation, enabled by quantum-computing algorithms and hardware technology, promises a way forward by offering several polynomially efficient algorithms compared with their inefficient classical counterparts. Lattice gauge theorists have engaged in a multi-pronged program to leverage such new possibilities, and have steadily advanced the state of theory, algorithm, and hardware implementations and co-design. In this talk, I motivate the quantum-computational lattice-field-theory program; introduce the questions such a program is expected to address and the strategies it involves; report on recent progress; and end with a note on challenges and opportunities ahead.",
+  "title_relatable": "Can quantum computers finally simulate nuclear matter?",
+  "hook": "Classical computers hit a wall with dense matter and complex dynamics. Quantum simulation offers a fundamentally different approach—one that could unlock physics currently out of reach.",
+  "summary": "Lattice field theory has mapped much of particle and nuclear physics, but dense matter and real-time dynamics demand exponential computing time that classical machines can't deliver. Quantum computers could sidestep this wall: certain algorithms scale polynomially instead, making previously intractable problems feasible. This is both a survey of progress and a roadmap for where quantum hardware and theory must improve together.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 914,
+  "tokens_out": 163,
+  "cost_usd": 0.0013832,
+  "ingested_at": "2026-05-21T23:52:42.343145+00:00"
+}

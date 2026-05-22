@@ -1,0 +1,23 @@
+{
+  "id": "2605.20339",
+  "arxiv_url": "https://arxiv.org/abs/2605.20339",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "hep-th"
+  ],
+  "title_original": "Textured phase diagrams of featureless insulators",
+  "authors": "Sashank Singam, Nick G. Jones, Abhishodh Prakash",
+  "abstract": "We study phase diagrams of charge-conserving `class A' non-interacting fermions, focusing on the trivial phase in various dimensions. Such phases are usually termed `featureless' to distinguish them from those others with either symmetry-broken or topological order. We show that the presence of non-trivial topological families of states, including charge pumps and their generalizations, results in phase diagrams being endowed with non-trivial topological textures that can be visualized through Berry phases and their higher-dimensional generalizations. We show that for non-interacting fermion systems with translation invariance, these `higher' Berry phases can be computed using integrals of non-abelian Chern-Simons forms of the Berry-Bloch connection over momentum and parameter spaces. Singularities in these textures correspond to gap-closing loci of `diabolical points', which represent the obstruction to contracting topologically non-trivial families of states, and bulk-boundary correspondence results in a locus of robust boundary modes that terminate at the bulk diabolical points. In the presence of finite chemical potential, we argue that the edge modes are generically robust without any need for fine-tuning for two and higher dimensions, whereas in one dimension they are `estranged' in the phase diagram, i.e. appearing at different parameter values for different edges. We demonstrate our results by constructing several microscopic models of non-interacting fermions. We argue stability to interactions and explore proximate phase diagrams by mapping to continuum field theories.",
+  "title_relatable": "Hidden topology lurks in seemingly featureless insulators",
+  "hook": "Supposedly boring insulators harbor topological textures invisible in standard measurements—detectable through Berry phases and tied to boundary states that vanish at special points.",
+  "summary": "Trivial insulators with no broken symmetry or topological order still possess hidden topological structure in their phase diagrams, encoded in higher-dimensional generalizations of Berry phases. The researchers computed these textures using non-abelian geometry and found that singularities in them—called diabolical points—mark where the band gap closes and robust edge modes appear. This suggests that even featureless phases are subtly richer than expected, with clear experimental signatures in how boundary states move across phase space.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1040,
+  "tokens_out": 190,
+  "cost_usd": 0.001592,
+  "ingested_at": "2026-05-21T23:48:10.855610+00:00"
+}

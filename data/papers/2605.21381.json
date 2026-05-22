@@ -1,0 +1,23 @@
+{
+  "id": "2605.21381",
+  "arxiv_url": "https://arxiv.org/abs/2605.21381",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Disentangling Generation and Regression in Stochastic Interpolants for Controllable Image Restoration",
+  "authors": "Yi Liu, Jia Ma, Wengen Li, Jihong Guan, Shuigeng Zhou, Yichao Zhang",
+  "abstract": "Recent advances in Image Restoration (IR) have been largely driven by generative methods such as Diffusion Models and Flow Matching, which excel in synthesizing realistic textures while suffering from slow multi-step inference and compromised pixel fidelity. In contrast, classical regression-based IR methods excel precisely in these aspects, offering single-step efficiency and high pixel-level reconstruction fidelity. To bridge this gap, we propose DiSI, a unified framework that Disentangles the underlying Stochastic Interpolant process into independent generation and regression components. This decoupling endows DiSI with remarkable versatility, enabling a continuous and controllable transition from a pure regression process to a fully generative one. Technically, we instantiate this framework with two specific sampling trajectories, accompanied by a unified sampler for high-quality, few-step inference on arbitrary trajectories. Furthermore, we design a dual-branch U-Net style transformer network in pixel space, using a dedicated branch to enhance conditional guidance while ensuring high throughput. Extensive experiments demonstrate that DiSI efficiently achieves competitive results on various IR tasks, while uniquely offering the inference-time flexibility to control the distortion-perception trade-off within a single model.",
+  "title_relatable": "One model for all image restoration: balancing speed and realism",
+  "hook": "A framework that lets you dial image restoration between pixel-perfect and artistically realistic—all in one model, in a handful of steps.",
+  "summary": "Generative models like diffusion produce beautiful, realistic images but are slow and imprecise. Classical regression methods are fast and faithful to the input but dull. This work unifies both by splitting the interpolation process into independent generation and regression paths, letting you smoothly trade off fidelity for perceptual quality at inference time. A dual-branch transformer handles both modes efficiently, achieving competitive results on denoising, inpainting, and super-resolution.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 956,
+  "tokens_out": 179,
+  "cost_usd": 0.0014808000000000002,
+  "ingested_at": "2026-05-22T00:11:52.951028+00:00"
+}

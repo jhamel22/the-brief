@@ -1,0 +1,22 @@
+{
+  "id": "2605.21245",
+  "arxiv_url": "https://arxiv.org/abs/2605.21245",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Boundary Geometry Turns Entanglement into Steering",
+  "authors": "Yu-Xuan Zhang, Jing-Ling Chen",
+  "abstract": "Entanglement does not in general imply Einstein-Podolsky-Rosen steering. We identify a boundary-geometric mechanism that closes this gap on product-null boundary strata of two-qubit state space, where Bob's conditional states touch the boundary of the Bloch ball. The key obstruction is local: if a projective assemblage approaches a Bloch-sphere boundary contact with a first-order tangential displacement but only a second-order inward defect, then no finite-measure local-hidden-state model can reproduce it. For two-qubit states with a product vector in the kernel, this boundary contact is exactly the tangency of Bob's steering ellipsoid to the Bloch sphere. At such a product-null tangency, a single tangential coherence controls both partial-transpose negativity and the boundary-contact scaling obstruction. The same boundary minor gives a compact experimental witness: once the product-null contact is verified or guaranteed, the tangential coherence supplies the steering signal. Consequently, every entangled two-qubit rank-two state, and every entangled rank-three state whose null space is spanned by a product vector, is two-way projectively steerable. The same boundary idea extends to arbitrary steering cuts: the Bloch-sphere contact is replaced by a rank-deficient trusted conditional state, and support-kernel first-order coherence implies both NPT entanglement and projective steering.",
+  "title_relatable": "How touching a quantum boundary turns entanglement into steering",
+  "hook": "A geometric quirk at the edge of quantum state space forces entanglement to become something stronger — and experimentally testable.",
+  "summary": "Entanglement and quantum steering are distinct resources, but this paper shows that when Bob's conditional states graze the surface of the Bloch sphere at just the right angle, entanglement automatically upgrades to steering. The mechanism is purely geometric: a specific mismatch between tangential drift and inward curvature at that boundary contact blocks any classical explanation. The result certifies that entire families of two-qubit states — including all entangled rank-two states — are provably steerable, with the boundary-contact condition serving as a compact experimental witness.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1011,
+  "tokens_out": 192,
+  "cost_usd": 0.005913,
+  "ingested_at": "2026-05-21T23:49:41.646814+00:00"
+}

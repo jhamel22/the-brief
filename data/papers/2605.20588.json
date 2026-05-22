@@ -1,0 +1,23 @@
+{
+  "id": "2605.20588",
+  "arxiv_url": "https://arxiv.org/abs/2605.20588",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "Direct Translation between Sign Languages",
+  "authors": "Zetian Wu, Bowen Xie, Wuyang Meng, Milan Gautam, Stefan Lee, Liang Huang",
+  "abstract": "The field of sign language translation has witnessed significant progress in the translation between sign and spoken languages, but the translation between sign languages remains largely unexplored and out of reach. The latter can help 1.5 billion deaf and hard-of-hearing (DHH) people worldwide communicate across language barriers without relying on hearing interpreters or written-language fluency. The cascade approach composing separate sign-to-text, text-to-text, and text-to-sign systems suffers from error propagation and extra latency as well as the loss of information unique in the visual modality. We aim to develop direct sign-to-sign translation. However, a large-scale open-domain parallel corpus has not been curated between sign languages. To enable direct translation between sign language utterances, we use back-translation to produce synthetic sign-sign pairs from unaligned individual language utterance-sign corpora. Using this data, we jointly train a single MBART-based model for both text->sign (T2S) and sign->sign (S2S). On synthetically generated paired sets between American Sign Language (ASL), Chinese Sign Language (CSL), and German Sign Language (DGS), our direct S2S method outperforms the cascaded baseline on geometric sign error metrics (20% lower DTW-aligned MPJPE) and language matching metrics after predicted sign utterances are translated back to sentences (50% high BLEU-4) while achieving a roughly 2.3* speedup. On a small set of pre-existing cross-lingual sign data, we find similar improvements for our proposed method.",
+  "title_relatable": "Teaching computers to translate between sign languages directly",
+  "hook": "Sign-to-sign translation without going through text cuts error rates by 20% and runs 2.3× faster, potentially breaking down communication barriers for 1.5 billion deaf and hard-of-hearing people.",
+  "summary": "Direct sign-to-sign translation has been impossible due to lack of parallel corpora—existing systems chain together sign-to-text, text-to-text, and text-to-sign steps, losing visual information and introducing errors. Researchers used back-translation to create synthetic ASL-CSL-DGS pairs from unpaired sign videos and text, then trained a single model for both text-to-sign and direct sign-to-sign translation. The direct approach outperformed cascaded baselines by 20% on motion metrics and 50% on BLEU while running 2.3× faster, offering deaf and hard-of-hearing communities a path to cross-language communication without interpreters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1026,
+  "tokens_out": 247,
+  "cost_usd": 0.0018088000000000002,
+  "ingested_at": "2026-05-22T00:07:44.384831+00:00"
+}

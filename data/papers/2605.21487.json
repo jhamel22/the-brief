@@ -1,0 +1,22 @@
+{
+  "id": "2605.21487",
+  "arxiv_url": "https://arxiv.org/abs/2605.21487",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Uni-Edit: Intelligent Editing Is A General Task For Unified Model Tuning",
+  "authors": "Dian Zheng, Manyuan Zhang, Hongyu Li, Hongbo Liu, Kai Zou, Kaituo Feng, Hongsheng Li",
+  "abstract": "Currently, enhancing Unified Multimodal Models (UMMs) with image understanding, generation, and editing capabilities mainly relies on mixed multi-task training. Due to inherent task conflicts, such strategy requires complex multi-stage pipelines, massive data mixing, and balancing tricks, merely resulting in a performance trade-off rather than true mutual reinforcement. To break this paradigm, we propose Uni-Edit, an intelligent image editing task that serves as the first general task for UMM tuning. Unlike complex mixed pipelines, Uni-Edit improves performance across all three abilities at once using only one task, one training stage, and one dataset. Specifically, we first identify image editing as an inherently ideal general task, as it naturally demands both visual understanding and generation. However, existing editing data relies on simplistic instructions that severely underutilize a model's understanding capacity. To address this, we introduce the first automated and scalable data synthesis pipeline for intelligent editing, transforming diverse VQA data into complex and effective editing instructions with embedded questions and nested logic. This yields Uni-Edit-148k, pairing diverse reasoning-intensive instructions with high-quality edited images. Extensive experiments on BAGEL and Janus-Pro demonstrate that tuning solely on Uni-Edit achieves comprehensive enhancements across all three capabilities without any auxiliary operations.",
+  "title_relatable": "One task to train them all: teaching models to edit",
+  "hook": "A single editing task improves image understanding, generation, and editing simultaneously—no multi-stage pipelines or data balancing required.",
+  "summary": "Unified multimodal models usually need separate training for understanding, generating, and editing images, creating conflicts that hurt performance. This work reframes image editing as a general task that naturally demands both visual understanding and generation. The team created Uni-Edit-148k by converting visual question-answering data into complex editing instructions with reasoning logic, then showed that training on this single task alone improves all three capabilities on BAGEL and Janus-Pro benchmarks without auxiliary tricks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 987,
+  "tokens_out": 179,
+  "cost_usd": 0.0015056,
+  "ingested_at": "2026-05-22T00:11:34.615963+00:00"
+}

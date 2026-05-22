@@ -1,0 +1,26 @@
+{
+  "id": "2605.21327",
+  "arxiv_url": "https://arxiv.org/abs/2605.21327",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "cond-mat.str-el",
+    "hep-th",
+    "math.OA",
+    "math.QA"
+  ],
+  "title_original": "Universal fusion category symmetries on tensor products of infinite-dimensional Hilbert spaces",
+  "authors": "Ian Bunner, Corey Jones",
+  "abstract": "We show that anyon chains, after stabilizing with infinite-dimensional ancilla spaces, factorize locally as tensor products of infinite-dimensional Hilbert spaces. This implies that any unitary fusion category can be realized as symmetries on a tensor product of infinite-dimensional Hilbert spaces. We then show that any two anyon chains with the same symmetry category are related by a symmetry-compatible locality-preserving unitary after stabilizing with infinite-dimensional ancilla, showing that for a fixed fusion category, there is a single stable equivalence class of symmetry realizations on the lattice via anyon chains. As a corollary of our proof, we show that the physical boundary algebras of Levin-Wen type models are bounded spread isomorphic after stabilization if and only if they have the same bulk topological order.",
+  "title_relatable": "How to embed any anyon symmetry into simple quantum systems",
+  "hook": "A new theorem shows that any exotic quantum symmetry can be realized on a simple lattice of qubits, if you're willing to add infinite-dimensional helper systems.",
+  "summary": "Anyons are exotic quasiparticles whose exchange statistics define fusion categories—algebraic structures encoding quantum symmetries. The authors prove that any such symmetry can be realized on a tensor product of infinite-dimensional Hilbert spaces (like harmonic oscillators), and that all realizations of the same symmetry are equivalent up to local rearrangement. This settles a structural question about topological order and provides a unified framework for understanding when different physical systems encode identical quantum information.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 874,
+  "tokens_out": 190,
+  "cost_usd": 0.0014592000000000001,
+  "ingested_at": "2026-05-21T23:47:33.567454+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21456",
+  "arxiv_url": "https://arxiv.org/abs/2605.21456",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Negative neutrino mass or negative dark energy?",
+  "authors": "Cihad Kıbrıs, Willem Elbers, Özgür Akarsu, Eleonora Di Valentino",
+  "abstract": "Recent cosmological analyses based on DESI and CMB data have revealed a tension between the inferred sum of neutrino masses and the minimum value allowed by neutrino oscillation experiments, when assuming an underlying $Λ$CDM model of cosmology. In this work, we perform a systematic exploration of alternative dark energy models, including models that can supply a negative dark energy density capable of reproducing the cosmological effects of negative effective neutrino masses. We argue that dark energy models can alleviate the tension by modifying the cosmic expansion rate over a specific redshift range relevant for CMB lensing, while matching BAO distance measurements from DESI at lower redshifts. Among the models considered, we find that a sign-switching cosmological constant model, $Λ_\\mathrm{s}$CDM, is uniquely capable of recovering positive neutrino masses by modifying the expansion history in this way. For the combination of DESI DR2 BAO, CMB, and DES-Dovekie supernova data, the constraint on the effective neutrino mass shifts from $\\sum m_{ν,\\mathrm{eff}}=-0.075^{+0.039}_{-0.053}$ eV (68%) for $Λ$CDM to $\\sum m_{ν,\\mathrm{eff}}=0.055\\pm0.050$ eV (68%) for $Λ_\\mathrm{s}$CDM, with a 95% lower bound on the dark energy transition redshift, $z_\\dagger>2.4$. Although $Λ_\\mathrm{s}$CDM does not have the strongest overall statistical support among the models considered, when the $\\sum m_{ν,\\mathrm{eff}}$ parameter is allowed to vary, our findings point toward a specific sign- and redshift-structured contribution to the late-time expansion history as a viable way to alleviate the neutrino mass tension.",
+  "title_relatable": "Can dark energy switch signs to fix neutrino mass tensions?",
+  "hook": "Recent DESI and CMB data suggest neutrino masses that violate physics laws. A bizarre cosmological model where dark energy flips negative at high redshifts could resolve the conflict.",
+  "summary": "Recent measurements suggest neutrino masses incompatible with oscillation experiments—a physical impossibility. The team tested whether tweaking dark energy models could reconcile the data by altering cosmic expansion at early times while preserving late-time measurements. A \"sign-switching\" dark energy model that turns negative above redshift 2.4 recovers physically sensible positive neutrino masses, though it's not the statistically favored explanation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1170,
+  "tokens_out": 187,
+  "cost_usd": 0.001684,
+  "ingested_at": "2026-05-21T23:50:59.664775+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21195",
+  "arxiv_url": "https://arxiv.org/abs/2605.21195",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "RankE: End-to-End Post-Training for Discrete Text-to-Image Generation with Decoder Co-Evolution",
+  "authors": "Siyong Jian, Siyuan Li, Luyuan Zhang, Zedong Wang, Xin Jin, Ying Li, Cheng Tan, Huan Wang",
+  "abstract": "Discrete autoregressive (AR) text-to-image (T2I) models pair a VQ tokenizer with an AR policy, and current post-training pipelines optimize only the policy while keeping the VQ decoder frozen. Recent diffusion T2I work, exemplified by REPA-E, has shown that the VAE itself constitutes a key alignment bottleneck, yet no analogous investigation exists for discrete AR models. We show that policy-only optimization induces Latent Covariate Shift: as the policy evolves, the resulting token distribution diverges from the ground-truth distribution on which the decoder was trained, such that reward scores improve while decoded image quality degrades. To address this mismatch, we propose RankE, the first end-to-end post-training framework for discrete T2I generation. Rather than optimizing the policy against a fixed decoder, RankE co-evolves both components through alternating optimization: each module maximizes a ranking-based alignment objective while being regularized by a stability-preserving anchor suited to its parameter space. This co-evolution breaks the fidelity--alignment trade-off that plagues frozen-decoder approaches: on LlamaGen-XL (775M), standard RL improves CLIP but degrades FID, whereas RankE improves both simultaneously (FID 15.21, CLIP 33.76 on MS-COCO 30K). Consistent gains on Janus-Pro (1B) confirm that decoder co-evolution reliably converts reward optimization into pixel-space quality improvements.",
+  "title_relatable": "Training text-to-image models by fixing the decoder problem",
+  "hook": "Discrete image-generation models improve CLIP scores while degrading image quality. Co-evolving decoder and policy together fixes this, gaining on both metrics simultaneously.",
+  "summary": "Standard post-training for discrete autoregressive text-to-image models optimizes only the policy while freezing the decoder, causing a hidden mismatch: as the policy evolves, generated tokens drift from what the decoder was trained on, tanking image quality even as reward scores climb. RankE solves this by alternately refining both the policy and decoder together through ranking-based alignment objectives, breaking the fidelity–reward trade-off. On LlamaGen-XL, it improves FID to 15.21 and CLIP to 33.76 on MS-COCO, gains confirmed across model sizes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1055,
+  "tokens_out": 223,
+  "cost_usd": 0.001736,
+  "ingested_at": "2026-05-22T00:11:14.405901+00:00"
+}

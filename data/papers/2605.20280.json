@@ -1,0 +1,22 @@
+{
+  "id": "2605.20280",
+  "arxiv_url": "https://arxiv.org/abs/2605.20280",
+  "announced_date": "2026-05-19",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Spatial Activity Opportunity Fairness among Elderly Residents in Nagoya: A Comparative Analysis across Three Wards with Different Rent Levels",
+  "authors": "Jianhao Shi, Tomio Miwa",
+  "abstract": "Population aging has made the daily mobility of older adults an increasingly important issue for urban planning and transport research. While previous studies have examined elderly mobility in relation to accessibility, active aging, and transport inclusion, less attention has been paid to whether older adults living in different residential contexts experience equal spatial activity opportunities. This study addresses that gap by comparing elderly residents in three wards of Nagoya, namely Naka, Showa, and Moriyama, which represent different rent levels and urban opportunity contexts. Using stay events derived from GPS-based mobility data, we construct a 500 m x 500 m grid-based analytical framework and examine spatial activity opportunity fairness through four dimensions: activity space, opportunity context, opportunity exposure, and semantic structure. The results show clear inter-group differences. Naka residents display the strongest concentration in the urban core, Showa residents occupy an intermediate position, and Moriyama residents exhibit a more dispersed and corridor-oriented pattern. Citywide semantic opportunities are unevenly distributed and concentrated around the urban core. Event-level exposure also shows a clear gradient, with Naka residents encountering the highest opportunity density, followed by Showa and Moriyama. Category-specific analysis further reveals that Naka residents are more strongly embedded in Retail/Service and Food/Drink opportunity structures, whereas Showa and Moriyama show relatively stronger Transit-related components. These findings suggest that spatial activity opportunity inequality among elderly residents is not one-dimensional, but multi-dimensional and category-specific. The paper contributes an event-based perspective for examining experienced urban opportunity inequality under differentiated residential contexts.",
+  "title_relatable": "Where you live in a city shapes what you can actually do",
+  "hook": "GPS tracking of elderly Nagoya residents reveals rent levels predict access to shops, restaurants, and services — not just transit.",
+  "summary": "Using GPS mobility data from three Nagoya neighborhoods at different rent levels, researchers mapped the daily activity patterns of elderly residents onto a fine-grained city grid. Those in the pricier urban core encountered far denser opportunities for retail, food, and services, while lower-rent outer wards offered mainly transit access. The findings make a concrete case that urban inequality for aging populations isn't just about income — it's baked into where you happen to live.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1064,
+  "tokens_out": 168,
+  "cost_usd": 0.005712,
+  "ingested_at": "2026-05-21T23:53:53.109044+00:00"
+}

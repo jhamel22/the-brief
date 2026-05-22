@@ -1,0 +1,22 @@
+{
+  "id": "2605.20848",
+  "arxiv_url": "https://arxiv.org/abs/2605.20848",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Confronting Vector-Like Quark Models with LHC Searches",
+  "authors": "A. Arhrib, R. Benbrik, M. Boukidi, M. Ech-chaouy, S. Moretti, K. Kahime, K. Salime, Q. S. Yan",
+  "abstract": "We present VLQBounds, a public, data-driven Python framework for testing Vector-Like Quark (VLQ) scenarios against Large Hadron Collider (LHC) exclusion limits from ATLAS and CMS. The framework incorporates public results on both pair and single VLQ production and supports the main parameterisations used in experimental interpretations, including mass-mixing, mass-coupling, and mass-width representations. For each parameter point, the predicted cross-section or effective coupling is compared channel by channel to the corresponding observed and expected experimental limits through interpolation over machine-readable grids. The most sensitive analysis is automatically identified and a 95\\% Confidence-Level exclusion verdict is returned, together with the observed and expected sensitivity ratios and the metadata needed for reproducible reinterpretation. The modular structure of VLQBounds makes it suitable for fast phenomenological scans, validation of public limits, and future extensions to new collider searches and non-minimal VLQ decay patterns.",
+  "title_relatable": "Can vector-like quarks hide from the Large Hadron Collider?",
+  "hook": "A new tool lets physicists rapidly test whether exotic heavy quarks predicted by beyond-standard-model theories can escape LHC detection limits.",
+  "summary": "Physicists built VLQBounds, an open-source tool that tests whether hypothetical vector-like quarks—heavier cousins of standard quarks—are ruled out by LHC data. The framework compares predicted collision signatures across multiple production modes and decay channels to published ATLAS and CMS exclusion limits, automatically flagging which experiments constrain each model most tightly. This lets theorists quickly scan new parameter spaces and validate existing bounds without reimplementing complex experimental analyses.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 961,
+  "tokens_out": 190,
+  "cost_usd": 0.0015288,
+  "ingested_at": "2026-05-21T23:52:36.283140+00:00"
+}

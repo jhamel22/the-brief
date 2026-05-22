@@ -1,0 +1,22 @@
+{
+  "id": "2605.21398",
+  "arxiv_url": "https://arxiv.org/abs/2605.21398",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "From swept contact to pose: Probe-aware registration via complementary-shape docking",
+  "authors": "Chen Chen, Yunwen Li, Yifan Xu, Xiangjie Yan, Chang Shu, Jianxia Hou, Shiji Song, Xiang Li",
+  "abstract": "Accurate registration between a prior model and the real scene is essential for high-precision robotic manipulation, yet optical methods suffer from long calibration chains, line-of-sight constraints, and fabrication errors. We propose a calibration-free alternative that reformulates contact registration as complementary-shape docking between the object and the probe's swept volume, explicitly accounting for probe geometry and leveraging both contact and non-contact evidence. Our solver integrates a global-to-local search via 3D FFT correlation over low-discrepancy SO(3) samples, then followed by continuous SE(3) refinement using Lie-algebra updates and analytic contact sensitivities. This pipeline yields efficient exploration and metric-grade convergence without fragile point correspondences. Simulation across free-form meshes achieved sub-0.04 mm and sub-0.4° accuracy and robustness to pose noise and contact loss. On a tooth-preparation robot, our method attained 0.42 mm and 3.75°, outperforming an optical tracker registration while requiring no external sensors. These results demonstrate a practical and precise registration strategy for surgical and industrial robots.",
+  "title_relatable": "Teaching robots where things are without cameras",
+  "hook": "Contact-based registration achieves surgical precision (0.42 mm) on real robots without calibration or external sensors—just the robot's probe and touch.",
+  "summary": "Robots need to know exactly where objects are to manipulate them precisely, but optical tracking systems require tedious calibration and fail when objects block the camera. This work replaces optics with physics: the robot's probe itself becomes the sensor. By matching the object's shape against the swept volume the probe traces through space—using both actual contact and near-miss information—the system pinpoints object pose. A global search via 3D Fourier transform finds rough position, then continuous refinement tightens it to surgical accuracy. On a tooth-prep robot, it achieved 0.42 mm positioning without any external sensors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 953,
+  "tokens_out": 212,
+  "cost_usd": 0.0016104000000000001,
+  "ingested_at": "2026-05-22T00:15:15.498782+00:00"
+}

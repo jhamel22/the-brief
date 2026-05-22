@@ -1,0 +1,22 @@
+{
+  "id": "2605.21393",
+  "arxiv_url": "https://arxiv.org/abs/2605.21393",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Versal transition scenarios in inflationary cosmology: slow roll, ultra-slow roll, and oscillatory exit",
+  "authors": "Spiros Cotsakis",
+  "abstract": "We develop a physics-facing version of the persistence/transition-variety framework for scalar-field cosmology, tailored to inflationary dynamics. The guiding idea is that observationally viable inflationary models are often best understood not as single asymptotic phases but as concatenations of persistent regimes separated by universal transition episodes. In this picture, slow roll appears as a robust persistent balance, ultra-slow roll as a bottleneck passage near a nonhyperbolic organising set, and oscillatory post-inflationary behaviour as a recurrent exit sector. Using the exponential model as a reference regime atlas and the massive case as a dynamical realisation of slope drift, we show how such histories may be organised and read geometrically. The resulting framework makes explicit that the relevant regime transitions are organised precisely where hyperbolicity is lost or the spectrum crosses the imaginary axis, and are therefore invisible to a purely hyperbolic or asymptotic treatment.",
+  "title_relatable": "Why inflation's phases connect in surprisingly universal ways",
+  "hook": "Slow roll, ultra-slow roll, and reheating aren't just three separate regimes — they snap together at precise mathematical seams.",
+  "summary": "Inflationary cosmology treats different epochs — slow roll, ultra-slow roll, oscillatory reheating — as distinct phases, but the handoffs between them have lacked a unified language. This paper borrows a framework from dynamical systems theory to show those transitions are geometrically universal, occurring exactly where the equations lose hyperbolicity. The result is a kind of atlas for inflationary histories that makes regime changes readable from the structure of the math itself, not just from numerical simulations.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 903,
+  "tokens_out": 179,
+  "cost_usd": 0.005394,
+  "ingested_at": "2026-05-21T23:44:43.374595+00:00"
+}

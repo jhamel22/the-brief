@@ -1,0 +1,23 @@
+{
+  "id": "2605.20880",
+  "arxiv_url": "https://arxiv.org/abs/2605.20880",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.HE"
+  ],
+  "title_original": "Down going muon rate monitoring in the ANTARES detector",
+  "authors": "K. Gracheva, M. Anghinolfi, V. Kulikovskiy, E. Shirokov, Y. Yakovenko",
+  "abstract": "Large underwater telescopes have been proposed as a challenging method to measure high energy neutrinos from astrophysical objects. In recent years, The Antares collaboration has designed and realized the first detector of this type in the Mediterranean Sea. Muon tracks produced by the neutrino interaction in the surrounding medium are reconstructed from the arrival time and the number of photo-electrons of the Cherenkov light measured by the Photomultiplier tubes (PMT) array of the detector. In order to provide sufficient statistics, the events from various periods in the year must be summed together taking care of the various environmental conditions and detector configurations. In this note we describe effective criteria to group compatible runs based on the effective number of active PMTs in each run.",
+  "title_relatable": "Keeping track of a neutrino detector's moody underwater telescope",
+  "hook": "ANTARES monitors cosmic neutrinos by watching for muon tracks in Cherenkov light, but must account for changing detector conditions across observation periods.",
+  "summary": "ANTARES, the Mediterranean's neutrino telescope, reconstructs high-energy cosmic events from the Cherenkov light signature of muons passing through water. To combine data across different observation periods, the team developed criteria to group runs with compatible detector configurations—mainly based on how many of the photomultiplier tubes were actually working. This keeps their statistical samples clean when combining observations taken under varying environmental and hardware conditions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 881,
+  "tokens_out": 175,
+  "cost_usd": 0.0014048,
+  "ingested_at": "2026-05-21T23:54:46.057182+00:00"
+}

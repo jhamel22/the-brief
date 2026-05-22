@@ -1,0 +1,25 @@
+{
+  "id": "2605.21045",
+  "arxiv_url": "https://arxiv.org/abs/2605.21045",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mtrl-sci",
+    "cond-mat.str-el",
+    "cs.AR"
+  ],
+  "title_original": "Towards transistor-based quantum computing",
+  "authors": "Y. -D. Liu, X. Xu, Q. -R. Wang, D. -S. Wang",
+  "abstract": "In this work, we propose and study in depth a universal quantum computing architecture based on a quantum construction of transistors. Our teleportation-based quantum transistors, called ``telesistors'', are ground states of systems with symmetry-protected topological order, hence suppress certain noises and provide high-fidelity Clifford gates without the need for active error correction. This physical protection, quantified by the string order parameters, serves as a low-overhead foundation upon which conventional fault-tolerant encoding (e.g., with stabilizer codes) can be built to achieve universal quantum computation. This architecture shows rich connections with current known architectures, and some desirable merits especially compared with the qubit-based circuits regarding modularity, integration, and program storage. Our study shows that it is plausible to realize it with current technology in the near future.",
+  "title_relatable": "Could transistor logic make quantum computers more reliable?",
+  "hook": "A quantum version of the transistor uses topological physics to protect gates without active error correction.",
+  "summary": "Taking inspiration from classical computing's transistor, this work designs \"telesistors\" — quantum gates built from symmetry-protected topological states that inherently suppress certain errors, delivering high-fidelity Clifford operations passively. The physical protection is measurable via string order parameters and acts as a low-overhead base layer on top of which standard fault-tolerant codes can run. The appeal over conventional qubit circuits lies in modularity and program storage, with the authors arguing the hardware is within reach of near-term technology.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 886,
+  "tokens_out": 177,
+  "cost_usd": 0.005313,
+  "ingested_at": "2026-05-21T23:50:32.892571+00:00"
+}

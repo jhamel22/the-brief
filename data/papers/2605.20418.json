@@ -1,0 +1,23 @@
+{
+  "id": "2605.20418",
+  "arxiv_url": "https://arxiv.org/abs/2605.20418",
+  "announced_date": "2026-05-19",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI"
+  ],
+  "title_original": "A Bounded-Confidence Model of Opinion Dynamics with Adaptive Interaction Probabilities",
+  "authors": "Leila Thompsky,  Yuexuan,  Wu, Mason A. Porter, Jiajie Luo",
+  "abstract": "Models of opinion dynamics aim to capture how individuals' opinions change when they interact with each other. One well-known model of opinion dynamics is the Deffuant--Weisbuch (DW) model, which is a type of bounded-confidence model (BCM). In the DW model, agents have pairwise interactions, and they are receptive to other agents' opinions when their opinions are sufficiently close to each other. In this paper, we extend the DW model by studying it on networks with heterogeneous and adaptive edge weights between pairs of agents. These edge weights govern the interaction probabilities between the agents and thereby encode the idea that people are more likely to communicate with individuals with whom they have previously compromised or had other positive interactions. We prove theoretical guarantees of our adaptive edge-weighted DW model's convergence properties, the long-time dynamics of its edge weights, and the model's associated ``effective graph\", which is a time-dependent subgraph that includes edges only between agents that are receptive to each other's opinions. We support our theoretical results with numerical simulations of our adaptive edge-weighted DW model on a variety of networks and find that including adaptive edge weights yields different qualitative dynamics for different types of networks. In particular, for small confidence bounds, we observe that incorporating adaptive edge weights decreases the convergence time for dense networks but increases the convergence time for sparse networks.",
+  "title_relatable": "When people talk more to those they agree with, do opinions converge faster?",
+  "hook": "Adapting who talks to whom based on past agreement speeds consensus in dense social networks but slows it in sparse ones.",
+  "summary": "This paper extends a classic opinion-dynamics model by letting interaction probabilities shift over time — agents grow more likely to talk to people they've previously agreed with. The key finding is that this seemingly reasonable tweak has opposite effects depending on network structure: denser networks reach consensus faster, while sparser ones take longer. The result suggests that echo-chamber-like reinforcement of existing connections isn't universally polarizing — its effect depends heavily on how connected a society already is.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1016,
+  "tokens_out": 174,
+  "cost_usd": 0.005658,
+  "ingested_at": "2026-05-21T23:53:34.091326+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21375",
+  "arxiv_url": "https://arxiv.org/abs/2605.21375",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Compact Object Astrophysics with Frontline Astrometry",
+  "authors": "P. Gandhi",
+  "abstract": "Astrometry - the precise measurement of celestial positions and motions - is entering the micro-arcsecond ($μ$as) era at multiple wavelengths, enabling new insights on compact objects across all mass scales. Here we review how high-precision astrometry is advancing our understanding of compact objects - neutron stars (NSs) and black holes (BHs). We provide the context for high precision astrometry before discussing natal kicks and the latest results from Gaia Data Release 3 (DR3). We highlight the evidence for mass-dependent peculiar velocities of accreting binaries, and also reveal a close similarity between NSs and BHs. Next-generation surveys will find recoiling supermassive BHs (SMBHs) in galactic nuclei, exploring how gravitational-wave-induced kicks operate. Exploitation of scientific opportunities on the lunar surface could facilitate much larger collecting areas and astrometric precision in X-rays than currently feasible.",
+  "title_relatable": "Watching black holes and neutron stars move across the sky",
+  "hook": "Micro-arcsecond precision astrometry is revealing how compact objects get kicked around by gravity and radiation, with surprises about their similarities.",
+  "summary": "Precise position measurements of neutron stars and black holes—now possible with Gaia and other surveys—are exposing their true motions and natal histories. New data show that accreting binaries display mass-dependent velocities, and that neutron stars and black holes behave more alike than expected. Future surveys will catch supermassive black holes recoiling from gravitational wave kicks and spot them wandering through galaxy centers.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 906,
+  "tokens_out": 175,
+  "cost_usd": 0.0014248000000000002,
+  "ingested_at": "2026-05-21T23:54:09.335722+00:00"
+}

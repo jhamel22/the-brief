@@ -1,0 +1,22 @@
+{
+  "id": "2605.21484",
+  "arxiv_url": "https://arxiv.org/abs/2605.21484",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "One-Step Distillation of Discrete Diffusion Image Generators via Fixed-Point Iteration",
+  "authors": "Chaoyang Wang, Yunhai Tong",
+  "abstract": "Discrete diffusion models excel at visual synthesis but rely on slow, iterative decoding. Existing single-step distillation methods attempt to bypass this bottleneck, either by training auxiliary score networks that effectively double compute, or by introducing specialized parameterizations and multi-stage pipelines that fragment optimization. In this paper, we introduce Fixed-Point Distillation (FPD), an end-to-end framework that constructs local correction targets by partially corrupting the student's one-step draft and refining it with a single teacher step. To compute the training objective in a semantically meaningful space, we lift discrete tokens into continuous features and apply a multi-bandwidth drift loss that iteratively accumulates these corrections. To backpropagate through the discrete bottleneck, we employ a straight-through estimator that feeds exact hard-sampled tokens to the teacher and decoder during the forward pass, ensuring that training and inference operate on the same codebook manifold, while routing continuous gradients back to the student logits. This fully differentiable pathway additionally accommodates an optional unconditional adversarial objective to enhance perceptual realism. Evaluations on both class- and text-conditional generation validate the effectiveness of our framework. FPD achieves competitive visual fidelity and structural alignment within a single inference step, narrowing the gap to multi-step teachers while outperforming existing discrete distillation baselines.",
+  "title_relatable": "Making slow image generators 100× faster with one-step distillation",
+  "hook": "Discrete diffusion models produce excellent images but need 50+ steps. This method compresses that into a single step without doubling compute or fragmenting training.",
+  "summary": "Discrete diffusion models generate high-quality images but require slow iterative decoding. Fixed-Point Distillation (FPD) compresses this into one inference step by training a student model to mimic a teacher's corrections. The key trick: corrupt the student's draft slightly, let the teacher refine it once, then train the student to predict that refined version—all while routing gradients through discrete tokens via a straight-through estimator. On class-conditional and text-to-image tasks, FPD matches multi-step teachers while being orders of magnitude faster at inference.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 974,
+  "tokens_out": 213,
+  "cost_usd": 0.0016312,
+  "ingested_at": "2026-05-22T00:11:37.841462+00:00"
+}

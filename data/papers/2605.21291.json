@@ -1,0 +1,24 @@
+{
+  "id": "2605.21291",
+  "arxiv_url": "https://arxiv.org/abs/2605.21291",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex",
+    "hep-lat"
+  ],
+  "title_original": "Impact of Hadronic Resonances on $B\\to K^{(*)}τ^+τ^-$ decays",
+  "authors": "Guillermo Baltà, Andreas Crivellin, Rafel Escribano, Joaquim Matias, Martín Novoa-Brunet",
+  "abstract": "Neutral-current semileptonic $B$ decays are plagued by hadronic resonances across the dilepton invariant-mass squared spectrum, $q^2$. For light leptons, $\\ell=e,μ$, these resonances can be avoided with suitable $q^2$ cuts. This strategy is less straightforward for $τ$ modes, where missing energy from the $τ$ decay makes $q^2$ difficult to reconstruct. In fact, while Belle II is able to discriminate between different regions in $q^2$ due to its clean environment, this is not directly possible in a hadronic one. Therefore, the interpretation of $b\\to sτ^+τ^-$ measurements from e.g. LHCb, CMS requires the description of these resonant effects. In this article, we adopt a different strategy by including the resonant contributions (in particular from $ψ(2S)$) into our predictions for $B\\to K^{(*)}τ^+τ^-$ decays, instead of avoiding them. We provide predictions for different initial kinematic points ($4m_τ^2, 14.18\\,$GeV$^2$ and $15\\,$GeV$^2$) that can be convenient for LHCb, CMS and Belle II. For this, we use a data-driven approach based on the LHCb measurements of $B\\to K^{(*)}μ^+μ^-$ decays. Including the resonances and integrating over the full $q^2$ range substantially enhances the Standard Model predictions. However, for sufficiently large New Physics, motivated by the current tensions in $R(D^{(*)})$ and $B\\to K^{(*)}νν$ decays, the short-distance contribution becomes comparable to or even exceeds the resonant one. This highlights two advantages of this strategy: it exploits the additional phase space associated with the resonant regions to probe large New Physics contributions, and it enables the use of hadron-collider data, where the resonances cannot be resolved. We further quantify how including or neglecting the resonances affects the total branching ratio as a function of New Physics contributions and, equivalently, of the experimental precision.",
+  "title_relatable": "Hidden resonances reshape the search for new physics in rare B decays",
+  "hook": "Particles decaying through intermediate resonances could be masking or amplifying signs of new physics at the LHC—and accounting for them changes the predictions dramatically.",
+  "summary": "B mesons decaying to kaons and tau leptons are cluttered with intermediate resonances (like ψ(2S)) that distort the signal across the energy spectrum. The authors included these resonances directly in their predictions rather than trying to cut them out, using LHCb muon decay data to constrain the effect. The result: resonances boost Standard Model rates by substantial factors, but also create room for large new physics contributions to hide—or stand out more clearly—depending on the energy region examined.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1244,
+  "tokens_out": 198,
+  "cost_usd": 0.0017872,
+  "ingested_at": "2026-05-21T23:52:13.650395+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.20112",
+  "arxiv_url": "https://arxiv.org/abs/2605.20112",
+  "announced_date": "2026-05-19",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Gravitational-wave constraints on $H_0$ are robust to (putative) redshift evolution in the binary black hole mass spectrum at current sensitivity",
+  "authors": "Alessandro Agapito, Viola De Renzis, Michele Mancarella",
+  "abstract": "Spectral-siren cosmology constrains the Hubble constant $H_0$ using gravitational-wave observations of compact-binary coalescences. The method combines luminosity distances inferred from the waveform with redshift information statistically encoded in population features of the source-frame mass spectrum. Because the detector measures redshifted masses, structure in the intrinsic mass distribution acts as an internal ``ruler'', making the inference sensitive to assumptions about the population model. In particular, redshift evolution of the mass spectrum is widely discussed as a potential systematic for $H_0$ measurements. We revisit spectral-siren constraints with the GWTC-4.0 binary black hole catalog, explicitly allowing the main mass scales of a standard parametric mass model to evolve with redshift. We find no compelling evidence for evolution at current sensitivity. Allowing evolution produces a modest, non--statistically--significant shift of the $H_0$ posterior toward lower values, which we interpret with targeted posterior and event-level diagnostics. Importantly, the associated systematic uncertainty is subdominant to that induced by alternative redshift-independent descriptions of the mass spectrum, such as the number of spectral features and the functional form used to model them. Our results indicate that, at current sensitivity, spectral-siren constraints on $H_0$ are robust to redshift evolution of the mass spectrum within the flexibility explored here. Using injection studies, we show that this mild $H_0$ shift is reproduced when a non-evolving underlying population is analyzed with an evolving model, consistent with an over-flexible population description at the present signal-to-noise. The sign and magnitude of the shift can, however, depend on detector sensitivity and redshift reach as the population features become increasingly constrained directly by the data.",
+  "title_relatable": "Do evolving black hole masses mess up Hubble constant measurements?",
+  "hook": "Gravitational waves let us measure the universe's expansion rate using black hole collisions. A potential pitfall: if black hole masses change over cosmic time, it could skew the result. New analysis says not yet.",
+  "summary": "Spectral sirens infer the Hubble constant by combining gravitational-wave distance measurements with the population properties of merging black holes—using their mass distribution as a cosmic ruler. The team checked whether allowing black hole masses to evolve with redshift corrupts this measurement using 94 black hole mergers from GWTC-4.0. They found no significant evidence for such evolution, and any systematic error from ignoring it stays smaller than uncertainties from other population assumptions. Future detectors may change this story.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1108,
+  "tokens_out": 210,
+  "cost_usd": 0.0017264000000000001,
+  "ingested_at": "2026-05-21T23:51:39.485949+00:00"
+}

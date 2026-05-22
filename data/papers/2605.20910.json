@@ -1,0 +1,22 @@
+{
+  "id": "2605.20910",
+  "arxiv_url": "https://arxiv.org/abs/2605.20910",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching",
+  "authors": "Jangho Park, Geon Yeong Park, Gihyun Kwon, Jong Chul Ye",
+  "abstract": "Extending the generation horizon of video diffusion models to long sequences remains a long-standing and important challenge. Existing training-free approaches fall into two categories: extensions of bidirectional models, which are tightly coupled to specific architectures and suffer from quality degradation over long horizons, and autoregressive models, which accumulate drift errors due to exposure bias and tend to produce repetitive motion patterns. To address these issues, we propose a novel but simple inference-time approach for long video generation that is architecture-agnostic and requires no additional training. Our method generates long videos via overlapping sliding windows, where predicted clean samples from adjacent windows are blended via \\emph{Tweedie matching} to enforce both \\textbf{manifold constraint and temporal consistency} across overlap regions. \\emph{Stochastic early-phase sampling} then synchronizes per-window trajectories by injecting fresh noise after each Tweedie matching correction in the high-noise phase, before transitioning to deterministic ODE sampling to preserve fine-grained visual fidelity. Applied to various video generation models, our method generates videos several times longer than the native window length while outperforming both training-free and autoregressive baselines in temporal consistency and visual quality, and further extends to audio-video joint generation and text-to-3DGS without any fine-tuning.",
+  "title_relatable": "Generating long videos without retraining the model",
+  "hook": "A new inference-only method generates videos several times longer than models were trained for, using overlapping windows and noise injection to maintain visual quality and temporal consistency.",
+  "summary": "Video diffusion models struggle to generate beyond their training length. This work proposes FlowLong, an inference-time method that stitches together sliding windows of video by matching predictions from overlapping regions (Tweedie matching) and re-injecting noise strategically to stay on the learned manifold. The approach works with any existing model, requires no retraining, and produces temporally coherent videos several times longer than native window length while beating autoregressive baselines that accumulate drift errors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 987,
+  "tokens_out": 189,
+  "cost_usd": 0.0015455999999999998,
+  "ingested_at": "2026-05-22T00:13:30.015197+00:00"
+}

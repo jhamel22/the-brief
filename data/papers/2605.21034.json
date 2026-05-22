@@ -1,0 +1,22 @@
+{
+  "id": "2605.21034",
+  "arxiv_url": "https://arxiv.org/abs/2605.21034",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Impurity-induced loss bursts from anomalous scale-free localization in a non-Hermitian dissipative lattice",
+  "authors": "Hui Liu, Zhihao Xu",
+  "abstract": "We identify anomalous scale-free localization and the associated impurity-induced loss bursts in a non-Hermitian dissipative cross-stitch lattice. By a local basis rotation, the model is mapped onto an effective non-Hermitian Su-Schrieffer-Heeger lattice, where local impurities act as tunable effective boundaries. For the parameter choice considered here, tuning the impurity strength $η$ connects two effective open-boundary-condition-like limits, reached for $η\\to0$ and $η\\to\\infty$, through generalized-boundary-condition regimes and the impurity-free periodic-boundary-condition point at $η=1$. For finite $η\\notin\\{0,1\\}$, the spectral loops remain separated from the real-energy axis, while the eigenstates exhibit scale-free localization pinned by the impurity. Unlike conventional impurity-induced scale-free localization, the Lyapunov exponent depends explicitly on the eigenenergy, making the localization strength eigenstate dependent. We further show that this anomalous eigenmode structure produces an impurity-induced loss burst: the long-time integrated dissipation probability is strongly enhanced near an impurity-generated effective boundary even when the initial wave packet is far away. In the single-impurity case, the burst region consists of the impurity site and its adjacent effective-boundary site, and the effect occurs without imaginary-gap closing. For multiple impurities, local burst regions emerge around all impurities, while the dominant burst boundary is selected by the initial wave-packet position and the nonreciprocal drift direction. These results connect anomalous scale-free localization with controllable dissipation dynamics in non-Hermitian lattices.",
+  "title_relatable": "A single impurity triggers a sudden burst of quantum dissipation",
+  "hook": "One defect in a quantum lattice can catastrophically redirect energy loss to a distant site, no gap-closing required.",
+  "summary": "In a dissipative quantum lattice where gain and loss are unbalanced, a single impurity acts like an artificial boundary that traps quantum states nearby — even when the initial wave packet starts far away. The eigenstates show an unusual 'scale-free' localization whose strength varies from state to state, producing sudden bursts of integrated particle loss concentrated near the impurity. This mechanism offers a way to control where and when dissipation strikes in engineered quantum systems, without needing to tune the system through a phase transition.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1102,
+  "tokens_out": 186,
+  "cost_usd": 0.006096,
+  "ingested_at": "2026-05-21T23:50:43.325778+00:00"
+}

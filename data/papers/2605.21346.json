@@ -1,0 +1,22 @@
+{
+  "id": "2605.21346",
+  "arxiv_url": "https://arxiv.org/abs/2605.21346",
+  "announced_date": "2026-05-20",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Evidence of Quantum Machine Learning Advantage with Tens of Noisy Qubits",
+  "authors": "Onur Danaci, Yash J. Patel, Riccardo Molteni, Evert van Nieuwenburg, Vedran Dunjko, Jan A. Krzywda",
+  "abstract": "Learning problems involving quantum data are natural candidates for demonstrating an advantage in quantum machine learning. Recent results indicate that, for certain tasks and under noiseless conditions, coherent processing of quantum data outperforms fixed-measurement schemes followed by classical processing. It remained uncertain whether this performance gap persists at a finite scale, and in the presence of noise that is unavoidable with current quantum devices. In this work, we present simulations and analysis of the performance of existing hardware on a learning problem known to exhibit asymptotic advantage, now subjected to noisy quantum data. Comparing coherent quantum processing directly against fixed-measurement schemes, our results demonstrate a clear performance separation at a scale of just 30 to 40 noisy qubits. Already at this scale, the fundamental bottleneck is no longer classical computation but data acquisition; matching the noisy coherent protocol with measure-first strategies would still require months or even years of measurements. By systematically evaluating hardware constraints such as state preparation, gate errors, readout errors, connectivity, and coherence times, we provide evidence that a demonstration of such a strong learning advantage is accessible on near-term devices.",
+  "title_relatable": "Quantum machine learning advantage survives real-world noise at 30 qubits",
+  "hook": "At just 30–40 noisy qubits, quantum processing of quantum data already outpaces classical rivals by months of measurement time.",
+  "summary": "Using simulations of current hardware, researchers tested whether quantum machine learning's theoretical edge survives the noise of real devices — and found it does, at scales as small as 30–40 qubits. The bottleneck for classical rivals isn't computing power but data collection: replicating the noisy quantum protocol with measure-first approaches would take months to years of measurements. By mapping out the impact of gate errors, readout errors, and connectivity constraints, the work suggests this advantage is achievable on near-term quantum hardware today.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 981,
+  "tokens_out": 196,
+  "cost_usd": 0.005883,
+  "ingested_at": "2026-05-21T23:49:14.833603+00:00"
+}

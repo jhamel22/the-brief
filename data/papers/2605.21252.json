@@ -1,0 +1,24 @@
+{
+  "id": "2605.21252",
+  "arxiv_url": "https://arxiv.org/abs/2605.21252",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Exact Holographic Kinematics in AdS/CFT",
+  "authors": "Haitang Yang",
+  "abstract": "We propose that holography contains an exact kinematic sector distinct from holographic dynamics. The appropriate setting for this sector is a CFT on an open solid torus in the Weyl frame. The open solid torus introduces an intrinsic scale, and the Weyl frame makes this scale manifest as an extra bulk direction. The resulting bulk-boundary pairs are exact and finite: no cutoff, large-$N$ limit, strong-coupling assumption, or heavy-operator approximation is required. The AdS geometry appearing in this sector should be understood as a kinematic geometry; only in special CFTs and appropriate limits is it promoted to a dynamical semiclassical bulk. The standard boundary-anchored dictionary entries are recovered only as singular limits. As a striking demonstration, we show that Weyl-frame two-point functions provide a replica-free definition of entanglement entropy.",
+  "title_relatable": "A part of AdS/CFT that works exactly, no approximations needed?",
+  "hook": "A new sector of holography produces exact bulk-boundary results without large-N limits or strong coupling — and redefines entanglement entropy without replicas.",
+  "summary": "Standard AdS/CFT only works cleanly in limiting regimes — large N, strong coupling, heavy operators. By placing a CFT on an open solid torus in a specific Weyl frame, this paper identifies a purely kinematic sector where the holographic dictionary is exact and finite, no approximations required. The AdS geometry here is a geometric bookkeeping device, not a dynamical spacetime. As a concrete payoff, the framework gives a replica-free derivation of entanglement entropy from two-point functions — a result that usually requires a cumbersome analytic continuation trick.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 877,
+  "tokens_out": 212,
+  "cost_usd": 0.005811,
+  "ingested_at": "2026-05-21T23:45:05.870285+00:00"
+}

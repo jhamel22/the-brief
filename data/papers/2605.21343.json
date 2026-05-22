@@ -1,0 +1,22 @@
+{
+  "id": "2605.21343",
+  "arxiv_url": "https://arxiv.org/abs/2605.21343",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "OcclusionFormer: Arranging Z-Order for Layout-Grounded Image Generation",
+  "authors": "Ziye Li, Henghui Ding",
+  "abstract": "Recent layout-to-image models have achieved remarkable progress in spatial controllability. However, they still struggle with inter-object occlusion. When bounding boxes overlap, most existing methods lack explicit occlusion information, which makes the generation in intersection regions inherently ambiguous and hinders the determination of complex occlusion relationships. As a result, they often produce entangled textures or physically inconsistent layering in the overlapped areas. To address this issue, we first construct SA-Z, a large-scale dataset enriched with explicit occlusion ordering and pixel-level annotations. Building upon our proposed dataset, we introduce OcclusionFormer, a novel occlusion-aware Diffusion Transformer framework that explicitly models Z-order priority by decoupling instances and compositing them via volume rendering. Furthermore, to ensure fine-grained spatial precision, we introduce a queried alignment loss that explicitly supervises individual instances and enhances semantic consistency. The proposed method effectively reduces ambiguity in overlapping regions, enforces correct occlusion dependencies, and preserves structural integrity, leading to substantial accuracy gains across diverse scenes.",
+  "title_relatable": "Teaching AI which objects go on top when drawing overlapping scenes",
+  "hook": "Layout-to-image models struggle when objects overlap. This work adds explicit depth ordering to fix tangled textures and unnatural layering in intersection regions.",
+  "summary": "Existing image generation models fail when bounding boxes overlap—they don't know which object should appear in front. OcclusionFormer solves this by explicitly modeling Z-order (layering priority) using a Diffusion Transformer that separates instances and composites them like stacked layers. The authors built SA-Z, a dataset with pixel-level occlusion annotations, and added a queried alignment loss to lock each object in place. Result: clean, physically plausible overlaps instead of blurred textures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 909,
+  "tokens_out": 197,
+  "cost_usd": 0.0015152,
+  "ingested_at": "2026-05-22T00:11:56.306069+00:00"
+}

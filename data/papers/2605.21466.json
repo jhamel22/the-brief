@@ -1,0 +1,22 @@
+{
+  "id": "2605.21466",
+  "arxiv_url": "https://arxiv.org/abs/2605.21466",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "StreamGVE: Training-Free Video Editing via Few-Step Streaming Video Generation",
+  "authors": "Guanlong Jiao, Chenyangguang Zhang, Jia Jun Cheng Xian, Zewei Zhang, Renjie Liao",
+  "abstract": "Although existing video editing methods are generally feasible, they often require many costly iterations and still struggle to deliver high-quality yet satisfying editing results. We attribute this limitation to the prevalent data-to-data paradigm, which is less compatible with modern generative models than noise-to-data generation. To address this gap, we revisit video editing from a noise-to-data perspective and propose Streaming-Generation-based Video Editing (StreamGVE), which preserves few-step sampling while seamlessly injecting source-video conditions. Built on pre-trained streaming generation models, StreamGVE introduces dual-branch fast sampling with a self-attention bridge and cross-attention grounding/boosting to satisfy both sampling and conditioning requirements. We further propose source-oriented guidance to improve target-generation quality, and a visual prompting strategy to enhance editing flexibility and practicality. The method is effective, robust, and generalizable across different models. Extensive experiments on diverse video editing tasks show that StreamGVE consistently outperforms existing approaches, even in few-step settings with minimal time cost.",
+  "title_relatable": "Editing videos in seconds without retraining the model",
+  "hook": "A method that edits videos in just a few steps by rethinking how generative models work, outperforming slower iterative approaches on diverse editing tasks.",
+  "summary": "Video editing typically requires many costly iterations to produce good results. StreamGVE flips the approach: instead of iteratively refining from the original video, it generates from noise while anchoring to the source footage—the same way modern image generators work. Using dual-branch sampling and attention mechanisms to blend source conditions with generation, the method delivers high-quality edits in minimal steps without retraining. Works across different pre-trained models and handles diverse editing tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 928,
+  "tokens_out": 182,
+  "cost_usd": 0.0014704000000000002,
+  "ingested_at": "2026-05-22T00:11:43.881325+00:00"
+}

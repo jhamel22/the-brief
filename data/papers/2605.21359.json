@@ -1,0 +1,22 @@
+{
+  "id": "2605.21359",
+  "arxiv_url": "https://arxiv.org/abs/2605.21359",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Kinematic selection of the viscous stress in relativistic dissipative hydrodynamics",
+  "authors": "Zhi-Wei Wang, Samuel L. Braunstein",
+  "abstract": "All standard formulations of relativistic dissipative hydrodynamics, from Eckart through Israel-Stewart to the recent BDNK framework, assume that the viscous stress depends on the shear tensor $σ_{αβ}$ and the expansion scalar $θ$ but not on the vorticity $ω_{αβ}$ or the acceleration $a_α$. We derive this structure from a Lagrangian kinematic construction on Lorentzian spacetimes, extending a recent result on Riemannian manifolds. The spatial strain rate, constructed from the rate of change of spatial inner products of Lie-dragged connecting vectors, is the spatially projected Lie derivative of the projected metric $h_{αβ} = g_{αβ} + u_αu_β$. The acceleration terms drop out exactly under spatial projection, and the vorticity cancels by symmetry. We show that material frame-indifference fails for generic Killing perturbations by an amount $δ\\mathfrak{h}_{αβ} = +ε(ξ_αa_β+ ξ_βa_α)$ proportional to the acceleration, and is restored only for flow-preserving isometries. We prove that the non-relativistic limit of the BDNK equations gives the deformation Laplacian universally in the viscous sector, with the BDNK parameter dependence identified by Hegade K R, Ripley, and Yunes arising entirely from the thermal (heat-flux) sector. As an application, we derive the Weinberg gravitational-wave damping formula directly from the kinematic strain rate in a perturbed FRW spacetime.",
+  "title_relatable": "Why viscosity ignores rotation: a geometric proof",
+  "hook": "A clean geometric argument explains why viscous stress in relativistic fluids depends on shear but never on vorticity or acceleration.",
+  "summary": "Every major framework for relativistic viscous fluids shares the same assumption: viscous stress responds to shear and expansion, but not to rotation or acceleration. Working from a Lagrangian construction on curved spacetimes, the authors show this isn't an assumption at all — acceleration drops out under spatial projection and vorticity cancels by symmetry, making the structure inevitable. As a bonus, the same framework reproduces Weinberg's classic formula for gravitational-wave damping in an expanding universe directly from the geometry of fluid strain.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1089,
+  "tokens_out": 185,
+  "cost_usd": 0.006042,
+  "ingested_at": "2026-05-21T23:44:48.828332+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.20616",
+  "arxiv_url": "https://arxiv.org/abs/2605.20616",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents",
+  "authors": "Chongrui Ye, Yuxiang Liu, Yu Wang, Haofei Yu, Yining Zhao, Ge Liu, Julian McAuley, Jiaxuan You",
+  "abstract": "Language agents increasingly operate over streams of related tasks, yet existing memory systems struggle to convert accumulated experience into reusable knowledge. Retrieval-augmented and structured memory methods record per-session observations effectively, but often couple acquisition and consolidation into a single online process, leaving the agent without a global view across sessions to discover recurring patterns, abstract shared procedures, or prune redundant entries. Inspired by complementary learning systems theory, we propose Auto-Dreamer, a learned offline consolidator for language-agent memory. Auto-Dreamer decouples fast per-session memory acquisition from slow cross-session consolidation. Given a selected working region of a typed memory bank, the consolidator treats the region as read-only evidence, performs bounded tool-use to inspect entries and provenance-linked source trajectories, and synthesizes a fresh compact replacement set that abstracts across sessions and supersedes the original region. We train Auto-Dreamer via GRPO, using end-to-end agent performance as the reward signal to learn how to consolidate memories acquired through fast online experience. Trained on ScienceWorld trajectories alone, Auto-Dreamer outperforms fixed, RL-trained, and prompted memory baselines on ScienceWorld by 7 points while using an active memory bank 12$\\times$ smaller than the strongest baseline, and continues to lead on held-out ALFWorld and WebArena without retraining -- using 6$\\times$ less memory than the strongest baseline on ALFWorld.",
+  "title_relatable": "How language agents learn to remember better by sleeping on it",
+  "hook": "A system that consolidates messy agent memories offline discovers patterns across tasks, cutting memory use by 12× while improving performance by 7 points—and generalizes to new domains unseen during training.",
+  "summary": "Language agents running multiple tasks accumulate clutter in memory. Auto-Dreamer separates the quick recording of session experiences from slow offline consolidation across sessions, where it inspects old memories, finds patterns, and replaces bloated regions with compact summaries. Trained on ScienceWorld tasks using agent performance as reward, it beats all baselines while using 12× less memory on ScienceWorld and generalizes to ALFWorld and WebArena with 6× less memory than prior methods—no retraining needed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1025,
+  "tokens_out": 206,
+  "cost_usd": 0.001644,
+  "ingested_at": "2026-05-22T00:09:11.652003+00:00"
+}

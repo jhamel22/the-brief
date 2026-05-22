@@ -1,0 +1,25 @@
+{
+  "id": "2605.21310",
+  "arxiv_url": "https://arxiv.org/abs/2605.21310",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "astro-ph.IM",
+    "hep-ph"
+  ],
+  "title_original": "Contrastive self-supervised convolutional autoencoder for core-collapse supernova gravitational-wave detection",
+  "authors": "Tian-Yang Sun, Yue Niu, Chun-Yan Jiang, Shang-Jie Jin, Yong Yuan, Xin Zhang",
+  "abstract": "Gravitational-wave astronomy has opened a direct observational window onto compact-object dynamics, strong-field gravity, and cosmology. Among the transient sources accessible through this window, core-collapse supernovae (CCSNe) are uniquely valuable because their signals can probe the engine of stellar collapse, proto-neutron-star dynamics, and explosion asymmetries, yet their weak, stochastic, and model-dependent waveforms remain difficult to detect. In this work, we develop a contrastive self-supervised convolutional autoencoder (CS-CAE) for CCSNe gravitational-wave signal detection. The method combines a convolutional autoencoder (CAE), a noise-centered latent regularizer, and a projection head trained with a contrastive objective. This design encourages independent noisy realizations of the same CCSNe signal to be mapped to nearby latent representations, thereby reducing the influence of random noise fluctuations. CS-CAE achieves performance comparable to a supervised convolutional neural network while clearly outperforming a conventional CAE baseline, and generalizes better to unseen numerical CCSNe waveform families. Under the Einstein Telescope (ET) detector configuration, the method achieves an effective sensitive distance of approximately 120 kpc and shows improved separation of CCSNe signals from stationary noise and transient glitches in the low-false-alarm regime. These results highlight the potential of CS-CAE as a robust and less template-dependent framework for CCSNe gravitational-wave searches.",
+  "title_relatable": "Teaching AI to find supernova gravitational waves without a template",
+  "hook": "A self-supervised neural net detects stellar collapse gravitational waves out to 120 kiloparsecs—without needing labeled training data.",
+  "summary": "Gravitational waves from collapsing stars are faint and poorly modeled, making traditional template-matching unreliable. This approach trains a convolutional autoencoder using contrastive learning—pushing noisy versions of the same signal together in a compressed representation—so it learns what a supernova 'looks like' without relying on specific waveform models. Tested against the Einstein Telescope's sensitivity, it reaches ~120 kpc and handles detector glitches better than conventional unsupervised methods, matching supervised networks while generalizing to signal types it has never seen.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1076,
+  "tokens_out": 204,
+  "cost_usd": 0.006288,
+  "ingested_at": "2026-05-21T23:44:54.793868+00:00"
+}

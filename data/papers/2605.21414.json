@@ -1,0 +1,23 @@
+{
+  "id": "2605.21414",
+  "arxiv_url": "https://arxiv.org/abs/2605.21414",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "PointACT: Vision-Language-Action Models with Multi-Scale Point-Action Interaction",
+  "authors": "Shizhe Chen, Paul Pacaud, Cordelia Schmid",
+  "abstract": "Vision-Language-Action (VLA) models have shown strong potential for general-purpose robotic manipulation by leveraging large pretrained vision-language backbones. However, most existing VLAs rely primarily on 2D visual representations, which limit their ability to reason about fine-grained geometry and spatial grounding - capabilities that are essential for precise and robust manipulation in 3D environments. In this paper, we propose PointACT, a dual-system 3D-aware VLA policy that integrates hierarchical 3D point cloud representations directly into the action decoding process. PointACT employs a multi-scale point-action interaction mechanism with efficient bottleneck window self-attention, enabling evolving action tokens to densely attend to both local geometric detail and global scene structure. We evaluate PointACT on the LIBERO and RLBench benchmarks and systematically compare it against monolithic and dual-system VLA baselines, including variants augmented with point cloud inputs. PointACT achieves consistent improvements across both benchmarks, increasing success rates by 10% on the challenging RLBench-10Tasks suite over state-of-the-art pretrained VLAs, with even larger gains when the vision-language backbone is frozen and the action expert is trained from scratch. Extensive ablation studies demonstrate that tightly coupling hierarchical 3D geometry with pretrained 2D semantic representations is critical for robust and spatially grounded robot control. Our results also highlight the promise of pretrained 3D representations for 3D-aware VLA policies.",
+  "title_relatable": "Teaching robots to see 3D: combining language models with point clouds for precise manipulation",
+  "hook": "Adding 3D geometry to vision-language robot models boosts success rates by 10% on complex manipulation tasks by letting robots understand depth and spatial layout.",
+  "summary": "Current robot control models rely mostly on 2D images paired with language understanding, missing crucial 3D spatial information needed for precise manipulation. PointACT fuses 3D point cloud data directly into the action decoding process, using a multi-scale attention mechanism that lets the robot simultaneously grasp fine geometric details and overall scene structure. On standard benchmarks (LIBERO and RLBench), it improves task success by 10% over existing vision-language-action models—even larger gains when trained from scratch rather than fine-tuning pretrained backbones.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1013,
+  "tokens_out": 211,
+  "cost_usd": 0.0016544,
+  "ingested_at": "2026-05-22T00:11:50.141288+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.20808",
+  "arxiv_url": "https://arxiv.org/abs/2605.20808",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Spatial Gram Alignment for Ultra-High-Resolution Image Synthesis",
+  "authors": "Jinjin Zhang, Xiefan Guo, Di Huang",
+  "abstract": "Modern ultra-high-resolution image synthesis relies heavily on the robust generative capacity of large-scale pre-trained Latent Diffusion Models (LDMs). While recent representation alignment methods have proven effective by distilling visual priors from foundation models (e.g., SAM or DINO) into generative latent features, scaling these approaches to pre-trained LDMs at extreme resolutions exposes a critical learnability-fidelity conflict. Specifically, forcing direct patch-wise feature distillation inherently perturbs the pre-trained latent manifold, ultimately leading to generation degradation. To address this bottleneck, we propose Spatial Gram Alignment (SGA), a novel framework that explicitly leverages the representation priors of vision foundation models while preserving the native generative capacity of LDMs. Moving beyond restrictive direct alignment, SGA imposes a non-invasive spatial constraint by aligning the internal self-similarities of the generative features with those of the foundation priors. This spatial constraint effectively establishes macroscopic structural coherence, while the native generative objectives retain the microscopic pixel-level fidelity inherent to the original LDMs. Notably, this versatile strategy integrates seamlessly across both intermediate diffusion features and VAE latents within pre-trained LDMs. Extensive experiments demonstrate that SGA achieves state-of-the-art performance for ultra-high-resolution text-to-image synthesis, yielding an effective reconciliation between global structural integrity and fine-grained visual details. Code is available at https://github.com/zhang0jhon/SGA.",
+  "title_relatable": "Keeping giant image generators faithful while making them smarter",
+  "hook": "A method that adds structural intelligence to diffusion models without corrupting their core training—enabling sharper, more coherent ultra-high-resolution image generation.",
+  "summary": "Ultra-high-resolution image synthesis with diffusion models faces a tradeoff: directly forcing the model to copy knowledge from foundation models (like SAM) degrades generation quality. Spatial Gram Alignment sidesteps this by aligning only the internal structure of features—their self-similarities—rather than the features themselves, preserving the model's original capability while adding structural guidance. The approach works across both intermediate diffusion layers and VAE latents, achieving state-of-the-art results on text-to-image synthesis at extreme resolutions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1022,
+  "tokens_out": 200,
+  "cost_usd": 0.0016175999999999999,
+  "ingested_at": "2026-05-22T00:11:31.763872+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21130",
+  "arxiv_url": "https://arxiv.org/abs/2605.21130",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "VersusQ: Pairwise Margin Reasoning for Generalizable Video Quality Assessment",
+  "authors": "Shibei Meng, Binxin Yang, Yuan Liu, Jiexuan Zhang, Zhengyao Lv, Hubery Yin, Qiang Xu",
+  "abstract": "Large Multimodal Models (LMMs) have shown promise for video quality assessment, but most methods still predict an absolute score for each video. Such pointwise supervision often mixes perceptual quality with dataset-specific calibration, including annotation protocols, rating habits, and score distributions. As a result, the learned scoring rule may work well within a benchmark but transfer poorly across unseen domains. We argue that relative comparisons alleviate the absolute-scale calibration bias by focusing purely on perceptual differences rather than dataset-specific rating habits. Consequently, we propose \\textbf{VersusQ}, a pairwise margin reasoning framework driven entirely by direct comparisons. Specifically, VersusQ performs LMM-based comparison between two videos, reasons about their visual and temporal quality differences, and predicts a signed continuous margin that captures both the preferred choice and the degree of difference. Furthermore, to align interpretable comparison rationales with fine-grained numerical differences, we introduce Margin-Coupled GRPO, which jointly optimizes rollout-based relational reasoning and continuous margin regression. Extensive experiments on multiple public VQA benchmarks demonstrate that VersusQ achieves state-of-the-art performance, strong cross-domain generalization, and reliable fine-grained ranking under heterogeneous evaluation scenarios.",
+  "title_relatable": "Teaching video quality models to compare, not score absolutely",
+  "hook": "A new approach using pairwise comparisons instead of absolute scores improves video quality assessment and cuts cross-domain transfer failures significantly.",
+  "summary": "Video quality assessment models trained on absolute scores fail when deployed to new datasets because they pick up on rating habits rather than actual quality differences. VersusQ sidesteps this by having a multimodal model compare pairs of videos, reason about visual and temporal differences, and output a signed margin—essentially saying \"video A is better than B by this much.\" The method outperforms absolute-score baselines on public benchmarks and generalizes far better across different datasets and evaluation protocols.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 985,
+  "tokens_out": 178,
+  "cost_usd": 0.0015,
+  "ingested_at": "2026-05-22T00:14:00.852648+00:00"
+}

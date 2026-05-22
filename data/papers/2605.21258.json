@@ -1,0 +1,23 @@
+{
+  "id": "2605.21258",
+  "arxiv_url": "https://arxiv.org/abs/2605.21258",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation",
+  "authors": "Yicheng Jiang, Jiaxu Wang, Junhao He, Zesen Gan, Junhao Li, Qiang Zhang, Jingkai Sun, Jiahang Cao, Mingyuan Sun, Xiangyu Yue, Qiming Shao",
+  "abstract": "Current 3D-aware pretraining methods for embodied perception and manipulation are largely built on differentiable rendering frameworks, producing either fully implicit neural fields or fully explicit geometric primitives. Implicit representations, while expressive, lack explicit structural cues, whereas explicit ones preserve geometry but suffer from resolution limits and weak generalization. To address these limitations, we propose a novel pretraining framework that learns a hybrid representation-structural latent points. Specifically, we insert a point-wise latent variational autoencoder into the latent space of a point-cloud autoencoder, jointly regularizing point-wise features and coordinates toward a Gaussian prior. The resulting compact latent preserves coarse structural tendencies, which do not encode precise geometry but capture richer rough shape and semantic information, effectively combining the expressiveness of implicit representations with the structural priors of explicit ones. In addition, informed by shared design choices in prior work, we develop a streamlined, efficient 3DGS-based rendering pipeline that is deliberately kept lightweight, improving efficiency while leaving greater representational capacity to the front-end latent module. Extensive evaluations on RLBench, ManiSkill2, and a real-robot platform demonstrate consistent gains in task success, sample efficiency, and robustness to viewpoint and scene variations over strong baselines. Ablation studies further confirm that each component of our framework is critical to overall performance.",
+  "title_relatable": "Teaching robots to see by learning efficient 3D representations",
+  "hook": "A hybrid visual encoding method combines the flexibility of implicit neural fields with the geometric clarity of explicit primitives, boosting robotic manipulation success rates across simulation and real hardware.",
+  "summary": "Current 3D perception systems for robot manipulation force a choice: implicit representations are expressive but lack clear structure, while explicit ones preserve geometry but hit resolution walls. This work proposes structural latent points—a hybrid approach that learns compact geometric summaries by inserting a variational autoencoder into a point-cloud model, capturing coarse shape and semantic cues without encoding precise geometry. Tested on RLBench, ManiSkill2, and real robots, the method improves task success, sample efficiency, and robustness to viewpoint changes compared to existing baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1028,
+  "tokens_out": 208,
+  "cost_usd": 0.0016544,
+  "ingested_at": "2026-05-22T00:14:59.460492+00:00"
+}

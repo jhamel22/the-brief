@@ -1,0 +1,24 @@
+{
+  "id": "2605.21477",
+  "arxiv_url": "https://arxiv.org/abs/2605.21477",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Opening the Window of Ultra-Light PBHs by Exorcising the Poltergeist",
+  "authors": "Yann Gouttenoire, Nicholas Leister, Pedro Schwaller",
+  "abstract": "The hot Big Bang may have emerged from evaporation of primordial black holes (PBHs) lighter than $10^9$g. Standard monochromatic treatments predict nearly simultaneous evaporation, abrupt reheating, and a large Poltergeist scalar-induced gravitational wave signal. We confront this expectation with the irreducible collapse mass tail predicted by general relativity, $df_{\\rm PBH}/d\\ln M\\propto M^{3.78}$, which smooths reheating, suppresses the signal by orders of magnitude, and reopens the ultra-light PBH window.",
+  "title_relatable": "A mass distribution trick clears the path for ultralight primordial black holes",
+  "hook": "A gravitational-wave signal thought to rule out ultralight primordial black holes nearly vanishes once you account for their real mass spread.",
+  "summary": "Primordial black holes lighter than a billion grams could have reheated the early universe, but a predicted gravitational-wave 'Poltergeist' signal seemed to rule this out. Accounting for the inevitable spread in black hole masses — a tail predicted by general relativity itself — smooths out the reheating process and suppresses that signal by orders of magnitude. The ultralight PBH window, long thought closed, is open again.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 852,
+  "tokens_out": 178,
+  "cost_usd": 0.005226,
+  "ingested_at": "2026-05-21T23:44:27.529895+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.20570",
+  "arxiv_url": "https://arxiv.org/abs/2605.20570",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "ModMax-black hole surrounded by cloud of strings in Bumblebee gravity",
+  "authors": "Fernando M. Belchior, Allan R. P. Moreira, Abdelmalek Bouzenada, Faizuddin Ahmed",
+  "abstract": "In this article, we investigate the optical, thermodynamic, and scattering properties of a ModMax black hole surrounded by a cloud of strings within the framework of Einstein-bumblebee gravity. We then analyze in detail the thermodynamic properties of this black hole, including the Hawking temperature, entropy, and other relevant thermodynamic quantities, and examine the outcomes. Furthermore, we study the greybody factors (GFs) associated with the emission of various perturbative fields propagating in this black hole background. In particular, we consider spin-0 scalar fields, spin-1 electromagnetic fields, and spin-2 graviton fields, and evaluate the corresponding absorption probabilities and energy emission rates. Our analysis demonstrates how the optical features, thermodynamics and GFs depend on the underlying parameters of the system, such as the Lorentz symmetry violation parameter, the cloud of strings parameter, the ModMax parameter, the electric charge, and the black hole mass, thereby providing a comprehensive understanding of the physical effects of these parameters on the radiation and scattering processes around the black hole.",
+  "title_relatable": "How many exotic tweaks can one black hole solution handle?",
+  "hook": "A black hole model stacks three exotic modifications at once — and checks whether anything physically interesting survives.",
+  "summary": "Combining modified Maxwell electrodynamics, a cosmic string cloud, and Lorentz-symmetry-violating 'bumblebee' gravity into a single black hole solution, the authors map out how each extra parameter shifts the Hawking temperature, entropy, and the probability that radiation escapes the black hole. The more parameters added, the more tunable the greybody factors become — but no single effect dominates cleanly. For anyone outside the field, this is largely a bookkeeping exercise: useful as a reference if any of these modifications are ever constrained by observation, but not delivering a surprise on its own.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 951,
+  "tokens_out": 201,
+  "cost_usd": 0.005868,
+  "ingested_at": "2026-05-21T23:46:27.818940+00:00"
+}

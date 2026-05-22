@@ -1,0 +1,23 @@
+{
+  "id": "2605.21282",
+  "arxiv_url": "https://arxiv.org/abs/2605.21282",
+  "announced_date": "2026-05-20",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "\\textit{Stochastic} MeanFlow Policies: One-Step Generative Control with Entropic Mirror Descent",
+  "authors": "Zeyuan Wang, Da Li, Yulin Chen, Yuehu Gong, Yanming Guo, Ye Shi, Liang Bai, Tianyuan Yu, Yanwei Fu",
+  "abstract": "Online off-policy reinforcement learning (RL) is shaped by two coupled choices: the policy class and the update rule. Gaussian policies are fast and have tractable entropy, but struggle with multimodal action distributions. Generative policies are more expressive, but often require iterative sampling or lack tractable entropy estimates. On the optimisation side, SAC-style soft policy improvement and mirror descent (MD) can be viewed as minimising different KL divergences: the former moves the policy towards a value-induced Boltzmann distribution, while the latter regularises each update against the previous policy. Combining entropy regularisation with an MD constraint is therefore attractive, as it supports exploration while stabilising policy improvement; however, the resulting target can be multimodal and is poorly matched by unimodal Gaussian policies. We propose Stochastic MeanFlow Policies (SMFP), a one-step generative policy class that maps Gaussian noise to actions through a MeanFlow transformation. This stochastic reparameterisation yields a tractable entropy surrogate and allows MeanFlow policies to be trained within off-policy mirror descent under a unified objective for exploratory yet stable improvement. Across seven MuJoCo benchmarks, SMFP improves over Gaussian and generative baselines while retaining single-step inference efficiency.",
+  "title_relatable": "Generative policies that learn multimodal actions in one step",
+  "hook": "New policy class combines generative expressiveness with single-step inference, improving over Gaussian and diffusion baselines on MuJoCo tasks.",
+  "summary": "Standard RL policies face a tradeoff: Gaussian policies are fast but struggle with multimodal action distributions, while generative policies handle complex behaviors but require iterative sampling. This work proposes Stochastic MeanFlow Policies (SMFP), which use a learned transformation of Gaussian noise to generate expressive, multimodal actions—retaining tractable entropy and one-step efficiency. Trained via mirror descent with entropy regularization, SMFP improves performance over both conventional and generative baselines across seven MuJoCo benchmarks while maintaining fast inference.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1007,
+  "tokens_out": 210,
+  "cost_usd": 0.0016455999999999999,
+  "ingested_at": "2026-05-22T00:00:29.709259+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.21454",
+  "arxiv_url": "https://arxiv.org/abs/2605.21454",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "q-bio.QM",
+    "q-bio.TO"
+  ],
+  "title_original": "ProtoPathway: Biologically Structured Prototype-Pathway Fusion for Multimodal Cancer Survival Prediction",
+  "authors": "Amaya Gallagher-Syed, Costantino Pitzalis, Myles J. Lewis, Michael R. Barnes, Gregory Slabaugh",
+  "abstract": "We introduce ProtoPathway, an interpretable-by-design multimodal framework for cancer survival prediction that unifies whole slide imaging and transcriptomics through encoders producing biologically grounded representations on both sides of the fusion. On the histopathology side, $K$ learnable morphological prototypes, trained end-to-end with the survival objective, serve as the slide representation itself: patches flow into prototype tokens via soft assignment, compressing variable-length patch sets into fixed task-adaptive tokens. On the genomic side, a bipartite graph neural network encodes gene expression within the Reactome pathway hierarchy, producing pathway embeddings that reflect both constituent genes and their broader biological context through bidirectional message passing over a shared gene--pathway graph. Cross-modal attention then operates over a compact prototype $\\times$ pathway matrix in which prototypes query pathways, modeling the biological direction in which molecular programs give rise to tissue morphology. Because both axes carry stable task-learned identity, the attention matrix is itself an interpretability output, yielding native inference-time attribution across the full biological hierarchy, from genes through pathways and prototypes to spatial tissue maps. We evaluate on five TCGA cancer cohorts, demonstrating competitive or superior survival prediction with substantially improved biological interpretability and reduced computational cost, with interpretability claims validated through fold-stratified rank-based population-level analysis. Our source code, model weights, and Reactome pathways, together with a unified codebase reimplementing all multimodal survival baselines under identical preprocessing and evaluation, are available at: https://github.com/AmayaGS/ProtoPathway.",
+  "title_relatable": "Predicting cancer survival by connecting tissue patterns to genes",
+  "hook": "A new framework fuses pathology images and gene expression data to predict survival while explaining which biological pathways matter most—with released code and weights.",
+  "summary": "ProtoPathway combines whole-slide histopathology images and gene expression data to predict cancer survival with built-in biological interpretability. On the imaging side, learnable morphological prototypes compress variable-length tissue patches into fixed representations; on the genomics side, a graph network encodes genes within their known biological pathways (Reactome). Cross-modal attention connects the two, revealing which tissue patterns correlate with which molecular programs. Tested on five TCGA cancer cohorts, it matches or beats existing methods while cutting computation and providing interpretable pathway-level attribution from genes to tissue.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1056,
+  "tokens_out": 207,
+  "cost_usd": 0.0016728000000000001,
+  "ingested_at": "2026-05-22T00:11:47.253086+00:00"
+}

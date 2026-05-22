@@ -1,0 +1,25 @@
+{
+  "id": "2605.21281",
+  "arxiv_url": "https://arxiv.org/abs/2605.21281",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "gr-qc"
+  ],
+  "title_original": "Self-Consistent Parker Bound on Magnetic Monopoles",
+  "authors": "Chen Zhang, Chun-Yan Jiang, Nayun Jia, Xin Zhang",
+  "abstract": "Magnetic monopoles arise generically in unified theories and offer a natural explanation of charge quantization. Beyond collider searches and cosmic-ray experiments, their flux is constrained by Parker-type bounds requiring galactic magnetic fields to survive monopole energy extraction. We formulate a self-consistent Parker bound anchored in the lowest eigenmode of the galactic mean-field dynamo and convert the resulting limit to the present flux. Small-scale turbulent fields both seed this eigenmode and set the monopole velocity via stochastic acceleration before energy extraction from the coherent field. These unavoidable effects substantially modify the standard extended Parker bound at low and intermediate masses, yielding flux limits robust to primordial magnetic fields (PMFs); PMFs strong enough to alter them lie in regimes constrained by Ly$α$ data or testable by 21-cm and cosmological probes.",
+  "title_relatable": "The galaxy's magnetic field sets a stricter limit on monopoles",
+  "hook": "A self-consistent treatment of galactic dynamo physics tightens the classic monopole flux bound at low and intermediate masses.",
+  "summary": "Magnetic monopoles would drain energy from the Milky Way's magnetic field as they pass through it — and the field's survival constrains how many monopoles can exist. By anchoring the calculation in the actual lowest eigenmode of the galactic dynamo and accounting for turbulent fields that both seed that mode and accelerate monopoles before they hit the coherent field, the authors substantially revise the standard extended Parker bound. The result is more internally consistent and more robust to assumptions about primordial magnetic fields, which are either already ruled out by Lyman-alpha data or testable by 21-cm surveys.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 894,
+  "tokens_out": 204,
+  "cost_usd": 0.005742,
+  "ingested_at": "2026-05-21T23:45:00.208170+00:00"
+}

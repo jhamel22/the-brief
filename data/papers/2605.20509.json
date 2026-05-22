@@ -1,0 +1,24 @@
+{
+  "id": "2605.20509",
+  "arxiv_url": "https://arxiv.org/abs/2605.20509",
+  "announced_date": "2026-05-19",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "The Causal Bootstrap: Bounding Smeared Spectral Functions from Non-Perturbative Euclidean Data",
+  "authors": "Ryan Abbott, Sarah Fields, William I. Jay, Patrick Oare, Matteo Saccardi",
+  "abstract": "This work introduces the causal bootstrap, a framework for bounding smeared spectral observables from finite non-perturbative Euclidean data. The method optimizes over the convex set of positive spectral densities compatible with the data to compute rigorous upper and lower bounds on the target observable. Statistical uncertainties, including correlations, are incorporated through compatibility regions using the covariance matrix. The bounds are equivalent, via Lagrange duality, to certified bounds on the target smearing kernel. For polynomial, rational, and piecewise rational kernels, the resulting dual problems can be reduced to finite-dimensional semidefinite programs using techniques familiar, e.g., in the numerical conformal bootstrap. The present formulation clarifies the relation to moment problems, Nevanlinna--Pick interpolation, and linear kernel-reconstruction methods. Numerical examples demonstrate the method.",
+  "title_relatable": "Computing spectral properties from Euclidean data without assumptions",
+  "hook": "A new bootstrap technique extracts physical spectral information from lattice calculations, with rigorous error bounds and no model assumptions needed.",
+  "summary": "Spectral functions encode the real-world dynamics of quantum fields, but extracting them from numerical simulations requires assumptions that can bias results. This work develops a method to compute guaranteed upper and lower bounds on spectral observables directly from Euclidean lattice data, optimizing over all possible spectral densities consistent with the measurements. The approach converts the problem into a semidefinite program—standard optimization that doesn't require guessing the spectral shape.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 906,
+  "tokens_out": 175,
+  "cost_usd": 0.0014248000000000002,
+  "ingested_at": "2026-05-21T23:48:04.452463+00:00"
+}

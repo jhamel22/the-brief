@@ -1,0 +1,23 @@
+{
+  "id": "2605.21452",
+  "arxiv_url": "https://arxiv.org/abs/2605.21452",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Sensitivity of the FCC-ee to axion-like particles at different center-of-mass energies",
+  "authors": "Juliette Alimena, Elnura Bakhishova, Freya Blekman, Jannah Darwish Abdelhafiz, Christina Dorofeev, Jeremi Niedziela, Giacomo Polesello, Anna Przybyl, Lovisa Rygaard",
+  "abstract": "The sensitivity of the proposed FCC-ee collider to axion-like particles (ALPs) is investigated at all planned center-of-mass energies, with focus on the case where the ALP couples primarily to electroweak gauge bosons at leading order. We study the associated production of the ALP with a photon, with the ALP decaying in turn to two photons, yielding a three-photon final state. The ALP coupling to the photon is evaluated for ALP masses of 5 to 320 GeV. In this effective model, the FCC-ee will be able to detect ALPs for couplings down to a few $10^{-6} \\mathrm{GeV}^{-1}$ ($10^{-5} \\mathrm{GeV}^{-1}$) during the Z pole run (WW, ZH, and $t\\bar{t}$ threshold runs). Additionally, this final state has the potential to probe the underlying electroweak structure of ALP couplings for ALP masses below the $Z$-boson mass.",
+  "title_relatable": "Can a next-generation collider catch axion-like particles?",
+  "hook": "The FCC-ee could detect axion-like particles with record sensitivity across multiple energies, potentially revealing hidden particles coupling to electroweak forces.",
+  "summary": "Researchers modeled how the proposed FCC-ee collider would hunt for axion-like particles (ALPs)—hypothetical particles that could explain dark matter or other mysteries—by looking for a three-photon signal from ALP production. The detector would reach sensitivity to ALP-photon couplings of 10^-6 GeV^-1 or better across different collision energies, beating current limits by orders of magnitude. This directly tests whether new particles hide in the electroweak sector that the Large Hadron Collider might miss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1014,
+  "tokens_out": 206,
+  "cost_usd": 0.0016352,
+  "ingested_at": "2026-05-21T23:52:04.917325+00:00"
+}

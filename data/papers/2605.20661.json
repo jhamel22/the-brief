@@ -1,0 +1,26 @@
+{
+  "id": "2605.20661",
+  "arxiv_url": "https://arxiv.org/abs/2605.20661",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.str-el",
+    "hep-ph",
+    "hep-th",
+    "nucl-th"
+  ],
+  "title_original": "Entangling Power: A Probe of Symmetry and Integrability in Quantum Many-Body Systems",
+  "authors": "Ian Low, Pallab Goswami",
+  "abstract": "The entangling power of a unitary operator quantifies its ability to generate entanglement from product states and provides a natural probe of quantum many-body dynamics. Entanglement extremization at points of enhanced symmetry has previously been observed in high-energy scattering. In this work we compute the time-averaged entangling power of anisotropic Heisenberg spin chains across two-site models and finite-size systems, as well as the entangling power of the two-magnon $S$-matrix in the thermodynamic limit. For two-site models we establish a monotonic hierarchy: the entangling power decreases as the symmetry group grows, reaching its minimum at the $SU(2)$ XXX point. Finite-size XXZ chains exhibit sharp dips at the $SU(2)$ points $Δ=\\pm 1$ and the free-fermion point $Δ=0$, with the free-fermion dip decaying much more slowly with system size. In the thermodynamic limit, we decompose the two-magnon $S$-matrix into quantum logic gates -- Identity, SWAP, and $σ_z\\otimesσ_z$ -- and show that the entangling power vanishes for all scattering energies at the $SU(2)$ points, where the $S$-matrix reduces to the Identity gate, while the free-fermion point achieves the maximum -- the opposite of the finite-size many-body behavior. The entangling power can serve as an {\\em operator} diagnostic for symmetry and selected aspects of integrability in quantum simulations of spin-chain dynamics.",
+  "title_relatable": "How symmetry silences entanglement in quantum spin chains",
+  "hook": "A new diagnostic reveals that enhanced symmetries—the hallmark of integrable systems—paradoxically suppress a quantum operator's ability to generate entanglement.",
+  "summary": "Entangling power measures how well a quantum operation scrambles information. The authors computed this quantity across Heisenberg spin chains and found it systematically decreases at points of higher symmetry, bottoming out at the maximally symmetric XXX point. This behavior flips in the thermodynamic limit, where free-fermion points generate maximum entanglement while symmetric points produce none—suggesting entangling power could serve as a direct probe of integrability in quantum simulators.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1075,
+  "tokens_out": 186,
+  "cost_usd": 0.001604,
+  "ingested_at": "2026-05-21T23:47:53.710270+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.21330",
+  "arxiv_url": "https://arxiv.org/abs/2605.21330",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer",
+  "authors": "Senlan Yao, Chenyu Yang, Jaehoon Kim, Aristotelis Sympetheros, Robert K. Katzschmann",
+  "abstract": "In-hand object manipulation is a fundamental yet challenging capability for dexterous robots. Despite significant progress in dexterous manipulation, existing approaches rely heavily on vision or tactile sensing to track object states, while joint sensing -- the most readily available modality on any robotic hand -- remains largely overlooked, particularly for tendon-driven hands. In this paper, we study how far joint sensing alone can go by asking: (i) whether motor encoders or direct joint sensing provides better proprioceptive feedback, (ii) how to extract environment information from joint measurements, and (iii) whether joint-only control can achieve competitive real-world performance without external perception. We present the Proprioceptive Transformer (PT), an exteroceptive-free approach for continuous cube rotation on a tendon-driven dexterous hand that uses only joint sensing feedback. A teacher policy is first trained via reinforcement learning with privileged object information, then distilled into PT, which operates solely on joint position and velocity histories. The Transformer architecture effectively extracts implicit object state information from temporal patterns in joint sensor readings. Experiments on the real ORCA hand show that our approach achieves 3.1x higher rotation speed than baselines. We also demonstrate that our PT achieves a 23.4% lower RMSE for cube position estimation than the MLP baseline, indicating superior extraction of exteroceptive information from proprioceptive sources.",
+  "title_relatable": "Can a robot hand feel what it's holding just by listening to its own joints?",
+  "hook": "A dexterous robot hand controlled by joint sensors alone—no vision, no touch—rotates objects 3.1× faster than baseline methods.",
+  "summary": "In-hand manipulation typically requires vision or tactile sensors to track what the robot is doing. This work shows that joint encoders alone—the simplest, cheapest sensors already on any robotic hand—can work nearly as well. Researchers trained a Transformer to extract object state from the temporal patterns of joint position and velocity readings on a tendon-driven hand, then tested it on real hardware rotating a cube. The approach achieved 3.1× faster rotation speed than baselines and estimated object position 23% more accurately than simpler neural networks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1001,
+  "tokens_out": 204,
+  "cost_usd": 0.0016168000000000003,
+  "ingested_at": "2026-05-22T00:14:56.662495+00:00"
+}

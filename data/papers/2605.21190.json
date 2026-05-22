@@ -1,0 +1,22 @@
+{
+  "id": "2605.21190",
+  "arxiv_url": "https://arxiv.org/abs/2605.21190",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Semantic Granularity Navigation in Image Editing",
+  "authors": "Liangsi Lu, Minzhe Guo, Xuhang Chen, Yang Shi",
+  "abstract": "Despite the generative capabilities of diffusion and flow models, real-image editing remains constrained by a persistent trade-off between semantic editability and structural fidelity. We trace a primary cause of this limitation to the implicit coupling of edit progress with model scale in existing paradigms. Under this coupling, stronger edits typically require visiting noisier states, which spends computation on destabilizing layout before the semantic change is well localized. We introduce NaviEdit, a training-free inference-time controller that decouples edit progress from model scale traversal through a strict self-consistency contract. NaviEdit operates at the rollout level and leaves the underlying pretrained model unchanged. It treats scale as a control input and reallocates a fixed step budget toward semantically responsive intermediate scales instead of destructive high-noise regimes. Experiments show positive average gains across compatible editors and flow backbones, supporting decoupling as a portable inference-time control principle.",
+  "title_relatable": "Editing images without destroying what you want to keep",
+  "hook": "A new controller lets you edit image semantics without scrambling the layout—by spending computation where it matters most instead of on destructive noise.",
+  "summary": "Image editing with diffusion models forces a painful choice: push harder for the semantic change you want, and the image's structure falls apart. The culprit is that edit strength is locked to how noisy the intermediate states get. NaviEdit decouples these by reallocating computation toward the scales where semantic changes actually happen, skipping the wasteful high-noise destruction phase. It's training-free, works on top of existing editors, and shows consistent gains across different models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 874,
+  "tokens_out": 180,
+  "cost_usd": 0.0014192,
+  "ingested_at": "2026-05-22T00:13:15.496512+00:00"
+}
