@@ -54,13 +54,4 @@ clean:
 
 # Show estimated monthly cost based on data/ directory
 cost:
-	@/usr/bin/python3 -c "\
-import json, os, glob; \
-files = glob.glob('data/papers/*.json'); \
-total = sum(json.load(open(f)).get('cost_usd', 0) for f in files); \
-n = len(files); \
-print(f'{n} papers ingested'); \
-print(f'Total spent: \$\${{total:.4f}}'); \
-print(f'Avg per paper: \$\${{total/n:.5f}}' if n else ''); \
-daily = total/max(1, len(set(json.load(open(f)).get(\"announced_date\",\"\") for f in files))); \
-print(f'Est. monthly: \$\${{daily*30:.2f}}')"
+	@/usr/bin/python3 scripts/cost.py
