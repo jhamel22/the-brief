@@ -1,0 +1,24 @@
+{
+  "id": "2605.22724",
+  "arxiv_url": "https://arxiv.org/abs/2605.22724",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "math.NA",
+    "stat.ML"
+  ],
+  "title_original": "Multiple Neural Operators Achieve Near-Optimal Rates for Multi-Task Learning",
+  "authors": "Adrien Weihs, Hayden Schaeffer",
+  "abstract": "We study the approximation and statistical complexity of learning collections of operators in a shared multi-task setting, with a focus on the Multiple Neural Operators (MNO) architecture. For broad classes of Lipschitz multiple operator maps, we derive near-optimal upper bounds for approximation and statistical generalization. On the lower-bound side, we establish a curse of parametric complexity and prove corresponding minimax rates. Together, these results show that shared representations across tasks do not increase the overall cost: multi-task operator learning follows the same scaling laws as single operator learning. We also compare MNO with a multi-task extension of DeepONet based on concatenated task inputs and show that, from a worst-case approximation-complexity perspective, both architectures satisfy essentially the same asymptotic rates.",
+  "title_relatable": "Why learning multiple tasks together doesn't cost extra",
+  "hook": "Multi-task neural operators achieve near-optimal statistical rates, proving shared representations scale as efficiently as learning tasks separately.",
+  "summary": "Learning multiple related operators (functions) simultaneously can leverage shared structure without sacrificing efficiency. The authors prove that Multiple Neural Operators achieve near-optimal approximation and generalization bounds for Lipschitz operator maps—matching single-task learning complexity despite the added multi-task burden. They also show DeepONet variants perform equivalently, establishing that task sharing doesn't incur hidden costs in worst-case scaling.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 839,
+  "tokens_out": 158,
+  "cost_usd": 0.0013032,
+  "ingested_at": "2026-05-23T00:46:06.649003+00:00"
+}

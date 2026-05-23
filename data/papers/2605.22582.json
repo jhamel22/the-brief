@@ -1,0 +1,24 @@
+{
+  "id": "2605.22582",
+  "arxiv_url": "https://arxiv.org/abs/2605.22582",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.mes-hall",
+    "cond-mat.supr-con",
+    "quant-ph"
+  ],
+  "title_original": "Quantum Batteries in two-dimensional material-based Josephson Junctions",
+  "authors": "V. Varrica, G. Gemme, F. M. D. Pellegrino, E. Paladino, M. Sassetti, D. Ferraro",
+  "abstract": "We investigate the solid-state implementation of a Dicke-like quantum battery consisting of a two-dimensional material-based Josephson junction inductively coupled to a resonator, using graphene as a representative example. In this configuration, Andreev bound states naturally act as non-interacting, energetically non-degenerate two-level systems, and the setup allows for both single-photon and two-photon resonant processes. The coupling between the LC-circuit flux and the supercurrent through the junction gives rise to peculiar longitudinal interaction terms that have no counterpart in the conventional Dicke model. These additional couplings can enhance energy storage for a proper range of parameters. The proposed architecture also enables an alternative, but equivalent, charging protocol that relies on tuning the superconducting phase difference across the junction.",
+  "title_relatable": "Graphene-based Josephson junctions could make better quantum batteries",
+  "hook": "Andreev bound states in graphene act as natural two-level cells that store more energy than standard quantum battery designs.",
+  "summary": "A graphene Josephson junction coupled to a microwave resonator can function as a quantum battery, with Andreev bound states playing the role of individual charge cells. The unusual physics of the junction adds interaction terms absent in standard models, and these extra couplings boost energy storage across a useful range of parameters. Charging can also be controlled simply by tuning the superconducting phase difference — a knob already available in most superconducting circuits.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 905,
+  "tokens_out": 172,
+  "cost_usd": 0.005295,
+  "ingested_at": "2026-05-23T00:21:01.378189+00:00"
+}

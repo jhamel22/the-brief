@@ -1,0 +1,24 @@
+{
+  "id": "2605.22685",
+  "arxiv_url": "https://arxiv.org/abs/2605.22685",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Dwarf Galaxy Constraints on Interacting Fermionic Dark Matter",
+  "authors": "Bihag Dave, Raghuveer Garani",
+  "abstract": "Dwarf galaxies in the Local Group offer a way to test dark matter (DM) models against stellar kinematic data. In this work, we study degenerate fermionic DM in two cases: the standard non-interacting Fermi gas, and an interacting degenerate DM fluid described by a phenomenological equation of state motivated by interacting Fermi systems. These interactions modify the compressibility of the DM fluid and, in some regions of parameter space, lead to mechanically unstable branches that must be treated through a Maxwell construction. We solve the corresponding non-relativistic hydrostatic equations consistently and compute the line-of-sight velocity-dispersion profiles using the spherical Jeans equation. We then perform MCMC fits to eight classical Milky Way dwarf spheroidal galaxies. The data favor DM fermion masses in the range $100$--$300\\,{\\rm eV}$. We find that the interacting and non-interacting equations of state give broadly similar posterior distributions for the fermion mass, central density, and stellar anisotropy. Current data therefore do not strongly prefer an interacting equation of state over the free degenerate Fermi-gas, thereby excluding large deviations from the non-interacting limit.",
+  "title_relatable": "Do dwarf galaxies reveal forces acting on dark matter?",
+  "hook": "Stellar motions in eight nearby dwarf galaxies constrain fermionic dark matter to 100–300 eV, with no sign of exotic interactions.",
+  "summary": "Dwarf galaxies move too slowly to be held together by visible matter alone—their dynamics reveal dark matter's properties. This work tested whether dark matter fermions interact with each other by fitting models to velocity data from eight Local Group dwarfs. Both interacting and non-interacting fermionic models fit equally well, suggesting any interactions are too weak to detect with current observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 979,
+  "tokens_out": 166,
+  "cost_usd": 0.0014472,
+  "ingested_at": "2026-05-23T00:22:16.771740+00:00"
+}

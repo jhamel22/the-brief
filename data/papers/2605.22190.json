@@ -1,0 +1,22 @@
+{
+  "id": "2605.22190",
+  "arxiv_url": "https://arxiv.org/abs/2605.22190",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "No Pose, No Problem in 4D: Feed-Forward Dynamic Gaussians from Unposed Multi-View Videos",
+  "authors": "Matteo Balice, Yanik Kunzi, Chenyangguang Zhang, Matteo Matteucci, Marc Pollefeys, Sungwhan Hong",
+  "abstract": "Recent feed-forward 3D gaussian splatting methods have made dramatic progress on individual aspects of 3D scene reconstruction, but no existing method jointly addresses dynamic content, multi-view input, and unknown camera poses in a single feed-forward pass. Methods that handle dynamics either require accurate camera poses or accept only monocular input; pose-free multi-view methods address only static scenes; and per-scene optimization methods bridge some of these gaps but at minutes-to-hours cost per scene. We introduce NoPo4D, the first feed-forward system that addresses this empty quadrant. Building on a pretrained geometry backbone and recent 4D Gaussian frameworks, NoPo4D introduces a velocity decomposition that splits Gaussian motion into per-pixel image-plane shifts and depth changes, allowing direct supervision from pseudo ground-truth optical flow on the 2D component. This sidesteps both the differentiable rendering that couples prior posed methods to pose accuracy and the 3D motion ground truth that prior pose-free methods require. The system is rounded out by a bidirectional motion encoder for cross-view and cross-frame feature aggregation, and view-dependent opacity that mitigates cross-view and cross-timestep Gaussian misalignments. On four multi-view dynamic benchmarks, NoPo4D consistently outperforms prior feed-forward baselines, and with an optional post-optimization stage surpasses per-scene optimization methods, while running orders of magnitude faster.",
+  "title_relatable": "Reconstructing moving scenes from video without knowing camera angles",
+  "hook": "A feed-forward system reconstructs dynamic 3D scenes from multi-view video without requiring known camera poses—orders of magnitude faster than per-scene optimization.",
+  "summary": "NoPo4D solves a gap in 3D scene reconstruction: prior methods handle dynamics with known poses, multi-view with static scenes, or require expensive per-scene optimization. This feed-forward approach splits Gaussian motion into 2D image shifts and depth changes, enabling direct supervision from optical flow rather than 3D motion ground truth, plus bidirectional cross-view feature blending. On four benchmarks, it outperforms feed-forward baselines and matches optimization methods while running much faster.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1022,
+  "tokens_out": 192,
+  "cost_usd": 0.0015856,
+  "ingested_at": "2026-05-23T00:39:40.773709+00:00"
+}

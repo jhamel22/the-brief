@@ -1,0 +1,23 @@
+{
+  "id": "2605.22507",
+  "arxiv_url": "https://arxiv.org/abs/2605.22507",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Generative Modeling by Value-Driven Transport",
+  "authors": "Pablo Moreno-Muñoz, Adrian Müller, Gergely Neu",
+  "abstract": "We propose a new framework for generative modeling based on a discrete-time stochastic control formulation of measure transport. Adapting classic results from control theory, we formulate our problem as a linear program whose dual variables correspond to the \\emph{optimal value function} of the control problem, which directly encodes the optimal control policy. Exploiting this LP formulation, we develop an efficient simulation-free primal-dual algorithm for computing approximately optimal value functions and the associated \\emph{value-driven transport} (VDT) policies which approximate the true optimal policy. We show that well-trained VDT policies enjoy numerous favorable properties in comparison with other state-of-the-art methods based on flows, diffusions, or Schrödinger bridges: they lead to straight transport paths which can be simulated quickly and robustly, and can be enhanced in all the same ways as diffusion and flow-based models (e.g., conditional generation, classifier-free guidance, unpaired data-to-data translation are all easy to incorporate). We evaluate our methodology in a range of experiments, with results that indicate strong performance and good potential for scalability.",
+  "title_relatable": "Moving data points along straight paths instead of curves",
+  "hook": "A new control-theory approach to generative modeling produces faster, simpler transport paths than diffusion or flow models while keeping all their useful features.",
+  "summary": "Generative models typically move data from noise to realistic samples along curved paths—diffusion models take many steps, flows require specialized architectures. This work reformulates generation as a control problem solvable via linear programming, yielding value-driven transport (VDT) policies that move data in straight lines. The method is faster to run, naturally handles conditioning and guidance techniques from diffusion models, and shows competitive performance across standard benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 919,
+  "tokens_out": 171,
+  "cost_usd": 0.0014192,
+  "ingested_at": "2026-05-23T00:29:30.549686+00:00"
+}

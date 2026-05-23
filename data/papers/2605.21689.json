@@ -1,0 +1,24 @@
+{
+  "id": "2605.21689",
+  "arxiv_url": "https://arxiv.org/abs/2605.21689",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Dissipative stabilization of Ostrogradsky modes in non-equilibrium field theory",
+  "authors": "Y. M. P. Gomes",
+  "abstract": "In this work, we investigate higher-derivative quantum field theories and the problem of Ostrogradsky instability within an open-system Keldysh-Lindblad framework. Coupling the ghost sector to dissipative baths generates non-perturbative effective masses and dissipative widths through self-consistent gap equations. Above a critical coupling, the nonequilibrium dynamics develops bifurcated dissipative branches, signaling the emergence of a dissipative phase transition and a nontrivial critical structure in parameter space. We find that the resulting dissipative dynamics can suppress ghost excitations through two distinct mechanisms: in one branch, a large dynamically generated effective mass preserves a quasiparticle-like excitation, while in the second branch, strong dissipative broadening destroys the quasiparticle character through overdamped dynamics. Our results suggest that dissipative effects may provide a nonequilibrium mechanism for the spectral suppression of Ostrogradsky ghosts. The comparison with the healthy sector indicates that the stabilization mechanism is intrinsically tied to the ghost-like spectral structure.",
+  "title_relatable": "Can coupling to a heat bath tame quantum gravity's ghost problem?",
+  "hook": "Ghosts — the unstable negative-energy modes that plague higher-derivative gravity — may be suppressible by dissipation, not just ignored.",
+  "summary": "Higher-derivative gravity theories generically produce \"ghost\" modes with negative energy that destabilize the vacuum — the Ostrogradsky instability. By coupling those ghost modes to dissipative environments using an open-quantum-systems framework, the analysis finds two mechanisms that suppress ghost excitations: one gives them a large effective mass, the other overdamps them so completely they lose all quasiparticle character. The catch is that this only works because of the ghost's peculiar spectral structure, meaning dissipation alone won't rescue an arbitrary broken theory — but it does open a concrete nonequilibrium route around one of quantum gravity's oldest headaches.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 945,
+  "tokens_out": 220,
+  "cost_usd": 0.006135,
+  "ingested_at": "2026-05-23T00:18:49.882335+00:00"
+}

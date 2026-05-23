@@ -1,0 +1,23 @@
+{
+  "id": "2605.22459",
+  "arxiv_url": "https://arxiv.org/abs/2605.22459",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.chem-ph"
+  ],
+  "title_original": "Reduced Dynamical Maps in Finite Temperature Vibronic Coupling Models via Choi Matrices: Numerical Methods and Applications",
+  "authors": "Raffaele Borrelli, Hideaki Takahashi",
+  "abstract": "We present a streamlined implementation of a computational framework for constructing and analyzing reduced dynamical maps for complex system--bath models at finite temperature. The methodology is based on three established ingredients of quantum dynamics: the Choi--Jamiołkowski isomorphism for the representation of quantum channels, thermofield (TFD) purification of thermal environments, and tensor-train (TT) propagation of the resulting enlarged pure state. The reduced map is obtained from a single unitary propagation in a thermofield-doubled Hilbert space and represented in matrix form through the Choi--Jamiołkowski isomorphism. The TFD evolution is implemented in the TT representation, enabling efficient propagation of high-dimensional purified thermal states. We illustrate the methodology for exciton transfer in the Fenna--Matthews--Olson complex with site-dependent structured spectral densities represented by discretized bosonic environments. The resulting maps are used to analyze decoherence, relaxation, and finite-memory effects, and to assess the crossover to an effectively time-local description. The proposed approach provides a route to compute reduced propagators and to post-process them into memory kernels, transfer tensors, and effective kinetic rate descriptions for complex molecular systems.",
+  "title_relatable": "Mapping quantum decoherence in photosynthesis at finite temperature",
+  "hook": "A single simulation now yields the full quantum rulebook for how photosynthetic complexes lose coherence and transfer energy.",
+  "summary": "By combining three existing quantum tools — a way to represent quantum channels as matrices, a trick for turning thermal noise into pure quantum states, and a tensor-network propagator — the authors built an efficient pipeline that extracts the complete dynamical map of a quantum system interacting with its environment. Tested on the Fenna-Matthews-Olson photosynthetic complex, the approach produces memory kernels and effective rate equations from one calculation rather than many. This gives researchers a practical shortcut to understanding how biological and molecular quantum systems lose their quantum character at realistic temperatures.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 988,
+  "tokens_out": 194,
+  "cost_usd": 0.005874,
+  "ingested_at": "2026-05-23T00:21:39.620240+00:00"
+}

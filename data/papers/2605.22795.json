@@ -1,0 +1,25 @@
+{
+  "id": "2605.22795",
+  "arxiv_url": "https://arxiv.org/abs/2605.22795",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.LG",
+    "math.ST"
+  ],
+  "title_original": "Finite-Particle Convergence Rates for Conservative and Non-Conservative Drifting Models",
+  "authors": "Krishnakumar Balasubramanian",
+  "abstract": "We propose and analyze a conservative drifting method for one-step generative modeling. The method replaces the original displacement-based drifting velocity by a kernel density estimator (KDE)-gradient velocity, namely the difference of the kernel-smoothed data score and the kernel-smoothed model score. This velocity is a gradient field, addressing the non-conservatism issue identified for general displacement-based drifting fields. We prove continuous-time finite-particle convergence bounds for the conservative method on $\\R^d$: a joint-entropy identity yields bounds for the empirical Stein drift, the smoothed Fisher discrepancy of the KDE, and the squared center velocity. The main finite-particle correction is a reciprocal-KDE self-interaction term, and we give deterministic and high-probability local-occupancy conditions under which this term is controlled. We keep the quadrature constants explicit and track their possible bandwidth dependence: the root residual-velocity rate $N^{-1/(d+4)}$ holds under an additional $h$-uniform quadrature regularity condition, while a more general growth condition yields the optimized root rate $N^{-(2-β)/(2(d+4-β))}$, where $0\\le β<2$. We also analyze the non-conservative drifting method with Laplace kernel, corresponding to the original displacement-based velocity proposed in~\\cite{deng2026drifting}. For this method, a sharp companion kernel decomposes the velocity into a positive scalar preconditioning of a sharp-score mismatch plus a Laplace scale-mismatch residual, producing an analogous finite-particle rate with an unavoidable residual term. Finally, we explain how the continuous-time residual-velocity bounds translate into one-step generation guarantees through the explicit drift size $η$.",
+  "title_relatable": "Making generative models stable with kernel smoothing",
+  "hook": "A new method fixes the mathematical instability in one-step generative modeling by replacing standard drift calculations with gradient-friendly kernel smoothing—and proves it converges at rate N^{-1/(d+4)}.",
+  "summary": "One-step generative models use drift velocities to transform noise into data, but standard displacement-based approaches aren't mathematically conservative (they don't form gradient fields). This work replaces that velocity with a kernel density estimator that smooths both data and model scores, guaranteeing the result is a valid gradient field. The authors prove finite-particle convergence bounds showing the method scales as N^{-1/(d+4)}, with explicit tracking of how bandwidth and dimension affect performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1082,
+  "tokens_out": 199,
+  "cost_usd": 0.0016615999999999998,
+  "ingested_at": "2026-05-23T00:45:51.923463+00:00"
+}

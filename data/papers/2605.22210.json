@@ -1,0 +1,22 @@
+{
+  "id": "2605.22210",
+  "arxiv_url": "https://arxiv.org/abs/2605.22210",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Constraints on Schwarzschild Black Hole in a Generalized Dehnen-Type $(1,4,γ)$ Dark Matter Halo via the S2 Star Orbit around Sgr A$^\\star$",
+  "authors": "Tursunali Xamidov, Sanjar Shaymatov, Qiang Wu",
+  "abstract": "The distribution of dark matter (DM) halo around supermassive black holes (BHs) may leave observable imprints on stellar dynamics near galactic centers. Motivated by this, we investigate the orbital motion of the S2 star in the spacetime of a recently derived generalized Schwarzschild BH solution embedded in a Dehnen-type $(1,4,γ)$ DM halo, considering it as a possible model for Sgr A$^{\\star}$ at the center of the Milky Way. Unlike previous studies restricted to specific values of the halo parameter $γ$, the present solution describes the fully generalized case with arbitrary $γ$. We derive the corresponding equations of motion and obtain the associated perihelion shift over one orbital period. Using observational data of the S2 star, we constrain the parameters of the Schwarzschild--Dehnen BH-DM system through a Markov Chain Monte Carlo (MCMC) analysis. Our results yield the best-fit values $γ= 1.18^{+1.03}_{-0.81}$ $(1.23^{+1.01}_{-0.85})$, $ρ_s = 0.37^{+0.42}_{-0.29}$ $(0.31^{+0.44}_{-0.26})$, and $r_s = 0.05^{+0.05}_{-0.03}$ $(0.14^{+0.18}_{-0.10})$ for observational data of Do et al.~\\cite{Do19} and Gillessen et al.~\\cite{Gillessen17ApJ}, respectively. We further obtain the corresponding 95\\% confidence upper bounds: $γ< 2.66$ $(2.67)$, $ρ_s < 0.93$ $(0.92)$, and $r_s < 0.16$ $(0.52)$. These results demonstrate that precise stellar orbit measurements can provide meaningful constraints on the DM halo distributions surrounding supermassive BHs and may offer insights into the DM environment of Sgr A$^{\\star}$ at the center of the Milky Way.",
+  "title_relatable": "What does the S2 star's orbit tell us about dark matter near Sgr A*?",
+  "hook": "Tracking a single star's orbit around our galaxy's central black hole constrains how dark matter clusters around it.",
+  "summary": "Using precise measurements of the S2 star's orbit around Sgr A*, the authors constrain the density profile of a dark matter halo surrounding the supermassive black hole, fitting a generalized Dehnen-type model via MCMC analysis. The best-fit halo slope parameter comes out near γ ≈ 1.2, with tight upper bounds on halo density and scale radius. It's a clean demonstration that stellar orbital mechanics — specifically the perihelion shift over one orbit — can probe dark matter distributions that would otherwise be invisible.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1258,
+  "tokens_out": 200,
+  "cost_usd": 0.006774,
+  "ingested_at": "2026-05-23T00:17:33.115021+00:00"
+}

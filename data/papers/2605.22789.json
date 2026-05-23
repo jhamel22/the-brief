@@ -1,0 +1,23 @@
+{
+  "id": "2605.22789",
+  "arxiv_url": "https://arxiv.org/abs/2605.22789",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Primordial black holes in excursion set theory: Formation probabilities, mass functions, and window functions",
+  "authors": "Hayami Iizuka, Daiki Saito, Koki Tokeshi",
+  "abstract": "We study the mass function of primordial black holes (PBHs) within the excursion-set theory, in which the response of the stochastic density contrast to the variation of the coarse-graining scale is described by colored noises. For several window functions often used in the literature, we investigate how this choice affects the formation probability as well as the resultant mass function of PBHs. It is found that the low-mass tail of the mass function differs from the one predicted from Carr's formula. The difference comes from the prevalence of correlated noises, by which degeneracy of the formation probabilities ceases to exist. Nevertheless, Carr's formula still provides a practical estimation in the vicinity of the characteristic mass scale, as long as a smooth window function in Fourier space is used.",
+  "title_relatable": "Does the math behind primordial black hole masses actually hold up?",
+  "hook": "A popular formula for primordial black hole masses breaks down at low masses — but remains useful near the peak.",
+  "summary": "Primordial black holes formed in the early universe are a dark matter candidate, but calculating how many form at each mass depends on subtle choices in the underlying statistics. Using excursion-set theory — a framework that tracks how density fluctuations look at different scales — the authors find that correlated noise changes the predicted low-mass tail of the black hole mass distribution compared to the widely-used Carr formula. The good news: Carr's formula stays reliable near the characteristic mass scale if you use a smooth filter in Fourier space.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 890,
+  "tokens_out": 186,
+  "cost_usd": 0.00546,
+  "ingested_at": "2026-05-23T00:16:17.238124+00:00"
+}

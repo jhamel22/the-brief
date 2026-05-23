@@ -1,0 +1,22 @@
+{
+  "id": "2605.22695",
+  "arxiv_url": "https://arxiv.org/abs/2605.22695",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Improving Viewpoint-Invariance and Temporal Consistency for Action Detection",
+  "authors": "Yannick Porto, Renato Martins, Thomas Chalumeau, Cedric Demonceaux",
+  "abstract": "Viewpoint change invariance and action temporal consistency are critical aspects for the effective deployment of human action detection of untrimmed videos. Existing appearance-based video detection methods often struggle with limited viewpoint diversity during training, while motion-based detection approaches frequently fail to model fine-grained temporal relationships across consecutive motion windows. This paper introduces a novel two-stage action detection approach designed to improve both view-invariance and global temporal coherence properties. In the first stage, we extract motion features from augmented virtual viewpoints, solely used at training. Then, the second stage introduces a new view-invariant, multi-scale temporal encoder based on selective state-space sequence modelling to aggregate information across viewpoints and time scales. Experiments on PKU-MMD and BABEL benchmarks demonstrate that this approach significantly outperforms state-of-the-art methods in all considered splits. Code and trained models are available at: https://icb-vision-ai.github.io/HydraView-TAD",
+  "title_relatable": "Detecting actions from any angle, even when the camera moves",
+  "hook": "New approach combines synthetic viewpoints and temporal modeling to detect human actions in untrimmed video, beating prior methods on PKU-MMD and BABEL benchmarks.",
+  "summary": "Detecting human actions in video fails when the camera angle changes or when temporal details blur together. This method trains on motion features from artificially rotated viewpoints, then uses a state-space temporal encoder to aggregate information across angles and time scales. On PKU-MMD and BABEL datasets, it outperforms existing approaches and the code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 895,
+  "tokens_out": 160,
+  "cost_usd": 0.001356,
+  "ingested_at": "2026-05-23T00:40:03.339615+00:00"
+}

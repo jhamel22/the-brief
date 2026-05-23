@@ -1,0 +1,25 @@
+{
+  "id": "2605.22095",
+  "arxiv_url": "https://arxiv.org/abs/2605.22095",
+  "announced_date": "2026-05-21",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN",
+    "cs.AI",
+    "cs.GT",
+    "cs.HC"
+  ],
+  "title_original": "Not Yet: Humans Outperform LLMs in a Colonel Blotto Tournament",
+  "authors": "Dmitry Dagaev, Egor Ivanov, Petr Parshakov, Alexey Savvateev, Gleb Vasiliev",
+  "abstract": "The emergence of large language models (LLMs) has spurred economists to study how humans and LLMs behave in strategic settings. We organized a series of round-robin tournaments in the Colonel Blotto game. This game attracts game theorists' attention due to high-dimensional action space and the absence of pure strategy Nash equilibria. In the first tournament, more than 200 human participants competed against one another. In the second tournament, several popular LLMs were invited to submit strategies. In the third tournament, we matched the number of LLM strategies to the number submitted by humans. We find that humans more often employ better-calibrated intermediate-level allocation heuristics and outperform the simpler, more stereotyped strategies submitted by LLMs. Strategic sophistication is key to success if and only if the necessary level of reasoning depth is reached, while lower and higher levels of reasoning offer no clear advantage over the primitive strategies. Among humans, field of study weakly predicts success: participants with STEM backgrounds perform better in the first tournament. Surprisingly, humans almost do not adjust their strategies across tournaments with different sets of opponents. This result suggests that humans base their choices primarily on the game's rules rather than on the identity of their opponents, treating LLMs much like human competitors.",
+  "title_relatable": "Why humans still beat AI at strategic games",
+  "hook": "In a competition where resources must be divided across multiple battlefields, humans consistently outmaneuvered popular language models—and didn't even adjust their tactics against AI.",
+  "summary": "Researchers ran three Colonel Blotto tournaments—a game with massive complexity and no single dominant strategy—pitting humans against each other, LLMs against each other, and both against each other. Humans won by deploying mid-level heuristics that balanced sophistication with consistency; LLMs fell back on simpler, repetitive patterns. The striking part: humans treated AI opponents identically to human ones, suggesting they think strategically about rules rather than adapting to specific competitors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 704,
+  "tokens_out": 185,
+  "cost_usd": 0.0013032,
+  "ingested_at": "2026-05-23T00:48:12.336137+00:00"
+}

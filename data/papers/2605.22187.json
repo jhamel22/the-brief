@@ -1,0 +1,22 @@
+{
+  "id": "2605.22187",
+  "arxiv_url": "https://arxiv.org/abs/2605.22187",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Analytical solutions for timelike orbits around Damour-Solodukhin wormholes",
+  "authors": "Shao-Chen Ho, Yo-Chung Ko, Tien Hsieh, Da-Shin Lee",
+  "abstract": "We investigate timelike geodesics around Damour-Solodukhin wormholes, which are Schwarzschild-like geometries characterized by a deformation parameter $λ$ that determines the radius of the throat, $r_{\\rm th}$. The radial potential admits four roots, including the throat radius itself, allowing the throat to merge with other roots and form double, triple, and quartic degeneracies. In particular, triple-root configurations associated with the throat determine the innermost stable circular orbit (ISCO), providing a potential observational distinction from Schwarzschild black holes. Using the Mino-time parametrization, we derive particle trajectories with closed-form analytical solutions in terms of incomplete elliptic integrals for both bound and unbound motion. In particular, we focus on double or triple roots are located at the throat, the azimuthal angle and coordinate time exhibit logarithmic or power-law divergences as the particle approaches the throat. By contrast, trajectories remain regular when the throat corresponds to a simple root, allowing particles to traverse smoothly between the two asymptotically flat regions. We also derive exact homoclinic solutions associated with the throat and compute the corresponding Lyapunov exponent. In addition, inspiral and plunge trajectories through the throat are analyzed. These results provide analytic insights into particle dynamics and possible observational signatures of the wormholes.",
+  "title_relatable": "How would orbits near a wormhole differ from a black hole?",
+  "hook": "Wormhole throats can mimic black hole ISCOs — but leave a distinct gravitational fingerprint.",
+  "summary": "Damour-Solodukhin wormholes look almost like Schwarzschild black holes but have a tunable throat that can merge with orbital turning points, creating exotic degeneracies in particle trajectories. Working out exact analytical solutions, the authors find that near certain throat configurations, orbital times and angles diverge logarithmically or as power laws — a sharp contrast to smooth black-hole plunges. These analytic signatures could, in principle, distinguish wormholes from black holes through gravitational-wave inspiral signals.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1029,
+  "tokens_out": 189,
+  "cost_usd": 0.005922,
+  "ingested_at": "2026-05-23T00:17:38.228596+00:00"
+}

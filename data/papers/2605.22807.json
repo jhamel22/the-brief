@@ -1,0 +1,22 @@
+{
+  "id": "2605.22807",
+  "arxiv_url": "https://arxiv.org/abs/2605.22807",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "How many systems can be dephased before the quantum switch becomes causally definite?",
+  "authors": "Yassine Benhaj, Kuntal Sengupta, Cyril Branciard",
+  "abstract": "Quantum processes with indefinite causal order -- so-called causally nonseparable processes -- can exhibit various advantages over quantum circuits with a fixed or a well-defined causal structure. A natural question is how much nonclassicality is required for a process to display causal nonseparability. Here we address this by investigating how many systems can be dephased (or decohered) before this property vanishes. First, for bipartite processes with open past and future we show that if all systems are dephased, or if only the future system is kept undephased, then the process becomes causally separable. However, if any single system other than the future system remains undephased, then there exist processes that retain causal nonseparability. Next, we demonstrate a similar behaviour in the multipartite case, when restricted to the physically motivated class of quantum circuits with quantum control (QC-QCs). Namely, dephasing all systems or keeping only the future system undephased renders any QC-QC causally separable; while causal nonseparability can persist if any non-future system is left undephased.",
+  "title_relatable": "How much quantum weirdness does the quantum switch actually need?",
+  "hook": "Dephase almost every system in a quantum switch and it still defies classical causal order — but not quite all the way.",
+  "summary": "The quantum switch lets operations happen in a superposition of causal orders, but how much quantum coherence does that actually require? Systematically destroying quantum information (dephasing) in each part of the process, the authors find a sharp threshold: only when every system is dephased, or only the final output is left coherent, does the exotic causal structure collapse into something classically explainable. A single coherent system anywhere else in the circuit is enough to preserve causal indefiniteness, pinpointing exactly where the nonclassicality lives.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 957,
+  "tokens_out": 195,
+  "cost_usd": 0.005796,
+  "ingested_at": "2026-05-23T00:20:11.436724+00:00"
+}

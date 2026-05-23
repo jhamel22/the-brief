@@ -1,0 +1,22 @@
+{
+  "id": "2605.22558",
+  "arxiv_url": "https://arxiv.org/abs/2605.22558",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "GeoWeaver: Grounding Visual Tokens with Geometric Evidence before Scene Reasoning",
+  "authors": "Deshui Miao, Xingsen Huang, Yameng Gu, Xin Li, Haijun Zhang, Ming-Hsuan Yang",
+  "abstract": "Spatio-temporal reasoning in vision-language models requires visual representations that preserve physical geometry rather than merely semantic appearance. Recent multimodal models incorporate geometric information through structural branches, 3D-aware supervision, reasoning-stage fusion, or long-horizon memory. While these approaches demonstrate the importance of geometry for spatial intelligence, they typically treat geometric cues as a shared signal across all visual tokens. We note that this overlooks a finer-grained challenge: different visual tokens require different geometric evidence depending on their spatial roles. To address this limitation, we introduce GeoWeaver, a pre-reasoning geometric grounding framework that treats geometry as a representational prerequisite for spatio-temporal reasoning. GeoWeaver constructs a multi-level geometry bank from a frozen geometry encoder and performs token-adaptive geometric evidence allocation, enabling each visual token to retrieve the most relevant geometric abstractions. The selected evidence is incorporated into visual tokens via a residual grounding operation prior to language modeling, yielding geometry-grounded representations for downstream reasoning. Extensive evaluations on spatial reasoning benchmarks demonstrate that GeoWeaver consistently enhances geometry-aware reasoning while retaining general multimodal capabilities. This indicates that geometric information yields the greatest benefit not as a late-fusion auxiliary signal but as a fundamental prerequisite that shapes the representational foundation on which large language models perform reasoning. All source code and models will be released at https://github.com/yahooo-m/GeoWeaver .",
+  "title_relatable": "Teaching vision models which geometry matters for each pixel",
+  "hook": "Vision-language models need geometry smarter: GeoWeaver gives each visual token the specific geometric cues it needs, improving spatial reasoning benchmarks by treating geometry as foundation, not an add-on.",
+  "summary": "Current vision-language models treat geometric information as a one-size-fits-all signal, but spatial reasoning actually requires different geometric evidence depending on where a pixel sits in the scene. GeoWeaver solves this by matching each visual token to the most relevant geometric abstractions from a learned geometry bank before feeding it to language models. On spatial reasoning benchmarks, this token-adaptive approach outperforms models that bolt geometry on later, suggesting geometric grounding should be foundational rather than auxiliary.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1005,
+  "tokens_out": 193,
+  "cost_usd": 0.001576,
+  "ingested_at": "2026-05-23T00:39:15.716805+00:00"
+}

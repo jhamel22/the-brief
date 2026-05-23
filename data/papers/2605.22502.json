@@ -1,0 +1,23 @@
+{
+  "id": "2605.22502",
+  "arxiv_url": "https://arxiv.org/abs/2605.22502",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
+  "authors": "Simon Dennis, Rivaan Patil, Kevin Shabahang, Hao Guo",
+  "abstract": "Agent orchestration frameworks have proliferated, collectively exceeding 290,000 GitHub stars across LangGraph, CrewAI, Google ADK, OpenAI Agents SDK, Semantic Kernel, Strands, and LlamaIndex. All follow the same pattern: an external orchestrator above the LLM, injecting instructions and routing decisions every turn. Recent work has shown this architecture is dominated for procedural tasks by simply providing the procedure in a frontier model's system prompt [Dennis et al., 2026a], at the cost of consuming the context window, requiring a frontier model for every conversation, and exposing proprietary procedures to third-party providers. Compiling the procedure into the weights of a small fine-tuned model -- creating a subterranean agent -- should resolve all of these concerns, and prior work (SimpleTOD, FireAct, SynTOD, WorkflowLLM, Agent Lumos) has shown the technique works. Yet developer adoption has overwhelmingly favored orchestration. We identify three perceived barriers and address each empirically across travel booking (14 nodes), Zoom support (14 nodes, product-specific knowledge), and insurance claims (55 nodes, 6 decision hubs).",
+  "title_relatable": "Can you teach an AI to follow your workflow instead of managing it constantly?",
+  "hook": "Embedding workflow logic directly into fine-tuned models cuts inference costs by 100× while matching frontier LLM quality on complex tasks.",
+  "summary": "Current AI agent systems use external orchestrators that repeatedly prompt a frontier model—expensive and context-heavy. Instead, the authors embedded complete workflows (like a 55-node insurance claims process) directly into small fine-tuned models' weights. Results: near-frontier quality on travel booking, customer support, and claims processing at a fraction of the cost, with no need to expose procedures to third-party APIs. Code and models are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 176,
+  "cost_usd": 0.001472,
+  "ingested_at": "2026-05-23T00:29:33.899634+00:00"
+}

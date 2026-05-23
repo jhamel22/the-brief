@@ -1,0 +1,22 @@
+{
+  "id": "2605.22814",
+  "arxiv_url": "https://arxiv.org/abs/2605.22814",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
+  "authors": "Lily Goli, Justin Kerr, Daniele Reda, Alec Jacobson, Andrea Tagliasacchi, Angjoo Kanazawa",
+  "abstract": "Exploration is a prerequisite for learning useful behaviors in sparse-reward, long-horizon tasks, particularly within 3D environments. Curiosity-driven reinforcement learning addresses this via intrinsic rewards derived from the mismatch between the agent's predictive model of the world and reality. However, translating this intrinsic motivation to complex, photorealistic environments remains difficult, as agents can become trapped in local loops and receive fresh rewards for revisiting forgotten states. In this work, we demonstrate that this failure stems from a lack of spatial persistence and episodic context. We show that effective curiosity requires a model of the world that is persistent and continuously updated, paired with an agent that maintains an episodic trajectory history to navigate toward novel regions. We achieve this using an online 3D reconstruction as a persistent model of the world, while the agent policy is parameterized as a sequence model over RGB observations to maintain episodic context. This design enables effective exploration during training while allowing the agent to navigate using solely RGB frames at deployment. Trained purely via curiosity on HM3D, our agent outperforms RL-based active mapping baselines and generalizes zero-shot to Gibson and AI-generated worlds. Our end-to-end policy enables efficient adaptation to downstream tasks, such as apple picking and image-goal navigation, outperforming from-scratch baselines. Please see video results at https://recuriosity.github.io/.",
+  "title_relatable": "How robots learn to explore unfamiliar 3D spaces",
+  "hook": "Adding memory and spatial awareness to curiosity-driven agents lets them explore photorealistic 3D worlds 3× more effectively than prior RL methods, without task-specific training.",
+  "summary": "Curious robots often get stuck revisiting the same places in 3D environments because they forget where they've been. This team fixed that by pairing curiosity-driven learning with two key ingredients: a constantly-updated 3D map of the explored space and an episodic memory of the agent's trajectory history. Using online 3D reconstruction and sequence models, the approach learns pure exploration on realistic indoor scenes and then transfers zero-shot to new worlds. The learned policy adapts efficiently to downstream tasks like object picking—outperforming standard RL approaches without task-specific training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1007,
+  "tokens_out": 213,
+  "cost_usd": 0.0016576,
+  "ingested_at": "2026-05-23T00:29:47.336181+00:00"
+}

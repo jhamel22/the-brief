@@ -1,0 +1,24 @@
+{
+  "id": "2605.22525",
+  "arxiv_url": "https://arxiv.org/abs/2605.22525",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.GA",
+    "astro-ph.HE"
+  ],
+  "title_original": "Dynamics of Binary System around a Supermassive Black Hole :Binary Scattering and Eccentric vZLK Oscillations",
+  "authors": "Kei-ichi Maeda, Hirotada Okawa",
+  "abstract": "We study the dynamics of a binary orbiting a supermassive black hole (SMBH), focusing on both binary scattering in unbound orbits and eccentric von Zeipel-Lidov-Kozai (vZLK) oscillations in bound orbits. The motion is described in a local inertial frame in Kerr spacetime, where tidal effects are encoded in the Riemann curvature. For unbound (parabolic and hyperbolic) orbits, we identify four scattering regimes-adiabatic, tidally affected, chaotic, and disruptive-depending on the binary semi-major axis. As the binary becomes softer, tidal interactions near periapsis lead to strong eccentricity excitation, large changes in the orbital parameters, and eventually chaotic behavior or tidal disruption, with a sensitive dependence on the argument of periapsis. For eccentric bound (elliptic) orbits, the vZLK mechanism differs qualitatively from the standard one, although the $z$-component of the angular momentum in the local inertial frame remains approximately conserved. The evolution proceeds on a dynamical timescale and exhibits step-like changes driven by repeated periapsis passages, which can be interpreted as a sequence of scattering events. We refer to this behavior as scattering-type vZLK oscillations. The rotation of the SMBH also modifies the oscillation profiles, although its effect is less significant than the dependence on the initial orbital parameters. These results suggest a unified picture of periapsis-driven tidal dynamics in galactic nuclei.",
+  "title_relatable": "How a black hole tears apart or reshapes nearby binary stars",
+  "hook": "Binaries near a supermassive black hole don't just orbit quietly — tidal forces drive chaotic disruptions and a strange step-wise version of a classic three-body instability.",
+  "summary": "Simulating binary star systems on parabolic, hyperbolic, and elliptical orbits around a supermassive Kerr black hole, the authors map out four distinct scattering regimes — from gentle adiabatic passages to outright tidal disruption — depending on how loosely bound the binary is. For bound orbits, the classic von Zeipel-Lidov-Kozai oscillation that normally drives slow eccentricity cycles instead proceeds in sudden jumps triggered at each close approach, like a series of scattering events rather than a smooth oscillation. This unified picture of periapsis-driven tidal dynamics in galactic nuclei has direct implications for rates of stellar disruption events and gravitational wave source formation near galactic centers.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1079,
+  "tokens_out": 255,
+  "cost_usd": 0.007062,
+  "ingested_at": "2026-05-23T00:16:39.176638+00:00"
+}

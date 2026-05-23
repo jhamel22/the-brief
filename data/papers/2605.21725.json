@@ -1,0 +1,23 @@
+{
+  "id": "2605.21725",
+  "arxiv_url": "https://arxiv.org/abs/2605.21725",
+  "announced_date": "2026-05-20",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "math.CO"
+  ],
+  "title_original": "Regularizing and Normalizing DAGs and Phylogenetic Networks",
+  "authors": "Marc Hellmuth, Anna Lindeberg, Vincent Moulton",
+  "abstract": "Phylogenetic networks and, more generally, directed acyclic graphs (DAGs) represent hierarchical structure beyond trees, for instance in the presence of reticulate evolutionary events such as hybridization or horizontal gene transfer. A central question is which parts of such graphs are essential with respect to leaf-observable information, and which parts can be removed without changing this information. Resolving this question can lead to principled simplification methods for phylogenetic networks, such as the recent normalization approach of Francis et al. In this paper, we study this question from three related perspectives: clusters displayed by a DAG $G$, least common ancestors (LCAs) of subsets of its leaf set, and visibility, a path-based property of vertices. We first introduce an LCA-based simplification procedure called $i$-regularization. For a DAG $G$ and $i\\geq 1$, the DAG $\\reg_i(G)$ retains precisely those vertices that occur as unique LCAs of leaf subsets of size at most $i$, removes the remaining non-leaf vertices by a graph-editing operation $\\ominus$, and then deletes shortcuts. We show that $\\reg_i(G)$ preserves all such LCAs, is $i$-lca-relevant, and admits a cluster-level description: it is regular, i.e., isomorphic to the Hasse diagram of the corresponding lca-clusters. We then compare LCA-based regularization with normalization. Using the same $\\ominus$-operator, we describe the cover construction underlying normalization, identify visible vertices that are nevertheless removed, and characterize when regularization and normalization coincide. Together, these results provide a unified framework for cluster-based, LCA-based, and visibility-based simplifications of DAGs and phylogenetic networks.",
+  "title_relatable": "How to strip unnecessary detail from evolutionary family trees",
+  "hook": "When species evolve through hybridization or gene swapping, their family trees become tangles. Researchers found a systematic way to simplify these networks without losing essential information.",
+  "summary": "Evolutionary trees get messy when species swap genes or interbreed—they become networks instead of simple branching trees. The authors developed a mathematical method to strip away irrelevant vertices while preserving all ancestor-relationships that matter for leaf species. This gives biologists a principled way to simplify complex networks and identify which evolutionary events actually shaped observable differences.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 804,
+  "tokens_out": 160,
+  "cost_usd": 0.0012832,
+  "ingested_at": "2026-05-23T00:47:36.409401+00:00"
+}

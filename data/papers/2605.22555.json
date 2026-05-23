@@ -1,0 +1,25 @@
+{
+  "id": "2605.22555",
+  "arxiv_url": "https://arxiv.org/abs/2605.22555",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.mes-hall",
+    "cond-mat.quant-gas",
+    "cond-mat.stat-mech",
+    "quant-ph"
+  ],
+  "title_original": "Entanglement Dynamics across a Monitored Quantum Point Contact",
+  "authors": "Anna Delmonte, Marco Schirò",
+  "abstract": "We compute the entanglement dynamics across a monitored quantum point contact, where particle losses are recorded on a given site, and demonstrate how this single-site local monitoring substantially reshapes the entanglement production. Contrary to the unitary case, where entanglement entropy grows logarithmically in time, here we find first a linear growth, up to a maximum value displaying volume-law scaling, and then a slow decay to zero, as the system empties out. We capture this crossover using a quasiparticle picture, where the first linear growth arises due to an emergent bias voltage established by the losses, which eventually decays away as the system depletes. We connect our results to studies of the Page curve and to experimentally relevant probes, via full counting statistics of charge transfer across a subregion, with only a single channel to unravel leading to a favorable scaling of the postselection overhead. Natural platforms for this setting include mesoscopic systems and ultracold atoms.",
+  "title_relatable": "Watching one leak point rewrites how quantum entanglement spreads",
+  "hook": "Monitoring a single lossy site flips logarithmic entanglement growth into a linear surge followed by total collapse.",
+  "summary": "Tracking particle losses at just one point in a quantum wire radically changes how entanglement builds between two halves of the system. Instead of the usual slow logarithmic growth, entanglement shoots up linearly to a volume-law peak — then slowly dies as the system drains. The mechanism mirrors a bias voltage created by the losses themselves, and the setup is practical: only one measurement channel is needed, slashing the postselection cost that typically makes such experiments prohibitive.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 907,
+  "tokens_out": 176,
+  "cost_usd": 0.005361,
+  "ingested_at": "2026-05-23T00:21:23.651774+00:00"
+}

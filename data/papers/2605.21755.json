@@ -1,0 +1,24 @@
+{
+  "id": "2605.21755",
+  "arxiv_url": "https://arxiv.org/abs/2605.21755",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.quant-gas",
+    "hep-ph"
+  ],
+  "title_original": "Universalities of Defects in Quantum Field Theories",
+  "authors": "Siwei Zhong",
+  "abstract": "Defects are both physically rich objects and powerful tools in modern quantum field theory. They are extended operators, such as boundaries, impurities, and probe particles, embedded in many-body systems. In this dissertation, we study the universal aspects of defect dynamics from the perspective of symmetry principles. We bring together several themes, including defect renormalization group flows, effective string theory, and impurities in atomic quantum gases.",
+  "title_relatable": "What defects reveal about quantum field theory's deepest rules",
+  "hook": "Defects—boundaries, impurities, and embedded particles—obey universal laws that don't depend on a theory's details, much like phase transitions.",
+  "summary": "Defects like boundaries and impurities are windows into the hidden symmetries of quantum field theories. By studying how these embedded objects behave under renormalization group flows, the authors uncover universal patterns that apply across vastly different systems—from string theory to cold atoms. Understanding these universalities constrains what quantum theories can do.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 779,
+  "tokens_out": 155,
+  "cost_usd": 0.0012432,
+  "ingested_at": "2026-05-23T00:19:34.371611+00:00"
+}

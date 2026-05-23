@@ -1,0 +1,23 @@
+{
+  "id": "2605.21850",
+  "arxiv_url": "https://arxiv.org/abs/2605.21850",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "ACC: Compiling Agent Trajectories for Long-Context Training",
+  "authors": "Qisheng Su, Zhen Fang, Shiting Huang, Yu Zeng, Yiming Zhao, Kou Shi, Ziao Zhang, Lin Chen, Zehui Chen, Lijun Wu, Feng Zhao",
+  "abstract": "Recent development of agents has renewed demand for long-context reasoning capacity of LLMs. However, training LLMs for this capacity requires costly long-document curation or heuristic context synthesis. We observe that agents produce massive trajectories when solving problems, invoking tools and receiving environment observations across many turns. The evidence needed to answer the original question is thus scattered throughout these turns, requiring integration of distant context segments. Nevertheless, standard agent SFT masks tool responses and only trains turn-level tool selection, creating a supervision blind spot where these scattered signals go unused. We propose Agent Context Compilation (ACC), which converts trajectories from search, software engineering, and database querying agents into long-context QA pairs that combine the original question with tool responses and environment observations gathered across multiple turns, training the model to answer directly without tool use. This makes the dependencies between the question and the evidence explicit, enabling direct supervision of long-context reasoning over distant segments without additional annotation. ACC is a simple but effective approach that can be combined with any existing long-context extension or training method, providing scalable supervised fine-tuning data. We validate ACC on long-range dependency modeling tasks through MRCR and GraphWalks, challenging benchmarks requiring cross-turn coreference resolution and graph traversal over extended contexts. Training Qwen3-30B-A3B with ACC achieves 68.3 on MRCR (+18.1) and 77.5 on GraphWalks (+7.6), results comparable to Qwen3-235B-A22B, while preserving general capabilities on GPQA, MMLU-Pro, AIME, and IFEval. Further mechanism analysis reveals that the ACC-trained model exhibits task-adaptive attention restructuring and expert specialization.",
+  "title_relatable": "Turning agent work into long-context training data",
+  "hook": "Agents solving problems leave behind scattered evidence across many steps. Researchers compiled this into training data, letting a 30B model match a 235B model on long-context tasks.",
+  "summary": "Agent trajectories—the steps agents take when solving problems with tools—contain evidence scattered across many turns. Standard training ignores this, masking tool responses and missing supervision signals. ACC converts agent trajectories into long-context QA pairs that explicitly combine questions with observations and tool responses from multiple steps, training models to reason over distant context without calling tools. On benchmarks requiring long-range reasoning, Qwen3-30B trained with ACC achieved results matching a 7× larger model while maintaining general capabilities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1096,
+  "tokens_out": 194,
+  "cost_usd": 0.0016528000000000003,
+  "ingested_at": "2026-05-23T00:37:17.759329+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22666",
+  "arxiv_url": "https://arxiv.org/abs/2605.22666",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "math.CO",
+    "cs.LG",
+    "math.PR"
+  ],
+  "title_original": "Holographic functions and neural networks",
+  "authors": "Balazs Szegedy",
+  "abstract": "A fuzzy Boolean function is a map $f:\\cube^n\\to [0,1]$, where $n\\in\\mathbb N$. We introduce and compare three ways of saying that such a function has bounded complexity. The first is a sampling property: the value $f(x)$ can be recovered, up to small error and with high probability, from the values of a bounded number of randomly chosen coordinates of $x$. We call this the holographic property. The second is a structural property: $f$ is uniformly close to a bounded-degree polynomial in boundedly many bounded linear coordinate forms. The third is computational: $f$ is uniformly close to the output of a neural network with a bounded number of non-input neurons, bounded Lipschitz activation functions and bounded incoming weights. We prove that these three properties are equivalent up to quantitative changes of the parameters. The implication from holography to polynomial structure uses a variant of a weak version of hypergraph regularity.",
+  "title_relatable": "What makes a function simple? Three equivalent answers",
+  "hook": "A function is simple if you can predict its output from a few random inputs—and this definition turns out to be mathematically identical to two others: polynomial approximation and neural network efficiency.",
+  "summary": "Functions of many variables can be classified by how much information they actually need. The authors prove three definitions of \"simplicity\" are equivalent: a function has the holographic property (output recoverable from random coordinates), can be approximated by low-degree polynomials in few coordinate forms, or is close to a shallow neural network with bounded weights. The result connects sampling, algebra, and neural computation through a single lens.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 867,
+  "tokens_out": 174,
+  "cost_usd": 0.0013896,
+  "ingested_at": "2026-05-23T00:29:27.659883+00:00"
+}

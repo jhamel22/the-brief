@@ -1,0 +1,24 @@
+{
+  "id": "2605.22098",
+  "arxiv_url": "https://arxiv.org/abs/2605.22098",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "TextTeacher: What Can Language Teach About Images?",
+  "authors": "Tobias Christian Nauen, Stanislav Frolov, Brian Bernhard Moser, Federico Raue, Ahmed Anwar, Andreas Dengel",
+  "abstract": "The platonic representation hypothesis suggests that sufficiently large models converge to a shared representation geometry, even across modalities. Motivated by this, we ask: Can the semantic knowledge of a language model efficiently improve a vision model? As an answer, we introduce TextTeacher, a simple auxiliary objective that injects text embeddings as additional information into image classification training. TextTeacher uses readily available image captions, a pre-trained and frozen text encoder, and a lightweight projection to produce semantic anchors that efficiently guide representations during training while leaving the inference-time model unchanged. On ImageNet with standard ViT backbones, TextTeacher improves accuracy by up to +2.7 percentage points (p.p.) and yields consistent transfer gains (on average +1.0 p.p.) under the same recipe and compute. It outperforms vision knowledge distillation, yielding more accuracy at a constant compute budget or similar accuracy, but 33% faster. Our analysis indicates that TextTeacher acts as a feature-space preconditioner, shaping deeper layers in the first stages of training, and aiding generalization by supplying complementary semantic cues. TextTeacher adds negligible overhead, requires no costly multimodal training of the target model and preserves the simplicity and latency of pure vision models. Project page with code and captions: https://nauen-it.de/publications/text-teacher",
+  "title_relatable": "Can text teach vision models to see better?",
+  "hook": "A simple method using frozen text embeddings boosts ImageNet accuracy by 2.7% and runs 33% faster than vision distillation, without changing inference.",
+  "summary": "TextTeacher injects semantic knowledge from language models into vision training by using image captions and a frozen text encoder to guide representation learning. The method adds a lightweight auxiliary loss during training but leaves the final model unchanged, improving ImageNet accuracy by up to 2.7% on ViT while outperforming standard knowledge distillation. The approach requires no expensive multimodal training and transfers well to downstream tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 988,
+  "tokens_out": 172,
+  "cost_usd": 0.0014784000000000002,
+  "ingested_at": "2026-05-23T00:41:40.656141+00:00"
+}

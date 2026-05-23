@@ -1,0 +1,24 @@
+{
+  "id": "2605.22300",
+  "arxiv_url": "https://arxiv.org/abs/2605.22300",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "Cross-domain benchmarks reveal when coordinated AI agents improve scientific inference from partial evidence",
+  "authors": "Fiona Y. Wong, Markus J. Buehler",
+  "abstract": "Scientific evidence often spans instruments, databases, and disciplines, so no single source records the full phenomenon. This makes it difficult to determine when coordinated AI agents add value over simpler scientific workflows. We evaluate this question with a cross-domain benchmark spanning four scientific tasks: mapping molecular structure into musical representations, detecting historical paradigm shifts in science, identifying vector-borne disease emergence, and vetting transiting-exoplanet candidates. Each case uses a frozen evaluation panel, predefined scoring protocols, explicit baselines, ablations or null controls, and stated limitations. The results define three operating regimes. When different disciplines each capture only part of the phenomenon, cross-channel composites improve over single-channel baselines: climate-vector emergence reaches AUROC 0.944 and exoplanet vetting reaches AUROC 0.955. However, the exoplanet workflow is effectively tied with a strong combined-summary baseline, showing that decomposition does not always improve top-line performance. When one signal dominates, as in paradigm-shift detection, coordination mainly improves interpretation and traceability. For molecular sonification, the gain is representational rather than predictive. ScienceClaw x Infinite provides the auditable artifact and provenance layer for this evaluation. The benchmark therefore assigns value to coordination only when the corresponding performance, provenance, or representation claim is supported by explicit comparators.",
+  "title_relatable": "When do AI teams actually beat solo AI at science?",
+  "hook": "Coordinated AI agents improve scientific inference from partial evidence, but only in specific cases—new benchmark shows when the added complexity pays off.",
+  "summary": "Scientists gather evidence from scattered sources: different instruments, databases, disciplines. This paper tests whether coordinating multiple AI agents across domains beats simpler single-source approaches. Testing four tasks (molecular structure, paradigm shifts, disease emergence, exoplanet detection), they found coordination helps when each discipline captures only part of the phenomenon—disease emergence hit 0.944 AUROC and exoplanet vetting 0.955 AUROC. But when one signal dominates, multi-agent coordination mainly improves interpretability and traceability, not accuracy. The work cuts through hype by showing coordination adds value only in specific regimes, not universally.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 967,
+  "tokens_out": 219,
+  "cost_usd": 0.0016496,
+  "ingested_at": "2026-05-23T00:31:34.925536+00:00"
+}

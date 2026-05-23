@@ -1,0 +1,24 @@
+{
+  "id": "2605.22124",
+  "arxiv_url": "https://arxiv.org/abs/2605.22124",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "math.PR"
+  ],
+  "title_original": "From Betting to Empirical Bernstein LIL",
+  "authors": "Francesco Orabona",
+  "abstract": "This is a verbatim copy of a technical report I wrote in 2017-2018 to obtain the law of the iterated logarithm using the guarantee on the wealth of an online betting strategy.",
+  "title_relatable": "Using betting strategy math to prove probability limits",
+  "hook": "A 2017 technical report shows how online betting guarantees directly yield empirical Bernstein inequalities and laws of iterated logarithm.",
+  "summary": "This paper reframes the law of the iterated logarithm—a classical statistics result about how sample averages behave—through the lens of online betting. Instead of traditional probability arguments, the author uses wealth guarantees from betting strategies to derive empirical Bernstein inequalities. The connection is elegant: a bettor's accumulated winnings under adversarial conditions provide the same concentration bounds that statisticians use to quantify estimation error. The approach offers a concrete alternative perspective on convergence rates.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 701,
+  "tokens_out": 182,
+  "cost_usd": 0.0012888,
+  "ingested_at": "2026-05-23T00:46:36.348204+00:00"
+}

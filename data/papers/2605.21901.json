@@ -1,0 +1,22 @@
+{
+  "id": "2605.21901",
+  "arxiv_url": "https://arxiv.org/abs/2605.21901",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Higher Order Reasoning for Collaborative Communicationless Mobile Robot Operations",
+  "authors": "Jonathan Reasoner, Nicola Bezzo",
+  "abstract": "In communicationless environments, multi-robot systems must operate without the constant information exchange that many coordination strategies typically assume. This paper presents a novel dynamic epistemic planning framework that enables implicit coordination and long horizon planning through higher-order reasoning among robots. With our approach, robots form and propagate higher-order belief particles, update world beliefs using Bayesian inference, and select actions via a behavior tree that anticipates teammates' likely decisions. A temporally aware Model Predictive Path Integral (MPPI) controller integrates this reasoning into low-level execution, allowing robots to plan intercepts and adapt trajectories under partial observability. The proposed framework is evaluated in both simulations and physical experiments, where it consistently reduces task completion time compared to a first-order baseline, demonstrating that epistemic logic can serve as a robust foundation for resilient coordination in communication-restricted domains.",
+  "title_relatable": "How robots coordinate when they can't talk to each other",
+  "hook": "Multi-robot teams operating without communication need to predict each other's moves. A new framework uses higher-order reasoning—robots modeling what teammates think they think—to coordinate tasks faster than simpler approaches.",
+  "summary": "In communication-blackout scenarios, robots must coordinate by predicting teammates' actions rather than exchanging messages. The authors built a system where each robot maintains probabilistic beliefs about what other robots believe, then uses these higher-order models to plan actions that anticipate team behavior. Tested in simulation and physical experiments, their approach reduced task completion time versus baseline methods, showing that epistemic reasoning—treating robot coordination as a logic puzzle—enables resilient teamwork under strict communication constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 846,
+  "tokens_out": 191,
+  "cost_usd": 0.0014408000000000001,
+  "ingested_at": "2026-05-23T00:43:55.291705+00:00"
+}

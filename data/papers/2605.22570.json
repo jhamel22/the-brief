@@ -1,0 +1,23 @@
+{
+  "id": "2605.22570",
+  "arxiv_url": "https://arxiv.org/abs/2605.22570",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis",
+  "authors": "Jinho Park, Youbin Kim, Hogun Park, Eunbyung Park",
+  "abstract": "Spatio-temporal reasoning is a core capability for Multimodal Large Language Models (MLLMs) operating in the real world. As such, evaluating it precisely has become an essential challenge. However, existing spatio-temporal reasoning benchmark datasets primarily rely on static image sets or passively curated video data, which limits the evaluation of fine-grained reasoning capabilities. In this paper, we introduce VGenST-Bench, a video benchmark that employs generative models to actively synthesize highly controlled and diverse evaluation scenarios. To construct VGenST-Bench, we propose a multi-agent pipeline incorporating a human quality control stage, ensuring the quality of all generated videos and QA pairs. We establish a comprehensive 3x2x2 video taxonomy, encompassing Spatial Scale, Perspective, and Scene Dynamics to span diverse scenarios. Furthermore, we design a hierarchical task suite that decouples low-level visual perception from high-level spatio-temporal reasoning. By shifting the paradigm from passive curation to active synthesis, VGenST-Bench enables fine-grained diagnosis of spatio-temporal understanding in MLLMs.",
+  "title_relatable": "Testing how well AI understands motion and space in videos",
+  "hook": "New benchmark uses AI-generated videos to precisely measure whether multimodal language models can reason about moving objects and spatial relationships—revealing blind spots in existing systems.",
+  "summary": "Existing video understanding benchmarks rely on static images or real footage, making it hard to isolate what makes models struggle with spatio-temporal reasoning. VGenST-Bench flips the approach: it uses generative models to synthesize controlled videos spanning different spatial scales, viewpoints, and motion patterns, then pairs them with QA pairs verified by humans. The result is a fine-grained diagnostic tool that separates basic visual perception from actual reasoning about space and time—showing where today's multimodal language models genuinely fail.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 930,
+  "tokens_out": 197,
+  "cost_usd": 0.001532,
+  "ingested_at": "2026-05-23T00:42:05.682697+00:00"
+}

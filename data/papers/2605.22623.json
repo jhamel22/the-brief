@@ -1,0 +1,23 @@
+{
+  "id": "2605.22623",
+  "arxiv_url": "https://arxiv.org/abs/2605.22623",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Cosmological Singularities and Quantum Particles",
+  "authors": "Samuel W. P. Oliveira, Alexander Yu. Kamenshchik",
+  "abstract": "We study if there is an opportunity to describe quantum particles in the vicinity of three types of cosmological singularities, big bang-big crunch, big rip and big brake. Writing down the Dirac equation for spinors, and choosing a convenient parametrization for basis functions of the spinor field, we show that the corresponding second-order differential equation has two independent solutions which are non-singular in the case of all three types of singularities. That permits us to construct the Fock space for the spinor particles and to interprete this fact as their opportunity to cross these cosmological singularities. We show also that this is impossible to do for scalar particles and changing the parametrization does not help. Thus, fermions look more resilient to the passage of the cosmological singularities than bosons.",
+  "title_relatable": "Fermions survive the Big Bang and Big Rip, bosons don't",
+  "hook": "Spinor particles can mathematically cross cosmological singularities; scalar particles cannot.",
+  "summary": "Solving the Dirac equation near three types of cosmological singularities — Big Bang/Crunch, Big Rip, and Big Brake — the authors find that fermionic wavefunctions remain well-behaved at each singularity, allowing a consistent quantum state space to be constructed across the boundary. The same trick fails for bosons, whose solutions blow up. If this holds physically, fermions are fundamentally more resilient to the universe's most extreme moments than the particles that carry forces.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 873,
+  "tokens_out": 179,
+  "cost_usd": 0.005304,
+  "ingested_at": "2026-05-23T00:16:32.887078+00:00"
+}

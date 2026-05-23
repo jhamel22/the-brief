@@ -1,0 +1,23 @@
+{
+  "id": "2605.22667",
+  "arxiv_url": "https://arxiv.org/abs/2605.22667",
+  "announced_date": "2026-05-21",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.GT",
+    "q-fin.TR"
+  ],
+  "title_original": "Imperfect Commitment in Maximal Extractable Value Auctions",
+  "authors": "Aleksei Adadurov, Sergey Barseghyan, Anton Chtepine, Antero Eloranta, Andrei Sebyakin, Arsenii Valitov",
+  "abstract": "Ethereum block builders run sealed auctions among searchers, but nothing in the protocol forces a builder to honor the auction outcome after observing submitted bundles. This paper studies the commitment problem. We model a builder who defects with probability $\\varepsilon$ and, upon defection, replicates a type-specific fraction $γ(τ)$ of the winning MEV opportunity. Searchers anticipate this behavior and choose between a risky first-price bid and a safe deterrence bid that makes frontrunning unprofitable. The resulting equilibrium is piecewise, with the cost of imperfect commitment depending jointly on replicability and competition. Using the \\texttt{libmev} dataset, we estimate $γ(τ)$ from right-tail bribe plateaus and decompose observed auction revenue against the surplus a defecting builder could capture. The results show sharp heterogeneity across MEV types: sandwich opportunities are already highly competitive, while naked arbitrage and liquidations leave substantially more surplus exposed to builder defection. Credible MEV auctions, therefore, require not only an auction format, but also constraints on the builder's ability to use observed bid and payload information ex post.",
+  "title_relatable": "Can Ethereum block builders be trusted to honor their auctions?",
+  "hook": "Ethereum's sealed-bid auctions for transaction ordering fail when builders can cheat after seeing the bids—and the cost varies wildly by trade type.",
+  "summary": "Ethereum block builders run auctions for MEV (maximal extractable value) opportunities but have zero incentive to honor results once they see what searchers bid. The researchers modeled what happens when builders defect with some probability and steal a fraction of the winning bid, finding searchers rationally shift to safer bids that deter cheating. Using real Ethereum data, they show sandwich trades are already competitive enough to resist cheating, but naked arbitrage and liquidations expose far more surplus to builder theft—proving auctions need built-in constraints, not just format tweaks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 705,
+  "tokens_out": 208,
+  "cost_usd": 0.001396,
+  "ingested_at": "2026-05-23T00:47:50.187969+00:00"
+}

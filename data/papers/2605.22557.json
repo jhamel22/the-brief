@@ -1,0 +1,23 @@
+{
+  "id": "2605.22557",
+  "arxiv_url": "https://arxiv.org/abs/2605.22557",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "math.NA"
+  ],
+  "title_original": "Neural Flow Operators can Approximate any Operator: Abstract Frameworks and Universal Approcimations",
+  "authors": "Shuang Chen, Juncai He, Xue-Cheng Tai",
+  "abstract": "We introduce an abstract neural flow framework for neural networks and neural operators. The framework contains two continuous-depth models, namely neural flows with composition and separation structures, and covers both finite-dimensional function approximation and infinite-dimensional operator approximation. We prove well-posedness and universal approximation properties for the corresponding neural flows, including, to the best of our knowledge, the first universal approximation result for flow-based models between infinite-dimensional spaces. We also obtain universal approximation results for convolutional neural flow models. Through suitable time discretizations, the composition structure recovers ResNet-type architectures, while the separation structure, via a splitting-based discretization, yields plain architectures. This gives a unified flow-based route to both residual and plain architectures for neural networks and neural operators with fully connected or convolutional linear layers.",
+  "title_relatable": "Why neural networks with flow structure can learn anything",
+  "hook": "Proves that flow-based neural networks can approximate any operator, bridging theory for finite and infinite-dimensional problems.",
+  "summary": "Flow-based neural networks—those built like continuous differential equations—can theoretically approximate any function or operator, including infinite-dimensional ones like those needed for physics simulations. The authors prove this universal approximation result for the first time in the infinite case, and show how two different internal structures (composition and separation) mathematically connect to practical architectures like ResNets and plain networks through discretization.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 857,
+  "tokens_out": 156,
+  "cost_usd": 0.0013096,
+  "ingested_at": "2026-05-23T00:27:24.732118+00:00"
+}

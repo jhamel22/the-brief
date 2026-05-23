@@ -1,0 +1,22 @@
+{
+  "id": "2605.22671",
+  "arxiv_url": "https://arxiv.org/abs/2605.22671",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model",
+  "authors": "Bing Hu, Zaijing Li, Rui Shao, Junda Chen, April Hua Liu, Wei-Shi Zheng, Liqiang Nie",
+  "abstract": "Vision-Language-Action (VLA) models often suffer from performance degradation under distribution shifts, as they struggle to learn generalized behavior representations across varying environments. While existing approaches attempt to construct behavior representations through action-centric latent variables, they are often limited by short-horizon temporal fragmentation and static execution-alignment, leading to inconsistent behaviors in complex scenarios. To address these limitations, we propose \\textbf{BehaviorVLA}, a framework that facilitates robust manipulation through the learning of a temporally coherent behavioral representations. Our approach features two symmetric components: (1) the \\textbf{Visuomotor Behavior Encoder (VBE)}, which utilizes a causal Mamba-based architecture to aggregate long-horizon trajectory information into a unified behavior representation; and (2) the \\textbf{Phase-conditioned Behavior Decoder (PBD)}, which decodes this representation into precise actions by dynamically aligning task-level priors with real-time execution progress. Experiments on RoboTwin 2.0, LIBERO, and CALVIN demonstrate state-of-the-art success rates of 58\\%, 98\\%, and 4.36 (Avg.Len), respectively. Notably, in real-world sim-to-real transfer, BehaviorVLA matches the performance of OpenVLA-OFT using only 50\\% of the demonstration data, showcasing its superior data efficiency and generalization.",
+  "title_relatable": "Teaching robots to understand their own movements across environments",
+  "hook": "A new approach to robot control that learns from full movement sequences instead of isolated actions achieves 58% success on complex manipulation tasks using half the training data of existing methods.",
+  "summary": "Vision-Language-Action models that control robots often fail when moved to new environments because they treat each action independently instead of understanding full behavioral sequences. BehaviorVLA fixes this by encoding entire movement trajectories into unified behavior representations, then decoding them into precise actions while tracking where the task currently stands. On three robot manipulation benchmarks, it reaches 58–98% success rates and matches OpenVLA's performance with 50% less demonstration data, suggesting the approach generalizes better across sim-to-real transfer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1027,
+  "tokens_out": 192,
+  "cost_usd": 0.0015895999999999998,
+  "ingested_at": "2026-05-23T00:40:10.543034+00:00"
+}

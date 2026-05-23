@@ -1,0 +1,22 @@
+{
+  "id": "2605.22598",
+  "arxiv_url": "https://arxiv.org/abs/2605.22598",
+  "announced_date": "2026-05-21",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Efficient coding under constraint drives neural systems towards criticality and sloppiness",
+  "authors": "He Xiao, Xinyue Zhao, Weikang Wang",
+  "abstract": "It is widely accepted that the brain operates near a critical state, characterized by neural avalanches that follow power-law distributions. However, the functional rationale for why neural systems attain criticality remains unclear. Here, we present a theoretical framework that links efficient coding to criticality in neural populations. Using a Gaussian population coding model, we demonstrate that maximizing Fisher information under resource constraints naturally leads to the emergence of soft modes and diverging correlation lengths, which are hallmarks of criticality. By introducing spatial structure, we unify two distinct perspectives of criticality: statistical criticality with diverging correlation lengths and dynamical criticality with critical slowing down as well as bifurcation. Furthermore, this framework provides a natural explanation for the sloppiness observed in neural systems. Numerical simulations confirm that optimization results in power-law response, providing a mechanistic link between efficient coding, sloppiness and the critical brain hypothesis.",
+  "title_relatable": "Why brains organize themselves on the edge of chaos",
+  "hook": "The brain's criticality—its poised-on-the-brink-of-chaos state—may emerge naturally when neurons try to encode information as efficiently as possible.",
+  "summary": "Neural populations optimizing information encoding under energy constraints automatically develop the hallmarks of criticality: soft modes, power-law responses, and correlation lengths that diverge. This framework unifies two competing views of brain criticality and explains why neural systems are famously \"sloppy\"—tolerating large parameter changes without functional loss. The mechanism suggests criticality isn't accidental but a built-in consequence of efficient coding.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 593,
+  "tokens_out": 173,
+  "cost_usd": 0.0011664000000000002,
+  "ingested_at": "2026-05-23T00:46:49.537224+00:00"
+}

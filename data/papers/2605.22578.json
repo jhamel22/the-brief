@@ -1,0 +1,22 @@
+{
+  "id": "2605.22578",
+  "arxiv_url": "https://arxiv.org/abs/2605.22578",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Beyond Chamfer Distance: Granular Order-aware Evaluation Metric For Online Mapping",
+  "authors": "Chouaib Bencheikh Lehocine, Adam Lilja, Junsheng Fu, Lars Hammarstrand",
+  "abstract": "Online map estimation is a crucial component of autonomous driving systems that reduces the reliance on costly high-definition maps. State-of-the-art (SOTA) methods commonly predict map elements as ordered sequences of points that form polylines and polygons. The evaluation of these methods relies predominantly on mean average precision (mAP) based on thresholded Chamfer distance (CD). This framework lacks sensitivity to point ordering and provides limited granularity in assessing geometric quality, making it difficult to distinguish which methods truly excel over others. In this work, we address these limitations on two fronts. For the single-instance similarity measure, we introduce sequence optimal sub-pattern assignment (SOSPA), an order-aware metric that enables fine-grained evaluation of individual geometries while satisfying all metric axioms. For the multi-instance evaluation framework, we propose polyline localisation and detection (PLD), a soft metric that jointly captures detection quality and geometric accuracy, replacing the hard thresholding of mAP with a principled soft assignment. Through evaluations on nuScenes, we demonstrate that PLD effectively ranks SOTA online mapping methods (MapTRv2, StreamMapNet, MapTracker) while providing a decomposed error analysis. This analysis identifies detection capability as the dominant bottleneck in current methods, revealing a performance trend that mAP fails to capture. Code for evaluation using our metrics will be released.",
+  "title_relatable": "Why measuring map quality matters more than you think",
+  "hook": "Autonomous vehicles need better ways to judge mapping algorithms. A new metric reveals that detection, not geometry, is where current methods fail.",
+  "summary": "Autonomous driving systems predict road maps as sequences of points, but existing evaluation methods (Chamfer distance + mAP) ignore point order and hide geometric flaws. This work introduces SOSPA, an order-aware metric for individual map elements, and PLD, a soft detection framework that replaces hard thresholding with principled scoring. Tests on nuScenes show PLD correctly ranks leading methods and exposes detection capability—not geometry quality—as the real bottleneck. Code will be released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 990,
+  "tokens_out": 184,
+  "cost_usd": 0.001528,
+  "ingested_at": "2026-05-23T00:42:01.205268+00:00"
+}

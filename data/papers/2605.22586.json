@@ -1,0 +1,23 @@
+{
+  "id": "2605.22586",
+  "arxiv_url": "https://arxiv.org/abs/2605.22586",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "A Tutorial on Diffusion Theory: From Differential Equations to Diffusion Models",
+  "authors": "Jiayi Fu, Yuxia Wang",
+  "abstract": "This tutorial develops diffusion models from the viewpoint of differential equations. We begin with the conditional Gaussian forward process and show that this path admits both an ordinary differential equation (ODE) representation and a stochastic differential equation (SDE) representation. Averaging the conditional process over the data distribution then yields marginalized forward ODE and SDE formulations that transport the data distribution $p_0=p_{\\mathrm{data}}$ to a Gaussian prior $p_1=\\mathcal{N}(0,I)$. We next derive the corresponding reverse-time dynamics, namely the reverse SDE and the reverse probability-flow ODE, both of which are governed by the marginal score $\\grad\\log p_t(x)$. This leads to a training objective for score estimation and shows that the standard noise-prediction objective is equivalent to score matching up to an additive constant independent of the model parameters. We then discuss sampling methods for the learned reverse dynamics, including DPM-Solver, as well as guided sampling through classifier guidance and classifier-free guidance. Finally, we compare DDPM and DDIM with the reverse SDE/ODE framework and show that they share the same training objective, while DDPM sampling corresponds to discrete reverse-SDE sampling and DDIM sampling corresponds to reverse-ODE sampling.",
+  "title_relatable": "How differential equations power modern image generation",
+  "hook": "A mathematically rigorous tutorial bridging classical differential equations and diffusion models, showing why DDPM and DDIM are really the same training objective under different sampling rules.",
+  "summary": "Diffusion models generate images by slowly adding noise, then learning to reverse the process. This tutorial frames that intuition precisely: the forward process is governed by differential equations (both stochastic and deterministic), the reverse process follows from score matching, and existing methods like DDPM and DDIM emerge naturally as discrete approximations of the same underlying equations. The unification clarifies why different sampling strategies work and provides a foundation for understanding and extending diffusion-based generative models.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 957,
+  "tokens_out": 184,
+  "cost_usd": 0.0015015999999999999,
+  "ingested_at": "2026-05-23T00:27:52.711623+00:00"
+}

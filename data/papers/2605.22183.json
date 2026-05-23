@@ -1,0 +1,23 @@
+{
+  "id": "2605.22183",
+  "arxiv_url": "https://arxiv.org/abs/2605.22183",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Action with Visual Primitives",
+  "authors": "Weilong Guo, Yuchen Wang, Renping Zhou, Yunfeng Zhang, Rui Fang, Yue Meng, Wenda Xu, Yuan He, Gao Huang",
+  "abstract": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for generalist robotic manipulation. A common design in current architectures maps language instructions and visual observations to actions in a single forward pass. While conceptually simple, this formulation entangles instruction comprehension, spatial scene understanding, and motor control within a single learning objective. As a result, the action expert must implicitly relearn cognitive and perceptual capabilities already present in the pretrained VLM, which can limit both learning efficiency and generalization. We introduce AVP (Action with Visual Primitives), an end-to-end architecture that implements this visual-primitive-centric interface: the VLM infers the next-stage target and emits visual-primitive tokens that condition a flow-matching action expert, with supervision derived from end-effector kinematics. Real-robot experiments on general pick-and-place tasks show that AVP improves the success rate by 27.61% over pi_0.5 and outperforms other recent methods, with consistent gains in data efficiency, spatial-compositional generalization, and object-level transfer.",
+  "title_relatable": "Teaching robots to see before they act",
+  "hook": "A new approach separates what robots should do from how to do it, boosting manipulation success rates by 28% and improving learning efficiency.",
+  "summary": "Current robotic manipulation models cram language understanding, scene perception, and motor control into one neural network, forcing the action component to relearn what vision-language models already know. AVP splits this into two stages: a pretrained vision-language model identifies the target and generates visual tokens, then a separate action network uses those tokens to plan movements via flow matching. On real robot pick-and-place tasks, this 27% improvement over prior methods translates to faster learning and better generalization to new objects and spatial arrangements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 940,
+  "tokens_out": 185,
+  "cost_usd": 0.001492,
+  "ingested_at": "2026-05-23T00:43:49.868690+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22575",
+  "arxiv_url": "https://arxiv.org/abs/2605.22575",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "JWST observations of a planetary nebula support jet-driven explosion of core-collapse supernova remnant RCW 103",
+  "authors": "Aleksei Klimov, Noam Soker",
+  "abstract": "We show that the morphology of the core-collapse supernova (CCSN) remnant RCW 103 is very similar to the morphology of the brightest regions in the recently released JWST IR images of the jet-shaped planetary nebula (PN) PMR 1, and conclude that two energetic pairs of jets shaped RCW 103, compatible with the jittering-jets explosion mechanism (JJEM). The PN PMR 1 IR image exhibits two opposite, large, and prominent ears with a narrow, faint region connecting them through the center, a pipe. Observations and simulations have shown that a pair of jets inflates such a pair of ears in PNe. The brightest regions of PN PMR 1 form two clumpy sectors, each shaped like a wide pizza slice, with a faint region between them; the CCSN remnant RCW 103 has a very similar morphology. We identify two shells in the X-ray image of RCW 103 and suggest that two close pairs of energetic jets shaped this CCSN remnant. We find only traces of two of the four expected ears in RCW 103. The ears in RCW 103 were already dispersed and are very faint. Deeper X-ray observations might detect them. Such energetically misaligned pairs of jets are compatible with the JJEM, which predicts that a few to about 20 pairs of jets are responsible for most CCSN explosions.",
+  "title_relatable": "JWST finds twin jets shaped a supernova remnant like stellar fireworks",
+  "hook": "New infrared images reveal that a mysterious supernova remnant has the same two-jet structure as a planetary nebula, backing a radical theory of how core-collapse supernovae explode.",
+  "summary": "A supernova remnant called RCW 103 shares a striking morphology with a planetary nebula imaged by JWST: both display two opposite, clumpy regions separated by a narrow connection, characteristic of jets inflating paired lobes. The authors argue this similarity supports the jittering-jets mechanism, which proposes that multiple misaligned pairs of jets—not a uniform blast wave—drive core-collapse supernovae. If correct, this reframes how we understand one of the universe's most violent explosions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1050,
+  "tokens_out": 212,
+  "cost_usd": 0.001688,
+  "ingested_at": "2026-05-23T00:25:03.472808+00:00"
+}

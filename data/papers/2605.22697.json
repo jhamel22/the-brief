@@ -1,0 +1,22 @@
+{
+  "id": "2605.22697",
+  "arxiv_url": "https://arxiv.org/abs/2605.22697",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Cross-Domain Human Action Recognition from Multiview Motion and Textual Descriptions",
+  "authors": "Yannick Porto, Renato Martins, Thomas Chalumeau, Cedric Demonceaux",
+  "abstract": "Robustness to domain changes is a key capability for effective deployment of human action recognition systems in real-world scenarios, where action categories at inference can present important domain shifts or even unseen actions from training. In this context, improving the recognition capabilities of Zero-Shot Action Recognition models (ZSAR), without requiring strong annotation efforts, remains a central challenge. Most ZSAR approaches assume that actions are observed under geometric conditions similar to those seen during training. In practice, variations in human body orientation and camera viewpoint add a significant domain gap in ZSAR, substantially limiting generalization to novel action-motion combinations. In this context, this paper presents a novel orientation-aware action recognition approach with improved cross-domain capabilities. Our approach combines motion cues of multiple camera viewpoints and text descriptions of human actions in the training phase. We present a new orientation-aware motion encoding network to learn different motion features, and adapt a specific orientation-aware text prompt to match the corresponding features at inference. Extensive experiments demonstrate that the proposed method consistently improves ZSAR performance across different recognition benchmarks, outperforming recent state-of-the-art zero-shot approaches on NTU-RGB+D, BABEL, NW-UCLA, and on two surveillance datasets. In addition, the learned representations exhibit strong transfer learning capabilities, yielding competitive performance on both cross-domain and same-domain recognition of seen actions. Code and trained models are available at: https://icb-vision-ai.github.io/OrientationAware-HAR",
+  "title_relatable": "Recognizing actions from any camera angle without retraining",
+  "hook": "New method tackles the hardest version of action recognition: identifying unseen human movements from different viewpoints using video and text descriptions together.",
+  "summary": "Action recognition systems fail when camera angles or body orientations differ from training data—a major problem for real-world deployment. This work combines motion cues from multiple viewpoints with text descriptions to train models that recognize both seen and unseen actions across camera angles. The approach uses an orientation-aware motion encoder and adaptive text prompts that adjust to different body positions at test time, improving performance across four major benchmarks (NTU-RGB+D, BABEL, NW-UCLA, and surveillance datasets) while outperforming recent zero-shot methods. Code and models are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1006,
+  "tokens_out": 202,
+  "cost_usd": 0.0016128000000000002,
+  "ingested_at": "2026-05-23T00:39:21.547520+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22433",
+  "arxiv_url": "https://arxiv.org/abs/2605.22433",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.PL",
+    "eess.SY"
+  ],
+  "title_original": "QuCtrl-BELL: A Compiler-Driven Sub-Microsecond Feedback Control Stack for Scalable Trapped-Ion Quantum Experiments",
+  "authors": "Junpeng She, Ruoyu Yan, Zhizhen Qin, Zhanyu Li, Zhongtao Shen, Zichao Zhou, Binxiang Qi, Luming Duan",
+  "abstract": "As trapped-ion quantum computing scales to larger qubit registers and more complex control protocols, classical control systems face a fundamental tradeoff: sub-microsecond board-level feedback requires tight hardware coupling, whereas maintainability and extensibility require clean, modular software abstractions. This paper presents QuCtrl-BELL (Bell), a compiler-driven software stack for trapped-ion quantum control. The design resolves this tradeoff by decoupling control flow -- including loops, branches, and synchronization -- from hardware state data. A Python-embedded domain-specific language (DSL) is lowered through a six-stage transpilation pipeline covering control flow graph (CFG) construction, static single-assignment (SSA) conversion, liveness analysis, and graph-coloring register allocation. The compiler generates deterministic distributed board-level programs and compact step-table data. A cross-board synchronization protocol supports feedback loops with latency below 700~ns without host intervention. Bell is deployed and evaluated on the QuCtrl-BELL platform (RISC-V + PXIe), demonstrating that a compiler-based infrastructure can provide programmability, deterministic timing, and modularity for scalable trapped-ion quantum control.",
+  "title_relatable": "A sub-microsecond software brain for scaling up trapped-ion quantum computers",
+  "hook": "Feedback loops under 700 nanoseconds, no special hardware hacks — just a smarter compiler.",
+  "summary": "Scaling trapped-ion quantum computers demands classical control electronics that respond in microseconds while remaining easy to program and maintain — a tension that has forced most groups to choose one or the other. Bell solves this with a Python-based compiler that translates high-level quantum control code through six compilation stages down to tightly timed, distributed hardware instructions. Running on a RISC-V/PXIe platform, it achieves cross-board feedback latency below 700 ns without any host-computer intervention, demonstrating that software abstraction and real-time performance aren't mutually exclusive.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1022,
+  "tokens_out": 200,
+  "cost_usd": 0.006066,
+  "ingested_at": "2026-05-23T00:21:49.870495+00:00"
+}

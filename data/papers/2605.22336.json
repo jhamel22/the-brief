@@ -1,0 +1,22 @@
+{
+  "id": "2605.22336",
+  "arxiv_url": "https://arxiv.org/abs/2605.22336",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Seyfert galaxy targets for KM3NeT neutrino telescope",
+  "authors": "A. Neronov, D. Savchenko, M. Poleshchuk",
+  "abstract": "Neutrino signal from a population of Seyfert galaxies has been detected by IceCube neutrino telescope in the muon neutrino channel that has sensitivity mostly to the Northern Hemisphere sources. This detection can be verified by KM3NeT telescope that has sensitivity also in the Southern Hemisphere. We define a catalog of Seyfert galaxies that are expected to be detectable with KM3NeT, assuming that the neutrino luminosity scales with the intrinsic hard X-ray luminosity of the sources. We find that four sources: NGC 1068, NGC 4151, NGC 4945 and Circinus galaxy, are detectable by KM3NeT, if their spectra follow either NGC 1068 or NGC 4151 spectral template based on IceCube data. We discuss uncertainties of the neutrino flux estimate, considering the Compton-thick nature of three of the four detectable sources: NGC 1068, NGC 4945 and Circinus. The limited catalog of the four sources can be used in KM3NeT source search to reduce the trial factor of analysis aimed at independent verification of the neutrino signal from Seyfert galaxies.",
+  "title_relatable": "Which Seyfert galaxies will the KM3NeT neutrino detector see?",
+  "hook": "IceCube found neutrinos from active galaxies. A new underwater telescope in the Mediterranean can test whether four nearby Seyferts are the source.",
+  "summary": "IceCube detected neutrinos coming from Seyfert galaxies, but mostly caught Northern Hemisphere sources. The KM3NeT telescope, deployed in the Mediterranean, can search the Southern sky for the same signal. Assuming neutrino output scales with X-ray brightness, four galaxies—NGC 1068, NGC 4151, NGC 4945, and Circinus—should be bright enough to detect, though thick dust around three of them complicates the prediction.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 984,
+  "tokens_out": 201,
+  "cost_usd": 0.0015912,
+  "ingested_at": "2026-05-23T00:25:19.201028+00:00"
+}

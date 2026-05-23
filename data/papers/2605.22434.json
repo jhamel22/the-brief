@@ -1,0 +1,23 @@
+{
+  "id": "2605.22434",
+  "arxiv_url": "https://arxiv.org/abs/2605.22434",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Entropic route to Brown-York tensor: A unified framework for null and timelike hypersurfaces",
+  "authors": "Krishnakanta Bhattacharya, Bhera Ram, Bibhas Ranjan Majhi",
+  "abstract": "Building on Padmanabhan's entropy functional, originally introduced to derive Einstein's equations and highlight the emergent nature of gravity, we demonstrate its robustness in a broader context. Using the same entropy density, we show that the Brown-York (BY) tensor arises naturally as the projection of the canonical momentum conjugate to the normal vectors on the relevant hypersurface, thereby providing a common construction applicable to both timelike and null hypersurfaces. This perspective also offers insight into the structural differences of the null BY tensor, including its non-symmetric character. We further extend the analysis to scalar-tensor theories, showing that the entropy-based formulation reproduces the expected equations of motion along with the corresponding BY tensor, and, clarifies its non-conservation in the presence of additional scalar field which is non-minimally coupled. Our results provide a coherent variational interpretation of quasi-local gravitational quantities and reveal a common underlying structure linking bulk dynamics and boundary momentum.",
+  "title_relatable": "One entropy formula unifies gravity's bulk and boundary behavior",
+  "hook": "A single entropy functional reproduces the boundary stress tensor for both ordinary and light-like surfaces in general relativity.",
+  "summary": "Starting from Padmanabhan's entropy functional — originally a tool for deriving Einstein's equations from thermodynamic principles — the authors show it naturally produces the Brown-York tensor, the standard measure of quasi-local gravitational energy, on any surface, whether timelike or null. The approach also explains why the null version of this tensor is asymmetric, a structural quirk that had lacked a clean interpretation. Extended to scalar-tensor gravity, the same framework accounts for why the boundary stress tensor fails to be conserved when a scalar field couples non-minimally to curvature.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 922,
+  "tokens_out": 193,
+  "cost_usd": 0.005661,
+  "ingested_at": "2026-05-23T00:16:49.426777+00:00"
+}

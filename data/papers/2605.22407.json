@@ -1,0 +1,23 @@
+{
+  "id": "2605.22407",
+  "arxiv_url": "https://arxiv.org/abs/2605.22407",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "Hostless extragalactic transients in Fink: Results from the ELEPHANT pipeline",
+  "authors": "R. Durgesh, P. J. Pessi, E. E. O. Ishida, J. Peloton",
+  "abstract": "The ExtragaLactic alErt Pipeline for Hostless AstroNomical Transients (ELEPHANT), has been developed as a framework for filtering hostless candidates, in real time alert systems, and implemented as a filter in the Fink broker. ELEPHANT works on stamps and requires minimal information, thus allowing for fast identification of extragalactic transient events. In this work we evaluate the performance of the ELEPHANT pipeline by systematically analyzing flagged hostless candidates identified between 1 September 2023 and 31 December 2025. Our goal is to quantifying its accuracy and identify dominant sources of contamination. For each flagged candidate we collected additional information from multiple catalogues and archival repositories. We further examined their light-curve evolution and astrometric consistency (coordinate dispersion over time) to refine source classification. Results. Out of 877 flagged events, 67 are confidently confirmed as genuinely hostless candidates, with no detectable host galaxy in either existing catalogues or archival imaging, representing a high-purity sample of intrinsically faint or absent hosts. Additional 51 events are linked to visually identifiable hosts that are entirely absent from both catalogues and ZTF stamps. For the confirmed hostless subset, the inferred upper limits on host-galaxy absolute magnitudes extend well below the luminosity range of typical dwarf galaxies. The pipeline showed an overall accuracy of 0.84, with the majority of the classified flagged events being Type Ia supernovae, and the second most detected class being Type I superluminous supernova. ELEPHANT has been adapted to deal with the Rubin alert stream and has been processing its alerts since February 2026.",
+  "title_relatable": "Finding supernovae that exploded in the middle of nowhere",
+  "hook": "A new filter catches supernovae with no host galaxy—or at least none we can see. Out of 877 candidates, 67 appear genuinely hostless.",
+  "summary": "The ELEPHANT pipeline scans incoming supernova alerts in real time to flag events with no detectable host galaxy, working from small image stamps alone. Of 877 flagged candidates between 2023 and 2025, the team confirmed 67 as genuinely hostless by cross-checking multiple catalogues and archival imaging. The pipeline achieves 84% accuracy and is now processing alerts from the Rubin Observatory.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1094,
+  "tokens_out": 180,
+  "cost_usd": 0.0015952,
+  "ingested_at": "2026-05-23T00:22:29.054644+00:00"
+}

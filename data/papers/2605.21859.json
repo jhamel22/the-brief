@@ -1,0 +1,24 @@
+{
+  "id": "2605.21859",
+  "arxiv_url": "https://arxiv.org/abs/2605.21859",
+  "announced_date": "2026-05-21",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "cs.LG",
+    "q-bio.QM"
+  ],
+  "title_original": "PhylaFlow: Hybrid Flow Matching in Billera-Holmes-Vogtmann Tree Space for Phylogenetic Inference",
+  "authors": "Yasha Ektefaie, Leo Cui, Shrey Jain, Marinka Zitnik, Pardis Sabeti",
+  "abstract": "Phylogenetic trees are hybrid objects: branch lengths vary continuously, while topologies change discretely through edge contractions and expansions. Billera-Holmes-Vogtmann (BHV) tree space provides a canonical geometry for this structure, representing each resolved topology as a Euclidean orthant and topological changes as motion across shared lower-dimensional boundaries. We introduce PhylaFlow, a hybrid flow-matching model that learns posterior-basin transport in BHV tree space. PhylaFlow is trained on BHV geodesic paths from random starting trees to short-run posterior samples, coupling continuous branch-length motion within orthants with learned boundary events and discrete topology transitions. We evaluate the learned geometry operationally: if the flow reaches posterior-relevant regions, finite-budget Bayesian refinement initialized from, or guided by, its terminal trees should recover posterior-supported topologies more efficiently. Across DS1-DS8 phylogenetic posterior benchmarks, PhylaFlow substantially reduces initial Tree-KL relative to classical initializers. After finite-budget MrBayes refinement, direct PhylaFlow improves early and intermediate topology-recovery trajectories on most datasets, while split-guided PhylaFlow-MCMC obtains the strongest hard-case results. The best PhylaFlow variant outperforms short-warmup on seven of eight datasets and PhyloGFN on five of eight under the same refinement budget. In a joint sequence-conditioned experiment, sequence embeddings steer posterior split recovery, although exact posterior topology recovery remains preliminary. These results show that hybrid flow matching can learn actionable transport in BHV tree space and provide a geometry-aware proposal mechanism for Bayesian phylogenetic inference.",
+  "title_relatable": "Teaching AI to navigate evolutionary tree space",
+  "hook": "A machine learning model learns to explore the curved geometry of evolutionary trees, suggesting better starting points for phylogenetic inference.",
+  "summary": "Evolutionary trees have a weird geometry: branch lengths change smoothly, but tree topology flips discretely—like navigating a space that's partly continuous, partly discrete. PhylaFlow trains a flow-matching model on this geometry to suggest promising trees as starting points for Bayesian phylogenetic inference. On eight benchmark datasets, trees proposed by PhylaFlow let downstream refinement algorithms find correct topologies faster than classical approaches.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 808,
+  "tokens_out": 162,
+  "cost_usd": 0.0012944,
+  "ingested_at": "2026-05-23T00:47:24.240994+00:00"
+}

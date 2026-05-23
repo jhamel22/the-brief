@@ -1,0 +1,23 @@
+{
+  "id": "2605.22768",
+  "arxiv_url": "https://arxiv.org/abs/2605.22768",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "cond-mat.supr-con"
+  ],
+  "title_original": "Generation of Quantum Turbulence by Neutrino Cooling in Neutron Stars",
+  "authors": "J. A. Sauls",
+  "abstract": "The interior crust and much of the liquid core of neutron stars is believed to be a quantum liquid mixture of neutron and proton superfluids and a relativistic electron liquid. Quantized vortices in the neutron superfluid and quantized flux lines in the proton superconductor are topological defects of these hadronic condensates. I consider the formation of the superfluid state in young neutron stars under non-equilibrium conditions imposed by the neutrino cooling rate. The nonequilibrium phase transition implies that the onset of superfluidity is accompanied by the generation of quantized vortices based on the mechanism envisioned by Kibble in the context cosmic string formation in an evolutionary models of an expanding universe, and further developed by Zurek for nonequilibrium phase transitions in quantum liquids such as \\Hefour. I discuss the Kibble-Zurek mechanism (KZM) and scaling relations for topological defect formation starting from the Cooper pair fluctuation propagator for temperatures approaching $T_c$. I then calculate the predicted vortex densities based on Urca and modified Urca cooling mechanisms in the cores of neutron stars for several models of the superfluid gap and transition temperature of the interior neutron superfluid. In all cases studied the KZM leads to a large density of topological defects in the condensate phase, which in 3D form a random network of vortex lines and loops, i.e. the generation of quantum turbulence.",
+  "title_relatable": "How neutron stars create quantum turbulence as they cool",
+  "hook": "Young neutron stars undergo a violent phase transition that seeds them with tangled quantum vortices—a phenomenon borrowed from cosmology.",
+  "summary": "Neutron stars cool rapidly in their first moments, triggering a superfluid phase transition in their cores. Using the Kibble-Zurek mechanism—a framework originally developed to explain cosmic string formation—Sauls calculates that this non-equilibrium transition generates a dense tangle of quantized vortices. The result: a turbulent superfluid state with measurable consequences for how neutron stars evolve and radiate energy.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1030,
+  "tokens_out": 174,
+  "cost_usd": 0.00152,
+  "ingested_at": "2026-05-23T00:24:49.071516+00:00"
+}

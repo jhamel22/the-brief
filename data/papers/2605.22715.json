@@ -1,0 +1,25 @@
+{
+  "id": "2605.22715",
+  "arxiv_url": "https://arxiv.org/abs/2605.22715",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.HC"
+  ],
+  "title_original": "AnyMo: Geometry-Aware Setup-Agnostic Modeling of Human Motion in the Wild",
+  "authors": "Baiyu Chen, Zechen Li, Wilson Wongso, Lihuan Li, Xiachong Lin, Hao Xue, Benjamin Tag, Flora Salim",
+  "abstract": "As wearable and mobile devices become increasingly embedded in daily life, they offer a practical way to continuously sense human motion in the wild. But inertial signals are highly dependent on the sensing setup, including body location, mounting position, sensor orientation, device hardware, and sampling protocol. This setup dependence makes it difficult to learn motion representations that transfer across devices and datasets, and limits the broader use of wearable IMUs beyond closed-set recognition. We introduce AnyMo, a geometry-aware framework for setup-agnostic human motion modeling. AnyMo uses physics-grounded IMU simulation over dense body-surface placements to generate diverse and plausible synthetic signals, pre-trains a graph encoder from paired synthetic placement views and masked partial observations, tokenizes multi-position IMU into full-body motion tokens, and aligns these tokens with an LLM for motion-language understanding. We evaluate AnyMo on three complementary tasks: zero-shot activity recognition across 14 unseen downstream datasets, cross-modal retrieval, and wearable IMU motion captioning, where it improves average Accuracy/F1/R@2 by 11.7\\%/11.6\\%/22.6\\% on HAR, increases zero-shot IMU-to-text and text-to-IMU retrieval MRR by 15.9\\% and 28.6\\%, respectively, and improves zero-shot captioning BERT-F1 by 18.8\\%. These results support AnyMo as a generalist model for wearable motion understanding in the wild. Project page: https://baiyuchen.com/project/AnyMo.",
+  "title_relatable": "One motion model for any sensor placement or device",
+  "hook": "A framework that learns from synthetic IMU data achieves 11.7% better activity recognition across 14 unseen datasets, working regardless of where you wear the sensor.",
+  "summary": "Wearable motion sensors give different readings depending on where you place them, what device you use, and how it's oriented—making it nearly impossible to train motion models that work across devices. AnyMo solves this by simulating realistic sensor data across hundreds of body placements, then pre-training a graph-based encoder on these synthetic signals paired with language. The result: a single model recognizes human activities zero-shot on 14 new datasets with 11.7% better accuracy, retrieves matching text descriptions for IMU data, and generates captions from sensor readings. This matters because it makes wearable motion sensing practical beyond controlled labs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1076,
+  "tokens_out": 224,
+  "cost_usd": 0.0017568000000000002,
+  "ingested_at": "2026-05-23T00:31:53.862095+00:00"
+}

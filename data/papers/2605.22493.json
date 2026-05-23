@@ -1,0 +1,24 @@
+{
+  "id": "2605.22493",
+  "arxiv_url": "https://arxiv.org/abs/2605.22493",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Understanding Multimodal Failure in Action-Chunking Behavioral Cloning",
+  "authors": "Lorenzo Mazza, Massimiliano Datres, Ariel Rodriguez, Sebastian Bodenstedt, Gitta Kutyniok, Stefanie Speidel",
+  "abstract": "Behavioral cloning becomes difficult when the same observation admits several valid actions. We study this problem for action-chunking policies and show that different multimodal parameterizations fail in different ways. For latent-variable policies, posterior-prior regularization makes deployment-time sampling more reliable, but excessive regularization removes the action-conditioned information needed to distinguish demonstrated modes. Reducing this regularization can preserve mode information, but then success depends on whether the prior covers the relevant latent regions. For action-space generative policies, multimodality is constrained by the smoothness of the base-to-action transport: a map with small Lipschitz constant cannot assign substantial probability to many well-separated modes. Covering many modes therefore requires either sharp transitions in base space or off-support bridge regions in action space. Experiments on synthetic multimodal tasks and robotic simulation benchmarks support these mechanisms.",
+  "title_relatable": "Why robots struggle when multiple good actions look identical",
+  "hook": "When one observation has multiple correct solutions, action-chunking policies fail in predictable ways—posterior collapse or mode-blindness depending on the architecture.",
+  "summary": "Teaching robots by imitation fails when the same visual state allows many valid actions. This work maps exactly how two common policy designs break under multimodality: latent-variable models either collapse to a single mode or lose the ability to distinguish between them, while generative models struggle because smooth mappings cannot cover many separated solutions. Testing on robotic tasks confirms these failure modes are fundamental, not accidental.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 888,
+  "tokens_out": 163,
+  "cost_usd": 0.0013624000000000002,
+  "ingested_at": "2026-05-23T00:45:26.308316+00:00"
+}

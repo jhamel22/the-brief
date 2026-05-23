@@ -1,0 +1,23 @@
+{
+  "id": "2605.22504",
+  "arxiv_url": "https://arxiv.org/abs/2605.22504",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "LACO: Adaptive Latent Communication for Collaborative Driving",
+  "authors": "Tianhao Chen, Yuheng Wu, Dongman Lee",
+  "abstract": "Collaborative driving aims to improve safety and efficiency by enabling connected vehicles to coordinate under partial observability. Recent approaches have evolved from sharing visual features for perception to exchanging language-based reasoning through foundation models for behavioral coordination. Though communicating in language provides intuitive information, it introduces two challenges: high latency caused by autoregressive decoding and information loss caused by compressing rich internal representations into discrete tokens. To address these challenges, we analyze latent communication in collaborative driving under inherent limitations of multi-agent settings. Our analysis reveals agent identity confusion, where direct fusion of latent states entangles decision representations across vehicles. Motivated by this, we propose LACO, a training-free \\textbf{LA}tent \\textbf{CO}mmunication paradigm that seamlessly adapts pretrained driving models to collaborative settings. LACO introduces Iterative Latent Deliberation (ILD) for latent reasoning, Cross-Horizon Saliency Attribution (CHSA) for communication-efficient information selection, and Structured Semantic Knowledge Distillation (SSKD) to stabilize ego-centric decision making. Closed-loop experiments in CARLA show that LACO notably reduces communication and inference latency while maintaining strong collaborative driving performance.",
+  "title_relatable": "Teaching self-driving cars to talk without slowing down",
+  "hook": "Language-based coordination between vehicles is intuitive but slow. New method cuts latency while keeping collaborative driving performance intact—no retraining required.",
+  "summary": "Self-driving cars that coordinate with each other typically either share raw perception data (bulky) or exchange language (slow, lossy). This work identifies a specific failure mode—agent identity confusion when latent representations blend across vehicles—and proposes LACO, a training-free approach that adapts existing driving models to collaborate. Using three techniques (iterative deliberation, selective information transmission, and knowledge distillation), LACO cuts communication and inference latency on CARLA while maintaining safety and efficiency gains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 943,
+  "tokens_out": 189,
+  "cost_usd": 0.0015104,
+  "ingested_at": "2026-05-23T00:33:32.568371+00:00"
+}

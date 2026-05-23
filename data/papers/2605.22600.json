@@ -1,0 +1,22 @@
+{
+  "id": "2605.22600",
+  "arxiv_url": "https://arxiv.org/abs/2605.22600",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Branch-Stochastic Model Predictive Control for Motion Planning under Multi-Modal Uncertainty with Scenario Clustering",
+  "authors": "Zekun Xing, Ramkrishna Chaudhari, Marion Leibold, Dirk Wollherr, Martin Buss",
+  "abstract": "Motion planning for autonomous driving must account for multi-modal uncertainty in both the intentions and trajectories of surrounding vehicles. Handling uncertainty in a worst-case manner guarantees robustness but often leads to excessive conservatism. Stochastic Model Predictive Control (SMPC) reduces trajectory-level conservatism through chance constraints, yet remains conservative with respect to intention uncertainty since constraints must hold across all intentions. We present a novel combination of SMPC and the branching structure, enabling the planner to generate distinct trajectories for different possible intentions while maintaining safety under trajectory uncertainty. A novel scenario clustering is proposed to merge prediction scenarios based on high-level decision similarity, thereby ensuring real-time tractability. Furthermore, an adaptive branching-time computation postpones commitment to separate plans until intention uncertainty is sufficiently reduced. Simulation studies in challenging highway scenarios demonstrate that the proposed method improves safety, reduces conservatism, and achieves real-time computational performance.",
+  "title_relatable": "Planning safer autonomous driving by guessing multiple futures",
+  "hook": "Autonomous vehicles can now plan safer paths by branching into different strategies for different driver intentions, rather than assuming worst-case behavior—and still run in real time.",
+  "summary": "Self-driving cars must guess what other vehicles will do, then plan safely anyway. This work combines two proven techniques—stochastic model predictive control and branching decision trees—so the planner generates different trajectory options for different likely intentions while staying safe under trajectory uncertainty. A clustering method merges similar scenarios to keep computation tractable. Highway tests show it cuts excessive caution while maintaining safety and real-time speed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 902,
+  "tokens_out": 170,
+  "cost_usd": 0.0014015999999999998,
+  "ingested_at": "2026-05-23T00:43:57.946476+00:00"
+}

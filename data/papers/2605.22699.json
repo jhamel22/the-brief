@@ -1,0 +1,22 @@
+{
+  "id": "2605.22699",
+  "arxiv_url": "https://arxiv.org/abs/2605.22699",
+  "announced_date": "2026-05-21",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "An Analytics Framework for Modeling Residential Photovoltaic Adoption and Decision Dynamics",
+  "authors": "Canigó Callau-Boix, Raúl Toral, Pere Colet",
+  "abstract": "Photovoltaic generation plays a central role in the energy transition, yet understanding its adoption dynamics requires robust analytical frameworks that capture both temporal and spatial patterns of decision behavior. This study applies a data-driven decision analytics approach to examine residential self-consumption photovoltaic installations in Catalonia within an innovation diffusion framework. The temporal evolution of adoption is modeled using a logistic growth function, providing evidence that imitation effects are a primary driver of adoption decisions. To extend the analysis, a quantitative methodology is developed to estimate the influence of external factors on adoption behavior, revealing that social perception exerts a stronger impact than regulatory and socioeconomic variables when considered independently. In addition, a spatial analytics component is incorporated to assess territorial heterogeneity, identifying correlations between adoption patterns and demographic and socioeconomic characteristics. The findings contribute to predictive and diagnostic analytics by offering a structured framework to model technology diffusion and inform policy and investment decisions aimed at accelerating sustainable energy adoption.",
+  "title_relatable": "Why your neighbors installing solar panels matters more than subsidies",
+  "hook": "In Catalonia, social imitation drives rooftop solar adoption more than regulations or income levels.",
+  "summary": "Fitting a decade of residential solar installation data from Catalonia to a logistic growth model, the authors find that peer imitation—not government policy or household wealth—is the dominant force shaping adoption. Social perception outweighs regulatory and socioeconomic variables when tested independently, and adoption clusters spatially along demographic lines. The upshot for policymakers: seeding visible installations in well-connected communities may accelerate the energy transition faster than subsidies alone.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 920,
+  "tokens_out": 166,
+  "cost_usd": 0.00525,
+  "ingested_at": "2026-05-23T00:24:18.673431+00:00"
+}

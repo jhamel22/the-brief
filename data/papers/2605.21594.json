@@ -1,0 +1,23 @@
+{
+  "id": "2605.21594",
+  "arxiv_url": "https://arxiv.org/abs/2605.21594",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Exploring the SMEFT landscape: Bayesian Model Selection for indirect discovery",
+  "authors": "Luca Mantani",
+  "abstract": "We develop a framework for indirect discovery in the Standard Model Effective Field Theory (SMEFT) based on Bayesian model selection over operator subsets. We argue that SMEFT should be understood as a structured space of competing hypotheses rather than a single high-dimensional model, with each operator subset corresponding to a physically distinct low-energy realisation of new dynamics. Bayesian inference is applied at the level of model space itself, assigning posterior probabilities to operator subsets and marginal inclusion probabilities to individual operators. A genetic algorithm efficiently navigates the high-dimensional discrete model space, concentrating evaluations in the high-posterior region, while the Bayesian Information Criterion provides a tractable approximation to the Bayesian evidence. We apply this framework to a dataset comprising electroweak precision observables from LEP and Higgs, top-quark, and diboson measurements from LHC Run 2, at both linear and quadratic order in the Wilson coefficients, with one-loop renormalisation group evolution systematically included. The analysis finds no statistically significant evidence for any departure from the SM, and demonstrates that Bayesian Model Average posteriors on Wilson coefficients carry substantially improved characterisation potential compared to traditional global fits. The operator correlation matrix encodes the relational structure of the model posterior, identifying operator pairs that co-appear in high-posterior models and flat directions where additional measurements would be most valuable. The sensitivity of all results to the choice of matching scale $μ_0$ is assessed, and its promotion to a continuous parameter of inference is identified as a natural extension of the framework.",
+  "title_relatable": "What new physics is hiding in particle collider data?",
+  "hook": "A Bayesian approach to SMEFT treats competing operator subsets as rival hypotheses, revealing which combinations of new particles best fit LHC and LEP data.",
+  "summary": "Physicists developed a method to search for physics beyond the Standard Model by treating effective field theory as a landscape of competing operator combinations rather than a single unwieldy model. Using genetic algorithms and Bayesian statistics on LHC and LEP measurements, they mapped which operator pairs naturally co-appear in high-probability models and where new measurements would matter most. No signs of new physics emerged, but the framework identifies blind spots in current data and ranks competing hypotheses by evidence—a cleaner way to guide future experiments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1031,
+  "tokens_out": 194,
+  "cost_usd": 0.0016008,
+  "ingested_at": "2026-05-23T00:23:57.560146+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22344",
+  "arxiv_url": "https://arxiv.org/abs/2605.22344",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.MM"
+  ],
+  "title_original": "Bernini: Latent Semantic Planning for Video Diffusion",
+  "authors": " Bernini Team, Chenchen Liu, Junyi Chen, Lei Li, Lu Chi, Mingzhen Sun, Zhuoying Li, Yi Fu, Ruoyu Guo, Yiheng Wu, Ge Bai, Zehuan Yuan",
+  "abstract": "Multimodal large language models (MLLMs) and diffusion models have each reached remarkable maturity: MLLMs excel at reasoning over heterogeneous multimodal inputs with strong semantic grounding, while diffusion models synthesize images and videos with photorealistic fidelity. We argue that these two families can be unified through a simple division of labor: MLLMs perform semantic planning, while diffusion models render pixels from high-level semantic guidance and low-level visual features. Building on this idea, we propose Bernini, a unified framework for video generation and editing. An MLLM-based planner predicts the target semantic representation directly in the ViT embedding space, and a DiT-based renderer synthesizes pixels conditioned on this plan, augmented by text features and, for editing, source VAE features for detail preservation. Because semantics serve as the interface, the planner and renderer can be trained separately and only lightly co-trained, preserving the pretrained strengths of both components while keeping training efficient. To better handle multiple visual inputs, we introduce Segment-Aware 3D Rotary Positional Embedding (SA-3D RoPE), and further incorporate chain-of-thought reasoning in the planner to better transfer understanding into generation. Bernini achieves state-of-the-art performance across a wide range of video generation and editing benchmarks, with the MLLM's pretrained understanding translating into strong generalization on challenging editing tasks.",
+  "title_relatable": "Teaching two AIs to work together: planning then painting video",
+  "hook": "A framework splits video creation into two jobs—an AI reasons about what should happen, another draws it—achieving top benchmark results on generation and editing.",
+  "summary": "Bernini combines a language model (for planning what a video should contain) with a diffusion model (for actually generating pixels), letting each do what it does best. The language model predicts semantic layouts in image-embedding space, then the diffusion model renders realistic video from that plan plus text and visual details. Separate training keeps both components' original strengths intact while staying computationally efficient. Results lead on standard video benchmarks, especially for complex edits where semantic reasoning matters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1037,
+  "tokens_out": 184,
+  "cost_usd": 0.0015655999999999999,
+  "ingested_at": "2026-05-23T00:33:38.876636+00:00"
+}

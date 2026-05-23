@@ -1,0 +1,23 @@
+{
+  "id": "2605.21908",
+  "arxiv_url": "https://arxiv.org/abs/2605.21908",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Semileptonic sum rules in heavy-to-light charm decays",
+  "authors": "Motoi Endo, Syuhei Iguro, Satoshi Mishima, Takeru Uchiyama, Ryoutaro Watanabe",
+  "abstract": "We investigate semileptonic sum rules in heavy-to-light charm decays, motivated by analogous relations in $b \\to c$ and $b \\to u$ transitions. Focusing on the $c \\to d\\overline{\\ell}ν$ decays, $D \\to π\\overline{\\ell}ν$, $D \\to ρ\\overline{\\ell}ν$, and $Λ_c \\to n\\overline{\\ell}ν$, we examine a relation among their lepton-flavor universality ratios $R_H^{μe}$. Although the charm sum rule is less precise than the relations in bottom-hadron decays, current low-energy and high-$p_T$ constraints on new physics restrict the actual deviation from the relation to below the percent level. The relation can therefore provide a useful consistency check of charm semileptonic measurements. As an application, we derive a prediction for the yet-unmeasured ratio $R_n^{μe}$ in $Λ_c \\to n\\overline{\\ell}ν$.",
+  "title_relatable": "A consistency test hiding in charm decay measurements",
+  "hook": "Sum rules connecting three charm decays predict their lepton-flavor ratios should match—a prediction tight enough to catch new physics if measurements disagree.",
+  "summary": "Charm quarks decaying into lighter particles should obey mathematical relations that link their lepton-flavor-universality ratios, analogous to well-studied sum rules in bottom decays. The team shows these charm sum rules are less precise but still constrain deviations to below one percent, making them useful consistency checks. They also predict the lepton-flavor ratio for the unmeasured $Λ_c → n$ decay.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 977,
+  "tokens_out": 173,
+  "cost_usd": 0.0014735999999999998,
+  "ingested_at": "2026-05-23T00:23:51.713843+00:00"
+}

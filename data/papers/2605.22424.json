@@ -1,0 +1,24 @@
+{
+  "id": "2605.22424",
+  "arxiv_url": "https://arxiv.org/abs/2605.22424",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "math-ph"
+  ],
+  "title_original": "Long-range nonstabilizerness of topologically encoded states from mutual information",
+  "authors": "David Aram Korbany, Tyler D. Ellison, David T. Stephen, Lorenzo Piroli",
+  "abstract": "We study long-range nonstabilizerness (LRN), namely the obstruction to remove nonstabilizerness with shallow-depth local quantum circuits. In one-dimensional settings, the mutual information between disconnected spatial regions has proven to be a powerful tool to diagnose LRN. In this work, we focus on encoded states of two-dimensional topologically-ordered systems, and explore the ability of the mutual information to serve as a diagnostic of LRN. Focusing on the concrete setting of lattice models defined on a torus, we show that information about LRN can be gained from the analysis of the mutual information between non-overlapping regions containing non-contractible loops, and of the change of such mutual information under modular real-space transformations. We exemplify this idea in the toric code and the non-abelian string-net model with doubled Fibonacci topological order. In the former case, we show that the mutual information provides a full classification, certifying LRN for all encoded non-stabilizer states. In the latter case, instead, our approach does not lead to a full classification, as it detects LRN for all states except from a finite subset with special transformation properties under the modular group. Finally, we discuss how our results on LRN constrain the logical gates that can be implemented fault-tolerantly on the torus.",
+  "title_relatable": "Quantum magic in topological codes is harder to erase than expected",
+  "hook": "A new tool detects \"magic\" — the resource powering quantum advantage — in topological quantum error-correcting codes, with direct implications for fault-tolerant gates.",
+  "summary": "Some quantum states carry a property called \"magic\" (nonstabilizerness) that can't be removed by simple local operations — this is what makes quantum computers more powerful than classical ones. Using mutual information as a diagnostic, this work maps out which encoded states in 2D topological codes like the toric code retain long-range magic, and which logical gates can be implemented fault-tolerantly. The result tightly constrains what operations are achievable on a torus geometry without destroying the protected quantum information.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1005,
+  "tokens_out": 192,
+  "cost_usd": 0.005895,
+  "ingested_at": "2026-05-23T00:21:55.272866+00:00"
+}

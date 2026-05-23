@@ -1,0 +1,26 @@
+{
+  "id": "2605.22352",
+  "arxiv_url": "https://arxiv.org/abs/2605.22352",
+  "announced_date": "2026-05-21",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "math.ST",
+    "stat.AP",
+    "stat.CO",
+    "stat.ME"
+  ],
+  "title_original": "Spatiotemporal dynamics and ecological risk factors of highly pathogenic avian influenza A(H5N1) in Canadian wildlife: A One Health surveillance analysis",
+  "authors": "Hammed Olawale Fatoyinbo, Hoyeon Jeong",
+  "abstract": "Highly pathogenic avian influenza A(H5N1) has expanded geographically and ecologically, affecting wild birds, mammalian wildlife, domestic animals, and humans. Wildlife surveillance provides critical early warning for One Health preparedness, yet national-scale analyses integrating host ecology, spatial patterns, seasonality, viral lineage, and risk factors remain limited. This study analysed Canadian wildlife HPAI A(H5N1) surveillance records from 2022 to 2026 to characterise spatiotemporal dynamics and identify factors associated with detection counts. A retrospective analysis of 2,657 detections across 13 provinces and territories was conducted using descriptive epidemiology, spatial clustering methods, and Negative Binomial mixed models. Detections were predominantly avian, with waterfowl and raptors as the major host groups, while mammals accounted for a smaller but epidemiologically important proportion. Detection burden was highest in 2022, with increased activity in autumn and spring. Ontario, Alberta, and British Columbia were identified as major hotspots, with evidence of local clustering in parts of the Prairie region. Reassortant Eurasian-North American lineages dominated detections and were strongly associated with higher detection counts. Modelling results identified year, season, and lineage as key predictors. These findings support risk-based One Health surveillance prioritising high-burden regions, migration-associated periods, key avian host groups, reassortant viral lineages, and continued monitoring of mammalian wildlife.",
+  "title_relatable": "Where bird flu spreads in Canada—and when to worry most",
+  "hook": "H5N1 is jumping between wild birds, mammals, and domestic animals across Canada. Mapping where and when it strikes could save lives.",
+  "summary": "Researchers analyzed 2,657 H5N1 detections in Canadian wildlife from 2022–2026, finding waterfowl and raptors carry most infections, with hotspots in Ontario, Alberta, and British Columbia. Cases peaked in 2022 and spiked during spring and autumn migration seasons. Dangerous reassortant virus strains spread fastest, suggesting surveillance should focus on migration routes, specific bird species, and mammal spillover to predict outbreaks before they reach farms or cities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 752,
+  "tokens_out": 194,
+  "cost_usd": 0.0013775999999999999,
+  "ingested_at": "2026-05-23T00:47:21.532291+00:00"
+}

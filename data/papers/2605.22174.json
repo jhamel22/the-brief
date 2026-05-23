@@ -1,0 +1,24 @@
+{
+  "id": "2605.22174",
+  "arxiv_url": "https://arxiv.org/abs/2605.22174",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Dark photon -- Assisted Primordial Magnetogenesis",
+  "authors": "Debottam Nandi, Debajyoti Choudhury",
+  "abstract": "Magnetic fields observed across cosmic scales are difficult to explain within conventional physics. A primordial origin is, thus, often assumed. While a nonminimal coupling of the inflaton with the electromagnetic field could theoretically generate magnetic fields of about $10^{-13}$ G, this approach faces significant issues, including strong-coupling and backreaction problems. ``Dark photons\", arising naturally in hidden-sector extensions of the Standard Model, provide a well-motivated framework for addressing various cosmic as well as particle physics issues. We demonstrate that coupling dark photons with standard ones can result in adequate magnetogenesis without the limitations of existing models. This minimal mechanism may also provide insights into unresolved cosmic mysteries.",
+  "title_relatable": "Dark photons could explain magnetic fields threading the entire cosmos",
+  "hook": "Ordinary inflation struggles to seed cosmic magnetic fields — borrowing a hidden-sector particle fixes two problems at once.",
+  "summary": "Cosmic magnetic fields spanning galaxy clusters and voids have no clean explanation in standard physics, and previous inflation-based mechanisms run into mathematical breakdowns. Coupling ordinary photons to 'dark photons' — hypothetical hidden-sector partners — sidesteps these failures and can generate fields of at least 10⁻¹³ Gauss without the strong-coupling or backreaction problems that plague existing models. If confirmed, the same minimal extension of electromagnetism could also address other open puzzles in cosmology.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 850,
+  "tokens_out": 181,
+  "cost_usd": 0.005265,
+  "ingested_at": "2026-05-23T00:17:43.512328+00:00"
+}

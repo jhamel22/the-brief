@@ -1,0 +1,22 @@
+{
+  "id": "2605.22662",
+  "arxiv_url": "https://arxiv.org/abs/2605.22662",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Claw AI Lab: An Autonomous Multi-Agent Research Team",
+  "authors": "Fan Wu, Cheng Chen, Zhenshan Tan, Taiyu Zhang, Xinzhen Xu, Yanyu Qian, Dingcheng Gao, Lanyun Zhu, Qi Zhu, Yi Tan, Deyi Ji, Guosheng Lin, Tianrun Chen, Deheng Ye, Fayao Liu",
+  "abstract": "We present Claw AI Lab, a lab-native autonomous research platform that advances automated research from a hidden prompt-to-paper pipeline into an interactive AI laboratory. Rather than centering the system around a single agent or a fixed serial workflow, we allow users to instantiate a full research team from one prompt, with customizable roles, collaborative workflows, real-time monitoring, artifact inspection, and rollback/resume control through a unified dashboard. The platform also supports distinct research modes for exploration, multi-agent discussion, and reproduction, making autonomous research substantially more steerable and laboratory-like in practice. A key practical contribution of Claw AI Lab lies in its Claw-Code Harness, which connects local codebases, datasets, and checkpoints to runnable experiments and feeds execution artifacts back into the research loop. As a result, the harness improves not only execution integration, but also experimental completion and result integrity: experiments are easier to inspect, iterate on, and faithfully transfer into final papers, reducing common failure modes such as partial runs and malformed result reporting. In our internal evaluation on five AI research case studies, using AutoResearchClaw as the baseline, Claw AI Lab is consistently preferred by AI expert judges on idea novelty, experiment completeness, and paper presentation quality. We view Claw AI Lab as an early step toward a new paradigm: autonomous research as usable, interactive, and reliability-aware scientific infrastructure.",
+  "title_relatable": "Building a laboratory for AI research teams that work themselves",
+  "hook": "A platform lets researchers assemble autonomous AI teams that collaborate, experiment, and write papers—with real-time control and the ability to rewind failed runs.",
+  "summary": "Claw AI Lab turns autonomous research from a black-box prompt-to-paper process into an interactive lab where users assemble customizable AI research teams with distinct roles and workflows. The system's key innovation is the Claw-Code Harness, which connects local code, datasets, and checkpoints directly into experiments and feeds results back for iteration—eliminating the failure modes of partial runs and mismatched reporting. On five AI research case studies, expert judges rated Claw consistently higher than baselines on idea novelty, experiment completeness, and paper quality.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1045,
+  "tokens_out": 202,
+  "cost_usd": 0.001644,
+  "ingested_at": "2026-05-23T00:31:59.411817+00:00"
+}

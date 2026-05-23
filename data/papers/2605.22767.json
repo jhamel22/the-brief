@@ -1,0 +1,22 @@
+{
+  "id": "2605.22767",
+  "arxiv_url": "https://arxiv.org/abs/2605.22767",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Synthetic Data Alone is Enough? Rethinking Data Scarcity in Pediatric Rare Disease Recognition",
+  "authors": "Ganlin Feng, Yuxi Long, Erin Lou, Lianghong Chen, Zihao Jing, Pingzhao Hu, Wei Xu",
+  "abstract": "Children with rare genetic diseases often exhibit distinctive facial phenotypes, yet developing computer vision systems for early diagnosis remains challenging due to extreme data scarcity, privacy constraints, and limited data sharing in pediatric settings. These challenges not only hinder automated diagnosis but also restrict the availability of visual resources for clinical genetic counseling. While prior work has shown that synthetic data can augment real datasets and preserve phenotype-level semantics, it remains unclear whether synthetic data alone is sufficient for learning in ultra-low-resource pediatric settings. In this work, we study the synthetic-only regime for pediatric rare disease recognition. Under a controlled experimental setup, models are trained exclusively on phenotype-aware synthetic facial images at increasing scales. We find that synthetic-only training achieves performance comparable to real-data-only baselines at sufficient scale across multiple backbones, suggesting that high-fidelity synthetic data can approximate clinically meaningful distributions. These findings together further enable the use of synthetic pediatric facial images as privacy-preserving resources for genetic education and counseling, supporting clinician training and patient communication. Our results highlight the potential of computer vision to improve data efficiency and expand accessible visual tools in children's healthcare.",
+  "title_relatable": "Can AI learn rare childhood diseases from fake faces alone?",
+  "hook": "Synthetic facial images match real data for diagnosing rare genetic diseases in children, offering a privacy-safe alternative for clinical training without exposing patient identities.",
+  "summary": "Diagnosing rare genetic diseases in children from facial features is powerful but nearly impossible—there's almost no real training data due to privacy rules and the diseases' rarity. Researchers trained computer vision models exclusively on high-quality synthetic faces and found they performed as well as models trained on real pediatric images across multiple architectures. The synthetic-only approach solves a genuine clinical bottleneck: it enables privacy-preserving visual resources for genetic counseling and clinician education without requiring access to actual patient photos.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 953,
+  "tokens_out": 191,
+  "cost_usd": 0.0015264,
+  "ingested_at": "2026-05-23T00:39:18.680090+00:00"
+}

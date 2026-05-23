@@ -1,0 +1,24 @@
+{
+  "id": "2605.22329",
+  "arxiv_url": "https://arxiv.org/abs/2605.22329",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Vector modes in Type 3 New GR",
+  "authors": "Alexey Golovnev",
+  "abstract": "Some time ago, we published the full count of degrees of freedom in the linearised weak gravity limit of arbitrary New GR models. We did it by considering the linear equations of motion and presented a thorough analysis with no ambiguity left. A bit later, we generalised it to linear cosmological perturbations and discussed the strong coupling issues that appear already at this level. Recently, there were claims that some dynamical modes had been missed in our work. However, the authors of the new claims did not look at the equations of motion and analysed the quadratic Lagrangian densities instead. In this paper, I take one of the most elementary cases, namely the vector modes in New GR of Type 3, and show what was their mistake that had led them to claiming that those were dynamical. The main message: Do not substitute constraint equations into a Lagrangian.",
+  "title_relatable": "A cautionary tale about substituting constraints into Lagrangians",
+  "hook": "A dispute over hidden gravitational degrees of freedom turns on a basic but easy-to-miss Lagrangian mistake.",
+  "summary": "A recent paper claimed to find dynamical vector modes in a modified gravity framework called New General Relativity that earlier work had missed. Here, Golovnev works through the simplest case — vector perturbations in Type 3 New GR — and shows the new claim arose from incorrectly substituting constraint equations directly into the Lagrangian before varying it, a procedure that can spuriously promote non-dynamical modes into apparent degrees of freedom. The lesson matters broadly: counting gravitational degrees of freedom is surprisingly easy to get wrong, with real consequences for which modified gravity theories are considered viable.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 874,
+  "tokens_out": 201,
+  "cost_usd": 0.005637,
+  "ingested_at": "2026-05-23T00:17:12.314681+00:00"
+}

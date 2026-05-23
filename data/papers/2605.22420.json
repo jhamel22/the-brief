@@ -1,0 +1,24 @@
+{
+  "id": "2605.22420",
+  "arxiv_url": "https://arxiv.org/abs/2605.22420",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Diffusion-guided Generalizable Enhancer for Urban Scene Reconstruction",
+  "authors": "Henry Che, Jingkang Wang, Yun Chen, Ze Yang, Sivabalan Manivasagam, Raquel Urtasun",
+  "abstract": "Urban scene reconstruction from real-world observations has emerged as a powerful tool for self-driving development and testing. While current neural rendering approaches achieve high-fidelity rendering along the recorded trajectories, their quality degrades significantly under large viewpoint shifts, limiting the applicability for closed-loop simulation. Recent works have shown promising results in using diffusion models to enhance quality at these challenging viewpoints and distill improvements back into 3D representations. However, they often require costly per-scene optimization, and the distilled representations remain fragile and fail to generalize beyond limited synthesized views. To address these limitations, we propose GenRe, a novel diffusion-guided generalizable enhancer for urban scene reconstruction. GenRe takes as input any pretrained 3D Gaussian representation and fixes the deficiencies within a few minutes. By learning to distill generative priors across diverse scenes, GenRe produces robust and high-fidelity representation efficiently that generalizes reliably to challenging unseen viewpoints (e.g., lane change). Experiments show that GenRe outperforms existing methods in both quality and efficiency and benefits various downstream tasks, enabling robust and scalable sensor simulation for autonomous driving.",
+  "title_relatable": "Teaching 3D scenes to handle tricky camera angles",
+  "hook": "A method that fixes blurry 3D reconstructions of city streets in minutes, generalizing to extreme viewpoint shifts without per-scene retraining.",
+  "summary": "Urban scene reconstruction from camera footage works great along recorded paths but falls apart when the viewpoint shifts dramatically—a critical problem for autonomous vehicle simulation. GenRe solves this by using diffusion models to distill generative priors into existing 3D Gaussian representations, improving quality and robustness in under 5 minutes per scene. Unlike prior methods, it generalizes reliably to unseen extreme angles (like lane changes) across diverse urban environments, enabling more robust closed-loop simulation for self-driving development.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 945,
+  "tokens_out": 193,
+  "cost_usd": 0.001528,
+  "ingested_at": "2026-05-23T00:42:31.722377+00:00"
+}

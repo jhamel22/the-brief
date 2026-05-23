@@ -1,0 +1,23 @@
+{
+  "id": "2605.21823",
+  "arxiv_url": "https://arxiv.org/abs/2605.21823",
+  "announced_date": "2026-05-20",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Maximal extension of Schwarzschild-like spacetimes in Lorentz gauge theory",
+  "authors": "Mohsen Fathi",
+  "abstract": "We study the maximal analytic extension of the Schwarzschild-like black hole solution in Lorentz gauge theory. The lapse function is $f(r)=A_0^{-2}-2\\m/r$, so the horizon is located at $r_+=2\\m A_0^2$ and the non-affinity coefficient of the horizon generator is $κ=1/(4\\m A_0^4)$. We first analyze the radial null curves in the Schwarzschild-Droste (SD) and ingoing Eddington-Finkelstein (IEF) charts, and then construct the Kruskal-Szekeres (KS) chart adapted to the LGT geometry. The KS extension contains two exterior regions, a black-hole region and a white-hole region. We also present the standard and regular Carter-Penrose (CP) compactifications. The conformal skeleton is Schwarzschild-like, but the physical scale of the horizon, the surface gravity and the constant-radius curves remain controlled by $A_0$. Hence the solution has the same causal topology as Schwarzschild, while it is geometrically inequivalent to it when $A_0\\neq1$.",
+  "title_relatable": "A tweaked black hole that looks like Schwarzschild but isn't",
+  "hook": "Lorentz gauge theory produces a black hole with Schwarzschild's causal structure but different physical scale — controlled by a single new parameter.",
+  "summary": "In Lorentz gauge theory, the simplest black hole solution resembles Schwarzschild but has its horizon size and surface gravity rescaled by a parameter A₀. Working through the standard toolkit — Eddington-Finkelstein, Kruskal-Szekeres, and Carter-Penrose diagrams — the analysis confirms the causal skeleton is identical to Schwarzschild (same two exteriors, black-hole and white-hole regions), yet the geometry is physically distinct whenever A₀ ≠ 1. This means Lorentz gauge black holes could in principle be distinguished from general-relativistic ones through measurements sensitive to surface gravity or horizon scale.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 979,
+  "tokens_out": 231,
+  "cost_usd": 0.006402,
+  "ingested_at": "2026-05-23T00:18:43.515014+00:00"
+}

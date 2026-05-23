@@ -1,0 +1,23 @@
+{
+  "id": "2605.21743",
+  "arxiv_url": "https://arxiv.org/abs/2605.21743",
+  "announced_date": "2026-05-20",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.AI",
+    "econ.GN"
+  ],
+  "title_original": "Who Uses AI? Platforms, Workforce, and AI Exposure",
+  "authors": "Michelle Yin, Burhan Ogut",
+  "abstract": "A growing literature uses artificial intelligence platform conversation logs to measure occupation exposure. We show that these scores partly measure platform user base rather than the workforce. Holding outcome, sample, controls, and estimator fixed while varying only the platform input changes the post-ChatGPT employment coefficient by a factor of 1.9, and within-vendor consumer-versus-enterprise channels produce estimates that disagree in sign. Reweighting to Bureau of Labor Statistics workforce shares attenuates estimates by 42 to 93 percent. We formalize the non-classical measurement error, derive probability limits and partial-identification bounds for employment elasticities. The bias understates substitution more than augmentation.",
+  "title_relatable": "Which AI tool you ask changes everything about job impact studies",
+  "hook": "Researchers discovered that AI exposure scores measuring job automation risk depend heavily on which chatbot's users you study, not actual workforce vulnerability.",
+  "summary": "Using ChatGPT conversation logs to measure job automation risk, economists found that switching between different AI platforms changes employment impact estimates by nearly twofold—because platforms attract different users, not because jobs face different risks. Adjusting for actual workforce composition shrinks estimates by 42-93%. The flaw matters because it systematically understates how much AI will replace workers versus augment them.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 542,
+  "tokens_out": 160,
+  "cost_usd": 0.0010735999999999999,
+  "ingested_at": "2026-05-23T00:48:25.138208+00:00"
+}

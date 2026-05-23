@@ -1,0 +1,22 @@
+{
+  "id": "2605.22791",
+  "arxiv_url": "https://arxiv.org/abs/2605.22791",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+  "authors": "Ali Hatamizadeh, Yejin Choi, Jan Kautz",
+  "abstract": "Linear attention replaces the unbounded cache of softmax attention with a fixed-size recurrent state, reducing sequence mixing to linear time and decoding to constant memory. The hard part is not just what to forget, but how to edit this compressed memory without scrambling existing associations. Delta-rule models subtract the current read before writing a new value, and Kimi Delta Attention (KDA) sharpens forgetting with channel-wise decay. But the active edit still uses a single scalar gate to control two different things: how much old content to erase on the key side and how much new content to commit on the value side. We introduce Gated DeltaNet-2, which generalizes both Gated DeltaNet and KDA by inheriting adaptive forgetting and channel-wise decay while addressing their shared limitation, the scalar tie between erasing and writing. Gated Delta Rule-2 separates these roles with a channel-wise erase gate b_t and a channel-wise write gate w_t, reducing to KDA when both gates collapse to the same scalar and to Gated DeltaNet when the decay also collapses. We derive a fast-weight update view, a chunkwise WY algorithm with channel-wise decay absorbed into asymmetric erase factors, and a gate-aware backward pass that preserves efficient parallel training. At 1.3B parameters trained on 100B FineWeb-Edu tokens, Gated DeltaNet-2 achieves the strongest overall results among Mamba-2, Gated DeltaNet, KDA, and Mamba-3 variants across language modeling, commonsense reasoning, and retrieval. Its advantage is most pronounced on long-context RULER needle-in-a-haystack benchmarks, where it improves the evaluated multi-key retrieval setting and remains strong in both recurrent and hybrid settings. Code is available at https://github.com/NVlabs/GatedDeltaNet-2.",
+  "title_relatable": "Separating forget and remember in fast attention mechanisms",
+  "hook": "A new linear attention model that independently controls what to erase and what to write beats Mamba-2/3 on long-context retrieval and language modeling at 1.3B scale.",
+  "summary": "Linear attention speeds up transformers by replacing their expensive attention cache with a fixed-size memory that updates in constant time. The challenge: editing this compressed memory without corrupting what's already stored. Gated DeltaNet-2 decouples two operations—erasing old content and writing new content—with separate learnable gates per channel, generalizing prior approaches (Gated DeltaNet and Kimi Delta Attention). Testing on 100B tokens, it outperforms Mamba-2/3 on language modeling, reasoning, and especially long-context retrieval benchmarks, with code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1118,
+  "tokens_out": 224,
+  "cost_usd": 0.0017904000000000002,
+  "ingested_at": "2026-05-23T00:33:45.235553+00:00"
+}

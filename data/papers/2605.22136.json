@@ -1,0 +1,22 @@
+{
+  "id": "2605.22136",
+  "arxiv_url": "https://arxiv.org/abs/2605.22136",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "There and back again: Mysterious optical pulse profile behavior of the transitional millisecond pulsar PSR J1023+0038",
+  "authors": "S. V. Karpov, Artyom S. Tanashkin, G. M. Beskin, V. L. Plokhotnichenko, Y. A. Shibanov, D. A. Zyuzin",
+  "abstract": "Neutron stars in close binary systems have the potential to spin up to millisecond periods due to the accretion of matter and angular momentum from their low-mass companions. In later stages of this process, they sometimes start to swing between the accretion-powered and rotation-powered regimes, manifesting themselves as low-mass X-ray binaries and millisecond radio pulsars, respectively. Such systems are known as transitional millisecond pulsars. PSR J1023+0038 was the first one of this kind to be discovered and the first to show optical pulsations at the rotation frequency of the neutron star during a peculiar low accretion state. The optical pulse profile is characterized by a smooth double-peaked shape resembling thermal light curves of X-ray pulsars, but more likely emerging from re-emission of the pulsar wind energy by charged particles in the surrounding medium. Although the amplitudes of the peaks show strong variability, the overall structure of the pulse profile was observed to be fixed, with the optical pulsed fraction less than 1 percent. Here, we report time-resolved observation of a dramatic violation of this permanence during our high temporal resolution observations of PSR J1023+0038 with the 6-m BTA telescope of the Special Astrophysical Observatory. On a timescale of a few seconds the pulse profile took a single-peaked, nearly sinusoidal shape, with synchronous magnification of the pulsed fraction up to about 5 percent. After spending about 220 seconds in this new regime, accompanied by flaring activity, the system returned to its normal state. We discuss a number of possible explanations of this peculiar behavior in the context of the physics and geometry of interactions between the pulsar wind and surrounding matter. However, a complete picture is yet to be revealed.",
+  "title_relatable": "A millisecond pulsar's optical pulse suddenly changed shape—then switched back",
+  "hook": "During a 3-minute window, the optical signal from a neutron star swapped its double-peaked profile for a single peak five times brighter, then reverted to normal.",
+  "summary": "PSR J1023+0038, a transitional millisecond pulsar, normally shows a stable double-peaked optical pulse with 0.3% brightness variation. Using the 6-m BTA telescope, observers caught the system flip to a single sinusoidal peak with 5% pulsed fraction for 220 seconds before returning to baseline. The shift suggests a sudden change in how the pulsar's wind interacts with surrounding material, but the mechanism remains unclear.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1157,
+  "tokens_out": 197,
+  "cost_usd": 0.0017135999999999998,
+  "ingested_at": "2026-05-23T00:25:31.715697+00:00"
+}

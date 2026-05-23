@@ -1,0 +1,23 @@
+{
+  "id": "2605.22617",
+  "arxiv_url": "https://arxiv.org/abs/2605.22617",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.SR",
+    "astro-ph.HE"
+  ],
+  "title_original": "Search for radio polarization in the particle-accelerating colliding-wind binaries WR 147 and HD 167971",
+  "authors": "A. B. Blanco, M. De Becker, P. Benaglia, S. del Palacio",
+  "abstract": "Particle-accelerating colliding-wind binaries (PACWBs) are multiple systems of massive stars in which strong stellar winds collide, accelerating particles to relativistic energies. This population of relativistic particles emits NT radiation, including synchrotron radiation in the radio domain. This emission is expected to be linearly polarized, but the polarization signature has not yet been detected for a PACWB. Our objective is to quantify the linear polarization of synchrotron radiation in two well-known PACWBs and to interpret our measurements within the framework of the physics of these specific NT emitters. We observed the PACWBs WR 147 and HD 167971 with the Very Large Array (VLA) radio interferometer in the frequency bands L and C (1-2 and 4-8 GHz, respectively), where synchrotron emission is expected to be more prominent. We performed polarization calibration and analyzed the resulting Stokes maps. We did not detect any polarization signature for either of the two targets in either of the two bands, even when considering narrower bands to mitigate the effect of bandpass depolarization. The most conservative upper limit on the polarization degree is on the order of 1% for both targets. The lack of linear polarization for the two targets is likely attributable to a combination of effects, including the turbulent nature of the magnetic field in the synchrotron-emitting region, and depolarization processes based on Faraday rotation that are certainly active in these sources. Their complex geometry, unresolved by the VLA at these frequencies, is most likely to lead to beam depolarization. We emphasize that, in contrast to other canonical synchrotron sources, PACWBs are also subject to thermal dilution. This is especially relevant for systems with stars whose winds are strong enough to contribute copiously to thermal emission, such as those harboring a Wolf-Rayet component.",
+  "title_relatable": "Why can't we see polarized light from colliding stellar winds?",
+  "hook": "Two massive star systems that accelerate particles to extreme speeds should emit polarized radio waves—but observations find none, revealing hidden complexity in these cosmic particle accelerators.",
+  "summary": "Colliding winds from massive stars create turbulent regions that accelerate particles to near light speed, producing radio synchrotron emission that should be strongly polarized. VLA observations of two well-studied systems found polarization signals below 1%—far lower than expected. The culprits: tangled magnetic fields, depolarization from spinning electrons, and an overlooked thermal fog that drowns out the polarized signal.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1155,
+  "tokens_out": 177,
+  "cost_usd": 0.001632,
+  "ingested_at": "2026-05-23T00:25:00.776818+00:00"
+}

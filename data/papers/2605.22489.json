@@ -1,0 +1,22 @@
+{
+  "id": "2605.22489",
+  "arxiv_url": "https://arxiv.org/abs/2605.22489",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Machine Learning Techniques for Astrophysics and Cosmology: Lyman-$α$ forest",
+  "authors": "Jonás Chaves-Montero",
+  "abstract": "The Lyman-$α$ forest refers to the series of absorption features observed in the spectra of distant quasars that are produced by neutral hydrogen in the intergalactic medium. Observed over a wide range of redshifts with both ground- and space-based facilities, the Lyman-$α$ forest provides a powerful probe of numerous physical processes, including the thermal state of intergalactic gas, the timing and topology of cosmic reionization, the expansion history of the Universe, the growth of cosmic structure, massive neutrinos, and the nature of dark matter. This chapter reviews the transformative impact of machine-learning techniques on Lyman-$α$ forest analyses, particularly in overcoming the computational and methodological limitations of traditional approaches. We discuss a broad range of machine-learning applications, including the automated characterization of individual absorption systems, improved reconstruction of the intrinsic quasar continuum, accelerated emulation of hydrodynamical simulations, and the development of simulation-based analyses, field-level inference methods, and three-dimensional reconstruction techniques for the underlying matter density field. As current and upcoming surveys continue to increase both the volume and precision of Lyman-$α$ forest observations, ML-driven pipelines are becoming an essential component of next-generation astrophysical and cosmological analyses.",
+  "title_relatable": "Machine learning decodes the universe's oldest light: what hydrogen absorption tells us",
+  "hook": "A tutorial on how neural networks are accelerating analysis of the Lyman-α forest—the absorption shadows that reveal dark matter, neutrinos, and cosmic reionization.",
+  "summary": "The Lyman-α forest is a thicket of absorption lines in quasar spectra that encodes information about dark matter, intergalactic gas, and the Universe's expansion history. Machine learning has transformed analysis by automating system detection, reconstructing quasar light, speeding up simulations by orders of magnitude, and enabling field-level inference that treats the forest holistically rather than absorption line by line. As new surveys produce torrents of data, these ML pipelines are becoming essential—not optional—for squeezing cosmological constraints from the signal.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 988,
+  "tokens_out": 213,
+  "cost_usd": 0.0016424,
+  "ingested_at": "2026-05-23T00:22:26.205044+00:00"
+}

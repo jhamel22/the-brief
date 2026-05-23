@@ -1,0 +1,24 @@
+{
+  "id": "2605.22635",
+  "arxiv_url": "https://arxiv.org/abs/2605.22635",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution",
+  "authors": "Erjian Zhang, Yatong Hao, Liejun Wang, Zhiqing Guo",
+  "abstract": "While multi-task learning based automatic radiology report generation (RRG) is widely adopted to ensure clinical consistency, most focus on architectural designs yet remain limited to coarse linear scalarization strategies. These strategies cannot effectively balance the hard constraints of discriminative clinical supervision with the smoothness requirements of report generation. To address these problems, we analyze the failure mechanism of linear scalarization from the perspective of gradient dynamics, utilizing the stochastic differential equation (SDE) framework to characterize it as a \"Double Dilemma\" of drift term deviation and diffusion term decay. Based on this, we propose a backbone-agnostic optimizer named Conflict-Averse Magnitude-Enhanced Gradient Descent (CAME-Grad). Through conflict-averse direction rectification and magnitude-enhanced energy injection, the algorithm not only ensures geometric validity, but also avoids local optimal solutions. Then, the adaptive gradient fusion mechanism is used to establish a dynamic balance between the theoretical optimal direction and the task-specific inductive bias. Experiments show that as a universal plug-and-play optimizer, CAME-Grad brings substantial and consistent improvements across eight diverse RRG methods, elevating overall clinical efficacy performance by an average of 2.3\\% on MIMIC-CXR and 1.9\\% on IU X-Ray. Our code is available at https://github.com/vpsg-research/CAME-Grad.",
+  "title_relatable": "Balancing conflicting demands in medical image report writing",
+  "hook": "Multi-task learning struggles to juggle clinical accuracy and readable text—a new optimizer fixes this with 2.3% improvement across eight methods.",
+  "summary": "Automatic radiology report generation needs to satisfy two competing demands: match clinical labels precisely and generate fluent natural language. Standard multi-task learning uses simple weighted averaging, which fails because these goals push gradients in opposite directions. The authors diagnose this as a \"Double Dilemma\" using differential equation theory, then propose CAME-Grad, an optimizer that redirects conflicting gradients and dynamically balances task demands. Tested on eight existing methods across two datasets, it consistently improves clinical metrics by 2–2.3% without changing underlying architectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 997,
+  "tokens_out": 202,
+  "cost_usd": 0.0016056,
+  "ingested_at": "2026-05-23T00:39:24.768210+00:00"
+}

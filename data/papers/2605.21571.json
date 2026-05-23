@@ -1,0 +1,23 @@
+{
+  "id": "2605.21571",
+  "arxiv_url": "https://arxiv.org/abs/2605.21571",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Astrophysical Signature and Optical Appearance of Weyl--Corrected Einstein--Maxwell Black Holes",
+  "authors": "Hassan Hassanabadi, Mrinnoy M. Gohain, Kalyan Bhuyan, Farokhnaz Hosseinifar",
+  "abstract": "In this work, we delve into the physics of charged black holes modified by Weyl corrections, a framework that emerges from the subtle non--minimal coupling between spacetime curvature and electromagnetism. We begin by revisiting the thermodynamics of these cases, where we derive the Hawking temperature, entropy, and heat capacity to see how the Weyl correction parameter reshapes the landscape of thermal stability and phase transitions. Then, we apply the winding number method to classify the thermodynamic states of the system from a topological perspective and show the effect of the Weyl modifications on the universal classification of the Wey--corrected black hole. Moving beyond pure theory and into the realm of astrophysics, we study the motion of massless particles affected by the Weyl correction for the two photon polarization, and by exploring the shadow, we find constraints of the black hole parameters. Also, we study the null trajectories for the two photon polarization of the Weyl--corrected black hole. Finally, we model the accretion disk around these black holes. By calculating the energy flux, spectral luminosity, and differential luminosity, we show how these corrections leave a detectable trace on the light we might observe.",
+  "title_relatable": "Can we spot modified black holes by watching how light bends around them?",
+  "hook": "Weyl corrections to Einstein's equations would leave a signature in black hole shadows and accretion disk emission—providing a way to test whether spacetime really couples to electromagnetism in exotic ways.",
+  "summary": "Weyl-corrected Einstein-Maxwell black holes emerge from a modified theory coupling spacetime curvature to electromagnetic fields. The authors mapped how this correction alters black hole thermodynamics and stability, then predicted observable signatures: distorted photon shadows and altered accretion disk brightness patterns that could distinguish these objects from ordinary charged black holes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 998,
+  "tokens_out": 168,
+  "cost_usd": 0.0014704000000000002,
+  "ingested_at": "2026-05-23T00:19:51.130199+00:00"
+}

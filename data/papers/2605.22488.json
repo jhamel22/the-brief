@@ -1,0 +1,22 @@
+{
+  "id": "2605.22488",
+  "arxiv_url": "https://arxiv.org/abs/2605.22488",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Represented Is Not Computed: A Causal Test of Candidate Algorithmic Intermediates in a Transformer",
+  "authors": "Ishita Darade, Sushrut Thorat",
+  "abstract": "Structured prompts require integrating components according to task-relevant relations. How a network implements this integration is often hard to judge in language or vision, where those relations are rarely specified precisely enough to define a candidate internal algorithm. Arithmetic offers a cleaner setting. We study a Transformer trained on base-digit extraction: given $N$, $B$, and $D$, it must report the coefficient of $B^D$ in the base-$B$ expansion of $N$. The closed-form solution, $\\lfloor N/B^D \\rfloor \\bmod B$, provides explicit candidate algorithmic intermediates. Across three seeds, the model reaches 99.83% exact-answer accuracy on held-out number-base intersections, establishing reliable task competence. Linear probes decode the intermediates, making staged arithmetic computation plausible. Causal tests then separate representation from use: within the localized route from the stream with $D$ as input to the output positions, behavior depends on early $D$-selective communication, independent of $N$ and $B$. Relatedly, a sparse circuit search finds mostly separate $N$, $B$, and $D$ routes that combine late rather than the staged route suggested by the probes. Thus, the model represents the intermediates that make the closed-form solution plausible, but the identified localized causal route does not transmit them to the output stream. This case shows that probe-based conclusions can diverge sharply from causal observations, even when explicit algorithmic hypotheses are available.",
+  "title_relatable": "What transformers actually compute vs. what they represent",
+  "hook": "Linear probes suggest a transformer solves arithmetic step-by-step, but causal interventions reveal it computes something entirely different.",
+  "summary": "Transformers trained on base-digit extraction (e.g., finding the coefficient of B^D in N's base-B representation) achieve 99.83% accuracy and appear to implement the closed-form algorithm. Linear probes successfully decode intermediate values that match this solution, but causal circuit analysis shows the model doesn't actually use them—it routes information through separate, late-combining pathways instead. The work demonstrates that internal representations and causal computation can diverge sharply, even with explicit algorithmic ground truth available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1019,
+  "tokens_out": 189,
+  "cost_usd": 0.0015712,
+  "ingested_at": "2026-05-23T00:27:27.521510+00:00"
+}

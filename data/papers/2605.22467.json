@@ -1,0 +1,22 @@
+{
+  "id": "2605.22467",
+  "arxiv_url": "https://arxiv.org/abs/2605.22467",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SADGE: Structure and Appearance Domain Gap Estimation of Synthetic and Real Data",
+  "authors": "Patryk Bartkowiak, Bartosz Kotrys, Dominik Michels, Soren Pirk, Wojtek Palubicki",
+  "abstract": "We propose SADGE, a quantitative similarity metric that predicts the performance of synthetic image datasets for common computer vision tasks without downstream model training. Estimating whether a synthetic dataset will lead to a model that performs well on real-world data remains a bottleneck in model development. Existing evaluation metrics (e.g., PSNR, FID, CLIP) primarily measure semantic alignment between real and synthetic images (Appearance Similarity Score). Less commonly, structural similarity between images is considered to assess the domain gap (Geometric Similarity Score). However, to the best of our knowledge there exists no studies that evaluate which similarity metric is the best downstream predictor for a given synthetic dataset. In this paper, we show over a wide variety of different synthetic datasets and downstream tasks that neither appearance nor geometry alone can reliably predict downstream performance; rather, it is their non-linear interplay that dictates synthetic data utility. Specifically, we measure how commonly used Appearance and Geometric Similarity metrics computed between synthetic and real images correlate with downstream performance in object detection, semantic segmentation, and pose estimation. Across five public synthetic-to-real benchmark families and 15 dataset-level variants (79k image pairs), SADGE achieves the strongest association with downstream transfer performance under both linear and rank-based criteria, reaching Pearson r=0.88 and Spearman rho=0.77. We compute for each combination of geometry-based methods and appearance-based approaches SADGE scores across all benchmark families. The best configuration is obtained by fusing DINOv3 appearance similarity with MASt3R geometric consistency through a constrained bilinear interaction, outperforming both the strongest geometry-only baseline and the strongest appearance-only baseline .",
+  "title_relatable": "Predicting if synthetic training data will work without training models",
+  "hook": "New metric predicts whether synthetic datasets will transfer to real-world tasks 88% better than existing similarity scores, without needing to train any models.",
+  "summary": "Building computer vision models on synthetic data is cheap, but it's hard to know if a synthetic dataset will actually work for real applications. SADGE combines appearance and geometric similarity scores (using DINOv3 and MASt3R) to predict downstream performance on object detection, segmentation, and pose estimation. Tested across 15 synthetic-to-real benchmarks, it correlates with real transfer performance at r=0.88, beating appearance-only or geometry-only metrics. This lets practitioners screen datasets before expensive training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1069,
+  "tokens_out": 197,
+  "cost_usd": 0.0016432,
+  "ingested_at": "2026-05-23T00:42:27.286432+00:00"
+}

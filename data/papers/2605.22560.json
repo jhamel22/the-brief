@@ -1,0 +1,26 @@
+{
+  "id": "2605.22560",
+  "arxiv_url": "https://arxiv.org/abs/2605.22560",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math-ph",
+    "math.GN",
+    "math.QA",
+    "math.RT"
+  ],
+  "title_original": "Shading A-polynomials via huge representations of $U_q(\\mathfrak{su}_N)$",
+  "authors": "Dmitry Galakhov, Alexei Morozov",
+  "abstract": "Classical A-polynomials $A(\\ell,m)$ define constraints on coordinates $\\ell$ and $m$ in $SL(2,\\mathbb{C})$ (a complexification of $SU(2)$) character varieties associated to knot complements $S^3\\setminus K$. Quantum A-polynomials $\\hat A(\\hat \\ell,\\hat m)$ are difference operators annihilating Jones polynomials believed to represent wave functions of 3d Chern-Simons theory with gauge group $SU(2)$ on a toroidal pipe surrounding the knot $K$ strand -- a boundary of the knot complements $S^3\\setminus K$. We suggest a construction of classical shaded A-polynomials $A_a(\\ell_b,m_c)$ associated to Lie groups $SU(N)$. We exploit a formalism of Clebsh-Gordan (CG) chords, where indices $a$, $b$, $c$ run over $1,\\ldots,N-1$. CG chords have a natural interpretation in terms of 2d CFTs of WZW type, or, alternatively, in terms of quantum group $U_q(\\mathfrak{su}_N)$. In the case of $\\mathfrak{su}_2$ CG chords could be associated to Reeb chords in a knot contact homology (KCH) framework. KCH suggests its own analogue of A-polynomials known as augmentation polynomials allowed to have extra spurious roots in principle. Yet the CG chord formalism could be easily extended to arbitrary $\\mathfrak{su}_N$ allowing us to generalize the construction of A(ugmentation)-polynomials to arbitrary $\\mathfrak{su}_N$ and arbitrary representation as well. Primarily we aim at classical A-polynomials by considering a double scaling limit when $q=e^{\\hbar}$, $\\hbar\\to 0$ and the representations are huge, in particular, highest weight vector components $w_i\\to \\infty$ so that $\\hbar w_i\\sim m_i$ remain finite. Still we expect the presented techniques would be helpful in deriving quantum A-polynomials for arbitrary Lie (super)algebras $\\mathfrak{g}$. Also we discuss explicit examples of A-polynomials for knots $3_1$, $4_1$ and $5_1$ for $\\mathfrak{g}=\\mathfrak{su}_3$.",
+  "title_relatable": "How quantum groups encode knot invariants across all gauge groups",
+  "hook": "Physicists have long known how to extract knot polynomials from $SU(2)$ gauge theory. A new technique using massive quantum group representations extends this to $SU(N)$ and beyond.",
+  "summary": "A-polynomials are algebraic constraints that encode topological information about knots and appear naturally in 3d gauge theory. The authors develop a systematic way to generalize these polynomials from $SU(2)$ to arbitrary $SU(N)$ using Clebsch-Gordan decompositions and huge representations of quantum groups. This opens a path to computing knot invariants for richer gauge theories and arbitrary Lie algebras.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1309,
+  "tokens_out": 197,
+  "cost_usd": 0.0018352,
+  "ingested_at": "2026-05-23T00:19:09.197390+00:00"
+}

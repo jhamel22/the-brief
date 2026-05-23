@@ -1,0 +1,23 @@
+{
+  "id": "2605.22456",
+  "arxiv_url": "https://arxiv.org/abs/2605.22456",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Steins;Gate Drive: Semantic Safety Arbitration over Structured Futures for Latency-Decoupled LLM Planning",
+  "authors": "Anjie Qiu, Hans D. Schotten",
+  "abstract": "Cloud-hosted LLM driver agents provide useful semantic judgments, but their inference latency exceeds stepwise vehicle-control windows. Learned world models predict futures, but they usually keep future generation and action selection inside large coupled loops. We present SteinsGateDrive, a latency-decoupled planner-runtime architecture in which the worldline metaphor from the eponymous story names one plausible consequence of an intervention: the LLM selects counterfactual driving futures before the final control instant, and a runtime reuses the selected forecast only while safety contracts remain valid. The generator builds three world-line roles: alpha nominal ego-conditioned futures, beta interaction counterfactuals around nearby vehicles, and gamma hazard-stress futures such as braking, cut-ins, or blocked corridors. The selected branch becomes a typed StrategicForecast with horizon, validity/abort conditions, fallback, and authority. On a within-subject, matched-seed normal-highway protocol with 10 seeds and 20 steps, GPT-5.4 mini reduces effective lag from +3.07 s at 1-second horizon to -0.01 s at 4-second horizon while preserving the measured no-collision safety boundary. The architecture's safety contribution comes from the atom-predicate runtime check, not from the drift score, which functions as a refresh-frequency knob.",
+  "title_relatable": "Planning ahead: how LLMs can drive safely despite network delays",
+  "hook": "LLM-based autonomous driving agents suffer from cloud latency—sometimes 3+ seconds of lag. A new architecture lets them pre-plan futures and reuse predictions safely, cutting effective delay to near-zero on highway routes.",
+  "summary": "Cloud-hosted LLMs provide good driving decisions but are too slow for real-time vehicle control. SteinsGateDrive decouples planning from execution: the LLM generates multiple future scenarios (normal driving, nearby-car interactions, emergency braking) before the control deadline, then a runtime system reuses the best prediction only while safety conditions hold. On highway driving, the system reduced effective latency from 3 seconds to near-zero while maintaining collision-free operation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 989,
+  "tokens_out": 204,
+  "cost_usd": 0.0016072,
+  "ingested_at": "2026-05-23T00:45:29.499935+00:00"
+}

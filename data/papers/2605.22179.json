@@ -1,0 +1,22 @@
+{
+  "id": "2605.22179",
+  "arxiv_url": "https://arxiv.org/abs/2605.22179",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Quasi-Simultaneous Broadband Spectral Energy Distributions of a Sample of Fermi Blazars -- I. Correlation Results",
+  "authors": "Yi Zhong, Zhujian Wan, Rui Xue, Hubing Xiao, Dingrong Xiong, Ze-Rui Wang",
+  "abstract": "Blazars' non-thermal emission shows rapid variability across all wavelengths, so spectral energy distributions (SEDs) built from quasi-simultaneous data are crucial for revealing the jets physical properties. In this work, we construct quasi-simultaneous broadband SEDs for 93 Fermi blazars (56 FSRQs, 35 BL Lacs, and 2 blazar candidates of uncertain type), fit both peaks with cubic functions to allow for potential asymmetries, and examine correlations among key parameters. Our main results are summarized as follows: (1) We find that synchrotron peak frequency and curvature are only weakly related, suggesting that charged particles are accelerated by mixed acceleration mechanism. (2) The blazar sequence is confirmed in the observer's frame through negative correlations of both the bolometic luminosity $\\log L_{\\rm bol}$ and the Compton dominance $\\log Y$ with the synchrotron peak frequency $\\log ν_{\\rm syn}^{\\rm peak}$. After correcting for Doppler boosting, a weak positive correlation emerges between $\\log L_{\\rm bol}$ and $\\log ν_{\\rm syn}^{\\rm peak}$. FSRQs and BL Lacs exhibit distinct correlation patterns within the blazar sequence, indicating differences in cooling mechanisms. (3) Using variability time lags between 0.1-1 GeV and 1-300 GeV light curves, we estimate lower limits of Doppler factors for 4 sources, providing a jet-speed diagnostic anchored directly to the $γ$-ray emission zone.",
+  "title_relatable": "What 93 Fermi blazars reveal about how jets accelerate particles",
+  "hook": "Assembling simultaneous multiwavelength observations of the most violent jets in the universe exposes contradictions in how we think they work.",
+  "summary": "Researchers built broadband spectra for 93 Fermi blazars using nearly simultaneous data across radio to gamma-ray, then measured correlations among spectral peaks, luminosity, and variability. They confirm the blazar sequence—a controversial pattern linking brightness to jet properties—but only after correcting for Doppler boosting, and find that the two main blazar classes follow different rules. The results suggest particle acceleration in these jets involves mixed mechanisms, not the single dominant process theorists prefer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1114,
+  "tokens_out": 192,
+  "cost_usd": 0.0016592,
+  "ingested_at": "2026-05-23T00:25:28.825688+00:00"
+}

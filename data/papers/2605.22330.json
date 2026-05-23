@@ -1,0 +1,23 @@
+{
+  "id": "2605.22330",
+  "arxiv_url": "https://arxiv.org/abs/2605.22330",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Symbolic Classification-Enabled LHC Limits Online BSM Global Fits",
+  "authors": "Shehu AbdusSalam",
+  "abstract": "Global fits of Beyond the Standard Model (BSM) physics often involve a two-way interplay between theory and experiment. Theoretical models provide guidance for experimental searches, while experimental results, in turn, constrain theoretical frameworks. A crucial aspect of this feedback loop is the direct inclusion of measurements and exclusion limits ``online'' global fits, i.e. during the parameter scans aspects of the global fits. However, incorporating the Large Hadron Collider (LHC) limits into such analyses has been computationally prohibitive, often due to time taken per parameter point exceeding the scales acceptable for global fit frameworks. In this study, we show that LHC limits can be incorporated ``online'' global fits by leveraging approximations derived from symbolic regression techniques. We utilize a dataset of ATLAS constraints from searches for electroweakino productions to derive a mathematical expression capable of classifying the phenomenological Minimal Supersymmetric Standard Model (pMSSM) parameter space as allowed or excluded. This is subsequently incorporated for making a global fit of the pMSSM to data, including the LHC Run-2 limits.",
+  "title_relatable": "Making LHC data fast enough for real-time physics searches",
+  "hook": "A shortcut using machine learning lets physicists include LHC constraints directly in supersymmetry searches, cutting computation time from prohibitive to practical.",
+  "summary": "Including LHC exclusion limits in global fits of beyond-standard-model physics has been too slow to be useful. This work trains a machine-learning model on ATLAS data to create a fast mathematical rule that classifies whether parameter space is allowed or ruled out, then feeds it directly into pMSSM global fits. The result: LHC constraints now run in real time alongside other data, speeding up the search for supersymmetric particles by orders of magnitude.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 933,
+  "tokens_out": 184,
+  "cost_usd": 0.0014824,
+  "ingested_at": "2026-05-23T00:23:32.116918+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.22516",
+  "arxiv_url": "https://arxiv.org/abs/2605.22516",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+  ],
+  "title_original": "Pulsar timing solutions for 17 pulsars at 150~MHz from the Irish LOFAR station",
+  "authors": "D. J. McKenna, E. F. Keane, P. T. Gallagher, J. McCauley",
+  "abstract": "Pulsar timing is a foundational part of pulsar research to triage the most interesting systems and to characterise properties (rotational or otherwise) of the population of these extreme objects. Due to the efficiency of a number of sensitive and/or wide-field surveys in recent years, the number of new pulsars discoveries is growing year-on-year, and most of these lack even basic timing parameter measurements. This work aims to demonstrate the capabilities of international Low Frequency Array (LOAFR) stations operating as single telescopes to follow-up, time and characterise these sources, offering new insight into the emission properties of these neutron stars, and support efforts to build timing models for these sources. Between 2020 and 2023 we used the local-mode allocation of the Irish LOFAR station to follow-up 33 pulsar candidates announced from various surveys at different observing frequencies to determine if an international LOFAR station has sufficient sensitivity to detect and time these sources. From the 33 pulsars selected, 22 pulsars were detected and 17 were selected for long-term monitoring across 590 hours of observing time. This has resulted in coherent timing solutions for all of these sources at 150 MHz -- 7 of these have never had any reported timing solutions, the remaining 10 solutions agree well with announcements from others since the beginning of our project. For a fraction of sources announced by surveys each year, the 14 international LOFAR stations are well placed to follow-up survey candidates for long-term pulsar monitoring beyond the standard timing campaigns performed at these telescopes to date, reducing the pressure on observing time availability at these observatories, and enabling the full scientific potential of these pulsars to be realised.",
+  "title_relatable": "Low-frequency radio telescope tracks 17 newly discovered pulsars",
+  "hook": "An Irish radio station measured timing properties for 17 pulsars—7 for the first time—showing that distributed LOFAR stations can fill a gap in pulsar follow-up.",
+  "summary": "Researchers used the Irish LOFAR station to monitor 33 pulsar candidates from recent surveys over three years, successfully timing 17 of them at 150 MHz. Seven of these pulsars had never been timed before, while the other ten matched timing measurements from other observers. The work demonstrates that individual LOFAR stations worldwide can handle long-term pulsar monitoring, reducing pressure on over-subscribed major observatories.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1109,
+  "tokens_out": 190,
+  "cost_usd": 0.0016472000000000001,
+  "ingested_at": "2026-05-23T00:25:06.264992+00:00"
+}

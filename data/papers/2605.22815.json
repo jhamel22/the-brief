@@ -1,0 +1,23 @@
+{
+  "id": "2605.22815",
+  "arxiv_url": "https://arxiv.org/abs/2605.22815",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ex",
+    "hep-ph"
+  ],
+  "title_original": "New constraints on physics within and beyond the standard model from the latest CONUS datasets",
+  "authors": "N. Ackermann, H. Bonet, A. Bonhomme, C. Buck, 1 K. Fülber, J. Hakenmüller, J. Hempfling, G. Heusser, T. Hugle, M. Lindner, W. Maneschg, S. Mertens, K. Ni, D. Piani, M. Rank, T. Rink, E. Sanchez Garcia, I. Stalder, H. Strecker, R. Wink, J. Woenckhaus",
+  "abstract": "Its detections with pion-decay-at-rest, solar and recently with reactor antineutrinos by the CONUS collaboration render coherent elastic neutrino-nucleus scattering (CE$ν$NS) an established tool for investigations within and beyond the Standard Model (SM). The CONUS experiment located at the nuclear power plants in Brokdorf (Germany) and Leibstadt (Switzerland) operates Germanium semiconductor detectors in a compact shield at close distance to the reactor core. An observation with $3.7 σ$ significance is reported at the Leibstadt site, showing good agreement with its SM prediction. Physics investigations performed with the last datasets collected at the Brokdorf reactor and with the first data obtained at the Leibstadt site are summarized. By using the experimental analysis framework, the presented results contain the full systematics that underlie the experiment. Previously determined limits with neutrino-electron scattering on the neutrino magnetic moment and a neutrino millicharge are improved to $μ_ν <5.18\\cdot 10^{-11}μ_\\mathrm{B}$ and $q_ν<1.76\\cdot 10^{-12} e_0$ (90% C.L). Further, the scale of new physics related to NSIs is improved to $Λ_{\\rm NSI}$=145 GeV and limits on the coupling of light new mediators are lowered down to $4 \\cdot 10^{-7}$ (90% C.L.) with the new data. Finally, the determination of the Weinberg angle with CE$ν$NS and reactor antineutrinos yields $\\sin^{2}θ_W= 0.28^{+0.03}_{-0.04}$ at a momentum transfer of $\\sim 10 \\ \\mathrm{MeV}$.",
+  "title_relatable": "Reactor neutrinos reveal hints of physics beyond the standard model",
+  "hook": "CONUS detectors at reactor cores spotted coherent neutrino scattering with 3.7σ significance, tightening constraints on exotic neutrino properties and new particles.",
+  "summary": "The CONUS experiment uses germanium detectors next to reactor cores to catch coherent elastic neutrino-nucleus scattering—a subtle interaction predicted by the standard model. New data from two sites improved constraints on neutrino magnetic moment, charge, and interactions with unknown particles by factors of 2–10, and independently measured a fundamental constant of electromagnetism. These results show precision tabletop detectors can compete with colliders for discovering hidden physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1256,
+  "tokens_out": 190,
+  "cost_usd": 0.0017648000000000002,
+  "ingested_at": "2026-05-23T00:23:13.943792+00:00"
+}

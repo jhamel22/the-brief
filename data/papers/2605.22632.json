@@ -1,0 +1,22 @@
+{
+  "id": "2605.22632",
+  "arxiv_url": "https://arxiv.org/abs/2605.22632",
+  "announced_date": "2026-05-21",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Position: The Pre/Post-Training Boundary Should Govern IP in Industry-Academia ML Collaborations",
+  "authors": "Dirk Bergemann, Soheil Ghili, Nitzan Mekel-Bobrov",
+  "abstract": "Industry-academia ML collaborations routinely fail to launch -- not for scientific reasons, but because academics must publish while companies must protect models trained on proprietary data, and no standard contract framework resolves this tension. Because contracts are negotiated by legal departments alone, many apparent legal disputes are incentive misalignment problems that only scientists at the table can correctly diagnose. We propose PBOS (Protect-the-Business / Open-Source-the-Science), a community-adoptable contract template anchored to a single technically-grounded boundary: pre-training artifacts (architectures, training code, benchmarks, untrained weights) are open science; post-training artifacts (weights trained on proprietary data) are business IP. This boundary is technically meaningful, legally clean, and auditable -- and could not have been drawn correctly without scientists at the negotiating table. We argue the ML community should adopt PBOS as its default contract for such collaborations.",
+  "title_relatable": "Why Industry-Academia ML Partnerships Keep Falling Apart Over IP Rights",
+  "hook": "A simple contractual boundary could unblock thousands of stalled collaborations between companies guarding proprietary models and academics needing to publish.",
+  "summary": "Industry-academia ML partnerships routinely collapse over intellectual property disputes that legal departments alone cannot resolve, because the underlying tension between publishing and secrecy reflects genuine scientific disagreement, not just legal positioning. The authors propose PBOS, a contract template that draws a single technical line: researchers can publish untrained code and architectures, but companies keep weights trained on proprietary data. This framework is auditable, legally enforceable, and requires scientists in the negotiation room to work properly—suggesting the ML community adopt it as standard.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 619,
+  "tokens_out": 192,
+  "cost_usd": 0.0012632000000000001,
+  "ingested_at": "2026-05-23T00:48:09.254798+00:00"
+}

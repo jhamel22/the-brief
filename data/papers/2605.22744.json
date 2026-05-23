@@ -1,0 +1,22 @@
+{
+  "id": "2605.22744",
+  "arxiv_url": "https://arxiv.org/abs/2605.22744",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum circuit design via dynamic Pauli constraints",
+  "authors": "James R. Wootton, Merlin Incerti-Medici, Daniel Bultrini, Pierre Fromholz",
+  "abstract": "We introduce a novel software-oriented model of quantum computation motivated by the practical constraints of near-term quantum hardware. In this model, gates are specified by constraints expressed in terms of Pauli observables, with each disjoint layer of gates accompanied by a pairwise or $k$-local quantum state tomography of the device. We prove that the model is equivalent to the coupling-graph-restricted circuit model and hence universal for BQP, with a polynomial overhead: simulating a depth-$D$ circuit on $N$ qubits requires at most $O(D^2 N \\log N)$ complexity. The model formalizes an idiom shared by existing work that ranges from quantum imaginary time evolution for the study of quantum systems to the use of quantum computers for procedural generation in games. It therefore provides a natural interface for designing quantum software entirely in terms of physically observable quantities, relevant for the NISQ era and into fault-tolerance.",
+  "title_relatable": "Designing quantum circuits using only measurable quantities",
+  "hook": "A new programming model replaces abstract quantum gates with physical measurements, matching real hardware constraints without losing computational power.",
+  "summary": "Instead of specifying quantum algorithms as sequences of abstract gates, this model defines computations through constraints on directly measurable Pauli observables, paired with local tomography at each step. The approach is provably universal for quantum computation with only polynomial overhead — a depth-D circuit on N qubits needs at most O(D²N log N) work. The payoff is a programming interface grounded entirely in observable physics, bridging everything from quantum simulation to game procedural generation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 915,
+  "tokens_out": 168,
+  "cost_usd": 0.005265,
+  "ingested_at": "2026-05-23T00:20:36.666332+00:00"
+}

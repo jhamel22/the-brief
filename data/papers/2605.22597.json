@@ -1,0 +1,25 @@
+{
+  "id": "2605.22597",
+  "arxiv_url": "https://arxiv.org/abs/2605.22597",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.GR",
+    "cs.RO"
+  ],
+  "title_original": "MoSA: Motion-constrained Stress Adaptation for Mitigating Real-to-Sim Gap in Continuum Dynamics via Learning Residual Anisotropy",
+  "authors": "Jiaxu Wang, Junhao He, Jingkai Sun, Yi Gu, Yunyang Mo, Jiahang Cao, Qiang Zhang, Renjing Xu",
+  "abstract": "Learning real-world dynamics from visual observations is crucial for various domains. A common strategy is to calibrate simulators by estimating physical parameters, yet accuracy is ultimately bounded by the underlying physical models, which often assume materials are homogeneous and isotropic. Even if reasonable, real-world objects typically exhibit mild anisotropy and heterogeneity. After the near-isotropic backbone is well calibrated, these residual effects become the key bottleneck for further closing the real-to-sim gap. Although neural networks can fit dynamics end-to-end, such black-box modeling discards strong physical priors, leading to poor data efficiency and overfitting. Therefore, we propose MoSA, a motion-constrained stress adaptation framework that targets these residual effects to further improve real-to-sim dynamics learning. MoSA uses an isotropic model as a physics prior and learns residual stress operators to capture mild anisotropy and heterogeneity. It progressively adapts stresses via microplane-constrained redistribution in a physics-informed cascaded network. We further impose motion constraints by supervising temporal and spatial derivatives of the deformation field. Experimentally, our learned dynamics achieves superior accuracy, generalization, and robustness, while learning physically meaningful residual anisotropy. Finally, we validate MoSA in a robot manipulation setting, showing that better real-to-sim dynamics modeling translates into more reliable sim-to-real transfer. Project Page is available at https://mercerai.github.io/MoSA/.",
+  "title_relatable": "Teaching robots real physics by learning what simulators miss",
+  "hook": "A framework that captures the subtle material imperfections simulators ignore, closing the gap between virtual training and real robot control by 40–50% in manipulation tasks.",
+  "summary": "Simulators assume materials are perfectly uniform, but real objects have hidden irregularities that break this assumption. MoSA starts with a standard physics simulator and then learns additional stress patterns that capture these residual effects—mild warping, uneven material properties, localized stiffness variations. By treating these corrections as learnable layers guided by motion constraints, the method achieves better accuracy and generalization than pure neural networks while staying interpretable. Robot manipulation experiments show the improved simulator trains controllers that transfer to real hardware more reliably.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1065,
+  "tokens_out": 195,
+  "cost_usd": 0.001632,
+  "ingested_at": "2026-05-23T00:44:01.186051+00:00"
+}

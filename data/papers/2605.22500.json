@@ -1,0 +1,22 @@
+{
+  "id": "2605.22500",
+  "arxiv_url": "https://arxiv.org/abs/2605.22500",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Two photon decay width of the fully charmed tetraquarks: revisiting prospects for ultraperipheral collisions",
+  "authors": "Longjie Chen, Wolfgang Schäfer, Antoni Szczurek",
+  "abstract": "We discuss the role of fully heavy tetraquarks in ultraperipheral collisions $AA\\to AA\\, J/ψJ/ψ$ and $AA \\to AA\\, γγ$. Two-photon couplings to scalar and tensor tetraquarks are considered. We use relatively recent results of four-body calculation of fully heavy tetraquark wave function within the extended relativized quark model. The corresponding radiative decay widths for different tetraquark states are evaluated using NRQCD factorisation, with LDMEs extracted from the four-body wave functions at the origin. The results are collected in tables. The cross sections for production of pairs of $J/ψ$ mesons and diphotons in UPC of $^{208}Pb + {^{208}Pb}$ collisions are presented. While the couplings for $T_{4c}\\left(0^{++}, 2^{++}\\right) \\to γγ$ are calculated based on the model wave functions, simplified couplings are used for $T_{4c}\\left(0^{++}, 2^{++}\\right) \\to J/ψJ/ψ$. When calculating the energy dependence of the resonant $γγ\\to J/ψJ/ψ$ and $γγ\\to γγ$ cross section, we employ the total decay widths measured at $Γ_{\\rm{tot}}=0.446\\,\\rm{GeV}$ for $X(6600)$ while $Γ_{\\rm{tot}}=0.135\\,\\rm{GeV}$ for $X(6900)$ in latest CMS data. The resonant terms are compared with continuum contributions for both considered channels. While for the $J/ψJ/ψ$ channel the resonant contributions are larger than continuum ones, for the $γγ$ channels the situation is reversed. The latter result is in clear disagreement with the result obtained from the näive use of vector dominance picture.",
+  "title_relatable": "Do heavy tetraquarks hide in photon collisions at the LHC?",
+  "hook": "Fully charmed tetraquarks could be spotted through rare photon-pair and J/ψ production in ultraperipheral lead collisions—but only if the photon channel isn't drowned out by background.",
+  "summary": "When two lead nuclei graze each other at the LHC, the intense electromagnetic fields can produce exotic four-quark particles. This work calculates whether rare tetraquark states decay into photon pairs or J/ψ mesons frequently enough to be observed in these ultraperipheral collisions. They find the J/ψ channel shows clear resonant peaks, but photon pairs are dominated by background processes—contradicting naive expectations from standard hadronic physics analogies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1184,
+  "tokens_out": 213,
+  "cost_usd": 0.0017992000000000001,
+  "ingested_at": "2026-05-23T00:23:29.157728+00:00"
+}

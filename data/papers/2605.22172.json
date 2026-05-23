@@ -1,0 +1,23 @@
+{
+  "id": "2605.22172",
+  "arxiv_url": "https://arxiv.org/abs/2605.22172",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "Landauer entropy of spacetime",
+  "authors": "J. M. Isidro, B. Koch, A. Rincon",
+  "abstract": "Based on Landauer's principle, we provide a geometrical definition for the entropy of a given static, spherically symmetric spacetime. Considering a congruence of geodesics across a surface, one defines the entropy of a congruence as the surface integral of the entropy of the constituent geodesics. Under certain mild assumptions, we establish a second law for the entropy function thus defined (Landauer entropy), and relate it to Bekenstein-Hawking entropy.",
+  "title_relatable": "Can erasing information explain why black holes have entropy?",
+  "hook": "Landauer's principle — erasing a bit generates heat — may give spacetime geometry its own entropy law.",
+  "summary": "By treating bundles of geodesics as information carriers and invoking Landauer's principle (erasing information produces entropy), the authors assign an entropy to any static, spherically symmetric spacetime via a surface integral. They show this 'Landauer entropy' obeys a second law and connects to the familiar Bekenstein-Hawking black hole entropy. If the link holds, it grounds the thermodynamics of spacetime in the same information-theoretic reasoning behind ordinary computing.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 796,
+  "tokens_out": 172,
+  "cost_usd": 0.004968,
+  "ingested_at": "2026-05-23T00:17:48.130123+00:00"
+}

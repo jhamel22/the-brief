@@ -1,0 +1,22 @@
+{
+  "id": "2605.21581",
+  "arxiv_url": "https://arxiv.org/abs/2605.21581",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Cosmological Collider in the Grassmannian",
+  "authors": "Mattia Arundine, Guilherme L. Pimentel",
+  "abstract": "We revisit the computation of four-point wavefunction coefficients for external conformally coupled scalars exchanging a particle of general mass and spin. Much of the phenomenology of cosmological collider physics in the near-de Sitter limit follows from this function. Computing it in detail is a central challenge in the cosmological bootstrap. Using the cosmological Grassmannian, we write this correlator in closed form using hypergeometric functions and Legendre polynomials. We achieve this by writing the standard bootstrap differential equation using the Plücker coordinates of the Grassmannian, and using the basis of Mandelstam invariants. The correlator in the s-channel can be written in terms of a hypergeometric function of the S Mandelstam, while the spin information appears as an overall Legendre polynomial factor that also depends on the other Mandelstams. We fix the boundary conditions by first demanding the absence of unphysical singularities, and by further matching to kinematic limits of the momentum-space wavefunction. Our formulae in Grassmannian space are much simpler than their counterparts in momentum space, demonstrating another useful application of the Grassmannian as a kinematic space for cosmology.",
+  "title_relatable": "A simpler way to compute cosmic particle collisions",
+  "hook": "Physicists found that the Grassmannian—a geometric space used in particle physics—dramatically simplifies calculations of how particles scatter in the early universe.",
+  "summary": "Early-universe physics can be studied by computing four-point correlators describing how particles interact in near-de Sitter space. This calculation is notoriously messy in standard approaches but becomes tractable in the Grassmannian, a geometric structure encoding kinematic relationships. The authors derived closed-form expressions using hypergeometric functions and Legendre polynomials, showing Grassmannian formulas are far simpler than their momentum-space equivalents.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 967,
+  "tokens_out": 179,
+  "cost_usd": 0.0014896,
+  "ingested_at": "2026-05-23T00:19:42.747638+00:00"
+}

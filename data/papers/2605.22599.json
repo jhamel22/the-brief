@@ -1,0 +1,22 @@
+{
+  "id": "2605.22599",
+  "arxiv_url": "https://arxiv.org/abs/2605.22599",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "The impact of evolving dark energy on the Weyl potential measured from the Dark Energy Survey Year 3 data",
+  "authors": "Benedetta Rosatello, Gen Ye, Maria Berti, Isaac Tutusaus, Nastassia Grimm, Camille Bonvin",
+  "abstract": "Measurements from the Dark Energy Survey (DES) Year 3 data have shown that the Weyl potential -- the sum of the spatial and temporal distortions of the geometry -- evolves more slowly than predicted by General Relativity, assuming a $Λ$CDM background evolution. An evolving dark energy with a phantom crossing, as preferred by the Dark Energy Spectroscopic Instrument (DESI), is expected to decrease the depth of the gravitational potentials through a stronger acceleration than in $Λ$CDM, potentially solving the tension with General Relativity. In this paper, we show that $w_0w_a$CDM models indeed reduce the tension with respect to $Λ$CDM, down to a level of $1.6-2.2σ$, depending on the treatment of CMB lensing. This reduction is not due to an increase in the Weyl potential's uncertainties, but truly to the impact of the evolving background on the theoretical predictions in General Relativity. More data are needed to robustly determine if evolving dark energy fully explains the low value of the Weyl potential at intermediate redshifts, or if modifications of gravity or interactions in the dark sector are needed, which could simultaneously stabilize the phantom crossing indicated by DESI.",
+  "title_relatable": "Does evolving dark energy resolve gravity's biggest tension?",
+  "hook": "DES data shows gravity's potentials evolving slower than Einstein predicted. Phantom dark energy could close the gap—but the jury is still out.",
+  "summary": "Dark Energy Survey measurements reveal the universe's gravitational potentials deepening more slowly than general relativity expects under standard assumptions. Models where dark energy strengthens over time—consistent with DESI observations—reduce this tension from 3 sigma down to 1.6–2.2 sigma, but don't eliminate it. The team concludes we need more data to tell whether evolving dark energy is the answer, or if something stranger (modified gravity or hidden dark sector interactions) lurks underneath.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1018,
+  "tokens_out": 187,
+  "cost_usd": 0.0015624,
+  "ingested_at": "2026-05-23T00:22:23.225528+00:00"
+}

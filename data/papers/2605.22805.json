@@ -1,0 +1,24 @@
+{
+  "id": "2605.22805",
+  "arxiv_url": "https://arxiv.org/abs/2605.22805",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "nucl-th",
+    "hep-ex",
+    "hep-ph"
+  ],
+  "title_original": "Two bodies left behind",
+  "authors": "Raúl A. Briceño, Caroline S. R. Costa, Hans-Werner Hammer, Daniel R. Phillips",
+  "abstract": "We consider scenarios in which a shallow bound state undergoes breakup by a probe whose energy is high compared to the binding energy. The first two scenarios, which serve as warm-up exercises, involve a single heavy particle bound to a light particle, analogous to a core nucleus bound to a neutron. We show that in quasi-free kinematics, the leading effect comes from the heavy particle being knocked out by the probe, with corrections suppressed by inverse powers of the probe momentum. This formally justifies extracting neutron form factors from high-energy deuteron breakup in quasi-free kinematics. In Scenario 1, the probe is a local current; in Scenario 2, it is hadron scattering. In Scenarios 3 and 4 we consider, respectively, a local current and hadron scattering, but now on a three-body bound state of a heavy particle and two light particles. Hard knockout of the heavy particle leaves two low-energy particles behind, which can interact with one another. In all four scenarios, we prove that the amplitude is dominated by the nearby on-shell pole of the heavy-particle propagator and derive a closed-form expression for this contribution. When two bodies are left behind, the leading amplitude is the product of the scattering of the two light particles, a dynamical function depending on the probe, and a real function related to the bound-state wavefunction. Thus, quasi-free removal of a core nucleus from a system with halo neutrons provides access to on-shell data on multi-neutron interactions. The resulting amplitudes are relativistic and satisfy unitarity for the remnant subsystem exactly. We also provide complementary non-relativistic derivations. While the derivations are for spinless particles, the generalization to spin is straightforward, since the results depend only on quasi-free knockout kinematics; we make no assumptions about the inter-particle dynamics.",
+  "title_relatable": "How to extract neutron interactions from nuclear breakup",
+  "hook": "Smashing apart nuclei at high energy leaves behind particles that reveal how neutrons interact with each other—a rigorous way to probe nuclear forces.",
+  "summary": "When a high-energy probe breaks apart a nucleus, it preferentially knocks out the heavy core, leaving the lighter particles behind. The team proves that in this quasi-free kinematic regime, the remaining amplitude depends only on how those leftover particles scatter and the bound-state wavefunction—making it possible to extract multi-neutron interaction data from deuteron and halo-nucleus experiments without detailed knowledge of nuclear dynamics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1110,
+  "tokens_out": 170,
+  "cost_usd": 0.001568,
+  "ingested_at": "2026-05-23T00:23:16.612794+00:00"
+}

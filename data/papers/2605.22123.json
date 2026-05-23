@@ -1,0 +1,22 @@
+{
+  "id": "2605.22123",
+  "arxiv_url": "https://arxiv.org/abs/2605.22123",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Beyond Pixels: Learning Invariant Rewards for Real-World Robotics From a Few Demonstrations",
+  "authors": "Tengye Xu, Yangting Sun, Ziju Shen, Guanqi Chen, Zhen Fu, Chen yizhou, Hua Chen, Jia Pan",
+  "abstract": "Designing reward functions that generalize beyond controlled laboratory settings remains a fundamental challenge in reinforcement learning for robotics. In open-world manipulation problems, a single task can appear in numerous variants through different object instances, positions, and camera viewpoints. Recent vision-based reward models tend to memorize specific pixel distributions and fail to generalize beyond their training conditions. To address this, we propose a framework that learns invariant symbolic reward functions from as few as five demonstrations. The insight is to shift from visual feature-fitting to the discovery of behavioral invariants: task-level properties that remain constant across diverse visual instantiations. The framework has two coupled components: a structural reward formulation that encodes task-level strategies and physical constraints while preserving optimal policy invariance, and a hybrid symbolic-numerical procedure that distills these invariants from demonstrations without online interaction. Experiments on eight Meta-World tasks and three Franka manipulation tasks demonstrate that our method achieves stronger process alignment and policy rollout ranking abilities compared to baselines, accelerating downstream policy learning. Three real-world out-of-distribution experiments further show that the same learned reward generalizes zero-shot to position, viewpoint, and object variations, enabling a single reward representation to be reused across diverse task variants in practice.",
+  "title_relatable": "Teaching robots reward functions that work beyond the training lab",
+  "hook": "A method learns task rewards from just five demos that generalize zero-shot to new objects, camera angles, and positions—without retraining.",
+  "summary": "Vision-based reward functions for robots fail when objects move or cameras shift because they memorize pixel patterns. This work learns invariant rewards by discovering task-level properties (like object-to-goal distance) rather than fitting visual features. Using only five demonstrations and no online interaction, the method produces rewards that accelerate policy learning and generalize across real-world variations—same reward works for different objects and viewpoints across Meta-World and Franka manipulation tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 970,
+  "tokens_out": 176,
+  "cost_usd": 0.00148,
+  "ingested_at": "2026-05-23T00:43:52.649003+00:00"
+}

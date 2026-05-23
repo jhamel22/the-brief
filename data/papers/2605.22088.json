@@ -1,0 +1,23 @@
+{
+  "id": "2605.22088",
+  "arxiv_url": "https://arxiv.org/abs/2605.22088",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "$b\\to c \\bar u q$ decay and CP violating observables in the presence of new physics contributions",
+  "authors": "Xuanning Guo, Albertus Hariwangsa Panuluh, Hiroyuki Umeeda, Jinglong Zhu",
+  "abstract": "In this work, a comprehensive analysis for processes related to $b\\to c\\bar{u}q~(q=d, s)$ transitions are carried out, including new physics contributions. In light of a recent tension between branching fractions for $B_{(s)}\\to D_{(s)}^{(*)}M$ ($M$ represents a meson) decays in the QCD factorization approach and relevant experimental results, phenomenological constraints on complex-valued Wilson coeffients are discussed. Analyzed observables contain direct CP asymmetry ($A_{\\text{CP}}$) in $B^-\\to D^0π^-$ decays and $γ/φ_3$, one of the angles in the unitarity triangle, combined with others from $τ_{B^+}/τ_{B_d}$, $ΔΓ_{q}/Γ_q$, and $A_{\\rm SL}^{q}~(q=d, s)$. We constrain the complex Wilson coefficients at $1σ$ and $2σ$ levels under color-singlet and color-rearranged scenarios. These constraints yield correlated predictions for $ΔΓ_d/Γ_d$, $A_{\\rm SL}^d$ and $A_{\\text{CP}}$.",
+  "title_relatable": "Where hidden particles might show up in rare B meson decays",
+  "hook": "New physics could explain discrepancies in B meson decay measurements—but it leaves signatures in CP violation that experiments can now test.",
+  "summary": "B mesons decay in ways that should tell us about CP violation and the geometry of the quark mixing matrix. Recent experiments disagree with theoretical predictions for certain decay rates, suggesting new particles or forces might be at play. This analysis constrains what those new physics contributions could be using multiple decay channels and asymmetries, then predicts specific signatures—like CP asymmetries in B decays—that the next generation of measurements should catch.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1036,
+  "tokens_out": 171,
+  "cost_usd": 0.0015128000000000001,
+  "ingested_at": "2026-05-23T00:23:48.619980+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22007",
+  "arxiv_url": "https://arxiv.org/abs/2605.22007",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Hallucination as Commitment Failure: Larger LLMs Misfire Despite Knowing the Answer",
+  "authors": "Jewon Yeom, Jaewon Sok, Heejun Kim, Seonghyeon Park, Jeongjae Park, Taesup Kim",
+  "abstract": "Hallucination is often viewed as a direct consequence of missing knowledge: a model answers incorrectly when the correct answer is absent from its generation-time distribution, and correctly when it is present. We test this assumption by introducing a semantic notion of answer availability that aggregates token-level variants expressing the same answer concept, and asks whether the correct concept is already available at the moment the model commits to an answer. Across Qwen and Llama models from 0.8B to 72B in both Instruct and Base variants, 16-47% of Instruct hallucinations occur with substantial probability mass already on the correct concept, and the rate rises monotonically with scale. Comparing such failures against correct generations with matched semantic support, the distinguishing factor is not whether the correct concept is represented, but how its probability is distributed: correct generations concentrate mass on a single surface form, hallucinations disperse it across alternatives. The same sharpening asymmetry extends across multi-token generation and is detectable in pre-generation hidden states. Together, these results identify a single mechanism: instruction tuning sharpens answer commitment with scale, making helpfulness and confident hallucination two consequences of the same underlying disposition.",
+  "title_relatable": "Why bigger language models hallucinate when they know the answer",
+  "hook": "16–47% of hallucinations occur when the correct answer is already present in the model's probability space. The problem isn't missing knowledge—it's how confidently the model commits.",
+  "summary": "Large language models often hallucinate despite having the correct answer available in their internal representations. Researchers analyzed Qwen and Llama models (0.8B–72B parameters) and found that hallucinations spike with scale not because knowledge is missing, but because instruction tuning causes models to distribute probability mass across multiple surface forms of the correct answer rather than concentrating on one. The same sharpening mechanism that makes models more helpful also makes them more confidently wrong.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 962,
+  "tokens_out": 191,
+  "cost_usd": 0.0015336,
+  "ingested_at": "2026-05-23T00:35:34.273242+00:00"
+}

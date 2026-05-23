@@ -1,0 +1,22 @@
+{
+  "id": "2605.22139",
+  "arxiv_url": "https://arxiv.org/abs/2605.22139",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "EventGait: Towards Robust Gait Recognition with Event Streams",
+  "authors": "Senyan Xu, Shuai Chen, Chuanfu Shen, Kean Liu, Zhijing Sun, Chengzhi Cao, Xueyang Fu",
+  "abstract": "Gait recognition enables non-intrusive, privacy-preserving identification but suffers in uncontrolled environments due to illumination and motion sensitivity of conventional cameras. In this work, we explore gait recognition using event cameras, which offer microsecond temporal resolution and high dynamic range, naturally capturing robust dynamic cues and suppressing static noise. Existing event-based approaches typically aggregate event streams into event images over long time windows, thereby discarding fine-grained motion dynamics critical for gait recognition. Therefore, we propose \\textbf{EventGait}, an end-to-end dual-stream framework that separately models motion and shape while preserving the advantages of events. Our dynamic stream leverages a Mixture of Spiking Experts (MoSE) with diverse neuron constants for robust dynamic perception across complex motion and illumination scenes, while the static stream learns dense shape representations via Cross-modal Structure Alignment (CroSA) with large vision foundation models. To address the absence of large-scale event-based gait datasets, we introduce a synthesis pipeline and release two new benchmarks: SUSTech1K-E and CCGR-Mini-E. Extensive experiments have shown that event-based gait recognition not only achieves results comparable to camera-based gait recognition under normal conditions but also significantly outperforms it in low-light scenarios. Our approach sets a new state of the art on both synthesized and real-world event-based gait benchmarks, highlighting the robustness and potential of event-driven gait analysis. The code and datasets are released at https://github.com/QUEAHREN/EventGait.",
+  "title_relatable": "Why event cameras could finally make gait recognition work in the dark",
+  "hook": "Event cameras capture motion 1000× faster than regular cameras and work in near-darkness—now researchers show they beat conventional cameras for identifying people by walking patterns.",
+  "summary": "Gait recognition (identifying people by how they walk) fails in poor lighting with standard cameras, but event cameras—which detect microsecond changes in brightness—naturally excel there. EventGait uses a dual-stream approach: one network with spiking neurons captures fine motion dynamics, another learns shape from vision models. The team released two new event-camera gait datasets and showed their method outperforms traditional cameras in low-light conditions while matching them in normal light. Code and data are available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1054,
+  "tokens_out": 191,
+  "cost_usd": 0.0016072,
+  "ingested_at": "2026-05-23T00:39:44.260584+00:00"
+}

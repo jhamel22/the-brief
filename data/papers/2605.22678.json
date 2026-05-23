@@ -1,0 +1,23 @@
+{
+  "id": "2605.22678",
+  "arxiv_url": "https://arxiv.org/abs/2605.22678",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Swift Sampling: Selecting Temporal Surprises via Taylor Series",
+  "authors": "Dahye Kim, Bhuvan Sachdeva, Karan Uppal, Naman Gupta, Vineeth N. Balasubramanian, Deepti Ghadiyaram",
+  "abstract": "While most frames in long-form video are redundant, the critical information resides in temporal surprises: moments where the actual visual features deviate from their predicted evolution. Inspired by the human brain's predictive coding, we introduce Swift Sampling, an elegant, training-free frame selection algorithm that automatically identifies high-information moments in a video. Specifically, we model a video as a differentiable trajectory in the visual latent space and compute the velocity and acceleration of its features. Then, we apply Taylor expansion to project the expected path of subsequent frames. Frames that diverge sharply from this predicted manifold are identified as temporally surprising frames and selected for sampling. Unlike prior training-free methods that rely on auxiliary networks or video-specific hyperparameter tuning, Swift Sampling is incredibly lightweight, adding only 0.02x additional computational cost over baseline making it 30x cheaper overhead than leading baselines. Across three long-video question answering benchmarks and 10 different downstream tasks, Swift Sampling outperforms uniform sampling and prior query-agnostic baselines. It is especially powerful for long videos with limited frame budgets improving accuracy by up to +12.5 points.",
+  "title_relatable": "Finding the surprising moments in long videos without training",
+  "hook": "A training-free algorithm identifies the most informative frames in videos by predicting where visual features should go, then spotting moments that deviate—30× cheaper than existing methods.",
+  "summary": "Most frames in long videos are redundant. Swift Sampling identifies temporally surprising moments—where visual features unexpectedly diverge from their predicted trajectory—using Taylor expansion in the visual latent space. The method adds only 0.02× computational overhead, outperforms uniform sampling across video QA benchmarks and 10 downstream tasks, with gains up to +12.5 points on long videos with limited frame budgets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 954,
+  "tokens_out": 177,
+  "cost_usd": 0.0014712,
+  "ingested_at": "2026-05-23T00:31:56.258806+00:00"
+}

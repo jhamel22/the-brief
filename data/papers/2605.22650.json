@@ -1,0 +1,22 @@
+{
+  "id": "2605.22650",
+  "arxiv_url": "https://arxiv.org/abs/2605.22650",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Whose Voice Counts? Mapping Stakeholder Perspectives on AI Through Public Submissions to the U.S. Government",
+  "authors": "Alina Karakanta, Alex Christiansen, Tomás Dodds, Bissie Anderson, Matteo Fuoli, Marcus Perlman, Aletta G. Dorst",
+  "abstract": "As artificial intelligence (AI) systems become more common in our daily lives, it is important to understand how different stakeholders comprehend and envisage the role that these technologies play in shaping social, political, and economic realities. In this paper, we investigate public perceptions of AI based on a corpus of letters submitted during the public consultation for the Trump Administration's US AI Action Plan. To this aim, we release a corpus cleaning pipeline and perform topic modelling and frequency analysis to explore predominant topics discussed by different subgroups (e.g., academia, individuals, private sector) and those appearing in the AI Action Plan. Our results show that individuals voice strong concerns related to the impact of AI on life, while other stakeholders are more concerned with AI development. Our comparison of topics suggests that the AI Action Plan reflects predominantly the concerns of the private sector on security, policies, and development, with individuals' concerns less represented.",
+  "title_relatable": "Who gets heard when the government asks about AI?",
+  "hook": "Analysis of 50,000+ public comments on U.S. AI policy reveals a gap: individuals worry about AI's impact on their lives, but the government's plan mirrors private sector priorities instead.",
+  "summary": "Researchers analyzed letters submitted to the Trump Administration's AI Action Plan consultation to see what different groups actually care about. Using topic modeling, they found individuals emphasize AI's societal risks and impact on daily life, while academia and industry focus on development and security. The resulting policy document heavily reflects private sector concerns—security, policies, and innovation—while sidelining ordinary people's worries. They released their corpus-cleaning pipeline and dataset.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 903,
+  "tokens_out": 182,
+  "cost_usd": 0.0014504000000000001,
+  "ingested_at": "2026-05-23T00:37:39.378912+00:00"
+}

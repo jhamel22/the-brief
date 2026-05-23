@@ -1,0 +1,22 @@
+{
+  "id": "2605.22799",
+  "arxiv_url": "https://arxiv.org/abs/2605.22799",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Charged multi-sheet wormhole solutions",
+  "authors": "Yusuke Makita, Keisuke Izumi, Daisuke Yoshida",
+  "abstract": "We construct charged wormhole solutions with an even number of asymptotically flat regions in the four-dimensional Einstein-Maxwell-massless phantom scalar system via the Harrison transformation. The solutions are characterized by five parameters: the mass $M$, the electric charge $Q_\\mathrm{e}$, the magnetic charge $Q_\\mathrm{m}$, the scalar charge $P$ and the number of sheets $2n$. The regularity condition then determines the throat radius. Although the Harrison transformation directly generates the solutions only in the parameter region $Q_{\\mathrm{e}}^2 + Q_{\\mathrm{m}}^2 < M^2$, we show that regular solutions exist in a wider parameter region beyond this bound. In addition, we introduce a spheroidal coordinate system that covers one complete asymptotically flat region and its adjacent ones, and allows the solution to be expressed in a simple form.",
+  "title_relatable": "Wormholes connecting more than two universes: new exact solutions",
+  "hook": "Exact wormhole solutions now exist linking any even number of separate universes, threaded by electric and magnetic charge.",
+  "summary": "Using a mathematical technique called the Harrison transformation, the authors built exact wormhole solutions in Einstein-Maxwell theory that stitch together 2, 4, 6, or any even number of asymptotically flat universes — far beyond the usual two-mouth picture. Each solution is pinned down by mass, two types of charge, scalar charge, and sheet count, with the throat size fixed by regularity. Regular solutions survive even outside the parameter region the construction method naively requires, hinting at a richer solution space than previously known.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 908,
+  "tokens_out": 190,
+  "cost_usd": 0.005574,
+  "ingested_at": "2026-05-23T00:16:11.707509+00:00"
+}

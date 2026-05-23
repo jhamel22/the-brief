@@ -1,0 +1,24 @@
+{
+  "id": "2605.22511",
+  "arxiv_url": "https://arxiv.org/abs/2605.22511",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.IR"
+  ],
+  "title_original": "Search-E1: Self-Distillation Drives Self-Evolution in Search-Augmented Reasoning",
+  "authors": "Zihan Liang, Yufei Ma, Ben Chen, Zhipeng Qian, Xuxin Zhang, Huangyu Dai, Lingtao Mao",
+  "abstract": "Post-training has become the dominant recipe for turning a language model into a competent search-augmented reasoning agent. A line of recent work pushes its performance further by adding elaborate machinery on top of this standard pipeline. These augmentations import external supervision from stronger external systems, attach auxiliary modules such as process reward models or retrospective critics, restructure the rollout itself with tree search or multi-stage curricula, or shape the reward with hand-crafted bonuses and penalties. Each addition delivers a measurable gain, but each also inflates the training pipeline and ties the recipe to resources or designs that may not always be available. We take a step back and ask whether any of this machinery is actually necessary, and propose Search-E1, a self-evolution method that lets a search-augmented agent improve through only vanilla GRPO interleaved with offline self-distillation (OFSD). After each GRPO round, the policy rolls out on its own training questions. A token-level forward KL objective then aligns the policy's inference-time distribution to its own distribution under a privileged context that exposes a more efficient sibling trajectory. Despite this simplicity, the procedure naturally provides dense per-step supervision. On seven QA benchmarks, Search-E1 reaches $0.440$ average EM with Qwen2.5-3B, surpassing all open-source baselines at both scales. Code and complete version will be made public soon.",
+  "title_relatable": "Can search agents improve themselves without external help?",
+  "hook": "A stripped-down training method—just self-distillation and policy gradients—beats elaborate multi-component pipelines across seven QA benchmarks with a 3B model.",
+  "summary": "Recent work on search-augmented reasoning agents stacks multiple training tricks: external supervisors, reward models, tree search, hand-tuned bonuses. Search-E1 asks whether all this complexity is necessary. It replaces the machinery with vanilla GRPO (policy gradient) plus offline self-distillation: after each training round, the model generates its own examples and learns from better versions of its own trajectories. On seven QA benchmarks, this minimal approach reaches 44% average accuracy with a 3B model, outperforming larger open-source baselines. Code is releasing soon.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1020,
+  "tokens_out": 216,
+  "cost_usd": 0.00168,
+  "ingested_at": "2026-05-23T00:33:29.512502+00:00"
+}

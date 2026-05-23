@@ -1,0 +1,22 @@
+{
+  "id": "2605.21910",
+  "arxiv_url": "https://arxiv.org/abs/2605.21910",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Vacuum breakdown in a misaligned magnetized Kerr spacetime",
+  "authors": "Ruixin Yang, Songbai Chen, Jiliang Jing",
+  "abstract": "Electron-positron ($e^{+}e^{-}$) pair creation by vacuum breakdown around compact objects is believed to power high-energy astrophysical transients like gamma-ray bursts (GRBs). In this work, we focus on vacuum breakdown around a Kerr black hole (BH) immersed in an asymptotically uniform magnetic field that is inclined with respect to the BH spin axis. The dyadoregion, the region where the induced electric field exceeds the critical value $E_{\\text{c}}=m_{e}^{2}c^{3}/(e\\hbar)$, is identified via the electromagnetic invariants. It is found that the dyadoregion consists of several lobes whose number, size, and orientation vary with the inclination. We also estimate the electromagnetic energy available for pair creation and derive a beaming factor that allows a conversion between the intrinsic dyadoregion energy and the observed isotropic energy. The thermodynamic properties of the resulting electron-positron-photon ($e^{+}e^{-}γ$) plasma are included, revealing an initial magnetic dominance. The evaluation of the minimum magnetic field required shows that misaligned magnetic fields generally favor pair creation more than aligned ones.",
+  "title_relatable": "Tilted magnetic fields make black holes better electron-positron factories",
+  "hook": "A misaligned magnetic field around a spinning black hole creates more electron-positron pairs than an aligned one — and may explain gamma-ray burst energetics.",
+  "summary": "When a spinning black hole sits inside a magnetic field that's tilted relative to its rotation axis, the region where the electric field is strong enough to rip electron-positron pairs out of the vacuum changes shape — splitting into several distinct lobes that shift with the tilt angle. Misaligned fields turn out to require a lower minimum magnetic field strength to trigger pair creation than perfectly aligned ones. The result matters for gamma-ray bursts, where this vacuum breakdown process is thought to supply the enormous energies observed.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 986,
+  "tokens_out": 190,
+  "cost_usd": 0.005808,
+  "ingested_at": "2026-05-23T00:18:21.526658+00:00"
+}

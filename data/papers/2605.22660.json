@@ -1,0 +1,23 @@
+{
+  "id": "2605.22660",
+  "arxiv_url": "https://arxiv.org/abs/2605.22660",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Moral Semantics Survive Machine Translation: Cross-Lingual Evidence from Moral Foundations Corpora",
+  "authors": "Maciej Skorski",
+  "abstract": "Moral language is subtle and culturally variable, making it difficult to translate faithfully across languages. Idiomatic expressions, slang, and cultural references introduce hard-to-avoid translation artifacts. Yet automated moral values classification depends on language-specific annotated corpora that exist almost exclusively in English. We investigate whether LLM-based translation can bridge this gap, taking Polish as a test case. Using $\\sim$50k morally-annotated social media posts from a diverse range of topics, we apply a principled four-method validation pipeline: LaBSE cross-lingual embedding similarity, Centered Kernel Alignment (CKA), LLM-as-judge evaluation, and deep learning classifier parity tests. We show that despite shortcomings in handling slang, vulgarity, and culturally-loaded expressions, direct translation preserves subtle moral cues well enough to be harvested by cross-lingual machine learning -- with mean cosine similarity of 0.86 and AUC gaps of 0.01--0.02 across all foundations closing further under fine-tuning of language models. These results demonstrate that machine translation is a practical and cost-effective path to moral values research in languages currently under-resourced in this domain. We demonstrate this for Polish as a representative Slavic language, with expected generalisation to related languages.",
+  "title_relatable": "Does moral meaning survive translation between languages?",
+  "hook": "Machine translation preserves moral values well enough to enable AI analysis in under-resourced languages, with 0.86 similarity to English originals.",
+  "summary": "Moral values research relies almost entirely on English-annotated datasets, leaving most languages under-resourced. This study tested whether LLM translation could bridge the gap by translating ~50k Polish social media posts and checking if moral meaning survives the process. Using four validation methods—embedding similarity, alignment analysis, LLM judges, and classifier parity tests—they found translated texts retain moral cues faithfully enough for machine learning (0.86 cosine similarity, <0.02 AUC gaps), despite stumbles with slang and cultural references. The implication: machine translation offers a practical, low-cost way to extend moral AI systems to non-English languages.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 960,
+  "tokens_out": 224,
+  "cost_usd": 0.001664,
+  "ingested_at": "2026-05-23T00:37:35.011821+00:00"
+}

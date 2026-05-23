@@ -1,0 +1,23 @@
+{
+  "id": "2605.22769",
+  "arxiv_url": "https://arxiv.org/abs/2605.22769",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Understanding Data Temporality Impact on Large Language Models Pre-training",
+  "authors": "Pilchen Hippolyte, Fabre Romain, Signe Talla Franck, Perez Patrick, Grave Edouard",
+  "abstract": "Large language models (LLMs) are typically trained on shuffled corpora, yielding models whose knowledge is frozen at train time and whose temporal grounding remains poorly understood. In this work, we study the impact of pre-training dynamics on the acquisition of time-sensitive factual knowledge, focusing specifically on data ordering. Our main contributions are twofold. First, we introduce a comprehensive benchmark of over 7,000 temporally grounded questions and an evaluation protocol that enables analysis of whether models correctly associate facts with their corresponding time periods. Second, we pretrain 6B-parameter models on temporally ordered Common Crawl snapshots and compare them against standard shuffled pre-training. Our results show that sequentially trained models match shuffled baselines on general language understanding and common knowledge while consistently exhibiting more up-to-date and temporally precise knowledge. Temporally ordered pre-training yields improved factual freshness, while shuffled pre-training peaks on older data, possibly due to increased factual repetition. These findings, along with the release of our code at https://github.com/kyutai-labs/kairos , checkpoints, and datasets at https://huggingface.co/collections/kyutai/kairos provide a foundation for future research on continual learning for LLMs.",
+  "title_relatable": "Does the order of training data change what language models learn?",
+  "hook": "Models trained on time-ordered data know more recent facts while staying equally good at language tasks—suggesting pre-training order matters far more than assumed.",
+  "summary": "Language models are typically trained on shuffled data, leaving their grasp of time-sensitive facts unclear. Researchers trained 6B-parameter models on temporally ordered Common Crawl snapshots versus standard shuffled pre-training, then evaluated them on 7,000+ time-grounded questions. Sequential training matched shuffled baselines on general language skills but consistently retrieved more recent and temporally accurate facts—while shuffled training peaked on older data. Code, checkpoints, and datasets are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 966,
+  "tokens_out": 187,
+  "cost_usd": 0.0015208,
+  "ingested_at": "2026-05-23T00:33:51.127396+00:00"
+}

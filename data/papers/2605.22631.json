@@ -1,0 +1,22 @@
+{
+  "id": "2605.22631",
+  "arxiv_url": "https://arxiv.org/abs/2605.22631",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "AtomicMotion: Learning Human Motion From Different Human Parts",
+  "authors": "Runzhen Liu, Chuhua Xian, Fa-Ting Hong",
+  "abstract": "Accurately reconstructing full-body poses from sparse head and hand trajectories is a foundational challenge for immersive AR/VR telepresence. Current methods often struggle with error accumulation and unnatural joint coordination, primarily because they treat the human body as a monolithic entity, thereby failing to capture the fine-grained ``atomic intents'' embedded in subtle signal variations and overlooking the inherent structural topology. To bridge this gap, we present AtomicMotion, a framework designed to decouple and re-integrate body dynamics through three core innovations. First, we introduce a logical body partitioning scheme that decomposes the skeleton into five distinct clusters based on functional intent; this ensures that each partition preserves internal joint synergies while isolating local motion primitives. Second, to robustly map sparse inputs to high-dimensional poses, we employ a masked full-body pre-conditioning strategy during training, forcing the model to internalize global skeletal topology and latent kinematic constraints. Finally, addressing the limitations of vanilla spatial attention, which often ignores fixed physiological connectivity, we propose Kinematic Attention. By embedding the classical kinematic tree structure into the attention mechanism, we ensure biological plausibility in the synthesized motions. Extensive evaluations on the AMASS dataset demonstrate that AtomicMotion significantly outperforms existing baselines, yielding higher reconstruction fidelity and superior biomechanical realism.",
+  "title_relatable": "Reconstructing full-body poses from hand and head movements alone",
+  "hook": "New method reconstructs realistic full-body motion from just head and hand tracking—critical for VR telepresence. Outperforms existing approaches on AMASS benchmark.",
+  "summary": "Reconstructing a person's full-body pose from sparse head and hand trajectories is essential for VR/AR telepresence, but current methods accumulate errors and produce unnatural movement. AtomicMotion breaks this problem into five functional body regions (arms, legs, torso, head), trains each to understand local movement patterns while preserving skeletal structure, and uses an attention mechanism that respects biological joint constraints. Results on AMASS show significantly better reconstruction fidelity and more biomechanically realistic motion than existing baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 977,
+  "tokens_out": 204,
+  "cost_usd": 0.0015975999999999998,
+  "ingested_at": "2026-05-23T00:40:22.749469+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.21721",
+  "arxiv_url": "https://arxiv.org/abs/2605.21721",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex",
+    "hep-th"
+  ],
+  "title_original": "The Higgs-top-$Z$ mass coincidence relation after NNLO matching",
+  "authors": "E. Torrente-Lujan",
+  "abstract": "The relation $M_H^2\\simeq M_ZM_t$, previously proposed as a non-trivial Higgs mass coincidence, is reconsidered with present electroweak inputs and with a scheme-consistent matching analysis. With the 2025 PDG values for $M_Z$, $M_W$ and $M_H$, and the ATLAS-CMS direct top-mass combination, the pole-level ratio is $ρ_{Zt}=M_ZM_t/M_H^2=1.00362\\pm0.00261$. Thus an exact pole-level geometric relation predicts either $M_H=125.426\\pm0.120\\,\\mathrm{GeV}$ or $M_t=171.898\\pm0.302\\,\\mathrm{GeV}$, which is still a $1.4σ$ test rather than an exclusion. By contrast, the companion arithmetic relation gives $ρ_{Wt}=(M_W+M_t)/(2M_H)=1.00994\\pm0.00159$ and is not a viable exact mass sum rule. We then evaluate the complete NNLO weak-scale $\\overline{\\mathrm{MS}}$ matching formulae at $μ=M_t$. In the standard convention one obtains $\\widehatρ_{Zt}(M_t)=\\sqrt{g_2^2+g_Y^2}\\,y_t/(4\\sqrt2λ)=0.96714\\pm0.00361$. Consequently, the exact running-coupling boundary condition $λ=g_Zy_t/(4\\sqrt2)$ at the top scale would predict $M_H=123.19\\pm0.20\\,\\mathrm{GeV}$, or equivalently $M_t=177.81\\pm0.50\\,\\mathrm{GeV}$ when $M_H$ is held fixed. This is incompatible with the measured point. A possible symmetry explanation must therefore act on pole-level threshold quantities, or provide a finite matching factor $κ_{\\rm th}=1.0340\\pm0.0039$ at the electroweak scale. We formulate this requirement as a target for custodial/top-Higgs or triality-like symmetry extensions.",
+  "title_relatable": "Why do Higgs and top masses almost multiply to Z mass?",
+  "hook": "A long-standing numerical coincidence—the Higgs mass squared nearly equals the product of top and Z masses—survives precision data but only barely, and only at pole level.",
+  "summary": "The relation M_H² ≈ M_Z × M_t holds to within 1.4σ using 2025 PDG values, suggesting a possible hidden symmetry. But when physicists redo the calculation using running couplings at NNLO precision, the relation breaks down, predicting a Higgs 2 GeV lighter than observed. This mismatch hints that any underlying symmetry must operate at a different scale or include a specific quantum correction factor.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1251,
+  "tokens_out": 199,
+  "cost_usd": 0.0017968,
+  "ingested_at": "2026-05-23T00:19:37.435567+00:00"
+}

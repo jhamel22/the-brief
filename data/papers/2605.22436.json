@@ -1,0 +1,23 @@
+{
+  "id": "2605.22436",
+  "arxiv_url": "https://arxiv.org/abs/2605.22436",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th"
+  ],
+  "title_original": "A perturbative approach to the Wetterich equation for Bosonic and Fermionic interacting fields",
+  "authors": "Beatrice Costeri",
+  "abstract": "We study the Lorentzian Wetterich Renormalization Group (RG) flow equation for interacting quantum fields on curved backgrounds within the framework of perturbative Algebraic Quantum Field Theory (pAQFT). Specifically, we consider two classes of models: two mutually interacting scalar fields on globally hyperbolic spacetimes without boundary and, under the further assumption that the underlying background is spin, self-interacting Dirac fields. In both cases, we derive the corresponding RG flow equations within a Local Potential Approximation and compute the beta functions for the relevant couplings. For the scalar model, we also discuss an asymmetric interaction potential which is formally reminiscent of the Martin-Siggia-Rose description of a stochastic dynamics, thereby indicating a possible connection between Lorentzian algebraic RG methods [DDP+24] and stochastic field-theoretic models, [Duc25]. In addition, we address the local well-posedness of the resulting flow equations. Adapting the strategy detailed in [DP23] and based on the the Nash-Moser theorem, we prove local existence and uniqueness of solutions for both the scalar and the Dirac models.",
+  "title_relatable": "Does renormalization flow work in curved spacetime?",
+  "hook": "A rigorous mathematical framework shows how to track quantum field changes on curved backgrounds—connecting renormalization to stochastic dynamics.",
+  "summary": "Renormalization group equations describe how quantum fields evolve under changes in scale, but applying them to curved spacetime has been mathematically unclear. This work derives the Wetterich RG flow equations for interacting scalar and Dirac fields on curved backgrounds using algebraic quantum field theory, computing the beta functions that govern coupling evolution and proving the solutions actually exist. The results hint at a deeper link between renormalization and stochastic field theory.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 968,
+  "tokens_out": 172,
+  "cost_usd": 0.0014624,
+  "ingested_at": "2026-05-23T00:19:14.891572+00:00"
+}

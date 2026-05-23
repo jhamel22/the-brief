@@ -1,0 +1,22 @@
+{
+  "id": "2605.22271",
+  "arxiv_url": "https://arxiv.org/abs/2605.22271",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Nature of 4FGL J2249.4+6229: Evidence for a redback system with a cool companion and low X-ray and $γ$-ray luminosities",
+  "authors": "A. V. Karpova, D. A. Zyuzin, S. V. Zharikov, M. R. Gilfanov",
+  "abstract": "We report the identification of the likely X-ray and optical counterpart to the unassociated Fermi source 4FGL J2249.4+6229. To clarify its nature, we investigate the X-ray data from Swift/XRT and SRG/eROSITA as well as photometric data from optical catalogues and archival spectroscopic data from the Gemini-North telescope. Using Zwicky Transient Facility data spanning over 6.6 yr, we confirmed a period of $\\approx$5.6 h likely associated with the orbital motion in a binary system. The folded light curves have a smooth sinusoidal shape with two peaks per period and the amplitude of $\\approx$0.2 mag. The X-ray spectra of the source are well fitted by an absorbed power law with the photon index of $\\approx$2.0 and unabsorbed flux of $\\approx$1.4$\\times10^{-13}$ erg s$^{-1}$ cm$^{-2}$. All these together with the X-ray to optical flux ratio of $\\sim$0.2 implies that 4FGL J2249.4+6229 is a promising redback candidate. Fitting the optical light curves with the direct heating model, we obtained the companion mass of $\\approx$0.5 M$_\\odot$ and temperature of $\\approx$3600 K implying an M-type star. This places it among the coldest and most massive companions known in redback systems.Optical spectra confirms the M-type star and shows the broad asymmetric H$α$ emission line. For the distance of 500--550 pc derived from the optical data, the source can be the redback with the lowest X-ray and $γ$-ray luminosities.",
+  "title_relatable": "A pulsar in disguise: coolest, dimmest redback yet found",
+  "hook": "A Fermi gamma-ray source turns out to be a neutron star orbited by an unusually cool, massive star—and it's far dimmer than any redback seen before.",
+  "summary": "Astronomers identified a mysterious Fermi source as a redback system: a neutron star with a close companion star. Using optical data spanning 6.6 years, they confirmed a 5.6-hour orbital period and determined the companion is an M-type star with mass ~0.5 solar masses and temperature ~3600 K—the coolest and most massive known in this class. The system also ranks among the dimmest redbacks in both X-rays and gamma rays, suggesting hidden diversity in neutron star binaries.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1172,
+  "tokens_out": 214,
+  "cost_usd": 0.0017936,
+  "ingested_at": "2026-05-23T00:25:25.683284+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.21844",
+  "arxiv_url": "https://arxiv.org/abs/2605.21844",
+  "announced_date": "2026-05-21",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "nlin.AO",
+    "cond-mat.stat-mech",
+    "physics.soc-ph"
+  ],
+  "title_original": "A Utility-Driven Bounded-Confidence Model for Opinion Dynamics",
+  "authors": "Alex Siebenmorgen, Juan G. Restrepo",
+  "abstract": "We introduce a utility-driven bounded-confidence model of opinion dynamics in which opinions associated with higher utility exert stronger social influence. In the regime where all agents belong to a single opinion cluster, we derive a stochastic differential equation for the mean opinion and show that its stationary distribution is Gibbs-like, with an effective potential determined by the utility landscape and an inverse temperature controlled by the learning rate and the number of agents. For multimodal utility functions, the dynamics exhibit metastability and spontaneous switching between competing opinion states. The reduced stochastic description also captures the evolution and merging of multiple opinion clusters, in agreement with agent-based simulations.",
+  "title_relatable": "Why popular opinions spread faster: a physics model explains",
+  "hook": "Opinions tied to higher utility act like lower-energy states — crowds can get trapped in them the way matter freezes.",
+  "summary": "A new model of how opinions spread treats social influence as proportional to an opinion's perceived utility, borrowing tools from statistical physics. When everyone clusters around one view, the group's mean opinion follows a Gibbs-like distribution — the same math used to describe atoms in a heat bath — with a 'temperature' set by how fast people update their beliefs and how many of them there are. For divisive issues with multiple attractive opinion states, the model predicts spontaneous, random switching between camps, matching computer simulations of individual agents.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 842,
+  "tokens_out": 183,
+  "cost_usd": 0.005271,
+  "ingested_at": "2026-05-23T00:24:30.179215+00:00"
+}

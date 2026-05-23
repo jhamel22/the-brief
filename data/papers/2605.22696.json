@@ -1,0 +1,24 @@
+{
+  "id": "2605.22696",
+  "arxiv_url": "https://arxiv.org/abs/2605.22696",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE",
+    "hep-ph"
+  ],
+  "title_original": "Dimming of Photon Ring due to Photon-Axion Conversion around Kerr Black Holes",
+  "authors": "Rahul Dhyani, Sauvik Sen, Indrani Banerjee, Ashmita Chakraborty, Arindam Chatterjee",
+  "abstract": "We investigate photon-axion conversion in the vicinity of rotating Kerr black holes where strong gravity traps photons on near-circular trajectories, effectively enhancing the path length. We explore the observable signatures of such a conversion near the photon region. The process, driven by ambient magnetic fields, is significantly more efficient around supermassive black holes such as M87*, since the luminosity of photons increases with the mass of the BH. By numerically evaluating photon path lengths (on which the conversion depends), we analyze how key parameters-photon frequency, axion mass, photon-axion coupling, magnetic field strength, plasma density, and black hole spin-affect the conversion probability and the resultant dimming of photon spectral luminosity. We find that the conversion is most efficient at high frequencies (X-rays and gamma rays), while the frequency window associated with efficient conversion widens with an increase in the photon-axion coupling and a decrease in the electron density and the axion mass. The magnitude of dimming of the photon spectral luminosity depends primarily on the magnetic field, the photon-axion coupling and the BH spin. Our study reveals that rotating black holes generally exhibit enhanced dimming compared to static ones. Thus, if future telescopes achieving a resolution $\\sim 10^{-5}$ arcsec in the X-ray/gamma-ray band detect a dimming of the photon spectral luminosity, then they can provide interesting constraints on the axion mass and its coupling with photons.",
+  "title_relatable": "Black hole photon rings could reveal invisible axion particles",
+  "hook": "Light trapped near spinning black holes travels farther, making it a surprisingly good detector for hypothetical axion particles.",
+  "summary": "Photons orbiting close to a black hole travel along extended near-circular paths before escaping, and this extra path length dramatically boosts the chance that they convert into axions in the presence of a magnetic field. Around M87*, the effect is strongest at X-ray and gamma-ray frequencies, and a spinning black hole dims more than a static one. Future X-ray telescopes with arcsecond-scale resolution could use this dimming to pin down axion mass and its coupling to light.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1066,
+  "tokens_out": 176,
+  "cost_usd": 0.005838,
+  "ingested_at": "2026-05-23T00:16:22.494004+00:00"
+}

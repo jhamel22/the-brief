@@ -1,0 +1,23 @@
+{
+  "id": "2605.22739",
+  "arxiv_url": "https://arxiv.org/abs/2605.22739",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "title_original": "A Three-Dimensional Tomographic Reconstruction of the Galactic Cosmic-Ray Proton Density",
+  "authors": "Hanieh Zandinejad, Jakob Roth, Vo Hong Minh Phan, Gordian Edenhofer, Philipp Frank, Philipp Mertsch, Ralf Kissmann, Andrés Ramírez, Laurin Söding, Torsten A. Enßlin",
+  "abstract": "Cosmic rays (CRs) are a ubiquitous non-thermal component of the interstellar medium (ISM). A data-driven three-dimensional (3D) map of their distribution is essential for understanding CR transport and constraining the spatial distribution of their sources. In this work, we reconstructed the 3D spatial distribution of the Galactic cosmic-ray proton (CRp) density. We model the diffuse gamma-ray emission arising from inelastic hadronic interactions between CRps and interstellar gas. Using a map of dust-correlated diffuse gamma-ray emission based on ten years of Fermi-LAT observations together with a three-dimensional gas density model, we infer the spatial CRp distribution through a morphological matching approach. The logarithmic CRp density field is described by a Gaussian process defined on a spherical-times-radial grid, while both the field and its correlation structure are inferred simultaneously using Iterative Charted Refinement. The posterior distribution of the reconstructed 3D CRp density field is approximated using geometric variational inference. The reconstructed CRp density exhibits a smooth but spatially structured distribution with a limited dynamical range across the Galactic disk. We find a moderate enhancement of the CRp density toward the inner Galaxy. The inferred normalization at the Solar position is consistent with local CR measurements by the AMS-02 instrument.",
+  "title_relatable": "How cosmic rays are actually distributed across the Milky Way",
+  "hook": "A new 3D map of cosmic-ray protons in our galaxy, built from ten years of gamma-ray data, shows how these high-energy particles concentrate in different regions.",
+  "summary": "Cosmic rays pervade the galaxy but their spatial distribution remains poorly mapped. Researchers used a decade of Fermi telescope observations of gamma rays—the smoking gun of cosmic rays hitting gas—to reconstruct a 3D model of cosmic-ray proton density throughout the Milky Way. The map reveals a modest enhancement toward the galactic center and matches measurements taken near Earth, suggesting the reconstruction captures real physics rather than artifacts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1087,
+  "tokens_out": 180,
+  "cost_usd": 0.0015895999999999998,
+  "ingested_at": "2026-05-23T00:24:51.948116+00:00"
+}

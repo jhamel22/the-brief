@@ -1,0 +1,22 @@
+{
+  "id": "2605.21858",
+  "arxiv_url": "https://arxiv.org/abs/2605.21858",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Hypergraph as Language",
+  "authors": "Mengqi Lei, Guohuan Xie, Shihui Ying, Shaoyi Du, Jun-Hai Yong, Siqi Li, Yue Gao",
+  "abstract": "Large language models (LLMs) have recently shown strong potential in modeling relational structures. However, existing approaches remain fundamentally graph-centric: they focus on processing pairwise graph structures into tokens that LLMs can understand. In contrast, many real-world relational patterns do not naturally conform to the pairwise-edge assumption, and are better modeled as high-order associations in hypergraphs. For hypergraph structures, existing methods often fail to preserve the native semantics that multiple objects are jointly connected by the same high-order relation, limiting their ability to exploit complex structures. To address this limitation, we put forth the \"Hypergraph as Language\" perspective and propose Hyper-Align, a hypergraph-native alignment framework for large language models. Hyper-Align compiles the query-object-centered hypergraph context into hypergraph tokens directly consumable by a base LLM. Specifically, we introduce Hypergraph Incidence Detail Template with Overview (HIDT-O), which serializes high-order association structures into a fixed-shape hybrid template combining local incidence details and overview-level summaries. We then design a Hypergraph Incidence Projector (HIP), which maps native high-order incidence structures into the LLM token space through explicit semantic-structural decoupling and bidirectional message passing between vertices and hyperedges. We further define a concrete Hypergraph-as-Language input protocol, which jointly feeds hypergraph tokens and textual prompts into a frozen base LLM, supporting both vertex-level and hyperedge-level tasks under a unified question-answering paradigm. To systematically evaluate different methods in hypergraph structural modeling, we introduce HyperAlign-Bench. Extensive experiments show that Hyper-Align significantly outperforms existing methods across in-domain and zero-shot evaluations.",
+  "title_relatable": "Teaching language models to understand hypergraphs natively",
+  "hook": "LLMs excel at text, but struggle with real-world relationships that involve more than pairs of objects. A new method treats hypergraphs as a language the model can learn to read.",
+  "summary": "Most work feeding relational structures into LLMs converts them to simple pairwise graphs, losing the semantics of higher-order relationships where multiple objects connect simultaneously—like a paper written by three authors or a chemical reaction with multiple reactants. Hyper-Align converts hypergraph structures directly into tokens using a hybrid template that preserves both local connection details and global patterns, then feeds these alongside text prompts into frozen LLMs. The approach outperforms existing methods on both in-domain and zero-shot hypergraph reasoning tasks, with a new benchmark (HyperAlign-Bench) for systematic evaluation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1105,
+  "tokens_out": 223,
+  "cost_usd": 0.001776,
+  "ingested_at": "2026-05-23T00:35:45.047893+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22743",
+  "arxiv_url": "https://arxiv.org/abs/2605.22743",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "SeqLoRA: Bilevel Orthogonal Adaptation for Continual Multi-Concept Generation",
+  "authors": "Javad Parsa, Enis Simsar, Amir Joudaki, Thomas Hofmann, André M. H. Teixeira",
+  "abstract": "Parameter-efficient fine-tuning enables fast personalization of text-to-image diffusion models, but composing multiple custom concepts remains challenging due to representation interference. Existing modular methods either rely on expensive post-hoc fusion or freeze adaptation subspaces, which limit expressiveness and concept fidelity. To address this trade-off, we propose Sequential regularized LoRA (SeqLoRA), a constrained continual learning framework that jointly optimizes both LoRA factors via bilevel optimization. Theoretically, we establish strong convergence guarantees for our algorithm and model the residual layer activations as a matrix sub-Gaussian process to derive high-probability bounds on catastrophic forgetting. We further prove that learning the LoRA basis from data minimizes residual interference energy more effectively than frozen-basis methods. Experiments on multi-concept image generation demonstrate that SeqLoRA improves identity preservation and scalability across up to 101 concepts, while avoiding costly fusion and reducing attribute interference in composed generations.",
+  "title_relatable": "Combining multiple custom concepts in AI images without interference",
+  "hook": "New method lets diffusion models handle 101 custom concepts at once without forgetting previous ones or requiring expensive post-processing.",
+  "summary": "Personalizing text-to-image models with multiple custom concepts—say, a specific face and a specific style together—causes interference: the model forgets one while learning the other. SeqLoRA solves this with a constrained optimization approach that learns both parts of the adapter simultaneously, avoiding the cost of post-hoc fusion or the limits of frozen methods. Testing on up to 101 concepts shows better identity preservation and fewer unwanted attribute leakage than existing approaches.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 915,
+  "tokens_out": 177,
+  "cost_usd": 0.00144,
+  "ingested_at": "2026-05-23T00:29:24.834190+00:00"
+}

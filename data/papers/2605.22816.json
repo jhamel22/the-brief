@@ -1,0 +1,23 @@
+{
+  "id": "2605.22816",
+  "arxiv_url": "https://arxiv.org/abs/2605.22816",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
+  "authors": "Wenxuan Guo, Xiuwei Xu, Yichen Liu, Xiangyu Li, Hang Yin, Huangxing Chen, Wenzhao Zheng, Jianjiang Feng, Jie Zhou, Jiwen Lu",
+  "abstract": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit and explainable understanding of the relationships between the agent, the instruction, and the scene. Conversely, explicitly building a scene map for heuristic planning is intuitively appealing but relies on additional 3D sensors and hinders large-scale vision-language pre-training. To bridge this gap, we propose AwareVLN, a novel framework that equips the navigation model with a self-aware reasoning mechanism, enabling it to understand the agent's state and task progress in a fully end-to-end and data-driven manner. Our approach features two key innovations: (1) a structural reasoning module that fosters spatial and task-oriented self-awareness, and (2) an automatic data engine with progress division for effective training. Extensive experiments on various datasets in Habitat simulator show our AwareVLN significantly outperforms previous state-of-the-art vision-language navigation methods. Project page: https://gwxuan.github.io/AwareVLN/.",
+  "title_relatable": "Teaching robots to navigate by understanding themselves",
+  "hook": "A navigation system that makes AI agents aware of their own position and progress, outperforming prior methods on standard VLN benchmarks without requiring 3D sensor data.",
+  "summary": "Vision-language navigation asks robots to follow instructions while moving through real environments. Most prior methods either use opaque end-to-end learning or rely on explicit 3D maps (which need extra sensors). AwareVLN adds explicit self-awareness—the agent reasons about where it is and how close it is to completing the task—while staying fully end-to-end. A structural reasoning module learns spatial and task awareness from data alone. On Habitat benchmarks, AwareVLN significantly outperforms existing vision-language navigation methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 993,
+  "tokens_out": 198,
+  "cost_usd": 0.0015864000000000002,
+  "ingested_at": "2026-05-23T00:41:46.708066+00:00"
+}

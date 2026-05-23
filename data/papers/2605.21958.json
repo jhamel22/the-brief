@@ -1,0 +1,22 @@
+{
+  "id": "2605.21958",
+  "arxiv_url": "https://arxiv.org/abs/2605.21958",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Diagnosis Is Not Prescription: Linguistic Co-Adaptation Explains Patching Hazards in LLM Pipelines",
+  "authors": "Yoon Jeonghun, Kim Dongchan",
+  "abstract": "When a multi-module LLM agent fails, the module most responsible for the failure is not necessarily the best place to intervene. We demonstrate this Diagnostic Paradox empirically: causal analysis consistently identifies the routing module -- which selects which tool to call next -- as the primary bottleneck across three independent agent families. Yet injecting prompt-level correction examples into this module consistently degrades performance, sometimes severely. Patching an upstream query-rewriting module instead reliably improves outcomes. The effect holds with statistical significance on two agent families and directional consistency on a third; alternative repair strategies at the routing module (instruction rewriting, model upgrade) are neutral, confirming that the harm is specific to correction-injection patching. We explain this asymmetry through the Linguistic Contract hypothesis: each downstream module implicitly adapts to its upstream's characteristic error distribution, so correcting the bottleneck breaks this implicit alignment in a way that upstream corrections do not. We operationalize this via a per-agent co-adaptation measure, derived from diagnosis alone, and show it is consistently associated with patching harm across agent families: higher co-adaptation co-occurs with harm, lower with safety. This trend holds across all three agent families, providing preliminary support for the hypothesis beyond a single-agent observation.",
+  "title_relatable": "Why fixing the broken part makes things worse",
+  "hook": "Diagnosing where an AI agent fails doesn't tell you where to fix it—patching the culprit can backfire because downstream modules have learned to expect upstream errors.",
+  "summary": "When multi-module LLM agents break, causal analysis pinpoints the routing module as the bottleneck—yet injecting corrections there reliably worsens performance. Fixing an upstream module instead works. The researchers explain this through linguistic co-adaptation: downstream modules have implicitly tuned themselves to their upstream's error patterns, so \"correcting\" the bottleneck breaks that implicit alignment. They measure this co-adaptation effect across three agent families and show higher co-adaptation predicts patching harm with statistical significance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 955,
+  "tokens_out": 195,
+  "cost_usd": 0.001544,
+  "ingested_at": "2026-05-23T00:35:40.064000+00:00"
+}

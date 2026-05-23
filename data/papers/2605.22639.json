@@ -1,0 +1,22 @@
+{
+  "id": "2605.22639",
+  "arxiv_url": "https://arxiv.org/abs/2605.22639",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Symmetries Here and There, Combined Everywhere: Cross-space Symmetry Compositions in Robotics",
+  "authors": "Loizos Hadjiloizou, Rodrigo Pérez-Dattari, Noémie Jaquier",
+  "abstract": "Robots exhibit a rich variety of symmetries arising from their mechanical structure and the properties of their tasks. Although many robotics problems exhibit several symmetries simultaneously, existing approaches typically treat them in isolation, failing to exploit their combined potential. This paper introduces cross-space symmetry compositions, a framework for learning robot policies that are jointly equivariant to multiple symmetries across configuration and task spaces. Leveraging the differential-geometric structure of the forward kinematics map, we both descend symmetries from configuration to task space and lift symmetries from task to configuration space, enabling their composition within a unified representation space. We validate our framework on simulated and real-world experiments on a dual-arm robot, demonstrating that jointly leveraging multiple symmetries yields improved generalization.",
+  "title_relatable": "Teaching robots to exploit multiple symmetries at once",
+  "hook": "Robots have built-in symmetries—but existing methods handle them one at a time. Composing them jointly improves generalization on real hardware.",
+  "summary": "Robots naturally exhibit multiple symmetries from their mechanical structure and task design, yet current approaches treat each separately and miss their combined potential. This work introduces a framework that makes robot policies jointly equivariant to multiple symmetries by mapping them into a unified representation space, mixing symmetries from both the robot's configuration and the task itself. Experiments on a dual-arm robot show the approach improves generalization on unseen tasks and configurations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 852,
+  "tokens_out": 172,
+  "cost_usd": 0.0013696,
+  "ingested_at": "2026-05-23T00:43:40.915103+00:00"
+}

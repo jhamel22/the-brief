@@ -1,0 +1,22 @@
+{
+  "id": "2605.22718",
+  "arxiv_url": "https://arxiv.org/abs/2605.22718",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "WorldKV: Efficient World Memory with World Retrieval and Compression",
+  "authors": "Jung Yi, Minjae Kim, Paul Hyunbin Cho, Wooseok Jang, Sangdoo Yun, Seungryong Kim",
+  "abstract": "Autoregressive video diffusion models have enabled real-time, action-conditioned world generation. However, sustaining a persistent world, where revisiting a previously seen viewpoint yields consistent content, remains an open problem. Full KV-cache attention preserves this consistency but breaks real-time constraints: memory footprint and attention cost grow linearly with rollout length. Sliding window inference restores throughput but discards long-term consistency. We propose WorldKV, a training-free framework with two components: World Retrieval and World Compression. World Retrieval stores evicted KV-cache chunks in GPU/CPU memory and selectively retrieves scene-relevant chunks via camera/ action correspondence, inserting them back into the native attention window without re-encoding. World Compression prunes redundant tokens within each chunk via key-key similarity to an anchor frame, halving per-chunk storage to fit 2x more history under a fixed budget. On Matrix-Game-2.0 and LingBot- World-Fast, WorldKV matches or exceeds full-KV memory fidelity at roughly 2x the throughput, and is competitive with memory-trained baselines without any fine-tuning. Project Page: https://cvlab-kaist.github.io/WorldKV/",
+  "title_relatable": "Remembering virtual worlds without breaking real-time speed",
+  "hook": "Video AI models struggle to keep consistent worlds while maintaining real-time performance. WorldKV retrieves and compresses memory on the fly, achieving 2× throughput without retraining.",
+  "summary": "Autoregressive video diffusion models can generate interactive worlds in real-time, but they face a hard tradeoff: keeping perfect memory of past scenes kills frame rate, while fast inference forgets the world. WorldKV solves this by storing discarded memory chunks on GPU/CPU and selectively retrieving them based on camera position and action, while pruning redundant tokens within chunks. On two benchmarks, it matches full-memory consistency at double the speed with no fine-tuning required.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 973,
+  "tokens_out": 196,
+  "cost_usd": 0.0015624,
+  "ingested_at": "2026-05-23T00:40:01.003447+00:00"
+}

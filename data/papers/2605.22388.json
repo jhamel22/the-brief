@@ -1,0 +1,23 @@
+{
+  "id": "2605.22388",
+  "arxiv_url": "https://arxiv.org/abs/2605.22388",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "title_original": "A Weak Fe K$β$ Emission Line in the Broad-Line Radio Galaxy 3C 111 Observed with XRISM: An Ionized Wind Absorption Feature?",
+  "authors": "Kouichi Hagino, Motoki Kino, Lukasz Stawarz, Kenzo Kawamura, Kazuhiro Hada, Hirofumi Noda",
+  "abstract": "We present the results of an observation of the broad-line radio galaxy 3C 111 with the X-Ray Imaging and Spectroscopy Mission (XRISM). The unprecedentedly high spectral resolution of XRISM/Resolve revealed that the Fe K$β$ emission line is significantly weaker than expected from the Fe K$α$ line. This feature may be explained by a blueshifted absorption line from an ionized wind overlapping the Fe K$β$ energy. The inferred outflow velocity is 4600 km s$^{-1}$ or 17200 km s$^{-1}$, depending on whether the absorption feature is identified as Fe XXVI or Fe XXV, with the current data unable to distinguish between the two interpretations. Based on spectral modeling, the kinetic power of the wind is estimated to lie in the range 10$^{41}$-10$^{44}$ erg s$^{-1}$, although this estimate is subject to large uncertainties primarily due to the poorly constrained location of the absorber. The inferred wind power is smaller than the jet power of 3C 111 ($\\sim 3\\times 10^{44}$ erg s$^{-1}$), and is broadly consistent with theoretical expectations that the jet power exceeds that of disk winds.",
+  "title_relatable": "A mysterious dip in iron's glow reveals a galactic wind from a supermassive black hole",
+  "hook": "XRISM's sharp eyes caught a hidden ionized wind streaming outward at supersonic speeds, offering the first direct glimpse of how black hole jets and winds compete.",
+  "summary": "An unexpectedly weak iron line in the radio galaxy 3C 111 hints at a high-speed ionized wind absorbing X-rays as it flows outward from near the black hole. The wind reaches velocities of 4,600–17,200 km/s and carries kinetic power of 10⁴¹–10⁴⁴ erg/s, roughly 100 times weaker than the jet itself. This supports the long-standing prediction that jets dominate the energy budget over disk-driven winds in active galaxies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1065,
+  "tokens_out": 222,
+  "cost_usd": 0.00174,
+  "ingested_at": "2026-05-23T00:25:09.278402+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22108",
+  "arxiv_url": "https://arxiv.org/abs/2605.22108",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "MAcNLOPS for ZZ Pair Production at the LHC",
+  "authors": "Yuxiao Che, Rikkert Frederix",
+  "abstract": "We present an implementation of the MAcNLOPS matching prescription for $pp \\to ZZ$ production in a MadGraph5_aMC@NLO + Pythia8 setup. Starting from a standard MC@NLO event sample, negative H events are removed and compensated by a veto applied to the first shower emission of the S events. The implementation is validated against MC@NLO for radiation-sensitive and inclusive diboson observables. Agreement is found up to a rather small power-suppressed contribution affecting the very low-pT region. The method removes all negative H weights with negligible additional computational cost, while negative S weights are left unchanged, showing that MAcNLOPS is a promising alternative to MC@NLO with a reduced fraction of negative weights.",
+  "title_relatable": "Removing negative weights from LHC pair production simulations",
+  "hook": "A new matching technique eliminates problematic negative weights in particle collision simulations while keeping the physics intact.",
+  "summary": "Simulating ZZ pair production at the LHC generates annoying negative weights in Monte Carlo events that slow down analyses. The MAcNLOPS method removes these by vetoing certain shower emissions, reducing the fraction of negative weights without slowing computation. Tests show the approach reproduces standard predictions across all observable types except in an unimportant low-energy region.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 873,
+  "tokens_out": 152,
+  "cost_usd": 0.0013064,
+  "ingested_at": "2026-05-23T00:23:45.565851+00:00"
+}

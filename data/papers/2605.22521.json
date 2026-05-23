@@ -1,0 +1,23 @@
+{
+  "id": "2605.22521",
+  "arxiv_url": "https://arxiv.org/abs/2605.22521",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.HC"
+  ],
+  "title_original": "Quantifying Full-Body Immersion",
+  "authors": "Alihan Bakir, Ekrem Yüksel, Fabio Zuliani, Neil Chennoufi, Francesco Bruno, Jamie Paik",
+  "abstract": "Humanity is at the forefront of yet another digital revolution, where the lines between real and virtual worlds are dissolving, reshaping how we perceive and interact with our surroundings. In this context, we introduce a transformative paradigm for immersive virtual experiences centered around whole-body kinetic interactions. Our approach redefines immersion through three distinct levels: audio-visual immersion, capturing sensory realism; physical immersion, delivering haptic feedback; and full-body immersion (FBI), where dynamic bodily interaction integrates seamlessly with virtual environments. At the core of this innovation lies a scalable, distributable platform based on modular robotic surface units inspired by the adaptive designs of nature. These units enable the rendering of immersive environments at any scale, from intimate personal experiences to expansive multi-user settings, dynamically adapting to interactions in real-time. The modular system distributes force, shape, and motion feedback throughout entire spaces, replicating the physical characteristics of the environment and enabling new depth of engagement through FBI. By combining scalability, adaptability, and dynamic physical engagement, this framework bridges the gap between real and virtual worlds. It offers an unprecedented level of immersion where users can engage their entire bodies in symbiotic interactions with the virtual space. This work not only advances immersive technology but also redefines how humans and virtual environments coexist, setting a foundation for a new era of human-environment synthesis.",
+  "title_relatable": "Making virtual worlds you can feel with your whole body",
+  "hook": "Researchers built modular robotic surfaces that move and reshape in real-time, letting you physically interact with virtual environments as if they were real.",
+  "summary": "Full-body immersion in VR usually means watching and hearing a virtual world. This team proposes a platform of interconnected robotic units that tile floors and walls, delivering haptic feedback and dynamic physical resistance across your entire body. The modular system adapts in real-time to your movements, scaling from single-user rooms to multi-person spaces—think of it as a programmable physical landscape that morphs to match what's happening in the virtual world alongside you.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 992,
+  "tokens_out": 179,
+  "cost_usd": 0.0015095999999999998,
+  "ingested_at": "2026-05-23T00:43:38.319753+00:00"
+}

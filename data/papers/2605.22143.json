@@ -1,0 +1,23 @@
+{
+  "id": "2605.22143",
+  "arxiv_url": "https://arxiv.org/abs/2605.22143",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Holographic Dark Energy with Hubble Radius as an Infrared Cutoff in Einstein-Cartan Gravity",
+  "authors": "Yongjun Yun, Jungjai Lee",
+  "abstract": "In this work, we investigate non-interacting holographic dark energy (HDE) with the Hubble radius as the infrared cutoff in Einstein-Cartan gravity. We derive the Einstein-Cartan equations from the action principle and obtain Friedmann-like equations by introducing a torsion scalar. Considering a Weyssenhoff spin fluid, we determine the scaling behavior of the torsion scalar as $Φ\\sim a^{-3}$ without introducing an ad hoc ansatz, resolving the ansatz problem of previous torsion scalar scenarios. In the absence of interactions between dark matter and dark energy, the torsion scalar shifts the equation of state for holographic dark energy toward negative values from the dust-like value obtained in HDE without torsion, making cosmic acceleration possible. In particular, the resulting equation of state can approach $ω_X \\simeq -1$ and cross the phantom divide within the weak torsion regime $|Φ/H| < 1$. The model predicts a dynamical equation of state in which cosmic acceleration gradually weakens, potentially consistent with recent DESI observations. In spacetimes with torsion, the cosmic distance duality relation between the luminosity distance $d_L$ and the angular diameter distance $d_A$ is modified as $d_L = d_A (1+z)^2 (1+η)$. In the presence of the torsion scalar, we show that the standard relation between redshift and the scale factor is preserved, while the deviation parameter arising from torsion effects is determined as $η\\sim \\int_{t_S}^{t_O} dt a^{-3}$, where $t_S$ and $t_O$ denote the emission time at the source and the observation time at the observer, respectively. Overall, our results support the feasibility of the model and provide a theoretical framework for preparing likelihood analyses.",
+  "title_relatable": "Can spacetime torsion explain cosmic acceleration without dark energy tuning?",
+  "hook": "Adding spin-induced spacetime torsion to holographic dark energy naturally drives cosmic acceleration and hints at weakening expansion matching DESI data.",
+  "summary": "Einstein-Cartan gravity extends general relativity by letting matter with quantum spin twist spacetime itself — a property called torsion. Treating the observable universe's edge as the quantum gravity length scale and including a realistic spinning fluid, the torsion contribution shifts dark energy's equation of state toward -1 and even allows it to cross that threshold, all without ad hoc assumptions. The resulting picture — accelerating expansion that gradually weakens — aligns with recent DESI survey hints that dark energy may be evolving.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1139,
+  "tokens_out": 190,
+  "cost_usd": 0.006267,
+  "ingested_at": "2026-05-23T00:17:55.227397+00:00"
+}

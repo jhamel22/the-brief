@@ -1,0 +1,23 @@
+{
+  "id": "2605.22072",
+  "arxiv_url": "https://arxiv.org/abs/2605.22072",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "Faithful-MR1: Faithful Multimodal Reasoning via Anchoring and Reinforcing Visual Attention",
+  "authors": "Changyuan Tian, Zhicong Lu, Huaxing Liu, Xiang Wang, Shuai Li, Yu Chen, Wenqian Lv, Zichuan Lin, Juncheng Diao, Deheng Ye",
+  "abstract": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a promising paradigm for advancing complex reasoning in large language models, and recent work extends RLVR to multimodal large language models (MLLMs). This transfer, however, surfaces a faithfulness challenge: faithful perception of task-relevant visual evidence and faithful use of that evidence during reasoning, leading to unsatisfactory gains on multimodal benchmarks. Specifically, existing perception supervision often operates on textual descriptions rather than natively on image regions, and faithful use is largely overlooked, exposing the perception-reasoning disconnect where correctly perceived evidence is dropped or contradicted during reasoning. To close these gaps, we propose Faithful-MR1, a training framework that anchors and reinforces visual attention to address both halves of faithful multimodal reasoning. The Anchoring stage turns perception into an explicit pre-reasoning subtask, supervising a dedicated token's attention directly against image regions rather than through textual descriptions. The Reinforcing stage exposes faithful use through counterfactual image intervention, rewarding answer-correct trajectories that concentrate visual attention where vision causally matters. Extensive experiments demonstrate that Faithful-MR1 outperforms recent multimodal reasoning baselines on both Qwen2.5-VL-Instruct 3B and 7B backbones while using substantially less training data.",
+  "title_relatable": "Teaching vision-language models to actually look at images before reasoning",
+  "hook": "A training method that forces multimodal AI to visually attend to relevant image regions and use that evidence faithfully, outperforming baselines on standard benchmarks with less data.",
+  "summary": "Multimodal language models often fail at faithful reasoning because they perceive visual evidence correctly but then ignore or contradict it during reasoning. Faithful-MR1 addresses this with two stages: anchoring perception as an explicit pre-reasoning task by supervising visual attention directly on image regions (not text descriptions), and reinforcing faithful use through counterfactual image interventions that reward answers only when the model attends to causally relevant visual features. On Qwen2.5-VL-Instruct models, the method improves multimodal reasoning benchmarks while using substantially less training data than recent baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1026,
+  "tokens_out": 222,
+  "cost_usd": 0.0017088000000000001,
+  "ingested_at": "2026-05-23T00:35:31.073088+00:00"
+}

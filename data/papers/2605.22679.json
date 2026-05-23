@@ -1,0 +1,23 @@
+{
+  "id": "2605.22679",
+  "arxiv_url": "https://arxiv.org/abs/2605.22679",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Conceptualizing Embeddings: Sparse Disentanglement for Vision-Language Models",
+  "authors": "Piotr Kubaty, Patryk Marszałek, Łukasz Struski, Adam Wróbel, Jacek Tabor, Marek Śmieja",
+  "abstract": "Vision-language models learn powerful multimodal embeddings, yet their internal semantics remain opaque. While sparse autoencoders (SAEs) can extract interpretable features, they rely on expanding the representation dimension, which compromises the original geometry and introduces redundancy. We introduce CEDAR (Conceptual Embedding Disentanglement via Adaptive Rotation), a post-hoc method that reveals the compositional structure of pretrained embeddings without increasing dimensionality. By learning an invertible transformation with a top-$k$ sparsity bottleneck, CEDAR concentrates semantic information into axis-aligned disentangled coordinates. In CLIP-like architecture, individual coordinates can be interpreted with textual concepts, while for generative models such as BLIP, they can be decoded into natural language descriptions. Experiments demonstrate that CEDAR achieves a competitive reconstruction-sparsity trade-off while producing explanations that are more interpretable and better aligned with human perception. Our results suggest that the apparent entanglement in vision-language representations can be resolved through a suitable change of basis, eliminating the need for overcomplete expansions.",
+  "title_relatable": "What do vision-language models actually learn inside?",
+  "hook": "New method reveals hidden structure in CLIP and similar models without expanding them, making embeddings interpretable through simple coordinate rotations.",
+  "summary": "Vision-language models like CLIP learn powerful representations, but what those embeddings actually encode remains largely mysterious. This work introduces CEDAR, a technique that rotates embeddings into a sparse, interpretable space without inflating their size—the key insight being that entanglement isn't fundamental, just a matter of perspective. Individual coordinates now correspond to human-understandable concepts like \"dog\" or \"metal texture\", and the method achieves better sparsity-reconstruction trade-offs than previous approaches while staying more faithful to the original model geometry.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 946,
+  "tokens_out": 191,
+  "cost_usd": 0.0015208,
+  "ingested_at": "2026-05-23T00:40:06.152154+00:00"
+}

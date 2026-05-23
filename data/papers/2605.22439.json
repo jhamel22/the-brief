@@ -1,0 +1,23 @@
+{
+  "id": "2605.22439",
+  "arxiv_url": "https://arxiv.org/abs/2605.22439",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "title_original": "Minimal Permutation-Invariant Qudit Codes from Edge-Colorings of Complete Graphs",
+  "authors": "Eric Kubischta, Ian Teixeira",
+  "abstract": "We study permutation-invariant quantum codes in the symmetric subspace $\\mathrm{Sym}^n(\\mathbb{C}^q) $ of $n$ qudits of local dimension $q$. For every integer $q\\geq 2$, we construct a permutation-invariant code with parameters $((4,q,2))_q$. Thus four physical qudits suffice to encode one logical qudit with distance two in the symmetric sector for every local dimension. We also show, using linear-programming constraints for permutation-invariant quantum codes, that no permutation-invariant code of dimension $q$ and distance at least $2$ exists in $\\mathrm{Sym}^n(\\mathbb{C}^q)$ for $n\\leq 3$. Hence four qudits are necessary and sufficient. The construction has a simple representation-theoretic and combinatorial description. In the irreducible $\\mathrm{SU}(q)$-module $\\mathrm{Sym}^4(\\mathbb{C}^q)$, the distance-two Knill-Laflamme conditions split into root and Cartan parts. By restricting supports to the even-entry occupation layer, all root-error conditions vanish automatically. The remaining Cartan conditions reduce to linear balancing constraints on packets of occupation vectors. These packets admit a natural graph-theoretic interpretation in terms of the vertices and edges of the complete graph $K_q$: for odd $q$, they are organized by the midpoint rule, while for even $q$, they are organized by a decomposition of $K_q$ into perfect matchings. In this way, the existence of minimal $((4,q,2))_q$ permutation-invariant codes is reduced to a parity-dependent edge-coloring problem on $K_q$.",
+  "title_relatable": "Four quantum dice are enough to protect any quantum information",
+  "hook": "Four qudits—and never fewer—can encode a logical qudit with error protection, for any alphabet size.",
+  "summary": "Permutation-invariant quantum codes are appealing because they don't require knowing which physical qudit is which. This paper proves that exactly four physical qudits suffice to encode one logical qudit with distance-two protection for every local dimension q ≥ 2—and three is never enough. The construction reduces to a graph-coloring puzzle on the complete graph K_q, linking quantum error correction to a classical combinatorics problem with a clean, tight answer.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1125,
+  "tokens_out": 171,
+  "cost_usd": 0.00594,
+  "ingested_at": "2026-05-23T00:21:44.112757+00:00"
+}

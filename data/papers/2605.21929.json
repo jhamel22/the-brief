@@ -1,0 +1,23 @@
+{
+  "id": "2605.21929",
+  "arxiv_url": "https://arxiv.org/abs/2605.21929",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Stochastic inflation as an open quantum system II: open effective field theory and stochastic matching",
+  "authors": "Yue-Zhou Li",
+  "abstract": "We further develop the proposal in Phys.\\ Rev.\\ Lett.\\ \\textbf{136} 071501 that interprets stochastic inflation as an open quantum system, by constructing the open effective field theory for the reduced density matrix of long wavelength modes. We clarify that this open effective field theory enjoys two renormalization group flows: the conventional Wilsonian channel, and a stochastic channel arising from the openness that has no counterpart in ordinary Wilsonian effective field theory. Focusing on the stochastic channel in the hard cutoff scheme, we identify both Gaussian and non-Gaussian diffusion as effective operators in the influence functional, and show that they are required by matching onto correlators and form factors of the perturbative full theory through a method-of-region in time. Beyond Gaussian order, the matching data are no longer local Wilson coefficients but nonlocal and non-Markovian Wilson kernels. We then obtain the bare Hamiltonian density of this open effective field theory and derive its nonlocal functional master equations, including the Fokker-Planck equation for the diagonal density matrix and the Klein-Kramers equation for the Wigner functional, with their zero-modess simplifications discussed. Finally, we take a first step toward a continuum version of this open effective field theory, replacing the hard cutoff by an analytic regulator in the stochastic channel, and demonstrate stochastic renormalization using a massive scalar as an example.",
+  "title_relatable": "Inflation's quantum randomness gets a rigorous field theory framework",
+  "hook": "Two separate renormalization flows govern cosmic inflation's quantum noise — one is familiar, one is entirely new.",
+  "summary": "Early-universe inflation produces quantum fluctuations that seed all cosmic structure, but describing their randomness rigorously has been ad hoc. This paper constructs a proper effective field theory for the long-wavelength modes of inflation treated as an open quantum system, revealing that alongside the usual Wilsonian flow there is a distinct 'stochastic' renormalization flow with no ordinary counterpart. The result is a systematic matching procedure that derives Fokker-Planck and Klein-Kramers equations — the workhorses of stochastic inflation — from first principles, including non-Gaussian and non-Markovian corrections.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1025,
+  "tokens_out": 207,
+  "cost_usd": 0.00618,
+  "ingested_at": "2026-05-23T00:18:16.039839+00:00"
+}

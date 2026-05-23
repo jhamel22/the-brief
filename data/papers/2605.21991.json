@@ -1,0 +1,23 @@
+{
+  "id": "2605.21991",
+  "arxiv_url": "https://arxiv.org/abs/2605.21991",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.IM"
+  ],
+  "title_original": "Machine Learning applications to Galaxy Clusters",
+  "authors": "Gustavo Yepes, Daniel de Andrés",
+  "abstract": "This chapter reviews the application of Artificial Intelligence (AI) techniques to the study of galaxy clusters, covering both theoretical developments and their use as tools to infer cluster properties from a variety of observational tracers. We discuss recent advances in mass estimation from SZ, X-ray, optical, and dynamical data, highlighting the ability of AI methods to capture non-linear features, projection effects, and complex cluster morphologies beyond more classical approaches. In addition, we present other emerging applications, including the emulation of baryonic physics from N-body simulations, the characterization of dynamical states and mergers, and the analysis of the diffuse components such as the intracluster light. Particular emphasis is placed on the role of simulations in training these models, the impact of baryonic modelling, and the need for a robust uncertainty quantification and interpretability. Finally, we outline current limitations and future prospects, stressing the importance of combining flexible simulation strategies with AI techniques to fully exploit next-generation surveys for precision cosmology.",
+  "title_relatable": "Can machine learning measure galaxy cluster masses better than physics?",
+  "hook": "AI methods are learning to infer cluster properties from multiple data types—and capturing effects that classical formulas miss.",
+  "summary": "Galaxy clusters are key cosmological tools, but their masses are hard to measure reliably from X-ray, SZ, optical, and dynamical data. Machine learning models trained on simulations can capture non-linear effects and projection artifacts that simpler methods overlook, improving mass estimates and characterizing cluster dynamics and mergers. The catch: success depends critically on how well simulations include baryonic physics, and interpretability remains a bottleneck for precision cosmology.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 907,
+  "tokens_out": 172,
+  "cost_usd": 0.0014135999999999999,
+  "ingested_at": "2026-05-23T00:22:40.274679+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22775",
+  "arxiv_url": "https://arxiv.org/abs/2605.22775",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.HC"
+  ],
+  "title_original": "MambaGaze: Bidirectional Mamba with Explicit Missing Data Modeling for Cognitive Load Assessment from Eye-Gaze Tracking Data",
+  "authors": "Amir Mousavi, Mohammad Sadegh Sirjani, Erfan Nourbakhsh, Mimi Xie, Rocky Slavin, Leslie Neely, John Davis, John Quarles",
+  "abstract": "Real-time cognitive load assessment from eye-tracking signals could potentially enable adaptive human-centered-AI such as safety-critical applications such as driver vigilance monitoring or automated flight deck assistance, yet two challenges persist: handling frequent data missingness from blinks and tracking failures, and efficiently modeling long-range temporal dependencies. We propose MambaGaze, a framework that addresses these challenges through 1) XMD encoding, which augments raw features with observation masks and time-deltas to explicitly model data uncertainty, and 2) bidirectional Mamba-2, which captures temporal dependencies with linear computational complexity. Experiments on CLARE and CL-Drive datasets under leave-one-subject-out evaluation show that MambaGaze achieves 76.8% and 73.1% accuracy, respectively, outperforming CNN, Transformer, ResNet, and VGG baselines by 4-12 percentage points. Edge deployment benchmarks on NVIDIA Jetson platforms demonstrate real-time inference at 43-68 FPS with power consumption below 7.5W, confirming feasibility for wearable cognitive load monitoring.",
+  "title_relatable": "Reading minds from eye movement, even when data drops out",
+  "hook": "A new approach detects cognitive overload from eye-tracking in real time, handling blinks and sensor glitches without slowing down—promising safer driver monitoring and pilot assistance systems.",
+  "summary": "Cognitive load assessment from eye-tracking could make autonomous systems safer, but blinks and sensor failures create gaps in the data, and existing models are computationally expensive. MambaGaze uses a technique that explicitly encodes missing data alongside raw features, then applies bidirectional Mamba-2 (a linear-complexity temporal model) to capture long-range patterns. On two standard datasets, it reaches 73–77% accuracy, beating transformers and CNNs by 4–12 points, while running at 43–68 frames per second on edge devices like NVIDIA Jetson with minimal power draw—making it practical for wearable deployment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 969,
+  "tokens_out": 232,
+  "cost_usd": 0.0017032,
+  "ingested_at": "2026-05-23T00:29:54.039544+00:00"
+}

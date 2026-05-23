@@ -1,0 +1,25 @@
+{
+  "id": "2605.21593",
+  "arxiv_url": "https://arxiv.org/abs/2605.21593",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Predicting intermediate-mass black hole formation in star clusters with machine learning",
+  "authors": "Konstantinos Kritos, Digvijay Wadekar, Emanuele Berti",
+  "abstract": "Whether intermediate-mass black holes reside in nearby star clusters has remained contested for decades. We address this question by training neural network and random forest regressors on synthetic catalogs generated with the {\\sc Rapster} cluster evolution code, mapping observable cluster properties such as total mass and half-mass radius onto the mass of the heaviest black hole built up through repeated mergers. Applying these models to nearby globular and nuclear star clusters, we forecast the intermediate-mass black hole population that each system may host. Globular clusters are unlikely to contain black holes more massive than $\\sim 100\\,M_\\odot$, with an occupation fraction near 0.02, although they can produce remnants within the upper mass gap with masses approaching $100\\,M_\\odot$. Among nuclear star clusters, a handful of cases, including NGC 5102 and NGC 5206, yield predicted central black hole masses above $100\\,M_\\odot$, which we contrast with kinematically inferred estimates. Where the observationally claimed masses exceed our predictions, the implication is that the assembly history involved processes beyond hierarchical mergers, most plausibly accretion of gas and stars. Finally, we employ a normalizing flow to quantify, for individual globular clusters, the likelihood that their initial conditions were favorable to a collisional runaway during the first few million years after formation.",
+  "title_relatable": "Can machine learning spot hidden black holes in star clusters?",
+  "hook": "Training AI on simulations reveals which nearby star clusters likely harbor intermediate-mass black holes—and which observed ones don't fit the standard merger picture.",
+  "summary": "Researchers trained neural networks on simulations of how black holes grow via collisions in star clusters, then applied these models to real globular and nuclear clusters to predict their central black hole populations. Most globular clusters stay under 100 solar masses, but a few nuclear clusters like NGC 5102 show observed black holes heavier than mergers alone can explain—suggesting gas accretion played a role. The method also quantifies the odds that ancient clusters underwent runaway collisions in their first few million years.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1012,
+  "tokens_out": 188,
+  "cost_usd": 0.0015616,
+  "ingested_at": "2026-05-23T00:22:51.705579+00:00"
+}

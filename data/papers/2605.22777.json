@@ -1,0 +1,22 @@
+{
+  "id": "2605.22777",
+  "arxiv_url": "https://arxiv.org/abs/2605.22777",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders",
+  "authors": "Tianhang Wang, Yitong Chen, Wei Song, Zuxuan Wu, Min Li, Jiaqi Wang",
+  "abstract": "Representation Autoencoders (RAEs) leverage frozen vision foundation models (VFMs) as tokenizer encoders, providing robust high-level representations that facilitate fast convergence and high-quality generation in latent diffusion models. However, freezing the VFM inherently constrains its spatial reconstruction capacity, limiting fine-grained generation and image editing; in contrast, incorporating reconstruction-oriented signals via fine-tuning disrupts the pretrained semantic space and degrades generative fidelity. To address this trade-off, we propose DecQ, a simple yet effective framework for RAEs. Specifically, DecQ introduces lightweight detail-condensing queries that extract fine-grained information from intermediate VFM features through condenser modules. These queries are incorporated into the decoder to support reconstruction and are jointly generated with patch tokens during generative modeling. By aggregating information from both shallow and deep layers, DecQ effectively mitigates the reconstruction--generation trade-off, improving both reconstruction quality and generative performance. Our experiments demonstrate that: (1) with only 8 additional queries and 3.9% extra computation, DecQ improves reconstruction over the frozen DINOv2-based RAE, increasing PSNR from 19.13 dB to 22.76 dB; and (2) for generative modeling, DecQ achieves 3.3$\\times$ faster convergence than RAE, attaining an FID of 1.41 without guidance and 1.05 with guidance.",
+  "title_relatable": "Extracting hidden details to fix image reconstruction in autoencoders",
+  "hook": "Adding lightweight detail queries improves image reconstruction by 3.6 dB and speeds up generation 3.3× without fine-tuning the base model.",
+  "summary": "Representation autoencoders using frozen vision models generate sharp images but reconstruct poorly because freezing limits spatial detail. DecQ solves this with lightweight queries that extract fine-grained information from intermediate layers, feeding it into the decoder. The result: reconstruction quality jumps from 19.13 to 22.76 dB PSNR, generative convergence accelerates 3.3×, and the model hits FID 1.41—all with just 3.9% extra computation and no fine-tuning needed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1019,
+  "tokens_out": 205,
+  "cost_usd": 0.0016352,
+  "ingested_at": "2026-05-23T00:41:49.648375+00:00"
+}

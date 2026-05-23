@@ -1,0 +1,23 @@
+{
+  "id": "2605.22569",
+  "arxiv_url": "https://arxiv.org/abs/2605.22569",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cs.CR",
+    "quant-ph"
+  ],
+  "title_original": "A Formal Basis for Quantum Cryptographic Exposure Measurement under HNDL Threat",
+  "authors": "Matheus Rufino, Rafael Duarte Marcelino, Julio Smanioto Garcia",
+  "abstract": "An adversary copies your encrypted traffic today and waits for a quantum computer to decrypt it later. How exposed are you? We show that the functional form of the answer is not merely a calibration choice -- it is structurally justified by three assumptions about adversarial production and value-decay dynamics. Under those assumptions, the HNDL compromise probability factorises into a temporal hazard, a multiplicative cryptographic-vulnerability and operational-exposure term, and a saturation denominator governed by the defense-attack intensity ratio; the marginal sensitivity to each dimension is endogenous to the organisation's position in the vulnerability-exposure plane, not a fixed global constant. Additive scoring frameworks cannot reproduce this structure because the interaction between cryptographic vulnerability and operational exposure is absent by construction, regardless of calibration. The resulting framework provides a structurally grounded basis for operational HNDL exposure prioritisation under partial observability.",
+  "title_relatable": "How exposed are you to 'harvest now, decrypt later' quantum attacks?",
+  "hook": "Enemies are stockpiling your encrypted data today, waiting for quantum computers. A new formula shows how to measure that risk — and why current scoring methods get it structurally wrong.",
+  "summary": "The 'harvest now, decrypt later' threat means adversaries copy encrypted traffic today and decrypt it once quantum computers arrive. This paper derives a mathematically grounded formula for that exposure risk, showing it factorizes into a temporal hazard, a cryptographic vulnerability term, and an operational exposure term that interact multiplicatively — not additively. That matters practically: popular additive risk-scoring frameworks miss the cross-term entirely, meaning they can't correctly identify which systems to prioritize defending first.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 909,
+  "tokens_out": 192,
+  "cost_usd": 0.005607,
+  "ingested_at": "2026-05-23T00:21:18.520780+00:00"
+}

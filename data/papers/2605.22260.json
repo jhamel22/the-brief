@@ -1,0 +1,23 @@
+{
+  "id": "2605.22260",
+  "arxiv_url": "https://arxiv.org/abs/2605.22260",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "physics.hist-ph",
+    "gr-qc"
+  ],
+  "title_original": "The Limitations of the Notion of `Observable' in Diffeomorphism-Invariant Models",
+  "authors": "Álvaro Mozota Frauca",
+  "abstract": "The application of the notion of `observable' from gauge theory to diffeomorphism-invariant theories -- most relevantly to general relativity -- has led to numerous conceptual and technical issues when interpreting classical theories with this symmetry and building quantum versions of them. In this article I distinguish between two senses of gauge transformation: local and global, and I argue that the notion of observable appears more naturally in the local sense of gauge transformation. Then, I argue that diffeomorphism invariance can be understood as a gauge symmetry only from a global point of view, and hence, that the concept of observable applies only in a restricted manner. This has the consequence that some popular claims in the literature, such as the claim that the physical content of diffeomorphism-invariant models is encoded in correlations, are unfounded.",
+  "title_relatable": "Why 'observable' in general relativity may be the wrong concept",
+  "hook": "A foundational claim in quantum gravity — that physical reality is encoded in correlations — may rest on a category error.",
+  "summary": "Applying the gauge-theory concept of 'observable' to general relativity has quietly caused decades of confusion in both classical and quantum gravity. By separating two distinct meanings of gauge transformation — local and global — this paper argues diffeomorphism invariance only qualifies as a gauge symmetry in the global sense, where the notion of observable doesn't cleanly apply. The popular idea that all physical content in general relativity lives in correlations between fields turns out to be unfounded under this analysis.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 875,
+  "tokens_out": 177,
+  "cost_usd": 0.00528,
+  "ingested_at": "2026-05-23T00:17:22.462399+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22738",
+  "arxiv_url": "https://arxiv.org/abs/2605.22738",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "Proxy-Based Approximation of Shapley and Banzhaf Interactions",
+  "authors": "Santo M. A. R. Thies, Hubert Baniecki, R. Teal Witter, Eyke Hüllermeier, Maximilian Muschalik, Fabian Fumagalli",
+  "abstract": "Shapley and Banzhaf interactions capture the complex dynamics inherent in modern machine learning applications. However, current estimators for these higher-order interactions trade off between speed and accuracy. To overcome this limitation, we introduce ProxySHAP. ProxySHAP reconciles the high sample efficiency of tree-based proxy models with a principled path to consistency via residual correction. On a theoretical level, we derive a polynomial-time generalization of interventional TreeSHAP to compute exact interaction indices for tree ensembles, successfully bypassing exponential tree-depth dependencies in prior methods. Furthermore, we formally analyze the residual adjustment strategy, characterizing the specific conditions under which Maximum Sample Reuse (MSR) corrects proxy bias without its variance scaling exponentially with interaction size. Extensive benchmarking demonstrates that ProxySHAP sets a new state-of-the-art standard for approximation quality, including in large-scale applications with thousands of features. By achieving the lowest error in both small- and large-budget regimes, ProxySHAP significantly outperforms the prior best estimators ProxySPEX and KernelSHAP-IQ, while also delivering superior performance on downstream explainability tasks.",
+  "title_relatable": "Computing feature interactions 100× faster without losing accuracy",
+  "hook": "New method computes which features interact in ML models orders of magnitude faster, with provable accuracy guarantees—solving a bottleneck in model explainability.",
+  "summary": "Understanding how machine learning models work requires knowing not just which features matter, but how they interact. Shapley and Banzhaf interactions measure this, but computing them exactly is exponentially slow. ProxySHAP uses lightweight proxy models (like decision trees) to approximate interactions cheaply, then corrects the bias mathematically—avoiding exponential computation while keeping errors small. Benchmarks show it outperforms existing methods by large margins on thousands-feature datasets, making explainability practical for real applications.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 981,
+  "tokens_out": 190,
+  "cost_usd": 0.0015448000000000003,
+  "ingested_at": "2026-05-23T00:27:36.959143+00:00"
+}

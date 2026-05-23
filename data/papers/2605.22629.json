@@ -1,0 +1,22 @@
+{
+  "id": "2605.22629",
+  "arxiv_url": "https://arxiv.org/abs/2605.22629",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "H-Flow: Self-supervised Human Scene Flow via Physics-inspired Joint Multi-modal Learning",
+  "authors": "Zhanbo Huang, Xiaoming Liu, Yu Kong",
+  "abstract": "Parametric human models capture global pose but cannot represent the non-rigid surface dynamics of clothing and soft tissue. Generic scene flow estimates dense motion but breaks down on articulated bodies, where pixel-level supervision is also intractable to acquire. We introduce H-Flow, a dense human scene flow that captures both skeletal kinematics and surface deformation. A unified multi-head transformer estimates flow from monocular video, jointly predicting pose and depth as companion outputs. The challenge lies in the lack of supervision. In place of unattainable labels, we anchor the network in the physics of human motion, encoding geometric, structural, and biomechanical priors as cross-modal training objectives. We further introduce DynAct4D, a high-fidelity synthetic benchmark providing dense flow annotations across diverse subjects, garments, and motions. On standard benchmarks, H-Flow outperforms scene-flow and parametric baselines, and generalizes zero-shot to in-the-wild video. Code, models, and the DynAct4D benchmark will be released upon publication",
+  "title_relatable": "Tracking clothing wrinkles and body movements from video alone",
+  "hook": "New method estimates dense motion of human bodies and clothing from single videos without labels, using physics constraints instead of training data.",
+  "summary": "Existing human pose models capture skeleton movement but miss clothing deformation; generic scene flow fails on articulated bodies. H-Flow predicts dense pixel-level motion of both skeletal pose and surface deformation from monocular video using physics-inspired losses—geometric, structural, and biomechanical constraints—instead of expensive ground-truth labels. The team also released DynAct4D, a synthetic benchmark with dense flow annotations. Results beat both scene-flow and parametric baselines and generalize to unconstrained video without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 903,
+  "tokens_out": 192,
+  "cost_usd": 0.0014904,
+  "ingested_at": "2026-05-23T00:41:53.830362+00:00"
+}

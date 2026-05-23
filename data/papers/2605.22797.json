@@ -1,0 +1,22 @@
+{
+  "id": "2605.22797",
+  "arxiv_url": "https://arxiv.org/abs/2605.22797",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "One-photon communication in atomic media",
+  "authors": "Zixiang Hong, John C. Schotland",
+  "abstract": "We consider the problem of single-photon transmission through an atomic medium, using quantum channel fidelity to describe the resulting information loss. We find that the normalized fidelity decreases monotonically with coupling strength, establishing a performance bound for quantum communication through such media. Our results hold for several channel types and for deterministic and random media.",
+  "title_relatable": "How much quantum information survives a single photon's journey through matter?",
+  "hook": "A single photon passing through atoms loses fidelity in a predictable, unavoidable way — setting a hard limit on quantum communication.",
+  "summary": "Sending quantum information on a single photon through an atomic medium degrades the signal — but by exactly how much? This work calculates the quantum channel fidelity for single-photon transmission and finds it drops monotonically with how strongly the photon couples to the atoms, regardless of whether the medium is uniform or random. The result gives a clean performance bound that any quantum communication system using such channels must respect.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 763,
+  "tokens_out": 166,
+  "cost_usd": 0.004779,
+  "ingested_at": "2026-05-23T00:20:16.327575+00:00"
+}

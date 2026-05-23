@@ -1,0 +1,23 @@
+{
+  "id": "2605.22707",
+  "arxiv_url": "https://arxiv.org/abs/2605.22707",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.HC"
+  ],
+  "title_original": "Beyond the Org Chart: AI and the Transformation of Invisible Work",
+  "authors": "Stephanie Rosenthal, Shamsi Iqbal",
+  "abstract": "An increasing number of news and research articles report that AI adoption is allowing professionals to blur and extend the boundaries of their corporate roles. With the goal of understanding how work processes might be changing in an AI-forward company, we interviewed 24 product-focused individuals at a large technology firm about how AI has impacted their own work, their work within their product team, and their professional interactions. Our conversations suggest that AI is not only changing formal role responsibilities and collaborations between those roles, but also changing informal cultural practices like professional mentoring that are key to helping professionals settle in their positions, stay engaged with their work, and grow their careers. Some of these changes are positive, such as smoother collaboration between peers, but other changes are more nuanced and put the typical career growth opportunities, like receiving feedback from professional networks and promoting leadership and mentorship, at risk. We propose steps that AI companies can take to make the invisible work more visible. Additionally, we propose efforts that individuals and leaders can take to support their colleagues through AI transformation while preserving healthy company cultures that support diverse thinking, collaboration, and informal interactions.",
+  "title_relatable": "How AI is reshaping mentoring and informal workplace culture",
+  "hook": "AI is eroding informal mentoring and career-growth conversations at tech companies—24 interviews reveal which changes help teams and which put professional development at risk.",
+  "summary": "AI adoption is blurring traditional role boundaries at work, but interviews with 24 product professionals at a large tech firm uncovered a less visible cost: erosion of informal mentoring, feedback networks, and casual collaboration that fuel career growth. Some shifts are positive (smoother peer collaboration), but others risk isolating employees from the relationships that help them settle in, stay engaged, and advance. The paper proposes concrete steps for leadership to make these informal practices visible again and preserve healthy cultures during AI transformation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 896,
+  "tokens_out": 188,
+  "cost_usd": 0.0014688000000000001,
+  "ingested_at": "2026-05-23T00:33:26.078442+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22770",
+  "arxiv_url": "https://arxiv.org/abs/2605.22770",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Adiabatic Quantum Phase Estimation",
+  "authors": "Alexander Schmidhuber, Seth Lloyd",
+  "abstract": "Quantum phase estimation (QPE) is a central algorithmic primitive that estimates eigenvalues of a Hamiltonian up to precision $ε$ in Heisenberg-limited time $T=Θ(1/ε)$. Standard gate-based implementations of QPE require deep controlled time-evolution circuits and are not native to analog hardware. Here, we present a simple adiabatic protocol for QPE that achieves (up to logarithmic factors) the optimal Heisenberg-limited scaling $T = O\\left( \\frac{1}ε \\log\\left(δ^{-1}\\right)\\right)$ in both the precision $ε$ and failure probability $δ$. By encoding eigenvalues in populations of computational basis states rather than complex phases, our approach is naturally robust against certain dephasing errors. The adiabatic protocol only requires the ability to couple a single ancilla qubit to the system Hamiltonian as well as pairwise couplings within the ancilla register.",
+  "title_relatable": "A simpler way to measure quantum energy levels, built for analog hardware",
+  "hook": "A new adiabatic protocol matches the best-known quantum phase estimation efficiency while dodging the deep circuits that break analog quantum computers.",
+  "summary": "Quantum phase estimation — measuring a system's energy levels precisely — normally demands deep, carefully timed circuits that analog quantum hardware struggles to run. This protocol instead sweeps slowly through a parameter (adiabatically), encoding eigenvalues in simple population measurements rather than delicate quantum phases, and still hits the theoretical speed limit. The bonus: it's naturally resistant to dephasing noise, the dominant error source on many near-term devices.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 917,
+  "tokens_out": 170,
+  "cost_usd": 0.005301,
+  "ingested_at": "2026-05-23T00:20:26.977630+00:00"
+}

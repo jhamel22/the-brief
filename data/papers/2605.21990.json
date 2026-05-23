@@ -1,0 +1,22 @@
+{
+  "id": "2605.21990",
+  "arxiv_url": "https://arxiv.org/abs/2605.21990",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Thermodynamic acceptability of spherically symmetric perfect-fluid solutions in general relativity",
+  "authors": "Dina Demissenova, Nurzada Beissen, Kuantay Boshkayev, Hernando Quevedo",
+  "abstract": "Static spherically symmetric perfect-fluid solutions of Einstein's equations play a central role in relativistic astrophysics and stellar structure theory. While many exact solutions satisfy Einstein's equations mathematically, only a limited subset satisfies physically acceptable conditions such as regularity, positivity of matter variables, and causal sound propagation. In this work, the classical concept of physical acceptability is extended to include thermodynamic considerations. Using relativistic equilibrium thermodynamics, entropy functionals, and the Tolman temperature relation, we formulate a set of thermodynamic acceptability conditions for relativistic stellar models. The Tolman IV solution is analyzed as an explicit example. We show that this solution admits a finite and positive equilibrium entropy functional consistent with the Tolman equilibrium condition. This analysis suggests that thermodynamic consistency provides a natural extension of the Delgaty-Lake acceptability program and may constitute an essential criterion in the classification of relativistic interior solutions.",
+  "title_relatable": "Which star models are thermodynamically acceptable in Einstein's gravity?",
+  "hook": "Most exact stellar solutions pass Einstein's equations but fail basic thermodynamics — a new filter culls the survivors.",
+  "summary": "Hundreds of exact solutions to Einstein's equations describe perfect-fluid stars, but most violate physical common sense. This work adds thermodynamic consistency — entropy must be finite, positive, and match the Tolman temperature relation — as a new screening criterion, testing it on the classic Tolman IV solution, which passes. The approach offers a principled way to discard mathematical curiosities and identify which relativistic stellar models are genuinely physical.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 924,
+  "tokens_out": 164,
+  "cost_usd": 0.005232,
+  "ingested_at": "2026-05-23T00:18:04.587283+00:00"
+}

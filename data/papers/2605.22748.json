@@ -1,0 +1,25 @@
+{
+  "id": "2605.22748",
+  "arxiv_url": "https://arxiv.org/abs/2605.22748",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "Superhuman Safe and Agile Racing through Multi-Agent Reinforcement Learning",
+  "authors": "Ismail Geles, Leonard Bauersfeld, Markus Wulfmeier, Davide Scaramuzza",
+  "abstract": "Autonomous systems have achieved superhuman performance in isolation or simulation, yet they remain brittle in shared, dynamic real-world spaces. This failure stems from the dominant single-agent paradigm for physical applications, where other actors are ignored or treated as environmental noise, preventing effective coordination. Here we show that multi-agent reinforcement learning provides the essential safety scaffolding required for real-world interaction. Using high-speed quadrotor racing as a high-stakes testbed, we train agents to navigate complex aerodynamic interactions and strategic maneuvering with a variable number of racers. Through league-based self-play, agents evolve sophisticated anticipatory behaviors, including proactive collision avoidance, overtaking, and handling multi-agent physical interactions, including aerodynamic downwash. Our agents outperform a champion-level human pilot in multi-player races at speeds exceeding 22 m/s, while simultaneously reducing collision rates by 50 % compared to state-of-the-art single-agent baselines. Crucially, training with diverse artificial agents enables zero-shot generalization to safer human interaction. These results suggest that the path to robust robotic co-existence lies not in isolated safety constraints, but in the rigorous demands of multi-agent interaction. Multimedia materials are available at: https://rpg.ifi.uzh.ch/marl",
+  "title_relatable": "Teaching drones to race safely by competing with each other",
+  "hook": "Multi-agent racing AI beats human champions at 22 m/s while cutting collision rates 50% — and transfers to unpracticed human partners without retraining.",
+  "summary": "Autonomous systems trained in isolation fail in the real world because they ignore other actors. This paper trains quadrotor drones using multi-agent reinforcement learning through competitive racing, where agents learn to anticipate collisions, overtake strategically, and handle aerodynamic interactions with multiple competitors. The trained agents outperform elite human pilots in multi-drone races and—surprisingly—generalize to safer interaction with untrained human partners without any fine-tuning, suggesting that learning through realistic multi-agent competition builds robustness better than explicit safety constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 977,
+  "tokens_out": 202,
+  "cost_usd": 0.0015895999999999998,
+  "ingested_at": "2026-05-23T00:27:33.697263+00:00"
+}

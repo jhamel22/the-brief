@@ -1,0 +1,24 @@
+{
+  "id": "2605.22037",
+  "arxiv_url": "https://arxiv.org/abs/2605.22037",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Classical Renormalization Group Equations for General Relativity",
+  "authors": "F. Gutiérrez, K. Falls, A. Codello",
+  "abstract": "In a companion paper arXiv:2510.27676, we introduced a non-perturbative classical renormalisation group (RG) flow equation as a novel method for treating strongly interacting problems in general relativity, with a prominent application to the two-body problem. While we demonstrated that it reproduces perturbation theory, via the Post-Minkowskian (PM) expansion, and its computational efficiency in reproducing the 1PN Post-Newtonian action, its derivation was heuristic. In this work, we place this flow equation on a firm formal foundation. In particular, we demonstrate that a Legendre transform maps the classical analogue of the Polchinski equation precisely to our classical RG equation. This establishes a duality between equivalent, exact RG equations for the gravitational effective action. The result, combined with the successful applications in arXiv:2510.27676, solidifies the classical RG framework as a powerful and rigorous new approach to the general relativistic two-body problem and gravitational wave physics.",
+  "title_relatable": "A renormalization group trick could simplify gravitational wave calculations",
+  "hook": "A technique borrowed from quantum field theory now has a rigorous foundation for solving Einstein's two-body problem.",
+  "summary": "Physicists studying gravitational waves must solve the notoriously hard two-body problem in general relativity, usually through painstaking perturbative expansions. This paper puts a recently proposed classical renormalization group method on solid mathematical footing, showing it is exactly dual to established flow equations via a Legendre transform. The result opens a potentially more efficient route to the high-precision waveform templates needed for current and future gravitational wave detectors.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 929,
+  "tokens_out": 167,
+  "cost_usd": 0.005292,
+  "ingested_at": "2026-05-23T00:17:59.589530+00:00"
+}

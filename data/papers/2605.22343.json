@@ -1,0 +1,24 @@
+{
+  "id": "2605.22343",
+  "arxiv_url": "https://arxiv.org/abs/2605.22343",
+  "announced_date": "2026-05-21",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.MA",
+    "cs.AI",
+    "cs.SE"
+  ],
+  "title_original": "Sibyl-AutoResearch: Autonomous Research Needs Self-Evolving Trial-and-Error Harnesses, Not Paper Generators",
+  "authors": "Chengcheng Wang, Qinhua Xie, Wei He, Jianyuan Guo, Shiqi Wang, Chang Xu",
+  "abstract": "Autonomous research systems increasingly make the scientific workflow executable: agents can propose ideas, run code, inspect results, and draft papers. But executable workflows do not by themselves produce research judgment. We analyze where current systems lose trial experience: weak evidence becomes prose, pilot signals become broad claims, memory remains textual, and recurring process failures do not change later behavior. We introduce Sibyl-AutoResearch, a self-evolving AutoResearch framework built around Scientific Trial-and-Error Harnesses. A harness lets agents run bounded trials, preserve positive and negative outcomes, and route lessons into later planning, validation, claim scope, scheduling, critique, writing, and harness repair. We formalize this through two auditable conversion units: trial-to-behavior conversion, which links trial signals to later research actions, and trial-to-harness-behavior conversion, which links recurring process failures to system updates. We implement the framework in SIBYL, a file-backed autonomous research system that exposes the state, roles, memory, gates, and artifact traces needed to inspect these conversion paths. A retrospective audit identifies eight high-confidence conversion events, with a median latency of one iteration and a maximum latency of three iterations. A recovered-failure registry further shows how five naturally occurring failure classes, including duplicate results, stale numbers, and unsupported statistics, were blocked, downgraded, or routed into later repair. These traces do not establish a comparative performance claim; they show that the proposed conversion units are recoverable from realistic autonomous-research workspaces. The SIBYL framework and system are available at https://github.com/Sibyl-Research-Team/AutoResearch-SibylSystem.",
+  "title_relatable": "Why autonomous research systems need to learn from failure, not just write papers",
+  "hook": "Autonomous research agents can now propose ideas and run experiments, but they don't learn from what goes wrong. A new framework forces agents to preserve failed trials and use those lessons to fix future decisions.",
+  "summary": "Current autonomous research systems treat trial-and-error as invisible—weak pilot results become confident prose, failures disappear, and nothing changes next time. Sibyl-AutoResearch adds structured \"harnesses\" that capture both successes and failures, then routes those lessons into later planning, validation, and claim-writing. The team built SIBYL, a file-backed system that audits how these conversions actually happen, recovering eight documented cases where the system caught and corrected errors like duplicate results and unsupported statistics. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1063,
+  "tokens_out": 208,
+  "cost_usd": 0.0016824000000000001,
+  "ingested_at": "2026-05-23T00:33:42.394776+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22579",
+  "arxiv_url": "https://arxiv.org/abs/2605.22579",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "Beyond Temperature: Hyperfitting as a Late-Stage Geometric Expansion",
+  "authors": "Meimingwei Li, Yuanhao Ding, Esteban Garces Arias, Christian Heumann",
+  "abstract": "Recent work has identified a counterintuitive phenomenon termed \"Hyperfitting\", where fine-tuning Large Language Models (LLMs) to near-zero training loss on small datasets surprisingly enhances open-ended generation quality and mitigates repetition in greedy decoding. While effective, the underlying mechanism remains poorly understood, with the extremely low-entropy output distributions suggesting a potential equivalence to simple temperature scaling. In this work, we demonstrate that this phenomenon is fundamentally distinct from distribution sharpening; entropy-matched control experiments reveal that temperature scaling fails to replicate the diversity gains of hyperfitting. Furthermore, we falsify the hypothesis of static vocabulary reweighting, showing through ablation studies that hyperfitting relies on a dynamic, context-dependent rank reordering mechanism. Layer-wise analysis localizes this effect to a \"Terminal Expansion\" in the final transformer block, where a substantial geometric expansion of the feature space (Delta Dim approx +80.8) facilitates the promotion of deep-tail tokens. Additionally, we introduce Late-Stage LoRA, a targeted fine-tuning strategy that updates only the final 5 layers, yielding robust generation with minimal parameter updates",
+  "title_relatable": "Why overfitting language models sometimes makes them better",
+  "hook": "Overfitting LLMs on tiny datasets paradoxically improves output diversity—not by sharpening probabilities, but by reshaping the geometry of the final layer to boost rare tokens.",
+  "summary": "Hyperfitting—fine-tuning language models to near-zero training loss on small datasets—produces surprisingly diverse outputs, but the mechanism isn't temperature scaling or vocabulary reweighting. Using entropy-matched experiments and layer-wise analysis, researchers show the effect is a geometric expansion in the final transformer block that dynamically reorders token rankings based on context. They introduce Late-Stage LoRA, updating only the last 5 layers, achieving the same diversity gains with minimal parameters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 936,
+  "tokens_out": 193,
+  "cost_usd": 0.0015208,
+  "ingested_at": "2026-05-23T00:46:09.268972+00:00"
+}

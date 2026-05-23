@@ -1,0 +1,22 @@
+{
+  "id": "2605.22208",
+  "arxiv_url": "https://arxiv.org/abs/2605.22208",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning",
+  "authors": "Kailin Zhuang, Jiawei Wu, Zhi Jin",
+  "abstract": "Multimodal Large Language Model (MLLM)-driven image restoration agent demonstrates effectiveness in degradation coupling scenarios by flexibly selecting tools and determining removal orders. However, their zero-shot planning often fails without experience, necessitating severe trial-and-error overhead to achieve satisfactory outcomes. Currently, two paradigms are employed to address this issue, yet a dilemma persists: Training-based methods embed intrinsic experience into parameters, achieving high inference efficiency but lacking compatibility with new tools or degradation. In contrast, training-free methods utilize explicit experience storage for compatibility but still incur trial-and-error overhead due to naive experience. To resolve the dilemma, we propose EvoIR-Agent, which first systematically formulates the experience components of a training-free image restoration agent. Subsequently, a hierarchical experience pool is constructed, which enables coarse-to-fine guidance for diverse tools and removal orders. Furthermore, a self-evolving mechanism is introduced to update the pool from scratch using accumulated records, thereby greatly improving performance and efficiency. Extensive experiments reveal that EvoIR-Agent achieves a significant lead in the full reference metrics and yields a remarkable Pareto-optimal balance between performance and efficiency compared to the state-of-the-art methods.",
+  "title_relatable": "Teaching image restoration agents to learn from their own mistakes",
+  "hook": "An AI system that fixes blurry, noisy, or damaged photos learns from experience without retraining—and works on new types of damage it's never seen before.",
+  "summary": "Image restoration agents powered by large language models often fail on their first try because they lack experience with real degradation patterns. EvoIR-Agent solves this by building a hierarchy of experiences from trial-and-error attempts, then automatically refines this experience pool over time. The result: better restoration quality with fewer attempts, and the ability to handle new damage types without retraining—matching or beating specialized methods while staying flexible.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 954,
+  "tokens_out": 176,
+  "cost_usd": 0.0014672,
+  "ingested_at": "2026-05-23T00:42:40.431441+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22714",
+  "arxiv_url": "https://arxiv.org/abs/2605.22714",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "AMEL: Accumulated Message Effects on LLM Judgments",
+  "authors": "Sid-ali Temkit",
+  "abstract": "Large language models are routinely used as automated evaluators: to review code, moderate content, or score outputs, often with many items passing through one conversation. We ask whether the polarity of prior conversation history biases subsequent judgments, an effect we call the accumulated message effect on LLM judgments (AMEL). Across 75,898 API calls to 11 models from 4 providers (OpenAI, Anthropic, Google, and four open-source models), we present identical test items in isolation or following histories saturated with predominantly positive or negative evaluations. Models shift toward the conversation's prevailing polarity (d = -0.17, p < 10^-46). The effect concentrates on items where the model is genuinely uncertain at baseline (d = -0.34 for high-entropy items, vs d = -0.15 when the baseline is deterministic). Bias does not grow with context length: 5 prior turns and 50 produce the same shift (Spearman |r| < 0.01; OLS slope p = 0.80). And there is a negativity asymmetry: paired per item, negative histories induce 1.62x more bias than positive (t = 13.46, p < 10^-39, n = 2,481). Scaling helps but does not solve it (Anthropic: Haiku -0.22 to Opus -0.17; OpenAI: Nano -0.34 to GPT-5.2 -0.17). Three follow-ups narrow the mechanism. The token probability distribution shifts continuously, not at a threshold. The negativity asymmetry has both token-level and semantic components, though attributing the balance is exploratory at our sample sizes. Position does not matter: five biased turns anywhere in a 50-turn history produce the same shift. The simplest fix for evaluation pipelines is a fresh context per item; when batching is unavoidable, balancing the history helps.",
+  "title_relatable": "Why AI judges change their minds mid-conversation",
+  "hook": "Language models shift verdicts based on prior evaluations in the same chat—biased 1.6× more by negative histories. Effect persists across model sizes.",
+  "summary": "When LLMs evaluate items in sequence within one conversation, they drift toward the sentiment of prior judgments—a bias that grows stronger when they're already uncertain. Testing 75,898 calls across 11 models shows models consistently shift their ratings after exposure to positive or negative evaluation histories, with negative bias outweighing positive by 62%. Larger models reduce but don't eliminate the effect, and it concentrates on borderline cases rather than clear-cut ones. For anyone deploying LLMs as judges or graders, the fix is simple: evaluate each item in a fresh context rather than batching them together.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1104,
+  "tokens_out": 214,
+  "cost_usd": 0.0017392,
+  "ingested_at": "2026-05-23T00:27:46.502781+00:00"
+}

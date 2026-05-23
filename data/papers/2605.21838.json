@@ -1,0 +1,23 @@
+{
+  "id": "2605.21838",
+  "arxiv_url": "https://arxiv.org/abs/2605.21838",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "New mechanism for fermion localization in $f(T,T_G)$-brane",
+  "authors": "Allan R. P. Moreira, Fernando M. Belchior, Guo-Hua Sun, Shi-Hai Dong",
+  "abstract": "We investigate the localization of fermionic fields in a five-dimensional braneworld scenario within the framework of modified teleparallel gravity described by a general $f(T,T_G)$ function. Considering a non-minimal coupling between a Dirac spinor and the torsional invariants, we derive the effective Schrödinger-like equations governing the Kaluza-Klein modes. We showed that the contribution of the teleparallel Gauss-Bonnet term significantly modifies the effective potentials and, consequently, the localization properties. The zero-mode analysis reveals that only one chiral component can be localized on the brane, with the degree of confinement depending on the chosen model. In the massive sector, the spectrum is continuous, but resonant states arise due to the internal structure of the potentials. Additionally, we employ information-theoretic measures, such as Shannon entropy and relative probability, to quantify the localization mechanism. Our results show that the torsional modifications induce a nontrivial redistribution of information, exhibiting stronger localization. These findings highlight the role of higher-order torsional terms in shaping fermionic localization and resonance structures in braneworld scenarios.",
+  "title_relatable": "How higher-dimensional torsion traps fermions on our brane",
+  "hook": "A modified gravity term reshuffles where fermions can be trapped in extra dimensions — and information theory quantifies it.",
+  "summary": "In braneworld models where our universe is a slice of a five-dimensional space, getting matter to stick to the brane requires a mechanism. Adding a torsion-based Gauss-Bonnet term to gravity reshapes the effective potential felt by fermions, locking only one chiral component to the brane and generating resonant quasi-bound states in the massive spectrum. Shannon entropy measures confirm the torsional corrections produce tighter localization than standard models — a concrete handle on how higher-order gravity terms influence matter trapping in extra dimensions.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 992,
+  "tokens_out": 192,
+  "cost_usd": 0.005856,
+  "ingested_at": "2026-05-23T00:18:37.685406+00:00"
+}

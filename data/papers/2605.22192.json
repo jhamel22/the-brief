@@ -1,0 +1,22 @@
+{
+  "id": "2605.22192",
+  "arxiv_url": "https://arxiv.org/abs/2605.22192",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Ultra-High-Definition Image Quality Assessment via Graph Representation Learning",
+  "authors": "Shaode Yu, Enqi Chen, Ming Huang, Xuemin Ren, Songnan Zhao, Zhicheng Zhang, Qiurui Sun",
+  "abstract": "Blind image quality assessment (BIQA) for ultrahighdefinition (UHD) images remains challenging because native-resolution inference is computationally expensive, whereas aggressive resizing or isolated cropping may suppress scale-sensitive distortions and weaken the relationship between local artifacts and global scene context. This paper aims to improve UHD-BIQA by explicitly modeling the structural dependencies among sampled image regions rather than treating them as independent views, and a graph representation learning framework UHD-GCN-BIQA is proposed. The framework samples aspect-ratio-aligned patches from each UHD image, encodes them as graph nodes, and constructs a hybrid k-nearest-neighbor graph using spatial proximity and feature similarity. Residual graph convolution is used to propagate contextual information across regions, and gated attention pooling aggregates patchlevel evidence into an imagelevel quality prediction. An exponential moving average normalized multiobjective loss function is adopted to stabilize the joint optimization of regression, correlation, and ranking objectives. Experiments on the UHD-IQA benchmark show that UHD-GCN-BIQA achieves PLCC = 0.7784, SRCC = 0.8019, and RMSE = 0.0519, obtaining competitive correlation performance and the lowest RMSE among the compared methods. These results indicate that graph-based region relation modeling is effective for UHD image quality assessment, particularly for improving absolute quality score estimation under high-resolution visual content.",
+  "title_relatable": "Judging photo quality without shrinking the image",
+  "hook": "Assessing image quality at full resolution is expensive—this method models relationships between image patches using graphs, achieving lowest error on ultra-high-definition benchmarks.",
+  "summary": "Evaluating image quality on massive 4K+ photos usually requires shrinking them (losing fine details) or sampling isolated crops (losing context). This work treats image quality assessment as a graph problem: sample patches from the full image, connect them based on spatial proximity and feature similarity, then use graph convolution to let each patch learn from its neighbors. On the UHD-IQA benchmark, it achieves RMSE of 0.0519—better absolute accuracy than competing methods—while preserving both fine detail and scene context.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1023,
+  "tokens_out": 197,
+  "cost_usd": 0.0016064,
+  "ingested_at": "2026-05-23T00:42:50.030566+00:00"
+}

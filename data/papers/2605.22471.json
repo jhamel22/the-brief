@@ -1,0 +1,22 @@
+{
+  "id": "2605.22471",
+  "arxiv_url": "https://arxiv.org/abs/2605.22471",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Lost in Tokenization: Fundamental Trade-offs in Graph Tokenization for Transformers",
+  "authors": "Maya Bechler-Speicher, Gilad Yehudai, Gil Harari, Clayton Sanford, Amir Globerson, Joan Bruna",
+  "abstract": "Transformers have become a central architecture for graph learning, but their application to graphs requires first choosing a tokenization: a graph-to-token map that determines which structural information is exposed at the input. In this work, we show that this choice is a fundamental component of transformer expressivity. We examine three tokenizations that serve as building blocks for many existing graph tokenizations: spectral, random-walk, and adjacency tokenizations. We prove that different tokenizations induce distinct depth regimes: the same graph computation may be realizable by a shallow transformer under one tokenization, while requiring substantially larger depth under another. For example, we prove that random-walk tokenization is lossy for any walk length, making it impossible in general to recover the graph from it, and that while spectral tokenization is lossless, it is ill-conditioned for local tasks. We further show that although both random-walk and spectral tokenizations are derived from adjacency information, it is impossible for a limited-depth transformer to convert between tokenization families in general. In particular, we establish lower bounds and impossibility results showing that unfavorable tokenizations may preclude the efficient recovery of more suitable structural representations. Finally, we complement our theory with controlled experiments on synthetic and real-world tasks, validating the predicted separations and showing that different tasks favor different structural views, and combining complementary tokenizations allows the transformer to leverage distinct signals from each representation.",
+  "title_relatable": "Why how you tokenize graphs matters more than you think",
+  "hook": "Tokenizing graphs for transformers isn't just a preprocessing step—it fundamentally determines what the model can learn, with some choices mathematically unable to recover basic graph structure.",
+  "summary": "Transformers need graphs converted into tokens before processing, but the paper proves this choice isn't neutral: different tokenization schemes (spectral, random-walk, adjacency) create distinct computational regimes where the same task may be trivial for one approach yet impossible for another at shallow depths. Random-walk tokenization provably loses information irretrievably; spectral tokenization preserves everything but struggles with local patterns. A shallow transformer cannot efficiently convert between tokenization families, meaning a poor initial choice can't be fixed by the model itself. Experiments on synthetic and real tasks confirm the theory and show that mixing complementary tokenizations helps.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1000,
+  "tokens_out": 220,
+  "cost_usd": 0.00168,
+  "ingested_at": "2026-05-23T00:29:40.976517+00:00"
+}

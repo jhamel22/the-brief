@@ -1,0 +1,24 @@
+{
+  "id": "2605.22822",
+  "arxiv_url": "https://arxiv.org/abs/2605.22822",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph",
+    "quant-ph"
+  ],
+  "title_original": "Bottom-up open EFT for non-Abelian gauge theory with dynamical color environment",
+  "authors": "Yoshihiko Abe, Kanji Nishii",
+  "abstract": "We develop a bottom-up open effective field theory (EFT) for non-Abelian gauge theories within the Schwinger--Keldysh formalism. Instead of integrating out the environment completely and starting from a nonlocal influence functional, we retain the slow environmental response variables explicitly and construct a local system-environment EFT. The environmental sector is described by a dynamical color-frame variable, Stückelberg-like field, and an associated color-current sector, which gives the nontrivial interactions and dissipation between the system and the environment. The resulting construction provides a gauge-covariant Markov embedding of nonlocal and non-Markovian color response. After integrating out the retained environmental variables with retarded boundary conditions, the reduced system theory acquires nonlocal dissipative kernels and stochastic sources. We show that the hard thermal loop response arises naturally as a particular realization of the retained environmental response. Our framework provides a local open-EFT description of color transport, memory effects, and fluctuation-dissipation structure in non-Abelian plasmas, and offers a systematic starting point for dissipative Yang--Mills EFTs with dynamical environments.",
+  "title_relatable": "How do you describe a gauge theory losing energy to its surroundings?",
+  "hook": "Physicists built a framework to describe non-Abelian gauge theories coupled to dynamic environments, recovering known plasma behavior from first principles.",
+  "summary": "Non-Abelian gauge theories—the math behind the strong nuclear force—interact with their surroundings in ways that dissipate energy and create memory effects. Rather than completely erasing the environment, the authors keep it as explicit variables and construct a local system-environment effective field theory using the Schwinger–Keldysh formalism. The approach naturally reproduces hard thermal loop corrections and provides a systematic way to compute color transport and fluctuation-dissipation relations in quark-gluon plasmas.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 972,
+  "tokens_out": 195,
+  "cost_usd": 0.0015576,
+  "ingested_at": "2026-05-23T00:19:03.381103+00:00"
+}

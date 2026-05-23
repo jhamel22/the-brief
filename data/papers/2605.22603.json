@@ -1,0 +1,22 @@
+{
+  "id": "2605.22603",
+  "arxiv_url": "https://arxiv.org/abs/2605.22603",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Sudden death of entanglement, rebirth of magic",
+  "authors": "Chenfeng Cao",
+  "abstract": "Local Markovian noise cannot bring entanglement back, but it can bring magic back. Unlike separability, stabilizer membership is not preserved by local channels, allowing dissipation to push states out of the stabilizer polytope as well as in. Under local amplitude damping, the $n$-qubit GHZ family $α|0^n\\rangle+β|1^n\\rangle$ ($0<α<β$) loses its magic at a lower damping strength $γ_-$ and regains it at a higher one $γ_+$, while entanglement is irreversibly lost at $γ_e$. This magic-entanglement complementarity, $γ_e+γ_+=1$ for every $n$, reflects a system-environment duality of amplitude damping and persists for a broader class of dissipative channels. For small $α$, the reborn magic resides in a fully separable state with all proper marginals stabilizer, yet parity-syndrome extraction concentrates it onto a single qubit for magic-state distillation. Local dissipation further divides pure stabilizer states into magic-generators and magic-insulators: at two qubits, the Bell state $|Φ^+\\rangle$ generates magic immediately, while its Bell-state partner $|Ψ^+\\rangle$ remains stabilizer. Together, magic and entanglement reveal a symmetry invisible to either alone.",
+  "title_relatable": "Quantum noise kills entanglement forever but can resurrect magic",
+  "hook": "Local noise permanently destroys entanglement, yet the same noise can restore a quantum resource called magic — and the two thresholds obey an exact symmetry.",
+  "summary": "When GHZ states decay under amplitude damping, entanglement dies and stays dead — but 'magic' (the resource that makes quantum computers hard to simulate classically) can vanish and then spontaneously return at a higher noise level. The two critical noise strengths always sum to exactly one, a precise duality linking the quantum system to its environment. Remarkably, the reborn magic can live in a fully separable state and be harvested onto a single qubit for quantum computation, suggesting dissipation is not purely an enemy of quantum resources.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1015,
+  "tokens_out": 201,
+  "cost_usd": 0.00606,
+  "ingested_at": "2026-05-23T00:20:48.235004+00:00"
+}

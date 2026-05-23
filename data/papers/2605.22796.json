@@ -1,0 +1,23 @@
+{
+  "id": "2605.22796",
+  "arxiv_url": "https://arxiv.org/abs/2605.22796",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall"
+  ],
+  "title_original": "Geometric Origin of the Non-Adiabaticity Parameter and Self-Limiting Instability in Driven Nonlinear Systems",
+  "authors": "A. M. Tishin",
+  "abstract": "We establish that the non-adiabaticity parameter has a direct geometric interpretation as the instantaneous evolution speed of a driven quantum state in projective Hilbert space under the Fubini Study metric. In contrast to conventional asymptotic approaches, the proposed framework provides a strictly local geometric criterion that allows non-adiabatic instability and its nonlinear suppression to be evaluated continuously at each stage of the driven evolution. We further show that an occupation-dependent nonlinear regulator Usuppresses the effective geometric evolution speed, leading to bounded low-occupancy dynamics. The resulting crossover parameter provides a compact criterion for self-limited non-adiabatic instability in driven nonlinear bosonic systems.",
+  "title_relatable": "Quantum instability has a geometric speed limit that stops itself",
+  "hook": "A single geometric quantity — how fast a quantum state moves through Hilbert space — predicts when driven systems go unstable and why they stop.",
+  "summary": "When you drive a quantum system hard enough, it becomes non-adiabatic — it can't keep up with the driving — and can go unstable. This work shows that the standard measure of that danger is literally just the speed of the quantum state along a geometric distance measure called the Fubini-Study metric. Better still, in nonlinear bosonic systems, high occupation slows that geometric speed down automatically, creating a self-limiting instability that never fully runs away.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 861,
+  "tokens_out": 179,
+  "cost_usd": 0.005268,
+  "ingested_at": "2026-05-23T00:20:21.574655+00:00"
+}

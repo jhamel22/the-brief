@@ -1,0 +1,24 @@
+{
+  "id": "2605.21955",
+  "arxiv_url": "https://arxiv.org/abs/2605.21955",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "astro-ph.HE"
+  ],
+  "title_original": "On the Presence of a Tertiary Compact Object in GW190814",
+  "authors": "Lalit Pathak, Hemantakumar Phurailatpam, Achamveedu Gopakumar",
+  "abstract": "Gravitational waves from merging compact binaries are sensitive to line-of-sight acceleration (LOSA) induced by a massive companion in their vicinity. Interestingly, the leading-order contributions of LOSA and residual orbital eccentricity to the Fourier phase of the inspiral waveform exhibit similar frequency dependence, raising the possibility that a small eccentricity could mimic LOSA effects in transient GW events such as GW190814. We perform Bayesian inference using the IMRPhenomXPHM waveform family as the baseline LIGO-Virgo-KAGRA waveform model, augmented with leading-order LOSA and residual eccentricity corrections while using 32 seconds of data associated with GW190814. For a LOSA-only analysis, we find no evidence for a non-zero LOSA effect in GW190814, with a Bayes factor relative to the baseline model of approximately 0.22, consistent with the findings of Hendriks et al. and in tension with the claim by Yang et al., who employed only 4 seconds of GW190814 data. In a joint analysis that includes both leading-order LOSA and eccentricity effects, we obtain informative posteriors for both parameters, with representative values a/c approximately -2.8 x 10^{-3} s^{-1} and e_0 approximately 0.11. However, the corresponding Bayes factor relative to the baseline model is approximately 0.64, suggesting that the 32-second data do not provide significant evidence for either LOSA or residual eccentricity in GW190814. Further, our Bayesian runs reveal a strong correlation between the LOSA and eccentricity parameters, indicating a significant degeneracy in their imprint on the inspiral phase. This finding is consistent with our theoretical arguments and most likely explains the non-zero parameter estimates obtained in the joint analysis.",
+  "title_relatable": "Does GW190814 have a hidden third companion lurking nearby?",
+  "hook": "A disputed claim of a third body near GW190814 dissolves when you use more data — and eccentricity can fake the same signal.",
+  "summary": "GW190814 — the merger involving a mysterious 2.6-solar-mass object — was claimed by one group to show signs of a nearby massive third body tugging on the binary. Using 32 seconds of data instead of the 4 seconds used in that claim, no such evidence holds up: the Bayes factor sits at 0.22, firmly against it. More intriguingly, the gravitational-wave signature of a third-body tug and a slightly elliptical orbit are nearly indistinguishable, a degeneracy that likely explains why the earlier analysis got a non-zero result.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1161,
+  "tokens_out": 216,
+  "cost_usd": 0.006723,
+  "ingested_at": "2026-05-23T00:18:10.544100+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22495",
+  "arxiv_url": "https://arxiv.org/abs/2605.22495",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Black hole dark monopole system",
+  "authors": "Marek Rogatko",
+  "abstract": "We scrutinize properties of electrical charges bounded to visible and dark matter sectors, in the vicinity of a magnetic poles of both sectors. It turns out that the considered system has an angular momentum despite the charges are at rest. On the other hand, investigation the behavior of electric charges of visible and hidden sectors held at rest outside a magnetically charged black hole, discloses that even if the electric charge are regarded as perturbations on a spherically symmetric magnetic static black hole in dark photon theory, at large distances it looks like a stationary axisymmetric magnetically charged black hole.",
+  "title_relatable": "A black hole with magnetic poles stores hidden angular momentum",
+  "hook": "Electric charges sitting still near a magnetic black hole somehow carry angular momentum — and reveal a dark matter twist.",
+  "summary": "When electric charges from both ordinary and dark matter sit motionless near magnetic monopoles, the combined system quietly accumulates angular momentum — no motion required. The same charges near a magnetically charged black hole, treated as small perturbations, make the black hole look axially symmetric and rotating from far away. This electromagnetic sleight of hand connects dark photon theory to measurable black hole geometry.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 806,
+  "tokens_out": 148,
+  "cost_usd": 0.004638,
+  "ingested_at": "2026-05-23T00:16:43.815407+00:00"
+}

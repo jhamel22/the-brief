@@ -1,0 +1,23 @@
+{
+  "id": "2605.22758",
+  "arxiv_url": "https://arxiv.org/abs/2605.22758",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.CC"
+  ],
+  "title_original": "A sharp interaction-degree threshold for simulating QAOA",
+  "authors": "Ralfs Āboliņš, Andris Ambainis",
+  "abstract": "We identify a sharp interaction-degree threshold for the classical simulation of QAOA with $2$-local cost functions. At degree $3$, classical sampling from depth-$1$ QAOA with small multiplicative error would collapse the polynomial hierarchy to its third level. At degree $2$, exact classical sampling from depth-$p$ QAOA on $n$ qubits runs in time $n^{O(1)}$ whenever $p = O(\\log n)$. The hard degree-$3$ instances have trivially optimizable cost functions, so sampling hardness does not by itself imply a quantum optimization advantage.",
+  "title_relatable": "Exactly where does quantum optimization become hard to fake classically?",
+  "hook": "A precise boundary separates easy-to-simulate quantum optimization from classically intractable territory — and it sits at a surprisingly low complexity.",
+  "summary": "Quantum approximate optimization (QAOA) gets hard to simulate classically at degree-3 interactions — meaning 3-way connections between variables — but stays efficiently simulable at degree 2 even for logarithmically deep circuits. The catch: the hard degree-3 cases have cost functions so simple that a classical computer could already solve the optimization problem trivially. This sharp threshold shows that sampling hardness alone doesn't guarantee a practical quantum advantage in optimization.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 836,
+  "tokens_out": 174,
+  "cost_usd": 0.005118,
+  "ingested_at": "2026-05-23T00:20:31.957552+00:00"
+}

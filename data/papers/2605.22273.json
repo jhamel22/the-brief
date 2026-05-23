@@ -1,0 +1,22 @@
+{
+  "id": "2605.22273",
+  "arxiv_url": "https://arxiv.org/abs/2605.22273",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Exposing Vulnerabilities in Visible-Infrared VLMs: A Unified Geometric Adversarial Framework with Cross-Task Transferability",
+  "authors": "Xiang Chen, Yuxian Dong, Chao Li, Chengyin Hu, Jiaju Han, Fengyu Zhang, Yiwei Wei, Jiahuan Long, Jiujiang Guo",
+  "abstract": "Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, but their adversarial robustness in visible-infrared (VIS-IR) scenarios remains underexplored. This gap is critical because VIS-IR sensing is widely used in real-world perception systems to support reliable understanding under challenging imaging conditions. To address this cross-modal threat setting, we propose CFGPatch, a curved-edge fractal geometric adversarial patch framework for attacking VIS-IR VLMs. CFGPatch builds on triangular fractal geometry and replaces rigid straight-edged primitives with Bezier-curved elements, preserving multi-scale fractal self-similarity while introducing smoother contours, richer directional variation, and more flexible shape deformation. In addition, we design a modality-specific Fraser-spiral rendering mechanism to inject fine-grained texture distortions and misleading perceptual cues into visible and infrared images. By coupling global curved-fractal geometry with local spiral-based appearance interference, CFGPatch disrupts both shape perception and texture interpretation. We further adopt expectation over transformation (EOT) to improve robustness against common image-level transformations. Extensive experiments show that CFGPatch effectively fools VIS-IR VLMs and consistently outperforms standard patch baselines in attack effectiveness and robustness. Moreover, adversarial samples optimized for zero-shot classification transfer well to image captioning and visual question answering, demonstrating strong cross-task transferability and generalizability across downstream tasks.",
+  "title_relatable": "How to fool AI that sees in infrared and visible light",
+  "hook": "Researchers created adversarial patches that trick vision-language models across both infrared and visible-light images, and the attacks transfer to other tasks like captioning and question-answering.",
+  "summary": "Vision-language models work well on multimodal tasks but haven't been tested against adversarial attacks in visible-infrared scenarios—a gap that matters because these sensors are used in real-world systems. Researchers built CFGPatch, an adversarial patch that uses curved fractal geometry and spiral texture patterns to fool both visible and infrared inputs simultaneously. The patches transferred effectively across different downstream tasks like image captioning and visual QA, suggesting these models share exploitable vulnerabilities regardless of their final application.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1068,
+  "tokens_out": 199,
+  "cost_usd": 0.0016504,
+  "ingested_at": "2026-05-23T00:42:35.963950+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22484",
+  "arxiv_url": "https://arxiv.org/abs/2605.22484",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Supervised Classification Heads as Semantic Prototypes: Unlocking Vision-Language Alignment via Weight Recycling",
+  "authors": "David Méndez, Roberto Confalonieri, Natalia Díaz Rodríguez",
+  "abstract": "Vision-Language Models (VLMs) excel at tasks like zero-shot classification and cross-modal retrieval by mapping images and text to a shared space, but this requires expensive end-to-end training with massive paired datasets. Current post-hoc alignment methods reduce computational costs by connecting pretrained encoders through lightweight mappings, yet still demand substantial paired data. In this work, we investigate the potential of repurposing the classification heads of pretrained vision models as semantic prototypes. The recycling of these weights, typically discarded after pretraining, unlocks two distinct capabilities: it enables zero-shot alignment by using weights as semantic anchors, and serves as a robust data augmentation strategy by mixing these prototypes with real image-text pairs. We demonstrate that integrating our approach with several state-of-the-art post-hoc alignment techniques consistently boosts accuracy in cross-modal retrieval, zero- and few-shot classification tasks.",
+  "title_relatable": "Reusing old classification weights to align vision and language models",
+  "hook": "Classification weights trained on ImageNet contain semantic information useful for aligning vision and language models with minimal paired data.",
+  "summary": "Vision-language models need expensive training on huge paired datasets to connect images and text. This work recycles the classification heads from pretrained vision models—weights normally discarded—as semantic anchors for alignment. The approach works two ways: directly as zero-shot alignment signals, and as data augmentation when mixed with real image-text pairs. Applied to standard post-hoc alignment methods, it improves cross-modal retrieval and zero/few-shot classification across benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 887,
+  "tokens_out": 174,
+  "cost_usd": 0.0014056,
+  "ingested_at": "2026-05-23T00:42:18.573475+00:00"
+}

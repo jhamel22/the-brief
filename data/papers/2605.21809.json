@@ -1,0 +1,22 @@
+{
+  "id": "2605.21809",
+  "arxiv_url": "https://arxiv.org/abs/2605.21809",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Generalised Cartan Geometry",
+  "authors": "David Osten",
+  "abstract": "This talk introduces a Cartan-geometric framework for generalised geometries governed by a differential graded Lie algebra. In contrast to ordinary Cartan geometry, the tangent bundle is extended and qu both a global duality group and a local gauge group. This framework provides a systematic construction of generalised connections and their torsion and curvature tensors for generic generalised geometries. We also review the realisation of these algebraic structures on the phase space of branes in M-theory.",
+  "title_relatable": "Can Cartan geometry handle string theory's twisted spaces?",
+  "hook": "A framework that unifies how curved spaces work in M-theory by treating symmetries as both global and local, with applications to branes.",
+  "summary": "String theory needs geometry that ordinary calculus can't quite capture. This work builds a Cartan-geometric toolkit for \"generalised geometries\"—spaces where symmetries act globally and locally at once—and derives the natural notion of curvature in these settings. The framework applies directly to how branes (extended objects) move through M-theory's phase space.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 787,
+  "tokens_out": 158,
+  "cost_usd": 0.0012615999999999999,
+  "ingested_at": "2026-05-23T00:19:32.163501+00:00"
+}

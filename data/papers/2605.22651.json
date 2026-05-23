@@ -1,0 +1,22 @@
+{
+  "id": "2605.22651",
+  "arxiv_url": "https://arxiv.org/abs/2605.22651",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "What Does the Caption Really Say? Counterfactual Phrase Intervention for Compositional Data Selection in Vision-Language Pretraining",
+  "authors": "Hyejin Go, Semi Lee, Hyesong Choi",
+  "abstract": "CLIP-style contrastive pretraining typically curates web-scale image-text pairs using sample-level filtering signals, often based on pair-level alignment. We show that this signal saturates: once coarse mismatches are removed, stricter global filtering no longer tracks the compositional supervision provided by the retained captions. The reason is structural - a global score conflates whether a pair is broadly plausible with whether the individual object, attribute, and relation phrases inside the caption materially support the image-text match. The latter is what compositional generalization demands, yet pair-level filters are blind to it. We address this with Counterfactual Phrase Intervention (CPI), a phrase-level curation framework that converts controlled nonce-token substitutions into image-conditioned phrase-sensitivity scores. CPI uses global alignment only for coarse mismatch removal, then ranks the surviving pool by whether caption phrases measurably affect the image-text score under controlled substitution. We frame CPI as a first-order phrase-sensitivity signal rather than a grounding or identification result, and evaluate it at CC3M scale. Ranking by this signal yields a 50%-data subset that improves VL-CheckList-VG Relation by +1.91 over the full-data baseline and +1.00 over alignment-only filtering at matched budget, while improving SugarCrepe overall and preserving general transfer. CPI is loss-orthogonal: applied unchanged to NegCLIP, it further improves VL-CheckList-VG Relation by +3.84, with additional CE-CLIP gains in the main text.",
+  "title_relatable": "Does that caption actually describe the image? A smarter way to pick training data",
+  "hook": "Using phrase-level substitution to identify which captions genuinely support images, researchers cut data in half while improving compositional understanding by up to 3.84 points.",
+  "summary": "Vision-language models like CLIP rely on image-caption pairs to learn, but current filtering methods check only whether a pair broadly matches—missing whether individual objects, attributes, and relationships in the caption actually appear in the image. Researchers developed Counterfactual Phrase Intervention (CPI): by swapping words in captions and measuring how much it changes the image-text score, they identify which phrases truly support each image. On a 50%-sized subset of CC3M, this approach outperforms full-data training on compositional understanding benchmarks and works across different model variants.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1043,
+  "tokens_out": 217,
+  "cost_usd": 0.0017024000000000002,
+  "ingested_at": "2026-05-23T00:40:20.015907+00:00"
+}

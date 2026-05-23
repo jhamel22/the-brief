@@ -1,0 +1,23 @@
+{
+  "id": "2605.22417",
+  "arxiv_url": "https://arxiv.org/abs/2605.22417",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.SE"
+  ],
+  "title_original": "The Neglected Baseline in Model Interpretation",
+  "authors": "Yongjin Cui, Xiaohui Fan",
+  "abstract": "We observe that existing model interpretation methods generally ignore the baseline, and such neglect often results in imprecise or even incorrect interpretation. In this paper, we reformulate the task of model interpretation and the interpretation principles for model interpretation results to demonstrate the importance of the baseline. We further unify gradient-based methods, Integrated Gradients (IG) methods, and Taylor expansion, clarifying the connections among them and explicitly identifying the baseline for each method. On this basis, we analyze the flaws and errors in related model interpretation methods (IG, LayerCAM, ODAM, Difference Map). We advocate evaluating the quality of model interpretation results precisely through the attribution error between the attribution result and the attribution target, rather than adopting flawed evaluation methods, such as those based on marginal-effect or the assumption of perfect model performance. We revise IG and develope a model interpretation method with a clear and reasonable baseline, achieving better results. Our method supports model interpretation based on features from any layer. Interpretation based on features from different layers are all reasonable, and the differences among these results reflect varying degrees of feature extraction at different feature extraction stages.",
+  "title_relatable": "Why model interpretation methods are getting the baseline wrong",
+  "hook": "Most interpretation methods ignore a critical choice: the baseline. This oversight can flip which features actually matter for a model's decision.",
+  "summary": "Existing model interpretation techniques—which highlight which parts of an image or input matter for a prediction—routinely ignore the baseline: what you compare the input against. This choice is fundamental but rarely justified. The authors unify gradient-based methods, Integrated Gradients, and Taylor expansion under a common framework, exposing flaws in popular methods like LayerCAM and original Integrated Gradients. They propose a revised approach with an explicit, principled baseline and an attribution error metric that measures fidelity rather than relying on flawed evaluation methods. The work clarifies why layer-wise interpretations differ—different layers extract features at different abstraction levels—and should all be considered valid.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 904,
+  "tokens_out": 220,
+  "cost_usd": 0.0016032,
+  "ingested_at": "2026-05-23T00:39:28.973719+00:00"
+}

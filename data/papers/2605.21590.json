@@ -1,0 +1,23 @@
+{
+  "id": "2605.21590",
+  "arxiv_url": "https://arxiv.org/abs/2605.21590",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Precision physics at the muon collider: $m_W$ and CKM matrix elements",
+  "authors": "Ludovica Aperio Bella, Roberto Franceschini, Federico Meloni, Xing Wang",
+  "abstract": "We examine the potential for a 10~TeV lepton collider to carry out precision measurements of the W boson mass and W boson couplings strength, i.e. the CKM matrix elements. We consider the several W boson production mechanisms and focus on the most copious at 10~TeV, that is effective $γW \\to W$, a process viable at both opposite sign and same-sign leptonic colliders. We find that the leptonic W decay channel can hardly be competitive with present determinations, due to lack of rate. The hadronic channel has potential to improve over the current $\\simeq$10~MeV from measurements at hadron colliders, motivating detector developments towards high-precision hadronic energy measurements. We find that the precision understanding of the detector response to hadrons can also lead to a determination of the CKM matrix elements. We expect determination of CKM matrix elements surpassing by far the present precision for couplings involving heavy quarks, notably $V_{cb}$, avoiding the present bottle-necks due to poor knowledge of hadronic matrix elements needed in low energy extractions of CKM matrix elements. Our findings motivate detector developments towards high-precision hadronic energy measurements and flavor tagging.",
+  "title_relatable": "Can a muon collider measure W boson mass better than today?",
+  "hook": "A future 10 TeV muon collider could pin down the W boson mass and certain CKM elements with unprecedented precision by measuring hadronic decays instead of leptons.",
+  "summary": "Physicists simulated precision measurements at a proposed 10 TeV muon collider, focusing on W boson production via photon fusion and decay into quarks. The hadronic decay channel could improve on the current ~10 MeV uncertainty in W mass measurements, and more surprisingly, could determine CKM matrix elements like Vcb far better than current low-energy methods—sidestepping the murky theoretical uncertainties in those extractions. The results hinge on building detectors that measure hadronic energy with extreme fidelity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 994,
+  "tokens_out": 214,
+  "cost_usd": 0.0016512,
+  "ingested_at": "2026-05-23T00:24:00.576001+00:00"
+}

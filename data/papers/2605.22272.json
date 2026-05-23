@@ -1,0 +1,23 @@
+{
+  "id": "2605.22272",
+  "arxiv_url": "https://arxiv.org/abs/2605.22272",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "Imagine2Real: Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors",
+  "authors": "Jiahe Chen, ZiRui Wang, Feiyu Jia, Xiao Chen, Xiaojie Niu, Weishuai Zeng, Tianfan Xue, Xiaowei Zhou, Jiangmiao Pang, Jingbo Wang",
+  "abstract": "Whole-body Humanoid-Object Interaction (HOI) is bottlenecked by the scarcity of high-fidelity 3D data. While video generative priors offer a promising alternative, existing methods suffer from \\textit{Representation Misalignment} due to their reliance on geometric priors (e.g., explicit CAD models), and \\textit{Retargeting Complexity} arising from intensive morphing and morphological mismatch. We propose Imagine2Real, a zero-shot HOI framework for flexible, geometry-free interaction. To resolve misalignment, we formulate robot and object motions as unified 4D point trajectories. To overcome retargeting complexity, our Keypoints Tracker tracks only sparse critical points (base, hands, and object), entirely bypassing the error-amplifying retargeting process. To maintain natural gaits despite these sparse signals, we utilize the latent space of a Behavior Foundation Model (BFM) as the tracker's search domain. Using a progressive training strategy, Imagine2Real learns robust behaviors with simple tracking rewards, enabling zero-shot physical deployment within a motion capture(mocap) system.",
+  "title_relatable": "Teaching robots to interact with objects from videos, not blueprints",
+  "hook": "A method lets humanoid robots learn complex object interactions from video alone, skipping the CAD models and complex retargeting that usually slow robotics down.",
+  "summary": "The main bottleneck in teaching humanoid robots to manipulate objects is the lack of detailed 3D training data. This work sidesteps that by learning from video generative models instead. The key insight: track only a few critical points (hands, base, object) rather than the entire body, which eliminates the error-prone retargeting step. They anchor the sparse tracking in a behavior foundation model's latent space to maintain natural motion. The result: zero-shot deployment on physical robots in a mocap system without needing explicit CAD models or extensive morphing.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 991,
+  "tokens_out": 207,
+  "cost_usd": 0.0016208000000000001,
+  "ingested_at": "2026-05-23T00:39:36.453169+00:00"
+}

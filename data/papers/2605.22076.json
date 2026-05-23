@@ -1,0 +1,22 @@
+{
+  "id": "2605.22076",
+  "arxiv_url": "https://arxiv.org/abs/2605.22076",
+  "announced_date": "2026-05-21",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Isomorphic Dynamic Programs",
+  "authors": "John Stachurski, Junnan Zhang",
+  "abstract": "We study relationships between dynamic programs by applying conjugacy methods from dynamical systems theory. When two dynamic programs are connected by an order isomorphism, we show that optimality properties transmit from one formulation to the other. We apply these results to Epstein--Zin preferences with time preference shocks, obtaining a sharp characterization of when optimality holds. We also show that multiplicative Kreps--Porteus preferences and risk-sensitive preferences are isomorphic, so that well-known results for the latter carry over to the former. Finally, we demonstrate how isomorphic transformations can improve the numerical accuracy of value function approximations, with gains of two orders of magnitude in a multisector real business cycle model.",
+  "title_relatable": "Can you translate one economic model into another without losing answers?",
+  "hook": "Mathematical isomorphisms between dynamic programs let economists transfer proven solutions between different preference models and dramatically improve numerical accuracy.",
+  "summary": "Economists often solve the same optimization problem in multiple ways. This paper shows that when two dynamic programs are connected by an order isomorphism—a mathematical structure-preserving transformation—optimality properties carry from one to the other. Applied to real business cycle models, these translations improved numerical accuracy by 100x, while also proving that two seemingly different preference models (Kreps–Porteus and risk-sensitive) are mathematically identical.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 543,
+  "tokens_out": 166,
+  "cost_usd": 0.0010984,
+  "ingested_at": "2026-05-23T00:48:16.793726+00:00"
+}

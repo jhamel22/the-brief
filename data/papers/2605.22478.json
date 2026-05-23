@@ -1,0 +1,22 @@
+{
+  "id": "2605.22478",
+  "arxiv_url": "https://arxiv.org/abs/2605.22478",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Matching with Deliberation: Test-Time Evolutionary Hierarchical Multi-Agents for Zero-Shot Compositional Image Retrieval",
+  "authors": "Xingtian Pei, Yukun Song, Changwei Wang, Shunpeng Chen, Rongtao Xu, Shibiao Xu",
+  "abstract": "Zero-Shot Compositional Image Retrieval (ZS-CIR) requires both preserving the visual continuity of the reference image and faithfully executing the semantic variables specified in the modification text, which constitutes the core challenge of the task. Existing methods often suffer from Perception Myopia in a single space, or fall into Logic Drift in iterative collaboration due to the perception ceiling of the underlying retriever. To address this issue, we propose a one-stop hierarchical Perception-to-Deliberation Framework (PDF), which, to the best of our knowledge, is the first to introduce experience self-evolution and Test-Time Scaling Law (TTS) into ZS-CIR. Relying on a hierarchical multi-agent architecture, PDF first utilizes an Intent Routing Manager to dynamically dispatch multi-view Worker perception signals based on modification intents to construct a high-recall candidate pool. Subsequently, the Decision Manager combines a Training-free Reasoning Policy Distillation mechanism with a Tournament-style TTS strategy to achieve self-evolving fine-grained reasoning, yielding the final retrieval results. Experimental results demonstrate that PDF achieves SOTA performance on three benchmark datasets: CIRR, CIRCO, and FashionIQ. This study indicates that experience-driven self-evolution and TTS represent a highly promising and scalable path for achieving zero-shot fine-grained multimedia retrieval. The code will be made publicly available upon acceptance.",
+  "title_relatable": "Teaching AI to find images by what you want to change about them",
+  "hook": "New system uses multiple AI agents debating with each other at test time to retrieve images matching text-based edits, achieving top results on three benchmarks without extra training.",
+  "summary": "Zero-shot compositional image retrieval asks: given a reference photo and text describing changes (e.g., \"same person, but smiling\"), find matching images. Existing methods fail because they either get tunnel vision in one search space or drift when trying to iterate. This paper proposes PDF, a hierarchical multi-agent framework where different perceptual workers propose candidates, then a decision manager uses a tournament-style voting process to refine results—all at test time, without retraining. The approach hits state-of-the-art on CIRR, CIRCO, and FashionIQ benchmarks and will release code.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1025,
+  "tokens_out": 226,
+  "cost_usd": 0.001724,
+  "ingested_at": "2026-05-23T00:42:22.898742+00:00"
+}

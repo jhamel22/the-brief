@@ -1,0 +1,22 @@
+{
+  "id": "2605.22551",
+  "arxiv_url": "https://arxiv.org/abs/2605.22551",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Joint Unitarity and a Single Definite Outcome in a Quantum Measurement",
+  "authors": "Muxi Liu",
+  "abstract": "We investigated the possibility that a single measurement run with a definite outcome is a joint unitary evolution of all the participating systems, and measurement runs with different definite outcomes correspond to different unitary maps. With reasonable assumptions, we derived a lower bound of the dependence of the environment after measurement on the state of the system before measurement, conditioned on the same measurement outcome. An experimental test of this dependence relation can either serve as evidence that the unitary dynamics and the definite outcome in the orthodox sense cannot be true together or suggest a deviation from the von Neumann measurement model plus a \"conditioning\" interpretational step.",
+  "title_relatable": "Can a quantum measurement be unitary and still pick one outcome?",
+  "hook": "Quantum mechanics demands both unitary evolution and single definite outcomes — this paper asks if both can be true at once.",
+  "summary": "Orthodox quantum mechanics insists that evolution is always unitary, yet measurements mysteriously produce single definite outcomes — a tension at the heart of the measurement problem. By assuming both hold simultaneously, this work derives a quantitative bound on how much the environment must remember the pre-measurement state of the system. An experiment testing that memory bound could either expose a contradiction in standard quantum mechanics or reveal that the textbook von Neumann measurement model needs revision.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 821,
+  "tokens_out": 165,
+  "cost_usd": 0.004938,
+  "ingested_at": "2026-05-23T00:21:28.966893+00:00"
+}

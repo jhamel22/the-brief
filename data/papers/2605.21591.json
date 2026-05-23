@@ -1,0 +1,25 @@
+{
+  "id": "2605.21591",
+  "arxiv_url": "https://arxiv.org/abs/2605.21591",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.str-el",
+    "math.OA",
+    "quant-ph"
+  ],
+  "title_original": "Algebraic locality and non-invertible Gauss laws",
+  "authors": "Nicholas Holfester, Jonathan Sorce",
+  "abstract": "We study algebraic locality principles on a 2+1D closed lattice in the presence of a Gauss law for a non-invertible symmetry. Prior work in arXiv:2509.03589 showed that when enforcing the Gauss law of an invertible symmetry, the principle of \"Haag duality\" is preserved exactly, and \"disjoint additivity\" is preserved after appropriate treatment of discreteness artifacts. Here we show that for a large class of non-invertible on-site symmetries, Haag duality is preserved exactly only for sufficiently nice, \"cuspless\" regions. For cusped regions, we instead have a weak form of Haag duality that requires adding a collar. Our results apply to double models with a purely magnetic constraint, and to the more general framework of constraints induced by the on-site action of a Hopf algebra. In particular, we treat a class of extended string-net models explicitly. We also demonstrate disjoint additivity for double models based on a group, and a weakened form of disjoint additivity in the setting of a general Hopf algebra.",
+  "title_relatable": "Can locality survive non-invertible symmetries on lattices?",
+  "hook": "A foundational principle of quantum field theory—locality—breaks down in lattice models with non-invertible symmetries unless regions have smooth boundaries.",
+  "summary": "Physicists study how locality principles (Haag duality and disjoint additivity) behave in 2+1D lattice systems with non-invertible symmetries governed by Hopf algebras. They find that Haag duality holds exactly only for regions without sharp corners; cusped regions require a boundary collar to restore the principle. The results apply to string-net models and lattice gauge theories, establishing when the algebra of local operators remains sensible.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 939,
+  "tokens_out": 184,
+  "cost_usd": 0.0014872000000000002,
+  "ingested_at": "2026-05-23T00:19:39.883319+00:00"
+}

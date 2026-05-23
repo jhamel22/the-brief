@@ -1,0 +1,23 @@
+{
+  "id": "2605.21887",
+  "arxiv_url": "https://arxiv.org/abs/2605.21887",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "physics.ed-ph"
+  ],
+  "title_original": "Quantitative Black Hole Imaging Laboratory with the Black Hole Vision App: I. Schwarzschild Spacetime",
+  "authors": "Lior M. Burko",
+  "abstract": "This paper utilizes the {\\it Black Hole Vision} smartphone application to catalyze a pedagogical shift in General Relativity education through the quantitative analysis of simulated black hole imaging. Presented here for the Schwarzschild spacetime, the investigation is designed with a hierarchical modularity suitable for undergraduate students, with an expanded version intended for graduate courses in General Relativity or Relativistic Astrophysics. By transforming the mobile device into an educational relativistic imaging tool, we triangulate the simulated Schwarzschild mass through independent probes and characterize anisotropic coordinate transformations via a Jacobian map. Global numerical consistency is investigated through integrated coordinate length, while the exponential instability of nearly bound orbits is quantified through a measurement of the simulated Lyapunov exponent. Finally, symmetry is constrained through a sub-pixel constraint on eccentricity in the simulated spacetime. By integrating this statistical framework, the paper enables students to explore the distinction between physical signatures and instrumental noise using established metrological protocols.",
+  "title_relatable": "A smartphone app turns black hole physics into a real lab course",
+  "hook": "Students can now measure Lyapunov exponents and Schwarzschild mass using only a phone app.",
+  "summary": "A smartphone app called Black Hole Vision lets students treat simulated black hole images as real experimental data — measuring the black hole's mass three independent ways, mapping coordinate distortions with a Jacobian, and even quantifying the chaotic instability of near-bound photon orbits via a Lyapunov exponent. All of this is designed for undergraduates, with extensions for graduate courses. It's a rare case where general relativity gets the hands-on lab treatment usually reserved for introductory physics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 934,
+  "tokens_out": 180,
+  "cost_usd": 0.005502,
+  "ingested_at": "2026-05-23T00:18:26.600373+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.21577",
+  "arxiv_url": "https://arxiv.org/abs/2605.21577",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.mes-hall",
+    "hep-ph",
+    "physics.optics"
+  ],
+  "title_original": "Chiral Electromagnetic Surface Waves on Chern-Simons Interfaces",
+  "authors": "Nemanja Kaloper",
+  "abstract": "We show that Maxwell theory with a codimension-$1$ Chern-Simons interface supports chiral electromagnetic surface waves on the interface, even when the bulk theory on both sides is conventional vacuum electrodynamics in infinite space. Solving the exact boundary value problem we find that the Chern-Simons interaction acts with opposite sign on the two helicities oriented along the interface, giving rise to one normalizable mode localized on the interface. This mode is a gapless chiral surface photon with linear dispersion and a frequency-independent index of refraction set by the Chern-Simons coefficient. This mode exists despite the absence of ambient material response or geometric confinement.",
+  "title_relatable": "How Chern-Simons surfaces trap one-handed light waves",
+  "hook": "A thin layer with Chern-Simons interaction can trap electromagnetic waves with only one handedness—no materials or fancy geometry needed.",
+  "summary": "Chern-Simons interfaces (a thin layer in flat space with a particular quantum interaction) act as a one-way mirror for light: they let left-handed photons and right-handed photons behave completely differently. The authors solved the full wave equations and found one gapless, chiral surface photon mode—a type of light bound to the interface with linear frequency dependence and peculiar optical properties. This reveals how even simple quantum interactions can engineer exotic light behavior without relying on bulk materials or resonator tricks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 845,
+  "tokens_out": 197,
+  "cost_usd": 0.001464,
+  "ingested_at": "2026-05-23T00:19:48.457501+00:00"
+}

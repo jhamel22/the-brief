@@ -1,0 +1,23 @@
+{
+  "id": "2605.21592",
+  "arxiv_url": "https://arxiv.org/abs/2605.21592",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Molecular gas properties of star-forming brightest group galaxies at $z \\sim 0.3$",
+  "authors": "Greta Toni, Gianluca Castignani, Françoise Combes, Philippe Salomé, Angel Bongiovanni, Lauro Moscardini, Matteo Maturi",
+  "abstract": "Recent efforts to characterise the molecular gas content of brightest cluster galaxies (BCGs) at intermediate redshift have revealed a sub-population of gas-rich systems, whose star formation activity is likely influenced by environmental processing. In this study, we aim to investigate the molecular gas reservoirs and star formation fuelling of central galaxies in groups, also known as brightest group galaxies (BGGs), at intermediate redshifts. We present targeted carbon monoxide (CO) line observations of three BGGs in the COSMOS field at $z \\sim 0.3$, obtained with the IRAM 30m telescope. The galaxies exhibit disturbed morphologies, extended blue substructures, and interaction signatures. Furthermore, they exhibit significant star formation rates derived from multiwavelength diagnostics. We detect CO(1$\\rightarrow$0) emission in one system, revealing a substantial molecular gas mass of $M_{H_2} \\sim 3 \\times 10^{10}$ M$_\\odot$, while for the other two BGGs, CO emission lines remain undetected, yielding stringent upper limits of $M_{H_2} \\lesssim 10^{10}$ M$_\\odot$. By combining molecular gas constraints with fiducial star formation rates derived from total infrared emission, we infer gas depletion timescales in the range of $\\lesssim 0.5-1.5$ Gyr. These results may indicate that, despite their active star formation and interaction signatures, some BGGs could already experience efficient gas exhaustion or suppressed gas replenishment, suggesting that gas depletion precedes star formation quenching. Our findings hint that environmental processes in galaxy groups could strongly regulate the availability of cold gas and drive rapid evolutionary phases in central galaxies, possibly bridging the gap between gas-rich BCGs and passively evolving systems.",
+  "title_relatable": "Why do some massive galaxies burn out their gas so quickly?",
+  "hook": "Three nearby galaxies at the centers of groups show wildly different amounts of molecular gas despite similar star formation—suggesting group environments can shut down stellar nurseries within a billion years.",
+  "summary": "Observations of three massive central galaxies at intermediate redshift reveal a stark dichotomy: one contains 30 billion solar masses of molecular gas, while two others have almost none, despite all three actively forming stars. Gas depletion timescales of 0.5–1.5 billion years suggest that environmental processing in galaxy groups efficiently strips away the cold fuel needed for star formation, potentially explaining how massive galaxies transition from star-forming to dormant.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1159,
+  "tokens_out": 187,
+  "cost_usd": 0.0016752,
+  "ingested_at": "2026-05-23T00:22:48.641767+00:00"
+}

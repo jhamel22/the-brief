@@ -1,0 +1,22 @@
+{
+  "id": "2605.22587",
+  "arxiv_url": "https://arxiv.org/abs/2605.22587",
+  "announced_date": "2026-05-21",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Endogenous drivers of gender disparity in online dating",
+  "authors": "Huaiyu Tan, Chenyu Li, Taha Yasseri, Lei Shi, Petter Holme",
+  "abstract": "In its early days, online dating was heralded as a great equalizer, removing biases built into the structures of heterosexuality courtship. However, as repeatedly observed, that prophecy was never fulfilled, and some biases have even become exacerbated. In this paper, we identify a general endogenous mechanism that drives the widening of the gender gap in first-contact rates of heterosexual dating. This mechanism relies on assumptions about the participants' expectations of new contacts and their time constraints. We formulate this symmetry-breaking mechanism as a system of differential equations and analyze its fixed points and their stability.",
+  "title_relatable": "Why do women get flooded with messages while men get none?",
+  "hook": "A mathematical model explains why online dating inequality is baked in — no external bias required.",
+  "summary": "Using differential equations, researchers show that the massive gender gap in who messages whom on dating apps — women flooded, men ignored — emerges from two simple ingredients: differences in response expectations and time pressure. The model finds a stable 'broken symmetry' fixed point where one gender dominates all first-contact attempts, regardless of any built-in platform bias. It suggests the lopsided dynamics of apps like Tinder are self-reinforcing by design, not just culture.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 845,
+  "tokens_out": 166,
+  "cost_usd": 0.005025,
+  "ingested_at": "2026-05-23T00:24:24.165152+00:00"
+}

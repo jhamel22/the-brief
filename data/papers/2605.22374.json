@@ -1,0 +1,23 @@
+{
+  "id": "2605.22374",
+  "arxiv_url": "https://arxiv.org/abs/2605.22374",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.NE",
+    "stat.ML"
+  ],
+  "title_original": "Guiding Multi-Objective Genetic Programming with Description Length Improves Symbolic Regression Solutions",
+  "authors": "Gabriel Kronberger, Fabricio Olivetti de Franca, Deaglan J. Bartlett, Harry Desmond, Pedro G. Ferreira",
+  "abstract": "Symbolic regression with genetic programming (GPSR) may suffer from overfitting and structural bloat, especially when noise is present. In this paper we evaluate description length (DL) and fractional Bayes factor (FBF) criteria as principled, data-efficient alternatives to heuristics for selecting compact expressions that generalise well. We implement DL using a Fisher-information-based parameter encoding and compare it to AIC and BIC across multiple datasets, including noisy synthetic benchmarks and real-world regression problems. We study three search/selection strategies: (i) multi-objective search for accuracy and program length followed by DL/FBF selection; (ii) multi-objective search using DL directly as an objective; and (iii) single-objective optimisation with DL/FBF as the fitness. Across datasets we find that DL/FBF post-selection improves test performance compared to AIC/BIC baseline and that BIC in combination with the same function complexity penalty from DL/FBF produces similar results. In contrast, using DL/FBF directly as a fitness function in single-objective GPSR frequently induces premature convergence to overly simple models. We conclude with practical guidance for using DL/FBF as robust model-selection tools in genetic programming workflows.",
+  "title_relatable": "How description length tames bloated symbolic regression",
+  "hook": "Using information theory to prevent genetic algorithms from overfitting and bloating equations. Tested on noisy benchmarks and real-world problems.",
+  "summary": "Genetic programming for symbolic regression tends to produce bloated, overfitted equations—especially with noisy data. This work applies description length (DL), an information-theoretic criterion, as a principled way to select compact models that generalize better. Across noisy synthetic and real-world datasets, DL post-selection outperformed standard heuristics like AIC and BIC. However, using DL directly as a fitness function caused premature convergence; the sweet spot was multi-objective search for accuracy and compactness, then DL-based selection afterward.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 985,
+  "tokens_out": 201,
+  "cost_usd": 0.001592,
+  "ingested_at": "2026-05-23T00:46:25.708301+00:00"
+}

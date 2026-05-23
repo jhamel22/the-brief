@@ -1,0 +1,24 @@
+{
+  "id": "2605.21654",
+  "arxiv_url": "https://arxiv.org/abs/2605.21654",
+  "announced_date": "2026-05-20",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Value-Gradient Hypothesis of RL for LLMs",
+  "authors": "Arip Asadulaev, Daniil Ognev, Karim Salta, Martin Takac",
+  "abstract": "Reinforcement learning substantially improves pretrained language models, but it remains understudied why critic-free methods such as PPO and GRPO work as well as they do, and when they should provide the largest gains. We develop a value-gradient perspective of critic-free RL for LLM post-training. First, under a differentiable rollout and additive-noise parameterization, we show that the actor update is value-gradient-like in expectation: the backward pass propagates costates whose conditional expectation equals the value gradient. Second, for discrete transformer policies, we show that autodifferentiation through attention produces empirical costates that approximate this value signal, with an error controlled by the sampling gap and policy entropy. These results motivate a decomposition of RL impact into value gradient signal and reachable reward headroom, yielding a criterion for when RL should be most effective along a pretraining trajectory.",
+  "title_relatable": "Why does reinforcement learning work so well for language models?",
+  "hook": "A new mathematical explanation for why popular RL methods like PPO improve LLMs without needing a separate critic network, plus a formula for predicting when RL gains are largest.",
+  "summary": "Most successful RL methods for fine-tuning language models skip the critic network entirely, yet still work well—but why remains unclear. These researchers proved that critic-free methods implicitly compute value gradients through their backward passes, meaning the model learns to optimize rewards without explicitly modeling them. They also showed this effect holds for real transformer policies, with error bounds tied to randomness and policy uncertainty. The theory yields a practical criterion for when RL will yield the biggest improvements along a training trajectory.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 882,
+  "tokens_out": 192,
+  "cost_usd": 0.0014735999999999998,
+  "ingested_at": "2026-05-23T00:37:24.531290+00:00"
+}

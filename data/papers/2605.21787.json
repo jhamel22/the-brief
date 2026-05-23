@@ -1,0 +1,22 @@
+{
+  "id": "2605.21787",
+  "arxiv_url": "https://arxiv.org/abs/2605.21787",
+  "announced_date": "2026-05-20",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Drivers of Transient Dynamics and Persistence in Dengue: Insights from Sensitivity and Stochastic Modeling",
+  "authors": "Cesar Alberto Rosales-Alcantar, Marcos A. Capistrán",
+  "abstract": "We investigate how key epidemiological parameters shape both seasonal epidemics and the persistence of dengue transmission. Our findings confirm known mechanistic drivers of epidemic variability and introduce a ranking of parameter importance in our dengue model, which in turn informs the prioritization of public health policies. We propose a stochastic vector-host model with waning immunity, exogenous infection, and vertical transmission. To assess parameter influence, we first qualitatively analyze the macroscopic model. We then perform a multivariate Sobol sensitivity analysis of epidemic summary statistics, and examine the variance of the endemic equilibrium as a function of model parameters. We show that the macroscopic model is well posed, vertical transmission lowers the threshold for persistence, and low spatial coupling increases infectious endemic equilibria. The vector-host population ratio and host recovery rate have the largest first-order and total sensitivity indices, surpassing the contact rates; this implies that control measures during seasonal dengue should prioritize protecting infectious hosts from mosquito bites. Finally, we show that the covariance of hosts and vectors at the endemic equilibrium is asynchronous in the contact-rate plane. This robust pattern has epidemiological, ecological and evolutive interpretations. A dengue strain has two niches to exploit during the endemic regime, and coexisting strain have two niches each. Moreover, large fluctuations in a given strain during the endemic regime provide a mechanistic explanation for high vertical transmission, enabling viral reservoirs that can hatch and trigger outbreaks in the following season. We argue that our model and results can be adapted to address specific public health questions to guide dengue control using field data.",
+  "title_relatable": "What actually stops dengue from spreading? Mathematical clues",
+  "hook": "Protecting sick people from mosquitoes matters more than reducing contact rates—a modeling study ranks the best dengue control strategies.",
+  "summary": "Researchers built a mathematical model of dengue transmission between humans and mosquitoes, including waning immunity and vertical transmission in mosquitoes. Using sensitivity analysis, they found that the human recovery rate and mosquito-to-human population ratio drive epidemic patterns far more than contact rates do. This suggests public health should focus on isolating infected patients from mosquitoes rather than broad distancing measures.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 768,
+  "tokens_out": 159,
+  "cost_usd": 0.0012504,
+  "ingested_at": "2026-05-23T00:47:33.970093+00:00"
+}

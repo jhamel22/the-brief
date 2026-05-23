@@ -1,0 +1,23 @@
+{
+  "id": "2605.21582",
+  "arxiv_url": "https://arxiv.org/abs/2605.21582",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph"
+  ],
+  "title_original": "Multipositivity Constrains the Chiral Lagrangian",
+  "authors": "Clifford Cheung, Jaehoon Jeong, Pyungwon Ko, Alex Pomarol, Grant N. Remmen, Francesco Sciotti",
+  "abstract": "The chiral Lagrangian is a cornerstone of modern particle physics, offering a systematic and quantitative description of low-energy pions. Using tools from the modern scattering amplitudes program, we show that consistent multiparticle dynamics impose novel constraints on the coupling constants of this theory. In the planar limit, these constraints imply that certain Wilson coefficients of the chiral Lagrangian are bounded from below by the chiral anomaly. Our results reveal a subtle connection between the anomalous and nonanomalous sectors of the underlying strong interactions, while introducing a novel formulation of multipositivity bounds that holds for any planar tree-level theory.",
+  "title_relatable": "Hidden limits on pion physics from quantum consistency",
+  "hook": "The chiral Lagrangian—the standard model for pions—has stricter bounds on its parameters than anyone realized, locked in by a quantum consistency principle.",
+  "summary": "Pions are described by a simple effective theory, but when you demand that multiparticle scattering amplitudes satisfy quantum positivity constraints, you discover the theory's coupling constants can't be arbitrary—they must obey limits set by the chiral anomaly, a quantum effect. This reveals a hidden bridge between two seemingly separate sectors of the strong nuclear force.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 865,
+  "tokens_out": 160,
+  "cost_usd": 0.001332,
+  "ingested_at": "2026-05-23T00:19:45.340205+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22801",
+  "arxiv_url": "https://arxiv.org/abs/2605.22801",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Another Look at the Weak-Field Limit of Generalized Hybrid Metric-Palatini Gravity",
+  "authors": "Gustavo Melgarejo, Santiago Esteban Perez Bergliaffa",
+  "abstract": "We investigate the weak-field regime of generalized hybrid metric-Palatini theories, described by a generic function \\(f(R,\\mathcal{R})\\), where \\(R\\) is the metric Ricci scalar and \\(\\mathcal{R}\\) is constructed from an independent torsionless connection. Linearizing the field equations about Minkowski spacetime, we show, without using the scalar-tensor representation, that the theory propagates the usual massless spin-2 mode and two massive scalar modes, with an effective gravitational coupling. The absence of tachyonic and ghostlike instabilities at the linearized level, together with the nondegeneracy of the scalar sector, is shown to impose algebraic restrictions on the derivatives of \\(f(R,\\mathcal R)\\) evaluated on the Minkowski background, which generalize previously obtained conditions. The Newtonian limit for an extended static source is derived, yielding a gravitational potential with two Yukawa corrections whose amplitudes are fixed by the scalar residues, while finite-size effects are encoded in source-dependent form factors. We determine the conditions under which the usual Newtonian limit is recovered and derive the effective post-Newtonian parameter \\(γ_Σ\\) governing light propagation. Finally, we compute the radial epicyclic frequency and the corresponding anomalous periapsis advance, and compare it with planetary precession data to constrain the parameters of a viable hierarchical scalar-mass regime.",
+  "title_relatable": "How does hybrid gravity bend light and shift planetary orbits?",
+  "hook": "A modified gravity theory with two extra scalar fields predicts Yukawa-corrected gravity and measurable planetary precession shifts.",
+  "summary": "Hybrid metric-Palatini gravity blends two different geometric descriptions of curvature into a single function, propagating the usual graviton plus two massive scalar fields. Working directly from the field equations — no shortcuts — the authors derive the gravitational potential (standard Newtonian plus two Yukawa correction terms) and the light-bending parameter, then use Solar System planetary precession data to constrain the scalar masses. The constraints spell out exactly when this theory is indistinguishable from Einstein's and when it isn't.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1046,
+  "tokens_out": 186,
+  "cost_usd": 0.005928,
+  "ingested_at": "2026-05-23T00:16:06.087032+00:00"
+}

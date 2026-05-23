@@ -1,0 +1,24 @@
+{
+  "id": "2605.22362",
+  "arxiv_url": "https://arxiv.org/abs/2605.22362",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Constraining Spatial Curvature with Priors from Swampland Conjectures",
+  "authors": "Simran Arora, Hun Jang, Shinji Mukohyama",
+  "abstract": "We study a string-motivated theoretical prior on the quintessential dark energy model with exponential potential, \\( V(φ) = V_0 e^{-λφ} \\), allowing for non-zero spatial curvature. First, we formulate the corresponding dynamical system and investigate its cosmological evolution numerically, illustrating the phase-space behaviour and the influence of curvature on the background dynamics. In open universes (\\( Ω_k > 0 \\)), it has been suggested that a curvature-related fixed point may support accelerated expansion even for relatively steep potentials compatible with swampland considerations. Next, we explicitly impose swampland-motivated priors on the slope parameter $λ$, restricting it to values consistent with the de Sitter conjecture that excludes the (curved) $Λ$CDM limit. Furthermore, we restrict our considerations to the range of field excursion that is consistent with the swampland distance conjecture. Our primary interest is the possibility that such theoretically-motivated priors may shift values of cosmological parameters inferred by observational data, compared with the standard analysis based on theory-agnostic priors such as a sufficiently wide flat prior. We examine this possibility using a combination of Planck CMB data, DESI BAO measurements, and recent Type Ia supernova samples, performing a Bayesian inference of the model parameters. Our analysis indicates that the swampland-motivated prior mildly shifts the values of $Ω_k$.",
+  "title_relatable": "String theory priors nudge our measurement of the universe's shape",
+  "hook": "Swampland conjectures slightly shift how curved we think the universe is — even using the same data.",
+  "summary": "Using CMB, BAO, and supernova data, the authors tested what happens when you replace agnostic priors on dark energy with constraints from string theory's swampland conjectures — specifically banning the cosmological constant and limiting how far a scalar field can roll. The swampland priors mildly shift the inferred spatial curvature compared to standard analyses, suggesting theoretical assumptions quietly embedded in prior choices can matter. It's a concrete example of how string-motivated theory and cosmological observation can, in principle, push and pull on each other.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1049,
+  "tokens_out": 191,
+  "cost_usd": 0.006012,
+  "ingested_at": "2026-05-23T00:17:01.589107+00:00"
+}

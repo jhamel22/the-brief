@@ -1,0 +1,22 @@
+{
+  "id": "2605.21870",
+  "arxiv_url": "https://arxiv.org/abs/2605.21870",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Deep Neural Networks for Heavy Lepton-Flavor-Violating Higgs Searches at the LHC",
+  "authors": "Akmal Ferdiyan, Reinard Primulando, Fiki Taufik Akbar, Bobby Eka Gunara",
+  "abstract": "We study lepton-flavor-violating (LFV) decays of a heavy Higgs boson, $H \\to μτ$, in the Type-III two-Higgs-doublet model by recasting the CMS search at $\\sqrt{s} = 13$ TeV with 35.9 fb$^{-1}$ using fast detector simulation in the mass range 200-450 GeV. We develop a deep neural network (DNN) classifier trained on final-state kinematic variables that, with mass-dependent threshold optimization, reduces the expected 95% CL upper limits on the signal cross section by 42-46% in the 0-jet channel and 36-40% in the 1-jet channel relative to the standard collinear mass ($M_\\mathrm{col}$) baseline. We apply SHAP interpretability analysis to identify the visible mass $m_\\mathrm{vis}$ as one of the dominant discriminating feature, reflecting the characteristic neutrino momentum fraction of the $τ$ decay. We show that supplementing the $M_\\mathrm{col}$ analysis with a simplified mass-dependent pre-selection, $m_\\mathrm{vis} < f \\cdot m_H$ with $f = 0.7$ (0-jet) and $f = 0.8$ (1-jet), consistently improves the sensitivity over the $M_\\mathrm{col}$-only baseline without requiring multivariate infrastructure. In addition, a DNN regression model trained to predict the ratio $m_H/M_\\mathrm{col}$ corrects the systematic prediction bias inherent in the collinear approximation, maintaining an absolute mass prediction error below 1 GeV for signals up to 400 GeV and improving the mass resolution by 12% (0-jet) and 21% (1-jet) at $m_H = 450$ GeV. These results demonstrate a clear path toward significantly enhanced sensitivity in LFV Higgs searches at the LHC.",
+  "title_relatable": "Neural networks boost sensitivity to rare Higgs decays by 40%",
+  "hook": "Machine learning applied to LHC data improves the hunt for flavor-violating Higgs decays, cutting the gap between observation and discovery.",
+  "summary": "Physicists trained deep neural networks on simulated LHC collisions to spot a rare decay where a heavy Higgs turns into a muon and tau. The approach cuts the upper limits on this forbidden process by 36–46% compared to standard techniques, with visible mass of the decay products emerging as the key tell-tale sign.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1194,
+  "tokens_out": 158,
+  "cost_usd": 0.0015872,
+  "ingested_at": "2026-05-23T00:23:54.558406+00:00"
+}

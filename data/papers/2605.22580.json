@@ -1,0 +1,22 @@
+{
+  "id": "2605.22580",
+  "arxiv_url": "https://arxiv.org/abs/2605.22580",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Practical Countermeasure Against Attacks Exploiting Detection Efficiency Mismatch in Quantum Key Distribution",
+  "authors": "Ben J. Taylor, Peter R. Smith, James F. Dynes, Robert I. Woodward, Marco Lucamarini, R. Mark Stevenson, Andrew J. Shields",
+  "abstract": "We demonstrate a practical countermeasure against a well-known class of attacks on quantum key distribution (QKD) systems that exploit detection efficiency mismatch, where the receiver's detectors do not exhibit identical responses to incoming photons across all degrees of freedom. This class of quantum hacking strategies is broad and significantly includes the time-shift attack, which targets an arrival-time-dependent side channel at the receiver. The four-state countermeasure, previously only proven to be secure in theory, is implemented here on a GHz-clocked prototype QKD system and evaluated for its security and performance. We show that its presence enables almost complete recovery of the system's ideal secret key rate. Our results provide strong justification for adopting this countermeasure as a standard component in future scalable and practical QKD systems.",
+  "title_relatable": "A simple fix closes a major loophole in quantum encryption",
+  "hook": "A known quantum hacking attack exploits tiny timing differences in detectors — this countermeasure shuts it down with almost no performance cost.",
+  "summary": "Quantum key distribution promises unbreakable encryption, but real detectors have imperfections that hackers can exploit — including a \"time-shift attack\" that probes when photons arrive to learn secret information. Running on a gigahertz-clocked QKD system, a four-state countermeasure (long proven secure on paper) nearly fully recovers the secret key rate that the attack would otherwise destroy. The result gives hardware developers a practical, drop-in fix for one of the most significant known vulnerabilities in deployed quantum networks.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 914,
+  "tokens_out": 194,
+  "cost_usd": 0.005652,
+  "ingested_at": "2026-05-23T00:21:11.829643+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22746",
+  "arxiv_url": "https://arxiv.org/abs/2605.22746",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "eess.AS",
+    "stat.ML"
+  ],
+  "title_original": "Plug-in Losses for Evidential Deep Learning: A Simplified Framework for Uncertainty Estimation that Includes the Softmax Classifier",
+  "authors": "Berk Hayta, Hannah Laus, Simon Mittermaier, Felix Krahmer",
+  "abstract": "Real-world sensor-based learning systems require uncertainty estimation that is both reliable and computationally efficient. Evidential Deep Learning (EDL) provides single-pass uncertainty estimation by modeling the class probabilities via Dirichlet distributions, where the Dirichlet parameters are predicted by a learned neural network mapping. However, this approach can lead to computational challenges, as Dirichlet expected objectives are more complex than standard supervised learning losses, complicating their analysis and implementation. We address this issue by approximating the objective of the first-order empirical risk minimization problem induced by EDL with a plug-in loss evaluated at the Dirichlet mean and show that, under mild assumptions, the approximation error decays with growing evidence for a broad class of loss functions, including mean-squared error and cross-entropy loss. As a special case, our analysis provides justification for the use of softmax in the context of uncertainty estimation, since under a particular evidence-to-Dirichlet mapping, our framework includes the standard softmax classifier. We validate the proposed simplified objectives on the Google Speech Commands dataset and show that they achieve predictive accuracy and selective prediction performance comparable to classical EDL, while being simpler to implement using standard deep learning losses and training pipelines. To the best of our knowledge, this empirical analysis is the first to obtain coverage-accuracy trade-offs for speech recognition tasks through EDL.",
+  "title_relatable": "Making uncertainty estimates simpler without losing accuracy",
+  "hook": "A framework that simplifies uncertainty estimation in neural networks while maintaining performance—and mathematically justifies why standard softmax classification works.",
+  "summary": "Evidential Deep Learning estimates uncertainty by predicting Dirichlet distributions over class probabilities, but the math is complex and hard to implement. This paper replaces the complicated Dirichlet objective with simpler plug-in losses (like cross-entropy) evaluated at the mean, proving the approximation error shrinks reliably. Testing on speech recognition shows the simplified approach matches classical EDL's accuracy and uncertainty calibration while using standard training pipelines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 989,
+  "tokens_out": 169,
+  "cost_usd": 0.0014672,
+  "ingested_at": "2026-05-23T00:46:02.450202+00:00"
+}

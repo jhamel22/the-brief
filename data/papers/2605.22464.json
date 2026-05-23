@@ -1,0 +1,23 @@
+{
+  "id": "2605.22464",
+  "arxiv_url": "https://arxiv.org/abs/2605.22464",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Pseudo-Nambu-Goldstone inflation with $Z_N$ symmetric waterfall fields",
+  "authors": "Hyun Min Lee, Adriana G. Menkara",
+  "abstract": "We propose a hybrid inflation model where a pseudo-Nambu-Goldstone boson inflaton couples to $N$ waterfall scalar fields respecting a $Z_N$ symmetry. We identify the phases for the inflation and the consequent waterfall transition, concretely, in $Z_2$, $Z_3$ and $Z_4$ cases. From the Coleman-Weinberg potential for the inflaton, we show that the quadratically divergent corrections coming from the waterfall sector are cancelled due to the $Z_N$ symmetry, while the logarithmically divergent corrections are absent only for $N>2$, ensuring the radiative stability of the inflaton potential. We show the parameter space for a successful inflation with the loop-corrected inflaton potential in each model and compare the results between different discrete symmetries. We further analyze the vacuum structure of the models and the reheating process due to the $Z_N$-invariant Higgs-portal couplings for the waterfall fields. We find that the reheating temperature can be smaller than the mass of the waterfall field condensate such that the $Z_N$ symmetry is not restored after reheating and there is no domain wall problem in the models. We also comment on the possibility of multi-component dark matter from the $Z_N$ partners of the waterfall field condensate.",
+  "title_relatable": "Can a broken symmetry field make inflation stable and avoid domain walls?",
+  "hook": "A hybrid inflation model with discrete symmetry suppresses quantum corrections to the inflaton and sidesteps a longstanding cosmological problem.",
+  "summary": "Hybrid inflation typically suffers from quantum instability—loop corrections from additional fields destabilize the inflaton potential. This work uses a discrete $Z_N$ symmetry among waterfall fields to cancel the dangerous corrections while keeping the model technically natural. The setup avoids domain wall defects after reheating and produces dark matter candidates, making it observationally viable across multiple symmetry choices.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1005,
+  "tokens_out": 164,
+  "cost_usd": 0.00146,
+  "ingested_at": "2026-05-23T00:19:11.851288+00:00"
+}

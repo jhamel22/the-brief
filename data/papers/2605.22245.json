@@ -1,0 +1,24 @@
+{
+  "id": "2605.22245",
+  "arxiv_url": "https://arxiv.org/abs/2605.22245",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "astro-ph.HE"
+  ],
+  "title_original": "Probing freeze-in dark matter using Bose-Einstein condensate in neutron star",
+  "authors": "Deep Ghosh, Anirban Das",
+  "abstract": "Neutron star (NS) is one of the most promising astrophysical targets to probe non-gravitational interaction of dark matter (DM) with visible matter. Their compactness makes them an ideal object which can capture particle DM efficiently over its lifetime using the DM-nucleon scattering cross-section. If DM particles are bosonic, then the captured DM population may form a Bose-Einstein condensate at the center of the NS, increasing the DM density significantly. In this work, we study the phenomenology of such scenario with enhanced DM annihilation rate due to the increased density in a condensate. The enhanced DM annihilation makes the NS surface `hotter' than in the standard cooling scenario. We show that the annihilation rate is enhanced by a factor of $\\mathcal{O}(10^{15}-10^{20})$ if DM forms a condensate, and DM with freeze-in value annihilation cross-section can heat up the NS to higher temperatures, bringing it within the reach of James Webb Space Telescope. It also allows us to probe DM-nucleon scattering cross section within the neutrino fog regime which will complement the terrestrial direct detection searches. Moreover, the enhanced annihilation from the condensate changes the lower limits on s-wave DM annihilation cross-section for capture-annihilation equilibrium and the formation of a black hole inside the NS. Finally, we show an example of a scalar DM model where such small annihilation and DM-nucleon scattering cross sections can generically arise.",
+  "title_relatable": "Can dark matter form ice cream cones inside neutron stars?",
+  "hook": "Captured dark matter could condense at neutron star cores, heating them 10^15 times more efficiently and making them visible to James Webb.",
+  "summary": "When bosonic dark matter particles accumulate inside neutron stars, they can form a quantum condensate—like a superfluid—that dramatically boosts their annihilation rate. This condensate heating effect makes normally cold neutron stars bright enough for infrared telescopes to spot, and opens a window on dark matter properties that terrestrial detectors can't reach due to neutrino background noise.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1051,
+  "tokens_out": 167,
+  "cost_usd": 0.0015088000000000002,
+  "ingested_at": "2026-05-23T00:22:34.685349+00:00"
+}

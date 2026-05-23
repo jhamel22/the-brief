@@ -1,0 +1,22 @@
+{
+  "id": "2605.21680",
+  "arxiv_url": "https://arxiv.org/abs/2605.21680",
+  "announced_date": "2026-05-20",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Flying Together: Human-Guided Immersive Shared Control for Aerial Robot Teams in Unknown Environments",
+  "authors": "Lou De Bel-Air, Luca Morando, Ruitao Chen, Keru Wang, Benjamin Jarvis, Charbel Toumieh, Yang Zhou, Ken Perlin, Dario Floreano, Giuseppe Loianno",
+  "abstract": "While autonomous multi-robots can achieve safe and coordinated navigation, they often struggle to adapt to unforeseen conditions and to capture operator-driven objectives in unstructured environments. We present a Virtual Reality (VR)-based shared control framework for teams of drones operating in constrained and unknown environments, enabling real-time, user-guided exploration. At the core of our approach is a novel, user-guided motion-primitive-based planner that computes continuous, collision-free trajectories while continuously integrating operator input. This planner is coupled with an admittance controller, allowing the operator to flexibly influence team behavior and guide drones toward regions of interest that autonomous planners may overlook. The system supports mixed-reality operations with both physical and simulated drones, and implements a bilateral VR-based interface, allowing the operator to guide the robot team via migration points while receiving immediate visual feedback of the team state. Experimental results show that shared control improves obstacle avoidance, maintains inter-agent spacing, and reduces operator effort, demonstrating the feasibility and advantages of immersive, human-in-the-loop multi-robot navigation.",
+  "title_relatable": "How VR lets humans steer drone swarms through unknown spaces",
+  "hook": "A VR interface lets one operator guide multiple drones through tight, unmapped spaces in real time—reducing crashes and operator fatigue while keeping autonomy in charge.",
+  "summary": "Autonomous drone teams struggle when environments are cluttered and unpredictable. Researchers built a VR system where an operator steers a swarm using motion primitives—reusable movement patterns—while the drones handle collision avoidance and spacing automatically. The operator sees the drones' full state in mixed reality (physical and simulated robots together) and can nudge the team toward regions an autonomous planner might miss. Tests show this shared control cuts crashes, maintains safe spacing between drones, and cuts the cognitive load on pilots compared to fully manual flight.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 966,
+  "tokens_out": 206,
+  "cost_usd": 0.0015968000000000002,
+  "ingested_at": "2026-05-23T00:45:17.484870+00:00"
+}

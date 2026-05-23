@@ -1,0 +1,23 @@
+{
+  "id": "2605.21583",
+  "arxiv_url": "https://arxiv.org/abs/2605.21583",
+  "announced_date": "2026-05-20",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Echoes of Nucleon Decay from Long-Lived Particles",
+  "authors": "Patrick Adolf, Chandan Hati, Martin Hirsch, Volodymyr Takhistov",
+  "abstract": "Nucleon decay searches provide uniquely sensitive probes of baryon number violation and physics beyond the Standard Model. We propose a new class of nucleon decay observables involving long-lived particles (LLPs), characterized by spatially separated but temporally correlated \"echo\" vertices not captured by conventional prompt searches. Focusing on vector LLPs, we construct effective operators and ultraviolet realizations, and show that Super-Kamiokande, Hyper-Kamiokande and JUNO can achieve geometric acceptances approaching 80% over a broad range of LLP decay lengths. Echo signatures could in principle arise from any visibly decaying LLP.",
+  "title_relatable": "Finding nucleon decay through ghostly delayed signals",
+  "hook": "Protons may decay into long-lived particles that leave traces separated in space and time—a signature conventional detectors miss entirely.",
+  "summary": "Nucleon decay searches hunt for baryon number violation, but standard methods only catch immediate, prompt decays. This work proposes \"echo\" signatures: the proton decays into a long-lived particle that travels meters before decaying again, creating two spatially separated but correlated detection events. Water Cherenkov detectors like Super-Kamiokande and the planned Hyper-Kamiokande could catch 80% of such events, opening a new window on physics beyond the Standard Model.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 852,
+  "tokens_out": 186,
+  "cost_usd": 0.0014256,
+  "ingested_at": "2026-05-23T00:24:02.972810+00:00"
+}

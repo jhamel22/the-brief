@@ -1,0 +1,22 @@
+{
+  "id": "2605.22591",
+  "arxiv_url": "https://arxiv.org/abs/2605.22591",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Rethinking Noise-Robust Training for Frozen Vision Foundation Models: A Cross-Dataset Benchmark with a Case Study of Small-Loss Failure",
+  "authors": "Zitong Li, Haoyu Wang",
+  "abstract": "Frozen Vision Foundation Models (VFMs) with lightweight classification heads are increasingly used in medical imaging because they offer efficient and reproducible deployment. Yet noisy-label learning methods for this frozen-feature regime remain poorly understood, and most existing methods still rely on a small-loss assumption inherited from end-to-end training. We present a controlled benchmark of eight noisy-label methods across five medical datasets, three backbones, two noise types, and five noise rates (150 conditions, 6,000 training runs), evaluated with balanced accuracy. The benchmark shows that there is no universal winner: Friedman ranking over the 150 conditions yields $χ^2 = 333.2$ ($p = 4.77 \\times 10^{-68}$), ELR wins the most conditions (49/150), while CUFIT attains the best mean rank (2.51). The practical cost of method choice grows sharply with noise severity, from 4.5pp on clean data to 18.8pp at asymmetric 40\\% noise. To explain these benchmark-level patterns, we revisit the small-loss assumption in a representative high-risk regime. Under frozen DINOv2 features, clean and noisy loss distributions overlap by 53--61\\%, and matched-rate clean-sample detection shows that prediction agreement is markedly more stable than loss ranking under asymmetric noise (3pp vs.\\ 13pp precision drop). On ISIC2019 with asymmetric 40\\% noise, Co-Teaching reaches 68\\% overall accuracy while collapsing to 35.1\\% balanced accuracy with zero recall on three minority classes. Together, these results recast noisy-label learning for frozen VFMs as a regime-aware method-selection problem rather than a search for a single dominant algorithm. We conclude with evidence-based guidance and a low-regret feature-space selector for practical recommendation.",
+  "title_relatable": "Why noise-robust training fails for frozen vision models",
+  "hook": "Medical imaging with frozen foundation models hits a wall: no single denoising method works across datasets, and the small-loss assumption breaks down 53% of the time under noise.",
+  "summary": "Frozen vision foundation models are popular in medical imaging, but denoising methods designed for end-to-end training don't work reliably when the backbone is frozen. Researchers benchmarked eight denoising approaches across 150 conditions (five medical datasets, multiple backbones, varying noise levels) and found no universal winner—performance gaps reach 18.8 percentage points depending on which method you pick. The culprit: the standard assumption that clean samples have lower loss than noisy ones collapses under asymmetric noise, where loss distributions overlap by over half. They propose a regime-aware selector to match methods to specific noise patterns rather than hunting for a single algorithm.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1104,
+  "tokens_out": 232,
+  "cost_usd": 0.0018112,
+  "ingested_at": "2026-05-23T00:41:58.483044+00:00"
+}

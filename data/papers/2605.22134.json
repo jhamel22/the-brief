@@ -1,0 +1,23 @@
+{
+  "id": "2605.22134",
+  "arxiv_url": "https://arxiv.org/abs/2605.22134",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "nucl-th",
+    "hep-ph"
+  ],
+  "title_original": "Bootstrapping Two-Nucleon Effective Field Theories",
+  "authors": "Q. N. Micha-Mba, M. S. Sánchez, P. G. Ortega, J. A. Oller, D. R. Entem",
+  "abstract": "Chiral EFT yields singular potentials that require regularization and renormalization when implemented in a dynamical equation such as the Lippmann--Schwinger equation. We employ two different approaches, renormalization with contact terms -- as is most commonly done in chiral EFT -- and the exact N/D method with multiple subtractions. We start with a toy model in which we can control the finite-range expansion of the potential, treating the full potential as the `exact' theory. To assess the statistical consistency of the approaches with the full theory, we use the bootstrap technique. We apply the same framework to study the consistency of chiral EFT at LO and NLO with the Granada phase-shift analysis in the $^1S_0$ two-nucleon partial wave. Our results show that the NLO potential significantly extends the energy range over which the theory remains valid.",
+  "title_relatable": "Does chiral nuclear theory work as well as physicists claim?",
+  "hook": "Bootstrap tests reveal that next-to-leading order chiral effective field theory for nucleons works better than expected—but only up to a limit.",
+  "summary": "Nuclear physicists use chiral effective field theory to describe how two nucleons interact, but the math requires careful regularization to avoid infinities. Using a statistical bootstrap technique borrowed from machine learning, the team tested whether the leading-order and next-to-leading-order approximations actually match experimental data from the Granada phase-shift analysis. The NLO version extends the valid energy range significantly, suggesting the expansion converges better than previously established.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 919,
+  "tokens_out": 175,
+  "cost_usd": 0.0014352,
+  "ingested_at": "2026-05-23T00:23:43.033095+00:00"
+}

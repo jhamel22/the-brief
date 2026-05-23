@@ -1,0 +1,22 @@
+{
+  "id": "2605.21965",
+  "arxiv_url": "https://arxiv.org/abs/2605.21965",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "SpecHop: Continuous Speculation for Accelerating Multi-Hop Retrieval Agents",
+  "authors": "Mehrdad Saberi, Keivan Rezaei, Soheil Feizi",
+  "abstract": "Large language models increasingly use external tools such as web search and document retrieval to solve information-intensive tasks. However, multi-hop tool use in complex tasks introduces substantial latency, since the model must repeatedly wait for tool observations before continuing. We study how to accelerate such trajectories without changing the final trajectory the model would have taken without acceleration, assuming access to faster but less reliable speculator tools. We develop a theoretical framework for lossless speculation in multi-hop tool-use settings, characterizing the optimal achievable latency gain. We propose SpecHop, a continuous speculation framework that maintains multiple speculative threads, verifies predicted observations asynchronously as target tool outputs arrive, commits correct branches, and rolls back incorrect ones. This preserves accuracy while reducing wall-clock latency. We show that SpecHop can approach oracle latency gains with enough active threads. Empirically, on retrieval-augmented multi-hop tasks, SpecHop closely matches theoretical predictions and reduces latency by up to 40\\% in some settings. Code: https://github.com/mehrdadsaberi/spechop",
+  "title_relatable": "Speeding up AI that searches the web multiple times",
+  "hook": "When language models need to search the web repeatedly to answer questions, latency piles up. SpecHop reduces wall-clock time by 40% using parallel speculative searches that verify asynchronously.",
+  "summary": "Language models solving complex questions often need to retrieve information multiple times—each lookup forces the model to wait. SpecHop maintains multiple speculative retrieval threads in parallel, verifying predicted results against actual tool outputs asynchronously and rolling back incorrect branches. The method preserves accuracy while cutting latency up to 40%, closely matching theoretical predictions about optimal speedup.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 922,
+  "tokens_out": 170,
+  "cost_usd": 0.0014176,
+  "ingested_at": "2026-05-23T00:37:13.220460+00:00"
+}

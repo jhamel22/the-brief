@@ -1,0 +1,23 @@
+{
+  "id": "2605.22323",
+  "arxiv_url": "https://arxiv.org/abs/2605.22323",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.SR"
+  ],
+  "title_original": "Magnetar Fireballs and Short Bursts: Curved Spacetime Lensing, QED Effects, High-Energy Spectra and Polarization, and Energy-Time Impulse Responses",
+  "authors": "Zorawar Wadiasingh, Hoa Dinh Thi, Constantinos Kalapotharakos, Kun Hu, Matthew G. Baring, Alice K. Harding, George Younes, Sebastien Guillot, Andrea Sanna, Michela Negro, Jeremy D. Schnittman, Oliver J. Roberts, Eric Burns, Chin-Ping Hu, Ersin Göğüş",
+  "abstract": "Magnetar short bursts (SBs) are hard X-ray transients of durations $0.01-1$ s peaking at $\\sim 10-100$ keV, and are prime targets for new high-energy missions and polarimeters. The recent association of SBs with bright radio bursts in SGR 1935+2154 has broadened interest in SB physics. We present new advanced fireball models combining general relativistic light bending, polarized transport in magnetized photospheres, magnetic photon splitting attenuation, and magnetospheric vacuum birefringence. These models also have relevance to trapped fireballs in magnetar giant flare pulsating tails. We adopt confined flux tube geometries consistent with adiabatic fireballs, and anisotropic/polarized emergent intensities to produce spectra and polarizations, and energy-time Stokes impulse responses. We predict that most fireballs are highly linearly polarized, especially when vacuum birefringence is important. There is rich potential for diagnostics: coexisting direct and lensed delayed images, gaps by occultation of the neutron star surface, and Shapiro+Rømer delay with temporal caustics. These effects can imprint spin phase dependence of the spectral and polarization character of bursts. Predicted signatures depend strongly on viewing geometry, fireball configuration, and photon splitting assumptions, yielding large variance in model high-energy spectral shapes and cutoffs, and energy-dependent polarization. The models can reproduce established double-blackbody SB spectral phenomenology, and we find that the unusual April 2020 radio-associated SB from SGR 1935+2154 is broadly consistent with a footpoint close to the magnetic pole, and possibly near pole-on viewing geometry. Our models motivate reverberation-style analyses for SBs and suggest that high-quality data might constrain source geometry, burst crustal footpoints, and, potentially, neutron star masses and radii.",
+  "title_relatable": "What magnetar explosions reveal through their light bending and polarization",
+  "hook": "Magnetar bursts bend light around neutron stars and split photons in extreme magnetic fields—signatures that upcoming X-ray missions can now detect.",
+  "summary": "Magnetar short bursts are brief X-ray flares peaking at 10–100 keV, recently linked to radio bursts from SGR 1935+2154. The authors model these events using general relativity, quantum electrodynamics effects in extreme magnetic fields, and polarization transport, predicting that most bursts should be highly linearly polarized and show telltale signs of light bending and delayed images from the neutron star's gravity. These signatures—along with energy-dependent polarization patterns—can constrain the burst geometry, the star's mass and radius, and the magnetic field structure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1269,
+  "tokens_out": 218,
+  "cost_usd": 0.0018872000000000001,
+  "ingested_at": "2026-05-23T00:25:22.660304+00:00"
+}

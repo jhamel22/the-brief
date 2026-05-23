@@ -1,0 +1,23 @@
+{
+  "id": "2605.22199",
+  "arxiv_url": "https://arxiv.org/abs/2605.22199",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "nucl-th"
+  ],
+  "title_original": "Equation of State at High Baryon Densities from a Thermodynamically Informed Neural Network",
+  "authors": "Musfer Adzhymambetov",
+  "abstract": "We present a four-dimensional equation of state for strongly interacting matter at finite temperature and conserved charge densities, constructed using a deep neural network. It is designed for direct use in hybrid models of relativistic heavy-ion collisions: it reproduces hadron resonance gas thermodynamics at typical particlization scales, is consistent with lattice QCD at low baryon chemical potential, and extrapolates into the high-density region inaccessible to either approach, which is precisely the regime targeted by RHIC BES, FAIR, HADES, and CBM. Thermodynamic consistency throughout the full phase space is enforced via a physics-informed loss function. We demonstrate the developed equation of state by implementing it at zero net strangeness and fixed electric-to-baryon charge ratio within the integrated hydrokinetic model.",
+  "title_relatable": "Neural network bridges lattice QCD and heavy-ion collision data",
+  "hook": "A machine-learning equation of state now connects lattice calculations, particle detectors, and the unexplored high-density frontier where traditional methods fail.",
+  "summary": "Heavy-ion collisions probe matter at extreme densities, but the equation of state—how pressure, energy, and density relate—remains poorly constrained in the high-baryon regime. This work uses a neural network trained on lattice QCD data and hadron thermodynamics to extrapolate into the unmeasured region targeted by RHIC, FAIR, and CBM experiments. The network enforces thermodynamic consistency throughout phase space, enabling realistic simulations of collisions from low to high density.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 880,
+  "tokens_out": 192,
+  "cost_usd": 0.001472,
+  "ingested_at": "2026-05-23T00:23:34.847776+00:00"
+}

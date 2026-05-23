@@ -1,0 +1,23 @@
+{
+  "id": "2605.22400",
+  "arxiv_url": "https://arxiv.org/abs/2605.22400",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "STARFIRE-2: Can we detect the global redshifted 21-cm signal from the cosmic dawn in Earth orbit?",
+  "authors": "Yogen Pranesh, Mayuri Sathyanarayana Rao, Saurabh Singh",
+  "abstract": "Detecting the redshifted global 21-cm signal from the cosmic dawn (CD) remains a major challenge due to strong terrestrial Radio Frequency Interference (RFI), particularly dominated by Frequency Modulation (FM) transmissions in the 88-110 MHz range. While observations from the radio-quiet lunar farside are ideal, Earth orbit offers an intermediate and simpler alternative that may mitigate several limitations of ground-based experiments. We assess the feasibility of detecting the global 21-cm signal from Earth orbit by quantifying FM-based RFI at different altitudes and orbital configurations. We present STARFIRE-2 (Simulation of TerrestriAl Radio Frequency Interference in oRbits around Earth -- 2), an algorithm that estimates FM transmitter-based RFI intercepted by radiometers in orbit. The model constructs a global FM transmitter database and compensates for incomplete data using statistical methods. Using PRATUSH as the reference experiment, we simulate a range of orbital scenarios to identify configurations that minimize RFI and optimize sensitivity for global 21-cm detection. The algorithm can also be adapted for other experiments. Simulations indicate that conducting such an experiment from Earth orbit is feasible for a thermal noise limited instrument placed in a low-Earth, near-polar orbit. Mock sky observations further demonstrate that most theoretically plausible cosmic dawn 21-cm signals can be recovered with high confidence under these optimized orbital conditions.",
+  "title_relatable": "Can we detect cosmic dawn's 21-cm whisper from space?",
+  "hook": "A satellite in the right orbit might finally hear the universe's first light, if radio noise doesn't drown it out.",
+  "summary": "The global 21-cm signal from cosmic dawn—when the first stars formed—is drowned out by terrestrial FM radio. Researchers simulated whether a radiometer in low Earth orbit could escape this noise and detect the signal instead. They find that a polar orbit at the right altitude works: most plausible cosmic dawn signals could be recovered with high confidence, making space-based detection feasible where ground telescopes fail.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1043,
+  "tokens_out": 169,
+  "cost_usd": 0.0015104,
+  "ingested_at": "2026-05-23T00:22:31.840510+00:00"
+}

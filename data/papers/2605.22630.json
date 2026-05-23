@@ -1,0 +1,22 @@
+{
+  "id": "2605.22630",
+  "arxiv_url": "https://arxiv.org/abs/2605.22630",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Towards precision cosmology with Void x CMB correlations (II): Impact of mock catalogs on the Void x CMB lensing signal",
+  "authors": "Mar Pérez Sar, Carlos Hernández Monteagudo, András Kovács, Alice Pisani, Yun Wang",
+  "abstract": "Gravitational lensing by large-scale structure imprints secondary anisotropies on the Cosmic Microwave Background (CMB) that can be exploited to probe cosmology. In particular, cosmic voids produce a characteristic lensing signature detectable through Void x CMB cross-correlations. This signal has been robustly measured in the past but its cosmological constraining power remains limited by the incomplete knowledge of how methodological choices affect its measurement and by its uncertain dependence on cosmological parameters. Using a set of validated Roman mock catalogs, we first quantify how mock construction impacts the measured signal and then forecast the capabilities of Roman, in combination with current and upcoming CMB surveys such as Planck, SO and CMB-S4-like experiments. We analyze the signal-to-noise ratio (S/N) for different void definitions (2D and 3D), stacking approaches (rescaled versus non-rescaled profiles), CMB map filtering schemes and noise levels. In contrast to galaxy and void statistics, we find that the Void x CMB lensing signal is less sensitive to the choice of mock catalog, indicating that future tensions with data are unlikely to stem from mock inaccuracies alone. The highest S/N is achieved for 2D voids with rescaled profiles. We forecast S/N ~13$σ$ (8$σ$) for 2D (3D) Roman voids combined with Planck, increasing to 22$σ$ (13$σ$) for SO and 31$σ$ (18$σ$) for CMB-S4-like surveys. While the cosmological dependence of this observable remains to be quantified, Roman together with next-generation of LSS and CMB surveys opens a path toward the first direct cosmological constraints from Void x CMB lensing.",
+  "title_relatable": "How cosmic voids bend the cosmic microwave background—and what that tells us",
+  "hook": "Voids in the universe lens the ancient light, and upcoming surveys could measure this signal with 31-sigma precision to constrain dark energy.",
+  "summary": "Cosmic voids—vast empty regions between galaxy clusters—bend light from the cosmic microwave background as it travels to us, creating a detectable lensing signature. Using realistic mock catalogs, researchers quantified how different measurement choices affect this signal and forecast what Roman, Planck, and next-generation CMB surveys can achieve. The void-lensing signal is robust to mock construction details, and combined surveys could measure it at 31-sigma significance—far stronger than current galaxy clustering constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1141,
+  "tokens_out": 192,
+  "cost_usd": 0.0016808,
+  "ingested_at": "2026-05-23T00:22:19.853173+00:00"
+}

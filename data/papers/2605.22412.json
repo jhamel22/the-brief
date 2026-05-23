@@ -1,0 +1,22 @@
+{
+  "id": "2605.22412",
+  "arxiv_url": "https://arxiv.org/abs/2605.22412",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Ratchet Universality and optimal suppression of shot noise in biharmonically-driven tunnel junctions",
+  "authors": "Pedro J. Martínez, Ricardo Chacón",
+  "abstract": "This Letter discusses two retrodictions of the law of ratchet universality which explain previous numerical and experimental results concerning the diode effect in conventional superconducting tunnel-junctions in one case, and controlled suppression of electron-hole pair generation in a tunnel junction in the other, both in the presence of biharmonic driving fields. Our study demonstrates that the ratchet universal driving field maximizes the diode's efficiency while yielding a maximal rectification range for the supercurrent, on the one hand, and optimally reduces the excess quantum noise with respect to the dc noise level, thus allowing for the efficient production of nonclassical photonic states. These results suggest that the ratchet universality law seems essential for any \\textit{optimal} application of the ratchet effect, particularly in the contexts of superconducting integrated power electronics, electron quantum optics, and quantum computing.",
+  "title_relatable": "One driving-field rule optimizes both supercurrent and quantum noise",
+  "hook": "A single universal law governs the best way to drive tunnel junctions—explaining both supercurrent rectification and near-silent quantum noise.",
+  "summary": "By applying a 'ratchet universality' law to biharmonically-driven tunnel junctions, the authors show that one specific waveform shape simultaneously maximizes supercurrent rectification in superconducting diodes and minimizes excess quantum (shot) noise. The optimal drive pushes noise so low it enables production of nonclassical photon states. The finding retroactively explains earlier puzzling experimental results and points toward a single design principle for superconducting electronics and quantum computing hardware.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 898,
+  "tokens_out": 185,
+  "cost_usd": 0.005469,
+  "ingested_at": "2026-05-23T00:21:59.977451+00:00"
+}

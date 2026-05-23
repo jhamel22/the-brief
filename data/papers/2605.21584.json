@@ -1,0 +1,23 @@
+{
+  "id": "2605.21584",
+  "arxiv_url": "https://arxiv.org/abs/2605.21584",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Wave-optics gravitational wave lensing in modified gravity",
+  "authors": "Alice Garoffolo, Gianmassimo Tasinato",
+  "abstract": "We initiate the study of gravitational-wave lensing in the wave-optics regime within modified gravity. We consider a phenomenological setup in which the gravitational-wave amplitude obeys a curvature-coupled propagation equation. This framework reproduces the standard GR behaviour in the geometric-optics regime, while leading to qualitatively different infrared dynamics. In particular, the usual argument implying that the amplification factor approaches unity in the zero-frequency limit no longer applies. This is due to the persistence of curvature-induced interactions in the infrared, which modify the natural propagation basis itself. As a result, the standard Fresnel treatment ceases to be valid at sufficiently low frequency. The correct infrared regime is instead controlled by an interacting static Green function, with a finite-frequency completion provided by a partial-wave formulation. We show that this structure admits an equivalent distorted-wave interpretation, in which the curvature interaction is absorbed into a dressed reference propagation basis, while the residual lensing effect is encoded in finite-frequency phase shifts. We further demonstrate that these phenomena admit a natural interpretation in the language of scattering amplitudes. Wave-optics lensing can therefore probe propagation-level departures from GR that remain entirely invisible in geometric optics.",
+  "title_relatable": "How modified gravity bends gravitational waves in surprising ways",
+  "hook": "Gravitational waves behave differently at low frequencies in modified gravity theories, making them a new probe for deviations from Einstein's predictions.",
+  "summary": "Modified gravity theories can change how gravitational waves propagate, especially at low frequencies where curvature effects become dominant. The authors show that the standard wave-lensing formula breaks down in these regimes, replaced by a more complex interplay of curvature interactions that can't be seen in geometric optics. This opens a new window to test modified gravity that geometric-optics lensing alone would miss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 979,
+  "tokens_out": 167,
+  "cost_usd": 0.0014512000000000001,
+  "ingested_at": "2026-05-23T00:22:57.107747+00:00"
+}

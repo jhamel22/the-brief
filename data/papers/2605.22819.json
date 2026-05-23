@@ -1,0 +1,22 @@
+{
+  "id": "2605.22819",
+  "arxiv_url": "https://arxiv.org/abs/2605.22819",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Cambrian-P: Pose-Grounded Video Understanding",
+  "authors": "Jihan Yang, Zifan Zhao, Xichen Pan, Shusheng Yang, Junyi Zhang, Bingyi Kang, Hu Xu, Saining Xie",
+  "abstract": "Camera pose matters. The position and orientation of each viewpoint define a shared spatial coordinate frame that relates observations across video frames. Yet this signal is largely absent from multimodal LLMs (MLLMs) for video understanding, which process frames as isolated 2D snapshots, instead of the persistent scene humans perceive. We revisit pose as a lightweight supervisory signal and introduce Cambrian-P, a video MLLM augmented with per-frame learnable camera tokens and a pose regression head. With a carefully designed sampling scheme, the model achieves substantial gains of 4.5-6.5% on spatial reasoning benchmarks such as VSI-Bench, generalizes across eight additional spatial and general video QA benchmarks, and, as a byproduct, achieves state of the art streaming pose estimation on ScanNet. Surprisingly, training on pseudo-annotated poses from in-the-wild video further improves general video QA benchmarks, showing pose helps beyond spatial reasoning. Together, these results position camera pose as a fundamental signal for video models that reason about the physical world.",
+  "title_relatable": "Teaching video AI where the camera is looking",
+  "hook": "Adding camera position and orientation to video understanding boosts spatial reasoning by 4.5–6.5%, and surprisingly helps with general video questions too.",
+  "summary": "Video language models treat each frame as an isolated image, missing how camera movement relates observations across time. This work adds lightweight camera pose estimation to a video MLLM, using learnable per-frame tokens and a pose regression head. The model gains 4.5–6.5% on spatial reasoning benchmarks like VSI-Bench and generalizes across eight video QA tasks, while achieving state-of-the-art streaming pose estimation on ScanNet. Even pseudo-labeled poses from unlabeled video improve general video understanding, suggesting camera geometry is fundamental to reasoning about physical scenes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 934,
+  "tokens_out": 204,
+  "cost_usd": 0.0015632,
+  "ingested_at": "2026-05-23T00:39:46.931174+00:00"
+}

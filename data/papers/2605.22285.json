@@ -1,0 +1,22 @@
+{
+  "id": "2605.22285",
+  "arxiv_url": "https://arxiv.org/abs/2605.22285",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Krakow Lectures on Scalar Quantum Solitons",
+  "authors": "Jarah Evslin",
+  "abstract": "We give a pedagogical introduction to Linearized Soliton Perturbation Theory (LSPT), a new and efficient tool for calculations involving quantum solitons. It is a Hamiltonian approach with a focus on explicitly constructing the soliton states. These states are squeezed, coherent states plus perturbative corrections. We will describe multi-loop corrections to states and their masses. An inner product suitable for non-normalizable momentum eigenstates will be introduced and applied to kink-meson scattering. We will also discuss domain wall solitons.",
+  "title_relatable": "A new way to calculate quantum solitons from the ground up",
+  "hook": "A Hamiltonian approach for computing quantum soliton states and their properties through systematic perturbation theory.",
+  "summary": "Linearized Soliton Perturbation Theory (LSPT) provides a direct method for constructing quantum soliton states as squeezed coherent states plus corrections, enabling multi-loop calculations of masses and scattering amplitudes. The framework handles non-normalizable momentum eigenstates and applies to kinks and domain walls. This pedagogical treatment makes an underused computational tool more accessible to researchers working with solitons in quantum field theory.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 818,
+  "tokens_out": 175,
+  "cost_usd": 0.0013544000000000002,
+  "ingested_at": "2026-05-23T00:19:20.997154+00:00"
+}

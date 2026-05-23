@@ -1,0 +1,23 @@
+{
+  "id": "2605.22348",
+  "arxiv_url": "https://arxiv.org/abs/2605.22348",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Dark Energy in Ghost-free non-local Gravity",
+  "authors": "S. D. Odintsov, V. K. Oikonomou, G. S. Sharov",
+  "abstract": "Ghost-free non-local gravity is investigated with regards to its late-time dynamics. Viable solutions in this model are confronted with the observational data including the Pantheon+ catalogue of Type Ia supernovae, the Dark Energy Spectroscopic Instrument, the measurements of baryon acoustic oscillations and the Hubble parameter estimations $H(z)$. The ghost-free non-local gravity is found to be successful in these tests in comparison to the $Λ$CDM model and can be also comparable with the generalized exponential $F(R)$ gravity scenario. However the model encounters difficulties when the data from the above observations and the cosmic microwave background radiation data are combined. In tests with the whole set of Pantheon+, DESI, $H(z)$ and CMB data, the generalized exponential $F(R)$ model is essentially more successful. This success is related with the dynamical behavior of its effective dark energy equation of state evolving from a phantom to a quintessence phase during the late-time epoch, whereas the ghost-free non-local model demonstrates only a quintessence behavior. Hence the ghost-free non-local gravity scenario is successful only when the Pantheon+, DESI and $H(z)$ data are considered. The generalized exponential $F(R)$ model satisfies the viability conditions and in tests with all observational data including CMB surpasses the $Λ$CDM model in $χ^2$ statistics and also with information criteria.",
+  "title_relatable": "A ghost-free gravity theory stumbles on CMB data",
+  "hook": "Ghost-free non-local gravity passes most cosmological tests but fails when CMB data enters the picture.",
+  "summary": "Two modified gravity theories — ghost-free non-local gravity and a generalized exponential F(R) model — were pit against the latest supernova, DESI, BAO, and CMB datasets. Ghost-free non-local gravity holds its own against most observations but breaks down once CMB data is added, largely because it only mimics quintessence-like dark energy rather than the phantom-to-quintessence transition the data seem to prefer. The exponential F(R) model outperforms even the standard cosmological constant across all datasets combined, suggesting the universe's dark energy may have a more dynamic history.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1045,
+  "tokens_out": 203,
+  "cost_usd": 0.00618,
+  "ingested_at": "2026-05-23T00:17:06.725406+00:00"
+}

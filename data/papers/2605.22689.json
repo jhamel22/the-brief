@@ -1,0 +1,23 @@
+{
+  "id": "2605.22689",
+  "arxiv_url": "https://arxiv.org/abs/2605.22689",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "physics.atom-ph",
+    "astro-ph.HE"
+  ],
+  "title_original": "X-ray and extreme-ultraviolet spectra from collisions of Ar$^{18+}$ and O$^{8+}$ ions with neutrals",
+  "authors": "Stepan Dobrodey, Chintan Shah, Sonja Bernitt, Ming Feng Gu, Liyi Gu, Thomas Pfeifer, José R. Crespo López-Urrutia",
+  "abstract": "We present measurements of K-shell x-ray emission following charge exchange of fully ionized argon with various neutral gaseous targets at small collision energies inside an electron beam ion trap. We also resolve the principal quantum number of electron capture in extreme-ultraviolet spectra from initially bare and hydrogen-like oxygen ions held in the same trap. We analyze discrepancies between these as well as previous measurements with theoretical models based on the multichannel Landau-Zener approach.",
+  "title_relatable": "What happens when stripped atoms collide with neutral gas?",
+  "hook": "Fully ionized argon and oxygen ions reveal unexpected patterns in X-ray emission when they grab electrons from neutral targets—and theory struggles to keep up.",
+  "summary": "Researchers trapped bare argon and oxygen ions and watched them collide with neutral gas atoms, measuring the X-rays and extreme-ultraviolet light released as electrons were captured. The measured spectra deviate from predictions based on the standard Landau-Zener model for charge exchange. These collisions matter for understanding astrophysical plasmas and for testing fundamental atomic collision theory at low energies.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 864,
+  "tokens_out": 169,
+  "cost_usd": 0.0013672,
+  "ingested_at": "2026-05-23T00:24:57.829368+00:00"
+}

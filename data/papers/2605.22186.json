@@ -1,0 +1,22 @@
+{
+  "id": "2605.22186",
+  "arxiv_url": "https://arxiv.org/abs/2605.22186",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Event-Illumination Collaborative Low-light Image Enhancement with a High-resolution Real-world Dataset",
+  "authors": "Senyan Xu, Zhijing Sun, Kean Liu, Xin Lu, Ruixuan Jiang, Mingyang Huang, Xueyang Fu, Zheng-Jun Zha",
+  "abstract": "Event-based low-light image enhancement (LIE) methods mainly focus on incorporating high dynamic range (HDR) information from events while overlooking the essential global illumination in images and the inherent noise sensitivity of event signals in real-world scenarios. To address these issues, we propose EIC-LIE, an event-illumination collaborative LIE framework. Concretely, we first design an Event-Illumination Collaborative Interaction (EICI) module, which contains two key processes: forward gathering, which gathers HDR features across varying lighting conditions, and backward injection, which provides complementary content for illumination and event representations. Next, we introduce an Illumination-aware Event Filter (IAEF) that dynamically reduces event noise based on brightness statistics derived from images. Additionally, we build a beam-splitter-based hybrid imaging system to collect high-quality event-image pairs with temporal synchronization from dynamic scenes, providing the first high-resolution, real-world event-based LIE dataset. Extensive experiments show that our EIC-LIE outperforms state-of-the-art methods on five real-world and synthetic datasets, significantly surpassing previous methods with improvements of up to 1.24dB in PSNR and 0.069 in SSIM. The code and dataset are released at https://github.com/QUEAHREN/EIC-LIE.",
+  "title_relatable": "Merging event cameras and image sensors to brighten dark photos",
+  "hook": "A new method combines fast event cameras with traditional image sensors to recover detail in low-light photos, improving sharpness by 1.24dB and releasing the first large real-world dataset.",
+  "summary": "Low-light photography is hard: sensors miss detail in shadows, and event cameras (which capture motion extremely fast) are noisy in the dark. This work fuses both sensor types, using event cameras to recover high-contrast detail while filtering out their noise based on image brightness. The team built a custom dual-camera rig to collect 1,000+ synchronized event-image pairs from real scenes, then trained a model that outperforms existing methods across five datasets. Code and data are publicly available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1019,
+  "tokens_out": 199,
+  "cost_usd": 0.0016112000000000001,
+  "ingested_at": "2026-05-23T00:42:53.622004+00:00"
+}

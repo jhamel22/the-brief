@@ -1,0 +1,24 @@
+{
+  "id": "2605.22188",
+  "arxiv_url": "https://arxiv.org/abs/2605.22188",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "math.OC",
+    "stat.ML"
+  ],
+  "title_original": "From Sequential Nodes to GPU Batches: Parallel Branch and Bound for Optimal $k$-Sparse GLMs",
+  "authors": "Jiachang Liu, Andrea Lodi",
+  "abstract": "GPUs have significantly accelerated first-order methods for large-scale optimization, especially in continuous optimization. However, this success has not transferred cleanly to problems with discrete variables, combinatorial structure, and nonlinear objectives, such as certifying optimal solutions for cardinality-constrained generalized linear models. Major challenges include the sequential processing of heterogeneous nodes in branch and bound (BnB) and frequent data movement between the CPU and GPU. We propose a simple, generic, and modular CPU--GPU framework that processes multiple BnB nodes in batches on GPUs. The framework is built around a small set of GPU-efficient routines and uses padding together with lightweight custom kernels to handle irregular node data structures. Experiments show one to two orders of magnitude speedups and zero optimality gap on challenging instances. The framework can also be extended to collect the entire Rashomon set, enabling downstream statistical analysis such as variable-importance analysis and model selection under secondary user-specific measures (e.g., AUC in classification).",
+  "title_relatable": "Running branch-and-bound optimization on GPUs with batched processing",
+  "hook": "GPU acceleration jumps from 10× to 100× faster for finding optimal sparse models by processing branch-and-bound nodes in parallel batches instead of one at a time.",
+  "summary": "Finding the best sparse generalized linear models (picking the right variables while fitting) is computationally hard because it mixes continuous and discrete choices—and GPUs haven't helped much since the algorithm traditionally runs sequentially. Liu and Lodi batch multiple search nodes together on GPUs using padding and custom kernels to handle irregular data shapes. On hard instances, they achieve 10–100× speedups with zero optimality gap and can extract the full Rashomon set (all near-optimal models) for downstream analysis like variable importance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 893,
+  "tokens_out": 203,
+  "cost_usd": 0.0015264,
+  "ingested_at": "2026-05-23T00:46:33.524713+00:00"
+}

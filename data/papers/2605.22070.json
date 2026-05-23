@@ -1,0 +1,24 @@
+{
+  "id": "2605.22070",
+  "arxiv_url": "https://arxiv.org/abs/2605.22070",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Symmetry Breaking as Quantum Gate: Entropy and Weak Mixing Angle",
+  "authors": "Qing-Hong Cao, Yandong Liu, Haotian Qi, Hao Zhang, Haoran Zhao",
+  "abstract": "We establish a correspondence between two independent entropic probes -- the variation of Rényi mutual information (RMI) across the electroweak symmetry breaking (EWSB) transition and the stabilizer Rényi entropy (SRE) -- in tree-level $2\\to 2$ elastic scatterings. After angular averaging, the RMI (helicity basis) and the SRE (fixed beam basis) exhibit identical dependence on $\\sin^2θ_W$ within each neutral-current channel. We trace this correspondence to a common physical origin that it's the Yukawa mass insertion acts as a $-\\mathrm{i}Y$ quantum gate in chirality space. Minimizing entropies across all processes yields $\\sin^2θ_W$ values matching purely axial vector-like couplings in $Z$ boson exchanged channel.",
+  "title_relatable": "How electroweak symmetry breaking hides in quantum entanglement",
+  "hook": "Two completely different quantum entropy measures unexpectedly agree on the weak mixing angle, pointing to a hidden symmetry in particle collisions.",
+  "summary": "The weak force's strength is encoded in particle scattering data, but physicists don't usually think of it as a quantum information problem. This work shows that two independent entropy measures—one tracking how entangled particles become during electroweak symmetry breaking, the other measuring quantum correlations in collision products—both pinpoint the same value of the weak mixing angle. The agreement traces back to a simple geometric picture: mass-generating interactions act like a quantum gate shuffling particle chiralities. This connection suggests fundamental relationships between symmetry breaking and quantum information that might guide searches for physics beyond the Standard Model.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 916,
+  "tokens_out": 206,
+  "cost_usd": 0.0015568000000000001,
+  "ingested_at": "2026-05-23T00:19:24.195193+00:00"
+}

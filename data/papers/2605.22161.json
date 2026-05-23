@@ -1,0 +1,24 @@
+{
+  "id": "2605.22161",
+  "arxiv_url": "https://arxiv.org/abs/2605.22161",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "hep-ph"
+  ],
+  "title_original": "Blue-tilted Runnings and the JWST Early Galaxy Tension",
+  "authors": "Mikage U. Kobayashi, Gen Chiaki, Kazutaka Kimura, Kazuyuki Akitsu, Kazunori Kohri, Tomo Takahashi, Kazuyuki Omukai",
+  "abstract": "The recent James Webb Space Telescope (JWST) observations reported the unexpectedly large abundance of massive galaxies with stellar masses of $\\sim 10^{10}~M_{\\odot}$ at high redshifts $z \\simeq 6.5 - 9$ compared with the prediction of the standard $Λ$CDM model. As a possible solution to the tension, we consider a blue-tilted spectrum of density perturbations with a positive running. We find that, for $α_s \\simeq 0.2$ and $β_s \\simeq 0.2$, a joint analysis with CMB observations shows that the tension can be resolved at the 1$σ$ confidence level. Such a blue-tilted spectrum is also plausible from the perspective of primordial black hole formation on much smaller scales in the early Universe.",
+  "title_relatable": "Can a blue-tilted universe explain JWST's surprise galaxies?",
+  "hook": "JWST found massive galaxies in the early universe that shouldn't exist yet. A tweak to the primordial spectrum—favoring smaller scales—resolves the tension while creating black holes.",
+  "summary": "JWST observed far more massive galaxies at redshift 6.5–9 than standard cosmology predicts. A blue-tilted spectrum of density perturbations (with positive running) can reconcile these observations with CMB data at 1σ confidence, requiring the spectrum to be steeper at smaller scales. This same modification naturally produces primordial black holes in the early universe, suggesting a single mechanism may underlie both the early galaxy problem and dark matter.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 941,
+  "tokens_out": 198,
+  "cost_usd": 0.0015448000000000003,
+  "ingested_at": "2026-05-23T00:22:37.731693+00:00"
+}

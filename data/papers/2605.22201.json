@@ -1,0 +1,22 @@
+{
+  "id": "2605.22201",
+  "arxiv_url": "https://arxiv.org/abs/2605.22201",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Zero-Shot Temporal Action Localization Through Textual Guidance",
+  "authors": "Benedetta Liberatori, Alessandro Conti, Lorenzo Vaquero, Paolo Rota, Yiming Wang, Elisa Ricci",
+  "abstract": "Zero-shot temporal action localization (ZS-TAL) consists of classifying and localizing actions in untrimmed videos, where action classes are unseen at training time. Existing work uses Vision and Language Models (VLMs), taking advantage of their strong zero-shot transfer capabilities. Yet, these models face evident challenges with fine-grained action classification, making it difficult to directly use them to distinguish between the presence and absence of an action. Most current methods for ZS-TAL address these challenges by training models on large-scale video datasets, which require annotated data and often result in limited generalization performance. Recently, approaches discarding the use of labeled data have emerged as an alternative. Following this direction, we propose a novel approach, ``Textual Guidance for finer localization of actions in videos'' (TEGU), that compensates for the lack of supervision from training data by exploiting rich textual information derived from large language models and structured text extracted from captions. This additional linguistic context can improve fine-grained discrimination by providing richer cues about fine-grained action differences within videos. We validate the effectiveness of the proposed method by conducting experiments on the THUMOS14 and the ActivityNet-v1.3 datasets. Our results show that, by exploiting rich textual information for improved action localization, TEGU outperforms state-of-the-art ZS-TAL approaches that do not involve training",
+  "title_relatable": "Finding actions in videos without seeing them first",
+  "hook": "A method spots and times actions in videos without any labeled training data, using text descriptions from language models to fill in what vision models miss.",
+  "summary": "Finding specific actions in raw video is hard when you've never seen those action types before. Current approaches rely on vision-language models, but these struggle with fine-grained distinctions—like telling whether an action actually happens versus doesn't. TEGU compensates by layering in rich linguistic context from language models and video captions, giving the system better cues to distinguish subtle action differences. Tests on THUMOS14 and ActivityNet show it beats existing unsupervised methods without needing any labeled training data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 996,
+  "tokens_out": 185,
+  "cost_usd": 0.0015368000000000003,
+  "ingested_at": "2026-05-23T00:42:45.145078+00:00"
+}

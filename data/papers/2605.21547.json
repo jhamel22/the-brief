@@ -1,0 +1,23 @@
+{
+  "id": "2605.21547",
+  "arxiv_url": "https://arxiv.org/abs/2605.21547",
+  "announced_date": "2026-05-20",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "The Mass Gap Approach to QCD. II. The non-perturbative renormalization program for the massive gluon fields",
+  "authors": "V. Gogokhia, G. G. Barnafoldi",
+  "abstract": "We present a non-perturbative multiplicative renormalization program for the massive gluon fields. This has been done within the previously formulated the mass gap approach to QCD. It is based on a new insights into its ground state true dynamical and gauge structures. Our approach makes it possible for gluons to acquire mass dynamically. The corresponding full gluon propagator has been investigated in full details. Its asymptotic properties have been analysed, including the perturbation theory limit. The peculiarities of the mass-shell structure of the full massive gluon propagator has been discussed. The inconsistency of the canonical gauge in QCD is fixed. Our approach does not allow the massive gluons to be the mass-shell objects. This prevents them to appear in the physical spectrum (confinement of massive gluon states). The massive gluons may exist in the vacuum or inside hadrons only. Expressions in Euclidean metric for the lattice simulations are also present. We have also shown that the massive solution has a correct limit to the free massless gluon propagator, when the exactly defined gluon pole mass is to be formally put zero.",
+  "title_relatable": "How gluons gain mass and why they never escape hadrons",
+  "hook": "A new renormalization scheme explains how gluons acquire mass dynamically in QCD while remaining permanently confined inside particles.",
+  "summary": "Gluons—the particles that bind quarks together—shouldn't have mass according to conventional QCD, yet the authors show they can acquire it dynamically through a non-perturbative mechanism. Their renormalization program reveals that massive gluons cannot exist as free particles; they're confined to the vacuum or inside hadrons, resolving a long-standing puzzle about why we never observe them alone. The framework passes consistency checks, recovers the massless limit correctly, and provides equations ready for lattice simulations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 968,
+  "tokens_out": 188,
+  "cost_usd": 0.0015264,
+  "ingested_at": "2026-05-23T00:19:53.950893+00:00"
+}

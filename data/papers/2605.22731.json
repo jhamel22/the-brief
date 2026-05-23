@@ -1,0 +1,23 @@
+{
+  "id": "2605.22731",
+  "arxiv_url": "https://arxiv.org/abs/2605.22731",
+  "announced_date": "2026-05-21",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Post-Training is About States, Not Tokens: A State Distribution View of SFT, RL, and On-Policy Distillation",
+  "authors": "Dong Nie",
+  "abstract": "Large language model post-training methods such as supervised fine-tuning (SFT), reinforcement learning (RL), and distillation are often analyzed through their loss functions: maximum likelihood, policy gradients, forward KL, reverse KL, or related objective-level variants. We study a complementary factor: the state distribution on which supervision is applied. For an autoregressive policy, a state is a prompt plus generated prefix. SFT trains on fixed dataset states, while RL and on-policy distillation (OPD) train on states induced by the current learner. We formalize post-training as state-distribution shaping and run a controlled smallscale study using Qwen3-0.6B-Base on GSM8K, with TruthfulQA and MMLU as retention evaluations. Our results show three phenomena. First, a mild SFT run improves GSM8K with little forgetting, while a stress SFT run causes substantial retention loss. Second, OPD from a degraded SFT teacher surpasses that teacher on GSM8K, TruthfulQA, and MMLU, despite using the teacher as its only supervision source. Third, a lightweight on-policy RL run improves GSM8K while preserving retention. These results support a state-centric view of post-training: the source and locality of training states can be as important as the form of the supervision signal.",
+  "title_relatable": "Why post-training works: it's about which states you learn from",
+  "hook": "Post-training methods like fine-tuning and reinforcement learning succeed not because of their loss functions, but because of which training states they use—and a student can outperform its teacher by learning from the right ones.",
+  "summary": "Most analyses of LLM post-training focus on loss functions, but this work shows the real story is where supervision comes from. The authors formalize post-training as state-distribution shaping—the states being prompts plus the model's own prefixes—and demonstrate three key findings on Qwen 0.6B: mild fine-tuning improves math reasoning with minimal knowledge loss, on-policy distillation from a degraded teacher beats that teacher on multiple benchmarks, and lightweight RL preserves knowledge while improving performance. This perspective explains why different post-training methods work and has immediate implications for practitioners choosing between SFT, RL, and distillation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 992,
+  "tokens_out": 244,
+  "cost_usd": 0.0017695999999999999,
+  "ingested_at": "2026-05-23T00:27:42.969424+00:00"
+}

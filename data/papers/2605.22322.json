@@ -1,0 +1,22 @@
+{
+  "id": "2605.22322",
+  "arxiv_url": "https://arxiv.org/abs/2605.22322",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "How can reasoning capability empower the AI copilot robot in endoscopic surgery",
+  "authors": "Guankun Wang, Long Bai, Hongliang Ren",
+  "abstract": "Reasoning capability has significantly advanced complex logical inference and robotic decision-making in general domains. However, its potential in the Artificial Intelligence (AI) copilot robot-particularly implemented based on the Vision-Language-Action (VLA) model-remains unexplored in endoscopic surgery. Effective reasoning should enable AI copilot robots to integrate multimodal cues, interpret surgical intent, and infer hidden tissue dynamics, thereby alleviating intraoperative uncertainty and cognitive burden on surgeons. Properly implemented, reasoning-driven autonomy can transform AI copilot robots from reactive executors into cognitive collaborators, enhancing precision, safety, and sustainability in clinical practice.",
+  "title_relatable": "Can surgical robots think beyond what they see?",
+  "hook": "Endoscopic surgery robots that merely react to visual cues miss hidden tissue behavior. Adding reasoning could transform them into true cognitive partners for surgeons.",
+  "summary": "Surgical AI copilots built on vision-language-action models excel at pattern recognition but struggle with the hidden complexity of endoscopic procedures—tissue damage beneath the surface, surgeon intent beyond the visible field. This paper argues that adding reasoning capability—the ability to integrate multiple cues, interpret intent, and infer what's not directly visible—could shift these systems from reactive tools into collaborative problem-solvers that actually reduce surgeon burden and improve safety.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 819,
+  "tokens_out": 174,
+  "cost_usd": 0.0013512,
+  "ingested_at": "2026-05-23T00:45:10.078723+00:00"
+}

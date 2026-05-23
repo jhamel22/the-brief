@@ -1,0 +1,22 @@
+{
+  "id": "2605.22583",
+  "arxiv_url": "https://arxiv.org/abs/2605.22583",
+  "announced_date": "2026-05-21",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Optimal work extraction in measurement-based quantum Otto engines: Non-adiabaticity and generalized measurements can be beneficial",
+  "authors": "Arunabha Das, Sayan Mondal, Debarupa Saha, Ujjwal Sen",
+  "abstract": "Measurement-based quantum heat engines have attracted significant interest as alternatives to conventional thermal engines, as they replace the hot thermal reservoir with quantum measurements, thereby offering greater controllability and simpler implementation. Motivated by these advantages, we investigate a measurement-driven quantum Otto engine with a qubit working substance and study the optimal work extractable from such engines, including whether their performance can surpass that of conventional quantum Otto cycles. We analyze the engine in both the infinite-time (adiabatic) and finite-time (non-adiabatic) regimes, considering two distinct implementations obtained through optimization over all projection-valued measurements (PVMs) and over all two-outcome positive operator-valued measurements (POVMs). We show that measurement-based engines can outperform conventional quantum Otto engines within specific parameter regimes and that POVM-based engines can yield higher optimal work extraction than PVM-based ones. Furthermore, by incorporating the thermodynamic cost associated with resetting the auxiliary system required for POVM implementation, we demonstrate that the resulting net work output can still exceed that of PVM-based engines under suitable conditions on the spectral gaps and cold bath temperature. We also identify regimes in which non-adiabatic implementations can yield higher work output and efficiency than their adiabatic counterparts. Our study provides operational guidelines for designing improved measurement-driven quantum Otto engines.",
+  "title_relatable": "Quantum engines that run on measurement instead of heat",
+  "hook": "Replacing a hot reservoir with a quantum measurement can actually outperform a conventional heat engine — if you choose your measurement wisely.",
+  "summary": "A qubit engine powered by quantum measurements instead of a hot thermal bath can extract more work than a standard quantum Otto cycle, provided the measurements are chosen from a broader class (POVMs) rather than simple projections. Counterintuitively, running the engine at finite speed — not the slow adiabatic limit — can also boost both work output and efficiency. The results give concrete design rules for lab-scale quantum engines where controllable measurements replace hard-to-engineer heat reservoirs.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1014,
+  "tokens_out": 175,
+  "cost_usd": 0.005667,
+  "ingested_at": "2026-05-23T00:20:54.053925+00:00"
+}

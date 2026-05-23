@@ -1,0 +1,22 @@
+{
+  "id": "2605.22359",
+  "arxiv_url": "https://arxiv.org/abs/2605.22359",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "GazePrior: Zero-Shot AR/VR Eye Tracking via Learned 3D Gaze Reconstruction",
+  "authors": "Corentin Dumery, David Colmenares, Alexander Fix, Pascal Fua, Ali Behrooz, Jogendra Kundu",
+  "abstract": "Eye tracking (ET) is a foundational technology for advanced AR/VR applications. However, training ET models for every new ET device is challenging: real data collection is costly and time-consuming, while existing synthetic data generation methods lack realism. To remove the need for additional data collection while maintaining data quality, we introduce a data-driven 3D prior that models the distribution of human eyes across diverse identities, gaze directions, and light settings. This model, which we coin GazePrior, then enables sparse-input 3D reconstruction of annotated data collected with previous ET devices, which can in turn be rendered from the cameras of any target ET device. Our approach synthesizes data with the realism, diversity and ground-truth accuracy of real data collection without its prohibitive costs. Our experiments demonstrate that ET models trained with our synthesized data outperform previous zero-shot methods, achieving higher accuracy and robustness.",
+  "title_relatable": "Training eye trackers without collecting eye data",
+  "hook": "A 3D model of human eyes generates realistic synthetic training data, letting AR/VR devices skip expensive real-world data collection while beating zero-shot methods.",
+  "summary": "Eye tracking requires expensive, device-specific data collection for each new AR/VR headset. GazePrior learns a 3D prior of how human eyes look across different people, gazes, and lighting—then uses it to reconstruct and re-render existing eye-tracking datasets from any target device's cameras. The result: synthetic data with photorealistic quality and accurate ground truth, all without new collection. Models trained this way outperform previous zero-shot approaches on accuracy and robustness.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 894,
+  "tokens_out": 190,
+  "cost_usd": 0.0014752,
+  "ingested_at": "2026-05-23T00:39:33.226198+00:00"
+}

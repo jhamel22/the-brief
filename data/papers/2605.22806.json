@@ -1,0 +1,23 @@
+{
+  "id": "2605.22806",
+  "arxiv_url": "https://arxiv.org/abs/2605.22806",
+  "announced_date": "2026-05-21",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "From protogalaxy through thick and thin: Why did the Milky Way evolve in three kinematic phases?",
+  "authors": "Olti Myrtaj, James S. Bullock, Michael Boylan-Kolchin, Vedant Chandra, Claude-André Faucher-Giguère, Robert Feldmann, Francisco J. Mercado, Jorge Moreno, Jonathan Stern, Andrew Wetzel, Pratik J. Gandhi",
+  "abstract": "APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases. First, at early cosmic times, the Milky Way was a disordered protogalaxy, which subsequently \"spun up\" to a second kinematic phase marked by star formation occurring in a rotating, thick stellar disk. The thick disk phase later transitioned to a third (and final) phase with star formation occurring in a cold, thin stellar disk. In this paper, we use a suite of FIRE-2 simulations of Milky Way-mass galaxies to demonstrate that the same three phases arise in our cosmological zoom-in simulations, and study their physical origin. In all of our galaxies, the early disordered phase occurs when the rate of cool gas ($T \\leq 10^4$ K) converting into stars is low, the star formation rate is bursty, and the baryonic mass \"sloshes\" within the host potential with respect to the center of mass motion. The gas in the galaxy begins to spin coherently after the sloshing phase ends, followed by the spin-up of young stars. The central potential of the galaxy is least concentrated just prior to gas spin-up. This second, thick disk phase coincides with a period when the rate of cool gas converting into stars is highest, even though the star formation rate remains bursty in this phase. The final transition to the thin disk phase occurs when the inner circumgalactic medium virializes. The thin disk phase is associated with a time of steady star formation and intermediate rates of cool gas converting into stars. Mergers do not appear to play a defining role in driving transitions between the three phases. The condition for the formation of a thick disk appears to be fairly minimal: a stable center of mass motion. The formation of a thin disk requires more: gas must accrete slowly enough for its angular momentum to mix and become coherent prior to joining the galaxy.",
+  "title_relatable": "Why did our galaxy morph into three distinct spinning phases?",
+  "hook": "Simulations reveal that the Milky Way evolved through three kinematic stages—from chaotic protogalaxy to thick disk to thin disk—driven by when and how gas spins up, not mergers.",
+  "summary": "The Milky Way's star-forming disk changed character twice over cosmic time: first as a chaotic, slowly-forming protogalaxy, then as a thick disk during a burst of star formation, finally settling into today's thin disk. Using cosmological simulations, researchers traced these transitions to shifts in how gas accumulates and spins—chaotic sloshing gives way to coherent rotation, which later requires slower accretion to maintain its structure. This explains why the local neighborhood looks so different from billions of years ago.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1197,
+  "tokens_out": 209,
+  "cost_usd": 0.0017936,
+  "ingested_at": "2026-05-23T00:22:14.003077+00:00"
+}

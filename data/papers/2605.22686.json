@@ -1,0 +1,22 @@
+{
+  "id": "2605.22686",
+  "arxiv_url": "https://arxiv.org/abs/2605.22686",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Topological Thermodynamics of Generalized Bardeen Black Hole",
+  "authors": "A. A. M. Silva, M. H. Macedo, R. R. Landim",
+  "abstract": "Neves and Saa introduced a two parameter spacetime that includes the Hayward, Bardeen, and Simpson-Visser geometries as particular cases. In this work, we employ the generalized off-shell Helmholtz free energy method to investigate the thermodynamic properties of the generalized Bardeen black hole within a topological framework. We construct the associated vector field and analyze its zeros, whose winding numbers allow us to classify the thermodynamic branches and identify critical points associated with phase transitions. The regular black hole configurations exhibit two topological defects with opposite winding numbers, resulting in a vanishing total topological charge, while the Schwarzschild case contains a single unstable branch. Our results demonstrate how the regularization parameters affect the thermodynamic stability and phase structure of the spacetime.",
+  "title_relatable": "What topology reveals about regular black hole stability",
+  "hook": "Treating black hole thermodynamics as a topological problem exposes hidden phase structure that ordinary analysis misses.",
+  "summary": "Using a topological method based on winding numbers of a vector field derived from free energy, the authors map out the stability and phase transitions of a family of regular (singularity-free) black holes that includes Hayward and Bardeen geometries as special cases. Regular configurations always carry two topological defects with opposite winding numbers, giving a net charge of zero — unlike the Schwarzschild black hole, which has a single unstable branch. The result ties the presence of regularization parameters directly to observable changes in thermodynamic phase structure.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 884,
+  "tokens_out": 183,
+  "cost_usd": 0.005397,
+  "ingested_at": "2026-05-23T00:16:27.670138+00:00"
+}

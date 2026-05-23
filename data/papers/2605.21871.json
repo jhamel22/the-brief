@@ -1,0 +1,24 @@
+{
+  "id": "2605.21871",
+  "arxiv_url": "https://arxiv.org/abs/2605.21871",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "math.DG",
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "Refocusing spacetimes need not be strongly refocusing",
+  "authors": "Friedrich Bauermeister",
+  "abstract": "We prove that there are globally hyperbolic spacetimes $(X,g)$ which are refocusing but not strongly refocusing. In fact, every globally hyperbolic strongly refocusing spacetime of dimension at least $3$ admits globally hyperbolic metrics which are refocusing but not strongly refocusing. This answers a question by Chernov, Kinlaw, and Sadykov. We then prove that globally hyperbolic spacetimes which are Legendrian refocusing (a notion introduced in this paper) admit globally hyperbolic strongly refocusing metrics.",
+  "title_relatable": "Two ways light can refocus in curved spacetime turn out to differ",
+  "hook": "A subtle distinction in how light rays reconverge in curved spacetime has real geometric consequences — and a long-open question is now closed.",
+  "summary": "In general relativity, a spacetime is 'refocusing' if all light rays from any point reconverge somewhere — a strong geometric constraint. This paper proves that refocusing does not imply the stronger version of this property, settling an open question and showing the two conditions are genuinely distinct. The result clarifies the structure of causal geometry and introduces a new intermediate notion that does force the stronger property.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 818,
+  "tokens_out": 166,
+  "cost_usd": 0.004944,
+  "ingested_at": "2026-05-23T00:18:31.703739+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22409",
+  "arxiv_url": "https://arxiv.org/abs/2605.22409",
+  "announced_date": "2026-05-21",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Entanglement viscosity to entropy density ratio for spin-3/2 theory",
+  "authors": "R. V. Khakimov, G. Yu. Prokhorov, O. V. Teryaev",
+  "abstract": "It is known that the Minkowski vacuum appears as a thermal medium to an accelerated observer due to the renowned Unruh effect. More recently, it has been shown that at least for lower-spin fields this medium also exhibits a non-zero \"entanglement\" shear viscosity, which saturates the fundamental Kovtun-Son-Starinets (KSS) bound. We test the universality of this result for higher spins by computing the entanglement viscosity for spin-3/2 fields within the Rarita-Schwinger-Adler (RSA) theory. Strikingly, we obtain a negative viscosity. However, computing the entropy density using the modular Hamiltonian expansion method, we find it is also negative, and the viscosity to entropy ratio saturates the KSS bound. To clarify the origin of the negativity, we use another approach of Zubarev density operator, which gives positive entropy. We also show that RSA theory has many features of a conformal field theory.",
+  "title_relatable": "Why spinning particles break a universal limit—but somehow obey it anyway",
+  "hook": "Higher-spin fermions produce negative viscosity in the Unruh effect, yet still saturate a fundamental bound. The resolution reveals unexpected symmetries.",
+  "summary": "An accelerated observer experiences the vacuum as a hot gas (the Unruh effect). For simple particles, this thermal medium has a shear viscosity-to-entropy ratio locked at a fundamental minimum—the KSS bound. Testing this for spin-3/2 fermions yields a puzzle: negative viscosity and negative entropy appear, yet their ratio still saturates the bound. Two different calculation methods flip the sign of entropy, suggesting the negativity reflects a subtle feature of how spin couples to acceleration rather than a violation of universal physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 943,
+  "tokens_out": 200,
+  "cost_usd": 0.0015544,
+  "ingested_at": "2026-05-23T00:19:18.255098+00:00"
+}

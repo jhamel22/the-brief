@@ -1,0 +1,23 @@
+{
+  "id": "2605.22727",
+  "arxiv_url": "https://arxiv.org/abs/2605.22727",
+  "announced_date": "2026-05-21",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-lat"
+  ],
+  "title_original": "Rare kaon decays $K^- \\to \\ell^- \\barν_\\ell \\ell'^{+} \\ell'^{-}$: Standard Model predictions from lattice QCD",
+  "authors": "R. Di Palma, R. Frezzotti, G. Gagliardi, V. Lubicz, G. Martinelli, C. T. Sachrajda, F. Sanfilippo, S. Simula, N. Tantalo",
+  "abstract": "Weak decays of charged kaons with an additional lepton-antilepton pair, $K^- \\to \\ell^- \\barν_\\ell \\ell'^{+} \\ell'^{-}$ ($K_{\\ell2\\ell'}$), are suppressed at order $O(G_{F}^{2}α_{\\rm em}^{2})$ in the Standard Model (SM) and provide sensitive probes of its flavour structure, as well as independent determinations of the Cabibbo angle $|V_{us}|$. In this Letter we present the SM predictions for all four channels with $\\ell,\\ell' =e,μ$, based on the first complete lattice QCD calculation of the structure-dependent form factors reported in a companion paper [1]. Using the PDG value [2] $|V_{us}|^{\\rm PDG}=0.22431(85)$, we obtain branching fractions with controlled uncertainties and precisions ranging from $2\\%$ to $7\\%$, depending on the channel. For the three modes with published measurements, our results agree with experiment. For the $K_{\\mu2μ}$ mode, for which no published experimental result is available, we compare our prediction with the preliminary NA62 result, finding agreement at the $1.4σ$ level. Conversely, the measured decay rates can be used together with our results to extract $|V_{us}|$ from these modes. A weighted average over the two most precise channels, $K_{\\mu2e}$ and $K_{\\mu2μ}$, yields $|V_{us}|=0.2283(42)$, corresponding to a $1.8\\%$ determination. These results pave the way for using $K_{\\ell2\\ell'}$ decays as precision probes of the SM.",
+  "title_relatable": "Rare kaon decays offer new precision test of fundamental constants",
+  "hook": "Lattice calculations predict decay rates for exotic kaon modes, enabling a fresh measurement of a cornerstone of the Standard Model.",
+  "summary": "Kaons decaying into leptons and antilepton pairs are suppressed processes that test the Standard Model's flavor structure. Researchers used lattice QCD to calculate the form factors governing these rare decays, predicting branching fractions for all electron and muon channels with 2–7% precision. The results match existing experiments and a preliminary NA62 measurement, and can be flipped to extract the Cabibbo angle—a fundamental mixing parameter—to better than 2% accuracy.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1210,
+  "tokens_out": 185,
+  "cost_usd": 0.001708,
+  "ingested_at": "2026-05-23T00:23:22.841207+00:00"
+}

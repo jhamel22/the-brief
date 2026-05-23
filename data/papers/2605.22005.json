@@ -1,0 +1,23 @@
+{
+  "id": "2605.22005",
+  "arxiv_url": "https://arxiv.org/abs/2605.22005",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "Check Your LLM's Secret Dictionary! Five Lines of Code Reveal What Your LLM Learned (Including What It Shouldn't Have)",
+  "authors": "Hisashi Miyashita",
+  "abstract": "We show that singular value decomposition of the lm_head} weight matrix of a transformer-based large language model -- requiring only five lines of PyTorch and no model inference -- reveals interpretable semantic subspaces directly from the model weights. Each left singular vector identifies the vocabulary tokens most readily selected when the hidden state aligns with the corresponding singular direction; inspecting these clusters exposes the model's training data composition and curation philosophy. Analysing GPT-OSS-120B, Gemma-2-2B, and Qwen2.5-1.5B, we find that singular value spectra and vocabulary cluster structures differ systematically across models: GPT exhibits a graduated hierarchy of functionally differentiated subspaces; Gemma is dominated by pre-nineteenth-century English orthography, forming a stepwise clustering structure that may contribute to high output controllability; and Qwen exhibits broad multilingual coverage alongside subspaces whose vocabulary the authors have determined to be ethically inappropriate for direct publication. Base-instruct comparison reveals that ethically concerning subspaces originate in pretraining and are not removed by post-training alignment. We introduce the Vocabulary Cluster Score (VCS) to quantify subspace coherence, and the Weighted Projection Score (WPS) as a static glitch token detector; applying WPS to GPT-OSS-120B recovers shokubutsu-hyakka-tsu (ID 137606), a well-known glitch token widely reported in the CJK language community, without any model inference. We propose a taxonomy of root causes for problematic vocabulary content and call for lm_head} SVD analysis to be adopted as a standard pre-release safety auditing step. Our findings further suggest directions toward SVD-guided tokenizer optimisation and more controllable LLM design.",
+  "title_relatable": "Five lines of code expose what your language model really learned",
+  "hook": "SVD of a model's weight matrix reveals training data biases, glitch tokens, and ethically problematic vocabulary—no inference needed.",
+  "summary": "Singular value decomposition of an LLM's output layer weights exposes what the model learned directly from its parameters. Analyzing GPT-OSS-120B, Gemma, and Qwen revealed systematic differences: GPT has hierarchical semantic organization, Gemma is dominated by 19th-century English, and Qwen contains ethically problematic subspaces that survive alignment training. The technique also detects glitch tokens like the notorious shokubutsu-hyakka-tsu token without running the model, suggesting SVD analysis should become standard safety auditing before release.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1075,
+  "tokens_out": 208,
+  "cost_usd": 0.001692,
+  "ingested_at": "2026-05-23T00:35:37.148041+00:00"
+}

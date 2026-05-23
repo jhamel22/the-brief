@@ -1,0 +1,22 @@
+{
+  "id": "2605.22542",
+  "arxiv_url": "https://arxiv.org/abs/2605.22542",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Scene Abstraction for Lexical Semantics: Structured Representations of Situated Meaning",
+  "authors": "Yejin Cho, Katrin Erk",
+  "abstract": "Coffee and tea share many properties, yet they evoke strikingly different situations, atmospheres, and affective associations. These situated dimensions of word meaning are real and systematic, but they remain implicit in most computational representations of lexical meaning. We propose Scene Abstraction, a framework for constructing structured representations of the interpretive scenes that words participate in across usage contexts. Each scene consists of a Contextual Scene (Events, Entities, Setting) and an expression-centered Expression Profile (Engaged events, Generalizable properties, Evoked emotions), operationalized through few-shot prompting of a large language model. Our contributions are three-fold: (1) a structured representation framework for situated lexical meaning; (2) COCA-Scenes, a dataset of 520 usage instances across 26 keywords for distinct scene identification; and (3) empirical evidence from two experiments suggesting that scenes are reliably identifiable across human observers (82.4% accuracy, +11.8 pp over text-only embeddings) and that our scene profiles more closely align with human interpretation of words in context than ATOMIC-based alternatives (86.4% preference across three semantic dimensions).",
+  "title_relatable": "Why coffee and tea mean more than their definitions",
+  "hook": "Words carry invisible baggage—the moods, situations, and feelings they evoke. A new framework captures this 'scene' around words with 82% human agreement.",
+  "summary": "Coffee and tea have similar properties but evoke completely different atmospheres. This paper proposes Scene Abstraction, which represents words not just by what they are but by the situations they inhabit: the events, entities, settings, emotions, and atmospheres surrounding them. Using few-shot LLM prompting, they built COCA-Scenes (520 labeled examples) and showed their structured scenes align with human interpretation 11.8 percentage points better than standard text embeddings and outperform existing semantic databases.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 924,
+  "tokens_out": 194,
+  "cost_usd": 0.0015152,
+  "ingested_at": "2026-05-23T00:35:21.595435+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.22431",
+  "arxiv_url": "https://arxiv.org/abs/2605.22431",
+  "announced_date": "2026-05-21",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Real-Time Auto-Optimization in Unknown Environments via Structure-Exploiting Dual Control for Exploration and Exploitation",
+  "authors": "Shiying Dong, Haoyang Yang, Qiwei Liu, Wen-Hua Chen",
+  "abstract": "This paper develops a fast numerical dual control for exploration and exploitation (DCEE) method to address auto-optimization problems in unknown environments. In auto-optimization problems, the optimal operating condition is unknown a priori and may vary with the environment. As in classical dual control techniques, computational burden remains a major concern in DCEE for active learning. Existing DCEE methods provide a principled exploration-exploitation objective, but mainly realized through standard optimization packages or explicit gradient-type update laws, where the numerical structure of the DCEE has not been fully exploited. This paper shows that the reward function in DCEE has an inherent convex-over-nonlinear structure, where the exploitation and exploration terms form a unified nonlinear residual map equipped with a convex outer loss. Benefiting from this structure, a structure-exploiting numerical method is developed by linearizing only the nonlinear residual map while preserving the convex outer loss. Thus, each subproblem is transformed into a structured convex form that can be solved reliably. The resulting generalized Gauss-Newton Hessian approximation is positive semidefinite and depends only on first-order derivatives, thereby supporting fast online computation. The proposed method is evaluated on a vehicle cruising auto-optimization problem and compared with existing methods. Simulation and hardware-in-the-loop experimental results show that the proposed method improves control performance and achieves a speedup of approximately one order of magnitude, with a microsecond-level maximum computation time of only 83 μs on a typical vehicle embedded CPU.",
+  "title_relatable": "Finding the sweet spot in unknown environments 100× faster",
+  "hook": "A new algorithm solves the exploration-exploitation tradeoff 10× faster by exploiting hidden convex structure, enabling real-time optimization on vehicle embedded systems with 83 microsecond computation time.",
+  "summary": "When a system needs to find its best operating point in an unknown environment—like a vehicle optimizing fuel consumption—it faces a classic dilemma: try new settings to learn (exploration) or stick with what works (exploitation). The authors discovered that dual control problems have a hidden mathematical structure: a convex outer layer wrapping a nonlinear inner map. By exploiting this geometry, they built a solver that computes the next action in ~83 microseconds on real vehicle hardware, roughly 10× faster than existing methods. This matters for robotics and autonomous systems where decisions must happen in milliseconds.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 1029,
+  "tokens_out": 221,
+  "cost_usd": 0.0017072,
+  "ingested_at": "2026-05-23T00:43:45.474117+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.21554",
+  "arxiv_url": "https://arxiv.org/abs/2605.21554",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "Information Content of the Cosmic Web",
+  "authors": "Juan Garcia-Bellido",
+  "abstract": "We present an information-theoretic analysis of the Cosmic Web that goes beyond the scalar density contrast and exploits the full structure of the tidal deformation tensor. The three eigenvalues (lambda1, lambda2, lambda3) of the tidal Hessian furnish a natural morphological classifier: clusters, filaments, walls, and voids correspond to (+,+,+), (+,+,-), (+,-,-), and (-,-,-) sign patterns, and their joint probability distribution function (PDF), known analytically in the linear regime from Doroshkevich (1970), defines a continuous Shannon entropy that quantifies the information encoded in the geometry of large-scale structure. Additional information resides in the shear invariants Q = Trace(T2) and A = Trace(T3), which are algebraically independent of the density contrast delta and capture anisotropic deformation invisible to the density alone. The information dimension of each morphological component is related to its Hausdorff (fractal) dimension through the multifractal formalism: clusters (DH = 1.2), filaments (DH = 1.8), walls (DH = 2.5), and voids (DH = 3) define a spectrum of generalized Renyi dimensions Dq, whose q = 1 limit recovers the Shannon information dimension. The resulting entropy budget identifies filaments as the dominant information carriers of the mater distribution, while the tidal eigenvalue entropy is maximized in wall-like configurations near the saddle points of the gravitational potential. We also compute the redshift evolution of the multifractal entropy and derive its relation to the linear growth rate f(z), providing an independent constraint complementary to redshift-space-distortion measurements of f*sigma8.",
+  "title_relatable": "The cosmic web's hidden information: what filaments reveal",
+  "hook": "The universe's large-scale structure encodes far more information than density alone—filaments carry the signal, and entropy measurements could constrain dark energy.",
+  "summary": "The cosmic web's geometry—clusters, filaments, walls, and voids—can be quantified through the eigenvalues of the tidal deformation tensor, revealing a Shannon entropy that measures information content invisible to standard density analysis. Filaments emerge as the dominant information carriers, while the entropy's evolution with cosmic time provides a new, independent way to measure the universe's expansion history and test dark energy models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1075,
+  "tokens_out": 168,
+  "cost_usd": 0.001532,
+  "ingested_at": "2026-05-23T00:22:59.942344+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.22346",
+  "arxiv_url": "https://arxiv.org/abs/2605.22346",
+  "announced_date": "2026-05-21",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "cs.SI"
+  ],
+  "title_original": "Departure from Regularity: Degree Heterogeneity and Eigengap as the Structural Drivers of ASE-LSE Latent Subspace Disagreement",
+  "authors": "Minh Triet Pham, Ian Gallagher",
+  "abstract": "Two of the most widely used methods for analysing graph data, Adjacency Spectral Embedding and Laplacian Spectral Embedding, often produce different results when applied to the same network. Yet the structural reasons behind this disagreement remain incompletely understood. This paper provides a structural account. We show that regularity is a sufficient condition for perfect agreement: when every node has the same number of connections, the two methods produce identical latent subspaces. Any departure from this regularity introduces disagreement, and we prove an explicit bound whose two terms suggest the structural ingredients controlling it: degree heterogeneity, which pushes the methods apart, and community structure strength, which pulls them back together. We validate both drivers empirically across thousands of simulated networks, confirming that heterogeneity drives disagreement up, community strength suppresses it, and their ratio provides a strong predictor of when the two embeddings can be treated as interchangeable and when they cannot.",
+  "title_relatable": "Why do two graph analysis methods give different answers?",
+  "hook": "Two standard graph embedding methods often disagree—now we know exactly why: unequal node connectivity drives the split, while community structure heals it.",
+  "summary": "Adjacency and Laplacian spectral embeddings are both popular for extracting structure from networks, but they frequently produce different results. This work reveals the structural reason: when all nodes have identical degrees (a regular graph), the methods agree perfectly; any deviation introduces disagreement. The amount of disagreement depends on degree heterogeneity pushing them apart and community structure pulling them together, captured in an explicit bound. Validation across thousands of simulated networks confirms the theory and provides practitioners a way to predict when these embeddings can be used interchangeably.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 899,
+  "tokens_out": 198,
+  "cost_usd": 0.0015112,
+  "ingested_at": "2026-05-23T00:46:30.227421+00:00"
+}

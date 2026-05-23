@@ -1,0 +1,22 @@
+{
+  "id": "2605.22751",
+  "arxiv_url": "https://arxiv.org/abs/2605.22751",
+  "announced_date": "2026-05-21",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Spectral Tail Auxiliary Learning for AI-Generated Image Detection",
+  "authors": "Xingyi Li, Jiahui Zhang, Yiheng Li, Yun Cao, Wenhao Wang",
+  "abstract": "As generative image models evolve rapidly, the perceptual gap between generated and real images continues to narrow, making AI-generated image detection increasingly challenging. Many existing methods exploit frequency-domain cues for detection, typically described as frequency-domain artifacts or high-frequency discrepancies. However, the specific and recurring spectral regularities remain insufficiently understood and characterized. In this paper, we systematically analyze the one-dimensional radial log-power spectra of real and generated images. We find that generated images do not necessarily exhibit higher or lower energy across the entire spectrum or high-band range. Instead, their spectra deviate from the power-law decay and show an anomalous uplift in the ultra-high-frequency tail. We term this phenomenon spectral tail uplift. We further attribute this phenomenon to nonlinear harmonic accumulation in trained generative models, suggesting that it can serve as a structural cue across generative architectures. Based on this observation, we propose Spectral Tail Auxiliary Learning (STAL), a frequency-domain auxiliary supervision framework for generalizable AI-generated image detection. STAL transfers spectral-tail cues from a tail-aware frequency teacher to a spatial detector during training, while all frequency-domain modules are discarded at inference time. Consequently, STAL introduces no inference overhead. Extensive experiments on 9 public datasets show that STAL achieves strong generalization and stability across generators, data distributions, and real-world scenarios.",
+  "title_relatable": "Why AI-generated images have a telltale frequency signature",
+  "hook": "Generated images leave a distinctive fingerprint in their ultra-high-frequency spectra—an anomalous uplift caused by how generative models accumulate harmonics. Exploiting this physics, researchers built a detection method with zero inference overhead.",
+  "summary": "Real and generated images have fundamentally different frequency decay patterns: while real images follow power-law physics, AI-generated ones show an unusual energy spike in the ultra-high-frequency tail. The researchers traced this to nonlinear harmonic accumulation in generative models and built STAL, which uses a frequency-aware teacher to guide spatial detectors during training, then discards all frequency machinery at inference. Tested on 9 datasets spanning different generators and real-world conditions, it generalizes better than prior frequency-domain methods without slowing down predictions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 994,
+  "tokens_out": 219,
+  "cost_usd": 0.0016712,
+  "ingested_at": "2026-05-23T00:39:56.291092+00:00"
+}

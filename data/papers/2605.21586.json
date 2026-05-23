@@ -1,0 +1,23 @@
+{
+  "id": "2605.21586",
+  "arxiv_url": "https://arxiv.org/abs/2605.21586",
+  "announced_date": "2026-05-20",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "Still non-accelerating: age-bias correction in supernova cosmology is robust to host-progenitor age mapping",
+  "authors": "Chul Chung, Junhyuk Son, Seunghyun Park, Suk-Jin Yoon, Hyejeon Cho, Dongwook Lim, Young-Wook Lee",
+  "abstract": "We re-examine the claim by Wiseman et al. (2026) that progenitor-age bias has a negligible impact on cosmological inferences from Type Ia supernovae (SNe Ia). We show that their inferred host-age-Hubble residual (HR) slope is severely underestimated because their combined SN Ia sample spans an unusually wide redshift range ($0.04 < z < 0.42$), over which the mean host age evolves by $\\sim$\\,3 Gyr. As a result, SNe Ia spanning substantial host-age differences are effectively assigned similar HR values prior to regression, artificially flattening the inferred age-HR relation. In addition, their application of the Pantheon+ host-mass correction further suppresses the slope, but the underlying dust model is highly incompatible with the measured dust attenuation curves of galaxies. We also demonstrate that our age bias correction is robust to uncertainties in host-progenitor age mapping arising from different choices of the SN Ia delay-time distribution. The reduced progenitor-age evolution argued by Wiseman et al. (2026) must, by the same logic, be accompanied by a steeper inferred progenitor-age-HR slope. When these two effects are consistently combined in computing the redshift-dependent magnitude correction, the final correction, and hence the resulting cosmological impact, remain largely unchanged from Son et al. (2025).",
+  "title_relatable": "Why supernovae still won't prove the universe isn't accelerating",
+  "hook": "A prior claim that host-galaxy age bias doesn't matter for dark energy measurements fails statistical scrutiny—and the correction holds up anyway.",
+  "summary": "Type Ia supernovae are distance markers for measuring cosmic acceleration, but their brightness depends on host-galaxy age in ways that can skew results. Wiseman et al. claimed this age bias is negligible, but the authors show their sample's wide redshift spread artificially hides the effect: galaxies hosting young and old supernovae get lumped together, flattening the age-brightness relation. After correcting for this, the cosmological correction remains robust—whether you assume fast or slow delays between star formation and explosions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1074,
+  "tokens_out": 196,
+  "cost_usd": 0.0016432,
+  "ingested_at": "2026-05-23T00:22:54.677912+00:00"
+}

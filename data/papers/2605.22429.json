@@ -1,0 +1,23 @@
+{
+  "id": "2605.22429",
+  "arxiv_url": "https://arxiv.org/abs/2605.22429",
+  "announced_date": "2026-05-21",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Black Hole Entropy Beyond the Wald Term in Nonminimally Coupled Gravity: A Covariant Phase Space Decomposition",
+  "authors": "Jia-Zhou Liu, Shan-Ping Wu, Shao-Wen Wei, Yu-Xiao Liu",
+  "abstract": "We study the entropy of static, spherically symmetric black holes in diffeomorphism-invariant theories with nonminimal matter--curvature couplings, using the covariant phase space formalism. For regular bifurcate Killing horizons, the Iyer--Wald construction gives the standard Wald entropy. If a matter field cannot be smoothly extended to the regular bifurcation surface, however, the horizon surface charge variation can contain finite contributions that are not included in the Wald entropy density. In the representative obtained by directly varying the action, and after ordinary work terms are subtracted, we decompose the entropy entering the first law of black hole thermodynamics as \\(S_{\\mathrm H}=S_{\\mathrm W}+S_1+ΔS\\). Here \\(S_{\\mathrm W}\\) is the Wald entropy, \\(S_1\\) is the non-Wald part of the Noether charge, and \\(ΔS\\) is the remaining integrable part of the horizon surface charge variation. Applying this criterion to Kalb--Ramond, bumblebee, and extended Gauss--Bonnet black holes, we find that the regular Kalb--Ramond branch has \\(S_{\\mathrm H}=S_{\\mathrm W}\\), the bumblebee branches yield either \\(S_1=0\\) with \\(ΔS\\neq0\\) or a cancellation between \\(S_1\\) and \\(ΔS\\), and the Weyl-vector extended Gauss--Bonnet examples require both corrections. This gives a direct test of whether the Wald entropy density is sufficient, or whether the full horizon surface charge variation has to be used.",
+  "title_relatable": "When does black hole entropy need a correction beyond the standard formula?",
+  "hook": "Some black holes carry entropy that the standard Wald formula misses — here's a systematic way to find what's left over.",
+  "summary": "Black hole entropy is usually calculated using the Wald formula, but when matter fields behave badly at the horizon, that formula can miss finite contributions. This work provides a clean decomposition of the total entropy into three pieces — Wald entropy, a non-Wald Noether charge part, and a remaining integrable correction — and applies it to three concrete theories involving Kalb-Ramond, bumblebee, and Gauss-Bonnet fields. Depending on the theory, these correction terms can vanish, survive independently, or cancel each other, giving practitioners a direct diagnostic for when the standard Wald approach is actually enough.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1138,
+  "tokens_out": 215,
+  "cost_usd": 0.006639,
+  "ingested_at": "2026-05-23T00:16:55.520214+00:00"
+}
