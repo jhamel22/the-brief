@@ -75,7 +75,8 @@ Papers are fetched from arXiv RSS feeds, summarized via Anthropic API (Claude So
 - **q-fin.TR** (Trading and Market Microstructure) — cap: 8, model: haiku
 - **econ.GN** (General Economics) — cap: 8, model: haiku
 
-**Total daily cap:** 169 papers/day
+**Total daily cap:** 165 papers/day  
+**Projected monthly cost:** ~$10/month at full cap, 22 weekday runs (as of 2026-05-23). Breakdown: $0.15 Sonnet summarize + $0.23 Haiku summarize + $0.08 Haiku ranking = ~$0.46/run.
 
 ### Model Routing
 - Subjects with `model: haiku` use Claude Haiku 4.5 (`claude-haiku-4-5-20251001`)
