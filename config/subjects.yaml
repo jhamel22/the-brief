@@ -75,6 +75,7 @@ subjects:
     domain: Physics
     slug: physics-soc-ph
     daily_cap: 8
+    model: haiku
     prompt_variant: physics
     description: "Physics applied to social systems — networks, epidemics, inequality, collective behavior — summarized daily. Always verify against the source."
     active: true

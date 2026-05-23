@@ -44,13 +44,17 @@ Papers are fetched from arXiv RSS feeds, summarized via Anthropic API (Claude So
 
 ## Active Subjects and Models
 
-### Physics (Sonnet 4.6 default, unless noted)
-- **gr-qc** (General Relativity & Quantum Cosmology) — cap: 15
-- **quant-ph** (Quantum Physics) — cap: 10
+**Model split (17 active subjects):**
+- **Sonnet 4.6 (2):** gr-qc, quant-ph
+- **Haiku 4.5 (15):** everything else
+
+### Physics
+- **gr-qc** (General Relativity & Quantum Cosmology) — cap: 15, model: sonnet
+- **quant-ph** (Quantum Physics) — cap: 10, model: sonnet
 - **hep-th** (High Energy Physics — Theory) — cap: 10, model: haiku
 - **astro-ph.CO** (Cosmology) — cap: 10, model: haiku
 - **hep-ph** (High Energy Physics — Phenomenology) — cap: 8, model: haiku
-- **physics.soc-ph** (Physics and Society) — cap: 8
+- **physics.soc-ph** (Physics and Society) — cap: 8, model: haiku
 - **astro-ph.HE** (High Energy Astrophysical Phenomena) — cap: 8, model: haiku
 
 ### Computer Science (Haiku 4.5, with pre-filter)
@@ -71,8 +75,7 @@ Papers are fetched from arXiv RSS feeds, summarized via Anthropic API (Claude So
 - **q-fin.TR** (Trading and Market Microstructure) — cap: 8, model: haiku
 - **econ.GN** (General Economics) — cap: 8, model: haiku
 
-**Total daily cap:** 169 papers/day  
-**Projected monthly cost:** ~$12.58/month (as of 2026-05-19)
+**Total daily cap:** 169 papers/day
 
 ### Model Routing
 - Subjects with `model: haiku` use Claude Haiku 4.5 (`claude-haiku-4-5-20251001`)
@@ -178,6 +181,10 @@ GitHub Actions runs a connectivity test before main ingest:
 - **Google Search Console:** Verified and indexed
 
 ## Known Issues / Recent Fixes
+
+### Recently Fixed (2026-05-23)
+- **Model split tightened:** Only gr-qc and quant-ph stay on Sonnet 4.6; physics.soc-ph moved to Haiku (the other 14 active subjects were already Haiku)
+- **Daily cap bug fixed:** `daily_cap` now enforced per (subject, announced_date), not per fetch call — see "Daily Cap Semantics" above
 
 ### Recently Fixed (2026-05-19)
 - **Model routing implemented:** Subjects now correctly route to Haiku vs. Sonnet based on `config/subjects.yaml`
@@ -299,5 +306,5 @@ make verify
 
 ---
 
-**Last updated:** 2026-05-19  
+**Last updated:** 2026-05-23  
 **Claude Code session:** Ready to assist with ingest pipeline, site features, or config changes.
