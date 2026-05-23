@@ -52,6 +52,17 @@ def save_paper(paper: dict) -> None:
         json.dump(paper, f, indent=2, ensure_ascii=False)
 
 
+def existing_paper_count(subject_code: str, announced_date: str) -> int:
+    """Number of papers already on disk for this subject + announced_date."""
+    daily_path = SUBJECTS_DIR / subject_code / f"{announced_date}.json"
+    if not daily_path.exists():
+        return 0
+    try:
+        return len(json.loads(daily_path.read_text()).get("paper_ids", []))
+    except (json.JSONDecodeError, OSError):
+        return 0
+
+
 def update_subject_index(subject_code: str, papers: list[dict]) -> None:
     """Update per-date JSON files and the subject's index.json."""
     if not papers:
@@ -91,63 +102,108 @@ def update_subject_index(subject_code: str, papers: list[dict]) -> None:
 
 # ── Core pipeline ─────────────────────────────────────────────────────────
 
-def ingest_subject(subject: dict, client: anthropic.Anthropic, dry_run: bool, target_date: str = None) -> tuple[int, float]:
+def ingest_subject(
+    subject: dict,
+    client: anthropic.Anthropic,
+    dry_run: bool,
+    date_range: list[str],
+) -> tuple[int, float]:
     """
-    Run the full ingest pipeline for one subject.
+    Run the full ingest pipeline for one subject across the lookback window.
+
+    Fetches papers for each date in date_range (these are arXiv *submission*
+    dates), dedupes by paper ID across fetches, groups candidates by
+    *announced_date*, then enforces daily_cap per announced_date —
+    accounting for papers already on disk for that date from prior runs.
+
+    daily_cap is per (subject, announced_date), not per fetch call. Without
+    this, the 3-weekday lookback would 2× the cap whenever multiple
+    submission days roll up into the same announcement day.
+
     Returns (papers_ingested, cost_usd).
     """
-    code          = subject["code"]
-    daily_cap     = subject.get("daily_cap", 20)
+    code           = subject["code"]
+    daily_cap      = subject.get("daily_cap", 20)
     prompt_variant = subject.get("prompt_variant", "physics")
-    use_filter    = subject.get("use_filter", False)
-    model         = HAIKU if subject.get("model") == "haiku" else SONNET
+    use_filter     = subject.get("use_filter", False)
+    model          = HAIKU if subject.get("model") == "haiku" else SONNET
 
-    # 1. Fetch
-    all_papers = fetch_new_papers(code, target_date)
-    source_msg = f"for date {target_date}" if target_date else "from RSS"
-    print(f"  Fetched {len(all_papers)} {source_msg}")
+    # 1. Fetch across all dates, dedupe by paper ID
+    candidates: list[dict] = []
+    seen_ids: set[str] = set()
+    for target_date in date_range:
+        fetched = fetch_new_papers(code, target_date)
+        print(f"  Fetched {len(fetched)} for {target_date}")
+        for p in fetched:
+            if p["id"] not in seen_ids:
+                seen_ids.add(p["id"])
+                candidates.append(p)
 
-    # 2. Skip already-ingested
-    new_papers = [p for p in all_papers if not is_ingested(p["id"])]
-    print(f"  New: {len(new_papers)}")
+    # 2. Drop papers already on disk from prior runs
+    candidates = [p for p in candidates if not is_ingested(p["id"])]
+    print(f"  Deduped new candidates: {len(candidates)}")
 
-    if not new_papers:
+    if not candidates:
         return 0, 0.0
 
-    # 3. Pre-rank high-volume subjects with cheap Haiku filter
-    if use_filter and len(new_papers) > daily_cap:
-        print(f"  Ranking {len(new_papers)} → top {daily_cap} with Haiku filter...")
-        new_papers = rank_papers(new_papers, prompt_variant, client, top_n=daily_cap)
+    # 3. Group by announced_date
+    by_announced: dict[str, list[dict]] = {}
+    for p in candidates:
+        by_announced.setdefault(p["announced_date"], []).append(p)
 
-    # 4. Apply daily cap
-    to_process = new_papers[:daily_cap]
-    print(f"  Processing {len(to_process)} (cap: {daily_cap})")
+    # 4. Per announced_date: subtract existing-on-disk count from cap, rank, cap, summarize
+    total_ingested = 0
+    run_cost       = 0.0
 
-    if dry_run:
-        for p in to_process:
-            print(f"    [dry-run] {p['id']}: {p['title_original'][:70]}")
-        return 0, 0.0
+    for announced_date in sorted(by_announced.keys(), reverse=True):
+        group = by_announced[announced_date]
+        existing = existing_paper_count(code, announced_date)
+        remaining = max(0, daily_cap - existing)
 
-    # 5. Summarize
-    ingested = []
-    run_cost = 0.0
+        if remaining == 0:
+            print(
+                f"  [{announced_date}] cap reached on disk "
+                f"({existing}/{daily_cap}) — skipping {len(group)} candidates"
+            )
+            continue
 
-    for paper in to_process:
-        short_title = paper["title_original"][:65]
-        print(f"  → {paper['id']}: {short_title}…")
+        # Pre-rank high-volume subjects with cheap Haiku filter
+        if use_filter and len(group) > remaining:
+            print(
+                f"  [{announced_date}] Ranking {len(group)} → top {remaining} "
+                f"with Haiku filter..."
+            )
+            group = rank_papers(group, prompt_variant, client, top_n=remaining)
 
-        result = summarize_paper(paper, prompt_variant, client, model=model)
-        if result:
-            save_paper(result)
-            ingested.append(result)
-            run_cost += result.get("cost_usd", 0.0)
-            time.sleep(0.3)  # gentle rate spacing
+        to_process = group[:remaining]
+        print(
+            f"  [{announced_date}] Processing {len(to_process)} "
+            f"(cap: {daily_cap}, existing: {existing}, remaining: {remaining})"
+        )
 
-    # 6. Update subject date index
-    update_subject_index(code, ingested)
+        if dry_run:
+            for p in to_process:
+                print(f"    [dry-run] {p['id']}: {p['title_original'][:70]}")
+            continue
 
-    print(f"  ✓ {len(ingested)} ingested  (${run_cost:.4f})")
-    return len(ingested), run_cost
+        ingested = []
+        for paper in to_process:
+            short_title = paper["title_original"][:65]
+            print(f"  → {paper['id']}: {short_title}…")
+
+            result = summarize_paper(paper, prompt_variant, client, model=model)
+            if result:
+                save_paper(result)
+                ingested.append(result)
+                run_cost += result.get("cost_usd", 0.0)
+                time.sleep(0.3)  # gentle rate spacing
+
+        update_subject_index(code, ingested)
+        total_ingested += len(ingested)
+        print(f"  [{announced_date}] ✓ {len(ingested)} ingested")
+
+    print(f"  ── subject total: {total_ingested} ingested  (${run_cost:.4f})")
+    return total_ingested, run_cost
 
 
 # ── Date helpers ──────────────────────────────────────────────────────────
@@ -235,15 +291,14 @@ def main() -> int:
 
     for subject in subjects:
         print(f"\n── {subject['code']} ─────────────────────────")
-        subject_papers = 0
-        for target_date in date_range:
-            papers, cost = ingest_subject(subject, client, dry_run=args.dry_run, target_date=target_date)
-            total_papers += papers
-            total_cost   += cost
-            subject_papers += papers
+        papers, cost = ingest_subject(
+            subject, client, dry_run=args.dry_run, date_range=date_range
+        )
+        total_papers += papers
+        total_cost   += cost
 
         # Track whether this subject succeeded (got any papers)
-        subject_results[subject['code']] = subject_papers > 0
+        subject_results[subject['code']] = papers > 0
 
     # ── Cost report ───────────────────────────────────────────────────────
     projected_monthly = total_cost * 30

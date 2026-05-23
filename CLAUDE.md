@@ -95,6 +95,15 @@ Papers are fetched from arXiv RSS feeds, summarized via Anthropic API (Claude So
 - `is_ingested(paper_id)` checks if `data/papers/{paper_id}.json` already exists
 - Skips already-summarized papers (idempotent across runs)
 
+### Daily Cap Semantics
+**`daily_cap` is per (subject, announced_date), not per fetch call.**
+
+- Each subject's `daily_cap` limits papers in `data/subjects/{subject}/{announced_date}.json`
+- The 3-weekday lookback can produce multiple submission dates that roll up into the same announced_date (arXiv's 2pm ET announcement cutoff splits a submission day across two announcement days). The pipeline groups all fetched candidates by `announced_date` and applies the cap per group.
+- The cap also accounts for papers already on disk for that announced_date — so a same-day re-run or a backfill run won't exceed the cap by stacking on top of prior ingests.
+- For `use_filter: true` subjects, ranking runs on the deduped per-announced-date group with `top_n = remaining_cap` (cap minus existing on-disk count), so no Haiku calls are spent on papers that would be dropped.
+- See `ingest_subject()` in `ingest/run.py` — the fetch → dedupe → group-by-announced_date → cap-per-group → summarize order must be preserved.
+
 ### Retry Logic
 
 **arXiv API:**
