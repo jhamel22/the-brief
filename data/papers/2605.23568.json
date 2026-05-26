@@ -1,0 +1,23 @@
+{
+  "id": "2605.23568",
+  "arxiv_url": "https://arxiv.org/abs/2605.23568",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "eess.SY"
+  ],
+  "title_original": "TactileReflex: Noise-Statistics-Driven Vision-Tactile Reflex Control for Force-Sensitive Manipulation",
+  "authors": "Ziyan Feng, Yulong Fu, Zheng Li, Yuxin He, Jieji Ren, Lujia Wang, Jinni Zhou, Yudong Zhong, Qiang Nie",
+  "abstract": "Manipulating fragile deformable containers, such as disposable plastic cups filled with liquid, demands real-time grip-force adaptation within an extremely narrow force margin: insufficient force causes slip, while excessive force irreversibly deforms the thin wall. Existing approaches struggle to achieve such force-sensitive manipulation tasks. We propose a noise-statistics-based calibration-driven reflex control paradigm with vision-based tactile sensing: by analyzing the sensor's intrinsic noise characteristics (via a brief static-hold-and-unload protocol), we directly derive all controller thresholds, eliminating external force calibration, trial-and-error manual tuning, or material-specific physical models. Instantiating this paradigm, we present TactileReflex, a three-channel closed-loop controller that extracts three image-level proxies, shear intensity ($S_y$), contact intensity ($F_n$), and center of pressure ($C$), from dual visuo-tactile sensors and drives prioritized reflex channels at ~12 Hz for slip suppression, weight-adaptive release, and force protection. Each channel closes the loop directly on its proxy via noise-derived thresholds. Ablation demonstrates that only the full three-channel system is able to prevent irreversible container deformation (5/5 success vs. at most 1/5 for partial configurations). In a dynamic pouring task, fixed-effort baselines fail in all 10 attempts due to pose drift, while TactileReflex achieves 9/10 success across two water volumes. As a self-contained and interpretable controller, TactileReflex can serve as a plug-and-play safety layer beneath high-level manipulation pipelines, including haptic-free VR teleoperation and vision-language-action (VLA) policies.",
+  "title_relatable": "How robots learn to hold fragile cups without crushing them",
+  "hook": "A reflex-based controller uses noise statistics to grip deformable containers with precision, achieving 9/10 success on pouring tasks where rigid force control fails entirely.",
+  "summary": "Holding a full plastic cup requires exquisite force control—too little and it slips, too much and it crumples irreversibly. TactileReflex solves this by calibrating grip reflexes directly from sensor noise characteristics (a 30-second static hold), eliminating manual tuning and material-specific models. Three parallel feedback loops—slip suppression, weight adaptation, and force limits—run at 12 Hz on vision-tactile sensor data. On dynamic pouring, the system succeeds 9/10 times while baseline fixed-force grippers fail completely.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 888,
+  "tokens_out": 213,
+  "cost_usd": 0.0015624,
+  "ingested_at": "2026-05-26T00:30:32.502732+00:00"
+}

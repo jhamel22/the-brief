@@ -1,0 +1,22 @@
+{
+  "id": "2605.23338",
+  "arxiv_url": "https://arxiv.org/abs/2605.23338",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Dissecting the Perseus-Pisces supercluster observed with CFHT-MegaCam: Exploring late-type galaxy shape alignments within the local cosmic web",
+  "authors": "M. Mondelin, S. Codis, J. -C. Cuillandre, R. Paviot, T. de Boer",
+  "abstract": "Intrinsic alignments of galaxy shapes are a major systematic for weak gravitational lensing and provide insight into how galaxies acquire orientations within the cosmic web. Most studies rely on large statistical samples; here, we probe this signal in a single nearby superstructure, extending to outer regions where secondary infall should dominate. We measure intrinsic alignments in the Perseus-Pisces supercluster as a function of galaxy morphology and radial extent into the low surface brightness regime. Using deep CFHT r-band imaging covering 367 deg2 (mainly from the UNIONS survey) and reaching 28 mag/arcsec2, we compute correlation functions at three isophotal radii for 2004 galaxies with log M*/Msun > 8.6, stratified by morphology and stellar mass in comoving coordinates. We detect positive intrinsic alignment signals for both early- and late-type galaxies out to 1 Mpc/h, including a clear signal for spirals. Shape-shape correlations are stronger than position-shape correlations, while comoving measurements increase the fraction of strongly correlated systems. Correlation profiles show little radial dependence across the three isophotes despite ellipticity variations in 10-20% of galaxies. We find strong morphology dependence: late-type galaxies dominate the shape-shape signal, preferentially inhabiting filaments and displaying higher ellipticities consistent with edge-on orientations. Early-type galaxies instead cluster near group and cluster centers, with no comparable excess in position-shape correlations. This segregation suggests distinct alignment mechanisms: tidal stretching for early-types in dense environments and tidal torquing for late-types in filaments. These local-Universe constraints inform intrinsic alignment modeling for Euclid, DESI, and LSST, highlighting the contribution of blue spiral galaxies to low-redshift cosmic shear contamination.",
+  "title_relatable": "Why do spiral galaxies twist the same way in cosmic filaments?",
+  "hook": "Deep imaging of a nearby supercluster reveals that spiral galaxies align their shapes along filaments, while elliptical galaxies cluster at centers—distinct mechanisms that contaminate dark matter surveys.",
+  "summary": "Using deep r-band images of 2,000+ galaxies in the Perseus-Pisces supercluster, astronomers measured how galaxy shapes correlate with their cosmic surroundings. Spirals show strong alignment signals in filaments—likely twisted by tidal forces—while ellipticals cluster near group centers with different alignment patterns. This local-universe result directly predicts contamination in upcoming dark matter experiments like Euclid and LSST.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 900,
+  "tokens_out": 191,
+  "cost_usd": 0.001484,
+  "ingested_at": "2026-05-26T00:19:37.446872+00:00"
+}

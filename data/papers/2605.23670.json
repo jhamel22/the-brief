@@ -1,0 +1,23 @@
+{
+  "id": "2605.23670",
+  "arxiv_url": "https://arxiv.org/abs/2605.23670",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Twirled Perfect Tensor Networks: Computationally covariant holographic tensor networks",
+  "authors": "Gurbir Arora, Matthew Headrick, Albion Lawrence, Martin Sasieta, Brian Swingle, Connor Wolfe",
+  "abstract": "We define a novel class of tensor networks motivated by the Python's Lunch Conjecture (PLC) in local tensor network models of the black hole interior. We start from the observation that, for extended black brane states with short-range correlations, the PLC predicts a complexity that is smaller than the upper bound for generic short-range correlated states. We argue that the PLC makes implicit assumptions about the fine structure of the relevant tensor networks modeling gravity that render them non-generic. We demonstrate this explicitly in random tensor network models of the python's lunch, where the exponential complexity is not generally controlled by the PLC exponent. We trace the difference with the PLC to a lack of \"computational covariance\" in random tensor networks: while the PLC is motivated by an ability to arbitrarily decompose space into low-complexity units provided certain basic rules are followed, we show that random tensor networks do not generically have this property. We propose another class of tensor networks built from what we call \"twirled perfect tensors\" that do satisfy the computational covariance property and have a complexity bounded by the PLC value. We still find a discrete limitation from local postselection that appears to be absent in gravity. Moreover, we show that this class of tensor networks combines desirable holographic features of perfect tensor networks and random tensor networks, for example, it obeys a lattice Ryu-Takayanagi formula for arbitrary boundary subregions. Though motivated by holography, these tensor networks provide a flexible framework with potential applications beyond quantum gravity.",
+  "title_relatable": "Can tensor networks capture black hole interiors the right way?",
+  "hook": "New tensor network design satisfies a key prediction about black hole complexity while preserving holographic properties that random networks miss.",
+  "summary": "Black holes may be encoded in quantum information networks, but random tensor networks don't reliably predict the complexity of black hole interiors. The authors built a new class of networks called \"twirled perfect tensors\" that respect a principle called computational covariance—the ability to break space into low-complexity pieces without losing information. These networks match predictions from the Python's Lunch Conjecture while preserving other holographic features like the Ryu-Takayanagi formula.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 783,
+  "tokens_out": 178,
+  "cost_usd": 0.0013384,
+  "ingested_at": "2026-05-26T00:17:42.932656+00:00"
+}

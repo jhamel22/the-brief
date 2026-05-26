@@ -1,0 +1,24 @@
+{
+  "id": "2605.23872",
+  "arxiv_url": "https://arxiv.org/abs/2605.23872",
+  "announced_date": "2026-05-22",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "math.NA",
+    "stat.ML"
+  ],
+  "title_original": "Training-Free Looped Transformers",
+  "authors": "Lizhang Chen, Jonathan Li, Chen Liang, Ni Lao, Qiang Liu",
+  "abstract": "We introduce training-free looped transformers, in which a lightweight inference-time wrapper loops a contiguous mid-stack block of layers of a frozen checkpoint without additional fine-tuning, continued training, or architectural changes. Unlike prior looped transformer methods that train with the looped structure end-to-end, we retrofit recurrence onto pretrained models at test time. We show that naive block reapplication usually degrades performance, highlighting the importance of the loop application strategy. Motivated by viewing a pre-norm transformer block as a forward Euler step on an ODE, we instead treat looping as a refinement of the same approximation, replacing one large update with smaller damped sub-steps. Across seven dense, sparse MoE, and MLA+MoE model families, our method improves Qwen3-4B-Instruct by +2.64 pp on MMLU-Pro, Qwen3-30B-A3B-Instruct by +1.14 pp on CommonsenseQA, and Moonlight-16B-A3B-Instruct by +1.20 pp on OpenBookQA.",
+  "title_relatable": "Can you make frozen language models smarter without retraining?",
+  "hook": "Looping transformer layers at test time boosts Qwen3-4B by 2.64 points on MMLU-Pro, no retraining needed.",
+  "summary": "Researchers treat repeated application of transformer layers as refinement steps in an ODE solver, allowing inference-time looping without modifying or retraining frozen models. By damping sub-steps rather than naively reapplying blocks, the method improves performance across multiple model families: +2.64 pp on MMLU-Pro (Qwen3-4B), +1.14 pp on CommonsenseQA (30B), and +1.20 pp on OpenBookQA (16B).",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 694,
+  "tokens_out": 205,
+  "cost_usd": 0.0013752,
+  "ingested_at": "2026-05-26T00:30:59.235941+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23420",
+  "arxiv_url": "https://arxiv.org/abs/2605.23420",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Naturalistic measure of social norms alignment",
+  "authors": "Yevhen Kostiuk, Kenneth Enevoldsen, Peter Bjerregaard Vahlstrup, Márton Kardos, Kristoffer Nielbo",
+  "abstract": "Social norms reflect shared expectations on acceptable behavior. Measuring social norms alignment remains challenging, with existing approaches typically relying on artificial closed-form evaluations such as multiple-choice questionnaires or measuring agreement with predefined statements. In the context of this work, social norms alignment refers to measuring an agreement between solutions with respect to the social problem or dilemma. We propose a framework for measuring social norm alignment in naturalistic, free-form settings through solution matching. The framework enables us to measure alignment between any two dilemma responses e.g., LLMs to a human, LLMs to LLMs, or human to human. We introduce two metrics: stated and explicit agreement accuracy, and construct a dataset of 3k non-trivial social dilemmas in Danish. All dilemmas are assigned reference solutions derived from three panelists, who serve as culturally grounded judges. We evaluate the agreement of several LLMs and human responses in an interaction setup that resembles natural user-model conversations. Our results show that the proposed metrics produce consistent model rankings and reveal variation in agreement across different types of dilemmas, with higher agreement observed for topics such as neighbor conflicts and shared living situations. Overall, our work introduces a dataset and evaluation framework for studying culturally grounded social reasoning in naturalistic open-ended conversations.",
+  "title_relatable": "How well do AI models and humans agree on right and wrong?",
+  "hook": "New framework measures whether language models align with human social norms on ethical dilemmas using 3,000 Danish scenarios, revealing surprisingly uneven agreement across topics.",
+  "summary": "Existing tests for social norm alignment rely on artificial multiple-choice questions. This work proposes matching free-form responses to social dilemmas—comparing what an LLM says to human reference answers and vice versa. The team built a dataset of 3,000 non-trivial Danish social scenarios with human-judged reference solutions, then measured agreement between LLMs, humans, and combinations. Models showed consistent rankings but uneven alignment: they agreed more on concrete issues like neighbor disputes than abstract moral questions. Code and dataset available.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 740,
+  "tokens_out": 201,
+  "cost_usd": 0.001396,
+  "ingested_at": "2026-05-26T00:26:58.058149+00:00"
+}

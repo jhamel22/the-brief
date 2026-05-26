@@ -1,0 +1,23 @@
+{
+  "id": "2605.23426",
+  "arxiv_url": "https://arxiv.org/abs/2605.23426",
+  "announced_date": "2026-05-22",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.HC",
+    "cs.AI"
+  ],
+  "title_original": "Socially fluent AI decouples conversational signals from source identity in online interaction",
+  "authors": "Lixiang Yan, Yueqiao Jin, Xibin Han, Dragan Gašević",
+  "abstract": "Socially fluent agentic AI can now participate in online interaction in ways that resemble ordinary human conversation, potentially weakening people's ability to infer who is human from conversational signals alone. We tested this possibility in synchronous text-based group interaction by embedding undisclosed AI agents as ordinary teammates across analytical, creative, and ethical tasks. Across 786 participants who made 1,572 post-interaction identity judgments, people did not distinguish AI from human teammates above chance. This failure did not arise because the interaction lacked identity-relevant information. Conversational behaviour contained robust cues that differentiated AI from humans and supported highly accurate computational classification. Instead, participants relied on familiar suspicion heuristics, including response speed, fluency, and perceived scriptedness, that were only weakly related to actual identity. Representational analyses further showed that judgments were organised around subjective impressions rather than the behavioural structure encoding ground truth. This dissociation creates new vulnerabilities to coordinated AI agents that can influence and manipulate online discourse at scale.",
+  "title_relatable": "Why humans can't tell AI from people in group chats",
+  "hook": "In 1,572 identity judgments across group tasks, humans failed to distinguish AI agents from teammates at above-chance rates, despite behavioral cues being computationally distinguishable.",
+  "summary": "Researchers embedded undisclosed AI agents into online group chats with 786 participants working on analytical, creative, and ethical tasks. People couldn't identify which teammates were AI—picking correctly no better than random—even though machine learning easily separated AI from human conversation patterns. The disconnect happened because humans relied on surface heuristics like response speed and fluency rather than the actual behavioral markers that actually differ. This gap reveals a vulnerability: coordinated AI could influence online discussions at scale without detection.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 677,
+  "tokens_out": 193,
+  "cost_usd": 0.0013135999999999998,
+  "ingested_at": "2026-05-26T00:25:54.180649+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.23853",
+  "arxiv_url": "https://arxiv.org/abs/2605.23853",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "math-ph",
+    "physics.optics",
+    "quant-ph"
+  ],
+  "title_original": "Exact versus tight-binding models in longitudinally modulated $\\mathcal{PT}$-symmetric coupled waveguides",
+  "authors": "Alonso Contreras-Astorga, José Israel Galindo-Rodríguez",
+  "abstract": "The tight-binding (TB) model is a widely adopted approximation scheme for describing light propagation in waveguide arrays. Despite its success, its validity in $\\mathcal{PT}$-symmetric systems characterized by strong longitudinal modulation has not been rigorously benchmarked against exact analytical solutions. In this work, we address this gap by performing a comparative analysis between exact continuous solutions derived from $z$-dependent supersymmetric (SUSY) transformations and their corresponding discrete TB approximations. To achieve this, we develop a theoretical model for two PT-symmetric coupled waveguides subject to longitudinal modulation. We then evaluate the performance of the TB framework against the exact SUSY benchmark. Our results delineate the specific validity range of the TB approximation, demonstrating its proficiency in reproducing spatial intensity distributions. However, we also identify its limitations in accurately capturing the complex oscillatory phase dynamics inherent to this non-Hermitian evolution.",
+  "title_relatable": "When does the standard waveguide approximation quietly break down?",
+  "hook": "A rigorous test reveals that the go-to light-propagation model fails to capture phase dynamics in gain-loss waveguide pairs.",
+  "summary": "The tight-binding model—physics' workhorse for light hopping between waveguides—gets stress-tested against exact analytical solutions in a pair of coupled waveguides where gain and loss are deliberately balanced. It passes for intensity patterns but fails to reproduce the complex phase oscillations that arise when the system is strongly modulated along its length. The finding draws a clear boundary for when the approximation can be trusted, which matters for designing optical switches and sensors that exploit these gain-loss effects.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 658,
+  "tokens_out": 180,
+  "cost_usd": 0.004674,
+  "ingested_at": "2026-05-26T00:18:37.846774+00:00"
+}

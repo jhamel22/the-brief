@@ -1,0 +1,24 @@
+{
+  "id": "2605.23778",
+  "arxiv_url": "https://arxiv.org/abs/2605.23778",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "physics.ao-ph",
+    "cs.LG",
+    "physics.comp-ph"
+  ],
+  "title_original": "The physics of AI weather models",
+  "authors": "George Craig, Tobias Selz, Matthias Beylich, Kirsten I. Tempest",
+  "abstract": "Could it be that AI weather models are solving physical equations, although they may not be the equations used by conventional NWP models? We compute correlations of forecast skill and Centered Kernel Alignment, providing evidence that different AI weather models represent the atmosphere in similar ways, despite differences in architecture and capacity. We argue that the architecture and training of the AI models constrains the form of the physical laws that they might simulate. In particular, we propose that the models implement a particle description of the atmosphere, where the latent variables at each mesh point correspond to the position of a particle in the high dimensional latent space. We hypothesize that the movement of the particles follows a gradient flow in the latent space towards a minimum of a learned free energy functional. Analysis of the GraphCast and Aurora models show that they make changes on large spatial scales in the early processor layers and move to smaller scale with increasing layer depth, consistent with the gradient flow hypothesis.",
+  "title_relatable": "What physical laws do AI weather models actually learn?",
+  "hook": "AI weather forecasters may be solving hidden physics equations via particle gradients, not conventional atmospheric equations.",
+  "summary": "AI weather models like GraphCast and Aurora outperform traditional forecasts, but what physics are they actually implementing? Using kernel alignment and layer analysis, researchers found different AI architectures converge on similar internal representations—suggesting they simulate a particle-based atmosphere where latent variables flow like particles toward an energy minimum. This reveals that AI models implicitly learn physical laws shaped by their architecture, independent of conventional numerical weather prediction equations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 636,
+  "tokens_out": 158,
+  "cost_usd": 0.0011408,
+  "ingested_at": "2026-05-26T00:23:00.595646+00:00"
+}

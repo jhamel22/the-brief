@@ -1,0 +1,22 @@
+{
+  "id": "2605.23164",
+  "arxiv_url": "https://arxiv.org/abs/2605.23164",
+  "announced_date": "2026-05-22",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Tread lightly interpreting group differences in genetic risk",
+  "authors": "Nicole Kleman, Meng Lin, Christopher R. Gignoux, Arslan A. Zaidi",
+  "abstract": "Observed differences in mean phenotypic values across human groups have attracted renewed interest with the rise of large-scale genomic studies and polygenic risk prediction. However, the genetic basis of these differences is far more difficult to establish than is often appreciated. Populations can diverge in allele frequency differences without diverging in mean genetic value. Empirical approaches to infer whether populations differ in mean genetic value fall under two broad categories: top-down approaches, which quantify the proportion of phenotypic variance explained by ancestry and bottom-up approaches, which compare polygenic scores across groups. However, both approaches have limitations that prevent them from reliably distinguishing true differences in genetic apart from statistical artifacts like population structure, ascertainment bias, and poor cross-ancestry portability. Further, observed phenotypic shifts between populations may reflect bias in phenotype measurement and heterogeneity in study design rather than underlying genetic drivers. We argue that claims about group differences in genetic risk should be interpreted with considerable caution.",
+  "title_relatable": "Why claims about genetic differences between groups are almost always misinterpreted",
+  "hook": "Large genetic studies tempt us to conclude some populations have inherently higher disease risk. The math says otherwise.",
+  "summary": "Different populations have different disease rates and allele frequencies, but these don't prove genetic differences—they could just reflect population structure, biased studies, or measurement error. Both major statistical approaches (ancestry-based and polygenic score comparisons) fail to distinguish real genetic effects from statistical artifacts. The authors argue we should nearly always doubt claims that genetic risk differs meaningfully between groups.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 615,
+  "tokens_out": 154,
+  "cost_usd": 0.001108,
+  "ingested_at": "2026-05-26T00:31:56.290107+00:00"
+}

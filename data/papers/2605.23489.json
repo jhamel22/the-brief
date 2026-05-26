@@ -1,0 +1,23 @@
+{
+  "id": "2605.23489",
+  "arxiv_url": "https://arxiv.org/abs/2605.23489",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.HE"
+  ],
+  "title_original": "A comparison between Galactic magnetic field models and polarized synchrotron emission with C-BASS at 4.76 GHz and S-PASS at 2.3 GHz",
+  "authors": "Vasundhara Shaw, S. E. Harper, C. Dickinson, J. P. Leahy, Gabriel A. Hoerning, R. Cepeda-Arroita, Gilles Weymann-Despres, Mike Peel, Angela C. Taylor, T. J. Pearson, Jamie Leech, Michael Jones",
+  "abstract": "We compare a set of contemporary Galactic magnetic field (GMF) models with polarized synchrotron observations from the S-PASS and C-BASS radio surveys and combine them to create a reconstructed 4.76~GHz full sky map. Pixels that potentially have a large Faraday rotation are excluded while small ($< 80\\degree$) Faraday corrections derived at the respective frequencies of the two surveys are applied to the rest of the map. Using a template-fitting approach, we evaluate the ability of each model to reproduce the observed polarization amplitudes and polarization angles. We find that while most GMF models match the polarization angles reasonably well, they often fail to reproduce the morphology of the polarized intensity. We find that for most models there is a clear correlation between the data and models in polarization angles on large scales, but this does not hold true for polarized intensity. Our results show that a large portion of the polarized sky is shaped by local ``foreground'' features such as the North Polar Spur/Loop\\,I and the Fan region. We conclude that incorporating such local structures is essential for accurately modelling the polarized synchrotron emission at microwave frequencies.",
+  "title_relatable": "Why do Galaxy magnetic field models fail to match radio observations?",
+  "hook": "Radio surveys reveal that popular magnetic field models predict polarization angles but bungle intensity—local structures like the North Polar Spur matter more than theory admits.",
+  "summary": "Astronomers tested eight Galactic magnetic field models against radio polarization data from two sky surveys at 2.3 and 4.76 GHz. Models matched the *direction* of polarization reasonably well but failed to reproduce the *strength*. Local foreground features like the North Polar Spur dominate the polarized emission, suggesting current models miss crucial small-scale structures needed for accurate predictions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 794,
+  "tokens_out": 175,
+  "cost_usd": 0.0013352000000000001,
+  "ingested_at": "2026-05-26T00:21:19.999456+00:00"
+}

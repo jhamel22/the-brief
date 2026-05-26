@@ -1,0 +1,23 @@
+{
+  "id": "2605.23359",
+  "arxiv_url": "https://arxiv.org/abs/2605.23359",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Addressing Standard Model Tensions via X17 Vector Boson",
+  "authors": "Raoul Serao, Aniello Quaranta, Antonio Capolupo",
+  "abstract": "We investigate the effects of introducing a new vector boson on existing discrepancies within the Standard Model. Our analysis highlights the potential of this particle to alleviate these tensions while serving as a portal to the dark sector. This scenario provides a promising avenue for exploring extensions beyond the Standard Model and motivates further experimental and theoretical studies.",
+  "title_relatable": "Could a hidden particle explain why physics experiments disagree?",
+  "hook": "A new vector boson called X17 might resolve persistent discrepancies in Standard Model measurements while connecting to invisible dark matter.",
+  "summary": "Physicists propose that a previously undiscovered particle could bridge conflicting experimental results in fundamental physics. The X17 boson would act as a gateway between ordinary matter and the dark sector, offering a concrete extension to our best theory of particle physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 502,
+  "tokens_out": 130,
+  "cost_usd": 0.0009216000000000001,
+  "ingested_at": "2026-05-26T00:17:54.079556+00:00"
+}

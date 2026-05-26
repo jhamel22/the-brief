@@ -1,0 +1,23 @@
+{
+  "id": "2605.23444",
+  "arxiv_url": "https://arxiv.org/abs/2605.23444",
+  "announced_date": "2026-05-22",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "physics.bio-ph"
+  ],
+  "title_original": "Hyperedge approximation for stochastic processes on higher-order networks",
+  "authors": "Anzhi Sheng, Alex McAvoy, Ye Tian, Silun Zhang, Angela Fontan, Joshua B. Plotkin",
+  "abstract": "Graphs are a standard framework for describing dynamical processes shaped by pairwise interactions among agents. But many systems involve interactions in groups of three or more agents. Here, we develop a method of \"$\\ell$-hyperedge approximation\", a framework to analyze stochastic population processes on regular hypergraphs, in which each individual belongs to $k$ groups of size $\\ell$. The framework accommodates both higher-order interactions that determine payoffs and higher-order processes for updating states in response to payoffs. Applied to evolutionary game dynamics, the framework generalizes the classical pairwise result on benefits and costs, $b/c>k$, that favors the spread of cooperation; and it provides critical benefit-to-cost ratios for nonlinear $\\ell$-player public goods games that cannot be reduced to pairwise interactions. Applied to complex contagions, where inheritance of states occurs within hyperedges rather than along parent-offspring edges, the framework gives a closed-form result for the fixation probability, which shows how a complexity parameter governs the spread of rare types. Coupling the two processes produces a single stochastic model of payoff-biased complex contagion in structured populations. These results extend pair approximation from graphs to hypergraphs, accommodating multi-way interactions and inheritance structures with no pairwise analog.",
+  "title_relatable": "Do group dynamics change how cooperation spreads?",
+  "hook": "Networks where people interact in groups of three or more follow different rules than pairwise connections. A new mathematical framework predicts when cooperation wins.",
+  "summary": "Most models treat social interactions as pairwise connections, but real groups involve simultaneous multi-person influence—think team sports or committee decisions. This work extends the classical toolkit (pair approximation) to handle groups of any size, showing that cooperation thresholds shift unpredictably when payoffs depend on group membership. The same framework predicts how traits spread through group inheritance—useful for disease modeling and evolutionary dynamics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 746,
+  "tokens_out": 165,
+  "cost_usd": 0.0012568000000000002,
+  "ingested_at": "2026-05-26T00:20:46.302866+00:00"
+}

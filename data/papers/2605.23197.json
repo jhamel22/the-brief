@@ -1,0 +1,23 @@
+{
+  "id": "2605.23197",
+  "arxiv_url": "https://arxiv.org/abs/2605.23197",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "quant-ph",
+    "gr-qc"
+  ],
+  "title_original": "Anomalous Decay of Quantum Resources: The Entanglement Sudden Death Mpemba Effect",
+  "authors": "Zhilong Liu, Zehua Tian, Jieci Wang",
+  "abstract": "In classical thermodynamics, the Mpemba effect refers to the counterintuitive observation that hot water can freeze faster than cold water, manifesting as an anomalous crossing of dynamical trajectories. While analogues of this phenomenon have been explored in quantum radiative systems and spin-chain entanglement asymmetry, its connection to the finite-time decoupling of quantum correlations remains elusive. In this Letter, we uncover a distinct quantum Mpemba effect associated with entanglement sudden death (ESD). By analyzing two qubits interacting with local amplitude damping reservoirs, we demonstrate that a more strongly entangled initial state can experience a faster collapse into a separable state than a more weakly entangled one. We provide an exact analytical derivation of the trajectory crossover dynamics and the ESD time. Finally, we map the phase diagram of initial state parameters to delineate the regime where this anomalous entanglement Mpemba effect occurs, offering insights into the control of quantum resource lifetimes in dissipative environments.",
+  "title_relatable": "Can a more entangled quantum state lose its entanglement faster?",
+  "hook": "Two qubits with stronger entanglement can go separable faster than weaker ones — a quantum twist on the Mpemba paradox.",
+  "summary": "Just as hot water can freeze faster than cold water, a pair of qubits starting with stronger entanglement can lose all quantum correlations sooner than a less-entangled pair exposed to the same noisy environment. By solving the dynamics analytically for amplitude damping reservoirs, the authors map exactly which initial states show this counterintuitive crossing — and when entanglement abruptly hits zero (entanglement sudden death) ahead of the 'colder' state. The result has direct implications for how long quantum resources survive in realistic devices.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 671,
+  "tokens_out": 199,
+  "cost_usd": 0.004998,
+  "ingested_at": "2026-05-26T00:17:14.345338+00:00"
+}

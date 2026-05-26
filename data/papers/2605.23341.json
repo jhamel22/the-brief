@@ -1,0 +1,23 @@
+{
+  "id": "2605.23341",
+  "arxiv_url": "https://arxiv.org/abs/2605.23341",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Sparse Compositional Flow Matching by geometric assembly from motion primitives",
+  "authors": "Yan Tang, Yuanbo Tang, Tingyu Cao, Shaolun Huang, Yang Li",
+  "abstract": "Embodied trajectories, such as the executable motion sequences of robotic manipulators, underwater vehicles, and mobile robots, are a fundamental output of embodied AI. Modern generative models often treat them as a dense, monolithic signal generated point by point, fitting an intricate high-dimensional posterior while leaving the data's latent structure unmodeled, the same sample inefficiency long identified by the structured generative model literature. We argue that a compositional latent structure is a natural choice: many embodied tasks share recurring motion fragments that can be made explicit as a finite repertoire of reusable motion primitives, and compositional units naturally align with subtask boundaries to support task decomposition. Existing compositional generators, however, compose in a latent space and rely on post-hoc decoding to relate sampled units to actual trajectory segments. We instead compose directly in the physical trajectory space through a flow-matching framework with two coupled designs. Motion-Primitive Dictionary Learning equips each atom with a learnable length mask and binary starting indicators so the atom itself is the primitive, reused verbatim wherever it is placed. Structural Sparse Flow Matching with Geometric Constraints then generates a binary placement matrix using duration-aware tokenization and a differentiable geometric loss that enforces spatial continuity and temporal contiguity where adjacent primitives meet. On Open X-Embodiment and 3DMoTraj, the framework attains state-of-the-art accuracy and reduces the FDE/ADE ratio from 1.8 to 1.07, improving ADE by 19.2% and FDE by 21.0% over the strongest baseline.",
+  "title_relatable": "Can robots learn to move by reusing motion building blocks?",
+  "hook": "Framework generates robot trajectories 19–21% more accurately by composing reusable motion primitives rather than generating motion point by point.",
+  "summary": "Robot trajectories contain recurring motion fragments—reach, grasp, place—that could be reused like Lego blocks. This work treats trajectory generation as assembly of learned motion primitives in physical space, not abstract latent codes. A geometric loss ensures smooth transitions between primitives. On Open X-Embodiment and 3DMoTraj benchmarks, the method improves final displacement error by 21% and average displacement by 19%, while cutting prediction drift ratio from 1.8 to 1.07.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 804,
+  "tokens_out": 192,
+  "cost_usd": 0.0014112,
+  "ingested_at": "2026-05-26T00:30:37.747425+00:00"
+}

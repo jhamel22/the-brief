@@ -1,0 +1,22 @@
+{
+  "id": "2605.23454",
+  "arxiv_url": "https://arxiv.org/abs/2605.23454",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "ARES: Automated Rubric Synthesis for Scalable LLM Reinforcement Learning",
+  "authors": "Xiaoyuan Li, Keqin Bao, Moxin Li, Yubo Ma, Yichang Zhang, Wenjie Wang, Fuli Feng, Dayiheng Liu",
+  "abstract": "Rubric-based rewards offer a promising way to extend reinforcement learning (RL) for large language models beyond tasks with automatically verifiable answers. However, scaling rubric-based RL remains challenging: existing approaches often rely on expert-written rubrics and manually constructed question sets, while fixed task-level rubrics may fail to capture the evaluation requirements of individual questions. We propose ARES (Automated Rubric synthEsis for Scalable RL), a framework for automatically constructing rubric-based RL data at scale. Starting from raw pretraining documents, ARES converts source knowledge into self-contained question-answer pairs and co-generates question-specific weighted rubrics, enabling instance-level reward supervision for open-ended responses. To improve diversity and quality, ARES conditions generation on domain labels and persona information, and applies validation filters for question self-containment, answer faithfulness, and rubric validity. Using ARES, we construct 100K rubric-annotated instances across ten domains. Experiments on seven benchmarks show that rubric-based RL trained with ARES, outperforms continual pretraining, supervised fine-tuning, and binary-reward RL, with the largest gains on multi-dimensional open-ended tasks such as healthcare and instruction following.",
+  "title_relatable": "Can AI automatically write grading rubrics for training better language models?",
+  "hook": "Automated system generates 100K graded question-answer pairs with custom rubrics, boosting LLM performance on open-ended tasks by significant margins over standard fine-tuning.",
+  "summary": "Training language models on open-ended tasks like healthcare advice or creative writing requires nuanced evaluation—not just right/wrong answers. ARES automates this by converting raw documents into question-answer pairs, then generates custom rubrics tailored to each question that score responses across multiple dimensions. The system validates itself (checking questions are self-contained, answers faithful) and conditions generation on domain and persona to boost diversity. On benchmarks spanning healthcare, instruction-following, and other domains, rubric-based RL trained with ARES outperforms standard fine-tuning and binary-reward methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 757,
+  "tokens_out": 218,
+  "cost_usd": 0.0014776,
+  "ingested_at": "2026-05-26T00:26:55.237794+00:00"
+}

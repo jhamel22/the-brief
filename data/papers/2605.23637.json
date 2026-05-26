@@ -1,0 +1,23 @@
+{
+  "id": "2605.23637",
+  "arxiv_url": "https://arxiv.org/abs/2605.23637",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.SR"
+  ],
+  "title_original": "Long-term optical and near-infrared photometric evolution of SN 2019vxm, an interacting Type IIn supernova",
+  "authors": "Klára Lelkes, László Molnár, József Vinkó, Attila Bódi, Zsófia Bora, Borbála Cseh, Csilla Kalup, Réka Könyves-Tóth, Levente Kriskovics, András Ordasi, András Pál, Bálint Seli, Zsófia Marianna Szabó, Róbert Szakáts, Krisztián Vida",
+  "abstract": "The diversity of Type IIn supernovae is largely driven by the properties of the circumstellar material (CSM) they explode into. We examine the temporal evolution of SN 2019vxm, an interacting supernova that belongs to the class of long-lasting Type IIn events, using multicolor photometry spanning the ultraviolet, optical and near-infrared wavelengths, including over 650 days of optical and 1500 days of IR coverage. The evolution of the spectral energy distribution and bolometric luminosity, as well as the effective temperature and radius of the photosphere, indicates that the supernova was initially surrounded by an optically thick CSM, which was heated and pushed outward by the forward shock of the impacting ejecta. About 80-100 days after the explosion the forward shock and the photosphere decouples, and we observe the receding photosphere of the H-recombination front within the now thinned CSM. Near-IR measurements reveal long-lasting, slowly cooling emission from circumstellar dust around SN 2019vxm and an IR rebrightening about one year after explosion, which we tentatively identify as a signature of an outer CSM region. We find that due to the moving photosphere and the transition from optically thick to partially thin inner CSM, modeling the explosion and subsequent interaction of the ejecta with the CSM to infer progenitor and CSM masses faces difficulties. Nevertheless, the inferred high masses and extremely high mass-loss rates point to a massive progenitor undergoing intense pre-supernova mass loss.",
+  "title_relatable": "How does a supernova's blast wave tear through its own shell of ejected gas?",
+  "hook": "A rare long-lasting supernova surrounded by thick material shows its shock wave heating and dispersing the cloud over 1,500 days, revealing clues about the star's violent death.",
+  "summary": "Astronomers tracked SN 2019vxm—a supernova that exploded into a dense shell of its own ejected material—across ultraviolet, optical, and infrared wavelengths for over four years. Early on, the blast wave heated and compressed this gas shell; around day 80–100, the shock broke through and the cooling cloud thinned out, exposing a recombination front. Dust in the outer layers then re-brightened around one year post-explosion, suggesting a second, denser shell farther out. The data points to an extraordinarily massive progenitor star shedding material at intense rates before it exploded.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 900,
+  "tokens_out": 243,
+  "cost_usd": 0.001692,
+  "ingested_at": "2026-05-26T00:21:17.280991+00:00"
+}

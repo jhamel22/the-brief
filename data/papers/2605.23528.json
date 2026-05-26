@@ -1,0 +1,23 @@
+{
+  "id": "2605.23528",
+  "arxiv_url": "https://arxiv.org/abs/2605.23528",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "physics.optics",
+    "hep-ph"
+  ],
+  "title_original": "Vacuum-Triggered Instability in Paired Superradiance",
+  "authors": "Zhan Bai, Ningqiang Song, Min Chen, Xiangyan An, Baifei Shen, Liangliang Ji, Ruxin Li",
+  "abstract": "Paired superradiance (PSR) is a macro-coherent two-photon process capable of very large gain, making it promising for detecting ultra-weak signals induced by neutrinos or dark matter. A major goal has been to increase the system volume $V$ and density $n$, since the signal intensity scales as $(nV)^2$. We recast finite PSR as a parametric amplifier driven by the electromagnetic vacuum. The usual zero-field semiclassical initial condition is replaced by vacuum inputs fixed by the quantum two-point function. Combining this formulation with Maxwell--Bloch evolution and finite-length stability analysis, we find that PSR produces an irreducible vacuum background that can develop into macroscopic bursts once the gain-length product exceeds \\(ΓL=π/2\\) for a sufficient coherence time. These results, together with a closed-form formula for estimating the vacuum-seeded photon yield, establish a previously overlooked constraint for high-gain PSR, with direct implications for proposed neutrino and dark-matter studies.",
+  "title_relatable": "Does quantum vacuum noise doom ultra-sensitive dark matter detectors?",
+  "hook": "A promising technique for detecting dark matter faces an unexpected limit: quantum vacuum fluctuations spontaneously trigger unwanted bursts once the amplifier becomes too powerful.",
+  "summary": "Paired superradiance amplifies faint signals from dark matter or neutrinos by a factor proportional to volume squared—but treating it as a quantum device reveals a hidden constraint. Quantum vacuum fluctuations, not just thermal noise, seed macroscopic photon bursts when the gain exceeds a critical threshold (ΓL=π/2). This sets a previously unknown limit on how large and sensitive these detectors can become.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 694,
+  "tokens_out": 180,
+  "cost_usd": 0.0012752,
+  "ingested_at": "2026-05-26T00:20:17.922404+00:00"
+}

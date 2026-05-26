@@ -1,0 +1,23 @@
+{
+  "id": "2605.23384",
+  "arxiv_url": "https://arxiv.org/abs/2605.23384",
+  "announced_date": "2026-05-22",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Metacognition as Reward: Reinforcing LLM Reasoning via Knowledge and Regulation Signals",
+  "authors": "Sirui Chen, Lei Xu, Yuying Zhao, Yutian Chen, Yu Wang, Beier Zhu, Hanwang Zhang, Shengjie Zhao, Chaochao Lu",
+  "abstract": "Recent RL methods have substantially improved the reasoning abilities of LLMs. Existing reward designs mainly follow two paradigms: (1) Reinforcement learning with verifiable rewards (RLVR) derives outcome signals from executable checks or ground-truth answers, but provides limited guidance for intermediate reasoning behaviors. (2) Rubrics-as-reward (RaR) goes beyond final-answer checking by using natural-language rubrics to assess reasoning quality and task compliance, but often requires instance-specific rubrics and substantial design effort. To address these issues, we introduce Metacognition-as-Reward (MaR), a metacognition-inspired RL framework that guides LLM reasoning through two general process dimensions: i) metacognitive knowledge, which identifies task-relevant information without hand-crafted instance-specific rubrics, and ii) metacognitive regulation, which plans and adjusts the reasoning process to provide reward guidance beyond final-answer outcomes. MaR scaffolds model rollouts into explicit metacognitive components and optimizes them with a trajectory-level reward over task knowledge coverage, regulation fidelity, and final-answer correctness. In this way, MaR extends reward feedback to reasoning trajectories while grounding the reward signals in general metacognitive dimensions. Experiments on 22 benchmarks show that MaR consistently improves model performance, achieving up to a 7.7% gain over the base model and up to an 11.0% gain over vanilla DAPO. Notably, Qwen3.5-9B + MaR narrows the gap to frontier models, surpassing GPT-OSS-120B on overall average and outperforming stronger models on several individual benchmarks. Process-level analysis further shows substantial improvements in reasoning process quality. MaR also generalizes to out-of-domain datasets, where MaR-trained models improve over their corresponding base models on average.",
+  "title_relatable": "Can LLMs learn to think about their own thinking?",
+  "hook": "New training method guides reasoning by rewarding what models know and how they adjust plans, delivering 7.7% improvement over baseline.",
+  "summary": "Existing methods reward language models either for final answers or by hand-crafting task-specific quality rubrics—both limiting. This work introduces MaR, which treats reasoning itself as trainable through metacognition: models learn to identify task-relevant information and adjust their problem-solving strategy mid-process, not just chase correct answers. Tested on 22 benchmarks, MaR lifts Qwen3.5-9B to compete with much larger proprietary models and generalizes to unseen tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 897,
+  "tokens_out": 189,
+  "cost_usd": 0.0014735999999999998,
+  "ingested_at": "2026-05-26T00:25:57.750597+00:00"
+}

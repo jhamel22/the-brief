@@ -1,0 +1,25 @@
+{
+  "id": "2605.23203",
+  "arxiv_url": "https://arxiv.org/abs/2605.23203",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "Lipschitz Optimization for Formal Verification of Homographies",
+  "authors": "Jean-Guillaume Durand, Panagiotis Kouvaros, Maxime Gariel, Alessio Lomuscio",
+  "abstract": "The adoption of vision neural networks in regulated industries requires formal robustness guarantees, especially in safety-critical domains such as healthcare, autonomous vehicles, and aerospace. However, current approaches are confined to incomplete statistical verification or robustness to $\\ell_p$-norm and affine transforms, which cover only a narrow subset of perturbations to the image formation process. In particular, robustness to camera motion remains an open problem despite being key to deploy many vision applications. We present a formal verification approach that targets robustness against 3D motion perturbations of the capturing camera. We first establish a closed-form mapping from camera pose to pixel values. By analyzing the continuity properties of the resulting homographies, we show that recent work on Lipschitz optimization and piecewise continuity can be extended to derive tight linear bounds on perturbed pixel values. Our approach applies to scenes with predominantly planar structure, such as ground planes in augmented reality, road markings and traffic signs in autonomous driving, or planar workspaces in robotic manipulation. This enables the first formal verification of projective geometry transforms, without complex simulation, surrogate networks, or explicit image-formation models. We validate our implementation and show up to 89% speedup and 7% tighter bounds over prior work. We then evaluate our method on the VNN-COMP benchmark and reveal systematic weaknesses to projective perturbations. Finally, we demonstrate a real-world case study on a safety-critical runway classifier, highlighting practical vulnerabilities to camera motion, and addressing a key challenge in the certification of learned models. Data and code are publicly available at https://github.com/jeangud/homography-verification .",
+  "title_relatable": "Can we prove vision AI is safe against camera motion?",
+  "hook": "First formal verification method for camera-motion robustness in vision networks; 89% speedup and 7% tighter bounds on safety-critical systems.",
+  "summary": "Deploying vision neural networks in safety-critical systems like autonomous vehicles requires mathematical proof they won't fail under real-world perturbations. Current verification only handles simple pixel-level noise, not the geometric distortions caused by camera motion. This work derives tight mathematical bounds on how camera movement warps images of planar scenes (road markings, runways, workspaces) by analyzing the continuity of perspective transforms. They achieve 89% speedup over prior methods and expose vulnerabilities in a real runway-classifier system. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 815,
+  "tokens_out": 198,
+  "cost_usd": 0.001444,
+  "ingested_at": "2026-05-26T00:30:18.616657+00:00"
+}

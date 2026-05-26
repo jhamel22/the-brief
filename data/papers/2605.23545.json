@@ -1,0 +1,22 @@
+{
+  "id": "2605.23545",
+  "arxiv_url": "https://arxiv.org/abs/2605.23545",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Compact structures in impurity-doped vacuumless systems",
+  "authors": "I. Andrade, D. Bazeia, M. A. Marques, R. Menezes",
+  "abstract": "We investigate novel structures which arise from the compactification of vacuumless kinks in scalar field models coupled to impurities that preserve half the BPS sectors, described by first-order equations. We also investigate the behavior of the energy density and linear stability of the solutions. We show that compact vacuumless kinks cannot be obtained in impurity-free canonical models. By considering two distinct impurities, we study the conditions needed to induce compactification. In this scenario, stable half-compact or compact solutions are shown to emerge from the systems.",
+  "title_relatable": "How do impurities create tiny, compact knots in quantum fields?",
+  "hook": "Researchers discovered that impurities in scalar field models can shrink infinite kinks into finite, stable structures—something impossible in pure systems.",
+  "summary": "In scalar field theory, kinks are extended defects that normally stretch infinitely. By coupling the field to carefully chosen impurities, physicists found they can compress these kinks into compact, stable structures. The trick requires breaking the usual symmetries in just the right way, and the resulting configurations are stable against small perturbations.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 559,
+  "tokens_out": 154,
+  "cost_usd": 0.0010632,
+  "ingested_at": "2026-05-26T00:17:45.608036+00:00"
+}

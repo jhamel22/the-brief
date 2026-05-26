@@ -1,0 +1,23 @@
+{
+  "id": "2605.23410",
+  "arxiv_url": "https://arxiv.org/abs/2605.23410",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "What Linear Probes Miss: Multi-View Probing for Weight-Space Learning",
+  "authors": "Eunwoo Heo, Kyeongkook Seo, Jaejun Yoo",
+  "abstract": "The explosive growth of open-source model repositories has created a Model Jungle, where checkpoints are frequently shared without adequate documentation or metadata. While weight-space learning offers a pathway to identify and analyze these models directly from their parameters, processing full-scale weights is computationally prohibitive. Probing-based methods have emerged as a lightweight alternative, extracting permutation-equivariant representations via learnable probe vectors. However, existing probing methods are limited by a single-view design: they capture first-order structures but fail to encode the rich, higher-order correlation patterns inherent in row-column interactions. To bridge this gap, we introduce MVProbe, a multi-perspective probing framework that synthesizes first-order signals with interaction-aware (Gram-based) views. Our approach is theoretically grounded; we analyze the scaling laws of different probing orders to derive a principled standardization and fusion strategy that ensures balanced contributions from all branches. On the Model Jungle benchmark, MVProbe consistently outperforms the state-of-the-art ProbeX across diverse architectures, including discriminative backbones (ResNet, SupViT, MAE, DINO) and large-scale generative LoRA adapters (Stable Diffusion LoRA).",
+  "title_relatable": "Why single measurements miss what's in neural network weights",
+  "hook": "Multi-view probing outperforms single-view methods across ResNets, vision transformers, and Stable Diffusion LoRAs by capturing higher-order weight interactions.",
+  "summary": "When models are shared without documentation, identifying their architecture or training properties from weights alone is hard. Existing lightweight probing methods extract features from weight matrices but only capture first-order patterns. MVProbe adds Gram-matrix views to capture row-column interactions, balancing contributions across perspectives via scaling laws. Beats ProbeX on the Model Jungle benchmark across ResNets, vision transformers, and generative adapters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 727,
+  "tokens_out": 179,
+  "cost_usd": 0.0012975999999999999,
+  "ingested_at": "2026-05-26T00:29:01.171702+00:00"
+}

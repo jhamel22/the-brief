@@ -1,0 +1,26 @@
+{
+  "id": "2605.23892",
+  "arxiv_url": "https://arxiv.org/abs/2605.23892",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.GR",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers",
+  "authors": "Shuhong Zheng, Michael Oechsle, Erik Sandström, Marie-Julie Rakotosaona, Federico Tombari, Igor Gilitschenski",
+  "abstract": "Visual geometry transformers have become powerful architectures for multi-view 3D reconstruction, enabling joint prediction of multiple 3D attributes in a feed-forward manner. However, their computational cost grows quadratically with the input sequence length due to the global attention layers inside these models. This limits both their scalability and efficiency. In this work, we address this challenge with a simple yet general strategy: restricting the number of key/value tokens that each query interacts with during global attention. To achieve effective token selection, we introduce a two-stage framework. First, an inter-frame selection step operates at the frame level to identify frames that should be preserved. Second, an intra-frame selection step further discards more redundant tokens within the selected frames. Our analysis highlights the advantage of a diversity-based strategy for inter-frame selection, which ensures broad coverage of the scene. For intra-frame selection, we show that layer-aware sparsification is necessary, with the selection process guided by the entropy of the global attention pattern. Our approach offers a superior speed-accuracy trade-off compared to existing solutions. Extensive experiments show that it accelerates visual geometry transformers by over 85% for scenes with 500 images while maintaining, or even improving, baseline performance, which hints that how our token selection strategy can play a crucial role in future applications of visual geometry transformers. Our project website is available at https://zsh2000.github.io/good-token-hunting.github.io.",
+  "title_relatable": "How to speed up 3D reconstruction by picking the right image tokens?",
+  "hook": "Cuts computational cost 85% on large 3D scenes by selectively dropping redundant visual tokens while maintaining reconstruction quality.",
+  "summary": "Visual geometry transformers reconstruct 3D scenes from multiple images but slow down as sequence length grows due to global attention. The authors propose a two-stage token selection: first, identify which image frames matter most using diversity-based scoring; second, prune redundant tokens within those frames based on attention entropy patterns. On 500-image scenes, this delivers 85% speedup without sacrificing accuracy—sometimes improving it—making multi-view 3D reconstruction practical for larger datasets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 786,
+  "tokens_out": 183,
+  "cost_usd": 0.0013608000000000001,
+  "ingested_at": "2026-05-26T00:30:21.383001+00:00"
+}

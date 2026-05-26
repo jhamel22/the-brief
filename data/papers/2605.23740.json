@@ -1,0 +1,23 @@
+{
+  "id": "2605.23740",
+  "arxiv_url": "https://arxiv.org/abs/2605.23740",
+  "announced_date": "2026-05-22",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.space-ph",
+    "physics.soc-ph"
+  ],
+  "title_original": "Conceptualizing and Defining the Circular Space Economy",
+  "authors": "Jonas Bahlmann, Michael Saidani, Enrico Stoll, Andreas M. Hein",
+  "abstract": "Space faces significant sustainability issues including orbital congestion and debris accumulation. The continued growth of space operations, accelerated by advancements such as reusable launch systems, further intensifies these pressures. Current mitigation strategies, such as deorbiting spacecraft or transferring them to graveyard orbits, remain inherently linear. This \"take-make-waste\" approach is environmentally unsustainable and economically inefficient. On Earth, similar challenges have driven the development of the circular economy (CE), which aims to eliminate waste and pollution, circulate resources at their highest value, and decouple economic growth from finite resource consumption. While these objectives have been extensively studied across terrestrial sectors, their application to the space domain remains largely unexplored. In particular, the concept of a circular space economy (CSE) remains constrained by narratives centered on reuse, recycling, and in-orbit servicing, lacking a structured definition, consistent terminology, and a clearly defined, comprehensive scope. This lack complicates the systematic integration of circularity into mission design, policy frameworks, and space system architectures. After a detailed analysis of established CE definitions and CSE definition proposals, this work conceptualizes the CSE and introduces a structured definition for the first time. It analyzes Earth-space distinctions, clarifies the relationship between space sustainability and the CSE, establishes the 10R Space Framework to narrow, slow, and close resource loops, and distinguishes three operational environments: (I) the CE in space, (II) the CE of the terrestrial (space) sector, and (III) the CE of celestial bodies beyond Earth. Ultimately, this work enables a shared understanding and aims to strengthen the concept's recognition in the space sustainability debate.",
+  "title_relatable": "What does a circular space economy actually mean?",
+  "hook": "Orbital debris and launch growth demand a new sustainability model for space—but the concept lacks clear definition. This work provides one.",
+  "summary": "Orbital congestion and debris now threaten space operations, yet current solutions like deorbiting are purely linear: launch, use, discard. Earth's circular economy model—reusing and recycling resources rather than mining new ones—hasn't been adapted to space. This paper defines a circular space economy for the first time, laying out how to close resource loops in three domains: within space systems, across Earth's space industry, and on other planets. It's the conceptual framework needed to shift from deorbiting satellites to repairing, refueling, and reusing them.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 810,
+  "tokens_out": 197,
+  "cost_usd": 0.001436,
+  "ingested_at": "2026-05-26T00:20:43.760983+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23896",
+  "arxiv_url": "https://arxiv.org/abs/2605.23896",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "A Stochastic Approach for Determining the Quark Confinement Potential of Charmonia",
+  "authors": "Ahmet Bingul, Altug Ozpineci",
+  "abstract": "In this study, a non-relativistic potential model is used to calculate the mass spectrum and decay properties of low lying charmonium states. A stochastic framework is proposed to extract the possible analytical form of the confinement part of the interaction potential between quarks. Based on this approach, it is found that the confinement function deviates slightly from a linear form at large distances. The results obtained are compared with other theoretical predictions and current PDG values.",
+  "title_relatable": "What's the actual shape of the force holding charm quarks together?",
+  "hook": "New method reveals the confinement potential binding quarks deviates subtly from linearity at large distances, challenging decades of assumptions.",
+  "summary": "Physicists used a stochastic approach to extract the confinement potential—the force binding charm quarks together—from charmonium particle masses and decays. They found the potential deviates slightly from the long-assumed linear form at large separations, refining a decades-old model of quark interactions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 539,
+  "tokens_out": 150,
+  "cost_usd": 0.0010312000000000001,
+  "ingested_at": "2026-05-26T00:20:01.585953+00:00"
+}

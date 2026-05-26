@@ -1,0 +1,22 @@
+{
+  "id": "2605.23715",
+  "arxiv_url": "https://arxiv.org/abs/2605.23715",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "NLG Evaluation: Past, Present, Future",
+  "authors": "Ehud Reiter",
+  "abstract": "Natural Language Generation (NLG) evaluation has changed dramatically since 1990, and will continue to evolve in the future. In 1990, when NLG had close ties to linguistics, there was very little formal experimental evaluation in the modern sense. In 2026, when NLG is closely linked to machine learning, experimental evaluation is expected and indeed fundamental to research. Many evaluation techniques were developed over this period, including most recently LLM-as-Judge. I expect NLG evaluation will continue to evolve in the future. In particular, impact, qualitative, and safety evaluation will become more important as large numbers of people routinely use NLG technology.",
+  "title_relatable": "How we learned to measure whether AI writing actually works",
+  "hook": "From linguistic theory to LLM judges: three decades of reinventing how we evaluate machine-generated text.",
+  "summary": "NLG evaluation transformed from informal analysis in 1990 to rigorous experimental methods today, driven by AI's shift from linguistics to machine learning. Recent techniques like LLM-as-Judge automate quality assessment, but the field faces new demands: measuring real-world impact, understanding failure modes through qualitative analysis, and ensuring safety as millions use these systems. The next era will prioritize practical outcomes over benchmark metrics.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 569,
+  "tokens_out": 162,
+  "cost_usd": 0.0011032000000000001,
+  "ingested_at": "2026-05-26T00:26:47.263420+00:00"
+}

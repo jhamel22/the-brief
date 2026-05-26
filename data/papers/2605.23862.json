@@ -1,0 +1,23 @@
+{
+  "id": "2605.23862",
+  "arxiv_url": "https://arxiv.org/abs/2605.23862",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "quant-ph",
+    "gr-qc"
+  ],
+  "title_original": "Indefinite probabilities in quantum spacetime: A deepening of unpredictability",
+  "authors": "Vittorio D'Esposito, Giuseppe Fabiano, Domenico Frattulillo",
+  "abstract": "Non-commutative spacetime and quantum groups have been argued to capture non-classical features of spacetime and its symmetries in the low-energy limit of quantum gravity. In this letter, we show that employing the $SU_q(2)$ quantum group to describe rotational symmetry for spin-$\\frac{1}{2}$ systems and Stern-Gerlach apparatuses leads to the description of probabilities of outcomes of spin measurements in terms of non-commuting operators. As a result, we obtain an uncertainty principle between different probability operators, realizing a notion of indefinite probabilities. This is then reflected in the non-commutativity of the entries of the rotation matrix relating the reference frames of two observers, hence fundamentally preventing them from sharply measuring their relative orientation.",
+  "title_relatable": "What if quantum gravity makes probabilities themselves uncertain?",
+  "hook": "A quantum-gravity symmetry group forces measurement probabilities to obey uncertainty relations — you can't know all odds at once.",
+  "summary": "Using a mathematical structure called SU_q(2) — a 'quantum deformation' of ordinary rotational symmetry thought to emerge near the Planck scale — the authors show that probabilities for spin measurements no longer commute with each other. This creates a Heisenberg-like uncertainty relation between probabilities themselves: knowing the odds of one spin outcome forces the odds of another to be indefinite. Two observers using such a framework can never precisely agree on their relative orientation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 616,
+  "tokens_out": 173,
+  "cost_usd": 0.004443,
+  "ingested_at": "2026-05-26T00:16:14.161184+00:00"
+}

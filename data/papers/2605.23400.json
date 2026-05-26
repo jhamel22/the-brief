@@ -1,0 +1,22 @@
+{
+  "id": "2605.23400",
+  "arxiv_url": "https://arxiv.org/abs/2605.23400",
+  "announced_date": "2026-05-22",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "De-risking renewable energy investments: Assessing contract design and project finance using operational wind park data",
+  "authors": "Jorge Sánchez Canales, Lion Hirth",
+  "abstract": "Investment in renewable electricity generation is highly capital intensive and therefore strongly dependent on financing conditions. In Europe, much of this investment has occurred under public support schemes that resemble long-term public contracts such as feed-in tariffs (FiTs) and contracts-for-differences (CfDs). These contracts not only subsidize renewable generation but also stabilize project cash flows by reducing exposure to electricity price volatility, thereby improving debt capacity and lowering financing costs. At the same time, they may distort operational and investment incentives by weakening exposure to wholesale market price signals. This paper studies how alternative public contract designs reduce revenue risk and how this translates into financing outcomes. Using a novel dataset of hourly turbine-level generation covering 63 German onshore wind parks over the period 2013-2024, we simulate project cash flows under two-sided CfDs, one-sided CfDs, and financial CfDs. We then evaluate their implications for cash-flow volatility, debt capacity, and the levelized cost of electricity using a project finance model based on a conservative debt-service coverage ratio (DSCR) constraint. We find that financial CfDs provide hedging performance comparable to conventional two-sided CfDs. The results suggest that the commonly assumed trade-off between revenue stabilization and efficient market integration is not inherent but depends on contract design. More broadly, public contracts can substitute missing long-term hedging markets. These results have direct policy implications for the design of renewable energy support schemes.",
+  "title_relatable": "Can governments cut renewable financing costs without killing market signals?",
+  "hook": "Financial contracts can stabilize wind farm cash flows as effectively as traditional subsidies, but without distorting electricity prices—if designed right.",
+  "summary": "Using real operational data from 63 German wind parks, researchers modeled how different contract structures affect project financing. Financial contracts-for-difference matched the risk-reduction of conventional subsidies while preserving exposure to wholesale prices. This suggests policymakers can cheapen renewable debt without sacrificing market efficiency.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 726,
+  "tokens_out": 142,
+  "cost_usd": 0.0011488000000000002,
+  "ingested_at": "2026-05-26T00:32:36.194078+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23699",
+  "arxiv_url": "https://arxiv.org/abs/2605.23699",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "CRONOS: Benchmarking Counterfactual Physical Consistency in Video Models",
+  "authors": "León Begiristain, Olaf Dünkel, Adam Kortylewski",
+  "abstract": "Video prediction is increasingly viewed as a path toward generalizable world models, yet it remains unclear whether these systems learn underlying causal structure or merely exploit superficial visual correlations for future prediction. We introduce CRONOS, an intervention-based benchmark designed to evaluate counterfactual physical consistency: whether a model's predictions of physical events respond appropriately to controlled changes in the visual input, such as variations of scene context, viewpoint, object appearance, and object category. Built in a photorealistic Unreal Engine environment, CRONOS enables controlled, high-fidelity generation of videos across diverse scenes and dynamics. In contrast to previous benchmarks, CRONOS systematically intervenes on four key factors - viewpoint, scene, object category, and object appearance - while keeping the underlying physical event type, such as a collision, occlusion, or fall, fixed. Our evaluation of recent open-source video generators reveals substantial failures in counterfactual physical consistency: prediction quality for the same physical event type is affected by appearance, environment, and, particularly by viewpoint changes. CRONOS provides a controlled and reproducible testbed for diagnosing how the quality of generated videos changes for different interventions, establishing a concrete target for developing models that perform consistently across changes of multiple conditions. The dataset and code are available at our project page.",
+  "title_relatable": "Do video models understand physics or just memorize patterns?",
+  "hook": "New benchmark exposes how video generators fail basic physics tests when scenes, viewpoints, or objects change—revealing they've learned superficial correlations, not causal understanding.",
+  "summary": "Video models are pitched as paths to general world understanding, but CRONOS—a new intervention-based benchmark—shows they don't actually grasp physics. Built in photorealistic Unreal Engine, it tests whether models predict the same physical event (collision, occlusion, fall) correctly when you change viewpoint, scene, object appearance, or category. Recent open-source generators consistently fail: prediction quality drops when viewpoint shifts or objects look different, even for identical underlying physics. Dataset and code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 724,
+  "tokens_out": 193,
+  "cost_usd": 0.0013512,
+  "ingested_at": "2026-05-26T00:28:55.636541+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.23512",
+  "arxiv_url": "https://arxiv.org/abs/2605.23512",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Examining extinction distributions for type Ia supernovae in simulated 3D galaxies",
+  "authors": "João Duarte, Santiago González-Gaitán, Ana M. Mourão, Rita P. Santos, Radoslaw Wojtak",
+  "abstract": "Dust extinction and reddening greatly contribute to type Ia supernovae (SNe Ia) observed color and magnitude variations. The models used to describe the extinction probability density function (PDF) are often simplistic, which can negatively impact SN simulations and cosmology. We present an analysis of simulated SN Ia extinction in galaxies along realistic lines of sight and investigate the parameterization of its PDF, as well as its dependence on host properties. We employed SKIRT, a radiative transfer code, to simulate observations of SNe Ia in different environments and generate synthetic extinction distributions. To parameterize and fit these distributions, we used both the commonly assumed single-parameter exponential PDF and some of its two-parameter generalizations. We find that the standard exponential PDF does not adequately describe simulated SN extinction: It underestimates low-extinction events and overestimates high-extinction ones. 2D KS tests show significant differences between the simulated extinction distributions for SNe in different environments, which the exponential parameterization cannot properly distinguish. In contrast, the two-parameter PDFs parameterize SN extinction distributions more accurately across all simulated environments. Variations in host morphology or dust mass relate to variations in different PDF parameters, meaning that the two effects can effectively be disentangled. We conclude that the two-parameter Weibull or exponentiated exponential PDFs offer the best parameterizations of SN Ia extinction for a wide range of simulated environments. Analyzing observed SN colors from the literature and assuming a Gaussian distribution for the intrinsic component, we conclude that a two-parameter extinction PDF results in intrinsically redder SNe, with their mean intrinsic color shifted ~2$σ$ in relation to the standard exponential extinction PDF.",
+  "title_relatable": "Why standard dust models fail for supernova cosmology",
+  "hook": "Simple exponential functions misrepresent how dust reddens distant supernovae in realistic galaxies, biasing cosmological measurements by 2 standard deviations.",
+  "summary": "Simulations of type Ia supernovae viewed through realistic galactic dust show that the standard exponential model for extinction—used in most supernova surveys—systematically undercounts faint, low-extinction events and overcounts heavily obscured ones. A two-parameter Weibull function fits the actual dust distribution far better and reveals that supernova intrinsic colors are ~2σ redder than previously thought, with implications for distance measurements used in dark energy studies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 843,
+  "tokens_out": 189,
+  "cost_usd": 0.0014304,
+  "ingested_at": "2026-05-26T00:19:32.103061+00:00"
+}

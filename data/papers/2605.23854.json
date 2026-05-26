@@ -1,0 +1,24 @@
+{
+  "id": "2605.23854",
+  "arxiv_url": "https://arxiv.org/abs/2605.23854",
+  "announced_date": "2026-05-22",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "math.ST",
+    "stat.ML"
+  ],
+  "title_original": "Entrywise Error Bounds for Spectral Ranking with Semi-Random Adversaries",
+  "authors": "Dongmin Lee, Anuran Makur, Japneet Singh",
+  "abstract": "Bradley-Terry-Luce (BTL) model estimation is a well-established strategy to rank a collection of items given a dataset of pairwise comparisons. Although the theoretical performance of BTL estimation methods, such as spectral and maximum likelihood estimation, is well studied in the regime of uniformly sampled graphs, generalizing such results to a wider class of random graphs has proved challenging. In this work, we investigate the entry-wise error of spectral algorithms against a semi-random adversary that can arbitrarily boost the sampling probabilities of certain edges. We find that the performance of the unweighted spectral method is heavily dependent on the spectral properties of the generated graph. Furthermore, we show that asymptotic performance approaching that of uniformly sampled graphs can be recovered by appropriately reweighting the observed edges to counteract the adversary and restore the spectral gap. Finally, we provide numerical simulations that support our theoretical findings.",
+  "title_relatable": "When ranking goes wrong: fixing spectral methods against biased comparisons",
+  "hook": "Spectral ranking algorithms fail when adversaries cherry-pick which comparisons to include, but reweighting edges recovers near-optimal performance.",
+  "summary": "Ranking items from pairwise comparisons (like sports wins/losses) works well in theory when data is uniformly sampled, but breaks down when an adversary selectively amplifies certain matchups. This paper shows spectral algorithms are vulnerable to such bias, but proves you can recover near-optimal accuracy by reweighting edges to restore the graph's spectral properties. Results hold even against semi-random adversaries controlling which comparisons appear.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 645,
+  "tokens_out": 178,
+  "cost_usd": 0.001228,
+  "ingested_at": "2026-05-26T00:31:04.972674+00:00"
+}

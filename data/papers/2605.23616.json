@@ -1,0 +1,22 @@
+{
+  "id": "2605.23616",
+  "arxiv_url": "https://arxiv.org/abs/2605.23616",
+  "announced_date": "2026-05-22",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Value-focused modelling to generate alternatives -- Coupling multi-criteria decision analysis and optimisation models to support strategic decisions",
+  "authors": "Emily Bergup, Jonas Finke, Sebastian Schär, Valentin Bertsch",
+  "abstract": "Decision support methods from operations research are widely used to support complex planning decisions. Within the energy sector, energy system models (ESMs) applying modelling to generate alternatives (MGA) generate large sets of near-optimal, different system configurations. However, they typically generate and analyse alternatives in the model variable space without ensuring stakeholder relevance. Multi-criteria decision analysis (MCDA), in contrast, provides a structured means to account for conflicting objectives and heterogeneous stakeholder interests but often relies on a limited set of pre-defined alternatives that may not appropriately represent the feasible solution space. To address these limitations, this work proposes value-focused modelling to generate alternatives (VF-MGA), a novel methodology that bidirectionally couples MGA and MCDA. Stakeholder objectives elicited within the MCDA inform the MGA-algorithm, enabling a stakeholder-orientated diversification of the alternatives, which are subsequently evaluated within the MCDA based on elicited stakeholder preferences, thereby providing a comprehensive decision basis. Applied to a case study on the decarbonised energy supply of a large university campus, involving eleven stakeholders representing diverse institutional groups, VF-MGA (i) systematically integrates stakeholder objectives into the generation of 691 alternatives reflecting stakeholder-relevant interests, (ii) enables the identification of stakeholder-relevant alternatives from this large set through MCDA-based evaluation, and (iii) provides more differentiated stakeholder preference information by evaluating a large and diverse set of alternatives, thereby revealing acceptable ranges for system options. With this, VF-MGA provides a generalisable methodology for complex planning decision integrating quantitative modelling with participatory decision analysis.",
+  "title_relatable": "How to find energy plans that stakeholders actually want",
+  "hook": "Combining computer optimization with stakeholder input generates 691 different campus energy blueprints—revealing which options people can live with.",
+  "summary": "A German university campus faced the problem of choosing a decarbonization strategy with 11 competing stakeholders. Rather than optimize for a single \"best\" answer, researchers coupled stakeholder preferences directly into the algorithm itself, generating 691 alternative plans that reflected what different groups actually cared about. By evaluating this diverse set through stakeholder preferences, they identified acceptable ranges for key options (solar capacity, storage, backup power) that single-optimal solutions would have missed.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 781,
+  "tokens_out": 175,
+  "cost_usd": 0.0013248000000000001,
+  "ingested_at": "2026-05-26T00:32:33.722299+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23628",
+  "arxiv_url": "https://arxiv.org/abs/2605.23628",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "How Hard is it to Rig a Benchmark? A Social Choice Analysis of Leaderboard Robustness",
+  "authors": "Polina Gordienko, Georg Schollmeyer, Frauke Kreuter, Christoph Jansen",
+  "abstract": "Multi-task benchmarks have become a central pillar of machine learning research, yet their growing influence has incentivised benchmark gaming -- strategic actions taken to improve the leaderboard rank of a specific model. Treating datasets as voters and models as candidates, we consider benchmark-specific training -- the inclusion of benchmark data in training -- as a form of election manipulation. For any ordinal benchmark, the problem of choosing datasets to train on so that a target model becomes top-ranked corresponds to shift bribery, a class of manipulation problems from computational social choice. Leveraging this identification, we show that the benchmark-specific training problem is NP-hard under Borda count and mean win rate. Complementing this worst-case perspective, we introduce the instance-level robustness, the minimum number of datasets a model developer must include in training to top a given leaderboard, and derive expressions for it under arithmetic mean, median, mean win rate and pairwise majority. We evaluate these expressions on MMLU under HELM and on BIG-Bench Hard (BBH) under the Open LLM Leaderboard. Across both suites, mean win rate is hardest to manipulate: this gap is clear on BBH (24 tasks, 4507 models), where its median robustness is 22 tasks (92%), compared with 13 (54%) under arithmetic mean and 12 (50%) under median and pairwise majority.",
+  "title_relatable": "How vulnerable are ML benchmarks to deliberate gaming?",
+  "hook": "Mean win rate requires 22 of 24 tasks to game BBH leaderboard—but arithmetic mean only needs 13, making some scoring rules 4× easier to manipulate.",
+  "summary": "Researchers model benchmark gaming as election manipulation and show that choosing which datasets to train on to top-rank a model is NP-hard—computationally intractable in the worst case. They measured real leaderboards (HELM, Open LLM) and found mean win rate is hardest to game (92% robustness on BBH), while arithmetic mean collapses to 54%. This matters because leaderboards drive model development; understanding which scoring rules resist strategic behavior could improve how the field evaluates progress.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 773,
+  "tokens_out": 203,
+  "cost_usd": 0.0014304,
+  "ingested_at": "2026-05-26T00:23:14.212236+00:00"
+}

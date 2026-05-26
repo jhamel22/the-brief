@@ -1,0 +1,22 @@
+{
+  "id": "2605.23629",
+  "arxiv_url": "https://arxiv.org/abs/2605.23629",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "DDX-TRACE: A Benchmark for Medical Diagnostic Trajectories in VLMs",
+  "authors": "Jiazhen Pan, Weixiang Shen, Jun Li, Julian Canisius, Felix Bitzer, Paula Roßmüller, Jiancheng Yang, Virginie Kreutzinger, Daniel Rueckert, Benedikt Wiestler",
+  "abstract": "Medical diagnosis is not a single prediction from a fully specified vignette. It is a sequential workup: clinicians decide what evidence to obtain, revise a differential diagnosis, and stop when the diagnosis is sufficiently supported. Most medical AI benchmarks instead reveal the relevant context upfront and score only the final answer, making unsupported correct guesses, premature closure, inefficient workups, and poor uncertainty updating invisible. We introduce DDX-TRACE, a physician-adjudicated benchmark for multimodal neuroradiology that evaluates diagnostic trajectories under hidden evidence over 211 challenging cases. Each case begins with limited clinical history; models request imaging studies in free form, receive matched image bundles when available, update a probabilistic differential diagnosis after each turn, and stop with a localized final diagnosis. Evaluating state-of-the-art VLMs, we find that final diagnosis scores can substantially misrepresent workup quality: models may guess plausible diagnoses without essential evidence, request useful studies but misinterpret raw images, or acquire evidence inefficiently while updating uncertainty poorly. Controlled evidence variants isolate bottlenecks in planning, visual evidence extraction, and downstream differential reasoning. DDX-TRACE shifts medical AI evaluation from final answers to evidence-supported diagnostic trajectories.",
+  "title_relatable": "Do AI doctors actually think like doctors? A new benchmark reveals they don't",
+  "hook": "New benchmark shows vision-language models guess diagnoses correctly without proper evidence—revealing AI that scores well but diagnoses poorly.",
+  "summary": "Most medical AI benchmarks hand over all information upfront and score only the final diagnosis, missing how doctors actually work: gathering evidence iteratively, updating their thinking, and stopping when confident enough. DDX-TRACE tests vision-language models on 211 neuroradiology cases where they must request imaging, interpret results, and build a probabilistic diagnosis over multiple turns. State-of-the-art models often achieve the right diagnosis by luck rather than sound reasoning, misinterpret images they request, or gather evidence inefficiently. The benchmark exposes these failures that traditional metrics hide.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 767,
+  "tokens_out": 203,
+  "cost_usd": 0.0014256,
+  "ingested_at": "2026-05-26T00:29:43.773919+00:00"
+}

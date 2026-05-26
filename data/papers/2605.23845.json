@@ -1,0 +1,22 @@
+{
+  "id": "2605.23845",
+  "arxiv_url": "https://arxiv.org/abs/2605.23845",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Learning a Particle Dynamics Model with Real-world Videos",
+  "authors": "Chanho Kim, Suhas V. Sumukh, Li Fuxin",
+  "abstract": "Data-driven learning approaches for physics simulation, sometimes referred to as world models, have emerged as promising alternatives to traditional physics simulators due to their differentiable nature. Prior work has demonstrated impressive results in predicting the motions of rigid and non-rigid objects in complex scenes involving multiple interacting bodies. However, these models are typically trained in simulated environments because obtaining perfect state information such as complete scene point clouds and point correspondences over time is challenging in real-world settings. This reliance on synthetic data can limit their applicability when the sim-to-real gap is large. In this work, we aim to overcome these limitations by introducing a novel framework for training neural object dynamics models directly from unlabeled real-world videos. Specifically, we propose to learn a particle-based dynamics model compatible with a Gaussian splatting framework, which operates on dense particles derived from Gaussians (i.e., particles with scales and rotations) and predicts their position and rotation changes over time. The model is trained via rendering supervision, enabling learning from real-world videos without requiring particle-level labeled states. Our model operates directly on dense Gaussians without relying on heuristic subsampling anchor points. To enable this study, we also present a real-world dataset consisting of about 500 videos capturing diverse object interactions.",
+  "title_relatable": "Can physics models learn from real videos without perfect labels?",
+  "hook": "Neural dynamics model trained on 500 real-world videos using only rendering supervision, eliminating need for labeled particle states.",
+  "summary": "Most physics simulators trained on videos require perfect state information—complete point clouds, tracked particles—which real videos don't provide. This work trains a particle-based dynamics model directly from unlabeled real-world videos by using Gaussian splatting and rendering supervision: the model predicts how particles move and rotate, and learns by comparing rendered outputs to actual frames. The approach sidesteps the sim-to-real gap that has limited prior methods, demonstrated on a new dataset of 500 videos with diverse object interactions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 717,
+  "tokens_out": 185,
+  "cost_usd": 0.0013135999999999998,
+  "ingested_at": "2026-05-26T00:28:49.618959+00:00"
+}

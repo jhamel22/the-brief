@@ -1,0 +1,23 @@
+{
+  "id": "2605.23857",
+  "arxiv_url": "https://arxiv.org/abs/2605.23857",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "Strong Teacher Not Needed? On Distillation in LLM Pretraining",
+  "authors": "Taiming Lu, Zhuang Liu",
+  "abstract": "Knowledge distillation generally assumes a strong-to-weak relationship where stronger teachers yield better students. In this work, we examine this assumption about distillation in large language model pretraining. By varying architecture sizes and training token budgets, we create strong-to-weak, same-level, and weak-to-strong teacher-student relationships, and study distillation's effectiveness under each. We find that the teacher need not be strong: with proper mixing of the language modeling and knowledge distillation losses, even small and undertrained teachers improve larger students. At the same time, a stronger teacher is not always better: pushing the teacher further, through more parameters or more training tokens, can saturate or even reverse the distillation gains. We further observe that distillation improves generalization (out-of-distribution and downstream performance) more readily than in-domain fitting. Together, these results challenge the common belief that distillation pretraining always requires a strong teacher.",
+  "title_relatable": "Do language models need strong teachers to learn better?",
+  "hook": "Weak teachers can improve large language models, but stronger isn't always better—challenging conventional distillation wisdom.",
+  "summary": "Knowledge distillation typically assumes strong teachers produce better students. This work tests that assumption by pairing language models of various sizes and training stages as teachers and students. Surprisingly, even small, undertrained teachers improve larger students when losses are properly balanced, and pushing teachers further sometimes hurts performance. The benefit shows up most clearly in generalization and downstream tasks rather than raw perplexity—questioning whether distillation pretraining actually needs a strong teacher at all.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 643,
+  "tokens_out": 170,
+  "cost_usd": 0.0011944000000000002,
+  "ingested_at": "2026-05-26T00:23:05.994086+00:00"
+}

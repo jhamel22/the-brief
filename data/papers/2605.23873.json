@@ -1,0 +1,25 @@
+{
+  "id": "2605.23873",
+  "arxiv_url": "https://arxiv.org/abs/2605.23873",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.quant-gas",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Coherent dynamics in chaotic spin chains via interference-protected subspaces",
+  "authors": "Aron Kerschbaumer, Jean-Yves Desaules, Maksym Serbyn",
+  "abstract": "Generic quantum many-body systems are expected to thermalize, scrambling initial coherence while local observables relax to equilibrium values. Weak ergodicity breaking, often associated with quantum many-body scarring of homogeneous states, provides rare exceptions with long-lived coherence. We introduce a family of local spin-1/2 chains with a structured subspace that hosts a much broader range of nonthermal phenomena, such as scars, chirally propagating quasiparticles or approximate topological edge modes. These nonthermal phenomena happening at high energy densities can be understood via structured subspaces that are protected by destructive interference. We develop a quantitative leakage theory predicting which states retain coherence and suggest ways to improve the stability by inducing fast oscillations in the complement subspace. Our framework connects asymptotic scars, quantum cages, and parent-Hamiltonian constructions, and shows that weak ergodicity breaking in chaotic systems extends well beyond revivals of homogeneous initial states.",
+  "title_relatable": "Why do some quantum systems refuse to scramble into chaos?",
+  "hook": "A single framework explains how order survives inside chaotic quantum spin chains, unifying three previously separate phenomena.",
+  "summary": "Most quantum systems scramble any initial order into thermal noise, but certain spin chains host pockets of structure that destructive interference shields from chaos. By mapping out these \"interference-protected subspaces,\" the authors show that long-lived coherence, edge modes resembling topological states, and chirally propagating particles can all coexist inside an otherwise chaotic system at high energy densities. A leakage theory predicts exactly which initial states stay coherent longest — useful for anyone trying to preserve quantum information in realistic, noisy systems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 667,
+  "tokens_out": 184,
+  "cost_usd": 0.004761,
+  "ingested_at": "2026-05-26T00:18:32.500476+00:00"
+}

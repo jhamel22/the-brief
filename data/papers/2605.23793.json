@@ -1,0 +1,23 @@
+{
+  "id": "2605.23793",
+  "arxiv_url": "https://arxiv.org/abs/2605.23793",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Charged long-lived particles in the GMSB scenario at the Future Circular Collider (FCC-ee)",
+  "authors": "Soumyaa Vashishtha, Maximilian Emanuel Goblirsch-Kolb, Isabell Melzer-Pellmann",
+  "abstract": "Long-lived particles have emerged as a compelling signature of physics beyond the standard model, offering unique discovery opportunities at current and future colliders. We present an analysis of charged long-lived particles leading to signatures with kinked tracks and displaced vertices. Our study is motivated by the gauge mediated supersymmetry breaking model (GMSB) within the minimal supersymmetric standard model scenario, in which the lightest supersymmetric particle is a gravitino and the next-to-lightest supersymmetric particle is the stau, the superpartner of the tau lepton. The stau is predicted to be long-lived due to the small coupling between it and the gravitino. This work presents a phenomenological study of such long-lived staus with lifetimes between 20~cm and 20~m and explores their discovery prospects at the Future Circular Collider (FCC-ee), a proposed $e^{+}e^{-}$ collider. The results highlight the sensitivity to the GMSB model.",
+  "title_relatable": "Can the next collider catch supersymmetric particles that barely decay?",
+  "hook": "A proposed electron–positron collider could detect long-lived staus from supersymmetry, traveling meters before decaying and leaving distinctive kinked tracks.",
+  "summary": "In a leading supersymmetry model (GMSB), the stau—a heavy cousin of the tau lepton—decays so slowly it travels centimeters to meters through a detector before vanishing. This analysis shows how the FCC-ee, a planned high-energy collider, could spot these delayed decays via bent particle tracks and separated decay vertices, offering a new window on physics beyond the standard model.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 685,
+  "tokens_out": 178,
+  "cost_usd": 0.00126,
+  "ingested_at": "2026-05-26T00:20:04.578196+00:00"
+}

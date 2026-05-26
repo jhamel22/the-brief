@@ -1,0 +1,22 @@
+{
+  "id": "2605.23738",
+  "arxiv_url": "https://arxiv.org/abs/2605.23738",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Optimizing Parallel Execution of Commuting Pauli Product Rotations",
+  "authors": "Sayam Sethi, Devika Nambisan, Jonathan Mark Baker",
+  "abstract": "Fault-Tolerant Quantum Computation (FTQC) permits parallel execution of mutually commuting Pauli Product Rotations (PPRs), but per-qubit access point/port limits (e.g. two X and two Z edges on the surface code) force commuting groups that exceed the budget to be split, inflating circuit depth. We propose two heuristics for reducing this hardware-limited depth: 1. clique reshuffling, which permutes commuting products and re-forms port-constrained groups, and 2. generator restructuring, which rewrites each group as an equivalent generating set with reduced per-qubit port pressure. On QASMBench circuits compiled to PPRs, we combine the two heuristics and observe an average hardware-limited depth reduction of $10-20\\%$ over a non-reordering baseline, with up to $50\\%$ reduction. These observed gains scale with the per-qubit port budget and saturate near $20$ ports, suggesting these heuristics remain relevant as hardware exposes more access points.",
+  "title_relatable": "Can smarter scheduling make quantum circuits significantly faster?",
+  "hook": "Two simple rescheduling tricks cut quantum circuit depth by up to 50% on real hardware constraints.",
+  "summary": "Quantum computers running error-corrected code can execute multiple operations simultaneously — but only if each qubit isn't asked to do too many things at once. Two new scheduling heuristics exploit this headroom: one reorders groups of compatible operations, the other rewrites them to spread hardware load more evenly. Tested on standard benchmark circuits, the approach cuts circuit depth by 10–20% on average and up to 50% in the best cases, with gains that plateau around 20 access points per qubit.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 675,
+  "tokens_out": 177,
+  "cost_usd": 0.00468,
+  "ingested_at": "2026-05-26T00:18:59.238919+00:00"
+}

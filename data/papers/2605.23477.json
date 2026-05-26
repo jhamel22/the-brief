@@ -1,0 +1,22 @@
+{
+  "id": "2605.23477",
+  "arxiv_url": "https://arxiv.org/abs/2605.23477",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation",
+  "authors": "Chengyu Deng, Guanqi Chen, Yizhou Chen, Zejia Liu, Zhiwen Ruan, Guanhua Chen, Jia Pan",
+  "abstract": "Diffusion-based policies have established a new standard for precise robotic manipulation but face a critical scalability bottleneck: high-performance models are computationally expensive, while lightweight alternatives often fail to generalize across diverse multi-task environments. Mixture-of-Experts (MoE) architectures offer a promising path to efficiency by activating only a subset of parameters. However, existing MoE routing mechanisms typically rely on low-level noise or latent statistics, ignoring the compositional nature of manipulation tasks. This can fragment reusable behaviors across experts, limiting interpretability and transferability. We introduce Semantically Structured Mixture-of-Experts Diffusion Policy (SMoDP) for compositional robotic manipulation, a framework that grounds expert specialization in semantic task structure. SMoDP leverages a lightweight, inference-time skill predictor, supervised by offline annotations from Vision-Language Models (VLMs), to route action chunks to experts specialized for specific behavioral phases. To ensure robust assignment, we propose a dual contrastive alignment strategy that grounds multi-modal observations in language-defined skill semantics (Inter-modal) while enforcing routing consistency across visually distinct but functionally related behaviors (Intra-modal). Our approach outperforms representative diffusion and MoE-based baselines on multi-task benchmarks with significantly improved parameter efficiency and demonstrates effective compositional transfer to novel tasks through parameter-efficient fine-tuning. Project website: https://deng-cy20.github.io/SMoDP/",
+  "title_relatable": "Can robots learn shared skills to handle multiple tasks efficiently?",
+  "hook": "Semantic routing in mixture-of-experts cuts model size while improving multi-task robotic performance through language-guided skill specialization.",
+  "summary": "Diffusion policies excel at robotic manipulation but are computationally expensive and struggle to scale across diverse tasks. This work uses a mixture-of-experts approach where a lightweight skill predictor—trained on Vision-Language Model annotations—routes different behavioral phases to specialized experts. By grounding expert assignment in semantic task structure rather than raw latent noise, the method achieves better generalization while using fewer parameters, and transfers effectively to new tasks through efficient fine-tuning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 800,
+  "tokens_out": 177,
+  "cost_usd": 0.001348,
+  "ingested_at": "2026-05-26T00:30:35.120005+00:00"
+}

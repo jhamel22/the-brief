@@ -1,0 +1,23 @@
+{
+  "id": "2605.23759",
+  "arxiv_url": "https://arxiv.org/abs/2605.23759",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex"
+  ],
+  "title_original": "Correlated $b \\to s$ and $s \\to d$ Rare Semileptonic Transitions in the Standard Model Effective Field Theory",
+  "authors": "Nilakshi Das, Rusa Mandal, Praveen S Patil",
+  "abstract": "The persistent anomalies observed in $b \\to s\\,(\\ell^+\\ell^-,\\,ν\\barν)$ transitions continue to provide strong motivation for exploring possible extensions of the Standard Model (SM). Motivated by these discrepancies, we present a comprehensive analysis of semileptonic flavor changing neutral current processes within the Standard Model Effective Field Theory (SMEFT), encompassing both $b \\to s\\,(μ^+μ^-,\\,ν\\barν)$ and $s \\to d\\,(μ^+μ^-,\\,ν\\barν)$ transitions. We perform a combined fit to $b \\to s\\,(μ^+μ^-,\\,ν\\barν)$ observables, allowing the relevant dimension-six Wilson coefficients to be complex. We find that the four-fermion operators involving left-handed quark and lepton doublets provide the preferred description of the current $b \\to s$ data, while the electroweak operator modifying the $Z$-boson couplings also plays an important role in improving the fit. We show that flavor-universal SMEFT couplings lead to strongly enhanced rare semileptonic kaon decay branching ratios, in conflict with current experimental bounds and thus motivating the implementation of Minimal Flavor Violation. In particular, we demonstrate that flavor-symmetric frameworks based on $U(3)^5$ and $U(2)^5$ naturally restore the required CKM hierarchies and bring the predicted kaon observables into agreement with present data. We further analyze the differential distributions with respect to the dineutrino invariant mass squared $q^2$, as well as the reconstructed variable $q^2_{\\mathrm{rec}}$, in $B \\to K^{(*)}ν\\barν$ decays, demonstrating their sensitivity to different new physics operators. In addition, we investigate the impact of complex Wilson coefficients on $\\mathcal{CP}$ asymmetries in $B \\to K^{(*)}μ^+μ^-$ decays and find that percent-level effects can arise in specific $q^2$ regions.",
+  "title_relatable": "Do rare particle decays hint at physics beyond the Standard Model?",
+  "hook": "Physicists find that anomalies in exotic B and K meson decays can be explained by new force carriers, but only if they respect specific symmetry constraints.",
+  "summary": "Rare decays of bottom and strange quarks show persistent deviations from Standard Model predictions. Using effective field theory, researchers fitted these anomalies to identify which new particles or interactions could be responsible, then checked predictions against kaon decay measurements. They found that flavor symmetries naturally suppress unwanted side effects while matching all current data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 946,
+  "tokens_out": 158,
+  "cost_usd": 0.0013888000000000001,
+  "ingested_at": "2026-05-26T00:20:07.102940+00:00"
+}

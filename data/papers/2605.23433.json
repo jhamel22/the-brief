@@ -1,0 +1,23 @@
+{
+  "id": "2605.23433",
+  "arxiv_url": "https://arxiv.org/abs/2605.23433",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "nucl-th",
+    "astro-ph.HE"
+  ],
+  "title_original": "Quasiradial oscillations of rotating hybrid neutron stars",
+  "authors": "Zi-Yue Zheng, Ting-Ting Sun, Huan Chen, Xiao-Ping Zheng, Jin-Biao Wei, G. F. Burgio, H. -J. Schulze",
+  "abstract": "We investigate fundamental quasiradial oscillations in slow-rotation approximation of pure and hybrid neutron stars, employing equations of state of nuclear matter from Brueckner-Hartree-Fock theory or the relativistic mean field model, and of quark matter from the Dyson-Schwinger quark model, performing a Gibbs construction for the mixed phase in hybrid stars. Characteristic differences between neutron-star and hybrid-star fundamental quasiradial oscillation frequencies during spin-down are pointed out.",
+  "title_relatable": "Do neutron stars with quark cores ring differently when spinning down?",
+  "hook": "Neutron stars with hidden quark matter cores vibrate at distinct frequencies than pure neutron stars—a signature potentially detectable through gravitational waves during pulsar spin-down.",
+  "summary": "When neutron stars rotate and gradually slow down, their cores oscillate at characteristic frequencies. This study compares pure neutron stars to hybrid stars containing quark matter cores, finding measurable differences in their fundamental vibration modes. The result offers a way to infer what's hiding inside these extreme objects.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 590,
+  "tokens_out": 154,
+  "cost_usd": 0.001088,
+  "ingested_at": "2026-05-26T00:21:22.233884+00:00"
+}

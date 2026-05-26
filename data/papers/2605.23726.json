@@ -1,0 +1,24 @@
+{
+  "id": "2605.23726",
+  "arxiv_url": "https://arxiv.org/abs/2605.23726",
+  "announced_date": "2026-05-22",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "cs.DS",
+    "stat.ML"
+  ],
+  "title_original": "Optimal Dimension-Free Sampling for Regularized Classification",
+  "authors": "Meysam Alishahi, Alexander Munteanu, Simon Omlor, Jeff M. Phillips",
+  "abstract": "We prove optimal sampling bounds achieving $(1\\pm\\varepsilon)$-relative error for a broad class of Lipschitz continuous classification loss functions under various regularization terms. This includes important functions such as logistic and sigmoid loss, hinge loss, and ReLU loss, as prominent and popular representative examples. In particular, we prove $k^2/\\varepsilon^2$ upper and lower bounds for $\\|\\cdot\\|_2/k$ regularization, and $k/\\varepsilon^2$ upper and lower bounds for $\\|\\cdot\\|_1/k$ regularization. For $\\|\\cdot\\|_2^2/k$ regularization, the sampling complexity depends mainly on a bounded derivative property: if $|g'(x)|\\leq g(x)$, and $g(0)>0$, and $g$ is monotonic or convex, then it admits linear in $k$ sampling complexity; otherwise the general bound is $k^2/\\varepsilon^2$. However, if $g(0)=0$, our results indicate that no dimension-free bounds are possible, and even sublinear bounds are ruled out. All upper bounds are complemented by matching lower bounds up to polylogarithmic terms. Moreover, our work relies conceptually and algorithmically on simple uniform or (squared) norm sampling and hereby improves over recent cubic $k^3/\\varepsilon^2$ sensitivity sampling bounds of (Alishahi and Phillips, ICML'24). This is achieved by refined arguments involving higher moment bounds and empirical process analyses to avoid overcounting that appears in the de-facto standard VC-dimension and sensitivity framework.",
+  "title_relatable": "How many training samples do classification algorithms actually need?",
+  "hook": "Proves optimal sample complexity for regularized classification: k²/ε² for L₂ regularization, k/ε² for L₁, with matching lower bounds—no hidden dependence on dimension.",
+  "summary": "How many data points must you sample to train a classifier reliably? This work settles the question for logistic, hinge, and ReLU losses with various regularizers, proving tight dimension-free bounds. They show L₂ regularization needs k²/ε² samples (where k is parameter count), while L₁ requires only k/ε². For certain loss functions, the bound drops to linear in k. The key insight: refined moment analysis avoids the loose over-counting built into standard sensitivity sampling frameworks, improving prior cubic bounds threefold.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 822,
+  "tokens_out": 218,
+  "cost_usd": 0.0015295999999999999,
+  "ingested_at": "2026-05-26T00:31:07.911545+00:00"
+}

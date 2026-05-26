@@ -1,0 +1,24 @@
+{
+  "id": "2605.23880",
+  "arxiv_url": "https://arxiv.org/abs/2605.23880",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Not all black holes decohere quantum superpositions",
+  "authors": "Anna Biggs, Stefano Trezzi",
+  "abstract": "We study the decoherence induced by near-extremal charged black holes on quantum systems in their exterior. Specifically, we analyze a thought experiment recently discussed in the literature, where the quantum system is a charged particle prepared in a spatial superposition. Near-extremal black holes are known to exhibit large quantum metric fluctuations of the near-horizon geometry at low temperatures. We show that, at late times, if the black hole is sufficiently close to extremality, these quantum gravity effects make the decoherence rate vanish. This phenomenon is due to a spin-induced energy gap in the quantum black hole spectrum. For energies above the gap, the decoherence rate becomes nonzero, but is still suppressed relative to semiclassical expectations, so these quantum gravity effects always enhance the coherence of the superposition.",
+  "title_relatable": "Some black holes actually preserve quantum superpositions — not destroy them",
+  "hook": "Near-extremal charged black holes develop an energy gap that shuts off quantum decoherence entirely.",
+  "summary": "Black holes are usually expected to collapse quantum superpositions through gravitational decoherence — but maximally charged (near-extremal) black holes behave differently. Quantum fluctuations near their horizons create an energy gap in the black hole's own spectrum, which at low temperatures drives the decoherence rate to zero. Even above the gap, decoherence is suppressed below semiclassical predictions, meaning the right kind of black hole actually protects quantum coherence rather than destroying it.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 601,
+  "tokens_out": 178,
+  "cost_usd": 0.004473,
+  "ingested_at": "2026-05-26T00:16:09.000217+00:00"
+}

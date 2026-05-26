@@ -1,0 +1,22 @@
+{
+  "id": "2605.23762",
+  "arxiv_url": "https://arxiv.org/abs/2605.23762",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos",
+  "authors": "Constant Roux, Ludovic De Matteïs, Armand Jordana, Valentin Guillet, Nicolas Mansard, Olivier Stasse, Philippe Souères",
+  "abstract": "Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches. Standard approaches rely on Geometric Retargeting or Indirect Dynamic Retargeting pipelines. We identify that these intermediate kinematic projections introduce a geometric bias, restricting the search space and yielding suboptimal dynamic behaviors. In this paper, we propose Direct Dynamic Retargeting (DDR), a novel single-stage framework that generates high-fidelity, dynamically feasible trajectories directly from expert videos. By formulating the problem in the task space and leveraging a sampling-based Model Predictive Control solver within a physics simulator, DDR natively optimizes over complex contact sequences while mitigating input drift. Our experiments demonstrate that bypassing the geometric bias allows DDR to outperform state-of-the-art baselines in demonstration tracking accuracy. Furthermore, we establish that providing such physically viable references to RL agents accelerates training convergence and enhances the final execution of agile and balancing behaviors. Source code will be made publicly available.",
+  "title_relatable": "Teaching robots to copy human moves without losing the physics",
+  "hook": "Direct optimization from video eliminates intermediate geometry conversions, improving tracking accuracy and enabling faster robot learning of dynamic behaviors.",
+  "summary": "Teaching humanoid robots from human videos requires bridging the gap between different body shapes. Current methods use intermediate kinematic steps that introduce bias and restrict what behaviors robots can learn. This work skips those steps entirely, instead optimizing robot trajectories directly from video using physics simulation and model predictive control. The result: more accurate tracking and faster training for dynamic tasks like balancing. Code will be released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 718,
+  "tokens_out": 156,
+  "cost_usd": 0.0011984,
+  "ingested_at": "2026-05-26T00:30:26.635816+00:00"
+}

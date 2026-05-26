@@ -1,0 +1,23 @@
+{
+  "id": "2605.23257",
+  "arxiv_url": "https://arxiv.org/abs/2605.23257",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "Turning Adaptation into Assets: Cross-Domain Bridging for Online Vision-Language Navigation",
+  "authors": "Zixuan Hu, Xuantuo Huang, Yancheng Li, Yichun Hu, Shengyong Xu, Ling-Yu Duan",
+  "abstract": "Navigating under non-stationary environment shifts poses a critical challenge for a Vision-and-Language Navigation (VLN) agent deployed in the wild. Yet, existing Test-Time Adaptation (TTA) methods for VLN largely treat online adaptation as transient, isolated updates, leading to catastrophic forgetting and negative transfer. To overcome these issues, we propose Inter-Domain BridgE with Historical Assets (IDEA), a novel TTA framework that transforms adaptation into the accumulation and composition of assets. Specifically, IDEA introduces soft prompts optimized via a Fisher-guided weighting scheme to capture the transferable knowledge. These optimized prompts are then augmented with domain coordinates to form a dynamic asset library. Leveraging this library, IDEA constructs a cross-domain bridge by projecting the target domain onto the convex hull of historical knowledge. These designs form a complementary loop: the evolving library underpins bridge construction, while the bridge provides superior initialization to accelerate asset optimization. Extensive experiments across REVERIE, R2R, and R2R-CE benchmarks demonstrate the consistent superiority of IDEA over existing methods, showcasing its ability to enable training-free adaptation via asset sharing.",
+  "title_relatable": "How can robots remember lessons from previous navigation tasks?",
+  "hook": "A framework that lets vision-language navigation agents reuse learned knowledge across new environments without forgetting old skills, tested on three benchmarks.",
+  "summary": "Vision-language navigation agents struggle when deployed in shifting real-world environments and forget earlier lessons through catastrophic forgetting. IDEA solves this by building a library of reusable \"assets\" (optimized soft prompts tied to domain coordinates) and connecting new environments to this historical knowledge via convex hull projection. The system runs entirely at test time without retraining, showing consistent gains across REVERIE, R2R, and R2R-CE benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 730,
+  "tokens_out": 177,
+  "cost_usd": 0.001292,
+  "ingested_at": "2026-05-26T00:29:04.027762+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23895",
+  "arxiv_url": "https://arxiv.org/abs/2605.23895",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "From Activation to Causality: Discovery of Causal Visual Representations in the Human Brain",
+  "authors": "Yuval Golbari, Navve Wasserman, Matias Cosarinsky, Roman Beliy, Aude Oliva, Antonio Torralba, Michal Irani, Tamar Rott Shaham",
+  "abstract": "Identifying which brain regions represent a visual concept in the human brain is a central challenge in neuroscience. Existing approaches have localized coarse functional regions (e.g., faces, places) through activation maximization, identifying regions that activate strongly for a target concept relative to other concepts. Yet strong activation alone does not establish that a region represents the concept itself, as responses may instead be driven by correlated visual or semantic cues. We introduce BrainCause, an automated framework that combines generative and brain models to synthesize controlled stimuli and validate neural representations through targeted causal testing. Given a query specifying a concept of interest, our framework constructs targeted stimulus sets comprising concept images, counterfactual edits that remove the target concept while preserving other image content, and images with candidate correlated distractors. It then uses an image-to-fMRI encoding model to predict brain responses and searches for representations that respond specifically to the target concept over correlated alternatives. BrainCause returns validated candidate representations and proposes follow-up fMRI experiments to further test or extend its discoveries. Our approach successfully recovers known functional localizations and identifies new candidate representations across dozens of concepts, validated on both predicted and measured fMRI data. Critically, we show that without causal validation, a large fraction of localizations would be false positives, confirming that activation alone is insufficient evidence of representation.",
+  "title_relatable": "How to tell if a brain region really cares about faces or just their edges?",
+  "hook": "Activation patterns mislead neuroscientists into false discoveries; new framework uses AI-generated counterfactuals to pinpoint true causal representations.",
+  "summary": "Neuroscientists locate which brain regions handle visual concepts (faces, places) by finding areas that activate strongly for those concepts. But activation alone doesn't prove representation—a face region might just respond to skin texture or lighting. BrainCause combines generative AI and brain imaging models to synthesize counterfactual stimuli (faces with specific features removed) and test whether regions respond to the actual concept or correlated visual quirks. On predicted and real fMRI data, the method recovered known localizations and identified new ones, while showing most activation-only findings are false positives.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 782,
+  "tokens_out": 213,
+  "cost_usd": 0.0014776,
+  "ingested_at": "2026-05-26T00:28:42.230084+00:00"
+}

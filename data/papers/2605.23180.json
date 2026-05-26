@@ -1,0 +1,23 @@
+{
+  "id": "2605.23180",
+  "arxiv_url": "https://arxiv.org/abs/2605.23180",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Self-Improving In-Context Learning",
+  "authors": "Baturay Saglam, Dionysis Kalogerias",
+  "abstract": "We propose to improve in-context learning (ICL) by optimizing the continuous embeddings of a fixed few-shot prompt at test time. The key observation is that the log-probabilities a model assigns to its demonstrated outputs$\\unicode{x2013}$available from a single forward pass without generating any tokens$\\unicode{x2013}$provide a meaningful signal for how well the model has inferred the task from its demonstrations. We formalize this signal as a bounded, self-supervised confidence proxy and maximize it via zeroth-order optimization over the prompt embeddings, yielding a test-time calibration procedure. The approach requires no finetuning, no token generation, no predefined label set, and no external data, making it equally applicable to both classification and free-form generation tasks. Across a comprehensive suite of ICL tasks, the proposed calibration consistently matches or improves upon the base model and outperforms classification-specific baselines on most tasks. The statistically significant correlation between proxy improvement and downstream accuracy gain confirms that the proposed proxy encodes a reliable optimization signal for in-context learning.",
+  "title_relatable": "Can you improve language models by tuning prompts at test time?",
+  "hook": "Tweak prompt embeddings during inference using model confidence signals, no retraining needed. Consistent gains across classification and generation tasks.",
+  "summary": "Language models often struggle to infer the right task from a few examples. This work improves in-context learning by adjusting the continuous embeddings of a fixed prompt at test time, using the model's own confidence in its demonstrated outputs as an optimization signal. The method requires no finetuning, token generation, or external data, works on both classification and open-ended generation, and consistently matches or beats the base model performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 669,
+  "tokens_out": 172,
+  "cost_usd": 0.0012232,
+  "ingested_at": "2026-05-26T00:27:02.831551+00:00"
+}

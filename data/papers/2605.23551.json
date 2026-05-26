@@ -1,0 +1,23 @@
+{
+  "id": "2605.23551",
+  "arxiv_url": "https://arxiv.org/abs/2605.23551",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Goal-Conditioned Agents that Learn Everything All at Once",
+  "authors": "Michael Matthews, Matthew Jackson, Michael Beukman, Thomas Foster, Alistair Letcher, Scott Fujimoto, Cédric Colas, Jakob Foerster",
+  "abstract": "A goal-conditioned reinforcement learning agent exploring an environment will see a wealth of information throughout a trajectory, most of which is discarded when only performing on-policy updates with respect to the commanded goal. All-goals learning, where each transition is used for learning off-policy with respect to every goal, allows agents to extract maximal information, however it is usually computationally infeasible when done via naive relabelling. This can be overcome by jointly outputting values and actions for every goal at once, allowing for efficient, parallel all-goals updates with a single pass through the network, in a process we call Learning Everything all at Once (LEO). We show that this approach significantly outperforms other methods on goal-conditioned Craftax and is competitive with existing baselines on continuous control environments, while achieving a >250x speed-up compared to all-goals relabelling. We then go on to show that this approach can be made even more powerful by using LEO as a teacher network, rather than a direct actor. We hope that, by unlocking all-goals learning at scale, LEO can serve as a useful tool for RL practitioners in complex environments. We open source our code.",
+  "title_relatable": "What if robots learned from every moment, not just successes?",
+  "hook": "Single-pass neural network learns from all goals simultaneously, achieving 250× speedup over naive approaches while outperforming baselines on complex tasks.",
+  "summary": "Goal-conditioned agents typically waste most observations by updating only toward the commanded goal. This work enables \"all-goals learning\"—using every transition to improve performance on every possible objective—by having a single neural network jointly output values and actions for all goals in parallel. On Craftax environments, LEO dramatically outperforms competitors while running 250× faster than naive relabelling; it also matches or beats existing methods on continuous control. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 716,
+  "tokens_out": 180,
+  "cost_usd": 0.0012928000000000002,
+  "ingested_at": "2026-05-26T00:23:23.868396+00:00"
+}

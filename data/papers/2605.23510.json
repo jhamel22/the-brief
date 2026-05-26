@@ -1,0 +1,22 @@
+{
+  "id": "2605.23510",
+  "arxiv_url": "https://arxiv.org/abs/2605.23510",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Learning partially observed systems with neural Hamiltonian ordinary differential equations",
+  "authors": "Sunniva Meltzer, Sølve Eidnes, Alexander Johannes Stasik",
+  "abstract": "When learning dynamical systems from data, embedding physical structure can constrain the solution space and improve generalization, but many physics-informed models assume access to the full system state. This limits their use in partially observed settings, where some state variables are completely unobserved and must be inferred without direct supervision. Here, we present neural Hamiltonian ordinary differential equations (NHODE), a framework that combines Hamiltonian neural networks (HNNs) with neural ordinary differential equations (neural ODEs) to learn partially observed dynamical systems from data. The Hamiltonian structure enforces energy conservation by construction, while the neural ODE framework enables a flexible training procedure that allows the loss to be defined only on observed variables. We also incorporate additional physical constraints through symmetry-aware coordinate transformations and separable energy formulations. The framework is evaluated on systems of increasing complexity, from linear and nonlinear mass-spring systems to the chaotic three-body problem. Across all examples, increasing the amount of embedded physical structure improves the accuracy and long-horizon stability of the predictions. Even in the most challenging regimes, the NHODE framework captures both observed and latent dynamics, whereas purely data-driven baselines become unstable.",
+  "title_relatable": "Can physics help predict hidden parts of chaotic systems?",
+  "hook": "Neural networks that enforce energy conservation predict unseen variables in complex dynamical systems more stably than purely data-driven models.",
+  "summary": "Learning dynamics from partial observations is hard: you see some variables but not others, yet standard physics-informed models assume full state access. This work combines Hamiltonian neural networks with neural ODEs to learn from incomplete data, building energy conservation directly into the model. Tested on mass-spring systems and the three-body problem, the method outperforms data-only baselines on long-horizon predictions, staying stable where competitors diverge.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 706,
+  "tokens_out": 168,
+  "cost_usd": 0.0012368000000000001,
+  "ingested_at": "2026-05-26T00:23:26.366223+00:00"
+}

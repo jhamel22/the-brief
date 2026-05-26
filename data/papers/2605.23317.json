@@ -1,0 +1,25 @@
+{
+  "id": "2605.23317",
+  "arxiv_url": "https://arxiv.org/abs/2605.23317",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.HE",
+    "astro-ph.SR",
+    "nucl-th"
+  ],
+  "title_original": "Enhanced Stellar Production of Weakly Interacting Slim Particles from Non-Thermal Nuclear Cascades",
+  "authors": "Víctor Fonoll, Maurizio Giannotti, Giuseppe Lucente",
+  "abstract": "Weakly interacting slim particles (WISPs) can be produced in stars through the conversion of non-thermal photons generated in nuclear reactions. Previous studies have generally treated these sources only at the level of their primary injection lines. We show that this picture is incomplete: repeated Compton scatterings redistribute the injected photons into a broad low-energy spectrum, while associated positrons can thermalize and annihilate into a 511~keV line. Together, these effects define a generic non-thermal photon reservoir and thus a broadly applicable source term for any photon-coupled WISP. We develop a general framework for this mechanism and illustrate its impact with the example of dark-photon production in the solar pp chain. Our results show that non-thermal stellar WISP production can be substantially underestimated if Compton reprocessing and positron annihilation are neglected.",
+  "title_relatable": "Do stars produce more dark matter than we thought?",
+  "hook": "Nuclear reactions in stars create a hidden spectrum of particles that boosts dark matter production by orders of magnitude when properly accounted for.",
+  "summary": "Stars generate high-energy photons during nuclear fusion, which scatter repeatedly and pile up at lower energies—creating a much richer source for weakly interacting particles like dark photons than previously recognized. The researchers show that ignoring these \"reprocessing\" effects dramatically underestimates how many dark matter candidates escape stellar cores, with direct implications for dark matter detection experiments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 636,
+  "tokens_out": 155,
+  "cost_usd": 0.0011288,
+  "ingested_at": "2026-05-26T00:20:22.042761+00:00"
+}

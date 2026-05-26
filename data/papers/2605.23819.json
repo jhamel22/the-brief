@@ -1,0 +1,23 @@
+{
+  "id": "2605.23819",
+  "arxiv_url": "https://arxiv.org/abs/2605.23819",
+  "announced_date": "2026-05-22",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Not Too Generative, Not Too Discriminative: The Human Alignment Sweet Spot",
+  "authors": "Jorge Chang Ortega, Bastien Le Lan, Thomas Serre, Victor Boutin",
+  "abstract": "A central question in computational vision is whether human-like visual representations are better explained by discriminative or generative learning. Existing comparisons, however, often confound the learning objective with architecture, scale, and training data, leaving open whether the objective itself drives alignment. We address this confound using Joint Energy-Based Models (JEMs), which interpolate continuously between discriminative and generative training within a fixed architecture. By varying a single mixing coefficient, we isolate the effect of the learning objective and evaluate the resulting models across six human-alignment benchmarks spanning perceptual similarity, gloss perception, human response uncertainty, robustness, shape-texture cue conflict, and diagnostic feature attribution. Across this diverse suite, human alignment is consistently maximized at intermediate points of the generative-discriminative continuum, rather than at either endpoint. Hybrid JEMs combine the categorical structure induced by discriminative learning with the sensitivity to input structure induced by generative learning, yielding more human-like behavior across multiple levels of vision. These results suggest that the generative-discriminative dichotomy is the wrong axis for understanding human-aligned vision: alignment emerges not from choosing one objective over the other, but from balancing both.",
+  "title_relatable": "Why human vision needs both generative and discriminative learning?",
+  "hook": "Models maximize human-like behavior at the midpoint between discriminative and generative training, not at either extreme.",
+  "summary": "A persistent debate asks whether human visual perception maps onto discriminative or generative learning. Using Joint Energy-Based Models to smoothly interpolate between these objectives within a single architecture, researchers tested six human-alignment benchmarks—perceptual similarity, robustness, shape-texture trade-offs, and others. The key finding: alignment peaks at intermediate mixing ratios, not at pure endpoints. Hybrid models capture both the categorical structure of discriminative learning and the input sensitivity of generative learning, suggesting the true recipe for human-like vision balances both.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 706,
+  "tokens_out": 191,
+  "cost_usd": 0.0013288000000000002,
+  "ingested_at": "2026-05-26T00:25:43.522384+00:00"
+}

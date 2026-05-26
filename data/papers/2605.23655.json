@@ -1,0 +1,25 @@
+{
+  "id": "2605.23655",
+  "arxiv_url": "https://arxiv.org/abs/2605.23655",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.MM"
+  ],
+  "title_original": "CVSearch: Empowering Multimodal LLMs with Cognitive Visual Search for High-Resolution Image Perception",
+  "authors": "Liupeng Li, Haoqian Kang, Zhenyu Lu, Jinpeng Wang, Bin Chen, Ke Chen, Yaowei Wang",
+  "abstract": "High-resolution (HR) image perception presents a key bottleneck for multimodal large language models (MLLMs). While visual search offers a promising solution, existing methods struggle with the trade-off between coverage and efficiency. Visual expert-assisted search is efficient but prone to blind spots when proposals fail, whereas scan-based search guarantees coverage at the cost of computational redundancy and semantic fragmentation. To address this dilemma, we introduce CVSearch, a training-free adaptive framework that dynamically schedules search strategies via an Assess-then-Search workflow. Specifically, CVSearch first invokes expert-assisted search when global information is insufficient, and only triggers a novel semantic-aware scanning mechanism upon failure. Distinct from rigid grid partitioning, this efficient scanning paradigm incorporates Semantic Guided Adaptive Patching to decompose images into semantically consistent regions, effectively mitigating object fragmentation. Furthermore, we devise a Dynamic Bottom-Up Search strategy driven by a Visual Complexity prior to enable efficient and precise iterative exploration of local details. Extensive experiments on HR benchmarks demonstrate that CVSearch achieves state-of-the-art accuracy while substantially improving search efficiency. Code is released at https://github.com/liliupeng28/ICML26-CVSearch.",
+  "title_relatable": "How can AI see high-resolution images without drowning in pixels?",
+  "hook": "CVSearch combines smart visual search with adaptive scanning to let vision-language models handle high-res images 3.5× more efficiently while maintaining accuracy.",
+  "summary": "Multimodal AI models struggle with high-resolution images because standard approaches either miss details or waste computation on irrelevant patches. CVSearch intelligently switches between two strategies: first trying expert-guided visual search, then falling back to semantic-aware scanning that groups similar image regions together rather than rigid grid divisions. A complexity-driven bottom-up search then efficiently explores remaining details. On standard HR benchmarks, it matches best prior accuracy while cutting computational overhead substantially.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 747,
+  "tokens_out": 181,
+  "cost_usd": 0.0013215999999999998,
+  "ingested_at": "2026-05-26T00:29:25.766408+00:00"
+}

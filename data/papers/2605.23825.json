@@ -1,0 +1,23 @@
+{
+  "id": "2605.23825",
+  "arxiv_url": "https://arxiv.org/abs/2605.23825",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "It's the humans, not the data: Geopolitical bias in LLMs originates in post-training, amplified by the language of the prompt",
+  "authors": "Stuart Bladon, Brinnae Bent",
+  "abstract": "It has generally been assumed that geopolitical bias in language models originates from the training data used during the pre-training phase. We tested seven open-weight LLM pairs consisting of the base model (pre-training only) and the chat model (pre-training and post-training) from seven labs on a paired-scenario forced-choice probe over 28 country pairs in English, French, and Chinese, and found that geopolitical bias originates in post-training rather than in pre-training. Across seven AI labs, six showed shifts in the direction associated with the country or region of the model developer after post-training. This shift is strongest in Alibaba's Qwen 2.5: while the base is neutral on China-favourability (-0.15 log-odds, p=0.15), the post-trained chat variant is at +2.91 (p<10^-4), an 18x shift in odds. We also observe shifts in biases toward other countries across all models. Additionally, the magnitude of this shift depends on the language used to prompt the model: the French-made Mistral becomes pro-France only under French prompting (FR-EN shift +1.91, p<10^-4). These findings suggest that geopolitical preferences in language models are not simply inherited from large-scale internet data but are actively shaped during post-training, highlighting the need for greater transparency, auditing, and oversight of alignment processes that influence how models represent nations, cultures, and political perspectives.",
+  "title_relatable": "Why AI models favor their makers' countries—and when they do it most",
+  "hook": "Post-training, not data, creates geopolitical bias in LLMs. Qwen 2.5 shifts 18× toward China favorability; Mistral becomes pro-France only in French.",
+  "summary": "Seven major LLM labs' base models show minimal geopolitical bias, but their chat variants developed by the same labs—which undergo alignment and instruction-tuning—dramatically favor their developer's country or region. Alibaba's Qwen shifts from neutral on China to strongly pro-China. The bias is language-dependent: Mistral favors France only when prompted in French. This reveals that geopolitical preferences are baked in during post-training choices, not inherited from internet text.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 780,
+  "tokens_out": 205,
+  "cost_usd": 0.001444,
+  "ingested_at": "2026-05-26T00:23:08.752728+00:00"
+}

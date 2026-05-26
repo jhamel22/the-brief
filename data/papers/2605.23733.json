@@ -1,0 +1,23 @@
+{
+  "id": "2605.23733",
+  "arxiv_url": "https://arxiv.org/abs/2605.23733",
+  "announced_date": "2026-05-22",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking",
+  "authors": "Ming Yang, Tao Yu, Feng Li, Hua Chen",
+  "abstract": "Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly. This raises a natural question: Can pretrained WBT models transfer across embodiments with minimal adaptation? To answer this question, we propose Any2Any, a paradigm that efficiently transfers an existing WBT specialist to a new humanoid embodiment with only a small amount of data and compute. Any2Any first performs kinematic alignment between source and target humanoids, aligning their input and output spaces so that the pretrained source policy can be meaningfully reused on the target embodiment.Any2Any then performs dynamics adaptation by applying lightweight parameter-efficient fine-tuning (PEFT) components to selected dynamics-sensitive modules, preserving useful behavioral priors while enabling targeted adaptation to the target robot. Extensive experiments on multiple humanoid platforms and pretrained backbones show that Any2Any substantially accelerates convergence and reduces training cost compared with training from scratch, while achieving competitive or superior tracking performance. Notably, using only 1% of the compute and data required for full training, Any2Any successfully transfers Sonic models pre-trained on Unitree G1 to LimX Oli and LimX Luna. These results suggest that pretrained WBT specialists can be efficiently reused across embodiments, providing a scalable path toward deploying humanoid whole-body control on new robots.",
+  "title_relatable": "Can robot motion skills transfer to different robot bodies?",
+  "hook": "Transfer whole-body tracking models across humanoid robots using only 1% of training data and compute required from scratch.",
+  "summary": "Training humanoid robots to track complex full-body motions demands massive data and computation. Any2Any transfers pretrained motion models to new robot embodiments by aligning their joint structures (kinematic alignment) and fine-tuning only the dynamics-sensitive layers via parameter-efficient adaptation. On real platforms, the method successfully moved models trained on Unitree G1 to LimX Oli and Luna, achieving comparable tracking performance at 1% of the normal training cost.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 778,
+  "tokens_out": 174,
+  "cost_usd": 0.0013184000000000002,
+  "ingested_at": "2026-05-26T00:25:48.953015+00:00"
+}

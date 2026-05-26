@@ -1,0 +1,22 @@
+{
+  "id": "2605.23114",
+  "arxiv_url": "https://arxiv.org/abs/2605.23114",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Increasing the Precision of Surrogate Models for Weak Lensing Mass Maps with Flow Matching",
+  "authors": "Guangjian Li, Tomasz Kacprzak",
+  "abstract": "Weak gravitational lensing maps compactly encode the evolution of cosmic large-scale structure and are a key tool for cosmological analyses. Performing inference directly at the map level allows flexible choices of statistics and can increase constraining power. Conventional methods rely solely on N-body simulations and are computationally expensive. Generative machine-learning emulators can accelerate map-level theory prediction. However, existing GAN-based map-level surrogates still have limited statistical fidelity. They can produce over-smoothed maps, may fail to capture the full distribution of generated map sets and can be difficult to train. Continuous normalizing flows trained with flow matching have recently emerged as a powerful class of generative models. We present a residual label-conditional flow matching generative network that conditions explicitly on the matter density Omega_m and clustering amplitude sigma_8 for a fixed source redshift distribution n(z). The model learns a continuous probability flow in a residual space from label-specific noise distributions to convergence maps. We evaluate it using pixel and peak statistics, the power spectrum, bispectrum, power-spectrum correlation matrices, and other validation metrics. Compared with the previous GAN benchmark, the proposed method improves the typical fidelity of generated maps from below 10% and below 20% to below 1% and below 5% for basic and higher-order statistics, respectively. The agreement at the level of map distributions is also very good: maps generated from random noise match well the distribution of maps generated with N-body simulations from random initial conditions. This work brings us closer to a practical mass-map emulator that captures the cosmological signal while supporting multiple forms of data analysis.",
+  "title_relatable": "Can machine learning finally match simulations for cosmic lensing maps?",
+  "hook": "New AI technique cuts errors in weak lensing predictions from 10–20% down to 1–5%, potentially replacing expensive supercomputer simulations.",
+  "summary": "Weak lensing maps reveal how matter is distributed across the universe, but generating realistic ones requires massive simulations. This work trains a generative AI model (flow matching) that learns to create maps matching both the statistics and full distribution of N-body simulations, while conditioning on two key cosmological parameters. The result is a fast, accurate surrogate that could speed up constraining dark matter and dark energy properties.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 805,
+  "tokens_out": 174,
+  "cost_usd": 0.00134,
+  "ingested_at": "2026-05-26T00:19:42.575341+00:00"
+}

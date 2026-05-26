@@ -1,0 +1,23 @@
+{
+  "id": "2605.23830",
+  "arxiv_url": "https://arxiv.org/abs/2605.23830",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.MS"
+  ],
+  "title_original": "IntegrateUnitary.jl: A Julia package for symbolic integration over Haar measures",
+  "authors": "Łukasz Pawela, Zbigniew Puchała",
+  "abstract": "Symbolic integration over the Haar measure of compact groups is a computational cornerstone in quantum information science and random matrix theory. We present \\texttt{IntegrateUnitary.jl}, a comprehensive Julia package for computing exact expectations of polynomial functions over a wide range of compact groups ($U(d)$, $O(d)$, $Sp(d)$, and $SU(d)$ for balanced polynomials), circular and Gaussian ensembles, Ginibre ensembles, permutation groups, random pure states, and unitary $t$-designs. The package provides a fully open-source implementation of the Weingarten calculus and Wick contractions with broad symbolic-$d$ support for entry-wise and trace-polynomial integrals, while selected workflows currently require concrete integer dimensions (including higher pure trace moments $|\\mathrm{tr}(U)|^{2k}$ for $k > 1$ and HCIZ with \\texttt{SymbolicMatrix} inputs, and direct matrix-valued integration of \\texttt{SymbolicMatrix}/\\texttt{SymbolicMatrixProduct} expressions), automatic asymptotic expansions, a high-level symbolic trace interface that reconstructs Weingarten graphs from index-free expressions, and a bridge to \\texttt{ITensors.jl} for tensor network averaging. We discuss the underlying algorithms, including the Murnaghan-Nakayama rule and symplectic-orthogonal duality, and demonstrate that the package efficiently handles high-degree moments and quantum information metrics.",
+  "title_relatable": "A free tool that solves quantum integrals computers usually can't",
+  "hook": "Exact symbolic integration over random unitary matrices, now automated in open-source Julia code.",
+  "summary": "Averaging polynomial functions over random unitary matrices is central to quantum information and random matrix theory, but doing it exactly is notoriously painful by hand. This Julia package automates the full machinery — Weingarten calculus, Wick contractions, asymptotic expansions — across all the major matrix ensembles, returning exact symbolic answers rather than numerical estimates. It turns calculations that once required pages of combinatorics into a few lines of code.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 788,
+  "tokens_out": 169,
+  "cost_usd": 0.004899,
+  "ingested_at": "2026-05-26T00:18:49.526652+00:00"
+}

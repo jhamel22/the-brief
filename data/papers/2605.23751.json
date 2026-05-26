@@ -1,0 +1,22 @@
+{
+  "id": "2605.23751",
+  "arxiv_url": "https://arxiv.org/abs/2605.23751",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Approaching I/O-optimality for Approximate Attention",
+  "authors": "Pál András Papp, Aleksandros Sobczyk, Anastasios Zouzias",
+  "abstract": "We revisit the I/O complexity of attention in large language models. Given query-key-value matrices $Q,K,V\\in\\mathbb{R}^{n\\times d}$, and a machine with fast memory size $M$, the goal is to compute the \"attention matrix\" $A=\\text{softmax}(Q K ^{\\top}/\\sqrt{d}) V$ with the minimal number of data transfers between fast and slow memory. Existing methods in the literature, most notably FlashAttention and its variants, incur an I/O cost that depends quadratically on $n$, while a trivial lower bound only requires $Ω(nd)$ I/O's to read the inputs and write the output. In this work, we present a technique for computing attention where the I/O cost only depends almost-linearly on $n$ in most parameter regimes. This is achieved by developing I/O-efficient algorithms inspired by the recent approximate attention framework of Alman and Song. We also prove corresponding lower bounds in each parameter regime to show that our algorithms are indeed close to I/O-optimal.",
+  "title_relatable": "How to compute attention without moving data around so much?",
+  "hook": "Reduces memory transfer costs for attention from quadratic to nearly linear in sequence length—matching theoretical lower bounds.",
+  "summary": "Computing attention in large language models involves shuttling enormous matrices between fast and slow memory. Existing methods like FlashAttention require data transfers that scale quadratically with sequence length. This work uses approximate attention techniques to achieve nearly linear scaling instead, proving their algorithms match information-theoretic lower bounds. The approach handles most practical parameter regimes and could unlock faster inference on long sequences.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 694,
+  "tokens_out": 152,
+  "cost_usd": 0.0011632,
+  "ingested_at": "2026-05-26T00:23:11.180574+00:00"
+}

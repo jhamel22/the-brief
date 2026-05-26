@@ -1,0 +1,22 @@
+{
+  "id": "2605.23122",
+  "arxiv_url": "https://arxiv.org/abs/2605.23122",
+  "announced_date": "2026-05-22",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Beyond Neural Activity Prediction: Probing Latent Representations in Mouse V1 Digital Twins",
+  "authors": "Adriano Lima, Yuchen Hou, Michael Beyeler, Marius Schneider",
+  "abstract": "Digital twins of sensory cortex serve as powerful response oracles. Although prediction accuracy is the central metric by which these models are evaluated, it provides limited insight into the latent representations that support those predictions. This becomes increasingly important as digital twins are used as in silico experimental systems for stimulus design and hypothesis generation: models with similar prediction accuracy may rely on different latent representations. We address this gap by systematically probing a family of digital twins of mouse V1 trained to predict neural activity from naturalistic videos recorded in freely moving mice. The models share the same training data and neural-prediction objective, but differ in visual-encoder architecture. For each frozen model, we characterize latent representations along three levels: (i) linear decodability from controlled visual probes of orientation, contrast, and motion; (ii) latent-unit tuning to canonical visual features including orientation selectivity, contrast response, spatial-frequency tuning; and (iii) population geometry of hidden-layer activity. Across architectures, better neural-response prediction correlates with stronger probe accuracy. Additionally, highly predictive models exhibit flatter hidden-population eigenspectra, indicating higher-dimensional representations closer to population-geometry signatures reported in mouse V1. Although these representational properties covary with prediction accuracy across architectures, digital twins with comparable prediction scores can still differ substantially in probe performance and latent-unit tuning. These results establish multi-level representational probing as a complement to standard neural-prediction evaluation, providing a framework for understanding digital twins not only as predictors, but also as substrates for studying visual computations.",
+  "title_relatable": "What computer brains actually learn about vision?",
+  "hook": "AI models that predict mouse brain activity with identical accuracy can think about images in completely different ways—and that matters for using them as virtual laboratories.",
+  "summary": "Researchers built computer models that predict neural firing in mouse visual cortex from video, then looked beyond prediction accuracy to see what these models actually learned. Models with the same prediction score differed dramatically in how they encoded orientation, contrast, and motion—some matched the geometry of real brain populations, others didn't. For using these digital twins to design experiments, identical performance hides fundamentally different solutions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 750,
+  "tokens_out": 160,
+  "cost_usd": 0.00124,
+  "ingested_at": "2026-05-26T00:31:34.449061+00:00"
+}

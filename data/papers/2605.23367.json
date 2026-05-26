@@ -1,0 +1,22 @@
+{
+  "id": "2605.23367",
+  "arxiv_url": "https://arxiv.org/abs/2605.23367",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Cosmological constraints from neighbor-density-weighted marked correlation functions",
+  "authors": "Xu Xiao, Xiao-Dong Li, Yiqi Huang, Le Zhang",
+  "abstract": "We investigate whether neighbor-density-weighted marked correlation functions (MCFs) can extract cosmological information beyond the standard redshift-space two-point correlation function (2PCF). Using the Kun suite of 129 $w_0w_a$CDM$+\\sum m_ν$ simulations in $1~h^{-1}{\\rm Gpc}$ boxes, we construct Gaussian-process emulators for the normalized scale statistic $\\widehat{W}^α(s)$ and the angular statistic $\\widehat{W}^α_{Δs}(μ)$. We perform joint analyses combining multiple mark parameters $α$ and quantify the information gain using the FoM in the $Ω_m$--$σ_8$ plane. Relative to the 2PCF case, three-mark combinations improve the FoM by factors of $1.7$--$2.5$, while five-mark combinations increase the gain to $1.9$--$2.4$, depending on the statistic and mark definition. We further compare density and normalized-gradient marks, finding that they are nearly redundant for isotropic statistics but complementary for angular statistics, where their combination improves the FoM by up to $43\\%$. Tests of scale range and halo selection show that the marked statistics remain robust under changes in analysis choices, with the angular statistic retaining additional cosmological information that is less sensitive to tracer selection. Our results demonstrate that MCFs substantially enhance cosmological constraints beyond the standard 2PCF and provide a robust probe for next-generation galaxy surveys.",
+  "title_relatable": "Can weighted galaxy clustering reveal dark matter secrets that standard measurements miss?",
+  "hook": "Marked correlation functions boost constraints on matter density and structure growth by 70–150%, potentially squeezing more precision from next-generation surveys.",
+  "summary": "Astronomers tested whether weighting galaxies by their local density environment unlocks hidden cosmological information. Using simulations, they found that combining multiple weighted statistics improves constraints on the universe's matter content and clumpiness by factors of 1.7–2.5 compared to standard galaxy clustering alone, with some combinations reaching 2.4× gains. The method proved robust across different analysis choices and survey configurations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 802,
+  "tokens_out": 171,
+  "cost_usd": 0.0013256,
+  "ingested_at": "2026-05-26T00:19:34.832866+00:00"
+}

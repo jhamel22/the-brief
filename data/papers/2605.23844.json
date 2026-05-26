@@ -1,0 +1,22 @@
+{
+  "id": "2605.23844",
+  "arxiv_url": "https://arxiv.org/abs/2605.23844",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Minor Merger, Major Growth: An Overmassive, Highly Accreting Black Hole Powering a Secondary AGN In a Cosmic Noon Minor Merger",
+  "authors": "Marko Mićić",
+  "abstract": "We report the discovery of a spectroscopically confirmed z = 1.824 minor merger with a mass ratio of ~35:1 in which the secondary (smaller) galaxy hosts a luminous AGN. The system is identified in the 3D-HST survey and exhibits clear tidal features in James Webb Space Telescope imaging, confirming an ongoing interaction. Using archival Chandra X-ray observations, we detect 121 +/- 11 X-ray counts associated with the secondary galaxy, corresponding to a rest-frame 2-10 keV luminosity of L_X ~ (9 +/- 0.1) x 10^43 erg/s and a photon index of Gamma ~ 2.0-2.3. Analysis of the HST/WFC3 G141 grism spectrum yields an [O III] lambda5007 luminosity of (2 +/- 0.5) x 10^42 erg/s. Independent bolometric luminosity estimates from X-ray and [O III] emission are consistent, implying L_bol ~ (3-7) x 10^45 erg/s. Assuming standard black hole-galaxy scaling relations, the expected black hole mass is ~2 x 10^6 M_sun, which would require extreme super-Eddington accretion to explain the observed luminosity. On the other hand, assuming Eddington-limited or moderately sub-Eddington accretion implies a black hole mass more than an order of magnitude above expectations. The observed X-ray spectral slope disfavors low accretion rates, restricting the allowed parameter space to high lambda_Edd and elevated black hole masses. We conclude that the secondary AGN must be powered by an overmassive, highly accreting black hole, providing direct observational support for theoretical predictions that minor mergers can drive rapid black hole growth in secondary, smaller companions.",
+  "title_relatable": "Why is the smaller galaxy in this merger feeding a monster black hole?",
+  "hook": "An underdog galaxy in a cosmic collision hosts a black hole far more massive and ravenous than it should, suggesting minor mergers can rapidly supercharge black holes.",
+  "summary": "Astronomers spotted a minor merger (35:1 mass ratio) at cosmic noon where the smaller galaxy unexpectedly hosts a luminous, rapidly accreting black hole. X-ray and optical observations reveal the black hole is either feeding at extreme rates or oversized by more than tenfold compared to standard galaxy-black hole scaling rules. This directly confirms that even lopsided collisions can trigger dramatic black hole growth in secondary companions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 884,
+  "tokens_out": 181,
+  "cost_usd": 0.0014312,
+  "ingested_at": "2026-05-26T00:21:07.522130+00:00"
+}

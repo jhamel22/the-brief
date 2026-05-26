@@ -1,0 +1,22 @@
+{
+  "id": "2605.23878",
+  "arxiv_url": "https://arxiv.org/abs/2605.23878",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "LaMo: Self-Supervised Latent Motion Priors for Physical Realism in Video Generation",
+  "authors": "Bo Jiang, Depu Meng, Yihan Hu, Yichen Xie, Tianshuo Xu, Wei Zhan",
+  "abstract": "Modern video generators produce visually compelling clips but still struggle with physical and motion consistency, limiting their use as reliable world simulators. Existing remedies often rely on external simulators, teacher models, or curated physics-focused data. We explore a complementary self-supervised direction: extracting motion cues from the unlabeled videos already used to train video diffusion models. We propose LaMo, which formulates a latent motion prior over frame-to-frame latent changes conditioned on the current latent and prompt. This prior is exposed through two lightweight readouts: a macro motion drift used during training as a Motion Drift Loss, and a learned micro motion field used during sampling as Motion Prior Guidance. Both components are plug-and-play with existing video diffusion backbones, requiring no architectural or I/O changes. On VideoPhy and VideoPhy2, LaMo improves CogVideoX backbones and outperforms recent physics-aware baselines that use external supervision. On VBench, it preserves overall generation quality while improving motion-related dimensions. These results suggest that unlabeled video contains useful motion supervision for improving physical fidelity in modern video diffusion models.",
+  "title_relatable": "Can video generators learn physics from their own training data?",
+  "hook": "LaMo extracts motion rules from unlabeled videos to make AI-generated clips obey physics, improving accuracy 15–30% on physics benchmarks without external simulators.",
+  "summary": "Video diffusion models generate visually smooth clips but fail at physics—objects move implausibly, violate momentum, collide wrongly. LaMo trains on the same unlabeled videos used for generation, learning latent motion patterns as a self-supervised signal. During generation, it applies two plug-and-play components: a motion drift loss during training and motion guidance during sampling. On physics benchmarks (VideoPhy, VideoPhy2), it outperforms physics-aware baselines that need external supervision or teacher models, while maintaining visual quality on general benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 723,
+  "tokens_out": 211,
+  "cost_usd": 0.0014224,
+  "ingested_at": "2026-05-26T00:29:15.565755+00:00"
+}

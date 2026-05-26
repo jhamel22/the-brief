@@ -1,0 +1,22 @@
+{
+  "id": "2605.23375",
+  "arxiv_url": "https://arxiv.org/abs/2605.23375",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Counting Degrees of Freedom in Open Effective Theories",
+  "authors": "Enrica Lausdei, Enrico Pajer",
+  "abstract": "Open effective field theories provide a systematic framework for describing physical systems interacting with an environment whose microscopic details are unknown, unobservable, or uncalculable. A basic step in constructing any effective field theory is the identification of the relevant degrees of freedom. For open effective theories, however, this step is subtle: their dynamics is generically dissipative and non-Hamiltonian, so the standard Hamiltonian and Lagrangian algorithms are not directly applicable. To overcome this limitation, we develop an algorithm to count degrees of freedom directly from the equations of motion. Restricting to classical, linearised dynamics on homogeneous and isotropic backgrounds, our method applies to non-Lagrangian systems with unequal numbers of fields and equations, including systems with constraints and gauge redundancies. As a by-product, our algorithm identifies constraints, gauge identities, gauge redundancies, and consistency conditions on stochastic sources. The central ingredient is the introduction of a dual set of ``advanced'' equations, or equivalently an auxiliary Martin-Siggia-Rose functional. We show that gauge redundancies of the original fields are associated with gauge identities of the dual advanced equations, and vice versa. We illustrate our procedure in examples ranging from coupled scalar systems to electromagnetism in a medium and gravitational effective theories relevant for cosmology. Our results will prove useful in the study of stochastic dynamics, non-equilibrium statistical systems and the semi-classical limit of open quantum systems on the Schwinger-Keldysh path integral.",
+  "title_relatable": "How many real degrees of freedom hide in messy, dissipative systems?",
+  "hook": "Physicists developed a way to count actual degrees of freedom in systems losing energy to unknown environments—a step essential for building effective theories of dissipative physics.",
+  "summary": "When a system interacts with an unknown environment, standard methods for counting degrees of freedom break down because energy dissipates and equations aren't reversible. Lausdei and Pajer introduce an algorithm that works directly from equations of motion by constructing dual \"advanced\" equations, automatically revealing constraints, redundancies, and consistency conditions. The method applies to classical systems ranging from coupled fields to electromagnetism in media and cosmological gravity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 756,
+  "tokens_out": 180,
+  "cost_usd": 0.0013248000000000001,
+  "ingested_at": "2026-05-26T00:17:50.772683+00:00"
+}

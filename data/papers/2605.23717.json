@@ -1,0 +1,22 @@
+{
+  "id": "2605.23717",
+  "arxiv_url": "https://arxiv.org/abs/2605.23717",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Vision-Based Agile Landing on Turbulent Waters",
+  "authors": "Dimosthenis Angelis, Leonard Bauersfeld, Davide Scaramuzza, Evangelos Boukas",
+  "abstract": "Autonomous landing of Unmanned Aerial Vehicles on maritime vessels is challenging due to the coupled motion of the vehicle and landing platform in open-sea conditions. This paper presents a reinforcement-learning-based approach for autonomous multirotor landing on moving maritime platforms without requiring explicit platform-state information. The proposed method uses multirotor state measurements together with local visual features, consisting of keypoints and associated descriptors extracted from the landing surface, to predict attitude and thrust commands. These commands are tracked by a conventional low-level controller. The policy is trained in simulation using synthetic keypoints with randomly generated normalized descriptors, enabling zero-shot deployment with different local feature extractors onboard the UAV. We evaluate the method in a realistic simulator and show that it outperforms a state-of-the-art Model Predictive Control baseline under platform motions corresponding to ``Very Rough'' sea conditions. Finally, we perform extensive real-world experiments, demonstrating autonomous onboard landing using two different local feature extractors. To the best of our knowledge, this is the first approach for agile multirotor landing on maritime platforms in turbulent waters that does not rely on an explicit platform-state representation.",
+  "title_relatable": "Can drones land on moving ships without knowing where they are?",
+  "hook": "RL-trained drone lands on turbulent-water vessels using only vision, outperforming control baselines in rough seas.",
+  "summary": "Landing a drone on a pitching ship is like trying to catch a ball thrown from a moving car. This work trains a reinforcement-learning policy that uses only the drone's onboard sensors and visual keypoints from the landing surface—no need for explicit knowledge of the platform's position or motion. Tested in realistic simulation and real-world trials across two different visual feature extractors, the method beats a conventional control baseline under \"Very Rough\" sea conditions and achieves autonomous landing without relying on platform-state information.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 700,
+  "tokens_out": 189,
+  "cost_usd": 0.001316,
+  "ingested_at": "2026-05-26T00:30:29.513271+00:00"
+}

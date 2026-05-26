@@ -1,0 +1,23 @@
+{
+  "id": "2605.23315",
+  "arxiv_url": "https://arxiv.org/abs/2605.23315",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Convergence Without Understanding: When Language Models Agree on Representations but Disagree on Reasoning",
+  "authors": "Muhammad Usama, Dong Eui Chang",
+  "abstract": "Large language models trained under diverse objectives and architectures have been shown to develop increasingly similar internal representations, an observation formalized as the Platonic Representation Hypothesis. Whether this representational convergence extends to the reasoning processes that operate over shared representations remains untested. We evaluate representational similarity across 16 language models from 8 families (1.5B to 72B parameters) on 800 reasoning problems spanning mathematics, science, commonsense, and truthfulness, stratifying by problem difficulty, computational stage, and causal relevance. Our analysis reveals three dissociations: a difficulty inversion, where models converge more on problems they collectively fail (Centered Kernel Alignment [CKA] = 0.897) than on those they solve (CKA = 0.830); a generation gap, where pre-decision representations align (CKA = 0.875) while post-decision representations diverge (CKA = 0.274); and epiphenomenal correctness, where shared information is decodable across models (66% transfer accuracy) but exerts minimal causal influence on predictions (1.5% to 5.5% flip rate across ablation protocols). These results indicate that representational convergence in language models reflects shared input processing constraints rather than shared reasoning strategies, with direct implications for ensemble design, interpretability transfer, and evaluations of model similarity. Code is available at https://github.com/Usama1002/convergence-without-understanding.",
+  "title_relatable": "Do language models think alike when their answers match?",
+  "hook": "Models converge on shared representations for hard problems they all fail, but diverge on reasoning—challenging assumptions about internal alignment.",
+  "summary": "Across 16 language models (1.5B–72B parameters) solving 800 reasoning problems, representations align most on questions all models get wrong, not right. Post-decision activations diverge sharply even when early layers match, and shared information rarely causally influences predictions (1.5–5.5% flip rate under ablation). Convergence reflects common input processing, not shared reasoning logic.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 763,
+  "tokens_out": 164,
+  "cost_usd": 0.0012664,
+  "ingested_at": "2026-05-26T00:27:00.380295+00:00"
+}

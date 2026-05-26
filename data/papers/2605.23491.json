@@ -1,0 +1,24 @@
+{
+  "id": "2605.23491",
+  "arxiv_url": "https://arxiv.org/abs/2605.23491",
+  "announced_date": "2026-05-22",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "CoSPlay: Cooperative Self-Play at Test-Time with Self-Generated Code and Unit Test",
+  "authors": "Zhangyi Hu, Chenhui Liu, Tian Huang, Jindong Li, Yang Yang, Jiemin Wu, Zining Zhong, Menglin Yang, Yutao Yue",
+  "abstract": "Recently, Reinforcement Learning with Verifiable Rewards (RLVR) and Test-Time Scaling (TTS) have advanced LLM code generation through executable verification. Yet Ground-Truth Unit Tests (GT UTs) remain a bottleneck: SOTA RLVR methods require them for costly training, while existing TTS methods lose competitiveness without them. This motivates GT-free TTS, where existing methods directly use self-generated UTs to refine and select code candidates. Yet such UTs are often noisy or spuriously coupled with wrong code, and UT quality in turn cannot be validated without reliable code. The key challenge is therefore to jointly improve both. To this end, we present CoSPlay, a GT-free, training-free framework that jointly improves codes and UTs through cooperative self-play. It first explores diverse solution ideas and identifies their potential failure modes to produce discriminative UT ideas. It then uses bidirectional pass-count signals from the Code-UT execution matrix to iteratively prune or fix weak codes and refresh or replace unreliable UTs, letting the two pools co-evolve. Finally, when multiple codes remain tied at the highest pass count, it picks the final code from the largest output-consensus cluster, since correct codes agree on the same inputs while wrong codes diverge. Experiments on four challenging benchmarks show that CoSPlay on Qwen2.5-7B-Instruct improves average BoN from 22.1% to 33.2% and UT accuracy from 14.6% to 78.3%, matching or surpassing the RLVR model CURE-7B. When applied to CURE-7B, it further improves BoN by 5.7%. CoSPlay also generalizes across diverse backbones and outperforms GT-free TTS baselines under comparable token budgets, with continued gains as the budget scales up. These results suggest a scalable inference strategy for competitive code generation without any GT data.",
+  "title_relatable": "Can AI write better code by testing itself without human examples?",
+  "hook": "CoSPlay improves code generation from 22% to 33% accuracy by having AI jointly refine both code and tests through self-play, matching models trained on ground-truth examples.",
+  "summary": "Current methods for generating correct code require expensive ground-truth unit tests during training. CoSPlay sidesteps this by having the model generate both code candidates and test cases, then iteratively improve them together—using a two-way feedback loop where weak code fails tests and bad tests wrongly pass code. When multiple solutions tie, it picks code from the largest consensus cluster, since correct answers agree while wrong ones diverge. On four benchmarks, this nearly-training-free approach lifts accuracy from 22% to 33%, matching or beating models trained with human-written tests.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 924,
+  "tokens_out": 213,
+  "cost_usd": 0.0015912,
+  "ingested_at": "2026-05-26T00:23:29.663181+00:00"
+}

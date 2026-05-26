@@ -1,0 +1,22 @@
+{
+  "id": "2605.23711",
+  "arxiv_url": "https://arxiv.org/abs/2605.23711",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "On the Gravitational Angular Momentum of Axial Perturbations of a Regular Black Hole",
+  "authors": "S. C. Ulhoa, F. L. Carneiro, B. C. C. Carneiro",
+  "abstract": "This Letter deals with the gravitational angular momentum carried by axial (odd-parity) perturbations of the Bardeen regular black hole within the teleparallel equivalent of general relativity (TEGR). Using the Hamiltonian definition of conserved quantities in TEGR, we derive a closed expression for the perturbative angular momentum $δJ$ in terms of the axial perturbation function $h_0(r,t)$. The result exhibits a sharp multipolar selection rule: $δJ$ vanishes for odd values of the multipole index $\\ell$, while even-$\\ell$ modes yield a nonzero contribution. The radial and temporal behavior of $δJ$ is illustrated using the known axial quasinormal modes of the Bardeen spacetime.",
+  "title_relatable": "Which gravitational waves actually carry spinning energy away from black holes?",
+  "hook": "Gravitational waves from a regular black hole carry angular momentum only for even multipole modes — odd modes contribute exactly zero.",
+  "summary": "Perturbing a Bardeen regular black hole (a singularity-free alternative to the standard Kerr/Schwarzschild solutions) and tracking the angular momentum carried away by gravitational waves reveals a sharp selection rule: only even-numbered wave modes (quadrupole, hexadecapole…) transport spin, while odd modes contribute nothing. The calculation uses the teleparallel formulation of general relativity to get a clean closed-form expression. This multipolar filter could leave a detectable imprint on gravitational-wave signals from regular black holes versus singular ones.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 626,
+  "tokens_out": 198,
+  "cost_usd": 0.004848,
+  "ingested_at": "2026-05-26T00:16:45.917612+00:00"
+}

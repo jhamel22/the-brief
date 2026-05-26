@@ -1,0 +1,24 @@
+{
+  "id": "2605.23834",
+  "arxiv_url": "https://arxiv.org/abs/2605.23834",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Thermodynamics and transport in holographic QCD with Gauss-Bonnet corrections",
+  "authors": "ChenWei Tong, Jie Zhou, YuanXu Wang, Rong-Gen Cai, Song He, Li Li",
+  "abstract": "Thermodynamics and transport are investigated in a holographic QCD model that extends the Einstein--Maxwell--Dilaton framework by incorporating Gauss--Bonnet corrections. Model parameters are fixed using state-of-the-art lattice QCD thermodynamics. The analysis then examines the equation of state at zero and finite baryon chemical potential, the phase structure in the temperature and chemical potential plane, as well as the shear and bulk viscosity to entropy ratios, $η/s$ and $ζ/s$, via the corresponding fluctuation equations. For a constant Gauss--Bonnet coupling, the model preserves a reasonable description of the equation of state and generates a temperature-dependent $η/s$, although the resulting profile remains monotonic near the crossover region, which does not satisfy the phenomenological expectation. When the Gauss--Bonnet coupling is allowed to depend on the dilaton, a non-monotonic $η/s$ and a peaked $ζ/s$ are obtained while maintaining agreement with thermodynamic constraints. The resulting phase diagram contains a critical end point in a phenomenologically relevant region.",
+  "title_relatable": "Why does quark-gluon plasma resist flow in strange ways?",
+  "hook": "A tweaked gravity model reproduces the unusual viscosity dip seen in quark-gluon plasma near the QCD crossover temperature.",
+  "summary": "Quark-gluon plasma — the soup of quarks and gluons briefly created in heavy-ion collisions — flows with nearly zero viscosity near the crossover temperature where it forms, then rises again, a behavior no simple model captures cleanly. By adding a curvature-squared 'Gauss-Bonnet' correction to a holographic QCD framework and letting it depend on the background field, the authors reproduce this non-monotonic viscosity profile while matching lattice QCD thermodynamics and placing the predicted critical end point of the QCD phase diagram squarely in the experimentally relevant range.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 703,
+  "tokens_out": 214,
+  "cost_usd": 0.005319,
+  "ingested_at": "2026-05-26T00:16:25.781205+00:00"
+}

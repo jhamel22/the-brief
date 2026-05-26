@@ -1,0 +1,24 @@
+{
+  "id": "2605.23734",
+  "arxiv_url": "https://arxiv.org/abs/2605.23734",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "math-ph",
+    "math.FA",
+    "quant-ph"
+  ],
+  "title_original": "The Floquet-Magnus expansion of unbounded operators",
+  "authors": "Daniel Burgarth, Robin Hillier, Davide Lonigro, Leonhard Richter",
+  "abstract": "The Floquet-Magnus expansion is a widely used tool to derive effective descriptions of time-periodic quantum systems by approximating their dynamics with a time-independent Hamiltonian. However, its standard formulation is, strictly speaking, restricted to bounded Hamiltonians. In this work, we extend its definition and analysis to a broad class of time-periodic unbounded Hamiltonians. Our approach is based on an a priori distinct nonperturbative framework for the construction of effective Hamiltonians, which we show to reproduce the Floquet-Magnus expansion. A particular strength of our framework is that it allows us to prove that the resulting effective dynamics approximates the original time evolution propagators to arbitrary order in the high-frequency limit without requiring convergence of the Floquet-Magnus expansion, a condition that is already highly restrictive even in the bounded setting. We illustrate the scope of the method on representative models: the quantum Rabi Hamiltonian in the interaction picture, and the periodically driven quantum harmonic oscillator.",
+  "title_relatable": "Does the standard tool for driven quantum systems actually work?",
+  "hook": "A widely used approximation method for time-varying quantum systems was never mathematically justified for most real physical Hamiltonians — until now.",
+  "summary": "Most driven quantum systems — like atoms in laser fields or oscillators under periodic forcing — have Hamiltonians that are mathematically unbounded, yet the standard Floquet-Magnus expansion was only proven to work for bounded ones. This work rigorously extends the method to unbounded operators and, crucially, proves it gives accurate approximations even when the expansion itself doesn't formally converge. The fix matters: nearly every experimentally relevant quantum system falls outside the original theory's fine print.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 656,
+  "tokens_out": 177,
+  "cost_usd": 0.004623,
+  "ingested_at": "2026-05-26T00:19:04.041746+00:00"
+}

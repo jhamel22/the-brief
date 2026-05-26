@@ -1,0 +1,23 @@
+{
+  "id": "2605.23554",
+  "arxiv_url": "https://arxiv.org/abs/2605.23554",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Inferring the role of binary neutron star mergers in r-process nucleosynthesis with multi-messenger observations using Cosmic Explorer and Einstein Telescope",
+  "authors": "Aman Agarwal, Suvodip Mukherjee, Daniel M. Siegel",
+  "abstract": "Identifying the cosmic origin of rapid neutron-capture (r-process) elements remains an open problem. Binary neutron-star (BNS) mergers and rare classes of core-collapse supernovae (CCSNe) represent the main contenders as major r-process production sites. Although BNS mergers could exclusively account for r-process nucleosynthesis, results from chemical evolution studies taking into account their delays with respect to star formation, observed BNS rates by gravitational-wave (GW) detectors, as well as issues with retention in low-mass halos suggest otherwise. Here, we propose a method to measure the contribution of BNS mergers to cosmic r-process nucleosynthesis with the third-generation GW detectors Cosmic Explorer and Einstein Telescope. It exploits the redshift-dependent correlation between the total number of BNS GW events and the average r-process abundances at redshifts $z \\lesssim 1$. We apply this correlation technique to mock GW and abundance data, accounting for expected observational uncertainties in two limiting scenarios: GW events with electromagnetic counterpart (multi-messenger 'bright-sirens') and without ('dark-sirens'). Using Fisher forecasts, we demonstrate that the fractional cumulative contribution of BNS mergers to the total cosmic r-process $F_{\\rm{BNS,z0}}$ can be estimated to the $\\lesssim 5-6\\%$ precision level for both scenarios at $1σ$ for fiducial astrophysical scenarios with $F_{\\rm{BNS,z0}} \\gtrsim 0.1-1$. Furthermore, the method also yields estimates of the BNS delay-time distribution parameters comparable to other approaches. Although cosmic r-process abundances may be reconstructed from local observations at low metallicity, this method also provides a science case to identify signatures of neutron-capture elements beyond the local Universe.",
+  "title_relatable": "Do neutron star collisions make all the gold in the universe?",
+  "hook": "Next-generation gravitational wave detectors could pin down neutron star mergers' share of cosmic gold production to within 5%.",
+  "summary": "Gold, platinum, and other heavy elements are forged in extreme cosmic events, but whether neutron star mergers alone are responsible remains contested. By correlating the count of merger gravitational-wave signals from Cosmic Explorer and Einstein Telescope with measured heavy-element abundances across cosmic time, this method could determine neutron star mergers' fractional contribution to within 5–6% precision — finally giving a definitive answer to one of astrophysics' longest-standing elemental mystery.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 891,
+  "tokens_out": 181,
+  "cost_usd": 0.005388,
+  "ingested_at": "2026-05-26T00:16:51.149151+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23657",
+  "arxiv_url": "https://arxiv.org/abs/2605.23657",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "OpenSkillEval: Automatically Auditing the Open Skill Ecosystem for LLM Agents",
+  "authors": "Jiahao Ying, Boxian Ai, Wei Tang, Siyuan Liu, Yixin Cao",
+  "abstract": "Skills, i.e., structured workflow instructions distilled for large language models (LLMs), are becoming an increasingly important mechanism for improving agent performance on real-world downstream tasks. However, as the open-source skill ecosystem rapidly expands, it remains unclear how different models and agent frameworks interact with skills, how to evaluate skill quality, and how users should select skills under practical cost-performance trade-offs. In this paper, we present \\textsc{OpenSkillEval}, an automatic evaluation framework for both skill-augmented agent systems and the skills themselves. Instead of relying on static benchmarks, \\textsc{OpenSkillEval} automatically constructs realistic task instances from evolving real-world artifacts across five categories of downstream applications: presentation generation, front-end web design, poster generation, data visualization, and report generation. It further collects and organizes community-contributed skills for controlled comparison under unified task settings. Using more than 600 dynamically generated task instances and 30 open-source skills, we conduct a systematic evaluation of state-of-the-art models and agent frameworks. Our results show that skill availability does not guarantee effective skill usage, that the benefit of skill augmentation depends strongly on both the underlying model and the agent framework, and that many publicly popular skills do not consistently outperform base agents without skills. These findings highlight the need for dynamic, task-grounded evaluation and provide practical insights into the design, selection, and deployment of skills for LLM agents. Additional cases and benchmark resources are available on the project website: https://yingjiahao14.github.io/OpenSkillEval-Web/.",
+  "title_relatable": "Do LLM agent skills actually work? Testing 30 open-source tools",
+  "hook": "Systematic evaluation of 600+ task instances reveals that popular skills often underperform base agents—and skill benefits vary wildly by model.",
+  "summary": "LLM agents are increasingly augmented with \"skills\"—structured workflows for tasks like web design and report generation. OpenSkillEval tests whether these 30 community skills actually help by generating realistic tasks across five application domains. Finding: skill availability doesn't guarantee effective usage; benefits depend heavily on the underlying model and agent framework, and many popular skills underperform agents without any skills at all.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 807,
+  "tokens_out": 170,
+  "cost_usd": 0.0013256,
+  "ingested_at": "2026-05-26T00:26:52.194413+00:00"
+}

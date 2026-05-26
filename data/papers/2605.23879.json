@@ -1,0 +1,25 @@
+{
+  "id": "2605.23879",
+  "arxiv_url": "https://arxiv.org/abs/2605.23879",
+  "announced_date": "2026-05-22",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.CR",
+    "cs.LG",
+    "math.ST"
+  ],
+  "title_original": "On the Stability of Spherical Hellinger-Kantorovich Flows and Their Implications for Differential Privacy",
+  "authors": "Aratrika Mustafi, Soumya Mukherjee",
+  "abstract": "Gradient-flow sampling interprets a Gibbs distribution as the minimizer of an energy functional over probability measures and generates dynamics converging to this target. Under spherical Hellinger-Kantorovich (SHK) geometry, the flow couples transport and reaction and coincides with birth-death Langevin dynamics. In this work, we develop a perturbation theory for SHK gradient flows. For two potentials $V$ and $V^{\\prime}$, we compare the associated flows from a common initialization and quantify how potential discrepancies propagate over time. A uniform perturbation bound yields dimension-free, pointwise control of the log-likelihood ratio and Rényi divergence, while additional structure allows us to derive bounds for the KL divergence as well. We apply these results to approximate sampling for the exponential mechanism in differential privacy. The likelihood-ratio control provides explicit time-dependent Pure-DP guarantees for SHK-based samplers, while the KL bound yields Approximate-DP certificates via hockey-stick divergence. We also derive a utility bound separating intrinsic exponential-mechanism suboptimality from finite-time sampling error.",
+  "title_relatable": "How small changes in distributions affect privacy-preserving sampling?",
+  "hook": "New math shows how perturbations propagate in gradient flows, enabling dimension-free privacy guarantees for differentially private sampling.",
+  "summary": "Gradient-flow sampling generates samples from complex distributions by minimizing an energy functional. This work develops perturbation bounds for flows under spherical Hellinger-Kantorovich geometry, quantifying how errors in the target distribution propagate over time. The authors apply these bounds to differential privacy, deriving explicit privacy certificates (Pure-DP and Approximate-DP) for exponential-mechanism samplers and separating sampling error from inherent algorithmic loss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 707,
+  "tokens_out": 176,
+  "cost_usd": 0.0012695999999999999,
+  "ingested_at": "2026-05-26T00:30:56.813558+00:00"
+}

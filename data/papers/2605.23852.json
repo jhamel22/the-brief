@@ -1,0 +1,23 @@
+{
+  "id": "2605.23852",
+  "arxiv_url": "https://arxiv.org/abs/2605.23852",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "math-ph"
+  ],
+  "title_original": "Convexity and non-Markovianity of Weyl Maps",
+  "authors": "Wen Xu, Vinayak Jagadish",
+  "abstract": "We investigate the emergence of non-Markovian dynamics in finite-dimensional open quantum systems governed by Weyl dynamical maps and their convex combinations. Using the Hermite normal form, we provide a complete classification of the subgroups of the discrete phase space $\\mathbb{Z}_d \\times \\mathbb{Z}_d$, establishing the algebraic framework underlying the Weyl maps. We characterize isotropic Weyl dynamical maps that generate Markovian semigroups and show that anisotropic Weyl maps with nonuniform weight distributions cannot possess the semigroup property. Furthermore, we analyze the role of convexity in the generation and suppression of memory effects. Remarkably, we prove that convex combinations of eternally non-Markovian Weyl dephasing maps can generate Markovian semigroups, demonstrating that non-Markovianity is not additive under mixing. Conversely, we establish a general condition under which convex mixtures of $N$ distinct Weyl semigroups exhibit eternal non-Markovianity. In contrast to the qubit Pauli setting, we further identify the existence of irreducible eternally non-Markovian Weyl dephasing maps, namely, individual dynamical maps that display eternal memory effects without requiring any mixing mechanism. Finally, explicit qutrit examples illustrate the transition among Markovian, non-Markovian and eternally non-Markovian regimes. Our results uncover a fundamental connection among finite phase-space algebra, convex structures, and quantum memory effects, thereby extending the theory of non-Markovian dynamics beyond the Pauli framework.",
+  "title_relatable": "Can mixing forgetful quantum systems create a system with memory?",
+  "hook": "Combining memoryless quantum processes can paradoxically produce systems with memory — and vice versa.",
+  "summary": "Quantum systems interacting with their environment can either forget their history quickly (Markovian) or retain memory of past states (non-Markovian). This work proves that mixing multiple eternally forgetful quantum processes can create a process with persistent memory, while mixing memory-laden processes can erase that memory entirely. The findings apply to qutrits (three-level quantum systems) and reveal that memory is a fundamentally non-additive property — you can't predict a mixture's behavior from its ingredients alone.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 808,
+  "tokens_out": 179,
+  "cost_usd": 0.005109,
+  "ingested_at": "2026-05-26T00:18:43.180968+00:00"
+}

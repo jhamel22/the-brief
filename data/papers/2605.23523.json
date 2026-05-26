@@ -1,0 +1,22 @@
+{
+  "id": "2605.23523",
+  "arxiv_url": "https://arxiv.org/abs/2605.23523",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "ComPose: When to Trust Hands for Object Pose Tracking",
+  "authors": "Jisu Shin, Junoh Lee, JunGyu Lee, Inhwan Bae, Dohyeon Lee, Hokyun Im, Youngwoon Lee, Hae-Gon Jeon",
+  "abstract": "Reconstructing the motion of objects from videos is a key component for embodied AI and robot manipulation. While diverse approaches to object pose tracking have been studied, they rely heavily on strong external priors, such as depth data or 3D templates, and remain highly vulnerable to severe occlusions by hand grasps despite the use of explicit masks. In this work, we present ComPose, a 6DoF object tracking framework designed for hand-aware object pose estimation from RGB video. Rather than treating the hand purely as an occluder, our method harmonizes hand motions as a \\textit{complementary cue} for object tracking. In detail, we recover a variety of object motions over time by combining object and hand cues from foundation models within a unified tracking pipeline. Here, ComPose adaptively selects informative hand joints, combines object- and hand-derived cues for motion estimation, and refines the resulting object motion using visible geometric evidence and a learned correction. We further enforce the temporal consistency over both rotation and translation, yielding stable 3D object trajectories over time without any external smoothing. Extensive experiments show that our method is accurate, efficient, and robust under severe hand occlusion and geometric ambiguity. In addition, the resulting trajectories can also effectively transfer to downstream robot manipulation by enabling robots to reconstruct human actions from online videos.",
+  "title_relatable": "When hands hide objects, use hands to find them",
+  "hook": "6DoF object tracking from RGB video that turns hand occlusions into tracking clues, robust to severe grasping without depth sensors.",
+  "summary": "Robot manipulation and embodied AI need to track objects being held and manipulated by hands—but hands occlude the very objects they're moving. ComPose flips this problem: instead of ignoring hands as noise, it uses hand joint positions as a complementary signal for 6DoF pose estimation from RGB video alone. The method combines object and hand cues from foundation models, adaptively weights informative joints, and enforces temporal consistency across frames. It outperforms depth-dependent and template-based trackers under severe occlusion, and transfers directly to robot action reconstruction from human videos.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 766,
+  "tokens_out": 204,
+  "cost_usd": 0.0014288000000000003,
+  "ingested_at": "2026-05-26T00:28:58.802117+00:00"
+}

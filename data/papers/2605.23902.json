@@ -1,0 +1,22 @@
+{
+  "id": "2605.23902",
+  "arxiv_url": "https://arxiv.org/abs/2605.23902",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+  "authors": "Yifan Lu, Qi Wu, Jay Zhangjie Wu, Zian Wang, Huan Ling, Sanja Fidler, Xuanchi Ren",
+  "abstract": "Most practical high-resolution text-to-image systems, including latent diffusion and autoregressive models, perform generation in a compact latent space, and a decoder maps the generated latents back to pixels. Yet the latent-to-pixel decoder is reconstruction-oriented, optimized to invert the encoder rather than synthesize more details, and becomes increasingly costly at megapixel scale. This drawback calls for a more expressive and efficient decoding paradigm. Motivated by recent progress in scalable pixel-space diffusion, we introduce PiD, a Pixel diffusion Decoder that reformulates latent decoding as conditional pixel diffusion, unifying decoding and upsampling into one generative module. By denoising directly in high-resolution pixel space, PiD synthesizes $4\\times$ and even $8\\times$ upscaled images with low latency. For latent conditioning, a lightweight sigma-aware adapter injects noise-corrupted latents into the pixel diffusion backbone, enabling PiD to decode partially denoised latents and terminate the latent diffusion process early. To further improve efficiency, we distill the model using DMD2, reducing inference to just 4 steps. PiD applies to both conventional VAE latents and semantic latents (e.g., SigLIP, DINOv2) used in recent RAE-based models. PiD decodes latents of $512 \\times 512$ images into $2048 \\times 2048$ pixels in under 1 second with 13 GB peak memory on a consumer RTX 5090, and as fast as 210 ms on a GB200 GPU, about $6\\times$ faster than cascaded diffusion-based super-resolution pipelines with better visual fidelity.",
+  "title_relatable": "Can diffusion generate pixels faster than traditional decoders?",
+  "hook": "Replaces expensive reconstruction decoders with pixel diffusion, achieving 6× speedup and 4–8× upscaling in under 1 second on consumer hardware.",
+  "summary": "Text-to-image systems generate in compact latent spaces then decode back to pixels—but standard decoders are slow and struggle at high resolution. PiD treats decoding as conditional pixel diffusion, synthesizing details directly in pixel space while a lightweight adapter grounds the process in the latent codes. With distillation down to 4 steps, it decodes 512×512 latents to 2048×2048 pixels in under 1 second on RTX 5090, matching or beating cascaded super-resolution pipelines at a fraction of the cost.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 868,
+  "tokens_out": 214,
+  "cost_usd": 0.0015504000000000002,
+  "ingested_at": "2026-05-26T00:29:09.006486+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.23634",
+  "arxiv_url": "https://arxiv.org/abs/2605.23634",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "DualMem: Bypassing the Objectness Bottleneck for Calibrated Unknown-Stream Filtering in Open-World Object Detection",
+  "authors": "Yingjun Xiao, Xi Chen, Gang Fang, Siyuan Chen",
+  "abstract": "Open-world object detection (OWOD) requires detectors to localize known classes while identifying unknown objects for future incremental learning. We find that the unknown prediction streams of strong OWOD detectors are heavily polluted: on M-OWODB, across PROB, OW-DETR, and HypOW, future-task positive unknowns make up less than 10% of unknown predictions, whereas background false positives account for 46-71%. We show that this is not a missing-information problem, but an information bottleneck at the objectness head. On PROB Task 1, a linear probe on the 256-D decoder query achieves an AUROC of 0.908 for positive-versus-negative unknown discrimination, but the final one-dimensional objectness scalar drops to 0.642. A frozen SigLIP feature, without access to the detector, independently recovers much of this proposal-level separability at the filtering stage (AUROC = 0.871). Motivated by this finding, we propose DualMem, a calibrated post-hoc filter that assumes a small image-disjoint annotated calibration split of held-out future-task objects and performs a non-parametric likelihood ratio test in frozen SigLIP feature space. DualMem uses a k-nearest-neighbor positive memory to protect future-task objects and a negative memory to suppress background-like proposals. Its decision threshold is chosen by Neyman-Pearson calibration, giving users an explicit trade-off between false-unknown suppression and novel recall. Across PROB, OW-DETR, and HypOW on M-OWODB Task 1, DualMem reduces background-type false unknown proposals per image by 44.9%-66.3%, with a mean reduction of 56.6%. On PROB Task 1, it more than doubles the reduction achieved by a natural K-means prototype baseline, while leaving known-class mAP unchanged because known detections bypass the filter.",
+  "title_relatable": "Why open-world detectors fail to spot truly novel objects",
+  "hook": "Unknown predictions are 46–71% background noise, not real unknowns. DualMem cuts false alarms by 56.6% using frozen vision features.",
+  "summary": "Open-world object detectors can localize known classes but struggle to spot genuinely novel objects for future learning—their unknown predictions are mostly false alarms rather than true unknowns. The bottleneck isn't missing information; it's a one-dimensional objectness score that discards useful signal from the detector's internal representations. DualMem, a post-hoc filter using frozen SigLIP features and k-nearest-neighbor matching, reduces background false positives by 56.6% while preserving detection of true novel objects. It requires only a small labeled calibration set of future objects and lets users tune the precision–recall trade-off via Neyman-Pearson calibration.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 905,
+  "tokens_out": 237,
+  "cost_usd": 0.001672,
+  "ingested_at": "2026-05-26T00:29:40.537308+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23767",
+  "arxiv_url": "https://arxiv.org/abs/2605.23767",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Entropy and stability of an extremally charged Einstein-Born-Infeld thin shell",
+  "authors": "Ernesto Eiroa, Griselda Figueroa-Aguirre, Miguel Peñafiel",
+  "abstract": "Spacetimes with a thin shell offer a framework where both the dynamical stability and the thermodynamical stability of the matter comprising the shell can be consistently studied. In the present work, we consider the dynamical and thermodynamical stability of a spherical thin shell in Einstein gravity coupled to Born-Infeld electrodynamics. For our construction, we adopt the extremally charged solution of the theory, which offers a closed analytic form for the horizon location that allows for a clear derivation of the corresponding physical quantities of interest. Under this scenario, the dynamical stability conditions under radial perturbations are readily obtained in terms of an effective potential. The complete equilibrium thermodynamics for such a shell is presented. We find that, despite a non-zero pressure at the shell (unlike the extremally charged Reissner-Nordström counterpart), its entropy is solely characterized as a function of the gravitational radius. We propose a physically suitable \\emph{ansätze} for the relevant equations of state in order to obtain a closed expression for the entropy density of the shell. We find that the thermodynamical stability conditions reduce to a single inequality related to exchanges of the charge at the shell, which determines the domain where both dynamical and thermodynamical stable configurations exist.",
+  "title_relatable": "How stable is a charged shell on the edge of collapse?",
+  "hook": "A charged spherical shell at the extremal limit turns out thermodynamically stable under a surprisingly simple condition tied only to charge exchange.",
+  "summary": "Thin shells — layers of matter hovering near their own event horizon — let physicists test both mechanical and thermodynamic stability in the same system. This study examines such a shell in a theory where electromagnetism is modified at high field strengths (Born-Infeld), finding that despite the shell having nonzero pressure, its entropy depends only on the gravitational radius, not the pressure. Stability ultimately boils down to a single inequality governing how charge flows across the shell.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 716,
+  "tokens_out": 177,
+  "cost_usd": 0.004803,
+  "ingested_at": "2026-05-26T00:16:35.761004+00:00"
+}

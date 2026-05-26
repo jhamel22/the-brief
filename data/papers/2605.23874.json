@@ -1,0 +1,23 @@
+{
+  "id": "2605.23874",
+  "arxiv_url": "https://arxiv.org/abs/2605.23874",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Quantum Quenches that Resemble Operator Growth",
+  "authors": "Xiangyu Cao",
+  "abstract": "We study growth quenches, which are local quenches that may gradually destabilize a false vacuum in certain kinetic constrained quantum lattice models, such as the East-West model. We point out a formal analogy with the dynamics of a local operator in the Heisenberg picture. Exploiting this analogy, we obtain several results on growth quenches by adapting operator-dynamics concepts and methods. First, applying the Krylov approach (recursion method), we conjecture the linear growth of Lanzcos coefficients in generic quenches, $a_m \\sim νm$ (diagonal), and $b_m \\sim αm$ (off-diagonal), extending an operator growth hypothesis. We show that the growth quench dynamics is localized in both Krylov and Fock spaces when $|ν| > 2 α$, and derive a bound for the growth quench analogue of Lyapunov exponent $λ_L \\le \\sqrt{4 α^2 - ν^2}$ when $|ν| < 2 α$. Second, we realize the Fock localization in large $N$ solvable growth quenches inspired by Sachdev-Ye-Kitaev (SYK) models. The bound on Lyapunov exponent is saturated in large-$q$ SYK grow quench. By contrast, the growth quench is almost always Fock localized in a nonrandom all-to-all growth quench amenable to semiclassics. Finally, in the 1D East-West model, we interpret Fock space cage states as the existence of a conserved charge. We show that the latter has ballistic transport due to current conservation. Moreover, adding hopping with a fine-tuned amplitude induces a partial localization due to a flat band. Our work suggest growth quenches as a promising approach to realize non-equilibrium coherent phenomena in many-body systems.",
+  "title_relatable": "What happens when you poke a quantum system's unstable ground state?",
+  "hook": "A formal analogy between vacuum instability and operator scrambling yields new bounds on quantum chaos growth rates.",
+  "summary": "Poking a quantum lattice model near a false vacuum triggers a spreading instability that mathematically mirrors how operators grow in chaotic quantum systems. By borrowing tools from that operator-growth framework — particularly the Krylov recursion method — the work derives a chaos bound analogous to the Lyapunov exponent: λ_L ≤ √(4α²−ν²). Solvable SYK-inspired models saturate this bound, while non-random all-to-all models almost always freeze up instead, suggesting these 'growth quenches' are a controllable laboratory for non-equilibrium quantum coherence.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 863,
+  "tokens_out": 213,
+  "cost_usd": 0.005784,
+  "ingested_at": "2026-05-26T00:18:27.326248+00:00"
+}

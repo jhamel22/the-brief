@@ -1,0 +1,23 @@
+{
+  "id": "2605.23669",
+  "arxiv_url": "https://arxiv.org/abs/2605.23669",
+  "announced_date": "2026-05-22",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "physics.bio-ph",
+    "q-bio.NC"
+  ],
+  "title_original": "Geometric Origin of Exact Mean-Field Reductions: M{ö}bius Symmetry and the Lorentzian Ansatz",
+  "authors": "Hugues Berry, Leonardo Trujillo",
+  "abstract": "Low-dimensional descriptions of large systems of coupled oscillators and spiking neurons rely heavily on the Lorentzian Ansatz. We show that its privileged role is geometric rather than heuristic: for the transport induced by Riccati dynamics, the Cauchy-Lorentz family indeed emerges as the unique connected two-dimensional family of continuous probability densities that is invariant under the induced projective transport. The key step of the demonstration is to reformulate the dynamics on the circle, where the problem reduces to the uniqueness of the rotation-invariant probability measure. Under stereographic projection, this yields the standard Cauchy law and, under the full projective action, the Lorentzian family. This result gives a unified geometric foundation for the Ott-Antonsen [Chaos 18, 037113 (2008)] and Montbri{ó}-Paz{ó}-Roxin [Phys. Rev. X 5, 021028 (2015)] reductions, explains the failure of Gaussian closures, and identifies the structural condition underlying exact two-parameter reductions.",
+  "title_relatable": "Why brain models mysteriously simplify to the Lorentz distribution",
+  "hook": "Physicists discovered why a specific mathematical curve always works for reducing complex neuron networks—it's the only shape that survives the dynamics intact.",
+  "summary": "When modeling thousands of coupled neurons, scientists use a mathematical trick called the Lorentzian Ansatz to collapse the system into manageable equations. This paper proves the trick isn't arbitrary: the Lorentz distribution is the *only* two-dimensional probability shape that stays invariant under the system's dynamics, a property rooted in projective geometry rather than computational convenience. This explains why simpler approaches like Gaussian approximations fail and validates reduction methods used across computational neuroscience.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 659,
+  "tokens_out": 187,
+  "cost_usd": 0.0012752,
+  "ingested_at": "2026-05-26T00:31:30.667808+00:00"
+}

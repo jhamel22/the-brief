@@ -1,0 +1,23 @@
+{
+  "id": "2605.23132",
+  "arxiv_url": "https://arxiv.org/abs/2605.23132",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Evidence of radial-migration driven Galactic disc expansion with the U-shape stellar age profile",
+  "authors": "Jianhui Lian, Qinhao Shao, Yuze Zhao",
+  "abstract": "Canonical theory predicts galaxies grow \"inside-out\", producing their observed negative radial age gradient. This picture is challenged by galaxies' `U-shaped' colour profiles -- indicating reversed age gradient -- explained by either outside-in formation or radial migration. Extragalactic observations cannot disentangle these two possibilities, but temporally and spatially resolved observations in the Milky Way offer a solution. Here we report a more complex U-shaped age profile of the Milky Way extending to 20 kpc, featuring an outer positive gradient followed by an age plateau of $\\sim$5 billion year beyond 12 kpc. Age and chemical abundance distributions of outer disk stars rule out outside-in formation and confirm radial migration as the primary driver of the outer positive age gradient and plateau. Our results suggest local star formation in the Galaxy truncates around 12 kpc and radial migration has expanded the Milky Way far beyond its native star formation regime out to 20 kpc -- a growth mode likely common to disk galaxies. The Milky Way thus provides a critical template to understand disk assembly in external galaxies, improving our understanding of galaxy growth.",
+  "title_relatable": "How did the Milky Way grow so far beyond where stars form?",
+  "hook": "Stars born near the galactic center have migrated outward, stretching the disk to twice its original size—a growth mode that likely applies to most spiral galaxies.",
+  "summary": "The Milky Way's outer disk contains surprisingly young stars at large radii where star formation stopped billions of years ago. By measuring ages and chemical abundances of distant stars, the team shows these stars didn't form in place but migrated outward from the inner galaxy, expanding the disk from 12 kpc to 20 kpc. This radial migration appears to be a common growth mechanism across spiral galaxies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 694,
+  "tokens_out": 179,
+  "cost_usd": 0.0012712,
+  "ingested_at": "2026-05-26T00:19:39.914146+00:00"
+}

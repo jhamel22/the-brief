@@ -1,0 +1,22 @@
+{
+  "id": "2605.23126",
+  "arxiv_url": "https://arxiv.org/abs/2605.23126",
+  "announced_date": "2026-05-22",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Asymptotic Counting of Binary Phylogenetic Networks",
+  "authors": "Hao Yu, Louxin Zhang",
+  "abstract": "Phylogenetic networks provide a general framework for modeling reticulate evolutionary processes such as hybridization, recombination, and horizontal gene transfer. In this paper, we study the asymptotic counting of binary phylogenetic networks with $k$ reticulations on $n$ taxa, where $k$ is allowed to grow with $n$. Using edge insertion, we analyze the local structures that affect the number of possible constructions of such networks. By bounding the contribution of networks with exceptional local configurations and combining these bounds with known asymptotic formulas for tree-child networks, we show that, when $k=o(\\sqrt n)$, the number of binary phylogenetic networks with $k$ reticulations on $n$ taxa is asymptotic to \\[ \\binom{n}{k}2^{n+k-1/2}n^{n+k-1}e^{-n}. \\]",
+  "title_relatable": "How many evolutionary family trees have reticulations?",
+  "hook": "Mathematicians derived a formula counting network structures that model hybridization and gene transfer across species.",
+  "summary": "Phylogenetic networks map how species diverge with hybridization and horizontal gene transfer mixed in—messier than simple trees. Yu and Zhang counted how many such networks exist with a given number of reticulation events across a given number of species, deriving an asymptotic formula. This matters because understanding the combinatorial landscape of possible networks helps evaluate which evolutionary histories are plausible.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 594,
+  "tokens_out": 152,
+  "cost_usd": 0.0010832,
+  "ingested_at": "2026-05-26T00:31:58.776964+00:00"
+}

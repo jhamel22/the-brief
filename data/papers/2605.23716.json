@@ -1,0 +1,22 @@
+{
+  "id": "2605.23716",
+  "arxiv_url": "https://arxiv.org/abs/2605.23716",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Semileptonic decay of $Λ_b^0 \\to Λ_c (2860)^+/Λ_c(2625)^+\\ell^-\\overlineν_\\ell$ within QCD light-cone sum rules",
+  "authors": "Hui-Hui Duan, Jia-Bao Feng, Feng-Mei Liu, Qin Chang",
+  "abstract": "In this work, we calculate the transition form factors for the weak decays $Λ_b^0 \\to Λ_c(2860)^+$ and $Λ_b^0 \\to Λ_c(2625)^+$ using QCD light-cone sum rules, and compute the branching fractions of the corresponding semileptonic decays $Λ_b^0 \\to Λ_c(2860)^+ \\ell^- \\barν_\\ell$ and $Λ_b^0 \\to Λ_c(2625)^+ \\ell^- \\barν_\\ell$. Our predicted branching fraction for $Λ_b^0 \\to Λ_c(2625)^+ \\ell^- \\barν_\\ell$ is consistent with experimental data and other theoretical predictions, validating the reliability of our method. On this basis, we also present the branching fraction of $Λ_b^0 \\to Λ_c(2860)^+ \\ell^- \\barν_\\ell$. These results may serve as a theoretical reference for future experimental measurements of this decay channel.",
+  "title_relatable": "Can QCD sum rules predict rare decays of exotic lambda baryons?",
+  "hook": "Physicists calculated decay rates for a lambda baryon splitting into heavier relatives, validating their method against experiment and predicting unmeasured branching fractions.",
+  "summary": "Using QCD light-cone sum rules, researchers computed how often a bottom lambda baryon decays into two heavier lambda states via weak interaction. Their prediction for one decay channel matches experimental data, establishing confidence in their approach to forecast the other, currently unmeasured decay—a benchmark for future precision measurements.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 777,
+  "tokens_out": 154,
+  "cost_usd": 0.0012376,
+  "ingested_at": "2026-05-26T00:20:09.452022+00:00"
+}

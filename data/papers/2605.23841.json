@@ -1,0 +1,23 @@
+{
+  "id": "2605.23841",
+  "arxiv_url": "https://arxiv.org/abs/2605.23841",
+  "announced_date": "2026-05-22",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.IM"
+  ],
+  "title_original": "cloelike: A Python Library for Cosmological Likelihood Inference in the Euclid Era",
+  "authors": "Marco Bonici, Guadalupe Cañas-Herrera, Pedro Carrilho, Santiago Casas, Chiara Moretti, Andrea Pezzotta, Zahra Baghkhani, Carmelita Carbone, Martin Crocce, Jip de Buck, Klara Bertmann, Nastassia Grimm, Martin Kärcher, Felicitas Keil, Davide Sciotti, Peter L. Taylor, Nicolas Tessore, Isaac Tutusaus, Casper Vedder",
+  "abstract": "cloelike is a Python package providing modular, composable Gaussian likelihood classes for the main cosmological large-scale structure observables targeted by the ESA Euclid space mission. It is a core component of the CLOE (Cosmology Likelihood for Observables in Euclid) ecosystem and interfaces directly with cloelib for theoretical predictions and euclidlib for reading official Euclid data products. The package implements Gaussian likelihoods covering harmonic angular power spectra and real-space two-point correlation functions for weak lensing (WL), photometric galaxy clustering (GCph), and Galaxy-Galaxy Lensing (GGL) in all joint probe combinations (3x2pt, 2x2pt), as well as spectroscopic full-shape power spectrum multipoles, and baryonic Acoustic oscillations (BAO). cloelike is actively used in internal Euclid Consortium analyses and is openly released to support community validation and reproducibility.",
+  "title_relatable": "Can a new Python tool unlock Euclid's cosmology measurements?",
+  "hook": "Euclid mission scientists release cloelike, a toolkit to extract cosmological constraints from weak lensing, galaxy clustering, and other large-scale structure data.",
+  "summary": "cloelike is a Python package that calculates statistical likelihoods for Euclid's main cosmological observations—weak lensing, galaxy clustering, and gravitational lensing between galaxies. It standardizes how researchers test competing cosmological models against Euclid data and is already used internally by the Euclid Consortium. The open release enables independent validation and reproducible analyses across the community.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 769,
+  "tokens_out": 179,
+  "cost_usd": 0.0013312,
+  "ingested_at": "2026-05-26T00:19:23.678363+00:00"
+}

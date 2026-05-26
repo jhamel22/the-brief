@@ -1,0 +1,22 @@
+{
+  "id": "2605.23304",
+  "arxiv_url": "https://arxiv.org/abs/2605.23304",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "General Hazard Detection",
+  "authors": "Stephanie Ng, CP Lim, SueJen Looi, Hendrik Zurlinden, David Nguyen, Lei Wei, Saeid Nahavandi, Hailing Zhou",
+  "abstract": "Hazard, as an abstract concept, is typically defined through cognitive-level logical reasoning rather than concrete examples. In contrast, existing hazard detection systems rely on predefined hazard categories and require intensive collection of labelled examples within detection or classification architectures. This approach faces three fundamental challenges when addressing abstract safety concepts: (1) noisy and sparse training data, (2) dynamically evolving definitions that change across contexts and time, and (3) limited generalisation to unseen or novel scenarios. To address these limitations, we present the CompliVision dataset, the first general-purpose hazard dataset designed for rule-based compliance assessment, along with a baseline framework for hazard evaluation. Our key innovation is decoupling the hazard concept from image-based examples by expressing safety requirements through language-based rules. We ground our approach in authoritative domain regulations and ISO standards to define diverse hazard concepts across multiple domains. The CompliVision dataset comprises 3,006 images spanning traffic, construction, and warehouse environments, with each image annotated for compliance against specific safety rules, accompanied by natural language explanations highlighting the supporting visual evidence. To achieve robust generalisation, we develop an active learning framework to more effectively guide and refine vision-language models in assessing hazard compliance. While state-of-the-art VLMs demonstrate strong capabilities, they struggle with the fine-grained, context-dependent interpretation required for accurate safety assessment. We proposed a general hazard detection framework to address this limitation which combines LLaVA-based visual reasoning with with human-in-the-loop feedback.",
+  "title_relatable": "Can AI understand abstract safety rules without seeing every hazard?",
+  "hook": "New dataset and framework tackle hazard detection by grounding safety in language rules rather than labeled examples, covering 3,006 real workplace images.",
+  "summary": "Hazard detection systems usually require thousands of labeled examples for each specific danger type, but safety rules are abstract and change by context. This work introduces CompliVision—a dataset of 3,006 workplace images (traffic, construction, warehouse) each annotated against explicit safety rules with natural language explanations—and pairs it with an active learning framework that fine-tunes vision-language models for compliance assessment. The approach decouples hazard concepts from examples, letting the system generalize to novel scenarios grounded in ISO standards.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 794,
+  "tokens_out": 194,
+  "cost_usd": 0.0014112,
+  "ingested_at": "2026-05-26T00:28:45.065606+00:00"
+}

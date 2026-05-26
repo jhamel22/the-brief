@@ -1,0 +1,23 @@
+{
+  "id": "2605.23584",
+  "arxiv_url": "https://arxiv.org/abs/2605.23584",
+  "announced_date": "2026-05-22",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "quant-ph",
+    "hep-ph"
+  ],
+  "title_original": "Quantum resource redistribution drives spectral splits in dense neutrino gases",
+  "authors": "Michael Hite, Pooja Siwach",
+  "abstract": "Whether a quantum many-body system can be efficiently simulated hinges not only on its size but also on how quantum resources are organized within it. We characterize the quantum resource landscape of collective neutrino oscillations using entanglement entropy, non-local magic, and matrix product state bond dimension. Using tensor network simulations of neutrinos in the two-flavor sector, we demonstrate that spectral splits--sharp energy-dependent flavor swaps--emerge precisely where entanglement entropy is maximized and non-local magic is minimized locally. This anticorrelation reveals that spectral splits arise not from generic resource growth but from a structured redistribution among flavor modes. The resource dynamics trace constrained arcs in the entanglement-magic phase space, bounded by entanglement spectrum normalization. These findings establish a direct, quantitative link between quantum resources governing computational complexity and astrophysical observables, informing the design of tensor network and quantum circuit simulations of dense neutrino environments.",
+  "title_relatable": "Why do neutrinos suddenly swap flavors? Quantum entanglement holds the answer.",
+  "hook": "Dense neutrino gases show sharp flavor-switching patterns tied directly to how entanglement and quantum resources reorganize—opening a path to simulate extreme astrophysical conditions.",
+  "summary": "Neutrinos in dense environments (like supernovae cores) undergo sudden flavor oscillations called spectral splits. Using tensor network simulations, researchers found these splits occur exactly where entanglement entropy peaks but quantum magic dips—revealing the splits aren't driven by generic resource growth but by a structured reshuffling of resources between flavor modes. This links quantum complexity measures to observable phenomena.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 636,
+  "tokens_out": 175,
+  "cost_usd": 0.0012088,
+  "ingested_at": "2026-05-26T00:20:15.226871+00:00"
+}

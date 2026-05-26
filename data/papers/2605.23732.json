@@ -1,0 +1,22 @@
+{
+  "id": "2605.23732",
+  "arxiv_url": "https://arxiv.org/abs/2605.23732",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "The imprints of the instantaneous appearance of a conformal Killing vector field on the evolution of self-gravitating fluid spheres",
+  "authors": "L. Herrera, A. Di Prisco, J. Ospino",
+  "abstract": "We study the influence of the instantaneous appearance of a conformal Killing vector (CKV) in self-gravitating fluid spheres during their evolution. For doing that we introduce a tensor variable whose time dependence allows the existence of a CKV for a given value of the time-like coordinate. We consider adiabatic and dissipative fluids. The analysis of different relevant physical variables in this process provides a smoking gun signature from the emergence of CKV at some point of the evolution. Prospective applications of these results, as well as open questions and pending issues related to this problem, are discussed.",
+  "title_relatable": "What happens inside a star when a hidden symmetry suddenly appears?",
+  "hook": "A special mathematical symmetry briefly emerging inside a collapsing star leaves distinct, detectable imprints on its evolution.",
+  "summary": "When a conformal Killing vector — a geometric symmetry that rescales spacetime — suddenly switches on inside a self-gravitating fluid sphere, it leaves measurable traces in physical variables like pressure, density, and heat flow. The authors track these signatures for both ordinary and dissipating fluids, identifying characteristic patterns that could serve as fingerprints of such symmetry emergence during stellar collapse or compact-object formation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 578,
+  "tokens_out": 160,
+  "cost_usd": 0.004134,
+  "ingested_at": "2026-05-26T00:16:40.736871+00:00"
+}

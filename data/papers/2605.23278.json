@@ -1,0 +1,23 @@
+{
+  "id": "2605.23278",
+  "arxiv_url": "https://arxiv.org/abs/2605.23278",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "stat.ML"
+  ],
+  "title_original": "When Is Next-Token Prediction Useful? Marginalization, Ergodicity, Mixture Identifiability, Local Sufficiency, RAG, Tools, and Programming",
+  "authors": "Francesco Corielli",
+  "abstract": "Language models trained on observed sequences are often described as learning the conditional distribution of the next token given previous tokens. This description is only conditionally correct. A model trained on realized token trajectories does not observe full conditional laws; it receives sampled continuations. Moreover, real language generation is conditioned not only on previous words but also on non-textual circumstances: facts, events, intentions, goals, beliefs, social context, and task-specific constraints. This paper distinguishes three objects that are often conflated: the full conditional language process conditioned on latent circumstances, the marginal text-only process obtained by integrating those circumstances out, and the model-induced distribution learned from finite observed corpora. The paper argues that interpreting model training as estimating the marginal text-only law requires strong assumptions of stationarity, representativeness, and ergodicity, assumptions that are standard in statistical estimation but problematic when applied to heterogeneous language corpora. Even if these assumptions hold, the marginal text-only law is useful only when the observed prefix is an approximately sufficient statistic for the latent circumstances relevant to continuation. In information-theoretic terms, usefulness requires that the residual conditional mutual information between the next token and the omitted circumstances, given the observed text, be small. The paper then extends this argument to heterogeneous training corpora. Finally, the paper interprets Retrieval Augmented Generation (RAG) and tool use as conditional sufficiency devices.",
+  "title_relatable": "Why language models fail when context matters most",
+  "hook": "Next-token prediction works only when past text contains enough information about unstated facts, goals, and context—a condition rarely met in real language use.",
+  "summary": "Language models learn from text alone, but actual communication depends on invisible context: intentions, facts, social setting, task constraints. This paper formalizes when next-token prediction succeeds—only when observed text is a sufficient statistic for all relevant circumstances. When that fails (the typical case), models hallucinate or err predictably. RAG and tool use fix this by reintroducing missing context. The framework explains why training on heterogeneous corpora creates brittle systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 762,
+  "tokens_out": 181,
+  "cost_usd": 0.0013335999999999999,
+  "ingested_at": "2026-05-26T00:26:49.962518+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.23766",
+  "arxiv_url": "https://arxiv.org/abs/2605.23766",
+  "announced_date": "2026-05-22",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Unravelling Nature's Models for Transportation Network: Considering a Biomimicry Framework",
+  "authors": "Sofiane Madmar, Didier Josselin, Olivier Blight, Vincent Labatut, Christophe Mazzia, Marc Ciligot-Travain",
+  "abstract": "Researchers worldwide have drawn inspiration from nature to optimize network design and dynamics. Some of the wonders of the living world exhibit remarkable abilities in generating efficient and resilient spatial structures. By mimicking biological strategies, transportation infrastructures could be profoundly rethought. This paper aims to provide the basis for a biomimicry framework for addressing transportation networks. In light of examples from the literature, the relevance of such a framework for advancing research in nature-inspired networks is demonstrated, with the aim of achieving resilience and efficiency.",
+  "title_relatable": "Can ant colonies and mycelium teach us to redesign cities?",
+  "hook": "Nature solves transportation problems through elegant decentralized systems. A biomimicry framework shows how biological networks could reshape human infrastructure.",
+  "summary": "Biological systems—ant colonies, fungal networks, river systems—solve routing and resilience problems without central planning. This paper argues that transportation networks could become more efficient and robust by copying these strategies. The framework connects natural design principles to infrastructure challenges, suggesting a path beyond current engineering approaches.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 576,
+  "tokens_out": 141,
+  "cost_usd": 0.0010248,
+  "ingested_at": "2026-05-26T00:20:40.526645+00:00"
+}

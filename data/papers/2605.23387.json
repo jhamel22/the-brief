@@ -1,0 +1,22 @@
+{
+  "id": "2605.23387",
+  "arxiv_url": "https://arxiv.org/abs/2605.23387",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Probing deformations",
+  "authors": "Sergei Barakin, Angelina Kurenkova, Edvard T. Musaev",
+  "abstract": "We probe poly-vector deformations of Type II backgrounds by the fundamental string, D0-brane and D3-brane, and of the 11D membrane background by the fundamental M2-brane. We show that the corresponding deformations of the world-volume theories can be written in terms of flows similar to the $\\mathrm{T}\\bar{\\mathrm{T}}$ flow. This interpretation works equally well for abelian (TsT) and non-abelian deformations.",
+  "title_relatable": "How do deformed string backgrounds reshape the physics on branes?",
+  "hook": "String theorists show that certain geometric deformations of spacetime produce effects on branes equivalent to known T-bar-T flows, unifying abelian and non-abelian cases.",
+  "summary": "When spacetime gets geometrically deformed in string theory, the physics experienced by objects living on branes changes in predictable ways. The authors prove these changes follow the same mathematical rules as T-bar-T flows—a well-studied class of deformations in quantum field theory. This connection holds for both simple (abelian) and complex (non-abelian) deformations, suggesting a deeper unified structure.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 546,
+  "tokens_out": 185,
+  "cost_usd": 0.0011768,
+  "ingested_at": "2026-05-26T00:17:48.094403+00:00"
+}

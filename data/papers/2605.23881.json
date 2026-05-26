@@ -1,0 +1,23 @@
+{
+  "id": "2605.23881",
+  "arxiv_url": "https://arxiv.org/abs/2605.23881",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.quant-gas",
+    "quant-ph"
+  ],
+  "title_original": "Time crystals in cavity-BEC systems",
+  "authors": "Jayson G. Cosme, Ludwig Mathey",
+  "abstract": "The understanding of light-induced dynamical states continues to be a challenging and fruitful pursuit of science. This pursuit is supported by quantum simulation of dynamical phenomena, e.g., in ultracold atom systems. Typically, ultracold atom dynamics are read out destructively, via time-of-flight imaging, limiting a detailed analysis. However, atom-cavity systems provide a real-time readout of the photonic state via photon emission from the cavity, making the system ideally suited for the simulation of dynamical phenomena. Here, we review three distinct time crystalline states, predicted and realized in a cavity-BEC system. We give an example for each of them, based on minimal few-mode models. We characterize the time crystalline states via correlation functions of the cavity mode, and characteristic momentum modes of the condensate. This supports a clear distinction between these time crystals. More generally, the sequence of studies reviewed here, serves as a blueprint for setting up minimal models and their characterization, for dynamical phenomena.",
+  "title_relatable": "Three distinct time crystals found in the same experiment?",
+  "hook": "A single atom-cavity system hosts three different time crystals, each breaking time-translation symmetry in a distinct way.",
+  "summary": "Time crystals — matter that oscillates forever without energy input — are notoriously hard to distinguish from one another. Using atoms trapped inside an optical cavity, researchers show how three fundamentally different time-crystalline phases arise in the same platform and can be told apart through photon emission patterns and atomic momentum snapshots. The cavity's real-time light readout sidesteps the usual destructive measurements that plagued cold-atom experiments, offering a practical blueprint for studying exotic dynamical phases.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 640,
+  "tokens_out": 173,
+  "cost_usd": 0.004515,
+  "ingested_at": "2026-05-26T00:18:21.588544+00:00"
+}

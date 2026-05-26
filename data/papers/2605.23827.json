@@ -1,0 +1,24 @@
+{
+  "id": "2605.23827",
+  "arxiv_url": "https://arxiv.org/abs/2605.23827",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Natural Metric-Affine Inflation: Reloaded",
+  "authors": "D. Kraiko, A. Racioppi",
+  "abstract": "We revisit natural inflation within the framework of metric-affine gravity, considering the impact of a periodic non-minimal coupling between the inflaton and the Nieh-Yan term. Such a term, alone, leads to linear inflation predictions in the strong coupling limit and cannot help to rescue the natural inflation scenario. However, once an analogous non-minimal coupling with the Ricci scalar is added, agreement with data can be easily achieved. Remarkably, the scenario remains viable even with a sub-Planckian periodicity scale and relatively small (order of one) non-minimal couplings.",
+  "title_relatable": "Can a periodic gravity coupling save natural inflation?",
+  "hook": "Natural inflation seemed ruled out by data — a new gravity framework revives it with sub-Planckian fields.",
+  "summary": "Natural inflation, driven by a cosine-shaped potential, was largely ruled out because it requires a field range wider than the Planck scale — a theoretically uncomfortable demand. Adding a periodic coupling to a topological gravity term (Nieh-Yan) alone doesn't fix things, but pairing it with a standard non-minimal coupling to spacetime curvature does. The model matches current CMB observations even when the field's periodicity stays below the Planck scale and the coupling constants are modest, order-of-one numbers.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 555,
+  "tokens_out": 183,
+  "cost_usd": 0.00441,
+  "ingested_at": "2026-05-26T00:16:30.656333+00:00"
+}

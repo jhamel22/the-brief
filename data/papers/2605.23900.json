@@ -1,0 +1,22 @@
+{
+  "id": "2605.23900",
+  "arxiv_url": "https://arxiv.org/abs/2605.23900",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "What to do with a Ricci-flat Calabi--Yau metric?",
+  "authors": "Per Berglund, Tristan Hübsch, Vishnu Jejjala",
+  "abstract": "Numerical approximations to Ricci-flat Calabi--Yau metrics make it possible to move beyond the topological and holomorphic data that have traditionally dominated explicit string compactifications. This article explains what new physics and mathematics become accessible once the metric, and eventually the associated Hermitian Yang--Mills bundle data, can be computed. In heterotic compactifications, such data are needed to determine matter Kähler metrics, canonically normalized Yukawa couplings, Kaluza--Klein spectra, threshold effects, soft terms, and other non-holomorphic ingredients of the four-dimensional effective action. More broadly, numerical Calabi--Yau geometry provides quantitative input for moduli stabilization, $α'$-corrected backgrounds, de~Sitter model building, axion physics, swampland distance tests, and compactifications in which the internal geometry varies over spacetime. Geometric data permit a computational approach to long-standing mathematical questions involving special Lagrangian submanifolds, SYZ fibrations, mirror symmetry, calibrated geometry, metric degeneration, restrictions of Ricci-flat metrics to fibers, and the search for analytic or semi-analytic structures. We present these directions as a roadmap for future work.",
+  "title_relatable": "What physics emerges once we can actually compute string theory's hidden dimensions?",
+  "hook": "Numerical approximations to Calabi–Yau metrics unlock concrete predictions for particle masses, couplings, and cosmology that were previously inaccessible.",
+  "summary": "String theory compactifies on Calabi–Yau manifolds, but only their abstract topological shape mattered—the actual geometry was never computed. New numerical methods now let physicists calculate the real metric, enabling concrete calculations of matter particle properties, Yukawa couplings, and Kaluza–Klein spectra in four dimensions, plus tests of exotic scenarios like de Sitter space and axion physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 718,
+  "tokens_out": 180,
+  "cost_usd": 0.0012944,
+  "ingested_at": "2026-05-26T00:17:33.081931+00:00"
+}

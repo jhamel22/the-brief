@@ -1,0 +1,22 @@
+{
+  "id": "2605.23337",
+  "arxiv_url": "https://arxiv.org/abs/2605.23337",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "General Expressions for Measurable Parameters in Curved Spacetime",
+  "authors": "Dmitri Lebedev, Kayll Lake",
+  "abstract": "General covariant expressions for measurable angles, distances, velocities, and accelerations are provided in terms of fundamental parameters that can be applied in any setup. The relativistic aberration of light relationship is presented in full generality, which is applicable to any orientation of observers and light rays. An expansion for the geometrical exponential map is established and used to form an expression for the physical distance between an observer and a nearby object within its extended local frame. Curvature effects on measurable distances, velocities, and accelerations are made explicit and appear in general tensorial form. The concepts of Fermi frames on timelike worldlines and the Fermi-Walker derivative are discussed in detail and used throughout; and in examining the meaning of relative stationarity between timelike observers, the Fermi-Walker derivative is established from first principles through physically meaningful consideration. A generalized type of Taylor expansion is provided for tensors of any rank in a covariant form. Expressions for the optically based angular diameter distance and luminosity distance are provided in general forms, and the reciprocity theorem is discussed and verified. A generalized version of the geodesic deviation equation, applicable to extreme relative motion, is provided as well.",
+  "title_relatable": "How do you actually measure distances and speeds in curved spacetime?",
+  "hook": "A unified toolkit for measuring angles, distances, and velocities near any massive object, in full generality.",
+  "summary": "Measuring something as simple as the distance to a nearby object or the speed of a passing particle becomes deeply ambiguous in curved spacetime — the answer depends on who's measuring and how. This paper assembles a complete, coordinate-free toolkit: general formulas for angles (including relativistic aberration for any observer orientation), physical distances accounting for spacetime curvature, and a geodesic deviation equation valid even for extreme relative motion. It's a reference framework that anyone doing precision calculations near black holes, neutron stars, or in cosmology can apply directly.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 685,
+  "tokens_out": 187,
+  "cost_usd": 0.00486,
+  "ingested_at": "2026-05-26T00:17:09.362959+00:00"
+}

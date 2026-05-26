@@ -1,0 +1,22 @@
+{
+  "id": "2605.23886",
+  "arxiv_url": "https://arxiv.org/abs/2605.23886",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Heterotic Strings on Enriques Surfaces",
+  "authors": "Arata Ishige, Elisa Iris Marieni",
+  "abstract": "We study orbifold compactifications of heterotic strings on Enriques surfaces. We classify the inequivalent shift vectors for both the E8\\times E8 and Spin(32)/Z2 lattices, and analyse the light spectrum of the resulting models. We show that these models can be interpreted as compactifications of ten-dimensional non-supersymmetric heterotic strings on Enriques surfaces. For certain classes of shifts, the moduli-independent tachyons inherited from the parent theories are projected out.",
+  "title_relatable": "Can string theory survive without its safety net on exotic surfaces?",
+  "hook": "Physicists find that certain non-supersymmetric string compactifications naturally eliminate troublesome instabilities—a rare stability feature in unstable theories.",
+  "summary": "Heterotic string theory normally requires supersymmetry to avoid runaway instabilities called tachyons. This work shows that compactifying non-supersymmetric variants on Enriques surfaces—a special geometric object—can actually eliminate these tachyons for specific configurations. The result suggests unexpected stability hidden in theories that should be unstable.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 543,
+  "tokens_out": 160,
+  "cost_usd": 0.0010744,
+  "ingested_at": "2026-05-26T00:17:35.387656+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.23771",
+  "arxiv_url": "https://arxiv.org/abs/2605.23771",
+  "announced_date": "2026-05-22",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.MA"
+  ],
+  "title_original": "PhotoFlow: Agentic 3D Virtual Photography Missions",
+  "authors": "Jiarui Guo, Haojia Wei, Yiming Zhang, Yifei Liu, Yuning Gong, Hongjie Zhang, Xue Yang, Zhihang Zhong",
+  "abstract": "Virtual photography asks an agent to enter a prepared 3D scene with no preselected camera pose or reference image, infer a suitable shot from scene information and a language intent, choose executable camera parameters, and render the final photograph. Recent progress in vision-language models makes this kind of spatial agent increasingly plausible, but the task stresses two capabilities that remain hard to evaluate together: complex 3D spatial understanding and abstract aesthetic judgment. We introduce PhotoFlow, a Director-Reviewer-Reflector agent for closed-loop camera search. The Director builds a soft photographic blueprint and proposes diverse candidate cameras; the Reviewer combines rule checks, visual critique, and pairwise incumbent selection; and the Reflector converts failures into region memory, dead-zone suppression, and high-explore relocation. We also introduce VPhotoBench, a benchmark of 47 open-license Blender scenes and 141 language-conditioned photography missions spanning subject placement, relational composition, and atmosphere/style. On held-out experiments, PhotoFlow achieves the strongest external quality-alignment composite and success rate among one-shot prediction, single-chain reflection, anchor-bank selection, and random search under a six-round rendering budget. To our knowledge, this is the first work to make language-conditioned virtual photography in arbitrary Blender scenes an executable agent task, and our results show that an LLM-centered spatial agent can already produce strong photographs in a setting designed to challenge both 3D reasoning and aesthetic choice.",
+  "title_relatable": "Can AI find the perfect camera angle just from a description?",
+  "hook": "An AI agent learns to compose photographs in 3D scenes by reasoning about space and aesthetics, beating simpler baselines on a new benchmark of 141 photographic tasks.",
+  "summary": "Virtual photography requires an agent to understand a 3D scene, interpret a language description of the desired shot, and find the right camera angle—combining spatial reasoning with aesthetic judgment. PhotoFlow uses three coordinated modules: a Director that proposes candidate camera positions, a Reviewer that scores them using visual critique and rules, and a Reflector that learns from failures. On a new 47-scene benchmark with 141 photography missions, PhotoFlow outperforms one-shot prediction, reflection-based search, and random sampling in both output quality and success rate within a fixed rendering budget.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 793,
+  "tokens_out": 211,
+  "cost_usd": 0.0014784000000000002,
+  "ingested_at": "2026-05-26T00:28:52.723921+00:00"
+}

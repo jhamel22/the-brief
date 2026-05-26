@@ -1,0 +1,22 @@
+{
+  "id": "2605.23376",
+  "arxiv_url": "https://arxiv.org/abs/2605.23376",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "The field-theoretical formalism for TEGR",
+  "authors": "E. D. Emtsova, A. N. Petrov",
+  "abstract": "The teleparallel equivalent of general relativity (TEGR) is represented in a field-theoretical form, where tetrad and matter perturbations are propagated on a background solution of TEGR. Thus, the background tetrad and metric satisfy the background Einstein field equations. This presentation, where perturbations can be finite (not infinitesimal or approximate), is equivalent to the original form of TEGR. The background can be arbitrary, usually corresponding to the solution of TEGR under consideration. Such a formalism is Lagrangian based, where perturbations are classified as dynamic fields, and varying the Lagrangian with respect to dynamic variables leads to the equations for perturbations. Gauge (inner) transformations are defined, and the gauge invariance of the Lagrangian and the field equations are stated. Applying the Noether theorem to the Lagrangian we construct conserved currents, related superpotentials and charges. As an application, we have considered linear gravitational equations on the Ricci-flat background and analyzed their properties, finally deriving gravitational wave equations and the tetrad perturbations in TT-gauge. By new formulae for charges, we have calculated the mass for the Schwarzschild and Kerr black holes and the angular momentum for the Kerr solution. The results are quite acceptable, which signals that the new formalism is powerful, can be used further, and has a potential for future development that can be applied to generalizations of TEGR.",
+  "title_relatable": "A new way to calculate black hole mass using alternative gravity?",
+  "hook": "Reformulating teleparallel gravity as a field theory reproduces Schwarzschild and Kerr masses exactly, validating a powerful new framework.",
+  "summary": "Teleparallel gravity rewrites Einstein's theory using tetrads instead of curvature, but lacks a clean field-theory toolkit. This work builds one from scratch — a Lagrangian framework where gravitational perturbations propagate on any background, with proper gauge invariance and conserved charges via Noether's theorem. As a sanity check, it recovers the correct mass and angular momentum for Schwarzschild and Kerr black holes, and derives standard gravitational wave equations in TT-gauge.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 752,
+  "tokens_out": 191,
+  "cost_usd": 0.005121,
+  "ingested_at": "2026-05-26T00:17:01.997935+00:00"
+}

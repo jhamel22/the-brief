@@ -1,0 +1,24 @@
+{
+  "id": "2605.23861",
+  "arxiv_url": "https://arxiv.org/abs/2605.23861",
+  "announced_date": "2026-05-22",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "Leveraging Foundation Models for Causal Generative Modeling",
+  "authors": "Aneesh Komanduri, Xintao Wu",
+  "abstract": "Causal generative modeling is essential for developing reliable and transparent AI systems capable of counterfactual reasoning. While existing approaches focus on integrating causal constraints during the training of generative models, they often lack a unified framework to leverage the zero-shot reasoning capabilities of pretrained foundation models. We introduce FM-CGM, a modular framework for end-to-end visual causal reasoning using pretrained foundation models. FM-CGM formalizes the causal pipeline through three core components: a concept extractor, a concept manipulator, and a counterfactual generator. By leveraging a large reasoning model for causal inference and a text-to-image diffusion model for generation, our approach enables zero-shot causal discovery, intervention, and counterfactual generation. We then develop Causal Semantic Guidance (CSG), a cross-attention-based mechanism that ensures semantic interventions propagate to descendant concepts while preserving invariant regions. We empirically show that our approach can identify plausible causal structures and is suitable for faithful counterfactual image generation.",
+  "title_relatable": "Can pretrained models answer 'what if' questions about images?",
+  "hook": "Framework combines reasoning models with image diffusion for zero-shot counterfactual generation without retraining.",
+  "summary": "Causal generative modeling lets AI systems reason about counterfactuals—answering \"what if\" questions. Most existing methods bake causal constraints into training, requiring retraining for new scenarios. FM-CGM instead leverages pretrained foundation models off-the-shelf: a reasoning model for causal inference, a text-to-image diffusion model for generation. A new attention mechanism (Causal Semantic Guidance) ensures edits to one concept properly cascade to dependent ones while leaving unrelated regions unchanged. Tested on visual reasoning tasks, it identifies plausible causal structures and generates faithful counterfactual images without model retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 667,
+  "tokens_out": 217,
+  "cost_usd": 0.0014015999999999998,
+  "ingested_at": "2026-05-26T00:25:41.031237+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.23538",
+  "arxiv_url": "https://arxiv.org/abs/2605.23538",
+  "announced_date": "2026-05-22",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Scalable Dark Siren Cosmology with gwcosmo: GPU Acceleration, Validation and Systematics",
+  "authors": "Alexander Papadopoulos, Christian E. A. Chapman-Bird, Rachel Gray, Christopher Messenger, Tom Bertheas",
+  "abstract": "As the number of confident gravitational-wave detections grows, population-level hierarchical analyses face increasing computational costs. Dark-siren cosmological inference integrates over the localisation volume of each gravitational-wave source. To remain feasible without discarding information from the quieter but more numerous sources in the catalogue, significant efficiency improvements are vital for analysis pipelines. In this work, we present an upgraded version of the cosmological inference pipeline gwcosmo, which leverages vectorisation on graphics processing units to process the entire gravitational-wave catalogue in parallel with each iteration. This new implementation achieves a speed-up of 1000 times over the previous version, facilitating analyses of O5-like numbers of GW events on wall-clock timescales of hours. Our results demonstrate the scalability of the gwcosmo pipeline, specifically its ability to handle the increasing computational load of expanding event catalogues, positioning it as a vital tool for future advances in dark-siren cosmology.",
+  "title_relatable": "How do you measure the universe's expansion with silent black holes?",
+  "hook": "A 1000× speed-up lets astronomers measure cosmic expansion from gravitational waves alone, without needing to identify their host galaxies.",
+  "summary": "Measuring the Hubble constant using gravitational-wave events whose host galaxies aren't identified requires integrating over huge volumes of sky for every event — a computation that becomes crushing as catalogs grow. By rewriting the gwcosmo pipeline to run on GPUs, the team cut analysis time from months to hours, handling the hundreds of events expected from LIGO's fifth observing run. That leap makes population-level cosmology from 'dark sirens' genuinely practical at scale.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 666,
+  "tokens_out": 183,
+  "cost_usd": 0.004743,
+  "ingested_at": "2026-05-26T00:16:56.896249+00:00"
+}

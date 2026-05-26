@@ -1,0 +1,23 @@
+{
+  "id": "2605.23824",
+  "arxiv_url": "https://arxiv.org/abs/2605.23824",
+  "announced_date": "2026-05-22",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "The negativity core of a 1+1D massless scalar quantum field",
+  "authors": "Jason Pye, Atharva Hingane, Robert H. Jonsson",
+  "abstract": "Vacuum entanglement is a fundamental feature of quantum field theory exhibiting rich structure that is not completely understood. Here, we provide a complete characterization of the entanglement between two bounded spacelike-separated regions in a (1+1)-dimensional free massless real scalar field. Employing Gaussian state methods, we analytically compute the logarithmic negativity and construct closed-form solutions for the localized modes carrying it, called negativity cores. These results deepen our understanding of quantum fields and suggest extensions to higher dimensions and fermionic fields.",
+  "title_relatable": "Where does entanglement hide in empty quantum space?",
+  "hook": "Physicists mapped the exact location and shape of entanglement between distant regions in the simplest quantum field, revealing unexpected structure invisible to standard measures.",
+  "summary": "In quantum field theory, vacuum fluctuations entangle distant patches of space—but where exactly? Using analytical methods, researchers pinned down the negativity (a fine-grained entanglement measure) for separated regions in a 1D free scalar field and identified the specific quantum modes responsible. The result is a complete map of this hidden structure, opening paths to understand entanglement in more realistic theories.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 554,
+  "tokens_out": 167,
+  "cost_usd": 0.0011112000000000001,
+  "ingested_at": "2026-05-26T00:17:40.345977+00:00"
+}

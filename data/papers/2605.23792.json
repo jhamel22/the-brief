@@ -1,0 +1,22 @@
+{
+  "id": "2605.23792",
+  "arxiv_url": "https://arxiv.org/abs/2605.23792",
+  "announced_date": "2026-05-22",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Complementing Quantum Error Correction in Quantum Metrology via Swap Test",
+  "authors": "Xiaodie Lin, Linxuan Li, Haidong Yuan",
+  "abstract": "The precision and sensitivity achievable in quantum metrology are often compromised by the presence of noise. While quantum error correction has emerged as a promising strategy, it is ineffective in addressing noise that is indistinguishable from the signal. To address this challenge, virtual state purification was introduced as a complementary approach to quantum error correction. However, significant noise accumulation can impede its performance. To overcome this limitation, we propose a swap test-based method specifically designed to address indistinguishable noise, even under high noise levels. A systematic error-scaling analysis demonstrates that this method enables quantum-enhanced precision in certain scenarios. Furthermore, numerical simulations demonstrate that our method surpasses virtual state purification in both single- and multi-parameter estimation tasks. The significant improvements in precision across diverse settings underscore the robustness and practicality of our method for real-world applications.",
+  "title_relatable": "A new trick lets quantum sensors beat noise that looks like signal",
+  "hook": "Quantum error correction fails when noise mimics the signal; a swap-test approach cuts through it anyway.",
+  "summary": "Quantum sensors break down when the noise they face is mathematically indistinguishable from the thing they're trying to measure — standard error correction is blind to it. This work uses a swap test, a simple quantum circuit that compares two copies of a state, to filter out that stubborn noise even at high levels. Numerical tests show it outperforms the previous best workaround, virtual state purification, on both single- and multi-parameter estimation problems.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 622,
+  "tokens_out": 168,
+  "cost_usd": 0.004386,
+  "ingested_at": "2026-05-26T00:18:54.464769+00:00"
+}

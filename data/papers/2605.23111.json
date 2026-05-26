@@ -1,0 +1,22 @@
+{
+  "id": "2605.23111",
+  "arxiv_url": "https://arxiv.org/abs/2605.23111",
+  "announced_date": "2026-05-22",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Contextual Role Modulates Object Representational Geometry in the Human Brain",
+  "authors": "Julien Dirani, Shankar Chawla, Leila Wehbe, Bradford Z. Mahon",
+  "abstract": "The human brain represents objects in a way that is both invariant across instances and flexible enough to support different contexts and tasks. Yet it remains unknown how object representations are dynamically remapped as the same object shifts across contextual roles. Here we combined fMRI with naturalistic movie viewing to investigate how the same objects are represented when they are passive elements in the scene versus the targets of goal-directed actions. When objects were action targets, they engaged a parietal action network centered in the supramarginal and postcentral gyri, while passive objects recruited a distributed occipito-temporal network involved in visual object recognition. Within the networks most strongly encoding objects in their respective contexts, representational geometry showed a double dissociation: target object representations were organized by action affordance and hand posture affordance dimensions, while passive object representations aligned with semantic dimensions. In addition, visual representational structure was invariant to context. Outside those context-specific brain networks, representational content retained context-invariance, indicating that flexibility and invariance operate at different levels of the same representational system. Together, these findings demonstrate neural remapping of object representational geometries in a manner that depends on moment-to-moment changes in the contextual relevance of objects within a naturalistic scene.",
+  "title_relatable": "Why your brain sees a cup differently when you're about to grab it",
+  "hook": "The brain rewires how it represents objects—organizing them by physical actions when you're about to use them, but by semantic meaning when they're just scenery.",
+  "summary": "Using fMRI during movie watching, researchers found that the same object activates completely different neural representations depending on context: when you're about to act on something, parietal regions organize it by how you'd grab it; when it's just background, visual cortex organizes it by what it means. Visual features themselves stayed consistent across contexts, suggesting the brain has a flexible filing system that switches organizational logic on the fly.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 678,
+  "tokens_out": 175,
+  "cost_usd": 0.0012424,
+  "ingested_at": "2026-05-26T00:31:37.699208+00:00"
+}

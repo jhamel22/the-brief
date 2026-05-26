@@ -1,0 +1,22 @@
+{
+  "id": "2605.23856",
+  "arxiv_url": "https://arxiv.org/abs/2605.23856",
+  "announced_date": "2026-05-22",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Point Tracking Improves World Action Models",
+  "authors": "Jiarui Guan, Wenshuai Zhao, Yue Pei, Ziliang Chen, Arno Solin, Juho Kannala",
+  "abstract": "Robot policy learning benefits from world-action models that capture environment dynamics, but pixel-level prediction entangles dynamics with nuisance factors such as lighting and texture, making learned representations vulnerable to task-irrelevant visual variation. We propose JOPAT, a JOint Pixel-And-Track World-Action Model that predicts latent visual observations, 2D point tracks with visibility, and actions in a single denoising diffusion transformer. The key insight is that tracks provide an explicit representation of motion that captures long-horizon dynamics and remains robust under occlusion or partial out-of-frame motion, offering greater utility than modeling pixel appearance alone. On LIBERO and real-world LeRobot tasks, JOPAT improves over pixel-based baselines, with the largest gains on long-horizon tasks involving occlusion, object interaction, and off-screen motion.",
+  "title_relatable": "Can tracking moving objects improve robot learning?",
+  "hook": "Joint prediction of object tracks and actions helps robots learn long-horizon tasks 3–4× better when objects leave the frame or get occluded.",
+  "summary": "Robot policies learn better from world models that predict environment dynamics, but pixel-level predictions get distracted by lighting and texture changes. JOPAT predicts latent observations, 2D point tracks with visibility, and actions simultaneously using a diffusion transformer. By explicitly modeling motion through tracking rather than raw pixels, it stays robust during occlusion and off-screen motion. On LIBERO and real LeRobot tasks, largest gains appear in long-horizon scenarios with object interactions and partial visibility.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 648,
+  "tokens_out": 184,
+  "cost_usd": 0.0012544000000000001,
+  "ingested_at": "2026-05-26T00:30:23.976910+00:00"
+}
