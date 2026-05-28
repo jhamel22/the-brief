@@ -1,0 +1,24 @@
+{
+  "id": "2605.26821",
+  "arxiv_url": "https://arxiv.org/abs/2605.26821",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "cs.LG",
+    "hep-ex"
+  ],
+  "title_original": "Particle-Lund Multimodality in Jet Taggers",
+  "authors": "Loukas Gouskos, Benedikt Maier",
+  "abstract": "The Lund plane offers a physics-motivated, hierarchical representation of QCD radiation within jets, while transformer-based taggers have reached state-of-the-art performance by learning directly from raw particle constituents and their pairwise relations. We investigate whether transformers implicitly capture hierarchical QCD structure from constituent-level inputs, or whether explicit physics representations remain complementary. To test this, we introduce PLuM, a multimodal architecture that projects particle constituents and Lund plane splittings into a shared latent space, processing both jointly with a unified transformer. Cross-attention allows the model to probe whether structured QCD information provides discriminating power beyond what particles alone encode. We observe systematic gains for top-quark and $\\mathrm{H}\\to\\mathrm{b}\\bar{\\mathrm{b}}$ tagging, while finding no comparable improvement for $\\mathrm{H}\\to\\mathrm{c}\\bar{\\mathrm{c}}$ or $\\mathrm{H}\\to 4\\mathrm{q}$ topologies. This selective enhancement suggests that explicit hierarchical information about b-jet formation remains complementary to raw particle representations even in highly expressive architectures, while other topologies are already well-captured at constituent level. For high-impact LHC analyses such as Lorentz-boosted di-Higgs searches in the four $\\mathrm{b}$ quark final state ($\\mathrm{H}\\mathrm{H}(4\\mathrm{b})$), the gains are substantial: at a $25\\%$ di-Higgs efficiency working point, PLuM achieves $25\\%$ higher background rejection than the baseline. Our results indicate that physically structured representations of QCD radiation retain discriminating value in the transformer era, motivating further study into how different aspects of jet dynamics are encoded by deep learning algorithms.",
+  "title_relatable": "Do neural networks need physics blueprints to spot rare Higgs decays?",
+  "hook": "A two-channel AI combining particle data with QCD physics cuts background noise by 25% in the rarest Higgs searches at the LHC.",
+  "summary": "Physicists built a hybrid neural network that feeds transformers both raw particle data and explicit QCD branching patterns (Lund plane) side by side. The model flags top quarks and b-jets better by exploiting structured physics, but gains nothing for simpler topologies—suggesting deep learning still benefits from human-designed physics representations. For Higgs pair hunts, the improvement is substantial enough to matter for discovery.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 851,
+  "tokens_out": 180,
+  "cost_usd": 0.0014008000000000002,
+  "ingested_at": "2026-05-28T00:19:13.701764+00:00"
+}

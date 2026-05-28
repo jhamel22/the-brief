@@ -1,0 +1,23 @@
+{
+  "id": "2605.27224",
+  "arxiv_url": "https://arxiv.org/abs/2605.27224",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "GWTC-5.0: Methods for Identifying and Characterizing Gravitational-wave Transients",
+  "authors": " The LIGO Scientific Collaboration,  the Virgo Collaboration,  the KAGRA Collaboration",
+  "abstract": "The Gravitational-Wave Transient Catalog (GWTC) is a collection of candidate gravitational-wave transient signals identified and characterized by the LIGO-Virgo-KAGRA Collaboration. Producing the contents of the GWTC from detector data requires complex analysis methods. These comprise techniques to model the signal; identify the transients in the data; evaluate the quality of the data and mitigate possible instrumental issues; infer the parameters of each transient; compare the data with the waveform models for compact binary coalescences, and handle the large amount of results associated with all these different analyses. In this paper, we describe the methods employed to produce the catalog's fifth release, GWTC-5.0, focusing on the analysis of the second part of the fourth observing run of LIGO, Virgo and KAGRA.",
+  "title_relatable": "How do scientists actually find gravitational waves in noisy data?",
+  "hook": "LIGO's fifth catalog release details every method used to pull faint spacetime ripples from detector noise during O4b.",
+  "summary": "This is the technical blueprint behind GWTC-5.0, explaining how the LIGO-Virgo-KAGRA collaboration filters data, flags instrument glitches, and extracts the properties of merging black holes and neutron stars from the second half of their fourth observing run. Think of it as the lab notebook for the entire detection pipeline. Essential reading for anyone building on or scrutinizing the collaboration's merger claims.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 639,
+  "tokens_out": 169,
+  "cost_usd": 0.004452,
+  "ingested_at": "2026-05-28T00:15:44.558309+00:00"
+}

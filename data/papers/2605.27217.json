@@ -1,0 +1,24 @@
+{
+  "id": "2605.27217",
+  "arxiv_url": "https://arxiv.org/abs/2605.27217",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.GA",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "For modified gravity, it's the LITTLE THINGS that matter",
+  "authors": "Geoff Beck",
+  "abstract": "Dwarf galaxies have long been recognised as important testing grounds for models of dark matter. For instance, it is here where the cusp-core problem is most apparent. In this work we select two dwarf galaxy samples: LITTLE THINGS and dwarf galaxies in SPARC. We use these to examine whether there are preferences for MOND or dark matter halos in these objects. Notably, our analysis employs the latest developments in Hamiltonian Monte Carlo sampling methodology and robust model comparison via ELPD differences. Our findings suggest a $>4σ$ preference for cored halo models over MOND. However, this relies on significant preferences from 7 out of 19 SPARC galaxies and 11 of 18 from LITTLE THINGS (few of which are overwhelming). It is notable that only a single galaxy prefers MOND over a cored halo. Thus, this evidence is suggestive, but does not conclusively decide against MOND. We also test for evidence of a MOND external field effect, and find weak evidence against its presence. Despite these statistical preferences, most SPARC galaxies remain compatible with a universal MOND scale. In LITTLE THINGS, a free MOND model is preferred to a universal value at $\\sim 8σ$, but this is of doubtful physical significance. For MOG, the story is different, here we find $\\gtrsim 8σ$ preferences for all halos (or MOND) against universal MOG models with significant exclusions in individual galaxies across both samples. Thus, a proposed universal rotation curve model derived from MOG is quite strongly disfavoured.",
+  "title_relatable": "Do dwarf galaxies finally settle the dark matter debate?",
+  "hook": "Across 37 dwarf galaxies, cored dark matter halos beat MOND by more than 4 sigma — but one rival gravity theory fares far worse.",
+  "summary": "Fitting rotation curves of 37 dwarf galaxies against competing theories, a cored dark matter halo model outperforms MOND at just over 4-sigma confidence — suggestive, but not a knockout blow, since only one galaxy actually prefers MOND. A separate modified-gravity theory called MOG fares much worse, with universal rotation curve predictions ruled out at 8-sigma across both galaxy samples. Dwarf galaxies remain the sharpest scalpel for cutting between dark matter models.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 786,
+  "tokens_out": 197,
+  "cost_usd": 0.005313,
+  "ingested_at": "2026-05-28T00:15:55.749752+00:00"
+}

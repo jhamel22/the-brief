@@ -1,0 +1,22 @@
+{
+  "id": "2605.26861",
+  "arxiv_url": "https://arxiv.org/abs/2605.26861",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "REVERSE: Reinforcing Evidence Verification and Search for Agentic Image geo-localization",
+  "authors": "Yong Li, Furong Jia, Dacheng Yin, Kang Rong, Fengyun Rao, Jing Lyu, Fan Zhang",
+  "abstract": "Image geo-localization aims to determine where a photograph was taken, a task that often requires more than recognizing visible landmarks. Human experts typically solve it through an iterative workflow: they inspect informative regions, form location hypotheses, seek external evidence, and revise their judgments as new clues appear. Existing methods only partially capture this process: direct prediction methods bypass evidence acquisition altogether, while retrieval-augmented methods introduce external evidence but usually provide limited supervision on the intermediate decisions of where to search, how to query, and how to filter noisy results. We present REVERSE, a framework that reinforces the interplay between evidence search and verification to enable multi-turn agentic reasoning. REVERSE teaches three intermediate decisions: where to look, what to query, and what evidence to trust. To support this, we construct tool-grounded trajectories with annotated region selections, search observations, and geo-informative evidence labels, and introduce process rewards for visual grounding, query utility, and evidence discrimination. An offline search cache makes retrieval observations stable and reusable during reinforcement learning, enabling dense supervision over noisy search results. With a 4B model, REVERSE outperforms strong retrieval-augmented baselines and rivals substantially larger models on Im2GPS3k and YFCC4k. Code is available at https://github.com/yonglleee/REVERSE.",
+  "title_relatable": "Teaching AI to reason like a detective about photo locations",
+  "hook": "New framework teaches image geo-localization agents to iteratively search for and verify evidence, outperforming larger models on standard benchmarks.",
+  "summary": "Image geo-localization—figuring out where a photo was taken—normally requires humans to inspect clues, form hypotheses, search for evidence, and revise. REVERSE trains agents to replicate this multi-turn reasoning by learning three decisions: where to look, what to query, and which evidence to trust. Using process rewards and an offline search cache, a 4B model outperforms retrieval-augmented baselines and rivals much larger models on Im2GPS3k and YFCC4k benchmarks. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 769,
+  "tokens_out": 194,
+  "cost_usd": 0.0013912,
+  "ingested_at": "2026-05-28T00:28:18.919074+00:00"
+}

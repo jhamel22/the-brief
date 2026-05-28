@@ -1,0 +1,22 @@
+{
+  "id": "2605.27324",
+  "arxiv_url": "https://arxiv.org/abs/2605.27324",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Reconstructing the cosmic expansion in $f(R, L_{m})$ gravity via parametrized Hubble function constraints",
+  "authors": "Khomesh R. Patle, G. P. Singh",
+  "abstract": "We probe the cosmic expansion scenario within the framework of $f(R, L_{m})$ gravity by employing a well-motivated functional form of $f(R, L_{m}) = \\frac{R}{2} + L_{m}^λ$. Specifically, we introduce three novel cosmological models formulated in terms of the redshift-dependent Hubble parameter $H(z)$, offering deeper insights into the underlying cosmic dynamics. The models are further utilized to investigate the expansion history of the universe and the evolution of several cosmological parameters. By using the Bayesian methods based on the $χ^{2}$-minimization technique, the median values of the model parameters are determined for the cosmic chronometer (CC) and joint (CC+Pantheon) datasets. A comprehensive study of the deceleration parameter, energy density, pressure and the equation of state parameter is carried out to understand the universe's evolution. Additionally, the validity of the energy conditions and the behavior of the statefinder diagnostic are thoroughly examined. Finally, the thermodynamic viability of the models is confirmed through the evolution of temperature and entropy density, and the estimated age of the universe further exemplifies good agreement with late-time astronomical observations.",
+  "title_relatable": "Does tweaking gravity's rules change how the universe expands?",
+  "hook": "Three new cosmological models test a modified gravity theory against supernova and chronometer data, recovering standard cosmic history.",
+  "summary": "By coupling curvature to matter in a modified gravity framework, three parameterized models are fitted to cosmic chronometer and Pantheon supernova datasets using Bayesian statistics. All three reproduce the observed transition from deceleration to acceleration and return a universe age consistent with standard estimates. The exercise is a consistency check: modified gravity can mimic standard cosmology, but doesn't yet demand it.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 708,
+  "tokens_out": 156,
+  "cost_usd": 0.004464,
+  "ingested_at": "2026-05-28T00:15:02.088434+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.27125",
+  "arxiv_url": "https://arxiv.org/abs/2605.27125",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Diffeomorphism-Like Symmetry in Gravitoelectromagnetism",
+  "authors": "L. A. S. Evangelista, A. F. Santos",
+  "abstract": "Gravitoelectromagnetism in the Weyl formalism is investigated through an analysis of the consequences of a restricted gauge symmetry acting on the tensor field $A_{μν}$. The propagator associated with the GEM field is explicitly derived and decomposed within the Barnes--Rivers formalism, revealing contributions from the spin-2, spin-1, and scalar spin-0 sectors. By coupling the theory to conserved sources, it is shown that only the spin-2 and scalar sectors contribute to physical processes, while the spin-1 component decouples. The resulting effective propagator can then be written in a compact metric form closely resembling the graviton propagator of linearized General Relativity. The role of gauge fixing is also analyzed by considering both Lorentz-like and de Donder-type gauge conditions. It is shown that the Lorentz-like gauge is consistent with the restricted gauge symmetry of the theory and leads to gauge-independent physical amplitudes, whereas the de Donder gauge introduces residual gauge-dependent scalar contributions, signaling an incompatibility with the underlying symmetry structure. The gauge symmetry is further extended to the fermionic and electromagnetic sectors through diffeomorphism-like transformations. In both cases, conserved currents are derived and shown to coincide with the corresponding energy-momentum tensors, implying that the GEM field couples to matter in the same manner as in linearized gravity. Finally, the associated Ward identities are verified, providing a nontrivial consistency check of the gauge structure and interaction vertices of the theory.",
+  "title_relatable": "Does gravity's weak-field cousin secretly behave like full GR?",
+  "hook": "A tensor-field treatment of gravitoelectromagnetism reproduces the graviton propagator and couples to matter exactly like linearized General Relativity.",
+  "summary": "Gravitoelectromagnetism — the analogy between weak gravitational fields and electromagnetism — is usually treated as a rough approximation, but this analysis shows its spin-2 propagator is mathematically identical to linearized GR's graviton propagator. The spin-1 sector vanishes entirely from physical processes, and the coupling to matter (fermions, photons) reproduces the energy-momentum tensor coupling of full linearized gravity. The result suggests the analogy runs deeper than textbook treatments imply.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 772,
+  "tokens_out": 191,
+  "cost_usd": 0.005181,
+  "ingested_at": "2026-05-28T00:16:06.314388+00:00"
+}

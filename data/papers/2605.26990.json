@@ -1,0 +1,23 @@
+{
+  "id": "2605.26990",
+  "arxiv_url": "https://arxiv.org/abs/2605.26990",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Constrained Bayesian Experimental Design via Online Planning",
+  "authors": "Yujia Guo, Daolang Huang, Xinyu Zhang, Sammie Katt, Samuel Kaski, Ayush Bharti",
+  "abstract": "Bayesian experimental design (BED) is a principled framework for data-efficient design of sequential experiments. However, existing BED methods are unable to adapt to dynamic constraints inherent in real-world tasks due to budget limitations, varying costs, or physical constraints that restrict how designs evolve over time. In this paper, we introduce a novel approach to BED that enables constrained optimization of experimental designs by combining offline pre-training of an amortized policy and a posterior network with online multi-step lookahead planning using scenario trees. We empirically demonstrate that our method yields substantially more informative design sequences than existing methods across a range of constrained BED tasks, while incurring only a modest additional computational overhead.",
+  "title_relatable": "Running experiments under constraints? This method adapts as it learns.",
+  "hook": "Combining learned policies with real-time planning beats fixed methods on constrained experiments, with modest computational cost.",
+  "summary": "Bayesian experimental design typically assumes you can run any experiment you want. Reality is messier: budgets run out, costs vary, physical limits shift. This work trains a neural policy offline, then uses multi-step lookahead planning at runtime to adapt to changing constraints. The result: substantially more informative experiment sequences than existing approaches, without prohibitive computational slowdown.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 609,
+  "tokens_out": 152,
+  "cost_usd": 0.0010952,
+  "ingested_at": "2026-05-28T00:22:23.242644+00:00"
+}

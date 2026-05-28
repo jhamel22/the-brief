@@ -1,0 +1,22 @@
+{
+  "id": "2605.27351",
+  "arxiv_url": "https://arxiv.org/abs/2605.27351",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Feedforward 3D Editing Learns from Semantic-Part Transformation",
+  "authors": "Jiawei Weng, Saining Zhang, Zhenxin Diao, Peishuo Li, Henghaofan Zhang, Junhao Chen, Hao Zhao",
+  "abstract": "3D editing is a fundamental capability for scalable 3D content creation. While image editing has rapidly evolved toward large-scale feedforward generative paradigms, 3D AI generation remains dominated by training-free editing pipelines. A central challenge of feedforward 3D editing lies in the lack of high-quality paired supervision. Editable 3D assets require simultaneous preservation of geometry, multi-view consistency, structural coherence, and localized edit controllability. Existing 3D editing datasets often rely on independently generated assets, image-mediated reconstruction or narrow edit taxonomies, leading to inaccurate localization, weak preservation, blurred edit boundaries, and limited semantic consistency. In this work, we introduce a new perspective: scalable feedforward 3D editing should be learned from semantic-part transformations. Based on this insight, we propose Pxform, a high-quality 3D editing dataset with over 100K consistent before/after editing pairs across seven edit types. Instead of treating objects as unstructured shapes, our pipeline grounds edits directly in semantic 3D parts. Built upon Pxform, we further propose PartFlow, a feedforward 3D editing network that injects source-aware latent control into pretrained 3D generative priors. PartFlow introduces mask-aware velocity preservation and render-space consistency supervision to jointly improve edit fidelity and source preservation, while requiring no 3D edit mask during inference. Extensive experiments demonstrate that high-quality semantic-part supervision substantially improves scalable 3D editing, enabling PartFlow to achieve state-of-the-art performance on both geometric and appearance editing benchmarks.",
+  "title_relatable": "How do you edit 3D objects without starting from scratch?",
+  "hook": "New dataset and model enable fast, precise 3D edits by learning from semantic parts instead of whole objects.",
+  "summary": "3D editing typically requires expensive manual work or slow iterative methods. This work introduces Pxform, a dataset of 100K+ paired before/after 3D edits organized by semantic parts (a chair's leg, a cup's handle), and PartFlow, a feedforward network that learns to edit 3D geometry and appearance from these structured examples. The method preserves unmofied regions and maintains consistency across viewpoints without needing 3D masks at test time—outperforming existing approaches on standard editing benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 831,
+  "tokens_out": 191,
+  "cost_usd": 0.0014288000000000003,
+  "ingested_at": "2026-05-28T00:28:11.486004+00:00"
+}

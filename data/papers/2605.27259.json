@@ -1,0 +1,22 @@
+{
+  "id": "2605.27259",
+  "arxiv_url": "https://arxiv.org/abs/2605.27259",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Kan Extension Transformers: A Categorical Unification of Attention, Diffusion, and Predict-Detach Self-Conditioning",
+  "authors": "Sridhar Mahadevan",
+  "abstract": "We propose Kan Extension Transformers (KETs) as a unifying categorical framework for a diverse group of Transformer implementations. The core claim is that a Transformer layer can be viewed as a weighted structured extension operator: standard attention is the singleton-neighborhood case, Geometric Transformer style incidence mixing is a sparse edge-restricted case, and KET is the higher-order simplicial case. This lens also clarifies a bridge to diffusion-style completion. When the extension operator acts on detached predictive carriers instead of teacher-forced hidden states, it becomes a valid self-conditioning mechanism that exposes noncausal structure without leaking gold future tokens. We include a comprehensive experimental validation of 12 different Transformer implementations varying across strict-causal and predict-detach regimes on Penn Treebank, WikiText-2, and WikiText-103. In the strict-causal setting, quadratic KET is the strongest model among the compared causal architectures on WikiText-2 and WikiText-103. Across all datasets, however, the largest gains come from the predict-detach regime rather than from changing the neighborhood family alone.",
+  "title_relatable": "How category theory unifies attention, diffusion, and self-conditioning",
+  "hook": "Transformers can be viewed through category theory as extension operators. A new framework beats standard attention on WikiText benchmarks, with bigger gains from predict-detach training.",
+  "summary": "This work reframes Transformer layers as weighted extension operators in category theory, unifying standard attention (narrow neighborhoods), sparse geometric variants, and higher-order simplicial structures. The framework also connects to diffusion models and reveals how predict-detach self-conditioning—training on model predictions instead of ground truth—exposes noncausal structure without leaking future tokens. Testing 12 variants across Penn Treebank, WikiText-2, and WikiText-103 shows quadratic KET outperforms causal baselines on large datasets, but the strongest improvements come from the predict-detach regime itself.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 695,
+  "tokens_out": 219,
+  "cost_usd": 0.001432,
+  "ingested_at": "2026-05-28T00:22:08.897870+00:00"
+}

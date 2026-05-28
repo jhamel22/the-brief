@@ -1,0 +1,22 @@
+{
+  "id": "2605.27256",
+  "arxiv_url": "https://arxiv.org/abs/2605.27256",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Thermal conformal partial waves from flat-space and defect CFT",
+  "authors": "K. B. Alkalaev, Semyon Mandrygin, Vladimir Samsonov",
+  "abstract": "We establish a correspondence between conformal partial waves on flat, thermal, and defect backgrounds using the shadow formalism. We demonstrate that scalar one-point thermal blocks can be systematically obtained from their four-point flat-space and two-point defect counterparts by considering specific operator configurations. This framework allows us to derive the thermal Casimir equation as a diagonal reduction of the flat-space Casimir system without introducing chemical potentials. We further show that defect two-point blocks with a spin-$l$ exchange operator correspond to thermal one-point blocks for an external spin-$l$ operator.",
+  "title_relatable": "How do thermal quantum systems hide flat-space symmetries?",
+  "hook": "Physicists found that heat-bath quantum correlations are secretly equivalent to special cases of flat-space scattering—a hidden duality that simplifies calculations of thermal properties.",
+  "summary": "Using conformal symmetry, the authors discovered that quantum correlations in heated systems can be derived directly from ordinary scattering processes in flat space by choosing the right operator arrangement. This sidesteps the usual need to track temperature through chemical potentials, and reveals that thermal one-point functions are shadows of four-point flat-space correlators. The result unifies three different geometric settings—flat, thermal, and defect backgrounds—under one mathematical framework.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 565,
+  "tokens_out": 184,
+  "cost_usd": 0.001188,
+  "ingested_at": "2026-05-28T00:16:32.776780+00:00"
+}

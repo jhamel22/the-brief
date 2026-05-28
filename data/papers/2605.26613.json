@@ -1,0 +1,22 @@
+{
+  "id": "2605.26613",
+  "arxiv_url": "https://arxiv.org/abs/2605.26613",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Spectra and Ionization Efficiencies of Charged Decay Particles in Kilonova Ejecta",
+  "authors": "L. N. Van den Berg, K. Hotokezaka",
+  "abstract": "Ionization by radioactive decay products including $α$-particles, $β$-decay electrons, and fission fragments plays a central role in determining the nebular-phase ionization state and spectra of kilonovae. In this work, ionization cross sections, stopping powers, thermalization histories, and particle degradation spectra are calculated self-consistently for $α$-particles and fission fragments propagating through expanding kilonova ejecta. The treatment includes interactions with bound and free electrons, charge evolution of fission fragments, adiabatic energy losses, and particle spectra obtained from the continuous slowing-down approximation and Spencer--Fano formalism. The work per ion pair is evaluated for a range of ejecta compositions and ionization states. Despite the large differences in mass, charge, and injection energy between $β$-electrons, $α$-particles, and fission fragments, the resulting work per ion pair is found to be remarkably similar across all decay channels and target species considered. In particular, heavy-element ions exhibit nearly identical normalized ionization efficiencies for all decay products. This robustness arises because the ionization cross sections and stopping powers are governed by the same underlying collision physics, causing the ratio between ionization and energy loss to remain approximately constant over the relevant energy range. The results imply that the ionization state of late-time kilonova ejecta depends only weakly on the dominant radioactive decay channel, even in ejecta where $α$-decay and fission dominate the heating budget.",
+  "title_relatable": "Why kilonova brightness barely depends on which atoms decay?",
+  "hook": "Heavy elements ionize the same way regardless of whether alpha particles, electrons, or fission fragments trigger it—a simplification for modeling neutron star collisions.",
+  "summary": "When neutron stars merge, radioactive decay heats the expanding debris and ionizes atoms, making it glow. This work calculates how different decay particles (alphas, fission fragments, electrons) ionize the material. Surprisingly, the ionization efficiency is nearly identical across all decay channels and heavy-element compositions—a lucky cancellation of opposing physics that lets theorists ignore which isotopes dominate the decay chain when predicting kilonova spectra.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 777,
+  "tokens_out": 182,
+  "cost_usd": 0.0013495999999999998,
+  "ingested_at": "2026-05-28T00:20:21.352417+00:00"
+}

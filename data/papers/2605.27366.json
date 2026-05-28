@@ -1,0 +1,25 @@
+{
+  "id": "2605.27366",
+  "arxiv_url": "https://arxiv.org/abs/2605.27366",
+  "announced_date": "2026-05-26",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+  "authors": "Huawei Lin, Peng Li, Jie Song, Fuxin Jiang, Tieying Zhang",
+  "abstract": "Large language model (LLM) agents rely on reusable skills to solve complex tasks. However, existing skill creation approaches treat skills as isolated and static artifacts, limiting their reusability, reliability, and long-term improvement. We propose MUSE-Autoskill Agent (Memory-Utilizing Skill Evolution), a skill-centric agent framework that lets agents continuously improve their task-solving capability by creating, reusing, and refining skills under a unified lifecycle (creation, memory, management, evaluation, and refinement). Our framework enables agents to create skills on demand, store and reuse them across tasks, organize and select them efficiently, and evaluate them through unit tests and runtime feedback for continuous refinement. We further introduce skill-level memory that accumulates experience for each skill across tasks, enabling more effective reuse and adaptation over time. Experiments on SkillsBench provide initial evidence that lifecycle-managed skills can improve task success, efficiency, reuse, and cross-agent transfer, highlighting the importance of treating skills as long-lived, experience-aware, and testable assets.",
+  "title_relatable": "Can AI agents learn to reuse and improve their own skills?",
+  "hook": "Framework lets LLM agents create, test, and refine reusable skills across tasks, improving success rates and cross-agent transfer.",
+  "summary": "LLM agents often solve tasks with ad-hoc skills that aren't reused or improved. MUSE-Autoskill treats skills as living assets with memory and testing, letting agents create skills on demand, store them for future tasks, and refine them via unit tests and runtime feedback. On SkillsBench, the approach improves task success, efficiency, and the ability to transfer skills between agents—suggesting that long-term skill management beats treating each task from scratch.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 694,
+  "tokens_out": 185,
+  "cost_usd": 0.0012952,
+  "ingested_at": "2026-05-28T00:24:12.288711+00:00"
+}

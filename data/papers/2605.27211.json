@@ -1,0 +1,23 @@
+{
+  "id": "2605.27211",
+  "arxiv_url": "https://arxiv.org/abs/2605.27211",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Time Crystals on Quantum Devices",
+  "authors": "Gonzalo Camacho, Benedikt Fauseweh",
+  "abstract": "Time crystals are nonequilibrium phases of matter characterized by the emergence of temporal ordering, in which an interacting many-body system develops robust structure in its time evolution that is not trivially dictated by the external driving or environment. While related phenomena have long been studied in classical nonlinear systems, their realization in entangled quantum matter represents a distinct frontier. The theoretical understanding of discrete time crystals has substantially advanced, yet recent experiments using modern quantum devices and quantum processors reveal regimes beyond established paradigms. These developments call for an extended classification of time-crystalline phases according to both their stabilization mechanisms and their physical character, including discrete and continuous, closed and open, critical, topological, quasiperiodic, and controlled realizations. We review recent implementations of time crystals on quantum platforms and propose such a classification framework, identifying promising directions for the discovery of novel time-crystalline phases of matter.",
+  "title_relatable": "Can quantum computers simulate matter that beats like a clock forever?",
+  "hook": "Time crystals — quantum systems that oscillate without energy input — are outpacing the theories meant to explain them.",
+  "summary": "Quantum processors like those from Google and IBM have realized 'time crystals,' phases of matter that develop repeating structure in time without being directly forced to. Experiments are now producing behavior that existing theory can't fully classify, prompting a new taxonomy: discrete vs. continuous, open vs. closed, topological, and more. The review maps what's been built and where the physics gets genuinely strange.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 619,
+  "tokens_out": 157,
+  "cost_usd": 0.004212,
+  "ingested_at": "2026-05-28T00:17:58.988382+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.27371",
+  "arxiv_url": "https://arxiv.org/abs/2605.27371",
+  "announced_date": "2026-05-26",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CY",
+    "cs.AI"
+  ],
+  "title_original": "Algorithmic Monocultures in Hiring",
+  "authors": "Rishi Bommasani, Sarah H. Bana, Kathleen A. Creel, Dan Jurafsky, Percy Liang",
+  "abstract": "Many employers screen job applicants with algorithms built by the same few algorithm vendors. We hypothesize that algorithmic monoculture leads to the same individuals and members of the same racial groups facing rejection. We acquire and analyze a novel dataset of 3 million applicants submitting 4 million applications where all the applications are screened by algorithms built by the same vendor. We find clear racial disparities in applicant outcomes. Of all applications submitted by Asian and Black applicants, 14.74% and 25.87% are submitted to positions that adversely impact Asian and Black applicants, respectively, according to U.S. employment discrimination standards. Individuals also receive homogeneous outcomes: 4% of all applicants who apply to 10 positions are recommended for rejection from all positions, a rate higher than expected by chance. To better understand this homogeneity, we leverage the deterministic replicability of hiring algorithms to generate the outcomes applicants would have received if they applied to all positions. We show that applicants would need to apply widely in order to ensure their applications are considered by a human",
+  "title_relatable": "Why the same hiring algorithm rejects the same people everywhere",
+  "hook": "Analysis of 4 million job applications reveals that algorithmic screening by a single vendor produces racially disparate outcomes: 26% of Black applicants face adverse impact across positions.",
+  "summary": "When a few algorithm vendors dominate hiring screening, the same applicants—particularly Black and Asian candidates—get rejected everywhere, even if they'd pass human review. Researchers analyzed 4 million applications processed by one vendor and found 26% of Black applicants submitted to positions where the algorithm adversely impacted them under U.S. discrimination law. Some applicants were rejected by the algorithm across all 10 positions they applied to, far more often than chance would predict. The deterministic nature of these systems creates a hidden barrier: applicants must apply to many positions to escape algorithmic gatekeeping.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 686,
+  "tokens_out": 215,
+  "cost_usd": 0.0014088000000000002,
+  "ingested_at": "2026-05-28T00:24:09.979520+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.27369",
+  "arxiv_url": "https://arxiv.org/abs/2605.27369",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Generalized multilevel amplitude damping channels and their thermodynamic performances",
+  "authors": "Vito Vetrano, Vittorio Giovannetti, Vasco Cavina",
+  "abstract": "We introduce a new class of quantum channels, the Generalized Multilevel Amplitude Damping (GMAD) channels, to model noise and decoherence effects in a qudit coupled to a thermal environment. The degradation of energetic resources under GMADs is investigated by evaluating work functionals and ergotropic capacitances, with particular attention to the coherent and incoherent contributions to ergotropy, for which we introduce new quantifiers. Our analysis sheds light on how to optimally prepare a qudit in a thermal environment in order to preserve its value from the perspective of work extraction, and reveals several counterintuitive phenomena: the ergotropic capacitance of a GMAD channel is not monotonic in the temperature of the environment; moreover, iterating the map can lead to crossings between ergotropic functionals at different temperatures, indicating the presence of a Markovian Mpemba effect.",
+  "title_relatable": "Can a hotter bath sometimes better preserve a quantum battery?",
+  "hook": "A new noise model for quantum systems reveals that higher temperatures can paradoxically protect extractable work better than cooler ones.",
+  "summary": "A framework for how multi-level quantum systems lose energy to a heat bath shows that the amount of useful work a qudit can deliver is not a simple function of bath temperature — sometimes a hotter environment degrades it less. Even stranger, repeatedly applying the channel can cause work-extraction measures at different temperatures to cross, a quantum analogue of the Mpemba effect, where hot water freezes faster than cold.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 638,
+  "tokens_out": 159,
+  "cost_usd": 0.004299,
+  "ingested_at": "2026-05-28T00:17:13.822847+00:00"
+}

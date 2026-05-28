@@ -1,0 +1,22 @@
+{
+  "id": "2605.27359",
+  "arxiv_url": "https://arxiv.org/abs/2605.27359",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Wilson coefficients from a non-renormalization theorem in 2D SYM",
+  "authors": "Kabir Bajaj",
+  "abstract": "Matrix string theory (arXiv:hep-th/9703030, arXiv:hep-th/9701025, arXiv:hep-th/9710009) is a conjectured duality between two-dimensional maximally supersymmetric $U(N)$ Yang-Mills theory and type-IIA string theory in ten-dimensional Minkowski spacetime. The IR description of this gauge theory is governed by the symmetric product orbifold $(\\mathbb{R}^8)^N/S_N$ CFT. The leading irrelevant deformation from this IR fixed point is the Dijkgraaf-Verlinde-Verlinde operator, which comes with an unknown Wilson coefficient. We determine this coefficient using non-renormalization arguments from the UV gauge theory. The result is consistent with the matrix string theory conjecture and gives a first-principles check of the relation between $g_{\\rm YM}$ and the string coupling. We also comment on the prospects for fixing further Wilson coefficients using similar methods.",
+  "title_relatable": "How does a 2D gauge theory encode string theory coupling constants?",
+  "hook": "Physicists derived a mysterious constant in string theory using symmetry arguments from a simpler 2D theory, confirming a decades-old duality conjecture.",
+  "summary": "Matrix string theory proposes that a 2D supersymmetric gauge theory describes type-IIA strings. The theory's long-distance behavior is controlled by a symmetric product orbifold CFT, perturbed by the Dijkgraaf-Verlinde-Verlinde operator whose strength was unknown. Using non-renormalization theorems—symmetries that forbid certain corrections—the authors calculated this coefficient from first principles and showed it matches the string coupling constant, validating the duality.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 654,
+  "tokens_out": 195,
+  "cost_usd": 0.0013032,
+  "ingested_at": "2026-05-28T00:16:29.792069+00:00"
+}

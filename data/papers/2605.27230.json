@@ -1,0 +1,23 @@
+{
+  "id": "2605.27230",
+  "arxiv_url": "https://arxiv.org/abs/2605.27230",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "$w_0$-probe: A new diagnostic of dark energy based on $Om$",
+  "authors": "Satadru Bag, Ryan E. Keeley, Varun Sahni, Arman Shafieloo",
+  "abstract": "Recent DESI data suggest that dark energy may be evolving and motivate the use of model-independent diagnostics such as $Om(z)$ and probes of the equation of state (EoS) of dark energy, $w(z)$. Traditional reconstructions of $w(z)$ rely on differentiating the expansion history, $h(z)=H(z)/H_0$, which amplifies noise and systematic uncertainties. In this work, we introduce a new diagnostic, the $w_0$-probe, which is constructed from $Om(z)$, and which enables a direct determination of the current EoS from $h(z)$ without any additional differentiation. While retaining the null-test capability of $Om(z)$ for $Λ$CDM, the $w_0$-probe also provides a direct estimate of $w_0$ -- the current EoS of dark energy. We demonstrate that this reconstruction of $w_0$ is robust for any smooth underlying $w(z)$. We apply this method to Gaussian-process (GP) reconstructions of $h(z)$ using current SNe Ia+BAO+CMB data. Both $Om(z)$ and the $w_0$-probe exclude $Λ$CDM at the $95\\%$ confidence level (C.L.), with the latter favouring $w_0\\simeq-0.62 \\pm 0.03$ at $95\\%$ C.L. To mitigate potential over-constraining from GP priors, we additionally analyze $χ^2$-limited reconstructions with likelihoods exceeding the $95\\%$ CPL threshold. The $w_0$-probe obtained from these high-likelihood samples again predominantly excludes $Λ$CDM and yields $w_0\\in(-0.8,-0.5)$ at $z\\to 0$, demonstrating the robustness of our results. The $w_0$-probe therefore provides a simple, model-independent, and robust diagnostic of the current EoS of dark energy.",
+  "title_relatable": "Is dark energy changing? A sharper tool says yes",
+  "hook": "A new noise-resistant diagnostic finds dark energy's current strength at w₀ ≈ −0.62, excluding the cosmological constant at 95% confidence.",
+  "summary": "Measuring dark energy's equation of state normally requires differentiating noisy distance data twice, amplifying errors. This new 'w₀-probe' extracts the current value directly from the expansion history in one step. Applied to supernova, BAO, and CMB data, it rules out a simple cosmological constant at 95% confidence and points to dark energy significantly weaker than the standard model predicts — reinforcing the picture that dark energy may be evolving.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 925,
+  "tokens_out": 185,
+  "cost_usd": 0.00555,
+  "ingested_at": "2026-05-28T00:15:22.454184+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.26538",
+  "arxiv_url": "https://arxiv.org/abs/2605.26538",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Scheduled Style Injection: Expanding the Style-Content Pareto Frontier in Training-Free Diffusion-based Style Transfer",
+  "authors": "Amey Sunil Kulkarni",
+  "abstract": "Style transfer with pre-trained diffusion models has advanced rapidly, but a core question remains underexplored: where in the model should style injection be strongest? StyleID, the leading training-free method, uses a single global parameter (gamma) uniformly across all layers and timesteps, which forces a fixed tradeoff between style quality and content preservation. We show this tradeoff is unnecessarily rigid. We systematically explore four dimensions of control: varying style injection strength across decoder layers, across denoising timesteps, and scheduling ControlNet geometric conditioning along both axes. The pattern is consistent everywhere: decreasing schedules, with stronger structural signal injection in shallower layers and earlier timesteps, reliably outperform the reverse. Beyond direction, schedule shape matters: cosine and square-root timestep schedules outperform linear. Most importantly, we find that gamma scheduling and ControlNet conditioning are nearly independent. The resulting combined configurations expand the Pareto frontier, offering superior tradeoffs between style fidelity and content preservation compared to any single baseline setting. Our best balanced configuration achieves ArtFID of 27.036 versus StyleID's 28.801 - a 6.1% relative improvement, with consistent gains across the full style-content tradeoff frontier. Results are validated across 35 configurations totaling over 28,000 stylized images using four complementary metrics. These findings generalize across SD backbones with identical rank ordering. All modifications are training-free, parameter-free, and require only a few lines of scheduling code; code is available at https://github.com/ameyskulkarni/scheduled_style_injection.",
+  "title_relatable": "Where should style injection happen in image generation?",
+  "hook": "Scheduling style strength across layers and timesteps beats fixed settings by 6.1% on ArtFID, expanding the style-content tradeoff frontier.",
+  "summary": "Style transfer using diffusion models forces you to choose: strong style or faithful content. This work shows that choice is artificial. By varying how much style gets injected at different depths and timesteps—stronger early and shallow, weaker late and deep—you can improve both simultaneously. Testing 35 configurations across 28,000 images reveals cosine and square-root schedules consistently outperform uniform injection, and the gains stack when combined with ControlNet. Training-free, no new parameters needed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 802,
+  "tokens_out": 189,
+  "cost_usd": 0.0013976,
+  "ingested_at": "2026-05-28T00:28:26.613414+00:00"
+}

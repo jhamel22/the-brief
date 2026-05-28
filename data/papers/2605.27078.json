@@ -1,0 +1,23 @@
+{
+  "id": "2605.27078",
+  "arxiv_url": "https://arxiv.org/abs/2605.27078",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Two Speeds of Learning: A Representation-Readout Decomposition of Grokking and Double Descent",
+  "authors": "Chi-Ning Chou, Oscar Uzdelewicz, Neng-Chun Chiu, Yao-Yuan Yang, SueYeon Chung",
+  "abstract": "Training loss and accuracy are the standard signals used to monitor generalization during deep neural network training. Two well-documented phenomena complicate this picture: in grokking, train loss falls rapidly while test performance improves abruptly only after a long delay; in epoch-wise double descent, train loss decreases monotonically while test loss or error rises and falls. Existing accounts are often task-specific, and a task-agnostic analysis framework for diagnosing and explaining these phenomena across realistic tasks and architectures is missing. We address this challenge by analyzing two competing processes that underlie learning dynamics: representation learning in the encoder and readout calibration in the final classifier. Using tools from representational geometry, neural tangent kernels, and linear probing, we show that both processes are active throughout training, with the fluctuations of their relative speed giving rise to seemingly anomalous generalization dynamics. Applying the representation-readout decomposition to grokking across a wide range of tasks and architectures, we find that the readout is train-biased before grokking onset, and representation learning is gradual but not absent, contrary to the lazy-to-rich account. The framework further provides diagnostic signatures distinguishing spurious from genuine generalization: in a previously reported MNIST grokking example and an epoch-wise double descent example, apparent delayed or non-monotone generalization is shown to arise from representation degradation and readout misalignment induced by non-standard training recipes. Together, these results establish the representation-readout decomposition as a top-down framework for understanding learning dynamics and revealing underlying algorithms for interpretability research.",
+  "title_relatable": "Why neural networks suddenly learn: two hidden speeds exposed",
+  "hook": "Grokking and double descent aren't mysterious—they're just representation learning and readout calibration operating at different speeds.",
+  "summary": "Neural networks sometimes delay generalization (grokking) or show test performance bouncing back after worsening (double descent), contradicting simple loss curves. This work splits learning into two processes: building useful representations in hidden layers and tuning the final classifier to those representations. Using representation geometry and neural tangent kernels across diverse tasks, the authors show both processes run throughout training, and anomalies arise when one speeds up or stalls relative to the other. The framework debunks the \"networks lazily memorize then suddenly learn\" story and identifies when apparent delayed generalization is actually representation degradation or misalignment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 818,
+  "tokens_out": 206,
+  "cost_usd": 0.0014784000000000002,
+  "ingested_at": "2026-05-28T00:22:14.674278+00:00"
+}

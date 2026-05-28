@@ -1,0 +1,24 @@
+{
+  "id": "2605.26655",
+  "arxiv_url": "https://arxiv.org/abs/2605.26655",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG",
+    "cs.NE"
+  ],
+  "title_original": "Why Prompt Optimization Works, and Why It Sometimes Doesn't: A Causal-Inspired Edit-Level Analysis",
+  "authors": "Shuzhi Gong, Hechuan Wen",
+  "abstract": "Automated prompt optimization methods (e.g., DSpy, TextGrad) can substantially improve the performance of large language model (LLM), however, their generalization ability across different tasks remains underperformed. In practice, the superiority of the optimized prompt on one benchmark often fails to transfer to another, and this limitation persists even when switching across different LLM backbones. To investigate the underexplored sources of heterogeneity in prompt performance, we conduct a causal inference-inspired observational analysis of optimized prompts across a diverse set of optimization frameworks, LLM backbones, and NLP benchmarks. To achieve the goal, we build upon the propensity-adjusted associational analysis together with multiple complementary representations of prompt edits, where the consistent task-conditioned edits patterns are identified. We find that complexity-increasing and meta-instructional edits are negatively associated with mathematical and multi-hop reasoning performance, whereas step-by-step and meta-cognitive edits improve logical and sequential reasoning tasks. These effects are robust across cognitive-load annotations, surface-level text features, and edit-motif analyses, and can generalize across optimization frameworks. Overall, these results indicate that prompt optimization failures arise from systematic interactions between edit families and task characteristics rather than random optimization artifacts, providing feature-level characterization of optimizer behavior and motivating future task-conditioned optimizer design.",
+  "title_relatable": "Why optimized prompts fail to transfer between tasks",
+  "hook": "Prompt optimization boosts performance on one benchmark but mysteriously fails on another—even with the same AI model. A causal analysis reveals why.",
+  "summary": "Automated prompt optimization methods like DSpy and TextGrad improve LLM performance on individual benchmarks, but those improvements rarely transfer to new tasks or models. By analyzing thousands of optimized prompts across frameworks and LLMs, researchers found the problem: certain edits (like adding complexity or meta-instructions) systematically harm math and multi-hop reasoning, while step-by-step prompts help logical tasks. These aren't random failures—they're predictable mismatches between edit types and task characteristics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 749,
+  "tokens_out": 188,
+  "cost_usd": 0.0013512,
+  "ingested_at": "2026-05-28T00:26:11.199352+00:00"
+}

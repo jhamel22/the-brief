@@ -1,0 +1,24 @@
+{
+  "id": "2605.27006",
+  "arxiv_url": "https://arxiv.org/abs/2605.27006",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cond-mat.dis-nn",
+    "stat.ML"
+  ],
+  "title_original": "Sampling Data with Chains of Forward-Backward Diffusion Steps",
+  "authors": "Hyunmo Kang, Noam Itzhak Levi, Corinna Elena Wegner, Daniel J. Korchinski, Matthieu Wyart",
+  "abstract": "Sampling from learned high-dimensional distributions is a foundational computational problem. We introduce U-turn chains: Markov chains obtained by iterating short forward-backward steps of a diffusion model, in which each step proposes a move that remains on the learned data manifold and, paired with a Metropolis-Hastings correction, samples from energy-modified targets. For synthetic languages, we show that minimal U-turn dynamics undergoes an ergodicity-breaking phase transition driven by fragmentation of the data manifold; ergodicity is restored at larger U-turn magnitude. In the non-ergodic regime, low-level features relax faster than high-level ones, an ordering that inverts only at sufficiently large U-turn magnitude. We test these predictions on natural language and natural images. In both modalities, minimal U-turns relax slowly, especially for high-level features approximated by deep representations in CNNs or LLMs. The layer-ordering inversion appears only at large noise when mixing is efficient -- signatures consistent with strongly constrained, weakly mixing local dynamics. We discuss the implications of these results for sampling with diffusion models.",
+  "title_relatable": "Why diffusion models get stuck sampling from their own data",
+  "hook": "Chaining forward-backward diffusion steps reveals a phase transition: minimal moves get trapped in data manifold fragments, while larger jumps restore efficient sampling across both text and images.",
+  "summary": "Sampling from learned distributions using diffusion models often gets stuck on fragmented parts of the data manifold. This work introduces U-turn chains—iterative forward-backward diffusion steps with Metropolis-Hastings corrections—and uncovers a sharp transition: tiny moves fail to explore globally, but larger U-turn magnitudes restore mixing. The effect appears across synthetic languages, natural images, and text, with high-level features (like semantic concepts in LLM representations) relaxing last only when noise is large enough. The findings suggest diffusion samplers face fundamental constraints from their learned geometry.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 711,
+  "tokens_out": 215,
+  "cost_usd": 0.0014288000000000003,
+  "ingested_at": "2026-05-28T00:22:20.493630+00:00"
+}

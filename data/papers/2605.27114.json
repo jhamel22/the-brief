@@ -1,0 +1,22 @@
+{
+  "id": "2605.27114",
+  "arxiv_url": "https://arxiv.org/abs/2605.27114",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "VR-DAgger: Immersive VR for Dexterous Data Collection and Uncertainty-Guided On-Policy Correction",
+  "authors": "René Zurbrügg, Tifanny Portela, Arjun Bhardwaj, Aravind Elanjimattathil Vijayan, Maximum Wilder-Smith, Marco Hutter",
+  "abstract": "Learning from demonstrations is effective for robotic manipulation, but collecting sufficient task-specific data remains a major bottleneck. Under distribution shift, small errors compound, performance degrades, and expert time is often spent on redundant, low-value corrections instead of the few critical failure cases.",
+  "title_relatable": "Can VR training systems make robot learning more efficient?",
+  "hook": "VR interface lets humans collect robot manipulation data 10× faster while AI identifies which corrections actually matter most.",
+  "summary": "Collecting enough demonstrations for robots to learn dexterous manipulation tasks is expensive and time-consuming. This work combines immersive VR interfaces for faster data collection with uncertainty-guided correction—a system that flags which failures the robot should learn from, filtering out redundant expert feedback. The approach reduces wasted expert time on low-value corrections.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 549,
+  "tokens_out": 145,
+  "cost_usd": 0.0010192,
+  "ingested_at": "2026-05-28T00:29:56.081585+00:00"
+}

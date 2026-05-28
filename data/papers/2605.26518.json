@@ -1,0 +1,22 @@
+{
+  "id": "2605.26518",
+  "arxiv_url": "https://arxiv.org/abs/2605.26518",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Unveiling the dark matter nature with reionization relics",
+  "authors": "Yao Zhang, Paulo Montero-Camacho, Catalina Morales-Gutiérrez, Heyang Long, Christopher M. Hirata, Yi Mao",
+  "abstract": "Dark matter constitutes roughly one-fourth of the Universe, yet its physical nature remains unknown. Warm dark matter (WDM), a class of dark matter candidates, has non-negligible velocity dispersion that suppresses the formation of small-scale cosmic structures. Current constraints therefore rely mainly on small-scale probes such as the Lyman-alpha (Ly$α$) forest and Milky Way observations of satellite galaxies and stellar streams. We propose a novel large-scale probe based on long-lived \"reionization relics\": because the thermal and dynamical evolution of the intergalactic medium depends on the local reionization redshift, patchy reionization imprints additional large-scale fluctuations in Ly$α$ forest opacity and post-reionization HI traced by 21 cm intensity mapping. The strength of these imprints depends on WDM through both small-scale gas evolution and WDM-driven changes in the reionization history. For example, the Ly$α$ (21 cm) power spectrum in 3 keV WDM differs from cold dark matter by ~19% (~19%) at $k=0.05\\,{\\rm Mpc^{-1}}$ at z=4 (z=5.5) when reionization relics are included. Using Ly$α$ forest with a covariance model designed to mimic the capabilities of the Dark Energy Spectroscopic Instrument (DESI), we forecast a constraint of $m_{\\rm WDM}>5.0\\,{\\rm keV}$ (95%), which improves to $m_{\\rm WDM}>7.1\\,{\\rm keV}$ when combined with 21 cm intensity-mapping observations from the Square Kilometre Array (SKA). The next-generation surveys can further strengthen the current best lower bounds from 9.7 to 39 keV.",
+  "title_relatable": "Can reionization shadows reveal what dark matter really is?",
+  "hook": "Patchy reionization leaves fingerprints in large-scale structure that could constrain warm dark matter 4× better than current limits, testable with DESI and SKA.",
+  "summary": "Warm dark matter suppresses small galaxies, but most constraints come from tiny-scale probes. This work uses a new angle: the aftermath of reionization (when the universe's hydrogen got ionized) imprints a distinctive pattern in the intergalactic medium that depends sensitively on whether dark matter is warm or cold. Combining Lyα forest data with 21 cm observations could push the lower bound on warm dark matter mass from ~10 keV to 39 keV—a dramatic gain from one large-scale effect.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 885,
+  "tokens_out": 209,
+  "cost_usd": 0.001544,
+  "ingested_at": "2026-05-28T00:18:40.201295+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.27320",
+  "arxiv_url": "https://arxiv.org/abs/2605.27320",
+  "announced_date": "2026-05-26",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CY",
+    "econ.GN"
+  ],
+  "title_original": "Modeling Agentic Technical Debt and Stochastic Tax: A Standalone Framework for Measurement, Simulation, and Dashboarding",
+  "authors": "Muhammad Zia Hydari, Raja Iqbal, Narayan Ramasubbu",
+  "abstract": "Agentic AI systems combine probabilistic reasoning with delegated action through tools, context, memory, orchestration, and external workflow integration. This note develops a formal and managerially usable model that distinguishes Agentic Technical Debt from Stochastic Tax. Agentic Technical Debt is a stock of accumulated design and governance liability. Stochastic Tax is a recurring flow of operating burden that arises when stochastic agents are used in business workflows. The two constructs are related, but they are not the same: debt can amplify the tax, while the tax can remain positive even when debt is minimized. The note starts from a compact dashboard expression, expands it into a fuller structural model, defines all variables and parameters, shows how each cost category can be estimated from operational data, and illustrates the framework with an accounts-payable simulation and companion spreadsheet.",
+  "title_relatable": "How much do AI agents really cost your business?",
+  "hook": "AI agents impose two hidden costs: accumulated technical debt and unpredictable operating expenses. Here's how to measure them.",
+  "summary": "The framework separates two distinct costs of agentic AI systems: technical debt (design and governance liabilities that accumulate over time) and stochastic tax (recurring operating burden from probabilistic failures). Debt can amplify the tax, but the tax persists even with minimal debt. The authors provide equations, operational metrics, and a simulation showing how accounts-payable workflows accumulate these costs—letting managers quantify AI agent expenses beyond just salary replacements.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 615,
+  "tokens_out": 172,
+  "cost_usd": 0.00118,
+  "ingested_at": "2026-05-28T00:45:42.792529+00:00"
+}

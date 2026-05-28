@@ -1,0 +1,23 @@
+{
+  "id": "2605.27278",
+  "arxiv_url": "https://arxiv.org/abs/2605.27278",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.IT"
+  ],
+  "title_original": "Optimal quantum locally differentially private mechanisms in the high-privacy regime",
+  "authors": "Yuuya Yoshida",
+  "abstract": "We optimize the trade-off between privacy and utility in the high-privacy regime. We adopt local differential privacy (LDP) and its quantum extension, quantum local differential privacy (QLDP), for privacy protection, and investigate utility functions including the Holevo information (which reduces to the mutual information in the classical case) and the error exponents in symmetric and asymmetric hypothesis testing. These utility functions have classical and quantum optimal values, which are denoted by $C$ and $Q$, respectively, in this abstract for simplicity. In this paper, we provide optimal LDP and QLDP mechanisms achieving the classical and quantum optimal values in the high-privacy regime, and prove that the asymptotic ratio $Q/C$ in this regime takes the same value regardless of the utility function. Our results reveal quantum advantages (more precisely, $Q/C\\ge3/2$) for the above utility functions when the protected private data are $n$-ary with $n\\ge3$.",
+  "title_relatable": "Can quantum privacy protocols share more information while hiding more?",
+  "hook": "Quantum privacy mechanisms beat classical ones by at least 50% on information utility when data has three or more categories.",
+  "summary": "Quantum local differential privacy — a quantum generalization of the gold standard in data privacy — can transmit at least 50% more useful information than its classical counterpart while providing equal privacy guarantees, as long as the private data has three or more possible values. The same 3/2 quantum advantage appears across multiple measures of utility, from mutual information to hypothesis-testing error rates, suggesting a deep structural reason rather than a coincidence. This sets a concrete benchmark for when quantum communication channels are worth using in privacy-sensitive applications.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 635,
+  "tokens_out": 181,
+  "cost_usd": 0.00462,
+  "ingested_at": "2026-05-28T00:17:42.886793+00:00"
+}

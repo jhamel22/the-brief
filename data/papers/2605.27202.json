@@ -1,0 +1,24 @@
+{
+  "id": "2605.27202",
+  "arxiv_url": "https://arxiv.org/abs/2605.27202",
+  "announced_date": "2026-05-26",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cs.CY",
+    "cond-mat.stat-mech",
+    "physics.soc-ph"
+  ],
+  "title_original": "Queue & AI: When Faster Tasks Slow Down the Workflow",
+  "authors": "Silvia Bartolucci, Pierpaolo Vivo",
+  "abstract": "Quantifying the workplace productivity effects of Generative Artificial Intelligence is now central to economics, management, and public policy. The deployment of AI tools in customer service, writing, software development, and consulting operations has been reported to generate large per-task productivity gains, typically measured as tasks completed per worker-hour or reductions in mean handle time. We argue that such mean-based metrics can misrepresent AI's effects in workflows where tasks accumulate and compete for scarce human attention. AI assistance can generate a deceptive productivity signature: average completion times fall because AI tools typically supply a fast first draft, yet workflow-level performance deteriorates when a subset of AI errors escapes review and returns as costly downstream rework. We call this divergence between mean task speed and system-level delay the variance wedge. Depending on the operational parameters, the most time-efficient way to complete a workflow may undergo a transition between two task-processing regimes, a fully AI-assisted and a fully manual one. We formalize the mechanism as a queueing model and derive two main implications analytically. First, under congestion, reviewers rationally raise the risk threshold for checking AI outputs, reducing scrutiny precisely when it would matter the most. Second, AI assistance can stabilize an overloaded workflow only when (i) the fraction of tasks handled by AI exceeds a critical threshold, and (ii) the human attention required for review and expected rework is lower than the attention for manual completion, a requirement substantially more stringent than faster draft generation. These results suggest that AI deployment should be evaluated not only by average task speed, but by its overall effects on congestion, rework, and the robustness of human oversight under load.",
+  "title_relatable": "Why AI making tasks faster can actually slow your whole team down",
+  "hook": "AI drafts work quickly, but errors that escape review multiply into costly rework. A queueing model shows when faster individual tasks paradoxically congest the workflow.",
+  "summary": "When AI tools handle customer service or coding tasks, they produce fast first drafts—boosting average completion time per task. But in workflows where tasks queue up, undetected AI errors bounce back as rework, creating congestion that slows the entire pipeline. The researchers prove this \"variance wedge\" using queueing theory: under pressure, reviewers lower scrutiny thresholds, and AI only helps if error-correction overhead stays below manual-work effort. Measuring AI by task speed alone misses system-level damage.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 794,
+  "tokens_out": 199,
+  "cost_usd": 0.0014312,
+  "ingested_at": "2026-05-28T00:19:41.537272+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.26525",
+  "arxiv_url": "https://arxiv.org/abs/2605.26525",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "ReCA: Multi-Shot Long Video Extrapolation via Recursive Context Allocation",
+  "authors": "Akide Liu, Jinbo Xing, Chaojie Mao, Ye Li, Zeyu Zhang, Yefei He, Weijie Wang, Zihan Wang, Yu Liu, Gholamreza Haffari, Bohan Zhuang",
+  "abstract": "Minute-scale cinematic video generation is a central challenge for generative video models. Existing paradigms address only fragments of this challenge: single-shot extrapolation preserves an anchor but lacks cinematic structure, while multi-shot storytelling imposes structure yet remains free to invent its visual states rather than continue an observed one. We define Multi-Shot Video Extrapolation (MSVE), a task that extends an observed frame or clip into a sequence of cinematically structured shots while preserving anchor state and advancing narrative intent. This setting operates under the finite per-call generation budget of short-video models. We identify three coupled bottlenecks: (1) global planners over-specify unsupported details from full screenplays; (2) shot-level prompts dilute task-relevant state when carrying the complete story; and (3) temporal chaining turns generated frames into a lossy memory in which identity, scene, object, and action state decay. MSVE reveals that long-video failure is not merely a limitation of context length, but a failure of context allocation. We propose Recursive Context Allocation (ReCA), an inference-time framework that allocates context hierarchically across planning and generation. ReCA recursively decomposes MSVE into context-bounded subproblems, invokes frozen generators at leaf nodes, and propagates structured state updates across time. To evaluate this setting, we further propose MSVE-Bench and NB-Q, a source-grounded protocol with prompts purpose-built for 3 to 5 minute long-video generation, a regime not addressed by existing short-clip benchmarks. Compared to previous methods, ReCA improves average normalized score by 8 to 16 percent over the strongest competing controller and improves multi-shot consistency metrics by 28 to 43 percent. View the project page at https://reca.vmv.re.",
+  "title_relatable": "How to extend short video clips into minute-long cinematic sequences?",
+  "hook": "ReCA generates 3–5 minute videos by recursively breaking down the task, improving consistency metrics by 28–43% over existing methods.",
+  "summary": "Generating long, coherent videos remains unsolved because current models either preserve a single shot or invent freely without grounding in the original footage. ReCA treats long-video generation as a hierarchical decomposition problem: it recursively breaks the task into smaller, context-bounded chunks, uses frozen short-video generators at each step, and propagates visual state (identity, scene, objects) across time to prevent drift. On a new benchmark for 3–5 minute generation, ReCA outperforms competing methods by 8–16% on overall quality and maintains much better shot consistency.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 904,
+  "tokens_out": 209,
+  "cost_usd": 0.0015592,
+  "ingested_at": "2026-05-28T00:28:29.604360+00:00"
+}

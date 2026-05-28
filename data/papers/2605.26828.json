@@ -1,0 +1,22 @@
+{
+  "id": "2605.26828",
+  "arxiv_url": "https://arxiv.org/abs/2605.26828",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Learning Compositional Symbolic Task Rules from Demonstrations with Inductive Logic Programming",
+  "authors": "Oleh Borys, Karla Stepanova",
+  "abstract": "Learning from Demonstration~(LfD) should capture not only how a task is executed, but also its high-level task structure that explains the demonstrated behavior. As robots become more autonomous, such task representations must be inspectable, reusable, and human-interpretable. To address this, we study how to represent and learn robotic tasks with inductive logic programming~(ILP) by decomposing a complex task into a series of simpler learning objectives at different abstraction (ontological) levels. The system infers symbolic rules from demonstrations and prior (domain) knowledge, and reuses learned rules when learning higher-level task structure. We evaluate the approach in a synthetic block-assembly scenario and show that the learned abstractions are interpretable and support strong generalization to harder, held-out tasks with unseen objects. These results provide preliminary evidence that decomposed ILP is a feasible approach to task-level LfD.",
+  "title_relatable": "Can robots learn task rules by reasoning about examples?",
+  "hook": "Inductive logic programming extracts human-readable task structure from robot demonstrations, generalizing to unseen objects and harder variants.",
+  "summary": "Teaching robots from demonstrations usually captures how to execute a task, but not why. This work uses inductive logic programming to decompose complex tasks into interpretable symbolic rules at multiple abstraction levels. The system infers logical rules from demos and domain knowledge, then reuses them for higher-level reasoning. In block-assembly experiments, learned rules generalize strongly to harder tasks with novel objects, showing decomposed symbolic reasoning can achieve both transparency and generalization.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 635,
+  "tokens_out": 169,
+  "cost_usd": 0.001184,
+  "ingested_at": "2026-05-28T00:30:01.202756+00:00"
+}

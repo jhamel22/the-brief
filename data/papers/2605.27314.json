@@ -1,0 +1,23 @@
+{
+  "id": "2605.27314",
+  "arxiv_url": "https://arxiv.org/abs/2605.27314",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "eess.SY"
+  ],
+  "title_original": "Riding the Shifting Potential: When Reactive Control Suffices for Multi-Goal Behavior",
+  "authors": "Vito Mengers, Oliver Brock",
+  "abstract": "Reactive control is often considered insufficient for multi-objective tasks because conflicting objectives give rise to local minima. We argue this limitation is not inherent but arises from static encodings that fail to reflect how objectives currently interact. We exploit the interaction structure encoded in a graph-based world model by extending it with nullspace projections: conflicts are resolved where they arise by projecting lower-priority gradients into the nullspace of higher-priority ones, with priorities determined continuously from the current state. We demonstrate this in two domains where conflicts between objectives are central: navigation around non-convex obstacles, where static potential fields fundamentally fail, and planar pushing of non-convex objects, where our method achieves $100\\%$ success across one-hundred configurations versus $0\\%$ for the steepest-descent baseline and ${\\sim}55\\%$ for diffusion policy, without demonstrations or retraining. The same formulation transfers directly to a real robot with additional perceptual and kinematic constraints, accommodating them through the same mechanism.",
+  "title_relatable": "Can simple reactive control handle conflicting robot goals?",
+  "hook": "Reactive control solves multi-goal robot tasks by dynamically resolving conflicts via nullspace projections, achieving 100% success on pushing tasks versus 0% for standard methods.",
+  "summary": "Reactive control typically fails at multi-objective tasks because static encodings create local minima when goals conflict. This work exploits a graph-based world model to resolve conflicts on-the-fly: lower-priority objectives are projected into the nullspace of higher-priority ones, with priorities updated continuously from state. On planar pushing of non-convex objects, it reaches 100% success across 100 configurations—versus 0% for gradient descent and ~55% for diffusion policy—without needing demonstrations. The approach transfers directly to real robots.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 662,
+  "tokens_out": 205,
+  "cost_usd": 0.0013495999999999998,
+  "ingested_at": "2026-05-28T00:30:09.256427+00:00"
+}

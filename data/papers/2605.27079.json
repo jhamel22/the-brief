@@ -1,0 +1,24 @@
+{
+  "id": "2605.27079",
+  "arxiv_url": "https://arxiv.org/abs/2605.27079",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Trust Region Q Adjoint Matching",
+  "authors": "Yonghoon Dong, Kyungmin Lee, Changyeon Kim, Jaehyuk Kim, Jinwoo Shin",
+  "abstract": "Off-policy reinforcement learning of pretrained flow policies remains challenging due to the instability of optimization arising from the multi-step sampling process. Recently, Q-learning with Adjoint Matching (QAM) addressed this issue by reformulating into a memoryless stochastic optimal control (SOC) problem with a learned critic. However, QAM inherits a fundamental fragility of critic-guided improvement: small critic errors are amplified when critics are ill-conditioned, often leading to model collapse. This paper introduces Trust Region Q-Adjoint Matching (TRQAM), a stable off-policy fine-tuning algorithm that adaptively controls the path-space KL with pretrained flow policies through projected dual descent. Specifically, we optimize the trust-region parameter $λ$ in SOC dynamics, and theoretically show that the path-space KL can be represented by a closed-form function of $λ$. As a result, our method can precisely control the exact deviation from pretrained flow policies, achieving stable off-policy RL. Through experiments on 50 OGBench tasks, TRQAM consistently outperforms prior arts in both offline RL and offline-to-online RL. In particular, TRQAM achieves an overall success rate of 68% in offline RL, substantially improves the strongest baseline at 46%.",
+  "title_relatable": "How to safely fine-tune pretrained AI policies without them collapsing?",
+  "hook": "New algorithm stabilizes off-policy learning from pretrained policies, achieving 68% success vs. 46% baseline on 50 robotics tasks.",
+  "summary": "Fine-tuning pretrained AI policies with reinforcement learning often fails because small errors in the critic (evaluator) get amplified, causing learning to collapse. TRQAM fixes this by dynamically controlling how far the updated policy drifts from the pretrained one, using a mathematical trick that lets you set the exact acceptable deviation upfront. On 50 robot manipulation benchmarks, it reaches 68% success versus 46% for the previous best method.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 745,
+  "tokens_out": 186,
+  "cost_usd": 0.00134,
+  "ingested_at": "2026-05-28T00:29:58.966665+00:00"
+}

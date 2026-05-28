@@ -1,0 +1,22 @@
+{
+  "id": "2605.27336",
+  "arxiv_url": "https://arxiv.org/abs/2605.27336",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "PARE: Pruning and Adaptive Routing for Efficient Video Generation",
+  "authors": "Yutong Wang, Yunke Wang, Tianfan Xue, Yu Qiao, Yaohui Wang, Xinyuan Chen, Chang Xu",
+  "abstract": "Video Diffusion Transformers (DiTs) generate high-quality videos but demand substantial compute due to wide blocks, deep architectures, and iterative sampling. Recent methods reduce cost by compressing width, depth, or sampling steps, but typically commit to a fixed architecture that cannot adapt to individual inputs or denoising stages. We propose PARE (Pruning and Adaptive Routing for Efficient video generation), which jointly compresses width and depth with structure-aware pruning and input-adaptive routing. For width, we observe that attention heads specialize into spatial and temporal roles, and design importance scoring that accounts for this distinction to prevent motion-critical temporal heads from being pruned prematurely. For depth, we train a lightweight router conditioned on denoising timestep and visual content to dynamically select which blocks to execute at each step, enabling per-input compute adaptation rather than static block removal. A progressive pipeline first recovers width-pruned quality via distillation, then jointly optimizes the student and router to decouple the two learning objectives. Experiments on Wan2.1-14B for both image-to-video and text-to-video generation show that PARE substantially reduces per-step computation while preserving quality across VBench dimensions, and composes with step distillation for further acceleration.",
+  "title_relatable": "How to speed up video generation without sacrificing quality?",
+  "hook": "Cuts video diffusion model compute by intelligently pruning weights and routing blocks per frame, maintaining quality on both text-to-video and image-to-video.",
+  "summary": "Video diffusion transformers produce stunning results but are computationally expensive. PARE uses two complementary tricks: it prunes less-important attention heads while protecting temporal connections critical for motion, and trains a lightweight router that decides which processing blocks to skip at each denoising step based on current content. Tests on Wan2.1-14B show substantial speedup with no visible quality loss across standard video benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 742,
+  "tokens_out": 174,
+  "cost_usd": 0.0012896,
+  "ingested_at": "2026-05-28T00:28:43.424085+00:00"
+}

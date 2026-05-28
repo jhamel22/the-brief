@@ -1,0 +1,22 @@
+{
+  "id": "2605.26638",
+  "arxiv_url": "https://arxiv.org/abs/2605.26638",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "HyperSim: A Holistic Sim-To-Real Framework For Robust Robotic Manipulation",
+  "authors": "Junyi Dong, Haotian Luo, Ziwei Xu, Shengwei Bian, Heng Zhang, Sitong Mao, Jingyi Guo, Yang Xu, Wenhao Chen, Qiuyu Feng, Yao Mu, Ping Luo, Shunbo Zhou, Xiaodong Wu",
+  "abstract": "Scaling data volume and diversity is critical for generalizing embodied intelligence. While synthetic data generation offers a scalable alternative to expensive physical data acquisition, transferring robotic manipulation policies from simulation to the real world (sim-to-real) remains a formidable challenge due to the domain gap. This paper presents HyperSim, a holistic framework spanning from synthetic data generation to policy training and seamless real-world deployment. To systematically bridge the sim-to-real gap, HyperSim is realized through three core pillars: high-fidelity environment synthesis, adversarial trajectory generation, and sim-and-real co-training. Collectively, these modules address domain discrepancies by enhancing visual fidelity, expanding data coverage, and enforcing domain-invariant representations. We rigorously validate HyperSim through a large-scale empirical study involving 400 real-world task executions across two representative manipulation models. Assessed across three fine-grained metrics, our complete pipeline achieves remarkable sim-to-real success rates of 80% and 95% with ACT and π_{0}, respectively. Furthermore, policies trained on our adversarial trajectories exhibit significantly enhanced robustness against dynamic uncertainties, achieving a 35% higher completion rate under physical perturbations.",
+  "title_relatable": "Teaching robots to manipulate from fake data that actually works",
+  "hook": "Sim-to-real robotic manipulation framework achieves 95% real-world success rates and 35% better robustness against physical perturbations.",
+  "summary": "Robots trained entirely in simulation usually fail in the real world because pixels and physics differ. HyperSim bridges this gap through three mechanisms: ultra-realistic simulated environments, adversarial trajectory generation to stress-test policies, and joint training on both simulated and real data. Tested on 400 real-world manipulation tasks across two policy architectures, the system reached 80–95% success rates and proved significantly more robust to unexpected pushes and disturbances.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 804,
+  "tokens_out": 186,
+  "cost_usd": 0.0013872,
+  "ingested_at": "2026-05-28T00:30:04.316541+00:00"
+}

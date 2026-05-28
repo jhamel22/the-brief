@@ -1,0 +1,23 @@
+{
+  "id": "2605.27210",
+  "arxiv_url": "https://arxiv.org/abs/2605.27210",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.AI"
+  ],
+  "title_original": "Qiskit QuantumKatas: Adapting Microsoft's Quantum Computing exercises for LLM evaluation",
+  "authors": "Juan Cruz-Benito, Ismael Faro",
+  "abstract": "We adapt Microsoft's QuantumKatas -- a well-established quantum computing curriculum -- from Q# to Qiskit, the most widely-adopted quantum computing framework, and package it with an evaluation framework for systematic LLM assessment. The resulting benchmark comprises 350 tasks across 26 categories, spanning fundamental gates through advanced algorithms (Grover's, Simon's, Deutsch-Jozsa), error correction, key distribution, and quantum games. Each task includes a natural language prompt, canonical solution, and deterministic test verification via classical circuit simulation. By building on the QuantumKatas' proven pedagogical design rather than creating tasks from scratch, we inherit a principled difficulty progression and comprehensive concept coverage while contributing the framework adaptation, evaluation infrastructure, and empirical analysis. We evaluate 16 LLMs across 7 prompting configurations -- a total of 39,200 model runs -- to demonstrate the benchmark's utility. Three key findings emerge: (1) the benchmark effectively differentiates model capabilities, with best-configuration pass rates ranging from 32.3% to 83.1% and a 26.1 pp average gap between frontier and open-source models; (2) models perform well at implementing known algorithms (SimonsAlgorithm 82.1%, BasicGates 81.6%) but struggle with problem encoding (SolveSATWithGrover 34.4%, DistinguishUnitaries 40.0%); and (3) chain-of-thought prompting shows a modestly bimodal effect -- it is the best strategy for three models (two of them explicitly reasoning-tuned per vendor documentation) but degrades performance for the rest, leaving it mid-pack in aggregate (56.3% mean) behind few-shot-5 (57.8%). We release the benchmark, evaluation framework, and baseline results to support research on LLM capabilities in quantum computing.",
+  "title_relatable": "How well can AI actually write quantum computing code?",
+  "hook": "A 350-task benchmark reveals top AI models max out at 83% on quantum coding — and struggle most with problem setup, not algorithms.",
+  "summary": "Translating Microsoft's quantum computing curriculum into Qiskit, researchers ran 16 AI models through 39,200 coding tasks to rigorously test quantum programming ability. The best models handle textbook algorithms like Grover's and Simon's with ease but fall apart when asked to encode a real problem into a quantum circuit — the genuinely hard part. Chain-of-thought prompting, often a reliable boost, actually hurt performance for most models except those explicitly trained to reason step-by-step.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 850,
+  "tokens_out": 183,
+  "cost_usd": 0.005295,
+  "ingested_at": "2026-05-28T00:18:05.740848+00:00"
+}

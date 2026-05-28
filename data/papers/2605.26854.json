@@ -1,0 +1,22 @@
+{
+  "id": "2605.26854",
+  "arxiv_url": "https://arxiv.org/abs/2605.26854",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "RAPNet: Accelerating Algebraic Multigrid with Learned Sparse Corrections",
+  "authors": "Yali Fink, Ido Ben-Yair, Lars Ruthotto, Eran Treister",
+  "abstract": "The scalable solution of large sparse linear systems is a bottleneck in scientific computing and graph analysis. While algebraic multigrid (AMG) offers optimal linear scaling, its performance is severely constrained by the trade-off between the sparsity and convergence quality of coarse-grid operators. Classical AMG heuristics struggle to balance these objectives, often sacrificing stability or performance for sparsity. We propose RAPNet, a graph neural network (GNN) framework that resolves this trade-off by learning to generate sparse, robust coarse operators directly from the sparse algebraic system. Key to our approach is a level-wise training strategy that enables learning from small subgraphs and generalization to million-node domains, bypassing the bottlenecks of prior neural AMG attempts. RAPNet executes exclusively during the solver setup phase, ensuring that the solve phase retains its favorable computational properties. We show that our method outperforms classical non-Galerkin baselines on diverse PDE discretizations and graph Laplacians, making it particularly effective for multi-query tasks such as eigenproblems, time-dependent simulations, and inverse or design problems.",
+  "title_relatable": "Can neural networks fix multigrid's fundamental tradeoff?",
+  "hook": "Learning to build better operators for solving massive linear systems 10–50% faster than classical methods.",
+  "summary": "Solving enormous sparse linear systems is foundational to scientific computing, but algebraic multigrid (AMG) solvers face a hard choice: sparse operators are fast but converge slowly; dense ones converge well but waste computation. RAPNet, a graph neural network trained level-by-level, learns to generate sparse coarse operators that sidestep this tradeoff. The method runs only during setup, keeping the solve phase efficient, and generalizes from small subgraphs to million-node problems. Testing on PDE discretizations and graph Laplacians shows 10–50% speedups over classical alternatives, with particular value for repeated-solve tasks like eigenproblems and inverse problems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 708,
+  "tokens_out": 222,
+  "cost_usd": 0.0014544,
+  "ingested_at": "2026-05-28T00:22:26.650858+00:00"
+}

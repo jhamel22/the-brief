@@ -1,0 +1,23 @@
+{
+  "id": "2605.26877",
+  "arxiv_url": "https://arxiv.org/abs/2605.26877",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "nucl-th",
+    "hep-ph"
+  ],
+  "title_original": "Azimuthal asymmetry in exclusive quasi-elastic neutrino-nucleus interactions",
+  "authors": "Marco Vanderpoorten, Ashish Kumar Jha, Mathias El Baz, Kajetan Niewczas, Federico Sanchez, Natalie Jachowicz",
+  "abstract": "In neutrino oscillation experiments, exclusive measurements of neutrino-nucleus interactions play a critical role, by providing the theoretical and experimental input needed for a reliable estimation of the neutrino energy. In this paper, we derive the general form of the azimuthal angle distribution for quasi-elastic scattering, focusing on a dependency that has been routinely overlooked. We demonstrate that the outgoing nucleon exhibits a preference for emission outside the lepton scattering plane, with an asymmetric azimuthal distribution. In the context of neutrino-nucleus scattering, we argue that this asymmetry is caused by parity violation in the weak interaction. Furthermore, we show that in cross section calculations the asymmetry is sensitive to nuclear modeling choices and to the shell structure of the initial nucleus, thus providing a novel source of information for energy reconstruction in neutrino experiments. We study the experimental feasibility of observing this effect by applying a realistic momentum detection threshold and an intranuclear cascade. We estimate that the asymmetry is observable with $\\mathcal{O}$($10^4$) events at the 99% confidence level for neutrino interactions on $^{12}$C, suggesting that the effect is within reach of the current generation of neutrino detectors.",
+  "title_relatable": "Why neutrino scattering should favor one side of the collision plane",
+  "hook": "Neutrino detectors may be missing a lopsided pattern in particle ejection that could improve energy measurements and reveal nuclear structure.",
+  "summary": "Neutrino interactions with nuclei produce asymmetric angular patterns—ejected particles prefer certain directions relative to the collision plane due to weak force parity violation. This asymmetry depends sensitively on nuclear structure and could help pin down neutrino energies in oscillation experiments. The team calculates it's detectable with ~10,000 carbon-12 events at current detectors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 741,
+  "tokens_out": 167,
+  "cost_usd": 0.0012608000000000003,
+  "ingested_at": "2026-05-28T00:19:10.942328+00:00"
+}

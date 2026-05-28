@@ -1,0 +1,23 @@
+{
+  "id": "2605.26852",
+  "arxiv_url": "https://arxiv.org/abs/2605.26852",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "cs.DM"
+  ],
+  "title_original": "Recognizing Level-k-Based Phylogenetic Networks is NP-Complete",
+  "authors": "Takatora Suzuki",
+  "abstract": "Phylogenetic networks generalize phylogenetic trees by representing reticulate evolution. Tree-based networks and their support trees have been extensively studied, but not all networks are tree-based. To measure how far such networks are from being tree-based, Suzuki and Hayamizu (2025) formulated the problem of finding the support network with minimum level of a given rooted almost-binary phylogenetic network. They conjectured that this problem is NP-hard and provided exponential-time algorithms. In this paper, we prove this conjecture by showing that, for every fixed integer $k \\geq 1$, it is NP-complete to decide whether the minimum level is at most $k$.",
+  "title_relatable": "Why is it so hard to untangle evolutionary networks?",
+  "hook": "Determining how complicated an evolutionary network really is turns out to be computationally intractable—a fundamental limit on what we can compute.",
+  "summary": "Evolution isn't always a simple branching tree; sometimes species swap genetic material, creating networks instead. Researchers wanted to measure how \"tree-like\" these messy networks are by computing their minimum level. This paper proves the problem is NP-complete—meaning no fast algorithm likely exists, even in principle.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 548,
+  "tokens_out": 145,
+  "cost_usd": 0.0010184,
+  "ingested_at": "2026-05-28T00:45:04.855484+00:00"
+}

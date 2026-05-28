@@ -1,0 +1,23 @@
+{
+  "id": "2605.27294",
+  "arxiv_url": "https://arxiv.org/abs/2605.27294",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.IR"
+  ],
+  "title_original": "Separating Semantic Competition from Context Length in RAG Reading",
+  "authors": "Vyzantinos Repantis, Ameya Gawde, Harshvardhan Singh, Rohit Alekar, Cien Zhang, Svetlana Karslioglu, Akash Vishwakarma",
+  "abstract": "Retrieval-augmented generation (RAG) systems can respond incorrectly even when the correct passage was retrieved. The model must still read the retrieved passages and identify which one contains the answer among others that look relevant. This passage-reading model is called the reader. Does it fail simply because the context is longer or because the other passages genuinely compete with the correct one? We introduce and demonstrate a matched-control protocol for RAG reading: we keep the number and length of passages fixed, but replace hard competitors with less competitive real passages. We apply this control across two compact open models on SQuAD. This replacement partially restores performance, with the strongest effects on F1 and answer inclusion. For Phi-2, this recovers +6.0 EM points, +7.0 answer-inclusion points, and +0.057 F1. For Qwen2.5-1.5B, it recovers +4.5 EM points, +9.0 answer-inclusion points, and +0.068 F1. To track how performance changes as competitors accumulate, we also report retention curves and summarize them with a right-censored half-life when the curves do not cross half-retention. Together, these results show the protocol isolates a competition effect distinct from context length, though the effect is clearer for F1 and answer inclusion than for exact match, and also varies with snippet length.",
+  "title_relatable": "What really breaks RAG systems: long context or hard competitors?",
+  "hook": "RAG readers fail when competing passages look relevant. A controlled experiment on SQuAD recovers 4–6 points of exact match by swapping hard distractors for easy ones.",
+  "summary": "RAG systems retrieve relevant passages but still fail at reading comprehension. This work disentangles two failure modes: context length versus semantic competition from misleading passages. By swapping difficult distractors with weaker alternatives while holding passage count and length fixed, the authors recover 4–6 exact-match points on SQuAD with Phi-2 and Qwen2.5-1.5B, plus larger gains in answer inclusion and F1. Competition effects are real but separate from context bloat.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 787,
+  "tokens_out": 204,
+  "cost_usd": 0.0014456,
+  "ingested_at": "2026-05-28T00:25:59.989843+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.27193",
+  "arxiv_url": "https://arxiv.org/abs/2605.27193",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Algebras of order parameters in one-dimensional spin systems",
+  "authors": "Ameya Chavda, Clement Delcamp, Alex Turzillo, Minyoung You",
+  "abstract": "We study order parameters in one-dimensional quantum lattice models with finite invertible or non-invertible symmetry. We investigate what properties a string operator must satisfy in order to acquire a non-vanishing expectation value in a given gapped phase. We deduce that multiplets of string order parameters organise into a Lagrangian algebra in the Drinfel'd centre of the symmetry category. In particular, we highlight the role of the multiplication rule as governing the fusion of the twisted sector local operators that constitute the string operator in the infrared limit. Our derivations exploit the tensor network approach to the classification of gapped phases and its reformulation in terms of module categories over the symmetry category. Within this framework, a gapped phase is associated with a pattern of spontaneous symmetry breaking wherein a Morita class of algebras of topological lines is preserved in the ground state subspace. The crux of the proof is to show that the expectation value of any string operator explicitly depends on the tube algebra module associated with the Lagrangian algebra, which is realised as the full centre of the corresponding module category. Finally, we demonstrate that these techniques extend to phases of symmetric mixed states.",
+  "title_relatable": "What algebraic rules govern hidden order in one-dimensional quantum chains?",
+  "hook": "Physicists have decoded the hidden symmetry patterns in one-dimensional quantum systems, showing that order parameters organize into precise algebraic structures called Lagrangian algebras.",
+  "summary": "In one-dimensional quantum lattice systems, certain observable properties (order parameters) only become measurable in specific phases. The authors show these observables must obey strict algebraic multiplication rules—organizing into Lagrangian algebras—and that their values depend directly on how symmetries break in the ground state. This connection between abstract algebra and physical measurement works for both standard and exotic non-invertible symmetries.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 690,
+  "tokens_out": 175,
+  "cost_usd": 0.001252,
+  "ingested_at": "2026-05-28T00:16:39.899318+00:00"
+}

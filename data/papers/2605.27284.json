@@ -1,0 +1,23 @@
+{
+  "id": "2605.27284",
+  "arxiv_url": "https://arxiv.org/abs/2605.27284",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies",
+  "authors": "Xintong Hu, Xuhong Huang, Jinyu Zhang, Yutong Yao, Yuchong Sun, Qiuyue Wang, Mingsheng Li, Sicheng Xie, Yitao Liu, Junhao Chen, Yixuan Chen, Yingming Zheng, Shuai Bai, Tao Yu",
+  "abstract": "Vision-Language-Action (VLA) models are increasingly expected to not only complete robot tasks, but also follow human instructions about how those tasks should be executed. However, existing robot datasets usually pair trajectories with coarse goal-level language, leaving execution-critical details such as active arm, approach direction, and contact region unspecified. This limits steerable policy learning and robotic video understanding. We introduce FineVLA, an open framework for action-aligned fine-grained VLA supervision. The framework includes: (1) a data construction tool that unifies 972,247 trajectories across 85K tasks from 10 open-source robot datasets and builds FineVLA-Data, a human-verified dataset of 47,159 fine-grained trajectories; (2) a held-out benchmark with 500 videos, 10,816 atomic facts, and 1,030 VQA questions; (3) a robotics-specialized VLM annotator for scalable fine-grained annotation; and (4) a steerable VLA policy trained with controlled mixtures of fine-grained and raw goal-level instructions. Our experiments yield three findings. First, fine-grained supervision does not sacrifice goal-level success: FG-only improves over Raw-only by +1.4 to +8.1 success-rate points across settings. Second, fine-grained and raw instructions are complementary, following a consistent inverted-U trend peaking at FG:Raw = 1:2 to 1:1. The best mixed setting reaches 86.8%/82.5% in RoboTwin simulation and 62.7/100 in real-world dual-arm manipulation (vs. 49.9 Raw-only). Third, fine-grained supervision improves steerable control: the largest real-world gains appear on pose (+23), color (+18), and approach direction (+18)--factors where goal-level instructions provide no guidance. Overall, fine-grained language should augment goal-level instructions: specifying how to execute alongside what to achieve. Project page: https://finevla.xlang.ai/",
+  "title_relatable": "Can robots learn to follow detailed execution instructions, not just goals?",
+  "hook": "Fine-grained language supervision boosts real-world robot control by +23 points on pose steering, outperforming goal-only instruction at 62.7/100 success rate.",
+  "summary": "Robot policies trained on coarse \"pick up the cup\" commands miss critical execution details like approach direction and contact point. FineVLA adds fine-grained annotations (47K verified trajectories from 972K robot videos) and shows that mixing detailed instructions with goal-level commands—peaked at 1:1 ratio—yields 86.8% success in simulation and 62.7/100 in real dual-arm tasks. The approach improves steerable control (+23 points for pose adjustments) while maintaining baseline performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 999,
+  "tokens_out": 208,
+  "cost_usd": 0.0016312,
+  "ingested_at": "2026-05-28T00:30:12.110855+00:00"
+}

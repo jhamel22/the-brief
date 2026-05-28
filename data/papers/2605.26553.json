@@ -1,0 +1,22 @@
+{
+  "id": "2605.26553",
+  "arxiv_url": "https://arxiv.org/abs/2605.26553",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Constraining the Supernova Remnant Environment of FRB 190520B with Dispersion Measure and Scattering Timescale",
+  "authors": "Jia-Peng Wei, Chen Deng, Gwenael Giacinti, Ze-Cheng Zou, Chen-Ran Hu, Yong-Feng Huang, Jin-Jun Geng",
+  "abstract": "FRB 190520B is a repeating fast radio burst source whose large dispersion measure (DM) and temporal broadening suggest a dense and evolving local environment. In this work, we test the possibility that FRB 190520B originates from the core-collapse of a massive star so that its central engine is embedded in a supernova remnant (SNR) expanding into a wind environment, whose evolution is described by the self-similar solution. We use the observed DM and scattering timescale of FRB 190520B to constrain the physical parameters of its surrounding SNR and host-galaxy DM. Twenty typical cases are considered, arising from four ejecta profiles and five scattering prescriptions. It is found that only 6 cases are retained and provide acceptable fits. All retained cases have a shallow ejecta profile and a young source age of $t_0=79.8$--$169.8~{\\rm yr}$. The ejecta mass is inferred to be large for all six cases, while the kinetic energy and mass-loss rate span a wide range. The secular DM evolution is reproduced better than the detailed scattering evolution. The up-drift behavior of the scattering residual suggests an additional component or more complicated structures inside the SNR. All retained cases are self-consistent within the adopted scattering theory and the circum-burst medium becomes transparent for GHz bursts before the inferred source ages.",
+  "title_relatable": "Is this repeating radio burst trapped inside a young supernova remnant?",
+  "hook": "Astronomers use radio wave distortion to measure whether a mysterious repeating burst lives inside a supernova remnant only 80–170 years old.",
+  "summary": "FRB 190520B is a fast radio burst that repeats from a dense, changing environment. Researchers fit observations of how the radio waves spread and delay through the burst's surroundings to a model of an expanding supernova remnant. Only six scenarios match the data—all pointing to a very young remnant with a thick ejecta shell, but the scattering pattern hints at hidden complexity inside.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 811,
+  "tokens_out": 178,
+  "cost_usd": 0.0013608000000000001,
+  "ingested_at": "2026-05-28T00:20:24.305626+00:00"
+}

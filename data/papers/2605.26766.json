@@ -1,0 +1,25 @@
+{
+  "id": "2605.26766",
+  "arxiv_url": "https://arxiv.org/abs/2605.26766",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "nucl-th",
+    "hep-ex",
+    "hep-ph",
+    "nucl-ex"
+  ],
+  "title_original": "Sensitivity of Heavy-Quark Dipolar Flow to its Initial Spatial Distributions in Cu+Au Collisions",
+  "authors": "Ankit Kumar Panda, Tribhuban Parida",
+  "abstract": "We investigate charm-quark dynamics in asymmetric Cu+Au collisions at top RHIC energy using a Langevin approach embedded in a realistic hydrodynamic background. The intrinsic asymmetry of the colliding nuclei leads to a spatially lopsided initial energy-density profile, which generates a dipolar flow structure in the transverse plane even at midrapidity. As charm quarks propagate through this medium, they acquire a finite directed flow, $v_1$. We find that the $p_T$-integrated heavy-quark $v_1$ is approximately an order of magnitude larger than that of charged hadrons. In addition, the $p_T$-differential $v_1$ exhibits strong sensitivity to the initial spatial distribution of heavy quarks, emphasizing the importance of pre-equilibrium dynamics in determining final-state anisotropies. Beyond geometric effects, $v_1$ also provides direct sensitivity to medium interactions through the temperature-dependent drag coefficient. Its pronounced dependence on this transport input indicates that precision measurements of heavy-flavor directed flow could place meaningful constraints on heavy-quark transport coefficients, thereby improving Langevin-based descriptions and predictive power for heavy-flavor observables in heavy-ion collisions.",
+  "title_relatable": "Why do heavy quarks flow sideways in off-center collisions?",
+  "hook": "Charm quarks show ten times stronger sideways flow than ordinary particles in lopsided nuclear collisions, offering a new window into how quarks interact with hot nuclear matter.",
+  "summary": "When copper and gold nuclei collide off-center at RHIC, the asymmetric collision geometry creates a tilted energy-density profile that pushes charm quarks sideways. This sideways flow (called $v_1$) is orders of magnitude stronger than in lighter particles and is exquisitely sensitive to both where charm quarks start and how strongly the hot medium drags them. Measuring this flow could pin down fundamental quark-matter properties.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 713,
+  "tokens_out": 189,
+  "cost_usd": 0.0013264000000000001,
+  "ingested_at": "2026-05-28T00:19:17.507188+00:00"
+}

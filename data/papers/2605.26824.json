@@ -1,0 +1,23 @@
+{
+  "id": "2605.26824",
+  "arxiv_url": "https://arxiv.org/abs/2605.26824",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO"
+  ],
+  "title_original": "Improved Big Bang Nucleosynthesis constraints on decaying massive relics",
+  "authors": "Sara Bianco, Jonas Frerick, Marco Hufnagel, Kai Schmidt-Hoberg",
+  "abstract": "We present updated and improved Big Bang Nucleosynthesis (BBN) constraints on heavy, long-lived beyond the Standard Model (BSM) relics $φ$ decaying into pairs of Standard Model particles, covering a comprehensive set of two-body decay channels. We treat the leading effects of these injections in detail, discussing the modification of the neutron-to-proton ratio from hadronic interconversions, as well as hadro- and photodisintegration of the light elements. Our analysis incorporates several important refinements with respect to earlier work. We adopt up-to-date primordial abundance measurements, including the new $^4$He determination and the latest nuclear reaction rates. The hadronic and electromagnetic injection spectra are computed using PYTHIA 8, providing a proper treatment of final-state radiation and hadronisation. We further implement an improved treatment of $p\\leftrightarrow n$ interconversions, accounting for dynamical equilibrium, kaon-induced processes, and updated rates. Additionally, we make use of a refined hadrodisintegration formalism which allows us to also consider disintegration processes while BBN is still active. Together, these improvements yield updated exclusion contours on lifetime, mass, and abundance of the relic for each decay channel considered. Furthermore, we discuss the irreducible freeze-in contribution from inverse decays.",
+  "title_relatable": "What heavy particles from the early universe tell us about nuclear cooking?",
+  "hook": "Updated calculations show which zombie particles decaying in the first minutes after the Big Bang would mess with the predicted abundance of helium and other light elements we observe today.",
+  "summary": "Physicists refined the rules for how decaying massive particles affect the light element abundances measured today. The update uses better measurements of primordial helium and more careful calculations of particle showers using modern simulations. The result: tighter limits on which hidden particles could have existed in the early universe without conflicting with observations of helium and lithium.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 742,
+  "tokens_out": 161,
+  "cost_usd": 0.0012376,
+  "ingested_at": "2026-05-28T00:18:33.339093+00:00"
+}

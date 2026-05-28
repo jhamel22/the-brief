@@ -1,0 +1,26 @@
+{
+  "id": "2605.27189",
+  "arxiv_url": "https://arxiv.org/abs/2605.27189",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG",
+    "cs.SD",
+    "eess.AS",
+    "q-bio.NC"
+  ],
+  "title_original": "Beyond Binary: Speech Representations Across the Cognitive Score Hierarchy",
+  "authors": "Serli Kopar, Roshan Prakash Rane, Christian Mychajliw, Lydia Federmann, Gerhard Eschweiler, Daniela Berg, Sam Gijsen, Paula Andrea Perez-Toro, Kerstin Ritter",
+  "abstract": "This study examines the relationship between speech representations and the hierarchical structure of cognitive assessment in mild cognitive impairment. Utilizing 5,754 German neuropsychological assessment recordings, we evaluate six cognitive tasks across three score levels: task, domain, and global levels. We compare hand-crafted acoustic features with self-supervised learning (SSL) embeddings. Results show that although SSL representations generally outperform hand-crafted features at lower levels, this trend reverses for MCI classification. Furthermore, task-specific constraints influence performance: tasks with greater response freedom exhibit performance dilution as hierarchical levels increase, suggesting ``specialist'' representations, whereas the performance of highly structured tasks increases toward higher levels, suggesting ``generalist'' representations. These findings show links between task constraints and assessment hierarchy in automated clinical speech analysis.",
+  "title_relatable": "Why AI hears cognitive decline differently than doctors do",
+  "hook": "Machine learning excels at detecting subtle speech changes in mild cognitive impairment, but only when trained on specific tasks rather than general speech patterns.",
+  "summary": "Researchers analyzed 5,754 German neuropsychological recordings to see how well AI could detect cognitive decline from speech. Machine learning embeddings beat traditional acoustic features at detailed tasks, but reversed direction when predicting overall impairment—suggesting AI needs task-specific training to catch the hierarchical nature of cognitive decline. The mismatch reveals that flexible tasks spawn specialist representations while rigid tasks create generalists, mirroring how human cognition actually breaks down.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 620,
+  "tokens_out": 175,
+  "cost_usd": 0.001196,
+  "ingested_at": "2026-05-28T00:44:30.740936+00:00"
+}

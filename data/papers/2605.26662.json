@@ -1,0 +1,24 @@
+{
+  "id": "2605.26662",
+  "arxiv_url": "https://arxiv.org/abs/2605.26662",
+  "announced_date": "2026-05-26",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "econ.GN"
+  ],
+  "title_original": "AI evaluation may bias perceptions: The importance of context in interpreting academic writing",
+  "authors": "Shang Wu, Randol Yao",
+  "abstract": "This paper examines how estimates of AI use in scientific writing can be biased when evaluation methods ignore contextual differences across countries and fields. Using large-scale data on journal publications from Dimensions, we construct AI-likeness benchmarks based on differences between human-written and LLM-rephrased abstracts. We show that a pooled benchmark may confound pre-existing stylistic variation with AI-generated text, producing substantial distortions across country-field groups even in pre-LLM publications. In contrast, country-field-specific benchmarks attenuate such distortions and provide a more credible baseline for comparison. Applying these methods to publications in 2025 reveals that the pooled benchmark systematically overestimates AI use in certain countries and fields while underestimating it in others. These findings highlight the importance of context-aware measurement for accurate and equitable evaluation of AI use in science.",
+  "title_relatable": "How AI detectors fool us about who's actually using them",
+  "hook": "A single AI-detection method flags wildly different rates of AI use across countries and fields—even before AI writing tools existed.",
+  "summary": "Researchers tested how AI-detection benchmarks measure language tool use in journal abstracts across countries and academic fields. A pooled detection method systematically misidentified natural stylistic differences as AI-generated text, overestimating adoption in some regions by large margins. Using field-specific and country-specific baselines instead produced far more accurate results, suggesting that crude, one-size-fits-all AI detection distorts reality and creates unfair comparisons between nations and disciplines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 595,
+  "tokens_out": 178,
+  "cost_usd": 0.001188,
+  "ingested_at": "2026-05-28T00:45:48.680593+00:00"
+}

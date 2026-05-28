@@ -1,0 +1,23 @@
+{
+  "id": "2605.26627",
+  "arxiv_url": "https://arxiv.org/abs/2605.26627",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "eess.SY",
+    "cs.RO"
+  ],
+  "title_original": "Breaking the Epistemic Trap: Active Perception Under Compound Uncertainty",
+  "authors": "Chayan Banerjee, Ethan Goan",
+  "abstract": "Deploying reinforcement learning in safety critical domains, from autonomous vehicles to medical decision support, is constrained by failures arising when systems encounter unfamiliar conditions. We argue that the fundamental bottleneck is not individual challenges like changing dynamics or incomplete observations, but their synergistic interaction, which we term the Epistemic Trap: agents cannot estimate their state without knowing system dynamics, nor learn dynamics without accurate state information. Proof-of-concept experiments in simulated locomotion reveal that combining these uncertainties causes failures far worse than either challenge alone, a 77% performance degradation against the 46% by adding the individual effects, demonstrating compounding failure modes that conventional methods overlook. Such approaches adopt a passive epistemic stance that cannot resolve this coupled uncertainty. We propose reframing safety as an information problem, introducing an Adaptive Safety Architecture built around three contributions: the Compound Uncertainty Coefficient ($κ$), a mutual information based metric that quantifies state dynamics coupling and is computable online without full joint belief inference; information seeking policies governed by a MaxInfoRL objective that actively probe system dynamics; and regime-adaptive safety constraints that tighten as epistemic coupling rises. This paradigm shift, from passive robustness to active perception, offers a principled path toward decision making systems that operate under uncertainty, recognize their own ignorance, and act strategically to resolve it.",
+  "title_relatable": "Why robots fail when things are both hidden and unpredictable?",
+  "hook": "Combining uncertain states with unknown dynamics causes 77% worse failures than either alone. New metric and strategy for robots to actively learn what they don't know.",
+  "summary": "Autonomous systems fail catastrophically when they face two coupled uncertainties simultaneously: they can't see their full state and don't understand how the system behaves. Researchers show this synergistic failure (77% degradation) vastly exceeds the sum of individual problems. They propose treating safety as an information problem: a metric quantifying state-dynamics coupling, active learning policies that probe dynamics, and adaptive constraints that tighten when uncertainty couples. The shift from passive robustness to strategic perception offers a path for safety-critical systems to recognize and resolve their own ignorance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 728,
+  "tokens_out": 206,
+  "cost_usd": 0.0014064000000000001,
+  "ingested_at": "2026-05-28T00:29:53.962843+00:00"
+}

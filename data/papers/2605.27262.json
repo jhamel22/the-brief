@@ -1,0 +1,22 @@
+{
+  "id": "2605.27262",
+  "arxiv_url": "https://arxiv.org/abs/2605.27262",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Nonasymptotic bounds for quantum purity amplification",
+  "authors": "Thilo Scharnhorst, Jack Spilecki, John Wright",
+  "abstract": "In quantum purity amplification, one is given $n$ copies of a noisy quantum state $ρ\\in \\mathbb{C}^{d \\times d}$ and asked to prepare $k$ copies of its principal eigenstate $|v_d\\rangle$. Several prior works have derived information-theoretically optimal algorithms for this problem, but the bounds they prove are only shown in the asymptotic regime as the number of samples $n$ tends to infinity. In this paper, we establish the following nonasymptotic guarantee: if $ρ$'s eigenvalues are sorted $p_1 \\leq \\cdots \\leq p_d$ and $p_{d-1} < p_d$, then \\begin{equation*} n = O\\Big(k + \\frac{k}δ \\cdot \\frac{1-p_d}{(p_d-p_{d-1})^2}\\Big) \\end{equation*} copies suffice to output a state with fidelity at least $1-δ$ with $|v_d^{\\otimes k}\\rangle$. Our bound holds for arbitrary spectra, and is independent of the dimension $d$. In the case of depolarizing noise, our finite-sample guarantee matches the optimal asymptotic scaling. Our proof is based on the combinatorics of random Young diagrams.",
+  "title_relatable": "How many noisy quantum copies do you need to distill purity?",
+  "hook": "A new finite-sample bound tells you exactly how many noisy quantum states are needed to recover a clean one, with no dimension penalty.",
+  "summary": "Given n copies of a noisy quantum state, how many do you need before you can reliably reconstruct its purest component? Previous answers only worked asymptotically—as n grows to infinity. This paper gives a concrete, finite formula: the required copies scale with the desired output quality and the gap between the two largest eigenvalues, but not at all with the dimension of the state. The proof rests on combinatorics of random Young diagrams, a classical tool finding unexpected use in quantum resource theory.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 744,
+  "tokens_out": 186,
+  "cost_usd": 0.005022,
+  "ingested_at": "2026-05-28T00:17:48.894001+00:00"
+}

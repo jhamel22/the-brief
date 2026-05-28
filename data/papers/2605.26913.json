@@ -1,0 +1,22 @@
+{
+  "id": "2605.26913",
+  "arxiv_url": "https://arxiv.org/abs/2605.26913",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Exotic Hadron Spectroscopy in Heavy-Flavor Systems",
+  "authors": "Mikhail Mikhasenko",
+  "abstract": "Recent years have brought a dense sequence of experimental discoveries in heavy-flavor hadron spectroscopy. Heavy-flavor spectroscopy has entered a period in which new hadronic structures are no longer isolated surprises but recurring features across several flavor sectors, seen by multiple experiments in several decay environments. For systems with charm and bottom quarks, smaller widths and cleaner signatures expose regularities that would be harder to isolate in the light-quark sector. This contribution focuses on the classes of states that now define the modern ``exotic'' landscape: hidden-charm pentaquarks, charged charmonium-like structures, resonances in onia-onia systems, doubly-heavy tetraquarks, and open-flavor tetraquarks.",
+  "title_relatable": "What are these newfound exotic particles made of quarks?",
+  "hook": "Particle detectors are finding exotic hadrons—multiquark states—repeatedly across different decay paths, revealing hidden patterns in heavy-flavor physics.",
+  "summary": "Experiments now regularly spot exotic hadrons—particles made of four or five quarks instead of the traditional two or three—in systems containing charm and bottom quarks. These discoveries are no longer flukes but systematic patterns, including hidden-charm pentaquarks, anomalous charmonium structures, and doubly-heavy tetraquarks. Heavier quarks produce cleaner signatures, exposing regularities that hint at new organizing principles in hadron physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 581,
+  "tokens_out": 181,
+  "cost_usd": 0.0011888,
+  "ingested_at": "2026-05-28T00:19:08.546378+00:00"
+}

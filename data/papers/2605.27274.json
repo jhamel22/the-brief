@@ -1,0 +1,22 @@
+{
+  "id": "2605.27274",
+  "arxiv_url": "https://arxiv.org/abs/2605.27274",
+  "announced_date": "2026-05-26",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "The Structural Case for the Eco-Civilization Paradigm",
+  "authors": "Lei Zhu, William Zhu",
+  "abstract": "This paper establishes a quantitative and structural framework for civilizational continuity under rapid, non-linear ecological transitions. Utilizing empirical data on Earth's Energy Imbalance (EEI), currently measured at 1.36 W/m^2, we demonstrate that the planetary system is on a deterministic trajectory toward a new ecological equilibrium, breaching the 1.5 degrees C thermodynamic threshold in less than 6.5 years. We show that mitigating direct anthropogenic waste heat emissions is statistically insufficient, as 35/36-ths of the annual energy imbalance stems from atmospheric radiative forcing rather than localized thermal output. Consequently, preserving legacy centralized socioeconomic frameworks is unfeasible. We present the structural case for the \"Eco-Civilization Paradigm\" -- a decentralized network of autonomous, modular eco-communities engineered to insulate core life-support functions, localized energy networks, and edge computation from cascading macro-system failures. Finally, we outline the systemic requirements for this transition, including the realignment of asset valuation frameworks from geography-dependent to engineering-dependent metrics, the mobilization of youth-driven innovation capital, and the strategic reallocation of global industrial manufacturing capacity to safeguard civilizational survival.",
+  "title_relatable": "Can decentralized eco-communities survive Earth's energy crisis?",
+  "hook": "Earth is accumulating 1.36 W/m² of excess heat annually. A new framework argues centralized civilization cannot survive this—only networks of self-sufficient communities can.",
+  "summary": "With Earth's energy imbalance locking in 1.5°C warming within 6.5 years, direct emissions cuts alone won't help; most heat comes from atmospheric forcing, not waste heat. The authors propose replacing centralized economies with decentralized eco-communities that run their own energy, food, and computing independently to survive cascading failures.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 708,
+  "tokens_out": 167,
+  "cost_usd": 0.0012344,
+  "ingested_at": "2026-05-28T00:19:38.549841+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.26641",
+  "arxiv_url": "https://arxiv.org/abs/2605.26641",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "OmniRetriever: Any-to-Any Audio-Video-Text Retrieval via Fusion-as-Teacher Distillation",
+  "authors": "Yunze Liu, Chi-Hao Wu, Enmin Zhou, Junxiao Shen",
+  "abstract": "Unified multimodal embedding spaces have become the standard interface for cross-modal retrieval and multimodal RAG, and recent audio-video-text (AVT) encoders extend this setting to three modalities. Such encoders can produce a joint (T,V,A) embedding whenever all three modalities are available, but standard pairwise InfoNCE objectives leave this signal unused during training. We close this gap with fusion-as-teacher distillation, which treats a stop-gradient copy of the fused embedding as a teacher signal for the single-modal embeddings, paired with a Tuple-InfoNCE term that supervises the fused embedding directly. We instantiate this objective as OmniRetriever-7B. Across six zero-shot retrieval benchmarks, OmniRetriever-7B surpasses the closed-source Gemini Embedding 2 by 13.3-18.0 R@1 on Clotho and SoundDescs, and reaches the contemporary zero-shot specialist band of open video-text encoders on MSR-VTT and MSVD. To stress-test joint representations, we further release OmniRetriever-Bench, a 12-direction AVT retrieval benchmark totaling 3782 triples; on it OmniRetriever-7B attains AVG-all 34.84, improving over Gemini Embedding 2 by 1.72 and over the best prior open-source AVT method by 8.03.",
+  "title_relatable": "Why audio-video-text search needs to learn from all three at once",
+  "hook": "7B-parameter model beats Gemini Embedding 2 by 13–18% on audio-text retrieval via joint-embedding supervision.",
+  "summary": "Most multimodal search systems learn audio, video, and text separately. OmniRetriever trains a unified encoder by treating the fused triple-modal embedding as a teacher—forcing individual modalities to align with the complete signal. On six zero-shot benchmarks, it outperforms Google's Gemini Embedding 2 by 13–18% for audio searches, and introduces OmniRetriever-Bench, a 3,782-sample retrieval benchmark across all 12 direction combinations. Code and models are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 803,
+  "tokens_out": 205,
+  "cost_usd": 0.0014624,
+  "ingested_at": "2026-05-28T00:28:24.022078+00:00"
+}

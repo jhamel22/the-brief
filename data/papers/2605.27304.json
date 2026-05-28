@@ -1,0 +1,22 @@
+{
+  "id": "2605.27304",
+  "arxiv_url": "https://arxiv.org/abs/2605.27304",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "PlayClass: Automated Play Behaviour Classification in Poultry",
+  "authors": "Prince Ravi Leow, Neil Scheidwasser, Rebecca Oscarsson, Per Jensen, Samir Bhatt, David Alejandro Duchêne",
+  "abstract": "Automated monitoring of animal welfare has largely targeted negative indicators, leaving positive welfare behaviours such as play underexplored. To address this gap, we present PlayClass, a pipeline for play-behaviour classification in poultry from top-down pen video. The pipeline leverages long-duration tracking with SAM 3 via YOLO-guided chunk boundaries to minimise identity errors in point-based prompting, and frozen embeddings from image and video foundation models for play action classification. Although handcrafted motion features from tracked masks alone achieved competitive accuracy, V-JEPA 2.1 consistently outperformed all other backbones across model scales, reaching 77.0 macro-averaged F$_1$ when combined with handcrafted features. Despite this result, the dataset remains challenging due to play sub-types sharing similar kinematic profiles with non-play and inter-bird occlusion. Overall, our work provides encouraging evidence towards automated frameworks for play behaviour classification in poultry.",
+  "title_relatable": "Can computers recognize when chickens are playing?",
+  "hook": "Automated system detects play behavior in poultry from video, reaching 77% F1 score despite occlusion and subtle motion patterns.",
+  "summary": "Monitoring animal welfare usually focuses on distress signals, missing positive indicators like play. This work builds PlayClass, a video pipeline that tracks individual birds in poultry pens and classifies play behavior using foundation models. V-JEPA, a self-supervised video model, combined with hand-crafted motion features achieved 77% F1—outperforming simpler baselines despite occlusions and kinematic ambiguity between play and non-play movements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 674,
+  "tokens_out": 180,
+  "cost_usd": 0.0012592,
+  "ingested_at": "2026-05-28T00:28:48.388078+00:00"
+}

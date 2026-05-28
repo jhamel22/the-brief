@@ -1,0 +1,25 @@
+{
+  "id": "2605.26972",
+  "arxiv_url": "https://arxiv.org/abs/2605.26972",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math.QA",
+    "hep-th",
+    "math-ph",
+    "math.AG"
+  ],
+  "title_original": "Vertex operator algebras, partition functions and Teichmüller modular forms",
+  "authors": "Sebastiano Carpi, Giulio Codogni",
+  "abstract": "In the spirit of the geometric approach to two-dimensional conformal field theory, we explicitly associate to every holomorphic vertex operator algebra a section of a power of Hodge line bundle on the moduli space of curves of arbitrary genus - or equivalently a Teichmüller modular form in any genus. As a first application, we connect the geometry of the moduli space of curves to the classification program for holomorphic vertex algebras. We then discuss how to use the theory of holomorphic vertex algebras to reach new results about the moduli space of curves. In the last part of the paper we study how the above mentioned forms can be used to reconstruct the vertex algebra.",
+  "title_relatable": "Do vertex algebras encode hidden symmetries of all curves?",
+  "hook": "Mathematicians connect abstract algebraic structures to the geometry of curve moduli spaces, opening new ways to classify and reconstruct these algebras.",
+  "summary": "Vertex operator algebras—infinite-dimensional algebraic objects from quantum field theory—can be converted into geometric objects called Teichmüller modular forms, which live on spaces describing all possible smooth curves. This gives a bridge between two distant mathematical worlds: it uses curve geometry to classify vertex algebras and, conversely, uses vertex algebras to prove new facts about curves.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 578,
+  "tokens_out": 161,
+  "cost_usd": 0.0011064,
+  "ingested_at": "2026-05-28T00:16:49.611896+00:00"
+}

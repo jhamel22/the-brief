@@ -1,0 +1,23 @@
+{
+  "id": "2605.27203",
+  "arxiv_url": "https://arxiv.org/abs/2605.27203",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Generative Animations: A Multi-Model Pipeline for Prompt-Driven Motion Synthesis",
+  "authors": "Mannat Khurana, Sanyam Jain, Rishav Agarwal",
+  "abstract": "Animation elevates digital documents into immersive experiences, yet creating custom motion paths remains cumbersome, requiring designers to manually select presets, plot Bézier points, and configure timing properties. We introduce Generative Animations, a system that transforms natural language prompts into production-ready animations. By chaining Large Language Models (LLMs) for semantic parsing with the Segment Anything Model (SAM) for visual grounding, our pipeline automatically generates motion paths that respect scene geometry, handle depth-based occlusions, and honor 3D perspective transforms. We demonstrate the system through three use cases: contour-following trajectories, orbital animations with z-order awareness, and perspective-aligned motion on transformed objects.",
+  "title_relatable": "Can you animate a scene just by describing it?",
+  "hook": "Natural language turns into production-ready animations that handle depth, occlusion, and 3D geometry automatically.",
+  "summary": "Designers currently spend time manually plotting motion paths and timing curves for animations. This system chains language models for understanding prompts with visual grounding tools to auto-generate animations that respect scene geometry, depth, and perspective. Three demos show it handling orbital motion, contour-following, and perspective-aligned movement on transformed objects.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 605,
+  "tokens_out": 140,
+  "cost_usd": 0.001044,
+  "ingested_at": "2026-05-28T00:28:56.634368+00:00"
+}

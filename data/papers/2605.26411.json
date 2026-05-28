@@ -1,0 +1,22 @@
+{
+  "id": "2605.26411",
+  "arxiv_url": "https://arxiv.org/abs/2605.26411",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Fixation location in structured populations",
+  "authors": "David A. Brewster, Gabor Lippner, Josef Tkadlec, Martin A. Nowak",
+  "abstract": "In stochastic evolutionary dynamics, the replacement of an existing genotype or cultural trait by a newly introduced mutant is typically characterized by the quantities of fixation probability and fixation time. But in a structured population, the disappearance of a lineage occurs at a specific place. For evolutionary dynamics on graphs, we define the fixation location as the node occupied by the last wild-type individual immediately before mutant fixation. Conditional on fixation, this location is described by a probability distribution over the nodes of the graph. We study the fixation location for neutral evolution, for the colonization process, and, more generally, for constant selection on small graphs, cycles, tori, random graphs, and island populations. We find that the distribution of the fixation location is often highly nonuniform, depends strongly on the graph structure and the selection strength, and can differ sharply even when classical fixation statistics are similar. For many graphs, some nodes can never be fixation locations. Our results identify fixation location as a fundamental aspect of evolutionary dynamics and suggest new ways to understand, monitor, and potentially mitigate extinction events in biological and social settings.",
+  "title_relatable": "Where exactly do species go extinct on networks?",
+  "hook": "When a new mutation takes over a population, the last survivors cluster in specific locations—revealing hidden patterns that fixation probability alone misses.",
+  "summary": "Researchers tracked where the final individuals of a dying genotype disappear in structured populations like networks or geographic grids. The fixation location—which node harbors the last wild-type individual—follows a surprisingly uneven distribution that depends heavily on network structure and selection strength. This matters because populations on real landscapes (islands, cities, social networks) won't go extinct uniformly, opening new ways to predict and manage extinction.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 643,
+  "tokens_out": 165,
+  "cost_usd": 0.0011744000000000001,
+  "ingested_at": "2026-05-28T00:45:07.618285+00:00"
+}

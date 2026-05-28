@@ -1,0 +1,22 @@
+{
+  "id": "2605.27300",
+  "arxiv_url": "https://arxiv.org/abs/2605.27300",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Deterministic Mapping of Topological Phases via Autoregressive Exogenous Neural Networks",
+  "authors": "Graciana Puentes",
+  "abstract": "We report a comparative analysis of three dynamic neural network (NN) architectures -- NAR, NARX, and NIO -- to evaluate their efficiency in estimating the critical-measurement-strength parameter ($c_{crit}$) characterizing topological phase transitions in geometric phases induced by weak measurements. Our results demonstrate that the NARX architecture achieves superior predictive fidelity, reaching a Mean Squared Error (MSE) of $10^{-27}$ -- the limit of numerical precision -- at an optimal delay of $d=1$. This exceptional performance implies the identification of a perfect functional identity, suggesting that the relationship between winding numbers $W$ and $c_{crit}$ is mathematically deterministic. We observe a \"complexity paradox\" where the NARX model's accuracy collapses at higher delays ($d=4$), a phase-sensitivity that confirms the model captures a high-precision dynamic mapping rather than a trivial pattern. While the NAR model remains robust for local-trend capture, the NIO architecture fails to accurately resolve the phase transition despite increased neuronal capacity. These findings underscore that both autoregressive feedback and immediate exogenous context are essential for the exact characterization of topological phases, establishing NARX as a robust framework for deriving governing laws in complex quantum systems, where analytical solutions remain elusive.",
+  "title_relatable": "Can a neural network perfectly decode quantum phase transitions?",
+  "hook": "A neural network hit machine-precision error (MSE 10⁻²⁷) predicting quantum topological phase transitions, hinting at a hidden mathematical identity.",
+  "summary": "A specific neural network architecture (NARX) predicted the critical parameter governing topological phase transitions with essentially zero error — down to numerical precision limits. This suggests the relationship between winding numbers and critical measurement strength isn't just learnable but is a perfect mathematical identity. The catch: the same model completely fails at slightly longer time delays, which paradoxically confirms it's capturing real physics rather than memorizing noise.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 719,
+  "tokens_out": 167,
+  "cost_usd": 0.004662,
+  "ingested_at": "2026-05-28T00:17:31.278036+00:00"
+}

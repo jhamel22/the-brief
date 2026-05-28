@@ -1,0 +1,22 @@
+{
+  "id": "2605.26519",
+  "arxiv_url": "https://arxiv.org/abs/2605.26519",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "$R^3$: 3D Reconstruction via Relative Regression",
+  "authors": "Congrong Xu, Huachen Gao, Xingyu Chen, Yuliang Xiu, Jun Gao, Anpei Chen",
+  "abstract": "Recent feed-forward geometry foundation models have demonstrated impressive generalization by recovering depth and poses in a single forward pass. However, these models are typically constrained by a global coordinate frame assumption. This dependency becomes a significant bottleneck for long-context and streaming reconstruction, as it forces the network to maintain an arbitrary temporal origin and handle translation magnitudes that grow unbounded over time. Our solution, which we call $R^3$, employs relative regression. We employ a lightweight MLP to predict confidence-weighted relative constraints. These confidences serve as a unified anchor: weighting losses during training and guiding pose aggregation during inference. $R^3$ supports both full-context offline reconstruction and causal, bounded-memory streaming. Our evaluation in both offline and streaming settings validates the effectiveness of our relative mechanism. Project page: https://kevinxu02.github.io/r3-site",
+  "title_relatable": "How to reconstruct 3D scenes without losing track over time?",
+  "hook": "Relative regression enables unbounded 3D reconstruction by ditching global coordinates, supporting both offline and streaming with bounded memory.",
+  "summary": "Existing depth-and-pose foundation models assume a fixed global coordinate frame, which breaks down for long videos or streaming input—positions drift unbounded over time. R³ instead predicts relative constraints between frames using a lightweight MLP, with confidence scores that weight both training losses and pose aggregation. This lets the model handle arbitrarily long sequences without memory growth, working in both full-context and causal streaming modes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 649,
+  "tokens_out": 168,
+  "cost_usd": 0.0011912000000000001,
+  "ingested_at": "2026-05-28T00:28:32.155134+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.26692",
+  "arxiv_url": "https://arxiv.org/abs/2605.26692",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "nucl-th"
+  ],
+  "title_original": "From supernovae to neutron stars: crust formation time",
+  "authors": "Yudai Suwa, Ken'ichiro Nakazato",
+  "abstract": "A neutron star is born as a hot, lepton-rich protoneutron star (PNS) and cools via neutrino emission, eventually allowing heavy ions in the outer layers to crystallize into a solid crust. We develop a simple analytic estimate for the onset time of this crust formation during the late, post-convective PNS cooling phase. Using a diffusion-based neutrino luminosity and the resulting entropy evolution together with an approximately isentropic interior structure, we obtain the time-dependent density and temperature at the neutrinosphere. We then impose the Coulomb crystallization condition for heavy nuclei, expressed through the Coulomb coupling parameter, and determine when the neutrinosphere temperature first falls below the crystallization threshold evaluated at the neutrinosphere density. This procedure yields closed expressions for the entropy at crystallization and the corresponding crust-formation time, with explicit dependence on the PNS mass and radius, an effective diffusion/cooling normalization, and composition parameters such as the ionic charge $Z$ and heavy-nuclei mass fraction. For canonical microphysics, we find that the first solid phase typically appears at $t_{\\mathrm{crust}}\\sim 100$-$500\\,\\mathrm{s}$. These closed-form scalings provide a useful late-time analytic benchmark for the onset of crust formation and clarify its dependence on PNS and composition parameters.",
+  "title_relatable": "When does a newborn neutron star freeze solid?",
+  "hook": "Neutron stars cool via neutrino loss over minutes to hours. New analytic formula predicts when their outer layers crystallize into a solid crust—typically 100–500 seconds after birth.",
+  "summary": "After a supernova, a hot protoneutron star cools by radiating neutrinos. Researchers derived a closed-form equation for when this cooling allows heavy nuclei in the outer layers to crystallize into a solid crust, accounting for the star's mass, radius, and composition. The formula predicts crust formation at 100–500 seconds post-birth and clarifies how composition and cooling rate control the timing.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 746,
+  "tokens_out": 187,
+  "cost_usd": 0.0013448000000000002,
+  "ingested_at": "2026-05-28T00:20:15.693624+00:00"
+}

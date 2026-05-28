@@ -1,0 +1,22 @@
+{
+  "id": "2605.27121",
+  "arxiv_url": "https://arxiv.org/abs/2605.27121",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Refined extraction of electroweak and nuclear parameters from germanium CE$ν$NS data",
+  "authors": "Valentina De Romeri, Laura Duque, Dimitrios K. Papoulias, G. Sanchez Garcia, Christoph A. Ternes",
+  "abstract": "We present a combined analysis of recent CE$ν$NS data on germanium from two complementary experiments: COHERENT, which uses neutrinos from pion decay at rest, and CONUS+, which detects reactor antineutrinos. Exploiting the complementarity of these two datasets in a joint statistical analysis, we extract the germanium root-mean-square neutron radius and neutron skin with improved precision, disentangling spectral shape distortions from overall normalizations and reducing systematic uncertainties. We also determine the weak mixing angle at low momentum transfer, providing a test of the Standard Model in a less-explored kinematic regime. A key systematic uncertainty in CE$ν$NS ionization measurements is the nuclear quenching factor; we therefore present our results as a function of variations of the Lindhard model. For the nuclear form factor, we adopt the analytical Klein-Nystrand parametrization and benchmark it against predictions from the large-scale nuclear Shell Model, assessing the impact of nuclear structure uncertainties on our results. Our analysis demonstrates the power of combining datasets across different neutrino sources to maximize sensitivity to both nuclear and electroweak physics.",
+  "title_relatable": "How do neutrinos reveal the hidden structure inside germanium nuclei?",
+  "hook": "Combining two independent neutrino experiments yields precise measurements of nuclear size and tests the Standard Model in an unexplored energy regime.",
+  "summary": "Physicists merged data from COHERENT and CONUS+ experiments—one using pion-decay neutrinos, the other reactor antineutrinos—to measure germanium's neutron distribution with unprecedented precision. The dual approach lets them pin down the neutron skin thickness and test electroweak physics at low momentum transfer, while carefully mapping out how nuclear uncertainty affects the results.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 710,
+  "tokens_out": 164,
+  "cost_usd": 0.001224,
+  "ingested_at": "2026-05-28T00:19:02.618919+00:00"
+}

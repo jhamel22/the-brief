@@ -1,0 +1,22 @@
+{
+  "id": "2605.27243",
+  "arxiv_url": "https://arxiv.org/abs/2605.27243",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Can Retrieval Heads See Images? Multimodal Retrieval Heads in Long-Context Vision-Language Models",
+  "authors": "Aaron Branson Cigres Li, Zhaowei Wang, Yu Zhao, Yiming Du, Haobo Li, Xiyu Ren, Ginny Wong, Simon See, Lishu Luo, Haodong Duan, Pasquale Minervini, Yangqiu Song",
+  "abstract": "Large vision-language models increasingly rely on long-context modeling to reason over documents, hour-level videos, and long-horizon agent trajectories, requiring them to locate relevant evidence across interleaved text and images. Prior work has studied this behavior using retrieval heads in large language models, but its copy-based criterion does not directly apply when evidence appears in images. We introduce a multimodal retrieval head detection method that scores attention from question tokens to textual or visual evidence. With this method, we show that multimodal retrieval heads are sparse, intrinsic, and causally important: only 4.4-10.2% of attention heads account for 50% of the positive retrieval-score mass, and masking the top-5% selected heads drops MMLongBench-Doc from 48.2% to 5.7% and SlideVQA from 71.2% to 8.9%, while random-head masking is far less damaging. Further analysis shows that these heads are partly shared across modalities yet remain dynamic within each modality, with image retrieval heads changing more than text retrieval heads as context length and haystack modality change. Without further training, we find that these heads can also be used directly to rank visually rich documents: on MMDocIR, Qwen3-VL-8B selected-head scoring improves Recall@1 by 7.7/7.4 macro/micro points for page retrieval and 6.3/6.8 points for layout retrieval over the strongest reported baseline.",
+  "title_relatable": "How do vision-language models find images in long documents?",
+  "hook": "Sparse attention heads locate visual evidence in multimodal documents; masking top 5% drops accuracy from 48% to 6%, and these same heads rank documents 7.7 points better.",
+  "summary": "Vision-language models process long documents with mixed text and images, but how do they pinpoint relevant visual evidence? Researchers identified specialized \"retrieval heads\"—just 4.4–10.2% of attention heads—that locate both text and image clues. Disabling the top 5% of these heads catastrophically drops performance on document understanding and slide QA. Surprisingly, these heads also work directly for document ranking without retraining, improving retrieval recall by 7.7 points.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 848,
+  "tokens_out": 203,
+  "cost_usd": 0.0014904,
+  "ingested_at": "2026-05-28T00:28:51.346381+00:00"
+}

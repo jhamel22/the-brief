@@ -1,0 +1,25 @@
+{
+  "id": "2605.27350",
+  "arxiv_url": "https://arxiv.org/abs/2605.27350",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Postselection-free ballistic-diffusive transition in monitored spin chains",
+  "authors": "K. G. S. H. Gunawardana, Ali G. Moghaddam, Teemu Ojanen",
+  "abstract": "We study spin and entanglement dynamics in spin-1/2 XXZ chains under periodic monitoring and show that this system exhibits two measurement-induced phase transitions: a steady-state entanglement phase transition similar to those in monitored quantum circuits and a ballistic-to-diffusive transition in transient dynamics. Specifically, we discover that at low monitoring rate, an initial configuration containing a domain wall $|\\uparrow\\uparrow\\uparrow\\ldots \\downarrow\\downarrow\\downarrow\\ldots\\rangle$ spreads ballistically while, at large monitoring rates, the domain melting is diffusive. Extensive numerical simulations, supported by theoretical arguments, indicate that the ballistic-diffusive transition is intimately interlinked with the entanglement phase transition. In contrast to the entanglement phase transitions, which require exponentially complex postselection, the ballistic-diffusive transition can be observed without postselection and constitutes an experimentally accessible manifestation of the many-body Zeno effect.",
+  "title_relatable": "Quantum measurements can slow information spread from fast to slow?",
+  "hook": "Frequent measurements on a quantum spin chain change particle spreading from ballistic to diffusive — and it's actually measurable in an experiment.",
+  "summary": "Quantum systems under frequent observation tend to freeze up — the quantum Zeno effect. Here, researchers show that monitoring a chain of quantum spins causes a sharp transition: domain walls spread at constant speed when measurements are rare, but slow to a diffusive crawl at high measurement rates. Crucially, unlike related entanglement transitions that require impractical exponential postselection of measurement outcomes, this ballistic-to-diffusive shift is directly observable, making it a rare experimentally accessible window into measurement-driven quantum phase transitions.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 671,
+  "tokens_out": 188,
+  "cost_usd": 0.004833,
+  "ingested_at": "2026-05-28T00:17:19.626297+00:00"
+}

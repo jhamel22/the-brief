@@ -1,0 +1,23 @@
+{
+  "id": "2605.26797",
+  "arxiv_url": "https://arxiv.org/abs/2605.26797",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "Latent Recurrent Transformer: Architecture Exploration, Training Strategies, and Scaling Behavior",
+  "authors": "Zeyi Huang, Xuehai He, LiLiang Ren, Yiping Wang, Baolin Peng, Hao Cheng, Shuohang Wang, Pengcheng He, Jianfeng Gao, Yong Jae Lee, Yelong Shen",
+  "abstract": "We study Latent Recurrent Transformer (LRT), a lightweight augmentation of autoregressive transformers that reuses a high-level source-layer hidden state from the previous token as recurrent memory for the next token. Because this source state is already computed during ordinary decoding, LRT adds a cross-layer recurrent latent pathway across positions without inserting pause tokens or extra depth loops, and the standard attention mechanism and KV-cache interface are preserved. To pretrain this recurrence at scale without sequentially unrolling the transformer, we introduce interleaved parallel training: a single full-sequence initialization forward pass builds a shared buffer; then disjoint position subsets are refined in parallel and written back, so that all tokens receive recurrent-memory-aware supervision at roughly 2 times baseline compute. Across nanochat style backbones and a wide range of tokens-per-parameter budgets, LRT improves both language-modeling loss and in-context learning under matched effective compute while adding as little as 0.3% parameters.",
+  "title_relatable": "Can transformers learn to reuse their own memories?",
+  "hook": "Adding recurrent memory to transformers improves language modeling and learning efficiency with just 0.3% extra parameters.",
+  "summary": "Latent Recurrent Transformer reuses hidden states from previous tokens as memory for the next token, without requiring extra model components or breaking the standard attention interface. A novel training approach—interleaved parallel training—enables efficient pretraining at scale by processing position subsets in parallel while sharing recurrent supervision. Across multiple model sizes, LRT achieves better language-modeling loss and stronger in-context learning performance at matched compute budgets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 732,
+  "tokens_out": 169,
+  "cost_usd": 0.0012615999999999999,
+  "ingested_at": "2026-05-28T00:26:08.715854+00:00"
+}

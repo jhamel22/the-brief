@@ -1,0 +1,23 @@
+{
+  "id": "2605.27014",
+  "arxiv_url": "https://arxiv.org/abs/2605.27014",
+  "announced_date": "2026-05-26",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LO",
+    "cs.AI"
+  ],
+  "title_original": "ReasonOps: A Unified Operational Paradigm for Trustworthy Verified LLM Reasoning",
+  "authors": "Adnan Rashid",
+  "abstract": "Large Language Models (LLMs) have transformed artificial intelligence from primarily generative systems into increasingly capable reasoning agents. Recent advances in theorem proving, autoformalization, symbolic reasoning, and tool-augmented language models demonstrate substantial progress toward machine-assisted formal reasoning. However, current reasoning systems still suffer from hidden logical inconsistencies, hallucinated symbolic transitions, unsupported theorem applications, and limited reliability guarantees. Existing approaches remain fragmented across formal verification, runtime assurance, neuro-symbolic reasoning and trustworthy Artificial Intelligence (AI) research communities. This paper introduces ReasonOps, a unified operational paradigm for trustworthy verified reasoning systems. Inspired by operational ecosystems such as DevOps and MLOps, ReasonOps treats reasoning as a continuously monitored, verifiable, reliability-aware operational process rather than an isolated inference task. The proposed paradigm integrates semantic interpretation, autoformalization, symbolic reasoning, theorem proving, runtime assurance, probabilistic reliability estimation, and adaptive correction into a unified reasoning lifecycle. The paper further presents the ReasonOps architecture, demonstrates its workflow using an autonomous braking system analysis example, and discusses its potential role in future safety-critical autonomous AI systems. We argue that operational reasoning paradigms such as ReasonOps may become foundational infrastructure for next-generation trustworthy AI ecosystems.",
+  "title_relatable": "Can we make AI reasoning systems reliable enough for safety-critical decisions?",
+  "hook": "New operational framework integrates verification, symbolic reasoning, and runtime monitoring to catch logical errors LLMs typically hide.",
+  "summary": "LLMs increasingly attempt formal reasoning tasks, but they hallucinate symbol transitions, apply theorems incorrectly, and offer no reliability guarantees. ReasonOps adapts DevOps principles to reasoning: treating it as a continuous, monitored process that combines autoformalization, symbolic checking, theorem proving, and adaptive correction in a unified lifecycle. The authors demonstrate the approach on an autonomous braking system, arguing operational reasoning frameworks are necessary infrastructure for trustworthy AI in safety-critical domains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 723,
+  "tokens_out": 181,
+  "cost_usd": 0.0013024,
+  "ingested_at": "2026-05-28T00:24:28.438174+00:00"
+}

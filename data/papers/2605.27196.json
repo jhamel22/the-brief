@@ -1,0 +1,23 @@
+{
+  "id": "2605.27196",
+  "arxiv_url": "https://arxiv.org/abs/2605.27196",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Hybrid Expansion Cosmology in f(T) Gravity: Late-Time Evolution and Observational Bounds",
+  "authors": "Rajalakshmi Jena, Vishal M C, Sankarsan Tarai",
+  "abstract": "This study investigates the cosmological dynamics of an accelerating universe within the framework of teleparallel gravity using an exponential f(T) functional form. To obtain exact cosmological solutions, a hybrid scale factor is employed to model the smooth transition from an early decelerated phase to the present accelerated expansion of the Universe. The physical consistency of the model is analyzed through classical energy conditions and cosmographic parameters. By constraining the model parameters using 31 Hubble data points, we find that the resulting matter-energy density and pressure evolution remain consistent with the observed cosmic acceleration. Diagnostic analysis confirms that the model remains within the quintessence regime and asymptotically approaches the ΛCDM scenario.",
+  "title_relatable": "Does tweaking gravity's rules explain cosmic acceleration?",
+  "hook": "A modified gravity model fits 31 Hubble measurements and mimics dark energy without a cosmological constant.",
+  "summary": "Using a variant of general relativity built on 'teleparallel' geometry — where torsion replaces curvature — the authors fit an exponential tweak to the gravitational equations against 31 Hubble rate measurements. The model smoothly connects early cosmic deceleration to today's accelerating expansion and lands in the quintessence zone, edging toward but never quite becoming the standard cosmological constant. It's a consistency check, not a breakthrough, but it tightens the allowed parameter space for this class of modified gravity.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 598,
+  "tokens_out": 184,
+  "cost_usd": 0.004554,
+  "ingested_at": "2026-05-28T00:16:01.091426+00:00"
+}

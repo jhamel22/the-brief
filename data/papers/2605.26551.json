@@ -1,0 +1,24 @@
+{
+  "id": "2605.26551",
+  "arxiv_url": "https://arxiv.org/abs/2605.26551",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cond-mat.dis-nn",
+    "physics.bio-ph"
+  ],
+  "title_original": "Random neural networks match observed dimensionality of neural population recordings and motivate stronger experimental tests",
+  "authors": "Zehui Zhao, Michael J Pasek, Ilya M Nemenman",
+  "abstract": "Randomly connected neural networks have long served as a theoretical tool for studying collective dynamics in neural populations, yet quantitative comparisons to experiments remain limited. Recent technological advances have made it possible to resolve population-wide correlations across neurons, and minimal models such as random neural networks predict their generic structure. Whether the two agree quantitatively remains untested. In this work, we examine whether a minimally structured random neural network can account for the low dimensionality of activity in neural population recordings by building on recent developments in Dynamical Mean-Field Theory and incorporating two additional experimentally relevant features into the model: finite measurement time and variability across behavioral contexts. We show that, when these factors are included, the dimensionality measured from large-scale recordings is consistent with the values predicted by random models. However, current recording durations make it difficult to use dimensionality to discriminate among connectivity structures. We further show that analytically predicted dimensionality varies non-monotonically with external input strength, and that the orientation similarity between neural manifolds recorded under different behavioral contexts can be more sensitive to network structure than dimensionality is. Together, these results provide quantitative guidance for experimental design to infer the connectivity structure underlying population activity.",
+  "title_relatable": "Why brain recordings look simpler than they might be",
+  "hook": "Random, wiring-diagram-free neural networks predict how many dimensions of activity experimenters actually observe in brain recordings—suggesting simple structure might hide complex connections.",
+  "summary": "Researchers compared the dimensionality (effective complexity) of real neural population recordings to predictions from randomly connected networks with measurement constraints built in. Random networks matched observed dimensionality when realistic factors like finite recording time and behavioral context switches were included. The finding suggests current experiments can't yet distinguish truly simple circuits from tangled ones—but analyzing how neural patterns rotate between behaviors could do better.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 662,
+  "tokens_out": 161,
+  "cost_usd": 0.0011736,
+  "ingested_at": "2026-05-28T00:44:42.192240+00:00"
+}

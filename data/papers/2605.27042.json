@@ -1,0 +1,23 @@
+{
+  "id": "2605.27042",
+  "arxiv_url": "https://arxiv.org/abs/2605.27042",
+  "announced_date": "2026-05-26",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "title_original": "Lessons from Penetration Tests on Large-Scale Agent Systems",
+  "authors": "Kevin Eykholt, Dhilung Kirat, Xiaokui Shu, Jiyong Jang, Frederico Araujo, Ian Molloy",
+  "abstract": "As AI systems gain increasing autonomy and execution capability, the number of discovered security vulnerabilities continues to rise. However, many of these vulnerabilities are not fundamentally novel, but instead reflect recurring classes of weaknesses long observed in prior computing systems. Execution-capable AI agents are effectively unbounded, self-modifying programs that interact extensively with multiple layers of the computing stack. This broad interaction surface imposes a significant security burden on developers, who must reason about and secure complex cross-layer behaviors. Prior research has primarily focused on vulnerabilities in open-source agents and agent frameworks. In contrast, it remains unclear whether proprietary agent systems -- developed under stricter coding standards and formal review processes -- exhibit similar security weaknesses. In this paper, we present findings from two penetration tests conducted in 2025 against proprietary agent products and evaluate whether the security posture of AI agents has improved since these assessments.",
+  "title_relatable": "Do expensive AI agents get hacked like cheap ones?",
+  "hook": "Penetration tests on proprietary agent systems reveal whether rigorous development processes actually prevent the security flaws plaguing open-source alternatives.",
+  "summary": "Autonomous AI agents interact with so many layers of computing infrastructure that they create massive security surfaces—like giving a program access to everything at once. Researchers penetration-tested proprietary agent products in 2025 to see whether strict coding standards and formal review catch vulnerabilities that plague open-source agents. The gap between well-funded and community projects matters for understanding real-world AI security risks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 651,
+  "tokens_out": 162,
+  "cost_usd": 0.0011688000000000002,
+  "ingested_at": "2026-05-28T00:24:06.722704+00:00"
+}

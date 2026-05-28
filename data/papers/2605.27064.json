@@ -1,0 +1,23 @@
+{
+  "id": "2605.27064",
+  "arxiv_url": "https://arxiv.org/abs/2605.27064",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph"
+  ],
+  "title_original": "Flow-Based Global Proposals for Monte Carlo Sampling in SU(2) Lattice Gauge Theory",
+  "authors": "Seung-il Nam",
+  "abstract": "We propose a formally valid machine-learning-assisted global proposal mechanism for Monte Carlo sampling in lattice gauge theory. The construction is based on a coupling-flow update on the SU(2) lattice-link manifold, in which active links are transformed conditionally on a frozen-link background. For fixed frozen links, the proposal is explicitly invertible and preserves the product Haar measure, so it can be embedded into a Metropolis-Hastings correction without requiring an explicit model of the full proposal density. We implement the method in two-dimensional pure SU(2) lattice gauge theory and benchmark it against a baseline local Metropolis algorithm used as a controlled reference kernel. In the present testbed, the learned proposal reproduces the target ensemble within statistical resolution across the tested configurations. In matched local-step comparisons, the learned proposal reproduces the target ensemble at a quality comparable to the baseline, but does not outperform the pure local baseline in the conservative matched-step case examined with seed-level statistics within this proof-of-principle setup. At the same time, a favorable mixed-step hybrid configuration yields a modest improvement in effective sample size per unit runtime. Because the learned transformation remains in a near-identity regime, the present results should be interpreted as a proof-of-principle demonstration of formal correctness and limited, configuration-dependent efficiency gain within a controlled comparison, rather than as evidence of superiority over optimized conventional update schemes. This work provides a concrete foundation for extending machine-learned nonlocal updates to larger lattices and non-Abelian gauge theories relevant to lattice QCD.",
+  "title_relatable": "Can neural networks speed up quantum simulations on a lattice?",
+  "hook": "Physicists trained a machine-learning model to propose global updates in lattice gauge theory simulations, preserving mathematical exactness while showing modest efficiency gains.",
+  "summary": "Researchers built a flow-based proposal mechanism—essentially a learnable transformation of quantum fields—that feeds into Monte Carlo sampling of SU(2) gauge theories. The method stays mathematically rigorous by preserving the underlying symmetry (Haar measure) and works with frozen-link backgrounds. In 2D tests, it matches conventional algorithms and shows small improvements in some configurations, establishing a foundation for scaling to larger systems and realistic QCD simulations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 768,
+  "tokens_out": 180,
+  "cost_usd": 0.0013344000000000001,
+  "ingested_at": "2026-05-28T00:19:05.602453+00:00"
+}

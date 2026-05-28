@@ -1,0 +1,23 @@
+{
+  "id": "2605.26921",
+  "arxiv_url": "https://arxiv.org/abs/2605.26921",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "q-bio.NC"
+  ],
+  "title_original": "Revealing the core dimensions underlying representations in brains, behavior and AI",
+  "authors": "Florian P. Mahner, Ka Chun Lam, Francisco Pereira, Martin N. Hebart",
+  "abstract": "The study of representations is widespread across fields, including neuroscience, psychology, and artificial intelligence. While representations are often studied and compared through similarities between stimuli, current methods provide only limited access to the dimensions that shape these representations and are often limited in interpretability. To overcome these challenges, here we introduce Similarity-Based Representation Factorization (SRF), a general computational method for recovering low-dimensional, non-negative, interpretable embeddings from similarity matrices derived from measured data. Across simulations and many neural, behavioral, and computational datasets, SRF recovers interpretable dimensions from diverse forms of representational data, even for very sparsely sampled, incomplete data. The dimensions derived from these datasets match those obtained by task-specific models, predict independent behavioral properties, improve exploratory analysis, and offer higher power for confirmatory hypothesis testing than comparing similarity matrices. Together, these results establish SRF as a general-purpose method with broad applications for uncovering, understanding, and leveraging the dimensions underlying representations.",
+  "title_relatable": "What hidden dimensions shape how brains and AI see the world?",
+  "hook": "New method recovers interpretable building blocks from brain, behavior, and AI data—even with sparse measurements.",
+  "summary": "Neuroscientists and AI researchers study representations by comparing how similar different stimuli are, but this tells you little about the underlying dimensions that actually drive perception and learning. A new technique called Similarity-Based Representation Factorization (SRF) extracts low-dimensional, interpretable embeddings from similarity data across neural recordings, behavioral tests, and AI models. The method works even with incomplete data and recovers dimensions that match task-specific models, predict behavior, and boost statistical power—useful for anyone trying to understand what representations actually encode.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 666,
+  "tokens_out": 191,
+  "cost_usd": 0.0012968,
+  "ingested_at": "2026-05-28T00:28:04.042684+00:00"
+}

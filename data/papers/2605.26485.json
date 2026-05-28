@@ -1,0 +1,23 @@
+{
+  "id": "2605.26485",
+  "arxiv_url": "https://arxiv.org/abs/2605.26485",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.CL"
+  ],
+  "title_original": "OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants",
+  "authors": "Xudong Lu, Xueying Li, Annan Wang, Yang Bo, Jinpeng Chen, Zengliang Li, Nianzu Yang, Rui Liu, Xue Yang, Jingwen Hou, Hongsheng Li",
+  "abstract": "We introduce OmniInteract, a streaming benchmark for real-time omnimodal large language models evaluated through native online inference over audio-visual streams. Unlike offline video understanding or text-prompted streaming QA, OmniInteract preserves the original audio-visual stream and requires models to process it online, without access to future content. User queries and ambient sounds are embedded in the audio track, requiring models to detect multimodal triggers, decide when to respond, and answer while the stream unfolds. OmniInteract contains 250 videos with 1,430 temporally grounded response slots: 1,062 1Q1A slots across real-time, proactive, and nested scenarios, and 368 1QnA slots for continuous task monitoring and step guidance. Each slot includes a trigger, response window, and target answer. We evaluate response correctness, timing, invalid outputs, interruption handling, and context continuity using Interaction-Aware Quality-Timeliness F1, Interruption Diagnostic Suite, and Nested Chain Completion Score. Experiments show that current models remain weak in streaming interaction, with the best overall IA-QTF1 reaching only 0.368 and the best 1QnA IA-QTF1 only 0.052. Further study on mathematical reasoning in full-duplex settings shows that offline capability does not necessarily transfer to online interaction. Code and datasets will be made publicly accessible at https://github.com/Lucky-Lance/OmniInteract.",
+  "title_relatable": "Do AI assistants actually listen? Testing real-time multimodal models on live streams",
+  "hook": "New benchmark reveals top models reach only 0.368 F1 on live audio-video interaction—far below offline performance.",
+  "summary": "OmniInteract tests whether large language models can handle real-time audio-visual streams like humans do: responding to questions, detecting when to speak, and handling interruptions without seeing future content. The benchmark includes 250 videos with 1,430 interaction scenarios—some requiring instant replies, others proactive decisions. All evaluated models performed poorly (best: 0.368 F1), and surprisingly, strong offline video-understanding ability didn't translate to online streaming. Code and data releasing publicly.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 829,
+  "tokens_out": 191,
+  "cost_usd": 0.0014272,
+  "ingested_at": "2026-05-28T00:28:35.118194+00:00"
+}

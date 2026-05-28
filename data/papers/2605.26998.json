@@ -1,0 +1,23 @@
+{
+  "id": "2605.26998",
+  "arxiv_url": "https://arxiv.org/abs/2605.26998",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.LG",
+    "q-bio.NC"
+  ],
+  "title_original": "Probabilistic Recurrent Intention Switching Model",
+  "authors": "Wenyuan Sheng, Hao Zhu, Joschka Boedecker",
+  "abstract": "Inverse reinforcement learning (IRL) recovers reward functions from observed behavior, yet traditional methods assume a single stationary reward that cannot capture goal switching within an episode. Recent multi-intention IRL methods address this by segmenting trajectories, but model intention transitions as either a memoryless Markov chain or via manual state augmentation with a fixed history window. We propose the Probabilistic Recurrent Intention Switching Model (PRISM), which replaces both mechanisms with a lightweight recurrent network that maps observation history to a per-step intention distribution. We prove that the resulting EM objective decomposes exactly into independent per-intention reward subproblems, each solvable in closed form, yielding an $\\mathcal{O}(nK)$ E-step with no variational approximation. We evaluate PRISM on a non-Markovian gridworld, a mouse labyrinth, and BridgeData~V2 robotic manipulation, the first large-scale robotic application of multi-intention IRL. Across all settings PRISM achieves the highest held-out log-likelihood while recovering nameable, temporally coherent intentions from unlabeled demonstrations, suggesting that discrete goal switching is present in both biological and artificial agents.",
+  "title_relatable": "How can machines figure out what goal an animal switches to mid-action?",
+  "hook": "A new method learns what reward an animal is chasing by watching it switch goals partway through—even when it can't remember what happened three steps ago.",
+  "summary": "Traditional inverse reinforcement learning assumes an animal pursues one fixed goal throughout an episode, but creatures (and robots) actually switch targets mid-task. PRISM uses a recurrent network to infer which goal an agent is pursuing at each moment from its observation history, then recovers the reward for each goal in closed form. Tested on mice in mazes and robots manipulating objects, PRISM recovered interpretable, time-coherent goals from unlabeled video—suggesting goal-switching is a real feature of both biological and artificial behavior.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 676,
+  "tokens_out": 201,
+  "cost_usd": 0.0013448000000000002,
+  "ingested_at": "2026-05-28T00:44:33.655220+00:00"
+}

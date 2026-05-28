@@ -1,0 +1,23 @@
+{
+  "id": "2605.26907",
+  "arxiv_url": "https://arxiv.org/abs/2605.26907",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "Future Detections of the Warm-Hot Intergalactic Medium using Bright Power Law Sources with NewAthena",
+  "authors": "Joseph Fisher, Antonio Martin-Carrillo, Thomas Dauser, Jörn Wilms, Joop Schaye, Didier Barret",
+  "abstract": "Context. Hydrodynamical cosmological simulations based on the ΛCDM model predict that {\\sim}40% of the baryons in the local Universe are missing. These missing baryons are predicted to lie in low density filamentary structures which trace connections between galaxies. This so-called warm-hot intergalactic medium (WHIM) is predicted to be observable in the FUV and soft X-ray regimes, and detectable in ion species with transitions in these bands. Aims. We investigate the capability of the X-ray Integral Field Unit (X-IFU) on NewAthena to detect this WHIM through O vii absorption lines imprinted on bright power-law sources in soft X-rays (0.3-1.0 keV) by examining the parameter space of different observing conditions. Methods. Through advanced simulations of the X-IFU detector, a multidimensional approach is taken to investigate the relationship between source parameters and their impacts on the significance of detection of a single absorption feature. By first studying the effect of line placement (redshift) for an observation of fixed length, followed by varying the observation length, the required counts for 3σ and 5σ detections are calculated for various photon index and local Galactic absorption values. The rest-frame equivalent widths of the imprinted absorption features are then varied and the same requirements are calculated for each line strength. Results. We discuss the detection and recovery of the imprinted WHIM features. Another method is used to derive count requirements to detect these features at different levels of significance, which is then compared to the previously obtained requirements. Using publicly available data from the Swift archives, various non-transient sources are analysed for their suitability to detect WHIM features in absorption.",
+  "title_relatable": "Can a new X-ray telescope finally find the universe's missing matter?",
+  "hook": "NewAthena's X-ray detector could spot signatures of the 40% of baryons hiding in tenuous cosmic filaments between galaxies using bright background sources.",
+  "summary": "The universe is missing about 40% of its atoms—they should be in a diffuse, hot gas strung between galaxies called the WHIM. Fisher et al. used simulations to show that NewAthena, an upcoming X-ray observatory, can detect this hidden material by watching absorption lines it imprints on bright X-ray sources. They mapped out exactly how long observations need to be and how bright the background source must shine to confirm a detection.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 858,
+  "tokens_out": 190,
+  "cost_usd": 0.0014464,
+  "ingested_at": "2026-05-28T00:18:30.712375+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2605.27301",
+  "arxiv_url": "https://arxiv.org/abs/2605.27301",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Effective Phantom Dark Energy: What Cosmological Reconstruction Does and Does Not Imply",
+  "authors": "Swagat S. Mishra",
+  "abstract": "In observational cosmology, the dark energy density and equation of state are effective quantities reconstructed at the background level under a set of assumptions. These include the FLRW framework, the standard Friedmann equation of General Relativity, and separately conserved non-relativistic matter at late times. Recent analyses involving DESI BAO measurements combined with CMB and supernova data have shown mild preference for dynamical dark energy featuring phantom or phantom-crossing behaviour. While the statistical significance of these trends remains limited, and unresolved systematics or modelling uncertainties may still be important, the resulting discussions have highlighted the need for a clearer interpretation of effective dark energy reconstruction. In particular, effective phantom behaviour does not necessarily imply the existence of a fundamental phantom field, microscopic ghost instabilities, violation of the null energy condition by the fundamental stress tensor, or a catastrophic cosmic future. The purpose of this work is to clarify these distinctions explicitly and systematically, independently of whether the current observational preference for dynamical dark energy survives future data. We discuss the definition of effective dark energy in cosmology, the interpretation of phantom and phantom-crossing behaviour, and physical mechanisms through which effective phantom behaviour may arise without fundamental pathologies. While many of these distinctions are familiar within the dark energy reconstruction community, they are often left implicit in broader discussions of dynamical dark energy. We hope that this work will remain useful beyond the present observational situation as a clarification of what observationally reconstructed dark energy does and does not imply.",
+  "title_relatable": "Does 'phantom' dark energy actually threaten the universe's future?",
+  "hook": "DESI data hints at spooky 'phantom' dark energy, but that label may be a measurement artifact, not a cosmic catastrophe.",
+  "summary": "When cosmologists reconstruct dark energy from DESI, CMB, and supernova data, the resulting 'phantom' behavior — where dark energy appears to violate a fundamental energy condition — doesn't mean the universe contains an unstable ghost field or is headed for a Big Rip. The phantom signal is an effective quantity built on specific assumptions about gravity and matter, and ordinary physics like modified gravity or interacting dark sectors can mimic it without any fundamental pathology. This is a much-needed conceptual clarification as the field debates whether the DESI hints are real.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 752,
+  "tokens_out": 204,
+  "cost_usd": 0.005316,
+  "ingested_at": "2026-05-28T00:15:07.791869+00:00"
+}

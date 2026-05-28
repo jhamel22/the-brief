@@ -1,0 +1,24 @@
+{
+  "id": "2605.27326",
+  "arxiv_url": "https://arxiv.org/abs/2605.27326",
+  "announced_date": "2026-05-26",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Autonomous oscillations in quantum electromechanics: tensor network treatment",
+  "authors": "Mahasweta Pandit, Sheikh Parvez Mandal, Mark T. Mitchison, Javier Prior",
+  "abstract": "Transport-induced self-sustained oscillations in electromechanical systems convert a static electrochemical bias into robust, autonomous oscillatory motion in the absence of any external periodic drive. However, an exact description of such self-oscillations remains challenging in nanoscale electromechanical devices featuring a simultaneously large bosonic Hilbert space, strong interactions, and structured fermionic leads. We formulate a tensor-network framework that combines a binary representation of the vibrational mode with mesoscopic reservoir embeddings that enable controlled access to the self-oscillatory steady states and relevant transport observables without explicit real-time propagation. We demonstrate the emergence of mechanical self-oscillations across a broad set of operating conditions, in which strong electromechanical backaction, nonadiabatic oscillator dynamics, and energy-dependent electronic tunneling processes compete. Furthermore, we observe that for both slow and fast vibrating mechanical modes, suppressed vibrational occupation fluctuations in the self-oscillation window along the electromechanical coupling strength sweep is preceded by a peak in the occupation fluctuations. Collectively, we explore how both intrinsic system properties and environmental parameters govern such autonomous oscillations over a broad range of operating conditions. The generality of our framework will enable the method to be employed straightforwardly to more complicated or experimentally relevant scenarios.",
+  "title_relatable": "What makes a nanoscale device vibrate without any external push?",
+  "hook": "A new simulation method reveals how a steady voltage alone can set a nanomechanical device into self-sustaining oscillation.",
+  "summary": "Apply a static voltage to a nanoscale mechanical device and, under the right conditions, it spontaneously starts vibrating on its own — no periodic drive needed. Pinning down exactly when and why this happens has been computationally brutal because the physics involves large quantum state spaces, strong interactions, and complicated electrodes all at once. This work builds a tensor-network method that sidesteps the usual bottlenecks, mapping out the full landscape of these self-oscillations and revealing a tell-tale spike in vibration fluctuations that reliably precedes the quiet, stable oscillation regime.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 734,
+  "tokens_out": 203,
+  "cost_usd": 0.005247,
+  "ingested_at": "2026-05-28T00:17:26.092616+00:00"
+}

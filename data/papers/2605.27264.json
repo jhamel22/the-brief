@@ -1,0 +1,24 @@
+{
+  "id": "2605.27264",
+  "arxiv_url": "https://arxiv.org/abs/2605.27264",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.SR",
+    "astro-ph.HE",
+    "nucl-th"
+  ],
+  "title_original": "Temperature-resolved sensitivities of $^{56}{\\rm Ni}$ production to helium-burning reactions in pair-instability supernovae",
+  "authors": "Hiroki Kawashimo, Nobuya Nishimura, Yudai Suwa",
+  "abstract": "We propose a temperature-resolved Monte Carlo (MC) approach to identify the temperature regimes in which low-energy helium-burning reaction rates most strongly affect nucleosynthesis in very massive stars that undergo pair-instability supernovae (PISNe). By performing MC simulations of PISNe, we quantify how temperature-dependent variations in key helium-burning reaction rates, i.e., the triple-$α$ and $^{12}{\\rm C}(α,γ)^{16}{\\rm O}$ rates, influence $^{56}{\\rm Ni}$ synthesis. Thousands of stellar evolution calculations using $\\texttt{MESA}$ reveal that both the $^{12}{\\rm C}(α,γ)^{16}{\\rm O}$ and triple-$α$ reactions exhibit their strongest sensitivity at $T \\simeq 2.5 \\times 10^{8}\\,{\\rm K}$, but with opposite correlation signs. We show that this temperature corresponds to the regime in which the ratio of the sampled rate multipliers is most clearly imprinted on the pre-carbon-burning C/O composition. This demonstrates that PISN nucleosynthesis can probe helium-burning reaction rates in specific low-temperature regimes.",
+  "title_relatable": "Which helium-burning reactions matter most for exploding supermassive stars?",
+  "hook": "Pair-instability supernovae are exquisitely sensitive to reaction rates at 250 million Kelvin—a temperature sweet spot where tiny nuclear uncertainties produce measurable changes in nickel-56 yields.",
+  "summary": "Pair-instability supernovae occur in stars so massive they essentially explode from radiation pressure. The team ran thousands of stellar simulations varying helium-burning reaction rates to pinpoint which temperatures matter most. They found that the triple-alpha and carbon-alpha reactions both show peak sensitivity at 250 million Kelvin, where they shape the carbon-to-oxygen ratio before the explosion—offering a way to constrain nuclear physics from future supernova observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 748,
+  "tokens_out": 202,
+  "cost_usd": 0.0014064000000000001,
+  "ingested_at": "2026-05-28T00:20:08.371764+00:00"
+}

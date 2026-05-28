@@ -1,0 +1,23 @@
+{
+  "id": "2605.27102",
+  "arxiv_url": "https://arxiv.org/abs/2605.27102",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "JLT: Clean-Latent Prediction in Latent Diffusion Transformers",
+  "authors": "Funing Fu, Tenghui Wang, Junyong Cen, Qichao Zhu, Guanyu Zhou",
+  "abstract": "Flow matching with clean-data prediction has shown that regressing the clean point can exploit low-dimensional structure more effectively than predicting an ambient noised quantity. We ask whether this principle remains useful after images are mapped into a learned latent space, where compression has already removed much of the raw pixel variability. We introduce JLT, a 130M latent diffusion Transformer over frozen FLUX.2 VAE codes, and compare clean-latent prediction with a matched velocity-prediction DiT under the same representation, backbone, and training settings. Although the three variables x, epsilon, and v are linearly convertible for a fixed corruption time, a local Gaussian analysis shows that velocity regression inherits an isotropic target-covariance floor and amplifies low-variance latent directions, while clean prediction damps them. On ImageNet 256 x 256, JLT-B/1 obtains FID-50K 2.50 with classifier-free guidance, with a large matched-target gap over velocity prediction. These results suggest that prediction targets in latent diffusion are representation-dependent geometric choices, rather than interchangeable algebraic parameterizations.",
+  "title_relatable": "Does predicting clean images work better in compressed space?",
+  "hook": "Clean-latent prediction achieves FID 2.50 on ImageNet, outperforming velocity prediction in diffusion transformers despite mathematical equivalence.",
+  "summary": "Diffusion models can predict images by regressing toward clean pixels or toward noise—mathematically equivalent operations. But a team tested whether this choice matters after compression into learned latent codes. Their 130M JLT model predicts clean latents rather than velocity, achieving FID-50K 2.50 on ImageNet 256×256. Local geometric analysis reveals velocity regression amplifies low-variance directions while clean prediction dampens them, suggesting the choice of prediction target is representation-dependent and not merely algebraic.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 713,
+  "tokens_out": 195,
+  "cost_usd": 0.0013504,
+  "ingested_at": "2026-05-28T00:22:11.670765+00:00"
+}

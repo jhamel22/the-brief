@@ -1,0 +1,24 @@
+{
+  "id": "2605.27242",
+  "arxiv_url": "https://arxiv.org/abs/2605.27242",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "astro-ph.HE"
+  ],
+  "title_original": "Strong-lensing degeneracies of black holes embedded in self-interacting scalar field dark matter halos",
+  "authors": "Mohsen Fathi, Gabriel Gómez",
+  "abstract": "In this paper, we explore the strong gravitational lensing properties of black holes embedded in self-interacting scalar field dark matter halos, together with NFW-type configurations for comparison. The corresponding spacetime geometry is reconstructed numerically through the Einstein cluster formalism, allowing us to study how the surrounding dark matter distribution affects the propagation of photons near the black hole. We first analyze the effective function governing photon trajectories and calculate the corresponding photon sphere radius and critical impact parameter. We then investigate different strong-lensing observables, including relativistic Einstein rings, finite-order image positions, image separations, magnifications, and time delays, with particular attention to the supermassive black holes M87* and Sgr A*. Our results show that the considered halo configurations produce only small deviations with respect to the Schwarzschild case, typically at the level of $\\mathcal{O}(10^{-3})$ or smaller, leading to a strong observational degeneracy among the models. Nevertheless, small but systematic differences remain present, especially in the time delay between relativistic images, which provides the clearest amplification of the halo-induced corrections for very massive black holes. These results suggest that, although standard strong-lensing observables remain highly robust against the considered halo environments, time-domain signatures may offer a more promising way to probe the effect of dark matter surrounding black holes.",
+  "title_relatable": "Can we tell what dark matter surrounds a black hole by watching light bend?",
+  "hook": "Dark matter halos around M87* and Sgr A* shift gravitational lensing signals by less than 0.1%, but time delays may still reveal them.",
+  "summary": "Different dark matter distributions around supermassive black holes produce nearly identical gravitational lensing signatures — Einstein rings, image positions, magnifications all agree to within one part in a thousand. The one exception is the time delay between relativistic images, which amplifies the dark matter signal most strongly for the heaviest black holes. For M87* and Sgr A*, this means standard Event Horizon Telescope-style imaging probably can't distinguish dark matter models, but future time-domain observations might.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 743,
+  "tokens_out": 193,
+  "cost_usd": 0.005124,
+  "ingested_at": "2026-05-28T00:15:12.544403+00:00"
+}

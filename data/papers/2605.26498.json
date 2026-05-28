@@ -1,0 +1,22 @@
+{
+  "id": "2605.26498",
+  "arxiv_url": "https://arxiv.org/abs/2605.26498",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Verilog-Evolve: Feedback-Driven and Skill-Evolving Verilog Generation",
+  "authors": "Zehua Pei, Hui-Ling Zhen, Yu Zhang, Sinno Jialin Pan, Mingxuan Yuan, Bei Yu",
+  "abstract": "Large language models (LLMs) have improved Verilog generation from natural-language specifications, but most pipelines still treat generation as isolated sampling followed by functional checking. This is insufficient for practical RTL design, where useful Verilog must be correct, synthesizable, timing-conscious, and friendly to downstream hardware objectives. We present Verilog-Evolve, a feedback-driven framework for versioned Verilog refinement and cross-session skill evolution. For each task, Verilog-Evolve generates diverse minor candidates, evaluates them with executable feedback from functional simulation, Yosys synthesis, ABC timing proxy, and optional GEMM metrics, then promotes the best candidate into a major version under configurable scoring. To improve across tasks, the system maintains modular skill guidance, retrieves skills according to task and feedback context, and evolves candidate skills from logged histories through create/improve/skip decisions and verifier reports. Experiments on VerilogEval and mixed-precision GEMM tasks show that Verilog-Evolve improves final functional success and promotion stability while producing more downstream-friendly RTL under open-source synthesis, timing-proxy, and netlist-level GEMM objectives. Validation-gated skill evolution further improves GEMM downstream quality and achieves the best downstream score and GEMM held-out pass rate among the evaluated skill modes.",
+  "title_relatable": "How to make AI write better hardware code through iteration and learning",
+  "hook": "LLMs now refine Verilog designs across synthesis, timing, and hardware metrics—learning reusable skills from each attempt to improve success rates.",
+  "summary": "Verilog-Evolve treats hardware code generation as an iterative refinement problem, not a one-shot task. The system generates candidate designs, tests them against functional simulation, synthesis checks, and timing constraints, then promotes the best version and logs reusable \"skills\" for future tasks. On VerilogEval and GEMM benchmarks, this feedback loop improves functional correctness and downstream hardware quality compared to isolated sampling—showing that AI can learn and apply design patterns across multiple RTL generation problems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 773,
+  "tokens_out": 195,
+  "cost_usd": 0.0013984000000000002,
+  "ingested_at": "2026-05-28T00:26:19.145357+00:00"
+}

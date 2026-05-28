@@ -1,0 +1,22 @@
+{
+  "id": "2605.26637",
+  "arxiv_url": "https://arxiv.org/abs/2605.26637",
+  "announced_date": "2026-05-26",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Enabling Extensible Embodied Capabilities with Tools",
+  "authors": "Xueyang Zhou, Zijia Wang, Qianjiang Li, Yibo Hu, Guiyao Tie, Li Wan, Yidan Liu, Pan Zhou, Lichao Sun, Yongchao Chen",
+  "abstract": "Most existing embodied intelligence methods formulate perception, reasoning, planning, and control within a unified parameterized policy. Yet these capabilities are inherently hierarchical and heterogeneous, making them difficult to reliably learn and modularize within a single model. We propose a capability externalization approach that decouples heterogeneous capabilities into independently optimized tools, dynamically invoked at inference time. To this end, we introduce Embodied Tool Protocol (ETP), a standardized protocol for embodied tool registration, discovery, invocation, and execution, and curate 100+ validated tools spanning perception, cognition, reasoning, and execution as the tool base. Building on this, we construct EmbodiedToolBench to evaluate both whether tool augmentation improves embodied performance and how well current models use tools across tool-necessity recognition, tool selection, tool execution, and tool-chain composition. Experiments across simulation and real-world platforms confirm that capability externalization consistently improves embodied performance (avg. gain 31% on EB-ALFRED and 36% on EB-Navigation), yet reveal a clear boundary: gains are substantial for cognition and perception but are limited for execution-type capabilities. Moreover, our analysis reveals that knowing when, which, and how to invoke tools remains a persistent challenge across all models, thereby highlighting embodied tool competence as a critical direction for future research.",
+  "title_relatable": "Should robots outsource their brains to tools?",
+  "hook": "Splitting robot tasks into 100+ specialized tools boosts performance 31–36%, but models still struggle knowing which tool to use when.",
+  "summary": "Current embodied AI systems jam perception, reasoning, and control into one model, making them brittle. This work decouples capabilities into independent tools—specialized modules for seeing, thinking, and acting—that a robot calls on as needed. Testing on navigation and household tasks shows 31–36% gains, but reveals the real bottleneck: models are poor at deciding *when* and *which* tools to invoke, not at executing them.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 768,
+  "tokens_out": 172,
+  "cost_usd": 0.0013024,
+  "ingested_at": "2026-05-28T00:30:06.900821+00:00"
+}

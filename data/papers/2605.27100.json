@@ -1,0 +1,22 @@
+{
+  "id": "2605.27100",
+  "arxiv_url": "https://arxiv.org/abs/2605.27100",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Logistic dynamics of small populations with demographic stochasticity",
+  "authors": "Lucas M. Brugevin, Damián H. Zanette",
+  "abstract": "We study an ecology-inspired model for a population of bounded size, whose dynamics is governed by random birth, death, and immigration events. Stochastic fluctuations in the number of individuals give rise to a succession of alternating active and vacant periods, where the population is respectively extant and extinct. Using both analytical and numerical techniques, we characterize the statistics of the two kinds of period, quantifying their duration and frequency, and the typical population sizes in active periods. In sharp contrast to the deterministic mean-field behavior, governed by logistic dynamics, active periods may exhibit pronounced bimodality: either short durations with very small populations, or much longer durations with population sizes close to the maximum. We also investigate how these results change when the population evolves on random networks of three classes: Erdős-Rényi, regular, and geographic. The main effect of the network structure is to induce population clustering, with individuals aggregated into localized groups. This, in turn, limits population growth and increases the frequency of vacant periods.",
+  "title_relatable": "Why small populations flip between thriving and vanishing",
+  "hook": "Random births and deaths create a weird split personality: populations either crash fast or survive long, defying textbook predictions.",
+  "summary": "Small populations don't behave like shrunk versions of large ones. Random birth-death events push populations into alternating boom and bust cycles, with active periods showing a strange split: either tiny populations barely limping along, or near-capacity survivors. When individuals cluster geographically rather than mix freely, extinction becomes more frequent—a pattern that matters for conservation of endangered species and disease elimination.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 617,
+  "tokens_out": 155,
+  "cost_usd": 0.0011136,
+  "ingested_at": "2026-05-28T00:45:02.360744+00:00"
+}

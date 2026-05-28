@@ -1,0 +1,22 @@
+{
+  "id": "2605.27070",
+  "arxiv_url": "https://arxiv.org/abs/2605.27070",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Geometrically constrained multi-kink configurations in generalized impurity-doped field theories",
+  "authors": "D. Bazeia, M. A. Liao, M. A. Marques",
+  "abstract": "This short communication investigates impurity coupling in generalized field theories where scalar coupling is introduced directly at the level of the kinetic and gradient contributions of the energy. We show that the fundamental aspects of the original theory, which has been previously investigated in the impurity-free setting, can be extended to the inhomogeneous scenario. In particular, an interpretation in terms of geometrically-constrained effective one-field theories with impurities is possible in the separable case. We show that BPS multi-kink configurations are possible in the model, as well as in the usual half-BPS scalar theories.",
+  "title_relatable": "Can impurities stabilize multiple solitons in modified field theories?",
+  "hook": "Physicists show that defects built into field equations allow stable multi-kink configurations previously thought impossible, opening new solutions to old problems.",
+  "summary": "The authors studied how impurities (localized defects) affect scalar field theories with unusual kinetic terms. They found that multi-kink solitons—distinct particle-like structures—can coexist stably when impurities are present, extending BPS solutions beyond uniform field theories. This suggests impurities can geometrically organize complex field configurations.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 571,
+  "tokens_out": 161,
+  "cost_usd": 0.0011007999999999999,
+  "ingested_at": "2026-05-28T00:16:42.085252+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.27090",
+  "arxiv_url": "https://arxiv.org/abs/2605.27090",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "Open Data from LIGO, Virgo, and KAGRA through the Second Part of the Fourth Observing Run",
+  "authors": " The LIGO Scientific collaboration,  the Virgo collaboration,  the KAGRA collaboration",
+  "abstract": "LIGO, Virgo, KAGRA, and GEO form a network of gravitational-wave observatories. Data and analysis results from this network are made publicly available through the Gravitational Wave Open Science Center (GWOSC). This paper describes open data from this network, including the addition of data from the second part of the fourth observing run (O4b) and selected periods from the preceding engineering run (ER16), which were collected from times spanning April 6th, 2024 to January 28th, 2025. The public data set includes calibrated strain time series for each instrument, data from additional channels used for noise subtraction and detector characterization, and new analysis data products in the online GWOSC release associated with version 5.0 of the Gravitational-Wave Transient Catalog.",
+  "title_relatable": "What 10 months of gravitational-wave data reveal about the cosmos",
+  "hook": "All four gravitational-wave detectors released 10 months of observations and thousands of analysis products. Citizens can now search for ripples in spacetime themselves.",
+  "summary": "The global network of gravitational-wave detectors—LIGO, Virgo, KAGRA, and GEO—released raw and processed data from April 2024 through January 2025, plus engineering runs beforehand. The open archive includes detector noise measurements, calibration details, and updated catalogs of candidate signals. Anyone can download and analyze the data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 634,
+  "tokens_out": 168,
+  "cost_usd": 0.0011792,
+  "ingested_at": "2026-05-28T00:20:13.207615+00:00"
+}

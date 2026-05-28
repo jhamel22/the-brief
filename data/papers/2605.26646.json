@@ -1,0 +1,24 @@
+{
+  "id": "2605.26646",
+  "arxiv_url": "https://arxiv.org/abs/2605.26646",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.MA"
+  ],
+  "title_original": "UnityMAS-O: A General RL Optimization Framework for LLM-Based Multi-Agent Systems",
+  "authors": "Yiqun Chen, Wei Yang, Erhan Zhang, Shijie Wang, Qi Liu, Zechun Niu, Bin Zhang, Haitao Li, Rui Li, Lingyong Yan, Jinyuan Feng, Biqing Qi, Xiaochi Wei, Yan Gao, Yi Wu, Yao Hu, Jiaxin Mao",
+  "abstract": "LLM-based multi-agent systems decompose complex tasks into interacting roles, but most remain manually orchestrated by prompts, tools, and control rules, while agents are rarely optimized through a unified reinforcement learning interface. Existing RL post-training frameworks mainly target single-policy optimization and lack abstractions for user-defined multi-agent workflows, structured interaction, role-specific credit assignment, and configurable parameter sharing. We present UnityMAS-O, a general RL optimization framework for LLM-based multi-agent systems. UnityMAS-O treats the complete workflow as the optimization unit, rather than a single response or policy trajectory. It represents workflows through four first-class objects: logical agent roles, graph trajectories, user-defined rewards, and agent--model mappings. This decouples logical agents from physical model parameters, supporting full sharing, full separation, and partial sharing, with rewards assigned at role, turn, and trajectory levels. UnityMAS-O extends verl with a Ray-based star-topology runtime. A central controller executes workflows, invokes tools, records structured trajectories, and assembles rewards; model-local worker groups handle rollout, buffering, advantage computation, and distributed PPO-style updates. Users can define agents, workflows, model mappings, and rewards without rewriting the optimization infrastructure. We instantiate UnityMAS-O on retrieval-augmented QA, iterative agentic search, and reflective code generation. Across Natural Questions, HotpotQA, and held-out code tasks, multi-agent RL improves manually specified workflows after optimization, with especially large gains for smaller models and strict code all-passed metrics. These results show that UnityMAS-O can serve as a reusable substrate for converting diverse LLM-based multi-agent workflows into trainable multi-agent RL systems.",
+  "title_relatable": "How to train multi-agent LLM teams end-to-end?",
+  "hook": "Framework optimizes entire multi-agent workflows with RL instead of manual prompts; gains especially large for smaller models on QA and code generation.",
+  "summary": "Most multi-agent LLM systems rely on hand-crafted prompts and rules rather than learning. UnityMAS-O treats the whole workflow—agents, tools, interactions—as a single trainable unit, letting you define agent roles, reward structures, and parameter sharing without rebuilding optimization code. On question-answering and code generation, RL training improves smaller models substantially over manually specified baselines, suggesting this approach could become a standard way to develop multi-agent systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 933,
+  "tokens_out": 189,
+  "cost_usd": 0.0015024,
+  "ingested_at": "2026-05-28T00:26:13.674657+00:00"
+}

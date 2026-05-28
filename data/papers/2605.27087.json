@@ -1,0 +1,22 @@
+{
+  "id": "2605.27087",
+  "arxiv_url": "https://arxiv.org/abs/2605.27087",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Cosmological Constraints from Bias-Robust Wavelet Scattering Statistics for Stage-IV Galaxy Surveys",
+  "authors": "Zhujun Jiang, Xu Xiao, Fenfen Yin, Xiao-Dong Li, Le Zhang",
+  "abstract": "A central challenge in precision cosmology with galaxy surveys is to extract non-Gaussian information from large-scale structure while controlling systematic uncertainties such as tracer bias. Conventional clustering statistics, such as the two-point correlation function (2PCF), capture limited nonlinear information and typically require explicit bias modeling, which can introduce systematic errors if the adopted bias prescription is inaccurate. To address this problem, we introduce $R^{\\rm wst}$, a bias-robust statistic constructed from $m$-mode ratios of the wavelet scattering transform (WST). Using simulation-based inference, we train a Gaussian-process-regression emulator on the \\texttt{Kun} simulation suite and use \\texttt{JiuTian} simulations for covariance estimation and validation. The emulator achieves percent-level accuracy, sufficient for the expected observational uncertainties. We show that $R^{\\rm wst}$ yields unbiased constraints on $Ω_m$, $σ_8$, $n_s$, and $w_0$, and improves the breaking of the $Ω_m$--$σ_8$ degeneracy by about a factor of two compared with 2PCF. Its constraining power remains stable across a broad range of tracer-bias scenarios, demonstrating that $R^{\\rm wst}$ can mitigate bias-induced systematics without explicit bias modeling. These results establish $R^{\\rm wst}$ as a powerful and robust statistic for precision cosmology with Stage-IV surveys.",
+  "title_relatable": "Can wavelet statistics extract cosmology without modeling galaxy bias?",
+  "hook": "New method squeezes twice as much constraining power from galaxy surveys while dodging a major systematic error that plagues conventional approaches.",
+  "summary": "Galaxies cluster in ways that depend on both cosmology and their own physical properties—a degeneracy called tracer bias that corrupts standard measurements. This work uses wavelet scattering transforms to build a statistic robust to bias variation, tested on simulations. The method breaks the Ωm–σ8 degeneracy twice as well as traditional approaches and maintains accuracy across different bias scenarios, potentially eliminating a source of systematic error for next-generation surveys.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 809,
+  "tokens_out": 180,
+  "cost_usd": 0.0013672,
+  "ingested_at": "2026-05-28T00:18:27.535470+00:00"
+}

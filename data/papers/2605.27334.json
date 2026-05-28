@@ -1,0 +1,22 @@
+{
+  "id": "2605.27334",
+  "arxiv_url": "https://arxiv.org/abs/2605.27334",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Supermassive Black Holes: modelling strongly and weakly magnetised misaligned accretion disks",
+  "authors": "Joshua Samuel Stanway, Cora Prather, Derek Ward-Thompson, Timothy J. Walton, Brett Patterson, Hyerin Cho",
+  "abstract": "In this paper, we carry out a numerical study of misaligned accretion disks around spinning supermassive black holes. Here, we conduct a parameter survey covering a range of initial disk misalignment angles ($\\mathcal{T}_\\mathrm{init}=15^\\circ, 45^\\circ, 75^\\circ$) with either the Magnetically Arrested Disk (MAD) or Standard And Normal Evolution (SANE) magnetic field configurations, using the general-relativistic magnetohydrodynamic (GRMHD) code KHARMA. We find that models in the MAD state can align with the black hole up to $\\sim10 \\, r_g$, even in extremely misaligned models ($\\mathcal{T}_\\mathrm{init}=75^\\circ$), which has not been seen before. Models without a dynamically important magnetic field remain misaligned up to the black hole, with a maximum disk tilt at $\\sim10 \\, r_g$, the peak's radial distance from the black hole increases with increasing disk misalignment. However, the maximum disk tilt does not have a linear relationship with the initial disk misalignment, and appears to have a maximum value of $\\sim50^\\circ$. We also show misaligned disk simulations produced in KHARMA are consistent with other GRMHD codes, for a variety of problems.",
+  "title_relatable": "Do powerful magnetic fields force misaligned black hole disks to line up?",
+  "hook": "Simulations show strongly magnetized disks around black holes can realign themselves even when tilted 75°—a surprising discovery with implications for jet formation.",
+  "summary": "Using supercomputer simulations of matter spiraling into spinning black holes, researchers tested what happens when accretion disks start at extreme angles (up to 75° tilt). Strongly magnetized disks snapped into alignment within 10 gravitational radii, but weakly magnetized ones stayed tilted. This magnetic alignment mechanism, never clearly observed before, could explain why some black hole jets point in unexpected directions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 784,
+  "tokens_out": 179,
+  "cost_usd": 0.0013432000000000001,
+  "ingested_at": "2026-05-28T00:20:05.569263+00:00"
+}

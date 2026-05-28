@@ -1,0 +1,22 @@
+{
+  "id": "2605.27206",
+  "arxiv_url": "https://arxiv.org/abs/2605.27206",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Structure of $\\mathcal{N} = 2$ superfield higher-spin abelian cubic interactions",
+  "authors": "Nikita Zaigraev",
+  "abstract": "In this article we study the structure of the $\\mathcal{N}=2$ abelian higher-spin cubic $(\\mathbf{s_1}, \\mathbf{s_2}, \\mathbf{s_2})$ vertices and the corresponding $\\mathcal{N}=2$ higher-spin supercurrents, introduced in arXiv:2408.00668. These interactions are possible only for $\\mathbf{s_1} \\geq 2 \\mathbf{s_2}$. Conserved supercurrents are constructed as descendants of the \\textit{principal supercurrent}, which is uniquely characterized by simple differential conditions and admits an explicit representation in terms of $\\mathcal{N}=2$ higher-spin super-Weyl tensors. We derive the analytic form of the abelian vertices and identify the corresponding analytic higher-spin $\\mathcal{N}=2$ supercurrents. We show that the vertex structure is fully determined by the analytic supercurrents $J^{++}_{α(s-1)\\dotα(s-1)}$, $J^+_{α(s-1)\\dotα(s-2)}$, and $\\bar{J}^+_{α(s-2)\\dotα(s-1)}$. The analytic form of the vertices provides a simple framework for analyzing their component structure. As an example, we explore the component content of such interactions on the Bel--Robinson diagonal. Using the superfield inverse Noether procedure, we study higher-spin gauge transformations for the $\\mathcal{N}=2$ vector multiplet associated with the $(\\mathbf{s}, \\mathbf{1}, \\mathbf{1})$ interaction. In the rigid limit, for odd $\\mathbf{s}$ these transformations reduce to the $\\mathcal{N}=2$ superspace generalization of zilch-type higher-spin symmetries.",
+  "title_relatable": "How do spinning particles interact in supersymmetric theories?",
+  "hook": "Mathematical framework reveals how higher-spin particles couple in theories with extended supersymmetry, with unexpected constraints on which spins can interact.",
+  "summary": "Researchers mapped out how particles with different spins interact in N=2 supersymmetric theories, finding that only certain spin combinations are allowed—specifically when one spin is at least twice as large as the others. The key insight is that all such interactions are completely determined by a small set of conserved currents, which provides a clean way to understand both the overall structure and the detailed component properties of these interactions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 887,
+  "tokens_out": 167,
+  "cost_usd": 0.0013775999999999999,
+  "ingested_at": "2026-05-28T00:16:35.086048+00:00"
+}

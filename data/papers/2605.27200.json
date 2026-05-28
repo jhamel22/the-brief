@@ -1,0 +1,22 @@
+{
+  "id": "2605.27200",
+  "arxiv_url": "https://arxiv.org/abs/2605.27200",
+  "announced_date": "2026-05-26",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Topological Signatures of Imperial Stress: Persistent Homology of the Eastern Mediterranean Trade Network, 0--400 CE",
+  "authors": "Jose de Jesus Bernal Alvarado, David Delepine, Carlos Pinedo Guadarrama",
+  "abstract": "We apply persistent homology to the ORBIS Geospatial Network Model of the Roman World in order to quantify the structural resilience of the Eastern Mediterranean trade network between 0 and 400 ce. The network is represented as a weighted transport system whose edges correspond to road, maritime, and riverine routes, each carrying a base cost derived from the ORBIS cost model. To introduce historical dynamics into this static spatial infrastructure, we construct a differential friction model in which edge weights vary by decade and by transport mode according to documented historical perturbations, including epidemic mortality, civil war, military pressure, administrative reorganisation, and imperial reunification. For each decadal snapshot, we compute all-pairs shortest-path distances on the active sub-network and construct a Vietoris--Rips filtration using an adaptive threshold defined by the 90th percentile of finite pairwise distances. The resulting betti number ($β_1$) persistent entropy time series identifies three structurally distinct phases in the Eastern Mediterranean network. Phase~I, from 0 to 200 ce, is a stationary high-redundancy regime consistent with the commercial integration of the early imperial and Antonine periods. Phase~II, from 210 to 280ce, corresponds to recoverable stress during the Crisis of the Third Century: betti number ($β_1$) entropy declines during the crisis but returns to the Phase~I baseline following Aurelianic reunification. Phase~III, from 290 to 400 ce, is qualitatively different: cycle redundancy declines monotonically and does not recover. The main contribution of this study is to show that persistent homology detects a dimension of imperial stress that is not reducible to single economic, military, or political indicators.",
+  "title_relatable": "Did Rome's trade network topology reveal imperial collapse before it happened?",
+  "hook": "Topological analysis of Mediterranean trade routes from 0–400 CE shows the empire's crisis left a mathematical fingerprint: redundancy collapsed and never recovered, even when politics stabilized.",
+  "summary": "Researchers mapped the Roman Empire's trade network as a weighted graph and tracked how its topology changed across four centuries using persistent homology—a technique that counts cycles and loops in a system. They found three distinct phases: stable high-redundancy trade until 200 CE, temporary stress during the third-century crisis (which recovered), and irreversible structural decline from 290 onwards. This topological signature persisted even after imperial reunification, suggesting the network's resilience had fundamentally degraded.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 839,
+  "tokens_out": 197,
+  "cost_usd": 0.0014592000000000001,
+  "ingested_at": "2026-05-28T00:19:44.383235+00:00"
+}

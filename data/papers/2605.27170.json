@@ -1,0 +1,22 @@
+{
+  "id": "2605.27170",
+  "arxiv_url": "https://arxiv.org/abs/2605.27170",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Regular black hole solutions and the quark chemical potential at the QCD phase transition",
+  "authors": "G. Lambiase, A. Ovgun, V. Vertogradov",
+  "abstract": "Motivated by Refs.[1, 2], we investigate whether quantum chromodynamics (QCD)-inspired matter at finite quark chemical potential can dynamically support \\emph{regular} black-hole interiors during gravitational collapse. To this end, we couple two effective equations of state, namely a three-flavor chiral quark model at finite temperature and chemical potential and a cold-QGP mean-field model with a dynamical gluon mass, to a spherically symmetric advanced Eddington--Finkelstein geometry. The matter source is treated as an effective anisotropic fluid. Rather than assuming a regular mass profile a priori, we determine the radial temperature dependence from the local conservation law and reconstruct the mass function from the Einstein equations. In the chiral model, the conservation equation admits an exact Lambert-function solution, but the physical coefficients select a singular near-center branch. In the cold-QGP model, the exact implicit temperature-radius relation drives the temperature to diverge near the center, causing the thermodynamic source terms and the reconstructed mass function to become incompatible with the regular-center condition. We therefore find that, within the effective framework adopted here, finite quark chemical potential reshapes the thermodynamics of the collapse phase but does not by itself provide a self-regularizing black-hole core. Any regular completion must invoke an additional inner vacuum-like phase or further microphysics beyond the two QCD-inspired equations of state considered in this work.",
+  "title_relatable": "Can quark matter prevent black holes from forming singularities?",
+  "hook": "Physicists test whether matter at extreme densities could smooth out the infinite density at black hole centers, finding it cannot without additional physics.",
+  "summary": "During gravitational collapse, can the extreme quark matter present in the early universe prevent black holes from developing singularities? Using two different QCD-inspired models of matter under extreme pressure and temperature, researchers found that neither avoids the central singularity—temperature diverges at the center in both cases, blocking any regular (non-singular) interior. A resolution would require either an inner vacuum phase or physics beyond current models.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 761,
+  "tokens_out": 170,
+  "cost_usd": 0.0012888,
+  "ingested_at": "2026-05-28T00:20:10.993665+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.27107",
+  "arxiv_url": "https://arxiv.org/abs/2605.27107",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "physics.pop-ph",
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "A gentle introduction to the cosmological multiverse",
+  "authors": "Oliver Janssen",
+  "abstract": "We give an introduction to the cosmological multiverse, aimed at an audience of artists. We discuss general relativity -- our modern theory of gravity -- and the cosmological constant, which is widely believed to be responsible for the observed accelerated expansion of the universe. We then turn to a big puzzle that the cosmological constant poses, and, eventually, how the multiverse could solve this puzzle. There's no such thing as a free lunch, however: the multiverse can become arbitrarily large and old. The unsolved problem of making unambiguous predictions for observations in eternally accelerating universes is known as the measure problem of eternal inflation.",
+  "title_relatable": "Why does the universe's 'worst prediction' demand a multiverse?",
+  "hook": "A physicist explains to artists why the cosmological constant is 120 orders of magnitude off—and what that implies.",
+  "summary": "The cosmological constant—Einstein's term for the energy of empty space—is theoretically predicted to be vastly larger than observed, a discrepancy of 120 orders of magnitude that many physicists consider the worst prediction in science. One proposed fix is the multiverse: if countless universes exist with different constants, we simply live in one compatible with life. The catch is that an infinite multiverse makes clean predictions almost impossible, a problem called the measure problem of eternal inflation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 548,
+  "tokens_out": 174,
+  "cost_usd": 0.004254,
+  "ingested_at": "2026-05-28T00:16:11.172769+00:00"
+}

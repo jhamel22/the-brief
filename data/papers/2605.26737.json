@@ -1,0 +1,25 @@
+{
+  "id": "2605.26737",
+  "arxiv_url": "https://arxiv.org/abs/2605.26737",
+  "announced_date": "2026-05-26",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "nucl-th",
+    "hep-ex",
+    "hep-ph",
+    "nucl-ex"
+  ],
+  "title_original": "Cumulants of mean transverse momentum and elliptic flow in the hydrodynamic model of heavy-ion collisions",
+  "authors": "Tribhuban Parida, Piotr Bożek",
+  "abstract": "Higher order cumulants between the mean transverse momentum and elliptic flow are calculated in a relativistic viscous hydrodynamic model of relativistic heavy-ion collisions. The results of the hydrodynamic simulations are compared with calculations using event-by-event predictors of the final collective observables constructed from the initial state entropy distribution. The predictors describes quantitatively centrality dependence of the higher cumulants considered in the paper. We derive a quantitative relations between the cumulants of the mean transverse momentum and different moments of the harmonic flow. The hydrodynamic simulations satisfy those relation very well. Those relations could be used to test experimentally the collective origin of the observed correlations between the mean transverse momentum and harmonic flow.",
+  "title_relatable": "Do correlations between particle momentum and collision shape prove collective flow?",
+  "hook": "In heavy-ion collisions, researchers find that momentum and flow patterns are linked by mathematical relations that hydrodynamics predicts—offering a test for whether particles truly flow together.",
+  "summary": "When heavy ions collide, particles spray outward with correlations between their average momentum and the elongated shape (elliptic flow) of the blast. Using simulations of fluid dynamics, the team derives exact mathematical relations between these quantities and confirms hydrodynamic models satisfy them precisely. These relations could experimentally verify whether observed correlations arise from genuine collective flow or random chance.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 607,
+  "tokens_out": 169,
+  "cost_usd": 0.0011615999999999998,
+  "ingested_at": "2026-05-28T00:19:20.126786+00:00"
+}

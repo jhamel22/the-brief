@@ -1,0 +1,22 @@
+{
+  "id": "2605.26761",
+  "arxiv_url": "https://arxiv.org/abs/2605.26761",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Once-For-All: A Train-Once and Select-Anytime Framework for Multimodal Instruction Tuning",
+  "authors": "Mingkang Dong, Hongyi Cai, Xiwen Lei, Jie Li, Tao Zhang, Muxin Pu",
+  "abstract": "Multimodal instruction tuning is the de facto recipe for adapting vision language models (VLMs), yet instruction data are highly redundant, making data selection critical for training efficiency. Existing methods derive selection signals from a specific model or dataset, so whenever the target model or candidate pool changes, the criteria must be recomputed from scratch at substantial cost. To address this, we propose OFA, a data selection framework that trains a reusable selector once and applies it to any dataset or model without recomputation. OFA clusters multimodal instructions in a frozen CLIP space, derives pseudo labels from the cluster structure, and trains a lightweight selector for only a few epochs; samples on which this selector is least confident are selected as the most informative. Once trained, the frozen selector transfers directly across datasets and model scales. The selector is trained once on LLaVA-665K and applied both to LLaVA-665K itself and, without any retraining, to the unseen Vision-Flan-186K. Selecting only 15% of the data, OFA achieves 98.3% of full data performance across 10 downstream benchmarks; on the smaller Vision-Flan-186K, the transferred selector surpasses full data training by 10.6%, confirming that the learned signal generalizes to datasets never seen during selector training. The same selected subsets benefit VLMs at both Qwen2.5-VL-3B and LLaVA-v1.5-7B without per model recomputation, decoupling selection from the target model. These results demonstrate that a single, transferable selector provides an effective and reusable solution for efficient multimodal instruction tuning.",
+  "title_relatable": "Train a selector once, reuse it on any vision-language model",
+  "hook": "One trained data selector works across datasets and models, achieving 98.3% full performance with just 15% of instruction data.",
+  "summary": "Multimodal instruction tuning relies on redundant data, forcing expensive recomputation whenever you switch models or datasets. OFA trains a lightweight selector once using CLIP embeddings and pseudo-labeling, then reuses it without retraining on new datasets or model sizes. Selecting just 15% of LLaVA-665K hits 98.3% of full-data performance across 10 benchmarks; transferred to unseen Vision-Flan-186K, the selector actually outperforms full-data training by 10.6%. Same subsets work for both 3B and 7B models with zero retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 845,
+  "tokens_out": 222,
+  "cost_usd": 0.001564,
+  "ingested_at": "2026-05-28T00:28:21.312443+00:00"
+}

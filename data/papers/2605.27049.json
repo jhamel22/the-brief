@@ -1,0 +1,24 @@
+{
+  "id": "2605.27049",
+  "arxiv_url": "https://arxiv.org/abs/2605.27049",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-ex",
+    "hep-th"
+  ],
+  "title_original": "Family-separated seesaw relations of Majorana neutrinos",
+  "authors": "Zhi-zhong Xing",
+  "abstract": "Given the canonical seesaw mechanism as a most natural extension of the standard model in its neutrino sector, we find out a special but brand new solution to the exact seesaw equation: $m^{}_i/M^{}_i = - R^2_{αi}/U^2_{αi}$ for the masses and flavor mixing matrix elements of light and heavy Majorana neutrinos of the $i$-th family (for $i = 1, 2, 3$ and $α= e, μ, τ$). This family-separated seesaw scenario allows us to establish simple relations between the original seesaw parameters and the active degrees of freedom, and thus offers some testable predictions such as a direct correlation between the CP-violating effects in light neutrino flavor oscillations and heavy Majorana neutrino decays.",
+  "title_relatable": "What if neutrino masses unlock a hidden symmetry between light and heavy partners?",
+  "hook": "A new seesaw solution links neutrino oscillations directly to CP violation in hypothetical heavy particle decay—offering a way to test the mechanism behind neutrino mass.",
+  "summary": "The seesaw mechanism explains tiny neutrino masses by pairing them with superheavy partners, but the equations allow multiple solutions. This work finds a special family-organized solution that connects light neutrino behavior (flavor oscillations) directly to heavy neutrino decay properties through CP violation. The prediction is testable: measure oscillations in one place, predict heavy particle signatures elsewhere.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 612,
+  "tokens_out": 174,
+  "cost_usd": 0.0011856,
+  "ingested_at": "2026-05-28T00:16:44.711837+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.27311",
+  "arxiv_url": "https://arxiv.org/abs/2605.27311",
+  "announced_date": "2026-05-26",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models",
+  "authors": "Yifan Jiang, Dae Yon Hwang, Jesse C. Cresswell, Freda Shi",
+  "abstract": "Chart question-answering (QA) benchmarks aim to pose questions that require visual reasoning to correctly answer, but models can often reach solutions through shortcuts or prior familiarity with a chart based on their own background knowledge. To strictly evaluate visual reasoning, we propose counterfactual charts where the chart-question task remains fixed, but underlying chart and the corresponding answer are varied. We introduce Chartographer, a framework to reverse engineer charts into executable code, validate reconstruction fidelity, generate seed-controlled counterfactual variants, and derive new answers from executable QA logic. We apply this framework to existing chart QA datasets and evaluate proprietary and open-source vision-language models (VLMs), measuring variation sensitivity and generalizability. Counterfactual charts reveal failures hidden by single-chart performance: VLMs often fail to generalize after answering the original chart correctly. We find failures are most prevalent when updated charts require novel visual reasoning pathways.",
+  "title_relatable": "Do vision models actually understand charts or just memorize them?",
+  "hook": "New benchmark exposes vision-language models failing on simple chart variations they should handle easily.",
+  "summary": "Chart question-answering benchmarks often let models cheat by recognizing familiar patterns rather than truly reading visual data. Chartographer reverses engineer charts into code, then generates variants with identical logic but different visuals—revealing whether models actually understand what they're looking at. Tests on GPT-4V and open-source VLMs show they frequently fail these counterfactual versions despite acing the original, exposing brittle reasoning masked by single-chart scores.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 660,
+  "tokens_out": 169,
+  "cost_usd": 0.001204,
+  "ingested_at": "2026-05-28T00:28:45.877029+00:00"
+}

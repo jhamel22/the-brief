@@ -1,0 +1,24 @@
+{
+  "id": "2605.27043",
+  "arxiv_url": "https://arxiv.org/abs/2605.27043",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Causal Representation Learning for Generalisable Recommendation",
+  "authors": "Yorgos Felekis, Michael O'Riordan, Oriol Corcoll, Ciarán M. Gilligan-Lee",
+  "abstract": "Predictive models trained on observational data often fail to generalise to the distributions they encounter when deployed, especially when the training data is a product of the system being optimised. Recommender systems are a canonical example: they are trained on interaction logs confounded by the deployed policy, past user behaviour, and platform filtering. As a result, the training distribution differs substantially from the candidate distribution scored at serving time, a gap that makes offline metrics unreliable predictors of online performance. We address the distribution shift problem with a method motivated by causal representation learning (CRL). We propose an information-theoretic disentanglement criterion and prove that its optimum depends only on the causal components of the input. We then derive a tractable variational lower bound that makes the criterion optimisable from finite observational data alone. The scope of our method is narrower than that of much of the CRL literature, in that we target better generalisation under distribution shift, not full identification of all latent causal factors. This narrower target is what makes the method practical, requiring only the existing confounded logs, applying to any standard supervised model, and adding no inference-time cost. Our headline evaluation is an A/B test with millions of users on Spotify, applied to a production ranker for personalised playlist generation. A capacity-matched CRL variant performed on par offline but delivered substantial online gains in listener engagement. Complementary evidence on the public KuaiRand recommendation dataset and a synthetic benchmark with known causal structure shows the same pattern: offline parity with baseline, gains under distribution shift. Across all three settings, adding our causal disentanglement objective yields meaningfully better out-of-distribution generalisation.",
+  "title_relatable": "Why recommender systems fail in the wild—and how causality helps",
+  "hook": "Spotify's ranker stays offline-equivalent but boosts engagement online by learning causal factors, not just patterns in biased logs.",
+  "summary": "Recommender systems trained on interaction logs fail when deployed because those logs reflect past policies and user behaviour, not true preferences. This team applies causal representation learning to disentangle confounded signals, deriving an information-theoretic criterion optimisable on observational data alone. Testing on Spotify's playlist ranker with millions of users: the method matched offline baselines but delivered measurable online gains in listener engagement, with similar results on public benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 819,
+  "tokens_out": 177,
+  "cost_usd": 0.0013632,
+  "ingested_at": "2026-05-28T00:22:17.377054+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.26437",
+  "arxiv_url": "https://arxiv.org/abs/2605.26437",
+  "announced_date": "2026-05-26",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Divergent Minds, Convergent Baselines: A Bounded-Rationality Account of LLM-Human Strategic Behaviour",
+  "authors": "Po Han Teo",
+  "abstract": "Researchers have started using LLM agents in place of human subjects in behavioural and political-science experiments, often as a cheaper substitute for laboratory pools. The substitution does not hold up in strategic settings: humans and LLMs reliably make different choices, and neither fine-tuning on human response data nor persona conditioning has closed the gap. The behavioural-economics literature has, since Simon's introduction of bounded rationality, modelled human strategic behaviour as a classical baseline plus an additive correction term $δ$. The framework proposed here reads $δ$ as the mathematical signature of bounded computation: the gap between what an unboundedly-rational agent would compute and what a computationally bounded agent actually produces. For canonical games whose solutions are present in standard training corpora, LLMs retrieve and recombine corpus material, bypassing the bound that produces $δ$ in humans. The framing extends to reasoning-distilled models through cognitive-hierarchy theory: their accessible level-$k$ strategic reasoning is bounded by compute budget and context length rather than by the cognitive constraints that bound humans, and the $δ$ they produce, if any, carries different structural signatures. Four operational tests (conditional dependence, distributional asymmetry, path-dependence under repetition, and paraphrase-robustness) are proposed to discriminate human-shaped $δ$ from LLM-shaped $δ$. A moderator prediction is that $|δ|$ scales with peer-signal individuation in the decision environment, with a quantitative bound of Cohen's $d \\geq 0.5$ between named-opponent and aggregate-opponent settings.",
+  "title_relatable": "Why AI and humans play games so differently",
+  "hook": "Large language models make fundamentally different strategic choices than humans, and no amount of fine-tuning fixes it. The reason: they compute answers differently.",
+  "summary": "When researchers substitute LLMs for human subjects in game-theory experiments, the results don't match—humans and AI make systematically different strategic moves. The paper frames this gap as bounded rationality: humans are constrained by cognitive limits, while LLMs retrieve answers from training data, bypassing those constraints entirely. The difference matters for anyone using AI agents in behavioral experiments or strategic simulations—you're not getting human-like reasoning, just pattern matching that mimics it.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 763,
+  "tokens_out": 178,
+  "cost_usd": 0.0013224,
+  "ingested_at": "2026-05-28T00:45:51.481715+00:00"
+}

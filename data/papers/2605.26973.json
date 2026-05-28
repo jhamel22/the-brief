@@ -1,0 +1,26 @@
+{
+  "id": "2605.26973",
+  "arxiv_url": "https://arxiv.org/abs/2605.26973",
+  "announced_date": "2026-05-26",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "stat.ML",
+    "cond-mat.dis-nn",
+    "cs.LG",
+    "cs.NE",
+    "q-bio.NC"
+  ],
+  "title_original": "Signal-to-Noise Ratio and Sample Size Govern Representational Alignment in Neural Networks",
+  "authors": "Ali Hussaini Umar, Alessandro Laio",
+  "abstract": "Neural networks are known to develop latent representations that are $aligned$, namely structurally similar across networks trained with different architectures, training protocols, or training datasets. We study this phenomenon in a controlled setting, where we train an ensemble of networks on regression and classification tasks using training sets perturbed by independent realizations of a noise process. We show that the signal-to-noise ratio (SNR) and the training sample size influence the alignment in qualitatively similar ways in networks trained on real-world datasets and in an extremely simple $linear$ network with a single hidden layer, for which the alignment can be estimated analytically. Across linear and nonlinear networks, regression and classification tasks, and both synthetic and real-world data, we consistently observe that alignment varies monotonically with SNR but non-monotonically with training sample size. In particular, the alignment is minimized near the interpolation threshold, and a stronger alignment does not necessarily correspond to better generalization error. These findings reveal a non-trivial dependence of alignment on data quality and quantity, decoupled from generalization performance.",
+  "title_relatable": "Why do neural networks develop similar internal patterns regardless of how they're trained?",
+  "hook": "Neural networks trained differently converge on similar internal structures—but only when data quality and quantity hit a sweet spot, not always when they generalize best.",
+  "summary": "Networks trained on the same task with different architectures or datasets spontaneously develop aligned internal representations. The alignment depends on signal-to-noise ratio and training set size in unexpected ways: alignment actually dips near the point where networks memorize training data perfectly, and better alignment doesn't guarantee better predictions. This decoupling suggests alignment and generalization are governed by different forces.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 635,
+  "tokens_out": 164,
+  "cost_usd": 0.001164,
+  "ingested_at": "2026-05-28T00:44:36.527959+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.27265",
+  "arxiv_url": "https://arxiv.org/abs/2605.27265",
+  "announced_date": "2026-05-26",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN",
+    "stat.AP",
+    "stat.ME"
+  ],
+  "title_original": "Quantifying Social Inflation in Liability Insurance with Advanced Statistical Methods",
+  "authors": "Tsz Chai Fung, Lie Ma, Liang Peng, Fang Yang",
+  "abstract": "Social inflation, which is the rise in liability claim costs beyond general economic inflation, has become a major concern for insurers and reinsurers, yet it is difficult to quantify because litigation outcomes are heavy-tailed and the mix of cases reaching verdict versus settlement changes over time. Using a large database of US jury verdicts and settlements, we develop case-mix-adjusted social inflation measures through multiple channels that matter to reinsurers: plaintiff win rates (a frequency-type channel), settlement propensity (a frequency-type channel), and verdict/settlement severity. The approach combines rolling-window logistic regression for probabilities and quantile (value-at-risk) regression for severities, with uncertainty quantified via a random-weighted bootstrap. We find statistically significant relative increases in plaintiff win probability of approximately 20%-30% from 2009 to 2024, alongside a statistically significant relative decline in settlement probability of more than 10% over the same period. The dominant channel is verdict severity: Even after controlling for explanatory variables, verdict awards show a sharp rise after 2020, increasing by more than 100% from 2020 to 2024, whereas settlement amounts show limited and often statistically insignificant inflation. Therefore, inflation in total amounts payable to plaintiffs closely tracks verdict severity. Social inflation is more pronounced in corporate-defendant and uninsured-defendant cases and in states without tort caps or third-party litigation funding regulation. In addition, we find that social inflation has impacts not only on \"nuclear verdicts\" but also, in a similar manner, on moderate losses.",
+  "title_relatable": "Why are lawsuit payouts skyrocketing faster than inflation?",
+  "hook": "Jury verdicts have doubled since 2020 while settlements stayed flat. Insurers face a social inflation crisis driven by plaintiff-friendlier courts, not just higher costs.",
+  "summary": "Researchers analyzed two decades of US jury verdicts and settlements to isolate social inflation—claim costs rising beyond economic inflation. Verdict awards jumped over 100% from 2020–2024, while settlements barely budged, suggesting jurors have become far more generous to plaintiffs. The effect hits hardest in states without tort caps and cases involving corporate defendants.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 749,
+  "tokens_out": 167,
+  "cost_usd": 0.0012672,
+  "ingested_at": "2026-05-28T00:45:45.906243+00:00"
+}

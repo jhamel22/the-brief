@@ -1,0 +1,23 @@
+{
+  "id": "2605.27226",
+  "arxiv_url": "https://arxiv.org/abs/2605.27226",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "GWTC-5.0: Population Properties of Merging Compact Binaries",
+  "authors": " The LIGO Scientific Collaboration,  the Virgo Collaboration,  the KAGRA Collaboration",
+  "abstract": "We present the population properties of merging compact binaries inferred using 267 mergers from the cumulative Gravitational-Wave Transient Catalog 5.0. As this data set contains no new sources with a neutron star, we primarily focus on the properties of the binary black hole mergers. We infer the merger rate of binary black holes with component masses between $2.5\\,\\mathrm{M}_\\odot $ and $200\\,\\mathrm{M}_\\odot $ to be $27.5\\text{--} 49.4 \\, \\mathrm{Gpc}^{-3}\\,\\mathrm{yr}^{-1}$ (all intervals at $90\\%$ credible levels) at redshift $z = 0.2$. We find evidence for a subpopulation of binary black hole mergers that host a rapidly spinning black hole (dimensionless spins $χ\\sim 0.7$), consistent with signatures of hierarchical mergers. We find that these occur at two mass scales, the first at primary masses $\\sim 10$--$20\\,\\mathrm{M}_\\odot $ and the second above $\\sim 45\\,\\mathrm{M}_\\odot $, and we estimate their total rate at $z=0.2$ to be $0.2\\text{--} 3.11 \\, {\\rm Gpc}^{-3} {\\rm yr}^{-1}$. We infer that, above $40\\,\\mathrm{M}_\\odot $, the mass distribution of the less massive (secondary) black hole declines more steeply than that of the more massive (primary) one. This is consistent with a flatter mass-ratio distribution and indicates the prevalence of unequal-mass binaries with large primary masses. We find evidence for two features in the black hole mass spectrum: a peak around $10\\,\\mathrm{M}_\\odot $ and a change of slope at around $35\\,\\mathrm{M}_\\odot $. Black holes of $\\sim 35\\,\\mathrm{M}_\\odot $ pair preferentially with companions of similar mass. Additionally, we find that the effective inspiral spin distribution of binary black holes is asymmetric about zero, based on which we infer that at least $9 \\%$ of mergers occur in channels with some preference for spin-orbit alignment. We find evidence that...",
+  "title_relatable": "What 267 black hole mergers reveal about how they form",
+  "hook": "The largest GW catalog yet finds two populations of fast-spinning black holes, hinting that some are cannibal merger products.",
+  "summary": "Analyzing all 267 gravitational-wave detections through GWTC-5.0, LIGO-Virgo-KAGRA maps the black hole merger rate at 27–49 per cubic gigaparsec per year and uncovers a distinct subpopulation with high spins (χ~0.7) at two mass scales — strong evidence that some black holes grew by swallowing earlier merger remnants. The data also show that black holes near 35 solar masses preferentially pair with similar-mass partners, while heavier ones increasingly merge with unequal companions, tracing out the fingerprints of different stellar-environment formation channels.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 1015,
+  "tokens_out": 221,
+  "cost_usd": 0.00636,
+  "ingested_at": "2026-05-28T00:15:34.377327+00:00"
+}

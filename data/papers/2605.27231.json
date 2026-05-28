@@ -1,0 +1,24 @@
+{
+  "id": "2605.27231",
+  "arxiv_url": "https://arxiv.org/abs/2605.27231",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "physics.comp-ph"
+  ],
+  "title_original": "A Fast Method to Compute Scalar Induced Gravitational Waves on a Lattice with Primordial Non-Gaussianities",
+  "authors": "Giovanni Piccoli",
+  "abstract": "Scalar Induced Gravitational Waves (SIGW) are generated at second order in perturbation theory and to achieve observational relevance, inflationary dynamics must evade the standard slow-roll scenario at small scales, generating large curvature perturbations following strongly non-Gaussian statistics. We propose a method to efficiently compute the SIGW spectrum including arbitrary non-Gaussianities. First, we solve the wave equation adopting semi-analytic methods; this results in an expression involving integrals in Fourier space which are impossible to solve directly on a lattice. We overcome this bottleneck by recasting these integrals as a sum of about 50 convolutions, each of which can be computed efficiently with FFT methods. Finally, the power spectrum is measured directly from the lattice realization. We implement this in FLAN-SIGW, a GPU-accelerated code capable of computing fully non-perturbative, non-Gaussian SIGW spectra in seconds with an error within 10% with modest computational resources. The code is made public at https://github.com/giovannipiccoli99/FLAN-SIGW. In this first implementation, in order to assess the performance of the method, we adopt a standard radiation-dominated background with $w = 1/3$.",
+  "title_relatable": "Computing gravitational waves from the early universe in seconds?",
+  "hook": "A new GPU code cuts computation of primordial gravitational wave spectra from days to seconds, opening the door to real observational comparisons.",
+  "summary": "Gravitational waves from the early universe carry fingerprints of exotic inflationary physics, but computing their spectra with non-Gaussian statistics has been prohibitively slow. By decomposing the key integrals into about 50 convolutions solvable via fast Fourier transforms, the new public code FLAN-SIGW runs on a consumer GPU and delivers results within 10% accuracy in seconds. This could make it practical to scan large swaths of inflationary model space against data from detectors like LISA or pulsar timing arrays.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 725,
+  "tokens_out": 197,
+  "cost_usd": 0.00513,
+  "ingested_at": "2026-05-28T00:15:17.859316+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.27286",
+  "arxiv_url": "https://arxiv.org/abs/2605.27286",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Falcon-X: A Time Series Foundation Model for Heterogeneous Multivariate Modeling",
+  "authors": "Yiding Liu, Yifan Hu, Hongjie Xia, Peiyuan Liu, Hongzhou Chen, Xilin Dai, Zewei Dong, Jiang-Ming Yang",
+  "abstract": "Time series foundation models (TSFMs) are transforming the forecasting paradigm through large-scale cross-domain pretraining. However, most existing TSFMs remain univariate, and recent efforts to enable cross-variate modeling still operate directly within the raw variate space. This design introduces fundamental limitations in semantic alignment and relational expressivity. Specifically, raw-space group mixing lacks a dedicated mechanism to align heterogeneous physical quantities, while standard non-negative attention fails to capture the complex synergistic and antagonistic interactions ubiquitous in real-world systems. To address these challenges, we propose Falcon-X, decouples variates from the raw space and maps them into a unified latent prototype space. Falcon-X employs a Unified Prototype Diff-Attention mechanism that explicitly evaluates both positive and negative semantic affinities to explicitly align heterogeneous variates. Cross-variate interactions are then efficiently performed within this shared space via Latent Entity Attention, naturally facilitating zero-shot structural transfer. Finally, a Variate Reassembly Router robustly reconstructs variate-specific trajectories via a request-and-dispatch mechanism. Extensive evaluations on the GIFT-Eval and fev-bench benchmarks demonstrate that Falcon-X achieves state-of-the-art forecasting performance, offering a principled and scalable paradigm for complex multivariate environments. Falcon-X is publicly released to support future research.",
+  "title_relatable": "Why time series models struggle with mixed units—and how to fix it",
+  "hook": "Falcon-X maps incompatible variables into a shared space, capturing both synergies and conflicts; outperforms prior models on GIFT-Eval and fev-bench benchmarks.",
+  "summary": "Most time series models treat each variable independently or mix them in raw space, losing important relationships between temperature and pressure, stock price and volume, etc. Falcon-X solves this by translating all variables into a unified latent space, then uses a new attention mechanism that captures both positive reinforcement (when rising temperature boosts demand) and negative feedback (when high prices suppress it). The model transfers to new datasets without retraining. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 797,
+  "tokens_out": 189,
+  "cost_usd": 0.0013935999999999998,
+  "ingested_at": "2026-05-28T00:22:05.960855+00:00"
+}

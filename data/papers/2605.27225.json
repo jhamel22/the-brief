@@ -1,0 +1,23 @@
+{
+  "id": "2605.27225",
+  "arxiv_url": "https://arxiv.org/abs/2605.27225",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog",
+  "authors": " The LIGO Scientific Collaboration,  the Virgo Collaboration,  the KAGRA Collaboration",
+  "abstract": "Version 5.0 of the Gravitational-Wave Transient Catalog (GWTC-5.0) adds new candidates detected by the LIGO, Virgo, and KAGRA observatories through the second part of the fourth observing run (O4b: 2024 April 10 15:00:00 to 2025 January 28 17:00:00 UTC) and a preceding engineering run. In these new data, we find 150 compact binary coalescence candidates that are identified by at least one of our search algorithms with a probability of astrophysical origin $p_\\mathrm{astro} \\geq 0.5$ and that are not vetoed during event validation. We also provide detailed source property measurements for 103 of these that have a false-alarm rate < 1yr$^{-1}$. Based on the inferred component masses, these candidates are consistent with signals from binary black holes without binary neutron stars or neutron star-black hole binaries. Median inferred component masses of binary black holes in the catalog now range from 5.14$M_\\odot$ (GW241109_115924) to 70$M_\\odot$ (GW241116_151753). For the first time, we have discovered binary black hole signals with network signal-to-noise ratio exceeding 70, GW250114_082203, enabling high-fidelity studies of the astrophysical properties of these systems and test of general relativity. Together with updated 139 candidates up to the first part of the fourth observing run, this brings the total number of transients in the cumulative GWTC to 390, which fulfills the criteria of $p_\\mathrm{astro} \\geq 0.5$, further expanding the size of the catalog and our view of the gravitational-wave Universe.",
+  "title_relatable": "390 gravitational-wave events: what's new in the biggest catalog yet?",
+  "hook": "150 new merging black hole pairs detected in nine months, including the loudest gravitational-wave signal ever recorded.",
+  "summary": "The LIGO-Virgo-KAGRA network has released its largest catalog update, bringing the total confirmed gravitational-wave events to 390. The haul from April 2024 to January 2025 alone added 150 candidates, all consistent with black hole mergers — none involving neutron stars. Standout event GW250114_082203 achieved a signal-to-noise ratio above 70, a new record that will sharpen tests of general relativity in the strong-field regime.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 898,
+  "tokens_out": 190,
+  "cost_usd": 0.005544,
+  "ingested_at": "2026-05-28T00:15:39.852254+00:00"
+}

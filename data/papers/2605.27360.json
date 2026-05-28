@@ -1,0 +1,23 @@
+{
+  "id": "2605.27360",
+  "arxiv_url": "https://arxiv.org/abs/2605.27360",
+  "announced_date": "2026-05-26",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.NI",
+    "cs.AI"
+  ],
+  "title_original": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+  "authors": "Tamerlan Aghayev, Maxime Elkael, Michele Polese, Minh Dat Nguyen, Gabriele Gemmi, Andrea Lacava, Ali Saeizadeh, Reshma Prasad, Paolo Testolina, Angelo Feraudo, Soumendra Nanda, Pedram Johari, Salvatore D'Oro, Tommaso Melodia",
+  "abstract": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments; (iv) data-driven optimization of network functionalities; (v) discovering and prototyping novel waveforms, functionalities, and capabilities for future standards; and (vi) securing the stack against vulnerabilities. Although Large Language Models (LLMs) have compressed comparable R&D work in general software engineering from days to minutes, their known pitfalls worsen on Radio Access Network (RAN) use cases: they hallucinate Application Programming Interfaces (APIs) and mis-read specifications, which kills interoperability of RAN components at the first mistake, and they heavily rely on simulations for designing algorithms, which is notorious for breaking when transferred to real hardware. To address these challenges, we present GENESIS, an agentic Artificial Intelligence (AI) framework that converts intents (e.g., a specification clause, a telemetry anomaly, or a research hypothesis) into solutions validated with over-the-air experiments, fed back into a persistent knowledge base. GENESIS is built on three composable primitives (agents, skills, hooks) and a knowledge layer (SYNAPSE) that doubles as the source of ground truth and the recipient of every artifact the framework produces, making capabilities compound across runs.",
+  "title_relatable": "Can AI agents turn cellular network specs into working code automatically?",
+  "hook": "Framework converts 6G network requirements into validated code via over-the-air testing, compressing months of manual engineering into automated cycles.",
+  "summary": "Cellular network R&D requires six slow, manual processes—from translating standards into code to security hardening. LLMs struggle here because hallucinating APIs or misreading specs breaks interoperability immediately, and simulation-based designs fail on real hardware. GENESIS automates this by running AI agents that convert intents (specs, anomalies, research ideas) into solutions, validating them with actual radio tests and feeding results back into a persistent knowledge base that compounds capabilities across iterations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 859,
+  "tokens_out": 184,
+  "cost_usd": 0.0014232000000000001,
+  "ingested_at": "2026-05-28T00:24:04.025118+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.26417",
+  "arxiv_url": "https://arxiv.org/abs/2605.26417",
+  "announced_date": "2026-05-26",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI",
+    "physics.data-an"
+  ],
+  "title_original": "A Network Inefficiency Metric for Structural Stress Detection in Hedera Transactions",
+  "authors": "Deep Nath, Paolo Tasca, Nikhil Vadgama, Marco Alberto Javarone",
+  "abstract": "Quantifying structural stress in transaction networks requires metrics that capture structural organization beyond transaction volume alone. In this work, we introduce the Inefficiency Metric, a deterministic indicator designed to characterize the routing structure of capital flows in decentralized systems. Using Principal Component Analysis and Pearson correlation matrices computed from a six-year Hedera transaction dataset, we identify two dominant and largely independent structural dimensions: the effective diameter, related to the spatial extension of transaction propagation, and the closeness centrality, associated with the efficiency of network-level flow processing. The proposed metric reveals significant topological fluctuations associated with major macroeconomic and ecosystem-level events. Increased inefficiency is observed during periods marked by intermediary fragmentation or rapid smart-contract expansion, whereas lower inefficiency corresponds to phases of network compaction during market stress or institutional concentration. Comparison with a seven-dimensional Isolation Forest approach shows that the metric effectively captures severe multidimensional anomalies while preserving a clear structural interpretation. Overall, these results provide a physics-inspired framework for relating the large-scale organization of decentralized transaction networks to observable economic dynamics.",
+  "title_relatable": "Does blockchain network structure predict economic stress?",
+  "hook": "A new metric combining diameter and centrality in Hedera transactions reveals how network shape shifts during market crashes, smart-contract booms, and institutional consolidation.",
+  "summary": "Researchers built a two-component metric to measure inefficiency in how capital flows through the Hedera blockchain. Using six years of transaction data, they found network topology tightens during market stress and expands during periods of rapid innovation, tracking major economic events better than raw transaction volume alone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 686,
+  "tokens_out": 142,
+  "cost_usd": 0.0011168000000000003,
+  "ingested_at": "2026-05-28T00:19:46.790201+00:00"
+}

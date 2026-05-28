@@ -1,0 +1,23 @@
+{
+  "id": "2605.27198",
+  "arxiv_url": "https://arxiv.org/abs/2605.27198",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th"
+  ],
+  "title_original": "Bounds on relative modular Hamiltonians in general QFT",
+  "authors": "Adriano Chialastri, Christoph Minz, Ko Sanders",
+  "abstract": "The relative entropy between two states is a key concept in quantum information theory and quantum field theory. In the setting of quantum field theory, its computation requires the handling of relative modular Hamiltonians, which are typically very difficult to compute explicitly. In this paper, we exploit locality properties of general algebraic QFTs to estimate relative modular Hamiltonians between two states, $ω$ and $\\tildeω$, and hence also their relative entropy, in terms of the modular Hamiltonian of a reference state $\\hatω$, which might be better understood. For suitable pairs of states we can estimate the relative modular Hamiltonian for the algebra of a region $V_2$ from above, resp. from below, in terms of the modular Hamiltonian of $\\hatω$ on a larger region $V_3$, resp. a smaller region $V_1$. Pairs of states and choices of regions which are susceptible to our scheme are related to the presence of superluminal signalling in the sense of Sorkin's paradox. If $ω=\\hatω$, then there exists a unitary that maps $ω$ to $\\tildeω$ on $V_3$ and that does not allow superluminal signalling from the spacelike complement $V_3'$ to $V_2$, resp. from $V_1$ to $V_2'$, if our upper, resp. lower, bound applies. To investigate the strength of our estimates we consider coherent states for CCR systems, focussing particularly on free scalar fields. Our estimates apply even if the relative modular Hamiltonian cannot be computed exactly. For sufficiently regular excitations we recover an exact result by squeezing. Our method thus yields an independent proof for the relative entropy formula in cases where the relative modular Hamiltonian cannot be computed exactly. For massless fields we establish the analogous result also for double cone regions. These results indicate that our estimates do not lose too much information.",
+  "title_relatable": "How do you compare quantum states when the math gets intractable?",
+  "hook": "Physicists developed bounds on hard-to-compute quantities that let them compare quantum states even when exact answers are impossible.",
+  "summary": "Comparing two quantum states requires calculating relative modular Hamiltonians—mathematical objects so difficult to compute explicitly that physicists usually can't handle them. This work uses locality properties of quantum fields to estimate these quantities using a reference state that's easier to understand, effectively bounding the comparison from above or below. For scalar fields and certain spatial regions, the estimates recover exact results without requiring the explicit computation.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 876,
+  "tokens_out": 162,
+  "cost_usd": 0.0013488000000000003,
+  "ingested_at": "2026-05-28T00:16:37.452118+00:00"
+}

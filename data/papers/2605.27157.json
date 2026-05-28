@@ -1,0 +1,22 @@
+{
+  "id": "2605.27157",
+  "arxiv_url": "https://arxiv.org/abs/2605.27157",
+  "announced_date": "2026-05-26",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Detecting Is Not Resolving: The Monitoring Control Gap in Retrieval Augmented LLMs",
+  "authors": "Zhe Yu, Wenpeng Xing, Chen Ye, Xuyang Teng, Bo Yang, Changting Lin, Meng Han",
+  "abstract": "Retrieval-augmented LLMs are deployed for tasks where evidence quality determines action safety, yet evaluation protocols assume that single-turn robustness predicts robustness when evidence accumulates across turns. We show this assumption is fundamentally incorrect. Models exhibit a monitoring-control gap: they readily acknowledge contradictory evidence, yet this awareness fails to constrain their final recommendations - detecting epistemic conflict does not imply resolving it safely. Through a multi-turn document accumulation protocol across four model families (1.5B-32B parameters) and over 50,000 turn-level evaluations, we demonstrate that single-turn diagnostics systematically overestimate RAG safety, that contradiction acknowledgement is uncorrelated with safe resolution, a pattern corroborated by targeted human validation, and that no universal prompt fix exists. Converging mechanism evidence - hidden-state probing, attention analysis, and response-strategy taxonomy - points to action selection as the most plausible locus of the deficit: danger-relevant information is internally represented and receives enhanced attention during unsafe generation, yet fails to constrain output behavior. The gap between what models recognize and what they do must be measured and closed before retrieval-augmented systems can be trusted in high-stakes settings.",
+  "title_relatable": "Why RAG systems say they see risks but ignore them anyway",
+  "hook": "Retrieval-augmented LLMs acknowledge contradictions across 50,000+ turns but still give unsafe recommendations—single-turn safety tests miss this critical failure mode.",
+  "summary": "Retrieval-augmented LLMs show a dangerous gap: they detect conflicting evidence but don't use it to change their recommendations. Testing across four model families (1.5B–32B parameters) over multiple turns reveals single-turn safety evaluations overestimate real-world robustness by 3–4×. Models internally represent and attend to danger signals yet fail to act on them—a monitoring-control gap that no prompt engineering fixes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 734,
+  "tokens_out": 185,
+  "cost_usd": 0.0013272,
+  "ingested_at": "2026-05-28T00:24:20.480672+00:00"
+}

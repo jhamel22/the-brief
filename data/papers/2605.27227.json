@@ -1,0 +1,23 @@
+{
+  "id": "2605.27227",
+  "arxiv_url": "https://arxiv.org/abs/2605.27227",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "GWTC-5.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
+  "authors": " The LIGO Scientific Collaboration,  the Virgo Collaboration,  the KAGRA Collaboration",
+  "abstract": "We employ 236 gravitational-wave (GW) sources in the fifth LIGO--Virgo--KAGRA Collaboration (LVK) Gravitational-Wave Transient Catalog (GWTC-5.0) to estimate the Hubble constant $H_0$. We compare the luminosity distance measured from GWs to the redshift inferred i) using features in the mass spectrum, and ii) using statistical host galaxy association. Probing the relationship between source luminosity distances and redshifts obtained in this way yields constraints on cosmological parameters. We estimate $H_0 = {71.0}_{-7.1}^{+9.0}\\,{\\text{km}\\,\\text{s}^{-1}\\,\\text{Mpc}^{-1}}$ (median with $68\\%$ symmetric credible interval). This combines information from the source-frame mass distribution with the $H_0$ measurement from GW170817 and its electromagnetic counterpart as well as galaxy catalog information from Dark Energy Survey Year 6 (DES-Y6). We improve over the GWTC-4.0 measurement by using more GW sources, some with significantly smaller sky localization volumes, which leads to a reduction by $25.7\\%$ of the $H_0$ uncertainty and a reconstructed mass distribution with lower uncertainties. We also constrain deviations from general relativity (GR) which affect GW propagation, specifically that modify the luminosity distance inferred from the GW signal. We find no departures from GR in parameterized tests of GW propagation.",
+  "title_relatable": "236 merging black holes weigh in on the Hubble tension",
+  "hook": "The largest GW catalog yet pins H₀ at 71 km/s/Mpc, cutting uncertainty by 26% over the last measurement.",
+  "summary": "Using 236 gravitational-wave events from GWTC-5.0, the LVK collaboration measures the Hubble constant at 71.0 (+9.0/−7.1) km/s/Mpc — splitting the difference between the two conflicting standard methods, though still too uncertain to resolve the tension. The improvement comes from combining black-hole mass-spectrum features, galaxy catalog cross-matching, and the single binary neutron star with a light signal (GW170817). Crucially, the waves themselves show no deviation from general relativity across cosmic distances.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 821,
+  "tokens_out": 213,
+  "cost_usd": 0.005658,
+  "ingested_at": "2026-05-28T00:15:28.175199+00:00"
+}

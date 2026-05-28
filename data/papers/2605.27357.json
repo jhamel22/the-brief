@@ -1,0 +1,25 @@
+{
+  "id": "2605.27357",
+  "arxiv_url": "https://arxiv.org/abs/2605.27357",
+  "announced_date": "2026-05-26",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Gaussian Process Reconstruction of Cosmological Parameters with Gravitational Wave Sirens using Machine Learning",
+  "authors": "Gourab Nandi, Anish Ghoshal, David F. Mota",
+  "abstract": "Future gravitational wave (GW) standard siren catalogues will probe the late-time expansion history of the Universe across redshift ranges largely inaccessible to traditional electromagnetic observations. To determine how effectively this background distance information can distinguish between viable cosmological models, we introduce a model-independent reconstruction framework utilizing Gaussian Process Regression (GPR). Analyzing mock LISA and Einstein Telescope (ET) catalogues across six fiducial cosmological backgrounds-$Λ$CDM, CPL, CPL+$Λ$, interacting dark matter, interacting dark energy and axion inspired early dark energy. We reconstruct the comoving distance and its derivatives. Crucially, we propagated the full GP covariance, including derivative cross-covariances, to robustly evaluate the Hubble parameter $H(z)$ and other diagnostics such as $q(z)$, $\\mathcal{O}_{m}(z)$ $w_{\\rm total}(z)$ and $κ(z)$. While our analysis demonstrates that GW bright standard sirens faithfully recover fiducial expansion histories, applying pointwise marginal Hellinger distance reveals that background measurements alone do not provide decisive statistical separation among models. Instead, derivative sensitive diagnostics pinpoint specific redshift windows (e.g., $z\\simeq1.6-1.8$ for ET and $z\\simeq2.6-2.9$ for LISA) where future catalogues will maximize their discriminatory power. As machine learning methodologies become increasingly integral to astrophysics and cosmology, this Bayesian GPR pipeline offers a principled, nonparametric approach to precisely identifying where the most valuable cosmological information lies.",
+  "title_relatable": "Which redshifts will gravitational waves best reveal dark energy?",
+  "hook": "Mock LISA and Einstein Telescope catalogues pinpoint exact redshift windows where gravitational wave sirens can best distinguish competing dark energy models.",
+  "summary": "Using simulated gravitational wave catalogs from LISA and the Einstein Telescope, this analysis finds that raw distance measurements alone can't decisively separate six competing cosmological models — but derivative-based diagnostics identify narrow redshift sweet spots (around z≈1.6–1.8 for ET, z≈2.6–2.9 for LISA) where discrimination power peaks. The finding tells future observing campaigns exactly where to concentrate effort, rather than treating all redshifts equally.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 826,
+  "tokens_out": 186,
+  "cost_usd": 0.005268,
+  "ingested_at": "2026-05-28T00:14:57.513801+00:00"
+}

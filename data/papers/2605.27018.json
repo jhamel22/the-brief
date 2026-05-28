@@ -1,0 +1,25 @@
+{
+  "id": "2605.27018",
+  "arxiv_url": "https://arxiv.org/abs/2605.27018",
+  "announced_date": "2026-05-26",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.HE",
+    "cond-mat.other",
+    "hep-th"
+  ],
+  "title_original": "Looking for Condensed Gluons: A Cross-Scale Journey from the Deep Structure of Protons to High-Energy Cosmic Rays -- A Mini-Review",
+  "authors": "Wei Zhu, Yu-Chen Tang, Ye-Yin Zhao, Bo Yang, Yu-Chen Xiong",
+  "abstract": "Quark-gluon dynamics within protons and high-energy radiation phenomena in the universe are typically regarded as two entirely distinct fields. This paper aims to demonstrate that gluon condensation (GC) may serve as a direct bridge between these two fields. We review three key aspects of GC research: first, the Zhu-Shen-Ruan (ZSR) equation, as a nonlinear evolution equation based on structural symmetry, exhibits self-consistent connections with the DGLAP, BFKL and GLR-MQ-ZRS equations, providing a theoretical foundation for the generation of GC; second, the chaotic solutions and the shadowing-antishadowing synergy inherent in this equation can drive gluons to aggregate near the critical momentum, thereby forming a novel type of high-density, strongly interacting matter; third, these changes in microstructure manifest themselves as a broken-power-law feature in high-energy cosmic gamma-ray spectra, thereby offering new insights into the hadronic scenarios underlying certain astrophysical sources. Consequently, GC not only concerns the novel behaviour of quantum chromodynamics under extreme conditions but may also serve as a vital window for probing the deep structure of protons using cosmic-ray signals. With the advancement of higher-precision gamma-ray observations, hadron collision experiments and related theoretical research, the physical picture of GC and its observational criteria are expected to undergo more rigorous testing. Should this picture be confirmed, certain features in the high-energy gamma-ray spectrum will need to be re-examined within the deeper context of hadronic dynamics; simultaneously, GC may also provide a new entry point for research into pion condensation in nuclear physics and even condensed matter physics. Consequently, the significance of the search for GC extends beyond the model itself, reaching into multiple fields of natural science.",
+  "title_relatable": "Can gluons inside protons explain cosmic gamma-ray patterns?",
+  "hook": "Physicists propose that gluons clustering at high density could link the internal structure of protons to puzzling features in gamma rays from distant cosmic sources.",
+  "summary": "This review connects two distant physics domains through gluon condensation—the clustering of gluons at extreme density. The authors show how nonlinear evolution equations predict gluons aggregate near a critical momentum, creating a dense strongly interacting state. This microstructure change should leave a measurable fingerprint: a broken power law in cosmic gamma-ray spectra, offering a new way to probe proton structure using space-based observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 868,
+  "tokens_out": 178,
+  "cost_usd": 0.0014064000000000001,
+  "ingested_at": "2026-05-28T00:16:47.202338+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.26749",
+  "arxiv_url": "https://arxiv.org/abs/2605.26749",
+  "announced_date": "2026-05-26",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Constraining Early Dark Energy cosmological models with Big Bang Nucleosynthesis",
+  "authors": "Teodora M. Matei, Cristian Croitoru, Tiberiu Harko",
+  "abstract": "The recent cosmological picture contains a significant tension indicating that our standard $Λ$CDM picture may be incomplete. Early Dark Energy models can alleviate the Hubble tension, by assuming an early acceleration that could explain the divergence between the early and late-time cosmological data. We investigate the implications of Early Dark Energy models on the Big Bang Nucleosynthesis processes by considering several cosmological models, including a model assuming a simple cosmological constant, alongside with varying equations of state dark energy models. We construct a simulator through a nested sampling algorithm, with the help of which we estimate the upper bounds for model parameters, and determine the maximum allowable dark energy density contribution during the radiation-dominated era. Our results are obtained through the \\href{https://github.com/croi900/eden}{eden} program. We show that for a linear or polytropic equation of state, the dark energy density is constrained to less than $10^{-13}$ MeV$^4$ and $10^{-5}$ MeV$^4$, respectively, at the 95\\% confidence level. Furthermore, we identify a temperature-dependent equation of state of dark energy as the most physically compelling framework, which remains consistent with primordial abundances for coupling parameters $\\lesssim 10^{-2}$. This model successfully allows for high-temperature deviations from the standard $Λ$CDM expansion history, while rapidly diluting to obtain standard general relativistic results in the weak freeze-out era.",
+  "title_relatable": "Can early dark energy solve the Hubble crisis without breaking Big Bang nuclear physics?",
+  "hook": "Early dark energy models proposed to resolve Hubble tension must pass a nuclear test: consistency with the abundances of light elements forged seconds after the Big Bang.",
+  "summary": "Early dark energy—a hypothetical component that accelerated the early universe—could explain why different measurements of cosmic expansion rate disagree. Using primordial element abundances as a constraint, researchers show most early dark energy models would have been far too dense to avoid changing those abundances, except for a temperature-dependent variant that allows brief high-temperature deviation before diluting away.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 774,
+  "tokens_out": 168,
+  "cost_usd": 0.0012912,
+  "ingested_at": "2026-05-28T00:18:37.105085+00:00"
+}

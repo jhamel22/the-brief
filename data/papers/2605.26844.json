@@ -1,0 +1,22 @@
+{
+  "id": "2605.26844",
+  "arxiv_url": "https://arxiv.org/abs/2605.26844",
+  "announced_date": "2026-05-26",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation",
+  "authors": "Yuanyi Wang, Su Lu, Yanggan Gu, Pengkai Wang, Yifan Yang, Zhaoyi Yan, Congkai Xie, Jianmin Wu, Hongxia Yang",
+  "abstract": "On-policy distillation (OPD) trains a student on its own rollouts with token-level teacher supervision. Recent selective OPD methods exploit the non-uniformity of OPD signals by prioritizing high-entropy or high-disagreement tokens. We revisit this principle and ask: which token-level teacher signals are actually learnable? Using a fixed-context diagnostic that measures same-context teacher-student KL reduction, we show that raw KL disagreement is a coarse proxy for learning value. It conflates learnable disagreement, where the teacher assigns corrective mass to the student's top-K candidates, with incompatible disagreement, where the teacher places mass mostly off the student's current support. We formalize this local compatibility as token teachability and show that it better predicts fixed-context improvement than raw KL alone. Motivated by this finding, we propose Teachability-Aware OPD (TA-OPD), a lightweight token-position selection method that applies OPD loss to high-teachability positions without reward models or verifiers. Across Qwen2.5 and Qwen 3 teacher-student settings, TA-OPD often surpasses full-token OPD with only 5% retained tokens and improves over entropy- and divergence-based baselines. Our results reframe selective OPD as selecting learnable teacher signals rather than merely salient tokens.",
+  "title_relatable": "Why some teacher feedback helps models learn, others don't",
+  "hook": "Selective distillation works better by targeting 'teachable' disagreements—places where teacher and student can actually learn from each other—improving over full-token training with just 5% of supervision.",
+  "summary": "On-policy distillation trains student models on their own outputs using teacher feedback, but not all disagreement signals help learning equally. This work shows that raw KL divergence conflates two types: learnable disagreement (teacher corrects within the student's top candidates) and incompatible disagreement (teacher's preferred tokens are off the student's radar). By measuring local compatibility—\"token teachability\"—the authors propose TA-OPD, which selects only 5% of tokens for training and still outperforms full-token distillation on Qwen models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 794,
+  "tokens_out": 218,
+  "cost_usd": 0.0015072,
+  "ingested_at": "2026-05-28T00:22:29.813813+00:00"
+}
