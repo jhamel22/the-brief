@@ -1,0 +1,22 @@
+{
+  "id": "2605.30039",
+  "arxiv_url": "https://arxiv.org/abs/2605.30039",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Domain-Specific Data Synthesis for LLMs via Minimal Sufficient Representation Learning",
+  "authors": "Tong Ye, Hang Yu, Tengfei Ma, Xuhong Zhang, Jianguo Li, Peng Di, Peiyu Liu, Jianwei Yin, Wenhai Wang",
+  "abstract": "Large Language Models have demonstrated remarkable progress in general-purpose capabilities and can achieve strong performance in specific domains through fine-tuning on domain-specific data. However, acquiring high-quality data for target domains remains a significant challenge. Existing data synthesis approaches follow a deductive paradigm, heavily relying on explicit domain descriptions expressed in natural language and careful prompt engineering, limiting their applicability in real-world scenarios where domains are difficult to describe or formally articulate. In this work, we tackle the underexplored problem of domain-specific data synthesis through an inductive paradigm, where the target domain is defined only through a set of reference examples, particularly when domain characteristics are difficult to articulate in natural language. We propose a novel framework, DOMINO, that learns a minimal sufficient domain representation from reference samples and leverages it to guide the generation of domain-aligned synthetic data. DOMINO integrates prompt tuning with a contrastive disentanglement objective to separate domain-level patterns from sample-specific noise, mitigating overfitting while preserving core domain characteristics. Theoretically, we prove that DOMINO expands the support of the synthetic data distribution, ensuring greater diversity. Empirically, on challenging coding benchmarks where domain definitions are implicit, fine-tuning on data synthesized by DOMINO improves Pass@1 accuracy by up to 4.63\\% over strong, instruction-tuned backbones, demonstrating its effectiveness and robustness. This work establishes a new paradigm for domain-specific data synthesis, enabling practical and scalable domain adaptation without manual prompt design or natural language domain specifications.",
+  "title_relatable": "Can we synthesize domain data without describing the domain?",
+  "hook": "Learn domain patterns from examples alone, then generate synthetic training data. 4.63% accuracy gain on coding benchmarks.",
+  "summary": "Fine-tuning LLMs on domain-specific data works well, but collecting it is hard—especially when the domain itself resists neat description. DOMINO learns what makes a domain tick by studying reference examples, then generates synthetic data that matches that pattern. It uses contrastive learning to extract domain essence while ditching sample noise. Result: coding models trained on DOMINO-generated data beat instruction-tuned baselines by up to 4.63%.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 821,
+  "tokens_out": 175,
+  "cost_usd": 0.0013568000000000002,
+  "ingested_at": "2026-05-30T16:55:18.928925+00:00"
+}

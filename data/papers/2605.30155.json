@@ -1,0 +1,23 @@
+{
+  "id": "2605.30155",
+  "arxiv_url": "https://arxiv.org/abs/2605.30155",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LO",
+    "cs.AI"
+  ],
+  "title_original": "Neural Network Verification using Partial Multi-Neuron Relaxation",
+  "authors": "Ido Shmuel, Guy Katz",
+  "abstract": "The increasing integration of deep neural networks in critical systems has spawned a theoretical and practical interest in formally guaranteeing safety properties about their behavior. To achieve this, contemporary verification algorithms rely on computing linear relaxations for a network's non-linear activation functions. Existing approaches for linear relaxations typically fall into one of two categories: single-neuron relaxation, in which each activation neuron is bounded in terms of its sources; and multi-neuron relaxation, in which linear bounds involving multiple activation neurons and their sources are calculated. However, existing methods might fail to balance tightness and scalability, as single-neuron bounds might not derive sufficiently tight bounds necessary for verification to complete, whereas generating multi-neuron relaxation for all activation neurons is computationally expensive. In this paper, we present a middle-ground approach featuring partial multi-neuron relaxation, in which we generate multi-neuron bounds for only a small, heuristically selected subset of neurons. To achieve this, we build upon existing branching heuristics for selecting neurons and for optimizing bounding hyper-planes for multi-neuron bounds. We integrated our proposed method within the Marabou verifier, and obtained favorable results in comparison to existing bound tightening methods. Our experiments showcase the potential of our technique for neural network verification.",
+  "title_relatable": "How to verify neural networks without checking every neuron?",
+  "hook": "Selective multi-neuron analysis speeds up formal verification while maintaining the tight bounds needed to prove safety.",
+  "summary": "Verifying that neural networks behave safely requires computing tight linear bounds around their nonlinear operations. Current methods either bound each neuron individually (fast but loose) or all neurons together (tight but slow). This work picks a strategic subset of neurons for joint analysis, balancing precision and speed. Integrated into Marabou, the approach outperforms existing bound-tightening methods without the full computational cost.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 713,
+  "tokens_out": 160,
+  "cost_usd": 0.0012104000000000001,
+  "ingested_at": "2026-05-30T16:55:10.445604+00:00"
+}

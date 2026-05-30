@@ -1,0 +1,24 @@
+{
+  "id": "2605.30169",
+  "arxiv_url": "https://arxiv.org/abs/2605.30169",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CY",
+    "cs.AI",
+    "cs.MA"
+  ],
+  "title_original": "Dissociative Identity: Language Model Agents Lack Grounding for Reputation Mechanisms",
+  "authors": "Botao Amber Hu, Helena Rong, Max Van Kleek",
+  "abstract": "As autonomous language model agents proliferate, forming an emerging agentic web with real-world consequences, what credibility signals can you use to decide whether to trust an unfamiliar agent in the wild and delegate to it? A natural governance intuition is to extend human identity verification and reputation mechanisms, from ``Know Your Customer'' and credit scores to ``Know Your Agent'' regimes. However, we argue that this analogy is fundamentally incomplete. Reputation mechanisms function both as social signals and as corrective feedback that sustain an equilibrium of trustworthy behavior, presuming a persistent identity associated with behavioral continuity, sanction sensitivity, and costly non-fungibility. Yet language model agents are ontologically \\emph{dissociative}: they are essentially an assemblage of mutable modules -- foundational models, system prompts, tool-access policies, external memory, and, in some cases, a multi-agent system as a whole -- any of which may change agent behavior -- with a fluid persona that is also vulnerable to adversarial attack and may not internalize sanctions. Drawing on dissociative identity disorder jurisprudence, this dissociativity leaves agents without grounding for identifiability, predictability, credibility, and rehabilitability -- the very properties that reputation mechanisms aim to sustain -- thereby collapsing trust. We argue that identity-based, ex post, regulative, sanction-based governance, such as reputation, is structurally inapplicable to dissociative agents, and we suggest a shift to observability-based, ex ante, constitutive, protocol-based behavioral harnesses.",
+  "title_relatable": "Why you can't trust a language model agent's reputation",
+  "hook": "Language model agents change their behavior unpredictably—making human-style reputation systems fundamentally broken for governing them.",
+  "summary": "Language model agents lack persistent identity: their behavior shifts with prompt changes, module updates, or adversarial attacks, unlike humans who internalize sanctions. Traditional reputation mechanisms assume stable identity and behavioral continuity—properties agents can't provide. The authors argue reputation-based governance will fail for AI agents and propose observable, protocol-based safeguards instead.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 787,
+  "tokens_out": 147,
+  "cost_usd": 0.0012175999999999999,
+  "ingested_at": "2026-05-30T16:55:07.963507+00:00"
+}

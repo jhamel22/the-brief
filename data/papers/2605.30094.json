@@ -1,0 +1,23 @@
+{
+  "id": "2605.30094",
+  "arxiv_url": "https://arxiv.org/abs/2605.30094",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.GT"
+  ],
+  "title_original": "PokerSkill: LLMs Can Play Expert-Level Poker without Training or Solvers",
+  "authors": "Boning Li, Baoxiang Wang, Longbo Huang",
+  "abstract": "Poker is a landmark challenge for artificial intelligence. The dominant approach relies on equilibrium solvers built on counterfactual regret minimization, requiring millions of core-hours of training. Large Language Models (LLMs) possess extensive poker knowledge but perform far below solver-based agents when asked to play directly. Traditional rule-based poker agents are interpretable and training-free, but their strategic ceiling remains far below equilibrium play. We introduce \\textbf{PokerSkill}, a training-free and solver-free framework that bridges this gap by using detailed rule-based poker skills as a structured action-grounding interface for LLMs. A deterministic context engine analyzes the current state and retrieves only the relevant fragments from a layered skill library, which is entirely designed by human poker experts, constraining the LLM's choice to reasonable actions. Against GTOWizard, a state-of-the-art GTO benchmark, GPT-5.5 XHigh with PokerSkill achieves $-57 \\pm 21$ mbb/hand, Claude Opus 4.6 achieves $-80 \\pm 29$ mbb/hand and Claude Opus 4.7 achieves $-87\\pm 64$ mbb/hand, reducing losses by 49--61\\% compared to default-prompt baselines and outperforming the strong bot Slumbot. Our key finding is that rule-based skills alone do not constitute a strong strategy, and LLMs alone cannot play well, but their combination yields an agent that requires neither training nor solver access yet competes with systems built on millions of core-hours of computation. To our knowledge, this is the first demonstration of an LLM achieving competitive performance in a complex imperfect-information game without game-specific training or solver queries. Code is available at https://github.com/lbn187/PokerSkill.",
+  "title_relatable": "Why language models suddenly got good at poker without any training",
+  "hook": "LLMs paired with expert poker rules outperform untrained baselines by 49–61%, competing with solvers that needed millions of core-hours.",
+  "summary": "Poker has long required either massive computational solvers or years of training. PokerSkill bridges the gap by feeding LLMs a structured library of expert-designed poker skills, letting a context engine filter recommendations to sensible moves. GPT-4.5 and Claude 4.6/4.7 now play within striking distance of state-of-the-art bots like Slumbot—without any game-specific training or solver queries. The insight: neither raw rules nor raw language models work alone, but together they crack a complex imperfect-information game.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 864,
+  "tokens_out": 209,
+  "cost_usd": 0.0015272,
+  "ingested_at": "2026-05-30T16:55:16.421311+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.30003",
+  "arxiv_url": "https://arxiv.org/abs/2605.30003",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.MA",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas",
+  "authors": "Víctor Gallego",
+  "abstract": "We study two-level autoresearch for cooperation: an outer-loop AI agent autonomously redesigns the inner-loop pipeline of an LLM policy-synthesis system for multi-agent Sequential Social Dilemmas (SSDs). A researcher agent $\\mathcal{R}$ (run as a coding agent) reads the inner-loop source code, edits system prompts, feedback functions, helper libraries, and iteration logic, runs evaluations, and decides what to keep, following the autoresearch paradigm. Across two games (Cleanup and Gathering), two policy-synthesizer LLMs, and two welfare objectives (utilitarian efficiency and Rawlsian maximin), the researcher reliably exceeds hand-designed baselines, sharply tightens run-to-run variance, and outperforms prompt-only optimization. The discovered pipelines are objective-dependent: only under maximin does the researcher inject an explicit fairness mechanism into synthesizer pipelines, a class of mechanism that is absent from its own objective-agnostic system prompt and from every efficiency-optimized pipeline. This supports an information-design reading in which the researcher chooses what to reveal to the boundedly rational synthesizer as a function of the welfare objective. Code at https://github.com/vicgalle/autoresearch-social-dilemmas.",
+  "title_relatable": "Can AI automatically redesign itself to solve cooperation problems?",
+  "hook": "An AI researcher agent autonomously rewrites an LLM pipeline for multi-agent cooperation, discovering fairness mechanisms only when optimizing for equity rather than efficiency.",
+  "summary": "Getting multiple AI agents to cooperate in social dilemmas (like resource-sharing games) is hard. Researchers built a two-level system where an outer AI agent acts as a researcher, automatically editing the code, prompts, and logic of an inner LLM system that synthesizes cooperative policies. Across two games and two welfare objectives, the self-redesigning pipeline beat hand-tuned baselines and found that fairness mechanisms emerge only when optimizing for maximin (protecting the worst-off), not utilitarian efficiency. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 720,
+  "tokens_out": 199,
+  "cost_usd": 0.001372,
+  "ingested_at": "2026-05-30T16:55:22.180578+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.30000",
+  "arxiv_url": "https://arxiv.org/abs/2605.30000",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Cookie-Bench: Continuous On-screen Key Interaction Evaluation for Web Generation",
+  "authors": "Haoyue Yang, Zhangxiao Shen, Fan Ding, Hangting Lou, Yifeng Kou, Haoqing Yu, Jingyao Li, Zhengfan Wu, Siqi Bao, Jing Liu, Hua Wu",
+  "abstract": "Front-end web code has become a core product surface for every frontier LLM release, yet evaluating these interactive applications at development speed remains costly because human-judged leaderboards like Arena do not scale. Existing automated proxies typically lean on reference implementations, test suites, or rigid checklists, and tend to miss the reasoned synthesis a human reviewer performs over a live session. We articulate a new evaluation regime that is simultaneously reference-free, autonomously driven, and holistically reasoned, and instantiate it through two artifacts. \\textbf{\\dataname} is an 11-domain, 54-leaf, 1,000-query WebDev benchmark spanning both static-presentation and interactive-application tasks, balanced across three difficulty tiers and three target-language groups, with briefs rewritten to resist recall from circulated prompts. \\textbf{\\framename}, grounded in Flavell's metacognitive monitoring, separates evidence accumulation from judgment across three stages: Static Perception forms a first impression from passive observation; Agent-Driven Interaction explores the application autonomously while capturing continuous screen video, audio, and per-step screenshots; Dynamic Scoring issues holistic functionality and aesthetics verdicts with structured failure attribution only after the evidence chain is complete. On \\dataname, \\framename aligns closely with expert human ratings while surfacing substantial headroom across 13 frontier LLMs on interactive web generation. \\noindenthttps://anonymous.4open.science/r/Cookie-3CE/",
+  "title_relatable": "How good are AI models at building interactive websites?",
+  "hook": "New benchmark with 1,000 web design tasks and autonomous evaluation method that mimics human reviewers, revealing significant gaps in 13 frontier LLMs.",
+  "summary": "Building functional websites remains a frontier task for large language models, but evaluating them fairly is hard—human judges don't scale, and automated checkers miss the reasoning involved. Cookie-Bench introduces a 1,000-query benchmark across 11 web domains and a three-stage evaluation framework that watches AI agents interact with generated sites (gathering screenshots, video, audio) before issuing holistic verdicts. The method aligns with expert human ratings while showing all 13 tested frontier LLMs have substantial room for improvement.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 824,
+  "tokens_out": 195,
+  "cost_usd": 0.0014392,
+  "ingested_at": "2026-05-30T16:55:26.989022+00:00"
+}

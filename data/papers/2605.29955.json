@@ -1,0 +1,22 @@
+{
+  "id": "2605.29955",
+  "arxiv_url": "https://arxiv.org/abs/2605.29955",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Formalizing Mathematics at Scale",
+  "authors": "Ahmad Rammal, Niket Patel, Fabian Gloeckle, Amaury Hayat, Julia Kempe, Remi Munos, Charles Arnal, Vivien Cabannes",
+  "abstract": "We present AutoformBot, a multi-agent system for building an Autoformalized Textbook Library At Scale (Atlas) in Lean 4. AutoformBot orchestrates thousands of LLM agents, equipped with formal verification tools, dependency-aware task scheduling, and collaborative version control, to translate informal textbook prose into machine-checked definitions and proofs. We apply our methods to a corpus of 26 open-access textbooks spanning analysis, algebra, topology, combinatorics, and probability, producing Atlas: a verified library of over 45,000 Lean 4 declarations and 500 thousand lines of code. We release two artifacts: (i) AutoformBot, the open-source multi-agent framework; and (ii) Atlas, the resulting formal library. Our results suggest that autoformalizing the core content of graduate-level mathematics at scale is now economically and technically feasible. This opens the door to the automated verification of both human- and machine-generated mathematics at a research level.",
+  "title_relatable": "Can AI systems formalize thousands of math textbooks automatically?",
+  "hook": "Multi-agent system converts 26 textbooks into 45,000 verified Lean 4 definitions, opening automated verification of research-level mathematics.",
+  "summary": "AutoformBot orchestrates thousands of LLM agents to translate informal textbook prose into machine-checked formal proofs in Lean 4. The system handles dependency scheduling and collaborative version control across 26 open-access math textbooks, producing Atlas: a 500,000-line verified library covering analysis, algebra, topology, and probability. Both AutoformBot and Atlas are released openly, demonstrating that automating formal mathematics verification at graduate level is now feasible.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 684,
+  "tokens_out": 184,
+  "cost_usd": 0.0012832,
+  "ingested_at": "2026-05-30T16:55:05.790438+00:00"
+}

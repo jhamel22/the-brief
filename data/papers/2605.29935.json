@@ -1,0 +1,23 @@
+{
+  "id": "2605.29935",
+  "arxiv_url": "https://arxiv.org/abs/2605.29935",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving",
+  "authors": "Zezhong Qian, Zhao Yang, Lu Tan, Zhihao Yan, Weiyi Hong, Haizhuang Liu, Yawei Jueluo",
+  "abstract": "Autonomous driving systems are commonly trained and evaluated within limited geographic regions, which hinders their scalability when deployed in new cities. However, significant domain shifts in appearance, road topology, and traffic patterns often cause severe performance degradation under cross-city deployment. Existing approaches based on domain adaptation, data augmentation, or synthetic data generation typically rely on labeled target data, city-specific annotations, or task-specific designs, limiting their scalability and effectiveness for holistic evaluation. In this paper, we introduce CityTransfer-Bench, a geographically disjoint benchmark for evaluating cross-city generalization across perception, segmentation, and planning, and propose CityGen, a diffusion-based generative framework that performs zero-label city adaptation via HD-map-conditioned synthesis guided by city-level visual prompts. Extensive experiments demonstrate that CityGen consistently improves cross-city robustness across multiple tasks, establishing a scalable and label-efficient foundation for generalizable autonomous driving.",
+  "title_relatable": "Can autonomous cars learn to drive in new cities without retraining?",
+  "hook": "A generative framework that adapts self-driving systems to unseen cities using only maps and visual prompts, no labeled data required.",
+  "summary": "Autonomous vehicles trained in one city often fail in another due to different road layouts, appearances, and traffic patterns. CityGen uses diffusion models guided by HD maps and city-level visual cues to synthesize realistic training data for new cities without any manual annotation. Tested on a new cross-city benchmark covering perception, segmentation, and planning, the method consistently improves robustness across all tasks—tackling a real scalability bottleneck for deploying autonomous driving systems globally.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 682,
+  "tokens_out": 185,
+  "cost_usd": 0.0012855999999999998,
+  "ingested_at": "2026-05-30T16:55:32.550235+00:00"
+}

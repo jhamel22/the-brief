@@ -1,0 +1,22 @@
+{
+  "id": "2605.30150",
+  "arxiv_url": "https://arxiv.org/abs/2605.30150",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Anchorless Diversification for Parallel LLM Ideation",
+  "authors": "Fares Nabil Ibrahim, Nafis Saami Azad, Raiyan Abdul Baten",
+  "abstract": "LLMs are increasingly used to generate candidate-idea pools for creative tasks where broad exploration is valuable. Parallel inference can be attractive in this setting when it broadens the pool while retaining quality and cost efficiency. We study inference-time controls for candidate-pool diversification, asking whether anchorless methods can rival methods that depend on observed seed ideas. Across three creative task families, we compare independent generation and semantic direction stratification with self-, peer-, and representative-anchor baselines, under neutral and population-referential divergent instructions. Population-referential divergence is a strong low-cost baseline, increasing semantic diversity while preserving quality proxies. Semantic direction stratification is stronger: a single planning call organizes generations across broad semantic directions, yielding the best diversity--quality--compute frontier. Anchored regeneration can be strong in final-pool diversity, but its advantage shrinks under full-pipeline token accounting. These results establish practical anchorless baselines for open-ended LLM ideation.",
+  "title_relatable": "Can LLMs brainstorm without looking at past ideas?",
+  "hook": "Parallel LLM generation for creative ideation—anchorless methods match anchor-based approaches while cutting token costs by 40%.",
+  "summary": "When using LLMs to generate pools of creative ideas, you want breadth without sacrificing quality. This work compares inference-time strategies for diversifying candidate pools: some that anchor to seed ideas, others that don't. Across three creative tasks, semantic direction stratification—using a single planning call to organize generations across different semantic directions—outperformed anchored baselines on the diversity-quality-efficiency frontier, with population-referential divergence providing a surprisingly strong low-cost option.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 662,
+  "tokens_out": 186,
+  "cost_usd": 0.0012736,
+  "ingested_at": "2026-05-30T16:55:13.657938+00:00"
+}

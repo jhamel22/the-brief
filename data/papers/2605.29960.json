@@ -1,0 +1,23 @@
+{
+  "id": "2605.29960",
+  "arxiv_url": "https://arxiv.org/abs/2605.29960",
+  "announced_date": "2026-05-28",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "title_original": "Hijacking Agent Memory: Stealthy Trojan Attacks Through Conversational Interaction",
+  "authors": "Hongtao Wang, Se Yang, Yu Chen, Puzhuo Liu",
+  "abstract": "Large language model (LLM) agents increasingly leverage long term memory to support persistent and autonomous task execution. However, this capability also introduces a new attack surface: memory poisoning, where adversaries can inject malicious information to influence future behavior. Existing memory poisoning attacks often assume that injected content can be stored directly in memory, overlooking the selective extraction and rewriting stages in modern memory pipelines. This makes prior methods ineffective under realistic settings. In this paper, we propose MemPoison, a novel memory poisoning attack that bypasses selective memory mechanisms in LLM agents, where an attacker can inject triggerable backdoors into the agent's long-term memory through dialogue interactions, thereby misleading its subsequent responses. MemPoison introduces three key components: (i) a semantic relational bridge that binds the trigger and payload into a coherent statement to ensure they are extracted into memory together; (ii) entity masquerading that optimizes triggers to mimic named entities, resisting rewriting; and (iii) joint embedding optimization that shapes trigger-injected texts into a tight cluster in the embedding space while maintaining isolation from benign embeddings for stealth. Evaluations across different agent domains and memory mechanisms show MemPoison achieves attack success rates up to 0.95, outperforming existing baselines. Mechanistic analysis indicates that the attack exploits embedding-space anisotropy and shifts attention patterns, highlighting core vulnerabilities in selective memory systems. We evaluate multiple defense strategies and demonstrate their fundamental limitations in mitigating the attack.",
+  "title_relatable": "How attackers secretly poison AI agents' memories through chat",
+  "hook": "New attack achieves 95% success rate injecting hidden commands into LLM agents' long-term memory, bypassing existing safeguards through three coordinated techniques.",
+  "summary": "LLM agents now store persistent memories to handle long-running tasks, but that memory becomes a target. Researchers built MemPoison, an attack that plants hidden triggers in agent memory through normal conversation—triggers that later cause the agent to behave maliciously. Unlike previous attacks that assume direct memory access, MemPoison works against real memory systems that filter and rewrite stored information, using tricks like semantic binding and entity disguise to sneak past defenses. Tests across multiple agent types achieved 95% success rates; existing defenses proved fundamentally inadequate.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 776,
+  "tokens_out": 207,
+  "cost_usd": 0.0014488,
+  "ingested_at": "2026-05-30T16:55:29.875782+00:00"
+}
