@@ -1,0 +1,23 @@
+{
+  "id": "2605.29879",
+  "arxiv_url": "https://arxiv.org/abs/2605.29879",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding",
+  "authors": "Luzhou Ge, Xiangyu Zhu, Jinyan Liu, Xuesong Li",
+  "abstract": "Integrating open-vocabulary semantic information into dynamic 3D scene representations is essential for long-term embodied scene understanding. However, existing methods often suffer from fragile instance association due to incomplete cross-view cues, while their limited ability to handle object-level topological changes restricts long-term robotic task execution. Moreover, current 3D scene understanding methods either rely on simple feature matching without explicit spatial reasoning or assume offline ground-truth 3D geometry. To address these challenges, we present DGSG-Mind, a hybrid instance-aware 3D Gaussian dynamic scene graph system with an embodied reasoning agent. Our system couples a probabilistic voxel grid with explicit 3D Gaussians to enable robust cross-modal instance fusion and incremental semantic mapping. It handles dynamic changes through Gaussian-based visual relocalization and localized masked refinement guided by geometric-semantic consistency. Built on the instance Gaussian map, DGSG-Mind further constructs a hierarchical scene graph and develops the 3D Gaussian Mind, which integrates structural relations, spatial-semantic information, and visually annotated RoI Gaussian renderings for multimodal reasoning. Extensive experiments show that DGSG-Mind achieves the best zero-shot 3DVG performance among methods operating on self-reconstructed maps, while also delivering strong performance in 3D open-vocabulary semantic segmentation and scene reconstruction. We further deploy DGSG-Mind on real-world robots to demonstrate its target-oriented reasoning and dynamic update capabilities. The project page of DGSG-Mind is available at https://icr-lab.github.io/DGSG-Mind",
+  "title_relatable": "Can robots understand and remember 3D scenes over time?",
+  "hook": "System tracks dynamic objects and semantic relationships in 3D scenes for long-term robotic tasks, outperforming existing methods on zero-shot visual grounding.",
+  "summary": "Robots need to understand scenes that change over time—objects move, appear, disappear—while mapping semantic meaning to 3D space. DGSG-Mind combines 3D Gaussian splatting with scene graphs to track object instances robustly and build a spatial-semantic memory the robot can reason about. It beats competitors on zero-shot 3D visual grounding and works on real robots, handling dynamic updates without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 810,
+  "tokens_out": 180,
+  "cost_usd": 0.001368,
+  "ingested_at": "2026-05-30T16:37:33.630329+00:00"
+}

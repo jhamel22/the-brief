@@ -1,0 +1,22 @@
+{
+  "id": "2605.30346",
+  "arxiv_url": "https://arxiv.org/abs/2605.30346",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "YoCausal: How Far is Video Generation from World Model? A Causality Perspective",
+  "authors": "You-Zhe Xie, Yu-Hsuan Li, Jie-Ying Lee, Kaipeng Zhang, Yu-Lun Liu, Zhixiang Wang",
+  "abstract": "As video diffusion models (VDMs) advance toward world models, a key question arises: do they truly understand causality, or merely overfit to statistical temporal patterns? Existing benchmarks mostly rely on synthetic data, limiting real-world generalization due to the sim-to-real gap. We present YoCausal, a two-level benchmark inspired by the Violation of Expectation (VoE) paradigm from cognitive science. By temporally reversing real-world videos at zero cost as natural counterfactual samples, YoCausal establishes an arbitrarily extensible evaluation protocol. Level 1 introduces the Reverse Surprise Index (RSI), quantifying arrow-of-time perception via denoising loss. Level 2 introduces the Causality Cognition Index (CCI), which leverages a VLM to stratify datasets into causal and non-causal subsets, disentangling genuine causal reasoning from temporal bias. Evaluation of 13 state-of-the-art VDMs reveals that perceiving the arrow of time does not imply understanding causality, and a significant gap persists relative to human-level causal cognition.",
+  "title_relatable": "Do video generators actually understand cause and effect?",
+  "hook": "A new benchmark reveals that 13 state-of-the-art video models perceive time's direction but fail at basic causal reasoning compared to humans.",
+  "summary": "Video diffusion models are improving rapidly, but researchers question whether they grasp causality or just memorize temporal patterns. YoCausal, a benchmark using reversed real-world videos as zero-cost counterfactuals, measures two things: whether models perceive time's arrow (Reverse Surprise Index) and whether they genuinely reason about cause-and-effect (Causality Cognition Index). Testing 13 top models shows a crucial disconnect—understanding time flow doesn't mean understanding causality, and all models lag far behind human reasoning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 729,
+  "tokens_out": 198,
+  "cost_usd": 0.0013752,
+  "ingested_at": "2026-05-30T16:37:44.655988+00:00"
+}

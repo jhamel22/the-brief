@@ -1,0 +1,22 @@
+{
+  "id": "2605.30317",
+  "arxiv_url": "https://arxiv.org/abs/2605.30317",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "VPG: Visual Prefix Guidance for Autoregressive Image and Video Generation",
+  "authors": "Xinyao Liao, Qiyuan He, Yicong Li, Jiayin Zhu, Xiaoye Qu, Wei Wei, Angela Yao",
+  "abstract": "Autoregressive image and video generators are trained with teacher-forced histories but must sample from their own generated prefixes at inference time, making them vulnerable to exposure bias and prefix drift. Existing remedies either modify training or apply sampling-time guidance aimed primarily at external semantic conditions, such as class labels or text prompts, rather than testing whether a next-step prediction provides strong posterior support for the generated prefix itself. We propose Visual Prefix Guidance (VPG), a training-free inference-time guidance method for autoregressive image and video generation. VPG improves next-step prediction by contrasting the model's output under the generated prefix with its output under a corrupted prefix, then extrapolating logits toward candidates that strengthen the posterior support of the generated prefix. Across class-conditional image generation with VAR, text-to-image generation with Infinity, and text-to-video generation with InfinityStar, VPG improves generation quality without retraining the base model, reducing FID on VAR by 0.36 on average and improving benchmark performance on both image and video generation.",
+  "title_relatable": "How do you keep an image generator from drifting off course?",
+  "hook": "Training-free method reduces image generation errors by 0.36 FID across VAR, Infinity, and InfinityStar without retraining.",
+  "summary": "Autoregressive image and video generators learn from ground-truth sequences during training but must sample their own outputs at test time—like a student who practiced with answers but must work alone on the exam. This exposure bias causes drift and quality loss. Visual Prefix Guidance (VPG) fixes this at inference by contrasting predictions made with the generated sequence versus a corrupted one, then steering the model toward outputs that better support what it has already generated. No retraining needed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 706,
+  "tokens_out": 189,
+  "cost_usd": 0.0013208000000000002,
+  "ingested_at": "2026-05-30T16:37:03.593370+00:00"
+}

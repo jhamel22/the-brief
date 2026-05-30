@@ -1,0 +1,22 @@
+{
+  "id": "2605.30338",
+  "arxiv_url": "https://arxiv.org/abs/2605.30338",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "REST3D: Reconstructing Physically Stable 3D Scenes from a Single Image",
+  "authors": "Xiaoxuan Ma, Jiashun Wang, Nicolas Ugrinovic, Yehonathan Litman, Kris Kitani",
+  "abstract": "Reconstructing physically stable 3D scenes from a single RGB image enables casual images to be converted into simulation-ready digital assets for applications such as immersive interaction and content creation. However, existing single-image reconstruction methods fall short in capturing the physical structure of a scene. As a result, they often produce geometrically plausible but physically inconsistent results, including object floating and penetration, which lead to unstable behavior in physics simulations. Image-conditioned scene generation methods improve physical plausibility but often rely on strong scene priors, yielding plausible yet inaccurate object arrangements that fail to match the input image. We propose REST3D, a single-image reconstruction framework that can reconstruct physically stable 3D scenes by integrating physical scene understanding with physics-constrained refinement. We first introduce an agentic physical scene understanding technique that constructs a scene-tree representation capturing object physical states and inter-object relationships from a gravity-support perspective, providing a structural prior for reconstruction. Leveraging this structure, we initialize the scene using image-to-3D models, followed by scene-tree-guided alignment and physics-constrained optimization to resolve physical violations while preserving visual consistency with the input image. Experiments show that our method significantly reduces physical errors and improves simulation stability on both synthetic and real-world datasets while maintaining strong reconstruction quality. We further demonstrate the reconstructed scenes in VR-based human-object interaction, showing their potential for immersive applications.",
+  "title_relatable": "How to turn a photo into a physics-safe 3D world?",
+  "hook": "Reconstructs 3D scenes from single photos that actually work in physics simulations, eliminating floating objects and collisions.",
+  "summary": "Converting a photo into a simulation-ready 3D scene is hard—existing methods produce geometrically plausible reconstructions where objects float or penetrate walls. REST3D fixes this by first analyzing the physical relationships between objects (what supports what), then refining the 3D reconstruction to satisfy physics constraints while matching the input image. Tests on synthetic and real photos show it dramatically reduces physical errors and improves stability in VR interactions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 776,
+  "tokens_out": 173,
+  "cost_usd": 0.0013128000000000003,
+  "ingested_at": "2026-05-30T16:36:59.149370+00:00"
+}

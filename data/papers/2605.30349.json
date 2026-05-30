@@ -1,0 +1,22 @@
+{
+  "id": "2605.30349",
+  "arxiv_url": "https://arxiv.org/abs/2605.30349",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "AdaState: Self-Evolving Anchors for Streaming Video Generation",
+  "authors": "Yusuf Dalva, Pinar Yanardag",
+  "abstract": "Autoregressive video diffusion models generate streaming video by producing frames sequentially, conditioning each chunk on previously generated content. These models are structurally anchored to the first frame: its key-value representation occupies a privileged position in the attention cache and serves as the primary scene reference throughout generation. As the cleanest and most error-free position in the cache, this anchor draws disproportionate attention, suppressing video dynamics, and locking scene composition to the initial viewpoint even as the scene naturally evolves. The result is a temporally shallow video in which motion, camera movement, and scene progression are dampened in favor of static consistency. To address this, we replace the static anchor with an adaptive state, a hidden latent that the model denoises alongside content at every chunk but never renders. Rather than referencing a frozen first frame, the model generates its own scene anchor at each step by attending to both the previous state and the current content, producing a reference that evolves with the generated content. Unlike standard video generation, which encodes an absolute notion of time, our formulation treats time as relative: every generation step sees the same positional structure regardless of how far generation has progressed, and the state transition is identical at every chunk. Together, these properties introduce a recurrence into the generation process, where denoising serves as the transition function, and the KV cache serves as the carrier, requiring no external module. Experiments demonstrate that the adaptive state substantially improves video dynamics, enabling richer motion and natural scene progression within generated videos.",
+  "title_relatable": "Why AI video gets stuck at the first frame—and how to fix it",
+  "hook": "Streaming video models anchor to the first frame, killing motion and camera movement. Replacing it with an evolving hidden state unleashes richer dynamics.",
+  "summary": "Video diffusion models generate frame-by-frame by anchoring to the first frame's representation, which dominates attention and locks the scene in place. This dampens motion, camera movement, and scene evolution. Researchers replace this static anchor with an adaptive latent state that evolves at each generation step, treating time as relative rather than absolute. The model now attends to both previous state and current content to build its own reference dynamically, enabling substantially more natural video progression without external modules.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 764,
+  "tokens_out": 188,
+  "cost_usd": 0.0013632,
+  "ingested_at": "2026-05-30T16:37:42.087803+00:00"
+}

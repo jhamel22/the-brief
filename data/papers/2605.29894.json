@@ -1,0 +1,22 @@
+{
+  "id": "2605.29894",
+  "arxiv_url": "https://arxiv.org/abs/2605.29894",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Train the Agent, Not the Expert: Learning to Harness Heterogeneous Experts for Multi-Turn Visual Reasoning",
+  "authors": "Yaowu Fan, Tao Han, Dazhao Du, Andy J. Ma, Jia Wan",
+  "abstract": "Recent progress in computer vision has produced a wide range of powerful specialized models for detection, segmentation, counting, and other visual tasks. However, these models are usually optimized for isolated task formulations, making it difficult to directly support general-purpose visual intelligence, especially when a task requires complex language understanding and dense small-object perception. In this paper, we propose VisHarness, a trainable visual agent that decouples high-level perception, reasoning, and decision-making from low-level task execution. Instead of training a model to solve a specific visual task, VisHarness learns to harness a set of carefully designed heterogeneous visual experts. This paradigm preserves the general intelligence of the agent while fully leveraging the precision advantages of specialized visual models in concrete visual tasks. With only lightweight training, VisHarness learns a generalizable visual expert-harnessing policy and can solve common fundamental vision tasks under various complex conditions through multi-turn interactions with visual expert models. To enable efficient on-policy reinforcement learning training in a live environment, we introduce dynamic visual memory archiving, which mitigates the rapidly accumulating visual-token overhead caused by multi-turn interactions with visual expert models. Experiments on four representative benchmarks covering reasoning segmentation, generalized referring segmentation, dense small-object detection, and referring counting demonstrate that VisHarness substantially outperforms existing general-purpose models and achieves competitive or superior performance compared with task-specific models.",
+  "title_relatable": "How to orchestrate multiple vision specialists for complex visual reasoning?",
+  "hook": "An agent that delegates to specialized vision models outperforms general models on reasoning, segmentation, detection, and counting tasks.",
+  "summary": "Most vision models optimize for single tasks in isolation, struggling with problems that need reasoning and language understanding together. VisHarness trains a lightweight agent to coordinate multiple specialized models—detection, segmentation, counting experts—rather than retraining everything from scratch. Using a memory-efficient approach to manage multi-turn interactions with experts, it beats general-purpose models and matches task-specific ones on four benchmarks: reasoning segmentation, referring segmentation, small-object detection, and referring counting.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 772,
+  "tokens_out": 180,
+  "cost_usd": 0.0013376,
+  "ingested_at": "2026-05-30T16:37:30.973259+00:00"
+}

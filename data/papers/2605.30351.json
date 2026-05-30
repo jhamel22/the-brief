@@ -1,0 +1,23 @@
+{
+  "id": "2605.30351",
+  "arxiv_url": "https://arxiv.org/abs/2605.30351",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
+  "authors": "Hidir Yesiltepe, Jiazhen Hu, Tuna Han Salih Meral, Adil Kaan Akan, Kaan Oktay, Hoda Eldardiry, Pinar Yanardag",
+  "abstract": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their positions are encoded. The per-head KV layout itself, a dominant contributor to streaming memory and latency, has been mostly left unchanged. In this paper, we present the first study of Multi-Head Latent Attention (MLA) in video diffusion. VideoMLA replaces per-head keys and values with a shared low-rank content latent and a shared decoupled 3D-RoPE positional key, reducing per-token KV memory by 92.7% at every cached layer. We further investigate why MLA succeeds in video diffusion even though the spectral assumption often used to motivate it in language models does not hold: pretrained video attention is not low-rank, with 99%-energy effective rank far above any practical latent dimension. VideoMLA retains quality at compression ratios where direct spectral approximation would predict large reconstruction error. We show that the MLA bottleneck, rather than the pretrained spectrum, determines the effective rank: both spectral and random initialization occupy nearly the full rank budget from initialization, and training preserves this budget while adapting within it. On VBench, VideoMLA matches short-horizon streaming video diffusion baselines, achieves the best overall score at long horizons among evaluated methods, and improves throughput by 1.23x on a single B200.",
+  "title_relatable": "How to shrink video AI's memory footprint by 93%?",
+  "hook": "Reduces KV cache memory 92.7% in long-form video generation while matching quality and gaining 1.23× speedup.",
+  "summary": "Generating minute-long videos with diffusion models hits a memory wall: storing attention keys and values explodes with sequence length. VideoMLA replaces the standard per-head cache with a shared low-rank bottleneck, slashing per-token memory by 92.7%. Surprisingly, this works even though video attention isn't inherently low-rank like language model attention—the compression forces the model to adapt during training rather than exploit spectral structure. On VBench benchmarks, it matches baseline quality at short horizons and achieves the best score at long horizons, plus 1.23× throughput gain on a single B200.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 823,
+  "tokens_out": 223,
+  "cost_usd": 0.0015504000000000002,
+  "ingested_at": "2026-05-30T16:37:39.568933+00:00"
+}

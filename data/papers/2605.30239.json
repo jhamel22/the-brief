@@ -1,0 +1,22 @@
+{
+  "id": "2605.30239",
+  "arxiv_url": "https://arxiv.org/abs/2605.30239",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SAM3D-Phys: Towards Multi-Object Interactive Simulation in Real World",
+  "authors": "Xin Dong, Weijian Deng, Lihan Zhang, Tianru Dai, Wenfeng Deng, Yansong Tang",
+  "abstract": "This work addresses the problem of recovering complete, simulatable object geometry from reconstructed real-world scenes, enabling physics-based interaction with objects embedded in the scene. While modern multi-view reconstruction methods can produce visually accurate environments, objects are often incomplete due to occlusions and limited observations, making them unsuitable for physics simulation. To address this limitation, we propose SAM3D-Phys, a framework that integrates scene reconstruction with generative 3D priors of SAM3D to recover physically simulatable objects. Our approach first reconstructs the scene from multi-view images to obtain scene geometry and partial observations of objects. We then leverage SAM3D to infer complete object geometry from these partial observations. To ensure that the recovered objects remain consistent with the reconstructed scene, we restore scene-consistent object states through two complementary strategies: a physics-constrained spatial optimization algorithm that iteratively aligns the recovered object to its original location, and a mask-guided appearance distillation module that refines texture fidelity based on the observed images. By recovering complete object geometry and restoring its pose and appearance within the scene, SAM3D-Phys produces clean object representations suitable for physics-based simulation, enabling simultaneous and physically consistent interactive simulation of multiple objects within a reconstructed scene. Project page: https://chnxindong.github.io/sam3d-phys/",
+  "title_relatable": "How to make hidden objects simulatable in real scenes?",
+  "hook": "Recovers complete, physics-ready 3D objects from partial observations in real scenes, enabling multi-object interactive simulation.",
+  "summary": "Reconstructing real-world scenes from photos often leaves objects incomplete and impossible to simulate physically due to occlusion and limited views. SAM3D-Phys combines scene reconstruction with generative 3D models to infer missing geometry, then anchors recovered objects back to their actual locations through physics constraints and texture refinement. The result: clean, simulatable objects you can interact with in a reconstructed environment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 762,
+  "tokens_out": 165,
+  "cost_usd": 0.0012695999999999999,
+  "ingested_at": "2026-05-30T16:37:14.616613+00:00"
+}

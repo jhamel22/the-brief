@@ -1,0 +1,24 @@
+{
+  "id": "2605.30310",
+  "arxiv_url": "https://arxiv.org/abs/2605.30310",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.GR"
+  ],
+  "title_original": "City-Mesh3R: Simulation-Ready City-Scale 3D Mesh Reconstruction from Multi-View Images",
+  "authors": "Sayan Paul, Sourav Ghosh, Siddharth Katageri, Soumyadip Maity, Sanjana Sinha, Brojeshwar Bhowmick",
+  "abstract": "City-scale 3D surface reconstruction from multiview images for downstream 3D simulation, poses highly challenging problems due to the scale and complexity of urban scenes. Existing city-scale 3D reconstruction methods based on NeRF, Gaussian Splatting etc. often fail to recover 3D meshes ready for simulation due to incomplete/missing geometry and irregular, noisy surfaces. Scaling existing small-scale 3D reconstruction methods to arbitrarily large urban scenes is highly infeasible due to their computational complexity. We present City-Mesh3R, a scalable framework for reconstructing watertight surface meshes directly from large unordered image collections. Unlike recent methods which use global sparse SfM point-cloud initialization followed by a distributed 3D dense reconstruction of large-scale scenes, our method follows an end-to-end images-to-mesh 3D reconstruction approach using a divide-and-conquer strategy. The sparse city map is reconstructed via topological image clustering, cluster-wise independent sparse SfM and map merging, without need for exhaustive image feature matching. Then this map is partitioned spatially to perform geometry-aware camera selection, followed by dense surface reconstruction and surface refinement using curvature-aware adaptive vertex density remeshing. These partition meshes are then stitched together to produce the global mesh of the city. The proposed end-to-end framework is evaluated on city-scale reconstruction datasets. As demonstrated by our qualitative and quantitative results, our proposed method yields high-fidelity watertight 3D meshes with regular geometry, capturing fine surface details, and is suitable for scaling to arbitrarily large scenes owing to the end-to-end processing in a distributed setting.",
+  "title_relatable": "How to rebuild entire cities in 3D from photos?",
+  "hook": "Scalable pipeline reconstructs watertight city meshes directly from image collections, handling scales where existing methods collapse.",
+  "summary": "Building 3D models of entire cities from photos for simulation requires handling massive complexity that breaks existing methods. City-Mesh3R divides cities into manageable chunks, reconstructs sparse maps via topological clustering and independent SfM per cluster, then densifies geometry with smart camera selection and curvature-aware remeshing before stitching pieces together. Result: watertight, simulation-ready meshes with fine detail at city scale.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 854,
+  "tokens_out": 170,
+  "cost_usd": 0.0013632,
+  "ingested_at": "2026-05-30T16:37:09.526314+00:00"
+}

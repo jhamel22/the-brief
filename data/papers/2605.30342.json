@@ -1,0 +1,23 @@
+{
+  "id": "2605.30342",
+  "arxiv_url": "https://arxiv.org/abs/2605.30342",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field",
+  "authors": "Shangjie Xue, Jesse Dill, Dhruv Ahuja, Frank Dellaert, Panagiotis Tsiotras, Danfei Xu",
+  "abstract": "We present Gaussian Splatting Anisotropic Visibility Field (GAVIS), a novel framework for uncertainty quantification and active mapping in 3DGS. Our key insight is that regions unseen from the training views yield unreliable predictions from the 3DGS. To address this, we introduce a principled and efficient method for quantifying the visibility field in 3DGS, defined as the anisotropic visibility of each particle with respect to the training views, and represented using spherical harmonics. The resulting visibility field is integrated into a Bayesian Network-based uncertainty-aware 3DGS rasterizer, enabling real-time (200 FPS) uncertainty quantification for synthesized views. Active mapping is further performed within a maximum information gain framework building on this formulation. Extensive experiments across diverse environments demonstrate that GAVIS consistently and significantly outperforms prior approaches in both accuracy and efficiency. Moreover, beyond standalone use, our method can be applied post-hoc to improve the performance of existing approaches.",
+  "title_relatable": "How to know when 3D scene reconstructions are guessing?",
+  "hook": "New method quantifies uncertainty in 3D Gaussian splatting at 200 FPS, enabling robots to autonomously map unseen regions with measurable confidence.",
+  "summary": "3D Gaussian splatting reconstructs scenes from images but struggles in regions never seen during training—it confidently guesses. GAVIS tracks which areas lack reliable visual evidence using an \"anisotropic visibility field\" and feeds this uncertainty into active mapping decisions, so a robot knows exactly where to look next. Real-time uncertainty quantification (200 FPS) lets autonomous systems plan efficiently without manual tuning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 699,
+  "tokens_out": 178,
+  "cost_usd": 0.0012712,
+  "ingested_at": "2026-05-30T16:37:47.258671+00:00"
+}

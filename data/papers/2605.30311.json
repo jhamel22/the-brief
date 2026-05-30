@@ -1,0 +1,23 @@
+{
+  "id": "2605.30311",
+  "arxiv_url": "https://arxiv.org/abs/2605.30311",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Archon: A Unified Multimodal Model for Holistic Digital Human Generation",
+  "authors": "Chong Bao, Shichen Liu, Lijun Yu, David Futschik, Stylianos Moschoglou, Shefali Srivastava, Ziqian Bai, Feitong Tan, Guofeng Zhang, Zhaopeng Cui, Sean Fanello, Yinda Zhang",
+  "abstract": "Digital humans are fundamental to immersive interaction, yet creating a unified model for holistic modalities, including text, audio, motion, and visual content, remains an open challenge. In this paper, we present Archon, a fully pretrained, human-centric unified multimodal model for holistic avatar generation. Archon unifies seven modalities with modality-specific tokenizers, and a native autoregressive unified multimodal model pretrained on synchronized modalities and 72 diverse tasks to model holistic joint distributions. To address the token explosion challenge in high-fidelity talking videos, we introduce a memory-efficient semantic video reparameterization, achieving 4x token reduction while preserving fine-grained dynamics, coupled with a semantic-driven video diffusion decoder. We further propose a \"Thinking in Modality\" that decomposes ambiguous cross-modal tasks into stepwise thinking in an alternative chain of modality, progressively enhancing fidelity and controllability. Extensive experiments demonstrate that Archon achieves superior or comparable performance across diverse digital human generation tasks, validating the effectiveness of our unified framework. Project page: https://zju3dv.github.io/archon/.",
+  "title_relatable": "One model to generate digital humans across text, audio, video, and motion",
+  "hook": "Single unified model generates talking avatars from text or audio, handling 7 modalities at once with 4× efficiency gains on video.",
+  "summary": "Creating realistic digital humans requires coordinating multiple outputs—speech, facial movement, body motion, video—which typically demands separate specialized models. Archon unifies this with one pretrained model across seven modalities (text, audio, motion, video, and more), trained on 72 diverse tasks. To avoid memory overload from video tokens, they compress video 4× using semantic reparameterization while keeping fine-grained details intact. A stepwise \"thinking in modality\" approach decomposes tricky cross-modal tasks into clearer intermediate steps. Outperforms or matches prior methods on talking head generation, full-body avatars, and motion synthesis.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 769,
+  "tokens_out": 226,
+  "cost_usd": 0.0015192,
+  "ingested_at": "2026-05-30T16:37:07.172224+00:00"
+}

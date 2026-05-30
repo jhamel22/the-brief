@@ -1,0 +1,22 @@
+{
+  "id": "2605.30140",
+  "arxiv_url": "https://arxiv.org/abs/2605.30140",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "AnomalyAgent: Training-Free Agentic Models for Zero-/Few-Shot Anomaly Detection",
+  "authors": "Yi Zhang, Jiawen Zhu, Lele Fu, Guansong Pang",
+  "abstract": "Benefiting from generalizability of vision-language models (VLMs) such as CLIP, many zero-/few-shot anomaly detection (AD) approaches have achieved impressive detection performance across various datasets. Nevertheless, they require substantial training on large auxiliary datasets to adapt VLMs to anomaly detection, and their inference largely relies on visual-text embedding similarity-based anomaly scores, lacking reasoning abilities to detect complex anomalies that require in-depth contextual understanding. To address this limitation, we propose \\textbf{AnomalyAgent}, a novel training-free, agentic framework that leverages the advanced reasoning and generalization capabilities of multimodal large language models (MLLMs) for anomaly detection. The key ingredients include \\textbf{1)} a comprehensive anomaly-centric toolset that enables adaptive MLLM-driven, agentic anomaly reasoning in zero-shot settings, and \\textbf{2)} a customized memory module that grounds anomaly reasoning with few-shot, in-context reference examples. We extend evaluation beyond the detection of simple anomalies (e.g., surface defects like cracks and dents and clear lesions) in widely used benchmarks to more diverse types of anomalies such as logical/contextual anomalies in logistics and manufacturing settings. Extensive experiment results demonstrate that our AnomalyAgent achieves substantially better performance compared to training-free VLM-based AD and generic agentic methods, highlighting its superior generalization capability in both zero-shot and few-shot anomaly detection settings. The code implementation can be find at this address.",
+  "title_relatable": "Can AI reason through anomalies without any training?",
+  "hook": "Training-free framework using language models to detect complex anomalies—from surface defects to logical inconsistencies—without auxiliary datasets.",
+  "summary": "Most anomaly detection systems rely on visual similarity scores and require training on large datasets. AnomalyAgent instead uses multimodal language models (like GPT-4V) as reasoning agents: given an image, the system deploys specialized tools to investigate anomalies and draws on memory of past examples to explain what's wrong. It works zero-shot (no training) and handles both simple defects and contextual anomalies in real manufacturing and logistics settings, outperforming similarity-based approaches.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 805,
+  "tokens_out": 186,
+  "cost_usd": 0.001388,
+  "ingested_at": "2026-05-30T16:37:25.658476+00:00"
+}

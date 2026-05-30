@@ -1,0 +1,22 @@
+{
+  "id": "2605.30060",
+  "arxiv_url": "https://arxiv.org/abs/2605.30060",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Towards Consistent Video Geometry Estimation",
+  "authors": "Zhu Yu, Jingnan Gao, Runmin Zhang, Lingteng Qiu, Zhengyi Zhao, Rui Peng, Yichao Yan, Kejie Qiu, Siyu Zhu, Si-Yuan Cao, Hui-Liang Shen",
+  "abstract": "This work presents ViGeo, a feed-forward foundation model for recovering spatially dense and temporally consistent geometry from video sequences. Built upon a plain transformer architecture without task-specific architectural modifications, ViGeo supports streaming, full-sequence, and long-video inference within a unified model. The key design is dynamic chunking attention, which exposes the model to both bidirectional and causal temporal contexts during training and allows it to adapt its attention pattern at test time without retraining. To improve supervision quality, we further introduce a completion-based data refinement framework. This framework trains a video depth completion teacher that conditions on sparse and noisy annotations and exploits video/multi-view context to produce dense, temporally coherent, and geometrically reliable training targets. Beyond depth and point maps, ViGeo also predicts surface normals within the same framework. Trained solely on public datasets, ViGeo achieves state-of-the-art performance across online, offline, and long-video depth estimation, surface normal estimation, and video point map estimation.",
+  "title_relatable": "Can one model estimate consistent geometry from any video length?",
+  "hook": "Single foundation model predicts depth, normals, and 3D points from video at any length—streaming or full-sequence—without retraining.",
+  "summary": "ViGeo recovers 3D geometry (depth, surface normals, point maps) from video in a single unified model. The trick: dynamic chunking attention lets it handle both causal (streaming) and bidirectional (offline) contexts, switching at test time. A separate data refinement step teaches the model on cleaned, temporally consistent targets rather than noisy raw annotations. Trained only on public data, it outperforms specialized methods across streaming, full-length, and long-video benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 720,
+  "tokens_out": 192,
+  "cost_usd": 0.001344,
+  "ingested_at": "2026-05-30T16:37:28.247640+00:00"
+}

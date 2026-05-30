@@ -1,0 +1,23 @@
+{
+  "id": "2605.30341",
+  "arxiv_url": "https://arxiv.org/abs/2605.30341",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "GPIC: A Giant Permissive Image Corpus for Visual Generation",
+  "authors": "Keshigeyan Chandrasegaran, Kyle Sargent, Suchir Agarwal, Michael Jang, Michael Poli, Juan Carlos Niebles, Justin Johnson, Jiajun Wu, Li Fei-Fei",
+  "abstract": "Studying scalable methods for visual generative modeling requires large, accessible, and stable datasets. We introduce GPIC, a Giant Permissive Image Corpus of approximately 28 trillion pixels. GPIC comprises diverse internet images captioned by a state-of-the-art vision-language model, including 100M training, 200K validation, and 1M test examples. Moreover, all GPIC images are permissively licensed for both research and commercial use. GPIC is safety-filtered, deduplicated, and centrally hosted on Hugging Face. We provide a benchmarking protocol for generative modeling on GPIC. Finally, we provide a reference baseline for pixel-space flow matching on GPIC. Our dataset, benchmark, and models are available at https://huggingface.co/datasets/stanford-vision-lab/gpic. Evaluation toolkit and code are available at https://gpic.stanford.edu",
+  "title_relatable": "A 28-trillion-pixel dataset for training image generators without legal risk",
+  "hook": "100M permissively licensed images with automated captions, benchmarks, and baseline diffusion models—all freely available.",
+  "summary": "Training visual generative models at scale hits a wall: finding huge, legally usable datasets is hard. GPIC solves this with 100M training images (28 trillion pixels total) captioned by a vision-language model, all permissively licensed for research and commercial use. The dataset is deduplicated, safety-filtered, and hosted on Hugging Face with benchmarking protocols and baseline flow-matching models, removing infrastructure barriers for researchers and practitioners building the next generation of image generators.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 688,
+  "tokens_out": 186,
+  "cost_usd": 0.0012944,
+  "ingested_at": "2026-05-30T16:36:56.816138+00:00"
+}
