@@ -1,0 +1,22 @@
+{
+  "id": "2605.29159",
+  "arxiv_url": "https://arxiv.org/abs/2605.29159",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Asymptotically Safe Gravitational Form Factors from the Proper-Time Flow Equation",
+  "authors": "Emiliano Maria Glaviano",
+  "abstract": "We study the renormalization group flow of non-local form factors in four-dimensional quantum gravity within the proper-time formalism at quadratic order in the curvature expansion. We show that the flow equations can be integrated down to $k=0$, allowing the reconstruction of the full momentum dependence of the form factors. Within this framework, we construct asymptotically safe solutions at this order. We find that asymptotic safety of the flow does not automatically ensure a finite cutoff-independent $Λ\\to\\infty$ limit for the integrated solutions, which in general develop a logarithmic divergence $\\ln(q^2/Λ^2)$, so that a renormalization condition is still required. A finite $Λ\\to\\infty$ limit compatible with asymptotic safety is obtained only when the ultraviolet boundary condition selects the non-Gaussian fixed point. This yields finite dimensionful form factors, removes UV logarithmic contributions, and ensures independence from the renormalization scale $μ$. The resulting renormalized asymptotically safe form factors display a power-law decay $\\sim1/q^2$ in the ultraviolet and reproduce the expected logarithmic structure in the infrared, with the Planck scale replacing the renormalization scale.",
+  "title_relatable": "Can quantum gravity avoid infinity without breaking scale invariance?",
+  "hook": "A new calculation shows asymptotically safe quantum gravity still needs renormalization—but only one special boundary condition makes it truly finite.",
+  "summary": "Quantum gravity at high energies can avoid infinities through asymptotic safety, but only if you pick the right ultraviolet boundary condition. Using proper-time methods, the researchers reconstructed momentum-dependent form factors and found that asymptotic safety alone doesn't guarantee finite results; additional renormalization is required. Only when the system selects a specific non-Gaussian fixed point do all infinities vanish and predictions become independent of measurement scale.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 715,
+  "tokens_out": 174,
+  "cost_usd": 0.001268,
+  "ingested_at": "2026-05-30T16:48:29.184440+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.29990",
+  "arxiv_url": "https://arxiv.org/abs/2605.29990",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Perturbative Nicolai-Map Diagrammatics: Application to Poincaré Supergravity",
+  "authors": "Ji-Seong Chae, Hun Jang, Junhyeok Lee",
+  "abstract": "We develop a perturbative, diagrammatic framework for constructing Nicolai maps and apply it to four-dimensional $\\mathcal{N}=1$ Poincaré supergravity expanded around flat Minkowski space. It provides an alternative to the coupling-flow-operator construction, which faces several obstructions when extended to local supersymmetry. Expanding the bosonic effective action and the Nicolai map jointly in the gravitational coupling $κ$ and the loop-counting parameter $\\hbar$, we derive the Nicolai-map defining conditions, i.e. the free-action and determinant-matching conditions, order by order. The diagrammatics enumerates all admissible local terms in the Nicolai-map ansatz from the effective-action diagrams and reduces the construction to a finite system of nonlinear polynomial equations. Carried through order $κ^{2}$, the resulting constraints are found to be independent of the detailed bosonic input and hierarchical, order-$κ^{2}$ consistency further restricting the order-$κ$ data. A consistent Nicolai-map construction for the Einstein--Hilbert graviton sector is found to require the Rarita--Schwinger gravitino already at this order: Einstein gravity admits a Nicolai map only through its $\\mathcal{N}=1$ supersymmetric completion, Poincaré supergravity, supporting Nicolai's characterization of supersymmetry.",
+  "title_relatable": "Does Einstein gravity need supersymmetry to be truly fundamental?",
+  "hook": "Physicists developed a new method to test whether ordinary gravity can be reformulated without quantum loops—and found it cannot exist without its supersymmetric partner.",
+  "summary": "Researchers created a diagrammatic toolkit for constructing Nicolai maps—mathematical reformulations of quantum field theories that eliminate loop integrals—and applied it to four-dimensional supergravity. They discovered that Einstein gravity alone cannot satisfy the consistency conditions needed for such a map; only when paired with its supersymmetric extension (Poincaré supergravity) do the equations work out. This lends concrete support to Nicolai's decades-old intuition that supersymmetry may be fundamental to gravity's structure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 782,
+  "tokens_out": 201,
+  "cost_usd": 0.0014295999999999998,
+  "ingested_at": "2026-05-30T16:48:23.931748+00:00"
+}

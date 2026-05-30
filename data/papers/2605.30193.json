@@ -1,0 +1,25 @@
+{
+  "id": "2605.30193",
+  "arxiv_url": "https://arxiv.org/abs/2605.30193",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph",
+    "hep-th",
+    "nucl-th"
+  ],
+  "title_original": "Mellin Moments of the Unpolarized Gluon PDF in the Proton from Nonlocal Operators in Lattice QCD",
+  "authors": "Joseph Delmar, Krzysztof Cichy, Martha Constantinou, Yong Zhao",
+  "abstract": "We present a lattice QCD determination of the Mellin moments of the unpolarized gluon parton distribution function in the proton. The analysis is based on matrix elements of nonlocal gluon operators coupled to momentum-boosted proton states. The calculation relies on an $N_f=2+1+1$ ensemble of maximally twisted mass fermions with clover improvement and the Iwasaki-improved gauge action, at a pion mass of approximately 260 MeV. Working within the short-distance operator product expansion (OPE) of the reduced gluon Ioffe-time distribution, we extract ratios of higher-order gluon moments, $\\langle x^n\\rangle$ with $n>1$, to the gluon momentum fraction, $\\langle x\\rangle$. We investigate systematic effects associated with the truncation of the order of moment in the OPE, the choice of minimum and maximum Wilson-line separations entering the analysis, and the treatment of mixing with the quark-singlet under perturbative matching. The stability of the extracted moments is further studied under scale evolution using DGLAP equations, allowing us to assess uncertainties related to perturbative truncation by varying the scale. Our work provides a determination of the ratio $\\langle x^3\\rangle_g/\\langle x\\rangle_g$ at a scale of 2 GeV, with uncertainties that account for both statistical and the dominant theoretical systematic uncertainties.",
+  "title_relatable": "How much momentum do gluons actually carry in a proton?",
+  "hook": "Lattice calculations reveal gluon distribution moments in protons, constraining how energy is shared inside the nucleus through high-precision computer simulations.",
+  "summary": "Physicists used lattice QCD—essentially solving quantum chromodynamics on a discrete grid—to measure how gluons distribute energy and momentum inside protons. By calculating matrix elements of nonlocal operators, they extracted ratios of higher-order gluon moments, pinning down the ratio ⟨x³⟩/⟨x⟩ at 2 GeV. This is fundamental input for understanding proton structure and improving predictions for collider experiments.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 792,
+  "tokens_out": 190,
+  "cost_usd": 0.0013935999999999998,
+  "ingested_at": "2026-05-30T16:48:12.883099+00:00"
+}

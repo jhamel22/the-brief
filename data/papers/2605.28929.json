@@ -1,0 +1,26 @@
+{
+  "id": "2605.28929",
+  "arxiv_url": "https://arxiv.org/abs/2605.28929",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "cond-mat.dis-nn",
+    "cond-mat.stat-mech",
+    "hep-lat",
+    "hep-th"
+  ],
+  "title_original": "Improving CFT Operators Using Machine Learning",
+  "authors": "Lior Oppenheim, Snir Gazit, Zohar Ringel",
+  "abstract": "Finite-size effects limit the accuracy with which conformal data can be extracted from lattice simulations of critical systems. While action improvement suppresses some corrections to scaling, it does not address operator-dependent effects arising from imperfect lattice representations of continuum conformal fields. In this work, we propose a data-driven method for improving lattice operators themselves, constructing estimators with enhanced overlap with the corresponding primary operators of the continuum conformal field theory. We identify improved lattice representations of leading spin and energy operators in three two-dimensional critical systems: the Ising model, the q = 3 Potts model, and the dilute q = 3 Potts model. In all cases, the resulting operators exhibit reduced corrections to scaling and yield more accurate estimates of scaling dimensions compared to conventional lattice choices. The code and analysis workflows used to produce these results are made available in an accompanying GitHub repository.",
+  "title_relatable": "Can machine learning fix the lattice errors that plague quantum simulations?",
+  "hook": "A new technique uses AI to redesign how lattice simulations represent quantum operators, reducing measurement errors and extracting cleaner data from critical systems.",
+  "summary": "Lattice simulations approximate continuum physics but introduce systematic errors in how operators are defined. The authors trained machine learning models to identify better lattice representations of key operators in the Ising and Potts models, dramatically improving the accuracy of extracted scaling dimensions. The method generalizes across different critical systems and comes with public code.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 625,
+  "tokens_out": 153,
+  "cost_usd": 0.001112,
+  "ingested_at": "2026-05-30T16:48:53.538799+00:00"
+}

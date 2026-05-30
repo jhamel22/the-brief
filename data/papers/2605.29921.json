@@ -1,0 +1,25 @@
+{
+  "id": "2605.29921",
+  "arxiv_url": "https://arxiv.org/abs/2605.29921",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math.QA",
+    "hep-th",
+    "math-ph",
+    "math.RT"
+  ],
+  "title_original": "Modular invariance of characters of quasi-lisse vertex algebras",
+  "authors": "Tomoyuki Arakawa, Jethro van Ekeren, Hao Li",
+  "abstract": "We study spaces of conformal blocks associated with line bundles over elliptic curves, with coefficients in a vertex algebra. For vertex algebras satisfying suitable finiteness and semisimplicity conditions, which are met by all admissible affine vertex algebras as well as admissible W-algebras associated with nilpotent elements of standard Levi type, we prove the holonomicity of the sheaf of conformal blocks over the moduli space of bundles. Furthermore, we show that the space of flat sections of the associated Jacobi-invariant connection is spanned by trace functions on modules. This result provides a substantial generalization of the celebrated theorem of Yongchang Zhu to quasi-lisse vertex algebras. As a special case, we deduce that for affine vertex algebras at admissible level, the dimension of the space of conformal blocks coincides with the number of admissible weights at that level.",
+  "title_relatable": "Do vertex algebra characters obey modular symmetry?",
+  "hook": "Mathematicians prove that certain infinite-dimensional algebraic structures preserve their character formulas under modular transformations, extending a 30-year-old theorem.",
+  "summary": "When you wrap a vertex algebra around an elliptic curve and ask which character formulas stay invariant under transformations, the answer involves a special property called holonomicity. The team proves this works for large classes of algebras arising in physics—affine algebras and W-algebras—by showing that conformal blocks satisfy a rigid differential equation. The result confirms a longstanding conjecture and generalizes Zhu's foundational theorem from 1996.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 644,
+  "tokens_out": 181,
+  "cost_usd": 0.0012392,
+  "ingested_at": "2026-05-30T16:48:26.608813+00:00"
+}

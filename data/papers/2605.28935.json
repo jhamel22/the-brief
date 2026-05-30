@@ -1,0 +1,24 @@
+{
+  "id": "2605.28935",
+  "arxiv_url": "https://arxiv.org/abs/2605.28935",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "cond-mat.other",
+    "hep-th"
+  ],
+  "title_original": "FunKit: A computer algebra toolkit for functional approaches",
+  "authors": "Franz R. Sattler",
+  "abstract": "We introduce FunKit, a Mathematica package for the derivation and tracing of functional equations from arbitrary master equations. FunKit provides an expression vocabulary and a set of rules that allow for derivations in any given field theory and master equation. It also allows users to add extensions for more specific equation systems. Therefore, it can be used in a wide range of situations, for example Dyson--Schwinger or functional RG equations, flowing reparametrisations, nPI equations, (modified) STIs and WTIs, functional Polchinski and Wegner flows, functional master equations with sources, and many others. Besides interfacing with the \\FORM language to trace large tensor expressions efficiently, FunKit also provides facilities to export arbitrary Mathematica expressions to C++, Julia or Fortran code, including the results of derivations, which can then be evaluated numerically. Both the tracing and code generation can also be used independently and in combination with other packages.",
+  "title_relatable": "New software automates the tedious algebra of quantum field theory",
+  "hook": "FunKit handles the symbolic grunt work behind functional equations in particle physics, letting researchers skip months of manual derivation and export results directly to numerical code.",
+  "summary": "FunKit is a Mathematica toolkit that automatically derives functional equations (like Dyson–Schwinger or renormalization group equations) from master equations in quantum field theory. It traces large tensor expressions efficiently and exports results to C++, Julia, or Fortran for numerical evaluation. The package cuts out weeks of manual algebra and serves multiple equation systems across different theoretical frameworks.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 628,
+  "tokens_out": 163,
+  "cost_usd": 0.0011544,
+  "ingested_at": "2026-05-30T16:48:48.942683+00:00"
+}

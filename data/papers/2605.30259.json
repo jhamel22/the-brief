@@ -1,0 +1,24 @@
+{
+  "id": "2605.30259",
+  "arxiv_url": "https://arxiv.org/abs/2605.30259",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Late-time Quantum Vacuum Decay and its Cosmological Implications",
+  "authors": "Yang Bai, Sida Lu, Nicholas Orlofsky",
+  "abstract": "The existence of a landscape of metastable vacua raises the possibility that our Universe may have undergone quantum vacuum decay at late times. This work explores how such a transition can be tested with cosmological observables, focusing on precision distance measurements and cosmic microwave background (CMB) anisotropies. A set of phenomenological models is constructed in which late-time quantum tunneling changes the vacuum energy and may convert a subcomponent of dark matter into dark radiation, possibly accompanied by domain-wall production. The resulting expansion histories are compared with DESI DR2 baryon acoustic oscillation data; supernova distance measurements from DES-Dovekie, Pantheon+, and Union3; and a compressed CMB likelihood. For quantum-tunneling models, current cosmological distance measurements still allow a 50% decrease in the total vacuum energy for a transition redshift $z_t<1$. The model with dark-matter conversion and domain-wall production provides a good fit to resolve the tension between cosmological observables and the $Λ$CDM model, with a preferred transition around $z_t \\sim 7$ and about 10% of dark matter participating in the transition. Additionally, CMB anisotropy constraints from bubble nucleation and the associated domain-wall network are derived and shown to strongly restrict slow or sparse late transitions. Applied to the minimal quantum-tunneling model, these constraints allow an $\\mathcal{O}(10\\%)$ decrease in the total vacuum energy for a transition redshift $z_t$ of order unity. For nonminimal models, dark-matter-density-dependent tunneling can proceed rapidly enough to evade such bounds. These results demonstrate that late-time quantum vacuum decay is a testable cosmological phenomenon and provide a concrete observational handle on metastable-vacuum physics motivated by landscape scenarios.",
+  "title_relatable": "Did our universe's vacuum state switch on recently?",
+  "hook": "If the universe inhabits a metastable vacuum, it could have decayed in the past few billion years, leaving detectable imprints in galaxy distances and the cosmic microwave background.",
+  "summary": "Physicists tested whether quantum tunneling to a lower-energy vacuum happened recently in cosmic history using galaxy surveys and supernova data. A model where 10% of dark matter converts to radiation at redshift ~7 fits current observations better than standard cosmology and could explain tensions between different cosmic measurements. The constraints are tight but not impossible: 10% drops in vacuum energy remain viable if the decay happened in the last billion years.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 828,
+  "tokens_out": 180,
+  "cost_usd": 0.0013824,
+  "ingested_at": "2026-05-30T16:48:07.985231+00:00"
+}

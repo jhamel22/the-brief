@@ -1,0 +1,22 @@
+{
+  "id": "2605.28938",
+  "arxiv_url": "https://arxiv.org/abs/2605.28938",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Gravity Decoupling and Axionic Shift Symmetries",
+  "authors": "Christian Aoufia, Gonzalo F. Casas, Fernando Marchesano",
+  "abstract": "We analyse the rôle of approximate axionic shift symmetries in gravity-decoupling limits arising in type II Calabi-Yau compactifications. Associated with each shift symmetry there is an axionic string whose tension constrains the gradient of the Kähler potential, as expected in regimes where gravity becomes weakly coupled. The gradients of these tensions define vector fields on moduli space, analogous to those associated with BPS particle masses. Together, they characterise the evolution of different effective field theory sectors along asymptotic limits, encoding both their coupling to gravity and their kinetic mixing. By deriving upper bounds on the inner products of these vector fields, we show that they split into mutually orthogonal subsets, one of which decouples from gravity. Finally, we relate the Laplacian of certain axionic string tensions to a divergent moduli space curvature.",
+  "title_relatable": "How do hidden symmetries help gravity decouple from particle physics?",
+  "hook": "In string theory compactifications, approximate symmetries tied to axionic strings constrain how gravity decouples, revealing a moduli-space geometry that predicts which particle sectors become independent.",
+  "summary": "String theory on Calabi-Yau manifolds naturally produces approximate symmetries—axionic shift symmetries—each associated with a string-like object. These symmetries act as constraints that determine how gravity weakens relative to other forces and which particle sectors decouple cleanly. The authors map this geometry onto moduli space and show the vector fields encoding these symmetries split into orthogonal groups, with one group fully independent of gravity's effects.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 628,
+  "tokens_out": 188,
+  "cost_usd": 0.0012544000000000001,
+  "ingested_at": "2026-05-30T16:48:45.638273+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.30276",
+  "arxiv_url": "https://arxiv.org/abs/2605.30276",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Self-dual holography: four-point AdS/CFT correlators in higher-spin gravity",
+  "authors": "Evgeny Skvortsov, Richard Van Dongen",
+  "abstract": "Self-dual theories, being UV-finite, should have their own AdS/CFT dualities. Higher-spin extensions of self-dual theories are attractive to simplify the CFT duals. The maximal self-dual theory is Chiral higher-spin gravity, which should be dual to a subsector of Chern--Simons matter theories. As a step toward establishing self-dual holography, we develop the Fefferman--Graham expansion and holographic dictionary for arbitrary spin self-dual theories. As an application, we derive bulk-to-bulk propagators and compute three- and four-point AdS/CFT correlators in a contraction of Chiral higher-spin gravity, which is a higher-spin extension of self-dual Yang--Mills theory.",
+  "title_relatable": "Can simplified gravity theories unlock hidden AdS/CFT duals?",
+  "hook": "Self-dual gravity theories eliminate infinities. Physicists map their four-point correlators using higher-spin extensions, testing whether simpler theories have their own holographic mirrors.",
+  "summary": "Self-dual theories don't blow up at high energies, suggesting they deserve their own AdS/CFT dictionary—the physicist's Rosetta Stone linking bulk gravity to boundary quantum fields. The authors develop the mathematical tools (Fefferman–Graham expansion) to translate between sides and compute four-point correlators in a higher-spin version of self-dual Yang–Mills theory, a simplified test case that could unlock new holographic dualities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 604,
+  "tokens_out": 186,
+  "cost_usd": 0.0012272000000000001,
+  "ingested_at": "2026-05-30T16:48:05.052678+00:00"
+}

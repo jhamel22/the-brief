@@ -1,0 +1,23 @@
+{
+  "id": "2605.28939",
+  "arxiv_url": "https://arxiv.org/abs/2605.28939",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Dynamical Entanglement Phase Transitions in Holographic CFTs",
+  "authors": "Joseph Dominicus Lap, Jad C. Halimeh, David Horn, Lukas Ebner, Clemens Seidl, Berndt Müller, Andreas Schäfer, Jakob Minar",
+  "abstract": "We study the time evolution of the entanglement structure of holographic conformal field theories after a local quench. Using the mutual information between two spatial intervals as a probe, we find that $1+1$-dimensional conformal field theories exhibit a rich pattern of dynamical phase transitions. In the large-central-charge limit, mutual information develops sharp non-analyticities at critical times, providing a concrete entanglement-based realization of dynamical quantum phase transitions. We find that the dynamics organize into six distinct phases of mutual information, each controlled by the dominance of a different conformal block, or equivalently, a different holographic geodesic configuration. This phase structure goes beyond the standard quasi-particle picture, explaining non-analytic features that are not captured by simple light-cone propagation from the quench points. We further identify a dynamical $D_4$ symmetry acting on the interval endpoints that controls the presence or absence of mutual information. The onset of mutual information is governed by the breaking of this symmetry to a $\\mathbb{Z}_2 \\times \\mathbb{Z}_2$ subgroup, suggesting a symmetry-based characterization of non-equilibrium entanglement dynamics analogous to the role of symmetry in equilibrium critical phenomena. Finally, numerical studies of critical spin chains indicate that finite-$c$ effects smooth out the sharp large-$c$ transitions between different mutual-information phases, while the transitions between phases with and without mutual information appear to remain non-analytic. These results offer a unifying perspective on real-time entanglement dynamics and their critical features in conformal many-body systems.",
+  "title_relatable": "Does entanglement suddenly reorganize after quantum shocks?",
+  "hook": "Holographic duality reveals that entanglement between distant regions undergoes sharp phase transitions at specific times—a window into non-equilibrium quantum dynamics.",
+  "summary": "After a local disturbance in a quantum system, entanglement between two regions evolves through six distinct phases, each dominated by different quantum channels. Using holography, researchers found these transitions are controlled by a hidden symmetry that either permits or blocks entanglement flow—analogous to how symmetry breaking triggers equilibrium phase transitions. Finite-system effects blur these sharp boundaries, but the on-off switch for entanglement itself persists.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 818,
+  "tokens_out": 178,
+  "cost_usd": 0.0013664,
+  "ingested_at": "2026-05-30T16:48:42.622172+00:00"
+}

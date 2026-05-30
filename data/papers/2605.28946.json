@@ -1,0 +1,26 @@
+{
+  "id": "2605.28946",
+  "arxiv_url": "https://arxiv.org/abs/2605.28946",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el",
+    "math-ph",
+    "nlin.SI"
+  ],
+  "title_original": "Constrained integrability and anyonic chains",
+  "authors": "Matthew Blakeney, Luke Corcoran, Marius de Leeuw",
+  "abstract": "We review the notion of Yang-Baxter integrability for spin chains that have Hilbert spaces with constraints, such as a Rydberg blockade. We focus on anyonic chains, whose constraints arise from the fusion rules of the fusion categories on which they are based. We discuss the emergence of Temperley-Lieb algebras and present a new result on which types of anyonic chains exhibit them. We then give an overview of known results for integrable anyonic chains and extend them to several fusion categories up to rank $7$. Using a modification of the boost operator formalism, we find several new integrable anyonic chains and discuss some of their properties. These include spin-$\\frac32$ models for $\\mathfrak{su}(2)_k$ fusion categories, anyonic chains based on the Tambara-Yamagami fusion categories TY$(\\mathbb{Z}_n)$, and product fusion categories Fib$\\times$Fib and Fib$\\times$Ising. We review recent results for spin chains based on the Haagerup-Izumi fusion category HI$(\\mathbb{Z}_3)$, and present preliminary numerics for a HI$(\\mathbb{Z}_5)$ model.",
+  "title_relatable": "What happens when exotic particles obey integrability rules?",
+  "hook": "Physicists map which constrained quantum spin chains with anyonic excitations remain exactly solvable, uncovering new integrable models up to rank 7.",
+  "summary": "Integrable systems—chains of quantum spins that can be solved exactly—normally work in unrestricted Hilbert spaces. This work extends that framework to anyonic chains, where constraints from fusion rules (like Rydberg blockade) eliminate certain states. The authors identify which fusion categories produce Temperley-Lieb algebras, discover new integrable models including spin-3/2 variants and Tambara-Yamagami chains, and compute properties for several exotic fusion categories.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 711,
+  "tokens_out": 192,
+  "cost_usd": 0.0013368000000000002,
+  "ingested_at": "2026-05-30T16:48:36.918083+00:00"
+}

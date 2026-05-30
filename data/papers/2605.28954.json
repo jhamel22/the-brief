@@ -1,0 +1,23 @@
+{
+  "id": "2605.28954",
+  "arxiv_url": "https://arxiv.org/abs/2605.28954",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Heavy Axion from a Confining Mirror GUT",
+  "authors": "Giacomo Cacciapaglia, Csaba Csáki, Teng Ma",
+  "abstract": "We propose a new framework for solving the strong CP problem via a heavy axion, using mirror symmetry and grand unification. The mirror GUT sector remains unbroken and dynamically generates a calculable heavy mass scale via confinement without fine tuning. Models in this class feature a heavy axion, whose potential is less sensitive to Planck scale corrections, as well as a rich hidden sector from the confined mirror GUT. The solution to the strong CP problem remains unspoiled by the presence of additional phases in the GUT Yukawas, yet allowing the possibility of electric dipole moments within the reach of future experiments. Our proposal offers new directions in GUT model building, axion phenomenology, dark matter and cosmology.",
+  "title_relatable": "Can a hidden mirror universe solve the axion puzzle?",
+  "hook": "Physicists propose using a hidden mirror sector to generate a heavy axion that solves the strong CP problem without fine-tuning, opening new paths to dark matter detection.",
+  "summary": "The strong CP problem—why the universe isn't symmetric between matter and antimatter—might be solved by a heavy axion emerging from a hidden \"mirror\" copy of the universe that confines at a specific scale. Unlike standard axion solutions, this approach avoids fine-tuning and produces measurable signatures in electric dipole moment experiments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 588,
+  "tokens_out": 158,
+  "cost_usd": 0.0011024000000000001,
+  "ingested_at": "2026-05-30T16:48:34.116030+00:00"
+}

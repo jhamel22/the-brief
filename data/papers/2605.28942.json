@@ -1,0 +1,23 @@
+{
+  "id": "2605.28942",
+  "arxiv_url": "https://arxiv.org/abs/2605.28942",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.supr-con",
+    "hep-th"
+  ],
+  "title_original": "Graph-based emulation of $d$-dimensional curved spaces with superconducting arrays",
+  "authors": "Mehmet Dede, Guilherme Delfino, André L. G. Mudry, Junseok Oh, Andrew P. Higginbotham, Christopher Mudry, Claudio Chamon",
+  "abstract": "We introduce a framework for emulating graphs and, through them, curved spaces of arbitrary dimension, using arrays of superconducting wires. The array consists of two stacked layers of wires, horizontal and vertical, such that wires are parallel within each layer and perpendicular between layers. By discretizing a space into a graph, assigning a superconducting wire with a rigid phase to each vertex, and coupling pairs of wires through Josephson junctions along the graph edges, arbitrary geometries and topologies can be engineered in a controlled setting. The superconducting phases then realize scalar field theories on the emergent geometry. We establish experimentally realistic conditions for implementing these architectures and develop a dictionary relating measurable circuit observables to quantities in the emulated field theory. As an application, we develop the implementation of hyperbolic (Anti-de Sitter) spaces of constant negative curvature and use them as an experimentally accessible platform to explore holographic duality in arbitrary dimensions. We investigate the effects of disorder in the Josephson couplings, which translate into metric variations in the bulk-boundary correspondence, and analyze their impact on boundary scaling exponents both analytically and numerically, finding that holographic duality remains robust even in the presence of strong disorder. Beyond holography, the framework opens a broad range of architectural possibilities, including the exploration of physics on highly nontrivial graphs and toy models of dynamical spacetimes.",
+  "title_relatable": "Can superconducting wires simulate curved spacetime?",
+  "hook": "Physicists built artificial curved spaces using superconducting wire arrays, creating a tabletop platform to test holographic duality—a deep principle linking gravity and quantum fields.",
+  "summary": "Researchers designed stacked arrays of superconducting wires that emulate curved geometries by assigning quantum phases to each wire and coupling them via Josephson junctions. The scheme reproduces hyperbolic (negative-curvature) spaces and lets them measure how disorder scrambles the boundary-to-bulk correspondence predicted by holography. The effect persists even under strong disorder, suggesting the principle is robust.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 778,
+  "tokens_out": 177,
+  "cost_usd": 0.0013304,
+  "ingested_at": "2026-05-30T16:48:39.073373+00:00"
+}

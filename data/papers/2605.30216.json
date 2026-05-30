@@ -1,0 +1,24 @@
+{
+  "id": "2605.30216",
+  "arxiv_url": "https://arxiv.org/abs/2605.30216",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "HyperPrecision: A Mathematica package for High-Precision Numerical Evaluation of Multivariate Hypergeometric Functions",
+  "authors": "Sumit Banik, Souvik Bera",
+  "abstract": "In this paper, we present HyperPrecision, a Mathematica package for high-precision numerical evaluation of general Horn-type multivariate hypergeometric functions and their Laurent expansions in a small parameter $ε$. Such functions appear widely in physics and mathematics, with applications ranging from quantum field theory and string theory to number theory and statistics. Their high-precision numerical evaluation, however, remains challenging, since their defining series converge only in restricted domains and analytic continuation beyond these domains is, in general, non-trivial. HyperPrecision addresses this problem by automatically constructing the Pfaffian system of partial differential equations for a given hypergeometric function and restricting it to a one-dimensional contour in the space of variables connecting the starting to the target point. The resulting ordinary differential equation is then solved by the Frobenius method, with boundary conditions fixed analytically by the defining series. We illustrate the use of the package by evaluating commonly occurring multivariate hypergeometric functions, including the Appell $F_1$, $F_2$, $F_3$, and $F_4$ functions, the Horn $G$- and $H$-series, and the Lauricella $F_A$, $F_B$, $F_C$, and $F_D$ functions, as well as by considering applications to angular integrals, Feynman integrals, and cosmological and holographic correlators.",
+  "title_relatable": "How do physicists compute the weird special functions hiding in quantum calculations?",
+  "hook": "New tool numerically evaluates multivariate hypergeometric functions—notoriously hard mathematical objects central to Feynman diagrams and string theory calculations.",
+  "summary": "Physicists frequently encounter multivariate hypergeometric functions in quantum field theory and cosmology, but computing them is painful: their defining series only converge in narrow regions, and extending beyond requires clever mathematical tricks. HyperPrecision automates this by converting the problem into a system of differential equations and solving it numerically along a path connecting start to finish, handling functions like Appell and Horn series that appear constantly in loop integrals and holographic correlators.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 766,
+  "tokens_out": 187,
+  "cost_usd": 0.0013608000000000001,
+  "ingested_at": "2026-05-30T16:48:10.538002+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.28955",
+  "arxiv_url": "https://arxiv.org/abs/2605.28955",
+  "announced_date": "2026-05-27",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Bootstrapping the Four-Point NMHV Stress-Tensor Form Factor",
+  "authors": "Song He, Jiahao Liu, Qinglin Yang",
+  "abstract": "We bootstrap the two-loop four-point next-to-maximally helicity-violating (NMHV) ratio function for the chiral stress-tensor form factor in planar maximally supersymmetric Yang-Mills theory (sYM) at the symbol level. Starting from an ansatz built from NMHV leading singularities and the known two-loop five-point one-mass integral function space, we impose finiteness, dihedral symmetry, parity and Galois symmetry, spurious-pole cancellation, collinear limits, and finally triple-collinear consistency, which together fix the result uniquely. We then subject the answer to independent soft and double-soft checks. The resulting symbol contains 78 letters, all drawn from the 88-letter alphabet previously identified for the four-point MHV form factor through four loops. This provides the first multi-loop result for a non-MHV form factor, and direct evidence that the 88-letter alphabet extends beyond the MHV sector, which may provide the natural universal alphabet for four-point form factors. Our result supplies new data for the study of physics and mathematics of multi-loop form factors including the antipodal duality, as well as their relations to Higgs-parton amplitudes in QCD.",
+  "title_relatable": "Does the universal alphabet for particle scattering extend beyond the simplest case?",
+  "hook": "Physicists solved a two-loop quantum calculation in supersymmetric Yang-Mills theory and found the same mathematical building blocks appear across different particle configurations—suggesting a deep hidden structure.",
+  "summary": "Using symmetry constraints and consistency checks, researchers computed a previously unknown two-loop scattering amplitude for a stress-tensor form factor. They discovered that 78 of 88 allowed mathematical symbols appear in this calculation, the same alphabet that governs simpler cases—providing the first evidence that a universal mathematical language underlies these calculations across different physical regimes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 716,
+  "tokens_out": 170,
+  "cost_usd": 0.0012528,
+  "ingested_at": "2026-05-30T16:48:31.958303+00:00"
+}

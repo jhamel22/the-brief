@@ -1,0 +1,22 @@
+{
+  "id": "2605.30354",
+  "arxiv_url": "https://arxiv.org/abs/2605.30354",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Quiver Approach to Symmetry Theories",
+  "authors": "Vivek Chakrabhavi, Mirjam Cvetič, Jonathan J. Heckman, Shani Meynet",
+  "abstract": "Global symmetry anomalies of a quantum field theory (QFT) can be packaged as specific couplings of a higher-dimensional symmetry theory (SymTh). In this work we show that for 5D superconformal field theories (SCFTs) engineered from M-theory backgrounds $X$ a Calabi-Yau cone, this data can be extracted from the path algebra of branes probing $X$. This provides a complementary algebraic approach compared with more geometric computations based on the explicit calculation of triple intersection numbers in a resolved geometry and / or $η$-invariants extracted from the boundary geometry $\\partial X$. Our method applies in situations where the counterpart geometric computation is either unknown or combinatorially unwieldy. We illustrate with several toric threefold examples, including orbifolds $\\mathbb{C}^{3} / Γ$ and more general non-orbifold Calabi-Yau cones of Sasaki-Einstein five-manifolds.",
+  "title_relatable": "Can you read a quantum field theory's hidden symmetries from algebra instead of geometry?",
+  "hook": "Physicists extract symmetry anomalies from 5D quantum theories using quiver algebras, bypassing messy geometric calculations that often fail.",
+  "summary": "When you engineer quantum field theories from M-theory, their hidden symmetries produce anomalies—usually computed via complicated geometry. This work shows you can extract the same information from the algebra of branes probing the underlying Calabi-Yau space, trading difficult intersection number calculations for path algebra. It works where geometry fails.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 671,
+  "tokens_out": 158,
+  "cost_usd": 0.0011688000000000002,
+  "ingested_at": "2026-05-30T16:48:02.297174+00:00"
+}

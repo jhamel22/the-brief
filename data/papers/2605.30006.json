@@ -1,0 +1,25 @@
+{
+  "id": "2605.30006",
+  "arxiv_url": "https://arxiv.org/abs/2605.30006",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th",
+    "math.QA",
+    "math.RT"
+  ],
+  "title_original": "Corner Quantization of 4D $BF$ Theory",
+  "authors": "Giovanni Canepa, Alberto S. Cattaneo, Filippo Fila-Robattino, Timon Leupp",
+  "abstract": "This note studies the quantized corner structure of four-dimensional $BF$ theory, classifies the associated free and physical corner algebras and constructs possible representations. In the abelian case, for arbitrary closed oriented surfaces and in the presence or absence of a cosmological term, explicit presentations of the corner algebras are obtained in terms of generators and relations, identifying them as infinite-dimensional oscillator-type Lie algebras with an abelian summand. A construction of infinite families of simple modules via bosonic Fock space representations is provided. In the non-abelian case on the torus, the corner algebras are described as quotients constructed from the central extensions of double-loop algebras over certain non-semisimple Lie algebras. A construction of infinite families of simple Fock-type modules of the free corner algebra via an induced module procedure is also provided. The resulting modules descend only trivially to the physical quotient, revealing an obstruction in the present construction in the non-abelian setting.",
+  "title_relatable": "What hidden symmetries live at the edges of spacetime?",
+  "hook": "Physicists mapped the quantum algebra lurking at the boundaries of 4D spacetime, finding infinite families of symmetries that behave like harmonic oscillators in the simplest cases.",
+  "summary": "BF theory is a topological framework for understanding gravity and gauge fields. This work reveals the quantum structure that emerges at the corners and edges of spacetime regions—analogous to finding hidden symmetries at a boundary. In the abelian (simplest) case, the corner algebras match familiar oscillator patterns; in the non-abelian case, the picture is more complex and reveals obstructions in constructing the full set of physical states.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 666,
+  "tokens_out": 187,
+  "cost_usd": 0.0012808000000000001,
+  "ingested_at": "2026-05-30T16:48:21.012906+00:00"
+}

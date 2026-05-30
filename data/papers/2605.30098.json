@@ -1,0 +1,22 @@
+{
+  "id": "2605.30098",
+  "arxiv_url": "https://arxiv.org/abs/2605.30098",
+  "announced_date": "2026-05-28",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Coupling Higher Form Structures of the EFT of Force Free Electrodynamics to Gravity",
+  "authors": "Harsh Anand",
+  "abstract": "We know that the charged Reissner Nordstr$ö$m black hole metric is obtained from the Einstein Hilbert gravitational action. This action has the kinetic term $F^2 = (da)^2$. Motivated by the higher-form symmetry structure of the EFT of Force Free Electrodynamics, we replace the Maxwell field-strength contribution in the Einstein Hilbert action by the gauge-invariant combination $(b-da)^2$, where $a_μ$ is the worldsheet gauge field and $b_{μν}$ is a background two-form field. This ensures that the new action has a higher form symmetry $b \\rightarrow b+dΛ, a\\rightarrow a+Λ$. Here, unlike in qed, $Λ$ may be any one form (not necessarily a differential one form $\\partial_μφ$). The higher form symmetry here is one with the conserved current being a two form and the charge integrated on surfaces. Intuitively, it is the number/current of vector field lines that is conserved here, not the current of particles. Thus, integrating over a surface through which the field lines pierce is sufficient to find the number of these lines that are passing through; so the charge is integrated on surfaces, rather than on the volume. After fixing a particular gauge for the fields $a_μ$ and $b_{μν}$, we obtain a generalized black-hole metric. We find that on hypersurfaces satisfying $(r-t)=$ constant, this metric reduces locally to a Reissner Nordstr$ö$m geometry with an effective charge parameter depending on the constant $(r-t)$.",
+  "title_relatable": "Can we build black holes with a new kind of charge conservation?",
+  "hook": "Physicist rewrites Einstein's gravity equations to include a symmetry where field lines (not particles) are conserved, yielding black holes with position-dependent effective charge.",
+  "summary": "Standard black hole physics conserves electric charge via particle currents. This work replaces that with a higher-form symmetry where the number of field lines piercing a surface is the conserved quantity. By modifying gravity's action to respect this new symmetry, the author derives black hole solutions that resemble Reissner-Nordström geometry but with effective charge varying along certain spacetime slices—suggesting charge conservation can be encoded geometrically in unexpected ways.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 812,
+  "tokens_out": 186,
+  "cost_usd": 0.0013935999999999998,
+  "ingested_at": "2026-05-30T16:48:15.808053+00:00"
+}
