@@ -1,0 +1,24 @@
+{
+  "id": "2605.29529",
+  "arxiv_url": "https://arxiv.org/abs/2605.29529",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "nlin.AO",
+    "cond-mat.stat-mech",
+    "q-bio.NC"
+  ],
+  "title_original": "Common Noise-Induced Group-Level Synchronization Between Uncoupled Groups of Oscillators",
+  "authors": "Tae-Wook Ko",
+  "abstract": "We investigate group-level synchronization between oscillator groups induced by common noise in the absence of inter-group coupling. Each group receives a common noise shared by all its oscillators and independent local noise inputs to individual oscillators. The same common noise is applied to all groups. The system is studied with both identical and nonidentical oscillators, and with and without intra-group coupling. In the nonidentical case, natural frequencies are drawn from the same distribution for both groups, making them statistically equivalent. Through numerical simulations of this system, we find that the degree of synchronization within each group, measured by the absolute value of a complex Kuramoto order parameter, typically shows significant temporal fluctuations. Importantly, the complex order parameters representing the collective oscillations of the groups synchronize when the groups are driven by the same common noise. By deriving a phase density evolution mapping, we analytically explain how this group-level synchronization is achieved in the absence of intra-group coupling.",
+  "title_relatable": "How noise accidentally synchronizes separate groups of oscillators",
+  "hook": "Uncoupled groups of oscillators sync together when exposed to the same noise—a finding that could explain coordination in neural circuits without direct connections.",
+  "summary": "Groups of oscillators that never talk to each other synchronize their collective behavior when bathed in identical common noise. Using simulations and mathematical analysis, the authors show this happens even without coupling between groups, and they explain the mechanism through phase density evolution. The result suggests noise isn't just random disruption—it can coordinate activity across independent neural populations or other oscillatory systems.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 606,
+  "tokens_out": 157,
+  "cost_usd": 0.0011128,
+  "ingested_at": "2026-05-30T16:45:10.901817+00:00"
+}

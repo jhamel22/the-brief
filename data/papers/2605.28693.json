@@ -1,0 +1,23 @@
+{
+  "id": "2605.28693",
+  "arxiv_url": "https://arxiv.org/abs/2605.28693",
+  "announced_date": "2026-05-27",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.AI"
+  ],
+  "title_original": "Misalignment Between Backpropagation and the Hierarchy of Brain Responses to Images",
+  "authors": "Joséphine Raugel, Maximilian Seitzer, Marc Szafraniec, Huy V. Vo, Jérémy Rapin, Patrick Labatut, Piotr Bojanowski, Valentin Wyart, Jean-Rémi King",
+  "abstract": "Backpropagation is the core learning mechanism underlying deep learning. However, whether and how this algorithm is implemented in the brain remains highly debated. In particular, while forward activations of pretrained models reliably map onto the cortical hierarchy of visual processing, it is unknown whether backpropagated gradients exhibit a similar correspondence. Here, we address this question using functional magnetic resonance imaging (fMRI) and magnetoencephalography (MEG) recordings of human brain responses to natural images. For this, we extend standard encoding analyses of forward activations to map backpropagated gradients onto neural data. Focusing on a recent self-supervised vision model (DINOv3) and reproducing results on eight vision models, we find that backpropagated gradients can reliably predict both fMRI and MEG signals, specifically in higher-level visual cortex and for later latencies. However, the spatial and temporal organization of these backpropagated gradients in the brain diverges from the patterns expected under a biologically plausible backpropagation mechanism: specifically, both the order in which gradients are computed and their spatial organization diverge from the temporal and spatial hierarchies of the human brain. Together, these results suggest that, although deep networks and the brain may share similar representational content, they likely rely on fundamentally different mechanisms to learn those representations.",
+  "title_relatable": "Does the brain learn like AI models? Not quite.",
+  "hook": "Brain imaging reveals that while AI and humans represent images similarly, they likely learn them completely differently—suggesting backpropagation isn't how brains work.",
+  "summary": "Researchers compared how deep learning models and human brains process visual information using fMRI and brain recordings. Backpropagated gradients (the learning signals in neural networks) did predict brain activity in higher visual areas, but the timing and spatial order were wrong—gradients flow in different patterns than what brain hierarchies would predict. This suggests AI and brains may converge on similar visual representations despite using fundamentally different learning mechanisms.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 755,
+  "tokens_out": 174,
+  "cost_usd": 0.0013,
+  "ingested_at": "2026-05-30T16:45:19.378312+00:00"
+}

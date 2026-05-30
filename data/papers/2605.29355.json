@@ -1,0 +1,23 @@
+{
+  "id": "2605.29355",
+  "arxiv_url": "https://arxiv.org/abs/2605.29355",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.LG",
+    "q-bio.NC"
+  ],
+  "title_original": "Neural-Behavioral Representation of Natural Whole-body Movement in Monkeys",
+  "authors": "Jieshi He, Puzhe Li, Yanan Sui, Mu-ming Poo",
+  "abstract": "Understanding how cortical activity represents natural whole-body behaviors in primates remains challenging. Limited by the diversity of movements and inaccessibility of large-scale neural representation of whole-body kinematics, previous motor decoding studies focused on constrained tasks and limited limb movements. Here, we present a neural-behavioral recording and modeling framework for freely moving monkeys, combining large-scale epidural cortical signals from distributed sensory- and motor-related areas with synchronized multi-view motion capture through a custom-made data collection platform. We reconstructed whole-body monkey kinematics and learned a compact behavior prior using an autoregressive encoder-decoder model. Conditioned on neural signals, the model decoded accurate and realistic whole-body movement without explicit physical constraints. Our results provide a novel proof-of-concept approach for decoding natural whole-body movements in primates using large-scale intracranial neural activity.",
+  "title_relatable": "What brain signals reveal about how monkeys move naturally",
+  "hook": "Researchers decoded a monkey's entire body movements from brain activity alone—without constraining it to artificial tasks.",
+  "summary": "Scientists recorded brain signals from multiple motor and sensory areas while monkeys moved freely, then built a model that reconstructed their full-body movements from neural activity alone. The decoder produced realistic, physically plausible motion without explicit constraints. This demonstrates that the brain's representation of natural movement is decodable at scale—a stepping stone toward understanding motor control and eventually helping paralyzed people regain movement through neural interfaces.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 602,
+  "tokens_out": 159,
+  "cost_usd": 0.0011175999999999998,
+  "ingested_at": "2026-05-30T16:45:13.380353+00:00"
+}

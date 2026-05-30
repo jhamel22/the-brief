@@ -1,0 +1,23 @@
+{
+  "id": "2605.28818",
+  "arxiv_url": "https://arxiv.org/abs/2605.28818",
+  "announced_date": "2026-05-27",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.CL",
+    "q-bio.NC"
+  ],
+  "title_original": "VLMs May Not Globally Enhance Human Alignment over LLMs During Natural Reading",
+  "authors": "Jinzhou Wu, Zhengwu Ma, Jixing Li, Baoping Tang, Zitong Lu",
+  "abstract": "Large language models (LLMs) have become increasingly useful computational models of human language processing, but it remains unclear whether vision-language learning makes text representations more human-like during natural reading. Here, we address this question by comparing tightly matched LLM and vision-language model (VLM) pairs under a strictly text-only setting, allowing us to isolate the effect of multimodal training history from online visual input or cross-modal fusion. We evaluate model alignment with a human natural-reading dataset that includes whole-cortex fMRI responses and synchronized eye-tracking saccades. Our findings demonstrate that multimodal pretraining may not confer a uniform, global advantage in human alignment during natural reading, indicating that language-internal representations remain the key factor for modeling human text processing. However, the VLM advantage could emerge more selectively when sentences contain stronger visual semantic content, with converging evidence from both fMRI and eye-movement alignments. Together, our findings provide a controlled in silico framework for testing how visual learning history shapes model-human alignment of language processing, suggesting that multimodal pretraining contributes selectively rather than globally to human-like language representations during natural reading.",
+  "title_relatable": "Do vision-trained AI models actually match human reading better?",
+  "hook": "Vision-language models don't universally outperform text-only ones at predicting how humans read—unless the sentence mentions something visual.",
+  "summary": "Researchers compared text-only performance of language models trained with and without vision, measuring alignment to human brain activity (fMRI) and eye movements during natural reading. Multimodal training offered no universal advantage for text processing, but VLMs did better specifically for visually rich sentences. This suggests visual training shapes only selective aspects of how models represent language, not text comprehension broadly.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 670,
+  "tokens_out": 162,
+  "cost_usd": 0.001184,
+  "ingested_at": "2026-05-30T16:45:15.851293+00:00"
+}

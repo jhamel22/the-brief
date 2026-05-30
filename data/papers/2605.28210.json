@@ -1,0 +1,25 @@
+{
+  "id": "2605.28210",
+  "arxiv_url": "https://arxiv.org/abs/2605.28210",
+  "announced_date": "2026-05-27",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CY",
+    "cs.HC",
+    "q-bio.NC"
+  ],
+  "title_original": "The Illusion of Opting in AI-Mediated Consequential Decisions",
+  "authors": "Eugene Yu Ji",
+  "abstract": "Drawing on Ullmann-Margalit's concept of opting (transformative, irrevocable, and shadowed by foreclosed alternatives), we show that current AI systems raise a profound ethical problem that existing AI ethics has not fully captured: the illusion of opting, in which persons and groups encounter the deceptive appearance of meaningful consequential choice while the agency needed to become genuinely capable of choosing is weakened. Against approaches that treat AI primarily as an optimizer of already given ends, we argue that AI systems should be evaluated by whether they protect and cultivate meta-capacity against the illusion of opting: the socially and institutionally scaffolded agentive capacity through which means and ends can be formed, contested, revised, and owned. This reframing is especially urgent for disadvantaged populations, who are least able to absorb the costs of the illusion of opting when AI-mediated pathways misdirect behavior and action. We propose three normative imperatives for AI-mediated consequential decisions: existential honesty, which acknowledges the limits of prediction; ecological rationality, which situates guidance within heterogeneous lived ecologies; and counterfactual reparation, which acknowledges and repairs foreclosed alternatives when AI-mediated decision-making pathways fail.",
+  "title_relatable": "Why AI's 'choices' might not be choices at all",
+  "hook": "AI systems create the illusion of letting people decide while actually weakening their real power to choose, especially harming the already vulnerable.",
+  "summary": "When AI mediates important decisions—hiring, healthcare, loans—people feel they're choosing, but the system narrows options and obscures trade-offs, leaving them less capable of genuine agency. The authors argue AI should be judged not on optimizing outcomes but on protecting people's capacity to form and contest their own goals. For disadvantaged groups, this illusion can be particularly damaging, steering behavior down misdirected paths while foreclosing better alternatives.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 666,
+  "tokens_out": 177,
+  "cost_usd": 0.0012408000000000002,
+  "ingested_at": "2026-05-30T16:45:22.049987+00:00"
+}

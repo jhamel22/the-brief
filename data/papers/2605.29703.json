@@ -1,0 +1,24 @@
+{
+  "id": "2605.29703",
+  "arxiv_url": "https://arxiv.org/abs/2605.29703",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.CV",
+    "q-bio.TO"
+  ],
+  "title_original": "Subcortical Shape Variations and Their Associations with Cognition Across the 8th Decade of Life. A Study in the Lothian Birth Cohort 1936",
+  "authors": "Maria del C. Valdes-Hernandez, Wonjung Park, Joanna Moodie, Susana Muñoz Maniega, Janie Corley, Fraser N. Sneden, Mark E. Bastin, Joanna M. Wardlaw, Simon R. Cox, Jinah Park",
+  "abstract": "The study of brain morphology changes in normal individuals may capture aspects of functionally-relevant brain aging not fully indicated by gross volumetry. Despite the important role of subcortical brain structures in cognition, the associations between their morphological trajectories and cognitive changes in aging have not been documented. We use neuroimaging, demographic, and cognitive data from a large longitudinal study of cognitive aging, the Lothian Birth Cohort 1936, to explore shape changes in subcortical brain structures of community-dwelling individuals across their 8th decade of life. We investigate the association of these changes with cognitive aging using ANCOVA and mixed linear model analyses. Subcortical shape changes were heterogeneous, with varied atrophy patterns across whole period. The hippocampus and the ventral DC experienced varied morphological deformations (from its baseline point) different in left and right hemispheres, while the thalami and globus pallidi shapes, for example, experienced a more uniform volume contraction, nearly symmetrical throughout different timelines. Changes in general cognition were mainly associated with inwards and outwards vertex displacements between the time-points.",
+  "title_relatable": "Does brain shrinkage shape predict memory loss in old age?",
+  "hook": "Brain structures shrink unevenly as we age—the hippocampus warps asymmetrically while other regions shrink uniformly. New patterns emerge linking these specific shape changes to cognitive decline.",
+  "summary": "Researchers tracked brain shape changes in 79-year-olds over several years, finding that the hippocampus and thalamus deform differently depending on hemisphere and location. Changes in how these structures warp inward or outward predicted declines in general cognition better than simple volume loss. This suggests aging brains don't just shrink—they warp in specific ways that matter for memory and thinking.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 732,
+  "tokens_out": 183,
+  "cost_usd": 0.0013176,
+  "ingested_at": "2026-05-30T16:45:02.225767+00:00"
+}

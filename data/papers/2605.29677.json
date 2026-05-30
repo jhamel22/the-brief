@@ -1,0 +1,24 @@
+{
+  "id": "2605.29677",
+  "arxiv_url": "https://arxiv.org/abs/2605.29677",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.HC",
+    "eess.SP",
+    "q-bio.NC"
+  ],
+  "title_original": "Embodied Virtual Reality Feedback Reshapes Neural Representations to Support Continuous Three-Dimensional Motor Imagery Decoding",
+  "authors": "Niall McShane, Attila Korik, Karl McCreadie, Naomi Du Bois, Darryl Charles, Damien Coyle",
+  "abstract": "Continuous brain-computer interfaces (BCIs) that decode motion trajectories from imagined movement offer intuitive motor control, yet how feedback modality and longitudinal training shape neural representations and decoding performance remains poorly understood. We present the first systematic investigation of embodied virtual reality (VR) feedback during real-time 3D virtual limb control driven by motor imagery, across ten longitudinal sessions in ten participants. Performance was evaluated using three strategies: actual online performance (Fixed Decoder Generalisation, FDG), periodic retraining (Sequential Adaptive Training, SAT), and within-session upper-bound estimation (Within-Session Reconstruction, WSR). A CNN-LSTM decoder achieved within-session imagined movement correlations of r = 0.762 under VR and r = 0.672 under screen feedback. VR significantly outperformed screen feedback across all strategies and movement dimensions (improvements of 8.9-13.0%, all p <= 0.002, d = 1.42-2.05). This advantage persisted under fixed decoders without retraining, demonstrating that embodied VR feedback elicits inherently more decodable and generalisable neural representations. Linear mixed-effects modelling confirmed robust main effects of feedback modality and movement axis with no interaction. Neurophysiologically, VR produced stronger sensorimotor-parietal desynchronisation and enhanced motor-frontal functional connectivity, with pervasive anterior insula engagement across all frequency bands and increased superior parietal lobule coupling, paralleling patterns associated with real movement execution. These findings establish embodied spatial feedback as a key design principle for next-generation continuous BCIs targeting intuitive motor control and neurorehabilitation.",
+  "title_relatable": "Does virtual reality training actually change how brains control BCIs?",
+  "hook": "VR feedback made brain-controlled limbs work 10% better than flat screens, with lasting improvements even without retraining.",
+  "summary": "Ten people trained to control a virtual arm by imagining movement over ten sessions, using either VR headsets or regular screens. The VR group achieved significantly better accuracy (76% correlation vs. 67%), with neural patterns that generalized better to new tasks. Brain scans showed VR engagement produced stronger activity in sensorimotor and parietal regions—patterns matching real movement—suggesting immersive feedback fundamentally reshapes how the brain encodes imagined motion.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 808,
+  "tokens_out": 179,
+  "cost_usd": 0.0013624000000000002,
+  "ingested_at": "2026-05-30T16:45:05.348252+00:00"
+}
