@@ -1,0 +1,22 @@
+{
+  "id": "2605.29038",
+  "arxiv_url": "https://arxiv.org/abs/2605.29038",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Nebular Fingerprints of a Violent White Dwarf Merger: 3D NLTE Modelling of Type Ia Supernovae",
+  "authors": "J. M. Pollin, R. Pakmor, L. J. Shingles, F. P. Callan, S. A. Sim, L. A. Kwok, C. E. Collins, F. K. Roepke, A. L. McGarrity",
+  "abstract": "Binary systems composed of two carbon-oxygen white dwarfs (WDs) are a leading progenitor candidate for Type Ia supernovae. One widely discussed scenario is the dynamically driven double-degenerate double-detonation (D$^6$) of a sub-Chandrasekhar-mass WD binary, where detonations are triggered by dynamical interaction. However, some systems are expected to undergo violent mergers, in which the primary ignites through direct carbon ignition as the secondary strikes its surface. We present the first 3D nebular-phase radiative-transfer calculations of a violent merger, using a $1.1 M_\\odot$ and $0.7 M_\\odot$ sub-Chandrasekhar binary. Our simulations employ a full NLTE (non local thermodynamic equilibrium) treatment of excitation and ionisation, including non-thermal electron contributions. By comparing 1D and 3D realisations, we show that multidimensional modelling improves the ionisation state and reveals features absent from 1D calculations, most notably [O I] from unburned material associated with the secondary. The model reproduces much of the panchromatic spectrum of the normal SN 2021aefx, but underpredicts [Ni II] while producing strong high-ionisation stable-Ni features, illustrating that stable-Ni signatures depend not only on abundance, but also on ionisation state. Although the model does not reproduce the strong [Ar II] and [Ne II] emission observed in the 03fg-like SN 2022pul, our calculations suggest that this event may require a similar merger configuration, involving full disruption of the secondary or a more massive companion with more extensive burning. Finally, viewing-angle variation is substantial, with signatures distinct from D$^6$-like scenarios, suggesting that JWST nebular samples, combined with multidimensional modelling, can discriminate between channels.",
+  "title_relatable": "What happens when two white dwarfs collide and explode?",
+  "hook": "3D simulations of violent white dwarf mergers reveal distinct spectral fingerprints that could help astronomers identify which supernovae come from head-on collisions versus other explosion mechanisms.",
+  "summary": "When two carbon-oxygen white dwarfs merge violently, one ignites through direct impact, creating a supernova with a unique signature. Using detailed 3D models with careful treatment of how atoms ionize under extreme conditions, researchers find that violent mergers produce oxygen emission and ionization patterns absent from 1D simulations—and distinctly different from the leading alternative scenario (double-detonation). These predictions could be tested with the James Webb Space Telescope.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 942,
+  "tokens_out": 193,
+  "cost_usd": 0.0015256,
+  "ingested_at": "2026-05-30T16:41:29.321698+00:00"
+}

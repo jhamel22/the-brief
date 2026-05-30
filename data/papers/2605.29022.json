@@ -1,0 +1,22 @@
+{
+  "id": "2605.29022",
+  "arxiv_url": "https://arxiv.org/abs/2605.29022",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "JWST's Dusty Blue BOAT -- GRB 221009A",
+  "authors": "Nguyen M. Khang, Gavin P. Lamb, Helena-M. S. Grabham, Conor M. B. Omand, Hamid Hamidani, Andrew J. Levan, Nial R. Tanvir, Valerio D'Elia, Luca Izzo",
+  "abstract": "GRB 221009A, the Brightest Of All Time (BOAT), presents a challenge for afterglow modelling due to its low Galactic latitude and consequent high line-of-sight extinction. This has led to a wide range of conflicting values for the optical spectral index and dust extinction in the literature. We present a re-analysis of the afterglow spectra, using VLT X-Shooter data at 0.5, 4, and 10.5 days, and JWST NIRSpec$/$MIRI data at 13.3 days post-burst. We fit the data with single and smoothly broken power-law models and perform a joint fit with a double smoothly broken power-law (DSBPL) across all epochs. Our analysis reveals a strong degeneracy between the assumed extinction and the inferred intrinsic spectral index, particularly in the optical, explaining the diversity of previous results. The joint DSBPL fit yields a total line-of-sight extinction of $A_{V} = 4.40 \\pm 0.01$ and a blue continuum, with an intrinsic spectral index of $β= 0.447 \\pm 0.001$. Although marginally preferred by the spectral fits, a wind medium can be rejected by the temporal evolution of the afterglow light curve. The fit spectral index and temporal decline are only consistent with a uniform density medium if an early jet break at $\\sim 0.5-1.0$ days is invoked. Our results imply a hard electron distribution index of $p = 1.89 < 2$, challenging standard particle acceleration models and suggesting a narrow, energetic jet core dominates the early optical-to-X-ray emission.",
+  "title_relatable": "Why the brightest gamma-ray burst ever looks bluer than expected",
+  "hook": "JWST and ground telescopes reveal the most luminous explosion ever recorded has unusual dust properties and particle acceleration—overturning standard models of how jets work.",
+  "summary": "GRB 221009A, the brightest gamma-ray burst on record, was obscured by dust that made its true color hard to pin down. New infrared and optical spectra from JWST and the Very Large Telescope show the burst is bluer than typical, with extreme dust absorption. The data suggest particles are accelerated more efficiently than physics predicts, and the jet's core is narrow and unusually energetic.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 892,
+  "tokens_out": 179,
+  "cost_usd": 0.0014295999999999998,
+  "ingested_at": "2026-05-30T16:41:31.848489+00:00"
+}

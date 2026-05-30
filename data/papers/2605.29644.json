@@ -1,0 +1,23 @@
+{
+  "id": "2605.29644",
+  "arxiv_url": "https://arxiv.org/abs/2605.29644",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+  ],
+  "title_original": "Enhanced All-Distance Equi-Zenith Angle Method for Cosmic-Ray Anisotropy Measurement",
+  "authors": "Dong-Xu Sun, Dan Li, Wei Liu, Qiang Yuan, Yi-Qing Guo, Hong-bo Hu",
+  "abstract": "Long-term observations indicate that the relative intensity of cosmic-ray anisotropy remains below $0.1\\%$ for energies less than $\\sim 1$ PeV. Measuring such faint signals poses a significant challenge in data analysis, requiring careful removal of instrumental and atmospheric artifacts. The all-distance equi-zenith angle method is widely employed to extract cosmic-ray anisotropies, as it effectively suppresses the instantaneous variations arising from the instrument and atmosphere. \\textcolor{black}{However, instability in the detector efficiency makes precise measurements of anisotropy challenging with this method.} In this work, we present an enhanced all-distance equi-zenith angle method for cosmic-ray anisotropy measurement. Unlike previous implementations, our improved approach enables the simultaneous measurement of anisotropies over multiple time frames and allows the detection efficiency to be determined directly from the data. This feature makes the method especially suitable for applications where the detector array does not operate with long-term stability\\textcolor{black}{, and thus allows for the measurement of anisotropy with high-precision}. Moreover, our enhanced method is also feasible when the data do not span complete tropical years.",
+  "title_relatable": "How to measure cosmic-ray patterns despite a wobbly detector?",
+  "hook": "A new technique measures faint cosmic-ray asymmetries (below 0.1%) even when detector efficiency drifts unpredictably, without needing a full year of data.",
+  "summary": "Cosmic rays arrive at Earth with a slight directional bias—but it's tiny and hard to spot because detectors age and atmospheric noise swamps the signal. This work upgrades the standard filtering method to measure the detector's changing sensitivity directly from the data itself, letting astronomers track anisotropy patterns reliably even with imperfect instruments and incomplete observation windows.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 720,
+  "tokens_out": 171,
+  "cost_usd": 0.00126,
+  "ingested_at": "2026-05-30T16:41:11.328757+00:00"
+}

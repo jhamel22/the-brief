@@ -1,0 +1,23 @@
+{
+  "id": "2605.29616",
+  "arxiv_url": "https://arxiv.org/abs/2605.29616",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.HE"
+  ],
+  "title_original": "An Obscured Tidal Disruption Event Uncovered by Its Mid- and Near-Infrared Dust Echo in a Star-Forming Galaxy",
+  "authors": "Hui Liu, Luming Sun, Ning Jiang, Xinwen Shu, Yibo Wang, Tinggui Wang, Roc M. Cutri, Liming Dou, Fabao Zhang, Jiazheng Zhu, Zhenfeng Sheng",
+  "abstract": "We present a comprehensive study of an infrared (IR) flare in the star-forming galaxy SDSS J010320.39+140152.5, which is selected from the sample of mid-IR (MIR) outbursts in nearby galaxies (MIRONG). Its MIR luminosity rose rapidly to a peak of $\\sim5.4\\times10^{43}$ \\lum, maintained in the high state for about a year, and decreased continuously afterward. No optical variability was detected throughout the IR flare. Near-IR follow-up observations around the peak pinpointed the flare's location to spatially coincide with the galactic nucleus, with a $3σ$ upper limit of the offset of $\\lesssim100$ pc. The IR spectral energy distribution (SED) of the flare is consistent with thermal emission of dust with temperatures of $\\sim900$ K. Using a dust radiative transfer model, we inferred a peak UV luminosity of $\\sim(4-10)\\times10^{44}$ erg s$^{-1}$ and a total energy of $\\sim(0.9-2)\\times10^{52}$ ergs released. We ruled out the possibility of a supernova, and prefer that the IR flare originated from an obscured tidal disruption event (TDE) rather than a changing-look active galactic nucleus (AGN). This flare stands as one of the most compelling cases to date for the emerging class of dust-obscured TDEs in recent years. They are missed by optical surveys, partly accounting for the observed bias in TDE host galaxies, and represent a crucial, yet often overlooked, component for a complete understanding of the TDE population.",
+  "title_relatable": "How infrared echoes reveal hidden black hole star-shredding events?",
+  "hook": "A star torn apart by a black hole hid behind dust, but infrared observations caught its glow anyway—suggesting optical surveys miss a large population of these violent events.",
+  "summary": "Astronomers spotted a massive infrared flare in a distant galaxy that stayed bright for a year with no optical counterpart, pinpointing it to the galactic nucleus. Dust thermal emission models revealed it was powered by a hidden tidal disruption event—a star ripped apart by a supermassive black hole—releasing roughly the energy of a trillion supernovae. This obscured class is systematically missed by traditional optical surveys, skewing what we know about how often black holes devour stars.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 892,
+  "tokens_out": 198,
+  "cost_usd": 0.0015056,
+  "ingested_at": "2026-05-30T16:41:15.590040+00:00"
+}

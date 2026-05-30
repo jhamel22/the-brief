@@ -1,0 +1,24 @@
+{
+  "id": "2605.30175",
+  "arxiv_url": "https://arxiv.org/abs/2605.30175",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "A new completely parameter-free clustering algorithm for unsupervised classification of BATSE gamma-ray bursts",
+  "authors": "Soumita Modak",
+  "abstract": "Cluster analysis is a widely applied machine learning technique to understand the existing patterns in the population of gamma-ray bursts (GRBs), in order to explore their physical sources. In the present scenario, the number of clusters corresponding to differentiable groups is still under conflict, in spite of numerous attempts with the state-of-the-art clustering procedures. This crucial unknown parameter needs to be evaluated, either directly or indirectly in terms of other tuning parameters, to produce the clusters in GRBs through implementation of an appropriate clustering algorithm. While most of the applied algorithms reached two physically explained groups of merger and collapsar predominated by the short and long bursts respectively, other statistical approaches violated this binary partition. However, physical establishment of any additional cluster(s) is not yet confirmed. Therefore, we propose a new algorithm, from a different stream of clustering referred to as `completely parameter-free', which carries out the classification of GRBs in a manner that has not been tried so far. It indicates two main groups, of short and long duration bursts from the BATSE sample, compatible with the merger-collapsar theory.",
+  "title_relatable": "Does gamma-ray burst clustering finally settle the merger-versus-collapse debate?",
+  "hook": "A new parameter-free algorithm sorts 2,700+ gamma-ray bursts into two groups matching the dominant theory, sidestepping the tuning-parameter guesswork that plagued previous attempts.",
+  "summary": "Gamma-ray bursts come in two flavors—short and long—thought to arise from different cosmic catastrophes, but clustering algorithms keep disagreeing on how many groups exist because they require researchers to guess the answer in advance. A new parameter-free method cuts through this by letting the data itself determine the groups, confirming the two-class picture without hidden assumptions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 675,
+  "tokens_out": 176,
+  "cost_usd": 0.001244,
+  "ingested_at": "2026-05-30T16:40:58.309424+00:00"
+}

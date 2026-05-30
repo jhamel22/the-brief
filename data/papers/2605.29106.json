@@ -1,0 +1,23 @@
+{
+  "id": "2605.29106",
+  "arxiv_url": "https://arxiv.org/abs/2605.29106",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO"
+  ],
+  "title_original": "The MeerKAT Thousand-Pulsar Polarization Array I: Properties of the Polarization and Rotation Measure Time Series Data",
+  "authors": "Michael Sarkis, Zi-Yan Yuwen, Yin-Zhe Ma, Tao Liu, Jing Ren, Patrick Weltevrede, Xiao Xue",
+  "abstract": "The polarimetry of recent pulsar observations has provided a wealth of observational data with which to test physical theories of emission mechanisms, radiative transfer and even theories that extend beyond the Standard Model. In this work, we have outlined the data analysis of the polarisation time series data of a population of 513 pulsars from the Thousand Pulsar Array observing programme, laying the foundation for building the MeerKAT Thousand-Pulsar Polarization Array as a probe for ultralight Axion-Like Dark Matter (ALDM). From this large dataset we have focused on the temporal trends in the observed polarisation angle (PA) through a measure we call the PA offset, and characterised the trends due to the effects of Faraday Rotation within the interstellar medium and the Earth's ionosphere, as well as generic white and red noise models that are estimated within a Bayesian MCMC analysis. Then, motivated by potential extra contributions to the rotation of the PA that may not be Faraday-like, arising from the proposed ALDM field, we have investigated a derived time dependence for the rotation measure (RM) required to explain the observed PA offset. Comparison of these estimates to RM values that are measured in typical pulsar studies, through a technique known as RM Synthesis, provides a probe of any wavelength-independent contribution to the rotation of the PA. Although we find no evidence for oscillatory behaviour within our dataset's observation timespan, we do find cases of deviation from the usual RM values in several `pulsars of interest', as well as long-term linear trends in the time evolution of Faraday rotation that have been presented in the literature before.",
+  "title_relatable": "Did 513 pulsars reveal hints of ghostly dark matter?",
+  "hook": "A massive polarization survey of pulsars searches for subtle twists in light that axion-like dark matter might produce—finding anomalies in a handful of targets.",
+  "summary": "Researchers analyzed polarized light from 513 pulsars using South Africa's MeerKAT telescope to hunt for ultralight dark matter. They mapped how the polarization angle shifts over time, separating expected effects (Earth's ionosphere, interstellar dust) from potential dark matter signatures using Bayesian statistics. While no smoking gun emerged, several pulsars showed rotation measure deviations worth following up.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 849,
+  "tokens_out": 180,
+  "cost_usd": 0.0013992,
+  "ingested_at": "2026-05-30T16:41:24.143298+00:00"
+}

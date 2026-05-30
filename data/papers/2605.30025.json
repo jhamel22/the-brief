@@ -1,0 +1,22 @@
+{
+  "id": "2605.30025",
+  "arxiv_url": "https://arxiv.org/abs/2605.30025",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Long-Duration GRB 211211A: Internal Energy Dissipation Driven by a Long-Lived Magnetar",
+  "authors": "Nissim Fraija",
+  "abstract": "The most promising candidate for short-duration gamma-ray bursts (GRBs) is the merger of two neutron stars (NSs), which produces kilonovae (KNe) in the aftermath. This merging can result in a fast-spinning, highly magnetic NS, known as a millisecond magnetar, whose accretion processes can explain different phases in GRBs. The identification of a KN associated with the atypical long-duration GRB 211211A contradicted the classification schemes of the GRB progenitors. This study presents a comprehensive analysis of gamma- and X-ray observations, focusing on modeling X-ray data from a long-lived magnetar with two distinct fallback accretion rates ($\\dot{M}\\propto t^0$ and $\\propto t^{\\frac12}$) during the initial phase. The internal energy dissipation of the magnetar spin-down power, through the magnetization parameter, accounts for the long duration of the prompt gamma-ray episode observed in GRB 211211A. Furthermore, we provide a satisfactory explanation for the precursor and extended emissions following the prompt episode within the magnetar model with two fallback accretion rates. Although these accretion rates explain different characteristics, the model that incorporates a variable accretion rate offers a more accurate description. The current scenario for the GRB 211211A observations aligns with a compact binary merger that produces a long-lived magnetar instead of an immediate black hole.",
+  "title_relatable": "Did a neutron star merger create a magnetar that powered an unusual long gamma-ray burst?",
+  "hook": "GRB 211211A broke the rules by lasting too long for a merger event—but a long-lived magnetar spinning down can explain it all.",
+  "summary": "A neutron star merger typically produces a brief gamma-ray burst, yet GRB 211211A's unusually long duration defied expectations. New analysis shows a rapidly spinning, ultra-magnetic neutron star (magnetar) can power the extended emission by converting its rotational energy through variable accretion. The model successfully reproduces both the main burst and fainter precursor signals, suggesting some mergers leave behind long-lived magnetars rather than collapsing immediately to black holes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 766,
+  "tokens_out": 196,
+  "cost_usd": 0.0013968000000000001,
+  "ingested_at": "2026-05-30T16:41:01.161013+00:00"
+}

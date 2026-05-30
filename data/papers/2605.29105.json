@@ -1,0 +1,24 @@
+{
+  "id": "2605.29105",
+  "arxiv_url": "https://arxiv.org/abs/2605.29105",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.HE",
+    "hep-ex"
+  ],
+  "title_original": "Visible inelasticity as a probe of tau flavor content of astrophysical neutrinos",
+  "authors": "Alex Y. Wen, Carlos A. Argüelles, Sergio Palomares-Ruiz",
+  "abstract": "Astrophysical neutrinos provide a unique probe of neutrino flavor changes over cosmological baselines. While the tau component of the neutrino flux is expected to arise almost entirely from mixing, current measurements rely primarily on rare double-cascade signatures. We investigate a complementary method to measure the tau fraction using the visible inelasticity of starting track events in neutrino telescopes. Muonic decays of tau leptons produce tracks with systematically larger visible inelasticity than those from muon neutrino interactions, potentially enabling statistical separation of the two flavors. Using realistic IceCube exposures and detector performance, we show that this observable already yields competitive sensitivity to the tau-to-muon flux ratio, $R_{τμ}$, achievable with existing data. This approach may further enable flavor measurements of individual sources and the selection of tau-enhanced source catalogs. Starting-track inelasticity thus provides a powerful and immediately accessible probe of astrophysical neutrino flavor and of potential physics beyond standard neutrino mixing.",
+  "title_relatable": "Can tau neutrinos from space reveal exotic physics beyond standard mixing?",
+  "hook": "A simpler way to spot tau neutrinos in IceCube: measure how much energy they waste in the detector, separating them from muons.",
+  "summary": "Astrophysical neutrinos oscillate between flavors on their journey to Earth, and measuring the tau-flavored component tests this mixing. Most detectors catch tau neutrinos only through rare double-cascade events. This work proposes using visible inelasticity—how much energy gets radiated away in detector tracks—to statistically distinguish tau from muon interactions. With IceCube data, the method is already competitive with existing approaches and opens the door to mapping individual sources.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 676,
+  "tokens_out": 191,
+  "cost_usd": 0.0013048000000000003,
+  "ingested_at": "2026-05-30T16:41:26.858419+00:00"
+}

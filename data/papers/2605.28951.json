@@ -1,0 +1,24 @@
+{
+  "id": "2605.28951",
+  "arxiv_url": "https://arxiv.org/abs/2605.28951",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE",
+    "hep-th"
+  ],
+  "title_original": "When the Ringing Stops: Purely Imaginary Modes in the Ringdown Spectrum of Dynamical Black Holes",
+  "authors": "Lodovico Capuano, Thomas Lovo, Gorka Prieto-Varela, Subhodeep Sarkar, Adrien Kuntz, Enrico Barausse, Dawood Kothawala",
+  "abstract": "We extend the frequency-domain analysis of quasinormal modes in a dynamical, spherically symmetric black hole spacetime undergoing constant-rate mass evolution. In particular, we report a novel feature of the spectrum: the presence of purely imaginary eigenvalues in addition to the usual light-ring modes. We study the frequencies of these modes both analytically and numerically. The analytical calculation uses a novel formalism based on recent advances in connection coefficients of Heun functions. We then compute the frequencies numerically using a spectral method on hyperboloidal slices and find excellent agreement between the two approaches. Finally, we validate the frequency-domain results against an independent set of time-domain simulations. Our analysis shows that the purely imaginary modes govern the late-time signal through exponentially decaying tails. In the Schwarzschild limit, both frequency- and time-domain studies consistently show that the purely imaginary modes give rise to the familiar Schwarzschild power-law tail.",
+  "title_relatable": "Do black holes keep ringing after they stop growing?",
+  "hook": "Physicists found unexpected silent modes in merging black holes—pure decay with no oscillation—that could reveal how gravitational waves fade after the violent collision.",
+  "summary": "When a black hole grows steadily, its gravitational ringdown doesn't just oscillate like a struck bell. Researchers found purely imaginary eigenvalues in the quasinormal mode spectrum that cause exponential decay without oscillation—a hidden layer of the signal. These modes dominate the late-time gravitational wave tail and connect smoothly to the familiar power-law decay seen in static black holes, confirmed through both mathematical analysis and simulations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 699,
+  "tokens_out": 179,
+  "cost_usd": 0.0012752,
+  "ingested_at": "2026-05-30T16:41:34.565539+00:00"
+}

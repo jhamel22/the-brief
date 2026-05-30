@@ -1,0 +1,23 @@
+{
+  "id": "2605.29510",
+  "arxiv_url": "https://arxiv.org/abs/2605.29510",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.IM"
+  ],
+  "title_original": "Time-Domain Deep Learning for Pairwise Identification of Strongly Lensed Gravitational-Wave Candidates",
+  "authors": "Fan Zhang, Qikai Zhang, Qiyuan Yang, Jiaqing Huang, Yong Yuan, Xilong Fan",
+  "abstract": "As gravitational wave (GW) catalogs continue to expand, exhaustive Bayesian comparisons of candidate event pairs become increasingly computationally expensive, which motivates the development of fast prescreening methods for strongly lensed GW searches. We formulate lensed-pair identification as a binary verification problem using two preprocessed strain segments. To address this task, we propose Physics-Inspired ResNet (PI-ResNet), a Siamese one-dimensional residual network for pairwise GW candidate classification. Unlike spectrogram-based prescreening approaches, PI-ResNet operates directly on whitened time-domain strain data and avoids an intermediate time--frequency image representation. A shared residual backbone with Squeeze-and-Excitation (SE) modules encodes the two input segments, and the paired embeddings are compared through absolute feature differences and Hadamard-product interactions. We train and evaluate the model using simulated GW signals from binary black hole mergers lensed by point-mass (PM) and singular isothermal sphere (SIS) lenses, injected into simulated LIGO and Einstein Telescope (ET) detector noise. Under ET design noise, PI-ResNet achieves accuracies of $95.60\\%$ for SIS lenses and $93.80\\%$ for PM lenses, while maintaining $84.03\\%$ and $78.25\\%$ accuracy under simulated LIGO H1--L1 Gaussian noise. These results suggest that direct learning from 1D strain data provides an efficient and physically motivated preselection statistic for candidate lensed GW pairs, while also indicating the need for detector-domain adaptation.",
+  "title_relatable": "Can AI spot gravitational waves bent by invisible objects?",
+  "hook": "A neural network trained on simulated signals identifies pairs of lensed gravitational waves directly from detector data, achieving 95% accuracy and speeding up searches for magnified black hole collisions.",
+  "summary": "When massive objects bend spacetime, they can magnify distant gravitational waves—creating multiple copies of the same event. Searching for these \"lensed\" pairs currently requires expensive comparisons of thousands of candidates. The authors built a neural network that works directly on raw detector data to rapidly identify matching pairs, reaching 95% accuracy on simulated Einstein Telescope noise. The method sidesteps slower image-based approaches and could unlock lensed-wave discoveries in upcoming catalogs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 828,
+  "tokens_out": 192,
+  "cost_usd": 0.0014304,
+  "ingested_at": "2026-05-30T16:41:18.875428+00:00"
+}

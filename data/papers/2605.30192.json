@@ -1,0 +1,23 @@
+{
+  "id": "2605.30192",
+  "arxiv_url": "https://arxiv.org/abs/2605.30192",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO"
+  ],
+  "title_original": "The Northern Cross Fast Radio Burst project: VI. The INCART public database",
+  "authors": "L. Bruno, G. Bernardi, M. Pilia, D. Pelliciari, A. Geminardi, F. Fiori, V. Galluzzi, G. Naldi, M. Trudu, A. Zanichelli",
+  "abstract": "Fast radio bursts (FRBs) are bright (Jansky-level) and short-duration ($\\sim 1$ ms) flashes of extragalactic origin. Observations of single events have now been complemented by large-area surveys, delivering FRB catalogues and enabling the first population studies. The Northern Cross (NC) radio interferometer is one of the instruments performing observations of FRBs. In this work, we present the Italian Northern Cross Atlas of Radio Transients ({\\tt INCART}), a public platform for the distribution of data products from the NC. {\\tt INCART} makes available to the community the FRBs observed by the NC through manageable frequency-time series datasets and catalogues with best-fit physical parameters. The design of {\\tt INCART} guarantees the possibility of scientific re-analysis of the FRB properties, in view also of future releases of the processing pipeline. Furthermore, {\\tt INCART} focuses on long-term storage optimisation, which is a key aspect of state-of-the-art instrumentation. Public access to the FRB data from the NC maximises the legacy value of the collection, facilitates the synergy with other publicly-available catalogues, and fosters research group collaborations.",
+  "title_relatable": "What's inside the Northern Cross's fast radio burst archive?",
+  "hook": "New public database releases raw observations of millisecond radio flashes, enabling independent analysis and comparison across surveys.",
+  "summary": "The Northern Cross radio telescope has detected dozens of fast radio bursts—millisecond blips of extragalactic radiation. Researchers built INCART, a public archive hosting the raw data and measured properties from these events, designed for long-term storage and reanalysis as detection methods improve. Open access lets other teams cross-check findings and hunt for patterns across the growing FRB census.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 761,
+  "tokens_out": 158,
+  "cost_usd": 0.0012408000000000002,
+  "ingested_at": "2026-05-30T16:40:55.102099+00:00"
+}

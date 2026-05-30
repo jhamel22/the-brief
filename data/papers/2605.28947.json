@@ -1,0 +1,22 @@
+{
+  "id": "2605.28947",
+  "arxiv_url": "https://arxiv.org/abs/2605.28947",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Dust grain chemistry in the diffuse ISM towards the black hole transient GX 339-4",
+  "authors": "I. Psaradaki, L. Corrales, E. Costantini, P. Draghis, J. A. García, E. Gatuzz, P. Kosec, G. Mastroserio, M. Mehdipour, F. Paerels, D. Rogantini, N. Schulz, S. Zeegers",
+  "abstract": "We present results on X-ray absorption and the dust grain chemistry in the diffuse interstellar medium (ISM), based on a new Cycle 25 Chandra High Energy Transmission Grating Spectrometer (HETGS) observational campaign targeting the black hole transient GX 339-4. The X-ray source offers an optimal combination of moderate hydrogen column density and high X-ray flux, enabling the first detailed simultaneous fitting of the photoabsorption edges of Fe, O, Si, and Mg which are key elemental constituents of interstellar dust. We performed a joint spectral analysis of Chandra/HETGS data and archival observations from the Reflection Grating Spectrometer (RGS) on board XMM-Newton. We found that the dust grain chemical composition along this diffuse Galactic line of sight is best described by the silicate Mg-rich amorphous pyroxene (Mg0.75Fe0.25SiO3) and metallic iron. We also discuss the elemental abundances and depletions of Fe, O, Si, and Mg, and the presence of absorption features in the X-ray spectrum of this source associated with highly ionised plasma.",
+  "title_relatable": "What does interstellar dust really look like? A black hole reveals its composition.",
+  "hook": "X-ray observations of a black hole transient pinned down dust grain chemistry for the first time, finding pyroxene and iron mixed in the interstellar medium.",
+  "summary": "Using high-resolution X-ray spectra from Chandra and XMM-Newton, astronomers dissected the dust between Earth and a black hole called GX 339-4. They measured absorption features from iron, oxygen, silicon, and magnesium simultaneously—an unprecedented combination—and determined that the dust grains are made of magnesium-rich pyroxene (a silicate mineral) plus metallic iron. This reveals what cosmic dust is actually made of along our galactic neighborhood.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 785,
+  "tokens_out": 197,
+  "cost_usd": 0.001416,
+  "ingested_at": "2026-05-30T16:41:40.751919+00:00"
+}

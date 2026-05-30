@@ -1,0 +1,23 @@
+{
+  "id": "2605.28944",
+  "arxiv_url": "https://arxiv.org/abs/2605.28944",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Impact of the equation of state on core collapse supernovae I: the low-$T/|W|$ instability",
+  "authors": "Marco Cusinato, Martin Obergaulinger, Miguel Ángel Aloy",
+  "abstract": "Rapidly rotating core-collapse supernovae are promising sources of multimessenger emission, as non-axisymmetric dynamics in the newly formed proto-neutron star can leave characteristic imprints on both gravitational waves and neutrinos. We present three-dimensional neutrino-magnetohydrodynamics simulations of the collapse of a rapidly rotating $35\\,\\mathrm{M}_\\odot$ progenitor, performed with five different finite-temperature nuclear equations of state, to investigate how dense-matter physics affects the development of the low-$T/|W|$ instability and its associated multimessenger signatures. We find that the low-$T/|W|$ instability develops in all equation of state models considered, indicating that its occurrence is robust for this rapidly rotating progenitor. However, its onset time, dominant azimuthal structure, lifetime, and characteristic multimessenger frequencies vary among models, reflecting differences in the evolving proto-neutron star structure and rotation profile. The instability produces large-scale spiral modes that generate quasi-periodic gravitational wave emission and modulate the neutrino luminosities, especially along directions close to the equatorial plane. The dominant gravitational wave frequency associated with the instability correlates with the effective stiffness and compactness of the proto-neutron star: models with more compact/stiffer configurations emit at higher frequencies. This suggests that, in rapidly rotating core-collapse supernovae, the frequency of the low-$T/|W|$ instability-driven gravitational wave signal may provide a diagnostic of the dense-matter equation of state, complementary to the information carried by the neutrino signal.",
+  "title_relatable": "Can gravitational waves reveal what neutron star cores are made of?",
+  "hook": "Rapidly rotating supernovae produce distinctive gravitational wave patterns. These frequencies could fingerprint the extreme physics inside newborn neutron stars.",
+  "summary": "When massive stars collapse into neutron stars and spin fast, they develop a specific instability that creates spiral-shaped density waves. Using simulations with different models of ultra-dense matter, researchers found this instability always occurs but generates gravitational waves at frequencies that depend on how stiff or compact the neutron star becomes. This suggests gravitational wave detectors like LIGO could decode the neutron star's equation of state—its fundamental material properties—directly from the signal frequency.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 816,
+  "tokens_out": 182,
+  "cost_usd": 0.0013808000000000002,
+  "ingested_at": "2026-05-30T16:41:37.190186+00:00"
+}
