@@ -1,0 +1,24 @@
+{
+  "id": "2605.29773",
+  "arxiv_url": "https://arxiv.org/abs/2605.29773",
+  "announced_date": "2026-05-28",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.RO"
+  ],
+  "title_original": "Energy-Aware NECO for Single-Pass Pixel-wise Out-of-Distribution Detection in Semantic Segmentation",
+  "authors": "Boyuan Zhang, Huanshan Huang, Yifei Cao",
+  "abstract": "Reliable semantic segmentation for mobile robots requires both accurate dense prediction and robust uncertainty estimation under distribution shift. Strong uncertainty baselines such as Monte Carlo Dropout often require repeated stochastic forward passes and are difficult to deploy on edge platforms. We propose Energy-Aware NECO, a single-pass pixel-wise out-of-distribution (OOD) detector for semantic segmentation. The method combines a centered NECO-style geometric ratio computed from decoder features with a logit-based Energy score. Both components are standardized using statistics fitted on a pure in-distribution validation split and fused through a convex combination. We evaluate the method on the miniMUAD subset using true pixel-level OOD labels. The proposed hybrid score achieves an AUROC of 0.8539, outperforming NECO-only (0.8280), Energy-only (0.8171), and an ensemble predictive-entropy baseline (0.8124). Additional qualitative and operating-point analyses show that the hybrid detector improves overall ranking performance while preserving the efficiency advantages of a single-pass design. Code is available at https://github.com/boyuan-zhangx/Energy-Aware_NECO",
+  "title_relatable": "Can robots detect unfamiliar scenes in one pass?",
+  "hook": "Single-pass detector for out-of-distribution scenes in segmentation achieves 0.8539 AUROC, outperforming ensemble baselines while fitting on edge devices.",
+  "summary": "Autonomous robots need to flag unfamiliar terrain or objects during navigation. Most reliable uncertainty methods require multiple forward passes—slow on mobile hardware. This work combines two scoring signals (geometric ratios from decoder features and logit-based energy) into a hybrid detector that runs once per image. On pixel-level OOD labels, it beats ensemble dropout and energy-only baselines, maintaining real-time performance for edge deployment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 718,
+  "tokens_out": 179,
+  "cost_usd": 0.0012904000000000001,
+  "ingested_at": "2026-05-30T16:46:36.341932+00:00"
+}

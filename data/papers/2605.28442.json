@@ -1,0 +1,23 @@
+{
+  "id": "2605.28442",
+  "arxiv_url": "https://arxiv.org/abs/2605.28442",
+  "announced_date": "2026-05-27",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "Self-Supervised Online Robot-Agnostic Traversability Estimation for Open-World Environments",
+  "authors": "Julia Hindel, Simon Bultmann, Houman Masnavi, Daniele Cattaneo, Abhinav Valada",
+  "abstract": "Self-supervised online traversability estimation enables robots to continuously learn from unlabeled open-world experiences and adapt their navigation behavior toward safe and efficient trajectories. Existing approaches either rely on handcrafted proprioceptive traversability scores, limiting robot-agnosticism, or cluster prior data, preventing online learning. Moreover, many continual learning methods incur substantial memory and computational costs, hindering onboard deployment. We introduce COTRATE, an online learning framework for continuous traversability estimation from multimodal, unlabeled robot experience. Our method first infers robust traversability scores using a robot-agnostic, learning-based online terrain assessment module operating on proprioceptiveand inertial signals. These scores then supervise a visual traversability network through a novel alignment loss that associates visual embeddings with online terrain assessments.To mitigate forgetting during continual learning with minimal overhead, we propose a diversity-aware feature selection strategythat preserves performance using a compact replay memory. We further show that the learned traversability representation supports knowledge transfer across different robot platforms with different locomotion kinematics. We evaluate COTRATE on a dataset of \\approx 50,000 images collected with two robotic platforms across 11 outdoor terrains, and benchmark it on navigation tasks in three representative outdoor environments. We make the dataset, code, and trained models publicly available.",
+  "title_relatable": "Can robots learn what ground is safe to walk on?",
+  "hook": "Online learning system helps robots continuously adapt to new terrain without labeled data, demonstrated across 11 outdoor environments with two different robot platforms.",
+  "summary": "Robots struggle to safely navigate unfamiliar terrain because existing methods either rely on hand-coded rules that don't transfer across platforms or require expensive labeled data. COTRATE learns traversability (whether terrain is safe/efficient) directly from a robot's own unlabeled experience—sensors like accelerometers and cameras—while continuously updating online. A diversity-aware memory strategy keeps computational overhead low for onboard deployment. Tested on 50,000 images across 11 terrains and three environments, the approach transfers knowledge between robots with different body designs. Code and dataset released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 755,
+  "tokens_out": 199,
+  "cost_usd": 0.0014,
+  "ingested_at": "2026-05-30T16:47:32.196388+00:00"
+}

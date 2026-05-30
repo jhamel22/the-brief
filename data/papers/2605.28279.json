@@ -1,0 +1,22 @@
+{
+  "id": "2605.28279",
+  "arxiv_url": "https://arxiv.org/abs/2605.28279",
+  "announced_date": "2026-05-27",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "IMU Propagation as Preintegration",
+  "authors": "Jianzhu Huai",
+  "abstract": "IMU preintegration is widely used in factor-graph-based visual--inertial, lidar--inertial, and radar--inertial state estimation, yet it is often treated as a specialized implementation separate from conventional IMU propagation. This note shows that IMU preintegration and propagation are equivalent realizations of the same underlying computation. We present a convention-agnostic view in which the preintegrated measurement, bias Jacobians, and covariance can be obtained by wrapping an existing IMU propagation routine, while a preintegration module can conversely recover state-transition matrices and propagated covariances. This perspective simplifies the reuse of existing propagation code, supports translation across different error-state definitions, and provides practical consistency checks for preintegration implementations. Experiments with random IMU sequences demonstrate close agreement between an RK4-based propagation implementation and GTSAM's tangent and manifold preintegration modules in the recovered Jacobians, covariances, and transition matrices.",
+  "title_relatable": "IMU preintegration and propagation are the same thing",
+  "hook": "Shows preintegration and propagation are mathematically equivalent, enabling code reuse and consistency checks across visual-inertial SLAM systems.",
+  "summary": "IMU preintegration—standard in factor-graph SLAM—is typically treated as separate from conventional IMU propagation, but they're actually the same computation viewed differently. This work unifies them by showing how to wrap existing propagation code to obtain preintegrated measurements and Jacobians, and vice versa. Tested against GTSAM and RK4 implementations, the framework simplifies translating between error-state definitions and validates implementation correctness.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 645,
+  "tokens_out": 179,
+  "cost_usd": 0.001232,
+  "ingested_at": "2026-05-30T16:47:34.517205+00:00"
+}

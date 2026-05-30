@@ -1,0 +1,22 @@
+{
+  "id": "2605.29298",
+  "arxiv_url": "https://arxiv.org/abs/2605.29298",
+  "announced_date": "2026-05-28",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "MonoDuo: Using One Robot Arm to Learn Bimanual Policies",
+  "authors": "Sandeep Bajamahal, Lawrence Yunliang Chen, Toru Lin, Zehan Ma, Jitendra Malik, Ken Goldberg",
+  "abstract": "Bimanual coordination is essential for many real-world manipulation tasks, yet learning bimanual robot policies is limited by the scarcity of bimanual robots and datasets. Single-arm robots, however, are widely available in research labs. Can we leverage them to train bimanual robot policies? We present MonoDuo, a framework for learning bimanual manipulation policies using single-arm robot demonstrations paired with human collaboration. MonoDuo collects data by teleoperating a single-arm robot to perform one side of a bimanual task while a human performs the other, then swapping roles to cover both sides. RGB-D observations from a wrist-mounted and fixed camera are augmented into synthetic demonstrations for target bimanual robots using state-of-the-art hand pose estimation, image and point cloud segmentation, and inpainting. These synthetic demonstrations, grounded in real robot kinematics, are used to train bimanual policies. We evaluate MonoDuo on five tasks: box lifting, backpack packing, cloth folding, jacket zipping, and plate handover. Compared to approaches relying solely on human bimanual videos, MonoDuo enables zero-shot deployment on unseen bimanual robot configurations, achieving success rates up to 70%. With only 25 target robot demonstrations, few-shot finetuning further boosts success rates by 65-70% over training from scratch, demonstrating MonoDuo's effectiveness in efficiently transferring knowledge from single-arm robot data to bimanual robot policies.",
+  "title_relatable": "Can one robot arm teach two-arm tasks?",
+  "hook": "Using a single robot arm with human help to train two-arm policies, achieving 70% success on real tasks without target data.",
+  "summary": "Learning bimanual manipulation is hard because two-arm robots are rare. MonoDuo solves this by having one robot arm perform half a task while a human does the other, then swapping roles. The system synthesizes realistic demonstrations using hand pose estimation and image inpainting, then trains bimanual policies on these augmented data. On five real tasks—box lifting, cloth folding, jacket zipping—the approach reaches 70% success zero-shot and 65–70% improvement with just 25 real target demonstrations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 791,
+  "tokens_out": 190,
+  "cost_usd": 0.0013928000000000002,
+  "ingested_at": "2026-05-30T16:46:21.353029+00:00"
+}

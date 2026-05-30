@@ -1,0 +1,24 @@
+{
+  "id": "2605.28254",
+  "arxiv_url": "https://arxiv.org/abs/2605.28254",
+  "announced_date": "2026-05-27",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "eess.SY",
+    "math.DS"
+  ],
+  "title_original": "Natural Locomotion: Principle and Method",
+  "authors": "Mirado Mortel, Luc Jaulin, Lionel Lapierre, Simon Rohou",
+  "abstract": "Robotic locomotion can become efficient when mechanisms exploit passive dynamics, compliance, and resonance rather than track prescribed trajectories. This paper formulates natural locomotion as an exchange principle for systems whose motion is mediated by environmental constraints or interactions. A motion is natural when an internal oscillator returns periodically, the body pose drifts, and the mean Propulsion--Oscillator Exchange power (POE power) vanishes over one cycle. The selected family is a Natural Locomotion Manifold (NLM). We develop the conservative realization of this principle for continuous ideal environmental constraints: the constraints do no external work, total mechanical energy is conserved, and zero mean POE power is an internal exchange with the environment-mediated propulsive channel, not external energy input. The method is a closed/open construction. The propulsive channel is first closed to reveal an effective internal oscillator, organized by scalar action-angle structure in one effective degree of freedom or by nonlinear modal sectors in several degrees of freedom. The channel is then reopened, pose is reconstructed, and accepted cycles must preserve internal recurrence and zero mean POE power. We demonstrate the principle on two ideal nonholonomic no-slip systems: a Chaplygin-sleigh / pendulum-driven car and a three-body extension. In the scalar case, POE closure is equivalent to the missing internal return condition, giving a theorem-backed computation of the NLM family. In the multi-degree case, POE closure remains necessary but must be completed by modal identity, internal return, dynamics consistency, same fixed passive architecture, and nonzero displacement. Natural locomotion becomes a design question: which passive architectures support no, one, or several certified NLM families?",
+  "title_relatable": "Why robots move better when they stop trying so hard",
+  "hook": "Robots achieve efficient locomotion by exploiting passive dynamics and resonance rather than fighting against physics—a principle that eliminates the need for external energy input.",
+  "summary": "Efficient robotic movement often comes from working with physics, not against it. This work formalizes \"natural locomotion\"—motion where internal oscillators exchange energy with the environment in a balanced way, using zero net external power over each cycle. The authors develop a mathematical framework (Natural Locomotion Manifold) that identifies which passive mechanical designs can sustain such cycles, tested on systems like pendulum-driven cars. The approach shifts robotics design from trajectory tracking to finding architectures that inherently want to move.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 817,
+  "tokens_out": 191,
+  "cost_usd": 0.0014176,
+  "ingested_at": "2026-05-30T16:47:23.490517+00:00"
+}

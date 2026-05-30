@@ -1,0 +1,23 @@
+{
+  "id": "2605.29254",
+  "arxiv_url": "https://arxiv.org/abs/2605.29254",
+  "announced_date": "2026-05-28",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Extreme dynamic symmetry enables omnidirectional and multifunctional robots",
+  "authors": "Jiaxun Liu, Boxi Xia, Boyuan Chen",
+  "abstract": "Symmetry is a central organizing principle in natural systems, yet its use as a unifying design strategy in robotics has largely remained limited to geometric form. We show that symmetry can instead be leveraged at the level of dynamic actuation capability. We introduce dynamic symmetry, the uniformity of a robot's attainable center-of-mass accelerations, and formalize it through a measure coined as dynamic isotropy. Across more than 1000 simulated morphologies, we found that higher dynamic symmetry consistently improved trajectory tracking, task success, robustness, resiliency, and energy efficiency, with the benefits becoming most pronounced as dynamic isotropy approached its theoretical limit. To study this regime systematically, we developed Argus, a family of spherical robots designed to explore the effects of increasing dynamic symmetry. Members of the Argus family vary in their actuation geometry and dynamic symmetry level while sharing a common architectural principle: radially oriented linear actuators that directly shape the robot's center-of-mass dynamics. Among them, we built a physical 20-leg Argus variant that achieved near-extreme dynamic isotropy and demonstrated orientation-invariant locomotion, agile traversal of cluttered and deformable terrain, rapid self-stabilization, and resilience to partial actuator failures. Its distributed sensing further enabled omnidirectional perception and object interaction during continuous motion. These results show that designing robots for symmetry not only in morphology but also in their attainable dynamics provides a powerful and general pathway toward agility, robustness, and multifunctionality in uncertain terrestrial and extraterrestrial environments.",
+  "title_relatable": "Why symmetry in robot motion matters more than shape",
+  "hook": "Spherical robot with 20 legs achieves near-perfect balance of all movement directions, enabling omnidirectional locomotion and resilience to damage.",
+  "summary": "Robot morphology typically emphasizes geometric symmetry, but this work shows that dynamic symmetry—uniform acceleration capability in all directions—is what actually matters. Researchers tested over 1000 simulated designs and found that higher dynamic isotropy (a measure of this balance) consistently improved tracking, task success, and energy efficiency. They built Argus, a 20-leg spherical robot with radially oriented actuators, that moves equally well in any direction, survives terrain damage, and keeps working even with broken legs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 788,
+  "tokens_out": 193,
+  "cost_usd": 0.0014024,
+  "ingested_at": "2026-05-30T16:46:25.274385+00:00"
+}

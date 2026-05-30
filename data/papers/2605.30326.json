@@ -1,0 +1,23 @@
+{
+  "id": "2605.30326",
+  "arxiv_url": "https://arxiv.org/abs/2605.30326",
+  "announced_date": "2026-05-28",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
+  "authors": "Chunru Lin, Hongxin Zhang, Fenghao Yu, Zhehuan Chen, Thomas L. Griffiths, Yejin Choi, David Held, Chuang Gan",
+  "abstract": "The ability to reason, adapt, and creatively solve problems under unexpected challenges is essential for robots operating in real-world environments. However, current robotic benchmarks primarily emphasize skill-level execution and provide limited insight into such cognitive reasoning capabilities. We introduce RoboWits, a bi-manual robotic benchmark designed to systematically evaluate cognitive reasoning, creative tool use, and robustness to unexpected conditions. To enable scalable construction of high-quality reasoning-centric unexpected scenarios, we propose an automated task generation pipeline formulated as a multi-agent cooperative framework, comprising agents for seed task generation and verification, metric generation, scene generation, and task mutation. Using the pipeline, we curated 30 diverse seed tasks and 208 tasks with mutations and graded difficulty across geometry, material, and assembly-based reasoning. We benchmark popular robot policies, pre-trained VLAs, and oracle-state planners. Our results reveal a significant performance gap: while pre-trained VLAs exhibit preliminary success on seed tasks after single-task fine-tuning, they struggle to perform on mutated tasks, implying their brittleness in manipulation tasks requiring reasoning, strategy adaptation, and robustness to deceptive or constrained environments. Project page is available at https://umass-embodied-agi.github.io/RoboWits.",
+  "title_relatable": "Why robots fail at creative problem-solving when conditions change",
+  "hook": "New benchmark exposes a critical gap: robot policies trained on one task collapse when geometry or materials shift, even by small amounts.",
+  "summary": "RoboWits tests whether robots can reason and adapt creatively—not just execute learned skills. Using an automated pipeline, researchers created 208 reasoning-heavy manipulation tasks with graded difficulty. Pre-trained vision-language models achieved decent performance on base tasks but failed dramatically on mutations (geometry, material, or assembly changes), revealing brittleness that standard benchmarks miss. Code and tasks released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 761,
+  "tokens_out": 161,
+  "cost_usd": 0.0012528,
+  "ingested_at": "2026-05-30T16:46:28.178065+00:00"
+}

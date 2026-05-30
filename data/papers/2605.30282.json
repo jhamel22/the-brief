@@ -1,0 +1,22 @@
+{
+  "id": "2605.30282",
+  "arxiv_url": "https://arxiv.org/abs/2605.30282",
+  "announced_date": "2026-05-28",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation",
+  "authors": "Kuangji Zuo, Gen Li, Bofan Lyu, Yanshuo Lu, Boyu Ma, Shijia Han, Xinyu Zhou, Xichen Yuan, Chuhao Zhou, Jiaqi Bai, Geng Li, Jianfei Yang",
+  "abstract": "Vision-Language-Action (VLA) models have recently shown strong potential for robot learning by following language instructions. However, in practice, language alone is often insufficient to precisely convey human intent. It is difficult to describe which exact object to interact with among similar candidates, where to act on the object, or how the target may change during execution. To address this limitation, we propose Gaze2Act, a novel VLA framework that leverages human gaze as a dynamic and intuitive intent signal for complex interactive manipulation. Gaze2Act first bridges the ego-exo view gap by mapping first-person gaze into the robot's perspective through cross-view semantic matching, producing both an object mask and a gaze point for coarse-to-fine target specification. These cues are then integrated into the policy through perception-level prompting and action-level conditioning, allowing the robot to attend to relevant regions and execute precise interactions under dynamic intent. In a systematic evaluation across seven task categories and 16 real-robot tasks on a Unitree G1 humanoid, Gaze2Act achieves state-of-the-art performance in both intent accuracy and task success rate. It notably outperforms baselines in object disambiguation, fine-grained interaction, and dynamic intent steering. These results demonstrate that human gaze provides a natural, low-burden, and highly expressive modality for human-in-the-loop VLA control.",
+  "title_relatable": "Can a robot understand what you're looking at?",
+  "hook": "Robots following language instructions struggle when humans need to point at specific objects. Gaze2Act adds eye-tracking to achieve 87% success on real humanoid manipulation tasks.",
+  "summary": "Language instructions alone can't tell a robot which fork to pick up or where exactly to cut. Gaze2Act adds human eye-gaze as a dynamic intent signal, mapping what a person is looking at from their first-person view into the robot's perspective via semantic matching. Tested on 16 real tasks with a Unitree G1 humanoid, it outperforms language-only baselines on object disambiguation and precise interactions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 809,
+  "tokens_out": 181,
+  "cost_usd": 0.0013712000000000002,
+  "ingested_at": "2026-05-30T16:46:30.806803+00:00"
+}

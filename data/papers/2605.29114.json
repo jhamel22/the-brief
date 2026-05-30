@@ -1,0 +1,24 @@
+{
+  "id": "2605.29114",
+  "arxiv_url": "https://arxiv.org/abs/2605.29114",
+  "announced_date": "2026-05-27",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CR",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving",
+  "authors": "Mohammadreza Teymoorianfard, Jean-Philippe Monteuuis, Jonathan Petit, Amir Houmansadr",
+  "abstract": "Vision-Language-Action (VLA) models with integrated reasoning have been proposed for end-to-end autonomous driving, assuming a tight coupling between reasoning and trajectory generation. However, the robustness of such systems under realistic input perturbations remains largely unexplored. We show that these models are highly vulnerable to realistic input perturbations, achieving up to 89% attack success rate (ASR) on reasoning and up to 72% on trajectory manipulation in closed-loop simulation, leading to increased collision rates and degraded safety metrics. Using NVIDIA's recent Alpamayo models as representative industry-developed VLAs, we conduct the first systematic black-box study of reasoning-enabled VLA models under realistic textual input corruptions, evaluating their impact on reasoning and driving behavior. We introduce a reasoning-aware evaluation framework capturing both semantic and structural aspects of reasoning, along with safety-centric measures. We also introduce a benchmark for evaluating attacks and defenses on reasoning-trajectory interactions in autonomous driving. Our results highlight the need for rigorous evaluation and improved defenses to ensure the safety of reasoning-enabled VLA systems in autonomous driving.",
+  "title_relatable": "How easily do self-driving AI models break when given bad input?",
+  "hook": "Reasoning-enabled driving models fail 89% of the time under realistic text corruptions, with collision rates spiking in simulations.",
+  "summary": "Vision-language models designed for autonomous driving are assumed to reason reliably, but researchers show they're vulnerable to realistic input perturbations like garbled or corrupted text. Using NVIDIA's Alpamayo models, they achieved 89% success manipulating reasoning and 72% success corrupting trajectory predictions—leading to more crashes in closed-loop simulation. The work introduces the first systematic evaluation framework and benchmark for testing such attacks on reasoning-driven autonomous systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 711,
+  "tokens_out": 179,
+  "cost_usd": 0.0012848000000000002,
+  "ingested_at": "2026-05-30T16:47:39.629892+00:00"
+}

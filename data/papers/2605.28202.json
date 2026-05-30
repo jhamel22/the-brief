@@ -1,0 +1,22 @@
+{
+  "id": "2605.28202",
+  "arxiv_url": "https://arxiv.org/abs/2605.28202",
+  "announced_date": "2026-05-27",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Natural Functional Gradients for Smooth Trajectory Optimization",
+  "authors": "Kisang Park, Chanwoo Kim, Kyungjae Lee, Sungjoon Choi",
+  "abstract": "Generating collision-free and smooth motions remains a central challenge in robotic manipulation, particularly in cluttered environments and narrow passages where feasible regions are highly constrained and fragmented. We propose a trajectory optimization framework that performs geometry-aware updates directly in function space using natural functional gradients. The method optimizes a Gaussian-smoothed surrogate objective that regularizes the optimization landscape through smooth trajectory perturbations while preserving trajectory-level structure. Because the updates are defined intrinsically in function space, trajectory regularity can be controlled independently of a particular time discretization. We derive a practical Monte-Carlo estimator of the natural functional gradient that requires only black-box trajectory evaluations, making the method applicable when analytic gradients are unavailable or unreliable due to collision checking and contact-rich simulation. Experiments on constrained robotic manipulation tasks demonstrate that the proposed method improves trajectory feasibility and produces smoother motions than representative planning and trajectory optimization baselines in environments with narrow geometric clearances. Additional results, videos, and implementation details are available at the project page: https://kisangpark.github.io/natural-functional-gradient/",
+  "title_relatable": "Can robots find smooth paths through tight spaces?",
+  "hook": "New optimization method generates collision-free, smooth robot motions in cluttered environments without requiring analytical gradients.",
+  "summary": "Robot motion planning in cramped spaces with obstacles remains difficult because feasible paths are fragmented and constrained. This work uses natural functional gradients—optimization updates defined directly in function space rather than on time-discretized waypoints—to find smooth, collision-free trajectories. The method works with only black-box trajectory evaluations, meaning it doesn't need analytical gradients from contact-rich simulators. Tests on constrained manipulation tasks show smoother, more feasible paths than existing planners in narrow-clearance environments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 688,
+  "tokens_out": 181,
+  "cost_usd": 0.0012744000000000002,
+  "ingested_at": "2026-05-30T16:47:25.932890+00:00"
+}

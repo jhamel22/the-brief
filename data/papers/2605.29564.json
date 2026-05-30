@@ -1,0 +1,22 @@
+{
+  "id": "2605.29564",
+  "arxiv_url": "https://arxiv.org/abs/2605.29564",
+  "announced_date": "2026-05-28",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning for Robust Contact-Rich Manipulation",
+  "authors": "Victor Kowalski, Chengxi Li, Dongheui Lee",
+  "abstract": "When using reinforcement learning (RL) for contact-rich robotic manipulation, vision can provide task-relevant information that accelerates learning beyond what proprioception alone can achieve. However, vision-enabled policies tend to overfit to the visual conditions seen during training, limiting their robustness and transferability. We present a human-in-the-loop RL framework that employs teacher-student distillation to achieve robust performance across multiple task variants, trained entirely in the real world without requiring domain randomization or data augmentation. A vision-enabled teacher distills its knowledge into a vision-free student that relies solely on pose, twist, and wrench sensing, combining fast training with strong task generalization. On the real-world NIST assembly benchmark board, our approach achieves 95\\% overall success after approximately 50 minutes of training on 3 representative tasks, including robust generalization to 8 unseen task variants. Fine-tuning with distillation achieves full success on the most challenging task. We demonstrate that the resulting policies outperform baselines in both robustness and adaptability.",
+  "title_relatable": "Why robots should learn without cameras for reliable hands-on tasks",
+  "hook": "Robot trained with vision teacher, learns without it: 95% success on assembly tasks, generalizes to 8 unseen variants in 50 minutes.",
+  "summary": "Vision helps robots learn manipulation faster, but makes them brittle—they fail when lighting or angles change. Researchers trained a vision-enabled teacher policy in the real world, then distilled its knowledge into a vision-free student that uses only touch and joint sensors. The student learned the task in 50 minutes and generalized robustly to 8 unseen variants of a NIST assembly benchmark with 95% success, outperforming standard baselines without domain randomization tricks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 696,
+  "tokens_out": 189,
+  "cost_usd": 0.0013128000000000003,
+  "ingested_at": "2026-05-30T16:46:19.047132+00:00"
+}
