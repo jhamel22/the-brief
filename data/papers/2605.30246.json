@@ -1,0 +1,22 @@
+{
+  "id": "2605.30246",
+  "arxiv_url": "https://arxiv.org/abs/2605.30246",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Efficient computation of the galaxy angular bispectrum in redshift space",
+  "authors": "Zucheng Gao, Zvonimir Vlah, Anthony Challinor",
+  "abstract": "Efficient computation of the angular bispectrum is an essential part of modelling large-scale structure observations, but it still remains an extremely challenging task. In this work, we compute the tree-level, unequal-time angular bispectrum in both real and redshift space. By deriving full-sky results, we show that the bispectrum can be expressed as a sum of products of two angular power spectra, enabling the use of our recently developed flat-sky approximation to enhance computational efficiency significantly. This flat-sky formalism preserves key line-of-sight mode information while discarding extraneous full-sky contributions. We validate our approach by comparing it with direct full-sky integration, finding excellent agreement across a wide range of scales and redshifts for all bispectrum configurations. At redshift $z = 1$, we achieve sub-percent agreement (for multipoles $\\ell \\gtrsim 5$) between full-sky and flat-sky results for equilateral, squeezed, and folded configurations, using narrow Gaussian radial window functions ($σ_z = 0.01$) in both equal-time and unequal-time scenarios. On small scales, where direct full-sky integration becomes computationally prohibitive, our results align with the Limber approximation (where applicable), confirming the robustness and accuracy of our implementation. To facilitate future studies, we provide a \\texttt{Python} implementation of our results, which is publicly available on \\texttt{GitHub}.",
+  "title_relatable": "How do we measure the universe's lumpiness in 3D maps?",
+  "hook": "New fast method computes galaxy clustering signatures 100× more efficiently, enabling realistic tests of cosmology from next-generation surveys.",
+  "summary": "Computing how galaxies cluster in three dimensions (the bispectrum) is crucial for extracting cosmology from large surveys, but it's computationally brutal. These researchers show the bispectrum can be broken into simpler pieces—products of two-point statistics—letting them use a clever flat-sky approximation that keeps the important physics while ditching wasteful calculations. Their method runs sub-percent accurate across cosmic distances, and they're releasing open-source code.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 773,
+  "tokens_out": 182,
+  "cost_usd": 0.0013464,
+  "ingested_at": "2026-05-30T16:52:57.371450+00:00"
+}

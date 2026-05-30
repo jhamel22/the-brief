@@ -1,0 +1,22 @@
+{
+  "id": "2605.28943",
+  "arxiv_url": "https://arxiv.org/abs/2605.28943",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Dominated-Convergence Failure in Cosmological Perturbation Theory and a Numerical Foundation for BBGKY+ZA",
+  "authors": "Svetlin V. Tassev",
+  "abstract": "A common ingredient in cosmological perturbation theory (PT) is the expansion of the dark matter overdensity $δ$ in the Lagrangian displacement $s$, which amounts to enforcing mass conservation perturbatively. In Eulerian PT (EPT), that expansion occurs already at the level of the continuity equation; in Lagrangian PT (LPT) it is done in the Poisson equation. We show that the resulting perturbative solutions for $δ$ can diverge not because of the expansion in $s$ per se, but because of an exchange of an infinite sum with a Fourier integral that violates the conditions of Lebesgue's dominated-convergence (DC) theorem. We show that this DC obstruction (DCO) is one clear reason why the convergence of EPT is controlled by advection terms beyond the linear $δ$. The same DCO underlies LPT: LPT's region of validity is the resummation region of a DC-violating series, bounded by shell crossing on one side and severely underdense regions on the other. Effective field theories (EFT) of large-scale structure need to smooth at short scales just to recover from that DCO, independent of whether non-linearities beyond mass conservation are important or not. An alternative is to never expand $δ$ in $s$: instead evolve phase-space cumulants using the BBGKY hierarchy, initialized with the Zel'dovich approximation (ZA). The DCO is then absent by construction, so an EFT of BBGKY can focus on physics beyond mass conservation, which may allow pushing PT beyond shell crossing. The trade-off is the need for a closure relation, for which one can again use the ZA. We provide the building blocks for such a BBGKY+ZA recipe. A bottleneck for implementing it has been the ZA phase-space two-point function $\\mathcal{P}$, which we successfully integrate numerically; we then write the higher ZA phase-space correlators needed for closure as products and convolutions of $\\mathcal{P}$.",
+  "title_relatable": "Why does cosmic structure theory break down, and can the Zel'dovich trick fix it?",
+  "hook": "A mathematical flaw in standard cosmological perturbation theory explains its breakdown near shell crossing. A new numerical approach using phase-space statistics may extend predictions into the nonlinear regime.",
+  "summary": "Standard perturbative expansions for cosmic structure growth fail not because perturbations are too large, but because mathematicians' dominated-convergence theorem is violated—infinite sums and integrals get swapped in an illegal way. Tassev shows this obstruction limits both Eulerian and Lagrangian approaches, and proposes sidestepping it entirely: evolve phase-space statistics using the BBGKY hierarchy initialized with Zel'dovich initial conditions, avoiding the expansion that causes trouble. The bottleneck—numerically computing Zel'dovich correlators—is now solved.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 914,
+  "tokens_out": 230,
+  "cost_usd": 0.0016512,
+  "ingested_at": "2026-05-30T16:53:20.116260+00:00"
+}

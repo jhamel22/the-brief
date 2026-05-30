@@ -1,0 +1,23 @@
+{
+  "id": "2605.28777",
+  "arxiv_url": "https://arxiv.org/abs/2605.28777",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "The formation of supermassive black holes from Population III.1 seeds. IV. Self-regulated seeding from supermassive star ionizing feedback",
+  "authors": "Maya A. Petkova, Jonathan C. Tan, Jasbir Singh, Vieri Cammelli, Mahsa Sanati, Benjamin Keller, Pierluigi Monaco, Devesh Nandal",
+  "abstract": "Supermassive Population III.1 stars, i.e., formed from pristine, metal-free gas leading to conditions where dark matter annihilation heating is significant, have been proposed as the progenitors of supermassive black holes (SMBHs) in the early universe ($z \\sim 20-40$). Since such Pop III.1 stars only form from non-irradiated gas in dark matter minihalos, they are predicted to appear isolated from each other and other sources of feedback. The previous papers in this series used the isolation distance of Pop III.1 stars as a free parameter to seed SMBH in cosmological simulations of dark matter halos. Here we develop a feedback-regulated model of Pop III.1 isolation, based on the growth of HII regions around each Pop III.1 star and lower-mass, irradiated Pop III.2 stars. Our model considers the time delay between the formation of a minihalo and its Pop III.1 star, R-type expansion of HII regions that expand into the intergalactic medium (IGM), and the redshift dependence of Strömgren spheres for longer-lived ionizing sources. For a fiducial Pop III.1 star H-ionizing photon luminosity of $10^{53}\\:{\\rm s}^{-1}$ and lifetime of $10\\:$Myr we find an R-type HII region radius of $R_{\\rm R}\\simeq1.3\\:$cMpc, approximately independent of redshift. The median formation redshift is $\\sim20$, with the process essentially complete by $z\\sim16$. The overall number density of SMBHs produced in this model is then $n_{\\rm SMBH}\\simeq 3 φ_V/(4πR_{\\rm R}^3)\\simeq 0.2\\:{\\rm cMpc}^{-3}$. We also discuss predictions for the abundance of binary SMBHs, which may appear as dual active galactic nuclei (AGN; $\\lesssim 0.3\\%$ for $z>6$), and SMBH binary merger rates, measurable by the forthcoming LISA mission.",
+  "title_relatable": "How do the universe's first black holes seed themselves in isolation?",
+  "hook": "Massive primordial stars create invisible bubbles that space themselves apart, automatically regulating where supermassive black holes can form in the early universe.",
+  "summary": "The earliest supermassive black holes may have grown from unusually massive, metal-free stars that only form in completely isolated environments. Using simulations, researchers show that ionizing radiation from these stars carves out expanding bubbles around themselves, naturally setting their spacing to roughly 1.3 million light-years apart. This self-regulating feedback predicts the observed abundance of early black holes and suggests LISA can detect their collisions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 996,
+  "tokens_out": 178,
+  "cost_usd": 0.0015088000000000002,
+  "ingested_at": "2026-05-30T16:53:33.303606+00:00"
+}

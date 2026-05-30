@@ -1,0 +1,22 @@
+{
+  "id": "2605.28662",
+  "arxiv_url": "https://arxiv.org/abs/2605.28662",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Testing cosmic anisotropy with the Combo correlation of gamma-ray bursts",
+  "authors": "Dong Zhao, Hao-Ran Duan, Jun-Qing Xia",
+  "abstract": "We employ the sample of 244 gamma-ray bursts (GRBs; i.e., C244) with the Combo correlation to test cosmic anisotropy. Meanwhile, the Pantheon sample is introduced to verify whether the GRB sample can suppress the fake anisotropic signals induced by inhomogeneous spatial distributions. In the dipole fitting (DF) method, under the dipole-modulated $Λ$CDM model, the C244 sample shifts the best-fitting longitude $l$ derived from the Pantheon sample by $54.09^\\circ$ and reduces the uncertainty in $l$ by approximately $40\\%$. Compared to the 118 GRBs (i.e., A118) with the $E_\\mathrm{p}$-$E_\\mathrm{iso}$ correlation, the shift in longitude $l$ increases by additional $21.35^\\circ$. In the hemisphere comparison (HC) method, the preferred direction derived from the C244+Pantheon sample deviates from that of the Pantheon-only sample by more than $1σ$. In contrast, the preferred direction from the A118+Pantheon sample is consistent with the Pantheon-only result within the $1σ$ uncertainty. The preferred direction changes significantly as the number of GRBs increases from 118 to 244. Our results show that a larger GRB sample can reduce the fake anisotropic signals caused by inhomogeneous spatial distributions. Accordingly, we suggest that GRBs have the potential to provide a reliable probe of cosmic anisotropy.",
+  "title_relatable": "Does the universe prefer one direction over another?",
+  "hook": "Using 244 gamma-ray bursts, researchers find larger samples suppress false directional bias and could detect real cosmic asymmetries.",
+  "summary": "Cosmic isotropy—the assumption that the universe looks the same in all directions—underpins modern cosmology, but it's never been rigorously tested at cosmic scales. This team used 244 gamma-ray bursts with a standard brightness-energy relation to search for directional bias in the universe. Comparing their results to supernovae data, they showed that larger GRB samples effectively filter out artifacts from uneven sky coverage, making gamma-ray bursts a viable tool for genuinely testing whether the cosmos has a preferred direction.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 808,
+  "tokens_out": 192,
+  "cost_usd": 0.0014144000000000001,
+  "ingested_at": "2026-05-30T16:53:38.429526+00:00"
+}

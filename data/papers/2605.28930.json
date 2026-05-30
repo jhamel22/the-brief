@@ -1,0 +1,23 @@
+{
+  "id": "2605.28930",
+  "arxiv_url": "https://arxiv.org/abs/2605.28930",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Too many protoclusters? Reconciling the overabundance of cluster progenitors within the first billion years of the Universe",
+  "authors": "Callum Witten, Jake S. Bennett, Pascal A. Oesch, Seunghwan Lim, Chamilla Terp, Jakob M. Helton, Kasper E. Heintz, Romain A. Meyer, William McClymont, Thomas Herard-Demanche, Emma Giovinazzo",
+  "abstract": "JWST has revealed an overabundance of apparent (`Coma'-like) cluster progenitors at $z>5$ that is $\\sim$ two (300) times in excess of, and in $2.3σ$ ($4σ$) tension with, the number density of such objects at present day and theoretical predictions from $Λ$CDM. We present an analysis of protocluster candidates between $5 10^{15}\\, {\\rm M_{\\odot}}$) by $z=0$. Although some of these overdensities may not become clusters, they still trace extreme nodes of the cosmic web that may host early environmental effects, drive the first ionised regions, and contribute significantly to the cosmic star-formation rate density. These results demonstrate the need for more careful comparisons between observations and simulations of high-redshift protoclusters, and that improved selection criteria, potentially using the summation of the halo mass on Lagrangian scales, are vital for high-redshift protocluster science.",
+  "title_relatable": "Why does the young universe have so many cluster seeds?",
+  "hook": "JWST found 2–300 times more proto-galaxy clusters in the first billion years than theory predicts. Either observations or simulations need fixing.",
+  "summary": "JWST's sharp infrared vision has spotted far more protoclusters at z>5—the seeds of today's galaxy clusters—than current theory allows. The excess challenges standard cold dark matter predictions and suggests either our selection methods are flawed or simulations miss early structure formation. Careful re-analysis shows many overdensities may not actually grow into clusters, but they still mark extreme cosmic web nodes that shape early reionization and star formation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 734,
+  "tokens_out": 178,
+  "cost_usd": 0.0012992000000000001,
+  "ingested_at": "2026-05-30T16:53:22.625600+00:00"
+}

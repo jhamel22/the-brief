@@ -1,0 +1,22 @@
+{
+  "id": "2605.28817",
+  "arxiv_url": "https://arxiv.org/abs/2605.28817",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Fewer simulations, sharper covariances: Reducing mock covariance noise with Zeldovich approximation control variates",
+  "authors": "Boryana Hadzhiyska, Martin White",
+  "abstract": "We present a control-variate method for reducing the variance of power spectrum covariance matrix estimates from simulations of large-scale structure. The key idea is to pair each mock simulation with a cheap Zeldovich-approximation realization sharing the same initial conditions, and to use the known statistical properties of the Zeldovich field to remove correlated sample variance from the covariance estimator. Under a Gaussian disconnected approximation, we derive fully analytic expressions for both the optimal control-variate coefficient, $β(k,\\ell;k',\\ell')$, and the corresponding correlation, $ρ(k,\\ell;k',\\ell')$, in terms of the auto- and cross-power spectra of the target and control fields. In the monopole case, the correlation takes the particularly simple form $ρ(k,k') = r^2(k),r^2(k')$, where $r(k)$ is the standard cross-correlation coefficient between the target and Zeldovich fields, implying that covariance estimation remains highly efficient whenever the two fields are strongly correlated. For masked redshift-space lognormal mocks, resembling Luminous Red Galaxies from the Dark Energy Spectroscopic Instrument (DESI), we find that the control-variate estimator reduces the variance of the covariance matrix by approximately an order of magnitude on large scales, $k \\lesssim 0.05\\,h\\,{\\rm Mpc}^{-1}$, precisely where accurate covariance estimation is most challenging. The gains are smaller for higher $k$ but typically accelerate convergence by a factor of 2-3, substantially lowering the computational cost of covariance estimation for current and upcoming large-scale structure surveys. Due to its simplicity, this method is readily implementable in current imaging and spectroscopic surveys (e.g., DESI, Euclid, LSST, PFS, SPHEREx).",
+  "title_relatable": "Can cheap approximations reduce noise in galaxy survey statistics?",
+  "hook": "A method using fast Zeldovich simulations cuts the computational cost of accurate covariance estimates for galaxy surveys like DESI by a factor of 2–3, with order-of-magnitude gains on large scales.",
+  "summary": "Measuring the large-scale structure of the universe requires precise estimates of how uncertain our measurements are—a calculation that normally demands hundreds of expensive simulations. This work pairs each simulation with a cheap Zeldovich approximation sharing the same starting conditions, then uses the known statistical properties of the Zeldovich field to cancel out noise. The result: covariance matrices converge 2–3 times faster, with dramatic improvements on the largest scales where accuracy matters most for cosmology.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 887,
+  "tokens_out": 200,
+  "cost_usd": 0.0015095999999999998,
+  "ingested_at": "2026-05-30T16:53:27.910204+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.28903",
+  "arxiv_url": "https://arxiv.org/abs/2605.28903",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "The energy conditions and model selection in the local Universe",
+  "authors": "Namit Chandak, Fulvio Melia, Junjie Wei",
+  "abstract": "The four principal energy conditions (ECs) in general relativity prohibit negative energies, repulsive gravity and superluminal energy flows. One must invoke exotic matter to violate any one of these, yet $Λ$CDM does so quite prominently during inflation and in the epoch of dark energy dominance. In this paper, we carry out model selection between the standard model and the $R_{\\rm h}=ct$ universe using a combination of HII galaxy and cosmic chronometer measurements in the local Universe, and directly compare the results to the constraints imposed by the ECs. We find that the latter cosmology is not only strongly favored by these data, with a likelihood of $\\sim 92\\%$ versus only $\\sim 8\\%$ for the former, but that its optimized fit is fully compliant with all four ECs, while $Λ$CDM's best fit violates the so-called strong energy condition at $z\\lesssim 2$.",
+  "title_relatable": "Does the universe need exotic matter, or is standard cosmology wrong?",
+  "hook": "Local universe data favor a model that respects energy conservation over standard cosmology, which violates physical constraints during dark energy domination.",
+  "summary": "Energy conditions—rules that forbid negative energy and repulsive gravity—are fundamental to general relativity but violated by standard ΛCDM during inflation and dark energy. Using measurements of ancient galaxies and stellar ages, researchers compared ΛCDM to an alternative model (Rh=ct universe) and found the alternative fits 92% better and satisfies all energy constraints, while ΛCDM violates them at low redshifts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 648,
+  "tokens_out": 176,
+  "cost_usd": 0.0012224,
+  "ingested_at": "2026-05-30T16:53:35.734068+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.29276",
+  "arxiv_url": "https://arxiv.org/abs/2605.29276",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "A Designer's Guide to Lunar Far-Side Interferometer Array: Power Spectrum Measurement and Cosmological Constraints from the Dark Ages",
+  "authors": "Yuewei Wen, Bin Yue, Yidong Xu, Furen Deng, Chen Zhang, Xuelei Chen",
+  "abstract": "The 21-cm emission line from neutral hydrogen during the cosmic Dark Ages can be a powerful probe of cosmological models and early universe physics. This work provides a quantitative forecast for the design requirements of a lunar far-side interferometer array aimed at measuring the 21-cm power spectrum and constraining inflationary models through the running of the spectral index $α_s$. During the Dark Ages, larger collapsed objects have not yet formed, allowing linear perturbation theory to remain valid down to much smaller scales than is possible in current large-scale structure or CMB surveys. We first validate this linearity assumption by quantifying the contribution of minihalos to the 21-cm signal. We then establish a generalized and flexible analytical framework for the baseline density distribution of interferometers that may consist of an arbitrary number of stations or sub-arrays. Incorporating a realistic noise model, we determine the configurations necessary to reach the detection threshold and demonstrate that distributing the total collecting area into multiple stations can improve the signal-to-noise ratio of the power spectrum at a tunable small scale of interest by up to two orders of magnitude. We then show that a lunar array requires at least $\\sim30,000$ probed Fourier modes to achieve a constraint on inflation of $σ(α_s) = 0.034$, a result competitive with the Planck 2018 results and capable of distinguishing between different inflationary scenarios. We quantitatively explain how thermal noise severely erodes modes at high redshifts and small scales -- scales previously considered easily accessible to Dark Ages observations in the literature -- and discuss the prospects for Dark Ages observations as a new and independent probe despite this limitation.",
+  "title_relatable": "Can a telescope on the Moon's far side reveal how the universe began?",
+  "hook": "A lunar radio array tuned to primordial hydrogen could test inflation theory with precision matching ground-based CMB measurements, but only with ~30,000 antenna pairs and careful noise control.",
+  "summary": "The universe's first billion years—before stars formed—left an imprint in 21-centimeter radio waves from neutral hydrogen. A proposed interferometer on the lunar far side could measure this \"Dark Ages\" signal to test whether inflation theory's predictions hold up, potentially rivaling Planck satellite constraints on how the universe expanded. The catch: thermal noise becomes crippling at high frequencies, so the array design must distribute antennas strategically to recover enough clean data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 828,
+  "tokens_out": 194,
+  "cost_usd": 0.0014384,
+  "ingested_at": "2026-05-30T16:53:13.147153+00:00"
+}

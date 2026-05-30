@@ -1,0 +1,22 @@
+{
+  "id": "2605.28797",
+  "arxiv_url": "https://arxiv.org/abs/2605.28797",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Entropic backreaction from cosmic structure formation: a thermodynamic approach to the late-time cosmological tensions",
+  "authors": "Biswajit Pandey",
+  "abstract": "High-precision cosmological observations have revealed persistent tensions within the standard $Λ$CDM paradigm, most notably the discrepancy in the Hubble constant and the lower than predicted amplitude of late-time matter clustering quantified by $S_8$. We propose a unified thermodynamic framework in which entropic backreaction generated during cosmic structure formation modifies both the background expansion history and the growth of matter perturbations. As gravitational instability drives the growth of cosmic structures, the configuration entropy associated with the matter distribution decreases through the nonlinear redistribution of gravitational binding energy. The resulting entropic energy density contributes a late-time backreaction that enhances the cosmic expansion rate without altering early-Universe physics or the CMB sound horizon. Simultaneously, the same irreversible entropy dissipation process induces a dissipative correction within the cosmic velocity flow, suppressing the efficiency of coherent gravitational clustering at late times. The framework operates entirely within standard General Relativity: the Einstein field equations, Poisson equation, and gravitational coupling remain unmodified, and no new propagating degrees of freedom or fifth forces are introduced. Entropic backreaction therefore provides a thermodynamically motivated, theoretically conservative, and observationally testable mechanism that may simultaneously alleviate the major late-time cosmological tensions.",
+  "title_relatable": "Could entropy from cosmic structure growth solve the universe's biggest tensions?",
+  "hook": "Gravity's buildup of cosmic structure dissipates energy as heat, potentially explaining why the universe expands faster and clusters weaker than models predict.",
+  "summary": "As gravity sculpts galaxies and clusters, it converts gravitational energy into heat via entropy—a thermodynamic byproduct. This dissipated energy accelerates late-time expansion and weakens matter clumping, addressing two major observational puzzles (Hubble tension and low S₈) without new particles or modified gravity, all within standard General Relativity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 722,
+  "tokens_out": 164,
+  "cost_usd": 0.0012335999999999998,
+  "ingested_at": "2026-05-30T16:53:30.512291+00:00"
+}

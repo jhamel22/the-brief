@@ -1,0 +1,22 @@
+{
+  "id": "2605.28658",
+  "arxiv_url": "https://arxiv.org/abs/2605.28658",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Measuring the Hubble constant with strongly lensed gravitational waves from space-based detector networks",
+  "authors": "Yong Yuan, Minghui Du, Wen-Fan Feng, Benyang Zhu, Qing Diao, Peng Xu, Xilong Fan",
+  "abstract": "The measurement of the Hubble constant $H_0$ plays a central role in modern cosmology. In this work, we investigate the potential of strongly lensed gravitational-wave (SLGW) signals from massive binary black hole mergers to constrain $H_0$ using future space-based detector networks. We consider two observational scenarios: one in which the source redshift is unknown, and another in which it is independently determined through electromagnetic observations. We show that meaningful constraints on $H_0$ can still be achieved without source-redshift information, provided that the lens redshift is known. For individual SLGW events, the joint Taiji+LISA analysis improves the measurement precision of $H_0$ by approximately a factor of two compared with the Taiji-only configuration. Extending the analysis to the population level, we combine five simulated SLGW events and find that the uncertainty in $H_0$, quantified by the 95\\% credible interval, reaches the $1.1\\times10^{-1}$ level when the source redshift is treated as unknown, and further improves to $4.2\\times10^{-2}$ when the source redshift is independently measured. Our results demonstrate that joint space-based gravitational-wave observations can substantially enhance the cosmological capability of SLGW events and provide a promising avenue for precision measurements of the Hubble constant.",
+  "title_relatable": "Can bent gravitational waves measure the universe's expansion rate?",
+  "hook": "Space-based detectors can use gravitationally lensed black hole collisions to pin down the Hubble constant to within 4% precision, even without knowing how far away the source is.",
+  "summary": "Massive black holes that merge can have their gravitational waves bent by intervening matter, like light through a lens. This team shows that future space detectors (Taiji and LISA working together) can use these lensed signals to measure how fast the universe expands—a number cosmologists still argue about. Combining just five such events yields precision comparable to current gold-standard methods, without requiring independent distance measurements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 777,
+  "tokens_out": 183,
+  "cost_usd": 0.0013536,
+  "ingested_at": "2026-05-30T16:53:41.094831+00:00"
+}

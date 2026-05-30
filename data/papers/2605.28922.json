@@ -1,0 +1,23 @@
+{
+  "id": "2605.28922",
+  "arxiv_url": "https://arxiv.org/abs/2605.28922",
+  "announced_date": "2026-05-27",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "Photometry is all you need: supernova classification as a mixing problem",
+  "authors": "Ana Sofía M. Uzsoy, V. Ashley Villar",
+  "abstract": "In the era of large-scale photometric surveys, scalable and robust methods for classifying supernova (SN) populations are increasingly necessary. Often, spectroscopy is essential in addition to photometry to reliably classify SNe; however, complete spectroscopic follow-up is infeasible for all of the millions of transient light curves being collected by facilities such as the Vera C. Rubin Observatory. Using light curves of SNe Ia and Ibc observed with the Zwicky Transient Facility, we frame the classification of large SN populations as a mixing problem. We fit all objects using a semi-analytical SN model powered by radioactive decay, and we model the resulting distributions of fit parameters with a Gaussian Mixture model to optimize the shared population mixing fraction. This approach allows us to reliably constrain the ratio of the populations and classify SNe Ia and Ibc with $\\geq$ 90% accuracy without any need for labeled training data, i.e., a spectroscopic dataset. We validate this method for varying population mixing fractions and explore the impact of including spectroscopic, photometric, or no redshift information, and a small amount of known labels. Overall, this method allows for fast and accurate SN classification and population characterization using only photometry.",
+  "title_relatable": "Can photometry alone classify supernovae without spectroscopy?",
+  "hook": "A new unsupervised method classifies supernovae with 90% accuracy using only light curves, eliminating the need for expensive spectroscopic follow-up on millions of transients.",
+  "summary": "Astronomers developed an unsupervised classification approach that treats supernovae as a mixture of distinct populations. By fitting light curves to radioactive-decay models and using a statistical mixture model, they separated Type Ia from Type Ibc supernovae with 90% accuracy—without any labeled training data. This matters because next-generation surveys like Rubin will collect millions of transient observations, making complete spectroscopic follow-up impossible; photometry alone could now suffice.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 715,
+  "tokens_out": 196,
+  "cost_usd": 0.001356,
+  "ingested_at": "2026-05-30T16:53:25.161188+00:00"
+}

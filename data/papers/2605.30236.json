@@ -1,0 +1,22 @@
+{
+  "id": "2605.30236",
+  "arxiv_url": "https://arxiv.org/abs/2605.30236",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Signals from the early Universe: a comprehensive search for primordial features in Planck CMB datasets",
+  "authors": "Antonio Raffaelli, Mario Ballardini, Nicola Barbieri",
+  "abstract": "We investigate the presence of primordial oscillatory features in measurements of CMB anisotropies through a systematic comparison of phenomenological templates. Building upon previous searches for primordial features using Planck data, we compare the full PR3 legacy release with the PR4 (NPIPE) processing to assess how the results depend on the choice of CMB maps and likelihood framework. To maximise our sensitivity to rapidly varying oscillatory signals, we employ unbinned likelihoods. We find that several previously reported indications of oscillatory structure persist across different analyses, although none attains global statistical significance. Furthermore, some anomalies reported in earlier studies are substantially reduced when updated to the new versions of the CamSpec likelihood using Planck PR4 products. For all templates considered, we identify a small number of frequencies in the range $ω\\sim 10-100$ that improve the fit to the CMB data by up to $Δχ^2 \\simeq -10$ to $-15$ relative to the featureless reference model. However, this improvement is not supported by a Bayesian model comparison. The inclusion of three or four additional parameters can reduces the overall predictability of the feature models and leads to an Occam penalty. Finally, after properly accounting for the look-elsewhere effect, the significance of the preferred frequencies is reduced, corresponding to a global statistical significance of at most $2.6σ$. We present forecasts for forthcoming CMB experiments, highlighting the decisive role of next-generation polarisation measurements in distinguishing genuine primordial oscillations from statistical fluctuations and modelling systematics. The upper bounds or uncertainties on the feature amplitudes, expected from the combination of SO and LiteBIRD, improve by more than one order of magnitude.",
+  "title_relatable": "Did the early Universe leave oscillating fingerprints in the CMB?",
+  "hook": "Planck data shows tantalizing hints of primordial oscillations, but they vanish under statistical scrutiny. Next-generation experiments could finally settle the question.",
+  "summary": "Astronomers searched Planck's full CMB dataset for signs of primordial oscillatory features—ripples imprinted on the universe moments after the Big Bang. They found a few frequencies that improve the fit by up to 15 chi-squared units, but Bayesian statistical tests and corrections for multiple comparisons downgrade all signals below 3-sigma significance. Upcoming polarization measurements from SO and LiteBIRD should improve constraints by 10–100×, allowing genuine primordial signals to break through the noise.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 828,
+  "tokens_out": 206,
+  "cost_usd": 0.0014864000000000001,
+  "ingested_at": "2026-05-30T16:53:00.227935+00:00"
+}

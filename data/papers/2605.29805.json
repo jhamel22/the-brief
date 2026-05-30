@@ -1,0 +1,22 @@
+{
+  "id": "2605.29805",
+  "arxiv_url": "https://arxiv.org/abs/2605.29805",
+  "announced_date": "2026-05-28",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Model Independent Probe of Variation of Cosmic Opacity with Redshift",
+  "authors": "Savita Gahlaut, Meetu Luthra",
+  "abstract": "Cosmic opacity may vary spatially due to the inhomogeneous distribution of dust, its grain properties, and the efficiency of photon attenuation. In this work, we present a model independent method to investigate the variation of cosmic opacity with redshift. Using strong gravitational lensing data we construct the opacity independent comoving distance function and we use latest supernovae type Ia (SNe Ia) Pantheon+ data to estimate the opacity dependent comoving distances. Using the distance duality equation, opacity parameter is constrained. Our analysis indicates a transparent Universe on average over the redshift range ($0.01 \\leq z \\leq 2.26137$) of Pantheon+ sample. However, if we split the dataset into subsamples with redshift bins of width $\\bigtriangleup z = 0.1$, we find appreciable deviation from the transparency in several redshift intervals. Particularly, in the redshift range $0.3 < z \\leq 0.4$, the opacity parameter is $ε= -0.4283^{+0.1914}_{-0.2027}$. The current SNe Ia observations indicate the variation of opacity parameter with redshift. These results may have a significant impact on the values of the cosmological parameters deduced from the SNe Ia observations.",
+  "title_relatable": "Does the universe get dustier at certain redshifts?",
+  "hook": "Gravitational lensing and supernovae data suggest cosmic dust absorption varies with distance, potentially biasing measurements of cosmic expansion.",
+  "summary": "The universe's opacity to light—how much dust and gas blocks photons—may not be uniform across cosmic time. Using strong gravitational lensing to measure distances independently, then comparing with supernova brightness data, the authors found the universe appears mostly transparent overall, but shows suspicious dimming in specific redshift bands (z = 0.3–0.4). If real, this could mean supernova-based measurements of cosmic acceleration have been systematically skewed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 729,
+  "tokens_out": 180,
+  "cost_usd": 0.0013032,
+  "ingested_at": "2026-05-30T16:53:09.318089+00:00"
+}
