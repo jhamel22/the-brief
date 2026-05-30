@@ -1,0 +1,22 @@
+{
+  "id": "2605.29636",
+  "arxiv_url": "https://arxiv.org/abs/2605.29636",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Decay criteria for asymptotic freedom in plane gravitational waves",
+  "authors": "Qi-Liang Zhao, Li-Ming Cao",
+  "abstract": "We investigate when plane-wave memory admits standard outgoing free data beyond the idealized sandwich-wave approximation. For a Brinkmann plane wave with profile $A(U)$, the commonly used condition $A(U)|_{U\\to\\infty}=0$ is not sufficient to guarantee ordinary asymptotically free motion. From the integral form of the transverse geodesic equation, we derive weighted decay criteria which divide the asymptotic dynamics into strongly asymptotically free, weakly asymptotically free, and non-asymptotically free motions. These motions are realized explicitly by the new analytical solutions of three typical examples: a Scarf profile, an inverse-cubic profile, and an inverse-square profile. A surprisingly feature is that the drift correction in the weakly asymptotically free motion affects only trajectories with nonzero outgoing velocity and therefore does not obstruct displacement memory. We further express the classification in terms of the accumulated tidal matrix, showing that it is an intrinsic curvature effect rather than a coordinate artifact.",
+  "title_relatable": "When does a gravitational wave truly 'let go' of passing matter?",
+  "hook": "A gravitational wave can permanently redirect particles even after it passes — the standard 'it fades to zero' criterion isn't enough.",
+  "summary": "When a gravitational wave sweeps through space, it can permanently shift or accelerate matter — the so-called memory effect. This paper shows that requiring the wave's amplitude to simply drop to zero isn't sufficient to guarantee that particles eventually move freely afterward. By deriving sharper decay conditions, the authors classify three distinct fates for test particles and find a subtle case where residual drift affects only particles already in motion, leaving the more famous displacement memory intact.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 659,
+  "tokens_out": 174,
+  "cost_usd": 0.004587,
+  "ingested_at": "2026-05-30T16:43:18.312541+00:00"
+}

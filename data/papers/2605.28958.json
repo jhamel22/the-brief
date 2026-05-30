@@ -1,0 +1,24 @@
+{
+  "id": "2605.28958",
+  "arxiv_url": "https://arxiv.org/abs/2605.28958",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Quantum State of a Gravitating Region",
+  "authors": "Raphael Bousso, Sami Kaya, Guanda Lin, Arvin Shahbazi-Moghaddam",
+  "abstract": "We propose that any compact $d$-manifold with elliptic data, $\\mathcal{J}$, prepares a quantum state $|\\mathcal{J}\\rangle$ on its $(d-1)$-boundary $σ$. Elliptic data consists of metric and field values, or their conjugates, but not both. No asymptotic structure is required. Inner products and traces are evaluated by the gravitational path integral with closed boundary conditions obtained by gluing elliptic data manifolds. In particular, we give a prescription for the Rényi entropies $S_n$ of a subregion of $σ$. In a class of examples, we find that $S_n$ is nonnegative and nonincreasing with $n$, as required for consistency. We obtain the von Neumann entropy by analytic continuation and find agreement with the minimal surface prescription of Bousso and Penington.",
+  "title_relatable": "Does every region of curved spacetime have a quantum state?",
+  "hook": "A new prescription assigns a quantum state to any region of space with gravity — no infinite universe required.",
+  "summary": "Gravity theorists usually need an infinitely large 'asymptotic' spacetime to define quantum states, but this paper proposes a way to assign a quantum state to any compact region purely from its boundary data. The recipe passes a key consistency check: the resulting entropies obey the mathematical inequalities required of any legitimate quantum system, and the von Neumann entropy matches an independent geometric formula due to Bousso and Penington. This could be a foundational step toward defining quantum gravity in finite, closed regions like the observable universe.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 653,
+  "tokens_out": 183,
+  "cost_usd": 0.004704,
+  "ingested_at": "2026-05-30T16:43:41.445813+00:00"
+}

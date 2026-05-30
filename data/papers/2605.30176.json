@@ -1,0 +1,23 @@
+{
+  "id": "2605.30176",
+  "arxiv_url": "https://arxiv.org/abs/2605.30176",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "math-ph",
+    "gr-qc"
+  ],
+  "title_original": "The Fermionic Signature Operator in the Reissner-Nordström Geometry in Horizon-Penetrating Coordinates",
+  "authors": "Felix Finster, Christoph Krpoun",
+  "abstract": "We study the Dirac equation in the Reissner-Nordström geometry in horizon-penetrating coordinates up to the Cauchy horizon. A mass decomposition theorem is proved, which gives a covariant representation of the spacetime inner product that naturally involves the fermionic signature operator and the fermionic flux operator. We compute their spectra and show that both are bounded symmetric operators on the solution space $\\mathcal{H}_m$ of the massive Dirac equation. The corresponding fermionic projector state is constructed and shown to satisfy the Hadamard condition. Lastly, we give some physical interpretations of the fermionic flux operator.",
+  "title_relatable": "What do quantum fields 'see' inside a charged black hole?",
+  "hook": "A new quantum vacuum state for charged black holes passes the key physical regularity test, reaching all the way to the inner Cauchy horizon.",
+  "summary": "Inside a charged (Reissner-Nordström) black hole there are two horizons, and defining well-behaved quantum states across both has been technically fraught. Working in coordinates that pass smoothly through both horizons, the authors construct a specific quantum vacuum state for the Dirac (electron) field and prove it satisfies the Hadamard condition — the standard criterion that a quantum state behaves physically, with no spurious infinities in measurable quantities. This matters because well-defined quantum states near the Cauchy horizon are central to understanding whether strong cosmic censorship survives quantum corrections.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 588,
+  "tokens_out": 207,
+  "cost_usd": 0.004869,
+  "ingested_at": "2026-05-30T16:42:23.828038+00:00"
+}

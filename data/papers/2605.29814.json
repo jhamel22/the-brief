@@ -1,0 +1,22 @@
+{
+  "id": "2605.29814",
+  "arxiv_url": "https://arxiv.org/abs/2605.29814",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Modified Entropy from Action Principle",
+  "authors": "A. Dehyadegari, A. Sheykhi",
+  "abstract": "We propose a modified gravity theory by extending the Einstein-Hilbert action with an arbitrary function of the Ricci scalar and the Kretschmann scalar invariants. The resulting modified Friedmann equations for a spatially flat FRW universe are derived, which remain free of higher-order derivatives and reduce to the standard Friedmann equations in the limiting case. Employing the gravity-thermodynamics conjecture, we investigate the thermodynamic behavior at the apparent horizon and derive the corresponding modified entropy. Using the first law of thermodynamics together with the modified Friedmann equations, we obtain a general expression for the apparent horizon entropy. This formalism allows us to compute the modified entropy for various well-known entropy models. Our approach establishes a consistent thermodynamic framework linking modified gravity theories constructed from curvature invariants to generalized entropy functions on the cosmological apparent horizon.",
+  "title_relatable": "What does modifying gravity do to the universe's thermodynamics?",
+  "hook": "A new gravity theory ties curvature-based modifications directly to entropy at the cosmos's boundary.",
+  "summary": "By adding curvature terms to Einstein's standard gravity action, the authors derive modified versions of the equations governing cosmic expansion — without the usual messy higher-order derivatives. They then use the deep connection between gravity and thermodynamics to read off what entropy must look like at the universe's apparent horizon. The result is a single framework that generates several popular entropy models as special cases, tightening the link between geometry and heat.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 609,
+  "tokens_out": 158,
+  "cost_usd": 0.004197,
+  "ingested_at": "2026-05-30T16:43:02.447204+00:00"
+}

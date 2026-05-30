@@ -1,0 +1,22 @@
+{
+  "id": "2605.28582",
+  "arxiv_url": "https://arxiv.org/abs/2605.28582",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Geometric Aharonov-Bohm phase effect around a black hole",
+  "authors": "Kaushlendra Kumar, Shahn Majid",
+  "abstract": "In recent work, we have explored the novel possibility that the geodesic of a spacetime density flow in GR could be upgraded to an amplitude $ψ$ with density $|ψ|^2$. We show how this arises from generally-covariant quantum mechanics and the Klein-Gordon operator in a semiclassical analysis, and how it connects to the Raychaudhuri equations. In this setting, we demonstrate an Aharonov-Bohm type effect for the phase of $ψ$ in motion approaching a black hole.",
+  "title_relatable": "Does spacetime itself create a quantum phase shift near black holes?",
+  "hook": "A quantum phase effect usually requiring a solenoid may occur naturally in curved spacetime near a black hole.",
+  "summary": "The Aharonov-Bohm effect — where a charged particle acquires a phase shift from a magnetic field it never touches — is classically a lab curiosity. These authors show that curved spacetime near a black hole can generate an analogous geometric phase for a quantum wavefunction, emerging from a semiclassical treatment of the Klein-Gordon equation. If real, this links two usually separate domains: quantum interference physics and strong-field gravity.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 555,
+  "tokens_out": 167,
+  "cost_usd": 0.00417,
+  "ingested_at": "2026-05-30T16:44:31.864604+00:00"
+}

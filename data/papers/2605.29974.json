@@ -1,0 +1,23 @@
+{
+  "id": "2605.29974",
+  "arxiv_url": "https://arxiv.org/abs/2605.29974",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Light rings and optical appearances of naked singularities, solitons, and black holes in beyond Horndeski gravity",
+  "authors": "Hyat Huang, Jutta Kunz, Rashmi Uniyal, Xiao Qian Wang",
+  "abstract": "We investigate the geodesic structure and optical appearance of compact objects with primary scalar hair in shift- and parity-symmetric beyond Horndeski gravity. The analytic solution considered here depends on a theory parameter and a dimensionless mass parameter \\cite{Bakopoulos:2023sdm}. For a fixed theory parameter, varying the mass traces a family of static spacetimes that can interpolate between timelike naked singularities, regular solitons, regular black holes, Reissner-Nordström-like black holes, multi-horizon black holes, and Schwarzschild-like black holes. We classify these branches by their horizon structure and analyze null and timelike geodesics, focusing on light rings, innermost stable circular orbits, and static spheres. We then compute thin-disk optical images by ray tracing. We find that the number of horizons is not directly encoded in the image: horizonless objects can show shadow-like central depressions, while multi-horizon black holes can closely resemble single-horizon black holes when their exterior light ring and disk structures are similar. Thus, the optical appearance is governed mainly by the photon potential and the disk inner edge, with the deeper horizon structure leaving only an indirect imprint. Quantitative radial-profile diagnostics confirm that the degeneracy is mainly morphological: the profiles differ at fixed impact parameter, but become much closer after rescaling by the critical impact parameter. These results provide a concrete example of how distinct compact object branches in beyond Horndeski gravity can share similar observational signatures.",
+  "title_relatable": "Can a black hole's shadow reveal how many horizons it has?",
+  "hook": "Objects with zero, one, or multiple horizons can look nearly identical to a telescope — shadow shape alone cannot tell them apart.",
+  "summary": "Using ray-tracing simulations, a family of compact objects in a modified gravity theory — ranging from naked singularities to multi-horizon black holes — can produce nearly indistinguishable shadow images. A horizonless soliton can cast a dark central depression just like a black hole, while a multi-horizon black hole can look just like a simple Schwarzschild one. What the image actually encodes is the shape of the photon potential near the light ring, not the number of horizons hidden beneath.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 789,
+  "tokens_out": 185,
+  "cost_usd": 0.005142,
+  "ingested_at": "2026-05-30T16:42:41.100432+00:00"
+}

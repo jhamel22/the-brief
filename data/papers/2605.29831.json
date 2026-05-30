@@ -1,0 +1,23 @@
+{
+  "id": "2605.29831",
+  "arxiv_url": "https://arxiv.org/abs/2605.29831",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Five-dimensional Geometry from Spinning Amplitudes",
+  "authors": "Lucile Cangemi, Iustin Surubaru",
+  "abstract": "Massive spinor-helicity variables in four dimensions are a useful tool for studying amplitudes between higher-spin fields and gravitons. Among them a special, simple set of amplitudes reproduces the linearized stress-energy tensor of a Kerr black hole in the classical limit. In this work we initiate the study of the classical limit of three-point spinor-helicity amplitudes in five dimensions. We introduce the map between the spinor invariants and the expectation values of spin operators and match the amplitude building blocks with those of the multipole expansion. Interestingly, in order to take the classical limit of a general amplitude, we need to augment the multipole structures with the Hodge dual of the classical spin tensor. We study the classical limit of alternative spinning states not described by fully-symmetric products of polarisations and conclude that they can describe the same spacetimes. Finally, by relaxing the orthogonality condition of the spin tensor we are able to model spacetimes with a single rotational isometry and match these to the classical limit of amplitudes allowing for an internal spin shift. Along the way we also identify the class of amplitudes describing the Myers-Perry black hole and comment on its generalization to arbitrary dimensions.",
+  "title_relatable": "What do particle scattering amplitudes reveal about 5D black holes?",
+  "hook": "A new spinor technique maps quantum amplitudes directly onto rotating black hole geometries in five dimensions.",
+  "summary": "Scattering amplitudes — the quantities particle physicists calculate for collisions — turn out to encode the gravitational fields of spinning black holes when you take their classical limit. This works beautifully in four dimensions for Kerr black holes; now the same machinery is extended to five dimensions, where black holes can spin in two independent planes. The authors identify which specific amplitudes correspond to the Myers-Perry black hole and discover that modeling more general spacetimes requires a new ingredient: the Hodge dual of the spin tensor.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 692,
+  "tokens_out": 182,
+  "cost_usd": 0.004806,
+  "ingested_at": "2026-05-30T16:42:57.763691+00:00"
+}

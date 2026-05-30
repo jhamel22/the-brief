@@ -1,0 +1,25 @@
+{
+  "id": "2605.29069",
+  "arxiv_url": "https://arxiv.org/abs/2605.29069",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "gr-qc",
+    "math-ph"
+  ],
+  "title_original": "Equilibrium Core and Vortex Solutions of Bose Einstein Condensate Dark Matter around a Black Hole",
+  "authors": "Ivan Alvarez-Rios, Francisco S. Guzman",
+  "abstract": "We present the construction of stationary solutions of Bose-Einstein condensate dark matter (BECDM) around a point-like gravitational source representing a black hole. The problem is formulated for general axisymmetric configurations, and we focus on two cases: the ground-state core solution and the first nonzero winding number configuration corresponding to a line vortex solution. The stationary equations are solved using an imaginary-time approach, which enables the construction of families of solutions across a wide range of self-interaction and black hole masses. We analyze the impact of these parameters on the density distribution and on the stability properties of the solutions, assessing stability through the turning point criterion based on the enthalpy functional, which allows us to identify stable and unstable branches along each family of solutions. It has been shown in the past that spherical core solutions act as attractors in the collapse of BECDM around black holes in the non-interacting case ($g=0$), supporting their astrophysical relevance. In the present work, the existence of a maximum mass for configurations with attractive self-interaction ($g<0$) allows us to infer the parameter range in which such solutions may also arise in this regime. Building on this picture, we show that stable vortex solutions of BECDM can also exist in the presence of a black hole, whose stability properties suggest that these configurations may likewise be compatible with physically relevant formation scenarios.",
+  "title_relatable": "Do dark matter vortices swirl around black holes?",
+  "hook": "Stable whirlpool-like dark matter structures can form around black holes, suggesting a richer galactic core physics than assumed.",
+  "summary": "Fuzzy dark matter — modeled as a quantum Bose-Einstein condensate — can form not just smooth halos around black holes but also stable vortex configurations with quantized angular momentum, like quantum whirlpools. Solving the governing equations across a wide parameter space, the authors map which configurations are stable and which collapse, and find that both ground-state cores and vortices survive under realistic conditions. If such structures form in nature, they could leave distinct imprints on galactic core dynamics and gravitational lensing.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 751,
+  "tokens_out": 191,
+  "cost_usd": 0.005118,
+  "ingested_at": "2026-05-30T16:43:24.723383+00:00"
+}

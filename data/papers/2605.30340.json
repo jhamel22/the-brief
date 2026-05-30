@@ -1,0 +1,22 @@
+{
+  "id": "2605.30340",
+  "arxiv_url": "https://arxiv.org/abs/2605.30340",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Carr criterion and mass gaps in non-singular primordial black hole formation",
+  "authors": "Jens Boos, Arif Kağan Gündoğdu, Marek Hartenfels",
+  "abstract": "Non-singular gravitational theories are expected to be relevant in the early universe. In this paper, we derive a set of effective Friedmann equations describing the dynamics of matter shells in the presence of a gravitational regulator $\\ell$. We find that such a regulator induces a primordial black hole mass gap such that below a certain mass $M_\\text{gap}(\\ell, R_H)$ no black holes can form. The order of magnitude of this mass gap is set by the regulator $\\sim c^2\\ell/G$, with subleading dependence on the horizon radius at time of formation $R_H$. Finally, we show that over a wide range of equation of state parameters $ω= 0 \\dots 1/3$, the mass gap implies a Carr criterion of the form $δ_H > 2G M_\\text{gap}/R_H - 1$. If the horizon size is of the same order of the regulator, $R_H \\sim \\ell$, this new criterion is stronger than the traditional Carr criterion for primordial black hole formation. This connects the primordial black hole abundance directly to the presence of gravitational regulators.",
+  "title_relatable": "Do quantum gravity effects prevent the smallest black holes from forming?",
+  "hook": "A 'gravitational regulator' length scale creates a minimum mass for primordial black holes, tightening the conditions needed for their formation.",
+  "summary": "If gravity has a built-in minimum length scale ℓ — as many quantum gravity theories predict — then primordial black holes below a mass roughly c²ℓ/G simply cannot form in the early universe. This raises the threshold density fluctuation needed to birth a black hole, meaning the observed abundance of primordial black holes could directly constrain that fundamental length. It links cosmological observations to the deep structure of spacetime.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 717,
+  "tokens_out": 172,
+  "cost_usd": 0.004731,
+  "ingested_at": "2026-05-30T16:42:02.319310+00:00"
+}

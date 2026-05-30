@@ -1,0 +1,22 @@
+{
+  "id": "2605.28716",
+  "arxiv_url": "https://arxiv.org/abs/2605.28716",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Eccentric and unbound compact binaries in the LIGO-Virgo-KAGRA catalog: parameter estimation and waveform systematics with SEOBNRv6EHM",
+  "authors": "Lorenzo Pompili, Aldo Gamboa, Alessandra Buonanno",
+  "abstract": "Orbital eccentricity encodes key information about compact-binary formation channels and astrophysical environments, making it a critical target for gravitational-wave (GW) inference. We present parameter-estimation (PE) analyses of GWs from eccentric compact binaries with the SEOBNRv6EHM waveform model. Using long, highly eccentric numerical-relativity waveforms as synthetic signals, we compare parameter recovery across state-of-the-art eccentric models. We find that SEOBNRv5EHM and TEOBResumS-Dalí can yield biased estimates of eccentricity, masses, and spins in the most challenging configurations, while SEOBNRv6EHM significantly reduces these biases. Applying SEOBNRv6EHM to 26 GW events from the O1--O4 LIGO--Virgo--KAGRA observing runs -- including binary black hole, neutron-star--black-hole, and binary neutron-star mergers -- we identify five events with mild support for eccentricity over the quasi-circular precessing-spin hypothesis, with Bayes factors $\\log_{10} \\mathcal{B}^{\\text{EAS}}_{\\text{QCP}} > 0.5$. Since SEOBNRv6EHM is applicable to generic planar binaries, we reanalyze five high-mass events allowing for unbound initial conditions. For three of them -- including GW190521, previously claimed to originate from a dynamical capture -- a direct-capture configuration is comparable to, or marginally favored over, both the eccentric aligned-spin and quasi-circular precessing-spin hypotheses ($\\log_{10}\\mathcal{B}^{\\rm unbound}_{\\rm QCP} \\approx 0.2$--$0.6$ for GW190521). The recovered configurations are, however, astrophysically unrealistic and cannot be confidently discriminated from highly eccentric bound orbits, so these results do not, by themselves, support an unbound origin for these events. SEOBNRv6EHM is approximately three times faster in PE analyses than SEOBNRv5EHM, while improving waveform accuracy, enabling efficient, large-scale GW inference with eccentric waveforms.",
+  "title_relatable": "Were any LIGO black hole mergers actually chance encounters?",
+  "hook": "A new waveform model reanalyzes 26 gravitational-wave events, finding five with mild eccentricity hints and revisiting the contested 'dynamical capture' claim for GW190521.",
+  "summary": "Most gravitational-wave models assume black holes spiral together on near-circular orbits, but some may form through chaotic close encounters. Analyzing 26 LIGO-Virgo-KAGRA events with an improved waveform model, five show mild statistical preference for eccentric orbits, and GW190521 — a previously controversial 150-solar-mass merger — shows slight but inconclusive preference for an unbound 'direct capture' origin. The new model is three times faster than its predecessor while being more accurate, making large-scale eccentric searches practical.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 997,
+  "tokens_out": 219,
+  "cost_usd": 0.006276,
+  "ingested_at": "2026-05-30T16:44:15.145599+00:00"
+}

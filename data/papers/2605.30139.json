@@ -1,0 +1,23 @@
+{
+  "id": "2605.30139",
+  "arxiv_url": "https://arxiv.org/abs/2605.30139",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Cosmo-PINN: A Physics-Informed Neural Network for Cosmological Reconstruction",
+  "authors": "Andronikos Paliathanasis",
+  "abstract": "We introduce Cosmo-PINN, a Physics-Informed Neural Network for reconstruction of the cosmological theory. In this work we demonstrate the application of the Cosmo-PINN in the reconstruction of the dark energy equation of state parameter $w_{DE}\\left( z\\right) $ directly from late-time cosmological observations. This framework overcomes the main limitation shared by Gaussian Process and Artificial Neural Network reconstruction approaches, where the recovered solution is driven by the data and it is not necessarily true that it is physically consistent, by embedding the cosmological constraints directly into the loss function as hard constraints, ensuring that the reconstructed quantities satisfy the physical laws at every point during the training. For the training of the network, we employed background data, and specifically the Baryon Acoustic Oscillation from DESI DR2, the Cosmic Chronometers and three different Supernova compilations, while we simultaneously introduce the cosmological parameters $H_{0},~Ω_{m0}$ and $r_{\\mathrm{drag}}$ as trained parameters. The reconstruction shows that the trained $w_{DE}\\left( z\\right) $ crosses the phantom divide within the redshift range $z=0.27-0.42$ in agreement with the value obtained by the Chevallier-Polarski-Linder model. In the quintessence scenario, for large redshifts the dark energy $Ω_{DE}\\left( z\\right) $ provides a pressureless nonzero contribution to the cosmological fluid suggesting a unified scenario. Finally, we demonstrate the significance of imposing the physical constraints within the loss function by comparing the Cosmo-PINN reconstruction against a purely data-driven neural network with the same architecture.",
+  "title_relatable": "Does dark energy change character at a specific cosmic moment?",
+  "hook": "A physics-enforcing neural network pinpoints where dark energy crosses into 'phantom' territory: redshift z ≈ 0.27–0.42.",
+  "summary": "Standard neural network reconstructions of dark energy can produce physically nonsensical results because they chase data without constraints. Cosmo-PINN bakes the actual cosmological equations directly into the training loss, forcing solutions to obey physics at every step. Trained on DESI DR2 baryon acoustic oscillations, supernovae, and cosmic chronometers, it finds dark energy's equation-of-state crosses the so-called phantom divide — a boundary with implications for the universe's fate — around redshift 0.3, consistent with the standard parameterization but now with a physics-guaranteed reconstruction.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 812,
+  "tokens_out": 212,
+  "cost_usd": 0.005616,
+  "ingested_at": "2026-05-30T16:42:36.223165+00:00"
+}

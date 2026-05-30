@@ -1,0 +1,23 @@
+{
+  "id": "2605.28663",
+  "arxiv_url": "https://arxiv.org/abs/2605.28663",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "First-Order Perturbations of Covariant Maxwell Equations in Gravitational Waves",
+  "authors": "Lingyue Lou, Haorong Wu, Xi-Long Fan",
+  "abstract": "We present a systematic theoretical framework for investigating first-order electromagnetic (EM) perturbations induced by gravitational waves (GWs). Beginning with the covariant Maxwell equations, we derive the complete first-order perturbation equations in terms of both the EM field tensor and the four-potential, demonstrating their equivalence alongside the residual gauge invariance under the Lorenz gauge condition. Furthermore, explicit first-order expressions for the induced electric and magnetic fields, as well as the associated EM energy-momentum tensor, are obtained. As an explicit illustration, we analytically evaluate the interaction between a plane EM wave and a GW within the transverse-traceless gauge. By demonstrating that the maximum modulus of the coupling coefficient is on the order of $10^2$, we quantitatively establish that a typical astrophysical GW with a dimensionless strain of $h_0 \\sim 10^{-21}$ generates a first-order EM response on the order of $10^{-19}$ relative to the incident field amplitude.",
+  "title_relatable": "Can gravitational waves create detectable ripples in light?",
+  "hook": "A gravitational wave with strain 10⁻²¹ distorts a passing light wave by just one part in 10¹⁹ — here's the math.",
+  "summary": "Gravitational waves squeeze and stretch spacetime, and any light traveling through that distortion gets nudged too. Working from Maxwell's equations in curved spacetime, this framework calculates exactly how large that nudge is: for a typical LIGO-scale gravitational wave, the induced electromagnetic disturbance is roughly one part in 10¹⁹ of the original light amplitude. That's extraordinarily faint, but the clean analytic result sets a firm baseline for any proposed gravitational-wave detector based on electromagnetic sensing.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 669,
+  "tokens_out": 200,
+  "cost_usd": 0.005007,
+  "ingested_at": "2026-05-30T16:44:26.931242+00:00"
+}

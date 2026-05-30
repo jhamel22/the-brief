@@ -1,0 +1,22 @@
+{
+  "id": "2605.30255",
+  "arxiv_url": "https://arxiv.org/abs/2605.30255",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "The N--P and 1+1+2 correspondence",
+  "authors": "Abbas M Sherif, Peter K S Dunsby",
+  "abstract": "In this letter, we establish a complete correspondence between the Newman--Penrose and 1+1+2 semitetrad covariant formalisms by expressing all Newman--Penrose spin coefficients, Ricci scalars, and Weyl scalars in terms of the scalar, vector, and tensor variables of the 1+1+2 decomposition. This provides a direct dictionary between two widely used approaches to general relativity and gives a geometrical interpretation of Newman--Penrose quantities in terms of covariantly defined 1+1+2 variables. As an application, we derive necessary conditions for the existence of future outer trapping horizons in locally rotationally symmetric class II spacetimes, expressed in terms of the Ricci and Weyl Newman--Penrose scalars and the cosmological constant.",
+  "title_relatable": "Two rival languages for curved spacetime finally get a dictionary",
+  "hook": "A complete translation between two major formalisms for general relativity reveals the geometry hiding inside abstract spin coefficients.",
+  "summary": "Two powerful but historically separate mathematical frameworks for solving Einstein's equations — Newman–Penrose and the 1+1+2 semitetrad approach — are now fully mapped onto each other. Every spin coefficient, Ricci scalar, and Weyl scalar gets a geometric translation. As a payoff, the authors use this dictionary to find necessary conditions for black hole horizons to form in a physically important class of symmetric spacetimes.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 605,
+  "tokens_out": 161,
+  "cost_usd": 0.00423,
+  "ingested_at": "2026-05-30T16:42:08.034768+00:00"
+}

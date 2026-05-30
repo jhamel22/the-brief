@@ -1,0 +1,22 @@
+{
+  "id": "2605.28542",
+  "arxiv_url": "https://arxiv.org/abs/2605.28542",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "New asymptotically flat gravitational instanton",
+  "authors": "Edward Teo",
+  "abstract": "A new two-parameter asymptotically flat (AF) toric gravitational instanton is identified as a special case of the Euclidean double Kerr-NUT solution, by imposing certain symmetry and regularity conditions on its rod structure. These conditions are solved explicitly, except for one which takes the form of a fifth-order polynomial. This gravitational instanton has Euler number $χ=4$ and Hirzebruch signature $τ=0$, and its global topology is $\\mathbb{C}P^2\\#\\overline{\\mathbb{C}P^2}$ with a circle $S^1$ removed appropriately. It is the third of an infinite sequence of AF toric gravitational instantons that was proved to exist by Li and Sun, the first two being the Kerr and Chen--Teo instantons. It is also the first known example of a Ricci-flat gravitational instanton that is not Hermitian.",
+  "title_relatable": "A new solution to Einstein's equations hides a topological surprise",
+  "hook": "A third member of a predicted infinite family of gravitational instantons has been found — and it breaks a pattern held by all known predecessors.",
+  "summary": "Gravitational instantons are solutions to Einstein's equations in imaginary time, relevant to quantum gravity and topology. A new two-parameter example has been identified from the Euclidean double Kerr-NUT family — only the third in an infinite sequence whose existence was proven abstractly years ago. Unlike every previously known Ricci-flat instanton, this one is not Hermitian, making it the first concrete example of a whole new geometrical class.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 631,
+  "tokens_out": 175,
+  "cost_usd": 0.004518,
+  "ingested_at": "2026-05-30T16:44:43.055484+00:00"
+}

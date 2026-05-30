@@ -1,0 +1,22 @@
+{
+  "id": "2605.29049",
+  "arxiv_url": "https://arxiv.org/abs/2605.29049",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Shadows of naked singularities and superspinars related to the revisited Kerr-de Sitter spacetimes",
+  "authors": "Daniel Charbulák, Zdeněk Stuchlík",
+  "abstract": "We construct shadows of superspinars described by the revisited Kerr-de Sitter (rKdS) naked singularity (NS) spacetimes and compare them with those of the standard KdSNS spacetimes. For all the classes of the rKdSNS spacetimes we determine local escape cones related to variety of fundamental frames: locally nonrotating frames (LNRFs), radially escaping frames, and circular geodesic frames related to marginally stable obits of the rKdSNS spacetimes. The local escape cones (and their complementary cones) are then applied to construct the shadow of the KdS superspinars related to the distant static observers represented by the LNRFs located near the so-called static radius where the spacetime is close to the asymptotically flat region of the Kerr spacetimes, or the superspinars radially approaching, due to the Universe's expansion, the cosmic horizon of the spacetime. Differences of the shadows in the rKdSNS and standard KdSNS spacetimes are established and demonstrated for sufficiently large values of the dimensionless cosmological constant. For the observationally given cosmological constant and masses of the largest objects in the Universe, the shadow differences are not observable using recent observational instruments.",
+  "title_relatable": "What does a spinning naked singularity look like from the outside?",
+  "hook": "Shadows of hypothetical 'superspinars' differ from black holes, but current telescopes can't see the difference.",
+  "summary": "Spinning objects that exceed the black-hole spin limit — called superspinars or naked singularities — cast shadows with shapes distinct from ordinary black holes, but only noticeably so when the cosmological constant is artificially large. For realistic cosmic conditions and objects as massive as anything in the known Universe, the shadow differences fall below what instruments like the Event Horizon Telescope can resolve. The result sets a practical observational ceiling on testing these exotic alternatives to black holes.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 741,
+  "tokens_out": 175,
+  "cost_usd": 0.004848,
+  "ingested_at": "2026-05-30T16:43:30.165115+00:00"
+}

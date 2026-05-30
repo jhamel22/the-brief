@@ -1,0 +1,23 @@
+{
+  "id": "2605.30221",
+  "arxiv_url": "https://arxiv.org/abs/2605.30221",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Primary Constraints of Newer General Relativity",
+  "authors": "Carmen Ferrara, Alexey Golovnev, María José Guzmán",
+  "abstract": "We study the primary constraint structure of Newer General Relativity, a gravity theory based on a torsionless teleparallel geometry. The gravitational action is built from a scalar formed by quadratic combinations of the nonmetricity tensor, with arbitrary coefficients $c_i$ in the Lagrangian. We decompose the Lagrangian and compute the canonical momenta conjugate to the metric. We characterize the primary constraints arising from these momenta by identifying when the map between velocities and momenta becomes non-invertible, and organize the outcome through a fully nonlinear decomposition into scalar, vector and tensor sectors. Comparing with previous results in the literature, we recover five and three primary constraints associated with the tensor and vector sectors, respectively. We also identify a previously unreported degeneracy in the scalar sector, which yields either one or two scalar primary constraints depending on the conditions imposed on the parameters $c_i$. Finally, we obtain the primary constraints associated with the covariant formulation of symmetric teleparallel gravity.",
+  "title_relatable": "How many hidden constraints govern a rival theory of gravity?",
+  "hook": "A careful Hamiltonian analysis of 'Newer General Relativity' uncovers a previously missed degeneracy that changes the theory's constraint count.",
+  "summary": "Newer General Relativity replaces Einstein's curvature with a quantity called nonmetricity to describe gravity, but its true degrees of freedom were incompletely understood. Systematically working through the Hamiltonian structure, the authors find a previously unreported degeneracy in the scalar sector that produces either one or two extra constraints depending on the theory's free parameters — a distinction that directly affects how many physical degrees of freedom propagate. Getting this count right is essential before claiming any such theory is a viable alternative to general relativity.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 655,
+  "tokens_out": 194,
+  "cost_usd": 0.004875,
+  "ingested_at": "2026-05-30T16:42:13.380143+00:00"
+}

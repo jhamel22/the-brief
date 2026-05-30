@@ -1,0 +1,22 @@
+{
+  "id": "2605.29759",
+  "arxiv_url": "https://arxiv.org/abs/2605.29759",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Gyroscopic Precession in Axisymmetric Kerr Spacetime: Horizon Regularity and Coordinate Effects",
+  "authors": "Paulami Majumder",
+  "abstract": "We investigate gyroscopic precession along Killing and non-Killing timelike trajectories in Kerr spacetime using the covariant Frenet--Serret formalism. The precession frequency is analyzed for both prograde and retrograde motion in Boyer--Lindquist and horizon-penetrating Kerr--Schild coordinate systems. For generic spiral trajectories, we show explicitly that the divergence of the precession frequency appearing near the horizon in Boyer--Lindquist coordinates disappears in Kerr--Schild coordinates. Our analysis demonstrates that the finiteness of the Frenet--Serret precession frequency is determined by the timelike character of the trajectory rather than by the existence of an event horizon itself. These results indicate that the divergence of gyroscopic precession in the strong-field regime is a coordinate artefact and therefore cannot serve as an invariant signature of horizon structure.",
+  "title_relatable": "Does a gyroscope really spin infinitely fast near a black hole?",
+  "hook": "A supposed signal of black hole horizons turns out to be a coordinate illusion, not real physics.",
+  "summary": "Near a black hole horizon, equations in standard coordinates predict a gyroscope's precession rate blows up to infinity — a feature some proposed as a detectable signature of the horizon itself. Switching to horizon-penetrating Kerr-Schild coordinates makes the divergence vanish entirely. The precession stays finite for any physically valid (timelike) trajectory, meaning the blow-up was never real — just an artifact of bad coordinates, not a property of the black hole.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 636,
+  "tokens_out": 173,
+  "cost_usd": 0.004503,
+  "ingested_at": "2026-05-30T16:43:07.866498+00:00"
+}

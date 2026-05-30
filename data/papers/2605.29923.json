@@ -1,0 +1,25 @@
+{
+  "id": "2605.29923",
+  "arxiv_url": "https://arxiv.org/abs/2605.29923",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "Black Hole Photon Rings Saturate the Quantum Chaos Bound",
+  "authors": "D. Giataganas, G. F. Giudice, A. Kehagias, F. Quevedo, A. Riotto",
+  "abstract": "We study the quantum chaos bound in the photon ring region surrounding black holes. By evaluating the Lyapunov exponent associated with unstable null geodesics in a broad class of generalized Kerr geometries, as well as the temperature induced by a string probe, we show that the quantum chaos bound is exactly saturated on equatorial circular orbits of the photon ring. We confirm our result by deriving the same exponent from out-of-time-order correlators in the near ring region. As a byproduct, we show that the photon ring saturation of the quantum chaos bound implies the saturation of the Bekenstein bound on the rate of information emission from the ringdown phase through the quasi-normal modes in the eikonal limit. Our results extend the known correspondence between black hole thermodynamics and chaotic dynamics, highlighting the role of the photon ring as a probe of the fundamental limits on thermalization and information scrambling in black holes.",
+  "title_relatable": "Do black hole light rings hit a fundamental quantum speed limit?",
+  "hook": "Photon rings around black holes exactly saturate the theoretical maximum rate at which any quantum system can scramble information.",
+  "summary": "The ring of light orbiting a black hole — the feature imaged by the Event Horizon Telescope — turns out to be where chaos runs as fast as quantum mechanics allows. By computing Lyapunov exponents for unstable light orbits across a broad family of spinning black holes, the authors show this \"quantum chaos bound\" is saturated precisely at the photon ring, and that the same limit governs how fast information leaks out during ringdown. It links three seemingly separate ideas — orbital instability, quantum thermalization, and information theory — at a single location in spacetime.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 662,
+  "tokens_out": 195,
+  "cost_usd": 0.004911,
+  "ingested_at": "2026-05-30T16:42:46.981386+00:00"
+}

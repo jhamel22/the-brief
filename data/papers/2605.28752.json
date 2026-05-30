@@ -1,0 +1,24 @@
+{
+  "id": "2605.28752",
+  "arxiv_url": "https://arxiv.org/abs/2605.28752",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "Inflation with vector fields revisited: non-Gaussianities",
+  "authors": "Chong-Bin Chen",
+  "abstract": "We revisit the resulting bispectrum of inflation with kinetic-coupled vector fields by organizing the dynamics in terms of $h$, which measures the vector kinetic contribution relative to that of the scalar field. We evaluate the bispectrum in the strong-vector regime and derive a low-energy effective field theory (EFT) for the large-$h$ regime. For $h\\gg1$, the entropic perturbation becomes heavy and can be integrated out; the remaining curvature mode has an imaginary sound speed and undergoes transient growth before horizon crossing. In contrast to $h\\ll1$ regime, where transfer from the vector sector persists outside the horizon and produces a local-type contribution enhanced as $h^2N_K^3$, we find that in addition to the known flattened-enhanced signals scaling as $h^3$, a flattened-enhanced signal scaling as $h^2$ and a pronounced local projection scaling as $h$ are present. Their competition yields a local-dominated signal for intermediate $h$ and a flattened-dominated signal at larger $h$. The bispectrum therefore distinguishes vector-supported inflationary dynamics even for an exactly isotropic background.",
+  "title_relatable": "How vector fields during inflation leave a distinct fingerprint in the early universe",
+  "hook": "A new calculation shows vector-field inflation produces uniquely shaped quantum fluctuations, detectable even when the background looks perfectly uniform.",
+  "summary": "During inflation, adding vector fields coupled to the inflaton changes how quantum fluctuations grow and interact. This analysis maps out the full shape of three-point correlations (the bispectrum) across different coupling strengths, finding that strong vector fields produce a distinctive flattened signal rather than the local type expected from standard inflation. Crucially, this signature persists even when the universe looks isotropic, giving future CMB and large-scale structure surveys a clean target to distinguish vector-driven inflation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 690,
+  "tokens_out": 183,
+  "cost_usd": 0.004815,
+  "ingested_at": "2026-05-30T16:44:09.295196+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.28953",
+  "arxiv_url": "https://arxiv.org/abs/2605.28953",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Signatures of loop quantum gravity in primordial black hole cosmologies",
+  "authors": "Antoine Dierckx, Sébastien Clesse, Francesca Vidotto",
+  "abstract": "The possibility that Dark Matter (DM) is partially or totally constituted by stable Planckian remnants of light Primordial Black Holes (PBHs), suggested for instance by Loop Quantum Gravity (LQG), is investigated. Distinct phenomenological regimes are identified, including scenarios that trigger an early matter-dominated epoch. New constraints are derived on the initial PBH and final remnant abundances. We show that a significant initial abundance of PBHs lighter than $10^3$ kg would overproduce Planckian relics, implying that any observational evidence for such PBHs would challenge models with quasi-stable remnants. Conversely, the products of Hawking radiation from PBHs with masses between $10^3$ and $10^{12}$ kg impose that Planckian relics could only be a highly subdominant DM component. We identify a PBH mass around $10^3$ kg for which Hawking evaporation naturally reheats the Universe while the remnants entirely constitute the present-day DM. Such a scenario does not require fine-tuning the initial abundance of PBH of this mass, which could range from $10^{-10}$ to order one. These early-Universe cosmologies yield distinct observational signatures: scalar-induced gravitational waves sourced by primordial or Poisson fluctuations that are amplified by the early PBH-dominated era. Current and future observations of LIGO/Virgo/KAGRA, the Einstein Telescope and LISA, as well as probes of the effective number of relativistic degrees of freedom, can be used to probe and constrain the initial PBH abundance and the present-day abundance of Planckian relics.",
+  "title_relatable": "Could tiny black hole leftovers be all the dark matter?",
+  "hook": "Black holes of just 1,000 kg could reheat the early Universe and leave behind Planck-scale remnants that account for all dark matter today.",
+  "summary": "Loop quantum gravity predicts that evaporating black holes leave behind stable Planck-mass remnants rather than disappearing entirely. Mapping out which primordial black hole masses are compatible with this idea, the authors find a sweet spot near 1,000 kg: these objects evaporate via Hawking radiation to reheat the Universe, leave remnants that make up all of today's dark matter, and require no fine-tuning of their initial abundance. The scenario produces gravitational wave signals detectable by LIGO, the Einstein Telescope, and LISA.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 830,
+  "tokens_out": 204,
+  "cost_usd": 0.00555,
+  "ingested_at": "2026-05-30T16:43:46.650446+00:00"
+}

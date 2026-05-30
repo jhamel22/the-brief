@@ -1,0 +1,24 @@
+{
+  "id": "2605.30145",
+  "arxiv_url": "https://arxiv.org/abs/2605.30145",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "Supermassive black hole seeds from direct collapse of CDM-curvature peaks",
+  "authors": "Marco Galoppo, Marco Bruni, Tomohiro Harada",
+  "abstract": "We study black hole (BH) formation from the nonlinear growth and collapse of primordial perturbations during the matter-dominated era. Modelling cold dark matter (CDM) as pressureless dust, we describe the collapse in a fully nonlinear relativistic framework using the Lemaître-Tolman-Bondi (LTB) and quasi-spherical Szekeres solutions as exact perturbations of a spatially-flat Friedmann-Lemaître-Robertson-Walker (FLRW) $Λ$CDM background. At first order in relativistic scalar perturbation theory, the growing mode of any relevant quantity can be expressed in terms of the conserved gauge-invariant curvature perturbation $\\mathcal{R}_c$, which acts as a potential for the 3-curvature of hypersurfaces orthogonal to the matter 4-velocity. We use this result to express the active gravitational mass and curvature functions of the LTB and Szekeres models in terms of the initial values of $\\mathcal{R}_c$ and its spatial derivatives. From these initial curvature data we derive: (i) the turn-around, collapse, and apparent-horizon formation times, and (ii) the regularity conditions required for BH formation. We show that sinusoidal and Gaussian profiles do not provide viable BH-forming channels, whereas broad compensated curvature peaks, naturally predicted by peak theory, do. We then estimate the formation times of $10^{3}-10^{6}~\\mathrm{M}_\\odot$ massive BH seeds produced by the direct collapse of primordial CDM curvature peaks, finding full BH formation at redshifts $z>5$, with core collapse beginning at $10 \\lesssim z \\lesssim 16$. Finally, we characterize the local dynamics and singularity type of the collapse (point-like, cigar-like, or pancake-like) directly from the initial comoving curvature data, clarifying the role of the initial shear in selecting the collapse end-state.",
+  "title_relatable": "Where did supermassive black holes come from so early in the universe?",
+  "hook": "Broad 'peaks' in primordial dark matter density can directly collapse into million-solar-mass black holes before redshift 5.",
+  "summary": "The earliest quasars harbor black holes already weighing millions of suns, and no one fully understands how they got so big so fast. Using exact relativistic collapse models tied to primordial curvature data, this work shows that broad compensated peaks in the dark matter distribution — not simpler Gaussian or sinusoidal shapes — can directly produce 10³–10⁶ solar-mass black hole seeds by redshift z > 5, with cores beginning to collapse around z ~ 10–16. The analysis also predicts whether each collapse ends as a point, cigar, or pancake singularity based purely on the initial conditions.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 920,
+  "tokens_out": 222,
+  "cost_usd": 0.00609,
+  "ingested_at": "2026-05-30T16:42:30.036765+00:00"
+}

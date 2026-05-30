@@ -1,0 +1,23 @@
+{
+  "id": "2605.30199",
+  "arxiv_url": "https://arxiv.org/abs/2605.30199",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "math-ph",
+    "gr-qc"
+  ],
+  "title_original": "The Continuum Limit Analysis of Causal Fermion Systems for Curved Spacetimes",
+  "authors": "Patrick Fischer, Felix Finster",
+  "abstract": "We construct the causal fermion system for globally hyperbolic spacetimes starting in the framework of algebraic quantum field theory. The fermionic projector is identified with the one-particle density operator of a quasi-free Hadamard state. The ultraviolet regularization is built into the fermionic projector via a chart-independent $i\\varepsilon$-regularization scheme. The continuum limit analysis is developed in globally hyperbolic spacetimes. It is shown that the Euler-Lagrange equations of the causal action principle are satisfied in this setup if and only if the coupled Einstein-Dirac equations hold.",
+  "title_relatable": "Does curved spacetime emerge from quantum fermion geometry?",
+  "hook": "A new framework derives Einstein's gravity and Dirac's quantum equation together from a single geometric principle.",
+  "summary": "Starting from quantum field theory on curved spacetime, the authors show that Einstein's gravitational equations and the Dirac equation for fermions are not two separate laws — they're both consequences of a single variational principle called the causal action. The result is an if-and-only-if equivalence, not an approximation. This suggests gravity and quantum matter may share a deeper geometric foundation than current physics assumes.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 569,
+  "tokens_out": 154,
+  "cost_usd": 0.004017,
+  "ingested_at": "2026-05-30T16:42:17.749304+00:00"
+}

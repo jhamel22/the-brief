@@ -1,0 +1,22 @@
+{
+  "id": "2605.28917",
+  "arxiv_url": "https://arxiv.org/abs/2605.28917",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Greybody Factors, Absorption Cross Sections and Hawking Radiation of Holonomy-Corrected Schwarzschild Black Holes",
+  "authors": "Bekir Can Lütfüoğlu, Javlon Rayimbaev, Bekzod Rahmatov, Saidmuhammad Ahmedov, Nuriddin Kurbonov",
+  "abstract": "We study greybody factors, absorption cross sections and Hawking energy-emission rates for minimally coupled massless scalar, electromagnetic and massless Dirac test fields on the loop-quantum-gravity-inspired holonomy-corrected Schwarzschild black hole. The geometry is controlled by a dimensionless holonomy parameter, and the radial wave equations are solved by direct numerical integration with first- and sixth-order WKB estimates as complementary checks. The scalar, electromagnetic and Dirac channels respond differently: the dominant scalar mode becomes more transparent, the electromagnetic threshold shifts slightly upward, and the dominant Dirac mode is only mildly modified. The scalar absorption cross section retains the universal low-frequency limit, the electromagnetic cross section changes mainly in the infrared, and the Dirac cross section develops a strongly suppressed low-frequency tail. Since the Hawking temperature falls monotonically, thermal suppression dominates the radiative output. Thus the holonomy correction enhances low-lying scalar transmission but suppresses Hawking radiation overall, with the electromagnetic sector most strongly quenched and the fermionic sector dominant once $α$ is appreciable.",
+  "title_relatable": "How quantum gravity tweaks what black holes radiate",
+  "hook": "A loop-quantum-gravity fix to Schwarzschild black holes suppresses Hawking radiation overall, but lets low-energy scalar waves escape more easily.",
+  "summary": "When a dimensionless 'holonomy' parameter from loop quantum gravity is added to the standard Schwarzschild black hole, the three types of radiation it emits behave differently: low-energy scalar waves become more transparent, electromagnetic emission is the most strongly quenched, and fermions end up dominating once the correction is appreciable. The black hole also runs cooler, so thermal suppression cuts the total output. These calculations offer concrete spectral signatures that could, in principle, distinguish quantum-gravity-corrected black holes from classical ones.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 735,
+  "tokens_out": 195,
+  "cost_usd": 0.00513,
+  "ingested_at": "2026-05-30T16:43:57.464040+00:00"
+}

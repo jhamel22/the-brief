@@ -1,0 +1,24 @@
+{
+  "id": "2605.29031",
+  "arxiv_url": "https://arxiv.org/abs/2605.29031",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-ph",
+    "gr-qc",
+    "hep-ex"
+  ],
+  "title_original": "Twilight of the WIMP: Comprehensive Phenomenology of Electroweak Triplet Dark Matter",
+  "authors": " Gaurav, Niharika Shrivastava, Rahul Srivastava, Sushant Yadav",
+  "abstract": "We present a comprehensive study of dark matter phenomenology in standard model extensions featuring an electroweak triplet scalar or fermion with hypercharge $Y = 0$ or $Y = 2$. These minimal triplet extensions provide well-motivated dark matter candidates stabilised by the $Z_2$ discrete symmetry. We perform a detailed analysis of the parameter space consistent with current cosmological and experimental constraints, including the relic abundance, direct detection limits, and indirect detection bounds. We find that the scalar triplet with $Y=0$ is ruled out by a combination of relic density, direct detection and indirect detection constraints. On the other hand, the scalar and fermionic triplets with $Y=2$ are both excluded by current direct detection experiments due to their large spin-independent scattering cross-sections. The viable parameter space of the remaining $Y=0$ fermion triplet dark matter lies within the projected sensitivity of near-future experiments, particularly those targeting indirect detection signatures. Collider prospects for these triplet extensions are also discussed in the Appendix.",
+  "title_relatable": "Which dark matter candidates has physics already ruled out?",
+  "hook": "Three of four minimal 'triplet' dark matter candidates are now excluded — only one survives, barely.",
+  "summary": "A systematic sweep of electroweak triplet dark matter models finds that three of the four minimal candidates are already dead: ruled out by combining relic density measurements, direct detection experiments, or both. The lone survivor — a fermionic triplet with zero hypercharge — remains alive but cornered, sitting precisely within the projected reach of next-generation indirect detection experiments. If those experiments come up empty, this entire class of minimal dark matter models is finished.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 684,
+  "tokens_out": 162,
+  "cost_usd": 0.004482,
+  "ingested_at": "2026-05-30T16:43:35.234738+00:00"
+}

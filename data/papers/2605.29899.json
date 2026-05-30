@@ -1,0 +1,23 @@
+{
+  "id": "2605.29899",
+  "arxiv_url": "https://arxiv.org/abs/2605.29899",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Problems of cosmology on small scales of the Universe",
+  "authors": "I. D. Karachentsev",
+  "abstract": "Six challenges for the standard cosmological model $Λ$CDM are listed, which arise when comparing theoretical predictions with observational data on scales of ~1 Mpc. Different parameters of luminous and dwarf galaxies in the local sphere with a radius of 12 Mpc are presented. The average densities of stellar matter and dark matter are reproduced depending on a distance in the Local volume. Observational data on distribution of angular momentum of nearby galaxies are considered. A comparison of the dark matter mass estimates for systems of galaxies based on motions of their internal (virialized) members and neighboring galaxies is given. The reasons for the low derived value of the dark matter density, $Ω_m = 0.08\\pm0.02$, in the Local Universe with respect to the global value $Ω_m = 0.30\\pm0.02$ are discussed",
+  "title_relatable": "Why does dark matter seem to vanish in our cosmic backyard?",
+  "hook": "In the local Universe within 12 Mpc, dark matter density appears four times lower than the global average — a stubborn discrepancy.",
+  "summary": "Surveying galaxies within 12 megaparsecs, this review catalogs six places where the standard cosmological model quietly fails at small scales. The most striking: the local dark matter density clocks in at Ω_m = 0.08, versus the globally accepted 0.30 — a factor-of-four gap. Whether this reflects a genuine local underdensity, measurement bias, or a crack in ΛCDM itself remains unresolved.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 617,
+  "tokens_out": 183,
+  "cost_usd": 0.004596,
+  "ingested_at": "2026-05-30T16:42:52.064819+00:00"
+}

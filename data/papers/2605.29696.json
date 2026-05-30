@@ -1,0 +1,23 @@
+{
+  "id": "2605.29696",
+  "arxiv_url": "https://arxiv.org/abs/2605.29696",
+  "announced_date": "2026-05-28",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "physics.hist-ph",
+    "gr-qc"
+  ],
+  "title_original": "That Damned Equation. Rigour, Credit Attribution, and the Wheeler-DeWitt Equation 1962-1967",
+  "authors": "Alexander S. Blum, Dean Rickles, Karim Thébault",
+  "abstract": "The notion of rigour relevant to the practice of physics is an endogenous one. Theoretical physics has its own internal norms about mathematical practice and notions of legitimate derivations or formal objects. These norms are often implicit, local, and change in substantial ways over time. Moreover, norms of rigour in theoretical physics, at least in the mid-twentieth century, are primarily focused on the goal of removing barriers for concrete calculation and clear conceptualisation. Rather than pursuit of rigour for its own sake, or to achieve some `higher' standard of truth, theoretical physicists seek to `rigorise' initial, semi-formal constructions in order to render formally well-defined models with which they can make concrete contact with the world, through calculations of quantities of interest. In what follows we will support this thesis based upon a detailed historical case study of the development of and attribution of credit for the Wheeler-DeWitt equation in the period 1962-67. Drawing upon archival material and the published record we develop and defend the explanatory hypothesis that it was the rigorisation of the equation via the expression for the inner product that was the crucial step in the work of Wheeler and DeWitt rather than the statement of the equation itself.",
+  "title_relatable": "Who really deserves credit for quantum gravity's most famous equation?",
+  "hook": "Archival evidence reframes the Wheeler-DeWitt equation's origin: the real breakthrough wasn't writing it down, but making it mathematically usable.",
+  "summary": "The Wheeler-DeWitt equation is the cornerstone of canonical quantum gravity, yet its credit has always been murky. This historical investigation, drawing on archives and published records from 1962–67, argues the decisive step wasn't stating the equation but defining its inner product — the mathematical structure that made calculation possible. It's a case study in how physics 'rigour' is really about enabling concrete results, not achieving abstract purity.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 709,
+  "tokens_out": 173,
+  "cost_usd": 0.004722,
+  "ingested_at": "2026-05-30T16:43:12.488660+00:00"
+}

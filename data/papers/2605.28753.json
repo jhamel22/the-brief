@@ -1,0 +1,23 @@
+{
+  "id": "2605.28753",
+  "arxiv_url": "https://arxiv.org/abs/2605.28753",
+  "announced_date": "2026-05-27",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "GR from RG, $2d$ Example: JT-Gravity Induced from Renormalization Group Flow",
+  "authors": "M. M. Sheikh-Jabbari, V. Taghiloo",
+  "abstract": "We demonstrate how the two-dimensional gravity emerges within ``GR from RG'' program initiated in \\cite{Adami:2025pqr, Sheikh-Jabbari:2026uol}. To achieve this, we consider a generic 2d CFT with a 3d holographic description, which we assume to be well-described by pure Einstein-AdS$_3$ gravity in the bulk. We study the holographic RG flow for the 2d CFT action and show that the renormalization group (RG) corrected action at an arbitrary energy scale contains a 2d scalar-tensor gravity theory. In the simplest case, the flow induces Jackiw-Teitelboim (JT) gravity, where the bulk radial lapse function seeds the dynamical dilaton field of the JT gravity. We show that the standard T$\\bar{\\text{T}}$ deformation of the 2d CFT is recovered as a special case in the Fefferman-Graham limit where the lapse is fixed. We further establish the robustness of the RG induced gravity picture by verifying its consistency under holographic renormalization and by generalizing the result to a one-parameter family of boundary conditions. Our results provide a first-principles derivation of the JT gravity at a finite cutoff as an intrinsic manifestation of the holographic RG flow in a non-Fefferman-Graham gauge",
+  "title_relatable": "Where does gravity come from? A holographic RG story",
+  "hook": "Gravity in two dimensions isn't fundamental — it emerges automatically from quantum field theory renormalization, a new derivation shows.",
+  "summary": "Running a 2D quantum field theory through its renormalization group flow — essentially zooming out in energy scale — spontaneously generates a gravitational theory. Specifically, JT gravity, a much-studied 2D model of quantum black holes, pops out of the flow equations when the bulk geometry is pure Einstein-AdS₃. The dilaton field central to JT gravity turns out to be seeded by the radial lapse function of the bulk metric, giving a clean geometric origin for what was previously treated as a free ingredient.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 763,
+  "tokens_out": 190,
+  "cost_usd": 0.005139,
+  "ingested_at": "2026-05-30T16:44:03.589802+00:00"
+}
