@@ -1,0 +1,23 @@
+{
+  "id": "2605.30271",
+  "arxiv_url": "https://arxiv.org/abs/2605.30271",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall"
+  ],
+  "title_original": "Quantum Synchronization of Fock States",
+  "authors": "Fabian Hassler, David Scheer, Samah Saquaque, Steven Kim",
+  "abstract": "Synchronization, a ubiquitous phenomenon in classical systems, has recently been extended to the quantum domain. Here, we show quantum synchronization of a bosonic mode exhibiting a Fock state-like limit cycle, manifesting as a steady state with a negative Wigner function. We demonstrate that this non-classical state can be phase-locked to an external drive, achieving synchronization within an Arnold tongue regime. We argue that synchronization is a dynamical property and fundamentally tied to the suppression of phase slips, which we show to occur with exponentially decreasing probability. We introduce a novel method to extract the phase slip rate from the Lindblad time evolution of the system. This work opens new avenues for understanding and manipulating non-classical synchronization dynamics.",
+  "title_relatable": "Can a quantum state lock its phase like a clock?",
+  "hook": "A quantum oscillator with negative probability densities can synchronize to an external signal — phase slips vanish exponentially.",
+  "summary": "Classical synchronization — fireflies flashing in unison, pendulum clocks aligning — requires a system to lock its rhythm to an external drive. This work shows that a quantum oscillator trapped in a non-classical 'Fock state' limit cycle, detectable by its negative Wigner function, can do the same. The key insight is that synchronization hinges on suppressing rare phase-slip events, which decay exponentially with drive strength, giving a clean way to measure quantum phase-locking from first principles.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 598,
+  "tokens_out": 183,
+  "cost_usd": 0.004539,
+  "ingested_at": "2026-05-30T16:32:58.641633+00:00"
+}

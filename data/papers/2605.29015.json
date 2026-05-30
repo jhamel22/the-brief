@@ -1,0 +1,24 @@
+{
+  "id": "2605.29015",
+  "arxiv_url": "https://arxiv.org/abs/2605.29015",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.optics",
+    "physics.app-ph",
+    "quant-ph"
+  ],
+  "title_original": "Collective Radiative Enhancement of Rare-Earth Ions in Lithium Niobate via Engineered LargeArea Nanohole Arrays",
+  "authors": "Ali Najjar Amiri, Trevor Kling, David Barton, Mahdi Hosseini",
+  "abstract": "Conventional approaches to light-matter interactions rely on engineering photonic density of states. More recently, tailoring the spatial geometry of atoms or emitters themselves has emerged as a powerful and complementary route to control collective radiative properties. Here we experimentally realize a geometry-engineered ensemble of rare-earth ions by fabricating a periodic array of subwavelength gold nanoholes on lithium niobate implanted with thulium ions, forming a semi-two-dimensional array of quantum emitters embedded in a high-index crystalline thin film. The hybrid structure can simultaneously support localized and lattice plasmon resonances from the metallic array and collective atomic resonances from the ion ensemble. Using time-resolved photoluminescence and temperature-dependent measurements, we observe enhanced radiative emission attributed to collective atomic effects mediated by the nanohole lattice, distinct from single-emitter Purcell enhancement. Our results demonstrate a new regime of light-matter interaction opening a pathway toward broadband and scalable, geometry-controlled quantum optical interfaces in solid-state platforms.",
+  "title_relatable": "Can arranging atoms in a pattern make them glow collectively?",
+  "hook": "Gold nanohole arrays coax thulium ions to radiate in unison — a quantum effect distinct from boosting single emitters.",
+  "summary": "By punching a periodic grid of subwavelength holes in a gold film on thulium-doped lithium niobate, researchers made the ions behave as a coordinated ensemble rather than independent emitters. Time-resolved measurements show the enhanced glow comes from collective atomic physics — not the well-known single-emitter Purcell effect — opening a route to scalable quantum interfaces that don't require trapping individual atoms or coupling them one-by-one to tiny cavities.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 686,
+  "tokens_out": 183,
+  "cost_usd": 0.004803,
+  "ingested_at": "2026-05-30T16:34:23.266285+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.30302",
+  "arxiv_url": "https://arxiv.org/abs/2605.30302",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall"
+  ],
+  "title_original": "Quantum Desynchronization of Limit Cycles",
+  "authors": "Hans Christiansen, Jens Paaske",
+  "abstract": "It is well known from classical physics that weakly coupled self-sustained oscillators may spontaneously lock their phases. Just like classical synchronization is known to break down due to noise induced phase slips, we show here how the synchronization of continuous variable quantum systems breaks down by proliferation of quantum phase slips. Within a Keldysh path integral formulation of limit cycles, we analyze the phase dynamics and show how, in spite of strong phase correlations, quantum phase slips degrade the actual phase locking. This approach also allows us to address non-Markovian effects on the synchronization of limit cycles, which we illustrate explicitly for superconducting resonators coupled via a voltage biased double quantum dot.",
+  "title_relatable": "Why quantum systems refuse to stay in sync",
+  "hook": "Quantum tunneling events called phase slips can destroy synchronization between coupled oscillators, even when classical noise wouldn't.",
+  "summary": "Coupled oscillators — pendulum clocks, fireflies, power grids — tend to lock in step. Quantum mechanics undermines this: even without classical noise, quantum phase slips tunnel through the energy barrier that holds oscillators synchronized, gradually destroying the lock. Using a path-integral framework, the authors show this effect is distinct from classical decoherence and demonstrate it concretely for superconducting resonators linked by a voltage-biased quantum dot.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 578,
+  "tokens_out": 167,
+  "cost_usd": 0.004239,
+  "ingested_at": "2026-05-30T16:32:47.049531+00:00"
+}

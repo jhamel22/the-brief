@@ -1,0 +1,24 @@
+{
+  "id": "2605.29047",
+  "arxiv_url": "https://arxiv.org/abs/2605.29047",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Asymptotic Quantum Dynamics of Ghost Fields",
+  "authors": "Luca Buoninfante",
+  "abstract": "The dressed propagator of a ghost coupled to ordinary fields develops a pair of complex conjugate poles in the first Riemann sheet above the multi-particle threshold. We study the implications of this pole structure for the asymptotic field and its negative-norm one-particle state. Within the operator formalism of local quantum field theory, we show that interactions between the ghost field and the composite field of the multi-particle state persist at asymptotic times. These induce quantum interference effects that render the negative-norm one-particle state non-orthogonal to, and thus indistinguishable from, a superposition of positive-norm multi-particle states. As a result, no free asymptotic one-particle ghost state exists. The real and imaginary parts of the complex mass admit a clear physical interpretation; in particular, the inverse imaginary part sets the timescale for the onset of non-orthogonality. A freely propagating ghost is therefore confined to time intervals much shorter than its inverse width, so that a detector can never observe an isolated ghost particle asymptotically. Open questions and potential applications are discussed in the conclusions.",
+  "title_relatable": "Why can you never catch a 'ghost' particle in a detector?",
+  "hook": "Ghost particles—carriers of negative probability—quantum-mechanically disguise themselves as ordinary multi-particle states, making them undetectable in isolation.",
+  "summary": "Ghost fields appear in several theories of gravity and quantum field theory, but they carry negative probability, threatening physical consistency. This work shows that a ghost particle's dressed propagator develops complex-conjugate poles that cause it to become quantum-mechanically indistinguishable from ordinary multi-particle states at late times—essentially dissolving into the background before any detector could register it. The timescale for this camouflage is set by the inverse of the imaginary part of the ghost's complex mass, confining any ghost-like behavior to very short intervals.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 659,
+  "tokens_out": 197,
+  "cost_usd": 0.004932,
+  "ingested_at": "2026-05-30T16:34:13.382531+00:00"
+}

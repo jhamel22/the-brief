@@ -1,0 +1,22 @@
+{
+  "id": "2605.30238",
+  "arxiv_url": "https://arxiv.org/abs/2605.30238",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Indefinite Causal Order Reverses the Real-Complex Hierarchy",
+  "authors": "Jacopo Surace, Shintaro Minagawa, Ravi Kunjwal",
+  "abstract": "Can causal relations be subject to quantum indefiniteness, similar to other physical properties? The process-matrix framework formalises this possibility: valid processes are defined by what local laboratories can implement, without assuming a global causal order. Standardly, the local labs are assumed to implement arbitrary quantum instruments. We ask what happens when symmetries restrict these local operations. Symmetry constraints, such as those arising from missing reference frames, superselection constraints, or the antiunitary symmetry defining real quantum theory, enlarge the admissible process cone. Do these extra processes generate genuinely new correlations? We prove a sharp dichotomy: no for any finite unitary symmetry, yes for real quantum theory. Recent work has shown that, under fixed and definite causal order, complex quantum theory is strictly richer than real quantum theory. Our work shows that this hierarchy is reversed under indefinite causal order: real quantum theory realizes strictly more process correlations than complex quantum theory.",
+  "title_relatable": "Quantum weirdness flips which math describes reality better",
+  "hook": "When cause and effect lose their order, real numbers outperform complex numbers at describing quantum correlations.",
+  "summary": "Standard quantum mechanics uses complex numbers, and experiments have confirmed complex theory is richer than real-number quantum theory — until you allow causal order itself to be indefinite. Under 'indefinite causal order,' where it's quantum-uncertain which event influences which, real quantum theory produces strictly more correlations than complex quantum theory. The hierarchy completely reverses, suggesting the supremacy of complex numbers isn't fundamental but depends on assuming a fixed arrow of causality.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 646,
+  "tokens_out": 164,
+  "cost_usd": 0.004398,
+  "ingested_at": "2026-05-30T16:33:14.842342+00:00"
+}

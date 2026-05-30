@@ -1,0 +1,23 @@
+{
+  "id": "2605.28998",
+  "arxiv_url": "https://arxiv.org/abs/2605.28998",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.optics"
+  ],
+  "title_original": "Contrast enhanced imaging through weakly scattering media with spatially entangled photons",
+  "authors": "James Hubble, Rojan Abolhassani, Alessio D'Errico, Nazanin Dehghan, Yishai Klein, Yingwen Zhang, Ebrahim Karimi",
+  "abstract": "Improving the image contrast of objects immersed in weakly scattering media can be achieved using various strategies. One common approach is to reject events associated with scattered photons in favor of the detection of ballistic photons. While this is traditionally done via time gating or spatial filtering, we propose a different approach based on probing the object with spatio-temporally entangled photon pairs. We show that coincidence detection, followed by post-selection on spatially correlated events, allows us to isolate ballistic from scattered bi-photons, thereby enhancing image contrast relative to a single-photon detection strategy, and simultaneously removes events due to background light. Our predictions are obtained via numerical simulations and confirmed by experiments conducted in two configurations where either both photons or only one illuminates the scene. In both scenarios, correlation post-selection shows an improvement in image contrast at the expense of higher shot noise due to the lower number of events. The latter can be partially compensated for by appropriately combining events from several post-selection windows. Our findings will enable extending imaging through scattering media into the quantum imaging framework in settings where adaptive optics, time gating, and spatial filtering are impractical.",
+  "title_relatable": "Can quantum-entangled photon pairs see through foggy, murky media?",
+  "hook": "Paired entangled photons cut through scattering haze better than single photons by ignoring light that bounced off anything.",
+  "summary": "Using pairs of quantum-entangled photons, researchers show that detecting only coincident, spatially correlated hits filters out scattered light and background noise simultaneously — without needing time-gating hardware or adaptive optics. Experiments confirmed that image contrast improves in both one- and two-photon illumination setups, though the trade-off is higher shot noise from fewer usable events. The technique could matter anywhere conventional scatter-rejection tools are impractical, such as compact medical or underwater imagers.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 725,
+  "tokens_out": 190,
+  "cost_usd": 0.005025,
+  "ingested_at": "2026-05-30T16:34:28.896386+00:00"
+}

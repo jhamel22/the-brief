@@ -1,0 +1,22 @@
+{
+  "id": "2605.29019",
+  "arxiv_url": "https://arxiv.org/abs/2605.29019",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum Crossovers Revealed by Local Measurements",
+  "authors": "A. C. S. Costa, E. C. Diniz, O. P. de Sa Neto",
+  "abstract": "Quantum crossover phenomena play a central role in few-body open quantum systems, yet their identification often relies on global or model-dependent indicators. In this work, we demonstrate that crossovers can be robustly characterized through purely local measurements, establishing a direct connection between local quantum Fisher information and the onset of crossover behavior. We further demonstrate that quantum obesity does not, in general, generalize the quantum steering ellipsoid volume as a universal indicator of crossover. Instead, we identify regimes in which the ellipsoid volume remains insensitive to the transition, while the relevant signatures are encoded in the behavior of the local Bloch vector. These results reveal a geometric distinction between local and global indicators of crossovers.",
+  "title_relatable": "Can a single local measurement detect a quantum phase transition?",
+  "hook": "Measuring just one particle, not the whole system, can reliably detect quantum crossover transitions — no global readout required.",
+  "summary": "In open quantum systems, detecting the point where quantum behavior sharply shifts usually requires probing the entire system. This work shows that purely local measurements — specifically local quantum Fisher information and the Bloch vector of a single qubit — capture these crossover signatures just as well. A previously proposed geometric measure called 'quantum obesity' fails as a universal indicator, revealing a fundamental gap between local and global geometric pictures of quantum transitions.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 590,
+  "tokens_out": 160,
+  "cost_usd": 0.00417,
+  "ingested_at": "2026-05-30T16:34:18.207079+00:00"
+}

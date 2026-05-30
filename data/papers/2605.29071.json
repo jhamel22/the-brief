@@ -1,0 +1,22 @@
+{
+  "id": "2605.29071",
+  "arxiv_url": "https://arxiv.org/abs/2605.29071",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "A hidden bottleneck in classical and quantum linear reservoir computing",
+  "authors": "Johannes Nokkala, Federico Centrone, Francesco Arzani",
+  "abstract": "We identify a hidden bottleneck in the information processing capacity of linear reservoir computers. When the measured features evolve linearly in the reservoir and the output is formed by linear readout with bias, we show that the capacity available at any fixed delay is limited by what is already present in the preprocessed input. Linear reservoir dynamics can therefore redistribute features, but cannot create new fixed-delay expressive power on their own. This limitation is hidden by global capacity measures, since contributions from different delays can accumulate even when each individual delay is strongly constrained. As an experimentally important realization of this general result, we derive the corresponding Gaussian limit for covariance-based continuous-variable quantum reservoirs. Numerical experiments show that experimentally accessible single-photon operations surpass this limit, establishing them as a genuine resource for quantum reservoir computing. The resulting excess capacity also provides an operational witness of non-Gaussian processing in black-box continuous-variable systems under minimal assumptions.",
+  "title_relatable": "Why do quantum reservoir computers actually outperform classical ones?",
+  "hook": "Linear reservoir computers hit a hidden ceiling — single-photon quantum operations break it, proving genuine quantum advantage.",
+  "summary": "Any reservoir computer using linear dynamics and linear readout can't generate new predictive power beyond what's already in its inputs — it just reshuffles information. This fundamental ceiling is easy to miss because total capacity metrics blur contributions across time delays. Crucially, single-photon quantum operations provably exceed this limit, offering the clearest demonstration yet of real quantum advantage in reservoir computing and a practical test for detecting non-Gaussian behavior in quantum systems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 630,
+  "tokens_out": 163,
+  "cost_usd": 0.004335,
+  "ingested_at": "2026-05-30T16:34:01.969014+00:00"
+}

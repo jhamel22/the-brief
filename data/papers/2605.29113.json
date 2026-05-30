@@ -1,0 +1,24 @@
+{
+  "id": "2605.29113",
+  "arxiv_url": "https://arxiv.org/abs/2605.29113",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Local diagnostics for strong-to-weak spontaneous symmetry breaking and non-equilibrium phase transitions",
+  "authors": "Carolyn Zhang",
+  "abstract": "We construct strongly $\\mathbb{Z}_2$-symmetric local Markov/Lindblad dynamics exhibiting transitions between strong-paramagnetic behavior and strong-to-weak spontaneous symmetry breaking. In 1+1d, an absorbing-state construction gives a transition with scaling consistent with the parity-conserving branching-annihilating random-walk universality class. In 2+1d, a pair-flip variant of Toom's rule provides evidence for a stable strong-paramagnetic/weakly symmetry-broken regime and a transition into an active SWSSB regime. We also introduce a marginal fidelity correlator of radius $R$, a local proxy for the usual SWSSB fidelity order parameter requiring tomography only on $\\mathcal{O}(R^d)$-size regions. For broad classes of states, including symmetry-projected Gibbs-like states satisfying suitable local indistinguishability assumptions, we bound the error between the marginal and global fidelity correlators by terms decaying exponentially in $R$. These marginal fidelities provide a model-independent diagnostic of SWSSB in absorbing-state transitions, where microscopic notions of defects or activity are not universal.",
+  "title_relatable": "How do quantum symmetries break down — and can you detect it locally?",
+  "hook": "A new local probe measures a subtle quantum phase transition without scanning the entire system — just a small patch suffices.",
+  "summary": "Quantum systems can break symmetry in a weak sense while preserving it strongly — a recently discovered 'strong-to-weak' phase transition with no classical analogue. This paper builds concrete models in 1D and 2D that undergo this transition, and introduces a local diagnostic that approximates the usual global order parameter using only a small spatial patch, with error shrinking exponentially in patch size. That means experimentalists could detect these exotic phases without full system tomography.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 708,
+  "tokens_out": 173,
+  "cost_usd": 0.004719,
+  "ingested_at": "2026-05-30T16:33:56.806043+00:00"
+}

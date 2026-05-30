@@ -1,0 +1,24 @@
+{
+  "id": "2605.29181",
+  "arxiv_url": "https://arxiv.org/abs/2605.29181",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "math.NA",
+    "physics.comp-ph"
+  ],
+  "title_original": "A Variational Quantum Algorithm for Nonlinear Finite Element Analysis of Hyperelastic Materials",
+  "authors": "Uditnarayan Kouskiya, Caglar Oskay",
+  "abstract": "This manuscript explores a variational quantum formulation for nonlinear elasticity problems arising from hyperelastic material models, targeting near term noisy intermediate scale quantum (NISQ) devices. The approach leverages the potential energy structure of hyperelasticity and employs a hybrid quantum classical framework in which the energy functional is evaluated using parameterized quantum circuits and optimized through classical routines. To enable implementation on current quantum hardware, polynomial approximations of the nonlinear strain energy density are introduced, yielding a representation compatible with variational quantum algorithms. The methodology is demonstrated on a one dimensional NeoHookean material model using finite element discretizations with first and second order shape functions and nonhomogeneous boundary conditions. Numerical experiments investigate the influence of the polynomial approximation order on the accuracy and efficiency of the proposed approach, illustrating its feasibility for near term quantum devices.",
+  "title_relatable": "Can today's quantum computers solve rubber-stretching physics problems?",
+  "hook": "A hybrid quantum-classical algorithm tackles nonlinear material deformation — tested on current noisy quantum hardware.",
+  "summary": "Stretchy materials like rubber obey notoriously nonlinear equations that classical computers handle fine today but may bottleneck at large scales. This approach reformulates the problem as an energy minimization run partly on quantum circuits, partly on classical optimizers — a pragmatic match for today's error-prone quantum chips. Tests on a 1D rubber model show the method works, though polynomial approximations of the strain energy are needed to make the quantum encoding tractable.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 624,
+  "tokens_out": 168,
+  "cost_usd": 0.004392,
+  "ingested_at": "2026-05-30T16:33:37.727422+00:00"
+}

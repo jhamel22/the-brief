@@ -1,0 +1,22 @@
+{
+  "id": "2605.30217",
+  "arxiv_url": "https://arxiv.org/abs/2605.30217",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Programmable Dissipation via Partial Quantum Error Correction",
+  "authors": "Sameer Dambal, Michael AD Taylor, Yu Zhang",
+  "abstract": "Noise is typically treated as the adversary of quantum information processing. For open quantum dynamics, however, dissipation is part of the target physics, creating a tension with fault-tolerant architectures designed to suppress decoherence. Here we show that logical noise can instead be turned into a calibrated resource. We treat the error-correction cycle as a programmable primitive: one fault-tolerant round induces a logical completely positive trace-preserving map, and decoder/recovery randomization generates a controllable family of logical channels whose convex mixtures realize Kraus-channel mixing. This enables direct compilation of target dissipators into effective logical dynamics without explicit ancilla qubits for encoding the bath degree of freedoms. We derive an accuracy criterion for multi-step simulation in which the code distance is chosen so that uncontrolled logical errors remain a small fraction of the intended dissipation per step, rather than being driven below an arbitrarily small closed-system tolerance. Partial quantum error correction thus repurposes fault-tolerant structure to sculpt dissipation, offering a resource-efficient route to quantum simulation of open quantum systems.",
+  "title_relatable": "What if quantum errors were the feature, not the bug?",
+  "hook": "By deliberately misapplying error correction, engineers can sculpt precisely controlled noise into quantum computers—no extra hardware needed.",
+  "summary": "Error correction is usually all-or-nothing: suppress decoherence as hard as possible. This work flips that logic, showing that by randomizing the decoder and recovery steps in a standard error-correction cycle, you can tune the *type* and *rate* of logical errors to match a desired dissipative process. The result is a programmable noise generator that lets quantum hardware simulate open quantum systems—think molecules interacting with a heat bath—without the extra ancilla qubits normally required for that task.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 671,
+  "tokens_out": 181,
+  "cost_usd": 0.004728,
+  "ingested_at": "2026-05-30T16:33:31.992839+00:00"
+}

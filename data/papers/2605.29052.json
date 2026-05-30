@@ -1,0 +1,22 @@
+{
+  "id": "2605.29052",
+  "arxiv_url": "https://arxiv.org/abs/2605.29052",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "A Quantum Algorithm for Simulating Nonunitary Dynamics Governed by Nonautonomous Linear Ordinary Differential Equations",
+  "authors": "Pouya Khazaei, Eitan Geva",
+  "abstract": "Nonautonomous linear ordinary differential equations of the form $\\dot{v}(t) = A(t)\\, v(t)$, where $A(t)$ is non-skew-symmetric, are often used to describe nonunitary dynamics in a variety of fields that range from open quantum system dynamics to economic modeling. Because quantum computing hardware is designed to natively implement unitary transformations, existing algorithms for solving such equations on quantum hardware are based on the assumption that the nonunitary propagator is known, and use dilation techniques to embed the nonunitary dynamics within the unitary dynamics of a larger system. However, with the exception of cases where the nonunitary propagator is known in closed form, it needs to be calculated and manipulated on a classical computer at each time step. In this paper, we propose a quantum algorithm that does not require a priori knowledge of the explicit nonunitary propagator and effectively performs the dilation on the quantum hardware. Our algorithm combines a dilation scheme that uses singular value decomposition (SVD) to write the nonunitary propagator as a sum of unitaries with simulating the dynamics of the SVD factors on the quantum hardware. The population-only time-convolutionless quantum master equation describing photoinduced charge transfer in a solvated molecular triad is used as a demonstrative example of the applicability of the algorithm and its sensitivity to noise.",
+  "title_relatable": "Solving messy real-world equations on quantum computers without the usual workaround",
+  "hook": "Most quantum algorithms secretly offload the hard part to classical computers — this one doesn't.",
+  "summary": "Quantum computers naturally run unitary (reversible) operations, but equations describing open systems — like a molecule losing energy to its surroundings — are nonunitary and messy. Previous approaches required pre-computing the awkward propagator on a classical machine at every step. This algorithm handles everything on the quantum hardware by decomposing the propagator via singular value decomposition and simulating the pieces directly, demonstrated on a charge-transfer model in a solvated molecule.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 746,
+  "tokens_out": 169,
+  "cost_usd": 0.004773,
+  "ingested_at": "2026-05-30T16:34:07.698808+00:00"
+}

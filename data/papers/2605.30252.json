@@ -1,0 +1,22 @@
+{
+  "id": "2605.30252",
+  "arxiv_url": "https://arxiv.org/abs/2605.30252",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum optimization beyond QUBO for industrial logistics and scheduling",
+  "authors": "Juan F. R. Hernandez, Pavle Nikacevic, Enrique Solano, Chinonso Onah, Agneev Guin, Arne-Christian Voigt, Archismita Dalal",
+  "abstract": "The increasing complexity of industrial scheduling and transport routing problems motivates the study of alternative optimization formulations and computational paradigms. In this work, we study how higher-order unconstrained binary optimization (HUBO) formulations of such problems map onto quantum optimization workflows in both noisy and fault-tolerant regimes. We consider three representative logistics and manufacturing use cases and formulate each as a HUBO problem. This captures process intricacies, such as highly correlated assembly-line scheduling rules, which are difficult to express faithfully with the standard quadratic (QUBO) form, while at the same time reducing the number of binary variables required in the quantum mapping, thus lowering qubit demand. We compare the HUBO formulations with corresponding QUBO encodings, highlighting a key trade-off: while HUBO reduces qubit requirements through compact binary encoding, it introduces higher-order interaction terms that increase circuit depth, limiting feasibility on current quantum hardware. The proposed formulations are validated using classical solvers across several problem instances and benchmark small routing problem instances using bias-field digitized counterdiabatic quantum optimization in classical simulation. We complement these results with a resource and scalability analysis, focusing on the capacitated vehicle routing problem as a representative large-scale industrial use case. Our analysis indicates that while HUBO formulations offer advantages in qubit scaling compared to QUBO encodings, their practical implementation is constrained by gate fidelity, coherence, and circuit depth, making hybrid quantum-classical workflows and early fault-tolerant quantum hardware the most plausible settings for their practical use.",
+  "title_relatable": "Can quantum computers actually speed up factory scheduling?",
+  "hook": "Higher-order quantum optimization cuts qubit counts for logistics problems but hits a wall: deeper circuits break on today's hardware.",
+  "summary": "Reformulating factory scheduling and vehicle routing as higher-order (cubic and beyond) rather than standard quadratic binary optimization shrinks the qubit count needed — but the trade-off is longer quantum circuits that current noisy hardware can't reliably execute. Testing three real industrial use cases, the team finds the sweet spot sits in hybrid quantum-classical workflows or early fault-tolerant machines, not today's devices. The analysis gives logistics companies a concrete roadmap for when quantum optimization might actually beat classical solvers.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 808,
+  "tokens_out": 175,
+  "cost_usd": 0.005049,
+  "ingested_at": "2026-05-30T16:33:09.731967+00:00"
+}

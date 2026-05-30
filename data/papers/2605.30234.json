@@ -1,0 +1,22 @@
+{
+  "id": "2605.30234",
+  "arxiv_url": "https://arxiv.org/abs/2605.30234",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Non-Abelian Mixer for QAOA on Hybrid Oscillator-Qubit Quantum Processors",
+  "authors": "Thinh Le, Hansika Weerasena, Jianqing Liu",
+  "abstract": "The realization of universal control in hybrid oscillator-qubit quantum processors enables the systematic design and implementation of quantum algorithms. However, the algorithmic development for such platforms remains at an early stage. While the Quantum Approximate Optimization Algorithm (QAOA) has been extensively studied in both continuous-variable (CV) and discrete-variable (DV) quantum systems, its development in the hybrid CV-DV setting remains limited. In this paper, we propose a hardware-native non-Abelian mixer for QAOA on hybrid CV-DV quantum processors and develop a corresponding hybrid ansatz for the Max-Cut problem. We evaluate the proposed ansatz on unweighted Erdős-Rényi graphs and benchmark it against the standard transverse-field mixer using the approximation ratio and optimal-solution probability. Across all graph sizes and Fock cutoffs in our simulations, the proposed non-Abelian mixer consistently improves both expected solution quality and the probability of sampling an optimal solution relative to the transverse-field mixer. These results indicate that the proposed non-Abelian mixer is a promising building block for QAOA on hybrid oscillator-qubit platforms.",
+  "title_relatable": "A better quantum algorithm ingredient for hybrid quantum computers?",
+  "hook": "A new mixer design for quantum optimization consistently outperforms the standard approach on graph-cutting problems.",
+  "summary": "Hybrid quantum processors that combine oscillators with qubits are powerful but lack tailored algorithms. This work designs a \"non-Abelian mixer\" — a core ingredient in quantum optimization circuits — specifically for these machines, then tests it on the Max-Cut graph problem. Across all tested graph sizes, it beats the conventional mixer on both solution quality and the odds of finding the best answer outright.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 702,
+  "tokens_out": 151,
+  "cost_usd": 0.004371,
+  "ingested_at": "2026-05-30T16:33:19.960838+00:00"
+}

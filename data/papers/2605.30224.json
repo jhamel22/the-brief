@@ -1,0 +1,24 @@
+{
+  "id": "2605.30224",
+  "arxiv_url": "https://arxiv.org/abs/2605.30224",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "physics.optics"
+  ],
+  "title_original": "Heralded ultrafast generation of macroscopic quantum states in matter with bright squeezed vacuum light",
+  "authors": "Shohei Imai",
+  "abstract": "We show that bright squeezed vacuum light, combined with a single-shot quadrature measurement of the post-interaction light, enables the ultrafast generation of macroscopic quantum states in matter. Although in the weak-coupling regime multiphoton quantum light leaves the unconditional matter state as a classical mixture due to light--matter entanglement, quadrature-based heralding prepares the matter in a Gaussian-weighted quantum superposition. For an ensemble of resonantly electric-dipole-coupled two-level systems, this heralding dynamics acts as a Gaussian filter with respect to the electric polarization, with brighter squeezed-vacuum light accelerating the preparation of the zero-eigenvalue Dicke state. Counter-rotating terms further drive a stroboscopic transition from this Dicke state to a cat-like state. Our results open a route to ultrafast engineering of macroscopic quantum matter with strong-field quantum light.",
+  "title_relatable": "Can a single light measurement force matter into a quantum superposition?",
+  "hook": "Measuring squeezed light after it hits matter collapses billions of atoms into a single quantum state, far faster than conventional methods.",
+  "summary": "Shining intense 'squeezed vacuum' light on an ensemble of atoms and then measuring the outgoing light with a single detector forces the atoms into a macroscopic quantum superposition — a cat-like state involving the collective behavior of the whole ensemble. Without that measurement, the atoms just end up in a boring classical mixture. Brighter squeezed light speeds the process up, suggesting a path to engineering exotic quantum states in bulk matter on ultrafast timescales.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 633,
+  "tokens_out": 176,
+  "cost_usd": 0.004539,
+  "ingested_at": "2026-05-30T16:33:26.245712+00:00"
+}

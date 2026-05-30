@@ -1,0 +1,23 @@
+{
+  "id": "2605.29173",
+  "arxiv_url": "https://arxiv.org/abs/2605.29173",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Modular non-Hermitian topology and its application to critical sensing",
+  "authors": "Saubhik Sarkar, Chiranjib Mukhopadhyay, Abolfazl Bayat",
+  "abstract": "Non-Hermitian topological systems have attracted a lot of research activities in recent times, both theoretically and experimentally, due to their unique physical properties and association with open quantum systems. We show that modular structures, where specific couplings at regular intervals take distinct values, enrich the unique topological attributes of these systems such as the non-Hermitian skin effect and the breakdown of conventional bulk-boundary correspondence. These systems also possess the capability of displaying criticality-enhanced sensitivity for precision metrology. We establish how the modular structure enhances their sensing performance near spectral topological phase transitions and show that the enhancement can be achieved in multi-parameter estimation scenarios as well.",
+  "title_relatable": "How periodic tweaks to a quantum sensor push its precision to the limit",
+  "hook": "Patterned couplings in open quantum systems amplify sensing sensitivity near phase transitions, even across multiple parameters simultaneously.",
+  "summary": "By spacing unusual coupling strengths at regular intervals in a non-Hermitian chain, the authors reshape its topological properties — including the exotic 'skin effect' where all wave functions pile up at one edge. Near the resulting spectral phase transitions, these modular structures dramatically sharpen measurement sensitivity, offering a practical route to high-precision sensors that can track several quantities at once.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 588,
+  "tokens_out": 154,
+  "cost_usd": 0.004074,
+  "ingested_at": "2026-05-30T16:33:42.695611+00:00"
+}

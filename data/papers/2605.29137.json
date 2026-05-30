@@ -1,0 +1,22 @@
+{
+  "id": "2605.29137",
+  "arxiv_url": "https://arxiv.org/abs/2605.29137",
+  "announced_date": "2026-05-27",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum error correction and fault tolerance: A comprehensive tutorial",
+  "authors": "Daniel J. Spencer, Shubham P. Jain, Andrew Tanggara, Zeen Sun, Tobias Haug, Derek Khu, Kishor Bharti",
+  "abstract": "Noise is one of the central obstacles to building useful quantum computers, and quantum error correction (QEC) provides the framework for protecting quantum information against it. Unlike classical error correction, QEC must preserve fragile quantum states without copying them, measuring them directly, or destroying the information they encode. Driven by rapid progress in both theory and experiment, this challenge has grown into one of the most active areas of quantum information science. This tutorial gives a guided introduction to modern QEC, developing the core concepts of codes, syndromes, stabilizers, decoding, and fault tolerance before connecting them to major code families and current research directions. We cover both established constructions and newer developments, including topological and subsystem codes, bosonic and qudit codes, dynamical codes, and quantum low-density parity-check (qLDPC) codes. The emphasis is on building operational understanding: explaining not only what the main objects are, but how they are used in code design, error diagnosis, decoding, and fault-tolerant computation. The tutorial is intended for newcomers seeking a first path through QEC, as well as researchers looking for a coherent reference for the concepts, code families, and tools that arise in current work.",
+  "title_relatable": "Why can't quantum computers just fix their own mistakes?",
+  "hook": "A single comprehensive guide to quantum error correction, from basic codes to cutting-edge topological and qLDPC architectures.",
+  "summary": "Quantum computers can't simply copy a corrupted bit to fix it — copying quantum states is physically forbidden. This tutorial walks through the full landscape of how researchers work around that constraint, covering syndrome measurements, stabilizer codes, fault-tolerant gates, and modern families like topological and quantum LDPC codes. It's a structured entry point for anyone trying to understand why building a reliable quantum computer is so hard.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 712,
+  "tokens_out": 158,
+  "cost_usd": 0.004506,
+  "ingested_at": "2026-05-30T16:33:51.168324+00:00"
+}

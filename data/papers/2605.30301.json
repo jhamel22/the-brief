@@ -1,0 +1,22 @@
+{
+  "id": "2605.30301",
+  "arxiv_url": "https://arxiv.org/abs/2605.30301",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Improved sample complexity bound for sample-based Lindbladian simulation",
+  "authors": "Siheon Park, Youngjin Seo, Byeongseon Go, Dhrumil Patel, Mark M. Wilde, Hyukjoon Kwon",
+  "abstract": "We establish improved sample-complexity bounds for sample-based Lindbladian simulation based on the Wave Matrix Lindbladization (WML) algorithm. For a jump operator $L$ with dimension $d$, we derive an explicit non-asymptotic sample complexity bound $n_d^*(t,\\varepsilon) \\le \\left( \\frac{2d+3}{8} \\right) \\|L\\|_\\infty^2 \\left( \\frac{t^2}{\\varepsilon} \\right)$, holding for simulation time $t$ and error $\\varepsilon$. This refines the dimension dependence of the best previously known bound, $O(d^2 t^2/\\varepsilon)$, from [Go et al., Quantum Sci. Tech. 10, 045058 (2025)]. Remarkably, we show that this dimensional overhead can be entirely avoided when $\\| L\\|_\\infty^2 = O(1/d)$, a condition satisfied with high probability for random Lindblad operators, yielding a typical-case sample complexity of $O(t^2/\\varepsilon)$. On the other hand, in the worst case, we show that WML necessarily requires $Ω(dt^2/\\varepsilon)$ samples by constructing an explicit example with a rank-one Lindblad operator. Our results reveal a sharp dichotomy between typical and adversarial sample complexities in Lindbladian simulation, thereby strengthening the theoretical foundations of sample-based quantum algorithms.",
+  "title_relatable": "How many quantum samples do you actually need to simulate noise?",
+  "hook": "A tight new bound cuts the sample cost of simulating open quantum systems, revealing a stark gap between typical and worst-case scenarios.",
+  "summary": "Simulating how quantum systems lose coherence (Lindbladian dynamics) requires copying quantum states as 'samples' — but how many? This work tightens the count to roughly (2d+3)/8 × ‖L‖²(t²/ε), cutting the previous d² dimension dependence nearly in half. Better yet, for random noise operators the dimensional overhead vanishes entirely, while a constructed worst-case example proves the algorithm can't escape an Ω(d) penalty — a clean separation with real implications for quantum simulation resource estimates.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 816,
+  "tokens_out": 197,
+  "cost_usd": 0.005403,
+  "ingested_at": "2026-05-30T16:32:53.543873+00:00"
+}

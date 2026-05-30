@@ -1,0 +1,23 @@
+{
+  "id": "2605.30261",
+  "arxiv_url": "https://arxiv.org/abs/2605.30261",
+  "announced_date": "2026-05-28",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "nucl-th",
+    "quant-ph"
+  ],
+  "title_original": "Qubit-efficient variational algorithm for nuclear structure",
+  "authors": "Chandan Sarma, Paul Stevenson",
+  "abstract": "In this work, we compare three qubit-mapping strategies to study the structure of the nuclear ground state within the shell model description employing the Variational Quantum Eigensolver (VQE) approach. Although the initial point for different mappings is a Hamiltonian matrix in many-body particle basis or Slater determinant (SD) basis, the structure of the trial wavefunction and resource counts are different for each mapping. These three mappings are tested for a mid $p$-shell nucleus $^{10}$B and compared the quantum resources required to find the ground state for each mapping. Further, we extend the qubit-efficient mapping to study the ground state of one more mid $p$-shell nucleus $^{12}$C. We run circuits up to 26-qubits representing their ground states on a noisy simulator (IBM's FakeFez backend) and quantum hardware ($ibm\\_fez$). The best post-error mitigated results from the hardware for $^{10}$B ground state is obtained following SD to qubit mapping with a percent error of 0.21 \\%. The percent errors for the same state following cSD and pnSD mapping are 3.37 and 8.88 \\%, respectively. On the other hand, following the cSD mapping, the post-error mitigated ground state energy of $^{12}$C is 6.82 \\% away from the exact result. We further evaluate the fidelity of the VQE wavefunctions obtained from hardware with respect to the shell model wavefunctions for the cSD mapping. This cSD mapping can be useful for scaling the VQE algorithm for complex nuclei across different mass regions in terms of qubit efficiency.",
+  "title_relatable": "How many qubits does it take to simulate an atomic nucleus?",
+  "hook": "Running 26-qubit nuclear structure calculations on real IBM quantum hardware, researchers hit 0.21% accuracy for boron-10.",
+  "summary": "Three different ways of encoding nuclear shell-model physics onto qubits were tested on IBM's quantum hardware for boron-10 and carbon-12. The best encoding nailed the boron-10 ground state energy to within 0.21% error after error mitigation — competitive with classical methods. The catch: carbon-12 was still 6.8% off, revealing how quickly quantum noise wins as nuclei get heavier.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 806,
+  "tokens_out": 172,
+  "cost_usd": 0.004998,
+  "ingested_at": "2026-05-30T16:33:03.486639+00:00"
+}
