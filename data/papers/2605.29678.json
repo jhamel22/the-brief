@@ -1,0 +1,22 @@
+{
+  "id": "2605.29678",
+  "arxiv_url": "https://arxiv.org/abs/2605.29678",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Spurious Prompts: Can Irrelevant Prompts Steer Large Language Models?",
+  "authors": "Pawel Batorski, Abtin Pourhadi, Jerzy Sarosiek, Przemyslaw Spurek, Paul Swoboda",
+  "abstract": "Large language models are highly sensitive to prompts, but this sensitivity is usually studied through task-relevant instructions, demonstrations, or reasoning cues. In this paper, we study a different form of prompt sensitivity: whether prompts that are semantically unrelated to the task can nevertheless steer model behavior. We call them spurious prompts and show their surprising efficacy. We also propose a simple black-box search procedure for discovering them. Across reasoning and question-answering benchmarks, using models ranging from 0.8B to 27B parameters and spanning three model families, we show that spurious prompts can improve performance, often matching or outperforming standard prompting baselines and task-aware prompt optimization. We further show that they can steer models toward unintended behaviors, such as repeatedly selecting the first answer option, producing incorrect answers, returning an even, prime or small number without explicitly instructing the model to do so. These findings reveal a new kind of prompt sensitivity: LLMs can be systematically steered by prompts that are unrelated to the task they are asked to solve. Our code is available at https://github.com/Batorskq/spurious",
+  "title_relatable": "Can random text trick language models into wrong answers?",
+  "hook": "Unrelated prompts can match or beat task-specific ones and steer models toward systematic errors across reasoning and QA benchmarks.",
+  "summary": "LLMs respond not just to task instructions but to semantically irrelevant text—\"spurious prompts.\" Researchers discovered these random additions can improve performance, sometimes outperforming carefully tuned prompts, while also reliably steering models to produce biased answers (always picking option A, returning even numbers) without explicit instruction. Tested on models from 0.8B to 27B parameters, this vulnerability suggests LLMs exploit shallow statistical patterns rather than understanding task semantics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 718,
+  "tokens_out": 183,
+  "cost_usd": 0.0013064,
+  "ingested_at": "2026-05-30T16:51:00.512504+00:00"
+}

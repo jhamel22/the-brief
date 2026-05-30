@@ -1,0 +1,22 @@
+{
+  "id": "2605.29741",
+  "arxiv_url": "https://arxiv.org/abs/2605.29741",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "AfriScience-MT: Towards Decolonizing Science in Africa through Text Translation",
+  "authors": "Idris Abdulmumin, Tajuddeen Gwadabe, Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Nomonde Khalo, Ibrahim Said Ahmad, Abiodun Modupe, Anina Mumm, Sibusiso Biyela, Michelle Rabie, Johanna Havemann, Marek Rei, Jade Abbott, Vukosi Marivate",
+  "abstract": "The dominance of colonial languages in African education and scientific communication limits how hundreds of millions of speakers of African languages access and produce scientific knowledge. A core obstacle is the lack of established scientific terminology in these languages. We introduce AfriScience-MT, a parallel corpus covering six African languages (Amharic, Hausa, Luganda, Northern Sotho, Yorùbá, and isiZulu) across 11 scientific domains. Professional translators, working with expert science communicators, translated plain-language summaries of scientific papers into each target language and created new terms where none existed. We benchmark machine translation systems and large language models in zero-shot, few-shot, and fine-tuned settings. Our results show that closed-source models outperform all open-source models at both the sentence and document levels: GPT-5.4 and Gemini-3.1-Flash-Lite lead with average sentence-level COMET scores of 68.3 and 68.0, respectively, and tie at an average document-level COMET of 48.3. Among open systems, fine-tuned NLLB-1.3B reaches 67.3 at the sentence level, and TranslateGemma-12B reaches 44.0 at the document level with 1-shot in-context learning. We release AfriScience-MT to support benchmarking and document-level scientific MT for African languages.",
+  "title_relatable": "Can machine translation bring science to Africa's languages?",
+  "hook": "New corpus of 11 scientific domains in 6 African languages reveals GPT-4 and Gemini outperform open models by 5–15 points on translation quality.",
+  "summary": "African languages are nearly absent from scientific communication, blocking hundreds of millions of speakers from accessing research. Researchers created AfriScience-MT, a professionally translated dataset covering Amharic, Hausa, Luganda, Northern Sotho, Yorùbá, and isiZulu across physics, medicine, and other fields—with translators inventing new scientific terms where none existed. GPT-4 and Gemini achieved 68+ COMET scores; fine-tuned open models like NLLB-1.3B reached 67.3. The corpus is now public.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 851,
+  "tokens_out": 221,
+  "cost_usd": 0.0015648,
+  "ingested_at": "2026-05-30T16:50:54.957384+00:00"
+}

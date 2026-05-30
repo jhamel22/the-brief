@@ -1,0 +1,23 @@
+{
+  "id": "2605.29738",
+  "arxiv_url": "https://arxiv.org/abs/2605.29738",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions",
+  "authors": "Volodymyr Ovcharov",
+  "abstract": "Legal NLP benchmarks overwhelmingly evaluate a single language or aggregate tasks that differ fundamentally across jurisdictions, making cross-lingual comparison impossible. We introduce Multi-Legal-Bench, the first cross-jurisdictional legal benchmark that evaluates identical tasks across six countries (Ukraine, France, Netherlands, Poland, Czech Republic, Lithuania), four language families, and 134 million court decisions. The benchmark defines five tasks court-type classification, judgment form classification, case-outcome prediction, legal norm extraction, and cause category prediction mapped to structured metadata from national court registries, forming a deliberately sparse 5x6 task-jurisdiction matrix (20 of 30 cells filled). We evaluate 7 frontier LLMs under zero-shot and 3-shot prompting via AWS Bedrock, with 4 additional small/medium models (3-12B) for scaling analysis. Our results reveal that: (1) task-dependent few-shot effects discovered in Ukrainian replicate across all jurisdictions; (2) no single model dominates any language rankings shift with both task and jurisdiction; (3) cross-lingual few-shot transfer does not follow language proximity: UA->FR (Romance, -2.1 pp) transfers better than UA->PL (Slavic, -13.7 pp), with label-set alignment predicting transfer quality better than language family; and (4) tokenizer fertility, despite a 2.3x spread, does not significantly predict cross-lingual accuracy (r=-0.27, p=0.14), suggesting that model architecture and pretraining data dominate tokenizer efficiency. We release all data, prompts, and model predictions.",
+  "title_relatable": "Do language models understand legal reasoning across countries and languages?",
+  "hook": "New benchmark tests 7 frontier LLMs on identical legal tasks across 6 countries and 4 language families, revealing that language family matters less than label alignment for cross-lingual transfer.",
+  "summary": "Legal AI benchmarks typically test one language or mix incomparable tasks, making it impossible to compare models fairly across borders. This work introduces Multi-Legal-Bench, evaluating 7 frontier LLMs on five legal tasks—case outcome prediction, norm extraction, judgment classification—across Ukraine, France, Netherlands, Poland, Czech Republic, and Lithuania. Surprisingly, cross-lingual transfer quality depends more on whether task labels align than on whether languages are related: Ukrainian→French (different families) transfers better than Ukrainian→Polish (both Slavic). The authors release all data and predictions, offering practitioners a testbed for building multilingual legal AI.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 807,
+  "tokens_out": 230,
+  "cost_usd": 0.0015655999999999999,
+  "ingested_at": "2026-05-30T16:50:57.998036+00:00"
+}

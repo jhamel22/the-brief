@@ -1,0 +1,24 @@
+{
+  "id": "2605.30031",
+  "arxiv_url": "https://arxiv.org/abs/2605.30031",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.SD",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "Audio Jailbreaks in Large Audio-Language Models: Taxonomy, Attack-Defense Analysis, and Cost-Aware Evaluation",
+  "authors": "Bo-Han Feng, Yu-Hsuan Li Liang, Chien-Feng Liu, You-Hsuan Chang, Yun-Nung Chen",
+  "abstract": "Large Audio Language Models (LALMs) expand jailbreak risks from token-level prompting to the full speech perception-to-reasoning pipeline, where unsafe behavior can be induced through semantics, acoustic style, signal artifacts, or internal representations. Existing work studies these risks under heterogeneous threat models and evaluation protocols, making it difficult to compare attack practicality or defense utility. This paper provides a unified taxonomy and a controlled empirical evaluation of LALM jailbreak attacks and defenses. We organize prior work into semantic, acoustic, signal, and embedding-layer attacks; guard-based, training-free, and training-based defenses; and cross-modal, audio-native, and interactive benchmarks. We then evaluate representative attacks and defenses across ten open-source LALMs, measuring not only attack success rate but also benign refusal and latency. Our results show that Acoustic Best-of-N reveals strong worst-case audio-space vulnerabilities, Narrative Framing is an effective low-latency semantic threat, and current defenses trade robustness against benign usability. These findings support cost- and utility-aware evaluation as a necessary complement to success-rate-only LALM safety benchmarks.",
+  "title_relatable": "How hackers trick audio AI into ignoring safety guardrails",
+  "hook": "Audio-language models can be jailbroken through speech patterns, acoustic tricks, or hidden signals—and current defenses sacrifice usability to block them.",
+  "summary": "Large audio-language models face a new class of jailbreak attacks where unsafe behavior can be triggered through speech semantics, acoustic manipulation, signal artifacts, or embedding-layer tricks—not just prompt injections. Researchers tested ten open-source models with 40+ attack-defense combinations, finding that acoustic noise-based attacks and semantic framing tricks succeed at breaking safety guardrails while current defenses either fail or make the systems refuse benign requests. The work reveals a practical trade-off: robust safety comes at the cost of usability.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 737,
+  "tokens_out": 199,
+  "cost_usd": 0.0013855999999999999,
+  "ingested_at": "2026-05-30T16:50:45.407016+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.30241",
+  "arxiv_url": "https://arxiv.org/abs/2605.30241",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CY",
+    "cs.SI"
+  ],
+  "title_original": "CommunityFact: A Dynamic, Multilingual, Multi-domain Benchmark for Misinformation Detection in the Wild",
+  "authors": "Sahajpreet Singh, Insyirah Mujtahid, Min-Yen Kan, Kokil Jaidka",
+  "abstract": "Misinformation verification increasingly occurs in public, fast-moving, and multilingual online settings, where static benchmarks provide an incomplete measure of model reliability. We introduce CommunityFact, a refreshable benchmark for misinformation detection in the wild, with three major goals: coverage, granularity, and redistributability. This release contains 15,992 standalone claims across five languages and two domains. We evaluate ten LLMs under varying inference-time capabilities, including thinking and web-search. Our results show that closed-input verification remains challenging, web access yields the largest gains, and web-enabled LLMs' source-selection policies are systematically misaligned with the sources human Community Notes raters converge on -- a gap that closes through model-specific mechanisms of retrieval expansion or pruning. We further find substantial variation across language-domain slices and across the evidence ecosystems used by web-enabled systems. Beyond evaluation, CommunityFact positions Community Notes as a training signal for claim-conditioned source suggesters that could improve factual verification on novel claims.",
+  "title_relatable": "Does your fact-checker work across languages and today's news?",
+  "hook": "New benchmark of 16K multilingual claims shows web access helps LLMs verify facts 3× better, but they pick wrong sources compared to human raters.",
+  "summary": "Misinformation spreads faster than static benchmarks can measure. This team built CommunityFact—15,992 real claims across five languages and two domains—to test how well LLMs verify facts when they can search the web. Web access provided the biggest boost, yet models still picked sources humans rejected, a gap fixable through targeted retrieval strategies. The benchmark and Community Notes training data are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 697,
+  "tokens_out": 175,
+  "cost_usd": 0.0012576,
+  "ingested_at": "2026-05-30T16:50:39.629968+00:00"
+}

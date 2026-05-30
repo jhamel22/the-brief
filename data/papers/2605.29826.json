@@ -1,0 +1,23 @@
+{
+  "id": "2605.29826",
+  "arxiv_url": "https://arxiv.org/abs/2605.29826",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Towards Localized and Disentangled Knowledge Editing for Multimodal Large Language Models",
+  "authors": "Leijiang Gu, Zhen Zeng, Feng Li, Xinjian Gao, Zenglin Shi",
+  "abstract": "Existing methods in Multimodal Knowledge Editing (MKE) have advanced the ability to correct outdated or inaccurate knowledge in Multimodal Large Language Models (MLLMs). However, they exhibit a critical limitation: while effectively modifying target factual pairs, they fail to generalize edits to logically related queries and often cause unintended alterations to unrelated but visually or semantically linked information. We identify and formalize two underlying failure modes causing this issue: Causal Misalignment, which confines edits to the specific sample, and Feature Entanglement, which causes unintended alterations to coupled but irrelevant information. To address these issues, we propose Localized and Disentangled Knowledge Editing (LDKE), a new framework that achieves precise and generalized editing by localizing fact-specific model layers and disentangling target-relevant inputs from irrelevant ones. Our approach introduces a Fast Localization module to identify and update critical layers efficiently, along with a Disentanglement Classifier that routes inputs appropriately to preserve unrelated knowledge. Extensive experiments across various benchmarks and MLLMs demonstrate that LDKE achieves superior performance in propagating edits to related contexts while maintaining high locality.",
+  "title_relatable": "How to fix facts in vision-language models without breaking everything else?",
+  "hook": "New framework prevents side effects when correcting outdated knowledge in multimodal AI—edits generalize to related questions while protecting unrelated information.",
+  "summary": "When you fix a factual error in a multimodal language model, the change often stays trapped in that single example or accidentally corrupts unrelated knowledge. LDKE solves this by identifying which specific layers control each fact and separating target-relevant features from irrelevant ones. The method uses fast localization to find critical layers and a classifier to route information properly, achieving both broad generalization and high precision across multiple benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 738,
+  "tokens_out": 175,
+  "cost_usd": 0.0012904000000000001,
+  "ingested_at": "2026-05-30T16:50:51.492178+00:00"
+}

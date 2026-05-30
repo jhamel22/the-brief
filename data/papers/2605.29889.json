@@ -1,0 +1,23 @@
+{
+  "id": "2605.29889",
+  "arxiv_url": "https://arxiv.org/abs/2605.29889",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Internal Representation, Not Clinical Knowledge: Where Apparent LLM Triage Failures Originate",
+  "authors": "David Fraile Navarro, Berardino Como, Jialei Sheng, Soundariya Ananthan, Shlomo Berkovsky",
+  "abstract": "Patient-voiced clinical-triage benchmarks report high under-triage rates for consumer LLMs for constrained multiple-choice output, yet the same cases score differently with free-text. We ask whether output format changes the model's \\emph{clinical representation} or only the mapping from a preserved representation to an answer. Using sparse-autoencoder (SAE) features in Gemma 3 4B/12B IT and Qwen3-8B, we find the same medical features fire on the shared clinical narrative under both formats but go {silent} at the multiple-choice decision token in all the cases at every model. Three independent methods (natural-language autoencoder verbalization, decision-token logit attribution, and top-feature characterization) agree that scaffold and format features, but not medical features, drive the decision logits. Behaviorally, the multiple-choice penalty inverts under both structured and natural-language input, option-order shuffle rules out positional bias, and the gap is dominated by off-by-one decision (the model picks an adjacent acuity letter to the gold answer) rather than knowledge failure. Thus, the failure originates in the output format and not in the clinical representation.",
+  "title_relatable": "Why do LLMs fail at medical triage? Format, not knowledge.",
+  "hook": "LLMs score well on medical cases in free text but fail at multiple choice—not because they lack medical knowledge, but because they can't map it correctly to constrained outputs.",
+  "summary": "Patient triage benchmarks show consumer LLMs under-triage cases when forced into multiple-choice answers, yet the same models perform better with free text. Using sparse autoencoders to peer inside Gemma and Qwen, researchers found that medical features activate normally in both formats—but go silent at the decision token in multiple choice. Three independent methods confirm the failure sits in output formatting, not clinical understanding; most errors are off-by-one acuity picks, not knowledge gaps.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 730,
+  "tokens_out": 197,
+  "cost_usd": 0.001372,
+  "ingested_at": "2026-05-30T16:50:48.014719+00:00"
+}

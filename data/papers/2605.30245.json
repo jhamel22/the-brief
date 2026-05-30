@@ -1,0 +1,22 @@
+{
+  "id": "2605.30245",
+  "arxiv_url": "https://arxiv.org/abs/2605.30245",
+  "announced_date": "2026-05-28",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Knowing What to Solve Before How: Preplan Empowered LLM Mathematical Reasoning",
+  "authors": "Shaojie Wang, Liang Zhang",
+  "abstract": "Current plan-based reasoning methods improve large language models (LLMs) by inserting a planning stage before execution, giving rise to the question $\\rightarrow$ plan $\\rightarrow$ cot paradigm. While effective, a closer examination reveals an inherent paradigm-level gap: both the planning and its execution stages decide how to solve a problem, while the prior question of what to solve; recognizing the problem type, the applicable tools, and the foreseeable pitfalls; remains entirely implicit. To bridge this gap, we propose PPC (Preplan-Plan-CoT), a framework that introduces an explicit problem-understanding stage, the preplan, yielding a new question $\\rightarrow$ preplan $\\rightarrow$ plan $\\rightarrow$ cot paradigm. Realizing this paradigm requires safeguarding the conceptual integrity of preplan at both ends. Specifically, we design a three-stage synthesis pipeline with a spoiler-score detector that filters out leakage and spoiler failures to build clean preplan supervision, and a composite GRPO reward enforces that the generated plan genuinely follows from the preplan. Experiments across four backbones and five mathematical reasoning benchmarks show that PPC achieves the best results on 39 of 40 metrics, improving maj@16 and pass@16 by +2.23 and +3.06 over the strongest baseline without introducing additional inference token overhead.",
+  "title_relatable": "Do language models understand problems before solving them?",
+  "hook": "New three-stage framework for math reasoning improves accuracy by 2–3% on five benchmarks without extra computational cost.",
+  "summary": "Current LLM math solvers jump straight to planning how to solve a problem. This work inserts an earlier stage where the model first identifies what type of problem it is, which tools apply, and what pitfalls to avoid—before any planning happens. A spoiler-detection filter builds clean training data, and a reward function ensures the plan actually follows from the problem understanding. Tested on four model sizes and five math benchmarks, it wins on 39 of 40 metrics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 757,
+  "tokens_out": 178,
+  "cost_usd": 0.0013176,
+  "ingested_at": "2026-05-30T16:50:36.754066+00:00"
+}
