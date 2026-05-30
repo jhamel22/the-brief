@@ -1,0 +1,22 @@
+{
+  "id": "2605.29479",
+  "arxiv_url": "https://arxiv.org/abs/2605.29479",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Charmonium production at SPS and FAIR energies",
+  "authors": "Taesoo Song, Jiaxing Zhao, Joerg Aichelin, Elena Bratkovskaya",
+  "abstract": "In this study we apply the Remler formalism to charmonium production at SPS and GSI/FAIR energies in order to investigate the effects of baryon-rich matter on charmonium production and dissociation in heavy-ion collisions within the Parton-Hadron-String Dynamics (PHSD). As a first step the Remler formalism is tested in p+p collisions and then applied to p+A collisions in order to extract the nuclear absorption cross section of charmonium, which is then utilized in heavy-ion collisions. We find that the Remler formalism successfully describes charmonium production in heavy-ion collisions at SPS energies when an in-medium heavy quark potential is implemented, in which $J/ψ$ dissociates near $T_c$. Finally the same formalism is applied to the GSI/FAIR energies, where we estimate charmonium production.",
+  "title_relatable": "How do charm quarks survive the quark-gluon plasma?",
+  "hook": "Heavy-ion collisions destroy bound charm pairs. New calculations predict survival rates at SPS and FAIR experiments using realistic nuclear forces.",
+  "summary": "Physicists applied the Remler formalism to predict how J/ψ particles (bound charm-anticharm pairs) form and break apart in high-energy nuclear collisions. The method accounts for how dense nuclear matter weakens the force holding these particles together, causing them to melt above a critical temperature. Predictions match SPS data and extend to upcoming FAIR measurements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 647,
+  "tokens_out": 164,
+  "cost_usd": 0.0011736,
+  "ingested_at": "2026-05-30T16:51:37.938350+00:00"
+}

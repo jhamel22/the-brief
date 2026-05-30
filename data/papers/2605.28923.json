@@ -1,0 +1,23 @@
+{
+  "id": "2605.28923",
+  "arxiv_url": "https://arxiv.org/abs/2605.28923",
+  "announced_date": "2026-05-27",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO"
+  ],
+  "title_original": "A Minimal Dark $SU(2)$ Origin of a Massless Dirac Neutrino",
+  "authors": "P. S. Bhupal Dev, Julia Gehrlein, Amartya Sengupta, Amarjit Soni",
+  "abstract": "We propose a gauge-symmetry origin of a rank-two Dirac neutrino mass matrix that enforces one exactly massless neutrino, while being consistent with the oscillation data, as well as cosmological constraints. The mechanism relies on a minimal dark $SU(2)_D$ gauge symmetry under which one right-handed-neutrino-like Weyl fermion is charged, thereby forbidding its Standard Model Yukawa coupling. Quantum consistency then fixes the minimal dark-sector completion: Cancellation of the Witten anomaly requires a second fermionic $SU(2)_D$ doublet, while a discrete $Z_4$ symmetry that forbids Majorana masses allows the two dark doublets to form a vectorlike pair. This anomaly-free completion gives rise to a secluded, confining dark sector with a viable dark matter candidate, linking the protected neutrino texture to dark infrared dynamics.",
+  "title_relatable": "Why one neutrino stays massless: a hidden gauge symmetry solution",
+  "hook": "A new model using a hidden SU(2) symmetry naturally protects one neutrino from gaining mass while explaining oscillations and producing dark matter.",
+  "summary": "Neutrino oscillations require at least two massive neutrinos, but experiments hint one might be exactly massless. This work proposes a hidden gauge symmetry that forbids one neutrino's mass term while keeping the others massive, consistent with all data. The mechanism also self-completes into a dark sector that confines and produces a dark matter candidate.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 664,
+  "tokens_out": 164,
+  "cost_usd": 0.0011872,
+  "ingested_at": "2026-05-30T16:51:51.123737+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.28804",
+  "arxiv_url": "https://arxiv.org/abs/2605.28804",
+  "announced_date": "2026-05-27",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Whispers of Supergravity in Gravitational Wave Backgrounds: Determining the Gravitino Mass from Cosmic Thermal History",
+  "authors": "Angus Spalding, Stephen F. King",
+  "abstract": "Gravitino masses above the electroweak scale provide the simplest solution to the gravitino problem, but such large mass scales lie far beyond the reach of collider experiments. We show that the stochastic gravitational wave background offers a direct probe of this otherwise inaccessible regime. Despite decaying before Big-Bang Nucleosynthesis (BBN), these gravitinos naturally generate a period of early matter domination in the early universe. This non-standard epoch leaves a characteristic imprint on any primordial gravitational wave background, characterised by two frequencies corresponding to the onset and end of this phase. We demonstrate that these features can be used to directly infer both the gravitino mass and its initial abundance in a direct mapping. Future gravitational wave observatories span a vast frequency range, enabling sensitivity to gravitino masses from the BBN bound of $\\mathcal{O}(100)\\,\\text{TeV}$ all the way up to $\\mathcal{O}(10^{10})\\,\\text{TeV}$, with recent signal by NANOGrav already probing masses in the range $500$-$10^4$ TeV. Gravitational wave observables therefore probe an enormous region of parameter space, far beyond the reach of collider experiments. We are entering an era in which supergravity can be probed through gravitational wave backgrounds alongside collider experiments.",
+  "title_relatable": "Can gravitational waves reveal the mass of invisible particles from the early universe?",
+  "hook": "Heavy particles called gravitinos, too massive for any collider to create, may leave telltale signatures in cosmic gravitational wave backgrounds that future observatories can detect.",
+  "summary": "Supergravity predicts massive gravitinos that decay before the universe was one second old, but their lingering effects reshape the early cosmos. These particles trigger a distinct period of matter domination that imprints two characteristic frequencies onto any primordial gravitational wave background. By measuring these frequencies with next-generation wave detectors, astronomers could pinpoint gravitino masses up to 10 billion TeV—far beyond collider reach.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 746,
+  "tokens_out": 183,
+  "cost_usd": 0.0013288000000000002,
+  "ingested_at": "2026-05-30T16:51:56.380601+00:00"
+}

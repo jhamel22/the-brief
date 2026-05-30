@@ -1,0 +1,22 @@
+{
+  "id": "2605.29503",
+  "arxiv_url": "https://arxiv.org/abs/2605.29503",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Polyakov-loop potential of accelerated gluonic matter and subtlety in thermodynamics",
+  "authors": "Hao-Lei Chen, Kenji Fukushima, Yu-Han Gao, Xu-Guang Huang, Yusuke Shimada, Zhi-Bin Zhu",
+  "abstract": "We study the one-loop Polyakov-loop effective potential in pure gluonic matter under constant acceleration. We perform the computation in both the Euclidean Rindler spacetime and the optical spacetime, which are related via a conformal transformation. The results from the two formulations correspond to physically different observables, and we clarify their connection to specific components of the energy-momentum tensor. This identification resolves a discrepancy previously noted for fields on conical backgrounds. For the Polyakov-loop expectation value, we should minimize the effective potential computed in the optical metric formulation, which concludes that real acceleration strengthens deconfining properties. We also discuss analytic continuation from real to imaginary acceleration and find a perturbatively confined phase. We point out some suggestive similarities and differences between systems under imaginary acceleration and imaginary rotation.",
+  "title_relatable": "Does acceleration make gluons escape their confinement?",
+  "hook": "Physicists computed how quarks behave under extreme acceleration and found acceleration actually helps free them from their gluonic cage.",
+  "summary": "Starting from first principles, researchers calculated how the Polyakov loop—a measure of quark confinement—changes when gluonic matter is subjected to constant acceleration. By comparing two mathematically equivalent formulations, they resolved a long-standing confusion about which observable to actually measure, then showed acceleration tips the balance toward deconfinement. The work connects thermodynamic properties to specific components of energy and stress.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 652,
+  "tokens_out": 164,
+  "cost_usd": 0.0011776,
+  "ingested_at": "2026-05-30T16:51:35.446149+00:00"
+}

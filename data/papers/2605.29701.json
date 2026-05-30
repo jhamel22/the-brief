@@ -1,0 +1,23 @@
+{
+  "id": "2605.29701",
+  "arxiv_url": "https://arxiv.org/abs/2605.29701",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Thermodynamics in symmetry-improved Cornwall-Jackiw-Tomboulis formalism: application to the low-energy effective theory of QCD",
+  "authors": "Yuepeng Guan, Mamiya Kawaguchi, Shinya Matsuzaki, Akio Tomiya",
+  "abstract": "We study the thermodynamics of the symmetry-improved Cornwall-Jackiw-Tomboulis (SICJT) formalism and apply it to a low-energy effective theory of QCD. In the symmetry-improved formulation, Ward-Takahashi identities are restored by auxiliary sources whose values are fixed self-consistently by the equilibrium state. While this construction improves the symmetry properties of the loop-wise truncated two-particle-irreducible (2PI) theory, it also makes the thermodynamic interpretation of the pressure nontrivial. We formulate several pressure prescriptions, including the conventional vacuum-subtracted pressure, a source-matched subtraction, and a pulled-back pressure in which the explicit source-induced energy shift is removed. Using the three-flavor linear sigma model with quarks, we analyze the equation of state, isentropic trajectories, adiabatic sound velocity, and trace anomaly across the chiral transition. We find that the global thermodynamic structure is stable under the different prescriptions, while quantitative differences are concentrated near the crossover and first-order transition region. These results establish a practical framework for constructing thermodynamically consistent observables in symmetry-improved 2PI approaches.",
+  "title_relatable": "How do physicists calculate nuclear matter's pressure near the quark transition?",
+  "hook": "A new method fixes a long-standing tension between symmetry and thermodynamics in QCD calculations, affecting predictions for neutron stars and early-universe conditions.",
+  "summary": "Physicists refined a method for computing properties of extremely hot, dense nuclear matter by ensuring it respects quantum symmetries while remaining thermodynamically consistent. The catch: respecting symmetries adds complications that make pressure hard to define. The team tested three ways to calculate pressure using a simplified QCD model and found the answer robust across the chiral transition—the phase where quarks can move freely—though details differ near the crossover point.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 734,
+  "tokens_out": 179,
+  "cost_usd": 0.0013032,
+  "ingested_at": "2026-05-30T16:51:30.630264+00:00"
+}

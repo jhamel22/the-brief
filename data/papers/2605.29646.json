@@ -1,0 +1,23 @@
+{
+  "id": "2605.29646",
+  "arxiv_url": "https://arxiv.org/abs/2605.29646",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Quantum field theory of massive chiral fields",
+  "authors": "Massimo Blasone, Petr Jizba, Luca Smaldone",
+  "abstract": "We present a quantum-field-theoretic treatment of massive chiral fields in which particles possess well-defined chirality and helicity. This framework reproduces the chiral oscillation formula previously obtained in first-quantized approaches and provides a consistent description of weak-interaction processes. We further derive corresponding chiral-energy uncertainty relations.",
+  "title_relatable": "Do massive particles have a definite handedness?",
+  "hook": "Physicists reconcile quantum field theory with the idea that massive particles can have fixed chirality, matching weak force predictions.",
+  "summary": "Standard quantum field theory treats massive particles as mixtures of left and right-handed states. This work reformulates the theory so massive chiral particles possess definite handedness, recovering results previously seen only in simpler models and clarifying how weak interactions distinguish particle chirality. The authors also derive new uncertainty relations linking chiral and energy properties.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 500,
+  "tokens_out": 145,
+  "cost_usd": 0.00098,
+  "ingested_at": "2026-05-30T16:51:32.779345+00:00"
+}

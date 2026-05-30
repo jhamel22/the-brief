@@ -1,0 +1,25 @@
+{
+  "id": "2605.29998",
+  "arxiv_url": "https://arxiv.org/abs/2605.29998",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ex",
+    "hep-ph",
+    "nucl-th"
+  ],
+  "title_original": "Higher Mellin Moments of the Unpolarized PDF of the Pion and the Kaon from Lattice QCD",
+  "authors": "Constantia Alexandrou, Simone Bacchio, Priyajit Jana, Marcus Petschlies, Luis Alberto Rodriguez Chacon, Gregoris Spanoudes, Fernanda Steffens, Carsten Urbach, Urs Wenger",
+  "abstract": "We present results on the Mellin moments of the unpolarized parton distribution function (PDF) of the pion and kaon up to the fourth order. The computation is done using one $N_f=2+1+1$ gauge ensemble of twisted mass fermions with quark masses tuned to approximately their physical values. We reconstruct the valence pion and kaon PDFs using the connected contributions to the three Mellin moments. We compare our results on the Mellin moments and the reconstructed PDFs with other lattice QCD and phenomenological determinations.",
+  "title_relatable": "What do lattice computers reveal about pion and kaon structure?",
+  "hook": "First lattice calculation of four Mellin moments for pion and kaon parton distributions, enabling direct reconstruction of how quarks move inside these particles.",
+  "summary": "Using supercomputer simulations of quantum chromodynamics, researchers calculated how quarks and gluons are distributed inside pions and kaons—the lightest particle messengers in the strong force. They measured increasingly complex moments of these distributions and reconstructed the full velocity patterns of quarks inside these particles, comparing against earlier lattice results and particle physics predictions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 617,
+  "tokens_out": 161,
+  "cost_usd": 0.0011376,
+  "ingested_at": "2026-05-30T16:51:22.444521+00:00"
+}

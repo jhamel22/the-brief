@@ -1,0 +1,22 @@
+{
+  "id": "2605.28788",
+  "arxiv_url": "https://arxiv.org/abs/2605.28788",
+  "announced_date": "2026-05-27",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Energy-energy correlators inside single inclusive jets in heavy-ion collisions with CoLBT-hydro model",
+  "authors": "Zhong Yang, Raghav Kunnawalkam Elayavalli, Xin-Nian Wang",
+  "abstract": "The energy-energy correlator (EEC) inside jets is a sensitive observable for studying jet modification in the quark-gluon plasma (QGP). However, its interpretation in heavy-ion collisions remains challenging, requiring a consistent understanding of jet evolution across multiple dynamical scales together with a proper treatment of the background subtraction. In this work, we employ an updated CoLBT-hydro framework in which a medium scale $Q_M$ = 2.0 GeV is introduced to separate the vacuum and in-medium stages of the parton shower, enabling a more self-consistent treatment of jet evolution. Using a theoretical background subtraction within the model, the resulting simulation reproduces the recent CMS measurement of the in-jet EEC, and through a decomposition of different contributions, highlights the impact of medium modification on the observable. To further validate the experimental procedure, we also implement the CMS mixed-event background-subtraction method directly in the simulation and find the results are consistent with that obtained with the theoretical background subtraction. Using $p_T$-ranked jets in each event, we further investigate the dependence of medium modification on the in-medium path length, reflected in the different EECs of leading and sub-leading jets. Finally, we explore the dependence of the leading-jet EEC on the dijet rapidity gap as a signal of the jet-induced diffusion wake.",
+  "title_relatable": "How does plasma melt the internal structure of speeding jets?",
+  "hook": "A quark-gluon plasma reshapes the fine details inside jets differently depending on how far they travel through it—measured by a new analysis matching experiments.",
+  "summary": "When jets from particle collisions pass through the hot quark-gluon plasma in heavy-ion collisions, their internal structure gets modified. Researchers used the CoLBT-hydro model to track how this happens across different scales and reproduced recent CMS measurements of energy correlations inside jets. The calculations reveal that longer paths through the plasma cause greater reshaping, and they validate experimental background-subtraction techniques used to isolate the plasma's effect.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 752,
+  "tokens_out": 183,
+  "cost_usd": 0.0013335999999999999,
+  "ingested_at": "2026-05-30T16:51:59.316528+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.28813",
+  "arxiv_url": "https://arxiv.org/abs/2605.28813",
+  "announced_date": "2026-05-27",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "nucl-th",
+    "hep-ph",
+    "nucl-ex"
+  ],
+  "title_original": "Quantum effects in the quadrupole rotor picture of ultra-relativistic ion-ion collisions",
+  "authors": "Stavros Bofos, Yi Li, Chenrong Ding, Benjamin Bally, Thomas Duguet, Mikael Frosini, Jiangming Yao",
+  "abstract": "The azimuthal hadronic flow observed in ultra-relativistic ion-ion collisions provides a sensitive probe of many-body ground-state correlations in the colliding nuclei. In particular, collective correlations associated with nuclear \"intrinsic deformation\" are expected to leave pronounced fingerprints on specific final-state observables. However, such effects are commonly interpreted within a classical rigid-rotor picture, despite the intrinsically quantum nature of nuclei. In this Letter, the validity of this interpretation is assessed systematically across the nuclear chart by comparing the quantum quadrupole rotor with its classical rigid-rotor limit. Quantum contributions associated with the fermionic nature of the nucleons are shown to be largely independent of shell effects, and hence of the intrinsic deformation. While they account for nearly all of the quantum rotor effective quadrupole deformation in light and/or spherical nuclei, they drop below 10% in intrinsically well deformed heavy nuclei. The present letter demonstrates that a quantitative interpretation of nuclear-structure effects in final-state observables requires going beyond the classical rigid-rotor paradigm. Beyond the quantum contributions quantified presently, correlations associated with collective vibrations and with the non-collective nucleonic motion must be further included and characterized.",
+  "title_relatable": "Why classical physics fails to explain nuclear deformation in particle collisions",
+  "hook": "Quantum effects explain up to 90% of nuclear shape effects in light nuclei but nearly vanish in heavy ones, forcing a rethink of how we interpret collision data.",
+  "summary": "When heavy ions collide at near light-speed, their azimuthal flow patterns reveal the internal deformation of nuclei—but physicists have been using classical rigid-rotor models to interpret quantum objects. Comparing quantum and classical predictions across the nuclear chart shows quantum contributions account for nearly all deformation effects in light nuclei (10% in heavy ones), meaning current collision interpretations may miss crucial nuclear-structure signatures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 743,
+  "tokens_out": 179,
+  "cost_usd": 0.0013104000000000002,
+  "ingested_at": "2026-05-30T16:51:53.872224+00:00"
+}

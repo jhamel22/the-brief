@@ -1,0 +1,24 @@
+{
+  "id": "2605.29789",
+  "arxiv_url": "https://arxiv.org/abs/2605.29789",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph",
+    "math-ph"
+  ],
+  "title_original": "Magic Relations and Critical Varieties of Feynman Integrals",
+  "authors": "Giulio Crisanti, Hjalte Frellesvig, Andrzej Pokraka, Sid Smith",
+  "abstract": "Magic relations are a class of integration-by-parts identities where all integrals in the generating sector drop out. Since their presence causes several otherwise successful methods in the Feynman-integral computational pipeline to break down, they are important to detect and understand. In this paper, we take a first step toward a systematic characterization of such identities. Specifically, we observe and argue that the occurrence of magic relations always coincides with the presence of higher-dimensional critical varieties in the generating sector. This provides a practical computational test to check if a family of Feynman integrals can contain magic relations and to find them, which we implement in the ancillary Mathematica file Magic-Test.m. Additionally, we discuss how to count the number of master integrals in the presence of higher-dimensional critical varieties, classify the behavior of magic relations under symmetries, and we discuss their interplay with cuts.",
+  "title_relatable": "Why do some quantum calculations mysteriously vanish, and how to find them?",
+  "hook": "Physicists hunting ghost identities in particle calculations that make standard methods fail—now there's a way to spot them before they derail your computation.",
+  "summary": "Feynman integrals, essential for predicting particle collisions, sometimes contain \"magic relations\"—identities where entire groups of integrals cancel out, breaking standard computational tools. This work reveals that magic relations always accompany hidden geometric structures called higher-dimensional critical varieties, providing a concrete test to detect them and count how many independent integrals remain.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 639,
+  "tokens_out": 164,
+  "cost_usd": 0.0011672,
+  "ingested_at": "2026-05-30T16:51:27.309339+00:00"
+}

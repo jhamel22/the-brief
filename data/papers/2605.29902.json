@@ -1,0 +1,23 @@
+{
+  "id": "2605.29902",
+  "arxiv_url": "https://arxiv.org/abs/2605.29902",
+  "announced_date": "2026-05-28",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-lat",
+    "hep-ph"
+  ],
+  "title_original": "Electromagnetic pion mass splitting using a Pauli-Villars-regulated photon propagator",
+  "authors": "Alessandro De Santis, Dominik Erb, Harvey B. Meyer",
+  "abstract": "We present a lattice QCD calculation of the charged-neutral pion mass splitting $M_{π^+} - M_{π^0}$ at $\\mathcal{O}(α_\\mathrm{em})$ using a recently proposed framework based on a Pauli-Villars (PV) regulated photon propagator defined in the continuum and infinite-volume limit, with $Λ$ acting as an additional UV cutoff scale. The use of this propagator avoids power-law finite-volume effects, allowing for a straightforward treatment of the infinite-volume limit. We perform the calculation using CLS ensembles, studying finite-volume effects, the continuum limit and the extrapolation to the physical point for several values of the scale $Λ$. By means of the Cottingham formula, we further decompose the result into elastic and inelastic contributions at fixed $Λ$. Our final result, after removing the cutoff scale $Λ$, is $M_{π^+} - M_{π^0} = 4.56(22)$ MeV, in good agreement with the experimental measurement. This calculation serves as a validation of the formalism in a well-controlled setting and offers useful insights into the application of electromagnetic corrections to other observables.",
+  "title_relatable": "Why is the positive pion heavier than the neutral one?",
+  "hook": "Lattice calculation pins down the electromagnetic mass difference between charged and neutral pions to 4.56 MeV, matching experiment and validating a new computational framework.",
+  "summary": "Physicists used lattice QCD simulations to calculate why a positively charged pion weighs about 4.56 MeV more than its neutral counterpart—a difference driven by electromagnetic forces. They deployed a new technique using a Pauli-Villars regulated photon propagator that avoids messy finite-volume artifacts, then tested the result against known measurements to validate the method for use on other particles.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 724,
+  "tokens_out": 180,
+  "cost_usd": 0.0012992000000000001,
+  "ingested_at": "2026-05-30T16:51:24.882703+00:00"
+}

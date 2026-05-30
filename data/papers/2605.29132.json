@@ -1,0 +1,24 @@
+{
+  "id": "2605.29132",
+  "arxiv_url": "https://arxiv.org/abs/2605.29132",
+  "announced_date": "2026-05-27",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Dynamical Tsallis WIMP Freeze-Out and Residual Memory Channels in the Radiation Sector",
+  "authors": "Matias P. Gonzalez",
+  "abstract": "In this work we generalize the thermal decoupling, or freeze-out, of weakly interacting massive particle dark matter within the Tsallis nonextensive formalism. The generalization is implemented through $q$-deformed distribution functions obtained from the maximum entropy principle with Curado-Tsallis constraints. The Tsallis parameter $q$, which measures deviations from extensivity with respect to the limit $q=1$, is promoted to a dynamical quantity depending on the dimensionless variable $x=m_χ/T$, where $m_χ$ is the dark matter mass. This dynamical evolution is characterized by a relaxation toward extensivity, while requiring that the nonextensive deformation is not completely erased before freeze-out. We solve the Boltzmann equation assuming a sectorial deformation, where only the dark matter equilibrium abundance is generalized and the radiation background remains extensive. The relic abundance is computed for different dark matter masses and initial values of the Tsallis parameter. From this evolution, we extract the residual value $q_χ^{\\rm fo}$ at freeze-out, which is then used as the initial input for a phenomenological memory channel. This channel propagates the residual nonextensivity into the radiation sector, specifically into the electron-positron plasma and neutrinos, while photons are kept extensive in order to avoid direct tensions with CMB physics. The resulting deformation modifies the neutrino energy density and the photon reheating contribution, producing a correction to $N_{\\rm eff}$. We compare the predicted values with the compressed CMB+BAO constraint on $N_{\\rm eff}$ and find that the residual-memory scenario can remain phenomenologically compatible with current bounds.",
+  "title_relatable": "Can dark matter's quantum strangeness leave fingerprints in the CMB?",
+  "hook": "Dark matter's freeze-out may leave a trace of non-standard physics that alters the number of neutrino-like particles visible in the cosmic microwave background.",
+  "summary": "Dark matter decouples from the early universe under non-standard statistical rules (Tsallis statistics), leaving a residual imprint that propagates into neutrinos and electrons. This memory effect shifts the effective number of relativistic species, subtly changing CMB predictions. The effect remains consistent with current observations but offers a new window into dark matter's early-universe behavior.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 825,
+  "tokens_out": 171,
+  "cost_usd": 0.001344,
+  "ingested_at": "2026-05-30T16:51:40.597477+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.28934",
+  "arxiv_url": "https://arxiv.org/abs/2605.28934",
+  "announced_date": "2026-05-27",
+  "subject": "hep-ph",
+  "subjects_all": [
+    "hep-ph"
+  ],
+  "title_original": "Bump Hunting Inside Jets with Energy Correlators",
+  "authors": "Lorenzo Ricci, Marc Riembau, Minho Son",
+  "abstract": "Energy correlators exhibit well-understood scaling behavior in the collinear limit, governed by perturbative QCD dynamics. We explore how this scaling regime is broken by new physics, converting precise energy correlator measurements into a broadband search for new physics. Under generic assumptions, unitarity and positivity are sufficient to classify and constrain the relevant signatures, which imprint an angular resonance on top of this smoothly scaling background. This converts the search into bump hunting within jets. As a proof of principle, we derive projected LHC sensitivity for a light hadrophilic $Z'$, finding competitive constraints with existing searches.",
+  "title_relatable": "Can jets hide signatures of undiscovered particles?",
+  "hook": "Physicists propose using precision jet measurements to spot new particles hiding in LHC data, competitive with dedicated searches.",
+  "summary": "Energy correlators—precise measurements of how energy flows inside jets—follow predictable patterns from known physics. The authors show that new particles would leave detectable bumps in this smooth background, turning jets into sensitive detectors. They apply this to hypothetical light Z' particles and find the method rivals conventional searches, opening a new window for physics beyond the Standard Model.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 557,
+  "tokens_out": 149,
+  "cost_usd": 0.0010416,
+  "ingested_at": "2026-05-30T16:51:48.667690+00:00"
+}
