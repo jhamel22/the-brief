@@ -1,0 +1,23 @@
+{
+  "id": "2605.29736",
+  "arxiv_url": "https://arxiv.org/abs/2605.29736",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "math.PR"
+  ],
+  "title_original": "Phylogenetic dynamics of MRCA ages and empirical moments of a Brownian trait",
+  "authors": "Gilles Didier",
+  "abstract": "We study the temporal dynamics of the first two empirical moments of Brownian traits on phylogenetic trees. For a fixed tree, we characterize the distributions of their empirical mean and empirical variance across all lineages extant at any given time. In particular, we show that the variance of the empirical mean and the expected empirical variance are piecewise linear between diversification events. For lineage-homogeneous random trees, both the variance of the empirical mean and the expected empirical variance can be expressed in terms of the expected age of the most recent common ancestor (MRCA) of a uniformly sampled pair of extant lineages. In this representation, the expected MRCA age enters the two quantities with opposite signs, pointing to a structural opposition between the variance of the empirical mean and the expected empirical variance. For generalized birth-death processes with time-dependent speciation and extinction rates, we derive an explicit formula for the distribution of the MRCA age of a uniformly sampled pair of extant lineages. This yields integral expressions, at any time, for both the variance of the empirical mean and the expected empirical variance. In the constant-rate birth-death case, we further obtain closed-form expressions for the expected empirical variance and describe its asymptotic behavior in the supercritical, critical and subcritical regimes.",
+  "title_relatable": "How do traits drift on evolutionary trees over time?",
+  "hook": "Mathematicians cracked how trait variation changes as species split and merge on family trees, connecting it to when ancestors last met.",
+  "summary": "Didier analyzed how the average and spread of inherited traits evolve on phylogenetic trees as lineages branch and diverge. He showed these statistics follow predictable piecewise-linear patterns tied to the age of most recent common ancestors—the deeper back you go, the more trait variation accumulates. This matters because it provides exact formulas for testing whether observed trait patterns match what evolution by drift would predict.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 686,
+  "tokens_out": 162,
+  "cost_usd": 0.0011968000000000003,
+  "ingested_at": "2026-05-30T16:52:23.456646+00:00"
+}

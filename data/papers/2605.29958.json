@@ -1,0 +1,25 @@
+{
+  "id": "2605.29958",
+  "arxiv_url": "https://arxiv.org/abs/2605.29958",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "cond-mat.stat-mech",
+    "math.PR",
+    "nlin.PS"
+  ],
+  "title_original": "Lattice Brownian bees with cooperative reproduction: steady states, collapse, and spreading",
+  "authors": "Ohad Vilk, Baruch Meerson",
+  "abstract": "We extend the ``Brownian bees'' model of Berestycki et al. (2021, 2022) to cooperative reproduction, $kA\\to(k{+}1)A$, of a population of $N$ symmetric random walkers with removal, at each birth event, of the particle farthest from the origin. Working in the limit $N\\to\\infty$, we formulate a hydrodynamic free-boundary problem for this model. Using this formalism, we determine steady state population densities for all~$k$ and prove their linear stability for $k\\le 2$ and instability for $k\\ge 4$. In the marginal case $k=3$, there is a whole continuous family of steady states at a single, critical ratio of the reproduction and diffusion rates. Above criticality the population undergoes an asymptotically self-similar finite-time collapse to the origin. Below the criticality the population spreads diffusively, but the reproduction remains quantitatively relevant. For $k\\ge 4$, the unstable steady state separates regimes of a finite-time collapse and a diffusive spreading. Here the collapse dynamics is asymptotically self-similar, and the population density exhibits a scale separation requiring a matched-asymptotic description. Our analytical predictions are confirmed by numerical solutions of the hydrodynamic free-boundary problem and by Monte Carlo simulations of the original microscopic model.",
+  "title_relatable": "When do cooperative breeders collapse versus spread?",
+  "hook": "Populations that reproduce together can either implode catastrophically or expand indefinitely—a sharp boundary controlled by a single critical ratio.",
+  "summary": "A mathematical model of randomly walking particles that reproduce cooperatively reveals a phase transition: below a critical reproduction-to-diffusion ratio, populations spread; above it, they collapse to extinction in finite time. The researchers mapped out stable, unstable, and marginal steady states across different cooperation levels, showing how self-similar collapse dynamics emerge from simple particle interactions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 718,
+  "tokens_out": 150,
+  "cost_usd": 0.0011744000000000001,
+  "ingested_at": "2026-05-30T16:52:20.757084+00:00"
+}

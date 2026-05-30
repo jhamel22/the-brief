@@ -1,0 +1,25 @@
+{
+  "id": "2605.28652",
+  "arxiv_url": "https://arxiv.org/abs/2605.28652",
+  "announced_date": "2026-05-27",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.QM",
+    "nlin.CD",
+    "q-bio.PE",
+    "q-bio.SC"
+  ],
+  "title_original": "Widespread quasi-steady state assumption in biological interaction modeling mischaracterizes system transitions",
+  "authors": "Pan-Jun Kim",
+  "abstract": "From molecular, cellular, to ecological systems, the modeling of biological processes often stands on the assumption that fast components immediately reach the equilibrium at each moment (quasi-steady state) and only slow components govern the relevant system dynamics. This quasi-steady state approximation (QSSA) simplifies the modeling but discards the effects of the relaxation towards each quasi-steady state. Unclear is the QSSA's suitability around the transition point, a specific condition where the system changes to a qualitatively different state. In this regard, we here derived a theoretical framework for the near-transition dynamics of biological systems, explicitly considering the relaxation processes overlooked by the QSSA. Numerical simulations verify our predictions for cellular decision-making, metabolic oscillations, and ecological cycles. Despite the extreme slowdown near the transition point, the QSSA alone misestimates the duration of the transition from one state to another. Moreover, the QSSA erroneously predicts the transition point itself for the onset of oscillations, while the relaxation dynamics facilitates or suppresses the oscillation onset with a counterintuitive time-delay effect. Common feedback interactions between biological components are pivotal to those relaxation effects. Our study provides an analytical foundation to understand the rich transient or rhythmic dynamics of interacting biological components near the transitions.",
+  "title_relatable": "Why standard biology models fail during system transitions",
+  "hook": "A common modeling shortcut misses critical dynamics right when biological systems shift states—cells make decisions, metabolisms pulse, populations cycle.",
+  "summary": "Biologists often assume fast molecular processes instantly reach equilibrium, letting them ignore relaxation delays and focus only on slow dynamics. But near transition points—where systems flip between states—this shortcut crumbles. This work shows the overlooked relaxation effects actually shape when oscillations begin and how long state changes take, with surprising time-delay effects that standard models miss entirely.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 672,
+  "tokens_out": 154,
+  "cost_usd": 0.0011535999999999999,
+  "ingested_at": "2026-05-30T16:52:29.690602+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.30109",
+  "arxiv_url": "https://arxiv.org/abs/2605.30109",
+  "announced_date": "2026-05-28",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "q-bio.QM"
+  ],
+  "title_original": "Training Ecosystems: A Computational Approach to Uncovering Learning Behavior in Unconventional Contexts",
+  "authors": "Adrita Samanta, Hananel Hazan, Michael Levin",
+  "abstract": "Recent progress in diverse intelligence has shown simple learning capacities below the organism level - single cells and even molecular networks. However, there are still many knowledge gaps around learning capacity above the organism level, and about memory implemented purely by dynamical interactions without explicit memory media. We demonstrate that minimal ecological dynamics (in silico) are sufficient for several kinds of learning, assayed as changes in both, magnitude of response, and of recovery time. Systematic exploration of over 220,000 parameter combinations in a simulated classic predator-prey model revealed that, when perturbed by stimuli, recovery time exhibits habituation, sensitization, and a form of discrete number learning in a scale-invariant manner. Robustness analysis revealed that habituation and sensitization persist under stochastic perturbations, while discrete number learning is disrupted even at low noise levels. Dimensionality reduction revealed that the incidence of learning capacity is primarily determined by ecological interaction strengths. Clear, unique clustering patterns in parameter space allow high prediction accuracy for novel parameter combinations that enable learning. Response magnitude revealed a striking asymmetry: 90.6% of parameter combinations exhibited recovery time sensitization paired with habituation of response magnitude, while the opposite pattern was extremely rare. These findings highlight a set of phenomena at the intersection of ecology, basal cognition, and mathematics with many implications for a wide range of systems describable by similar kinds of equations. These properties provide numerous efforts in biology and engineering with a substrate that has considerable, pre-patterned, propensity for learning, which ultimately arises from mathematics, not depending on the details of physics or biology.",
+  "title_relatable": "Can ecosystems learn without brains?",
+  "hook": "Predator-prey dynamics in a computer model exhibit habituation, sensitization, and number discrimination—learning behaviors that emerge purely from ecological math.",
+  "summary": "Researchers simulated 220,000 variations of predator-prey systems and found that simple population dynamics can exhibit classic learning signatures: habituation (reduced response to repeated stimuli), sensitization (heightened response), and discrete number learning. Strikingly, 90% of parameter combinations showed one learning pattern while its opposite was nearly absent, suggesting learning emerges from interaction strength rather than biological hardware. This implies ecosystems and any system governed by similar equations have inherent capacity for learning without memory structures or neurons.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 753,
+  "tokens_out": 186,
+  "cost_usd": 0.0013464,
+  "ingested_at": "2026-05-30T16:52:18.384398+00:00"
+}

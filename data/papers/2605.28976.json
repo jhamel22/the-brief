@@ -1,0 +1,22 @@
+{
+  "id": "2605.28976",
+  "arxiv_url": "https://arxiv.org/abs/2605.28976",
+  "announced_date": "2026-05-27",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "On a phenotype-structured Shigesada--Kawasaki--Teramoto model: Turing instability and pattern selection under fast phenotype switching",
+  "authors": "Davide Cusseddu, Gaetana Gambino, Tommaso Lorenzi",
+  "abstract": "The Shigesada-Kawasaki-Teramoto (SKT) model has become a classical modelling framework for studying spatial segregation and cross-diffusion-driven pattern formation in competing populations. This model assumes phenotypic homogeneity, but phenotypic variability persists within any population and can strongly influence both ecological and evolutionary dynamics. In this paper, we present a generalised phenotype-structured formulation of the SKT model that accounts for phenotypic variability. In this formulation, the competing populations are continuously structured across some phenotype state spaces. Population members move and compete in phenotype-dependent ways, and can also switch between different phenotype states. First we show how a form of the classical SKT model, wherein parameters are written in terms of continuous weighted averages of the phenotype-dependent functions of the generalised structured model, with weights given by the phenotype distributions of the two populations, can be obtained in the quasi-invariant regime of fast phenotype switching. Then, still assuming fast phenotype switching and extending classical Turing-like linear and weakly nonlinear analyses, we explore the conditions for the emergence of spatial patterns, identify a Turing-type bifurcation threshold leading to pattern formation, and investigate the nature of such a bifurcation (super- or sub-critical) as well as the stability of the patterned state. The results obtained make it possible to draw connections between phenotype-dependent model functions and the emergence of population-scale aggregate spatial dynamics, showing in particular how phenotype distributions can act as effective control parameters for Turing instability and pattern selection. These findings are complemented by numerical simulations, which validate the formal asymptotics and confirm the predictions of the pattern formation analyses.",
+  "title_relatable": "Do hidden differences within populations shape where species live?",
+  "hook": "Competing organisms segregate into patches, but the hidden variation within each population—traits that switch rapidly—controls whether patterns form at all.",
+  "summary": "Ecologists use the SKT model to explain why competing species don't mix uniformly but form spatial patterns instead. This work extends that model to include phenotypic diversity within populations: individuals of the same species vary, move differently, and can switch traits. When trait switching is fast, the team shows how individual-level variation effectively becomes a control knob for pattern formation, determining both whether segregation happens and what patterns emerge.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 801,
+  "tokens_out": 167,
+  "cost_usd": 0.0013088000000000002,
+  "ingested_at": "2026-05-30T16:52:27.199959+00:00"
+}
