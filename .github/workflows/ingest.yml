@@ -24,7 +24,7 @@ permissions:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     steps:
       - name: Checkout
@@ -38,6 +38,11 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Configure git for per-subject commits
+        run: |
+          git config user.name  "brief-bot"
+          git config user.email "bot@users.noreply.github.com"
 
       - name: API connectivity test
         env:
@@ -76,17 +81,17 @@ jobs:
           fi
           python ingest/run.py $ARGS
 
-      - name: Commit new data
+      - name: Commit any unflushed data (fallback)
+        # Per-subject commits inside ingest/run.py push as each subject completes.
+        # This catches anything not yet committed (e.g. partial state).
+        if: always()
         run: |
-          git config user.name  "brief-bot"
-          git config user.email "bot@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
             echo "No new papers — nothing to commit"
           else
-            SUBJECT="${{ github.event.inputs.subject }}"
             DATE=$(date +%Y-%m-%d)
-            MSG="ingest: ${DATE}${SUBJECT:+ (${SUBJECT})}"
-            git commit -m "$MSG"
+            git commit -m "ingest: ${DATE} (fallback flush)"
+            git pull --rebase origin main || true
             git push
           fi

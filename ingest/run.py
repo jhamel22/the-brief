@@ -14,6 +14,8 @@ Usage:
 import argparse
 import json
 import os
+import random
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone, timedelta
@@ -63,6 +65,55 @@ def existing_paper_count(subject_code: str, announced_date: str) -> int:
         return 0
 
 
+def commit_and_push_subject(code: str, announced_dates: list[str]) -> None:
+    """Commit and push this subject's new data files (CI only).
+
+    Per-subject commits make the run durable: a timeout mid-loop preserves
+    every completed subject's work instead of discarding the whole run.
+    Local runs are no-ops.
+    """
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return
+
+    try:
+        subprocess.run(["git", "add", "data/"], check=True, cwd=ROOT)
+        check = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=ROOT)
+        if check.returncode == 0:
+            return  # nothing staged
+
+        dates_str = ",".join(sorted(announced_dates, reverse=True))
+        msg = f"ingest: {code} {dates_str}"
+        subprocess.run(["git", "commit", "-m", msg], check=True, cwd=ROOT)
+
+        # Rebase-on-failure retry so a concurrent push (or auto-deploy ref bump)
+        # doesn't drop the commit. Tries: push → rebase → push.
+        push = subprocess.run(
+            ["git", "push", "origin", "HEAD:main"],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        if push.returncode == 0:
+            print(f"  [GIT] pushed: {msg}")
+            return
+
+        err = (push.stderr or push.stdout or "").strip()[:200]
+        print(f"  [GIT] push failed, rebasing: {err}")
+        subprocess.run(
+            ["git", "pull", "--rebase", "origin", "main"],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        push = subprocess.run(
+            ["git", "push", "origin", "HEAD:main"],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        if push.returncode == 0:
+            print(f"  [GIT] pushed after rebase: {msg}")
+        else:
+            err = (push.stderr or push.stdout or "").strip()[:200]
+            print(f"  [GIT] push gave up after rebase: {err}")
+    except subprocess.CalledProcessError as e:
+        print(f"  [GIT] subprocess error: {e}")
+
+
 def update_subject_index(subject_code: str, papers: list[dict]) -> None:
     """Update per-date JSON files and the subject's index.json."""
     if not papers:
@@ -107,7 +158,7 @@ def ingest_subject(
     client: anthropic.Anthropic,
     dry_run: bool,
     date_range: list[str],
-) -> tuple[int, float]:
+) -> tuple[int, float, list[str]]:
     """
     Run the full ingest pipeline for one subject across the lookback window.
 
@@ -120,7 +171,7 @@ def ingest_subject(
     this, the 3-weekday lookback would 2× the cap whenever multiple
     submission days roll up into the same announcement day.
 
-    Returns (papers_ingested, cost_usd).
+    Returns (papers_ingested, cost_usd, ingested_dates).
     """
     code           = subject["code"]
     daily_cap      = subject.get("daily_cap", 20)
@@ -144,7 +195,7 @@ def ingest_subject(
     print(f"  Deduped new candidates: {len(candidates)}")
 
     if not candidates:
-        return 0, 0.0
+        return 0, 0.0, []
 
     # 3. Group by announced_date
     by_announced: dict[str, list[dict]] = {}
@@ -152,8 +203,9 @@ def ingest_subject(
         by_announced.setdefault(p["announced_date"], []).append(p)
 
     # 4. Per announced_date: subtract existing-on-disk count from cap, rank, cap, summarize
-    total_ingested = 0
-    run_cost       = 0.0
+    total_ingested  = 0
+    run_cost        = 0.0
+    ingested_dates: list[str] = []
 
     for announced_date in sorted(by_announced.keys(), reverse=True):
         group = by_announced[announced_date]
@@ -200,10 +252,12 @@ def ingest_subject(
 
         update_subject_index(code, ingested)
         total_ingested += len(ingested)
+        if ingested:
+            ingested_dates.append(announced_date)
         print(f"  [{announced_date}] ✓ {len(ingested)} ingested")
 
     print(f"  ── subject total: {total_ingested} ingested  (${run_cost:.4f})")
-    return total_ingested, run_cost
+    return total_ingested, run_cost, ingested_dates
 
 
 # ── Date helpers ──────────────────────────────────────────────────────────
@@ -269,6 +323,12 @@ def main() -> int:
         print("No active subjects found. Set active: true in config/subjects.yaml")
         return 0
 
+    # Shuffle subject order with a date-derived seed so tail subjects don't
+    # always lose when a run gets cancelled. Reproducible within a UTC day.
+    if not args.subject:
+        seed = datetime.now(timezone.utc).date().isoformat()
+        random.Random(seed).shuffle(subjects)
+
     client = anthropic.Anthropic(api_key=api_key)
 
     total_papers = 0
@@ -291,7 +351,7 @@ def main() -> int:
 
     for subject in subjects:
         print(f"\n── {subject['code']} ─────────────────────────")
-        papers, cost = ingest_subject(
+        papers, cost, ingested_dates = ingest_subject(
             subject, client, dry_run=args.dry_run, date_range=date_range
         )
         total_papers += papers
@@ -299,6 +359,9 @@ def main() -> int:
 
         # Track whether this subject succeeded (got any papers)
         subject_results[subject['code']] = papers > 0
+
+        if papers > 0 and not args.dry_run:
+            commit_and_push_subject(subject['code'], ingested_dates)
 
     # ── Cost report ───────────────────────────────────────────────────────
     projected_monthly = total_cost * 30
