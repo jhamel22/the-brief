@@ -1,0 +1,22 @@
+{
+  "id": "2605.30024",
+  "arxiv_url": "https://arxiv.org/abs/2605.30024",
+  "announced_date": "2026-05-28",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Spatial equity and decentralization trade-offs in deep decarbonization of the European power system",
+  "authors": "Kristoffer Hedegaard Aden, Alexander Kies",
+  "abstract": "Standard EU energy system modelling approaches optimize for least-cost, leading to highly centralized systems, in conflict with political feasibility and physical security concerns. This paper incorporates decentralisation as a constraint in a European energy system model using a novel, linear load-weighted renewable capacity constraint, the K-parameter, which scales with total system renewable capacity to avoid interference with decarbonisation targets. The model is a 37-node electricity-only brownfield system based on the PyPSA-EUR framework, with projected 2050 loads and technology costs. A total of 105 optimized scenarios are analyzed at 14 levels of decarbonization and 8 levels of decentralization. Full decarbonization leads to an 80% cost increase due to, among other factors, a 78% increase in energy generation capacity. Without decentralisation constraints, system equity initially improves but collapses at high decarbonisation levels due to concentration in regions with optimal renewable resources. Moderate decentralization of K=7 achieves 76% of the equity benefits at only a 9% cost increase compared to K=1. This indicates that moderate decentralization can be a viable strategy to balance societal preferences and cost-efficiency in the European energy transition.",
+  "title_relatable": "Can Europe go fully green without concentrating power in a few regions?",
+  "hook": "Forcing renewable energy spread across Europe costs only 9% extra while dramatically improving fairness—but only if you don't push too hard.",
+  "summary": "Researchers modeled 105 scenarios of Europe's power system at different levels of decarbonization and geographic distribution. Without constraints, optimal wind and solar placement clusters in the best-resourced regions, leaving others behind as the grid decarbonizes. A moderate \"K-parameter\" limit that scales renewable capacity with demand across countries achieves 76% of possible equity gains for just a 9% cost premium, suggesting political buy-in is achievable without breaking budgets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 710,
+  "tokens_out": 184,
+  "cost_usd": 0.001304,
+  "ingested_at": "2026-05-30T16:38:12.770171+00:00"
+}

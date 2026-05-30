@@ -1,0 +1,23 @@
+{
+  "id": "2605.30291",
+  "arxiv_url": "https://arxiv.org/abs/2605.30291",
+  "announced_date": "2026-05-28",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI"
+  ],
+  "title_original": "Wedding Cocktail Hour Contact Webs: Temporal Proximity Network of a Privately Hosted Social Event",
+  "authors": "Joshua Z. Stadlan, Richard B. Kahn, Michelle Birkett",
+  "abstract": "Objectives: We captured a fine-grained dataset of organic socializing with socially meaningful group labels to fill a gap in the study of face-to-face interaction. Prior interaction data from conferences, classrooms, hospitals, and workplaces exhibit network signatures such as heterogeneous contact rates, clustering, and bursty dynamics. However, schedules, room assignments, and authority roles in these settings may obscure organic social group dynamics. Studies on group mixing often rely on demographic proxies like gender, or assigned categories like school classes, rather than relationship-based groups. We aim to test if temporal network signatures from institutionally structured settings generalize to informal social interaction. Data description: We present the first, to our knowledge, public temporal proximity network dataset of a privately hosted social event, with contextual relationship-based group membership. At the outdoor cocktail hour of a wedding, 95 participants wore proximity sensor badges that detected other badge-wearers within approximately 1.5 m in 5 s intervals. The public dataset, coarsened to 10 s temporal bins, contains 7,213 contact events over 2,760 observed dyads. Participants self-reported their relationship category with respect to the wedding couple, enabling group mixing analysis. Beyond testing the generalizability of interaction patterns, this dataset supports modeling of social events for applications such as contact tracing policy and social-space design.",
+  "title_relatable": "Do weddings follow the same contact patterns as offices and hospitals?",
+  "hook": "Researchers tracked 95 guests at a wedding cocktail hour using proximity sensors, finding whether face-to-face interaction patterns match those observed in structured institutional settings.",
+  "summary": "A wedding cocktail hour became a natural laboratory for studying how people mingle. Using wearable sensors, researchers tracked 95 guests and their 1.5-meter proximity contacts over 46 minutes, capturing 7,213 interactions mapped to self-reported relationships (friend, family, colleague, etc.). The result fills a gap: most social-network data comes from schools, hospitals, or offices where rules shape mixing. Here, guests organized themselves freely—revealing whether contact patterns like clustering and bursty dynamics that show up in structured settings also emerge when no authority is directing the flow.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 741,
+  "tokens_out": 212,
+  "cost_usd": 0.0014408000000000001,
+  "ingested_at": "2026-05-30T16:38:06.928816+00:00"
+}

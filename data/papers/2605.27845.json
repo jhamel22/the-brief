@@ -1,0 +1,24 @@
+{
+  "id": "2605.27845",
+  "arxiv_url": "https://arxiv.org/abs/2605.27845",
+  "announced_date": "2026-05-27",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cs.SI",
+    "cs.AI",
+    "physics.soc-ph"
+  ],
+  "title_original": "Snippet-Driven Supply Chain Discovery with LLMs: Scaling Visibility in China",
+  "authors": "Hiroto Fukada, Takayuki Mizuno",
+  "abstract": "Financial and economic research often relies on structured supply-chain disclosures and commercial databases. In China, supplier--customer disclosure is typically limited to major partners of listed firms, leaving unlisted firms and long-tail inter-firm links poorly captured in structured data. Public web evidence can partly complement this gap through corporate, government, and trade-media disclosures; however, full-text web mining at scale is costly because pages are often inaccessible or expensive to process with large language models (LLMs). We propose a snippet-driven method for constructing a supply chain knowledge graph (SCKG), with firms as nodes and inter-firm relationships as edges. Web search snippets are query-biased summaries returned with search results. We use them as a scalable first-pass evidence layer for LLM-based relationship extraction. We evaluate the pipeline in terms of extraction efficiency and coverage. For extraction efficiency, exhaustive full-text chunking discovers 19.8$\\times$ more unique relationships than snippets, but requires 251.2$\\times$ more input tokens and yields higher redundancy. For coverage, we use 130,685 Chinese firms as search seeds, covering Shanghai/Shenzhen-listed firms and large unlisted firms as of 2024. In the listed-firm subset, the resulting SCKG covers 7.2$\\times$ more firms and 9.3$\\times$ more relationships than the CSMAR disclosure-based benchmark, while revealing heavy-tailed degree patterns. Retained provenance metadata make the SCKG an auditable complement to disclosure-based databases.",
+  "title_relatable": "Can web search snippets map China's hidden supply chains better than official filings?",
+  "hook": "Researchers built a supply chain map of 130,000 Chinese firms using AI-analyzed search snippets, capturing 7× more supplier links than official disclosures while using a quarter of the computing cost.",
+  "summary": "Official supply chain data in China is sparse, especially for unlisted firms and minor business relationships. This work extracts supplier-customer links from web search snippets—the summaries returned with Google results—feeding them to LLMs for relationship extraction. The method finds nearly 10 times more connections than disclosure databases while being far cheaper than processing full web pages, revealing that Chinese firm networks follow heavy-tailed distributions typical of real supply chains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 779,
+  "tokens_out": 193,
+  "cost_usd": 0.0013952,
+  "ingested_at": "2026-05-30T16:38:35.894561+00:00"
+}

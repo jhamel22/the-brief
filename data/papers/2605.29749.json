@@ -1,0 +1,24 @@
+{
+  "id": "2605.29749",
+  "arxiv_url": "https://arxiv.org/abs/2605.29749",
+  "announced_date": "2026-05-28",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cond-mat.stat-mech",
+    "physics.data-an"
+  ],
+  "title_original": "Community detection in subject-subject networks from psychometrics data",
+  "authors": "Arianna Armanetti, Luca Cecchetti, Eiko Fried, Diego Garlaschelli, Miguel Ibáñez-Berganza",
+  "abstract": "Identifying subgroups of respondents in psychometric data is traditionally addressed with Latent Class Analysis, which requires the number of classes to be specified a priori and can perform poorly when strong inter-item correlations violate local independence assumptions. We propose a network-theoretic alternative based on community detection in subject-subject similarity networks. To suppress the systematic artifacts induced by the factor structure of the items, the similarity is computed in a low-dimensional factor-score space and the null model for modularity maximisation is obtained by removing the leading (global) mode of the similarity matrix, rather than via the standard Newman--Girvan model. The significance of a detected partition is then assessed against a column-wise resampling null through four complementary observables: the modularity, the differential entropy of the eigenvector point cloud at two neighbourhood scales, and the overlap of the within- and between-community similarity histograms. On a synthetic benchmark with controlled mixture signal, all four metrics correctly identify the homogeneous case as null-compatible -- including the demanding regime of a dataset dominated by a single factor -- and exhibit a graded departure from the null as the cluster separation grows. Applied to 14 widely used psychometric scales, the pipeline isolates a small group of datasets supporting a genuine and directly interpretable modular structure, while the remaining scales fall either in a mixed-signal regime or in one compatible with a single homogeneous community. The significance analysis is independent of the specific community-detection algorithm and provides an operational way to test for modular subject-level structure in questionnaire data.",
+  "title_relatable": "Do personality test responses actually cluster into distinct groups?",
+  "hook": "A new network method finds that most widely used psychological questionnaires lack meaningful subgroups—challenging how researchers identify patient clusters.",
+  "summary": "Psychologists typically use Latent Class Analysis to find hidden groups in survey responses, but it requires guessing the number of groups upfront and struggles when questions are correlated. This team built a network approach: treat each person as a node, link them by similarity, then search for natural communities. Testing 14 standard personality scales, they found most produce artificial subgroups driven by the questionnaire's structure itself. Only a handful show genuine modular patterns independent of these artifacts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 786,
+  "tokens_out": 177,
+  "cost_usd": 0.0013368000000000002,
+  "ingested_at": "2026-05-30T16:38:18.282096+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.28284",
+  "arxiv_url": "https://arxiv.org/abs/2605.28284",
+  "announced_date": "2026-05-27",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI"
+  ],
+  "title_original": "Contact, conflict, or opportunity? Out-group exposure creates tie opportunity, not tolerance",
+  "authors": "Mauritz N. Cartier van Dissel, Tomáš Lintner, Samuel Martin-Gutierrez, Fariba Karimi",
+  "abstract": "Three theories offer competing predictions about how people respond to growing diversity in their social environment. Contact theory suggests more exposure to out-groups reduces prejudice; conflict theory predicts a stronger in-group preference; structural opportunity theory argues that shifts in behaviour only reflect changes in the opportunity structure rather than in underlying preference. We test these predictions using friendship and rejection nominations from nearly 5,000 students in 228 classrooms, across gender, ethnicity, and socio-economic status. We estimate individual preference using a multilevel model based on the Wallenius hypergeometric distribution, which accounts for the finite, asymmetric pool of potential ties. Results show that for ethnicity and socio-economic status, preferences are largely unaffected by classroom composition. For gender, however, same-gender preference strengthens as the out-group increases, supporting conflict theory. This means greater diversity does not necessarily change the intrinsic preference of students toward out-group peers, but creates more opportunities for cross-group interactions.",
+  "title_relatable": "Does diversity actually change people's prejudices, or just their options?",
+  "hook": "Study of 5,000 students finds diversity shifts who people interact with, not whether they actually like out-groups. Gender preference hardens with exposure.",
+  "summary": "Researchers tracked friendship choices across 228 classrooms to test whether exposure to different ethnicities, genders, and social classes reduces prejudice. Using a statistical model that accounts for the actual pool of available peers, they found that for most categories, students' underlying preferences stayed the same—diversity just created more opportunities to befriend people they wouldn't otherwise meet. For gender, however, preferences actually strengthened toward same-gender peers as classrooms became more mixed, supporting conflict theory over the optimistic contact-hypothesis.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 666,
+  "tokens_out": 193,
+  "cost_usd": 0.0013048000000000003,
+  "ingested_at": "2026-05-30T16:38:29.313295+00:00"
+}

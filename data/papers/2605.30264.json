@@ -1,0 +1,22 @@
+{
+  "id": "2605.30264",
+  "arxiv_url": "https://arxiv.org/abs/2605.30264",
+  "announced_date": "2026-05-28",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Exponent spectrum of Lorenz curves and its relation to system's heterogeneity",
+  "authors": "Soumyaditya Das, Soumyajyoti Biswas",
+  "abstract": "We analyze the effect of microscopic heterogeneity on the Lorenz curve of macroscopic observables. Lorenz curve of a response function being a cumulative and bounded quantity, is often a more stable function than the corresponding probability density. We show here that by doing an exponent spectrum analysis of the complementary Lorenz curve, it is possible to obtain a reflection of the underlying heterogeneity that causes the response function to depart from a power law behavior. We demonstrate this framework first by synthetic data and then by analyzing the avalanche statistics of a two dimensional, Random Field Ising Model (RFIM) at zero temperature. This method can lead to possible use in estimating microscopic heterogeneity of a system from analysis of an estimated Lorenz curve, particularly in socio-economic and physical contexts where the full probability distribution function is unavailable.",
+  "title_relatable": "Can Lorenz curves reveal hidden disorder in complex systems?",
+  "hook": "A new method extracts microscopic disorder signatures from cumulative distribution curves, tested on magnetic avalanches and applicable to economic inequality data.",
+  "summary": "When systems have hidden disorder—like defects in magnets or inequality in wealth—it distorts their statistical patterns in ways hard to detect. This work shows that analyzing the shape of Lorenz curves (cumulative distributions of response) reveals the underlying disorder, even when the full probability distribution is unavailable. The method works in systems ranging from physics to socioeconomics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 625,
+  "tokens_out": 158,
+  "cost_usd": 0.001132,
+  "ingested_at": "2026-05-30T16:38:09.478076+00:00"
+}

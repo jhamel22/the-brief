@@ -1,0 +1,22 @@
+{
+  "id": "2605.28672",
+  "arxiv_url": "https://arxiv.org/abs/2605.28672",
+  "announced_date": "2026-05-27",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Population size and centrality effects on NO2 air pollution across and within European cities",
+  "authors": "Yufei Wei, Rémi Lemoy, Geoffrey Caruso",
+  "abstract": "Understanding how nitrogen dioxide (NO2) varies both within and across cities is essential for assessing urban health inequalities, yet the joint influence of city size and internal structure remains poorly quantified. While it is expected that agglomeration size increases NO2 concentrations and that distance from major urban activities reduces them, the magnitude and form of their combined effect have not been established. Our objective is to move beyond city-specific local context effects and to characterize the general structural form of NO2 distributions, understood as their systematic variation with distance from the center across cities of different sizes. Using both ground monitoring stations and satellite data for 378 European Functional Urban Areas, we estimate parallel models for each measurement type and show that the same structural relationships hold in both cases. We find that NO2 concentrations increase with population size as a power law (with an exponent between 0.14 and 0.22) and decrease with distance from the city center (with an exponent between -0.12 and -0.18), with consistent results across measurement types and robust to local and regional controls. These effects combine into a scalable radial profile, where the total air pollution over a city is proportional to (N/r)^0.16, which generalizes the spatial distribution of NO2 in European cities. This formulation clarifies how total and per-capita pollution depend on the extent to which pollution is integrated and provides a simple framework for evaluating the health implications of urban growth.",
+  "title_relatable": "Why pollution in bigger cities follows a universal mathematical pattern",
+  "hook": "NO2 pollution in 378 European cities follows predictable power laws: concentration rises with city size and drops with distance from downtown, offering a formula to predict health impacts of urban growth.",
+  "summary": "Researchers combined ground monitors and satellite data across Europe to find that nitrogen dioxide pollution scales predictably with city population and distance from the city center. Pollution concentration increases as city size to the 0.14–0.22 power and decreases as distance to the −0.12–−0.18 power—the same relationship holds whether measured on the ground or from space. This unified pattern lets planners estimate how urban expansion affects total air pollution and per-capita exposure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 749,
+  "tokens_out": 190,
+  "cost_usd": 0.0013592,
+  "ingested_at": "2026-05-30T16:38:26.509082+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.28178",
+  "arxiv_url": "https://arxiv.org/abs/2605.28178",
+  "announced_date": "2026-05-27",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "The Steel Scrap Age: Bridging the Quality Gap through Structural Supply Chain Reorganization",
+  "authors": "Peter Klimek, Jaber Fooladi",
+  "abstract": "The transition to a circular economy is pivotal for industrial decarbonization, particularly in the energy-intensive steel sector. While recycling scrap via electric arc furnaces offers a low-carbon alternative to primary production, the accumulation of contaminants in post-consumer steel threatens to render secondary material unusable for high-grade applications. This quality problem creates a market failure where traditional spot markets cannot guarantee the material provenance required for high quality (e.g. automotive-grade) steel. Here we show, using a massive longitudinal analysis of over 1 billion news articles combined with global trade network data, that the industry is resolving this by shifting from transactional markets to direct, vertically integrated alliances. We demonstrate that steelmakers are increasingly bypassing intermediaries to forge sovereign, closed-loop ties with manufacturers, effectively substituting market mechanisms with organizational integration. This reorganization is reshaping global trade topology, driving a potential divergence between circular network cores in the Americas and Europe that internalize high-quality scrap, and extractive sinks in the Global South that export their circular potential. Our results indicate that the circular economy is evolving into a geopolitical contest for material control, where competitive advantage is defined by the sovereign possession of closed material cycles rather than mere cost efficiency.",
+  "title_relatable": "Why steel recycling is reshaping global trade and creating supply chain winners and losers",
+  "hook": "Steelmakers are abandoning open markets for closed-loop partnerships to solve a quality problem: recycled steel accumulates contaminants that make it unusable for cars and planes.",
+  "summary": "Analysis of 1 billion news articles and trade data reveals steelmakers are abandoning spot markets for direct, vertically integrated alliances to control recycled steel quality. The shift bypasses middlemen and creates closed loops where high-grade scrap stays within wealthy regions while developing nations become export-only \"extractive sinks.\" This reorganization transforms the circular economy from an environmental solution into a geopolitical competition for material sovereignty.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 704,
+  "tokens_out": 186,
+  "cost_usd": 0.0013072000000000001,
+  "ingested_at": "2026-05-30T16:38:32.220736+00:00"
+}

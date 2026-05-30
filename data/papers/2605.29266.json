@@ -1,0 +1,22 @@
+{
+  "id": "2605.29266",
+  "arxiv_url": "https://arxiv.org/abs/2605.29266",
+  "announced_date": "2026-05-28",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Quantifying real-world energy use and CO2 emissions of electric vehicles via a city-scale bottom-up framework",
+  "authors": "Shuhan Ge, Yanqiao Deng, Minda Ma",
+  "abstract": "Although electric vehicles (EVs) are scaling rapidly, city-scale evidence on real-world operational energy use and carbon dioxide (CO2) emissions from EVs remains limited. Using Shanghai as a case study, this study develops a bottom-up framework covering all EV models registered between July 2022 and December 2024 to quantify model-specific real-world energy intensity, the operational energy mix, and associated CO2 emissions. The results indicate that (1) pronounced and systematic underestimation by test-cycle values: on average, real-world use is 20.8% greater for battery electric vehicles (BEVs) and ~55% greater for plug-in hybrid electric vehicles (PHEVs), whereas extended-range EVs (EREVs) show the largest gaps, as many models consume 3.75 times more energy than their official data suggest. (2) From 2022-2024, electricity supplies more than 70% of operational energy, and power-sector emissions dominate EV operational CO2, contributing 75.3%, 85.7% and 87.0% in 2022, 2023 and 2024, respectively. (3) BEVs achieve the greatest absolute mitigation under current policies, with 1,834 kilotons (kt) of CO2 in 2035, modest benefits from PHEVs, and strong gains for EREVs under more ambitious policies (up to 2,122 kt of CO2 in 2035). These findings underscore the need to align fleet electrification with grid decarbonization, alleviate congestion, improve charging accessibility, and narrow test-cycle versus on-road performance gaps to fully realize the climate benefits of EVs in megacities.",
+  "title_relatable": "Do real electric vehicles emit far more than their official ratings claim?",
+  "hook": "Shanghai data reveals EVs use 20–55% more energy than test cycles claim, with some models consuming 3.75 times official consumption. Grid decarbonization matters as much as vehicle electrification.",
+  "summary": "Researchers tracked 2.5 years of real-world driving data from all EV models in Shanghai to measure actual energy use and emissions. Test-cycle ratings systematically underestimate consumption by 20–55% for battery and plug-in hybrids, and up to 3.75× for extended-range models. Most operational emissions come from the electricity grid, not the vehicles themselves—meaning EV climate benefits depend critically on how fast cities decarbonize their power supplies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 834,
+  "tokens_out": 202,
+  "cost_usd": 0.0014752,
+  "ingested_at": "2026-05-30T16:38:21.162001+00:00"
+}
