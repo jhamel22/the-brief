@@ -1,0 +1,23 @@
+{
+  "id": "2605.29979",
+  "arxiv_url": "https://arxiv.org/abs/2605.29979",
+  "announced_date": "2026-05-28",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CR",
+    "cs.LG"
+  ],
+  "title_original": "Fingerprinting Inference Systems of Large Language Models",
+  "authors": "Anna Wimbauer, Jonas Möller, Erik Imgrund, Konrad Rieck",
+  "abstract": "The behavior of LLMs does not depend solely on the model itself. Components of the inference system, such as the inference engine, attention backend, and hardware platform, subtly influence how inputs are processed. These components differ in their implementations and thereby induce small numerical deviations across systems when running the same model. While prior work has established the theoretical existence of such deviations, their security implications have remained unexplored. In this paper, we show that these deviations are characteristic of specific components and propagate to observable textual outputs, exposing the inference system to any party that can query the model. Building on this observation, we introduce a fingerprinting method that analyzes the prompt-response behavior of LLMs to identify components of the inference system. Our empirical evaluation demonstrates that the inference engine, attention backend, and underlying hardware platform can be identified reliably, even when the LLM is operated at non-zero temperature. We show that preventing fingerprinting is fundamentally hard, as it would require eliminating numerical differences between hardware and software stacks. We therefore propose partial mitigations and discuss their impact.",
+  "title_relatable": "What inference hardware leaks about your LLM",
+  "hook": "Tiny numerical differences in LLM inference systems leave detectable fingerprints in text outputs, revealing hardware and software stacks reliably.",
+  "summary": "Small numerical deviations from different GPUs, inference engines, and attention implementations accumulate and alter LLM outputs in measurable ways. Researchers built a fingerprinting method that queries a model and infers its hardware platform, inference engine, and attention backend—even at non-zero temperature where outputs should vary. This matters for privacy and security: anyone querying a black-box LLM can now unmask its infrastructure. Eliminating these traces requires harmonizing hardware and software across entire stacks, which the authors show is fundamentally impractical.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 677,
+  "tokens_out": 197,
+  "cost_usd": 0.0013296,
+  "ingested_at": "2026-05-30T16:40:33.199883+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.30345",
+  "arxiv_url": "https://arxiv.org/abs/2605.30345",
+  "announced_date": "2026-05-28",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+  "authors": "Qinpei Luo, Ruichun Ma, Xinyu Zhang, Lili Qiu",
+  "abstract": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, the first large language model that generates editable PCB schematics from natural-language requests. The key challenge lies in the lack of an LLM-suited representation and a large-scale dataset. Current schematic formats are dominated by verbose, tool-specific syntax and geometry-heavy descriptions, making them difficult to generate reliably. We introduce a semantically grounded code representation that encodes schematic editing primitives with relative placement and pin-name-based wiring, transforming a geometry-driven generation problem into a semantics-driven matching task amenable to LLMs. We further construct a large-scale dataset of PCB schematics paired with user prompts via a human-agent collaborative pipeline that converts open-source hardware designs into our representation. Experiments show that SchGen significantly outperforms alternative representations and even larger general-purpose LLMs on wire connectivity accuracy and functional correctness. Our results highlight the critical role of representation design in enabling generative models for complex hardware design tasks.",
+  "title_relatable": "Can AI design circuit boards from text descriptions?",
+  "hook": "First LLM that generates working PCB schematics from natural language, achieving 15% higher connectivity accuracy than larger models through semantic code representation.",
+  "summary": "PCB schematic design is tedious and manual. SchGen, a specialized LLM, generates editable schematics from plain-language requests by using a semantically grounded code representation that strips away geometry-heavy details and focuses on wiring logic. The team built a large paired dataset via human-AI collaboration, converting open-source hardware into their representation. On wire connectivity and functional correctness, SchGen outperforms both naive representation schemes and larger general-purpose LLMs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 722,
+  "tokens_out": 183,
+  "cost_usd": 0.0013096,
+  "ingested_at": "2026-05-30T16:40:13.802738+00:00"
+}

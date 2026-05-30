@@ -1,0 +1,23 @@
+{
+  "id": "2605.30070",
+  "arxiv_url": "https://arxiv.org/abs/2605.30070",
+  "announced_date": "2026-05-28",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "A Predictive Law for On-Policy Self-Distillation From World Feedback",
+  "authors": "Tommy He, Jerome Sieber, Matteo Saponati",
+  "abstract": "Moving beyond simple scalar rewards toward richer world feedback is a natural path to more scalable RL post-training. On-policy self-distillation (OPSD) is a promising recent approach that uses arbitrary feedback as learning signal, yet its reliability compared to established methods, such as GRPO, remains unclear. We identify a strikingly consistent linear correlation between the initial student-self-teacher performance gap and the final performance improvement in OPSD. This relationship holds across context types and model families, providing a powerful predictive law for anticipating the outcome of an OPSD configuration without running the full training procedure. Interestingly, we show that this linear predictability holds with model scale, suggesting a potential basis for new empirical scaling laws on larger models with stronger in-context learning capabilities. In essence, our findings show that OPSD performance can be predicted and tuned before training, offering a principled way to incorporate world feedback as a first-class component of the post-training pipeline.",
+  "title_relatable": "Can you predict self-distillation gains before training starts?",
+  "hook": "Linear relationship between initial performance gap and final improvement lets you forecast OPSD outcomes without full training.",
+  "summary": "On-policy self-distillation (OPSD) uses rich feedback signals—beyond simple rewards—to improve language models, but predicting whether a configuration will work has required expensive full training runs. Researchers discovered a strikingly consistent linear correlation: the initial gap between a student model and its teacher self predicts the final performance gain across different context types and model sizes. This predictive law lets you estimate OPSD success upfront, enabling faster iteration and more efficient use of compute in RL post-training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 653,
+  "tokens_out": 182,
+  "cost_usd": 0.0012504,
+  "ingested_at": "2026-05-30T16:40:26.653814+00:00"
+}

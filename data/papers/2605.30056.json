@@ -1,0 +1,23 @@
+{
+  "id": "2605.30056",
+  "arxiv_url": "https://arxiv.org/abs/2605.30056",
+  "announced_date": "2026-05-28",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "Sample-Efficient Diffusion-based Reinforcement Learning with Critic Guidance",
+  "authors": "Shutong Ding, Zejia Zhong, Zhongyi Wang, Ke Hu, Bikang Pan, Jingya Wang, Ye Shi",
+  "abstract": "Recent advances in reinforcement learning (RL) have achieved great successes by leveraging the multimodality and exploration capability of diffusion policies. Among these approaches, one representative branch focuses on the sampling-based policy optimization. This design enables better exploration capability of the diffusion model, particularly at the beginning of training, but suffer from low exploitation in Q-value information, resulting in a slow policy convergence. Another branch pays attention to gradient-based policy optimization, which sufficiently exploits the gradient of the Q function yet tends to collapse into a unimodal policy with low diversity. To address this issue, we propose CGPO, \\textbf{C}ritic-\\textbf{G}uided diffusion \\textbf{P}olicy \\textbf{O}ptimization, which effectively balances exploration and exploitation with the training-free guidance technique integrated into the denoising process of diffusion policy. Concretely, CGPO steers action generation toward high-value regions defined by the critic network and uses the guided actions as regression objectives. In this manner, CGPO reduces the time required to obtain high-quality actions and improves final performance with better balance between the exploration-exploitation tradeoff. We validate the effectiveness of CGPO on 5 MuJoCo locomotion tasks, and CGPO achieves state-of-the-art performance compared with existing diffusion-based RL methods. Notably, CGPO is the first success to incorporate diffusion policy into real-world RL, with its superior performance on Franka robot arm grasping tasks. Our official page is released at https://dingsht.tech/cgpo-webpage.",
+  "title_relatable": "How to make diffusion policies learn faster in robotics?",
+  "hook": "New method balances exploration and exploitation in diffusion RL, achieving state-of-the-art on MuJoCo and first successful real robot deployment.",
+  "summary": "Diffusion-based reinforcement learning policies excel at exploration but struggle with slow convergence; gradient methods do the opposite. CGPO combines both by guiding the diffusion denoising process toward high-value actions identified by a critic network, eliminating the need for additional sampling. Tests on five MuJoCo tasks and real Franka robot arms show faster learning and better final performance than existing diffusion RL methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 833,
+  "tokens_out": 177,
+  "cost_usd": 0.0013744,
+  "ingested_at": "2026-05-30T16:40:28.900075+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.30190",
+  "arxiv_url": "https://arxiv.org/abs/2605.30190",
+  "announced_date": "2026-05-28",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Mean-Field Diffuser: Scaling Offline MARL to Thousands of Agents",
+  "authors": "Wenhao Li, Xiangfeng Wang, Bo Jin",
+  "abstract": "Diffusion-based planning has achieved strong results in single-agent offline reinforcement learning, yet scaling to many-agent systems remains intractable due to the curse of dimensionality in the joint trajectory space. We introduce MF-Diffuser, a framework that lifts trajectory planning to the Wasserstein space of trajectory distributions, where the propagation of chaos ensures a small representative subset of agents captures the full population dynamics. Our approach features a value-weighted chaotic entropy objective that reconciles generative fidelity with return maximization, and a hierarchical coarse-to-fine strategy that progressively grows the agent population during denoising. We establish end-to-end suboptimality bounds with four interpretable terms, revealing that mean-field approximation error scales as $O(H^2/\\sqrt{N})$ while offline distribution shift provably does not grow with population size $N$, and prove the generated policy is an approximate mean-field Nash equilibrium with explicit convergence guarantees. Experiments on three mean-field RL benchmarks -- spanning stage games, sequential dynamics, and adversarial team competition -- show MF-Diffuser achieves the best return in the majority of settings, with the largest gains on suboptimal offline data and at extreme scales ($N \\geq 10^3$).",
+  "title_relatable": "Can diffusion models plan for thousands of agents at once?",
+  "hook": "Scales offline multi-agent RL to 1000+ agents by planning in distribution space instead of joint trajectories, with provable Nash equilibrium guarantees.",
+  "summary": "Planning for many agents simultaneously hits a wall: the joint state space explodes exponentially. MF-Diffuser sidesteps this by planning in the space of agent distributions rather than individual trajectories, using mean-field theory to ensure a small subset captures population behavior. The method includes theoretical bounds showing approximation error shrinks with population size and offline data shift doesn't worsen with more agents. Tested on three benchmarks up to 1000+ agents, it outperforms baselines especially on suboptimal offline data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 728,
+  "tokens_out": 197,
+  "cost_usd": 0.0013704000000000001,
+  "ingested_at": "2026-05-30T16:40:08.812449+00:00"
+}

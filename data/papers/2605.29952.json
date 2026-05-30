@@ -1,0 +1,22 @@
+{
+  "id": "2605.29952",
+  "arxiv_url": "https://arxiv.org/abs/2605.29952",
+  "announced_date": "2026-05-28",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "From Short Histories to Long Futures: Horizon-Aware Graph Neural Networks for Long Horizon Forecasting",
+  "authors": "Zesheng Liu, Maryam Rahnemoonfar",
+  "abstract": "Accurate long-range prediction of geophysical systems is difficult due to strongly nonlinear dynamics, the high computational cost of full-physics simulations, and the error accumulation that arise when one-step autoregressive surrogates are rolled out over decades. Deep neural network can serve as efficient emulators, but most are trained only for next-step prediction and often drift or become unstable as the forecast horizon grows. We propose a multi-horizon graph neural network emulator that learns state-to-state transitions from a single current time to multiple future lead times within one unified model. The physical domain is represented as a graph, where nodes correspond to spatial locations with time-varying geophysical attributes and edges encode local spatial interactions. Given the current graph state, the model predicts the future evolution of key fields, ice thickness and ice velocities at all nodes, using a shared graph backbone with separate output branches for each target variable. To improve stability, the network predicts state increments relative to the current state, which are then added back to reconstruct future states. Training jointly optimizes all lead times with a unified regression objective, and inference uses a coarse-to-fine rollout that advances with larger jumps and selectively refines with shorter jumps to reduce drift and avoid redundant computation. Experiments on multi-decadal Pine Island Glacier simulations show that our approach achieves higher long-range accuracy and improved stability than both (i) an initial-state baseline that predicts each future time directly from the starting state and (ii) a standard single-step autoregressive rollout, producing a more reliable emulator for downstream climate and sea-level studies.",
+  "title_relatable": "Can neural networks predict ice sheet collapse decades ahead?",
+  "hook": "Multi-horizon graph neural network predicts ice thickness and velocity over decades with higher accuracy and stability than standard autoregressive methods on Pine Island Glacier.",
+  "summary": "Long-range forecasts of ice sheets fail because errors pile up when you chain one-step predictions together over decades. This work trains a single graph neural network to predict multiple future time steps at once—learning direct state-to-state transitions at 10, 20, or 50 years ahead rather than rolling out step-by-step. By predicting increments relative to the current state and using selective refinement during inference, the model stays stable and accurate far longer than autoregressive baselines on glacier simulations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 799,
+  "tokens_out": 191,
+  "cost_usd": 0.0014032,
+  "ingested_at": "2026-05-30T16:40:35.935202+00:00"
+}
