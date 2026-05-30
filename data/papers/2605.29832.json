@@ -1,0 +1,22 @@
+{
+  "id": "2605.29832",
+  "arxiv_url": "https://arxiv.org/abs/2605.29832",
+  "announced_date": "2026-05-28",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Count Your Losses, and Cut Your Blessings: Reference Dependence across Intertemporal and Uncompensated Labor Supply",
+  "authors": "Mattia Adamo, Michele Cantarella",
+  "abstract": "Do workers always work more for more? We investigate how intertemporal and uncompensated labor supply decisions change across observational and experimental windows, within the same workers. Combining a real-effort emoji-counting experiment on Prolific with observational data from platform administrative records, self-reported expectations and recalls, and smartphone-based screen-time logs, we find that expectations, and how easily accessible these are, play a central role in determining which kind of elasticities are observed. Uncompensated margins, in fact, diverge across windows and converge towards intertemporal elasticities in the observational window, where expectations lose power and income effects disappear. Similarly, intertemporal responses get loss-averse when expectations are more distant: wage losses retain an elastic effect while gains are rapidly discounted. Workers' behavior is thus simultaneously neoclassical and reference-dependent, as the type of response is largely determined by how wage changes are framed with reference to expectations or previous realizations.",
+  "title_relatable": "Why workers ignore some pay cuts but fight others",
+  "hook": "Workers respond to wage changes differently depending on whether they expect them—losses sting more than gains feel good, but only when expectations are clear.",
+  "summary": "Researchers combined lab experiments and real gig-work data to measure how workers adjust hours when pay changes. They found workers behave two ways depending on context: when expectations are front-of-mind, they show loss aversion (fighting a 10% cut harder than they'd pursue a 10% raise); when expectations fade, income effects vanish and they shift toward simple neoclassical economics. Framing matters enormously—the same wage cut either triggers elastic resistance or gets absorbed, depending on whether workers anticipated it.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 629,
+  "tokens_out": 189,
+  "cost_usd": 0.0012592,
+  "ingested_at": "2026-05-30T16:55:55.207080+00:00"
+}

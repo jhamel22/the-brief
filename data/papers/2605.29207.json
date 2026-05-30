@@ -1,0 +1,22 @@
+{
+  "id": "2605.29207",
+  "arxiv_url": "https://arxiv.org/abs/2605.29207",
+  "announced_date": "2026-05-28",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "From Augmentation to Reconstruction: Guiding the AI Disruption to the Good Place",
+  "authors": "David M. Rothschild, Jake M. Hofman, Markus Mobius, Brendan Lucier, Eleanor Dillon, Daniel G. Goldstein, Nicole Immorlica, Aleksandrs Slivkins",
+  "abstract": "Artificial intelligence feels omnipresent, yet the disruption many expect has not fully arrived. The main reason is not model capability, nor even the tools built to harness those models. Rather, most organizations are still using AI to accelerate workflows designed for a pre-AI world. We offer a three-stage lens: Augmentation, Automation, and Reconstruction, and argue that the most consequential disruption resides in the third stage where workflows and markets are rebuilt around delegation, machine-to-machine interaction, continuous monitoring, and auditable constraints. Achieving this system-level transformation takes time: it requires trust and accountability infrastructure, machine-legible and interoperable data and interfaces, the design and adoption of these new workflows, and economic incentives that favor reconstruction rather than local optimization: the complementary investments that produce the familiar \"productivity J-curve\" of general-purpose technologies. We illustrate this transition through examples in consumer markets, education, news, and coding. Finally, we emphasize a normative point: the agentic future is not predetermined. Leaders must both skate to where the puck is going and actively steer it toward a good place, ensuring innovation delivers welfare gains felt by businesses and consumers around the world.",
+  "title_relatable": "Why AI hasn't disrupted your job yet—and what comes next",
+  "hook": "Most companies use AI to speed up old workflows, not reimagine them. Real disruption requires rebuilding markets from scratch.",
+  "summary": "AI's biggest impact won't come from faster tools—it'll come when organizations redesign entire workflows around machine judgment, automated machine-to-machine transactions, and continuous auditing. That transition requires trust infrastructure, interoperable data, and economic incentives favoring system-wide change over incremental gains. Without deliberate choices by leaders now, the agentic future defaults to outcomes nobody chose.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 708,
+  "tokens_out": 163,
+  "cost_usd": 0.0012184000000000001,
+  "ingested_at": "2026-05-30T16:56:01.389693+00:00"
+}

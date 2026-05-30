@@ -1,0 +1,22 @@
+{
+  "id": "2605.29785",
+  "arxiv_url": "https://arxiv.org/abs/2605.29785",
+  "announced_date": "2026-05-28",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Long-Term Health and Human Capital Effects of Universal Health Care and Mass Literacy: Evidence from Cuba",
+  "authors": "Giovanni Mellace, Rok Spruk",
+  "abstract": "We estimate long-run effects of Cuba's 1961 National Health Service and contemporaneous National Literacy Campaign using synthetic-control methods on newly assembled series for 21 former European colonies in the Americas, 1900--2022. Relative to synthetic Cuba, infant mortality falls 15--29 percent and average years of schooling rise 1.5--2 years; both effects are large, persistent, and robust to augmented SCM, synthetic difference-in-differences, interactive fixed effects, and matrix completion. Life-expectancy gains attenuate after 1990, consistent with the post-Soviet Special Period, suggesting that bundled health and literacy reforms permanently raise early-life survival and human capital, with smaller and less robust effects on adult longevity.",
+  "title_relatable": "Did Cuba's 1961 health and literacy programs actually work long-term?",
+  "hook": "Cuba's 1961 health and literacy reforms cut infant mortality by 15–29% and added 1.5–2 years of schooling—effects that persisted for decades despite economic collapse.",
+  "summary": "Researchers compared Cuba's health and education outcomes after 1961 against a synthetic control group of similar countries, tracking 122 years of data. Infant mortality dropped sharply and stayed down; schooling gains were similarly durable, though longevity improvements stalled after 1990 when Soviet aid dried up. The findings suggest that bundled public health and mass education programs create permanent early-life advantages even under economic stress.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 566,
+  "tokens_out": 191,
+  "cost_usd": 0.0012167999999999999,
+  "ingested_at": "2026-05-30T16:55:58.758034+00:00"
+}

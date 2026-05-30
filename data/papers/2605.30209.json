@@ -1,0 +1,23 @@
+{
+  "id": "2605.30209",
+  "arxiv_url": "https://arxiv.org/abs/2605.30209",
+  "announced_date": "2026-05-28",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN",
+    "stat.AP"
+  ],
+  "title_original": "Betting Against Integrity: Identifying Match-Fixing Through In-Play Market Dynamics",
+  "authors": "David Winkelmann, Maya Vienken, Christian Deutscher, Roland Langrock",
+  "abstract": "Match-fixing undermines the integrity of sport by eroding public trust and threatening the financial sustainability of clubs and leagues. The global expansion of sports betting markets has created new incentives and opportunities for manipulation, calling for rigorous, data-driven monitoring tools. Football, which accounts for the largest share of global betting turnover, remains particularly exposed: integrity reports continue to flag several suspicious matches, with past scandals in Italy and Turkey underlining the problem's persistence. This study uses high-frequency live-betting data from the Italian Serie B (2018/19-2020/21) to explore statistical approaches for detecting abnormal betting behaviour. A state-space modelling framework is employed to describe standard betting market dynamics and to predict expected betting volumes conditional on match characteristics. Deviations from these expectations can then be analysed using outlier detection techniques to identify potentially suspicious periods. The results demonstrate how statistical modelling can contribute to the early identification of irregular betting patterns, thereby supporting integrity assurance in live sports betting markets.",
+  "title_relatable": "Can betting odds reveal when football matches are fixed?",
+  "hook": "Suspicious betting patterns spike right before match-fixing occurs. Researchers developed a statistical early-warning system using Italian football data.",
+  "summary": "Researchers analyzed high-frequency betting data from Italian Serie B matches to detect match-fixing through abnormal wagering behavior. Using statistical models to predict normal betting volume, they identified unusual patterns that deviate from expected levels—potential signatures of manipulation. Since football betting generates trillions annually and integrity scandals recur globally, a data-driven detection system could catch fixers before the fraud spreads.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 621,
+  "tokens_out": 159,
+  "cost_usd": 0.0011328,
+  "ingested_at": "2026-05-30T16:55:51.868662+00:00"
+}

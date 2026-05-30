@@ -1,0 +1,24 @@
+{
+  "id": "2605.29129",
+  "arxiv_url": "https://arxiv.org/abs/2605.29129",
+  "announced_date": "2026-05-27",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CY",
+    "econ.GN"
+  ],
+  "title_original": "Governing Technical Debt in Agentic AI Systems",
+  "authors": "Muhammad Zia Hydari, Raja Iqbal, Narayan Ramasubbu",
+  "abstract": "Agentic AI systems are increasingly being explored as production infrastructure: they reason over multiple steps, call tools, act through workflows, and adapt through memory and feedback. These systems create governance challenges that are not fully captured by traditional software or predictive ML technical debt. We define Agentic Technical Debt as the accumulated liability created when prompts, memory, tool schemas, orchestration graphs, control policies, and observability routines are patched together faster than they can be validated, standardized, and governed. We define Stochastic Tax as the recurring operating burden of keeping probabilistic agent behavior within acceptable bounds. The distinction matters: debt is a stock of design and governance liability, while the tax is a flow of operating cost that arises because stochastic agents act through tools and workflows. We outline how managers can make both visible through lightweight dashboards and governance controls.",
+  "title_relatable": "Why AI agents quietly become expensive to manage",
+  "hook": "AI systems that act autonomously create hidden costs that traditional software metrics miss—and companies aren't measuring them yet.",
+  "summary": "AI agents that reason, call tools, and adapt create two new problems: accumulated design debt (poorly patched prompts and workflows) and ongoing \"stochastic tax\" (the cost of keeping probabilistic behavior reliable). These differ fundamentally from traditional technical debt because agents act through real tools and workflows, not just return predictions. The authors propose dashboards and governance controls to make both visible and manageable.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 588,
+  "tokens_out": 155,
+  "cost_usd": 0.0010904,
+  "ingested_at": "2026-05-30T16:56:04.132216+00:00"
+}

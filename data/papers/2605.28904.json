@@ -1,0 +1,22 @@
+{
+  "id": "2605.28904",
+  "arxiv_url": "https://arxiv.org/abs/2605.28904",
+  "announced_date": "2026-05-27",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Mobile Foreigners: Mortgage Lock-In and H-1B Demand",
+  "authors": "Duha T. Altindag, John M. Nunley, R. Alan Seals",
+  "abstract": "The 2022 rise in U.S. mortgage rates increased relocation costs for homeowners with low-rate mortgages. This cost varies across destinations because each draws workers from a different mix of labor markets. We build an in-migration mortgage-payment wedge from HMDA loans and pre-shock IRS migration networks. From 2017 to 2024, higher wedges reduce college-educated homeowner in-migration, leave renters unaffected, and raise H-1B sponsorship requests. The implied offset is 14 H-1B sponsorship requests per 100 deterred college-educated domestic in-migrants. We show that mortgage lock-in operates as a destination-side labor-market shock that shifts part of firms' adjustment toward employer-sponsored immigration.",
+  "title_relatable": "Why higher mortgage rates are boosting H-1B visa demand",
+  "hook": "Rising mortgage rates trapped homeowners in cheap loans, making relocation too expensive. Companies responded by sponsoring foreign workers instead.",
+  "summary": "High mortgage rates made it expensive for homeowners with old, low-rate mortgages to move, especially to pricey destinations. Using IRS migration records and loan data, researchers found that stronger mortgage lock-in reduced college-educated domestic migration to affected cities but didn't deter renters. Firms compensated by filing 14 additional H-1B sponsorship requests for every 100 deterred domestic workers—revealing how a financial shock to housing can reshape immigration policy's real-world effects.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 581,
+  "tokens_out": 185,
+  "cost_usd": 0.0012048,
+  "ingested_at": "2026-05-30T16:56:06.782106+00:00"
+}
