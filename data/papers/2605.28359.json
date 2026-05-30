@@ -1,0 +1,23 @@
+{
+  "id": "2605.28359",
+  "arxiv_url": "https://arxiv.org/abs/2605.28359",
+  "announced_date": "2026-05-27",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.AI",
+    "q-fin.TR"
+  ],
+  "title_original": "From Knowing to Doing: A Memory-Controlled Benchmark for LLM Trading Agents on Stock Markets",
+  "authors": "Taojie Zhu, Wentao Zhao, Rui Sun, Beidi Luan, Jiacheng Lu, Sinuo Wang, Jing Li, Daxin Jiang, Yonghong He, Zuo Bai",
+  "abstract": "Evaluating whether large language model (LLM) agents can profit in capital markets is increasingly framed as end-to-end trading: place an agent in a historical market, let it trade, and measure portfolio returns. This setup is vulnerable to two evaluation failures. First, long backtests often overlap with the knowledge cutoffs of frontier LLMs, allowing memorized tickers, dates, prices, and market narratives to substitute for investment reasoning. Second, raw returns are a noisy proxy for stock-selection ability, since positive performance may come from market beta, style exposure, or favorable regimes rather than genuine alpha. We introduce KTD-Fin (Knowing-To-Doing Financial Benchmark), an end-to-end stock-market trading benchmark that addresses both issues. KTD-Fin uses a data-side masking protocol to anonymize key identifiers and calendar information consistently across prompts and tools, separating historical market memory from investment decision-making. It also incorporates a Barra-style performance attribution framework that decomposes portfolio returns into market, style, and stock-selection alpha components. Across ten frontier LLM agents evaluated on the Chinese CSI300 over a 2024--2026 window, masking substantially changes agent rationales, pushing them towards anonymized factor-based reasoning. Attribution analysis further shows that LLM agents' cumulative returns under leakage-controlled evaluation are largely explained by passive market and style exposure, with limited evidence of persistent stock-selection alpha. These findings suggest that financial LLM benchmarks should evaluate not only whether an agent makes money, but also whether the source of returns reflects transferable investment skill. We release KTD-Fin as a reproducible template for leakage-controlled and attribution-aware evaluation of LLM trading agents.",
+  "title_relatable": "Do AI traders actually pick winning stocks, or just get lucky?",
+  "hook": "A new benchmark reveals LLM trading agents' profits come mostly from market luck, not skill—when you mask the data they memorized.",
+  "summary": "Researchers built a test for LLM trading agents that blocks models from cheating on historical data (ticker symbols, dates, prices) and breaks down portfolio returns to isolate real stock-picking skill. Testing ten frontier LLMs on Chinese stocks, they found agents mostly captured broad market and style exposure rather than genuine alpha—suggesting AI traders haven't learned to pick winners, just to ride waves.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 856,
+  "tokens_out": 165,
+  "cost_usd": 0.0013448000000000002,
+  "ingested_at": "2026-05-30T16:32:19.606421+00:00"
+}
