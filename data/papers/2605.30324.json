@@ -1,0 +1,26 @@
+{
+  "id": "2605.30324",
+  "arxiv_url": "https://arxiv.org/abs/2605.30324",
+  "announced_date": "2026-05-28",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.DS",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "On Language Generation in the Limit with Bounded Memory",
+  "authors": "Jon Kleinberg, Anay Mehrotra, Amin Saberi, Grigoris Velegkas",
+  "abstract": "We study language generation in the limit under bounded memory. In this task, a learner observes examples from an unknown target language one at a time and must eventually output only new valid examples. Prior work assumes access to the entire history, a strong assumption since realistic algorithms retain limited past information. Classical work in learning theory shows memory constraints dramatically alter learnability; we extend this to language generation. First, we study memoryless generators. Under a mild enumeration restriction, every countable collection of infinite languages remains generable without memory. Without this restriction, we exactly characterize when memoryless generation is possible. For finite collections, we characterize the optimal minimax density achievable by memoryless generators -- the best density guaranteed against any collection of a given size. This combinatorial bound relies on Sperner's theorem and symmetric chain decompositions. We further show that a sliding window of the last $W$ examples does not improve this worst-case density, whereas allowing it to store $b$ adaptively chosen past examples improves the achievable density for every $b \\geq 1$. Finally, we revisit identification in the limit, where the learner must converge to a single correct hypothesis for the target language. We focus on its incremental variant, where the learner remembers only its previous guess. Here, although exact identification fails on a collection of just three languages, a mild relaxation requiring convergence to an ``approximate'' version of the target is achievable for every finite collection. These results show bounded memory affects these tasks differently: generation remains achievable for every countable collection, while density and identification are confined to finite collections, with guarantees weakening as the collection grows.",
+  "title_relatable": "Does learning language rules require remembering everything?",
+  "hook": "Memory-constrained learners can generate novel sentences from any countable language, but identifying which rule they follow fails on just three languages.",
+  "summary": "A learner observing language examples one-at-a-time must eventually generate only valid new sentences—but with limited memory. This work proves that memoryless generation works for any countable language collection (under mild conditions), using Sperner's theorem to characterize optimal worst-case performance. Crucially, adaptive memory helps more than a simple sliding window, and identifying the exact target rule breaks down with just three language options, though approximate identification always works.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 799,
+  "tokens_out": 174,
+  "cost_usd": 0.0013352000000000001,
+  "ingested_at": "2026-05-30T16:34:50.567343+00:00"
+}

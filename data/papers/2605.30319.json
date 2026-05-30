@@ -1,0 +1,26 @@
+{
+  "id": "2605.30319",
+  "arxiv_url": "https://arxiv.org/abs/2605.30319",
+  "announced_date": "2026-05-28",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.AI",
+    "cs.DS",
+    "cs.LG",
+    "math.ST"
+  ],
+  "title_original": "Improved Guarantees for Heterogeneous Treatment-Effect Estimation via Matrix Completion",
+  "authors": "Anay Mehrotra, Phuc Tran, Van H. Vu, Manolis Zampetakis",
+  "abstract": "A central goal of modern causal inference is estimating heterogeneous treatment effects to answer questions like \"how does an intervention affect each unit,\" rather than only on average. We study this problem with panel-data where we observe $n$ units across $m$ times under unknown, non-uniform treatment assignments. The data in this setting is naturally represented as a matrix of all unit--time treatment effects. Estimating heterogeneous treatment effects can then be expressed as obtaining a good estimation of each row's average in this matrix. This allows us to formulate the problem as matrix completion, which can be solved under natural low-rankness assumptions. However, existing matrix-completion guarantees are not powerful enough to get meaningful bounds for the per-row guarantee required for estimating the heterogeneous treatment effect; roughly speaking, they are only useful for estimating average treatment effect bounds, as also illustrated in a recent line of work. We give a simple, computationally efficient estimator that, without knowledge of the propensities and under standard low-rankness and regularity assumptions, achieves a row-wise $\\ell_2$ error of $\\tilde{O}(\\sqrt{\\frac{1}{n} + \\frac{n}{m^2}})$. Technically, our analysis establishes the first sharp row-wise $\\ell_2$-perturbation bound for low-rank approximation, complementing existing spectral-, Frobenius-, and entrywise perturbation theory.",
+  "title_relatable": "How do we know treatment effects vary by person from incomplete data?",
+  "hook": "New matrix completion method gives sharper per-unit treatment effect estimates without knowing assignment probabilities.",
+  "summary": "Estimating how treatments affect different people requires filling in gaps in panel data (observations of many units over time). Prior matrix completion theory only guaranteed accurate average treatment effects, not individual-level estimates. This work provides an efficient algorithm achieving $\\tilde{O}(\\sqrt{1/n + n/m^2})$ error per unit, with the first tight row-wise perturbation bounds for low-rank approximation—a technical result useful beyond causal inference.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 779,
+  "tokens_out": 173,
+  "cost_usd": 0.0013152,
+  "ingested_at": "2026-05-30T16:34:53.144824+00:00"
+}

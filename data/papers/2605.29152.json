@@ -1,0 +1,24 @@
+{
+  "id": "2605.29152",
+  "arxiv_url": "https://arxiv.org/abs/2605.29152",
+  "announced_date": "2026-05-27",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "math.OC",
+    "stat.ML"
+  ],
+  "title_original": "Do Deep Networks Forget Initialization? A Forgetting-Time View of Practical Inductive Bias",
+  "authors": "Mohua Das, Pierfrancesco Beneventano, Shibshankar Dey, Gareth H. McKinkey, Tomaso Poggio",
+  "abstract": "Randomly initialized neural networks induce a prior over functions, but the predictor used in practice is produced only after training. We ask how much of this initial bias survives the training pipeline. To make the question measurable, we introduce initialization memory: the dependence of the validation-selected predictor on the scale of the random initialization. We perform controlled CIFAR-10 experiments on ResNets where initialization memory already sharply separates training regimes. Low-learning-rate SGD can interpolate while still remembering its initialization: on ResNet-9 with batch size $b=128$, test accuracy varies by $26.5$ percentage points across initialization scales despite $\\ge99.5\\%$ training accuracy. This is not undertraining: extending the same low-learning-rate regime to $5{,}000$ epochs leaves the spread essentially unchanged. In contrast, Adam-family methods largely erase the dependence. SGD can also be made to forget when larger learning rates are paired with explicit $L_2$ norm control. We interpret these findings in terms of the time scale of forgetting: gradient-flow-like dynamics can preserve initialization memory, whereas stochastic finite-step effects, explicit norm decay, and adaptive preconditioning erase it on scales governed by the size of explicit or implicit regularization. The practical inductive bias of a trained network is therefore not the architectural prior alone, but the architectural prior after being filtered by the forgetting dynamics of the training pipeline; and the same regularizers that improve generalization are precisely those that erase memory of initialization.",
+  "title_relatable": "Do neural networks forget where they started?",
+  "hook": "Random initialization shapes trained networks more than expected—a 26.5% accuracy gap across initialization scales despite perfect training fit.",
+  "summary": "Neural networks begin with a random prior baked into their weights, but training supposedly washes this away. This work measures how much initial bias survives by tracking initialization memory—how much the final predictor depends on initialization scale. On ResNet-9 trained with low-learning-rate SGD, test accuracy swings 26.5 percentage points across different initialization scales even with near-total training accuracy. Adam and larger learning rates with L2 regularization erase this memory entirely. The key insight: generalization-improving regularization works by erasing initialization dependence, not just by constraining models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 808,
+  "tokens_out": 201,
+  "cost_usd": 0.0014504000000000001,
+  "ingested_at": "2026-05-30T16:35:07.129289+00:00"
+}

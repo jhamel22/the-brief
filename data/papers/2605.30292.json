@@ -1,0 +1,25 @@
+{
+  "id": "2605.30292",
+  "arxiv_url": "https://arxiv.org/abs/2605.30292",
+  "announced_date": "2026-05-28",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "math.ST",
+    "stat.ME"
+  ],
+  "title_original": "Leave a Window Out: Modifying the Jackknife for Predictive Inference in Time Series",
+  "authors": "Hanyang Jiang, Rina Foygel Barber, Ashwin Pananjady, Yao Xie",
+  "abstract": "Conformal prediction methods enjoy strong theoretical and empirical predictive inference performance, provided the data is exchangeable, and predictors are trained in a memoryless fashion. However, these assumptions and constraints are impractical in many real-data settings, such as time series (where temporal dependence violates exchangeability, and where memoryless predictors will inevitably have poor predictive accuracy). Recent work shows that the split conformal prediction method is robust to these issues of memory-based predictors and deviations from exchangeability that are common features of time-series data. However, since using sample splitting can lead to lower accuracy, this motivates asking whether other predictive inference methods (that do not rely on data splitting) could also be reliably used in the time series setting. In this work, we show that the vanilla leave-one-out jackknife can suffer an arbitrary loss of coverage even in canonical time series models with mild temporal dependence. As a remedy, we propose a careful modification tailored to such settings, which we term the \\emph{leave-a-window-out} (LWO) method, and show that it can achieve valid coverage provided that the model-fitting procedure satisfies mild stability properties. Our proofs are based on quantifying the degree to which the data departs from \\emph{cyclic exchangeability}, and we introduce new coefficients to measure the extent of this departure. Experiments on time series data demonstrate that our LWO method often enjoys valid coverage when the vanilla jackknife fails to cover, while producing much narrower intervals than split conformal prediction.",
+  "title_relatable": "How to get reliable uncertainty bands for time-series forecasts",
+  "hook": "Standard confidence methods fail on time series; a modified jackknife achieves valid coverage with narrower intervals than existing alternatives.",
+  "summary": "Conformal prediction methods guarantee reliable confidence intervals, but they break down on time series where data points depend on each other. Researchers show the standard jackknife loses coverage entirely even under mild temporal dependence, then propose leave-a-window-out (LWO)—a tweak that removes blocks of nearby data rather than single points. LWO recovers valid coverage under mild stability conditions and produces tighter intervals than split conformal on real time-series benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 802,
+  "tokens_out": 178,
+  "cost_usd": 0.0013536,
+  "ingested_at": "2026-05-30T16:34:55.876474+00:00"
+}

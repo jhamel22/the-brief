@@ -1,0 +1,27 @@
+{
+  "id": "2605.30253",
+  "arxiv_url": "https://arxiv.org/abs/2605.30253",
+  "announced_date": "2026-05-28",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "math.FA",
+    "math.OC",
+    "math.PR",
+    "stat.CO"
+  ],
+  "title_original": "Wasserstein Contraction of Coordinate Ascent Variational Inference",
+  "authors": "Rocco Caprio, Adrien Corenflos, Sam Power",
+  "abstract": "We study the contraction in Wasserstein distance of the coordinate ascent variational inference algorithm. This is shown to hold under a transport-information inequality at the fixed points and a functional smoothness condition. The results are general and sharp, allow for local convergence guarantees, hold for general smooth manifolds, and also in some non-smooth spaces. We consider applications to Bayesian Gaussian Mixture Models, and high-dimensional Bayesian Probit Regression, and Logistic Regression with Pólya-Gamma random variables (i.e. Jaakkola-Jordan's algorithm).",
+  "title_relatable": "How fast does coordinate ascent variational inference actually converge?",
+  "hook": "Proof that a standard approximate inference algorithm contracts toward the true distribution, with convergence rates applicable to real models.",
+  "summary": "Coordinate ascent variational inference is a workhorse algorithm for Bayesian computation, but its convergence behavior was poorly understood. This work proves the algorithm provably contracts toward the true posterior in Wasserstein distance under mild conditions on smoothness and information geometry. The results apply broadly—including Gaussian mixtures, Bayesian logistic regression, and probit models—and provide both global and local convergence guarantees on smooth and non-smooth spaces.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 573,
+  "tokens_out": 174,
+  "cost_usd": 0.0011544,
+  "ingested_at": "2026-05-30T16:35:01.046095+00:00"
+}

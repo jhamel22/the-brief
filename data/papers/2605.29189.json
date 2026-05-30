@@ -1,0 +1,24 @@
+{
+  "id": "2605.29189",
+  "arxiv_url": "https://arxiv.org/abs/2605.29189",
+  "announced_date": "2026-05-27",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "math.ST",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "title_original": "Bayesian Multiplicity Correction in the Probabilistic Forward Stepwise Framework",
+  "authors": "Andrew Womack, Daniel Taylor-Rodriguez",
+  "abstract": "We develop a natural Bayesian multiplicity-correcting prior distribution within the probabilistic forward stepwise representation of model space priors for regression problems. The proposed prior, obtained from making an analogy to the Holm procedure, exhibits behavior closely aligned with that of the Matryoshka doll prior. We compare both priors to several other priors, including some recently put forward as objective choices for model space prior probabilities. Our comparisons indicate that adequate multiplicity correction requires a degree of sparsity that many recommended priors do not provide, and we argue that multiplicity correction itself offers a principled and transparent criterion for specifying model space priors in regression.",
+  "title_relatable": "How to pick the right regression model without fooling yourself?",
+  "hook": "A Bayesian method that automatically penalizes overfitting by building multiplicity correction into model selection priors, matching classical statistical safeguards.",
+  "summary": "When fitting regression models, testing many candidate variables inflates false discovery risk—a problem classical statistics solves with multiplicity correction. This work builds that logic into Bayesian model priors directly, proposing a prior distribution that naturally penalizes adding too many variables. The approach outperforms several recommended \"objective\" priors at avoiding spurious model inclusion, suggesting practitioners need stronger sparsity constraints than typically recommended.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 576,
+  "tokens_out": 170,
+  "cost_usd": 0.0011408,
+  "ingested_at": "2026-05-30T16:35:04.302444+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.28961",
+  "arxiv_url": "https://arxiv.org/abs/2605.28961",
+  "announced_date": "2026-05-27",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "math.OC"
+  ],
+  "title_original": "Dynamics of Stochastic Momentum with Sparse Updates in High Dimensions",
+  "authors": "Katie Everett, Elliot Paquette",
+  "abstract": "Existing theory of momentum assumes that gradients arrive at every parameter at a roughly constant rate, an assumption violated in practice by heavy-tailed data distributions and modern architectures. We theoretically analyze the dynamics of two tractable models of momentum under sparse updates: a least squares model with sparse inputs and a logistic regression model with a rare class. Both admit exact closed-form second-moment dynamics whose high-dimensional limits we characterize across three scaling exponents for sparsity, batch size, and momentum decay. The phase structure on both problems is governed by the ratio of two intrinsic timescales: a momentum retention timescale (how many active updates the buffer survives) and a learning timescale (how many active updates it takes to reduce the squared error). When learning is much slower than retention, the limit matches SGD; when learning is faster, the system is unstable; where the timescales coincide, we recover classical heavy-ball dynamics. The oscillatory dynamics occur at different momentum values for different token sparsity, creating a spectral conflict for global momentum across token frequencies.",
+  "title_relatable": "Why momentum algorithms fail when data is sparse and uneven?",
+  "hook": "Theory explains momentum breakdown under sparse gradient updates, predicting instability and oscillation across different data frequencies.",
+  "summary": "Momentum optimization works well when gradients arrive steadily, but real data—especially imbalanced classes or sparse architectures—delivers them unevenly. This paper solves the dynamics exactly for least squares and logistic regression with sparse inputs, showing momentum's behavior depends on two competing timescales: how long the momentum buffer survives versus how fast the model learns. When learning outpaces buffer decay, the system oscillates wildly; when they're balanced, you get classical heavy-ball motion. The mismatch reveals why a single global momentum parameter fails across sparse data with different frequencies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 667,
+  "tokens_out": 197,
+  "cost_usd": 0.0013215999999999998,
+  "ingested_at": "2026-05-30T16:35:18.595459+00:00"
+}

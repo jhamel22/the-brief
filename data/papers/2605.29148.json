@@ -1,0 +1,23 @@
+{
+  "id": "2605.29148",
+  "arxiv_url": "https://arxiv.org/abs/2605.29148",
+  "announced_date": "2026-05-27",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning",
+  "authors": "Tommaso Cesari, Roberto Colomboni",
+  "abstract": "We study stochastic decision-theoretic online learning with full information and event-level pure differential privacy. A COLT open problem of Hu and Mehta asks to determine the optimal gap-dependent regret rate for stochastic decision-theoretic online learning under pure event-level differential privacy. For $K$ actions, losses in $[0,1]$, and a unique best action separated from the second-best action by gap $Δ_{\\min}$, the known lower bound is of order $ \\frac{\\log K}{\\min\\{Δ_{\\min},\\varepsilon\\}}, $ or equivalently, up to universal constants, of order \\[ \\frac{\\log K}{Δ_{\\min}}+\\frac{\\log K}{\\varepsilon}. \\] We give a horizon-free pure-DP algorithm and prove the explicit regret bound \\[ \\operatorname{Reg}_T \\le 1000 \\cdot \\left(\\frac{\\log K}{Δ_{\\min}}+\\frac{\\log K}{\\varepsilon}\\right) \\] for every horizon $T$. The numerical constant is not optimized. The algorithm partitions time into blocks of exponentially increasing size, plays a single action throughout each block, and chooses the next action by an exponential mechanism applied to a data-independent random prefix of the previous block. The random prefix converts block regret into a sum, over all prefix lengths, of softmax selection errors. A single entropy-potential argument controls all privacy-dominated large-gap actions at cost $\\log K/\\varepsilon$.",
+  "title_relatable": "How to learn online without revealing your preferences",
+  "hook": "Solves a COLT open problem: optimal private learning achieves gap-dependent regret of log(K)/Δ_min + log(K)/ε without knowing the time horizon.",
+  "summary": "Online learning algorithms must often pick actions (like ad placements) while protecting individual privacy via differential privacy. This work closes a theoretical gap by proving the first algorithm matching the conjectured optimal regret bound for pure-DP decision-making—splitting cost between the hardness of distinguishing close-performing actions and privacy's statistical tax. The method uses exponential-time blocks with random prefixes to convert privacy noise into learnable signal.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 802,
+  "tokens_out": 182,
+  "cost_usd": 0.0013696,
+  "ingested_at": "2026-05-30T16:35:10.061021+00:00"
+}

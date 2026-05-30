@@ -1,0 +1,23 @@
+{
+  "id": "2605.29032",
+  "arxiv_url": "https://arxiv.org/abs/2605.29032",
+  "announced_date": "2026-05-27",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning",
+  "authors": "Christoph Dann, Yishay Mansour, Mehryar Mohri",
+  "abstract": "Model-based reinforcement learning (MBRL) agents typically learn world models by minimizing predictive loss. However, powerful RL optimizers inevitably exploit minor model inaccuracies, leading to simulator exploitation and a reality gap where policies succeed in simulation but fail in the real world. We propose that the objective for learning simulators should be strategic robustness rather than predictive accuracy, and formulate this as a zero-sum minimax game between a model player and an adversarial policy player. We provide a comprehensive theoretical analysis: (1) an online learning guarantee showing the game is learnable with sublinear regret bounds; (2) a tractable critic-based simplification bounding the global policy-value gap by the local critic's loss; and (3) an Error-MDP duality, proving that finding the worst-case policy is formally dual to a standard RL problem where the reward is the one-step critic error. This duality yields a provably convergent active data selection algorithm. Experiments on continuous control tasks demonstrate that our approach reduces prediction error in strategically important regions by $1.5$-$2.2\\times$ and enables policies trained purely in simulation to match near-optimal real-world performance.",
+  "title_relatable": "How to train simulators that don't fool reinforcement learning agents",
+  "hook": "A minimax framework reduces simulation-to-reality gap by 1.5–2.2× on continuous control, with convergence guarantees.",
+  "summary": "Model-based RL agents exploit tiny simulator inaccuracies, causing learned policies to fail in the real world. Rather than chasing predictive accuracy, the authors frame simulator learning as a game where a model defends against an adversarial policy. They prove the problem is learnable with sublinear regret, show how to simplify it via critic loss bounds, and reveal an Error-MDP duality that connects to standard RL. Experiments show this catches errors where policies matter most, letting purely simulated training match real-world performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 709,
+  "tokens_out": 201,
+  "cost_usd": 0.0013712000000000002,
+  "ingested_at": "2026-05-30T16:35:15.801547+00:00"
+}

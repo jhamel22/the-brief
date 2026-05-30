@@ -1,0 +1,26 @@
+{
+  "id": "2605.30327",
+  "arxiv_url": "https://arxiv.org/abs/2605.30327",
+  "announced_date": "2026-05-28",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CL",
+    "math.ST",
+    "stat.ML"
+  ],
+  "title_original": "Reasoning with Sampling: Cutting at Decision Points",
+  "authors": "Felix Zhou, Anay Mehrotra, Quanquan C. Liu",
+  "abstract": "Frontier reasoning models are produced by posttraining base language models with reinforcement learning. Recent work has challenged this by showing that sampling from a sharpened version of the base model's distribution, a so-called power distribution, elicits comparable reasoning without additional training, curated datasets, or verifiers. However, making this method practical requires efficiently sampling from the power distribution. A sampler needs to \"mix\" to the power distribution, which necessitates moving between modes of the target distribution; intuitively, e.g., trying different reasoning strategies. The samplers proposed in prior works repeatedly select a \"cut\" position in the current reasoning trace uniformly at random and resample the suffix from that position onward. However, reasoning traces typically contain a few consequential decisions (e.g., the choice of proof strategy or algorithm), and we observe that a uniformly chosen cut tends to rewrite local details rather than revisit decision points. We introduce an algorithm (Entropy-Cut Metropolis-Hastings) that uses the base model's next-token entropy as a proxy to identify key decision points and resample from those positions. We empirically verify that entropy jumps are a useful proxy for decision points and, in a stylized model of reasoning, prove that our method's mixing time scales with the number of decisions in a trace rather than with the number of tokens, which can be much larger. Across MATH500, HumanEval, GPQA Diamond, and AIME26, our method consistently improves over baselines and RL-trained models.",
+  "title_relatable": "How to sample better reasoning without extra training?",
+  "hook": "A sampling method that identifies key decision points in reasoning traces outperforms RL-trained models on MATH500, HumanEval, and AIME26.",
+  "summary": "Sampling from a sharpened version of a base language model can elicit strong reasoning without reinforcement learning, but requires efficient sampling. The authors propose Entropy-Cut Metropolis-Hastings, which uses next-token entropy to identify critical decision points—like choosing a proof strategy—rather than resampling uniformly at random positions. On math and coding benchmarks, this approach mixes faster and beats baselines.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 769,
+  "tokens_out": 175,
+  "cost_usd": 0.0013152,
+  "ingested_at": "2026-05-30T16:34:47.849941+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.30289",
+  "arxiv_url": "https://arxiv.org/abs/2605.30289",
+  "announced_date": "2026-05-28",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.AP",
+    "stat.ML"
+  ],
+  "title_original": "Statistical Embeddings for Similarity, Retrieval, and Interpretable Alignment of Numeric Tabular Datasets",
+  "authors": "M. Ross Kunz, John Merickel, Keith Wilson",
+  "abstract": "Numeric tabular datasets are the dominant data format in scientific practice, yet large language models lack native mechanisms for representing numeric datasets in a meaningful way across heterogeneous feature spaces. Existing approaches either target predictive modeling over individual datasets, which requires a shared set of variable definitions, or lack mechanisms for interpretable cross-dataset alignment. The proposed methodology characterizes numeric tabular datasets through structured exploratory data analysis descriptors, embeds those descriptors into a shared vector space using a pretrained sentence transformer, and quantifies cross-dataset similarity via Canonical Correlation Analysis (CCA). Furthermore, a penalized formulation of CCA is applied to recover sparse, interpretable variable-level correspondences between datasets, identifying which statistical descriptors or variable-level quantities drive cross-dataset alignment without requiring shared variable names or feature conventions. Differential privacy is optionally applied to the descriptor set prior to embedding, supporting deployment in sensitive data contexts without requiring access to raw observations at time of comparison. The methodology is evaluated across 15 datasets spanning general-purpose benchmarks, materials informatics, and nuclear-grade graphite characterization. Results demonstrate a total P@1 score of 0.9, with known nearest-neighbor retrieval and cluster structure remaining robust across embedding ablations and differential privacy budgets. The proposed framework provides a principled pathway for integrating heterogeneous numeric data into retrieval-augmented generation pipelines while preserving statistical context, with direct applications to data-driven algorithm selection and simulation model initialization for unknown datasets.",
+  "title_relatable": "How do we find similar data tables when they don't share column names?",
+  "hook": "A method to find and align numeric datasets across different fields by analyzing their statistical properties rather than raw values, achieving 90% accuracy on retrieval tasks.",
+  "summary": "Scientific tables often have completely different column names even when measuring similar things, making cross-dataset search nearly impossible. This work embeds tables into a shared space by analyzing their statistical descriptors (mean, variance, distribution shape) rather than raw numbers, then uses sparse correlation analysis to identify which statistical patterns link tables together. The approach works across 15 diverse datasets—from materials science to nuclear graphite studies—and supports differential privacy for sensitive data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 765,
+  "tokens_out": 178,
+  "cost_usd": 0.001324,
+  "ingested_at": "2026-05-30T16:34:58.619111+00:00"
+}
