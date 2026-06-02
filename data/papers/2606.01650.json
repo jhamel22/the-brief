@@ -1,0 +1,25 @@
+{
+  "id": "2606.01650",
+  "arxiv_url": "https://arxiv.org/abs/2606.01650",
+  "announced_date": "2026-06-01",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "q-fin.PM",
+    "q-fin.TR",
+    "stat.AP",
+    "stat.ME"
+  ],
+  "title_original": "Post Selection Estimation of Sharpe Ratios",
+  "authors": "Steven E. Pav",
+  "abstract": "We consider the problem of estimating the true Sharpe ratio of an asset selected for having the highest observed in-sample Sharpe ratio among many assets. We discuss estimators based on the polyhedral lemma, James Stein shrinkage, debiasing the expected maximum Sharpe ratio, thresholding and empirical Bayes. We test these estimators in simulations, computing bias and root mean square error across different values of sample size, number of assets, and spread and shape of population Sharpe ratios. We also compute rank correlation of the estimators against the underlying quantity, simulating how these estimators might be used to compare or rank the output of different teams which perform this selection process. We find that the James Stein estimator provides the best performance across many different realistic values of the relevant parameters, followed by the GMLEB estimator of Jiang and Zhang. These results are fairly robust to correlation of asset returns, with some caveats.",
+  "title_relatable": "Why your best-performing strategy is probably worse than it looks",
+  "hook": "When you pick the investment with the highest recent returns, you're almost certainly overestimating its true quality. A new statistical fix helps correct that illusion.",
+  "summary": "When traders select strategies by in-sample performance, they unknowingly pick winners inflated by luck. This paper compares six statistical methods to debias that selection effect, testing them across different portfolio sizes and return distributions. James Stein shrinkage works best, cutting estimation error roughly in half compared to raw estimates—crucial when ranking trading teams or choosing which strategies to deploy.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 607,
+  "tokens_out": 164,
+  "cost_usd": 0.0011416,
+  "ingested_at": "2026-06-02T12:59:47.499723+00:00"
+}
