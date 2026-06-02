@@ -1,0 +1,26 @@
+{
+  "id": "2606.00851",
+  "arxiv_url": "https://arxiv.org/abs/2606.00851",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.SD",
+    "cs.CL",
+    "cs.HC",
+    "cs.LG",
+    "eess.AS"
+  ],
+  "title_original": "Sympatheia: Emotionally Adaptive Voice Assistant with Continuous Affect Conditioning",
+  "authors": "Sukru Samet Dindar, Riki Shimizu, Xilin Jiang, Nima Mesgarani",
+  "abstract": "Empathetic spoken dialogue systems must infer a user's emotional state to respond appropriately, yet everyday speech often carries weak, neutral, or ambiguous affective cues. To address this, we introduce Sympatheia, a speech-to-speech dialogue framework conditioned on affect inferred from the user's speech and, when available, explicit affect specifications provided as a continuous valence--arousal (VA) control signal by a multimodal sensing module or user interface. To train our model, we construct Sympatheia-18k, an emotion-conditioned synthetic spoken dialogue corpus with 12 emotion anchors. This dataset includes an emotional split for learning affective speech behavior, and a neutral split that pairs emotionally neutral queries with multiple emotion-conditioned responses to isolate explicit emotion control in emotionally ambiguous cases. Empirical results show that Sympatheia outperforms speech conversational baselines in generating responses whose semantic content and spoken delivery are both emotionally appropriate. We further show that the same VA interface can integrate emotion estimates from diverse sensing modules, including facial expression, biosignals, and textual affect descriptions, improving response alignment when speech alone provides limited emotional evidence. These results suggest that continuous affect conditioning is an effective practical step for building emotionally adaptive voice assistants.",
+  "title_relatable": "Can voice assistants learn to match your emotional state?",
+  "hook": "New system generates emotionally appropriate spoken responses by conditioning on valence-arousal signals from speech, facial expressions, or biosensors—outperforms neutral baselines on emotional relevance.",
+  "summary": "Voice assistants today ignore emotional context entirely. Sympatheia conditions speech synthesis on continuous emotion signals (valence and arousal) inferred from the user's voice or fused from facial, heart-rate, and text cues. Trained on 18k dialogue pairs with 12 emotion anchors, it generates responses that match both semantic intent and emotional tone—especially useful when speech alone sounds neutral. The system works across multiple sensing modalities, making it practical for real assistants.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 726,
+  "tokens_out": 192,
+  "cost_usd": 0.0013488000000000003,
+  "ingested_at": "2026-06-02T12:57:18.589955+00:00"
+}

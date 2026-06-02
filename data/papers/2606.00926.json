@@ -1,0 +1,23 @@
+{
+  "id": "2606.00926",
+  "arxiv_url": "https://arxiv.org/abs/2606.00926",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "Task Structure Reverses Layerwise State Encoding in Sequence Models",
+  "authors": "Yuhang Jiang",
+  "abstract": "Mechanistic studies of sequence models often treat layerwise state encodings as architectural traits: recurrent models concentrate readable state, attention-based models distribute it. We find that the same architecture reverses this profile when the task changes. Across Transformers, Mamba, Mamba-2, LSTMs, and GRUs, Parity is concentrated late in Mamba and the recurrent baselines and built gradually by Transformer; on bounded-depth Dyck-k the pattern flips. The same flip appears in fine-tuned Mamba-130M and Pythia-160M, and the Pythia Dyck bottleneck persists at 410M. Two explanations are conflated in the literature: algebraic structure (commutativity) versus computational structure (prefix update vs. stack). To separate them we add a third task: non-commutative S_3 permutation composition. S_3 groups with Parity, not Dyck, on layerwise probing across all five architectures and on Mamba-specific Conv1D attribution, so the grouping tracks computational structure rather than commutativity. Causal interventions show that, in the 4-layer formal models, linearly readable directions are often functionally necessary and can remain important at out-of-distribution lengths on Parity and Dyck. At pretrained scale the picture splits. Fine-tuned Pythia Dyck has a strong middle-layer bottleneck (L6-L7 ablation drops accuracy by roughly 81% at 160M; broader L4-L18 plateau at 410M), far weaker at the best-probe layer. Pretrained Mamba shows the complementary failure mode: its final layer is highly readable, no single probe direction breaks the task on Parity, Dyck, or S_3, yet mid-position activation patching there recovers about 97-98% of the clean-corrupted logit gap. Probing localizes where state is linearly available, not always where the computation is bottlenecked. Mechanistic signatures are properties of architecture and task together.",
+  "title_relatable": "How tasks rewire where neural networks store information",
+  "hook": "Same model architecture encodes information differently depending on the task—Transformers and Mambas flip their internal organization for Parity vs. Dyck languages.",
+  "summary": "Neural networks don't have fixed internal wiring—the same Transformer or Mamba model concentrates information at different layers depending on the task it solves. Across five architectures and three formal language tasks, researchers show that computational structure (how the problem breaks down) matters more than mathematical properties. Crucially, where you can read information with a probe doesn't reveal where the actual computation happens, challenging common mechanistic interpretability assumptions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 905,
+  "tokens_out": 176,
+  "cost_usd": 0.001428,
+  "ingested_at": "2026-06-02T12:57:47.939808+00:00"
+}

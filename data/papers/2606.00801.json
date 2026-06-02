@@ -1,0 +1,26 @@
+{
+  "id": "2606.00801",
+  "arxiv_url": "https://arxiv.org/abs/2606.00801",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CR",
+    "cs.CL",
+    "cs.ET",
+    "cs.LG",
+    "cs.NE"
+  ],
+  "title_original": "Quality-Diversity Evolution for Discovering Diverse Vulnerabilities in LLM Safety",
+  "authors": "Subhadip Mitra",
+  "abstract": "Current approaches to LLM adversarial testing suffer from coverage gaps: manual red-teaming does not scale, LLM-as-attacker methods exhibit mode collapse, and gradient-based approaches produce uninterpretable gibberish. We introduce a quality-diversity evolutionary framework that operates at the semantic level, evolving interpretable attack strategies rather than token sequences. Using MAP-Elites, we maintain a diverse archive of attacks across behavioral dimensions (strategy type, encoding method, prompt length). In experiments across GPT-4o-mini, Claude 3.5 Sonnet, Gemini 2.0 Flash, and an open-weight coding model (Devstral-small-2), we discover distinct vulnerability profiles: GPT-4o-mini is vulnerable to hypothetical and multi-turn framing combined with ROT13 encoding (fitness 0.8), Gemini to direct attacks with ROT13 and multi-turn with Leetspeak (0.8), while Claude shows uniformly ambiguous responses across all strategies (max 0.4). The semantic representation produces interpretable attacks that reveal systematic, model-specific weaknesses, providing actionable insights for improving LLM safety and a reproducible baseline for evaluating future frontier models. Code and experiment artifacts are released at https://github.com/bassrehab/red-queen.",
+  "title_relatable": "Finding how to break each AI model differently, at scale?",
+  "hook": "Evolutionary framework discovers distinct vulnerabilities in GPT-4o, Claude, and Gemini by evolving interpretable attack strategies—revealing GPT-4o's weakness to ROT13 encoding and Claude's unusual resilience.",
+  "summary": "Red-teaming LLMs is stuck: manual effort doesn't scale, automated attacks collapse into repetitive patterns, and gradient-based methods produce nonsense. This work evolves interpretable semantic attack strategies—not token gibberish—across a space of behavioral dimensions using MAP-Elites. Testing four models reveals they break differently: GPT-4o-mini and Gemini both fall to ROT13 combined with framing tricks (0.8 success), while Claude stays ambiguous across all attack types (0.4 max). Released with code.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 728,
+  "tokens_out": 222,
+  "cost_usd": 0.0014704000000000002,
+  "ingested_at": "2026-06-02T12:57:24.917669+00:00"
+}

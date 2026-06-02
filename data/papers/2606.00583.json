@@ -1,0 +1,25 @@
+{
+  "id": "2606.00583",
+  "arxiv_url": "https://arxiv.org/abs/2606.00583",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.MM"
+  ],
+  "title_original": "Improving Visual Representation Alignment Generation with GRPO",
+  "authors": "Shentong Mo, Sukmin Yun",
+  "abstract": "Recent diffusion transformers have demonstrated strong image synthesis capabilities but remain inefficient to train due to weak alignment between generative and discriminative representations. While representation alignment frameworks such as REPA improve convergence by aligning noisy denoising features with pretrained visual encoders, their externally supervised alignment loss is static and lacks adaptivity during training and inference. Existing methods rely on fixed cosine alignment or contrastive objectives, which cannot dynamically balance representation consistency and generation quality, resulting in limited discriminative benefit and failing to optimize alignment in a task-adaptive manner. To address this, we propose VRPO, a reinforcement-based optimization strategy that replaces REPA's static alignment loss with a generative representation policy optimization objective. Instead of enforcing a fixed similarity constraint, VRPO treats representation alignment as a reward-guided process: the model receives adaptive rewards based on generation fidelity, perceptual quality, and semantic coherence between the diffusion features and pretrained visual embeddings. This formulation enables the generator to continuously refine its internal representations toward semantically meaningful directions while improving image quality. Our VRPO-driven training seamlessly integrates into diffusion transformers, introducing negligible computation cost and preserving full compatibility with SiT and DiT architectures. Extensive experiments on ImageNet-256x256 demonstrate that our VRPO-Alignment substantially enhances both convergence and fidelity, achieving up to +1.8 FID improvement and 2.3x faster training compared to REPA under identical compute budgets.",
+  "title_relatable": "Can rewards instead of fixed rules improve image generation training?",
+  "hook": "Replaces static alignment constraints with adaptive rewards, achieving 1.8 FID gain and 2.3× faster training on ImageNet-256.",
+  "summary": "Diffusion transformers struggle to efficiently align generative features with pretrained visual encoders during training. VRPO treats representation alignment as a reinforcement process where the model receives adaptive rewards for generation fidelity and semantic coherence, rather than enforcing fixed similarity constraints. On ImageNet-256, this approach yields 1.8 FID improvement and 2.3× speedup compared to prior alignment methods, with negligible added cost and compatibility with existing DiT and SiT architectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 763,
+  "tokens_out": 190,
+  "cost_usd": 0.0013704000000000001,
+  "ingested_at": "2026-06-02T12:57:39.491435+00:00"
+}

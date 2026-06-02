@@ -1,0 +1,23 @@
+{
+  "id": "2606.02008",
+  "arxiv_url": "https://arxiv.org/abs/2606.02008",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Provable Data Scaling Law for Meta Learning via Complexity Minimization",
+  "authors": "Kazuto Fukuchi, Ryuichiro Hataya, Kota Matsui",
+  "abstract": "Pre-training has become a fundamental paradigm in modern machine learning, with one of its key empirical benefits being reduced downstream sample complexity as the scale of pre-training data increases. However, existing theoretical frameworks for pre-training do not fully explain this phenomenon. In this paper, we introduce complexity minimization, a novel meta-representation learning framework designed to enable theoretical analysis of this scaling behavior, which learns representations by evaluating the downstream model complexity best suited to each domain and minimizing the worst-case such complexity across source domains. Our end-to-end theoretical analysis, spanning pre-training through downstream regression, shows that this framework provably captures this scaling behavior; in particular, we show that the error rate of few-shot adaptation improves as the amount of meta-training data grows. Empirically, we demonstrate that incorporating complexity regularization into existing meta-learning methods consistently improves downstream sample efficiency.",
+  "title_relatable": "Why does more pre-training data always help? A theory that actually explains it",
+  "hook": "New framework proves pre-training reduces downstream sample needs—and shows complexity regularization improves few-shot learning across tasks.",
+  "summary": "Pre-training scales well: more data means better few-shot performance downstream. But why? This work proposes complexity minimization, a meta-learning framework that learns representations by minimizing worst-case model complexity across source domains. The theory traces the full path from pre-training through downstream regression and proves error improves predictably as meta-training data grows. Adding complexity regularization to standard meta-learning methods consistently cuts sample requirements on new tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 633,
+  "tokens_out": 174,
+  "cost_usd": 0.0012024000000000002,
+  "ingested_at": "2026-06-02T12:55:29.195063+00:00"
+}

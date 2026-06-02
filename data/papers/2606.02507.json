@@ -1,0 +1,26 @@
+{
+  "id": "2606.02507",
+  "arxiv_url": "https://arxiv.org/abs/2606.02507",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cond-mat.mtrl-sci",
+    "cs.ET",
+    "cs.LG",
+    "physics.app-ph",
+    "physics.comp-ph"
+  ],
+  "title_original": "Towards Automated Discovery: A Review of Generative Models, Multimodal Learning and Closed-Loop Workflows in Inverse Materials Design",
+  "authors": "Anand Babu, Rogério Almeida Gouvêa, Gian-Marco Rignanese",
+  "abstract": "Inverse materials design is shifting materials discovery from forward prediction to targeted proposal of candidates that satisfy objectives under physical constraints. Here, we review recent advances in generative crystal structure modeling, multimodal learning, and closed-loop design pipelines for crystalline solids. We survey how modern generators learn chemical-structural priors from large databases to enable controllable sampling of periodic structures, and compare leading model classes including variational autoencoders, normalizing flows, autoregressive formulations, and diffusion models. Particular attention is given to how feasibility constraints and physical priors are enforced across the workflow, through representation choices, training objectives, sampling-time guidance, and post-generation screening and relaxation. We also discuss how multimodal learning fuses diverse materials modalities, including crystal structures, thermodynamic, electronic information, microscopy, spectroscopy, processing context, and scientific text, to construct a more universal, transferable representation of chemical space. In addition, diverse inverse-design strategies are examined, particularly those that integrate conditional generation with latent optimization, Bayesian optimization, reinforcement learning, and active learning. Finally, we highlight recurring failure modes, such as surrogate exploitation, diversity collapse, distribution shift, and the stability-synthesizability gap, and outline discovery-grade evaluation practices based on staged reporting of validity, novelty, uniqueness, stability, and cost.",
+  "title_relatable": "Can AI automatically design new materials by working backward from desired properties?",
+  "hook": "Generative models and closed-loop workflows now propose novel crystalline materials tailored to specifications, combining diffusion models, multimodal learning, and automated feedback.",
+  "summary": "Materials scientists are inverting the discovery process: instead of testing what existing compounds do, they're asking AI to propose new ones that meet specific targets. This review covers how generative models (VAEs, diffusion models, flows, autoregressive networks) learn crystal structure patterns from databases, then produce candidates constrained by physics and chemistry. It examines how combining diverse data modalities—structures, spectra, thermodynamics, text—builds richer representations, and how reinforcement learning and Bayesian optimization close the loop between prediction and synthesis. Key obstacle: models often propose mathematically valid but practically impossible structures; the review catalogs failure modes and evaluation standards to separate hype from real discoveries.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 758,
+  "tokens_out": 232,
+  "cost_usd": 0.0015344,
+  "ingested_at": "2026-06-02T12:55:20.318267+00:00"
+}

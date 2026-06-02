@@ -1,0 +1,23 @@
+{
+  "id": "2606.02247",
+  "arxiv_url": "https://arxiv.org/abs/2606.02247",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "ShaplEIG: Bayesian Experimental Design for Shapley Value Estimation",
+  "authors": "David Rundel, Fabian Fumagalli, Maximilian Muschalik, Bernd Bischl, Matthias Feurer",
+  "abstract": "Shapley values are a principled attribution measure widely used in interpretable machine learning, but their exact computation scales exponentially with the number of players, motivating a wide range of approximation methods based on value function evaluations of sampled coalitions. This raises the question of whether approximation accuracy can be improved by adaptively selecting coalitions for evaluation based on previous evaluations. This is particularly relevant in settings where the value function is costly and the number of evaluations is severely limited, such as retraining-based feature importance, data valuation, and hyperparameter importance. For this purpose, we propose ShaplEIG, a Bayesian experimental design approach that approximates the expensive value function using a Gaussian process surrogate and adaptively selects coalitions based on their expected information gain about the Shapley values. By the linearity of the Shapley values in the value function, we show that the expected information gain is available in closed form. Furthermore, we propose an efficient computation scheme that reduces the complexity from exponential to polynomial in the number of players via elementary symmetric polynomials. In extensive experiments across diverse costly applications, our method consistently improves sample efficiency in the low-budget regime over state-of-the-art baselines.",
+  "title_relatable": "How to pick the smartest questions when estimating feature importance is expensive?",
+  "hook": "Adaptive coalition selection cuts sample cost for accurate Shapley values by selecting informative subsets rather than random ones.",
+  "summary": "Computing Shapley values—a gold standard for explaining AI decisions—requires evaluating thousands of feature combinations, which becomes prohibitive when each evaluation is expensive (retraining models, testing hyperparameters). ShaplEIG uses a Gaussian process to learn patterns from initial evaluations, then intelligently picks which combinations to test next by maximizing information gain. A mathematical trick using symmetric polynomials makes this feasible without exponential blowup. Experiments show it cuts sample costs substantially when budget is tight.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 723,
+  "tokens_out": 187,
+  "cost_usd": 0.0013264000000000001,
+  "ingested_at": "2026-06-02T12:55:40.809060+00:00"
+}

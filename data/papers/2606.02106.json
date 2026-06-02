@@ -1,0 +1,23 @@
+{
+  "id": "2606.02106",
+  "arxiv_url": "https://arxiv.org/abs/2606.02106",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "When Tabular Foundation Models Transfer Across Modalities: A Systematic Evaluation Across 95 Datasets, 7 Modalities, and Two Regimes",
+  "authors": "Julien Lafrance",
+  "abstract": "We present a single classification pipeline that combines an Equiangular Tight Frame (ETF) preprocessing stage with a tabular foundation model for in-context inference, applied identically across modalities once data is mapped to fixed vector representations. We evaluate it on 95 datasets spanning seven signal modalities -- vision, audio, speech, text, molecular, time-series, and tabular. The main methodological contribution is to fix the comparison object: throughout the paper, performance is judged against the strongest lightweight tuned baseline on the same frozen features, while oracle selection, deployed selection, and specialized fine-tuning are reported separately. The pipeline is broadly competitive with strong lightweight tuned baselines on the same frozen features. It does not match the very best specialized models or heavily tuned pipelines on every task, but it stays close, and it runs much faster -- typically 4 to 200 times faster than full backbone fine-tuning, often at comparable quality. We describe how to deploy the pipeline in practice: when to apply ETF preprocessing, how to stop its training without a validation split, how to set up the in-context classifier, and how to calibrate the resulting probabilities. The calibration step is non-cosmetic: TabICL produces well-calibrated probabilities by construction, ETF preprocessing initially disrupts that calibration, and the post-hoc rescaling restores it -- yielding a per-prediction confidence signal that practitioners can use as a trust threshold for confidence-gated deployment. We also report where the pipeline should not be expected to help, and how to identify those cases in advance.",
+  "title_relatable": "Can one model handle images, audio, text, and molecules equally well?",
+  "hook": "Single pipeline works across 7 data types on 95 datasets, 4–200× faster than fine-tuning with comparable accuracy.",
+  "summary": "A preprocessing step (Equiangular Tight Frame) paired with a tabular foundation model can classify data across wildly different modalities—images, audio, speech, text, molecules, time-series, and tables—without retraining. It stays competitive with specialized models on frozen features while running orders of magnitude faster than backbone fine-tuning. The practical contribution: how to calibrate confidence scores so practitioners can reject uncertain predictions automatically.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 793,
+  "tokens_out": 178,
+  "cost_usd": 0.0013464,
+  "ingested_at": "2026-06-02T12:55:26.334139+00:00"
+}

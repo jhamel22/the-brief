@@ -1,0 +1,23 @@
+{
+  "id": "2606.00755",
+  "arxiv_url": "https://arxiv.org/abs/2606.00755",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Internalize the Temperature: On-Policy Self-Distillation as Policy Reheater for Reinforcement Learning",
+  "authors": "Xuewei Yang, Jiachen Yu, Jie Wu, Shaoning Sun, Junjie Wang, Yujiu Yang",
+  "abstract": "Reinforcement learning from verifiable rewards improves the reasoning ability of large language models, but often suffers from entropy collapse, in which increasingly concentrated policies reduce rollout diversity and useful learning signals. Existing remedies either constrain the RL objective (e.g., entropy regularization) or adjust sampling temperature during rollout collection, but these interventions remain external to the model parameters. We propose Temperature-Scaled On-Policy Self-Distillation (TS-OPSD), a lightweight policy reheating method that internalizes the exploratory effect of temperature into model parameters. Starting from an entropy-collapsed RL checkpoint, TS-OPSD constructs a self-teacher by applying high-temperature scaling to the model's own logits, then distills the resulting smoother distribution back into the student. This policy reheating requires no external teacher, privileged data, or additional inference cost. Experiments on Qwen3-4B-Base and Qwen3-8B-Base show that policy reheating yields a stronger initialization for continued RL than both standard continued RL and rollout-level temperature reheating. Further analyses show that TS-OPSD mainly reduces output sharpness while preserving intermediate representations, top candidate sets, and reasoning capability. These results suggest that entropy restoration can serve as a simple post-collapse intervention for extending reasoning-oriented RL.",
+  "title_relatable": "How to revive a collapsed AI reasoning policy without external tweaks?",
+  "hook": "Self-distillation restores diversity to language model policies after entropy collapse, enabling stronger continued RL training with no extra inference cost.",
+  "summary": "When reinforcement learning trains language models on reasoning tasks, policies eventually collapse into overly confident, repetitive outputs that kill learning signals. TS-OPSD fixes this by treating the model as its own teacher: apply high-temperature smoothing to logits, distill the softer distribution back into parameters. On Qwen 4B and 8B, this lightweight reheating yields stronger checkpoints for continued RL than naive temperature adjustment or standard resumption, while preserving reasoning ability and intermediate representations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 764,
+  "tokens_out": 190,
+  "cost_usd": 0.0013712000000000002,
+  "ingested_at": "2026-06-02T12:57:27.946669+00:00"
+}

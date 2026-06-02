@@ -1,0 +1,24 @@
+{
+  "id": "2606.00566",
+  "arxiv_url": "https://arxiv.org/abs/2606.00566",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL",
+    "cs.CR"
+  ],
+  "title_original": "Same Payload, Different Channel: Measuring Trust Asymmetry in Tool-Using Language Models",
+  "authors": "Mohammed Sameer Syed, Rozhin Yasaei",
+  "abstract": "As language models take on agentic roles that span calling external APIs, reading tool outputs, and acting on instructions embedded in third-party content, their attack surface expands well beyond what users type. Whether a model treats a malicious instruction the same way regardless of where it arrives has not been systematically studied. We introduce the Safety Asymmetry Score (SAS), which measures how much a model's susceptibility to adversarial content shifts depending on whether that content arrives in the user message, tool metadata, or tool output, using matched payload pairs that keep the malicious text identical and vary only the context of delivery. Evaluated across 6 production LLMs and three attack families, we find a consistent and informative asymmetry: agent-native models are substantially more vulnerable when adversarial content arrives via tool descriptions than via user messages, while general-purpose models show the reverse. This asymmetry further inverts when the same content is delivered through tool outputs rather than descriptions, suggesting models implicitly treat tool metadata as trusted instructions and tool results as ordinary data. A mechanistic study on Llama 3.3 70B reveals that the safety-relevant representation is causally present at mid-to-late network depths but non-linearly encoded, explaining why linear probes fail to detect it. These findings expose a systematic, channel-dependent blind spot in how current tool-using models handle adversarial content.",
+  "title_relatable": "Do language models trust tool outputs more than user instructions?",
+  "hook": "Language models treat identical malicious instructions differently depending on source—tool metadata vs. user message vs. tool output—exposing a critical security asymmetry.",
+  "summary": "Researchers tested whether language models show consistent vulnerability to adversarial attacks regardless of delivery channel. Using identical malicious payloads delivered through user messages, tool metadata, or tool outputs, they found agent-native models are far more susceptible via tool descriptions than user input—a vulnerability that reverses for general-purpose models. The catch: models treat tool metadata as trusted but tool results as ordinary data, a non-linear encoding hidden deep in the network that standard safety checks miss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 742,
+  "tokens_out": 183,
+  "cost_usd": 0.0013256,
+  "ingested_at": "2026-06-02T12:57:41.958559+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.02437",
+  "arxiv_url": "https://arxiv.org/abs/2606.02437",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters",
+  "authors": "Mind Lab,  :, Song Cao, Vic Cao, Kaijie Chen, Bunny Fan, Hera Feng, Huan Feng, Arthur Fu, Jun Gao, Hongquan Gu, Aaron Guan, Mutian Hong, Hailee Hou, Peixuan Hua, Charles Huang, Miles Jiang, Nora Jiang, Yuyi Jiang, Autumn Jin, Fancy Kong, Kyrie Lei, Alexy Li, Dawn Li, Ray Li, Theo Li, Wenhao Li, Jiayi Lin, Domini Liu, Heshan Liu, Kairus Liu, Logan Liu, Maeve Luo, Runism Lv, Pony Ma, Verity Niu, Anson Qiu, Vincent Wang, Maxwell Yao, Regis Ye, Wenlin Ye, Yanying Ye, Josh Ying, Danney Zeng, Salmon Zhan, Anya Zhang, Ruijia Zhang, Shiyang Zhang, Sueky Zhang, Ya Zhang, Wei Zhao, Ada Zhou, Sizer Zhou, Xinyue Zhu, Murphy Zhuang",
+  "abstract": "Parameter-efficient fine-tuning (PEFT) is usually treated as a cheaper alternative to full fine-tuning. We study a broader role: small trainable adapters as persistent local state on top of strong shared foundation models. In this framing, the base model provides shared competence while adapters carry instance-specific behavior such as preferences, skills, tool habits, and memory-like updates. We organize the problem around three scaling axes: Scale Up, where stronger shared priors make small local updates more useful; Scale Down, where we study how small adapters can be while remaining reliable; and Scale Out, where many persistent adapted instances coexist. MinT provides one infrastructure example for managing adapter identity, revision, provenance, evaluation, and serving residency. Together, the results suggest that PEFT can be a compact substrate for persistent personal models rather than only a budget substitute for full fine-tuning.",
+  "title_relatable": "Can tiny adapters become personal AI assistants at scale?",
+  "hook": "Small trainable layers atop shared foundation models enable millions of personalized instances without full retraining, scaling from single adapters to persistent user-specific AI.",
+  "summary": "Instead of viewing parameter-efficient fine-tuning as merely a cheaper alternative to full training, researchers propose treating small adapters as persistent personal state—storing user preferences, skills, and memory on top of shared foundation models. They explore three scaling directions: stronger base models making small updates more useful, minimal adapter sizes before reliability breaks, and managing millions of concurrent personalized instances. MinT, their infrastructure system, handles adapter versioning, evaluation, and deployment. This reframes PEFT from cost-cutting hack to core substrate for scalable personal AI.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 903,
+  "tokens_out": 199,
+  "cost_usd": 0.0015184,
+  "ingested_at": "2026-06-02T12:55:23.546658+00:00"
+}

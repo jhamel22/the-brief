@@ -1,0 +1,22 @@
+{
+  "id": "2606.00686",
+  "arxiv_url": "https://arxiv.org/abs/2606.00686",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "Dialectics of Alignment: Harnessing Unsafe Knowledge for Dynamic Safety Routing",
+  "authors": "Maryam Hashemzadeh, Jerry Huang, Minseon Kim, Marc-Alexandre Côté, Sarath Chandar",
+  "abstract": "The prevailing paradigm in large language model (LLM) alignment operates via erasure, filtering unsafe data or training models to strictly refuse harmful prompts. While effective at reducing immediate toxicity, this approach fundamentally constricts the model's epistemological scope, resulting in over-cautious systems that output uninformative blanket refusals to sensitive yet benign queries. In this work, we challenge the orthodoxy that unsafe data must be discarded. We propose a dialectical approach to alignment, positing that unsafe data encodes rich, domain specific knowledge critical for nuanced, safe, and informative generation. To operationalize this, we introduce SafeMoE, a Mixture-of-Experts (MoE) framework that isolates unsafe knowledge into domain-specific Low-Rank Adapters (LoRA experts) trained exclusively on harmful corpora. To synthesize safety from these unsafe primitives, we train a lightweight gating network using a minimal, highly curated set of safe-informative responses. During inference, this router dynamically orchestrates the unsafe experts, effectively steering the generation trajectory to harness their deep domain knowledge while strictly enforcing safety constraints. Extensive empirical evaluations across stringent safety benchmarks demonstrate that SafeMoE is not only safer, achieving over a 20% relative improvement in safe response rate (more than a 15% absolute gain), but also produces more informative responses when safety and harmfulness are of paramount concern. Furthermore, the routing mechanism exhibits strong zero-shot generalization to unseen domains and broader safety tasks without domain-specific supervision. Our findings suggest a paradigm shift in alignment: true safety requires not the masking of unsafe knowledge, but its controlled integration.",
+  "title_relatable": "Can LLMs be safer by learning from unsafe data?",
+  "hook": "Mixture-of-Experts model achieves 15% absolute gain in safe response rates by routing unsafe knowledge through learned gatekeepers instead of erasing it.",
+  "summary": "Standard LLM safety training filters harmful data, leaving models that refuse benign safety questions with blanket refusals. SafeMoE reverses this: it trains domain-specific experts on toxic corpora, then uses a lightweight routing network to dynamically control when and how these unsafe experts contribute. Result: 20% relative improvement in safety benchmarks plus more informative responses on sensitive topics, with generalization to unseen domains.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 826,
+  "tokens_out": 177,
+  "cost_usd": 0.0013688,
+  "ingested_at": "2026-06-02T12:57:36.980100+00:00"
+}

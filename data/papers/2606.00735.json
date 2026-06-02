@@ -1,0 +1,23 @@
+{
+  "id": "2606.00735",
+  "arxiv_url": "https://arxiv.org/abs/2606.00735",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.DC",
+    "cs.LG"
+  ],
+  "title_original": "ViBE: Co-Optimizing Workload Skew and Hardware Variability for MoE Serving",
+  "authors": "Seokjin Go, Marko Scrbak, Ephrem Wu, Srilatha Manne, Divya Mahajan",
+  "abstract": "In distributed Mixture-of-Experts (MoE) inference, input-dependent token routing interacts with GPU performance variability to create persistent stragglers under synchronized execution, where the slowest GPU determines layer latency. This performance variability is inherent to modern accelerators: manufacturing variation, power limits, and thermal conditions introduce measurable execution-time differences across nominally identical GPUs. The core challenge is that MoE execution-time imbalance arises from the interaction of workload skew and hardware asymmetry. Token routing produces uneven and layer-varying expert loads, while GPU throughput depends on device-specific operating characteristics and workload intensity. Prior work mitigates routing skew but assumes homogeneous hardware, optimizing token balance rather than execution latency. As a result, even balanced token assignments can leave hardware-induced stragglers unaddressed. Thus, we propose Variability-Informed Binning of Experts (ViBE), a hardware-aware expert placement framework that minimizes execution-time imbalance across GPUs. ViBE combines per-GPU performance modeling with expert activation profiling to assign high-load experts to faster devices and low-load experts to slower ones, reducing layer-level stragglers without modifying model semantics or hardware. Because both workload characteristics and effective GPU throughput can shift across serving conditions, ViBE supports lightweight recalibration under workload/performance drift to refresh its routing and performance estimates when needed. Results show that ViBE consistently reduces execution-time imbalance and improves SLO attainment by 14%, while lowering P90 TTFT by up to 45%. We further show that the impact of hardware variability increases at scale, making variability-aware placement important for efficient, high-utilization LLM serving.",
+  "title_relatable": "Why some GPUs always lag in expert models—and how to fix it",
+  "hook": "Hardware differences, not just token imbalance, cause slowdowns in distributed AI inference. ViBE reduces latency by 45% by matching workloads to actual GPU speeds.",
+  "summary": "Distributed MoE inference suffers from stragglers when slower GPUs—due to manufacturing variation or thermal throttling—hold up synchronized execution. Prior work balances token counts across GPUs but ignores the reality that identical hardware performs differently. ViBE profiles per-GPU throughput and expert loads, then assigns heavy-compute experts to faster devices, reducing execution-time imbalance by 14% and tail latency by 45% without modifying models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 860,
+  "tokens_out": 192,
+  "cost_usd": 0.001456,
+  "ingested_at": "2026-06-02T12:57:30.839648+00:00"
+}

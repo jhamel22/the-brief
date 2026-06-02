@@ -1,0 +1,23 @@
+{
+  "id": "2606.02427",
+  "arxiv_url": "https://arxiv.org/abs/2606.02427",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "math.NA",
+    "cs.LG"
+  ],
+  "title_original": "Spectral Audit of In-Context Operator Networks",
+  "authors": "Zhiwei Gao, Liu Yang, George Em Karniadakis",
+  "abstract": "Existing evaluations of neural operators and in-context operator learning rely primarily on prediction error, but accurate output prediction does not guarantee the correct local dynamical structure. A model may match solutions while exhibiting incorrect sensitivities, distorted frequency response, spurious mode coupling, or unstable tangent behavior. We introduce a Jacobian-based spectral audit for in-context operator learning. For a fixed prompt, we differentiate the network output with respect to the query function and view the resulting Jacobian as a learned tangent operator. Projecting it onto Fourier modes, we obtain a local spectral characterization of the inferred operator, including frequency-dependent gains, phase structure, and cross-mode coupling. The audit complements standard prediction metrics by testing whether the model reproduces local mechanisms of the underlying PDE operator rather than only outputs. Across benchmarks, the audit reveals distinct operator-level phenomena, including phase transport, viscosity-dependent damping, nonlinear mode coupling, and reaction--diffusion stability structure. It also detects failures partially hidden by prediction-error metrics, including high-frequency degradation, incorrect phase recovery, and prompt--operator inconsistencies. Corrupted or internally inconsistent prompts lead to degraded tangent-operator structure even when pointwise predictions remain partially accurate. Our results suggest that prediction accuracy and local operator fidelity are distinct properties of learned neural operators. Our framework also provides a diagnostic for stability, sensitivity, and operator consistency.",
+  "title_relatable": "What neural operators really learn: beyond matching outputs",
+  "hook": "Neural operators that predict PDE solutions accurately may still get the physics wrong—a new spectral audit exposes hidden failures in frequency response, damping, and mode coupling.",
+  "summary": "Neural operators trained to solve PDEs are evaluated almost entirely on prediction error, but this masks fundamental flaws: a model can match solutions while exhibiting wrong sensitivities or unstable dynamics. Researchers developed a Jacobian-based spectral audit that treats the network's output derivatives as a learned tangent operator, then projects it onto Fourier modes to reveal frequency response, phase structure, and mode coupling. Testing on benchmark problems, the audit caught failures invisible to prediction metrics—including high-frequency degradation and incorrect phase recovery—while also diagnosing operator inconsistencies even when pointwise predictions looked good.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 751,
+  "tokens_out": 212,
+  "cost_usd": 0.0014488,
+  "ingested_at": "2026-06-02T12:55:32.249229+00:00"
+}

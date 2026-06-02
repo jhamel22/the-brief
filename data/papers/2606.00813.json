@@ -1,0 +1,26 @@
+{
+  "id": "2606.00813",
+  "arxiv_url": "https://arxiv.org/abs/2606.00813",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.CR",
+    "cs.CL",
+    "cs.ET",
+    "cs.LG",
+    "cs.NE"
+  ],
+  "title_original": "Cross-Generational Transfer of Adversarial Attacks Reveals Non-Monotonic Safety Alignment in LLMs",
+  "authors": "Subhadip Mitra",
+  "abstract": "Safety alignment in LLMs does not improve monotonically across model generations. Studying four generations of Google's Gemma family (7B-31B) with quality-diversity evolution (MAP-Elites) as an automated red-teaming probe, we find that Gemma 3 (12B) exhibits 68.7% +/- 5.7% attack success rate (ASR; mean +/- std, 3 seeds), significantly higher than its predecessor Gemma 2 (45.5% +/- 7.2%; p = 0.030, paired bootstrap) and its successor Gemma 4 (33.9% +/- 1.8%). Replaying evolved attack archives across generations reveals that attacks from other generations transfer to Gemma 3 at 44-46% but only 14-18% to Gemma 4, indicating that Gemma 4's safety gains generalize beyond the attack distributions evolved against earlier generations. Under our 8B judge, copyright and cybercrime vulnerabilities register at near-100% across all generations, though a second-judge audit (Section 6) suggests the copyright result is sensitive to judge choice. Misinformation ASR jumps from 29% to 99% between Gemma 2 and Gemma 3 and remains elevated at 77% in Gemma 4, indicating the regression was not fully addressed. These patterns are invisible to static benchmarks and emerge only through adaptive, longitudinal probing. All experiments use 3 random seeds with a unified self-hosted judge; code and artifacts are available at https://github.com/bassrehab/red-queen.",
+  "title_relatable": "Why newer AI models sometimes get less safe before improving again",
+  "hook": "Gemma 3 is 68.7% more vulnerable to adversarial attacks than both its predecessor and successor—revealing safety doesn't always improve with each generation.",
+  "summary": "Google's Gemma models show a surprising dip in safety between generations, not a steady climb. Researchers used automated red-teaming across four versions (7B–31B) and found Gemma 3 dramatically more vulnerable to attacks than Gemma 2 or 4—particularly on misinformation (99% vs 29%) and copyright issues. Attacks evolved against one generation don't transfer as effectively to Gemma 4, suggesting safety improvements there are more robust. Static safety benchmarks miss these patterns entirely.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 814,
+  "tokens_out": 202,
+  "cost_usd": 0.0014592000000000001,
+  "ingested_at": "2026-06-02T12:57:21.597810+00:00"
+}

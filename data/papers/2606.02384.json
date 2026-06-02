@@ -1,0 +1,22 @@
+{
+  "id": "2606.02384",
+  "arxiv_url": "https://arxiv.org/abs/2606.02384",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG"
+  ],
+  "title_original": "TabPrep: Closing the Feature Engineering Gap in Tabular Benchmarks",
+  "authors": "Andrej Tschalzev, Nick Erickson, Yuyang Wang, Huzefa Rangwala, Stefan Lüdtke, Heiner Stuckenschmidt, Christian Bartelt",
+  "abstract": "Progress in tabular machine learning has largely focused on increasingly sophisticated model architectures. At the same time, feature engineering remains a critical yet underexplored component of real-world modeling pipelines that is entirely absent from modern benchmarks, which creates an unquantified evaluation gap. In this work, we introduce TabPrep, a lightweight preprocessing pipeline composed of feature generators that are carefully designed to target three specific structural data patterns. We show that many widely used model classes exhibit predictable blind spots to these patterns and that systematic feature engineering alone can establish new peak performance. Across the TabArena benchmark, integrating TabPrep into model training and tuning consistently improves performance for tree-based, neural, linear, and foundation models, often surpassing gains achieved by model-centric innovations alone. TabPrep outperforms previous automated feature engineering approaches in performance, efficiency, and applicability across datasets, enabling integration into large-scale benchmarks. By releasing TabPrep (see https://github.com/atschalz/tabprep), we enable researchers to integrate feature engineering into their benchmarking setup, filling a longstanding gap in tabular evaluations.",
+  "title_relatable": "Why benchmarks ignore the feature engineering that wins real competitions",
+  "hook": "Feature engineering alone outperforms many recent model innovations on tabular data; TabPrep closes this 20-year evaluation gap.",
+  "summary": "Tabular ML benchmarks test fancy models on raw data, ignoring feature engineering—the step that actually matters in practice. TabPrep adds lightweight pattern-specific generators (targeting structural quirks like interactions and logarithmic scales) and consistently boosts tree, neural, linear, and foundation models across TabArena. Often, the engineering beats the architecture. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 722,
+  "tokens_out": 156,
+  "cost_usd": 0.0012016,
+  "ingested_at": "2026-06-02T12:55:34.726072+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.00544",
+  "arxiv_url": "https://arxiv.org/abs/2606.00544",
+  "announced_date": "2026-05-30",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "Escaping the Mode Lottery: Multi-Response Training Improves Language Model Generalization",
+  "authors": "Hasan Amin, Kian Ahrabian, Ming Yin, Rajiv Khanna",
+  "abstract": "Modern language-model fine-tuning typically pairs each prompt with a single response, even though many prompts admit multiple valid completions. This effectively reduces a multi-modal conditional distribution to a one-sample view, a phenomenon we call the \"mode lottery,\" where training emphasizes a subset of plausible modes while leaving others underrepresented. We study multi-response training (MRT), which retains multiple responses per prompt, and develop a principled account of when and why it helps. Our key insight is that prompts and responses are distinct statistical resources: additional prompts reduce uncertainty about the input distribution, while additional responses reduce uncertainty about the conditional output distribution. This yields a variance-budget tradeoff that predicts when retaining multiple responses is worthwhile, shows diminishing returns as prompt-level uncertainty dominates, and explains why large redundant corpora can exhibit an implicit multi-response effect. We further analyze response selection, and show that Random-K-of-N is the unbiased default for distributional fine-tuning, reward-based selection can induce mode collapse, and a submodular quality-diversity objective provides an efficient alternative with theoretical guarantees. Controlled simulations validate the predicted variance and selection effects, including a striking failure mode where reward-only selection produces gradients misaligned with the true objective. Across structured and real-world datasets, including a new multi-prompt, multi-response benchmark, MRT consistently improves distributional generalization, with the largest gains in high response-diversity, low prompt-redundancy regimes. MRT reframes response multiplicity as a data-allocation problem with clear guidance: when responses are cheap and diverse, keeping more than one is not a heuristic, but a statistically grounded choice.",
+  "title_relatable": "Why training on multiple answers per question improves language models",
+  "hook": "Training on just one answer per prompt wastes statistical information. Multi-response training improves generalization, especially when responses are diverse and prompts are scarce.",
+  "summary": "Language models are typically fine-tuned with one response per prompt, even though many questions have multiple correct answers. This creates a \"mode lottery\" where the model learns an incomplete view of valid outputs. The authors show that keeping multiple responses per prompt reduces prediction uncertainty about the output distribution—but only when prompts are already scarce. They prove random selection of K responses is unbiased, warn that reward-based selection causes mode collapse, and validate on new benchmarks that multi-response training improves generalization most in high-diversity, low-redundancy regimes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 826,
+  "tokens_out": 203,
+  "cost_usd": 0.0014728000000000002,
+  "ingested_at": "2026-06-02T12:57:44.858532+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.02355",
+  "arxiv_url": "https://arxiv.org/abs/2606.02355",
+  "announced_date": "2026-06-01",
+  "subject": "cs.LG",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "SIRI: Self-Internalizing Reinforcement Learning with Intrinsic Skills for LLM Agent Training",
+  "authors": "Zhongyu He, Yuanfan Li, Fei Huang, Tianyu Chen, Siyuan Chen, Xingyang Li, Meng Hsuan Yu, Xiangrong Liu, Leyi Wei, Lu Pan, Ke Zeng, Xunliang Cai",
+  "abstract": "Long-horizon LLM agents can benefit from reusable skills, yet existing skill-based methods often rely on external skill generators during training or persistent skill retrieval at inference, increasing engineering complexity, context length, and deployment latency. We propose Self-Internalizing Reinforcement learning with Intrinsic skills (SIRI), a three-phase framework that enables agents to discover, validate, and internalize skills without external skill generators or inference-time skill banks. SIRI first warms up the policy with GiGPO to acquire basic interaction ability and collect successful skill-free trajectories. It then performs self-skill mining, where the current policy summarizes compact skills from its own successful plain rollouts and validates them through paired skill-augmented and skill-free rollouts. Finally, SIRI distills only beneficial skill-guided action tokens into the plain policy using trajectory-level utility and action-level advantage. At inference, the agent runs with the original prompt only. On ALFWorld and WebShop with Qwen2.5-7B-Instruct, SIRI improves GiGPO from 0.908 to 0.930 on ALFWorld and from 0.728 to 0.813 on WebShop, outperforming prompt-based, RL-based, and memory-augmented baselines. Further analysis shows that our self-mining strategy can achieve performance comparable to distillation with closed-source large model. Our code is available at https://github.com/kirito618/SIRI.",
+  "title_relatable": "Can language models learn to create their own shortcuts?",
+  "hook": "Framework helps LLM agents discover reusable skills during training, then bake them in—no external skill libraries needed at runtime. Lifts WebShop accuracy from 72.8% to 81.3%.",
+  "summary": "LLM agents struggle with long-horizon tasks because they lack reusable skills, yet existing methods require external skill generators or large skill banks at inference. SIRI sidesteps both by letting agents mine skills from their own successful trajectories, validate what works, and compress useful patterns directly into the policy. On WebShop and ALFWorld, this approach beats baselines that use skills, reaching 81.3% on WebShop—faster and simpler because inference runs on the original prompt alone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 848,
+  "tokens_out": 205,
+  "cost_usd": 0.0014984,
+  "ingested_at": "2026-06-02T12:55:37.719708+00:00"
+}
