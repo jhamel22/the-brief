@@ -1,0 +1,22 @@
+{
+  "id": "2605.31015",
+  "arxiv_url": "https://arxiv.org/abs/2605.31015",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Analysis of a two patch model for disease vector-animal dynamics with non-linear anthropization-driven migration",
+  "authors": "Orville Wright Happi-Tchakounte, Ivric Valaire Yatat-Djeumen, Lukas Eigentler, Pierre Couteron",
+  "abstract": "Landscape dynamics are key drivers of the movement and distribution of sylvatic hematophagous disease vectors and their (wild) animal hosts. Their habitats are undergoing increasing change, particularly fragmentation, through anthropogenic activity. In this article, we present and analyse a novel mathematical model that explicitly combines anthropization-induced landscape dynamics with the population dynamics of hematophagous vectors and (wild) animals dynamics. We develop a phenomenological and analytically tractable two-patch model in which the migration terms between the patches nonlinearly depend on the anthropization level of the patches. Our model analysis comprising analytical stability analysis and numerical bifurcation analysis provides information on how changes in model parameters, especially anthropization levels, shape the long-term dynamics in the model. Precisely, we find that low anthropogenic activity allows for a vector-animal coexistence state, while high anthropization leads to a vector extinction state. However, we establish that for intermediate anthropization levels, the transition between the two states is not necessarily monotonic, but may instead occur via a sequence of concurrent bifurcations along the anthropization axis.",
+  "title_relatable": "How human land-clearing changes disease vector survival",
+  "hook": "Clearing forests for human use paradoxically kills off disease-carrying mosquitoes and ticks—but only if you destroy enough habitat.",
+  "summary": "Researchers modeled how deforestation affects populations of blood-feeding insects and their wild animal hosts across fragmented landscapes. They found that low habitat destruction lets vectors and animals coexist, while heavy destruction eliminates vectors entirely. Surprisingly, intermediate destruction levels can trigger chaotic oscillations before vectors vanish, suggesting land-use policies could either worsen or eliminate certain infectious diseases depending on the degree of disturbance.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 666,
+  "tokens_out": 166,
+  "cost_usd": 0.0011968000000000003,
+  "ingested_at": "2026-06-02T12:28:39.638154+00:00"
+}

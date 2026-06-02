@@ -1,0 +1,23 @@
+{
+  "id": "2606.00196",
+  "arxiv_url": "https://arxiv.org/abs/2606.00196",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "physics.soc-ph"
+  ],
+  "title_original": "Evolution of cooperation in the multiplex",
+  "authors": "Zijie Chen, Xingru Chen, Feng Fu",
+  "abstract": "Across biological and social systems, cooperation often depends on phenotypic cues rather than random encounters. To account for real-world interactions unfolding across multiple, simultaneous dimensions, here we develop a general framework for the evolution of cooperation in multiplex networks governed by multi-phenotype homophily. We derive analytical conditions for natural selection to favor cooperation across phenotypic traits that are independent or exhibit epistasis and under different modes of mutation coupling. Despite the integration of fitness across layers, the conditions for cooperation resolve into layer-specific $σ$-rules, depending only on the local payoff structure, the effective number of phenotypes, and the mutation rates. We show that phenotypic diversity fosters cooperation by partitioning populations into assortative niches. Furthermore, in finite populations, intensifying the prisoner's dilemma shifts the dependence of cooperation on strategy mutation from monotonically decreasing, through U-shaped, to monotonically increasing. Our work provides a unified account of how multi-phenotype homophily underpins the evolutionary dynamics of cooperation in heterogeneous populations.",
+  "title_relatable": "Why do cooperators cluster together across multiple social dimensions?",
+  "hook": "Cooperation thrives when people sort into groups by shared traits—and math explains exactly how.",
+  "summary": "When organisms interact across multiple networks simultaneously (think work, family, friendship), cooperation evolves differently than in single networks. The researchers show that phenotypic diversity—visible traits that make similar individuals prefer interacting—naturally partitions populations into cooperative niches, following predictable mathematical rules. This explains why real-world cooperation patterns depend less on random mixing and more on who chooses to associate with whom.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 621,
+  "tokens_out": 153,
+  "cost_usd": 0.0011087999999999998,
+  "ingested_at": "2026-06-02T12:28:21.216425+00:00"
+}

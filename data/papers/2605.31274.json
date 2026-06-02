@@ -1,0 +1,23 @@
+{
+  "id": "2605.31274",
+  "arxiv_url": "https://arxiv.org/abs/2605.31274",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "math.AP",
+    "q-bio.PE"
+  ],
+  "title_original": "Derivation, Analysis and Simulation of a Spatio-Temporal Epidemiology Model with Memory",
+  "authors": "Hassan El Bouz, Karim Faraj, Anthony Khairallah, Fatima Mroue",
+  "abstract": "In this paper, we propose an integro-differential model for the spatio-temporal evolution of infectious diseases with asymptomatic transmission. The model consists of a reaction-diffusion system with an integral memory term accounting for the distribution of the incubation period. We first analyze the asymptotic behavior and the properties of the integro-differential model. Then, we prove the local existence of a weak solution of the system by means of the Faedo-Galerkin method and a compactness argument. The model is applied to simulate the geographical evolution of a disease in Lebanon.",
+  "title_relatable": "How disease memory shapes infection spread across space",
+  "hook": "New math model tracks how incubation delays create hidden pockets of disease across landscapes, tested on Lebanon's outbreak patterns.",
+  "summary": "Researchers built an equation-based model for how infectious diseases spread geographically, accounting for the fact that incubation periods vary—some people infect others before showing symptoms, others much later. They proved the model has valid solutions and simulated it on Lebanon's geography. The approach captures realistic disease dynamics that simpler models miss, offering better tools for predicting where outbreaks hit hardest.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 542,
+  "tokens_out": 157,
+  "cost_usd": 0.0010616,
+  "ingested_at": "2026-06-02T12:28:30.942141+00:00"
+}

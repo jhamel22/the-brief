@@ -1,0 +1,24 @@
+{
+  "id": "2605.31071",
+  "arxiv_url": "https://arxiv.org/abs/2605.31071",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "cs.DS",
+    "cs.CC",
+    "q-bio.PE"
+  ],
+  "title_original": "Tree Containment Parameterized by Scanwidth",
+  "authors": "Leo van Iersel, Mark Jones, Mathias Weller",
+  "abstract": "TREE CONTAINMENT is a central decision problem in mathematical phylogenetics, asking whether a given rooted phylogenetic tree is embeddable in (\"displayed by\") a given rooted phylogenetic network. While the problem is NP-complete for general networks, many algorithmic advances have relied on structural parameters that capture how \"tree-like\" a network is. In this paper we investigate TREE CONTAINMENT under the structural parameter scanwidth, a directed width measure generalizing popular parameters measuring tree-likeness of phylogenetic networks. We first present a parameterized algorithm that solves the problem in $O(4^{k + k\\log{k}} n + nm^2)$ time, where $n$ and $m$ are the numbers of nodes and arcs in the network and $k$ is the width of a given tree-extension. Complementing this upper bound, we prove a matching lower bound under the Exponential-Time Hypothesis (ETH), showing that there is no algorithm for TREE CONTAINMENT that runs in $2^{o(c\\log{c})} n^{O(1)}$ time, even on binary inputs, where $c$ is the directed cutwidth of the input network, which upper-bounds the scanwidth $k$.",
+  "title_relatable": "Can we quickly check if one family tree fits inside another?",
+  "hook": "A fundamental problem in evolutionary biology—determining whether one phylogenetic tree can be embedded in a network—now has matching speed limits.",
+  "summary": "Evolutionary biologists use networks to represent complex relationships that simple trees can't capture, but need to verify when a given tree actually appears within a network. Van Iersel and colleagues developed an algorithm solving this problem faster on \"tree-like\" networks, then proved they've hit the speed limit: no fundamentally faster solution exists. This matters because phylogenetic networks are increasingly common in studying reticulate evolution (hybridization, gene flow), making this containment check essential.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 672,
+  "tokens_out": 179,
+  "cost_usd": 0.0012536,
+  "ingested_at": "2026-06-02T12:28:35.986947+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00192",
+  "arxiv_url": "https://arxiv.org/abs/2606.00192",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Mechanics of Pandemics",
+  "authors": "Seba Contreras, Philipp Dönges, Laura Müller, Piklu Mallick, Sydney Paltra, Ulrik Hvid, Robyn J. N. Kettlitz, Andreas Reitenbach, Rodrigo Amaral Lind, Maíra Aguiar, Philip Bechtle, André Calero Valdez, Ronja Gronemeyer, Manuela Harries, Veronika K. Jaeger, André Karch, Carolina J. Klett-Tammen, Peter Klimek, Mirjam E. Kretzschmar, Kai Nagel, Bjarke Frost Nielsen, Barbara Prainsack, Isabella M. Radhuber, Lone Simonsen, Kim Sneppen, Janik Suer, Viola Priesemann",
+  "abstract": "COVID-19 and previous pandemics have shown how diseases can disrupt, threaten, and transform daily life. Since pathogens and societies are continuously evolving, every pandemic is different. However, certain fundamental principles of disease transmission appear to hold true across different outbreaks. These ``mechanisms'' are grounded in natural laws or the very structure of our biology and societies. This paper compiles ten fundamental mechanisms, curated by a multidisciplinary team with backgrounds spanning public health, medicine, epidemiology, political science, mathematics, physics, and psychology. These mechanisms, although perhaps underappreciated, substantially shape how pandemics unfold and are controlled. The better we succeed in understanding these mechanisms and establishing this knowledge in our societies, the better we will be able to prepare for future pandemics and respond appropriately when they occur.",
+  "title_relatable": "Ten Hidden Rules That Shape How Pandemics Spread and Kill",
+  "hook": "Pandemics follow predictable physical and biological laws. Understanding these ten mechanisms could help us respond better next time.",
+  "summary": "A multidisciplinary team identified ten fundamental principles—rooted in biology, physics, and social structure—that govern how diseases spread and damage societies. These aren't new discoveries but often-overlooked basics: how respiratory viruses travel through air, why early intervention works exponentially better than late response, how behavior changes during fear. The patterns hold across COVID-19, flu, and historical outbreaks.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 754,
+  "tokens_out": 163,
+  "cost_usd": 0.0012552000000000002,
+  "ingested_at": "2026-06-02T12:28:25.564064+00:00"
+}

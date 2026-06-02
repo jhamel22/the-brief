@@ -1,0 +1,24 @@
+{
+  "id": "2605.30950",
+  "arxiv_url": "https://arxiv.org/abs/2605.30950",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "physics.soc-ph",
+    "stat.AP"
+  ],
+  "title_original": "Coordination without communication: beyond optimisation and geometric Brownian motion",
+  "authors": "G J Milburn, A K Ringsmuth",
+  "abstract": "We introduce a physically grounded framework for coordination in a population based on information constrained feedback in a partially observed stochastic dynamical system. Population size evolves as a continuous time birth death Markov process whose transition rates respond to a shared stochastic measurement signal correlated with the underlying population state. Individuals neither communicate directly nor optimise strategies; instead, coordination emerges from macro to micro feedback mediated by imperfect common information. We show that geometric Brownian motion arises as a limiting case of the conditional dynamics when measurement strength and population statistics satisfy suitable conditions. More generally, varying the signal to noise properties of the measurement channel produces a wider class of stochastic growth processes, including diffusive and jump like regimes, even though ensemble average growth remains exponential. In an appropriate limit the framework recovers the stochastic multiplicative growth model of Peters and Adamou, providing a physical interpretation of coordination as inference and feedback under partial observability.",
+  "title_relatable": "How groups coordinate without talking to each other",
+  "hook": "Populations can synchronize behavior through shared environmental signals alone, without any direct communication or strategic thinking.",
+  "summary": "A population's growth is modeled as individuals responding independently to a noisy, shared measurement of their collective state—like each person glancing at a crowded room without talking. This feedback mechanism produces coordinated behavior and generates geometric Brownian motion as a limiting case, while varying measurement quality produces different growth patterns. The work suggests coordination emerges naturally from imperfect information rather than optimization, with implications for understanding both biological populations and economic systems.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 595,
+  "tokens_out": 160,
+  "cost_usd": 0.001116,
+  "ingested_at": "2026-06-02T12:28:52.493148+00:00"
+}

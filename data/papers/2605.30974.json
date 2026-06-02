@@ -1,0 +1,22 @@
+{
+  "id": "2605.30974",
+  "arxiv_url": "https://arxiv.org/abs/2605.30974",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE"
+  ],
+  "title_original": "Morphological routes to extinction: A mechanistic assessment of habitat loss",
+  "authors": "E. H. Colombo, L. Menon, E. Hernandez-Garcia, C. Anteneodo",
+  "abstract": "Habitat loss driven by climate and anthropogenic pressures alters patch morphology, with critical consequences for population persistence. Geometric and mechanistic metrics are commonly used to quantify degradation, yet their respective limitations remain poorly understood. Here, we address this gap using a reaction-diffusion framework for population growth and dispersal in a viable patch embedded in a hostile environment. We compare geometric descriptors of patch shape with a mechanistic metric derived from population growth near the extinction threshold. Along degradation trajectories, we find that geometric metrics systematically overestimate persistence, suggesting moderate and decelerating impacts, whereas mechanistic indicators reveal rapid, accelerating approaches to extinction. These results highlight fundamental limitations of geometric approaches and underscore the need for mechanistic assessments when evaluating biodiversity loss in complex landscapes.",
+  "title_relatable": "Why shape of habitat matters more than we thought",
+  "hook": "Simple geometry predicts species will survive habitat loss far longer than they actually do. A mechanistic model reveals the truth: extinction accelerates rapidly.",
+  "summary": "When habitats shrink and fragment, ecologists typically measure survival using shape metrics—how elongated or compact a patch is. Using mathematical models of population growth and movement, researchers compared these geometric measures against a mechanistic approach that tracks how populations actually behave near extinction. Geometry consistently overestimated how long species could persist; the mechanistic model showed extinction approaching much faster and accelerating as degradation worsens. This gap matters because conservation strategies built on simple shape measurements may dangerously underestimate how quickly species vanish.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 576,
+  "tokens_out": 190,
+  "cost_usd": 0.0012208,
+  "ingested_at": "2026-06-02T12:28:49.495432+00:00"
+}
