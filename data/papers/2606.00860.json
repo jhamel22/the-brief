@@ -1,0 +1,24 @@
+{
+  "id": "2606.00860",
+  "arxiv_url": "https://arxiv.org/abs/2606.00860",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.SI",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "GenPT: Beyond Self-Report for Reliable LLM Psychometrics via Generative Projective Testing",
+  "authors": "Ming Wang, Shuang Wu, Bixuan Wang, Lu Lin, Yuxin Chen, Xiaocui Yang, Daling Wang, Shi Feng, Yifei Zhang, Yufan Sun",
+  "abstract": "Self-report questionnaires remain the prevailing tool for probing the psychological states of persona-conditioned agents (PC-Agents). However, classical instruments inherit two well-known threats: contamination from training corpora and directional bias driven by social-desirability or contextual framing. To overcome these methodological bottlenecks, we ask whether projective paradigms can be adapted into a robust psychometric tool. We introduce \\textbf{GenPT} (Generative Projective Testing), which reformulates TAT, Rorschach, and SCT with newly generated stimuli and organizes assessment as a three-stage pipeline to derive standardized psychological indicators and target states. Evaluating PC-Agents induced via CharacterRAG and AnnaAgent profiles, we benchmark GenPT's reliability and validity against classical questionnaires. The results indicate that questionnaires exhibit systematic directional shifts under social-desirability framing, most strongly on suicide ideation. In contrast, GenPT's collected behavioral patterns stay near the symmetric baseline. Furthermore, under a longitudinal counselling context, GenPT-based depression assessment shifts by roughly an order of magnitude more than the questionnaire counterpart when Qwen3 serves as the backbone. Overall, GenPT complements self-report methods in scenarios where contamination resistance, bias asymmetry, and context sensitivity matter. Code and stimuli can be found at https://github.com/sci-m-wang/GenPT.",
+  "title_relatable": "Can AI personality tests avoid the biases that plague human ones?",
+  "hook": "Projective testing detects depression in AI agents ~10× better than questionnaires under counseling scenarios, resisting social-desirability bias.",
+  "summary": "Self-report questionnaires for measuring AI agent psychology suffer from training-data contamination and social bias—answering what people think they should say rather than what they actually do. GenPT adapts classical psychology's projective tests (Rorschach, TAT) to use AI-generated stimuli, measuring how agents respond narratively rather than checking boxes. On depression and suicide ideation, projective responses showed massive shifts in real scenarios while questionnaires stayed artificially flat, suggesting GenPT captures genuine behavioral patterns questionnaires miss. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 808,
+  "tokens_out": 204,
+  "cost_usd": 0.0014624,
+  "ingested_at": "2026-06-02T13:10:45.149974+00:00"
+}

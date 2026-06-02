@@ -1,0 +1,25 @@
+{
+  "id": "2606.02240",
+  "arxiv_url": "https://arxiv.org/abs/2606.02240",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CR",
+    "cs.AI",
+    "cs.CL",
+    "cs.ET"
+  ],
+  "title_original": "AgentRedBench: Dynamic Redteaming and Integration-Aware Defense for LLM Agents over SaaS Integrations",
+  "authors": "Hiskias Dingeto, Will Leeney",
+  "abstract": "Indirect prompt injection in tool-use agents is a concrete production threat: LLM agents read from integrations (third-party services such as Gmail, Salesforce, or Jira accessed through tool calls) whose response content the user neither writes nor controls. Existing benchmarks under-measure the threat: most cover only a handful of integrations with the same attack payload replayed across runs, and open-source guards are trained on chat-style data rather than tool-response content. We introduce AGENTREDBENCH, a dynamic LLM-driven redteaming benchmark of 215 subtle underspecified authorization (attacks at the boundary of what the user's request authorises) scenarios across 24 enterprise integrations in nine functional families and five attack types. Across an eight-model panel (Anthropic, OpenAI, Google), no-guard ASR (attack success rate) ranges from 32% (Claude Sonnet 4.6) to 81% (Gemini 3 Flash). To keep the scenario set out of training corpora and preserve headline ASR meaning over time, we release the codebase, integration schemas, and AGENTREDGUARD model openly; the canonical scenarios are evaluated through a maintainer-mediated channel with immutable versioning. We release AGENTREDGUARD alongside the benchmark: a guard trained on an integration-diverse corpus of adversarial tool-response content. AGENTREDGUARD cuts panel ASR from 69.9% to 2.4% at 0.37% false-positive rate, outperforming every open-source baseline with non-trivial detection (Llama Guard, PromptGuard 2, ProtectAI) on both axes. Cross-integration and cross-attack type holdouts both confirm the gain transfers beyond the training subset.",
+  "title_relatable": "How vulnerable are AI agents to hidden attacks through third-party services?",
+  "hook": "Benchmark reveals 32–81% of AI agents can be tricked via compromised tool responses; new guard cuts risk to 2.4%.",
+  "summary": "LLM agents that read from Gmail, Salesforce, or Jira are exposed to indirect prompt injection attacks—adversaries slip malicious instructions into tool responses the agent trusts. AgentRedBench tests this risk across 24 real integrations with 215 subtle attack scenarios. Six major models show concerning vulnerability (up to 81% success rates), but the authors release AgentRedGuard, a defense trained on adversarial tool-response data that reduces attacks from 70% to 2.4% while keeping false positives under 0.4%.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 851,
+  "tokens_out": 210,
+  "cost_usd": 0.0015208,
+  "ingested_at": "2026-06-02T13:09:49.545707+00:00"
+}

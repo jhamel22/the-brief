@@ -1,0 +1,22 @@
+{
+  "id": "2605.31490",
+  "arxiv_url": "https://arxiv.org/abs/2605.31490",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Are Full Rollouts Necessary for On-Policy Distillation?",
+  "authors": "Yaocheng Zhang, Jiajun Chai, Yuqian Fu, Songjun Tu, Xiaohan Wang, Wei Lin, Guojun Yin, Qichao Zhang, Yuanheng Zhu, Dongbin Zhao",
+  "abstract": "On-policy distillation (OPD) provides dense teacher feedback along student-generated rollouts rather than fixed teacher traces and has emerged as a promising post-training paradigm. However, standard OPD typically generates full rollouts during training, which is computationally expensive and may expose the student to unreliable teacher feedback at late rollout positions, especially during early training. We identify the rollout horizon as a key bottleneck in OPD that substantially impacts training efficiency. Unlike Reinforcement Learning with Verifiable Rewards (RLVR), OPD does not require a final answer reward to provide learning signals. Therefore, full rollouts may not always be necessary for OPD. Motivated by this insight, we propose two simple horizon-control strategies: Progressive OPD (POPD), which gradually expands the rollout horizon during training, and Truncated OPD (TOPD), which permanently performs distillation on reliable truncated rollouts. Experiments on mathematical reasoning show that POPD improves the training efficiency of OPD by up to 3$\\times$, while TOPD matches OPD performance using only 10\\% of the rollout horizon, leading to substantial wall-clock and memory reductions. These results demonstrate that controlling the rollout horizon offers a simple and practical path to more efficient OPD.",
+  "title_relatable": "Do language models need complete answers to learn from teachers?",
+  "hook": "Cutting teacher feedback to 10% of rollout length maintains performance while reducing training compute by 3×.",
+  "summary": "On-policy distillation trains language models by having teachers grade student-generated responses, but standard approaches generate full answers every step—wasteful and prone to unreliable feedback late in output. The authors show that complete rollouts aren't necessary: truncating feedback to shorter sequences (TOPD) matches full-length training on math problems with 90% less compute, while gradually expanding rollout length during training (POPD) accelerates learning by 3×.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 779,
+  "tokens_out": 173,
+  "cost_usd": 0.0013152,
+  "ingested_at": "2026-06-02T13:12:12.027233+00:00"
+}

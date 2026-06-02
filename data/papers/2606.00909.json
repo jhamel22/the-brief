@@ -1,0 +1,23 @@
+{
+  "id": "2606.00909",
+  "arxiv_url": "https://arxiv.org/abs/2606.00909",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "MLLM-Microscope: Unlocking Hidden Structure Within Multimodal Large Language Models",
+  "authors": "Ravil Mussabayev, Rustam Mussabayev",
+  "abstract": "This work presents MLLM-Microscope, a novel system designed for analyzing the hidden representations within Multimodal Large Language Models (MLLMs). Our system evaluates the linearity, intrinsic dimension, and anisotropy of multimodal token embeddings across transformer layers. Utilizing the ScienceQA dataset, we evaluate two state-of-the-art MLLMs, LLaVA-NeXT and OmniFusion. We find that both the main and residual streams for tokens of both modalities exhibit highly linear behaviors across transformer layers. However, LLaVA-NeXT's image tokens reveal a slight decline in linearity, whereas OmniFusion's remain consistent. Image token dimensions in OmniFusion remain consistently higher across layers compared to LLaVA-NeXT. Also, the OmniFusion's anisotropy is observed to stay consistently low throughout the layers. These findings suggest that the inner workings of MLLMs highly depend on the nature of modality fusion performed before passing the token sequence into LLM. This and other new potential insights obtainable from our system are surely capable of enhancing our understanding of the inner workings of MLLMs, informing future model design and optimization.",
+  "title_relatable": "What hidden patterns reveal how vision-language models actually work?",
+  "hook": "New analysis tool exposes how multimodal models process images and text differently across their layers, with surprising structural differences between architectures.",
+  "summary": "MLLMs like LLaVA-NeXT and OmniFusion combine images and text, but their internal mechanics remain opaque. MLLM-Microscope measures linearity, dimensionality, and anisotropy of token embeddings across transformer layers to map how each modality flows through the model. Both architectures show linear behavior, but image tokens behave differently: LLaVA-NeXT's decline in linearity while OmniFusion's stay steady, suggesting fusion strategy shapes internal structure more than model size.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 724,
+  "tokens_out": 198,
+  "cost_usd": 0.0013712000000000002,
+  "ingested_at": "2026-06-02T13:10:50.936224+00:00"
+}

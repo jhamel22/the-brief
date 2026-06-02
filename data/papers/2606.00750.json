@@ -1,0 +1,22 @@
+{
+  "id": "2606.00750",
+  "arxiv_url": "https://arxiv.org/abs/2606.00750",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "I-WebGenBench : Evaluating Interactivity in LLM-Generated Scientific Web Applications",
+  "authors": "Dasen Dai, Biao Wu, Meng Fang, Shuoqi Li, Wenhao Wang",
+  "abstract": "Recent advances in visual language models have enabled autonomous agents for complex reasoning, tool use, and document understanding. However, existing document agents mainly transform papers into static artifacts such as summaries, webpages, or slides, which are insufficient for technical papers involving dynamic mechanisms and state transitions. In this work, we propose a Paper-to-Interactive-System Agent that converts research papers into executable interactive web systems. Given a PDF paper, the agent performs end-to-end processing without human intervention, including paper understanding, system modeling, and interactive webpage synthesis, enabling users to manipulate inputs and observe dynamic behaviors. To evaluate this task, we introduce a benchmark of 19 research papers paired with expert-built interactive systems as ground truth. We further propose PaperVoyager, a structured generation framework that explicitly models mechanisms and interaction logic during synthesis. Experiments show that PaperVoyager significantly improves the quality of generated interactive systems, offering a new paradigm for interactive scientific paper understanding.",
+  "title_relatable": "Can AI turn research papers into interactive simulations?",
+  "hook": "Benchmark of 19 papers tests whether LLMs can convert static PDFs into working, interactive web applications that let users manipulate variables and see results.",
+  "summary": "Most AI agents reduce papers to summaries or static webpages. This work builds a system that reads a research paper and generates a fully interactive web application—one where users can adjust inputs and watch dynamic behavior unfold. The authors created a benchmark of 19 papers with expert-built reference systems, then proposed PaperVoyager, a generation framework that explicitly models mechanisms and interaction logic. Results show the approach significantly outperforms baseline generation, opening a new way to explore how scientific findings actually work.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 666,
+  "tokens_out": 189,
+  "cost_usd": 0.0012888,
+  "ingested_at": "2026-06-02T13:11:03.471465+00:00"
+}

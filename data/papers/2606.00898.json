@@ -1,0 +1,23 @@
+{
+  "id": "2606.00898",
+  "arxiv_url": "https://arxiv.org/abs/2606.00898",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.DL"
+  ],
+  "title_original": "Citation Grounding: Detecting and Reducing LLM Citation Hallucinations via Legal Citation Graphs",
+  "authors": "Volodymyr Ovcharov",
+  "abstract": "Large language models systematically hallucinate legal citations -- fabricating statute references, citing repealed provisions, and confusing jurisdictions -- yet no automated method exists to measure or reduce this behavior at scale. We propose citation grounding (CG), a metric that verifies LLM-generated legal citations against a ground-truth citation graph extracted from 100.8 million Ukrainian court decisions (502 million edges, 21,736 unique statute nodes). CG decomposes into three components -- citation precision (does the cited provision exist?), citation relevance (is it contextually appropriate?), and citation temporality (was it valid at the relevant date?) -- enabling differential diagnosis of hallucination types. Empirical evaluation on 100 Ukrainian legal queries across five systems -- four commercial LLMs via AWS Bedrock (Claude Haiku 4.5, Mistral Pixtral Large, Amazon Nova Pro/Lite) and one RAG-augmented production system -- reveals CG ranging from 0.791 to 0.873, with 13-21% of citations hallucinated. To reduce hallucinations without human annotation, we introduce Citation Grounding DPO (CG-DPO): a method that constructs preference pairs algorithmically by corrupting verified citations from real court decisions via four targeted strategies. On a dataset of 2,244 court decisions, a Qwen2.5-7B-Instruct model fine-tuned with LoRA achieves 98.5% mean validation accuracy in distinguishing correct from corrupted citations (rewards margin +14.9, std < 0.3 pp across 3 seeds). The citation graph, evaluation framework, and CG-DPO dataset are released as open resources.",
+  "title_relatable": "How to catch AI lawyers making up fake case law?",
+  "hook": "LLMs hallucinate 13–21% of legal citations. New metric and training method reduce errors to near-zero on Ukrainian court decisions.",
+  "summary": "Large language models confidently cite laws that don't exist, have been repealed, or apply to the wrong jurisdiction—a critical problem in legal work. Researchers built a citation grounding metric tested against 502 million real citations from Ukrainian courts, exposing three types of hallucinations: nonexistent provisions, irrelevant ones, and outdated statutes. They also developed a training technique that uses corrupted real citations to teach models to reject bad citations with 98.5% accuracy. Code and datasets are open.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 824,
+  "tokens_out": 192,
+  "cost_usd": 0.0014272,
+  "ingested_at": "2026-06-02T13:10:54.037410+00:00"
+}

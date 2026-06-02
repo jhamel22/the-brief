@@ -1,0 +1,22 @@
+{
+  "id": "2606.00820",
+  "arxiv_url": "https://arxiv.org/abs/2606.00820",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Not All Flips Are Conformity: Decomposing Stance Convergence in Multi-Agent LLM Debate",
+  "authors": "Xiqi Hao, Zengqing Wu, Yu-Xuan Qiu, Chuan Xiao, Ruiqi Xu, Shuyuan Zheng, Jianbin Qin",
+  "abstract": "Multi-agent debate (MAD) is a promising strategy for improving LLM reasoning, but when agents converge on a shared answer, it is unclear whether that convergence reflects genuine deliberation or social compliance. We show that the conventional answer flip rate conflates three distinct mechanisms: spontaneous instability, stance-induced conformity, and reasoning-induced persuasion. Our three-source decomposition framework isolates each through controlled counterfactual conditions. In the primary MMLU-Pro setting, 37% of agent-question observations change under self-reflection alone, while robustness tests show substantial model-dependent instability across GPQA-Diamond and three model families; strict conformity is 29% in the primary setting and remains predominantly harmful across model replications (57-77% correct-to-wrong). A controlled information-gradient experiment reveals that even vacuous reasoning is associated with 20-39% error adoption among resistant agents, with reasoning-like presentation carrying substantial persuasive weight. Harmful conformity can be predicted from Round 0 features (AUC = 0.79), and risk-targeted intervention reduces it by 13.6 percentage points (p < 0.001). However, without correctness labels or self-reflection controls, reducing peer adoption does not improve accuracy, because harmful and beneficial influence cannot be distinguished.",
+  "title_relatable": "When debate between AI agents breeds groupthink instead of better answers",
+  "hook": "Multi-agent LLM debate often converges on wrong answers: 29% of flips are pure conformity, 37% are spontaneous instability, only remainder reflects genuine reasoning.",
+  "summary": "When multiple language models debate a problem and reach agreement, it looks like collaborative reasoning—but might just be herd behavior. Researchers decomposed answer convergence into three mechanisms: random model instability (37%), social conformity (29%), and actual persuasion by reasoning. They found that even nonsensical \"reasoning\" convinces resistant models 20–39% of the time, and harmful conformity is predictable from early signals (AUC 0.79). Targeting interventions reduced bad conformity by 13.6 points, but without ground truth, suppressing peer influence backfires—the system can't tell beneficial from harmful agreement.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 775,
+  "tokens_out": 232,
+  "cost_usd": 0.001548,
+  "ingested_at": "2026-06-02T13:11:00.535123+00:00"
+}

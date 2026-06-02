@@ -1,0 +1,22 @@
+{
+  "id": "2606.02001",
+  "arxiv_url": "https://arxiv.org/abs/2606.02001",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Scaling Agentic Capabilities via Grounded Interaction Synthesis",
+  "authors": "Wenhang Shi, Jinhao Dong, Yiren Chen, Zhe Zhao, Shuqing Bian, Wei Lu, Xiaoyong Du",
+  "abstract": "General agentic intelligence hinges on the ability to interact with diverse real-world tools to complete complex tasks, a capability fundamentally tied to the quality of interaction data. To bypass the prohibitive costs of human annotation, prevailing paradigms depend entirely on Large Language Models (LLMs) to scale the synthesis of agentic environments and tasks. However, such unconstrained generation often degenerates into biased random sampling of LLMs' internal priors, failing to capture the diversity and difficulty of real-world domains or construct high-fidelity, long-horizon tasks. In this work, we introduce Grounded Agentic Interaction Synthesis (GAIS), a framework that automates the scalable construction of diverse environments and complex tasks via a two-phase grounding mechanism. Specifically, we construct protocol-anchored environments derived from real-world Model Context Protocol (MCP) servers to ensure functional diversity and difficulty. Subsequently, we employ structure-guided planning to navigate these environments, actively enforcing logical dependencies and adversarial policies to generate complex tasks. Experiments on BFCL, $τ^2$-Bench, and ACEBench demonstrate that GAIS-synthesized data significantly outperforms state-of-the-art baselines, enabling base models to match or even surpass their official instruction-tuned counterparts. Furthermore, GAIS exhibits superior data efficiency and scalability, achieving exceptional capabilities with significantly less data while maintaining continuous growth where baselines stagnate. Our code and dataset are publicly available at https://github.com/Eric8932/GAIS.",
+  "title_relatable": "Can AI agents learn from synthetic worlds grounded in real tools?",
+  "hook": "New framework generates realistic agent training data from actual tool APIs, letting smaller models match instruction-tuned versions with 3× less data.",
+  "summary": "Training AI agents to use tools requires diverse, complex interaction data—expensive to annotate by hand. GAIS automates this by grounding synthetic tasks in real Model Context Protocol servers and using structure-guided planning to create adversarial scenarios with logical dependencies. On BFCL, τ²-Bench, and ACEBench, models trained on GAIS data matched or beat officially tuned baselines while using far less data, with performance continuing to improve where other approaches plateau.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 811,
+  "tokens_out": 186,
+  "cost_usd": 0.0013928000000000002,
+  "ingested_at": "2026-06-02T13:09:59.865516+00:00"
+}

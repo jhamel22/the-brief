@@ -1,0 +1,22 @@
+{
+  "id": "2605.31363",
+  "arxiv_url": "https://arxiv.org/abs/2605.31363",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "The Latin Substrate: How Language Models Represent and Mediate Script Choice",
+  "authors": "Daniil Gurgurov, Alan Saji, Katharina Trinley, Josef van Genabith, Simon Ostermann",
+  "abstract": "Many languages are written in multiple scripts, requiring large language models (LLMs) to generate equivalent linguistic content in distinct orthographic forms. While prior work suggests that LLMs route information through shared latent representations, how they internally mediate script variation remains poorly understood. We study this question by first examining per-layer output distributions with the logit lens, which reveals consistent latent romanization during transliteration, and then through representational and mechanistic analyses of script generation. At the representational level, we show that scripts of the same language become increasingly separable across layers and that a simple linear steering direction can flip a model's output script while largely maintaining semantic content. The vector generalizes asymmetrically to writing systems unseen during construction, flipping non-Latin output to Latin reliably, but mapping Latin output into varied non-Latin scripts. At the mechanistic level, we localize a small set of late-layer attention heads that causally mediate script choice. These heads transfer across unrelated languages and writing systems, suggesting that script routing is implemented by language-agnostic components. Across both analyses, we observe a consistent directional asymmetry: non-Latin output is produced by a compact, identifiable gate, while Latin-script output emerges from diffuse contributions across the network. Collectively, our findings hint that LLMs organize script variation around shared latent representations while exhibiting a privileged substrate toward Latin script.",
+  "title_relatable": "Why do language models favor Latin script internally?",
+  "hook": "LLMs route multilingual text through a hidden 'Latin substrate,' with specific attention heads controlling script choice across unrelated languages.",
+  "summary": "Language models handle multiple writing systems (Arabic, Cyrillic, Latin) for the same language, but how? This work reveals they maintain a shared internal representation and systematically favor Latin script: a small set of attention heads causally control which script the model outputs, these heads transfer across unrelated languages, and linear steering can flip scripts while preserving meaning. Crucially, the model uses compact mechanisms to generate non-Latin text but relies on diffuse network-wide contributions for Latin—suggesting an architectural bias baked into modern LLMs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 757,
+  "tokens_out": 190,
+  "cost_usd": 0.0013656,
+  "ingested_at": "2026-06-02T13:12:17.657177+00:00"
+}

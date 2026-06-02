@@ -1,0 +1,22 @@
+{
+  "id": "2606.00832",
+  "arxiv_url": "https://arxiv.org/abs/2606.00832",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Momento: Evaluating Persistent Memory and Reasoning with Multi-Session Agentic Conversations",
+  "authors": "Adril Putra Merin, David Anugraha, Ayu Purwarianti, Genta Indra Winata",
+  "abstract": "Recent advances in agentic AI have enabled agents to complete complex tasks through tool use, reasoning, and multi-step planning. Yet existing benchmarks evaluate agents within a single session, ignoring past actions, stated preferences, and prior decisions that agents must integrate to fulfill personalized user goals. We introduce Momento, a benchmark for persistent agentic task completion in multi-session service environments, requiring agents to take consequential, tool-mediated actions while resolving temporal dependencies and evolving user goals across sessions. Experimental results reveal that current agents fail primarily through misestimation of user state, treating prior session history as a reliable proxy for current context rather than stale information requiring re-validation, highlighting a substantial gap between current agent capabilities and realistic long-horizon human-agent interaction.",
+  "title_relatable": "Do AI agents actually remember what you told them?",
+  "hook": "New benchmark exposes why today's agents fail at multi-session tasks: they confuse old user preferences with current ones, ignoring temporal shifts.",
+  "summary": "Existing agent benchmarks test single sessions, but real users interact with AI assistants across weeks or months with evolving needs. Momento evaluates whether agents can remember past actions, stated preferences, and context while handling tool use across multiple sessions. Current agents struggle—they treat old session history as current fact rather than outdated information needing re-validation, revealing a gap between lab performance and realistic long-horizon interaction.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 628,
+  "tokens_out": 167,
+  "cost_usd": 0.0011704,
+  "ingested_at": "2026-06-02T13:10:57.030161+00:00"
+}

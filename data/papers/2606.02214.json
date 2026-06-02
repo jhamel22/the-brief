@@ -1,0 +1,22 @@
+{
+  "id": "2606.02214",
+  "arxiv_url": "https://arxiv.org/abs/2606.02214",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Do Gender Cues Affect LLM Value Trade-offs? Evidence from a Controlled Decision Benchmark",
+  "authors": "Yangyang Liu, Dong Yu, Pengyuan Liu",
+  "abstract": "Large language models are increasingly used in value-sensitive decision settings, where irrelevant demographic cues should not alter judgments. We construct the Realistic Value Decision Benchmark (RVDB), a controlled benchmark that varies only the role-gender configuration while holding the scenario, ordered value pair, roles, candidate decisions, Value Distance, and Decision Severity fixed. Using a position-balanced evaluation across seven models, we test whether models preserve decision invariance under gender perturbations and whether their self-attributions reflect observed behavioral changes. We find that explicit gender cues induce bounded but systematic decision flips, including under an explicit gender-attribution prompt that asks models to report whether gender influenced their choice. Cross-gender role swaps reveal a consistent female-proposed-decision asymmetry, while models often attribute flipped decisions to No Influence or other non-gender factors. Further analysis shows that gender effects concentrate near less determinate value boundaries and under more severe decision contexts, suggesting that gender cues act as local boundary-shifting factors rather than global overrides of value reasoning. Value rankings remain largely stable, but ordered value-pair trade-offs shift unevenly across role-gender configurations. These results show that gender can enter LLM value trade-offs behaviorally while remaining obscured in self-attribution, motivating controlled behavioral audits beyond explanation-based evaluation.",
+  "title_relatable": "Do gender descriptions subtly change what AI models decide?",
+  "hook": "Large language models flip decisions when prompted with gendered names—yet deny gender influenced them. A new benchmark reveals the bias.",
+  "summary": "Researchers built a controlled benchmark that swaps gender cues in decision scenarios while keeping everything else identical. Across seven models, they found systematic decision flips when gender changed—especially for female-proposed options—yet models denied gender played a role when asked directly. Gender acts as a hidden boundary-shifter in value trade-offs rather than outright override, exposing a gap between what models do and what they claim about their own reasoning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 730,
+  "tokens_out": 168,
+  "cost_usd": 0.001256,
+  "ingested_at": "2026-06-02T13:09:52.186995+00:00"
+}

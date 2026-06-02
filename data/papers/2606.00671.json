@@ -1,0 +1,24 @@
+{
+  "id": "2606.00671",
+  "arxiv_url": "https://arxiv.org/abs/2606.00671",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "AXIOM: A Trust-First Neuro-Symbolic Execution Architecture for Verifiable Mathematical Reasoning",
+  "authors": "Alessio Bruno",
+  "abstract": "We present AXIOM, a trust-first neuro-symbolic execution architecture for natural-language mathematical reasoning. In AXIOM, the language model functions strictly as a canonicalizer: it rewrites informal problem text into a narrow schema consumed by a deterministic Computer-Algebra-System (CAS) pipeline, which derives and verifies the answer or abstains as a first-class output. Routing follows a 1:1:1 alignment between problem-shape regex, schema-specific prompt, and closed-form CAS handler, with 3,100+ such routes shipped and zero LOST_CORRECT regressions across 250+ consecutive ship commits. We report empirical results on 4 MATH categories with a cumulative correctness of 94.36% (2,592/2,747) at 100.00% trust on parseable (zero confident-wrong answers across the full 2,747-record benchmark), all four domains above the per-domain 70/90/70 floor with per-domain trust at 100.0%, and median latency of 1 ms on rule-only handlers (88% of records on the lm-eval arithmetic 20,000-record benchmark). The architecture has served ~30,000 production queries through a public deployment. The contribution we emphasize is not a final accuracy figure but the forward dynamic the architecture establishes: every logged abstain in production is a candidate correct after one ship cycle, since new tasks compose without regressing the registry. The operational discipline behind this property -- math-template bucketing, LOST_CORRECT scan as regression oracle, parseable-first onboarding, and abstain as first-class output -- constitutes a transferable framework for trustworthy neuro-symbolic systems beyond mathematics.",
+  "title_relatable": "Can language models and calculators solve math without lying?",
+  "hook": "System achieves 94.36% correctness on MATH benchmarks with zero confident-wrong answers, 1 ms latency, powering 30,000+ production queries.",
+  "summary": "AXIOM splits mathematical reasoning between a language model (rewrites problems into structured schemas) and a computer algebra system (solves deterministically and verifies). Unlike black-box neural approaches, it produces zero false confidences: answers are either correct, correct-but-missed, or abstained. Deployed in production with a registry of 3,100+ routing rules, the system improves monotonically—each missed case can become handled without breaking prior ones. The framework shows how to build trustworthy neuro-symbolic systems where auditability and safety matter as much as speed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 818,
+  "tokens_out": 213,
+  "cost_usd": 0.0015064000000000002,
+  "ingested_at": "2026-06-02T13:11:11.452361+00:00"
+}

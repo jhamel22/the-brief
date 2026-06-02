@@ -1,0 +1,23 @@
+{
+  "id": "2605.31455",
+  "arxiv_url": "https://arxiv.org/abs/2605.31455",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL"
+  ],
+  "title_original": "DRIFT: Decoupled Rollouts and Importance-Weighted Fine-Tuning for Efficient Multi-Turn Optimization",
+  "authors": "Jian Mu, Tianyi Lin, Chengwei Qin, Zhongxiang Dai, Yao Shu",
+  "abstract": "Large language models are increasingly deployed in multi-turn interactive settings where users or environments can iteratively provide lightweight feedback. Unfortunately, optimizing such behavior presents a sharp dilemma in practice: online reinforcement learning is able to effectively address multi-turn dynamics but is prohibitively expensive due to the cost of generating full correction trajectories at every update, whereas offline supervised fine-tuning (SFT) is efficient but suffers from distribution shift and behavioral collapse. To this end, we novelly propose DRIFT (Decoupled Rollouts and Importance-Weighted Fine-Tuning), a framework that operationalizes the theoretical insight that the KL-regularized RL objective is equivalent to importance-weighted supervised learning. DRIFT decouples rollout from optimization by sampling offline interaction trajectories from a fixed reference policy, deriving return-based importance weights, and optimizing the policy via weighted SFT on the resulting dataset. Empirically, we demonstrate that DRIFT matches or exceeds the performance of multi-turn reinforcement learning baselines while maintaining the training efficiency and simplicity of standard supervised fine-tuning. Code is available at https://github.com/2020-qqtcg/DRIFT.",
+  "title_relatable": "Why does offline feedback training beat expensive reinforcement learning for chatbots?",
+  "hook": "New method matches reinforcement learning performance while cutting training costs by using weighted supervised learning instead of expensive online rollouts.",
+  "summary": "Training language models from user feedback in multi-turn conversations faces a costly trade-off: online RL handles conversation dynamics but requires expensive trajectory generation, while offline supervised fine-tuning is cheap but drifts from the training distribution. DRIFT sidesteps this by converting the RL objective into importance-weighted supervised learning—sampling trajectories offline, computing return-based weights, then training via standard fine-tuning. Empirically matches or beats RL baselines while maintaining supervised learning's efficiency and simplicity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 730,
+  "tokens_out": 186,
+  "cost_usd": 0.001328,
+  "ingested_at": "2026-06-02T13:12:14.670878+00:00"
+}

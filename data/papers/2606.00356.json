@@ -1,0 +1,22 @@
+{
+  "id": "2606.00356",
+  "arxiv_url": "https://arxiv.org/abs/2606.00356",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "How Far Do Auto-Interpretation Labels Generalize: A Controlled Study Across Languages, Scripts, and Rewordings",
+  "authors": "Sripad Karne",
+  "abstract": "Sparse autoencoder (SAE) features are increasingly used to interpret language models, with auto-generated natural-language labels serving as the primary interface for understanding what each feature represents. We ask whether these labels generalize: does a feature labeled for a concept actually track that concept across languages and scripts? Using Serbian digraphia as a controlled testbed -- the same language written in both Latin and Cyrillic via deterministic transliteration -- we first find that SAE feature sets activated by the same content in different languages, scripts, and wordings share substantial overlap (peak Jaccard similarity 0.57 vs.\\ 0.13 random baseline), suggesting genuine cross-lingual semantic features. We then test whether auto-interpretation labels keep pace. They often do not: features whose labels describe semantic content miss the same meaning in Serbian up to $4\\times$ more often than within English, and miss Serbian Cyrillic more than Serbian Latin -- two scripts that are deterministic transliterations of each other -- suggesting the failures track how well each form is represented in training. The gap grows with network depth, yet the labels give no indication that they fail. These results suggest that auto-interpretation labels may reflect a feature's behavior on well-represented inputs rather than the concept itself.",
+  "title_relatable": "Do AI model labels actually capture concepts across languages?",
+  "hook": "Auto-generated labels for neural features fail 4× more often in Serbian than English, despite identical meaning—suggesting they describe training artifacts, not true concepts.",
+  "summary": "Researchers used Serbian digraphia—the same language in Latin and Cyrillic scripts—to test whether sparse autoencoder features and their natural-language labels genuinely capture semantic concepts. Features activated by identical content across languages overlapped substantially (0.57 Jaccard similarity), but auto-interpretation labels failed to track the same concepts across scripts, missing Serbian Cyrillic meanings 4× more than English. The failures correlate with how well each representation appears in training data, suggesting labels describe surface patterns rather than underlying concepts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 712,
+  "tokens_out": 195,
+  "cost_usd": 0.0013495999999999998,
+  "ingested_at": "2026-06-02T13:12:28.076569+00:00"
+}

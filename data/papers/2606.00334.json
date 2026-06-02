@@ -1,0 +1,23 @@
+{
+  "id": "2606.00334",
+  "arxiv_url": "https://arxiv.org/abs/2606.00334",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Isolating LLM Lexical Bias: A Curation-Free Triangulated Metric for Preference-Stage Learning",
+  "authors": "Xiaoyang Ming, Jose Hernandez, Thomas Stephan Juzek",
+  "abstract": "Various language domains have undergone remarkable changes in recent years; these shifts are largely attributed to the advent of Large Language Models and their misalignment with natural language usage. These misalignments are thought to partly originate in the preference-learning stage, e.g. Reinforcement Learning from Human Feedback, which generally makes models more useful but simultaneously may introduce systematic lexical bias. In terms of lexical behavior, this is visible in a model's preference for certain formats or the overuse of words (delve, furthermore), even when such patterns are not present in base model outputs. Research on lexical misalignment induced during preference training is constrained by reliance on manual curation. We address this, by introducing the Triangulated Preference Shift score, a metric that triangulates between human gold standards, base models, and instruct variants to isolate shifts induced specifically by preference learning, without manual curation. We provide data across six model families, anchor the results in the literature, and illustrate the general approach's utility by analyzing whether preference learning shifts models toward what could be interpreted as a \"language of prestige\". The metric provides an initial automated method to quantify behavioral shifts attributable to preference tuning, and thus, may help inform model alignment and development of trustworthy AI.",
+  "title_relatable": "Why do fine-tuned AI models suddenly overuse words like 'delve'?",
+  "hook": "New metric spots lexical quirks introduced by preference learning without manual review, across six model families.",
+  "summary": "After RLHF training, language models develop systematic word preferences—overusing \"delve\" or \"furthermore\"—that diverge from their base versions and human text. This team built an automated metric (Triangulated Preference Shift score) that isolates these shifts by comparing human standards, base models, and fine-tuned versions, eliminating the need for manual curation. Analysis across six model families suggests preference learning pushes models toward formal, prestige-oriented language patterns.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 727,
+  "tokens_out": 183,
+  "cost_usd": 0.0013135999999999998,
+  "ingested_at": "2026-06-02T13:12:31.034633+00:00"
+}

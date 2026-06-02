@@ -1,0 +1,22 @@
+{
+  "id": "2606.02304",
+  "arxiv_url": "https://arxiv.org/abs/2606.02304",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Unified Context Evolution for LLM Agents",
+  "authors": "Zixuan Zhu, Yitong Hu, Yong Dai, Junfeng Fang, Chunyang Jiang, Senkang Hu, Yuzhi Zhao",
+  "abstract": "LLM-based agents can solve multi-step interactive tasks by combining reasoning with environment feedback, yet each episode starts from the same fixed context and any useful strategy discovered along the way is lost once the task ends. Existing approaches either limit learning to the current task or pool all experience into a single untyped store, without distinguishing knowledge types, tracking quality through use, or balancing what the library still lacks. We introduce Unified Context Evolution (UCE), a gradient-free framework that externalizes agent experience into an evolving library of typed Evolvable Context Units (ECUs). UCE decomposes experience into four complementary types (Memory, Strategy, Workflow, and Skill), each generated from trajectories under type-specific conditions, retrieved at decision time, scored through repeated usage outcomes, and pruned when no longer valuable. A scheduling module allocates each cycle's generation budget toward the types where the library is weakest. Across two interactive benchmarks, UCE raises ALFWorld success from 75.4% to 96.3% and WebShop task score from 45.1% to 61.3%, and the accumulated library transfers to alternative actor backbones without retraining.",
+  "title_relatable": "How agents learn and remember winning strategies across tasks",
+  "hook": "Framework boosts agent success rates 21 points on ALFWorld and 16 points on WebShop by building reusable libraries of learned behaviors.",
+  "summary": "LLM agents solve tasks step-by-step but forget useful strategies once each episode ends. Unified Context Evolution organizes agent experience into four knowledge types—Memory, Strategy, Workflow, Skill—stored in an evolving library that agents retrieve and refine through repeated use. The system learns which knowledge types need reinforcement and automatically strengthens weak areas. On standard benchmarks, it improves task success substantially (96.3% on ALFWorld, up from 75.4%), and learned libraries transfer to different agent models without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 725,
+  "tokens_out": 199,
+  "cost_usd": 0.001376,
+  "ingested_at": "2026-06-02T13:09:43.233100+00:00"
+}

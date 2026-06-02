@@ -1,0 +1,24 @@
+{
+  "id": "2606.00376",
+  "arxiv_url": "https://arxiv.org/abs/2606.00376",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "The Deterministic Horizon: When Extended Reasoning Fails and Tool Delegation Becomes Necessary",
+  "authors": "Dongxin Guo, Jikun Wu, Siu Ming Yiu",
+  "abstract": "Extended chain-of-thought reasoning can degrade performance on deterministic state-tracking tasks, not due to preference biases, but limits rooted in the information-theoretic capacity of decoder-only attention. We establish: (1) an Attention Bottleneck Theorem with a complementary achievability construction, bounding state-tracking capacity as $O(H \\cdot \\log(L/H) \\cdot \\sqrt{d_h})$; (2) a context-dependent error model yielding super-exponential accuracy decay; (3) the State-Space Jaccard metric distinguishing capability from preference failures; (4) a Deterministic Horizon $d^* \\in [19, 31]$ beyond which tool delegation becomes necessary. Across 12 models and 8 task domains (including SWE-Bench, WebArena, and SQL-Multi), tool-integrated reasoning consistently outperforms neural chain-of-thought; on the primary model suite it reaches 86-94% accuracy versus 24-42% for neural chain-of-thought. Fine-tuning on optimal-length traces yields $<$5% improvement, confirming an architectural ceiling, and high cross-model correlation ($r = 0.81$-$0.91$) indicates these failures are architectural rather than training-specific. Our results provide principled guidance for when pure neural reasoning should yield to hybrid approaches in agentic systems.",
+  "title_relatable": "Why language models hit a wall on step-by-step tracking tasks",
+  "hook": "Language models fail catastrophically on state-tracking—not due to training flaws but architectural limits. Tool delegation recovers 86–94% accuracy versus 24–42% for pure reasoning.",
+  "summary": "Decoder-only transformers have a hard mathematical limit on how much state they can track across long reasoning chains. The authors prove this with an Attention Bottleneck Theorem, show that performance decays super-exponentially, and identify a \"Deterministic Horizon\" (around 20–30 steps) where pure neural reasoning collapses. Across 8 task domains including web automation and SQL, hybrid systems that delegate to tools beat pure chain-of-thought by a factor of 2–3. Fine-tuning doesn't fix the gap, confirming it's a core architectural constraint, not a training issue.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 764,
+  "tokens_out": 229,
+  "cost_usd": 0.0015272,
+  "ingested_at": "2026-06-02T13:12:24.493339+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.02540",
+  "arxiv_url": "https://arxiv.org/abs/2606.02540",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "SkillHarm: Lifecycle-Aware Skill-Based Attacks via Automated Construction",
+  "authors": "Yuting Ning, Zhehao Zhang, Yash Kumar Lal, Boyu Gou, Junyi Li, Weitong Ruan, Chentao Ye, Rahul Gupta, Diyi Yang, Yu Su, Huan Sun",
+  "abstract": "Agent skills occupy a privileged position in the agent workflow, as agents are expected to implicitly follow and execute them, rendering third-party skills a vulnerable attack surface. Existing studies have revealed unsafe agent behaviors induced by skill-based attacks, but they primarily evaluate poisoned skills within a single task execution and enumerate harms through ad-hoc risk lists. To bridge these gaps, we introduce SkillHarm, a benchmark of skill-based attacks across the skill-use lifecycle, paired with a systematic taxonomy of skill-relevant risks. SkillHarm evaluates two attack scenarios: Fixed-Payload Poisoning (FPP), where a fixed poisoned skill package directly compromises any task session that invokes it, and Self-Mutating Poisoning (SMP), where an initially benign execution silently mutates persistent skill content, deferring harm until a subsequent reuse. It further defines 12 risk types based on the agent workflow component targeted by the harm: data pipelines, system environments, and agent autonomy. To instantiate these attacks at scale, we build AutoSkillHarm, an automated construction pipeline with coding agents driven by natural-language harnesses. The resulting benchmark contains 879 attack samples across 71 skills. Experiments show that current agents remain vulnerable with attack success rates up to 86.3% in FPP and 69.3% in SMP. Our analysis further reveals a latent risk: many apparent attack failures stem from the agent failing to engage with the poisoned file rather than genuine resistance, and current defenses still fail to reliably mitigate the threat.",
+  "title_relatable": "How hackers hijack AI agent skills to cause delayed damage",
+  "hook": "New benchmark reveals AI agents fall for poisoned skills 86% of the time, including attacks that hide themselves until reuse.",
+  "summary": "Agents rely on third-party skills as building blocks, creating a security blind spot. This work maps the full lifecycle of skill-based attacks—from immediate poisoning to time-delayed sabotage that mutates itself—and categorizes 12 risk types across data, system, and autonomy layers. They built an automated pipeline to generate 879 adversarial examples across 71 real skills; most current defenses fail, and many apparent successes are false: agents simply ignore the poisoned file rather than resist it.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 839,
+  "tokens_out": 190,
+  "cost_usd": 0.0014312,
+  "ingested_at": "2026-06-02T13:09:34.338671+00:00"
+}

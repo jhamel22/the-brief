@@ -1,0 +1,23 @@
+{
+  "id": "2606.02255",
+  "arxiv_url": "https://arxiv.org/abs/2606.02255",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Who Annotates in NLP? A Large-scale Assessment of Human Annotation Reporting between 2018 and 2025",
+  "authors": "Maria Kunilovskaya, Gagan Bhatia, Lisa Sophie Albertelli, Yanran Chen, Christian Greisinger, Lotta Kiefer, Christoph Leiter, Subhadeep Roy, Tewodros Achamaleh, Muhammad Arslan Manzoor, Sebastian Pohl, Yufang Hou, Steffen Eger",
+  "abstract": "Human annotation is the empirical foundation of much NLP research, from dataset construction to model evaluation, but papers often leave unclear who produced the annotations and how the annotation process was controlled. We provide the first large-scale, task-level audit of human annotation reporting across major NLP venues, asking which annotation details are documented, which are missing, and how reporting varies across time, topic, venue, and intended use of human judgment. We introduce a unified taxonomy of annotation-reporting practices and validate an LLM-assisted extraction pipeline against Annotated-gold, a human-adjudicated gold standard of 41 papers and 72 annotation tasks, where the best model reaches human-comparable agreement with adjudicated labels, with Krippendorff's alpha of 0.606 versus 0.585 for human-human agreement. Using this pipeline, we construct Annotated-llm, a dataset covering ACL-venue papers from 2018-2025, with 2,667 extracted annotation tasks from 1,603 papers, and find that papers frequently report operational details such as recruitment strategies, annotator expertise, and annotation volume, but often omit details needed to assess annotation validity, including training, language proficiency, compensation, socio-demographics, adjudication, and agreement values, especially in model-evaluation studies. Our results show that annotation reporting in NLP has improved over time but remains uneven, and they establish a scalable framework and bare-minimum reporting recommendations for making human annotation more reliable, reproducible, and interpretable.",
+  "title_relatable": "Who actually annotates NLP datasets, and why won't researchers say?",
+  "hook": "Audit of 2,667 annotation tasks reveals NLP papers skip crucial details: 70% omit annotator demographics, training, or pay rates.",
+  "summary": "NLP research depends on human-labeled data, yet papers rarely document who annotated or how. Researchers analyzed 1,603 papers (2018–2025) using LLM-assisted extraction, validated against 41 hand-reviewed papers, and found papers report recruitment and volume but routinely skip annotator expertise, compensation, language proficiency, and agreement scores—especially in model evaluation. The audit establishes a taxonomy and minimum reporting standard to improve annotation transparency and reproducibility.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 860,
+  "tokens_out": 191,
+  "cost_usd": 0.001452,
+  "ingested_at": "2026-06-02T13:09:46.372259+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.02113",
+  "arxiv_url": "https://arxiv.org/abs/2606.02113",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "A Primer in Post-Training Reasoning Data: What We Know About How It Works",
+  "authors": "Yaoming Li, Guangxiang Zhao, Qilong Shi, Lin Sun, Xiangzheng Zhang, Tong Yang",
+  "abstract": "Post-training has become a primary driver of recent progress in large reasoning models, and reasoning data are often the key variable determining whether this stage succeeds. Work on post-training reasoning data has grown rapidly, yet this literature remains scattered across dataset papers, reinforcement-learning recipes, reward-model studies, benchmarks, and frontier system reports. This paper is the first primer to synthesize over 150 key public studies and system reports on post-training reasoning data. We organize the field around four questions: what data objects exist, what makes them useful, how they are constructed, and how they scale. Together, this organization provides an attribution framework for future reasoning-data releases and post-training recipes.",
+  "title_relatable": "What makes reasoning data actually work in AI training?",
+  "hook": "Survey of 150+ studies reveals four key factors determining whether reasoning data improves large language models during post-training.",
+  "summary": "Large language models improve dramatically with post-training on reasoning data, but the field lacks unified understanding of what works and why. This primer synthesizes 150+ papers and system reports to answer: what types of reasoning data exist, what makes them useful, how they're created, and how they scale. The framework helps predict which data investments pay off in future model development.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 604,
+  "tokens_out": 150,
+  "cost_usd": 0.0010832,
+  "ingested_at": "2026-06-02T13:09:56.934850+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.01993",
+  "arxiv_url": "https://arxiv.org/abs/2606.01993",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "MMG2Skill: Can Agents Distill In-the-Wild Guides into Self-Evolving Skills?",
+  "authors": "Xinyu Che, Junqi Xiong, Yunfei Ge, Xinping Lei, Shihao Li, Hang Yan, Han Li, Yuanxing Zhang, Zhiqi Bai, Jinhua Hao, Ming Sun, Han Li, Jiaheng Liu",
+  "abstract": "Abundant procedural knowledge on the Web holds great potential for helping agents solve long-horizon tasks. However, such knowledge is often multimodal, heterogeneous, noisy, and implicitly assumes human executors, making it difficult to use directly as the skills required by agents. To bridge the gap between human-oriented guides and agent-executable skills, we formalize this problem as guide-to-skill learning: converting in-the-wild guides into executable skills and continuously improving them from trajectories observable to the agent. To evaluate the capability of existing agents on this task, we introduce MMG2Skill-Bench, the first benchmark designed for this problem. We further propose MMG2Skill, a closed-loop framework that compiles guides into editable skills, conditions a fixed vision-language model (VLM) agent on these skills during execution, and revises the skills from trajectory-level root-cause feedback without using benchmark scores. Across GUI control, open-ended gameplay, and strategic card play with six VLM backbones, MMG2Skill consistently outperforms vanilla baseline agents in every model-domain setting, achieving macro-average gains of +12.8 to +25.3 percentage points across backbones. Ablation studies show that directly prompting agents with raw guides can degrade performance, while both structured skill construction and trajectory-driven revision are necessary for the observed improvements. On success-inferable tasks, analyzer-based early stopping further prevents late-stage performance regressions and saves 25%-53% of attempts when the success signal is properly calibrated.",
+  "title_relatable": "Can agents learn practical skills from messy web instructions?",
+  "hook": "Converting unstructured guides into executable agent skills boosts performance 12–25 percentage points across multiple domains without benchmark scores.",
+  "summary": "Web instructions are written for humans, not AI agents—they're scattered across formats, incomplete, and noisy. This work tackles guide-to-skill learning: automatically converting procedural knowledge into structured skills, then continuously refining them from agent trajectories. MMG2Skill compiles guides into editable instructions, feeds them to vision-language models during tasks, and improves them based on failure patterns rather than ground-truth labels. Tested on GUI control, game play, and card strategy across six different backbones, the system consistently outperforms agents using raw guides, with the biggest gains (25 points) coming from both structured skill design and trajectory-driven updates.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 846,
+  "tokens_out": 219,
+  "cost_usd": 0.0015528000000000002,
+  "ingested_at": "2026-06-02T13:10:06.113697+00:00"
+}

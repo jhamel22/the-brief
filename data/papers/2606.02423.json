@@ -1,0 +1,23 @@
+{
+  "id": "2606.02423",
+  "arxiv_url": "https://arxiv.org/abs/2606.02423",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Investigating and Alleviating Harm Amplification in LLM Interactions",
+  "authors": "Ruohao Guo, Wei Xu, Alan Ritter",
+  "abstract": "Large language models (LLMs) can serve as helpful assistants, yet they can equally function as harm amplifiers that enable malicious users to achieve harmful outcomes beyond their capabilities through extended interactions. This risk manifests along two axes, i.e., democratizing domain expertise that allows novices to produce specialized harmful content, and scaling harmful operations at volumes that manual effort cannot match. Existing works, however, often overlook how LLMs compound harm across multi-turn conversations. We introduce HarmAmp, a new benchmark for multi-turn harm amplification scenarios spanning twelve risk categories. Each scenario is grounded in real-world threats and satisfies rigorous criteria, i.e., substantive amplification, operational specificity, and multi-turn necessity. We further propose TrajSafe, a proactive monitor that anticipates harmful trajectories and intervenes through actions such as probing users' genuine intents and steering the models towards safer completion. Our extensive experiments demonstrate that TrajSafe significantly reduces the harmfulness incurred in multi-turn interactions while preserving a low over-refusal rate and the target model's general capabilities. Our work offers a promising paradigm to alleviate the nuanced safety risks in LLM interactions.",
+  "title_relatable": "How LLMs turn novices into experts at causing harm—and how to stop them",
+  "hook": "New benchmark reveals how chatbots amplify harm across multiple turns; proposed intervention reduces harmful outcomes while keeping refusal rates low.",
+  "summary": "LLMs can inadvertently help malicious users exceed their own capabilities through extended back-and-forth conversations—teaching novices specialized attacks or automating harmful tasks at scale. This paper introduces HarmAmp, a benchmark of 12 real-world multi-turn harm scenarios, and TrajSafe, a monitoring system that detects dangerous conversational paths and steers models toward safer responses. Experiments show TrajSafe cuts harm significantly without over-blocking legitimate requests or degrading general model performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 702,
+  "tokens_out": 192,
+  "cost_usd": 0.0013296,
+  "ingested_at": "2026-06-02T13:09:37.404336+00:00"
+}

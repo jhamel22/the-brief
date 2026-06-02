@@ -1,0 +1,23 @@
+{
+  "id": "2606.00724",
+  "arxiv_url": "https://arxiv.org/abs/2606.00724",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "WaveFilter: Enhancing the Long-Context Capability of Diffusion LLMs via Wavelet-Guided KV Cache Filtering",
+  "authors": "Jinnan Yang, Yan Wang, Zhen Bi, Kehao Wu, Xiaojie Li, Jungang Lou, Zechao Li, Jing Liu",
+  "abstract": "Diffusion Large Language Models (DLMs) have demonstrated significant advantages across various tasks. However, constrained by their multi-step iterative inference mechanism, their computational overhead and inference latency in long-context tasks have become core bottlenecks restricting their large-scale deployment. When processing long sequences, existing Key-Value (KV) caching mechanisms often face a dilemma where generation quality degrades drastically, where the core challenge lies in precisely and efficiently filtering critical tokens within ultra-long contexts. Inspired by the human reading process, we propose \\textbf{WaveFilter}, a universal and training-free caching framework. This framework innovatively introduces the wavelet transform for decomposition of long sequences to achieve precise identification of key tokens, based on which a sparse KV Cache is constructed to compute the final contextual representation. Experimental results demonstrate that WaveFilter, as a plug-and-play generic framework, significantly enhances the performance of existing mainstream KV Cache methods in complex long-context tasks.",
+  "title_relatable": "How to make language models remember long documents faster?",
+  "hook": "Wavelet-based filtering cuts memory overhead in long-context diffusion models while preserving generation quality without retraining.",
+  "summary": "Diffusion language models are slow at processing long documents because they cache all tokens equally—wasting compute on irrelevant context. WaveFilter borrows from human reading: it decomposes long sequences using wavelet transforms to identify which tokens actually matter, then builds a sparse cache from only those. Tested on complex long-context tasks, it works as a plug-and-play layer that speeds up existing caching methods.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 698,
+  "tokens_out": 166,
+  "cost_usd": 0.0012224,
+  "ingested_at": "2026-06-02T13:11:08.531377+00:00"
+}
