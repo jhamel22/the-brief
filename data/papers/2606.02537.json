@@ -1,0 +1,23 @@
+{
+  "id": "2606.02537",
+  "arxiv_url": "https://arxiv.org/abs/2606.02537",
+  "announced_date": "2026-06-01",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI"
+  ],
+  "title_original": "A Guide to Higher-Order Homophily",
+  "authors": "Moritz Laber, Brennan Klein",
+  "abstract": "Homophily, the overrepresentation of interactions among similar individuals, and heterophily, the elevated prevalence of interactions among dissimilar ones, are frequently observed mixing patterns in social networks. As hypergraphs are increasingly used to represent social systems, a higher-order perspective on homophily and heterophily becomes ever more relevant. Here, we provide two complementary perspectives on this problem: First, we survey measures that can be used to quantify homophily (or heterophily) in hypergraphs -- emphasizing conceptual differences to existing pairwise measures -- and explain each measure through in-depth examples. Second, we provide an overview of hypergraph models for higher-order mixing patterns, distinguishing several model families with distinct use cases. By providing a guide to existing methods and synthesizing the current body of knowledge on higher-order homophily and heterophily, we lay the basis for informed methodological choices and future developments.",
+  "title_relatable": "How do social networks cluster when groups interact, not just pairs?",
+  "hook": "Social networks aren't just two-person connections. New methods reveal how people preferentially form larger groups with similar or dissimilar others—and existing pairwise measures miss the pattern entirely.",
+  "summary": "When three or more people interact simultaneously in a group, do they cluster by similarity like pairs do? This survey catalogs measures and models for detecting homophily (birds of a feather) and heterophily (opposites attract) in hypergraphs—networks with group-level ties. The authors show that group-level mixing patterns differ fundamentally from pairwise ones, offering methodological guidance for studying team formation, collaboration networks, and real social systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 626,
+  "tokens_out": 189,
+  "cost_usd": 0.0012568,
+  "ingested_at": "2026-06-02T13:07:00.056031+00:00"
+}

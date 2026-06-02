@@ -1,0 +1,23 @@
+{
+  "id": "2606.00303",
+  "arxiv_url": "https://arxiv.org/abs/2606.00303",
+  "announced_date": "2026-05-29",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "astro-ph.IM",
+    "physics.soc-ph"
+  ],
+  "title_original": "Building a Global Astrotourism Community of Practice Through Astronomy for Development",
+  "authors": "Joyful E. Mdhluli",
+  "abstract": "Astrotourism is an emerging interdisciplinary field situated at the intersection of astronomy, tourism, cultural heritage, and sustainable development. Despite growing global interest, the field remains loosely defined and under-theorized, with limited empirical studies documenting practitioner perspectives and community-led initiatives. This paper presents findings from the first Astrotourism Community Exchange hosted by the International Astronomical Union Office of Astronomy for Development (OAD), which brought together over 150 participants from Africa, Asia, Europe, the Middle East, and Latin America - including practitioners, researchers, educators, tourism processionals, and community developers. Using qualitative thematic analysis of a recorded online community session, we explore how practitioners conceptualize astrotourism, the models being implemented across diverse contexts, and the key challenges shaping the field's development. Five major themes emerged: (1) astrotourism as a tool for community development, (2) cultural heritage and knowledge systems, (3) environmental sustainability and dark sky protection, (4) accessibility and inclusive design, and (5) conceptual and methodological gaps in the field. Across all themes, astrotourism was consistently framed not merely as a form of niche tourism, but as a hybrid socio-cultural and environmental practice with significant implications for sustainable development and science engagement. We argue that astrotourism is evolving into a global community of practice rather than a fixed tourism category, and we highlight the need for further interdisciplinary research, data collection frameworks, and inclusive policy development to support its growth.",
+  "title_relatable": "Can stargazing tours drive development in poor communities?",
+  "hook": "150 astronomy professionals worldwide reveal how astrotourism is becoming a tool for economic development, cultural preservation, and dark sky protection—not just vacation bookings.",
+  "summary": "Researchers analyzed the first global astrotourism conference organized by the International Astronomical Union, gathering 150 practitioners from five continents. They found astrotourism functioning as a hybrid practice that simultaneously generates income, protects indigenous knowledge systems, safeguards night skies, and improves science literacy. The field lacks shared definitions and rigorous frameworks, revealing a gap between its untapped potential and current practice.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 756,
+  "tokens_out": 171,
+  "cost_usd": 0.0012888,
+  "ingested_at": "2026-06-02T13:07:22.589693+00:00"
+}

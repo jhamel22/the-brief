@@ -1,0 +1,22 @@
+{
+  "id": "2605.31095",
+  "arxiv_url": "https://arxiv.org/abs/2605.31095",
+  "announced_date": "2026-05-29",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Vehicle Overacceleration -- A Fundamental Microscopic Mechanism for Traffic Breakdown Control Using Automated Vehicles and AI",
+  "authors": "Boris S. Kerner",
+  "abstract": "This review article addresses a fundamental controversial question in traffic theory: Is the nucleation character of traffic breakdown at a bottleneck governed by vehicle overdeceleration (overbraking) or by discontinuous vehicle acceleration, referred to as vehicle overacceleration. This question is of particular importance in the context of automated vehicles and AI, whose individual dynamic behavior can enable reliable strategies for traffic breakdown control in the future. We show that, in both human-driven and automated traffic flow, traffic breakdown is governed by vehicle overacceleration rather than vehicle overdeceleration. With this objective, in microscopic modeling we separate traffic breakdown caused by overacceleration from traffic instabilities caused by overdeceleration due to braking behavior, while following recent papers [Phys. Rev. E 108, 014302 (2023); 108, 064305 (2023); 112, 034309 (2025)].",
+  "title_relatable": "Do accelerating cars, not braking ones, cause traffic jams?",
+  "hook": "Traffic breakdown stems from vehicles accelerating too hard, not braking too hard—a distinction that matters for programming self-driving cars to prevent gridlock.",
+  "summary": "Traffic jams form when drivers accelerate too aggressively after slowing down, not because of hard braking. By separating overacceleration effects from braking instabilities in traffic simulations, the work reveals that controlling individual vehicle acceleration—something automated cars can do precisely—offers a direct lever for preventing bottleneck collapse. This flips conventional thinking about what triggers congestion.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 632,
+  "tokens_out": 167,
+  "cost_usd": 0.0011736,
+  "ingested_at": "2026-06-02T13:07:31.961621+00:00"
+}

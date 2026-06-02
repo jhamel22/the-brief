@@ -1,0 +1,25 @@
+{
+  "id": "2606.00235",
+  "arxiv_url": "https://arxiv.org/abs/2606.00235",
+  "announced_date": "2026-05-29",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.AI",
+    "cs.CY",
+    "cs.MA"
+  ],
+  "title_original": "Civilizational Metamaterials: Engineering Coordination Under Capability Gradients and Structural Turbulence",
+  "authors": "David Orban",
+  "abstract": "We argue that governance must transition from a normative discipline to an engineering discipline, and we develop a formal framework, inspired by the physics of metamaterials, to make this transition quantitative and testable. Artificial General Intelligence affects civilization primarily by increasing decision velocity while human verification capacity remains bounded. When the cost of validating AI-generated outputs exceeds the expected utility of acting on them, rational agents default to inaction: a stable but catastrophic Nash equilibrium we term the Freezing Equilibrium. Drawing on metamaterials, where emergent macro-properties arise from designed microstructure, we develop a phenomenological constitutive law for institutional coordination: $R_{\\mathrm{eff}} = β\\cdot (1-ρ) \\cdot (1-τ) \\cdot (1-γρτ)$, where $β$ is the decision branching factor, $ρ$ is provenance fidelity, $τ$ is the verification rate, and $γ\\in [0,1]$ captures correlated-detection synergy between provenance and verification failures. The model predicts a sharp phase transition between self-healing ($R_{\\mathrm{eff}} 1$) regimes. We introduce a three-class provenance taxonomy: cryptographic, institutional, and context binding, and derive four falsifiable hypotheses with a proposed 12-week stepped-wedge cluster-randomized trial in government grant review panels. The framework bridges AI alignment theory and institutional design.",
+  "title_relatable": "Can we engineer governments to handle AI faster than humans can verify?",
+  "hook": "As AI accelerates decision-making, institutions face a trap: validation takes too long, so rational actors freeze. A physicist proposes borrowing metamaterial design to fix coordination.",
+  "summary": "When AI outputs arrive faster than humans can validate them, organizations rationally choose inaction—a stable disaster. This paper treats institutions like metamaterials: carefully design the microstructure and useful properties emerge. A formula predicts when institutions switch from paralyzed to self-healing, depending on decision speed, verification capacity, and how well you can track where information came from. The authors propose testing this in government grant panels.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 760,
+  "tokens_out": 177,
+  "cost_usd": 0.001316,
+  "ingested_at": "2026-06-02T13:07:25.625357+00:00"
+}

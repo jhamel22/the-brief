@@ -1,0 +1,23 @@
+{
+  "id": "2605.30948",
+  "arxiv_url": "https://arxiv.org/abs/2605.30948",
+  "announced_date": "2026-05-29",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cond-mat.stat-mech",
+    "physics.soc-ph"
+  ],
+  "title_original": "Competing heterogeneities shape ordering via higher-order interactions",
+  "authors": "Gangmin Son, Federico Battiston, Deok-Sun Lee, K. -I. Goh",
+  "abstract": "Higher-order interactions admit richer structural heterogeneity than pairwise networks. To understand how heterogeneity impacts collective phenomena we develop a framework based on the cavity method and apply it to the simplicial Ising model on heterogeneous hypergraphs. Unlike in homogeneous structures, group size and node degree play fundamentally different roles: size heterogeneity sharpens the transition via large-group unanimity, while degree heterogeneity softens it as hubs cooperatively seed ordering with non-hubs. Under either type of heterogeneity, continuous--discontinuous double transitions can arise, where the symmetry-breaking continuous transition is driven by pairs or by hubs, respectively. When both heterogeneities coexist, cross-order degree correlations further modulate the phase diagram, with anticorrelation delaying the group-driven discontinuous jump and broadening the hysteretic region. Our results reveal the intricate interplay between size and degree heterogeneities in collective phenomena beyond pairwise interactions.",
+  "title_relatable": "Do group sizes and individual hubs compete to trigger collective behavior?",
+  "hook": "Large groups push systems abruptly into agreement, while influential hubs smooth the transition—and their interplay reshapes when collective behavior emerges.",
+  "summary": "Physicists studied how different types of disorder affect magnetic-like phase transitions in higher-order networks (where groups of three or more nodes interact, not just pairs). They found that large groups sharpen transitions into collective ordering, whereas high-degree \"hub\" nodes soften them. When both types of heterogeneity exist simultaneously, they compete, creating double transitions and wider hysteresis—revealing that diversity operates differently depending on whether it's in group size or node influence.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 663,
+  "tokens_out": 182,
+  "cost_usd": 0.0012584,
+  "ingested_at": "2026-06-02T13:07:41.387818+00:00"
+}

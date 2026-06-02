@@ -1,0 +1,22 @@
+{
+  "id": "2606.02015",
+  "arxiv_url": "https://arxiv.org/abs/2606.02015",
+  "announced_date": "2026-06-01",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "What Do EROIs Measure? Implications for Energy Transition Assessment",
+  "authors": "Thomas Norway, Olivier Cavalié",
+  "abstract": "Multiple formulations of the Energy Return on Investment (EROI) coexist in the literature, differing mainly in their treatment of self-consumption and external direct energy inputs. This article shows that these differences are not merely conventional: they determine whether EROI measures the net energy surplus available to society or the internal conversion efficiency of the production process. By benchmarking three established formulations against theoretical limit cases, we demonstrate that only the external variant (EXT), which excludes self-consumed energy from the investment term, correctly measures the net energy surplus available to society. The internal (INT) and standard (STD) variants instead converge toward measures of process efficiency. We further show that, in multi-source systems exchanging direct energy flows, consistency requires converting these flows into their upstream embodied energy equivalents before including them in the energy investment term. A generic reallocation formula is derived and shown to uniquely preserve aggregation consistency. Applied to U.S. oil and gas production (1919--2007) and China's fossil fuel sectors (1995--2010), the revised framework yields systematically higher EROI values than standard formulations, potentially placing the same physical system on opposite sides of the net energy cliff, with direct implications for energy transition assessment and policy.",
+  "title_relatable": "Does your energy metric measure what you think it measures?",
+  "hook": "Three competing EROI formulas give different answers about whether we have surplus energy for society. Only one is right.",
+  "summary": "Energy Return on Investment (EROI) comes in three flavors, and they measure different things—not just by convention. Using oil, gas, and fossil fuel data from the U.S. and China, researchers show that the external variant (excluding self-consumed energy) correctly measures net energy surplus, while the others measure process efficiency instead. The distinction flips whether entire energy systems pass the threshold for viability.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 692,
+  "tokens_out": 162,
+  "cost_usd": 0.0012016,
+  "ingested_at": "2026-06-02T13:07:07.990495+00:00"
+}

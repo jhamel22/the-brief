@@ -1,0 +1,23 @@
+{
+  "id": "2605.31209",
+  "arxiv_url": "https://arxiv.org/abs/2605.31209",
+  "announced_date": "2026-05-29",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "$q$-Exponential Random Graphs: higher-order networks from simple constraints",
+  "authors": "David Dobáš, Diego Garlaschelli, Petr Jizba",
+  "abstract": "Exponential Random Graphs (ERGs) are among the most widely used network models, derived as principled least-bias graph ensembles that maximize Shannon entropy under constraints on the expected values of given structural properties. However, it has been recently (re)discovered that, in the absence of additional information privileging Shannon entropy, the most agnostic inferential construction should maximize the broader class of Uffink entropies. The resulting entropy-maximizing distribution changes from the exponential (Boltzmann-Gibbs) to the so-called q-exponential one. Since maximizing Shannon entropy may produce an unjustified independence between degrees of freedom, here we investigate how the most popular ERGs with independent edges (namely, the Erdos-Renyi and configuration models) generalize to higher-order q-Exponential Random Graphs with dependent edges in the non-Shannon case, while keeping their defining constraints (number of links and degree sequence, respectively) unchanged. We find features, such as a phase transition between sparse and dense regimes, that are absent in the original ERGs but typical of higher-order networks, plus novel phenomena such as richer assortativity and clustering profiles, which allow for the coexistence of link sparsity and triadic closure. These results show that higher-order networks do not necessarily require higher-order constraints, as they naturally arise from simpler ones in a framework that is even more agnostic than Shannon's.",
+  "title_relatable": "Can simpler rules naturally produce the complex networks we observe?",
+  "hook": "Replacing Shannon entropy with a more neutral statistical principle generates networks with higher-order structure without explicitly building it in.",
+  "summary": "Standard network models assume independent connections and use Shannon entropy—arguably an arbitrary choice. Switching to a broader class of entropies that make fewer assumptions produces networks with phase transitions, clustering, and sparse-yet-interconnected triangles, mimicking real networks without adding extra constraints. This suggests complex network structure may emerge naturally from maximally neutral statistics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 753,
+  "tokens_out": 147,
+  "cost_usd": 0.0011904,
+  "ingested_at": "2026-06-02T13:07:29.076777+00:00"
+}

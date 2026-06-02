@@ -1,0 +1,23 @@
+{
+  "id": "2606.00893",
+  "arxiv_url": "https://arxiv.org/abs/2606.00893",
+  "announced_date": "2026-05-30",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cs.SI",
+    "physics.soc-ph"
+  ],
+  "title_original": "Hypergraph backboning",
+  "authors": "Alec Kirkley, Helcio Felippe, Federico Malizia, Federico Battiston",
+  "abstract": "Hypergraphs provide a natural framework for describing complex networked systems with higher-order, non-dyadic interactions. Due to their high dimensionality and often redundant structure, a key challenge is to develop methods that simplify hypergraph representations while preserving the essential structure of interactions. Here we present a principled, efficient, and non-parametric information-theoretic method for pruning nested and/or redundant structures in hypergraphs, enabling a minimal representation of higher-order interactions in the presence of local heterogeneity. Our approach naturally extends to weighted hypergraphs, where higher-order topology and hyperedge weights combine to identify the system's structural backbone. We validate the method on controlled synthetic hypergraphs and apply it to empirical datasets from diverse domains, demonstrating substantial sparsification without loss of core structural information.",
+  "title_relatable": "How to strip hypergraphs down to their skeleton",
+  "hook": "A method to remove redundant connections from complex networks while keeping the essential structure—like finding the key bones in a tangle of muscle.",
+  "summary": "Hypergraphs—networks where multiple entities connect at once, not just in pairs—are messy and redundant. This team developed an information-theoretic algorithm to prune away nested and redundant links, leaving a minimal \"backbone\" that preserves the network's core behavior. Tests on synthetic and real datasets (from biology, social systems) show dramatic sparsification without losing structural information.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 617,
+  "tokens_out": 163,
+  "cost_usd": 0.0011455999999999999,
+  "ingested_at": "2026-06-02T13:07:10.749687+00:00"
+}

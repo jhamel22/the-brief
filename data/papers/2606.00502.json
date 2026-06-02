@@ -1,0 +1,22 @@
+{
+  "id": "2606.00502",
+  "arxiv_url": "https://arxiv.org/abs/2606.00502",
+  "announced_date": "2026-05-30",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Cycle-resolved explainability of energy storage impacts on whole-system cost and emissions",
+  "authors": "Zenghui Zhang, Wei He",
+  "abstract": "Grid-scale storage is not intrinsically cost-reducing or emissions-reducing: whether a storage cycle lowers or raises whole-system cost and CO2 depends on when, where, how long, what charges it, and what it displaces. Existing studies often assess storage value in aggregate or through asset-level market response, leaving a blind spot between system value and operational actions. Here we resolve this blind spot by attributing whole-system cost and CO2 consequences to individual charge-discharge cycles across present-day (2023) and planned (2030) UK and EU power systems. We show that aggregate indicators conceal sharply different cycle-level outcomes. In today's systems, commercially rational battery dispatch can reduce cost while increasing emissions, whereas long-duration energy storage more consistently captures infrequent cross-timescale co-benefit cycles that reduce both. Changing the dispatch objective redistributes storage operation within the existing opportunity set, but supply-side decarbonisation shifts that set itself, expanding co-benefit opportunities across technologies. This complementary structure shows that batteries serve recurrent opportunities, while long-duration storage captures stress-period co-benefits. The results identify gaps between market arrangements and whole-system value, and provide a basis for storage portfolio design, siting, and carbon-sensitive market reform that targets the operating regimes through which storage creates public value.",
+  "title_relatable": "Why some batteries cut costs but raise emissions—and what actually works?",
+  "hook": "A battery charging at the right time cuts grid costs but increases CO₂; different storage types succeed at different jobs. New analysis reveals which cycles actually help.",
+  "summary": "Batteries don't automatically save money or carbon—their value depends entirely on when they charge, what they displace, and how long they store. Researchers tracked individual charge-discharge cycles across UK and EU grids (2023 and 2030) and found that profit-driven battery dispatch often cuts costs while raising emissions, whereas longer-duration storage captures rare cross-timescale opportunities that reduce both. The mismatch suggests markets reward the wrong storage behaviors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 715,
+  "tokens_out": 184,
+  "cost_usd": 0.001308,
+  "ingested_at": "2026-06-02T13:07:13.821323+00:00"
+}

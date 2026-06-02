@@ -1,0 +1,23 @@
+{
+  "id": "2606.02411",
+  "arxiv_url": "https://arxiv.org/abs/2606.02411",
+  "announced_date": "2026-06-01",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "nlin.AO"
+  ],
+  "title_original": "Evolved Collectives Combine Complex Internal Representations with Simple Outputs",
+  "authors": "Guilherme S. Y. Giardini, John F. Hardy, Carlo daCunha",
+  "abstract": "Collective intelligence emerges from local interactions among agents with limited information, yet how internal controller organization relates to emergent collective order remains unclear. Here, we study evolved swarms with shallow neural controllers under explicit sensory and actuation constraints and compare collective order with hidden-layer complexity and output nonlinearity across 3024 conditions. Under these constraints, the most ordered regimes exhibit two simultaneous and seemingly contrasting effects: hidden-layer complexity increases, while the effective output mapping becomes more linear. The diversity of recurrent collective behaviors varies nonmonotonically across the control parameters, with pattern richness shaped by parameter-specific tradeoffs rather than a single generic constraint optimum. Unevolved controls show that output linearization persists without adaptation, whereas the hidden-complexity relation depends on optimization. These two effects are respectively consistent with the law of requisite complexity and ecological rationality, suggesting that adaptive collective intelligence can arise through a partitioned controller organization in which representational complexity and action-level linearization coexist within the same system.",
+  "title_relatable": "Why do swarms build complex brains but keep their movements simple?",
+  "hook": "Evolved robot swarms develop intricate internal decision-making while keeping their actual movements straightforward—a strategy that balances what they need to think versus what they need to do.",
+  "summary": "Researchers evolved neural controllers for robot swarms under realistic constraints and found that the most coordinated collectives develop two surprising traits simultaneously: complex hidden-layer processing but linear, simple outputs. This split mirrors human problem-solving—we think through messy internal models but act on clear rules. The finding suggests swarms optimize by doing the hard work internally while keeping motor commands direct.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 657,
+  "tokens_out": 169,
+  "cost_usd": 0.0012016,
+  "ingested_at": "2026-06-02T13:07:03.190168+00:00"
+}

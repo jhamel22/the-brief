@@ -1,0 +1,23 @@
+{
+  "id": "2605.30996",
+  "arxiv_url": "https://arxiv.org/abs/2605.30996",
+  "announced_date": "2026-05-29",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cs.SI",
+    "physics.soc-ph"
+  ],
+  "title_original": "Persistent Structural Inequality of Online Interactions Across Platforms",
+  "authors": "Giulio Pecile, Edoardo Di Martino, Edoardo Loru, Simon Zollo, Niccolò Di Marco, Matteo Cinelli",
+  "abstract": "User interactions on social media platforms are unevenly distributed: a small subset of users consistently captures most of the activity, while the majority remains marginal. Although this pattern is well known and often described by power-law distributions, its consistency across time, platforms, and interaction types has not been systematically assessed. In this study, we analyze user-post bipartite networks from multiple social media platforms. We consider both active contributions (posts) and passive engagement (likes and comments), and quantify distributional properties and inequality using a KL-divergence-based model comparison, an inverse coefficient of variation, and a log-transformed Gini index. Our results show that interaction inequality remains stable over time within each platform. This holds across systems with different sizes, topical focuses, and governance models. These findings indicate that inequality in online engagement is not incidental but reflects structural constraints that shape how visibility and participation are distributed in digital environments.",
+  "title_relatable": "Why do the same few voices always dominate every social media platform?",
+  "hook": "Across Twitter, Reddit, and other platforms, a tiny fraction of users capture most attention—and this pattern stubbornly persists unchanged, suggesting it's baked into how social media works.",
+  "summary": "Researchers analyzed millions of user interactions across multiple social media platforms and found that inequality in who gets heard is remarkably consistent: the same tiny elite captures most posts, likes, and comments, whether you measure it on Twitter or Reddit, and this imbalance doesn't fade over time. The uniformity across platforms with vastly different rules and audiences suggests this isn't a bug but a feature of how online visibility works.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 651,
+  "tokens_out": 181,
+  "cost_usd": 0.0012448000000000001,
+  "ingested_at": "2026-06-02T13:07:35.135842+00:00"
+}
