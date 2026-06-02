@@ -1,0 +1,22 @@
+{
+  "id": "2606.00368",
+  "arxiv_url": "https://arxiv.org/abs/2606.00368",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum Signal Processing for Linear PDEs: Circuit Design and Experimental Validation",
+  "authors": "Hyeongjin Kim, Revathi Jambunathan, Jan Balewski, Daan Camps",
+  "abstract": "Quantum algorithms offer new avenues for solving partial differential equations (PDEs). While the potential for end-to-end quantum advantage is at present not well understood, recent literature presents explicit circuit constructions for solving certain classes of linear PDEs in the frequency domain and thus offers concrete examples to study. In this work, we develop end-to-end implementations of these quantum circuits compiled to machine-level instructions and benchmark them in both numerical simulations and IBMQ hardware experiments. We focus on the advection, wave, and Poisson equations and study quantum circuits that propagate the dynamics in frequency space via the quantum Fourier transform using approximate methods based on a first-order approximation which offer compact representations with uncontrollable approximation error, and polynomial approximation methods based on quantum signal processing (QSP) leading to deeper circuits with tunable algorithmic error. In addition, we experimentally demonstrate that the QSP-augmented algorithm can provide accurate solutions under realistic hardware constraints. Finally, we extend our method to address non-homogeneous Dirichlet boundary conditions and verify it numerically for a Poisson equation with source term obtained from high-fidelity physics simulations of a capacitively coupled plasma.",
+  "title_relatable": "Can today's quantum computers actually solve physics equations?",
+  "hook": "Quantum circuits for fluid and wave equations run on real IBM hardware — with surprisingly accurate results.",
+  "summary": "Three classic physics equations — advection, wave, and Poisson — were solved end-to-end on IBM quantum processors using a technique called quantum signal processing. The circuits handle frequency-domain dynamics and were tested against both simulators and real hardware, showing that the more sophisticated QSP approach holds up under realistic noise. The team also tackled non-uniform boundary conditions using inputs from plasma physics simulations, pushing the method toward practical problems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 702,
+  "tokens_out": 157,
+  "cost_usd": 0.004461,
+  "ingested_at": "2026-06-02T13:03:16.549736+00:00"
+}

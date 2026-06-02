@@ -1,0 +1,23 @@
+{
+  "id": "2606.00259",
+  "arxiv_url": "https://arxiv.org/abs/2606.00259",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall"
+  ],
+  "title_original": "Geometric Instability and Self-Limitation in Driven Quantum Systems",
+  "authors": "A. M. Tishin",
+  "abstract": "We develop a unified geometric framework for local non-adiabaticity in driven quantum systems. We show that the previously introduced AMT non adiabaticity parameter arises as a special realization of a more general geometric instability criterion governed by the normalized Fubini Study distinguishability speed. The local geometric evolution speed is identified as the physically relevant quantity controlling the onset of non-adiabatic instability. We introduce a universal dimensionless instability parameter measuring the competition between quantum-state evolution speed and spectral-gap protection. This quantity provides a local, gauge-invariant, and basis-independent criterion for arbitrary driven Hamiltonians. Near quantum critical points, the instability parameter diverges through inverse gap amplification, recovering the Kibble Zurek freeze-out condition directly from local geometric data. We prove that monotonic occupation-dependent nonlinear regulators geometrically compress the quantum metric, establishing a self-limitation theorem in which nonlinear spectral deformation confines the accessible region of projective Hilbert space under strong driving. The multimode extension yields a matrix-valued instability criterion that identifies collective instability channels invisible to scalar descriptions. The framework naturally extends to open quantum systems through the Bures metric and quantum Fisher geometry, where thermal mixing and Lindblad decay increase the instability threshold through geometric suppression of state distinguishability. The instability threshold further implies a universal geometric lower bound on coherent control time and quantum gate duration.",
+  "title_relatable": "Why do quantum systems protect themselves from being driven too hard?",
+  "hook": "A geometric framework shows driven quantum systems hit a universal speed limit — and can regulate themselves to avoid it.",
+  "summary": "Pushing a quantum system too fast causes it to lose track of its own ground state — a phenomenon called non-adiabatic breakdown. This work reframes that breakdown using the geometry of quantum state space: how quickly a state moves through projective Hilbert space relative to the energy gap protecting it. The payoff is a single gauge-invariant number that predicts instability for any driven system, recovers the classic Kibble-Zurek freezing condition near phase transitions, and sets a hard lower bound on how fast a quantum gate can run without errors.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 738,
+  "tokens_out": 188,
+  "cost_usd": 0.005034,
+  "ingested_at": "2026-06-02T13:03:33.861489+00:00"
+}

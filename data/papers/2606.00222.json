@@ -1,0 +1,22 @@
+{
+  "id": "2606.00222",
+  "arxiv_url": "https://arxiv.org/abs/2606.00222",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "How to make quantum cheese: efficient geometry oracles for exponentially many pseudorandom microstructures",
+  "authors": "Alice Barthe",
+  "abstract": "Quantum algorithms for simulating linear systems are often formulated under oracle access assumptions. A central question is when such oracles can be implemented by polynomial-size quantum circuits. In this paper, we study this question for materials specified by rules rather than by exhaustive descriptions. We focus on textured materials with exponentially many geometric features. In two settings, we show that, without additional structure, describing such geometries yields Grover-type lower bounds, making the corresponding quantum oracles intractable in general. In contrast, when suitable structure is imposed, we identify a broad family of pseudorandom locally textured materials whose geometry can be queried through a polynomial-size quantum circuit. We provide explicit circuit constructions for these oracles and verify their behaviour through numerical simulation.",
+  "title_relatable": "Can quantum computers efficiently simulate materials with complex microstructures?",
+  "hook": "Quantum simulation of textured materials hits a fundamental barrier — unless the microstructure has hidden regularity.",
+  "summary": "Quantum algorithms for materials often assume a black-box oracle that describes geometry, but building those oracles is rarely examined. This work shows that fully arbitrary microstructures with exponentially many features face Grover-search lower bounds, making efficient oracles impossible in general. However, for a broad class of pseudorandom but locally structured materials, explicit polynomial-size quantum circuits exist — a concrete step toward practical quantum simulation of real engineered materials.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 585,
+  "tokens_out": 162,
+  "cost_usd": 0.004185,
+  "ingested_at": "2026-06-02T13:04:01.989737+00:00"
+}

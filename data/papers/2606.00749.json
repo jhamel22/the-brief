@@ -1,0 +1,23 @@
+{
+  "id": "2606.00749",
+  "arxiv_url": "https://arxiv.org/abs/2606.00749",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "math-ph"
+  ],
+  "title_original": "Quantum Ergodicity and Thermalization in Interval Quantum Mechanics",
+  "authors": "Abbas Edalat",
+  "abstract": "We combine Reimann's spectral typicality theorem -- a modern formulation of quantum ergodicity -- with the framework of Interval Quantum Mechanics (IQM). In IQM, quantum states are represented not by points but by \\emph{quantum parcels}: weak open convex sets of density matrices defined by finitely many expectation intervals. Such parcels are the exact mathematical representation of the epistemic knowledge obtained from finite-precision measurements of macroscopic observables. We prove that for a single parcel in which every state has large effective dimension (a condition that ensures thermalization), the expectation interval of any bounded observable becomes concentrated around the microcanonical value for most late times. The asymptotic bound depends only on the minimal effective dimension within the parcel, not on its detailed shape. For a double parcel \\((O_1,O_2)\\) with both components contained in an energy shell, separated by a conserved quantity \\(Q^*\\) that is supported on the range of the measurement projector, we show that the expectation intervals of both parcels become concentrated near the microcanonical values of bounded observables, the separation is preserved exactly, and the updated double parcel after a fuzzy measurement remains valid.",
+  "title_relatable": "Why do quantum systems forget their past and reach equilibrium?",
+  "hook": "A new formalism treats quantum states as measurement-defined ranges, not points — and proves thermalization follows automatically.",
+  "summary": "Standard quantum mechanics assumes perfect knowledge of a system's state, but real measurements give only finite-precision intervals. By representing quantum states as convex sets of density matrices matching those intervals, this framework proves that any large, complex quantum system will thermalize — its observables converging to microcanonical (thermal equilibrium) values at most late times. The result depends only on a single number, the minimum effective dimension of the state set, not on the system's detailed configuration.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 691,
+  "tokens_out": 174,
+  "cost_usd": 0.004683,
+  "ingested_at": "2026-06-02T13:02:43.779622+00:00"
+}

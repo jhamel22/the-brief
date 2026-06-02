@@ -1,0 +1,23 @@
+{
+  "id": "2606.00806",
+  "arxiv_url": "https://arxiv.org/abs/2606.00806",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cs.ET",
+    "quant-ph"
+  ],
+  "title_original": "Computational Phase Transitions in Binary Compressed Sensing: Quantum Annealing Inside the Relaxation Gap",
+  "authors": "William Hahn, Natalia Romero",
+  "abstract": "We map the computational phase transition boundary in binary compressed sensing and identify a regime where D-Wave's quantum annealer recovers signals in a region where all tested classical methods fail, including Approximate Message Passing (AMP), which achieves the Bayes-optimal recovery threshold asymptotically for Gaussian matrices. In 19,775 experiments (n in {32, 64}, nine classical solvers, two D-Wave modes), we find that quantum annealing recovers sparse binary signals in the relaxation gap -- the regime below the Donoho-Tanner l1 phase transition where the l0 solution exists but convex relaxations fail. At n=32, k=5, m/n=0.19, D-Wave achieves 7% exact recovery while AMP and eight other solvers score 0% across 250 combined trials (Fisher exact p=0.018). At n=64, embedding overhead limits the QPU, but D-Wave's hybrid solver remains competitive with AMP. Energy landscape analysis reveals that the QUBO ground state contains the true signal, but incorrect solutions occupy shallower local basins that trap classical search -- a structure consistent with quantum tunneling dynamics. To our knowledge, this constitutes preliminary finite-size evidence that quantum annealing succeeds in a narrow regime where all tested classical methods, including the Bayes-optimal AMP, fail within a well-characterized combinatorial inference problem. Confirmation at larger n, higher trial counts, and with stronger classical controls remains an open problem.",
+  "title_relatable": "Did a quantum computer beat every classical algorithm at signal recovery?",
+  "hook": "D-Wave recovered sparse signals in a regime where nine classical solvers, including the theoretically optimal one, scored zero.",
+  "summary": "In nearly 20,000 experiments, a D-Wave quantum annealer found correct solutions in the 'relaxation gap' — a hard zone where the answer mathematically exists but standard optimization can't reach it. At small problem sizes, D-Wave hit 7% exact recovery while every classical method, including the Bayes-optimal benchmark, scored 0%. The likely mechanism: quantum tunneling through shallow false-solution traps that snare classical search. Results are preliminary and don't yet scale to large problems, but the gap is real and statistically significant.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 769,
+  "tokens_out": 193,
+  "cost_usd": 0.005202,
+  "ingested_at": "2026-06-02T13:02:38.037319+00:00"
+}

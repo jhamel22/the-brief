@@ -1,0 +1,23 @@
+{
+  "id": "2606.02505",
+  "arxiv_url": "https://arxiv.org/abs/2606.02505",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Spatial and particle-particle entanglement in 1D quantum walks of two distinguishable or indistinguishable bosonic particles",
+  "authors": "Christopher Mastandrea, Chih-Chun Chien",
+  "abstract": "We present entanglement measures between spatially separated regions and between two distinguishable or indistinguishable particles in one-dimensional two-particle continuous-time quantum walks governed by the Hubbard Hamiltonian. The left-right entanglement checks the entropy of coarse-grained states counting the numbers of particles on the left and right halves of the lattice while the particle-particle entanglement is based on the entropy of the singular values of the time-evolved Fock state. With separable, entangled, and doubly occupied initial states, we examine initial entanglement and the following growth in different entanglement measures. While the entanglement measures of the indistinguishable cases resemble those of the distinguishable cases when the initial states are comparable, the long-time limits of the entanglement measures are typically non-monotonic as the onsite repulsion increases. We also discuss possible implications for future research of entanglement in multi-particle quantum dynamics.",
+  "title_relatable": "How does particle identity change quantum entanglement during a walk?",
+  "hook": "Two-particle quantum walks reveal that indistinguishable bosons and distinguishable particles build entanglement almost identically — until repulsion kicks in.",
+  "summary": "Tracking two particles hopping on a 1D lattice, the study compares how spatial and particle-particle entanglement grow depending on whether the particles are distinguishable or indistinguishable bosons. The surprise: the two cases look nearly the same early on, but at long times, stronger on-site repulsion doesn't steadily increase entanglement — it oscillates non-monotonically. This matters because entanglement growth is a key resource for quantum computing, and repulsion is often assumed to simply boost correlations.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 661,
+  "tokens_out": 197,
+  "cost_usd": 0.004938,
+  "ingested_at": "2026-06-02T13:01:47.295738+00:00"
+}

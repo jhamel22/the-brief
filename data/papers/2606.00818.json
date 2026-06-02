@@ -1,0 +1,23 @@
+{
+  "id": "2606.00818",
+  "arxiv_url": "https://arxiv.org/abs/2606.00818",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.app-ph",
+    "quant-ph"
+  ],
+  "title_original": "A Retinomorphic Optical Spiking Neuron for Camouflaged Object Detection",
+  "authors": "Srilagna Sahoo, Adwaaiit Pande, Kartikey Thakar, Shubham Sahay, Saurabh Lodha",
+  "abstract": "Advanced vision systems require retinomorphic, energy-efficient spike-based preprocessing of dynamic visual scenes. Here, we demonstrate multiple retinal preprocessing functionalities by leveraging a Hodgkin-Huxley-based optical spiking neuron (OSHN) that incorporates a two-dimensional anti-ambipolar phototransistor operated in the subthreshold regime to minimize power consumption. OSHN exhibits wavelength- and intensity-sensitive spike encoding with energy consumption per spike of 0.9 pJ under dark, 2 pJ at 480 nm (mid wavelength, M), and 24.5 pJ at 800 nm (long wavelength, L). The low (biological)-to-high spiking rate (0 - 2 kHz) with substantially faster response times (4.2 $μ$s - 1.25 ms) than the human retina (30 ms - 60 ms), reveal OSHN's fast decision-making capability. OSHN facilitates concurrent spectral-spatial processing by emulating retinal antagonistic center-surround receptive fields (CSRFs) at a single wavelength (480 nm or 800 nm) with varying intensities, visual adaptation (at 480 nm) to prevent system saturation, and L-M cone opponency in midget ganglion cells. Finally, a CSRF-augmented spiking neural network (SNN) has been developed for camouflaged object detection, achieving 4.4%, 10.4%, and 28.4% improvements in accuracy over conventional SNN on FMNIST, COD10K, and synthetic camouflaged datasets, outperforming existing photoactive spiking architectures while enabling event-driven intelligent edge vision systems.",
+  "title_relatable": "A tiny artificial eye that spots camouflaged objects better than existing chips",
+  "hook": "A neuron-mimicking optical chip processes light 7,000× faster than the human retina and improves camouflage detection by up to 28%.",
+  "summary": "An optical spiking neuron modeled on the Hodgkin-Huxley equations mimics how retinal cells encode color, adapt to brightness, and suppress background noise — all on a single device consuming as little as 0.9 picojoules per spike. By pairing it with a neural network that replicates the eye's center-surround receptive fields, the system improves detection of camouflaged objects by up to 28% over standard approaches. The result is a sensor that thinks at the edge, without shipping raw video to a server.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 864,
+  "tokens_out": 210,
+  "cost_usd": 0.005742,
+  "ingested_at": "2026-06-02T13:02:32.149569+00:00"
+}

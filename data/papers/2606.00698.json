@@ -1,0 +1,23 @@
+{
+  "id": "2606.00698",
+  "arxiv_url": "https://arxiv.org/abs/2606.00698",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.stat-mech",
+    "quant-ph"
+  ],
+  "title_original": "Wasserstein-2 gradient flows and the geometry of entropy production in classical and quantum stochastic thermodynamics",
+  "authors": "Olga Movilla Miangolarra, Ralph Sabbagh, Artemy Kolchinsky",
+  "abstract": "The second law does more than set the direction of thermodynamic evolution: it endows nonequilibrium transformations with an underlying geometry. In this work, we provide a unified geometric description of entropy production in classical and quantum thermodynamics based on Wasserstein-2 structures arising from gradient flows of free energy. We review how relaxation to equilibrium, in overdamped diffusions, discrete detailed-balanced Markov chains, and dissipative Lindblad dynamics, can be formulated as a gradient flow on the space of states. The associated Wasserstein-2 distance bounds entropy production, yielding a finite-time refinement of the second law. We extend this framework beyond purely dissipative dynamics by introducing generalized Wasserstein-2 metrics that incorporate conservative (Hamiltonian) dynamics in both classical inertial systems and open quantum systems, yielding intrinsic distances that exactly characterize minimal entropy production under fixed dissipative mobilities. We establish equivalence bounds between purely dissipative and Hamiltonian-dissipative geometries, explicitly quantifying how inertial or coherent dynamics can reduce dissipation. Finally, when restricted to equilibrium distributions, we recover the thermodynamic length of linear response-including the quantum thermodynamic length-thereby linking optimal transport, thermodynamic length, and counterdiabatic protocols within a single geometric framework. All in all, our results extend the Riemannian program of thermodynamics further from equilibrium and provide a geometric foundation for optimal protocols beyond the overdamped setting.",
+  "title_relatable": "Does geometry secretly govern how much energy dissipates?",
+  "hook": "A unified geometric framework shows exactly how quantum coherence and inertia reduce thermodynamic dissipation.",
+  "summary": "Entropy production isn't just a number — it turns out to define a precise geometry on the space of physical states. By casting relaxation in classical diffusions, discrete Markov chains, and quantum Lindblad systems all as 'gradient flows,' the authors derive tight bounds on how much energy any process must waste. Crucially, they show that quantum coherence and classical inertia both shrink the effective distance between states, quantifying exactly how much dissipation can be saved — a foundation for designing truly optimal thermodynamic protocols.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 785,
+  "tokens_out": 183,
+  "cost_usd": 0.0051,
+  "ingested_at": "2026-06-02T13:02:55.092708+00:00"
+}

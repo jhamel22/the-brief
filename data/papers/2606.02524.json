@@ -1,0 +1,23 @@
+{
+  "id": "2606.02524",
+  "arxiv_url": "https://arxiv.org/abs/2606.02524",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.optics"
+  ],
+  "title_original": "Practical Limits on Integrated Squeezers",
+  "authors": "Devin J. Dean, Taewon Park, Lars S. Madsen, Alex Terrasson, Sam Robison, Geun Ho Ahn, Ziyu Wang, Hubert S. Stokowski, Luke Qi, Jesse J. Slim, Joel Corney, Darwin Serkland, Warwick P. Bowen, Martin M. Fejer, Amir H. Safavi-Naeini",
+  "abstract": "Recent experiments have demonstrated the successful generation and detection of moderately squeezed vacuum states with integrated photonics. However, in order to benefit from the reduced noise of highly squeezed light, many different noise sources must be mitigated. Here, we quantify the fundamental limits these noise sources impose on squeezing measurements and find surprising generality across different platforms and designs. We combine these different limitations into a simple model that provides practical guidance for the design and benchmarking of next-generation integrated squeezed-light systems.",
+  "title_relatable": "Why is it so hard to squeeze light on a chip?",
+  "hook": "A unified model reveals why integrated photonic squeezers hit the same noise ceiling across every platform.",
+  "summary": "Squeezed light — where quantum noise is suppressed below the standard vacuum level — is a key resource for quantum sensing and computing, but shrinking the hardware onto a chip introduces noise sources that cap how much squeezing you can actually use. By systematically measuring and modeling these limits across multiple integrated photonics platforms, the team found a surprisingly consistent pattern: the same fundamental trade-offs appear regardless of material or design. Their simple predictive model should help engineers know exactly what to fix before building the next generation of devices.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 625,
+  "tokens_out": 177,
+  "cost_usd": 0.00453,
+  "ingested_at": "2026-06-02T13:01:41.440325+00:00"
+}

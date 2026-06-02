@@ -1,0 +1,23 @@
+{
+  "id": "2606.00924",
+  "arxiv_url": "https://arxiv.org/abs/2606.00924",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "quant-ph"
+  ],
+  "title_original": "Locality-Induced Hierarchical Backflow Wavefunctions for Correlated Fermions",
+  "authors": "Yu-Tong Zhou, Zheng-Wei Zhou, Wen-Yuan Liu",
+  "abstract": "We show that locality provides a natural principle to hierarchically organize backflow wavefunctions. This leads us to propose a family of variational fermionic states, termed hierarchical backflow (HB) wavefunctions. The expressive power of HB is systematically improvable, controlled by a path depth $K$ which reflects the range of backflow correlations. At half-filling, the HB with $K=1$ already achieves high energy precision, with an accuracy around $0.5\\%$ for system sizes from $4\\times 4$ to $10\\times 10$. At hole doping $n_h=0.125$, the method scales efficiently to $12\\times16$ and $16\\times16$ systems, and the energy systematically achieves higher accuracy with $K$ increasing, yielding a clear stripe phase. The HB further enables a local-nonlocal decomposition, naturally bridging to neural quantum states, while featuring compact representations and efficient optimization. Our work reveals locality as a natural organizing principle of backflow wavefunctions, opening a new framework with systematic improvability and interpretability for large-scale simulations of correlated fermion systems.",
+  "title_relatable": "A new wavefunction design finally shows stripes in doped copper oxides?",
+  "hook": "A locality-based variational wavefunction hits 0.5% energy accuracy and reveals stripe order in a model of high-temperature superconductors.",
+  "summary": "Solving the quantum many-body problem for strongly interacting electrons is notoriously hard — even simple lattice models resist exact treatment at large scales. By organizing so-called backflow correlations hierarchically according to locality, this approach achieves better than 0.5% energy accuracy on lattices up to 16×16 sites and cleanly recovers stripe order when the lattice is hole-doped, a key feature debated in cuprate superconductor physics. The method is both systematically improvable and interpretable, bridging traditional variational methods with neural-network quantum states.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 699,
+  "tokens_out": 212,
+  "cost_usd": 0.005277,
+  "ingested_at": "2026-06-02T13:02:15.805637+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2606.02560",
+  "arxiv_url": "https://arxiv.org/abs/2606.02560",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.atom-ph",
+    "cond-mat.quant-gas",
+    "physics.app-ph",
+    "physics.optics",
+    "quant-ph"
+  ],
+  "title_original": "A Mid-Infrared Platform Based on Strontium Tweezer Arrays",
+  "authors": "Aaron Holman, Ximo Sun, Bojeong Seo, Joshua Corn, Zezheng Zhu, Yuan Xu, Jiahao Wu, Nanfang Yu, Dmytro Filin, Marianna Safronova, Sebastian Will",
+  "abstract": "Subwavelength atomic tweezer arrays, in which atoms can be positioned at distances smaller than their emission wavelength, have been proposed as a versatile platform to study collective emission phenomena, such as superradiance and subradiance. Experimentally, the realization of such arrays has been a challenge as typical emission wavelengths in the visible or near-infrared are short compared to typical tweezer spacings in the micrometer range. Here, we use $^{88}$Sr atoms in optical tweezer arrays to access a mid-infrared transition at 2,923 nm ($5s5p\\:^{3}P_{2} \\rightarrow\\, 5s4d\\:^{3}D_{3}$). We identify a magic trapping wavelength at 597.14(3) nm and demonstrate single-atom preparation and imaging with high fidelity. In addition, using 2,923 nm light, we demonstrate resolved-sideband cooling of tweezer-trapped strontium. Beyond enabling studies of collective emission phenomena in flexible arrangements of atoms, our platform opens novel opportunities for dipolar many-body physics and enhanced control over Rydberg dynamics and the strontium fine-structure qubit.",
+  "title_relatable": "Trapping atoms closer together than the light they emit",
+  "hook": "Strontium atoms in tweezers emit mid-infrared light at 2,923 nm — far longer than their ~micrometer spacing, enabling a new quantum optics regime.",
+  "summary": "When atoms are packed closer together than the wavelength of light they emit, they can radiate collectively in exotic ways — but achieving this geometry has been nearly impossible with visible-light emitters. By exploiting a mid-infrared transition in strontium at 2,923 nm, this team placed atoms in micron-spaced optical tweezers that are genuinely subwavelength, demonstrating single-atom control and laser cooling along the way. The platform unlocks tabletop experiments on superradiance, dipolar quantum matter, and improved strontium qubits.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 756,
+  "tokens_out": 211,
+  "cost_usd": 0.005433,
+  "ingested_at": "2026-06-02T13:01:16.644281+00:00"
+}

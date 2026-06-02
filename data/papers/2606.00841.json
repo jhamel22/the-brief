@@ -1,0 +1,25 @@
+{
+  "id": "2606.00841",
+  "arxiv_url": "https://arxiv.org/abs/2606.00841",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.ed-ph",
+    "physics.app-ph",
+    "physics.pop-ph",
+    "quant-ph"
+  ],
+  "title_original": "Program-Level Curriculum Analysis of U.S. Quantum Masters Degrees; Implications for Workforce Preparation",
+  "authors": "Tunde Kushimo, Bradley Holt, Muhammad Talal",
+  "abstract": "Quantum technologies are increasingly recognized as a strategic priority for economic competitiveness, national security, and technological innovation in the United States. As quantum systems transition from research prototypes to deployable technologies, attention has shifted toward the preparedness of the quantum workforce, particularly the alignment between higher education and industry skill needs. While prior research has examined individual aspects of quantum education or workforce demand, few studies integrate systematic curriculum analysis with documented industry expectations. This study addresses that gap by analyzing primary U.S. masters programs in quantum science and technology, focusing on curriculum structure and skill development. Using a structured coding framework, course offerings were mapped across six quantum-relevant skill categories and aggregated to produce program-level skill profiles. These profiles were then compared with industry-identified competencies reported in recent workforce studies. The findings reveal strong emphasis on quantum theory across programs, alongside substantial variability in technical skills, applied learning opportunities, and professional development components. The results highlight areas of alignment as well as persistent gaps related to workforce readiness, cross-disciplinary integration, and emerging technological demands. This study provides a scalable framework for evaluating quantum education programs and offers evidence-based insights for curriculum design, workforce policy, and the continued development of the U.S. quantum ecosystem.",
+  "title_relatable": "Do U.S. quantum graduate programs actually train job-ready engineers?",
+  "hook": "A systematic audit of U.S. quantum master's programs finds heavy theory emphasis but persistent gaps in the hands-on skills employers want.",
+  "summary": "Researchers coded course offerings across U.S. quantum science master's programs into six skill categories and compared the results against industry competency benchmarks. Programs consistently emphasize quantum theory but vary widely in lab work, cross-disciplinary training, and professional development. The mismatch matters: as quantum hardware moves toward deployment, companies need graduates who can build and operate systems, not just describe them.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 698,
+  "tokens_out": 160,
+  "cost_usd": 0.004494,
+  "ingested_at": "2026-06-02T13:02:26.168363+00:00"
+}

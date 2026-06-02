@@ -1,0 +1,22 @@
+{
+  "id": "2606.00256",
+  "arxiv_url": "https://arxiv.org/abs/2606.00256",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "No-Go Theorem for Ancilla-Assisted Gaussian Enhancement in Passive-Unitary Estimation",
+  "authors": "Zihao Gong, Saikat Guha",
+  "abstract": "We study the maximum quantum Fisher information (QFI) for estimating a single parameter embedded in a generic multimode lossless passive Gaussian unitary using general Gaussian probes under a signal-energy constraint. Unlike previous work, which imposed a total energy constraint on the full probe, we constrain only the transmitted signal modes while allowing an arbitrary number of locally retained ancilla modes with arbitrarily large energy. We prove that this additional freedom does not increase the maximum achievable QFI; the optimum remains identical to that attainable without extra ancilla energy. The same conclusion also extends to the sequential setting under a total energy constraint. We also characterize the family of optimal probe states and show that entanglement is not necessary to attain the optimum in the lossless setting. This extends the result of Matsubara et al. to the physically motivated signal-energy-constrained scenario and establishes a no-go theorem for ancilla-assisted Gaussian enhancement in noiseless passive-unitary estimation.",
+  "title_relatable": "Does adding quantum 'helpers' improve precision measurements? No.",
+  "hook": "Unlimited ancilla quantum modes, no matter how energetic, cannot boost measurement precision beyond what simple probes already achieve.",
+  "summary": "Quantum sensors sometimes use extra 'ancilla' modes — retained locally while a signal probes a system — hoping entanglement buys extra precision. This work proves that for lossless passive optical systems, no amount of ancilla energy improves the quantum Fisher information beyond what a straightforward signal probe achieves. Entanglement turns out to be unnecessary too, simplifying practical quantum sensing designs considerably.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 656,
+  "tokens_out": 158,
+  "cost_usd": 0.004338,
+  "ingested_at": "2026-06-02T13:03:39.699228+00:00"
+}

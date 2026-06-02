@@ -1,0 +1,22 @@
+{
+  "id": "2606.00429",
+  "arxiv_url": "https://arxiv.org/abs/2606.00429",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Polytopic Quantum Resource Theories: Geometry and Structures",
+  "authors": "Moein Naseri, Chirag Srivastava, Chandan Datta, John H. Selby, Shubhayan Sarkar",
+  "abstract": "Quantum resource theories provide a unifying framework to quantify, compare, and manipulate quantum resources under well-defined operational constraints. Here, we consider any resource theory where the set of free states can be expressed as a convex combination of a set of quantum states, referred to as extremal states and name them as polytopic quantum resource theories (PQRT). These include some of the most studied resource theories, such as coherence and magic. We formulate a novel tensorial representation of PQRTs that reveals the underlying geometry of these theories and provides insight into the origin of the resources. We further address a fundamental question in resource theories that when two theories should be regarded as physically equivalent, and to this purpose we introduce notions of homomorphism and isomorphism that compare both the structure of free states and the allowed transformations. Using the tools we develop, we find results revealing the geometrical and structural foundations of such theories. Interestingly, we find that all polytopic resource theories with a fixed number of pure extremal points are equivalent under a physical map, up to normalisation. Additionally, we introduce linearly independent polytopic resource theories (resource theory of ``basis-non-convexity''), where the set of extremal free states forms a basis of the quantum density operators. We further study the categorical structures of PQRTs beyond single systems.",
+  "title_relatable": "Are all quantum resource theories secretly the same thing?",
+  "hook": "A new geometric framework shows that coherence, magic, and other quantum resources share a hidden universal structure.",
+  "summary": "Quantum resource theories — the formalism describing what makes quantum states useful — turn out to share deep geometric equivalences when their free states form polytopes. Any two such theories with the same number of pure extremal free states are physically equivalent up to rescaling, meaning coherence and magic aren't as different as they look. The result offers a unified map of which quantum advantages are genuinely distinct and which are just different faces of the same geometry.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 739,
+  "tokens_out": 158,
+  "cost_usd": 0.004587,
+  "ingested_at": "2026-06-02T13:03:11.782104+00:00"
+}

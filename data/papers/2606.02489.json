@@ -1,0 +1,24 @@
+{
+  "id": "2606.02489",
+  "arxiv_url": "https://arxiv.org/abs/2606.02489",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.quant-gas",
+    "cond-mat.mes-hall",
+    "quant-ph"
+  ],
+  "title_original": "Thouless Pumping of Large Chern Numbers in Optical Floquet Quasicrystals",
+  "authors": "Shien Wan, Zecheng Li, Bo Song",
+  "abstract": "Chern numbers are central to correlated and topological phenomena, yet most topological systems are associated with Chern numbers of order unity. Here we propose a scheme to achieve large Chern numbers in an optical Floquet quasicrystal with cold atoms, which can be directly measured via Thouless pumping. We study the quasienergy spectrum of Floquet quasicrystals and characterize the emergent Chern numbers using gap labeling theorem. We further investigate the Thouless pumping in the Floquet quasicrystal at different driving frequencies and amplitudes, revealing the connection between transport features and the quasienergy spectrum. Our findings open new avenues for exploring rich topological dynamics in Floquet quasicrystals and realizing fractional Chern insulating states.",
+  "title_relatable": "How do you get unusually large topological numbers in a quasicrystal?",
+  "hook": "Cold atoms in a laser-driven quasicrystal can host Chern numbers far larger than typical topological materials — and you can measure them directly.",
+  "summary": "Most topological materials carry a Chern number of 1 or 2, a quantum fingerprint of their exotic properties. By driving cold atoms with carefully tuned laser fields that create a quasicrystal structure, this scheme generates Chern numbers well beyond that range and reads them out through Thouless pumping — counting how many atoms slide across the system per cycle. Large Chern numbers are a stepping stone toward fractional Chern insulators, the lattice cousins of fractional quantum Hall states.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 624,
+  "tokens_out": 201,
+  "cost_usd": 0.004887,
+  "ingested_at": "2026-06-02T13:02:03.490972+00:00"
+}

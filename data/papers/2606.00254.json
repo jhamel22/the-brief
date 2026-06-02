@@ -1,0 +1,25 @@
+{
+  "id": "2606.00254",
+  "arxiv_url": "https://arxiv.org/abs/2606.00254",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "cond-mat.str-el",
+    "eess.SY"
+  ],
+  "title_original": "Symmetry-Protected Quantum Computing using Metamaterials",
+  "authors": "Neil F. Johnson, Ferney J. Rodriguez, Luis Quiroga",
+  "abstract": "We propose a new architecture for practical quantum computing that combines three established principles: symmetry protection of relative-motion qubits via the generalized Kohn theorem, control via twisted-light orbital angular momentum, and metamaterial nanofocusing (e.g. using Weyl-semimetal plasmonics). Crucially, the core mechanism is generic: it applies to any current or future quantum computing system involving parabolic confinement, including cold atoms, ions, and semiconductor dots.",
+  "title_relatable": "Could metamaterials finally make quantum computers more error-proof?",
+  "hook": "A new architecture combines three existing techniques to protect qubits from noise without exotic new hardware.",
+  "summary": "By combining a symmetry law that shields certain qubit states from environmental interference (the Kohn theorem), twisted light for control, and metamaterial lenses that focus light down to nanoscale spots, this proposal sketches a hardware-agnostic route to quieter qubits. The key claim is that the protection mechanism works for any system where particles sit in a bowl-shaped (parabolic) trap — covering cold atoms, trapped ions, and semiconductor quantum dots alike. It's a blueprint, not a demonstration, but it draws on established physics rather than speculative new materials.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 536,
+  "tokens_out": 190,
+  "cost_usd": 0.004458,
+  "ingested_at": "2026-06-02T13:03:45.828322+00:00"
+}

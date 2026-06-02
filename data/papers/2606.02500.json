@@ -1,0 +1,24 @@
+{
+  "id": "2606.02500",
+  "arxiv_url": "https://arxiv.org/abs/2606.02500",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.atom-ph",
+    "cond-mat.quant-gas",
+    "quant-ph"
+  ],
+  "title_original": "Creating and Probing Spin-Squeezed States of Molecules",
+  "authors": "Connor M. Holland, Callum L. Welsh, Yukai Lu, David Wellnitz, Xing-Yan Chen, Ana Maria Rey, Lawrence W. Cheuk",
+  "abstract": "Polar molecules are a promising platform for quantum-enhanced sensing and precision tests of fundamental physics, owing to their strong long-range dipolar interactions, broad sensitivity to electromagnetic fields, and sensitivity to potential physics beyond the Standard Model. However, the creation of metrologically useful entangled states in molecular systems has remained elusive. Here, we report the first observation of a class of metrologically useful entangled states - spin-squeezed states - in polar CaF molecules trapped in an optical tweezer array. The spin degree of freedom is encoded in rotational levels which are directly coupled by dipolar exchange interactions. By harnessing appropriate dynamical decoupling schemes we observe up to 3.0(3)dB of metrological gain, (2.2(3)dB without measurement correction) from direct exchange interactions. Using Floquet engineering, we further realize richer Hamiltonians that preserve spin squeezing while enabling the development of longer-range quantum correlations. Using site- and spin-resolved measurements we demonstrate that these entangled states enhance sensitivity to both homogeneous and spatially varying fields, and reveal strong non-classical correlations, including bipartite entanglement and Einstein-Podolsky-Rosen steering. Finally, we transfer the spin-squeezed states into long-lived and non-interacting hyperfine states, where the metrological enhancement persists for up to 100ms. Our results establish molecular optical tweezer arrays as a scalable platform for generating, controlling, characterizing, and storing entangled states of molecules, opening new opportunities for quantum-enhanced sensing and precision tests of fundamental physics.",
+  "title_relatable": "Molecules finally join the quantum entanglement club",
+  "hook": "Calcium fluoride molecules, entangled for the first time, offer 3 dB of sensing advantage and could sharpen tests of physics beyond the Standard Model.",
+  "summary": "Polar molecules are exquisitely sensitive to electric and magnetic fields — and to exotic new physics — but nobody had managed to entangle them in a metrologically useful way. This experiment traps CaF molecules in an optical tweezer array and exploits their natural dipole-dipole interactions to produce spin-squeezed states with a 3 dB measurement advantage, then parks that entanglement in quiet hyperfine levels where it survives for 100 ms. The result opens a practical route to molecule-based quantum sensors that beat the standard quantum limit.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 814,
+  "tokens_out": 202,
+  "cost_usd": 0.005472,
+  "ingested_at": "2026-06-02T13:01:57.869431+00:00"
+}

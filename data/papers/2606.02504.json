@@ -1,0 +1,22 @@
+{
+  "id": "2606.02504",
+  "arxiv_url": "https://arxiv.org/abs/2606.02504",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Closed-loop Structure of Quantum Probabilities from Unitarity",
+  "authors": "M. J. Rave",
+  "abstract": "In previous work (Rave, 2008) it was proposed that closed loops should be treated as fundamental quantum entities, and such loops were presented in a quasi-probability framework. We demonstrate that the closed-loop decomposition of quantum probabilities is a direct consequence of unitarity, and that Bargmann invariants arise naturally as the phase-invariant quantities associated with these loops, rather than being introduced independently. This identifies interference not as mysterious cross terms, but as contributions from distinct classes of closed loops weighted by their associated Bargmann phases. Additionally, the Born rule is seen to reflect the fundamental quadratic structure arising from the product of forward and reverse amplitudes, which together define such loops.",
+  "title_relatable": "Why does quantum interference feel mysterious? Blame loop geometry.",
+  "hook": "A reformulation of quantum probability shows interference terms are just closed loops, not mysterious cross-terms.",
+  "summary": "Quantum interference — the spooky part of the double-slit experiment — is usually treated as a strange feature of overlapping wavefunctions. This work shows it follows inevitably from unitarity: probability decomposes into closed loops of forward and reverse amplitudes, and the Born rule's squaring structure reflects exactly that loop geometry. Bargmann invariants, previously introduced by hand, emerge naturally as the phase-independent labels for each loop class.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 568,
+  "tokens_out": 161,
+  "cost_usd": 0.004119,
+  "ingested_at": "2026-06-02T13:01:52.285044+00:00"
+}

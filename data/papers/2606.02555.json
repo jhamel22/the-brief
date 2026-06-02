@@ -1,0 +1,24 @@
+{
+  "id": "2606.02555",
+  "arxiv_url": "https://arxiv.org/abs/2606.02555",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Strong-to-Weak Spontaneous Symmetry Breaking",
+  "authors": "Chong Wang",
+  "abstract": "Strong-to-weak spontaneous symmetry breaking (SW-SSB) has recently emerged as a useful framework for studying phases of matter in open systems, quantum or classical. Beginning with the simple idea of extending symmetry breaking to general mixed states, and the familiar equivalence between canonical and grand-canonical ensembles in statistical mechanics, the concept has grown into a unifying perspective connecting many different ideas in physics, including topological orders, emergent hydrodynamics, and information-theoretic characterization of phases of matter. This review provides a bird's-eye view of some of these recent developments.",
+  "title_relatable": "What happens when quantum symmetry breaks only halfway?",
+  "hook": "A new framework for open quantum systems reveals that symmetry can break in a weaker sense, unifying topology, hydrodynamics, and information theory.",
+  "summary": "In closed quantum systems, symmetry either holds or breaks — but mixed states in open systems allow a subtler middle ground called strong-to-weak spontaneous symmetry breaking. This review maps how that single idea connects seemingly unrelated phenomena: topological order, emergent hydrodynamics, and information-theoretic measures of quantum phases. It's a conceptual unification story, showing that a familiar statistical-mechanics equivalence (canonical vs. grand-canonical ensembles) quietly underlies a much broader landscape.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 544,
+  "tokens_out": 185,
+  "cost_usd": 0.004407,
+  "ingested_at": "2026-06-02T13:01:22.073679+00:00"
+}

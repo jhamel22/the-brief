@@ -1,0 +1,22 @@
+{
+  "id": "2606.00433",
+  "arxiv_url": "https://arxiv.org/abs/2606.00433",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Learning Mid-circuit Measurement Backaction from Three Repeated Measurements",
+  "authors": "Chia-Tung Chu, Su-un Lee, Han Zheng, Senrui Chen, Bibek Pokharel, Alireza Seif, Liang Jiang",
+  "abstract": "Accurate modeling of mid-circuit measurements (MCMs) is essential for dynamic-circuit operations such as syndrome extraction, measurement-based reset, and the separation of state-preparation and measurement (SPAM) error. Unlike terminal measurement, a noisy MCM both produces a classical outcome and alters the incoming quantum state, thereby influencing subsequent circuit operations. This makes conventional confusion-matrix or fidelity-level characterization insufficient. Here we introduce an efficient, self-consistent protocol for learning a single-qubit Z-twirled MCM instrument, retaining the readout-backaction correlations and excitation-decay asymmetry that are erased in Pauli-error descriptions. Remarkably, readout bit strings from only three repeated MCMs on a maximally mixed input determine all learnable parameters of the reduced instrument, up to a single unidentifiable gauge degree of freedom. Physicality constraints convert this non-identifiability into narrow, gauge-aware error intervals. Implemented on IBM superconducting processors, the learned instrument improves Pauli-observable prediction by ${\\sim}100\\times$ over a conventional confusion-matrix model and reveals a $T_1$-decay dominated backaction. Our protocol provides a compact characterization layer for SPAM error separation, reset optimization, and noise-aware quantum error correction.",
+  "title_relatable": "Three measurements reveal how quantum computers disturb what they measure",
+  "hook": "A new protocol uses just three repeated measurements to fully characterize how mid-circuit measurements corrupt quantum states on IBM chips.",
+  "summary": "Every time a quantum computer measures a qubit mid-computation, the act of measuring disturbs the qubit's state for whatever comes next — and standard error models ignore this. By running just three repeated measurements on a maximally mixed qubit, this protocol extracts the full backaction fingerprint, including asymmetric decay effects standard models miss. Tested on IBM superconducting processors, the approach improves prediction accuracy by ~100× over conventional methods, with direct payoff for quantum error correction and circuit reset operations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 748,
+  "tokens_out": 179,
+  "cost_usd": 0.004929,
+  "ingested_at": "2026-06-02T13:03:06.657793+00:00"
+}

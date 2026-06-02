@@ -1,0 +1,23 @@
+{
+  "id": "2606.00239",
+  "arxiv_url": "https://arxiv.org/abs/2606.00239",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.chem-ph"
+  ],
+  "title_original": "Bath-induced deviations from Gibbs statistics for strongly interacting oscillators",
+  "authors": "Felipe Recabal, Adrian E. Rubio Lopez, Johannes Schachenmayer, Felipe Herrera",
+  "abstract": "The Redfield quantum master equation is widely used to study the dynamics of interacting sub-systems that are weakly coupled to baths. Redfield dynamics under secular approximation preserves positivity of the reduced density operator and thermalizes the system into a Gibbs state at equilibrium. Long-time effects arising from non-secular terms are often neglected, but depending on the system spectrum and relative bath couplings, non-secular contributions are shown here to drive the system into a non-Gibbs state. For two strongly interacting quantum oscillators with independent baths at equal temperature, we analyze the microscopic origin of the deviations from Gibbs statistics. Provided that the oscillators are unequally damped by their baths, we show that steady state occupation numbers can significantly deviate from a Boltzmann distribution due to an excitation flux driven by bath-induced coherences between nearly-degenerate oscillator levels. Conditions for the recovery of thermal Gibbs statistics are discussed and experimental signatures suggested.",
+  "title_relatable": "Why two coupled quantum oscillators refuse to reach thermal equilibrium",
+  "hook": "When two quantum oscillators are damped unequally by their environments, bath-induced coherences push them permanently away from thermal equilibrium.",
+  "summary": "Two strongly coupled quantum oscillators with independent heat baths at the same temperature should, by all standard expectations, settle into a simple Boltzmann distribution. Instead, when the oscillators lose energy to their baths at different rates, a persistent flux of excitations driven by quantum coherences between nearly identical energy levels locks the system into a non-thermal steady state. The finding challenges routine use of the secular approximation in open quantum systems and suggests measurable signatures in trapped-ion or circuit-QED platforms.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 663,
+  "tokens_out": 182,
+  "cost_usd": 0.004719,
+  "ingested_at": "2026-06-02T13:03:50.715696+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00932",
+  "arxiv_url": "https://arxiv.org/abs/2606.00932",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Learning with Active Quantum Subspaces: Scalable Hybrid Advantage without Full Quantum Data-Encoding",
+  "authors": "Jeongho Bang, Wooyeong Song, Kyoungho Cho, Taewan Kim, Yongsoo Hwang",
+  "abstract": "We study whether quantum learning advantage can persist without fully embedding a large classical input into a highly superposed quantum state. To address this question, we introduce active quantum subspace data-encoding, in which only an information-bearing subset of the input is lifted to a quantum representation while the remaining variables stay classical. For this model, we define a projected hybrid readout and prove three structural results. First, the projected hybrid kernel is positive semidefinite and its sample regularized dimension is bounded by the number of projected observables, so the dimension blow-up of naive global kernels is avoided. Second, we give a necessary and sufficient criterion for improvement over a purely classical predictor in squared loss: the projected quantum sector must contain a direction that lies outside the classical feature span and correlates with the classical residual. Third, in a realizable noisy-oracle setting, we derive a PAC sample-complexity bound proportional to the inverse square of the oracle reliability. We then show, for a canonical Clifford active-subspace family under local dephasing noise, that this reliability can remain inverse-polynomial even when the encoding gate complexity grows polynomially with system size. Hence, the polynomial encoding cost does not by itself destroy the hybrid learning advantage. A sixty-four-qubit family and a synthetic contextual classification task illustrate how one projected quantum feature can compress a useful high-order interaction into a low-dimensional hybrid model. Our results generalize QRAM-free hybrid learning and provide a scalable route toward NISQ-compatible quantum advantage without full quantum data-encoding.",
+  "title_relatable": "Do quantum computers need to encode all your data to win?",
+  "hook": "Encoding just a slice of data into a 64-qubit quantum system can still beat classical models, new theory shows.",
+  "summary": "Quantum machine learning usually requires loading an entire dataset into a quantum superposition — an expensive and noisy process. This work proves that encoding only the most informative subset of variables into quantum states is enough to retain a learning advantage, as long as that quantum slice captures patterns the classical part misses. A 64-qubit example under realistic noise confirms the advantage survives polynomial-cost encoding, offering a practical path for near-term quantum hardware.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 789,
+  "tokens_out": 166,
+  "cost_usd": 0.004857,
+  "ingested_at": "2026-06-02T13:02:09.751173+00:00"
+}

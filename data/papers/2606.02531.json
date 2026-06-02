@@ -1,0 +1,24 @@
+{
+  "id": "2606.02531",
+  "arxiv_url": "https://arxiv.org/abs/2606.02531",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "math.OA",
+    "math.RT"
+  ],
+  "title_original": "Hybrid Clifford Codes via Operator Algebra Quantum Error Correction and Projective Representation Theory",
+  "authors": "Jonas Eidesen, David W. Kribs, Andrew Nemec",
+  "abstract": "Clifford codes are a natural generalization of quantum stabilizer codes based primarily on representation theory. This class of codes has previously been extended to the setting of quantum subsystem codes. We formulate a two-fold generalization of Clifford codes, for both the hybrid classical and quantum information and projective representation theory settings. This leads to new classes of hybrid subspace and subsystem Clifford codes. We extend the fundamental representation theoretic quantum error correction theorem to include these codes, based on the operator algebra quantum error correction framework. We also discuss several examples throughout the presentation, of both stabilizer and non-stabilizer type.",
+  "title_relatable": "Can classical and quantum information share the same error-correcting code?",
+  "hook": "A new family of error-correcting codes encodes classical and quantum information simultaneously, extending a decades-old framework.",
+  "summary": "By combining projective representation theory with operator algebra error correction, this work builds 'hybrid Clifford codes' that protect classical and quantum information within a single code structure. The approach generalizes quantum stabilizer codes in two directions at once — handling mixed classical-quantum data and a broader class of symmetry representations. The payoff is a unified theorem guaranteeing error correction across all these code types, including exotic non-stabilizer examples.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 573,
+  "tokens_out": 164,
+  "cost_usd": 0.004179,
+  "ingested_at": "2026-06-02T13:01:35.083134+00:00"
+}

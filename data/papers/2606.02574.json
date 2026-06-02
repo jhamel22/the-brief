@@ -1,0 +1,22 @@
+{
+  "id": "2606.02574",
+  "arxiv_url": "https://arxiv.org/abs/2606.02574",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum Simulation of Nucleon-Antinucleon Interaction in Large-$N$ QCD$_2$ on an IBM Quantum Nighthawk Processor",
+  "authors": "Cameron V. Cogburn, Sebastian Grieninger, Dmitri E. Kharzeev",
+  "abstract": "We report a quantum simulation of the nucleon--antinucleon interaction in large-$N$ two-dimensional quantum chromodynamics (QCD$_2$) on the IBM Quantum Nighthawk processor. In the large-$N$ limit, QCD$_2$ admits a bosonized description in which baryons emerge as topological solitons (kinks) of an effective mesonic field theory, providing a controlled, nonperturbative framework for baryon--antibaryon dynamics. We formulate the problem by mapping the continuum bosonized Hamiltonian to a spin-chain representation equivalent to an XXZ model with anisotropy set by the QCD parameters. In this mapping, nucleon and antinucleon states correspond to kink and antikink excitations, respectively, while their interaction is encoded in the spin correlations of the chain. Using Jordan--Wigner encoding, we implement the resulting XXZ Hamiltonian on a finite set of qubits and realize it via a variational ground state ansatz and postselected nonunitary disorder operator insertions optimized for the Nighthawk architecture. We then show the kink--antikink interaction potential built from the conditional energies of these nonunitary string operators can be robustly extracted from the quantum hardware due to structured error cancelation. The resulting potential exhibits the expected attractive behavior. The quantum simulation results are benchmarked against exact diagonalization, ideal statevector evaluation showing good agreement. To connect the device result to the continuum field theory, we extract the potential in the continuum limit using large-$L$ matrix product state calculations.",
+  "title_relatable": "Did a quantum computer just simulate how protons and antiprotons attract?",
+  "hook": "IBM's Nighthawk processor reproduced the nucleon-antinucleon attraction predicted by 2D QCD, with errors canceling by design.",
+  "summary": "A quantum simulation on IBM's Nighthawk processor extracted the attractive interaction potential between a nucleon and antinucleon using a simplified 2D version of the strong force. The trick: map the physics onto a spin-chain model, let structured errors cancel each other out, and benchmark against classical exact diagonalization — which it matches well. It's a proof-of-concept that real quantum hardware can tackle nonperturbative nuclear physics, not just toy models.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 821,
+  "tokens_out": 184,
+  "cost_usd": 0.005223,
+  "ingested_at": "2026-06-02T13:01:10.454748+00:00"
+}

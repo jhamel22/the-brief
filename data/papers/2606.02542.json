@@ -1,0 +1,22 @@
+{
+  "id": "2606.02542",
+  "arxiv_url": "https://arxiv.org/abs/2606.02542",
+  "announced_date": "2026-06-01",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Chutes and Ladders: Dynamical Automorphisms via the ZX-Calculus",
+  "authors": "Alexander Frei, Sascha Zakaib-Bernier, Zachary Mann, Michael Vasmer, Victor V. Albert",
+  "abstract": "The ZX-calculus is a powerful graphical language for manipulating quantum circuits, which has recently found many applications in quantum error correction. We extend this language to handle Floquet and other dynamical stabilizer codes via the connection between measurement-based code switching and gauge fixing (arXiv:1810.10037). We combine gauge-fixing steps to implement a closed loop in the space of stabilizer codes, returning to the original codespace up to a logical Clifford gate. These measurement-based paths in the space of stabilizer codes can be viewed as shortcuts, or \"chutes and ladders\", relative to single-qubit Clifford operations and qubit permutations. This yields a machine-interpretable method for constructing dynamical automorphisms and facilitates the search for implementations of desired logical gates. As an example, we implement a logical phase gate via distance-preserving code switching for the seven-qubit code bare code (arXiv:1702.01155), which has no non-trivial logical Clifford gates based on single-qubit Clifford operations and qubit permutations (arXiv:2409.18175).",
+  "title_relatable": "How do you run a quantum gate without ever opening the computer?",
+  "hook": "A graphical method finds logical quantum gates hidden inside measurement sequences, even for codes that seemingly have none.",
+  "summary": "Quantum error-correcting codes can be \"switched\" between each other through measurements, and if you do a closed loop of such switches you can enact a logical gate on encoded information — without ever touching individual qubits directly. This paper formalizes that idea using the ZX-calculus diagram language, turning the search for useful gate sequences into something a computer can automate. As a concrete payoff, they find a logical phase gate for the seven-qubit code that was previously thought to have no accessible Clifford gates via standard physical operations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 705,
+  "tokens_out": 186,
+  "cost_usd": 0.004905,
+  "ingested_at": "2026-06-02T13:01:28.076519+00:00"
+}

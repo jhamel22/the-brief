@@ -1,0 +1,22 @@
+{
+  "id": "2606.00607",
+  "arxiv_url": "https://arxiv.org/abs/2606.00607",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Qutrit-based Synthetic Three-Level System",
+  "authors": "Surajit Sen, Tushar Kanti Dey",
+  "abstract": "We present a theoretical framework based on the $SU(3)$ group to construct synthetic three-level configurations from a two-qutrit system consisting of two three-level subsystems. Utilizing its underlying algebraic structure and a set of nine $SU(3)$ entangled states, we show that the system Hamiltonian can be mapped onto an effective synthetic three-level manifold without introducing Rydberg states. We investigate the entanglement dynamics of these synthetic configurations by introducing the $SU(3)$ I-concurrence and a generalized Wootters-type $SU(3)$ concurrence as quantitative measures of entanglement in such system.",
+  "title_relatable": "Building artificial three-level quantum systems without exotic atoms",
+  "hook": "Two ordinary qutrits can mimic a three-level system, skipping the fragile Rydberg-atom workaround entirely.",
+  "summary": "Physicists mapped a pair of three-level quantum systems onto an effective synthetic three-level structure using SU(3) group algebra — no exotic Rydberg states required. They identified nine entangled states that do the job and introduced two new measures to track how entanglement evolves in these configurations. Cleaner implementations of three-level quantum logic could simplify photonic and superconducting quantum hardware design.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 578,
+  "tokens_out": 166,
+  "cost_usd": 0.004224,
+  "ingested_at": "2026-06-02T13:03:00.674405+00:00"
+}

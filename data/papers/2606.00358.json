@@ -1,0 +1,22 @@
+{
+  "id": "2606.00358",
+  "arxiv_url": "https://arxiv.org/abs/2606.00358",
+  "announced_date": "2026-05-29",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Software-based compensation of AC-line-induced control errors in qubits and qudits",
+  "authors": "Gaurav A. Tathed, Nicholas C. F. Zutt, Collin J. C. Epstein, Crystal Senko",
+  "abstract": "AC mains power line-synchronous disturbances are a common source of coherent, time-dependent error in precision quantum-control experiments. We show that when these disturbances are reproducible with respect to the mains phase, their effect can be measured in a line-triggered frame and compensated through software updates to control sequences. In our system, the disturbances manifest as magnetic-field-induced shifts in the energy level structure of a trapped $^{137}\\text{Ba}^+$ ion, resulting in time-dependent detunings between the ion transitions and a local oscillator, as well as additional phases accumulated on superpositions of energy levels. We demonstrate a compensation protocol that corrects for the instantaneous oscillator detuning during control pulses, and for the phase accumulated by the energy levels between pulses. The calibrated AC line contribution to the detuning is reduced by $21(9)\\times$, while the fitted AC phase amplitude is reduced below the measurement uncertainty. We then study gate performance on a magnetic-field-sensitive qubit and find that uncompensated mains-synchronous errors produce time-dependent fluctuations that make the usual randomized-benchmarking decay model unreliable. With compensation enabled, these fluctuations are suppressed sufficiently to recover a standard benchmarking decay and extract an average gate fidelity of $99.93(1)\\%$. Finally, we extend the framework to multilevel qudit control and apply it to a single-qudit Bernstein-Vazirani algorithm, where AC compensation increases the success probability on a 16-level qudit from $10(7)\\%$ to $70(9)\\%$. These results show that reproducible line-synchronous noise can be treated as a calibrated control-frame error and corrected without additional hardware.",
+  "title_relatable": "How plugging into the wall quietly ruins your quantum computer",
+  "hook": "Power-line hum was scrambling qubit gates — a software fix boosted a 16-level qudit algorithm from 10% to 70% success.",
+  "summary": "The 50/60 Hz hum from AC mains power creates magnetic-field fluctuations that subtly shift ion energy levels and corrupt quantum gate operations. By measuring the disturbance pattern relative to the mains cycle and baking corrections directly into control software, the team reduced the dominant detuning error 21-fold with no new hardware. Gate fidelity on a trapped barium ion recovered to 99.93%, and a 16-level qudit algorithm jumped from near-random to 70% success — suggesting that many labs are fighting a fixable, overlooked noise source.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 847,
+  "tokens_out": 208,
+  "cost_usd": 0.005661,
+  "ingested_at": "2026-06-02T13:03:22.800732+00:00"
+}

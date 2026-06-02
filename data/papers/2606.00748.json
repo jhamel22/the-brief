@@ -1,0 +1,22 @@
+{
+  "id": "2606.00748",
+  "arxiv_url": "https://arxiv.org/abs/2606.00748",
+  "announced_date": "2026-05-30",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Shortcut to Adiabatic Isomeric Population Transfer of the $^{229}\\mathrm{Th}$ Nucleus via Hyperfine Electronic Bridge",
+  "authors": "Bo Liu, Wu Wang, Yong Li",
+  "abstract": "The $^{229}$Th nucleus is well known for its exceptionally low-lying nuclear isomeric level, which provides a unique platform for exploring electron-nucleus interactions and gives rise to a variety of rich physical phenomena. One such phenomenon is the hyperfine electronic bridge, which has recently been shown to enable efficient and precise manipulation of the nuclear isomeric levels of $^{229}$Th [W. Wang $et~ al.$, Phys. Rev. Lett. \\textbf{133}, 223001 (2024)]. However, that study used the stimulated Raman adiabatic passage method, which requires relatively long operation times. In this work, we employ the stimulated Raman shortcut-to-adiabatic passage method, which dramatically shortens the operation time from the order of hundreds of milliseconds to hundreds of microseconds while maintaining a transfer efficiency of about $79.38\\%$.",
+  "title_relatable": "Flipping a nuclear clock's state 1000x faster—how?",
+  "hook": "A new technique manipulates thorium-229's nuclear state in microseconds instead of milliseconds, without sacrificing efficiency.",
+  "summary": "Thorium-229 has a uniquely low-energy nuclear excited state that makes it a candidate for next-generation atomic clocks and quantum sensors. Switching that nuclear state precisely has required hundreds of milliseconds using standard laser techniques. By applying a \"shortcut-to-adiabatic\" pulse scheme through the atom's electron-nucleus coupling, the operation time drops to hundreds of microseconds—a thousandfold speedup—while still transferring population at nearly 80% efficiency.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 655,
+  "tokens_out": 181,
+  "cost_usd": 0.00468,
+  "ingested_at": "2026-06-02T13:02:49.458884+00:00"
+}
