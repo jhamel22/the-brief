@@ -1,0 +1,22 @@
+{
+  "id": "2606.00225",
+  "arxiv_url": "https://arxiv.org/abs/2606.00225",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Comparative properties of X-Ray Flashes and Gamma-Ray Bursts from BeppoSAX observations of Fast X-ray Transients",
+  "authors": "L. Piro, G. Gianfagna, J. J. M. in't Zand, B. Gendre, C. Guidorzi, L. Amati, F. Frontera, E. Kuulkers",
+  "abstract": "We present the homogeneous and complete sample of 96 bona-fide Gamma Ray Bursts (GRBs) detected by the Wide Field Cameras and Gamma Ray Burst Monitor of BeppoSAX. We derive the spectral and temporal properties of the prompt emission, and assess the properties of the soft population of GRB, namely X-ray flashes (XRFs) in comparison with normal GRBs. We find that 36 events are XRFs, 40 X-ray rich events (XRR), and 20 normal GRBs. We analyze the distribution of the spectral parameters of the Band function, finding that the spectral indexes of the three classes are broadly similar. On the contrary the peak energy is the parameter driving the spectra shape, from 8.5 keV for XRF keV to 83 keV for GRBs. For the 67 events that are detected in both instruments we find that 9 events exhibit a soft X-ray precursor taking place from 14 to 105 s before the onset of the gamma-ray burst. About 90\\% of the events that were identified in real time exhibit an X-ray afterglow, with a similar fraction for the three classes. In the optical and radio the the corresponding fractions are 35% and 33%. All the similarities in the spectrum, duration and afterglow properties suggest common progenitors for the three classes, where the differences are likely a combination of the effect of different baryon loading, energy, structure and orientation of the jet with respect to the observer. A comparison with Einstein Probe shows that the latter, thanks to its sensitivity, reaches out to a population of fainter and more numerous events, whose presence was firstly hinted at by the unique very low luminosity BeppoSAX GRB980425.",
+  "title_relatable": "Why do some gamma-ray bursts look weak in X-rays?",
+  "hook": "96 bursts reveal that X-ray flashes and normal gamma-ray bursts differ mainly in peak energy, suggesting they share the same origin but oriented differently toward Earth.",
+  "summary": "BeppoSAX detected 96 gamma-ray bursts, categorizing 38% as X-ray flashes (very soft), 42% as X-ray-rich, and 21% as normal bursts. Despite similar spectral slopes and afterglow rates, the key difference is peak energy: X-ray flashes peak at 8.5 keV versus 83 keV for normal bursts. This suggests a single class of objects viewed at different angles or with different jet properties, not fundamentally different events.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 904,
+  "tokens_out": 208,
+  "cost_usd": 0.0015552,
+  "ingested_at": "2026-06-02T13:06:22.793360+00:00"
+}

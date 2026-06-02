@@ -1,0 +1,22 @@
+{
+  "id": "2606.00209",
+  "arxiv_url": "https://arxiv.org/abs/2606.00209",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "On the Faint Early-time Radio and X-ray Emissions in TDE2025aarm",
+  "authors": "Tatsuya Matsumoto, Tsvi Piran",
+  "abstract": "TDE2025aarm is a nearby tidal disruption event whose early radio and X-ray emissions are exceptionally faint compared with previously observed TDEs. We examine whether these weak signals can be explained within standard outflow and disk-emission scenarios. The radio detection at $15\\,\\rm GHz$ with $\\sim10^{36}\\,\\rm erg\\,s^{-1}$ around $40\\,\\rm days$ after discovery is inconsistent with synchrotron emission from a quasi-spherical disk wind for reasonable circum-nuclear densities and outflow velocities. Instead, the low luminosity and inferred self-absorbed spectrum imply a narrowly collimated outflow with a solid angle $\\lesssim0.1\\,\\rm sr$, naturally identified with the unbound stellar debris. The X-ray emission is likewise unusually faint, with $L_{\\rm X}\\sim10^{39-40}\\,\\rm erg\\,s^{-1}$ during the first few months. If interpreted as thermal emission from an obscured accretion disk, the inferred emitting area would correspond to an implausibly small X-ray-transparent region expected to vary on short dynamical timescales that are not observed. Alternatively, the same shock responsible for the radio emission can accelerate relativistic electrons that produce X-rays through synchrotron radiation and/or inverse-Compton scattering of optical/UV photons. Both mechanisms can explain the early faint X-ray emission, although their temporal evolution differs. Continued radio and X-ray monitoring of TDE2025aarm will provide a sensitive probe of the unbound debris, circum-nuclear medium, and high-energy emission mechanisms in optical TDEs.",
+  "title_relatable": "Why is this torn-apart star so dim in radio and X-rays?",
+  "hook": "A nearby tidal disruption event defies standard emission models with unusually faint early radio and X-ray signals, pointing instead to narrowly collimated jets and shock-accelerated particles.",
+  "summary": "TDE2025aarm, a star shredded by a supermassive black hole, emits far less radio and X-ray light than typical tidal disruption events. Standard models predict bright synchrotron emission from disk winds, but the observed weakness suggests a narrowly beamed outflow from unbound stellar debris instead. Shock acceleration of relativistic electrons can explain the faint X-rays through synchrotron and inverse-Compton mechanisms, offering a new window into how debris flows escape and radiate near black holes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 830,
+  "tokens_out": 213,
+  "cost_usd": 0.001516,
+  "ingested_at": "2026-06-02T13:06:34.495214+00:00"
+}

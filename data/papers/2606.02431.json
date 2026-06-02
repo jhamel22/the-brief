@@ -1,0 +1,23 @@
+{
+  "id": "2606.02431",
+  "arxiv_url": "https://arxiv.org/abs/2606.02431",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.SR"
+  ],
+  "title_original": "Regression on Regression: Mapping Data-Driven Binary Black Hole Merger Rate Fits to Progenitor Histories",
+  "authors": "Emma Blanchet, Aryanna Schiebelbein-Zwack, Maya Fishbach",
+  "abstract": "The binary black hole (BBH) merger rate is governed by the progenitor formation rate and the distribution of delay-times between formation and merger, but these functions remain poorly constrained. We introduce a framework that maps the parameters of physics-driven models directly onto existing data-driven fits of the BBH merger rate. This ``regression on regression'' approach enables physical interpretation of flexible population models without the computational burden of reanalyzing the underlying gravitational-wave event data. Applying this method to the \\textsc{B-Spline} merger-rate posteriors from the Fourth Gravitational-Wave Transient Catalog, we fit the minimum delay time ($τ_{\\text{min}}$), delay-time power-law index ($α$), and progenitor formation parameters controlling the normalization ($\\mathcal{A}$), early-time growth ($γ$), and late-time decay ($δ$). Increasing the number of anchoring redshift points from two to four reduces the median sum-squared error (SSE) by a factor of $\\approx 4.5$. However, residuals reveal that the physical model does not pass through all four anchors, exposing model misspecification and demonstrating a key strength of the framework: unlike standard inference methods, which preferentially weight compatible curves and mask underlying tensions, our approach exposes BBH posteriors irreconcilable with the model. Despite uncertainties at $z\\gtrsim1$, the shape of the progenitor formation rate at low-$z$ is robust and evolves more steeply than the global star formation rate (SFR), supporting a preference for low metallicity environments. Specifically, the log-space slope of the progenitor rate is $\\approx 5.3$ times steeper than the SFR between $z=0.1$ and $z=1.0$. Ultimately, a more complex phenomenological model is required to match the \\textsc{B-Spline} merger rates.",
+  "title_relatable": "How do black hole mergers trace back to their cosmic origins?",
+  "hook": "A new method reveals that black hole pair formation happens preferentially in metal-poor regions and evolves five times faster than overall star formation.",
+  "summary": "Researchers developed a shortcut to interpret flexible models of black hole merger rates without reprocessing thousands of gravitational-wave detections. By fitting physics-based progenitor models to existing data-driven merger-rate measurements, they found that black hole pairs form in environments chemically different from where most stars form, with formation rates steeply climbing toward lower redshifts. The method also exposes where current models break down, flagging tensions the standard approach would hide.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 896,
+  "tokens_out": 181,
+  "cost_usd": 0.0014408000000000001,
+  "ingested_at": "2026-06-02T13:05:31.001365+00:00"
+}

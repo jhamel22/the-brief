@@ -1,0 +1,22 @@
+{
+  "id": "2606.01823",
+  "arxiv_url": "https://arxiv.org/abs/2606.01823",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "A 0.03 Hz Radio Quasi-periodic Oscillation During the 2025 Flare of GRS 1915+105",
+  "authors": "Ya Xing Li, Lei Liu, Wu Jiang, Zhen Yan, Bo Xia, Zhi Qiang Shen",
+  "abstract": "Our weekly-cadence radio monitoring campaign captured a bright flare in 2025 from the microquasar GRS 1915+105, observed simultaneously in the S- and X-bands (2.25 GHz and 8.42 GHz) with a short single baseline of two radio telescopes in Shanghai. Through high time resolution analysis, we detected a significant and short-lived quasi-periodic oscillation (QPO) at $\\sim$0.03 Hz and its harmonic ($\\sim$0.06 Hz) in both radio bands of two consecutive observations on MJD 60765 ($>5.9 σ$) and MJD 60772 (2.8$σ$). Crucially, the QPO frequency is identical in both radio bands and matches oscillations detected in previous years. The recurrence and wavelength independence of the QPO frequency suggest an intrinsic characteristic timescale of the accretion-jet system.",
+  "title_relatable": "Why does this black hole binary repeat the same radio heartbeat?",
+  "hook": "Two radio telescopes in Shanghai caught a supermassive black hole flaring with an ultra-slow 0.03 Hz pulse—matching oscillations from years past, hinting at a fundamental clock inside the accretion disk.",
+  "summary": "Astronomers monitoring the microquasar GRS 1915+105 detected a faint radio oscillation repeating every ~33 seconds during a 2025 flare, visible in both S- and X-band observations. The oscillation frequency was identical to one observed years earlier, suggesting it's an intrinsic property of the accretion-jet system rather than random noise. This recurring timescale may reveal how material spirals into the black hole.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 684,
+  "tokens_out": 203,
+  "cost_usd": 0.0013592,
+  "ingested_at": "2026-06-02T13:05:50.300146+00:00"
+}

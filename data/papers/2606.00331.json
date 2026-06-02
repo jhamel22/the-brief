@@ -1,0 +1,22 @@
+{
+  "id": "2606.00331",
+  "arxiv_url": "https://arxiv.org/abs/2606.00331",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Hard X-ray Sources in Fermi UFOs",
+  "authors": "Alessandro Paggi, Ioannis Liodakis, John Antoniadis, Chien-Ting Chen, Steven R. Ehlert, Daniel Gruen, Philip Kaaret, Ignacio De La Calle Perez, Elena Jimenez Bailon, Mykhailo Ilin",
+  "abstract": "Identification and/or association of unidentified $γ$-ray sources with lower-energy counterparts represents a key challenge in modern astronomy, due to the relatively large positional uncertainty provided by $γ$-ray detectors. We selected Unidentified Fermi Objects (UFOs) positionally compatible with hard X-ray sources in the latest Palermo Swift-BAT hard X-ray Catalog and in the SRG/ART-XC all-sky X-ray survey Catalog, to identify lower-energy sources and possibly associate them to the UFOs. We found 17 UFOs with overlapping hard X-ray sources. We then collected soft X-ray data from Swift-XRT, Chandra-ACIS, XMM-Newton-EPIC, and eROSITA, identified 16 soft X-ray counterparts to the hard X-ray sources, and associate 15 with known astronomical objects, classified as: blazars/blazars candidates (2 sources), Seyfert galaxies (5 sources), X-ray binaries (2 sources), generic X-ray sources (1 source), cataclysmic variables (2 sources), and variable stars (3 sources). Blazars and Seyfert galaxies are likely lower-energy counterparts to the UFOs, since their mid-IR colors and broad-band spectral energy distributions suggest significant jetted, non-thermal emission. X-ray binaries can be potential lower-energy counterparts to the UFOs, since this class of sources has been already observed to emit $γ$-rays. The generic X-ray source has been proposed as a pulsar candidate, and we therefore suggest that it can be the lower-energy counterpart to the UFO. Cataclysmic variables have been suggested as potential $γ$-ray emitters so, if confirmed, the 2 sources classified as cataclysmic variables would represent the first $γ$-ray emitting sources of this kind. Finally, we consider the association of the 3 variable stars with the UFOs unlikely.",
+  "title_relatable": "What are those mysterious gamma-ray sources actually emitting?",
+  "hook": "Astronomers matched 17 unidentified gamma-ray sources to X-ray objects, revealing blazars, black holes, and possibly the first gamma-ray cataclysmic variables.",
+  "summary": "Fermi detects gamma rays but struggles with precision. This team cross-matched 17 unidentified Fermi sources with hard X-ray catalogs, then traced them to soft X-ray counterparts using multiple telescopes. They identified blazars, active galactic nuclei, and X-ray binaries as likely culprits—and propose two cataclysmic variables (white dwarfs stealing gas from companions) as the first gamma-ray sources of their kind.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 954,
+  "tokens_out": 197,
+  "cost_usd": 0.0015512,
+  "ingested_at": "2026-06-02T13:06:16.971978+00:00"
+}

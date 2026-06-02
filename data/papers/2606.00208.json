@@ -1,0 +1,24 @@
+{
+  "id": "2606.00208",
+  "arxiv_url": "https://arxiv.org/abs/2606.00208",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA",
+    "astro-ph.SR"
+  ],
+  "title_original": "JWST Reveals Large Reservoirs of Dust and Ongoing Circumstellar Interaction in SN Ibn/Icn 2023xgo over a Year Post-Explosion",
+  "authors": "Kyle W. Davis, Kirsty Taggart, Samaporn Tinyanont, Ryan J. Foley, Jeonghee Rho, Katie Auchettl, Diego Farias, Ori D. Fox, Joel Johansson, Charles D. Kilpatrick, Kishore C. Patra, Craig Pellegrino, Enrico Ramirez-Ruiz, David A. Coulter, Yize Dong, Alexander T. Gagliano, T. R. Geballe, Wynn V. Jacobson-Galán, Jenna Karcheski, Ravjit Kaur, Ryan M. Lau, Thomas Moore, Seong Hyun Park, Armin Rest, Tamás Szalai, Qinan Wang",
+  "abstract": "We present infrared (IR) photometric and spectroscopic observations of SN 2023xgo, a recent and nearby Type Ibn/Icn supernova (SN Ibn/Icn) which shows shock interaction with a He/C-rich and H-poor circumstellar medium (CSM). Although interacting SNe are predicted to produce large amounts of dust, the rarity of SNe Ibn and Icn has resulted in few opportunities to observe these objects in the IR at late times. Here, we report observations of SN 2023xgo from JWST (NIRSpec and MIRI), WISE, and Gemini taken out to +377 days post-explosion. At +377 days, the JWST spectrum is consistent with both emission from cool (~300-600 K) silicate dust with $M \\gtrsim 3 \\times 10^{-2}$ M$_{\\odot}$ at a radius similar to the shock radius ($2.3 \\times 10^{16}$ cm), and optically thin carbonaceous dust with $M = 8 \\times 10^{-3}$ M$_{\\odot}$. We also detect narrow (FWHM = 520+/-130 km s$^{-1}$) He I $λ$2.06 micron emission at +377 days, indicating that the SN shock continues to encounter material shed from the star to this late epoch. The emission line is blueshifted from the rest frame by 340+/-40 km s$^{-1}$. The Gemini and WISE observations at ~70-100 days reveal emission from 6.8$\\times$10$^{-5}$ M$_{\\odot}$ of hot (~1300 K) dust, which we interpret as a lower limit of the total dust mass at that phase. Molecular gas emission is not detected in any data, though emission line profiles in the optical and NIR taken at ~70 days after explosion show progressively less redshifted emission, attributed to attenuation from dust and suggesting that some dust is rapidly forming interior to the unshocked CSM. The large dust mass and rapid onset of dust formation observed in SN 2023xgo show that the unique physical environments of SNe Ibn/Icn facilitate substantial dust formation both before and after the SN.",
+  "title_relatable": "Why does this rare supernova create so much dust so fast?",
+  "hook": "JWST caught a nearby supernova generating massive amounts of silicate and carbon dust within months, revealing how violent stellar collisions can seed the cosmos with solid material.",
+  "summary": "SN 2023xgo, a rare supernova with a helium-rich atmosphere, produced at least 0.03 solar masses of cool dust within a year of explosion—far more than typical supernovae. Infrared observations from JWST and other telescopes show the shockwave is still plowing into material the star shed before exploding, triggering rapid dust formation. This suggests certain types of supernovae are prolific dust factories.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1171,
+  "tokens_out": 188,
+  "cost_usd": 0.0016888000000000003,
+  "ingested_at": "2026-06-02T13:06:37.771079+00:00"
+}

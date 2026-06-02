@@ -1,0 +1,24 @@
+{
+  "id": "2606.00649",
+  "arxiv_url": "https://arxiv.org/abs/2606.00649",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "physics.flu-dyn",
+    "astro-ph.HE",
+    "hep-ph"
+  ],
+  "title_original": "Linear causality and stability constraints on relativistic second-order magnetohydrodynamics",
+  "authors": "Yiwei Qiu, Duan She, Defu Hou",
+  "abstract": "In this work, we construct a theoretical framework for relativistic second-order magnetohydrodynamics based on entropy current analysis. The formalism consistently incorporates the relaxation dynamics of dissipative fluxes, ensuring the hyperbolic nature of the evolution equations. Utilizing linear mode analysis, we investigate the constraints imposed by causality and stability on this anisotropic system. By linearizing the theory around a homogeneous equilibrium state, we demonstrate that the excitation spectrum decomposes into magnetosonic, Alfvén, and charge-diffusion sectors. For each sector, we derive asymptotic dispersion relations in both the long-wavelength (small-$k$) and short-wavelength (large-$k$) regimes, validating them against exact numerical roots. Our numerical analysis confirms the accuracy of these asymptotic solutions and uncovers a nontrivial angular dependence, especially near special propagation directions where the ordinary momentum expansion becomes less reliable. By evaluating the large-$k$ behavior of the propagating branches alongside the damping properties of non-hydrodynamic modes, we delineate the corresponding causality constraints. We find that the admissible causal domain is governed by the interplay between anisotropic transport coefficients and relaxation times, with the resulting bounds being intrinsically mode-dependent. These findings provide a systematic theoretical foundation for developing stable and causal relativistic magnetohydrodynamics beyond the first-order approximation.",
+  "title_relatable": "What constraints keep relativistic magnetohydrodynamics causally consistent?",
+  "hook": "Physicists mapped the causal limits of a theory describing magnetized plasma near black holes and neutron stars, revealing that stability depends on anisotropic transport coefficients.",
+  "summary": "Relativistic magnetohydrodynamics—essential for modeling extreme objects like black holes and neutron stars—can violate causality if not carefully constructed. By analyzing wave modes in magnetized plasma, the authors identified fundamental constraints that any physical theory must satisfy to avoid faster-than-light propagation, finding that these limits depend on relaxation times and directional properties of dissipation.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 760,
+  "tokens_out": 173,
+  "cost_usd": 0.0013,
+  "ingested_at": "2026-06-02T13:06:10.874496+00:00"
+}

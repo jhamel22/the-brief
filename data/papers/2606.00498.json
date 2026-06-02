@@ -1,0 +1,23 @@
+{
+  "id": "2606.00498",
+  "arxiv_url": "https://arxiv.org/abs/2606.00498",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "hep-ph"
+  ],
+  "title_original": "Suppression of boosted relic neutrinos by photon backgrounds during ultra-high-energy cosmic ray propagation",
+  "authors": "Gabriel Azeredo, Vitor de Souza",
+  "abstract": "Constraining the cosmic neutrino background (C$ν$B) represents a major experimental challenge in cosmology. Recent studies have suggested that relic neutrinos boosted by ultra-high-energy cosmic rays (UHECRs) may generate observable diffuse neutrino fluxes. Previous estimates have not effectively propagated the primary cosmic rays, often neglecting crucial energy losses and the unavoidable, competing interactions with diffuse photon backgrounds. Here we revisit these expectations using a realistic Monte Carlo propagation framework. This approach allows us to consistently incorporate cosmic ray energy losses, nuclear photodisintegration, and production of secondary neutrinos. We show that interactions with diffuse photon backgrounds strongly suppress the boosted relic neutrino flux predicted in simplified propagation scenarios. Furthermore, we demonstrate that to produce any observable suppression on the UHECR energy spectrum at Earth, or for the boosted C$ν$B component to become comparable to the cosmogenic neutrino flux, the C$ν$B density must be enhanced by a factor, the so-called overdensity, of extreme magnitude ($η\\gtrsim 10^{8}$).",
+  "title_relatable": "Do relic neutrinos from cosmic rays survive the journey to Earth?",
+  "hook": "Simulations show photon backgrounds wipe out most boosted relic neutrinos during propagation, raising the bar for detecting them by a factor of 100 million.",
+  "summary": "Ultra-high-energy cosmic rays can boost ancient relic neutrinos to detectable energies, but a detailed propagation model reveals photons block most of them en route to Earth. The relic neutrino background would need to be 100 million times denser than expected to leave any measurable trace in cosmic ray detectors or neutrino observatories.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 697,
+  "tokens_out": 171,
+  "cost_usd": 0.0012415999999999998,
+  "ingested_at": "2026-06-02T13:06:14.207369+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00790",
+  "arxiv_url": "https://arxiv.org/abs/2606.00790",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "TeV gamma-ray spectral spikes produced by magnetic reconnection in blazar jets: the case of the 2014 high state of Markarian 501",
+  "authors": "João G. Giesbrecht Formiga Paiva, Elisabete M. de Gouveia Dal Pino, Juan C. Rodríguez-Ramírez, Ulisses Barres de Almeida, Gabriela B. Díaz-Cortés",
+  "abstract": "Multi-wavelength monitoring of the flaring blazar Markarian 501 during July 2014 revealed a TeV gamma-ray spike feature with 3-4$σ$ significance and coincident with a prominent enhancement in its X-ray flux. The appearance of this spectral feature strongly suggests the presence of an extra emission component in addition to the usual one-zone SSC scenario. Several possible explanations for the origin of this novel behavior have been discussed, including stochastic particle acceleration, magnetospheric vacuum gap, and pion decay. In this paper, we show that the TeV narrow feature, simultaneous with an increase in the X-ray flux, can be produced with two leptonic emission regions in a jet undergoing magnetic reconnection energy dissipation along its propagation axis. In this scenario, the stable spectral components are produced in the region of maximum magnetic dissipation. A second region produces a flare upstream in the jet in a slower, more magnetized, and much smaller region compared to the stable one, which is responsible for increasing the X-ray flux and producing the TeV spike. The macroscopic properties of these two emission regions are consistent with a magnetically striped jet model discussed in previous works, where the acceleration of the jet flow and its non-thermal emission is driven by turbulent-induced magnetic reconnection. We employ this jet-reconnection scenario to model the 2014 high state of the blazar Markarian 501, considering the sequence of SED datasets corresponding to MJD 56855.91, 56857.98, 56858.98, and 56859.97, with the second dataset being the one that exhibits the TeV spike.",
+  "title_relatable": "What made Markarian 501 emit that unexpected gamma-ray spike?",
+  "hook": "Magnetic reconnection in a jet can explain a puzzling TeV spike seen in a distant blazar's 2014 outburst, matching X-ray surges with precision.",
+  "summary": "Blazar Markarian 501 produced an unexpected narrow spike in TeV gamma rays during July 2014, simultaneous with enhanced X-rays. Using two-zone models where magnetic reconnection drives particle acceleration in the jet, researchers show how a small upstream region can generate the spike while a larger downstream zone produces steady emission. The scenario matches observations and aligns with magnetically striped jet models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 873,
+  "tokens_out": 180,
+  "cost_usd": 0.0014184,
+  "ingested_at": "2026-06-02T13:06:01.649867+00:00"
+}

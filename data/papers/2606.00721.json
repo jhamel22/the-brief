@@ -1,0 +1,23 @@
+{
+  "id": "2606.00721",
+  "arxiv_url": "https://arxiv.org/abs/2606.00721",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "title_original": "The Radio--X-ray Correlation of High-Redshift AGN: A Numerical Study of Inverse-Compton Scattering of the CMB Photons in Relativistic Jets",
+  "authors": "Aditya Sharma, Bhargav Vaidya, Silvia Belladitta, Christian Fendt, Dharam V. Lal, Eduardo Bañados, Biman B. Nath, Harshita Bhuyan",
+  "abstract": "Relativistic jets from active galactic nuclei are expected to exhibit strong redshift evolution in their radiative output due to the increasing energy density of the cosmic microwave background (CMB). We investigate the role of inverse Compton (IC) scattering of CMB photons in regulating the radio and X-ray emission from large-scale jets using three-dimensional relativistic magnetohydrodynamic simulations coupled with a hybrid Eulerian-Lagrangian particle framework. By keeping the jet dynamics and ambient medium properties fixed across redshifts, we are able to isolate the impact of the cosmological evolution of the CMB on the jet radiation. From our simulations, we construct synthetic spectral energy distributions and intensity maps considering synchrotron and IC/CMB losses along with particle acceleration from shocks. We are able to reproduce the weak redshift dependence of radio luminosity and the strong enhancement of X-ray emission toward high redshift that is observed in radio-loud quasars. At high redshift, the X-ray luminosity follows the expected $(1+z)^4$ scaling, confirming IC/CMB as the dominant mechanism driving the X-ray enhancement. The resulting X-ray-to-radio flux ratio increases systematically with redshift and is consistent with observational constraints. Finally, we show that slower jets exhibit a stronger redshift evolution of the X-ray enhancement than faster jets, highlighting the critical role of jet propagation length scales and particle energy evolution. The simulations also naturally reproduce the steepening of the radio spectral index with redshift - the $α$-$z$ relation - thus providing a unified framework that allows to interpret the multiwavelength properties of high-redshift radio sources.",
+  "title_relatable": "Why do distant quasar jets glow brighter in X-rays than radio waves?",
+  "hook": "Simulations show the ancient cosmic microwave background amplifies X-ray emission from jets billions of light-years away, explaining why the universe's most distant quasars look different.",
+  "summary": "Using 3D simulations of relativistic jets from distant quasars, researchers isolated how the evolving cosmic microwave background (CMB) affects radio and X-ray emission. Inverse Compton scattering—where high-energy particles collide with CMB photons—drives a dramatic X-ray brightening at high redshift that matches observations. The work predicts radio emission stays relatively constant while X-rays strengthen with distance, and reveals that slower jets show stronger evolutionary effects than faster ones.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 881,
+  "tokens_out": 204,
+  "cost_usd": 0.0015208,
+  "ingested_at": "2026-06-02T13:06:04.948693+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.00810",
+  "arxiv_url": "https://arxiv.org/abs/2606.00810",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "nucl-th",
+    "astro-ph.HE"
+  ],
+  "title_original": "Coupled nuclear and leptonic longitudinal collective modes in neutron star matter : a covariant Vlasov approach",
+  "authors": "Aziz Rabhi, Olfa Boukari, Sidney S. Avancini, Constança Providência",
+  "abstract": "A covariant relativistic approach based on the Vlasov equation is used to study collective modes in neutron-star matter. The analysis is carried out within relativistic mean-field models describing charge-neutral and $β$-equilibrated matter composed of neutrons, protons, electrons, and muons. We investigate the conditions under which nuclear collective excitations couple to electron and muon plasmon modes, a phenomenon relevant for neutron stars and supernova matter. The study is undertaken considering relativistic mean field models with different isoscalar and isovector properties. It is shown that the nuclear-leptonic coupling can be sufficiently strong to modify the onset of nuclear collective modes and to affect their isoscalar or isovector character.",
+  "title_relatable": "Do electrons and muons shake up nuclear vibrations inside neutron stars?",
+  "hook": "Inside neutron stars, nuclear vibrations and electron-muon plasma waves can couple strongly, shifting when nuclear oscillations occur and how they behave.",
+  "summary": "Using relativistic physics, researchers studied how vibrations of nuclear matter interact with electron and muon plasma waves deep inside neutron stars. They found that this coupling is strong enough to fundamentally change when nuclear oscillations start and whether they behave like proton or neutron vibrations. The effect matters for understanding neutron star structure and supernova explosions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 616,
+  "tokens_out": 161,
+  "cost_usd": 0.0011367999999999999,
+  "ingested_at": "2026-06-02T13:05:58.827948+00:00"
+}

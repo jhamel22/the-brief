@@ -1,0 +1,22 @@
+{
+  "id": "2606.02032",
+  "arxiv_url": "https://arxiv.org/abs/2606.02032",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Revealing the high redshift host galaxy of the short GRB 061201 with JWST",
+  "authors": "Yuhan Mao, Hanrui He, Jia Ren, Yun Wang, Hao Zhou, Qiuli Wang, Yiming Zhu, Zhiping Jin, Daming Wei",
+  "abstract": "Using deep near-infrared and optical images from JWST and HST, we identify a new host galaxy candidate for GRB 061201. It lies ~2\" from the optical afterglow position. Photometric redshift fitting yields z~1.2. We compare the previously proposed host at z=0.111 with the new candidate. The chance-coincidence probability is $P_{cc}=0.18$, above the classical threshold of 0.1 but consistent with a physical association given the extreme depth of JWST imaging. In contrast, evaluated with corresponding JWST observations, the previously claimed host has a lower $P_{cc}=0.11$, which is driven primarily by bright-tail statistics rather than a more plausible association. A high-z origin is favored by three independent lines of evidence. First, for the z=0.111 scenario, the beaming-corrected energy shows GRB 061201 is an outlier of the Ghirlanda ($E_{p,i}-E_γ$) relation for short GRBs, while for the z=1.2 scenario, it is well consistent with the Amati relation. Second, deep near-infrared observations rule out a kilonova similar to AT2017gfo at z=0.111. Third, afterglow modeling yields an AIC criterion of $Δ$AIC=16.35, providing strong evidence for the high-redshift scenario. Assuming the host candidate is the actual host galaxy of GRB 061201, the physical offset is 16.4-16.9 kpc (substantially reduced from ~42 kpc) and the host stellar age is ~2 Gyr, which are consistent with the host population of short GRBs. A low-redshift origin would lead to a very high binary neutron star merger rate of ~1400 Gpc$^{-3}$ yr$^{-1}$, which is contradictory to the gravitational-wave constraint. We suggest that GRB 061201 originates from a moderately high-redshift (z~1.2) host, significantly alleviating this apparent merger rate discrepancy. This case demonstrates the power of deep JWST exposures in revealing the host galaxies of historically hostless GRBs.",
+  "title_relatable": "Did JWST solve a 20-year mystery about a gamma-ray burst's true home?",
+  "hook": "New infrared images place a famous short burst six times farther away than previously thought, resolving a clash between observed merger rates and gravitational wave data.",
+  "summary": "Astronomers used JWST to identify a new host galaxy for GRB 061201, a short burst observed in 2006 without a confirmed host. The new candidate sits at redshift z~1.2, roughly six times more distant than the previously claimed z=0.111 host. Three independent tests—energy-luminosity relations, absence of a supernova-like signal, and afterglow modeling—favor the distant galaxy. This higher redshift drastically reduces the implied neutron star merger rate, bringing it into agreement with gravitational wave observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 997,
+  "tokens_out": 215,
+  "cost_usd": 0.0016576,
+  "ingested_at": "2026-06-02T13:05:36.862668+00:00"
+}

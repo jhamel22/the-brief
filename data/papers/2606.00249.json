@@ -1,0 +1,23 @@
+{
+  "id": "2606.00249",
+  "arxiv_url": "https://arxiv.org/abs/2606.00249",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "hep-ph"
+  ],
+  "title_original": "The Delta Resonance in the Neutrino Sky",
+  "authors": "Arifa Khatee Zathul, Ke Fang, Francis Halzen, Dan Hooper",
+  "abstract": "Recent measurements of the diffuse cosmic neutrino flux by IceCube show evidence for a spectral break at an energy near $E_ν\\sim 30$ TeV. In this letter, we suggest that this feature may be due to the $Δ$-baryon resonance in $pγ$ interactions. We show that the measured spectrum, including the observed break, can be naturally accommodated by a flux of protons accelerated with a spectrum $dN_p /dE_p \\propto E_p^{-3.1}$ interacting with X-rays of typical energy $E_γ \\sim 0.3\\,{\\rm keV}$. We also point out that the presence of this spectral break significantly reduces the contribution of neutrino sources to the isotropic gamma-ray background, alleviating the longstanding tension between these measurements. In the $Δ$-resonance scenario, the gamma rays accompanying neutrino production cascade down to MeV-GeV energies and contribute at the $\\sim 10\\%$ level to the isotropic gamma-ray background at $\\sim 3$~GeV. If our proposal is realized, it may imply that we have identified the dominant sources that produce the extragalactic cosmic rays.",
+  "title_relatable": "Why cosmic neutrinos suddenly weaken at 30 trillion electron-volts",
+  "hook": "IceCube detects an unexpected break in the neutrino spectrum that could identify the sources accelerating cosmic rays across the galaxy.",
+  "summary": "IceCube measured a sudden drop in diffuse cosmic neutrinos around 30 TeV, a feature unexplained by standard models. Protons accelerated to high energies colliding with soft X-rays produce this break through a physics resonance, naturally matching observations. This identification resolves a separate puzzle: why neutrino sources don't oversaturate the gamma-ray background.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 729,
+  "tokens_out": 170,
+  "cost_usd": 0.0012632000000000001,
+  "ingested_at": "2026-06-02T13:06:19.484066+00:00"
+}

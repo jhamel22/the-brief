@@ -1,0 +1,22 @@
+{
+  "id": "2605.31566",
+  "arxiv_url": "https://arxiv.org/abs/2605.31566",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Insights on the Gamma-Ray Bursts variability in their cosmological rest frame",
+  "authors": "Giovanni Della Casa, Fabrizio Fiore, Giuseppe Dilillo, Simonetta Puccetti, Andrea Vacchi",
+  "abstract": "Gamma-ray bursts temporal profile can be extremely variable, going from a single pulse of a few seconds duration to multiple superimposed pulses occurring over tens or even hundreds of seconds. The variability displayed in the lightcurve of each gamma-ray burst can be the result of the activity taking place in the central engine that generates these violent phenomena, as well as due to magnetic reconnection activities at larger distances. The objective of this work is to find the shortest variability hidden in the lightcurves of the GRBs, with particular focus for the ones with measured redshift, on timescales as short as few milliseconds. This variability will then be related to physical characteristics of the central engine, and evidences of its relation with the spectral parameters of the burst, such as the isotropic energy and peak energy, will be presented. This research is even more relevant in view of the future generation of satellites with improved timing resolution, that will allow us to explore the possible variability in the microsecond region.",
+  "title_relatable": "What the fastest flickers in gamma-ray bursts reveal about their engines",
+  "hook": "By measuring millisecond-scale variability in distant gamma-ray bursts, astronomers trace the violent central engines powering the universe's most energetic explosions.",
+  "summary": "Gamma-ray bursts flicker on timescales from seconds to milliseconds, encoding clues about the extreme physics at their core. This work finds the shortest variability in burst lightcurves with measured distances, then connects those rapid flickers to the burst's energy and spectrum—fingerprints of the central engine's behavior.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 670,
+  "tokens_out": 161,
+  "cost_usd": 0.00118,
+  "ingested_at": "2026-06-02T13:06:39.962374+00:00"
+}

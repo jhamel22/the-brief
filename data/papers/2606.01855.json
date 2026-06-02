@@ -1,0 +1,22 @@
+{
+  "id": "2606.01855",
+  "arxiv_url": "https://arxiv.org/abs/2606.01855",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Fast radio bursts, magnetars and earthquakes: their \"family feud\"?",
+  "authors": "Si-Lu Xu, Yong-Kun Zhang, Pei Wang, Di Li, Jun-Shuo Zhang, Tian-Cheng Lv, Yong-Feng Huang, Tian-Cong Wang, Long-Xuan Zhang, Pei-Xin Zhu, Jin-Huang Cao, Yi Feng, He Gao, Jian Li, Wan-Jin Lu, Chen-Chen Miao, Chen-Hui Niu, Qing-Yue Qu, Chao-Wei Tsai, Yi-Dan Wang, Wen-Ting Wang, Su-Ming Weng, Jia-Fu Wu, Ru-Shuang Zhao, Yuan-Chuan Zou, Yu-Hao Zhu, Ya-Biao Wang",
+  "abstract": "Fast radio bursts (FRBs) are millisecond-duration cosmic transients whose origin remains elusive. Competing models invoke either earthquake-like processes or flare-like mechanisms. To discriminate between these scenarios, we develop a novel diagnostic, the Pincus-Lyapunov diagram (PLD), to characterize the energetic transients in the stochasticity-chaos phase space. We compile burst sequences from five representative FRBs (FRB 20121102A, FRB 20190520B, FRB 20201124A, FRB 20220912A, and FRB 20240114A), together with those from magnetar flares (SGR J1550$-$5418, SGR J0501+4516, SGR 1806$-$20, SGR 1900+14, and SGR J1935+2154), pulsar glitches, solar flares, and earthquakes, and map them onto the PLD for comparative analysis. The resulting diagram shows that FRBs occupy a distinct region of the phase space. Specifically, a permutation test reveals a statistically significant difference in the distributions of magnetar flares and pulsar glitches compared to those of repeating FRBs ($p$-value $\\simeq 0.05$). To examine whether temporal variations in source activity can shift a repeater's position in this phase space, we analyze the time evolution of the most prolific repeater, FRB~20240114A. For this repeating FRB, both Pincus Index and Lyapunov Exponent demonstrate statistically stable behaviour over the eight-month observation session, with Augmented Dickey--Fuller tests yielding $p \\simeq 1.78\\times10^{-3}$ and $9.91\\times10^{-3}$, respectively. By assembling the most comprehensive dataset to date, our work indicates that the trigger mechanisms of repeating FRBs are likely to be distinct from those driving magnetar flares, pulsar glitches, solar flares, and earthquakes.",
+  "title_relatable": "Do fast radio bursts come from earthquakes or magnetar flares?",
+  "hook": "Comparing the chaos signatures of cosmic explosions suggests repeating FRBs use a completely different trigger mechanism than magnetars or seismic events.",
+  "summary": "Astronomers developed a diagnostic tool—the Pincus-Lyapunov diagram—that plots transient events in a chaos-versus-randomness space. When they mapped burst sequences from five repeating FRBs, five magnetars, solar flares, and earthquakes onto this diagram, repeating FRBs occupied a distinct region, statistically separate from magnetars and pulsar glitches. This suggests FRB mechanisms are fundamentally different from competing models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 1097,
+  "tokens_out": 190,
+  "cost_usd": 0.0016376,
+  "ingested_at": "2026-06-02T13:05:44.874220+00:00"
+}

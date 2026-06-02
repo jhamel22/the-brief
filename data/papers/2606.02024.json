@@ -1,0 +1,22 @@
+{
+  "id": "2606.02024",
+  "arxiv_url": "https://arxiv.org/abs/2606.02024",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Locating the Production Sites of High-Energy Neutrinos in Blazar Jets",
+  "authors": "Rui Xue, Yoshiyuki Inoue, Ze-Rui Wang, Neng-Hui Liao, Dingrong Xiong",
+  "abstract": "The production sites of high-energy neutrinos in blazar jets remain poorly constrained. In this work, we investigate the physical conditions required for efficient neutrino production by combining radio-constrained jet properties with multi-zone emission modeling. We show that efficient neutrino production requires an external radiation field stronger than the magnetic field in the jet frame. This environment not only enhances the efficiency of photohadronic interactions but also suppresses synchrotron radiation from secondary pairs, thereby avoiding overshooting the hard X-ray data. Such conditions can be achieved in regions near or within the broad-line region. However, assuming a single emission zone, these conditions are generally inconsistent with the double-bump flux ratio of the observed broadband emission. This implies that the neutrino-emitting region should be physically separated from the dominant electromagnetic emission zone. We further show that such a scenario can be realized either if the jet completes its acceleration within sub-parsec scales or if the bulk Lorentz factor is intrinsically large, both of which appear uncommon based on current observations. These results provide a natural explanation for the rarity of blazar-neutrino associations and highlight the importance of constraining jet structure at small scales to identify promising neutrino-emitting blazars.",
+  "title_relatable": "Where do blazars hide their neutrino factories?",
+  "hook": "Blazars should produce detectable neutrinos, but they rarely do. A new analysis reveals the neutrinos come from a hidden zone separated from the bright X-ray emission.",
+  "summary": "High-energy neutrinos from blazars (jets from supermassive black holes) should be common but are rarely detected. By combining radio observations with emission models, researchers found that efficient neutrino production requires intense radiation fields—conditions met only in regions far from where the brightest electromagnetic radiation originates. This separation explains why blazar-neutrino detections are so rare and suggests future searches should target jets with unusual internal structures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 733,
+  "tokens_out": 181,
+  "cost_usd": 0.0013104000000000002,
+  "ingested_at": "2026-06-02T13:05:40.719487+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.00213",
+  "arxiv_url": "https://arxiv.org/abs/2606.00213",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "title_original": "Far-infrared synchrotron properties of the inner lobes of the radio galaxy Centaurus A revealed with the Herschel observatory",
+  "authors": "Naoki Isobe, Motoki Kino, Takao Nakagawa, Shunsuke Baba, Makoto Tashiro, Hiroshi Nagai",
+  "abstract": "Diffuse far-infrared synchrotron emission filling the northern inner lobe of the radio galaxy Centaurus A is investigated with the Spectral and Photometric Imaging Receiver onboard the Herschel observatory at its three photometric bands. The far-infrared flux density spatially integrated over the lobe is measured as $S_{\\rm ν} = 1.63 \\pm 0.05$ Jy at the wavelength of $500$ $μ$m (the frequency of $600$ GHz). A comparison between the far-infrared spectral index derived with Herschel ($α= 1.32 \\pm 0.19$) and the radio index ($α= 0.66 \\pm 0.04$) suggests a spectral break between these frequency ranges. The change of the spectral index through the break is indicated to be consistent with that of the standard cooling break ($Δα= 0.5$) predicted for particle acceleration under the continuous energy injection condition. A broken power-law model incorporating the standard cooling break yields the break frequency as $ν_{\\rm b} = 218 \\pm 83$ GHz. From the measured cooling break frequency, the magnetic field of the northern inner lobe is evaluated as $B \\gtrsim 100$ $μ$G. It is quantitatively estimated that the adiabatic cooling puts only a minor impact on the derived magnetic field. This magnetic field is higher than that under the minimum-energy condition by more than a factor of $5$. In addition, the derived magnetic field of the lobe is suggested to be at least by a factor of $4$ stronger than that of the inner-jet region implied in the previous very-high-energy gamma-ray study. Even if the line-of-sight orientation of the lobe is considered in its possible extreme case, the magnetic field is found to be reduced only by a factor of 2, and the above arguments about the strong magnetic field basically holds. The science impact of this result is discussed from the viewpoints of jet energetics, and of ultra-high energy cosmic rays.",
+  "title_relatable": "Why is the magnetic field in Centaurus A's jet so unexpectedly strong?",
+  "hook": "Herschel observations reveal the inner lobe of nearby radio galaxy Centaurus A harbors magnetic fields 5× stronger than theory predicts, with implications for cosmic ray acceleration.",
+  "summary": "Using infrared data from the Herschel telescope, astronomers measured where electrons stop radiating efficiently in Centaurus A's northern jet lobe. The spectral break—where the radiation suddenly weakens—reveals a magnetic field of at least 100 microgauss, far exceeding what minimum-energy models allow. This suggests jets pump far more magnetic energy into lobes than previously thought, reshaping our understanding of how supermassive black holes energize their surroundings.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 945,
+  "tokens_out": 200,
+  "cost_usd": 0.001556,
+  "ingested_at": "2026-06-02T13:06:28.675900+00:00"
+}

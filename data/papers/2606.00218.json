@@ -1,0 +1,23 @@
+{
+  "id": "2606.00218",
+  "arxiv_url": "https://arxiv.org/abs/2606.00218",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.HE"
+  ],
+  "title_original": "Prospects of resolving and localising individual supermassive black hole binaries with pulsar timing arrays: the host ranking challenge",
+  "authors": "Niccolò Veronesi, Maria Charisi, Polina Petrov, Stephen R. Taylor, Jessie Runnoe, Daniel J. D'Orazio, Jacob Pilawa, Chung-Pei Ma",
+  "abstract": "Pulsar Timing Arrays (PTAs) are soon expected to detect individually resolved supermassive black hole (SMBH) binaries, opening the possibility for multi-messenger discoveries. The biggest challenge will be to pinpoint the host galaxy in a large localisation area. We simulate realistic binary populations consistent with the gravitational wave (GW) background, projecting the PTA sensitivity for the next 0-10 years. We inject the loudest binary on top of the background and use one of the standard detection pipelines to constrain its properties. We cross-match the localisation areas with comprehensive all-sky galaxy catalogues and estimate the number of candidate hosts in the localisation area assessing, for the first time, the number of missing galaxies due to incomplete coverage. We develop a ranking system that excludes galaxies with properties inconsistent with the GW posteriors, and prioritizes the remaining galaxies for follow-up observations. We find a $\\approx$21, $\\approx$38 and $\\approx$51 percent probability of resolving a binary in the next 0, 5 and 10 years, respectively, reduced to 0.3, 3.8 and 14.1 percent if we require potentially well-constrained localisation areas. The localisation areas span hundreds of square degrees, but shrink significantly with the addition of more data. They contain on average $\\approx$190,000 early type galaxies and $\\approx$40,000 active galactic nuclei, with $\\approx$25,000 missing candidate hosts. Our ranking method can exclude about half of the potential hosts and efficiently rank those remaining when the galaxy catalogue provides SMBH masses and redshifts, but becomes more inefficient when we rely on apparent magnitudes.",
+  "title_relatable": "How will we find the galaxies hosting black hole mergers detected by pulsars?",
+  "hook": "Pulsar timing arrays will soon catch supermassive black holes colliding across the universe—but pinpointing their home galaxies among hundreds of thousands of candidates poses an unexpected puzzle.",
+  "summary": "Researchers simulated what happens when pulsar timing arrays detect individual supermassive black hole binaries in the next decade. The gravitational wave signal narrows the search to an area the size of hundreds of square degrees, containing ~190,000 candidate galaxies. A ranking system using black hole masses and redshifts can eliminate half the false candidates, raising the odds of correct identification from <1% to ~14% by 2035.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 879,
+  "tokens_out": 192,
+  "cost_usd": 0.0014712,
+  "ingested_at": "2026-06-02T13:06:25.714184+00:00"
+}

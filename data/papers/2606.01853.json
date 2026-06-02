@@ -1,0 +1,22 @@
+{
+  "id": "2606.01853",
+  "arxiv_url": "https://arxiv.org/abs/2606.01853",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Possible High-Energy Neutrino Emission from Dark Matter Annihilation in the Disrupting Dwarf Galaxy Boötes~III",
+  "authors": "Shunhao Ji, Zhongxiang Wang",
+  "abstract": "We report the first search for high-energy neutrino emissions from dark matter (DM) annihilation in stellar-stream cores. Motivated by a recent gamma-ray study that proposed these cores as a new class of indirect DM targets, we analyze three stream cores in the Northern Hemisphere using the public ten-year track-like neutrino data released by IceCube. Under the $χχ\\toν\\barν$ annihilation hypothesis, the most significant excess among the three targets is found at the position of the nearby dwarf galaxy Boötes~III, the core of the Styx stream, with a best-fit DM mass of 26.5\\,TeV. The excess has a post-trial significance of $3.1σ$. Considering the existing IceCube dwarf-galaxy limit for the same channel, we obtain a limit on the J-factor $J_{\\rm ann}$, $\\log_{10}(J_{\\rm ann}/{\\rm GeV^2\\,cm^{-5}})\\gtrsim 19.1^{+0.3}_{-0.5}$. This limit is broadly consistent with empirical estimates of $J_{\\rm ann}$ for Boötes~III. The results provide the first candidate target with a possible HE neutrino signal associated with DM annihilation. This neutrino excess and the general existence of DM-induced neutrino signals from other similar sources will be confirmed with the near-future large high-energy neutrino detectors, thus enabling us to probe the nature of DM particles.",
+  "title_relatable": "Did dark matter just flash a neutrino signal from a dying dwarf galaxy?",
+  "hook": "IceCube detects a 3.1-sigma neutrino excess from Boötes III, a galactic corpse that may harbor annihilating dark matter—the first such candidate.",
+  "summary": "Researchers searched IceCube's neutrino data for signals from dark matter annihilation in stellar streams, focusing on disrupted dwarf galaxies. They found a 3.1-sigma excess pointing to Boötes III with a best-fit dark matter mass of 26.5 TeV. If confirmed by future detectors, this could be direct evidence of dark matter particles colliding and converting to neutrinos.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 808,
+  "tokens_out": 194,
+  "cost_usd": 0.0014224,
+  "ingested_at": "2026-06-02T13:05:47.733431+00:00"
+}

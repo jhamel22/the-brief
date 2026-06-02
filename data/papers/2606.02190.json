@@ -1,0 +1,22 @@
+{
+  "id": "2606.02190",
+  "arxiv_url": "https://arxiv.org/abs/2606.02190",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Statistical properties of type-II bursts in Rapid Burster observed with Insight-HXMT",
+  "authors": "Shi-peng Wang, Long Ji",
+  "abstract": "We report the detection of type-II X-ray bursts in a neutron star low mass X-ray binary MXB 1730-335 (also known as Rapid Burster) observed with Insight- HXMT satellite. We found significant variations in the burst properties along with the decay phases of its 2017 and 2020 outbursts, such as switches between different burst modes.We investigated the statistical distributions of burst parameters (peak flux $F_{\\mathrm{peak}}$, fluence $E$, burst duration $t_{\\mathrm{dur}}$, recurrence time $Δt$) and studied their correlations.We confirm the relaxation oscillator behavior ($E \\propto Δt^α$), and find that for mode-2 bursts the index $α$ is around 1. For mode-1 bursts, $α$ varies with $Δt$ and the $E-Δt^α$ relation can be described by a broken powerlaw model.We also confirm that $F_{\\mathrm{peak}}$ is correlated with $E$ below a critical value and is independent of $Δt$.",
+  "title_relatable": "Why does a neutron star's X-ray bursts change personality during outbursts?",
+  "hook": "A Chinese satellite caught a neutron star switching between two different burst modes, revealing hidden physics in how thermonuclear explosions repeat.",
+  "summary": "The Rapid Burster, a neutron star in a binary system, produces type-II X-ray bursts that change character during outbursts—sometimes short and frequent, sometimes long and energetic. Researchers found the bursts follow a relaxation oscillator pattern where energy scales with recurrence time, but the relationship breaks differently depending on which mode the star is in, suggesting distinct physical processes control the explosions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 699,
+  "tokens_out": 176,
+  "cost_usd": 0.0012632000000000001,
+  "ingested_at": "2026-06-02T13:05:33.755982+00:00"
+}
