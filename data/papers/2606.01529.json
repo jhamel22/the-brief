@@ -1,0 +1,22 @@
+{
+  "id": "2606.01529",
+  "arxiv_url": "https://arxiv.org/abs/2606.01529",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Optimal Transport Reconstruction of Biased Tracers in Primordial Non-Gaussian Fields",
+  "authors": "Farnik Nikakhtar, Ravi K. Sheth, Nikhil Padmanabhan, Bruno Lévy, Roya Mohayaee",
+  "abstract": "Optimal transport provides an efficient method to infer the displacement of objects by mapping their initial positions to their present-day locations over cosmic time; equivalently, it enables the reconstruction of initial positions from measurements taken at later times. The method has been shown to be accurate even if positions for only a biased subset of the particles are measured, provided that the initial displacement field was Gaussian. The method does not rely on the assumption of a Gaussian displacement field, and thus may be extended to the reconstruction of non-Gaussian initial conditions. Here, we demonstrate how this is achieved for a class of \"local\" primordial non-Gaussian fields of current interest in cosmology. For these models, there is a distinctive signature in the large scale clustering of biased tracers which depends on the product of the primordial amplitude $f_{\\rm NL}$ and the nature of the tracers $b_φ$. Our method exploits the fact that this signature is not present in the full field; it is only present in biased fields. Therefore, the mass that is not in the biased subset, what we call the \"dust\", also has a characteristic scale-dependence, albeit of a different amplitude. We show that the quality of the optimal transport reconstruction improves as the model for this dust becomes more realistic.",
+  "title_relatable": "Can we trace the universe's initial shape from today's galaxy clusters?",
+  "hook": "Optimal transport maps galaxies backward in cosmic time to reveal primordial non-Gaussianity, even when most matter is invisible.",
+  "summary": "Cosmologists usually assume the early universe was Gaussian, but current theories predict subtle deviations. This work shows how to reconstruct those initial conditions using only observed galaxies as guides, treating unmeasured matter as \"dust\" with predictable clustering. The method works by mapping galaxies backward through cosmic expansion, letting their biased distribution reveal the non-Gaussian fingerprint.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 741,
+  "tokens_out": 163,
+  "cost_usd": 0.0012448000000000001,
+  "ingested_at": "2026-06-02T12:58:53.004568+00:00"
+}

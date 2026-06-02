@@ -1,0 +1,23 @@
+{
+  "id": "2606.01580",
+  "arxiv_url": "https://arxiv.org/abs/2606.01580",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "Primordial black holes spin from cosmological first-order phase transitions",
+  "authors": "Yu-Shi Hao",
+  "abstract": "The stochastic bubble nucleation during cosmological first-order phase transitions leads to variations in the phase transition initiation times across different Hubble volumes, thereby generating non-Gaussian density perturbations in regions with delayed transitions. Based on the accumulation mechanism and the false vacuum island model . This paper investigates the spin angular momentum of primordial black holes formed from nonspherical collapse. By introducing the nucleation history integration method, without assuming a Gaussian distribution, we calculate the expectation values and variances of the semi-axis lengths of overdense ellipsoidal regions, combined with the statistical properties of the velocity shear tensor, we derive the quantitative relationship between the Kerr parameter $a_*$ describing black hole spin and the phase transition parameters , latent heat strength $α$ and phase transition rate $β$. The study finds that the Kerr parameter increases with $α$ and decreases with $β$; estimate the typical the magnitude of $a_*$ can reach $10^{-3}$, which is significantly higher than that of primordial black holes formed in the radiation-dominated era under peak theory, but still lower than that in a matter-dominated era.",
+  "title_relatable": "Do primordial black holes born from phase transitions spin faster?",
+  "hook": "Early universe phase transitions create lopsided density blobs that collapse into spinning black holes—a mechanism that could explain some of the universe's oldest black holes.",
+  "summary": "When the early universe undergoes first-order phase transitions, bubbles nucleate at different times across space, creating non-spherical overdense regions that collapse into primordial black holes. By tracking how nucleation timing shapes these collapsing blobs' geometry and velocity shear, the authors calculate how much spin (Kerr parameter) these black holes acquire—finding it reaches 10^−3, substantially more than predicted by standard radiation-era models but less than matter-era predictions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 681,
+  "tokens_out": 189,
+  "cost_usd": 0.0013008000000000002,
+  "ingested_at": "2026-06-02T12:58:47.263148+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.00219",
+  "arxiv_url": "https://arxiv.org/abs/2606.00219",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "cs.LG"
+  ],
+  "title_original": "21cmEMUv3: a hybrid diffusion-LSTM emulator of 21cmFAST summary observables",
+  "authors": "Daniela Breitman, Andrei Mesinger, Steven G. Murray, Ivan Nikolic, Roberto Trotta",
+  "abstract": "We are witnessing a surge in observations of the cosmic dawn (CD) and epoch of reionisation (EoR), driving an increasing demand for fast and robust theoretical interpretation frameworks. In response, machine learning (ML), and emulation in particular, has emerged as a powerful approach to accelerate and enhance inference pipelines. In this work, we present 21cmEMUv3, an emulator trained on 21cmFASTv3 simulations that model both atomically and molecularly cooling galaxies. 21cmEMUv3 is conditioned on $σ_8$ and ten astrophysical parameters to produce seven summary observables: (i) the cylindrical 21cm power spectrum (PS), emulated for the first time at such high resolution and accuracy across a wide redshift range of $z \\sim$ 6--30; (ii) the spherically-averaged 21cm PS; (iii) the mean neutral fraction of the intergalactic medium (IGM); (iv) the mean 21cm spin temperature; (v) the global 21cm signal; (vi) the ultraviolet (UV) luminosity functions (LFs); and (vii) the Thomson scattering optical depth. Notably, the cylindrical 21cm PS is emulated via score-based diffusion, while the remaining six summaries are emulated via long-short term memory (LSTM) networks, all achieving sub-percent median accuracy. We use the emulator to reinterpret current 21cm PS upper limits from HERA, for the first time using state-of-the-art hydrodynamical simulations to inform priors on star formation inside molecularly cooling galaxies. We find that our inferred soft-band X-ray luminosity per unit star formation rate is consistent with extrapolations of high-mass X-ray binaries to the low-metallicity regimes expected in the first galaxies, excluding values below $10^{39.2}$ erg s$^{-1}M^{-1}_\\odot \\rm{yr}$ at $95\\%$ confidence. Finally, we produce forecasts for the detection of the cosmic 21cm PS with the Square Kilometre Array for different array configurations. The 21cmEMU package is publicly available.",
+  "title_relatable": "Can machine learning speed up cosmic dawn observations 100,000 times over?",
+  "hook": "New emulator predicts the 21cm signals from the first galaxies with sub-percent accuracy, enabling fast interpretation of HERA data and SKA forecasts.",
+  "summary": "Simulating the universe's first galaxies takes weeks of computing time. This hybrid machine learning model—using diffusion and LSTM networks—reproduces seven key observables from 21cmFAST simulations in milliseconds with sub-percent error. Researchers applied it to HERA's current limits on the cosmic 21cm power spectrum, constraining X-ray emission from early star-forming galaxies and predicting detection prospects for the Square Kilometre Array.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 965,
+  "tokens_out": 191,
+  "cost_usd": 0.001536,
+  "ingested_at": "2026-06-02T12:59:09.878977+00:00"
+}

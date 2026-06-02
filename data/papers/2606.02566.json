@@ -1,0 +1,24 @@
+{
+  "id": "2606.02566",
+  "arxiv_url": "https://arxiv.org/abs/2606.02566",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Mergers Matter: Gravothermal Collapse in Dwarf Halos with Self-Interacting Dark Matter",
+  "authors": "Maya Silverman, Abdelaziz Hussein, Arpit Arora, Mariangela Lisanti, Manoj Kaplinghat, Lina Necib, Andreas Thoyas, Stephanie O'Neil, Robyn E. Sanderson, Xuejian Shen, Jorge Moreno",
+  "abstract": "Self-Interacting Dark Matter (SIDM) models with large cross sections at relative velocities below $\\sim100\\,{\\rm km \\, s}^{-1}$ can be tested with dwarf galaxy observations. We analyze six dark-matter-only zoom-in $\\sim10^{10}\\,{\\rm M}_\\odot$ halos with diverse assembly histories, adopting a cross section over mass of $σ/m = 70\\,cm^2 \\, g^{-1}$. We find that mergers inject orbital kinetic energy into the halo, altering the heat transport and the gravothermal evolution of the core. Three of the six halos -- those with the most quiescent merger histories -- show clear signs of core collapse in these simulations. Halos with sustained mergers do not collapse. Furthermore, merger-induced heat transport drives two non-collapsing halos to central densities well below the predictions of the gravothermal fluid model. These findings suggest a novel mechanism for producing dark-matter-deficient galaxies and expanding the diversity of rotation curves beyond what halo concentration alone predicts. Merger histories are thus essential for understanding central density distributions of dwarf galaxy halos in SIDM.",
+  "title_relatable": "Do dark matter collisions explain why some dwarf galaxies are missing their centers?",
+  "hook": "Mergers can prevent or trigger dark matter core collapse in dwarf galaxies, offering a new path to dark-matter-deficient dwarfs and diverse rotation curves.",
+  "summary": "Self-interacting dark matter can behave like a gas, heating up or cooling down depending on conditions. Simulations of ten-billion-solar-mass halos show that violent mergers pump energy into the core, either blocking its collapse or driving it to unusually low densities—effects standard models miss. This suggests merger history, not just halo size, shapes the central structure of dwarf galaxies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 779,
+  "tokens_out": 180,
+  "cost_usd": 0.0013432000000000001,
+  "ingested_at": "2026-06-02T12:58:28.217666+00:00"
+}

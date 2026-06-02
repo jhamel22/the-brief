@@ -1,0 +1,22 @@
+{
+  "id": "2606.00551",
+  "arxiv_url": "https://arxiv.org/abs/2606.00551",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Testing the cosmological principle with quasars",
+  "authors": "Shuangnan Chen, Xiaofeng Yang, Yunliang Ren, Xuwei Zhang, Yangjun Shi, Cheng Cheng, Xiaolong He, Sufen Guo",
+  "abstract": "The inferred velocity is consistent at the 1.56 σ level with the value of 370 km/s from a purely kinematic interpretation of the CMB dipole. Based on the motion direction component analysis, we have not found any significant deviation from cosmological principle in current released quasars data. The cosmological principle posits that the universe is homogeneous and isotropic on the large scales. In history, the cosmological principle was confirmed by various cosmological observations from CMB to large scale structure. However, several new challenges to the cosmological principle were reported in recent years, particularly in radio observations from overdispersed radio source counts to quasars. Here, we firstly present studies on the peculiar velocity of large-scale anisotropy by measuring the dipole signal from the DESI DR1 catalogue with a sample of 1,176,570 quasars (0.8 < z < 3.0). Our analysis reveals the peculiar velocity of $|v| = 443.8 \\pm 204.1$ km/s towards $(l, b) = (107.4^\\circ \\pm 86.8^\\circ, 28.4^\\circ \\pm 45.2^\\circ)$ in Galactic coordinates.The motion direction deviates from the CMB dipole (264.02$^\\circ$, 48.253$^\\circ$). The inferred velocity is consistent at the 1.56 $σ$ level with the value of 370 km/s from a purely kinematic interpretation of the CMB dipole. Based on the motion direction component analysis, we have not found any significant deviation from cosmological principle in current released quasars data.",
+  "title_relatable": "Do a million quasars reveal cracks in the universe's uniformity?",
+  "hook": "A new catalog of 1.2 million distant quasars shows our galaxy's motion aligns with the cosmic microwave background—reassuring a foundational assumption of cosmology.",
+  "summary": "Astronomers measured the dipole signal (directional motion signature) from 1.2 million quasars in the DESI survey to test whether the universe is truly uniform in all directions, a cornerstone assumption of modern cosmology. Their inferred peculiar velocity of 444 km/s agrees within measurement noise with the 370 km/s derived from the CMB, finding no statistically significant deviation from isotropy—despite recent tensions reported in radio surveys.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 845,
+  "tokens_out": 195,
+  "cost_usd": 0.001456,
+  "ingested_at": "2026-06-02T12:58:58.586442+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00553",
+  "arxiv_url": "https://arxiv.org/abs/2606.00553",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Calibrating Self-Weighted Shear Estimation via Field Distortion",
+  "authors": "Zhenjie Liu, Jiarui Sun, Jun Zhang, Cong Liu",
+  "abstract": "Accurate cosmic shear measurement is the key to fully realize the scientific potential of large scale galaxy surveys. The Fourier\\_Quad shear measurement method has been significantly developed to avoid biases caused by various factors, including the point spread function (PSF), photon noise, pixelation effect, selection effects, etc.. Shear statistics has also been optimized by using the PDF-SYM method (symmetrization of the Probability Distribution Function of the shear estimators) to achieve the minimal statistical error, without introducing systematic error. Nevertheless, the iterative nature of the PDF-SYM method makes it computationally expensive for massive datasets. To substantially improve efficiency, we introduce the Self-Weighted Shear Estimation (SWSE) method, which employs a specific self-weighting scheme to naturally suppress the shape noise as well as to balance the contributions from the bright and faint galaxies. Because SWSE is intrinsically biased, the primary focus of this work is to robustly evaluate whether the field-distortion test (FD test, a way to calibrate the shear bias on real data) can accurately recover and correct these inherent multiplicative and additive biases. Using both simulated and real survey data, we demonstrate that the FD test can successfully calibrate SWSE on galaxy-galaxy lensing measurements, enabling it to achieve statistical precision comparable to PDF-SYM. Our results establish the combination of FD test and SWSE as a robust shear estimation approach for forthcoming large-scale weak lensing surveys.",
+  "title_relatable": "Does a fast shear measurement method actually correct its own biases?",
+  "hook": "Galaxy surveys need precise shear measurements for dark matter mapping. A faster method introduces bias, but researchers show a field-distortion test can fix it.",
+  "summary": "Measuring cosmic shear from galaxy shapes reveals dark matter's distribution, but speed-optimized methods introduce systematic errors. This work tests whether a \"field distortion\" calibration—applying artificial distortions to real data—can reliably correct these biases in the Self-Weighted Shear Estimation method. On simulated and real survey data, it works, matching the precision of slower, more careful approaches.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 776,
+  "tokens_out": 173,
+  "cost_usd": 0.0013128000000000003,
+  "ingested_at": "2026-06-02T12:58:55.801018+00:00"
+}

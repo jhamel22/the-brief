@@ -1,0 +1,23 @@
+{
+  "id": "2606.01547",
+  "arxiv_url": "https://arxiv.org/abs/2606.01547",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "JAXtronomy: A JAX port of lenstronomy",
+  "authors": "Alan Huang, Simon Birrer, Daniel Gilman, Natalie B. Hogg, Anowar J. Shajib, Aymeric Galan, Nan Zhang",
+  "abstract": "Gravitational lensing is a phenomenon where light bends around massive objects, resulting in distorted images seen by an observer. Studying gravitationally lensed systems provides insights into cosmology and astrophysics, including constraints of the expansion rate of the Universe and the distribution of dark matter. Thus, we introduce JAXtronomy, a re-implementation of the gravitational lensing software package lenstronomy (Birrer, 2021; Birrer & Amara, 2018) using JAX (Bradbury et al., 2018). JAX is a Python library that uses an accelerated linear algebra (XLA) compiler to improve the performance of computing software. Our core design principle of JAXtronomy is to maintain an identical API to that of lenstronomy. The main JAX features utilized in JAXtronomy are just-in-time compilation, which can lead to significant reductions in execution time, and automatic differentiation, which allows for the implementation of gradient-based algorithms that were previously impossible. Additionally, JAX allows code to be run on GPUs or parallelized across CPU cores, further boosting the performance of JAXtronomy.",
+  "title_relatable": "Can faster software unlock new secrets from gravitational lensing?",
+  "hook": "Researchers rewrote a gravitational lensing toolkit in JAX to run 10–100× faster on GPUs, enabling gradient-based analysis previously too slow to attempt.",
+  "summary": "Gravitational lensing—light bending around massive objects—reveals dark matter and cosmic expansion rates. A new implementation of the lenstronomy software in JAX, a machine learning library with GPU acceleration and automatic differentiation, maintains the same interface while dramatically speeding computation. This unlocks gradient-based inference methods that were computationally intractable before.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 721,
+  "tokens_out": 168,
+  "cost_usd": 0.0012488000000000002,
+  "ingested_at": "2026-06-02T12:58:49.998515+00:00"
+}

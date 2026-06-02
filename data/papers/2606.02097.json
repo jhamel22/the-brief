@@ -1,0 +1,22 @@
+{
+  "id": "2606.02097",
+  "arxiv_url": "https://arxiv.org/abs/2606.02097",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Redshift Duality with Pantheon+SH0ES in a Planck-anchored Flat $Λ$CDM Framework: Implications for Hubble Tension and Observational Inference",
+  "authors": "Tae-Kyoung Lee",
+  "abstract": "We test an operationally defined redshift duality in which the observed redshift comprises the standard metric-expansion component together with an additional line-of-sight quantum contribution arising from the cumulative conversion of photon energy into effective mass as a function of path length and frequency. Fitting this hybrid model to the Pantheon+SH0ES compilation, we find that the metric-expansion Hubble constant, $H_Λ$, is recovered to a value consistent with the Planck baseline of $67.4~\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$ within $\\lesssim 0.33σ$. Redshift-binned analyses show that while the flat Lambda cold dark matter ($Λ$CDM) model produces an apparent drift in the inferred Hubble parameter across the Hubble flow, the hybrid model restores the constancy of $H_Λ$ across redshift bins. The correctional trends of cosmological physical quantities re-inferred under this framework further indicate the potential to alleviate anomalies associated with high-redshift galaxies. These results suggest that redshift duality warrants further consideration in observational processing and inference, while preserving consistency with a Planck-anchored flat $Λ$CDM baseline.",
+  "title_relatable": "Can quantum effects on photons resolve the Hubble tension?",
+  "hook": "A new redshift model incorporating quantum mass conversion brings the locally measured expansion rate into agreement with Planck satellite observations.",
+  "summary": "A cosmologist proposes that observed redshift contains two components: standard metric expansion plus a quantum contribution from photons converting energy to effective mass along their path. Fitting this hybrid model to supernova data recovers Hubble's constant at 67.4 km/s/Mpc—matching Planck's prediction and avoiding the long-standing tension with local measurements. The model also predicts consistent expansion rates across different distance ranges, suggesting potential solutions to other cosmic puzzles.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 752,
+  "tokens_out": 180,
+  "cost_usd": 0.0013215999999999998,
+  "ingested_at": "2026-06-02T12:58:30.833701+00:00"
+}

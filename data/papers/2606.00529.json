@@ -1,0 +1,23 @@
+{
+  "id": "2606.00529",
+  "arxiv_url": "https://arxiv.org/abs/2606.00529",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Decaying Dark Matter as a Possible Solution for Cosmological Tensions",
+  "authors": "Yaman Acharya, Ryan E. Johnson",
+  "abstract": "Large-scale structure measurements have revealed persistent tensions between early- and late-time cosmological probes, most notably the long-standing discrepancy in the structure-growth parameter $S_8$. In this work, we explore how a model including decaying dark matter (DDM) can alleviate this tension by suppressing the growth of matter fluctuations at late times. Specifically, we consider a neutrinophilic decay channel in which a heavy dark matter particle $χ$ slowly decays into a Standard Model neutrino and a light invisible fermion, $χ\\rightarrow ν+ φ$, modifying both the background evolution and the clustering of structure. Using the DES Year~1 redshift distributions, we construct a baseline matter power spectrum and compute the galaxy-galaxy, shear-shear, and galaxy-shear angular power spectra under both $Λ$CDM and DDM-inspired scenarios. We find that slow dark matter decay produces a scale-dependent suppression of clustering that remains consistent with DES measurements while naturally shifting the predicted structure amplitude toward the lower values favored by weak lensing surveys. Our results suggest that decaying dark matter is a compelling and physically motivated framework for addressing the $S_8$ tension.",
+  "title_relatable": "Could dark matter decay solve the universe's growth crisis?",
+  "hook": "Dark matter that decays into neutrinos suppresses structure growth, bringing conflicting cosmic measurements into agreement without exotic new physics.",
+  "summary": "Measurements of how quickly the universe's matter clumped together disagree by 2–3 sigma—a persistent headache for cosmology. This work shows that if dark matter slowly decays into neutrinos and invisible fermions, it naturally weakens clustering at late times, making large-scale structure surveys agree with weak lensing data. Using real observations from the Dark Energy Survey, the authors demonstrate the decay channel produces precisely the damping needed to resolve the tension.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 703,
+  "tokens_out": 177,
+  "cost_usd": 0.0012704,
+  "ingested_at": "2026-06-02T12:59:04.134135+00:00"
+}

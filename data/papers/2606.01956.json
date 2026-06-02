@@ -1,0 +1,23 @@
+{
+  "id": "2606.01956",
+  "arxiv_url": "https://arxiv.org/abs/2606.01956",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "Accurate inner stellar density slopes from projected surface densities in galaxies",
+  "authors": "Jorge Sanchez Almeida",
+  "abstract": "The inner slope of the three-dimensional stellar density in dwarf galaxies (rho'[0]) is a sensitive probe of possible departures from the collisionless cold dark matter (CDM) paradigm, since cored stellar distributions (rho'[0]=0) cannot easily reside within the cuspy potentials CDM predicts for low-mass systems. Photometry alone offers an observationally inexpensive way to constrain rho'(0), making this approach particularly attractive for the faint galaxies most relevant to dark matter (DM) studies. Inferring volume densities, however, requires deprojecting the observed stellar surface density, Sigma(R), a procedure that is notoriously ambiguous in the presence of noise. To avoid explicit deprojection, we derive an expression (Eq.~[9]]) to obtain rho'(0) directly from the radial derivatives of Sigma(R), assuming spherical symmetry and smooth finite density profiles. All projected profiles are shown to have the same central functional form, independent of the underlying volume density (Eq.~[20]). As a result, the derivatives of Sigma(R) can be extrapolated to the center using constraints from larger radii, which in turn yields rho'(0). As an illustration, we apply the method to six ultra-faint dwarf (UFD) galaxies, finding that all of them have a surface density with the same shape, from which the presence of stellar cores is inferred (rho'[0] simeq 0). The technique also has the ability to diagnose rho'[0]>0, corresponding to galaxies with a central stellar mass deficit potentially linked to black-hole scouring, MONDian dynamics, or deviations from CDM.",
+  "title_relatable": "Can galaxy light profiles reveal whether dark matter is clumpy or smooth?",
+  "hook": "A new technique extracts the inner density structure of dwarf galaxies directly from surface brightness, bypassing messy deprojection. Ultra-faint dwarfs show flat cores—a signature that challenges cold dark matter predictions.",
+  "summary": "Standard dark matter theory predicts clumpy, cuspy density centers in small galaxies, yet observations often find flat cores. This work bypasses the ambiguous deprojection step by deriving the 3D stellar density slope directly from measurable surface brightness derivatives. Applied to six ultra-faint dwarfs, the method consistently reveals flat cores, strengthening the case that something deviates from standard cold dark matter in the smallest galaxies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 815,
+  "tokens_out": 196,
+  "cost_usd": 0.001436,
+  "ingested_at": "2026-06-02T12:58:33.920439+00:00"
+}

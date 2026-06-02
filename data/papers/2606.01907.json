@@ -1,0 +1,23 @@
+{
+  "id": "2606.01907",
+  "arxiv_url": "https://arxiv.org/abs/2606.01907",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "CSST large-scale structure analysis pipeline: IV. Cosmic Voids Identified from Galaxy Group Samples as Probes of the Large-scale Structure",
+  "authors": "Yingxiao Song, Xiaohu Yang, Yan Gong, Yizhou Gu, Qingyang Li, Hong Guo, Yunkun Han, Yipeng Jing, Cheng Li, Feng Shi, Jipeng Sui, Run Wen, Hu Zhan, Pengjie Zhang, Youcai Zhang, Gong-Bo Zhao, Xian Zhong Zheng, Xingchen Zhou, Hu Zou",
+  "abstract": "Because groups are directly associated with halos, they allow for considerably simpler theoretical modeling than approaches based on individual galaxies. We therefore propose to use voids identified in galaxy group catalogs, referred to as group-voids, to investigate the cosmic large-scale structure (LSS). Using the reference mock galaxy redshift survey (MGRS) designed for the Chinese Space-station Survey Telescope (CSST), we build two galaxy group catalogs representing ideal and conservative scenarios, derived from galaxy samples with 100\\% and roughly 30\\% spectroscopic redshift completeness, respectively. We then identify voids in these two mock group catalogs, as well as in the underlying halo catalog, and measure two void statistics, the void size function (VSF) and the void density profile, within five redshift intervals spanning $z=0$ to $1.0$. We compare the statistics obtained from two kinds of voids: those defined by galaxy groups (group-voids) and those defined by dark matter halos (halo-voids). In the void-finding process, we adopt the brightest central galaxy (BCG) as the group center to improve the accuracy of the inferred void centers. Our analysis shows that void statistics derived from group-voids with spectroscopic redshift completeness of at least 40\\% can faithfully reproduce the corresponding statistics from halo-voids. Even when the redshift completeness of galaxies falls to as low as 30\\%, we can still reliably describe group-voids via halo-voids by incorporating a redshift error term. This indicates that group-voids are a promising tool for probing LSS and offer a valuable complement to standard void studies, which is especially advantageous for emulator-based methods.",
+  "title_relatable": "Can empty cosmic voids reveal universe's hidden structure?",
+  "hook": "CSST telescope will map cosmic voids in galaxy groups down to 30% spectroscopic completeness, enabling new tests of large-scale structure with simpler theoretical models.",
+  "summary": "The team proposes using voids identified in galaxy group catalogs—rather than individual galaxies—to probe the universe's large-scale structure. Using mock CSST data, they show that void statistics measured from galaxy groups faithfully match those from dark matter halos, even when only 30% of galaxies have precise redshift measurements. This approach simplifies theory and offers a practical tool for upcoming surveys.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 937,
+  "tokens_out": 174,
+  "cost_usd": 0.0014456,
+  "ingested_at": "2026-06-02T12:58:36.422515+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.31335",
+  "arxiv_url": "https://arxiv.org/abs/2605.31335",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "hep-ph"
+  ],
+  "title_original": "Gravothermal Collapse: Robust Against Baryonic Feedback",
+  "authors": "Demao Kong, Hai-Bo Yu",
+  "abstract": "We perform a stress test of gravothermal collapse in self-interacting dark matter (SIDM) halos under baryonic feedback using a semi-analytical oscillating-potential model in controlled N-body simulations. For high-concentration halos, where the SIDM thermalization timescale is short, gravothermal collapse is only mildly delayed and never stalled, even under extremely strong feedback. In contrast, the collapse of a median-concentration halo can be significantly delayed, but it resumes once feedback ceases. The final density profile of such halos depends sensitively on the episodic feedback history, producing a broad diversity in central densities. These results strengthen the interpretation of dense compact perturbers identified in recent strong-lensing observations as core-collapsed SIDM halos.",
+  "title_relatable": "Can galaxies stop dark matter from collapsing into itself?",
+  "hook": "Dense dark matter clumps collapse inward despite violent galaxy feedback, suggesting strong-lens observations have found real core-collapsed dark matter halos.",
+  "summary": "Dark matter with self-interactions can undergo \"gravothermal collapse\"—a runaway densification at the halo center. Using simulations, the authors tested whether galaxy feedback (supernovae, black hole jets) can stop this process. For dense halos, collapse merely pauses during feedback but resumes afterward; less dense ones show more variation. This robustness supports recent claims that ultra-compact features seen in gravitational lensing are genuine collapsed dark matter structures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 604,
+  "tokens_out": 184,
+  "cost_usd": 0.0012192000000000001,
+  "ingested_at": "2026-06-02T12:59:13.617715+00:00"
+}

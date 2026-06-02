@@ -1,0 +1,23 @@
+{
+  "id": "2606.01775",
+  "arxiv_url": "https://arxiv.org/abs/2606.01775",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO"
+  ],
+  "title_original": "Reconnection-Driven Injection and Stochastic Reacceleration during Cosmological Magnetogenesis",
+  "authors": "Ji-Hoon Ha",
+  "abstract": "We investigate whether magnetic reconnection can provide suprathermal proton seed particles during cosmological magnetogenesis prior to nonlinear structure formation. Previous work showed that pressure-anisotropy-driven stochastic acceleration alone is strongly limited by cosmological expansion and Coulomb cooling. Here, we extend this framework by adding a phenomenological reconnection-driven source term to the Fokker--Planck equation for the isotropic ion distribution, with the injection power tied to the magnetic-energy growth rate during magnetogenesis. We find that reconnection can act as a fast injection channel and can produce a visible suprathermal tail. However, the resulting nonthermal energy fraction remains very small, of order $10^{-7}$ in the fiducial model, implying a negligible nonthermal pressure contribution to the pre-structure intergalactic medium. This limitation arises because the extremely high-beta plasma contains only a small magnetic-energy reservoir, even when reconnection itself is locally fast. Using a test-particle shock reacceleration estimate, we further show that the reconnection-produced tail can enhance the suprathermal proton population available for later structure-formation shocks by about an order of magnitude. Nevertheless, the associated hadronic gamma-ray emission from low-density cluster outskirts is expected to remain far below current detectability. We therefore conclude that reconnection during cosmological magnetogenesis is unlikely to dominate the cosmic-ray energy budget directly, but may provide a low-level seed population for subsequent shock acceleration.",
+  "title_relatable": "Can magnetic reconnection seed cosmic rays in the early universe?",
+  "hook": "Magnetic reconnection in the primordial universe produces a trickle of high-energy particles, but falls short of powering cosmic rays directly.",
+  "summary": "Magnetic reconnection during the universe's first structure formation can inject energetic protons into the intergalactic medium, but only at levels of 10^−7 of the total energy budget. While this seed population could modestly boost cosmic rays later when galaxy clusters form, reconnection alone cannot explain the observed cosmic-ray spectrum or generate detectable gamma-ray signals.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 767,
+  "tokens_out": 162,
+  "cost_usd": 0.0012615999999999999,
+  "ingested_at": "2026-06-02T12:58:41.950341+00:00"
+}

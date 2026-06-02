@@ -1,0 +1,23 @@
+{
+  "id": "2605.30926",
+  "arxiv_url": "https://arxiv.org/abs/2605.30926",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Matter influence on large-scale scalar dynamics",
+  "authors": "Philippe Brax",
+  "abstract": "Local structures in the Universe can influence the dynamics of light scalar fields when coupled to matter. We focus on light test fields evolving in matter modelled as a stochastic source. We describe the effective field theory for light scalars on large scales after integrating out the short distance dynamics. This is most conveniently performed in the Schwinger-Keldysh formalism where we find that the large distance theory involves a stochastic noise corresponding to the exchanges between short and large scales, and new interactions which can affect the time evolution of light scalars. We exemplify this back-reaction when the coupling between matter and scalars is small leading to corrections to the Klein-Gordon equation of the light scalars on large scales. In particular, the resulting corrections to the scalar potential could lead to effects akin to dynamical dark energy. We also consider the situation where all the substructures of the Universe are screened leading to the suppression of large scale dynamics and a cosmic Meissner effect. This highlights the potentially relevant effects of small scale structures on the cosmological dynamics of light scalar fields.",
+  "title_relatable": "Can tiny structures in the universe reshape how dark energy evolves?",
+  "hook": "Small-scale matter clumping generates noise that alters light scalar field dynamics on cosmic scales, potentially mimicking dark energy without invoking new physics.",
+  "summary": "Brax shows that when scalar fields couple to matter across vastly different scales, integrating out short-distance physics leaves behind stochastic noise that modifies how these fields evolve cosmically. These corrections can mimic dynamical dark energy, or—when all substructures are screened—suppress large-scale dynamics entirely, like a cosmic Meissner effect. Small-scale structure matters far more for dark energy than previously assumed.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 644,
+  "tokens_out": 177,
+  "cost_usd": 0.0012232,
+  "ingested_at": "2026-06-02T12:59:27.870240+00:00"
+}

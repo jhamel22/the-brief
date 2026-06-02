@@ -1,0 +1,23 @@
+{
+  "id": "2605.31024",
+  "arxiv_url": "https://arxiv.org/abs/2605.31024",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO"
+  ],
+  "title_original": "The MeerKAT Thousand-Pulsar Polarisation Array II: Searches for Ultralight Axion-Like Dark Matter",
+  "authors": "Zi-Yan Yuwen, Michael Sarkis, Yin-Zhe Ma, Tao Liu, Jing Ren, Patrick Weltevrede, Xiao Xue",
+  "abstract": "We construct Pulsar Polarisation Arrays (PPA), using regular pulsars monitored in MeerKAT's Thousand Pulsar Array (TPA) Programme, to search for Axion-like Dark Matter (ALDM) within Milky Way. Specifically, from a catalogue of 1237 regular pulsars, we select the 50 ones with the highest signal-to-noise ratio and set upper limits on the ALDM Chern-Simons coupling. We find no signals with statistical significance over the mass range of $[10^{-23},10^{-20}]\\,{\\rm eV}$ in the six-year MeerKAT's data. By combining the high-quality TPA pulsars and the accurate ionospheric subtraction of spinifex, we establish the most sensitive upper limits to the date on the ALDM Chern-Simons coupling, namely $\\lesssim 10^{-14} - 3\\times 10^{-13}\\,{\\rm GeV}^{-1}$, for the mass range of $[10^{-23},10^{-21}]\\,{\\rm eV}$ except at $m_a \\sim 1.3 \\times 10^{-22}\\,$eV. This study underscores the great potential of constructing regular-pulsar PPAs for scientific tasks.",
+  "title_relatable": "Can pulsars detect ultralight dark matter particles?",
+  "hook": "Using 50 of MeerKAT's brightest pulsars, researchers set the tightest limits yet on a hypothetical dark matter candidate across six years of data.",
+  "summary": "Astronomers built a pulsar polarization array from MeerKAT radio telescope observations to hunt for axion-like dark matter particles in the Milky Way. Analyzing polarization patterns from the 50 best-quality pulsars over six years revealed no signatures of this dark matter in the mass range 10^−23 to 10^−20 electronvolts, but they pinned down more restrictive constraints on how these particles would interact with light than any previous study.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 799,
+  "tokens_out": 195,
+  "cost_usd": 0.0014192,
+  "ingested_at": "2026-06-02T12:59:20.000707+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00411",
+  "arxiv_url": "https://arxiv.org/abs/2606.00411",
+  "announced_date": "2026-05-29",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "The sound of dynamical dark energy and modified gravity",
+  "authors": "João Rebouças, Guilherme Brando, Felipe T. Falciano, Vivian Miranda",
+  "abstract": "Different candidate models are able to reproduce the dynamical dark energy signal preferred by combinations of recent distance measurements. These models may be distinguished by the behavior of their perturbations, which are controlled by the effective sound speed $c_s^2(k,a)$. To explore correlations between the dark energy sound speed and perturbative behavior, we test modified gravity (MG) scenarios in which the dark energy equation of state and sound speed determine modifications to the clustering of matter. We investigate the impact of varying the dark energy sound speed on several cosmological quantities in both General Relativity (GR) and MG. We constrain the dark energy and modified gravity parameters using measurements of the Cosmic Microwave Background (CMB) from Planck PR4, type Ia supernova luminosity distances (SN) from Pantheon+, Baryon Acoustic Oscillations (BAO) from DESI DR2, and cosmic shear from DES-Y3. Using the combination of CMB+BAO+SN, we find that, in the MG scenarios, the preference for dynamical dark energy is correlated with deviations from GR over redshifts $z < 2$ at over 95\\% confidence level. The significance of these deviations is not degraded when considering a dynamical or superluminal sound speed, but vanishes if we assume a cosmological constant. The inclusion of cosmic shear and CMB lensing data significantly shifts the constraints towards GR. Our framework enables the exploration of modified gravity models using the dark energy sound speed as a physically meaningful free parameter.",
+  "title_relatable": "Does dark energy's sound speed reveal gravity's true nature?",
+  "hook": "New analysis of dark energy models finds that modified gravity theories preferring dynamical dark energy deviate from Einstein's relativity at 95% confidence—but only when sound speed varies.",
+  "summary": "Physicists tested whether different dark energy models can be distinguished by how sound waves propagate through cosmic structures. They compared General Relativity against modified gravity theories using data from the Planck satellite, supernovae, galaxy surveys, and weak lensing. Models with changing dark energy sound speeds show significant deviations from standard gravity only when combined with evolving dark energy—but adding more data from lensing pulls constraints back toward Einstein's theory.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 787,
+  "tokens_out": 184,
+  "cost_usd": 0.0013656,
+  "ingested_at": "2026-06-02T12:59:06.893220+00:00"
+}

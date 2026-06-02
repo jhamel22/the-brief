@@ -1,0 +1,22 @@
+{
+  "id": "2606.00549",
+  "arxiv_url": "https://arxiv.org/abs/2606.00549",
+  "announced_date": "2026-05-30",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Interacting dark energy constraints from Fermi GRBs and Pantheon+ SNe Ia with full GRB covariance",
+  "authors": "Jianfeng Meng, Xiaofeng Yang, Yunliang Ren, Yangjun Shi, Bohao Wang, Jingze Li, Xiongwei Liu",
+  "abstract": "The standard $Λ$CDM model faces long-standing theoretical and observational problems, such as the Hubble tension, which motivate extensions beyond $Λ$CDM, including interacting dark energy (IDE). Type Ia supernovae (SNe Ia) are precise probes of the late-time expansion history, while gamma-ray bursts (GRBs) can extend distance measurements to higher redshifts. However, GRB cosmology depends on the calibration of luminosity relations, the covariance treatment, and the intrinsic scatter. In this work, we use 15 years of Fermi/GBM long-GRB observations and Pantheon+ SNe Ia to test whether current distance data provide evidence in favor of IDE models over $Λ$CDM. We compare four flat models: $Λ$CDM, $w$CDM, IDE-$ρ_{\\rm de}$, and IDE-$ρ_{\\rm c}$. The GRB covariance is constructed by propagating the Amati-relation calibration covariance, and the GRB intrinsic scatter is sampled as a nuisance parameter. A diagonal GRB covariance is also considered as a robustness test. With the full GRB covariance, both the GOLD and FULL samples give $H_0\\simeq 72.8~{\\rm km~s^{-1}~Mpc^{-1}}$ in $Λ$CDM. The IDE models do not improve the fit enough to compensate for their extra parameters, and the BIC favors the simpler $Λ$CDM model. The diagonal-covariance test gives the same model-selection conclusion, although it changes the fitted GRB intrinsic scatter. We conclude that, for the two interaction forms considered here and at the present level of GRB systematics, current GRB and Pantheon+ data do not provide evidence for interacting dark energy. Current GRBs mainly provide a high-redshift extension of the Hubble diagram and test the shape of the expansion history.",
+  "title_relatable": "Can gamma-ray bursts reveal hidden interactions between dark matter and dark energy?",
+  "hook": "Using 15 years of Fermi observations and distant supernovae, researchers found no evidence that dark energy interacts with dark matter—simpler models still win.",
+  "summary": "Physicists combined gamma-ray burst data from Fermi with supernovae measurements to test whether dark energy and dark matter interact, a possibility proposed to solve the Hubble tension. Careful treatment of measurement uncertainties revealed that interactive dark energy models don't fit the data better than the standard model, despite having more parameters. GRBs remain useful for mapping the universe's expansion at large distances, but can't yet settle debates about dark sector interactions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 964,
+  "tokens_out": 187,
+  "cost_usd": 0.0015192,
+  "ingested_at": "2026-06-02T12:59:01.351479+00:00"
+}

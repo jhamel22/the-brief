@@ -1,0 +1,23 @@
+{
+  "id": "2606.01644",
+  "arxiv_url": "https://arxiv.org/abs/2606.01644",
+  "announced_date": "2026-06-01",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.IM",
+    "astro-ph.CO"
+  ],
+  "title_original": "The Murchison Widefield Array Phase III upgrade: Sensitivity Doubled, Number of Baselines Quadrupled, Flexibility Enhanced, and EoR Observations Optimised",
+  "authors": "S. J. Tingay, M. Johnston-Hollitt, R. B. Wayth, T. A. Booler, J. Jones, Y. Wu, J. Gan, G. Sleap, A. McPhail, C. Wintle, A. Williams, C. J. Phillips, L. Verduyn, D. Emrich, P. Giersch, C. J. Riseley, S. Duchesne, C. M. Trott, D. Null, B. W. Myers, C. D. Nunhokee, N. Barry, L. Dressler, J. Ducharme, B. Hazelton, M. Lee, E. Lilleskov, M. Morales, J. Pober, Zhiqiang Shen, Xiang-ping Wu, Xiaoyu Hong, M. D. Filipović, S. E. Tremblay, M. Walker",
+  "abstract": "We describe the latest iteration of upgrades (designated Phase III) to the Murchison Widefield Array (MWA), in the fourth paper in a series that covers the evolution of the telescope from design concept to initial operational facility, and through two major upgrades. As part of the Phase III upgrade of the MWA, we report the completion of work to design, build, and deploy a new fleet of digital receivers that further optimise the MWA for Epoch of Reionisation observations. These receivers complement existing receivers, such that the MWA now supports the full correlation of all 256 antenna tiles currently in the array. This step releases the MWA from the prior constraint of having to correlate only 128 of the 256 tiles at any given time, which means that the maximum instantaneous sensitivity of the MWA is doubled and the maximum number of interferometric baselines is approximately quadrupled. The upgrade is fundamentally enabled by the new MWAX correlator and various other improvements to the MWA sub-systems. In this paper we describe the new digital receivers and the other improvements that result in the Phase III system. A range of operational benefits arise from the upgrade and scientific flexibility is increased. We also comment on the transition from the MWA to the SKA-Low facility near the end of the decade, including a description of some unique science opportunities utilising joint MWA/SKA-Low data during the Science Verification phase of the SKA-Low Array Assembly 2 (AA2) period.",
+  "title_relatable": "How a radio telescope doubled its power to glimpse the universe's first galaxies",
+  "hook": "The MWA radio array now uses all 256 antenna tiles instead of half, quadrupling baseline count and doubling sensitivity for mapping the cosmic dawn.",
+  "summary": "The Murchison Widefield Array in Australia completed a major upgrade: new digital receivers and a faster correlator now let it use all 256 antenna tiles simultaneously, whereas before it could only process 128 at a time. This doubles sensitivity and quadruples the number of independent measurements, dramatically improving its ability to detect faint radio signals from the universe's first galaxies during reionization.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 999,
+  "tokens_out": 174,
+  "cost_usd": 0.0014952000000000001,
+  "ingested_at": "2026-06-02T12:58:44.680991+00:00"
+}
