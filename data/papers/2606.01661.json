@@ -1,0 +1,24 @@
+{
+  "id": "2606.01661",
+  "arxiv_url": "https://arxiv.org/abs/2606.01661",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "q-bio.QM",
+    "stat.ME"
+  ],
+  "title_original": "Feature leakage and the identifiability of direct-dependency entropy models of neural activity",
+  "authors": "Houman Safaai, Bernardo L. Sabatini",
+  "abstract": "Biological neurons receive thousands of synaptic inputs on branching, electrically excitable dendrites, yet population activity is often modeled with direct input-output rules in which each input contributes independently to a scalar drive. We study what successful prediction by such models does, and does not, reveal about neural computation. For conditional maximum-entropy models that match output rates and pairwise output-input coactivities, the entropy explained by a direct model is a prediction measure under the sampled input distribution, not a mechanism-identification test. A restricted MaxEnt fit is an information projection: omitted interaction, temporal, or hidden-state terms can be absorbed into fitted first-order parameters whenever they are correlated with the included sufficient statistics. For sparse correlated binary inputs, this absorption has an explicit coskewness form. We introduce diagnostics that separate in-distribution prediction from recovery of the response rule: state reweighting that holds P(y|x) fixed while changing P(x), conditional log-odds contrasts for local additivity, and temporal leakage controls. In ground-truth simulations, purely higher-order responses can pass first-order entropy and raw coactivity tests under leakage-prone sampling, but are correctly classified after reweighting. Applied to selected, leakage-enriched local tables from CA1 hippocampal recordings, approximately half of tables that appear first-order under empirical weights become distribution-sensitive under balanced reweighting, far above a matched additive-surrogate null. Thus direct entropy-explained fractions and raw coactivity predictions should be interpreted as predictions under the observed state distribution, not as evidence that mechanisms outside the direct model are absent or small.",
+  "title_relatable": "Why neural models succeed even when they're secretly wrong",
+  "hook": "Simple models of brain activity can predict accurately while hiding the complex computations actually happening inside neurons.",
+  "summary": "Researchers tested whether successful predictions by simplified neural models—ones that assume inputs act independently—actually reveal how neurons compute. Using maximum-entropy models and hippocampal recordings, they found that these simple models can absorb hidden complexity into their fitted parameters through a phenomenon called feature leakage. A neuron with genuinely nonlinear computations can masquerade as a linear one if you measure it under the right conditions. The distinction matters: prediction accuracy alone doesn't tell you the mechanism.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 764,
+  "tokens_out": 172,
+  "cost_usd": 0.0012992000000000001,
+  "ingested_at": "2026-06-02T12:51:47.672502+00:00"
+}

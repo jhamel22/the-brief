@@ -1,0 +1,23 @@
+{
+  "id": "2606.00667",
+  "arxiv_url": "https://arxiv.org/abs/2606.00667",
+  "announced_date": "2026-05-30",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.LG"
+  ],
+  "title_original": "Cortex and subcortex play distinct roles over learning when cortical memory is limited",
+  "authors": "Matthew Farrell, Taro Toyoizumi",
+  "abstract": "It has been proposed that the brain integrates flexible, computationally expensive cortical processing with simpler, lower-cost subcortical mechanisms to achieve resource-efficient performance greater than that of either system alone. Despite the allure of this perspective, satisfying theoretical frameworks that explore this hypothesis are still limited. We extend existing frameworks in which a model-based module and model-free module learn in tandem by explicitly constraining the memory resources of the model-based module, and investigate the impact of this constraint in a simple decision-making setting. Memory constraints naturally give rise to strategies for allocating memory resources. We evaluate the performance of different strategies in different situations and demonstrate that when the rewarded states change often, it can be advantageous for the model-based module to focus its memory resources not on exploiting the current reward, but on capturing general structure of the environment. This work provides a theoretical foundation for a functional dissociation between cortical and subcortical systems during learning: the cortex supports general structure learning, while subcortical circuits specialize in reward-based learning. We further detail how these hypotheses can be tested on experimental data.",
+  "title_relatable": "Why your brain's thinking system trades flexibility for focus",
+  "hook": "Brain regions optimize by dividing labor: cortex learns the rulebook while primitive circuits chase rewards—a strategy that only works when memory runs low.",
+  "summary": "The brain pairs expensive cortical learning with cheap subcortical reflexes, but what happens when the cortex runs out of storage? Researchers modeled this constraint and found the cortex shifts strategy: instead of tracking current rewards, it captures the environment's underlying structure, leaving reward-chasing to faster, dumber circuits below. This explains why we think deeply about general patterns but react instantly to familiar payoffs.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 638,
+  "tokens_out": 166,
+  "cost_usd": 0.0011744000000000001,
+  "ingested_at": "2026-06-02T12:51:53.577368+00:00"
+}

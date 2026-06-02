@@ -1,0 +1,22 @@
+{
+  "id": "2606.00373",
+  "arxiv_url": "https://arxiv.org/abs/2606.00373",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Sequential chaotic oscillations in excitatory-inhibitory threshold-linear networks",
+  "authors": "Jie Zang, Carina Curto",
+  "abstract": "Metastable states, a phenomenon observed in brain dynamics and many other systems, have been proposed as a key feature of healthy brain function, reflecting a balance between integration and segregation. However, it remains unclear how to capture this behavior within a dynamical-systems framework. In this paper, we propose sequential chaotic oscillations (SCOs), arising in excitatory-inhibitory threshold-linear networks (E-I TLNs), as a candidate dynamical mechanism for sequential metastability. As a simple form of chaotic itinerancy, SCOs occur under constant input and consist of a sequence of metastable states whose transition order can be predicted by the underlying graph. To identify the parameter regime for SCOs, we develop new graph rules for E-I TLNs and use them to characterize the fixed point structure of E-I TLNs on paths and cycles. Our results show that the emergence of SCOs requires unstable singleton fixed points and sufficiently strong inhibition. In addition to SCOs, we find that E-I oscillations need not be synchronized. Motivated by this, we introduce a decomposition into the z-mode and the mean mode, which capture excitatory differences and overall network activity, respectively. These modes are then used to distinguish attractors associated with the full-support fixed point of E-I TLNs on cycles.",
+  "title_relatable": "How brain networks jump between stable states in chaotic patterns",
+  "hook": "Brain dynamics shift between stable states in predictable sequences, even under constant input. A new mathematical model shows how excitatory and inhibitory neurons create this flickering behavior.",
+  "summary": "Brain activity doesn't hold steady—it cycles through distinct patterns like a flickering light. Using networks of excitatory and inhibitory neurons with on-off thresholds, researchers found that chaotic oscillations produce sequential jumps between metastable states in an order predicted by network wiring. This could explain how brains balance focused activity (integration) with flexible switching between tasks (segregation).",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 687,
+  "tokens_out": 170,
+  "cost_usd": 0.0012296,
+  "ingested_at": "2026-06-02T12:51:56.654250+00:00"
+}

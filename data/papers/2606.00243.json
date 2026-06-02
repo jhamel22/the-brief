@@ -1,0 +1,24 @@
+{
+  "id": "2606.00243",
+  "arxiv_url": "https://arxiv.org/abs/2606.00243",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.NE",
+    "q-bio.NC",
+    "stat.ML"
+  ],
+  "title_original": "Dynamics and Representation Structure of Local Approximations to Gradient-Based Learning in Linear Recurrent Neural Networks",
+  "authors": "Ezekiel Williams, Alexandre Payeur, Guillaume Lajoie",
+  "abstract": "Biological and neuromorphic recurrent neural networks (RNNs) are subject to spatial and temporal locality constraints on the information that can plausibly be used during learning. A common strategy to satisfy these constraints is to modify gradient descent by neglecting non-local terms to varying degrees, as in random feedback local online (RFLO) learning and truncated backpropagation through time (tBPTT). However, the learning dynamics of these algorithms, and how they compare with BPTT, remain poorly understood. We apply dynamical systems theory to data-aligned linear RNNs -- whose dynamics can be separated into orthogonal modes -- to compare stationary solutions, stability properties, and convergence rates, finding qualitatively distinct behaviour for RFLO versus BPTT and one-step tBPTT. We further observe that the solutions learned by RFLO are restricted to low-rank perturbations of initial parameters, a result which holds beyond the data-aligned setting. Our work provides analytical insight into how locality constraints shape learning dynamics, with implications for neuroscientific models of learning and alternative optimization approaches for RNNs.",
+  "title_relatable": "Why brain-like learning algorithms converge differently than standard backpropagation",
+  "hook": "Local learning rules that respect biological constraints find fundamentally different solutions than standard training, with lower-rank structure that could explain how brains learn efficiently.",
+  "summary": "When RNNs are trained under biological constraints—using only local information instead of full backpropagation—they reach different solutions that are mathematically simpler (low-rank). Williams, Payeur, and Lajoie analyzed this using dynamical systems theory, showing that locality constraints create qualitatively distinct learning dynamics and convergence rates. This matters because it explains trade-offs between biological plausibility and learning performance.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 655,
+  "tokens_out": 178,
+  "cost_usd": 0.001236,
+  "ingested_at": "2026-06-02T12:52:09.183962+00:00"
+}

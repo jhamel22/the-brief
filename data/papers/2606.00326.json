@@ -1,0 +1,23 @@
+{
+  "id": "2606.00326",
+  "arxiv_url": "https://arxiv.org/abs/2606.00326",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cond-mat.dis-nn"
+  ],
+  "title_original": "On the synaptic matrix eigenvalues of sparsely connected neural networks",
+  "authors": "Mohd. Gayas Ansari, Pragya Shukla",
+  "abstract": "The spectral behaviour of the synaptic matrix, representing the neuronal connection strengths, is an important tool to analyze the stability and transient dynamics of a typical brain as well as its learning process and memory capacity. The complexity of the brain due to large number of neurons as well as underlying transient mechanisms e.g. homeostasis, seizure or synaptic plasticity can lead to networks with time-varying degree and type of sparsity. This renders an exact determination of the synaptic matrix not only technically difficult but also meaningless, leaving its statistical analysis as the best available theoretical approach. This motivates us to pursue a spectral analysis of the synaptic matrix models with different type of sparsity and thereby analyze latter's role on various aspects of network dynamics and stability. Our results have potential relevance for detemining the type of synaptic sparsity required to induce a specific brain function or desired transient mechanism e.g for pharmacological effects or physiological modulators.",
+  "title_relatable": "Why the wiring pattern of brain networks controls their stability",
+  "hook": "Brain networks with sparse, patchy connections behave fundamentally differently from fully wired ones—and the math predicts what types of wiring enable memory, seizures, or learning.",
+  "summary": "The authors analyzed how the mathematical properties of brain connection matrices change depending on which neurons are wired together sparsely versus densely. They found that different sparsity patterns dramatically alter network stability and dynamics. Understanding this matters because it suggests we could predict or manipulate specific brain functions—like triggering learning or preventing seizures—by knowing what type of wiring structure is needed.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 613,
+  "tokens_out": 168,
+  "cost_usd": 0.0011624,
+  "ingested_at": "2026-06-02T12:52:05.965736+00:00"
+}

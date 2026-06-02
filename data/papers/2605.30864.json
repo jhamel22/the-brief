@@ -1,0 +1,23 @@
+{
+  "id": "2605.30864",
+  "arxiv_url": "https://arxiv.org/abs/2605.30864",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.HC",
+    "q-bio.NC"
+  ],
+  "title_original": "What makes an action sequence enjoyable to watch?",
+  "authors": "Jean-Peïc Chou, Kristine Zheng, Junyi Chu, Maneesh Agrawala, Judith E. Fan",
+  "abstract": "People often seek out ways to watch others perform complex action sequences (e.g., sports). What makes some sequences more enjoyable to watch than others? We generated 24 video clips of gameplay from a Flappy Bird-style video game. Clips varied in difficulty (how often players succeeded on average) and in moment-to-moment uncertainty (how likely the player was to crash at any given step). Participants (N=864) rated each video on one of three dimensions: how much they enjoyed it, how difficult the level appeared, or how dangerous the player's trajectory appeared. We found that participants preferred videos where the player seemed to be completing more difficult obstacle courses, but dangerousness did not predict enjoyment ratings. These findings show how procedurally generated stimuli can isolate the factors that affect how enjoyable an action sequence is to watch.",
+  "title_relatable": "Why watching someone barely survive a video game feels thrilling",
+  "hook": "Difficulty—not danger—makes watching others perform action sequences enjoyable. Viewers prefer watching skilled players navigate hard challenges.",
+  "summary": "Researchers showed 864 people videos of Flappy Bird-style gameplay varying in difficulty and moment-to-moment risk, then asked them to rate enjoyment, perceived difficulty, or apparent danger. Enjoyment tracked with how hard the obstacle course was, not how close the player came to crashing. This explains why we love watching skilled athletes tackle tough challenges: our brains reward competence over peril.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 594,
+  "tokens_out": 163,
+  "cost_usd": 0.0011272,
+  "ingested_at": "2026-06-02T12:52:22.636963+00:00"
+}

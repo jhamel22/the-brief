@@ -1,0 +1,22 @@
+{
+  "id": "2606.01841",
+  "arxiv_url": "https://arxiv.org/abs/2606.01841",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "The Neuromorphic Supremacy",
+  "authors": "Yuliya Tsybina, Ivan Y. Tyukin, Alexander N. Gorban, Victor Kazantsev, Dianhui Wang, Susanna Gordleeva",
+  "abstract": "Live neural systems demonstrate remarkable capabilities to learn new behavior and patterns from mere few examples and are known to operate robustly under severe sensory noise. These capabilities, however, remain largely out of reach for modern artificial neural networks, including deep learning models. We show that this gap can be bridged by embedding novel genuine neuromorphic circuits into conventional artificial neural network architectures. These circuits comprise astrocytic modulation and spiking dynamics inherent to biological neural structures. Tested across standard benchmarks representing tasks of varying complexity, the hybrid models achieve high accuracy from few training examples per class and sustain high performance under occlusion and impulse noise that cause performance collapse in standard models without neuromorphic adaptation. We term this phenomenon neuromorphic supremacy - a regime in which architectures grounded in neurobiology decisively outperform classical deep learning, pointing toward a principled foundation for perception in embodied AI systems operating in noisy, data-scarce environments.",
+  "title_relatable": "Why biology-inspired AI learns from almost nothing",
+  "hook": "Adding brain-like circuits to neural networks lets them learn from just a handful of examples and survive noise that destroys standard AI.",
+  "summary": "Researchers embedded two features of real neurons—spiking dynamics and astrocyte modulation—into conventional artificial networks. The hybrid models learned new tasks from few examples and remained accurate when images were corrupted or noisy, whereas standard deep learning collapsed. This suggests biological principles offer a practical blueprint for AI systems that must work in harsh, data-starved conditions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 622,
+  "tokens_out": 151,
+  "cost_usd": 0.0011015999999999999,
+  "ingested_at": "2026-06-02T12:51:44.320264+00:00"
+}

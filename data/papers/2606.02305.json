@@ -1,0 +1,23 @@
+{
+  "id": "2606.02305",
+  "arxiv_url": "https://arxiv.org/abs/2606.02305",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.HC"
+  ],
+  "title_original": "Mapping Whisper Representations to Human ECoG Responses with Interpretable Time-Resolved Neural Encoding",
+  "authors": "Matteo Ciferri, Tommaso Boccato, Michal Olak, Matteo Ferrante, Nicola Toschi",
+  "abstract": "Understanding how speech foundation models relate to human cortical activity is a key challenge for computational neuroscience. Here, we investigate how internal representations from Whisper predict intracranial ECoG responses during naturalistic speech perception. We introduce a time-resolved neural encoder that combines speech embeddings with a recurrent temporal model and soft attention, allowing us to examine layer-wise brain alignment. Intermediate Whisper layers provide the strongest correspondence with neural activity, supporting a hierarchical match between model representations and cortical speech processing. Comparisons with baselines show that high-resolution ECoG responses benefit from temporally structured modelling beyond linear mappings from the same speech representations. In addition, attention maps reveal temporally local alignment between speech embeddings and neural responses, while a phonemic interpretability analysis identifies anatomically coherent phoneme-category organization among encoding-informative electrodes. Together, these results suggest that speech foundation models offer a useful framework for studying time-resolved cortical speech representations.",
+  "title_relatable": "Do AI speech models think like your brain?",
+  "hook": "Whisper's middle layers align surprisingly well with how brains process speech, suggesting AI and human neurons solve speech similarly.",
+  "summary": "Researchers mapped representations from OpenAI's Whisper speech model onto brain activity recorded directly from epilepsy patients' cortices during listening. Middle layers of the AI model predicted neural responses better than shallow or deep layers, mirroring how the brain builds speech understanding hierarchically. Attention patterns revealed the model and brain align on specific sounds at specific moments—a match that could help neuroscientists understand speech processing and improve brain-computer interfaces.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 636,
+  "tokens_out": 168,
+  "cost_usd": 0.0011807999999999999,
+  "ingested_at": "2026-06-02T12:51:36.122518+00:00"
+}

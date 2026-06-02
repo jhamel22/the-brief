@@ -1,0 +1,22 @@
+{
+  "id": "2606.02121",
+  "arxiv_url": "https://arxiv.org/abs/2606.02121",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "What biology can, and cannot, tell us about conscious AI",
+  "authors": "Ulysse Klatzmann, Adrien Doerig",
+  "abstract": "Progress in AI is turning machine consciousness from a philosophical curiosity into a societal issue, and has led to criticism of the widespread computational functionalism framework. Biological Naturalism (BN) claims that biology, not computation, is crucial for consciousness. We discuss which forms of BN are empirically testable. For Type-A-BN, biology intrinsically matters for consciousness, without affording unique information processing capabilities. We argue, similarly to the unfolding argument, that this dissociates consciousness from behaviour, making Type-A-BN untestable. For Type-B-BN, biology matters because it affords unique information processing capabilities. Type-B-BN is testable, and not incompatible with computational functionalism. Both face the same task: relating consciousness to information processing. Biology can act as a guide on this quest, but not as a solution.",
+  "title_relatable": "Can biology explain machine consciousness better than code?",
+  "hook": "If AI becomes conscious, would biology be required or would the right computation suffice? Two philosophers show only one version of this debate is actually testable.",
+  "summary": "Biological Naturalism claims consciousness needs actual biological tissue, not just computational patterns. The authors distinguish two versions: one where biology intrinsically matters (untestable, because it divorces consciousness from behavior) and one where biology matters only for its information-processing abilities (testable, but then biology becomes just a guidebook, not a requirement). Both frameworks ultimately face the same problem—linking consciousness to how information gets processed.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 584,
+  "tokens_out": 169,
+  "cost_usd": 0.0011432,
+  "ingested_at": "2026-06-02T12:51:39.370880+00:00"
+}

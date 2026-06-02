@@ -1,0 +1,22 @@
+{
+  "id": "2605.31473",
+  "arxiv_url": "https://arxiv.org/abs/2605.31473",
+  "announced_date": "2026-05-29",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "The Metastable Mind: Neural Underpinnings of Naturalistic Cognition Through the Synthesis of Event Segmentation and Metastable Neural States",
+  "authors": "Dora Gozukara, Nasir Ahmad, Djamari Oetringer, Linda Geerligs",
+  "abstract": "A multitude of findings and theories from cognitive, behavioural and computational neuroscience show that neural activity unfolds in a variety of meaningful temporal units. Behavioural research on event segmentation (ES) has shown that continuous experience is segmented into discrete events and sub-events, which aid real-time comprehension, memory, and decision-making. Computational neuroscience research observes and models ongoing brain activity as a series of stable population activity that occur across wide spatial and temporal scales, referred to as metastable neural activity (MNA). Through this review, we show that these isolated branches of literature, the cognitive theory of Event Segmentation (ES) and the mechanistic approach of metastability (MNA), actually study the same metastable neural states from different perspectives. While the behavioural branch offers a theory for the cognitive and behavioural utility of segmentation, the metastability literature provides the mechanistic account at the implementational level. We describe how metastable neural states act as the fundamental computational units of cognition and identify a number of core principles of how they operate. One is the spatio-temporally nested hierarchy of states, where longer-duration states in higher-order regions both constrain and are shaped by states in faster-operating regions. Another is that neural states are a reflection of underlying predictive models which shape perception, decision making, memory encoding and recall. And finally that neural states are periods of more modular processing, which are interspersed by boundaries where there is a reconfiguration of connectivity. Understanding how neural states emerge, interact, and shape cognition brings us closer to understanding the brain in its natural mode of operation.",
+  "title_relatable": "Why your brain chops experience into chunks",
+  "hook": "Your brain doesn't process the world as a continuous stream—it breaks it into discrete events. Two separate fields have been studying this same phenomenon without realizing it.",
+  "summary": "Event segmentation research shows humans naturally carve continuous experience into meaningful chunks that improve memory and decision-making. Brain imaging reveals these match measurable \"metastable states\"—periods of stable neural activity that switch abruptly at event boundaries. The two fields are describing the same mechanism from different angles: behavior versus brain mechanics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 784,
+  "tokens_out": 149,
+  "cost_usd": 0.0012232,
+  "ingested_at": "2026-06-02T12:52:16.470700+00:00"
+}

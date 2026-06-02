@@ -1,0 +1,22 @@
+{
+  "id": "2606.02099",
+  "arxiv_url": "https://arxiv.org/abs/2606.02099",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Unveiling the shared grey matter signature between Alzheimer's and Parkinson's Disease",
+  "authors": "Vishaak Gangasandra, Finn Blain, Elise Delzant, Michelle Lupton, Miguel Rentería, Sarah Medland, Baptiste Couvy-duchesne",
+  "abstract": "INTRODUCTION. This study presents the first quantification of vertex-level grey-matter associations between Alzheimer's disease (AD) and Parkinson's disease (PD) using highresolution brain maps aggregated from large MRI datasets. The aim is to identify shared neuroanatomical signatures between the two diseases. METHODS. Leveraging a novel statistical framework (SumR2 regression), adapted from genetic correlation analysis, we estimated the shared neuroanatomical signature (grey-matter correlation: rGM) between AD and PD. RESULTS. A significant positive brain-wide grey-matter correlation (rGM=0.24, 95%CI 0.20-0.28) was observed between AD and PD. This correlation was further observed across disease stages and replicated using UK Biobank data. We located 9 vertex-wise clusters (106 vertices) that contribute to the significant rGM, highlighting reduced thickness in the bilateral putamen and right accumbens as associated with both AD and PD. DISCUSSION. Our findings suggest that shared neuroanatomical features emerge early in neurodegeneration and have implications for early screening, disease monitoring, and targeted interventions. from the Parkinson's Progression Markers Initiative (PPMI) database (www.ppmi-info.org/access-",
+  "title_relatable": "What Alzheimer's and Parkinson's brains have in common",
+  "hook": "Two neurodegenerative diseases thought to be distinct share a striking pattern of brain shrinkage in the same regions, offering clues for early detection.",
+  "summary": "Researchers analyzed MRI scans from thousands of Alzheimer's and Parkinson's patients to find shared brain damage patterns. Both diseases shrink the putamen and accumbens—deep brain structures involved in movement and reward—suggesting a common underlying mechanism. The finding could enable earlier diagnosis and point toward interventions that work against both diseases simultaneously.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 720,
+  "tokens_out": 160,
+  "cost_usd": 0.001216,
+  "ingested_at": "2026-06-02T12:51:41.810533+00:00"
+}

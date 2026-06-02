@@ -1,0 +1,23 @@
+{
+  "id": "2606.02385",
+  "arxiv_url": "https://arxiv.org/abs/2606.02385",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cs.LG"
+  ],
+  "title_original": "How Optimality Structures Sparse Dictionaries: A Theory for Understanding SAE Representations",
+  "authors": "William Dorrell",
+  "abstract": "Sparse Autoencoders (SAEs) have found success parsing neural representations into interpretable concepts, providing a basis for understanding and control. However, what exactly SAEs extract, and, correspondingly, the scientific conclusions we can draw from them, are not obvious. Empirically, the proof is in the pudding: SAEs learn interpretable features. Theoretically, we lack a clear account of what properties a 'concept' must satisfy for an SAE to extract it. There has been extensive identifiability work studying the conditions under which sparse coding recovers ground-truth features; however, these approaches tends to focus on simple data-generating models (e.g. sparse independent features) which poorly approximate the internet-swallowing language-model representations on which SAEs are trained. Here, avoiding data-generating models, we ask simply what properties any dictionary learning optimum must satisfy. Concretely, we extend local optimality analyses (Gribonval & Schnass, 2010) to the nonnegative joint-optimisation problem that vanilla SAEs approximate, and derive constraints relating optimal SAE features to their distributions. We use these constraints to explain a range of observed SAE behaviours - hierarchical splitting & absorption, the structure of residuals, and dense antipodal features - each reflecting how L1+nonnegativity interact with data to structure optimal dictionaries. Finally, we construct a novel large-dictionary convex problem and explore the wide atom-per-datapoint limit. In sum, we hope to tease model assumptions from unexpected observations, letting us learn more from SAEs' successes and provide principles for designing their successors.",
+  "title_relatable": "Why do neural networks learn the features they do?",
+  "hook": "A mathematical framework explains what sparse autoencoders are guaranteed to extract from neural networks—and why they sometimes behave oddly.",
+  "summary": "Sparse autoencoders decompose complex neural representations into interpretable features, but we didn't understand what forces them to pick certain features over others. This work derives mathematical constraints on what any optimal sparse autoencoder must learn, avoiding unrealistic data assumptions. The theory explains three puzzling behaviors: hierarchical feature splitting, residual structure, and surprising antipodal features—revealing how sparsity constraints interact with real data to shape what gets extracted.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 745,
+  "tokens_out": 171,
+  "cost_usd": 0.00128,
+  "ingested_at": "2026-06-02T12:51:33.071023+00:00"
+}

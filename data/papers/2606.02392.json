@@ -1,0 +1,24 @@
+{
+  "id": "2606.02392",
+  "arxiv_url": "https://arxiv.org/abs/2606.02392",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "cs.SI",
+    "cs.LO",
+    "q-bio.NC"
+  ],
+  "title_original": "Topology as Logic: Structural Role Geometry Across Formal, Software, Biological, and Prebiotic Systems",
+  "authors": "Vladi Ivanov",
+  "abstract": "We ask whether dependency topology correlates with functional load-bearing organization as recoverable geometry -- not as a metaphor, but as a measurable structural property detectable by multilayer network analysis. Across seven independent substrates, we show that hub persistence and rank divergence under the Functional Proximity Law recover operational organization that domain experts describe as logic: axiomatic load-bearing structure in formal mathematics, control and contract structure in legacy software, conserved hub grammar across approx. 600 million years of neural evolution, catalytic role organization in a published prebiotic autocatalytic network, carry-path dominance in a 4-bit digital circuit, betweenness persistence in the ISCAS85 c432 standard benchmark (n=196), and a directional formal-systems replication in the Coq Corelib (n=17). A key methodological finding: degree-based hub persistence is weak between physical wiring and simulation state-correlation layers (r=0.21 in c432), while betweenness-based persistence is stronger (r=0.77 in the 4-bit ALU post-hoc; r=0.34 in c432). The ISCAS85 pre-registered primary hypothesis was CONFIRMED (degree r=0.426, p=0.002, Spearman r=0.551). The formal-systems claim is supported by two proof-assistant corpora: Lean 4 mathlib4 (CONFIRMED, r=0.777, p=0.004) and Coq Corelib (PARTIAL, direction confirmed, r=0.288, p=0.287, n=17, underpowered). All seven experiments were pre-registered before analysis.",
+  "title_relatable": "Does network structure reveal hidden logic across brains, circuits, and math?",
+  "hook": "A mathematician finds the same organizational pattern in neural networks, computer chips, software code, and even prebiotic chemistry—suggesting topology itself encodes functional logic.",
+  "summary": "Vladi Ivanov tested whether network hub structure reveals functional organization across seven completely different systems: mathematics proofs, legacy software, animal brains, digital circuits, and prebiotic chemistry. Using betweenness centrality (which ranks nodes by how many paths flow through them), he recovered the logical structure domain experts recognize in each system. The pattern held: what neurons and circuits actually do maps onto how their dependency networks are wired.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 783,
+  "tokens_out": 179,
+  "cost_usd": 0.0013424,
+  "ingested_at": "2026-06-02T12:51:27.215120+00:00"
+}
