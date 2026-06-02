@@ -1,0 +1,24 @@
+{
+  "id": "2606.00657",
+  "arxiv_url": "https://arxiv.org/abs/2606.00657",
+  "announced_date": "2026-05-30",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "cond-mat.stat-mech",
+    "hep-th"
+  ],
+  "title_original": "Supersymmetric quantum criticality with discrete symmetry",
+  "authors": "Teng-Yue Wang, Shuai Yin",
+  "abstract": "Supersymmetry, originally proposed in high-energy physics, can emerge as a remarkable low-energy structure in condensed matter systems. While emergent supersymmetry at quantum critical points is widely discussed in models with continuous symmetries, real materials are constrained by microscopic discrete symmetries. To address this, we investigate (2+1)-dimensional Gross-Neveu-Yukawa theories coupling Dirac fermions to a complex order parameter with discrete $Z_n$ anisotropy. Using the functional renormalization group, we find that for $n>3$, the anisotropic perturbations are irrelevant at the fixed point, yielding a $\\mathcal{N}=2$ Wess-Zumino supersymmetric critical point. In the ordered phase, this dangerously irrelevant anisotropy gives rise to a second characteristic length scale, $ξ'$, alongside the usual correlation length, $ξ$. By tracking mass thresholds along symmetry-broken renormalization group trajectories, we extract the exponents $ν'$ and $ν$ without imposing prior scaling assumptions. For the $Z_4$, $Z_5$, and $Z_6$ models, our results support the scaling relation $ν'/ν= 1+|y_n|/p$ with $p=2$ in the isotropic framework used here.",
+  "title_relatable": "Do materials hide supersymmetry under discrete symmetries?",
+  "hook": "Theoretical physicists find that quantum critical points in real materials can exhibit hidden supersymmetry despite being constrained by discrete symmetries, not continuous ones.",
+  "summary": "Researchers studied quantum critical points where fermions couple to ordered states with discrete symmetries—a setup more realistic for actual materials than the continuous symmetries usually assumed. Using renormalization group methods, they discovered that beyond a certain threshold, the discrete anisotropy becomes irrelevant, unveiling a hidden supersymmetric critical point. This creates two distinct length scales in the ordered phase, leading to a new scaling relation between correlation exponents.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 746,
+  "tokens_out": 177,
+  "cost_usd": 0.0013048000000000003,
+  "ingested_at": "2026-06-02T12:27:26.188917+00:00"
+}

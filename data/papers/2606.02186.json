@@ -1,0 +1,24 @@
+{
+  "id": "2606.02186",
+  "arxiv_url": "https://arxiv.org/abs/2606.02186",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th",
+    "math.DG"
+  ],
+  "title_original": "Higher-Rank Orthogonal Twists, APS Boundary Conditions, and $O(2)$-Equivariant Spectral Flow on a Warped Cylinder",
+  "authors": "Taro Kimura, Sanchita Sharma",
+  "abstract": "We study $O(2)$-equivariant spectral flow for Dirac operators on a finite warped cylinder equipped with fixed admissible regularized APS boundary conditions. The twisting bundle is a real higher-rank orthogonal bundle, and reflection symmetry is implemented by a fiber involution. After complexifying the twisting bundle and diagonalizing the orthogonal twist, the Dirac equation decomposes into a scalar Fourier-mode radial equation, with moving rotating blocks and stationary neutral blocks. After regrouping conjugate and reflection-paired blocks, the crossing contributions define real $RO(O(2))$-classes. Consequently, we obtain an explicit blockwise formula for the $RO(O(2))$-valued spectral flow of the resulting regularized APS family. Under the standard self-adjoint Fredholm, endpoint-invertibility, and regular-crossing hypotheses, together with a fixed neutral-sector convention, this formula is obtained by assembling the local crossing contributions of the separated blocks. It refines ordinary integer-valued spectral flow and shows explicitly how the dimension map $RO(O(2))\\to\\mathbb Z$ loses representation-theoretic information. We also discuss the rank-three case, including the role of the fixed neutral sector, and the corresponding endpoint $η$/APS index interpretation.",
+  "title_relatable": "How do symmetries change spectral flow on curved spaces?",
+  "hook": "Mathematicians track how quantum states shift along a twisted cylinder, revealing which symmetries survive and which information gets lost.",
+  "summary": "On a warped cylinder with reflection symmetry, the authors compute spectral flow—a count of how quantum eigenstates cross zero—using higher-rank twisting bundles. By diagonalizing the twist and separating the resulting equations into blocks, they obtain explicit formulas for real-valued spectral flow that preserves symmetry structure. This refines the usual integer count and exposes what representation theory predicts but standard invariants miss.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 753,
+  "tokens_out": 170,
+  "cost_usd": 0.0012824000000000002,
+  "ingested_at": "2026-06-02T12:27:14.169875+00:00"
+}

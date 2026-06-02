@@ -1,0 +1,22 @@
+{
+  "id": "2606.00236",
+  "arxiv_url": "https://arxiv.org/abs/2606.00236",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Dynamical Sauter-Schwinger pair creation process from Feynman perspective: Comparison of boundary- and initial-value approaches",
+  "authors": "J. Z. Kamiński, A. Bechler, M. M. Majczak, K. Krajewska",
+  "abstract": "We investigate the dynamical Sauter-Schwinger pair creation process from the vacuum by an electromagnetic background field using two alternative approaches. The first one is based on the Feynman interpretation of positrons and the space-time description of Quantum Electrodynamics, which leads to the spin and momentum probability amplitudes expressed as the infinite Born series with respect to the background field. We demonstrate that in order to sum up this series exactly, the problem can be reduced to solving the Dirac equation with uniquely defined Feynman or anti-Feynman boundary conditions. The use of these boundary conditions leads to the results that are equivalent to the scattering matrix theory and consistent with the worldline formalism. Alternative way of investigating the dynamical Sauter-Schwinger process consists in solving the Dirac equation with normalized initial (final) conditions. It is shown that this method follows from the suitably modified Feynman space-time approach, in which the Feynman propagators are replaced by the retarded (advanced) propagators. By doing so it is implicitly assumed that negative energy solutions describe electrons filling the Dirac sea (i.e., representing the Dirac vacuum) and the process of pair creation consists in the excitation of these electrons to the positive energy states. For both the boundary- and initial-value approaches the helicity-entangled momentum distributions are discussed and compared. Predictions of the two approaches are illustrated numerically for the homogeneous electric field pulse and for parameters such that for the spin summed up distributions both methods lead to nearly the same, although not identical, results. It is shown that even in such cases the spin- or helicity-resolved momentum distributions exhibit significant differences.",
+  "title_relatable": "Do electrons tunnel from the vacuum the same way in two formulations of quantum field theory?",
+  "hook": "Physicists compared two mathematical frameworks for predicting when electron-positron pairs materialize from empty space in strong electric fields, finding surprisingly different spin signatures.",
+  "summary": "When a powerful electric field tears electron-positron pairs from the quantum vacuum—a phenomenon called Sauter-Schwinger pair creation—the probability depends on how you set up the calculation. Using Feynman's spacetime picture, researchers solved the governing equation (Dirac equation) two different ways: one treating it as a boundary-value problem, another as an initial-condition problem. Both gave nearly identical total pair production rates but produced starkly different predictions for the spin orientations of the created particles, suggesting the choice of mathematical approach matters more than expected.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 829,
+  "tokens_out": 210,
+  "cost_usd": 0.0015032000000000001,
+  "ingested_at": "2026-06-02T12:27:40.810614+00:00"
+}

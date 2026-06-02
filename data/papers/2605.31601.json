@@ -1,0 +1,25 @@
+{
+  "id": "2605.31601",
+  "arxiv_url": "https://arxiv.org/abs/2605.31601",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "hep-th",
+    "math.CT",
+    "quant-ph"
+  ],
+  "title_original": "Twin Phases: Phase Transitions Without Hidden Symmetry Breaking",
+  "authors": "Alison Warman, Yuhan Gai, Sakura Schafer-Nameki",
+  "abstract": "We introduce the concept of twin phases for a symmetry $\\mathcal{S}$, defined as inequivalent phases, whose order parameters are part of the same generalized charge under $\\mathcal{S}$. Stable, direct transitions between such twin phases are never spontaneous-symmetry-breaking transitions, even after (partially) gauging the initial symmetry $\\mathcal{S}$: they are phase transitions without hidden symmetry breaking. We illustrate this with an (anomalous) finite group symmetry in 1+1d, which exhibits such intrinsically beyond Landau transitions.",
+  "title_relatable": "Can phases shift without any symmetry secretly breaking?",
+  "hook": "Physicists find phases of matter that transform into each other while preserving all symmetries—upending the century-old Landau theory of phase transitions.",
+  "summary": "Phase transitions normally work by breaking symmetry: water freezes when it loses rotational freedom, for instance. This work identifies \"twin phases\"—distinct states whose order parameters belong to the same symmetry charge—that can transform into each other without breaking any symmetry at all, even hidden ones. The finding challenges the foundational Landau framework using finite group symmetries in 1+1 dimensions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 573,
+  "tokens_out": 168,
+  "cost_usd": 0.0011304000000000002,
+  "ingested_at": "2026-06-02T12:27:52.569270+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00536",
+  "arxiv_url": "https://arxiv.org/abs/2606.00536",
+  "announced_date": "2026-05-30",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "The Triple $T\\bar{T}$-Like Flow in Quantum Field Theories: Irrelevant, Marginal, and Relevant",
+  "authors": "H. Babaei-Aghbolagh, Bin Chen, Song He, Jue Hou",
+  "abstract": "We introduce a one-parameter root-$T\\bar T$-like flow, $ \\partial_λ\\mathcal{L}=\\mathcal{R}_λ^{1/α}$, which organizes stress-tensor deformations into irrelevant, marginal, and relevant branches. Within duality-invariant electrodynamics in four dimensions, and equivalently within two-dimensional integrable sigma models, the flow admits a closed-form solution controlled by an auxiliary equation. The marginal point $α=1$ reproduces the root-$T\\bar T$ / ModMax branch, while $α 1$, the same construction yields explicit relevant $T\\bar T$-like Lagrangians. These results suggest that root-$T\\bar T$ flows provide a common organizing principle for duality-invariant and integrable deformations.",
+  "title_relatable": "How stress-energy deformations reshape quantum field theories",
+  "hook": "A unified mathematical framework connects three types of field theory deformations—from trivial to dominant—through a single adjustable flow, with exact solutions in electromagnetism and integrable systems.",
+  "summary": "Researchers found a one-parameter family of stress-tensor deformations that unifies three regimes: irrelevant (vanish at high energy), marginal (no energy scale), and relevant (dominate physics). In four-dimensional electromagnetism and 2D integrable models, they solved the equations exactly, revealing that the marginal case recovers a known symmetry-preserving deformation. The framework suggests a deep organizing principle behind duality-invariant quantum field theories.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 651,
+  "tokens_out": 193,
+  "cost_usd": 0.0012928000000000002,
+  "ingested_at": "2026-06-02T12:27:31.792324+00:00"
+}

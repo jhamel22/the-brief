@@ -1,0 +1,24 @@
+{
+  "id": "2605.31600",
+  "arxiv_url": "https://arxiv.org/abs/2605.31600",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Gravitational Waves from hybrid defects as probe of Flavor symmetry breaking: Machine-Learning Approach",
+  "authors": "Anish Ghoshal, Ilia Gogoladze, Amit Tiwari",
+  "abstract": "We present a novel possibility that a network of domain walls bounded by cosmic strings generates a stochastic gravitational wave background (SWGB) signal originating from the spontaneous breaking of a gauged $U(1)_F$ flavor symmetry and the subsequent breaking of discrete $Z_2$ symmetry that accommodates dark matter. The gravitational wave (GW) spectrum produced by the string-bounded-wall network can be detected for high $U(1)_F$ breaking scales in forthcoming GW detectors including LISA, ET and SKA. The GW signal exhibits a distinctive frequency slope, in the infrared, compared to the standard cosmic-string case, in the frequency range between micro-hertz and hertz. We develop a possible strategy to distinguish and characterize GW spectrum of the hybrid defect from from other defects, such as stable cosmic strings, via employing the exact calculation with a machine-learning surrogate, based on a multilayer perceptron (MLP), trained on spectra obtained from the full numerical treatment. This is then used for rapid inference in the detector-specific signal-to-noise ratio (SNR) computation which also makes the process fast and efficient. We also discuss some possible complementarity between GW searches and Flavor observables in the laboratory.",
+  "title_relatable": "Can gravitational waves reveal hidden flavor symmetries in the universe?",
+  "hook": "Domain walls laced with cosmic strings produce detectable gravitational waves at frequencies LISA and next-generation detectors can measure, with a distinctive fingerprint that machine learning can isolate.",
+  "summary": "When the universe cooled after the Big Bang, certain symmetries broke—like flavor symmetry—leaving behind tangled networks of cosmic strings and domain walls. These networks radiate gravitational waves with a telltale frequency signature different from strings alone. The authors use machine learning to rapidly identify this signal in detector data, enabling searches for evidence of flavor symmetry breaking that lab experiments cannot reach directly.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 724,
+  "tokens_out": 173,
+  "cost_usd": 0.0012712,
+  "ingested_at": "2026-06-02T12:27:55.285683+00:00"
+}

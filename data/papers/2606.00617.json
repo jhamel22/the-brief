@@ -1,0 +1,22 @@
+{
+  "id": "2606.00617",
+  "arxiv_url": "https://arxiv.org/abs/2606.00617",
+  "announced_date": "2026-05-30",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Spacetime torsion signatures in neutrino oscillation physics",
+  "authors": "Capolupo Antonio, Monda Simone, Pisacane Gabriele, Quaranta Aniello, Serao Raoul",
+  "abstract": "We report on recent results concerning neutrino oscillation in the presence of background torsion. In the context of Einstein-Cartan theory, we find new oscillation formulas for constant torsion and linearly time-dependent torsion. The oscillation formulas obtained depend on the orientation of the spin.",
+  "title_relatable": "Can twisted spacetime change how neutrinos oscillate?",
+  "hook": "Neutrino oscillations in Einstein-Cartan theory reveal torsion effects that depend on particle spin, offering a new window into spacetime structure.",
+  "summary": "Neutrinos oscillate between flavors as they travel—a quantum effect already observed. But what if spacetime itself has torsion, a twisting related to particle spin? Using Einstein-Cartan theory, these researchers derived new oscillation formulas for constant and time-varying torsion, showing the effect depends on neutrino spin orientation. This opens a path to test whether spacetime torsion exists via precision neutrino experiments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 517,
+  "tokens_out": 181,
+  "cost_usd": 0.0011376,
+  "ingested_at": "2026-06-02T12:27:28.659786+00:00"
+}

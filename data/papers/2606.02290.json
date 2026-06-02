@@ -1,0 +1,24 @@
+{
+  "id": "2606.02290",
+  "arxiv_url": "https://arxiv.org/abs/2606.02290",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "quant-ph",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Hidden $\\mathfrak{u}(2,1)$ symmetry and Jordan chains in a resonant ghostly three-dimensional model",
+  "authors": "Andreas Fring, Ian Marquette",
+  "abstract": "We investigate a three-dimensional ghostly Hamiltonian realisation of the fully degenerate resonant sixth-order Pais-Uhlenbeck oscillator. On the classical level, the phase-space flow is non-diagonalisable and decomposes into two complex-conjugate Jordan chains of length three, explaining the appearance of oscillatory solutions with secular terms. Upon quantisation, we construct intertwining operators whose quadratic combinations generate a hidden spectrum-generating $\\mathfrak{u}(2,1)$-algebra. The associated descendant spaces are finite-dimensional invariant subspaces carrying non-trivial Jordan structure. Although these spaces admit a natural decomposition into irreducible modules of a distinguished $\\mathfrak{sl}_2$-subalgebra, this decomposition does not in general coincide with the Jordan decomposition of the Hamiltonian. We further derive a tri-Hamiltonian formulation from Lie point symmetries of the classical flow and show that the corresponding Hamiltonians are naturally encoded by the same hidden algebra. Nevertheless, unlike in the non-resonant case, no positive-definite linear combination of them generates the same dynamics. Finally, we analyse the common centraliser of the tri-Hamiltonian family in $U(\\mathfrak u(2,1))$, showing that the natural higher-order candidate $Q$ is reducible and yields no independent classical or quantum integral. The model thus provides a resonant higher-derivative system in which hidden $\\mathfrak{u}(2,1)$ symmetry, classical and quantum Jordan structures, and multi-Hamiltonian geometry coexist.",
+  "title_relatable": "Why does this weird quantum system hide a hidden symmetry despite looking broken?",
+  "hook": "A sixth-order quantum oscillator with apparent structural defects actually harbors a hidden algebraic symmetry—revealing how broken-looking systems can encode deep mathematical order.",
+  "summary": "Researchers studied a degenerate quantum oscillator that classically produces solutions with secular terms (growing oscillations). They discovered the quantum version conceals a hidden u(2,1) algebra that generates finite-dimensional invariant subspaces with Jordan structure—a form of degeneracy that mirrors the classical breakdown. The model reveals how higher-derivative systems can simultaneously exhibit mathematical brokenness and hidden symmetry.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 802,
+  "tokens_out": 175,
+  "cost_usd": 0.0013415999999999999,
+  "ingested_at": "2026-06-02T12:27:05.980184+00:00"
+}

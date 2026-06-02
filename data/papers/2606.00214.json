@@ -1,0 +1,24 @@
+{
+  "id": "2606.00214",
+  "arxiv_url": "https://arxiv.org/abs/2606.00214",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Extracting central charge from ground-state overlaps of spatially deformed Hamiltonians",
+  "authors": "Chen Bai, Xinyu Sun, Liang-Hong Mo, Hong-Hao Tu",
+  "abstract": "We show that the conformal anomaly of a $(1+1)$-dimensional conformal field theory can be extracted directly from a ground-state wave-function overlap associated with a spatial conformal deformation. Focusing on the $q$-Möbius deformation, we derive an exact overlap formula between the deformed and undeformed ground states, whose exponent depends only on the central charge. Motivated by this result, we construct a lattice estimator based solely on ground-state overlaps and apply it to representative critical quantum chains and the gapless edge modes of a two-dimensional Chern insulator. Numerical results demonstrate that the resulting overlaps provide a simple and robust probe of the central charge in microscopic models. We further demonstrate that the deformed ground states retain universal geometric structures in their entanglement spectra and entanglement entropies. These results provide a simple wave-function-based route to probing conformal data in critical systems and topological edge modes.",
+  "title_relatable": "Can ground-state overlaps measure a quantum system's hidden symmetry?",
+  "hook": "Physicists extract a key invariant of quantum criticality from how wave functions overlap under spatial deformation, bypassing conventional spectroscopy.",
+  "summary": "Ground states of quantum systems contain geometric imprints of their symmetries. By comparing wave functions before and after a spatial conformal deformation, researchers show the overlap encodes the central charge—a number that characterizes the quantum criticality of a system. They tested this on quantum spin chains and edge modes of exotic materials, confirming overlaps reliably reveal this hidden symmetry.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 655,
+  "tokens_out": 163,
+  "cost_usd": 0.001176,
+  "ingested_at": "2026-06-02T12:27:43.493914+00:00"
+}

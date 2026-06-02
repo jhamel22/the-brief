@@ -1,0 +1,22 @@
+{
+  "id": "2606.00361",
+  "arxiv_url": "https://arxiv.org/abs/2606.00361",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Casimir effect near spontaneously Lorentz-breaking magnetic vacua in Plebański nonlinear electrodynamics",
+  "authors": "C. A. Escobar, Román Linares, A. Martín-Ruiz",
+  "abstract": "We study the Casimir response of electromagnetic fluctuations near magnetic vacua that spontaneously break Lorentz symmetry in gauge-invariant nonlinear electrodynamics. The theory is formulated in the Plebański first-order representation, with a single-invariant Hamiltonian potential $\\widehat V(P)$ taken as the fundamental nonlinear object. This formulation is particularly useful because the nontrivial vacua are obtained as stationary points of the effective Hamiltonian, rather than as extrema of $\\widehat V(P)$ itself. In the magnetic branch, the symmetry-breaking condition is governed by $S_m(P) \\equiv \\widehat V_P(P)+2P\\widehat V_{PP}(P)$, whose vanishing also signals the degeneracy of the Hamiltonian constraint structure and the loss of rank of the longitudinal magnetic response. We first linearize around a regular purely magnetic background $\\bar P$, with $S_m(\\bar P)\\neq0$, and obtain an ordinary Maxwell-like branch together with an extraordinary anisotropic branch controlled by $α(\\bar P)=\\widehat V_P(\\bar P)/S_m(\\bar P)$. We then compute the regularized parallel-plate Casimir energy for magnetic backgrounds perpendicular and parallel to the plates. As the regular background approaches the exact Lorentz-breaking vacuum $P_\\star$, where $S_m(P_\\star)=0$, the extraordinary branch becomes singular and, in the parallel configuration, the Casimir energy diverges within the regular-sector description. A direct analysis on the degenerate surface shows, however, that the extraordinary branch does not survive as an independent physical propagating mode for generic momenta. The divergence is therefore not a prediction of an infinite vacuum energy at the exact Lorentz-breaking state, but a diagnostic of the noncommutativity between quantizing the regular theory and imposing $S_m(P_\\star)=0$ before quantization.",
+  "title_relatable": "Does breaking Lorentz symmetry change the Casimir force?",
+  "hook": "Physicists calculated how quantum vacuum energy shifts when electromagnetism spontaneously violates relativity's core symmetry, finding unexpected singularities that vanish upon closer inspection.",
+  "summary": "In nonlinear electromagnetism, certain magnetic configurations can spontaneously break Lorentz symmetry—a fundamental pillar of relativity. Using a specialized mathematical framework, the authors computed how this affects the Casimir effect, the quantum force between parallel plates. As the system approaches exact symmetry breaking, one prediction diverges to infinity, but careful analysis shows this is an artifact of the calculation order, not real physics.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 918,
+  "tokens_out": 182,
+  "cost_usd": 0.0014624,
+  "ingested_at": "2026-06-02T12:27:34.466416+00:00"
+}

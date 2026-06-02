@@ -1,0 +1,23 @@
+{
+  "id": "2606.02485",
+  "arxiv_url": "https://arxiv.org/abs/2606.02485",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "On the spanning cuts consistency problem in the IBP reductions of Feynman integrals",
+  "authors": "Zihao Wu, Yingxuan Xu",
+  "abstract": "The spanning cuts method is a powerful approach to reduce the cost of IBP reduction while computing Feynman integrals. However, its usage is limited due to the so-called consistency problem. It was unclear why the IBP reduction coefficients can be inconsistent with each other between different cuts. In this paper, we report a mechanism behind this inconsistency. We found that the IBP relations can be violated under the cuts, if we blindly erase the hidden terms that are proportional to the ``vanishing'' Feynman prescription parameters in the relations. In some cases, the cut introduces pinch singularities, which cancel the vanishing Feynman prescription parameters, making the hidden terms finite. In various cases, the error comes from omitting such finite hidden terms. We also claimed that the pinch singularity under the cuts are related to some hidden relations between the propagators. In this paper, we provide an algorithm and its implementation to find the linear hidden relations.",
+  "title_relatable": "Why do shortcuts in Feynman integral calculations give conflicting answers?",
+  "hook": "A computational trick for speeding up particle physics calculations produces inconsistent results. Physicists have now found why: hidden singularities lurking in the math.",
+  "summary": "Computing Feynman integrals—essential for predicting particle collisions—is expensive. The spanning cuts method cuts corners by discarding terms thought to vanish, but this produces contradictory answers across different calculations. The culprit: certain singularities actually prevent those terms from disappearing, leaving finite errors behind. The authors trace the mechanism and provide an algorithm to detect these hidden traps.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 641,
+  "tokens_out": 173,
+  "cost_usd": 0.0012048000000000002,
+  "ingested_at": "2026-06-02T12:26:47.113306+00:00"
+}

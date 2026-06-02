@@ -1,0 +1,24 @@
+{
+  "id": "2606.02230",
+  "arxiv_url": "https://arxiv.org/abs/2606.02230",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th",
+    "nucl-th"
+  ],
+  "title_original": "Azimuthal decorrelation in diffractive dijet production",
+  "authors": "Ding Yu Shao, Yu Shi, Cheng Zhang, Jian Zhou, Ya-jin Zhou",
+  "abstract": "We calculate the azimuthal angular decorrelation of diffractive dijets in ultra-peripheral heavy-ion, $ep$, and $eA$ collisions to probe non-perturbative diffractive transverse momentum-dependent distributions. Focusing on the dominant semi-inclusive channel with an unobserved semi-hard gluon, we perform an all-order resummation of soft gluon emissions for the transverse energy-energy correlator observable, accounting for both initial and final state radiation. We also analyze heavy-quark pair production and demonstrate the sensitivity of the decorrelation to the jet axis definition. Finally, we provide numerical predictions for relevant kinematics at LHC UPCs, HERA, and the future EIC. Our results demonstrate that the acoplanarity of diffractive dijet production could serve as a promising probe of diffractive transverse momentum-dependent distributions.",
+  "title_relatable": "Do diffractive dijets reveal hidden momentum structure in nuclei?",
+  "hook": "Particle physicists use misaligned jets in heavy-ion collisions to map the fuzzy internal structure of nuclei—a window into forces that standard theory struggles to describe.",
+  "summary": "When photons knock two jets out of atomic nuclei in ultra-peripheral collisions, the jets rarely point directly away from each other. By measuring this acoplanarity at the LHC and future electron-ion collider, researchers can extract properties of diffractive partons—the constituent particles that don't interact normally. The calculation accounts for quantum corrections across all energy scales, making predictions testable at existing experiments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 638,
+  "tokens_out": 179,
+  "cost_usd": 0.0012264,
+  "ingested_at": "2026-06-02T12:27:08.883644+00:00"
+}

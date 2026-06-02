@@ -1,0 +1,24 @@
+{
+  "id": "2606.02039",
+  "arxiv_url": "https://arxiv.org/abs/2606.02039",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "hep-th"
+  ],
+  "title_original": "Tachyonic particle production: quantum 2PI formalism with momentum exchanging collisions",
+  "authors": "Kimmo Kainulainen, Sami Nurmi, Olli Väisänen",
+  "abstract": "Oscillating spacetime curvature can drive particle production during reheating, whose accurate modeling requires the use of non-perturbative out-of-equilibrium methods. Tachyonic instabilities have previously been studied using 2-Particle Irreducible (2PI) formalism in the Hartree approximation, which however misses important momentum exchanging interactions. We present a self-consistent approximation scheme for reducing the non-local next-to-leading order 2PI equations of motion to local quantum kinetic equations, which can be solved with standard methods. We pay special attention to interactions involving unstable modes during tachyonic instabilities.",
+  "title_relatable": "How do quantum collisions reshape particle creation after the Big Bang?",
+  "hook": "New mathematical framework captures momentum-swapping collisions during reheating, improving predictions for how the early universe recovered from inflation.",
+  "summary": "After inflation ends, rippling spacetime geometry can create particles—but existing calculations miss crucial collision effects. This work develops a method to include momentum-exchanging interactions in tachyonic instabilities, translating unwieldy quantum equations into solvable kinetic theory. The result should refine reheating dynamics in the early universe.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 588,
+  "tokens_out": 150,
+  "cost_usd": 0.0010704,
+  "ingested_at": "2026-06-02T12:27:20.784865+00:00"
+}

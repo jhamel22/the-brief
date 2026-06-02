@@ -1,0 +1,25 @@
+{
+  "id": "2606.00237",
+  "arxiv_url": "https://arxiv.org/abs/2606.00237",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-ph",
+    "hep-th",
+    "physics.atom-ph",
+    "quant-ph"
+  ],
+  "title_original": "Matter-Wave Interferometers as Open-System Dark Matter Detectors",
+  "authors": "Leonardo Badurina, Kathryn M. Zurek",
+  "abstract": "Matter-wave interferometers (MWIs) offer a uniquely quantum route to dark matter (DM) detection: DM can reveal itself through phase and decoherence between spatially separated wavepackets, even when negligible energy deposition or resolvable recoil occurs. We formulate these effects in an open effective field theory for MWIs using the Schwinger-Keldysh formalism, which highlights a structural asymmetry between the two detection channels. For elastic spin-independent DM scattering, decoherence inherits novel Bose enhancement or Pauli blocking factors, while the phase is at most linear in the DM occupation number. By retaining the DM's coherence time, this framework spans Markovian and non-Markovian dynamics across a wide range of DM masses, and systematically organizes corrections beyond the heavy-probe limit.",
+  "title_relatable": "Can atom interferometers detect dark matter through quantum decoherence?",
+  "hook": "Quantum interference experiments could spot dark matter even when it deposits undetectable energy, using decoherence as a new detection signal.",
+  "summary": "Matter-wave interferometers—devices that split atoms into two paths and recombine them—can sense dark matter through quantum decoherence effects rather than just energy kicks. The researchers show that decoherence signals get quantum boosts (Bose enhancement or Pauli blocking) depending on the dark matter type, while phase shifts remain linear. This framework handles dark matter masses from light to heavy and captures quantum effects experiments actually experience.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 628,
+  "tokens_out": 176,
+  "cost_usd": 0.0012064,
+  "ingested_at": "2026-06-02T12:27:37.013092+00:00"
+}

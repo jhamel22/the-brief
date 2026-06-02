@@ -1,0 +1,25 @@
+{
+  "id": "2606.02155",
+  "arxiv_url": "https://arxiv.org/abs/2606.02155",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall",
+    "cond-mat.str-el",
+    "hep-th"
+  ],
+  "title_original": "Information Hierarchy in Many-Body Berry Phase",
+  "authors": "Kai Watanabe",
+  "abstract": "Many-body topology is a central concept in modern theories of solids, and identifying effective degrees of freedom that capture it is important both fundamentally and practically. This work studies the extent to which geometric information of an interacting many-body ground state can be inferred from a finite number of local correlations. Starting from the Resta formula, $ z=\\left\\langle \\exp\\!\\left(\\frac{2πi}{L}\\hat X\\right)\\right\\rangle$, we view $\\log z$ as the cumulant generating function and establish a generic information hierarchy across cumulant orders. We show that, for an $N$-particle system, even complete knowledge of all density correlators up to order $N-1$ does not, in general, uniquely determine the Berry phase $γ=\\operatorname{Im}\\log z \\, (\\mathrm{mod}\\ 2π)$. In the thermodynamic limit, the statement becomes stronger: no finite set of local correlators suffices to determine the global holonomy. We also identify two exceptional yes-go cases in which the hierarchy is broken. First, for quasi-free models, all cumulants are determined by the particle two-point correlation function. Second, symmetry-enforced constraints can reduce the infinite cumulant sum entering $\\log z$ to finite information. The argument is analytic and does not rely on a specific microscopic Hamiltonian. Our results clarify a limitation of approaches based on local degrees of freedom for many-body holonomy and provide a minimal framework for distinguishing when global holonomies are encoded in local correlations and when they are not. We also comment on the possibility of analogous hierarchies in other contexts, such as the quantum marginal problem in quantum information theory and many-body scattering problems. Finally, we discuss implications for future numerical work, including machine-learning approaches to the search for topological phases.",
+  "title_relatable": "Can local measurements reveal a quantum material's global topology?",
+  "hook": "Researchers prove that measuring correlations between nearby particles often cannot determine a material's topological properties—even with complete local data.",
+  "summary": "In topological quantum materials, a global property called Berry phase encodes essential information about the ground state. Using cumulant analysis, this work shows that knowing all correlations between particles up to order N−1 generically fails to determine the Berry phase in an N-particle system. In the thermodynamic limit, no finite set of local measurements suffices. Exceptions exist: free-electron systems and symmetry-constrained materials can reveal topology locally, but most interacting systems cannot.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 834,
+  "tokens_out": 180,
+  "cost_usd": 0.0013872,
+  "ingested_at": "2026-06-02T12:27:18.182835+00:00"
+}

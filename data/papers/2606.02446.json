@@ -1,0 +1,25 @@
+{
+  "id": "2606.02446",
+  "arxiv_url": "https://arxiv.org/abs/2606.02446",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.stat-mech",
+    "hep-ph",
+    "nucl-th"
+  ],
+  "title_original": "Cumulant dynamics in finite-memory diffusion",
+  "authors": "Navid Abbasi, Xin An, Shanjin Wu",
+  "abstract": "Fluctuations of conserved charges are among the main proposed signatures of the quantum chromodynamics (QCD) critical point, but their interpretation requires a dynamical description of how fluctuation correlators evolve during the finite lifetime of the quark--gluon plasma (QGP) fireball. The standard baseline for this evolution is Fickian diffusion, in which the diffusive current follows the local density gradient instantaneously. This instantaneous-current limit can miss delayed-response effects when the current-relaxation time becomes comparable to the relaxation time of the relevant fluctuation modes. In this work we extend this baseline to Maxwell--Cattaneo diffusion, where the current relaxes on a finite time scale and therefore retains memory. We derive closed evolution equations for multi-point Wigner functions and convert the freezeout correlators into acceptance-dependent cumulants along representative trajectories in the QCD phase diagram. While Fickian diffusion already causes the correlators to lag behind their instantaneous equilibrium values, finite current relaxation introduces an additional memory effect beyond this diffusive lag. As a result, current memory can suppress, shift, and reshape the non-monotonic behavior of the cumulants relative to both instantaneous equilibrium and Fickian diffusion, with the most visible effects appearing in higher-order cumulants and their ratios.",
+  "title_relatable": "How does delayed current response shape particle fluctuations in extreme matter?",
+  "hook": "Physicists testing memory effects in quark-gluon plasma reveal that finite relaxation times significantly reshape signatures of the QCD critical point.",
+  "summary": "During the quark-gluon plasma's brief existence after a heavy-ion collision, fluctuations in conserved charges encode clues about the QCD critical point. The standard model assumes diffusive currents respond instantaneously to density gradients, but the team shows that when current relaxation takes finite time—like overdamped springs with history—it introduces additional memory effects. These suppress and reshape the non-monotonic patterns in higher-order cumulants that experiments measure, potentially changing how we interpret critical-point signatures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 721,
+  "tokens_out": 196,
+  "cost_usd": 0.0013608000000000001,
+  "ingested_at": "2026-06-02T12:26:50.035430+00:00"
+}

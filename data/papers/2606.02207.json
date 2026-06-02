@@ -1,0 +1,24 @@
+{
+  "id": "2606.02207",
+  "arxiv_url": "https://arxiv.org/abs/2606.02207",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.dis-nn",
+    "hep-th"
+  ],
+  "title_original": "Information scrambling in all-to-all interacting models",
+  "authors": "Abhik Kumar Saha, Tanay Pathak, Masaki Tezuka",
+  "abstract": "Information scrambling is a hallmark of quantum chaos and thermalization in isolated quantum many-body systems. We investigate scrambling dynamics in the all-to-all interacting spin Sachdev-Ye-Kitaev (SYK)-$q$ model using both pure- and mixed-state entanglement measures. We show that von-Neumann and Rényi entropies exhibit rapid growth followed by saturation near Haar-random values, signaling efficient scrambling. The scrambling rate reveals a nontrivial dependence on the interaction order, system size, and Hamiltonian scaling. We further employ mixed-state entanglement as a powerful probe of information scrambling. We numerically find a universal relation between the Rényi-1/2 mutual information and entanglement negativity for minimal interaction order in the early growth regime. Furthermore, entanglement negativity displays a Page-curve-like behavior under unequal subsystem partitioning, characterized by the birth, spread, and eventual death of quantum correlations. Our results provide a generic description of information scrambling using entanglement dynamics in all-to-all interacting spin systems with multi-body interactions.",
+  "title_relatable": "How quantum information gets scrambled in fully connected spin systems",
+  "hook": "Quantum chaos leaves fingerprints in entanglement patterns. Study tracks how information vanishes into randomness across all-to-all interacting spins.",
+  "summary": "Researchers tracked how quantum information scrambles in the SYK model, where every particle interacts with every other. Entanglement measures revealed a universal pattern: information grows rapidly then saturates to maximum randomness, with the rate depending on interaction strength and system size. Mixed-state correlations display a Page-curve signature—information born at one edge, spreads, then dies—suggesting scrambling follows predictable physical rules.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 692,
+  "tokens_out": 174,
+  "cost_usd": 0.0012496,
+  "ingested_at": "2026-06-02T12:27:11.815540+00:00"
+}

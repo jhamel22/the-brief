@@ -1,0 +1,24 @@
+{
+  "id": "2606.02421",
+  "arxiv_url": "https://arxiv.org/abs/2606.02421",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "quant-ph",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Dynamics of the Density Cube",
+  "authors": "Nabin Bhatta, Djordje Minic, Tatsu Takeuchi",
+  "abstract": "Density cube theory extends the canonical quantum density matrix $ρ_{ij}$ with the addition of an extra index to $ρ_{ijk}$. The elements of the density cube with two different indices, $ρ_{iij}$ and $ρ_{ijj}$, correspond to the real and imaginary parts of the off-diagonal element $ρ_{ij}$ of the density matrix and describe double-path interference, while those with three different indices describe non-canonical triple-path interference. In this letter, we propose an equation of motion for the density cube, obtained from the quantization of ternary Nambu dynamics, and find that pairs of triple-path interferences oscillate into each other.",
+  "title_relatable": "Can quantum interference happen three ways at once?",
+  "hook": "Physicists extend quantum density matrices to a cubic structure, revealing a new type of interference where three quantum paths oscillate together—unlike the familiar double-slit experiment.",
+  "summary": "Standard quantum mechanics describes systems using density matrices tracking two-way interference. This work proposes a cubic extension that adds three-way interference pathways, derived from Nambu dynamics. The key finding: pairs of triple-path interference patterns oscillate into one another, suggesting a richer quantum interference landscape beyond conventional theory.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 592,
+  "tokens_out": 150,
+  "cost_usd": 0.0010735999999999999,
+  "ingested_at": "2026-06-02T12:26:55.763254+00:00"
+}

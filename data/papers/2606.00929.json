@@ -1,0 +1,22 @@
+{
+  "id": "2606.00929",
+  "arxiv_url": "https://arxiv.org/abs/2606.00929",
+  "announced_date": "2026-05-30",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Gauge Theory of Gravity and the AdS/CFT Correspondence",
+  "authors": "Takeshi Fukuyama",
+  "abstract": "We discuss the AdS/CFT correspondence from the viewpoint of the gauge-theoretic formulation of gravity, in which gravity is interpreted as a broken phase of conformal gauge symmetry. In the AdS$_2$/CFT$_1$ case, we show that the Schwarzian derivative naturally emerges from the boundary extrinsic curvature of AdS$_2$ geometry. The relation between the bulk Liouville geometry and the boundary projective structure is clarified. We further discuss the distinction between the bulk conformal gauge algebra with vanishing central extension and the emergent boundary Virasoro structure with nonvanishing central charge. We then investigate the possible structure of the AdS$_4$/CFT$_3$ correspondence, which is directly related to the original four-dimensional formulation of gravity as a broken phase of conformal gauge symmetry. In this framework, the Einstein--Hilbert action with cosmological constant emerges together with a total derivative term. We argue that this structure induces the boundary gravitational Chern--Simons term, whose variation leads naturally to the Cotton tensor. The Cotton tensor is interpreted as the fundamental conformal invariant associated with the residual boundary conformal geometry, playing a role analogous to that of the Schwarzian derivative in AdS$_2$/CFT$_1$. We also discuss the qualitative difference between AdS$_4$/CFT$_3$ and AdS$_5$/CFT$_4$. While the former appears naturally connected with gravity arising from conformal symmetry breaking, the latter may require genuinely higher-dimensional, string-inspired structures beyond the four-dimensional conformal gauge framework. These observations suggest a unified geometrical interpretation of holography in terms of boundary remnants of broken conformal gauge symmetry.",
+  "title_relatable": "Does gravity hide a broken gauge symmetry inside spacetime?",
+  "hook": "Physicists reframe gravity as a shattered version of conformal symmetry, predicting how bulk geometry talks to boundary quantum fields across different dimensions.",
+  "summary": "Gravity emerges from broken conformal gauge symmetry in this framework. The authors trace how bulk spacetime geometry translates into boundary structures—Schwarzian derivatives in AdS₂, Cotton tensors in AdS₄—showing these invariants are geometric leftovers of symmetry breaking. The correspondence works differently in lower versus higher dimensions, suggesting a unified picture of holography as boundary remnants of broken symmetry.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 811,
+  "tokens_out": 172,
+  "cost_usd": 0.0013368000000000002,
+  "ingested_at": "2026-06-02T12:27:23.208695+00:00"
+}

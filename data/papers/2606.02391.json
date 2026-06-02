@@ -1,0 +1,24 @@
+{
+  "id": "2606.02391",
+  "arxiv_url": "https://arxiv.org/abs/2606.02391",
+  "announced_date": "2026-06-01",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el"
+  ],
+  "title_original": "Boulder Lectures on Thermal Dynamics and Hydrodynamic EFTs",
+  "authors": "Luca V. Delacretaz",
+  "abstract": "Fluctuating hydrodynamics emerges in essentially any local many-body system at nonzero temperature. Effective field theory (EFT) approaches enable the quantitative study of this emergence, providing a controlled framework to capture late-time observables. These lectures introduce the organizing principles behind equilibrium and out-of-equilibrium dynamics in these thermalizing systems. A central focus is the modern construction of these EFTs, which frames fluctuating hydrodynamics through the lens of \"strong-to-weak\" spontaneous symmetry breaking. Drawing examples from both high-energy and condensed matter physics, we show how this paradigm adapts to systems ranging from spin chains to relativistic quantum field theories, including models with generalized symmetries or symmetries with 't Hooft anomalies. Finally, we discuss UV/IR constraints on transport parameters -- viewed as the Wilson coefficients of hydrodynamic EFTs -- both in continuum and on the lattice.",
+  "title_relatable": "How do particle systems heat up? A physics framework for universal thermal behavior",
+  "hook": "Any hot system flows toward simple hydrodynamic equations. New EFT methods now expose why, and predict transport properties without simulating microscopic details.",
+  "summary": "When any collection of particles thermalizes, complex microscopic dynamics collapse into universal hydrodynamic laws—analogous to how air pressure emerges from trillions of molecular collisions. These lectures develop effective field theory (EFT) tools to calculate this emergence quantitatively, treating hydrodynamic equations themselves as weakly-coupled effective theories. The framework unifies examples from quantum spin chains to relativistic plasmas, and reveals constraints on transport coefficients (like viscosity) from fundamental symmetries and quantum anomalies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 637,
+  "tokens_out": 198,
+  "cost_usd": 0.0013016,
+  "ingested_at": "2026-06-02T12:26:58.960591+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2605.31602",
+  "arxiv_url": "https://arxiv.org/abs/2605.31602",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "hep-th",
+    "math.QA"
+  ],
+  "title_original": "Twin Algebras: Condensable Algebras beyond Anyons",
+  "authors": "Yuhan Gai, Sakura Schafer-Nameki, Alison Warman",
+  "abstract": "Condensable algebras in 2+1d non-chiral topological orders characterize gapped boundary conditions and interfaces. Applied to the Symmetry Topological Field Theory, they allow classification of symmetric gapped phases and impose sharp constraints on possible phase transitions. A condensable algebra is specified not only by its underlying set of anyons, which end on the boundary or interface, but also by its algebra structure. We introduce the concept of twin condensable algebras, which have the same anyon decomposition, but inequivalent algebra structure. We revisit the classification of condensable algebras in $\\mathcal{Z}(\\text{Vec}_G^ω)$, i.e. in group-theoretical topological orders for finite groups $G$ with anomaly $ω$. In this context we are able to identify twin algebras that arise from different mechanisms, such as subgroup data, SPT cocycles, and symmetry actions. In particular, we construct infinite families of examples of twins from so-called Gassmann triples, and exhibit cases in which the reduced topological orders are inequivalent despite having identical anyon content. Physically, twin algebras describe distinct symmetric phases that have isomorphic spaces of ground states, but inequivalent order parameters. Such twin phases never exhibit relative spontaneous symmetry breaking, and can be used to construct phase transitions without hidden symmetry breaking, which are intrinsically beyond Landau transitions.",
+  "title_relatable": "Two quantum phases with identical particles but fundamentally different physics?",
+  "hook": "Physicists discovered that topological phases can look identical in particle content yet represent genuinely distinct states—opening a path to phase transitions that break no symmetries.",
+  "summary": "In 2+1-dimensional topological materials, the rules governing how particles combine (algebra structure) can differ even when the particles themselves are identical. Researchers identified \"twin\" phases that share the same anyon spectrum but have inequivalent internal structure—arising from subgroups, quantum cocycles, and symmetry actions. These twins can transition between states without any hidden symmetry breaking, revealing physics beyond the classical Landau framework.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 750,
+  "tokens_out": 177,
+  "cost_usd": 0.001308,
+  "ingested_at": "2026-06-02T12:27:49.834868+00:00"
+}

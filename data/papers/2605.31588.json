@@ -1,0 +1,25 @@
+{
+  "id": "2605.31588",
+  "arxiv_url": "https://arxiv.org/abs/2605.31588",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "math-ph",
+    "math.GT",
+    "math.QA"
+  ],
+  "title_original": "Two roles of Alexander in two Kashaev phases",
+  "authors": "Dmitry Galakhov, Alexei Morozov",
+  "abstract": "The crucial feature of resurgence theory is the ambiguity of non-perturbative behavior, reflected either in the different choices of integration contours or in the existence of several solutions to Ward identities. This is well illustrated by considering exactly solvable models, of which the prominent example is Chern-Simons theory. Its important chapter, which should have a direct generalization to arbitrary Yang-Mills, is the consideration of Wilson averages in the double-scaling limit of large representation and small coupling. For historical reasons, we call it a Kashaev limit. It possesses a natural interpretation in terms of quasiclassical/WKB approximation, which is, however, somewhat peculiar and thus sheds new light on the old story. The crucial point is the appearance of Alexander polynomials $Δ$ in two seemingly opposite roles: the classical $A$-polynomials have common roots with $Δ$, while Jones polynomials tend to $Δ^{-1}$ in the perturbative expansion. The consistency is provided by the peculiar form of the quantum $A$-polynomial, and the resolution of the puzzle is the co-existence of two different branches (phases) in the quasiclassical limit -- with non-trivial and with vanishing classical actions. The first leads to classical $A$-polynomials and hyperbolic volumes, the second -- to inverse Alexanders.",
+  "title_relatable": "Why does the same polynomial appear twice in opposite roles?",
+  "hook": "In Chern-Simons theory's special limit, Alexander polynomials emerge both as classical invariants and as inverses—two phases coexist in the quantum WKB approximation.",
+  "summary": "Chern-Simons theory exhibits a curious duality in its large-representation, weak-coupling limit (Kashaev phase): the same Alexander polynomial appears both in classical A-polynomials and as the inverse of Jones polynomials in perturbative expansions. The resolution involves two distinct WKB branches with opposite action values—one producing hyperbolic volumes, the other yielding inverse Alexanders. This reveals how resurgence theory resolves apparent contradictions in non-perturbative behavior.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 739,
+  "tokens_out": 203,
+  "cost_usd": 0.0014032,
+  "ingested_at": "2026-06-02T12:27:57.916799+00:00"
+}

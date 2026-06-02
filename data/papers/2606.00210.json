@@ -1,0 +1,22 @@
+{
+  "id": "2606.00210",
+  "arxiv_url": "https://arxiv.org/abs/2606.00210",
+  "announced_date": "2026-05-29",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Constraints on four-party entanglement in holography",
+  "authors": "Vijay Balasubramanian, William K. L. Chan, Monica Jinwoo Kang, Chitraang Murdia, Simon F. Ross",
+  "abstract": "We show that in pure time-reflection-symmetric holographic states all known four-party entanglement signals vanish unless the triple information $I_3$ is non-zero. In this sense, our results show that $I_3$ is the strongest known signal of the presence of quadripartite entanglement. Additionally, $I_3$ quantitatively bounds all four-party entanglement signals built from the multi-entropy. However, the residual entropy $Q_4$, also a measure of four-party entanglement, is not bounded by $I_3$, although $I_3=0$ does imply $Q_4=0$ for holographic states (except on a set of measure zero for which $Q_4$ is ill-defined).",
+  "title_relatable": "What entangles four quantum systems in holographic universes?",
+  "hook": "In holographic spacetimes with time symmetry, a single quantum measure—triple information—controls whether four particles can be fundamentally entangled together.",
+  "summary": "In holographic states (quantum systems dual to gravity), four-party entanglement signals fail unless triple information is nonzero. The authors show triple information bounds all multi-entropy entanglement measures, making it the strongest known probe of four-particle quantum correlations. One alternative measure, residual entropy, escapes this bound but vanishes whenever triple information does.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 620,
+  "tokens_out": 162,
+  "cost_usd": 0.001144,
+  "ingested_at": "2026-06-02T12:27:46.129054+00:00"
+}
