@@ -1,0 +1,24 @@
+{
+  "id": "2606.00311",
+  "arxiv_url": "https://arxiv.org/abs/2606.00311",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Spectral Density of the Causal Propagator",
+  "authors": "Joshua Y. L. Jones, Yasaman K. Yazdi",
+  "abstract": "The causal propagator (or Pauli-Jordan function), which multiplied by $i$ is the spacetime commutator of the field $[φ(x),φ(x')]$, plays an essential role in scalar quantum field theory. We discuss the role of the causal propagator and its spectrum in recent developments in defining quantum field theory in a more explicitly covariant manner, as well as in causal set theory. We then present a conjecture for its asymptotic spectral density in a free theory, and give examples that lend evidence to the conjectured scaling. Our work has implications for Lorentzian spectral geometry in much the same way as Weyl's asymptotic law has for Riemannian spectral geometry.",
+  "title_relatable": "Does quantum field theory have a hidden spectral fingerprint?",
+  "hook": "A conjectured law for quantum field commutators mirrors Weyl's classic geometry theorem — but for spacetime itself.",
+  "summary": "The causal propagator encodes how quantum fields communicate across spacetime — it's the mathematical heartbeat of causality in quantum field theory. By studying its eigenvalue spectrum, the authors conjecture an asymptotic scaling law analogous to Weyl's famous result linking a drum's overtones to its shape, but now for Lorentzian (relativistic) spacetimes. If confirmed, this would give a spectral toolkit for reading off spacetime geometry from quantum field data alone.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 595,
+  "tokens_out": 177,
+  "cost_usd": 0.00444,
+  "ingested_at": "2026-06-02T12:25:05.278916+00:00"
+}

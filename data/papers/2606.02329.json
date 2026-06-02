@@ -1,0 +1,23 @@
+{
+  "id": "2606.02329",
+  "arxiv_url": "https://arxiv.org/abs/2606.02329",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Equivalence Principle violation in metric-affine gravity and finite-temperature effects",
+  "authors": "Emmanuele Battista, Roberto Campagnola, Salvatore Capozziello, Giuseppe Fiorillo",
+  "abstract": "Possible violations of the equivalence principle are investigated within the framework of metric-affine gravity and their connection to finite-temperature effects are highlighted. Thermal corrections to particle dynamics, originally derived in a quantum-field-theory setting, can be evaluated in a purely Riemannian framework and lead to a shift in the gravitational-to-inertial mass ratio. We show that the ensuing departure from universality of free fall can be also formulated in metric-affine gravity, where the presence of the non-metricity tensor modifies the Newtonian law in a way that closely parallels the finite-temperature scenario. Furthermore, we introduce a generalized Fermi-Walker derivative adapted to non-Riemannian contexts, which naturally reveals that no orthonormal tetrad can be propagated along an observer worldline. Although metric-affine gravity admits a pointwise realization of the Einstein equivalence principle in its gauge-theoretic, elementary-matter form, the new operator offers a direct geometric signature that this principle, in its modern formulation, is not retained in general. Potential tests of the analyzed effects are also discussed.",
+  "title_relatable": "Could geometry itself break the equivalence principle?",
+  "hook": "A modified gravity theory predicts free-falling objects accelerate differently — mirroring effects normally tied to quantum heat baths.",
+  "summary": "Einstein's equivalence principle — the bedrock idea that all objects fall identically — may break down in metric-affine gravity, where spacetime geometry carries extra structure beyond curvature. The authors show this geometric violation produces a shift in the ratio of gravitational to inertial mass that mathematically mirrors thermal corrections from quantum field theory at finite temperature. A new geometric tool they introduce reveals that no standard reference frame can even be consistently carried along an observer's path in such spacetimes — making the violation detectable in principle.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 691,
+  "tokens_out": 180,
+  "cost_usd": 0.004773,
+  "ingested_at": "2026-06-02T12:23:19.796087+00:00"
+}

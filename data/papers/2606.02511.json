@@ -1,0 +1,25 @@
+{
+  "id": "2606.02511",
+  "arxiv_url": "https://arxiv.org/abs/2606.02511",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE",
+    "astro-ph.SR",
+    "hep-ph"
+  ],
+  "title_original": "Dyonic Quark Stars in Quasi-Topological Electromagnetism",
+  "authors": "Michael Gammon, Nicola De Kock, Robert B. Mann, Amos Kubeka",
+  "abstract": "In this paper we consider quark star solutions to Liu et al.'s \\cite{Liu_2019} quasi-topological electromagnetism (QTEM), a recently proposed form of dark energy. Since the QTEM contribution is trivial for pure electric/magnetic charge, we consider the dyonic case in pure QTEM which does induce (dark) non-trivial dynamics from the non-linear theory. Besides the introduction of a dyonic charge distribution generally pushing the characteristic quark star `hook' shape to larger masses and radii, it also induces a second branch at very large mass and radius for stars with a small dyonic charge ratio. This second set of solutions have a negative pressure envelope surrounding a positive pressure core. As we explore the parameter space these features interact and evolve in interesting ways, with the two branches eventually merging in $M/R$ space before settling into a characteristic `paperclip' shape as the dyonic charge ratio becomes large.",
+  "title_relatable": "What happens when quark stars carry both electric and magnetic charge?",
+  "hook": "Adding 'dyonic' charge to quark stars creates a mysterious second branch of stellar solutions with negative-pressure shells.",
+  "summary": "Quark stars — hypothetical dense objects made of free quarks — normally trace a characteristic hook shape in mass-radius diagrams. Giving them both electric and magnetic charge (dyonic) within a dark energy framework called quasi-topological electromagnetism births an entirely new second family of solutions: stars with a positive-pressure core wrapped in a negative-pressure envelope. As the charge ratio changes, the two branches merge and deform into a 'paperclip' shape, suggesting exotic stellar configurations that could, in principle, carry observable signatures.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 649,
+  "tokens_out": 188,
+  "cost_usd": 0.004767,
+  "ingested_at": "2026-06-02T12:22:58.310070+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.00456",
+  "arxiv_url": "https://arxiv.org/abs/2606.00456",
+  "announced_date": "2026-05-30",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "A perturbative geometric approach for photon spheres, massive particle surfaces and black hole shadows with mass variations",
+  "authors": "Oscar Lasso Andino, Fernando G. Veloz",
+  "abstract": "The spacetime behavior at very extreme conditions, such as the regions near a black hole, can be very difficult to modelize. In this work we introduce a new geometric method that allows to calculate the parameters of photon spheres, massive particle surfaces and shadow radius of black holes. We build upon a perturvative approach but bases in intrinsic curvatures, such as the geodesic and Gaussian curvatures. At leading order, the method allows to find the radius of the perturbation in the time-like case, which has not been studied in the literature. In the null case we are able to recover the results found by the perturvative method only. We also study the mass variations and how they influence the photon sphere radius and the massive particle surface radius, leading to a new and powerful result, that could provide new different research directions. The approach presented here will provide a set of tools that will help to modelize gravity near extremely massive objects and help to improve the theoretical estimations of parameters than can be tested in the next generation experiments.",
+  "title_relatable": "A new geometric shortcut to calculating black hole shadow sizes",
+  "hook": "Using intrinsic curvature geometry, a new method predicts black hole shadow radii and how they shift as black holes gain or lose mass.",
+  "summary": "A geometric framework built on geodesic and Gaussian curvature offers a fresh way to compute the radii of photon spheres, massive-particle orbits, and shadow sizes around black holes. Unlike prior perturbative approaches, it works for massive particles at leading order — a gap previously unaddressed. The mass-variation results could help interpret future observations if a black hole's mass changes detectably over time.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 659,
+  "tokens_out": 165,
+  "cost_usd": 0.004452,
+  "ingested_at": "2026-06-02T12:24:59.495087+00:00"
+}

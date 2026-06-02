@@ -1,0 +1,23 @@
+{
+  "id": "2606.00911",
+  "arxiv_url": "https://arxiv.org/abs/2606.00911",
+  "announced_date": "2026-05-30",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Bekenstein-Hawking temperature from the Schwarzian",
+  "authors": "Donato Bini, Giampiero Esposito",
+  "abstract": "Hawking's original derivation of particle creation by black holes in Schwarzschild spacetime exploits, among various concepts, the exponential dependence on the retarded time variable u of the affine parameter λof the null geodesics that are integral curves of the null vector field orthogonal to the Killing horizon. This exponential law implies that the Schwarzian derivative of λwith respect to u is minus a half the square of surface gravity. The black hole Killing horizon inherits an intrinsic projective structure, and the squared surface gravity is the invariant characterizing such a structure. There is therefore evidence that the Bekenstein-Hawking temperature is completely determined from the projective structure on the Killing horizon. As a further test, it is here shown that, in a spacetime model with variable mass parameter, the logarithmic derivative of surface gravity is determined by the Schwarzian of the affine parameter. The Schwarzian in Schwarzschild and Kerr geometries is also studied in detail. All these properties are a first step towards proving that black hole thermodynamics finds its mathematical foundations in the projective geometry of Killing horizons. Such a research program can be applied to the power radiated from a black hole, the rate of change of the black hole mass with respect to the area of the event horizon, the fundamental imaginary frequency of quasinormal modes (and hence the decay rate of black hole perturbations).",
+  "title_relatable": "Does black hole temperature come from a hidden geometric structure?",
+  "hook": "A single mathematical quantity — the Schwarzian derivative — may encode all of black hole thermodynamics through the projective geometry of event horizons.",
+  "summary": "Hawking radiation relies on an exponential relationship between coordinate time and geodesic parameters near a black hole horizon. Bini and Esposito show this exponential is precisely captured by the Schwarzian derivative, linking the Bekenstein-Hawking temperature directly to the projective geometry of the Killing horizon — a structure more fundamental than the specific spacetime metric. If the program holds, black hole temperature, mass loss rates, and quasinormal mode frequencies all flow from a single geometric invariant.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 739,
+  "tokens_out": 185,
+  "cost_usd": 0.004992,
+  "ingested_at": "2026-06-02T12:24:32.216083+00:00"
+}

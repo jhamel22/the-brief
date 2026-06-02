@@ -1,0 +1,22 @@
+{
+  "id": "2606.00166",
+  "arxiv_url": "https://arxiv.org/abs/2606.00166",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Cascading amplification of gravitational waves triggered by environment in dynamical Chern-Simons gravity",
+  "authors": "Han-Wen Hu, Chen Lan, Zong-Kuan Guo",
+  "abstract": "Within the effective field theory framework of dynamical Chern-Simons (dCS) gravity, we investigate the cascading amplification mechanism of gravitational waves driven by an external dynamical environment. Considering the interaction between the environmental field and the dCS pseudoscalar, we find that the black hole barrier and the external oscillating shell collectively form an effective resonant cavity, which triggers Mathieu instability in the dCS scalar sector. Numerical results show that the optimal driving frequency is set by the length of the resonant cavity. When the environmental field lies too close to the black hole, leakage toward the event horizon suppresses the resonant growth, thus giving a dynamical threshold for the existence of the instability. In the frequency domain, scalar perturbations display the Floquet sideband structures. In the time domain, the amplified scalar field further acts as a source term to drive axial gravitational perturbations, generating a delayed secondary burst. This mechanism reveals that dCS corrections at ultraweak coupling can still accumulate via long-term parametric amplification in a dynamical environment, leaving discernible signatures in gravitational wave signals.",
+  "title_relatable": "Could the environment around black holes amplify hidden gravitational signals?",
+  "hook": "A resonance cavity formed near a black hole could amplify gravitational waves even when exotic physics is vanishingly weak.",
+  "summary": "In a modified gravity theory called dynamical Chern-Simons gravity, an oscillating shell of matter near a black hole can act like a resonant cavity, triggering runaway growth of a hidden scalar field through Mathieu instability. The amplified scalar then drives a secondary burst of gravitational waves — a delayed echo with a distinctive sideband frequency pattern. Crucially, even ultraweak couplings to beyond-standard physics could build up over time and leave detectable imprints in gravitational wave data.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 692,
+  "tokens_out": 186,
+  "cost_usd": 0.004866,
+  "ingested_at": "2026-06-02T12:26:15.403975+00:00"
+}

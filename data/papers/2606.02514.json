@@ -1,0 +1,22 @@
+{
+  "id": "2606.02514",
+  "arxiv_url": "https://arxiv.org/abs/2606.02514",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Teleocosmology and quantum post-selection",
+  "authors": "Paul C. W. Davies, João Magueijo",
+  "abstract": "Although cosmic acceleration is well established, its physical origin remains contentious. Most explanations invoke either a non-zero vacuum energy, i.e. a cosmological constant, or new fields. We propose instead a mechanism arising purely from quantum mechanics, without additional constants or local sources. The key point is that quantum theory permits both initial and final boundary conditions on a state, here the wave function of the universe. Pre- and post-selected systems are familiar in laboratory quantum mechanics; we extend the idea to minisuperspace quantum cosmology. As a warm-up, we show that a free non-relativistic particle, initially in a semiclassical wave packet and conditioned on a final quantum state, can have an intermediate peak which accelerates even though the Hamiltonian is free. A semiclassical observer would infer a contrived classical force. We then implement the analogous construction in quantum cosmology using connection variables and unimodular time. A forward semiclassical packet, taken for simplicity to describe pure radiation, is post-selected by a normalizable Chern-Simons soliton. The resulting two-boundary amplitude has a peak which leaves the radiation trajectory and enters an accelerating regime, while the forward Hamiltonian has $Λ=0$. A classical model can mimic this trajectory only by introducing a contrived effective component: near the transition it resembles $w\\simeq -1$, but when extrapolated it evolves towards strongly phantom behaviour, $w<-1$. The acceleration is therefore more naturally interpreted as a quantum boundary-condition effect than as a local classical source. We also discuss why the Chern-Simons soliton is a clean final state, the small overlap between initial and final states, and possible tell-tale signatures.",
+  "title_relatable": "Could the universe's accelerating expansion be a quantum boundary effect?",
+  "hook": "Cosmic acceleration may need no dark energy — just a final quantum condition imposed on the universe's wave function.",
+  "summary": "Davies and Magueijo propose that the universe's accelerating expansion requires no cosmological constant or new fields — only a quantum boundary condition at the end of time. By applying the laboratory technique of quantum post-selection to cosmology, they find that a radiation-filled universe post-selected on a specific final quantum state (a Chern-Simons soliton) naturally develops an accelerating phase. A classical observer would wrongly infer a phantom dark energy component with w < −1, a potentially testable signature that distinguishes this mechanism from standard dark energy models.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 808,
+  "tokens_out": 191,
+  "cost_usd": 0.005289,
+  "ingested_at": "2026-06-02T12:22:39.409909+00:00"
+}

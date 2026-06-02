@@ -1,0 +1,24 @@
+{
+  "id": "2606.00577",
+  "arxiv_url": "https://arxiv.org/abs/2606.00577",
+  "announced_date": "2026-05-30",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "astro-ph.IM"
+  ],
+  "title_original": "Searching for a waveform-agnostic gravitational wave signal in pulsar timing arrays",
+  "authors": "Heling Deng, Bence Becsy, Yuri Levin, Neil J. Cornish, Xavier Siemens",
+  "abstract": "Pulsar timing arrays have recently provided compelling evidence for a nanohertz stochastic gravitational wave background, motivating searches for gravitational waves from localized sources. Most existing searches assume specific waveform templates, which can be computationally demanding and potentially insensitive to unexpected signals. We introduce a waveform-agnostic framework that models signal-induced timing residuals via a Fourier expansion. A Lorentzian hyperprior is imposed on the variances of the Fourier coefficients, providing a flexible spectral envelope that captures the signal's dominant frequency and bandwidth while remaining agnostic to its exact shape. Analytical marginalization over the Fourier coefficients then yields a Bayesian hierarchical framework that concurrently infers the source sky location, its frequency content, and the stochastic background. To mitigate contamination from unmodeled pulsar noise, we further allow for additional flat-spectrum features for each pulsar. Tests on simulated datasets show that the method is robust and provides a flexible tool for future PTA searches, with sensitivity to both expected and unexpected gravitational wave phenomena.",
+  "title_relatable": "Can we detect gravitational waves without knowing what they look like?",
+  "hook": "A new search method finds gravitational wave sources in pulsar timing data without assuming any specific signal shape.",
+  "summary": "Most gravitational wave searches need a template — a prediction of exactly what the signal looks like. This framework skips that requirement, modeling any localized source using a flexible Fourier expansion with a Lorentzian prior that automatically captures the signal's dominant frequency. Tested on simulated pulsar timing data, it recovers both sky location and signal properties without being blind-sided by unexpected sources like cosmic string bursts or exotic compact binaries.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 695,
+  "tokens_out": 163,
+  "cost_usd": 0.00453,
+  "ingested_at": "2026-06-02T12:24:42.823153+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.02051",
+  "arxiv_url": "https://arxiv.org/abs/2606.02051",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph",
+    "math.AP",
+    "math.NA"
+  ],
+  "title_original": "3d Summation-by-Parts scheme for Linear Wave Equations on Hyperboloidal Slices",
+  "authors": "Anuraag Reddy, Shalabh Gautam, Prayush Kumar",
+  "abstract": "We derive a fully 3-dimensional Summation-By-Parts scheme for a class of linear wave equations on hyperboloidal slices that meet future null infinity on a Minkowski background. The scheme is derived in spherical polar coordinates, with a major strength being that it is provably stable and allows having grid points at the origin and on the $z$-axis, despite coordinate singularities, and at infinity, by introducing compactification followed by rescaling. Reducing it to the standard Cauchy problem, or on finite spacelike slices with an outer boundary, will follow a similar procedure. Interesting relations are obtained between the rescaling and compactification factors that simplify the equations, and the conditions on constraint addition terms are discovered to maintain symmetric hyperbolicity. Numerical implementation is achieved using finite-difference methods at second-order accuracy, which can be generalized to higher-order or spectral accuracies as well. Dissipation operators are given a more abstract treatment, which makes it possible to define them everywhere in the domain, including at the boundary points, in curvilinear coordinates, such that they satisfy the dissipative property (DP) in our energy norms. These generalizations reduce to the well-known Kreiss-Oliger dissipation operators whenever defined on a Cartesian grid in the bulk and satisfy the DP in the standard $L^2$-norms. We also propose new norm convergence tests that produce more accurate outputs. Promising results are obtained, giving hope for application to fully nonlinear systems, like the Einstein Field Equations, and extracting the resulting gravitational waves free of systematic errors or gauge ambiguities.",
+  "title_relatable": "Could this new numerical scheme deliver cleaner gravitational wave signals?",
+  "hook": "A provably stable 3D grid reaching out to infinity could eliminate systematic errors in gravitational wave extraction.",
+  "summary": "Simulating gravitational waves cleanly requires numerical grids that reach all the way to infinite distance — but coordinate singularities and boundary artifacts make that brutally hard. This work builds a mathematically stable 3D finite-difference framework in spherical coordinates that handles the origin, the poles, and literal infinity simultaneously, without the gauge ambiguities that plague current methods. If extended to full Einstein gravity, it could produce gravitational waveforms free of the systematic errors that limit today's detectors.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 809,
+  "tokens_out": 175,
+  "cost_usd": 0.005052,
+  "ingested_at": "2026-06-02T12:24:05.381624+00:00"
+}

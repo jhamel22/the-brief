@@ -1,0 +1,24 @@
+{
+  "id": "2606.02318",
+  "arxiv_url": "https://arxiv.org/abs/2606.02318",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "The First Detection of Sub-Populations in the Delay-Time Distribution of Binary Black Holes in GWTC-4 of LIGO-Virgo-KAGRA",
+  "authors": "Shaunak Padhyegurjar, Suvodip Mukherjee",
+  "abstract": "The imprint of different formation channels of binary black holes (BBHs) is encoded in the distribution of time delays between BBH mergers and the formation of their progenitor stars, along with their source properties such as component mass, mass-ratio, spin, and more. This makes it possible for the presence of a potential correlation between the delay-time distribution and compact-object source properties. We report the first measurement of this inevitable signature from the fourth gravitational wave (GW) catalog (GWTC-4) of LIGO-Virgo-KAGRA and identified three sub-populations that show distinct merger rate behavior as a consequence of this. We find that the delay-time distribution of the sources above a mass of $45$ M$_\\odot$ is significantly different from the ones below and exhibits strong dependence on the mass-ratio and spin, indicating that GW sources close to equal masses and close to zero effective spin are more delayed in comparison to the values otherwise. Our analysis identifies the presence of at least three source property dependent sub-population of merger rates with the merger rate at redshift $z=0$ varying from $\\sim 0.6- 12$ Gpc$^{-3}$ yr$^{-1}$ for the three different sub-populations and hence rule out a Universal merger rate for all the BBHs detected using GW.",
+  "title_relatable": "Do black hole mergers happen on different timescales depending on their mass?",
+  "hook": "Three distinct black hole merger populations emerge from LIGO data, each with its own cosmic clock.",
+  "summary": "Using the latest gravitational-wave catalog (GWTC-4), researchers found that black hole binaries don't merge on a single universal timeline — their delay between star formation and merger depends strongly on their mass, mass ratio, and spin. Systems heavier than 45 solar masses behave differently from lighter ones, and equal-mass, low-spin pairs wait longer to merge. The merger rate at today's cosmic epoch varies by a factor of 20 across the three identified groups, ruling out a one-size-fits-all description of how black hole pairs form and collide.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 760,
+  "tokens_out": 196,
+  "cost_usd": 0.00522,
+  "ingested_at": "2026-06-02T12:23:32.879960+00:00"
+}

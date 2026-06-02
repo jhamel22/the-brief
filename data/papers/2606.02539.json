@@ -1,0 +1,24 @@
+{
+  "id": "2606.02539",
+  "arxiv_url": "https://arxiv.org/abs/2606.02539",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph"
+  ],
+  "title_original": "JWST's Little Red Dots as collapsed Supermassive Dark Stars",
+  "authors": "Cosmin Ilie",
+  "abstract": "The nature of the ``Little Red Dots'' (LRDs) is one of the most profound mysteries posed by the JWST data. One promising class of models that can reproduce the observed LRDs spectra and morphology are quasi-stars: massive envelopes surrounding accreting black holes formed via the collapse of supermassive stars (SMSs). However, the canonical SMS pathway relies on a highly restricted set of environmental and structural conditions: strong Lyman--Werner (LW) backgrounds to suppress H$_2$ cooling, high and sustained gas inflow rates to enforce entropy stratified envelopes, and assume non-zero rotational support in order to prevent GR instability collapse before $\\sim 10^6 M_{\\odot}$. Here we show that supermassive dark stars (SMDSs), powered by dark matter (DM) annihilation rather than nuclear burning, naturally satisfy the key structural and energetic requirements for quasi-star (QS) formation while relaxing {\\it all} of those restrictive conditions listed above. Moreover, quasi-stars formed through the SMDS pathway are born with prompt BH masses ($\\gtrsim 10\\%$) of the progenitor mass. They therefore enter directly into a late-stage quasi-star regime; subsequently the envelope expands and cools until its photosphere reaches the zero-metallicity opacity limit $(T_{\\rm eff}\\sim3000$-$6000\\,{\\rm K}$). Those cool, optically thick, unresolved photospheres can reproduce key features of many JWST LRDs.",
+  "title_relatable": "Could JWST's mysterious 'Little Red Dots' be dark matter-powered stars?",
+  "hook": "JWST's strangest objects — dense, red, unexplained — may be the collapsed remnants of stars fueled by dark matter annihilation.",
+  "summary": "JWST has spotted hundreds of compact red objects whose spectra and appearance don't fit standard galaxy or quasar models. This paper argues they could be 'quasi-stars' — black holes wrapped in massive envelopes — but ones born from supermassive dark stars powered by dark matter annihilation rather than nuclear fusion. That origin neatly sidesteps several awkward requirements of conventional models, and produces cool, opaque photospheres in the 3000–6000 K range that match what JWST actually sees.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 778,
+  "tokens_out": 204,
+  "cost_usd": 0.005394,
+  "ingested_at": "2026-06-02T12:22:27.466629+00:00"
+}

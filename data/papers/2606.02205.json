@@ -1,0 +1,22 @@
+{
+  "id": "2606.02205",
+  "arxiv_url": "https://arxiv.org/abs/2606.02205",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Poincaré asymptotic expansion in black hole theory",
+  "authors": "Giampiero Esposito, Marco Refuto",
+  "abstract": "In studying the dynamics of fields in black hole theory, the method of separation of variables makes it possible to isolate the radial part of the full solution in many important physical cases. This is possible thanks to the existence of the principal tensor in Petrov-D metrics. We first review this mathematical result in order to introduce several cases where it is possible to study the radial solution via the Poincaré asymptotic series expansion, a tool exploited in recent work by the authors in order to investigate the behaviour of the field at spacelike infinity, a point in the neighbourhood of which only approximate solutions are computable by virtue of its irregular nature. We obtain a series which can be computed to any degree of accuracy, allowing for a deeper analysis of this challenging spacetime region. An application to quasinormal modes is eventually provided.",
+  "title_relatable": "How do black holes ring as they settle down?",
+  "hook": "A classical 18th-century asymptotic technique unlocks better approximations for black hole vibration frequencies near infinity.",
+  "summary": "Quasinormal modes are the characteristic 'ringdown' frequencies a black hole emits after a perturbation — the signal LIGO hears after a merger. Near spacelike infinity, the equations governing these modes become too irregular for exact solutions. Applying Poincaré asymptotic expansions — a tool from 1886 — the authors show you can compute the radial field behavior there to arbitrary precision, offering a cleaner path to quasinormal mode calculations in Petrov-D spacetimes like Kerr.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 602,
+  "tokens_out": 189,
+  "cost_usd": 0.004641,
+  "ingested_at": "2026-06-02T12:23:40.133859+00:00"
+}

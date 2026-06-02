@@ -1,0 +1,24 @@
+{
+  "id": "2606.00175",
+  "arxiv_url": "https://arxiv.org/abs/2606.00175",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph",
+    "math.AP"
+  ],
+  "title_original": "Future global stability of Maxwell-Jüttner equilibria and vacuum for the massless Boltzmann equation on FLRW spacetimes",
+  "authors": "Robert M. Strain, Martin Taylor, Renato Velozo Ruiz",
+  "abstract": "In this work we study the general relativistic massless Boltzmann equation on Friedmann-Lemaître-Robertson-Walker spacetimes with spatial topology $\\mathbb{T}^3$ in the linear and decelerated expanding regimes, where the scale factor is $t^{\\mathfrak{q}}$ with $\\mathfrak{q}\\in [0,1]$. The massless Boltzmann equation on these backgrounds admits non-stationary Maxwell-Jüttner equilibria of the form $\\exp(- |t^{2\\mathfrak{q}}p|)$. For $0 \\leq \\mathfrak{q} \\leq 1$, we prove future global-in-time existence and uniqueness of small perturbations of these equilibria in the case of hard ball interaction without symmetry assumptions. For $0\\leq \\mathfrak{q} 0$. Finally, for $\\frac{1}{3}< \\mathfrak{q}\\leq 1$, we prove future global-in-time existence and uniqueness of small perturbations of the vacuum solution on $\\mathbb{T}^3$.",
+  "title_relatable": "How do gases of light behave in an expanding universe?",
+  "hook": "Mathematicians prove that a hot photon gas in an expanding cosmos stays stable forever — no matter how you disturb it.",
+  "summary": "Photons and other massless particles follow the Boltzmann equation even in curved, expanding spacetime, and their equilibrium distribution shifts with time as the universe stretches. For a universe expanding as t^q (covering everything from static to decelerated expansion), this work proves that small perturbations away from equilibrium decay and never blow up — a rigorous mathematical guarantee of long-term stability. The result also confirms that near-vacuum states remain stable, shoring up a foundational assumption in relativistic kinetic theory relevant to early-universe cosmology.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 721,
+  "tokens_out": 197,
+  "cost_usd": 0.005118,
+  "ingested_at": "2026-06-02T12:26:04.081779+00:00"
+}

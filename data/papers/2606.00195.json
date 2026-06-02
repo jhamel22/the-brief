@@ -1,0 +1,22 @@
+{
+  "id": "2606.00195",
+  "arxiv_url": "https://arxiv.org/abs/2606.00195",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Analytical calculation of the observational parameters for tachyon inflation",
+  "authors": "Marko Stojanovic, Neven Bilić, Goran S. Djordjevic, Dragoljub D. Dimitrijevic, Milan Milosevic",
+  "abstract": "We investigate the possibility of analytically calculating observational parameters in tachyon inflation cosmology, using the Hubble expansion rate as a function of the tachyon field. First, in light of the newer Planck results, we analyze previous investigations in which the test Hubble rate functions were confronted with Planck 2013 data. We propose and analyze a number of new test Hubble rate functions, finding considerable improvement and approaching reasonable agreement with recent observational data. For a class of these functions, we were able to carry out analytical calculations. As a novelty, we introduce a functional dependence of the slow-roll Hubble flow parameters as an input, which facilitates an analytical study of inflation. In this way, we obtain explicit expressions for the scalar spectral index ($n_{\\rm s}$) and the tensor-to-scalar ratio ($r$). We confront our analytical and numerical predictions with Planck observational constraints. Finally, we discuss the proposed linear dependence between the first two slow-roll parameters in light of recent data from ACT DR6, DESI, and others, as well as the potential to generalize this dependence to other inflation models.",
+  "title_relatable": "Can tachyon fields explain the universe's first moments?",
+  "hook": "New analytical formulas for cosmic inflation using exotic tachyon fields now match Planck satellite data far better than before.",
+  "summary": "Tachyon inflation proposes that a quantum field resembling faster-than-light particles drove the universe's explosive early expansion. By choosing the Hubble expansion rate as the key variable and introducing a simple linear relationship between slow-roll parameters, the authors derived exact formulas for two key observables — the spectral index and tensor-to-scalar ratio — and found significantly better agreement with Planck, ACT, and DESI data than earlier attempts. The approach could extend to other inflation models.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 713,
+  "tokens_out": 179,
+  "cost_usd": 0.004824,
+  "ingested_at": "2026-06-02T12:25:33.478258+00:00"
+}

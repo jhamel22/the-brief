@@ -1,0 +1,22 @@
+{
+  "id": "2606.00227",
+  "arxiv_url": "https://arxiv.org/abs/2606.00227",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Constraints on the Phenomenology of Dissipative Cosmological Memory from BAO (BOSS + DESI 2024) and Pantheon+ Data",
+  "authors": "S. M. Ponomarenko",
+  "abstract": "We propose and test a phenomenological model of ``dissipative memory'' in the gravitational field, where early quantum gravitational processes leave a relic signature in the cosmic expansion rate. The model is parameterized by an additional fluid with amplitude $ε$, decay scale $z_*$, and a steepness index $β$, decaying according to a Debye law $f(z) = \\exp[{-(z/z_*)^β}]$. We perform a joint Bayesian analysis using baryon acoustic oscillation data from BOSS DR12 and DESI 2024, photometric distances from Pantheon$+$, and $H_0$ measurements (SHOES and Planck). A global optimization reveals that the best fit is identical to $Λ$CDM: the memory correction vanishes across the entire observable range $z \\in [0.3,\\,2.3]$ ($Δχ^2 < 0.01$ with three extra parameters, $Δ\\mathrm{AIC}=+6.0$, $Δ\\mathrm{BIC}=+9.9$). This establishes an upper bound on the memory amplitude: $ε< 0.05$ for $z_* < 2$ (95% CL). We discuss the physical interpretation of this constraint and point out observational channels where the memory effect could potentially manifest.",
+  "title_relatable": "Did early quantum gravity leave detectable marks on cosmic expansion?",
+  "hook": "A new search for quantum-gravity relics in galaxy survey data finds nothing — and that null result is useful.",
+  "summary": "If quantum gravitational processes in the early universe left a lingering imprint on how fast space expands, galaxy surveys should see it. Using BAO data from BOSS and DESI plus 1,500 supernovae, this analysis finds no such signal — the correction vanishes completely, capping any 'gravitational memory' effect below 5% amplitude out to redshift 2. The result tightly constrains a whole class of exotic early-universe models without invoking any new physics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 765,
+  "tokens_out": 177,
+  "cost_usd": 0.00495,
+  "ingested_at": "2026-06-02T12:25:22.592504+00:00"
+}

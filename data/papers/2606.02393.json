@@ -1,0 +1,23 @@
+{
+  "id": "2606.02393",
+  "arxiv_url": "https://arxiv.org/abs/2606.02393",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Black Bounce via Gravitational Tension Screening Acting as an Analogue of Schwinger Corrections",
+  "authors": "Milko Estrada",
+  "abstract": "We provide a novel geometric regularization mechanism for black bounce spacetimes based on an effective gravitational tension screening inspired by Schwinger like saturation effects. The construction assumes that the gravitational tension associated with the vacuum geometry does not grow indefinitely in high curvature and short scales regimes, but dynamically approaches a finite critical value. As a result, the scale function acquires tension dependent corrections, giving rise to a regular bounce structure without introducing ad hoc regular cores. The mechanism generates regular geometries with spherical, planar, and hyperbolic transverse sections, describing regular black holes (RBHs), extremal RBHs, and traversable wormholes. A key result is that the bounce location emerges dynamically from the interplay between gravitational tension and geometric screening. Depending on the regime, the bounce may remain associated with short distance scales or be displaced toward larger finite scale regions, indicating that saturation effects can modify not only the inner structure of compact objects at short scales but also their global geometry. Hiperbolic and planar RBHs may satisfy the standard energy conditions near the bounce. Moreover, the hyperbolic geometry exhibits distinctive features, including regular negative mass configurations and a strong dependence of the energy conditions on the system parameters. In contrast, the matter sources supporting wormhole geometries, as expected, violate the energy conditions near the throat.",
+  "title_relatable": "Can quantum-inspired 'tension limits' cure black hole singularities?",
+  "hook": "A new mechanism borrows from quantum field theory to cap gravitational tension, naturally generating singularity-free black holes and wormholes.",
+  "summary": "Just as quantum electrodynamics limits how strong an electric field can get before pair production kicks in, this work applies an analogous 'saturation' cap to gravitational tension near high-curvature regions. The result: spacetime bounces smoothly instead of collapsing to a singularity, producing regular black holes, extremal black holes, and traversable wormholes from a single framework. A striking side effect is that the bounce location — essentially where the geometry 'turns around' — shifts dynamically depending on the saturation regime, potentially affecting the global structure of compact objects, not just their cores.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 723,
+  "tokens_out": 213,
+  "cost_usd": 0.005364,
+  "ingested_at": "2026-06-02T12:23:10.895746+00:00"
+}

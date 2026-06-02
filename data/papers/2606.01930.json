@@ -1,0 +1,22 @@
+{
+  "id": "2606.01930",
+  "arxiv_url": "https://arxiv.org/abs/2606.01930",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Effective dynamics of a homogeneous and isotropic universe with quantum curvature",
+  "authors": "Ilkka Mäkinen",
+  "abstract": "We consider the effective dynamics of a new, tentative model of a homogeneous and isotropic universe in loop quantum cosmology. The new model consists of modifying the standard Hamiltonian of loop quantum cosmology by adding a Lorentzian term corresponding to the scalar curvature of the spatial manifold. The expression of the new Lorentzian term is motivated by a heuristic argument based on the form of an operator representing the scalar curvature in the one-vertex model of quantum-reduced loop gravity. The effective dynamics of the new model is not identical to standard LQC but all the key features of the dynamics are qualitatively reproduced. The classical cosmological singularity is resolved by a \"quantum bounce\" and the effective dynamics trajectory as a function of time is symmetric around the bounce; however, in comparison with the standard LQC scenario the bounce takes place at a significantly lower value of the volume.",
+  "title_relatable": "Does adding quantum curvature change the Big Bounce?",
+  "hook": "A modified loop quantum cosmology model still avoids the Big Bang singularity, but the universe bounces at a much smaller size.",
+  "summary": "Loop quantum cosmology replaces the Big Bang singularity with a 'quantum bounce' — a minimum size the universe can't shrink below. Adding a quantum curvature correction term to the standard equations preserves this bounce and its time-symmetric trajectory, but shifts it to a significantly smaller volume. The result suggests the bounce is qualitatively robust to this modification, though its precise scale depends on how quantum geometry is encoded.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 627,
+  "tokens_out": 165,
+  "cost_usd": 0.004356,
+  "ingested_at": "2026-06-02T12:24:15.620402+00:00"
+}

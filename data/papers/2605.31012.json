@@ -1,0 +1,22 @@
+{
+  "id": "2605.31012",
+  "arxiv_url": "https://arxiv.org/abs/2605.31012",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Dirac-Field Black Hole Entropy in \\(f(Q)\\) Gravity from the RVB Residue Method",
+  "authors": "Wen-Xiang Chen",
+  "abstract": "We compute the entropy of a Dirac quantum field near a static, spherically symmetric black hole in (f(Q)) gravity by combining the residue-based Robson--Villari--Biancalana method with the thin-film state-counting approach. The RVB prescription introduces a residue correction to the Hawking temperature, while the Dirac field entropy is obtained from the near-horizon WKB mode density and fermionic free energy. For an (f(Q))-deformed metric, we derive the Hamilton--Jacobi equation, radial momentum, mode number, and entropy at the residue-corrected temperature. The result shows that the Dirac-field entropy remains proportional to the horizon area after regularization, but its coefficient is modified by a cubic RVB temperature factor. An explicit expression is obtained for the quadratic model (f(Q)=Q+αQ^{2}).",
+  "title_relatable": "Does modifying gravity change how black holes store information?",
+  "hook": "A new calculation finds black hole entropy still scales with horizon area in modified gravity, but with a temperature-dependent correction factor.",
+  "summary": "Using a residue-based method to correct Hawking temperature, this calculation tracks how much quantum information a Dirac (spin-½) field carries near a black hole in f(Q) gravity — a theory replacing Einstein's spacetime curvature with a related quantity called non-metricity. The entropy still obeys the famous area law, but the proportionality constant picks up a cubic correction from the modified temperature. For the specific model f(Q) = Q + αQ², an explicit formula emerges, offering a concrete testbed for how alternative gravity theories alter black hole thermodynamics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 640,
+  "tokens_out": 199,
+  "cost_usd": 0.004905,
+  "ingested_at": "2026-06-02T12:26:26.714130+00:00"
+}

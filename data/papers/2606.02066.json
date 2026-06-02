@@ -1,0 +1,23 @@
+{
+  "id": "2606.02066",
+  "arxiv_url": "https://arxiv.org/abs/2606.02066",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "Near-Horizon Deformation of Metric and the Black Hole Instability",
+  "authors": "Shi-Jie Ma, Zhan-Feng Mai, Run-Qiu Yang",
+  "abstract": "Recent time-domain analyses suggest that black hole stability may be sensitive to localized near-horizon geometric deformations, while the underlying spectral mechanism remains unclear. In this work, we systematically investigate quasi-normal mode spectra under static localized non-positive perturbations within a frequency-domain framework. We find that such deformations generically induce a new purely imaginary mode. As the deformation approaches the horizon, the imaginary part of this mode increases and eventually enters the upper half complex-frequency plane, signaling the onset of black hole instability. Numerical results reveal clear scaling relations between the critical distance for instability and the deformation strength. We further derive rigorous proofs for our discoveries in frequency domain. These results demonstrate that black hole stability under long scale is conditionally sensitive to localized deformation of metric near the horizon and establish a unified spectral framework for understanding their induced instabilities.",
+  "title_relatable": "Why do small dents near a black hole's edge spell disaster?",
+  "hook": "Tiny geometric deformations close to a black hole's horizon can flip a stable mode unstable, with a precise scaling law governing the threshold.",
+  "summary": "Squeeze the geometry just outside a black hole's event horizon and you spawn a new purely imaginary oscillation mode. Push that deformation close enough to the horizon and the mode crosses into unstable territory — the black hole effectively rings itself apart. The work derives this threshold analytically and numerically, producing clean scaling relations between deformation strength and the critical distance, offering a spectral explanation for instabilities seen in recent time-domain simulations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 633,
+  "tokens_out": 171,
+  "cost_usd": 0.004464,
+  "ingested_at": "2026-06-02T12:23:54.956616+00:00"
+}

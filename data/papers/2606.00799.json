@@ -1,0 +1,26 @@
+{
+  "id": "2606.00799",
+  "arxiv_url": "https://arxiv.org/abs/2606.00799",
+  "announced_date": "2026-05-30",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "math-ph",
+    "gr-qc",
+    "hep-th",
+    "math.DG",
+    "physics.hist-ph"
+  ],
+  "title_original": "Weyl-type theorems in Galilei and Carroll geometry",
+  "authors": "Philip K. Schwartz, James Read, Quentin Vigneron",
+  "abstract": "A classic theorem of Weyl (1921) states that a Weyl metric -- a natural generalisation of a pseudo-Riemannian metric -- is uniquely determined by its conformal and projective structures (i.e. by its conformal structure and its set of unparametrised geodesics). An equivalent formulation of Weyl's result is that a torsion-free linear connection compatible with a pseudo-Riemannian conformal structure is uniquely determined by its projective structure. We discuss analogous results for suitably defined notions of conformal structure for Galilei and Carroll geometry, i.e. for spacetime geometries arising as the `non-relativistic' and `ultra-relativistic' limits of Lorentzian geometry.",
+  "title_relatable": "Do space and time geometry obey the same uniqueness rules at every speed limit?",
+  "hook": "A century-old theorem about spacetime geometry gets tested in the weird limits where light speed goes to zero or infinity.",
+  "summary": "Weyl proved in 1921 that knowing which paths are straight lines plus the local notion of angle is enough to pin down spacetime geometry completely. This paper asks whether the same holds for Galilean geometry (the non-relativistic limit, where light is infinitely fast) and Carrollian geometry (the ultra-relativistic limit, where light stands still). The answer is nuanced: analogous theorems hold, but the geometry of these exotic spacetimes forces careful redefinition of what 'conformal structure' even means.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 602,
+  "tokens_out": 192,
+  "cost_usd": 0.004686,
+  "ingested_at": "2026-06-02T12:24:37.916122+00:00"
+}

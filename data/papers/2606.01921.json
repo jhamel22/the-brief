@@ -1,0 +1,22 @@
+{
+  "id": "2606.01921",
+  "arxiv_url": "https://arxiv.org/abs/2606.01921",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Astrophysical Applications of the Physics presented in the Film Interstellar",
+  "authors": "Harleen Dhingra, Sanjeev Dhurandhar, Sanjit Mitra",
+  "abstract": "The film Interstellar is grounded in real physics calculations. A key requirement in the film is that of a planet orbiting a supermassive black hole such that one hour on the planet corresponds to seven years on Earth. Such extreme time dilation is possible only if the planet orbits the black hole very close to its horizon. For a non-rotating (Schwarzschild) black hole, the innermost stable circular orbit (ISCO) lies at three times the Schwarzschild radius; a bound orbit between the ISCO and the event horizon is not possible. Surprisingly, general relativity allows such orbits to exist if the black hole is spinning rapidly. In this work, we present computations that are non-trivial and interesting in themselves, but more importantly, they may have useful astrophysical implications.",
+  "title_relatable": "Could a planet really orbit close enough for 1-hour = 7-year time dilation?",
+  "hook": "Interstellar's extreme time dilation requires a near-horizon orbit — only possible around a rapidly spinning black hole.",
+  "summary": "The 1-hour-equals-7-years time dilation in Interstellar demands a planet orbiting within the innermost stable circular orbit of a black hole — impossible around a non-spinning one, but general relativity permits it if the black hole spins fast enough. Working through the real orbital mechanics, the authors find these calculations carry genuine astrophysical weight beyond the film: extreme spin changes where stable orbits can exist, which matters for real accreting black holes and gravitational wave sources.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 619,
+  "tokens_out": 189,
+  "cost_usd": 0.004692,
+  "ingested_at": "2026-06-02T12:24:20.883709+00:00"
+}

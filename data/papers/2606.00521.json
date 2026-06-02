@@ -1,0 +1,24 @@
+{
+  "id": "2606.00521",
+  "arxiv_url": "https://arxiv.org/abs/2606.00521",
+  "announced_date": "2026-05-30",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "cond-mat.stat-mech",
+    "physics.class-ph"
+  ],
+  "title_original": "Relativistic transformation of temperature revisited",
+  "authors": "Soroor Pouryazdan, Babak Vakili",
+  "abstract": "The relativistic transformation of temperature has long remained controversial, with the classical laws of Planck-Einstein, Ott-Eddington-Moller and Landsberg yielding conflicting results. We reexamine this issue from a relativistic thermodynamic and statistical perspective, starting from the energy-momentum tensor of an isotropic system and defining the effective temperature Teff as that inferred by a moving observer from the transformed energy density. Analyses of a photon gas, a relativistic ideal gas and an electron gas show that Teff consistently increases with velocity, supporting the Ott-Eddington interpretation while depending on the system's equation of state. These results indicate that temperature is not a Lorentz-invariant scalar but an observer-dependent quantity. A consistent relativistic description emerges when temperature is related to the inverse-temperature four-vector beta, linking operational and invariant viewpoints within a unified thermodynamic framework.",
+  "title_relatable": "Does a speeding observer feel things as hotter or colder?",
+  "hook": "A century-old debate about temperature and relativity gets a new answer: moving observers measure things as hotter, not colder.",
+  "summary": "When you move relativistically past a hot object, does it appear hotter or colder? Three competing formulas — due to Planck-Einstein, Ott, and Landsberg — have disagreed for decades. Analyzing photon gas, ideal gas, and electron gas using the energy-momentum tensor, the authors find that effective temperature consistently rises with velocity, siding with Ott. The catch: the exact factor depends on the material, meaning temperature is observer-dependent and only fully consistent when treated as a four-vector quantity.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 628,
+  "tokens_out": 191,
+  "cost_usd": 0.004749,
+  "ingested_at": "2026-06-02T12:24:48.517423+00:00"
+}

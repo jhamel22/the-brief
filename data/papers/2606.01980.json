@@ -1,0 +1,22 @@
+{
+  "id": "2606.01980",
+  "arxiv_url": "https://arxiv.org/abs/2606.01980",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Stress-energy tensor of quantized scalar fields in thermal states on a zero-tidal wormhole",
+  "authors": "Shun Jiang, Xiangdong Zhang",
+  "abstract": "The construction of a static traversable wormhole requires exotic matter that satisfies the Morris-Thorne conditions. Quantum energy-momentum tensors have long been considered the most promising candidate for such exotic matter. In this paper, we present the first calculation of the stress-energy tensor for a quantum massive scalar field in thermal states localized on the throat of a zero-tidal-force wormhole. By varying the dimensionless temperature and dimensionless mass of the scalar field, we find that the Morris-Thorne conditions can only be satisfied when the scalar field mass falls within a specific bounded interval. Furthermore, for any scalar field mass within this interval, there always exists a mass-dependent dimensionless critical temperature: the Morris-Thorne conditions are fulfilled only if the temperature remains below this critical threshold.",
+  "title_relatable": "Can quantum heat actually hold a wormhole open?",
+  "hook": "Hot quantum fields near a wormhole throat can provide the exotic energy needed — but only within strict mass and temperature limits.",
+  "summary": "Traversable wormholes require 'exotic matter' that violates normal energy conditions — a job quantum fields might actually do. This calculation shows that a massive quantum scalar field at thermal equilibrium near a wormhole throat can satisfy those requirements, but only if the field's mass sits within a specific finite range and the temperature stays below a critical threshold that depends on that mass. Too hot or the wrong mass, and the wormhole collapses.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 608,
+  "tokens_out": 167,
+  "cost_usd": 0.004329,
+  "ingested_at": "2026-06-02T12:24:10.408636+00:00"
+}

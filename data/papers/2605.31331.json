@@ -1,0 +1,23 @@
+{
+  "id": "2605.31331",
+  "arxiv_url": "https://arxiv.org/abs/2605.31331",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Higher-Derivative Corrections to Reissner--Nordström Black Holes from Worldline QFT",
+  "authors": "Siddarth Ajith, Ravisankar Rajagopal, Nur Rifat, Diana Vaman, Kent Yagi",
+  "abstract": "In this paper we derived the corrections to the Reissner-Nordström black hole when higher-derivative $RF^2$ terms (contractions of the Riemann tensor with the Maxwell field strength squared) are added to the Einstein-Maxwell action. Such terms arise naturally in the context of effective field theories. We used wordline QFT methods to obtain the leading order post-Minkowskian corrections. We verified these results by solving the modified Einstein-Maxwell field equations in closed form, to all orders in Newton's constant $G$. We discussed the first law and computed the entropy of the perturbed black holes. The extremal black hole temperature is non-negative precisely when the weak gravity conjecture is satisfied. This condition on the extremal black hole temperature rules out Drummond-Hathrell theory.",
+  "title_relatable": "Do higher-order quantum corrections reshape charged black holes?",
+  "hook": "Adding quantum-gravity correction terms to charged black holes links their thermodynamics directly to the weak gravity conjecture.",
+  "summary": "When higher-derivative terms mixing gravity and electromagnetism are added to Einstein's equations, charged (Reissner-Nordström) black holes get modified in calculable ways. Solving the corrected field equations exactly, the authors find that the extremal black hole has non-negative temperature only when the weak gravity conjecture holds — a speculative but widely-discussed constraint on any consistent quantum gravity theory. This neatly rules out one specific candidate theory, Drummond-Hathrell, and ties abstract conjectures to concrete black hole thermodynamics.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 635,
+  "tokens_out": 189,
+  "cost_usd": 0.00474,
+  "ingested_at": "2026-06-02T12:25:40.024477+00:00"
+}

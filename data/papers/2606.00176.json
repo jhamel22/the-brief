@@ -1,0 +1,26 @@
+{
+  "id": "2606.00176",
+  "arxiv_url": "https://arxiv.org/abs/2606.00176",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th",
+    "math-ph"
+  ],
+  "title_original": "Eigenvalue formulation of Stochastic Inflation and application to large perturbation generating inflationary features",
+  "authors": "Swagat S. Mishra, Edmund J. Copeland, Anne M. Green",
+  "abstract": "Stochastic inflation is a powerful technique for calculating the probability distribution function (PDF) of large inflationary perturbations, which may collapse to form Primordial Black Holes. The PDF, $P({\\cal N})$, of the stochastic number of e-folds, ${\\cal N}$, satisfies an adjoint Fokker-Planck Equation. We develop a new self-contained eigenvalue technique which can be used to determine $P({\\cal N})$. First we apply this method to the simple case of quantum diffusion along a flat potential without any classical drift. We recover the expression for the PDF that has previously been found using characteristic functions, with an exponential tail. We also identify an intermediate regime between the peak and the exponential tail of the PDF, which has not been emphasized in earlier studies, where it exhibits a power-law behaviour, $P({\\cal N}) \\propto {\\cal N}^{-3/2}$. Finally we apply the method to constant drift inflation, in the narrow- and broad-well limits. In the narrow-well limit, there is an analytic solution and the PDF is similar to the drift-free case, with a mildly suppressed tail. In the broad-well limit, determining the full set of eigenvalues and eigenfunctions requires a piecewise construction of the spectrum, and the broad-well PDF is qualitatively different, with an enhanced peak and a strongly suppressed tail.",
+  "title_relatable": "How likely are quantum glitches during inflation to birth black holes?",
+  "hook": "A new eigenvalue method maps the full probability distribution of inflationary quantum fluctuations large enough to form primordial black holes.",
+  "summary": "During cosmic inflation, quantum noise can occasionally kick a field far enough to seed primordial black holes — but calculating exactly how likely that is has been technically painful. This work reframes the problem as an eigenvalue equation, recovering known results and exposing a previously overlooked power-law regime (P ∝ N^{−3/2}) sitting between the distribution's peak and its exponential tail. For the physically interesting 'broad-well' case mimicking features in the inflaton potential, the tail is dramatically suppressed compared to simpler models — directly affecting primordial black hole abundance predictions.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 768,
+  "tokens_out": 205,
+  "cost_usd": 0.005379,
+  "ingested_at": "2026-06-02T12:25:51.945597+00:00"
+}

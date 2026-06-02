@@ -1,0 +1,22 @@
+{
+  "id": "2606.00178",
+  "arxiv_url": "https://arxiv.org/abs/2606.00178",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Traversable Wormholes Supported by Entropy-Inspired Effective Matter Sectors",
+  "authors": "Jonathan A. Rebouças, Francisco Bento Lustosa, Celio R. Muniz",
+  "abstract": "The entropic interpretation of gravity suggests that spacetime geometry may encode thermodynamic information from microscopic degrees of freedom. In this context, the entropy--geometry correspondence developed in Ref. [1] and extended in Ref. [2] shows that modified Bekenstein--Hawking entropy can induce deformed black-hole geometries and anisotropic matter sectors of entropic origin. Motivated by this result, we investigate whether the corresponding entropy-induced density profiles can act as phenomenological sources for traversable wormholes. We do not import the full anisotropic matter sector of the original black-hole framework; instead, we retain only the effective density profiles and use them as entropy-inspired sources in the Morris--Thorne spacetime. The radial pressure is reconstructed from the barotropic equation of state $p_r=wρ$, while the remaining matter variables follow from the wormhole field equations and anisotropic equilibrium. We analyze five sectors: Barrow, Tsallis, Kaniadakis, logarithmic, and exponential. For each case, we derive the shape function, redshift equation, energy-condition diagnostics, embedding behavior, and Tolman--Oppenheimer--Volkoff balance. Barrow and Tsallis generate power-law negative-density sources, Kaniadakis and exponential yield localized negative-density distributions, and the logarithmic sector allows negative-density and positive-density phantom-like regimes. In all regular configurations, radial null energy condition violation at the throat is linked to the flare-out condition, whereas the tangential null energy condition and strong-energy-condition combination show how each entropy deformation redistributes exoticity through anisotropic stresses. The results show that modified entropy profiles can provide viable effective sources for traversable wormholes, with the supporting mechanism depending on entropy deformation.",
+  "title_relatable": "Could exotic entropy formulas hold wormholes open?",
+  "hook": "Five non-standard entropy theories each produce a distinct 'exotic matter' profile capable of supporting a traversable wormhole throat.",
+  "summary": "Wormholes require exotic matter with negative energy density to stay open — something with no confirmed real-world source. This paper borrows density profiles derived from modified entropy theories (Barrow, Tsallis, Kaniadakis, and two others) and plugs them into the classic Morris–Thorne wormhole equations. Each entropy variant produces a geometrically valid wormhole, but with different distributions of exoticity: some localized at the throat, some spread out, one even allowing a positive-density regime. It's a creative reframing of where wormhole fuel might come from.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 859,
+  "tokens_out": 207,
+  "cost_usd": 0.005682,
+  "ingested_at": "2026-06-02T12:25:46.196067+00:00"
+}

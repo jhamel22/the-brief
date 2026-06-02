@@ -1,0 +1,23 @@
+{
+  "id": "2606.00488",
+  "arxiv_url": "https://arxiv.org/abs/2606.00488",
+  "announced_date": "2026-05-30",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Massless Islands in Wedge Holography",
+  "authors": "Naman Kumar",
+  "abstract": "Entanglement islands are usually easiest to realize in doubly holographic models with massive gravitons or non-gravitating baths. In wedge holography, by contrast, Neumann boundary conditions on both branes give a normalizable massless graviton, but the island saddle of the purely geometric Ryu-Takayanagi problem collapses to the horizon. Negative Dvali-Gabadadze-Porrati (DGP) terms can restore nontrivial islands by changing the endpoint condition of the extremal surface, but this branch contains a massive ghost. We propose a different, manifestly healthy mechanism. We keep the wedge gravitational action free of DGP terms and add a unitary defect conformal field theory localized at the codimension-two corner. This sector is distinct from the standard corner CFT dual to the undeformed wedge, whose entropy is already represented by the wedge RT area; hence no double counting is involved. The entropy of this additional defect sector contributes to the generalized entropy. If the defect theory is holographic, this entropy is computed by an auxiliary bulk Ryu-Takayanagi surface. We show that when the wedge endpoint position determines the defect entangling region, the auxiliary area can have the opposite variation to the wedge area while all couplings and central charges remain positive. A local endpoint model exhibits an isolated stable saddle and its late-time dominance over the Hartman-Maldacena surface. The quantum extremality condition then replaces the pure orthogonality condition and allows a non-horizon island saddle in a long-range, massless, ghost-free gravitational theory. This demonstrates that the obstruction to massless islands in minimal wedge holography is not masslessness itself, but the absence of an additional healthy entropy term capable of balancing the horizon-minimizing area variation.",
+  "title_relatable": "Can entanglement islands exist without messing up gravity?",
+  "hook": "A new mechanism produces stable entanglement islands in massless gravity without introducing ghost particles.",
+  "summary": "Entanglement islands — regions that help resolve the black hole information paradox — have stubbornly resisted appearing in theories with healthy, long-range massless gravitons. By adding a unitary quantum field theory localized at a geometric corner rather than modifying gravity itself, this paper finds a stable island saddle that dominates at late times. The culprit wasn't masslessness all along, just the absence of an extra entropy contribution to balance the geometry.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 829,
+  "tokens_out": 165,
+  "cost_usd": 0.004962,
+  "ingested_at": "2026-06-02T12:24:54.333484+00:00"
+}

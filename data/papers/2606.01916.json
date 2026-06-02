@@ -1,0 +1,22 @@
+{
+  "id": "2606.01916",
+  "arxiv_url": "https://arxiv.org/abs/2606.01916",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Photon spheres in dynamical space-times",
+  "authors": "David Díaz-Guerra, Ángel Rincón, Diego Rubiera-Garcia",
+  "abstract": "The characterization of the photon region -- i.e. the region of space-time filled with unstable bound null geodesics -- is critical to understand the behavior of radiation near a compact-enough object, such as black holes. However, its study has been typically focused on stationary space-times that leave outside interesting theoretical and phenomenological scenarios such as collapsing, accreting, or evaporating black holes, besides time-dependent configurations such as those found in some boson star models. In this work, we present a novel covariant approach to describe radiation in dynamical spherical space-times. This allows a general description of photon surfaces and their dynamics in non-static space-times, recovering well known expressions in the static limit and clarifying their meanings. Furthermore, we illustrate our results via several examples of dynamical scenarios in stellar collapse and accreting/evaporating models, and discuss the open caveats regarding such scenarios.",
+  "title_relatable": "Where do light rings go when a black hole is forming?",
+  "hook": "A new framework tracks the light-trapping photon sphere through collapsing, accreting, and evaporating black holes — not just static ones.",
+  "summary": "The glowing ring around a black hole image traces light orbiting in an unstable 'photon sphere' — but all previous theory assumed the black hole just sat there. This work builds a covariant framework that follows the photon sphere through genuinely time-varying spacetimes: stellar collapse, matter accretion, Hawking evaporation. The static textbook results emerge as a special case, and the dynamic behavior reveals subtleties relevant to real astrophysical events and future gravitational-wave observations.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 636,
+  "tokens_out": 191,
+  "cost_usd": 0.004773,
+  "ingested_at": "2026-06-02T12:24:26.692720+00:00"
+}

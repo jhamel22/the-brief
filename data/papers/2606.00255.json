@@ -1,0 +1,24 @@
+{
+  "id": "2606.00255",
+  "arxiv_url": "https://arxiv.org/abs/2606.00255",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "quant-ph",
+    "gr-qc",
+    "physics.hist-ph"
+  ],
+  "title_original": "Topics on Foundations of Physics: From the quantum to the (semi) classical, gravity, thermodynamics, and (or beyond) our possible detections",
+  "authors": "Ricardo Muciño",
+  "abstract": "The work leading to this thesis focuses on assessing and extending quantum theories in order to explore and test their implications across various regimes -- including thermodynamics, semiclassical and quantum gravity scenarios, and the in principle detectable predictions of such theories. The general motivation stems from a basic desire to understand the world form its very foundations. For instance, how can we bridge the gap between what we observe or `perceive' and the fundamental quantum nature in our theories. In particular, this work originated from the search to a better understanding of the nature of time according to our physical theories and the common perception that it invariably `flows' to the future, or, in other words, why do we observe distinct natural processes evolving asymmetrically in time? These motivations led to three distinct, yet interconnected and successful, lines of research, presented here in three separate parts: I. On Possible Detections within Physical Theories; II. On Explaining the Approach to Thermodynamic Equilibrium; and III. Relativistic Collapse Theories and a Self-Consistent Model of Semiclassical Gravity.",
+  "title_relatable": "Why does time only flow forward? A physicist's search for answers",
+  "hook": "One thesis tackles three hard problems: detecting quantum gravity, explaining why entropy rises, and building consistent semiclassical gravity.",
+  "summary": "Starting from the puzzle of time's arrow — why natural processes evolve asymmetrically toward the future — this doctoral work branches into three connected areas: identifying in-principle observable signatures of quantum theories, explaining how systems approach thermodynamic equilibrium from first principles, and constructing a self-consistent model of semiclassical gravity using relativistic collapse theories. The ambition is to close the gap between quantum foundations and things we might actually measure.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 676,
+  "tokens_out": 166,
+  "cost_usd": 0.004518,
+  "ingested_at": "2026-06-02T12:25:11.482914+00:00"
+}

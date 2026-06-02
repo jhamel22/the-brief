@@ -1,0 +1,22 @@
+{
+  "id": "2605.31211",
+  "arxiv_url": "https://arxiv.org/abs/2605.31211",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Classical Corrections to Black Hole Entropy II",
+  "authors": "Daulet Berkimbayev, Martin Blaschke",
+  "abstract": "We reconsider the classical one bit absorption model of black hole growth as a discrete recursion rather than a continuum equation. In this paper, one bit means one elementary absorption unit measured in natural logarithmic units. For a Schwarzschild Tangherlini black hole, the discrete treatment gives the expected area scaling and also produces a logarithmic correction. The coefficient of this correction is fixed by the dimensional dependence of the mass step. We then extend the construction to the Reissner Nordström case at fixed charge. In this sector, the logarithmic coefficient gains an explicit charge dependence. The fixed charge calculation can be interpreted as the large mass neutral growth stage after a charged seed has already formed. In that interpretation, realistic charged absorption affects the initial cutoff, while the large mass recursion controls the dominant entropy for weakly charged final states. We also study ordered histories built from positively charged, negatively charged, and neutral labels. These histories define a formal ensemble rather than a direct count of black hole microstates. In a unitary description, two different histories may lead to the same reduced macroscopic state, described by mass, charge, and entropy, while remaining different in hidden or environmental degrees of freedom. Adding a mass or energy label reduces the endpoint degeneracy, but it does not remove it in the ensembles considered here. The corrected interpretation separates dynamical entropy, thermodynamic state entropy, history entropy, and hidden conditional entropy. It also clarifies that the multinomial formula is a restricted history counting result, not a proof that different histories correspond to unique or identical microscopic black hole states.",
+  "title_relatable": "Do black holes remember how they were built?",
+  "hook": "Treating black hole growth as discrete bites instead of a smooth flow naturally produces a logarithmic entropy correction — no quantum gravity needed.",
+  "summary": "Feeding a black hole one absorption unit at a time, rather than using continuous equations, automatically generates the logarithmic correction to Bekenstein-Hawking entropy that physicists have long debated. The coefficient is fixed by geometry alone, and extends to charged black holes where it picks up explicit charge dependence. The paper also distinguishes four separate notions of entropy — dynamical, thermodynamic, history, and hidden — showing that two black holes with identical mass, charge, and entropy can still differ in ways the standard formula cannot see.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 767,
+  "tokens_out": 186,
+  "cost_usd": 0.005091,
+  "ingested_at": "2026-06-02T12:26:09.499679+00:00"
+}

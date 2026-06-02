@@ -1,0 +1,25 @@
+{
+  "id": "2605.31323",
+  "arxiv_url": "https://arxiv.org/abs/2605.31323",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Time-reversed stochastic inflation in the quantum well",
+  "authors": "Chiara Animali, Baptiste Blachier, Nanoka Okada, Christophe Ringeval, Tomo Takahashi, Koki Tokeshi",
+  "abstract": "Time-reversed stochastic inflation solves the stochastic evolution of the inflationary universe backward in time, by counting the number of e-folds from the end of quantum diffusion towards some initial state. The point of view of observers attached to the end-of-inflation hypersurface is thus enforced. In this work, we exactly solve time-reversed stochastic inflation in a flat and bounded potential, the so-called quantum well. At given lifetime, the field behaviour is found to be either indistinguishable from the one obtained in a semi-infinite flat potential, or, subject to enhanced stochasticity where any memory of the initial state is erased. The derived distribution of curvature perturbations reduces to the semi-infinite result for small fluctuations while it develops exponential tails for the large ones. Such tails arise for both positive and negative values, and decay twice as fast as the one obtained in the standard forward stochastic inflation. These differences may have important consequences for tail-sensitive phenomena, such as primordial black hole formation.",
+  "title_relatable": "Does running inflation backward change how rare black holes form?",
+  "hook": "Solving cosmic inflation in reverse reveals exponential tails in density fluctuations that decay twice as fast — altering primordial black hole odds.",
+  "summary": "Running the equations of inflationary quantum diffusion backward in time — from the end of inflation toward its beginning — gives a subtly different picture than the standard forward approach. In a bounded flat potential, large fluctuations develop exponential tails that decay twice as fast as conventional calculations predict. Since primordial black holes form precisely from those rare large fluctuations, this time-reversal perspective could meaningfully shift estimates of how many formed in the early universe.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 684,
+  "tokens_out": 174,
+  "cost_usd": 0.004662,
+  "ingested_at": "2026-06-02T12:25:57.821014+00:00"
+}

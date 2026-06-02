@@ -1,0 +1,25 @@
+{
+  "id": "2606.00163",
+  "arxiv_url": "https://arxiv.org/abs/2606.00163",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.stat-mech",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Phase separation seeded by Z2 and U(1) topological defects from holography",
+  "authors": "Zi-Qiang Zhao, Zhang-Yu Nie, Jing-Fei Zhang, Xin Zhang",
+  "abstract": "We study the interaction between spontaneous symmetry breaking and phase separation dynamics in holography. Using a double-quench protocol, the system first rapidly crosses the critical point and generates topological defects, while a second quench drives the system into a nonlinear unstable regime with spinodal decomposition. We investigate both $\\mathbb{Z}_2$ and $U(1)$ symmetric systems, where different types of topological defects emerge during symmetry breaking. We show that topological defects dynamically determine the nucleation sites of phase separation. As the instability grows, the defect cores expand into macroscopic phase-separated domains. Despite the distinct symmetries and topological properties of these defects, both systems exhibit the same universal dynamical behavior, indicating that topological defects can universally serve as dynamical seeds for subsequent phase separation.",
+  "title_relatable": "What kicks off phase separation? Topological defects, it turns out.",
+  "hook": "Simulations show topological defects—tiny symmetry-breaking scars—reliably nucleate phase separation in two distinct quantum systems.",
+  "summary": "Using a holographic (gravity-dual) simulation, researchers ran a two-step quench: first forcing a system through a phase transition to seed topological defects, then pushing it into an unstable spinodal regime. In both discrete (Z₂) and continuous (U(1)) symmetry systems, defect cores consistently grew into macroscopic phase-separated domains. The finding suggests topological defects are universal nucleation seeds—regardless of the underlying symmetry—with implications for early-universe phase transitions and quantum materials.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 631,
+  "tokens_out": 192,
+  "cost_usd": 0.004773,
+  "ingested_at": "2026-06-02T12:26:20.953836+00:00"
+}

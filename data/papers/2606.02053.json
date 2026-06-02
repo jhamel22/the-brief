@@ -1,0 +1,25 @@
+{
+  "id": "2606.02053",
+  "arxiv_url": "https://arxiv.org/abs/2606.02053",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "COSMOS: A numerical relativity code specialized for PBH formation",
+  "authors": "Chul-Moon Yoo, Hirotada Okawa, Albert Escrivà, Tomohiro Harada, Hayami Iizuka, Taishi Ikeda, Yasutaka Koga, Daiki Saito, Masaaki Shimada, Koichiro Uehara",
+  "abstract": "Primordial black holes (PBHs) are black holes generated in the early universe without having gone through stellar evolution. In the standard formation process, PBHs are formed from super-horizon primordial fluctuations with non-linearly large initial amplitude. In order to simulate the non-linear gravitational dynamics of PBH formation, one has to rely on numerical relativity solvers to approximate the solution of the Einstein equations. COSMOS is a C++ package for solving the Einstein equations in 3+1 dimensions, providing simple tools for the simulation of PBH formation. In order to resolve the collapsing region, non-Cartesian scale-up coordinates and a fixed mesh-refinement procedure are implemented. In COSMOS, a massless scalar field and a perfect fluid with a linear equation of state are implemented as matter fields. To achieve a practically acceptable computational speed, OpenMP is used for the parallelization. COSMOS has no other dependencies, which makes for an easier installation.",
+  "title_relatable": "A new tool for simulating black holes born at the dawn of time",
+  "hook": "COSMOS is a free, self-contained code that simulates primordial black hole formation using full Einstein-equation numerics.",
+  "summary": "Primordial black holes — formed from density fluctuations in the first moments after the Big Bang, not from dying stars — require full numerical relativity to simulate because the physics is violently nonlinear. COSMOS is a new C++ package that handles this, using adaptive coordinates to zoom in on collapsing regions and needing no external libraries. Interest is high because primordial black holes are a leading dark matter candidate and a potential source of gravitational waves.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 706,
+  "tokens_out": 175,
+  "cost_usd": 0.004743,
+  "ingested_at": "2026-06-02T12:24:00.068042+00:00"
+}

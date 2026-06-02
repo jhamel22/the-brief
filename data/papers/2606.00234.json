@@ -1,0 +1,24 @@
+{
+  "id": "2606.00234",
+  "arxiv_url": "https://arxiv.org/abs/2606.00234",
+  "announced_date": "2026-05-29",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "BBH-Genesis: Disentangling Binary Black Hole Formation Channels with GWTC-4",
+  "authors": "Shaunak Padhyegurjar, Suvodip Mukherjee",
+  "abstract": "The detected population of binary black holes (BBHs) from the gravitational wave (GW) data has made it possible to decipher their formation and evolution history over cosmic time. The complexity of astrophysical modeling of binary mergers makes it challenging to predict key signatures for different formation channels. As a result, one of the major avenues to discover the presence of different channels from detected GW events is through a data-driven way which can isolate different scenarios. In this spirit, we developed a new inference pipeline BBH-Genesis and applied it on the fourth GW catalog (GWTC-4) to identify the presence of multiple underlying distinct populations. We find that the current population of all the binary events in GWTC-4 can be explained with the strongest evidence for only a two-channel scenario, hinting at the presence of a non-isolated binary formation channel. This sub-population can be further divided into a third channel with mild support towards formation in AGN exhibiting a slightly different effective spin and mass ratio correlation. In the future, with the detection of more events, it will be clearer whether it is necessary to consider at least three channels to explain the BBH events detected using GW observations.",
+  "title_relatable": "How many ways do black hole pairs actually form?",
+  "hook": "A new pipeline applied to LIGO's latest catalog finds two—possibly three—distinct black hole binary factories in the universe.",
+  "summary": "Analyzing all binary black hole mergers in LIGO/Virgo's fourth catalog (GWTC-4), the BBH-Genesis pipeline finds the data are best explained by two separate formation channels, with hints of a third tied to active galactic nuclei. The tell is in spin and mass-ratio patterns: black holes born together in isolated binaries look subtly different from those paired up in crowded galactic environments. More detections from next-generation detectors should settle whether that third channel is real.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 705,
+  "tokens_out": 182,
+  "cost_usd": 0.004845,
+  "ingested_at": "2026-06-02T12:25:17.130228+00:00"
+}

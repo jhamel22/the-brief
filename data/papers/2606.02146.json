@@ -1,0 +1,22 @@
+{
+  "id": "2606.02146",
+  "arxiv_url": "https://arxiv.org/abs/2606.02146",
+  "announced_date": "2026-06-01",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Spectral suppression of black hole ringdown tails",
+  "authors": "Jose Antonio León Vega, Alejandro Svyatkovskyy Kholyavka, Sayak Datta, Xisco Jiménez Forteza",
+  "abstract": "The late-time power law tail predicted by Price's law is a generic feature of black hole perturbation theory, yet it is largely absent in numerical relativity waveforms of binary black hole mergers. We show that this suppression arises from the spectral structure of oscillatory sources. For a generic perturbation with carrier frequency $ν$ and characteristic width $σ$, the branch-cut excitation coefficient governing the tail is suppressed by $α=σν$. For a Gaussian pulse, the suppression $\\sim e^{-α^2/2}$. This suppression is exact and confirmed by the time domain Regge Wheeler evolutions. The same parameter that controls the transition from broadband to frequency selective black hole response is also responsible for the tail suppression. Moreover, we analytically derive the leading- and next-to-leading-order tail coefficients, finding agreement with numerical fits below the $\\sim10\\%$ level. Our results provide a first principle explanation for the absence of tails in quasi-circular mergers and their enhancement in head-on and eccentric ones.",
+  "title_relatable": "Why do merging black holes hide their predicted afterglow?",
+  "hook": "Price's law predicts a universal gravitational-wave tail after merger — but simulations don't show it. Now we know why.",
+  "summary": "After two black holes merge, relativity predicts a slowly decaying 'tail' in the gravitational-wave signal — yet numerical simulations of circular mergers rarely show it. The culprit is spectral structure: a source oscillating at a well-defined frequency exponentially suppresses the tail by a factor tied to how narrowband the signal is. This explains why head-on and eccentric mergers, which produce broader-spectrum signals, do show tails — and why circular mergers don't.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 694,
+  "tokens_out": 184,
+  "cost_usd": 0.004842,
+  "ingested_at": "2026-06-02T12:23:49.394062+00:00"
+}
