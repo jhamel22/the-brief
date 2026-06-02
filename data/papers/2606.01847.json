@@ -1,0 +1,23 @@
+{
+  "id": "2606.01847",
+  "arxiv_url": "https://arxiv.org/abs/2606.01847",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "The Lie We Tell: Correcting the Euclidean Fallacy in Vision Language Action Policies via Score Matching on Tangent Space",
+  "authors": "Bing-Cheng Chuang, I-Hsuan Chu, Bor-Jiun Lin, YuanFu Yang, Min Sun, Chun-Yi Lee",
+  "abstract": "Diffusion-based Vision-Language-Action policies achieve remarkable success in robotic manipulation, yet commit a fundamental geometric error we term the $\\textbf{Euclidean Fallacy}$: representing SE(3) poses as flat $\\mathbb{R}^{12}$ vectors. This approximation induces (1) manifold drift violating SO(3) constraints, (2) broken equivariance under coordinate transformations, and (3) non-geodesic trajectories with excessive kinematic cost. We introduce $\\textbf{Lie Diffuser Actor (LDA)}$, a diffusion framework operating intrinsically on SE(3). Our method injects noise through left-invariant SDEs, predicts scores in the tangent space, and retracts samples via the exponential map. This formulation eliminates manifold drift by construction while guaranteeing coordinate-frame equivariance and geodesic optimality. On CALVIN ABC$\\rightarrow$D, LDA improves average task length from $3.27$ to $3.51$ ($+7.3\\%$). We further validate our method on real robot and the results show that our methodology outperforms the baseline on majority tasks.",
+  "title_relatable": "Why robot movement policies have been geometrically wrong all along",
+  "hook": "Diffusion-based robot policies treat 3D rotations like flat vectors, breaking physics. A Lie group fix yields 7.3% better task completion on standard benchmarks.",
+  "summary": "Robot learning policies represent 3D poses (position + rotation) as simple 12-dimensional vectors, which violates the mathematical structure of rotation groups and causes the robot to drift off valid orientations. Researchers built Lie Diffuser Actor, a diffusion model that respects SE(3) geometry by operating directly on the manifold of rigid transformations. On CALVIN, a standard manipulation benchmark, it improves average task completion length from 3.27 to 3.51 steps, with gains confirmed on real hardware.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 759,
+  "tokens_out": 204,
+  "cost_usd": 0.0014232000000000001,
+  "ingested_at": "2026-06-02T12:30:41.186166+00:00"
+}

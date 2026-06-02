@@ -1,0 +1,24 @@
+{
+  "id": "2606.00515",
+  "arxiv_url": "https://arxiv.org/abs/2606.00515",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI",
+    "eess.SY"
+  ],
+  "title_original": "PaCo-VLA: Passivity-Shielded Compliance Prior for Contact-Rich Vision-Language-Action Manipulation",
+  "authors": "Haofan Cao, Zhaoyang Li, Zhichao You, Liang Guo, Tianrui Li",
+  "abstract": "Contact-rich manipulation demands both high-level semantic reasoning and the safe regulation of high-frequency contact dynamics. While Vision-Language-Action (VLA) models provide unprecedented semantic generalization, their low-rate outputs lack the reliability required for direct plant authority in force-sensitive tasks. To bridge this semantic-to-control gap, we introduce PaCo-VLA, a passivity-shielded compliance prior that recasts the VLA interface. Rather than trusting VLAs with direct motor commands, PaCo-VLA treats network outputs as task-level compliance proposals: semantic bindings, task stages, and admittance schedules. A high-frequency, proposal-independent passivity shield governs these proposals through energy-tank accounting and boundary checks, preventing invalid, stale, or unverified model predictions from bypassing low-level contact physics. This decoupled architecture also enables causal evaluation, isolating semantic contributions from geometric shortcuts. Extensive simulated and real-world connector-insertion experiments demonstrate that PaCo-VLA achieves superior precision over unshielded VLA baselines, sustaining zero passivity violations even under adversarial compliance shifts. This framework establishes a provably sampled-passive runtime contract at the admittance port and provides a runtime interface for deploying foundation models in contact-rich domains.",
+  "title_relatable": "Can language models safely handle delicate robot touch tasks?",
+  "hook": "A safety layer lets vision-language models control force-sensitive robot tasks without breaking physics constraints or damaging parts.",
+  "summary": "Vision-language models excel at understanding what a robot should do, but they output commands too slowly for precise contact tasks like inserting connectors. PaCo-VLA wraps the VLA in a high-frequency \"passivity shield\" that treats the model's outputs as suggestions—compliance targets, not direct motor commands—and enforces energy conservation to prevent damage. In real connector-insertion trials, this framework achieved zero safety violations while outperforming unshielded baselines, proving language models can handle delicate manipulation when wrapped in physics-aware guards.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 752,
+  "tokens_out": 192,
+  "cost_usd": 0.0013696,
+  "ingested_at": "2026-06-02T12:31:44.932840+00:00"
+}

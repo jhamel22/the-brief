@@ -1,0 +1,22 @@
+{
+  "id": "2606.00709",
+  "arxiv_url": "https://arxiv.org/abs/2606.00709",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "BEVIO: Efficient Bird's-Eye-View based Sparse-Update Visual-Inertial Odometry for Lunar Day-Night Navigation",
+  "authors": "Mohit Singh, Shehryar Khattak, Ashish Goel, Michael Paton, Kostas Alexis, Issa A. Nesnas",
+  "abstract": "Visual-Inertial Odometry (VIO) provides smooth, high-rate state estimates and has been widely used for robotic navigation in both terrestrial and planetary applications. However, its performance is typically dependent on the frequency of visual updates, which is a challenge for planetary rovers operating under extreme resource constraints and low frame rates. This work investigates enabling reliable VIO with very sparse visual updates for lunar rover applications, addressing both day and night-time operations where feature associations become especially difficult under self-illumination conditions. We propose a Bird's Eye View (BEV)-based image matching scheme that remains robust to larger inter-frame motions and more reliable feature matching despite significant visual appearance changes. We extensively evaluate our proposed approach, BEVIO, through high-fidelity photorealistic lunar and real-time robotic experiments conducted using a half-scale lunar rover, in a long-term day-night deployment at Plaster City, CA, USA. The results demonstrate that our method enables reliable day and nighttime self-illuminated traverses at visual update rates as low as 0.25 Hz, underscoring its suitability for navigation on power- and compute-limited lunar rovers.",
+  "title_relatable": "Can lunar rovers navigate using just one image every four seconds?",
+  "hook": "New visual-inertial method enables reliable lunar rover navigation at 0.25 Hz frame rates, handling both daylight and self-illuminated night traverses.",
+  "summary": "Lunar rovers face extreme power and compute constraints, making frequent camera updates infeasible. BEVIO uses bird's-eye-view image matching to enable reliable visual-inertial odometry with ultra-sparse updates (one frame every 4 seconds), robust across day-night transitions and severe lighting changes. Field tests on a half-scale rover in California demonstrated continuous day-night traverses, suggesting real applicability for upcoming lunar missions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 736,
+  "tokens_out": 180,
+  "cost_usd": 0.0013088000000000002,
+  "ingested_at": "2026-06-02T12:31:41.707341+00:00"
+}

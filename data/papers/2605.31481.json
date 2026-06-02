@@ -1,0 +1,22 @@
+{
+  "id": "2605.31481",
+  "arxiv_url": "https://arxiv.org/abs/2605.31481",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Batched Differentiable Rigid Body Dynamics in PyTorch for GPU-Accelerated Robot Learning",
+  "authors": "Yue Wang, Yanran Xu, Wenbo Wu, Chuanhang Qiu, Zhaoxing Li",
+  "abstract": "As robot control shifts toward large-scale reinforcement learning with in-loop dynamics computation, the community's reliance on CPU-bound libraries such as Pinocchio creates a throughput bottleneck in GPU-based training pipelines. We present BARD (Batched Articulated Rigid-body Dynamics), a self-contained PyTorch implementation of Featherstone's rigid-body dynamics algorithms, optimized for batched GPU evaluation and automatic differentiation. Three design choices make this efficient: a tiered lazy-evaluation cache that avoids redundant tree traversals, matmul-free joint transforms via pre-computed Rodrigues constants, and level-parallel propagation that reduces sequential operations to tree-depth batched steps. On five robot models (7-23 DOFs), BARD matches Pinocchio numerically while reaching up to 64x higher throughput for Forward Kinematics and 63x for Jacobians at batch size 4096 on an NVIDIA H200. We validate differentiability through gradient-based system identification on a 7-DOF manipulator, recovering link masses to 1.24% mean error under 5% torque noise, and integrate BARD into an Isaac Lab AMP training pipeline for an 11-DOF spined quadruped with 4096 parallel environments, where it is 8.5x faster than Pinocchio and 2.0x faster than ADAM for in-loop dynamics. BARD is open-sourced at: https://github.com/YueWang996/bard-pytorch-dynamics.",
+  "title_relatable": "Why robot learning stays slow: speeding up physics on GPUs",
+  "hook": "BARD achieves 64× faster forward kinematics than Pinocchio on GPUs, enabling 8.5× speedup in large-scale reinforcement learning pipelines.",
+  "summary": "Robot learning with reinforcement learning requires computing physics millions of times during training, but popular libraries like Pinocchio run on CPUs and bottleneck GPU pipelines. BARD implements rigid-body dynamics directly in PyTorch with three tricks—lazy evaluation, precomputed transforms, and parallel tree propagation—to run on GPUs with full automatic differentiation. On realistic 7–23 degree-of-freedom robots, it matches Pinocchio's accuracy while reaching 64× throughput gain for kinematics and 8.5× speedup in training 4000+ parallel environments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 813,
+  "tokens_out": 222,
+  "cost_usd": 0.0015384,
+  "ingested_at": "2026-06-02T12:33:32.129582+00:00"
+}

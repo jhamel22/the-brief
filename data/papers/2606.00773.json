@@ -1,0 +1,22 @@
+{
+  "id": "2606.00773",
+  "arxiv_url": "https://arxiv.org/abs/2606.00773",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "SafeVLA-Bench: A Benchmark for the Success-Safety Gap in Vision-Language-Action Models",
+  "authors": "Jialiang Fan, Weizhe Xu, Oleg Sokolsky, Insup Lee, Fanxin Kong",
+  "abstract": "Vision-language-action (VLA) benchmarks measure whether a policy completes a requested manipulation task, but binary success can hide safety-relevant trajectory behavior: reaching the goal while applying excessive contact, disturbing bystander objects, destabilizing the held object, or entering robot self-contact. We present SafeVLA-Bench, a post-hoc safety-evaluation framework for existing simulator-based VLA benchmarks. It formalizes task-aware safety requirements as Signal Temporal Logic (STL) specifications and reports native success with two unsafe-success metrics: Succ-But-Unsafe (SBU), the fraction of rollouts that both succeed and violate safety, and Violation Severity Index (VSI), a bounded worst-violation depth score. We instantiate SafeVLA-Bench on LIBERO and RoboCasa-365, evaluating nine policy-benchmark entries across tabletop and kitchen manipulation tasks. High task success does not imply safe execution: high-SR tabletop baselines still leave 13 to 15 percent unsafe-episode rates,and 36 to 56 percent of successful RoboCasa-365 rollouts violate at least one active safety clause. Project page: https://safevla.org.",
+  "title_relatable": "Do robot arms complete tasks safely, or just recklessly?",
+  "hook": "Robots succeed at 90% of manipulation tasks but fail safety in 13–56% of attempts, revealing a hidden success-safety gap.",
+  "summary": "SafeVLA-Bench evaluates whether robot manipulation policies actually execute safely, not just whether they reach the goal. The team added formal safety checks (Signal Temporal Logic specs) to existing benchmarks, measuring both unsafe successes and violation severity. Testing nine policies on LIBERO and RoboCasa-365 shows that high task completion masks serious problems: excessive contact, knocking over objects, and self-collision. Code and evaluation framework released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 740,
+  "tokens_out": 179,
+  "cost_usd": 0.001308,
+  "ingested_at": "2026-06-02T12:31:35.440554+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.02274",
+  "arxiv_url": "https://arxiv.org/abs/2606.02274",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Dexterity-BEV: Aligning 3D World and Actions for Generalizable Robot Policies Learning",
+  "authors": "Huayi Zhou, Wei Gao, Dekun Lu, Ruiji Liu, Zhanqi Zhang, Ziyang Zhang, Jian Chen, Wenlve Zhou, Sheng Xu, Shumin Li, Kangyi Guo, Shichen Xu, Zixin Huang, Yongyi Su, Kui Jia",
+  "abstract": "End-to-end manipulation policies, combined with web-scale pretrained Vision-Language Models (VLMs), show the promise for generalizable and dexterous robotic manipulation. However, they inherit two key limitations from 2D foundation models: 1) the reliance on 2D RGB inputs that ignores the intrinsically 3D nature of manipulation; and 2) the lack of spatial 3D alignment between input-output spaces as well as across diverse robot embodiments, camera setups, and trajectory datasets. In this paper, we present a series of contributions to address these issues. First, we introduce aligned vertex map and vertex spectrum -- a pixel-wise 3D representation that elevates 2D visual inputs to 3D, using camera calibration and optional depth. This novel input representation marries 3D awareness with the generalization of 2D large VLMs. Then, we propose to align the inputs and outputs of manipulation policies by expressing per-pixel 3D information of each camera view and robot actions to a shared coordinate. Based on this, we designate a canonical Bird's-Eye-View (BEV) alignment frame and innovatively propose to construct BEV images, producing a view-invariant representation robust to camera pose variations. To enable training and evaluation at scale, we develop a comprehensive data processing pipeline to perform such alignments; we also introduce a novel temporal alignment scheme for trajectories across diverse robots, human operators, and datasets. These contributions collectively mitigate input and output spatial-temporal misalignments, improving the consistency and generalization for real-world manipulation. Pretrained checkpoint, source code and data processing pipeline are available in https://hnuzhy.github.io/projects/Dex-BEV.",
+  "title_relatable": "Can robots learn dexterous skills by aligning 3D space across cameras and bodies?",
+  "hook": "New method converts 2D camera feeds to 3D alignment, boosting generalization across different robot setups and trajectories.",
+  "summary": "Robots trained on end-to-end manipulation often fail when camera angles or robot bodies change because policies learn from 2D images without spatial grounding. This work adds 3D awareness by computing pixel-wise 3D coordinates from camera calibration, then aligning both visual inputs and robot actions to a shared bird's-eye-view frame. A temporal alignment scheme also handles different recording speeds across robots and datasets. The method improves consistency and real-world transfer; code, trained models, and data pipeline are released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 897,
+  "tokens_out": 196,
+  "cost_usd": 0.0015015999999999999,
+  "ingested_at": "2026-06-02T12:30:21.925867+00:00"
+}

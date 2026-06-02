@@ -1,0 +1,22 @@
+{
+  "id": "2605.31110",
+  "arxiv_url": "https://arxiv.org/abs/2605.31110",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Building Generalization Into Behavior Generation Via Adaptive Compositions of Regularities",
+  "authors": "Aravind Battaje, Malte Bernhard, Vito Mengers, Oliver Brock",
+  "abstract": "Generalization in robotics requires prior knowledge about how the world is structured, yet this structure changes from one situation to the next. This paper investigates the proposition that generalization arises from adaptively composing regularities -- predictable relationships within the robot-environment system -- into situation-appropriate structures for behavior generation. We examine this proposition by analyzing the mechanism in AICON (Active InterCONnect), a framework representing regularities as interacting processes in a differentiable network, where sensory feedback realizes composition and gradient descent generates behavior. To isolate adaptive composition as the key mechanism, we study a simple simulated problem in which all relevant regularities can be identified. We expose the resulting model to a wide range of novel conditions not considered during design, and we find that it generates context-appropriate behavior in all but one case, where encoded regularities are provably insufficient. Ablations reveal that the network automatically modulates which regularities influence behavior based on their informativeness. These results suggest that adaptive composition of regularities constitutes a powerful inductive bias for building generalization into behavior generation.",
+  "title_relatable": "How robots learn to adapt by mixing learned patterns?",
+  "hook": "Framework enables robots to generalize across novel situations by automatically composing learned regularities, succeeding on untested scenarios where encoded patterns suffice.",
+  "summary": "Robots struggle to handle new situations because the world's structure shifts constantly. This work proposes that generalization comes from adaptively combining learned regularities—reliable patterns in how the robot and environment interact—into situation-specific behaviors. Using AICON, a differentiable framework that represents regularities as interacting processes, the authors show the system generates appropriate behavior across novel conditions by automatically weighting which patterns matter most for each situation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 680,
+  "tokens_out": 169,
+  "cost_usd": 0.00122,
+  "ingested_at": "2026-06-02T12:33:50.989490+00:00"
+}

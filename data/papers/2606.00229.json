@@ -1,0 +1,24 @@
+{
+  "id": "2606.00229",
+  "arxiv_url": "https://arxiv.org/abs/2606.00229",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Continuous Reasoning for Vision-Language-Action",
+  "authors": "Yueh-Hua Wu, Tatsuya Matsushima, Kei Ota",
+  "abstract": "Natural language is a powerful reasoning medium for language and vision-language models, but it is mismatched to the granularity of continuous control. Text and explicit subgoals operate at task-level granularity, whereas vision-language-action (VLA) policies must choose actions at a much finer temporal scale; a single reasoning step can therefore span many action chunks while remaining only weakly coupled to the action needed now. This suggests a different question for VLA: what should play the role of language? We argue that a useful VLA reasoning medium must be shareable across model instances, verifiable through downstream action improvement, and aligned with temporally extended control structure. Based on this view, we propose Continuous Reasoning for Vision-Language-Action. Our model first predicts continuous reasoning in the form of a structured set of continuous thoughts, then reuses them as shared context for chunk-structured action generation. Better action prediction alone does not certify good reasoning: if the same internal medium cannot be shared across model instances and independently verified through improved downstream control, the added latent may simply become a model-private shortcut that helps on seen behaviors without supporting generalizable control. We therefore instantiate continuous reasoning as a shared Gaussian latent interface and train it with a self-verification objective in which an exponential-moving-average teacher must successfully consume the student's reasoning when predicting target actions. Empirically, Continuous Reasoning improves LIBERO-PRO robustness and performs strongly on real robots, raising mean subtask success over π0.5 by 40.4% on TX-G2, an AgiBot G2-compatible variant, and 26.3% on HSR. This suggests that reasoning in VLA is less about extra tokens than about a shareable, verifiable internal language for action.",
+  "title_relatable": "What should robots think about while acting?",
+  "hook": "Robot policies trained on vision and language improve 40% on real tasks when they reason in continuous thought vectors instead of text.",
+  "summary": "Vision-language-action models inherit text reasoning from language AI, but text operates at task level while robots need sub-second decisions. This work proposes reasoning as continuous latent vectors—a shareable internal medium verified through a self-checking training objective. The approach boosts robustness by 40% on real robot manipulation tasks and generalizes across robot instances, suggesting effective robot reasoning is less about language tokens than about aligned internal structure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 826,
+  "tokens_out": 164,
+  "cost_usd": 0.0013168000000000001,
+  "ingested_at": "2026-06-02T12:33:25.976090+00:00"
+}

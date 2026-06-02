@@ -1,0 +1,23 @@
+{
+  "id": "2606.01597",
+  "arxiv_url": "https://arxiv.org/abs/2606.01597",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.MA"
+  ],
+  "title_original": "Physics-Informed Modeling and Control of Emergent Behaviors in Robot Swarms",
+  "authors": "Zixuan Jin, Wenzhuo Zhang, Shuxian Quan, Zirui Dong, Fangwen Ye, Yuchen Shi, Cheng Xu",
+  "abstract": "Robot swarms can exhibit coherent collective behaviors through local perception, limited communication and decentralized decision-making, yet modeling and controlling such emergence remains challenging when behaviors unfold over multiple phases. Here we introduce PhySwarm, a physics-informed micro--macro framework that represents multi-stage swarm emergence as physically constrained density-field evolution coupled to executable robot motion. At the macroscopic level, a multi-phase advection--diffusion--reaction model (Macro-ADR) describes phase-dependent swarm-density evolution through directed transport, diffusion-based spatial regulation and behavioral phase transitions. At the microscopic level, an equivalent deterministic motion model (Micro-EDM) realizes these mechanisms through potential-field advection, density-gradient compensation and rate- or event-gated phase switching. A neural-physics controller (NPC) maps local observations and temporal memory to bounded physical parameters, and is trained with a reinforcement learning--PINN objective that combines task rewards with macro-scale density residuals and micro-scale motion-consistency constraints. In several proof-of-concept swarm missions -- including trail-guided foraging, formation-reconfigurable navigation and role-adaptive search and rescue -- we demonstrate that PhySwarm can generate distinct multi-stage emergent behaviors within a unified physics-informed modeling framework. The learned density fields and physical parameters provide interpretable evidence of how advection, diffusion and reaction jointly regulate multi-stage swarm organization. These results establish a physics-informed route for learning, interpreting and controlling emergent behaviors in robot swarms.",
+  "title_relatable": "How do swarm robots learn to organize themselves in stages?",
+  "hook": "Physics-informed framework unifies modeling and control of multi-phase robot swarm behaviors through density-field evolution and learnable physical parameters.",
+  "summary": "Coordinating hundreds of robots without central control is hard, especially when behavior must change in stages. PhySwarm combines macroscopic physics (advection-diffusion-reaction equations) with microscopic robot motion, using reinforcement learning to train a neural controller that maps local observations to physical parameters. Tested on foraging, formation changes, and search-and-rescue, the system generates interpretable multi-stage behaviors and reveals which physics mechanisms (diffusion, transport, phase transitions) drive swarm organization.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 805,
+  "tokens_out": 187,
+  "cost_usd": 0.001392,
+  "ingested_at": "2026-06-02T12:30:43.875315+00:00"
+}

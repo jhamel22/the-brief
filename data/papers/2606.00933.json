@@ -1,0 +1,22 @@
+{
+  "id": "2606.00933",
+  "arxiv_url": "https://arxiv.org/abs/2606.00933",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Generative Multi-Robot Motion Planning via Diffusion Modeling with Multi-Agent Reinforcement Learning Guidance",
+  "authors": "Suk Ki Lee, Venkata Sai Deepak Mutta, Hyunwoong Ko",
+  "abstract": "Coordinating multiple robots in shared environments requires generating feasible trajectories for each agent while accounting for interactions among agents. Centralized planning approaches become difficult to scale as the number of robots increases, while decentralized approaches that allow each agent to plan independently do not inherently account for inter-agent interactions. This paper presents a framework for coordinated multi-robot motion planning that combines decentralized generative trajectory planning with multi-agent reinforcement learning (MARL)-based coordination. Each robot independently generates candidate trajectories using a diffusion model trained on single-agent motion data, leveraging the generative model's ability to produce feasible and diverse trajectories. To reduce conflicts between agents, a centralized value function trained via MARL guides the reverse diffusion process through gradient-based steering, enabling interaction-aware trajectory generation without centralized joint planning or retraining of the generative model. This guidance follows an exponential tilting formulation, in which the value function biases the denoising distribution toward trajectories with higher expected multi-agent return. The framework is evaluated in a simulated maze environment with four mobile robots. Experimental results show that the proposed value-guided diffusion planning reduces the inter-agent interference rate from 55.4% to 41.8%, demonstrating that coordination can be effectively achieved while preserving the scalability of decentralized trajectory generation. These results suggest that MARL-based value guidance can effectively introduce coordination into decentralized generative planners without requiring a fully joint multi-robot model.",
+  "title_relatable": "How to make robots coordinate without central control?",
+  "hook": "Diffusion models generate individual robot paths; MARL guidance reduces collisions from 55% to 42% without retraining.",
+  "summary": "Coordinating multiple robots is hard: central planning doesn't scale, but letting each robot plan alone ignores others. This work trains each robot's trajectory generator independently using diffusion models, then steers them toward collision-free solutions by wrapping a multi-agent reinforcement learning value function around the generation process. In a four-robot maze, the approach cuts inter-agent conflicts from 55% to 42% while keeping the system decentralized.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 779,
+  "tokens_out": 173,
+  "cost_usd": 0.0013152,
+  "ingested_at": "2026-06-02T12:31:25.190288+00:00"
+}

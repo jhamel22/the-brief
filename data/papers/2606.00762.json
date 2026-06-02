@@ -1,0 +1,22 @@
+{
+  "id": "2606.00762",
+  "arxiv_url": "https://arxiv.org/abs/2606.00762",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "STEM: Semantic Target Search and Exploration using MAVs in Cluttered Environments",
+  "authors": "Nikhil Sethi, Max Lodel, Laura Ferranti, Robert Babuška, Javier Alonso-Mora",
+  "abstract": "Autonomous target search is crucial for deploying Micro Aerial Vehicles (MAVs) in emergency response and rescue missions. Existing approaches either focus on 2D semantic navigation in structured environments -- which is less effective in complex 3D settings, or on robotic exploration in cluttered spaces -- which often lacks the semantic reasoning needed for efficient target search. This paper overcomes these limitations by proposing a novel framework that utilizes a semantically-guided viewpoint planner to minimize target search and exploration time in unstructured 3D environments using an MAV. Specifically, we develop a combinatorial planner that generates efficient semantic exploration plans by prioritizing viewpoints that likely lead to the target. To guide the planner towards the target, an active perception pipeline is developed that propagates semantic priorities of observed objects into neighboring frontier voxels for computing semantic information gains of frontier viewpoints. In addition, we demonstrate how LLM-based similarity scores can be leveraged as semantic priority input to our pipeline. Evaluations in two distinct simulation environments show that the proposed method consistently outperforms baselines by quickly finding the target while maintaining reasonable exploration times. Real-world experiments with an MAV further demonstrate the method's ability to handle practical constraints like limited battery life, small sensor range, and semantic uncertainty.",
+  "title_relatable": "How do rescue drones find missing people in cluttered buildings?",
+  "hook": "Semantic-guided planner cuts target search time in clutter by prioritizing promising viewpoints with object reasoning.",
+  "summary": "Drones searching for targets in chaotic 3D spaces like collapsed buildings need both semantic smarts (knowing what matters) and smart exploration. This framework combines a viewpoint planner that predicts where targets are likely hiding—using reasoning about visible objects—with an active perception pipeline that spreads semantic priorities across unexplored regions. LLM similarity scores guide the search. Simulations show faster target discovery than baselines; real drone tests confirm it handles battery limits and sensor noise.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 734,
+  "tokens_out": 178,
+  "cost_usd": 0.0012992000000000001,
+  "ingested_at": "2026-06-02T12:31:38.969464+00:00"
+}

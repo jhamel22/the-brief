@@ -1,0 +1,22 @@
+{
+  "id": "2606.01851",
+  "arxiv_url": "https://arxiv.org/abs/2606.01851",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "PHASOR: Phase-Anchored Universal Action Representations for Humanoid Embodiments",
+  "authors": "Kihyun Kim, Chaeyun Kim, Jongho Shin, Taeyoun Kwon, Junghyun Kim, Mijin Koo, Haon Park",
+  "abstract": "Learning a good action embedding space is fundamental to scalable robot policy learning, yet existing methods treat action latents as task-specific intermediates rather than first-class representations. The resulting latents are unstructured, embodiment-specific, and weakly tied to motion semantics, limiting interpretability, controllability, and transferability across robots. We position the action embedding space itself as a first-class design target, with downstream policy quality emerging from representation quality. Exploiting motion's intrinsic periodicity, we factorize it into a phase manifold that captures cyclic structure via FFT-parametric coefficients, together with a pose branch that conditions the manifold on non-periodic configuration detail. Combined with motion-semantic distillation, this factorized structure yields a cross-embodiment motion manifold that is interpretable and embodiment-agnostic by design. Anchoring multiple humanoid robots to a shared human-pretrained manifold then produces a unified action embedding space across diverse platforms, achieving strong cross-embodiment retrieval and consistent gains on downstream robot tasks.",
+  "title_relatable": "How to teach different robots the same motion language?",
+  "hook": "Researchers built a shared motion space that lets different humanoid robots understand the same action embeddings, improving cross-robot transfer without task-specific retraining.",
+  "summary": "Most robot policies learn action embeddings specific to their own body, making it hard to transfer skills between different robots. This work treats the action embedding space itself as a core design goal by factorizing motion into periodic (cyclic) and non-periodic components using FFT coefficients and pose conditioning. By anchoring multiple humanoid robots to a shared human-pretrained manifold, they created a unified action space that works across embodiments, improving cross-robot retrieval and downstream task performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 703,
+  "tokens_out": 185,
+  "cost_usd": 0.0013024,
+  "ingested_at": "2026-06-02T12:30:34.730385+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.02577",
+  "arxiv_url": "https://arxiv.org/abs/2606.02577",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "RoboDream: Compositional World Models for Scalable Robot Data Synthesis",
+  "authors": "Junjie Ye, Rong Xue, Basile Van Hoorick, Runhao Li, Harshitha Rajaprakash, Pavel Tokmakov, Muhammad Zubair Irshad, Vitor Guizilini, Yue Wang",
+  "abstract": "Scaling robot learning requires large-scale, diverse demonstrations, yet real-world data collection via teleoperation remains prohibitively expensive and time-consuming. While video diffusion models offer a promising avenue for data scaling, existing generative approaches are often limited to superficial visual augmentation, or suffer from embodiment hallucinations that yield physically infeasible motions. We present a generalizable embodiment-centric world model that achieves scalable data generation by synthesizing photorealistic demonstrations with novel objects, in novel scenes, and from novel viewpoints. Our approach anchors generation to rendered robot motion while conditioning on explicit scene and object priors, effectively decoupling trajectory execution from environment synthesis. This formulation has the potential to unlock two powerful data scaling capabilities: (1) retrieval and rebirth, which repurposes existing trajectories into entirely new contexts without new motion data; and (2) prop-free teleoperation, where operators manipulate empty air and the model hallucinates the target objects and scene afterwards, eliminating reset time. We demonstrate with real-world experiments that our generated data consistently improves downstream policy performance and significantly reduces real-world data requirements across diverse manipulation tasks.",
+  "title_relatable": "Can we fake robot training data without faking the physics?",
+  "hook": "Synthetic video generation cuts real robot data needs by generating diverse demonstrations with novel objects and scenes while preserving physically feasible motion.",
+  "summary": "Real robot learning requires expensive demonstrations collected via teleoperation. RoboDream generates photorealistic training data by anchoring to physically valid robot trajectories while separately synthesizing novel scenes and objects around them. This decoupling enables two tricks: reusing old robot motions in new environments, and \"prop-free\" teleoperation where operators gesture at empty air and the model adds objects later. Real-world experiments show synthetic data meaningfully improves downstream task performance and cuts demand for expensive real-world collection.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 745,
+  "tokens_out": 185,
+  "cost_usd": 0.001336,
+  "ingested_at": "2026-06-02T12:30:09.369898+00:00"
+}

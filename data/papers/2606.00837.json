@@ -1,0 +1,23 @@
+{
+  "id": "2606.00837",
+  "arxiv_url": "https://arxiv.org/abs/2606.00837",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "Coarse-to-Fine Compositional Diffusion for Long-Horizon Planning",
+  "authors": "Byoungwoo Park, Utkarsh A. Mishra, Jaemoo Choi, Juho Lee, Yongxin Chen",
+  "abstract": "Diffusion models provide strong priors for generating structured data, but many tasks require outputs beyond the scale on which these models are typically trained. Compositional generation addresses this by composing overlapping local plans from a pretrained short-horizon prior into a long-horizon output. However, standard composition primarily enforces agreement between neighboring local plans, yielding local consistency without directly specifying the global structure of the full composition. As a result, locally compatible plans may still form an implausible route, task sequence, or temporal evolution. Existing methods improve global coherence by repeatedly propagating local consistency signals or by adding inference-time optimization, but these procedures become expensive as the number or dimensionality of local plans increases. We propose Coarse-to-Fine Compositional Diffusion (CoFi), an inference-time sampler that separates global structure formation from local detail refinement. CoFi first aligns local denoised estimates around a shared coarse structure, producing a global scaffold that captures the long-range task-level arrangement. It then diffuses this scaffold to an intermediate noise level and denoises it with the same pretrained local prior, restoring local fine structure while preserving the scaffold-induced global coherence. Across long-horizon robotic planning, panoramic image generation, and long video generation, CoFi not only improves both global coherence and local sample quality over prior compositional baselines, but also requires 2-8x fewer denoiser evaluations.",
+  "title_relatable": "How to make diffusion models plan farther ahead without exploding compute costs",
+  "hook": "New method composes short-horizon diffusion plans into long sequences 2–8× faster while maintaining global coherence across robotic tasks and video generation.",
+  "summary": "Diffusion models excel at generating short sequences, but extending them to long-horizon tasks breaks coherence—neighboring plans stay locally consistent yet form implausible global trajectories. CoFi separates this into two stages: first building a coarse structural scaffold capturing task-level arrangement, then refining details while preserving that scaffold. Across robotic manipulation, panoramic images, and long videos, it improves both global structure and sample quality while cutting denoiser calls by 2–8×.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 780,
+  "tokens_out": 193,
+  "cost_usd": 0.001396,
+  "ingested_at": "2026-06-02T12:31:22.049925+00:00"
+}

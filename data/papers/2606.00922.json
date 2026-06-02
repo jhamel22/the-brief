@@ -1,0 +1,23 @@
+{
+  "id": "2606.00922",
+  "arxiv_url": "https://arxiv.org/abs/2606.00922",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "physics.med-ph",
+    "cs.RO"
+  ],
+  "title_original": "A Machine-to-Machine Knowledge-Guided LLM Agent for Generalizable Radiotherapy Treatment Planning",
+  "authors": "Md Mainul Abrar, Xun Jia, Yujie Chi",
+  "abstract": "In this work, we propose a prototype machine-to-machine (M2M) knowledge-guided Large Language Model (LLM) framework for automated radiotherapy treatment planning. In the proposed paradigm, Treatment Planning Parameter (TPP) distribution knowledge discovered by a Deep Reinforcement Learning (DRL) agent is transferred to an LLM agent through in-context learning, enabling autonomous iterative planning without human intervention. While standard LLM-based planning often lacks physical intuition and struggles with convergence, the integration of DRL-derived guidance constrains the agent to a physically valid parameter space. Experimental evaluations are performed across three diverse planning scenarios: basic prostate cases, complex prostate configurations with increased organ-at-risk (OAR) constraints, and liver cases. The evaluation results demonstrate that the guided LLM agent consistently achieves optimal planning scores while significantly reducing the number of iterations compared to unguided planning. Analysis of the final TPP configurations reveals that the agent successfully learns a hierarchical priority of objectives, effectively restoring a logical \"cause-and-effect\" relationship between parameter tuning and dosimetric outcomes. Crucially, this prototype framework exhibits robust generalizability, maintaining high planning quality regardless of specific patient anatomy, treatment site, or initial plan quality. By bridging the specialized optimization of DRL with the adaptive reasoning of LLMs, this M2M framework establishes a scalable foundation towards generalizable autonomous treatment planning, ultimately benefiting clinical practice in realistic environments.",
+  "title_relatable": "Can AI agents plan radiation therapy without human guidance?",
+  "hook": "Combining reinforcement learning with language models cuts planning iterations in half while maintaining quality across prostate and liver cases.",
+  "summary": "Radiation therapy plans require careful tuning of dozens of parameters to target tumors while avoiding healthy tissue—a task that typically demands human expertise. This work pairs a reinforcement learning agent (which finds good parameter ranges) with an LLM (which reasons through the optimization) so they guide each other: the RL agent prevents the LLM from proposing physically invalid settings, while the LLM learns to prioritize competing objectives logically. Tested on prostate and liver cases with varying complexity, the system matches expert-quality plans in fewer iterations than LLMs working alone, and generalizes across patient anatomy and treatment sites.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 768,
+  "tokens_out": 205,
+  "cost_usd": 0.0014344000000000002,
+  "ingested_at": "2026-06-02T12:31:32.294487+00:00"
+}

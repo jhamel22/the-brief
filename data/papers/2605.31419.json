@@ -1,0 +1,23 @@
+{
+  "id": "2605.31419",
+  "arxiv_url": "https://arxiv.org/abs/2605.31419",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "Triangle Splatting SLAM",
+  "authors": "Nicholas Fry, Eric Dexheimer, Kirill Mazur, Paul H. J. Kelly, Andrew J. Davison",
+  "abstract": "We present a dense RGB-D SLAM system using differentiable triangles as the 3D map representation. While 3D Gaussian Splatting has emerged as the leading method for novel-view synthesis, triangles remain the standard primitive for traditional rendering hardware, game engines, and downstream tasks requiring explicit geometry such as simulation, collision, and editing. Recent offline methods have demonstrated that an unstructured 'triangle soup' can be optimised into a photorealistic mesh via Delaunay triangulation across a set of posed images. Building upon this insight, we present the first dense SLAM system to employ Triangle Splatting to perform both tracking and mapping through online differentiable rendering of a triangle soup. The map can be converted into a connected mesh on-the-fly via restricted Delaunay triangulation, enabling new online capabilities such as mesh deformation and collision checking. On Replica and TUM-RGBD, our system outperforms baselines on 3D geometry, matches the camera-tracking accuracy, and enables online mesh-based scene editing.",
+  "title_relatable": "Can triangles beat Gaussians for fast 3D scene mapping?",
+  "hook": "Dense SLAM system uses optimized triangle meshes instead of Gaussian blobs, enabling real-time 3D geometry that game engines and physics simulators can directly use.",
+  "summary": "Standard SLAM uses point clouds or implicit representations; this work reconstructs scenes as differentiable triangle meshes optimized during camera tracking. On Replica and TUM-RGBD benchmarks, it matches competing trackers while producing sharper 3D geometry, and uniquely enables live mesh editing and collision checking—features impossible with Gaussian splatting. The system converts unstructured triangles into connected meshes on-the-fly.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 674,
+  "tokens_out": 185,
+  "cost_usd": 0.0012792,
+  "ingested_at": "2026-06-02T12:33:35.376832+00:00"
+}

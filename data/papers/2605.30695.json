@@ -1,0 +1,22 @@
+{
+  "id": "2605.30695",
+  "arxiv_url": "https://arxiv.org/abs/2605.30695",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Primitive Subspaces Mediate Few-Shot Transfer in VLAs",
+  "authors": "Anya Singh, Cabrel Happi, Jai Relan, Varun Nair, Vidyut Baradwaj",
+  "abstract": "Deploying vision-language-action (VLA) policies in industrial environments requires the ability to teach new tasks at low cost, a property current VLAs lack, since each new task requires fine-tuning. We investigate whether primitive-aware training produces a transferable artifact: a learned library of sub-skills that can be composed at inference time, conditioned on a small number of demonstrations, to perform tasks the policy was never trained on. We train two VLA architectures with different inductive biases, OpenVLA and $π_{0.5}$, on the REASSEMBLE contact-rich assembly dataset under matched LoRA fine-tuning recipes and locked hyperparameters, varying training between flat trajectories and primitive-segmented episodes with primitive-specific language prompts. We hold out 6 object-task combinations from training and evaluate few-shot transfer: models receive $m \\in \\{0, 1, 3, 5, 10\\}$ demonstrations of a held-out task and attempt execution without weight updates. We replicate across three training seeds and validate on a second dataset (LIBERO-Long). Primitive-trained models reach 78% of fine-tuned upper-bound performance with only m=3 demonstrations, while flat-trained models require m=10 demonstrations to reach the same level -- a $3\\times$ sample efficiency gap that replicates across seeds, architectures, and datasets. To establish causation, we ablate the primitive-decodable subspace of hidden states and show few-shot transfer degrades by 32 percentage points while ablating a random subspace of equal dimensionality has no effect, indicating primitive representations are causally necessary rather than incidentally correlated with transfer. We identify and correct a methodological pitfall in evaluating chunked policies: family-wise inflation of single-step action-range gates produces order-of-magnitude higher false-failure rates against ground-truth human demonstrations.",
+  "title_relatable": "Do robots learn better by breaking tasks into sub-skills?",
+  "hook": "Training on decomposed tasks cuts sample needs by 3×: robots reach 78% expert performance with just 3 demos instead of 10.",
+  "summary": "Vision-language-action policies struggle to learn new tasks without expensive fine-tuning. Researchers trained two VLA architectures on assembly data using either raw trajectories or primitive-segmented episodes (broken into sub-skills), then tested few-shot transfer on held-out tasks using only 0–10 demonstrations. Primitive-trained models hit 78% of fine-tuned performance with 3 demos; flat-trained models needed 10. Ablating the primitive-decodable subspace of hidden states dropped transfer by 32 points, proving primitives are causally necessary, not coincidental.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 880,
+  "tokens_out": 214,
+  "cost_usd": 0.00156,
+  "ingested_at": "2026-06-02T12:33:57.827057+00:00"
+}

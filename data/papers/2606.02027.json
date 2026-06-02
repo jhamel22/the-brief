@@ -1,0 +1,24 @@
+{
+  "id": "2606.02027",
+  "arxiv_url": "https://arxiv.org/abs/2606.02027",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "World-Task Factorization for Robot Learning",
+  "authors": "Eduardo Sebastián, Adrian Pfisterer, Vito Mengers, Oliver Brock, Amanda Prorok",
+  "abstract": "Robot learning must produce policies that generalize to new combinations of constraints, teammates, and environments. To achieve this, we must structurally factor the policy, which is a choice that dictates what generalizes, what requires retraining, and what remains entangled. Existing methods span a wide spectrum, from expecting structure to emerge from data scaling, to hand-designing it via hierarchies, skill libraries or learned specializations. In this paper, we study what we argue is the most fundamental factorization in robotics: separating the world from the task. We investigate the conditions under which this factorization is principled. World factors are properties of the embodied system and the environment; they exist independently of intent. Task factors are defined by the task's logic over what the world admits. We formalize this asymmetry through Bayesian model evidence: it aligns with the data-generating process, maintains high likelihood through an analytical world model, and reduces the Occam razor's penalty on task parameters. We instantiate this factorization by pairing AICON, a differentiable graph of recursive estimators and interconnections that is compositional, operates without task-specific data, and propagates cost gradients to actuators, with a compact, learned policy that modulates gradient paths. Gradients serve as the interface between the two factors: they carry world structure through the graph and task structure through costs, enabling low-dimensional learning while preserving structural generalization. We test the world/task factorization across three problems that encompass heterogeneous robots, environments, task logic and sensorimotor modalities. Our framework outperforms end-to-end baselines and analytical heuristics in all settings, generalizes zero-shot to out-of-distribution configurations, and transfers to real hardware without retraining.",
+  "title_relatable": "Should robots separate what they know about the world from what the task asks?",
+  "hook": "Splitting robot policies into world and task components enables zero-shot transfer across environments and teammates without retraining on real hardware.",
+  "summary": "Robot policies often fail when environments, teammates, or constraints change, because they entangle world knowledge with task logic. This work argues that separating these—treating world properties (physics, embodiment) as fixed and task logic (goals, constraints) as modular—is the right structural choice. The team formalized this through Bayesian evidence and built AICON, a differentiable graph of estimators that learns world dynamics without task-specific data, paired with a learned policy that modulates gradient flow. Tested on three heterogeneous robot problems, the approach outperformed end-to-end baselines and zero-shot transferred to real hardware.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 830,
+  "tokens_out": 218,
+  "cost_usd": 0.001536,
+  "ingested_at": "2026-06-02T12:30:31.833672+00:00"
+}

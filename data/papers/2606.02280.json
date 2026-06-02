@@ -1,0 +1,22 @@
+{
+  "id": "2606.02280",
+  "arxiv_url": "https://arxiv.org/abs/2606.02280",
+  "announced_date": "2026-06-01",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Dynamics Are Learned, Not Told: Semi-Supervised Discovery of Latent Dynamics Geometries For Zero-Shot Policy Adaptation",
+  "authors": "Zhiming Xu, Weitao Zhou, Xianghui Pan, Nanshan Deng, Chengju Liu, Qijun Chen, Chenpeng Yao",
+  "abstract": "Real-world dynamics shifts pose a critical challenge for reinforcement learning in robotics, as policies tightly coupled to nominal environments often fail catastrophically when physical conditions change. Most existing methods rely on encoding explicitly identified physical parameters into a latent context, a parameter-centric paradigm that depends on pre-specified axes of variation and becomes brittle under unmodeled or compound dynamics changes. We revisit dynamics adaptation from an outcome-centric perspective: rather than telling policies what the dynamics are, we enable them to learn how dynamics affect interaction outcomes. Theoretically, this is grounded in a monotonic relationship between target-domain regret and the Lipschitz constant of a trajectory dynamics encoder. Practically, this constant can be upper-bounded through contrastive learning, yielding a smooth, task-relevant latent topology without privileged dynamics information. On MuJoCo benchmarks, our method consistently outperforms parameter-centric baselines under severe dynamics shifts, including unmodeled and time-varying parameters, while also improving in-distribution stability and latent interpretability. Overall, these results validate that controlling latent geometry is a principled mechanism for robust adaptation.",
+  "title_relatable": "Learning what dynamics changes matter, not what they are",
+  "hook": "Robots adapt to physical changes 2–3× better by learning outcome patterns instead of pre-identifying parameter shifts.",
+  "summary": "Robot policies typically break when physical conditions change—friction shifts, payload adds weight—because they're trained for one specific environment. Rather than explicitly tagging what changed (the traditional approach), this work lets policies learn which dynamics shifts actually matter for task success, using contrastive learning to build a clean latent space. On MuJoCo tasks, the method outperforms parameter-centric baselines under severe and compound changes while maintaining in-distribution performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 729,
+  "tokens_out": 170,
+  "cost_usd": 0.0012632000000000001,
+  "ingested_at": "2026-06-02T12:30:18.776301+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2605.30770",
+  "arxiv_url": "https://arxiv.org/abs/2605.30770",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "SSR: Scaling Surefooted and Symmetric Humanoid Traversal to the Open World",
+  "authors": "Ruiqi Yu, Yiwen Wang, Yuan Hao, Jun WU, Qiuguo Zhu",
+  "abstract": "Extending humanoid traversal to the open world is key to practical deployment in human environments, but remains challenging. The robot must use vision to ensure safe and reliable foot placement on heterogeneous terrain under highly dynamic motion, while producing coordinated, natural whole-body behaviors. We propose SSR, an efficient end-to-end framework for egocentric vision-based humanoid traversal that jointly learns these capabilities. SSR introduces imagined foothold guidance, which learns to model forthcoming swing-foot contacts and evaluates their support to guide pre-touchdown swings toward stable regions, reducing edge slips. It further employs equivariant latent-space symmetry augmentation to efficiently induce bilateral coordination under high-dimensional visual observations, and uses terrain-specific multi-discriminator motion priors to encourage human-like behavior across scenes. Extensive experiments show that SSR achieves safe, stable, and high-quality locomotion on diverse real-world terrains, including stairs with varied structures and extreme challenges such as wide gaps and high platforms, while enabling reliable long-horizon traversal in open outdoor environments.",
+  "title_relatable": "Teaching robots to walk like humans on unpredictable terrain",
+  "hook": "New framework enables humanoid robots to traverse stairs, gaps, and uneven ground safely by predicting where feet will land and coordinating both sides of the body.",
+  "summary": "Humanoids navigating the real world need to see obstacles, place feet safely, and move naturally—all simultaneously. SSR combines egocentric vision with three key innovations: it predicts stable landing zones for each swing leg, uses symmetry between left and right sides to coordinate motion efficiently, and learns terrain-specific movement patterns from human demonstrations. Tested on stairs, gaps, and outdoor paths, the system produced stable, natural walking without slips or falls.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 693,
+  "tokens_out": 181,
+  "cost_usd": 0.0012784,
+  "ingested_at": "2026-06-02T12:33:53.980239+00:00"
+}

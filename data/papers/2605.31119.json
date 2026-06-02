@@ -1,0 +1,23 @@
+{
+  "id": "2605.31119",
+  "arxiv_url": "https://arxiv.org/abs/2605.31119",
+  "announced_date": "2026-05-29",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "Don't Fool Me Twice: Adapting to Adversity in the Wild with Experience-Driven Reasoning",
+  "authors": "Navin Sriram Ravie, Andrew Jong, Krrish Jain, John Liu, Omar Alama, Bijo Sebastian, Sebastian Scherer",
+  "abstract": "In robotics, dangers and adversity modes are often embodiment-specific and relative to each agent. A frontier of autonomous mobile robotics is to enable agents to operate effectively in the wild in unseen unstructured environments. A significant challenge in unseen unstructured environments is that it may not be possible to predict all the dangers to the specific robot. Although recent work has used large foundation vision-language models (VLMs) to preemptively predict an exhaustive list of common-sense dangers, it remains difficult to capture possible interaction and embodiment-dependent adversities. We propose a continual learning framework for a mobile embodied agent to learn online from disturbances and attribute anomalous behaviours to causes through semantics, enabling better prediction and planning of the world in the future. Our framework, \"Don't Fool Me Twice\", first observes disturbances and describes their effects on the robot; this description is augmented with visual context to query a VLM to predict possible causes; the local disturbance is characterized using kernel regression, which allows for efficient, few-shot modeling of transient anomalies. We leverage semantic voxel-centric modeling to estimate epistemic uncertainty, enabling richer downstream recovery by treating interaction-driven disturbances as learnable spatial behaviors. We present four hypotheses and validate them in simulation and on hardware across embodiments and adversity modes.",
+  "title_relatable": "How robots learn from mistakes to avoid them next time",
+  "hook": "Mobile robots learn online from unexpected failures, using vision-language models to understand causes and predict hazards—validated across multiple robot embodiments.",
+  "summary": "Robots operating in unpredictable real-world environments often encounter hazards specific to their design that can't be anticipated in advance. This work proposes a continual learning system where robots observe disturbances (collisions, slips, etc.), describe what happened using cameras, query a vision-language model to identify likely causes, and build spatial models of dangerous interactions. The approach combines kernel regression for quick anomaly characterization with semantic uncertainty estimation to enable better recovery. Tested in simulation and on hardware across different robot types and failure modes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 766,
+  "tokens_out": 191,
+  "cost_usd": 0.0013768000000000003,
+  "ingested_at": "2026-06-02T12:33:47.856466+00:00"
+}

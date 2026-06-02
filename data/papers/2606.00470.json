@@ -1,0 +1,23 @@
+{
+  "id": "2606.00470",
+  "arxiv_url": "https://arxiv.org/abs/2606.00470",
+  "announced_date": "2026-05-30",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cond-mat.soft"
+  ],
+  "title_original": "A passive universal grasping mechanism based on an everting shell",
+  "authors": "Mythra V. S. Balakuntala, Safvan Palathingal, G. K. Ananthasuresh",
+  "abstract": "A passive monolithic compliant grasping mechanism that works based on the eversion of an elastically deformable bistable shell is conceptualized. It comprises grasping arms made of beam segments that work in conjunction with the everting shell. The grasper is capable of picking up a stiff object of any shape up to a maximum size and weight. The bistable shell everts upon contact with the object to enable the grasping arms envelop the object forming an enclosure. The mechanism then stays in that configuration until it is actuated again to turn the shell back to its original configuration and thereby opening the enclosure to release the object. The stiffness of the arms decides the payload of the mechanism. The size of the arms decides the largest object that can be grasped and held. The arms have distributed compliance so that they can conform to the shape of the object without applying undue force on it.",
+  "title_relatable": "Hands that grip anything without electricity or sensors",
+  "hook": "Passive gripper uses a flipping shell and compliant arms to grasp objects of any shape, holding them safely until manually released.",
+  "summary": "Researchers built a one-piece rubber gripper with no motors, sensors, or electronics. It works like an everting shell—imagine a sea anemone closing around prey—with flexible arms that conform to whatever object touches it. When the shell flips back, it releases. The arms' stiffness determines payload; their size determines maximum object diameter. No power needed, works on any shape.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 647,
+  "tokens_out": 161,
+  "cost_usd": 0.0011615999999999998,
+  "ingested_at": "2026-06-02T12:31:48.980972+00:00"
+}
