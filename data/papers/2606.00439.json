@@ -1,0 +1,22 @@
+{
+  "id": "2606.00439",
+  "arxiv_url": "https://arxiv.org/abs/2606.00439",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Physical Object Understanding with a Physically Controllable World Model",
+  "authors": "Rahul Venkatesh, Klemen Kotar, Lilian Naing Chen, Wanhee Lee, Gia Ancone, Seungwoo Kim, Luca Thomas Wheeler, Jared Watrous, Honglin Chen, Daniel Bear, Stefan Stojanov, Daniel LK Yamins",
+  "abstract": "A central challenge in visual intelligence is learning the physical structure of scenes from raw videos: how regions form objects and the laws that govern their interactions. Solving these tasks requires world models capable of inferring distributional states of the world from partial observations - capabilities that current architectures do not provide. We introduce a new class of probabilistic world models that support estimation of the probability of any visual variable, such as appearance and dynamics, conditioned on any other variables. Here, we identify that these models can be trained efficiently with autoregressive sequence modeling, yielding world models from which rich object understanding emerges. First, we demonstrate that our model captures the physical laws governing how objects move by generating multiple plausible future states of the world through sequential inference. Then, by analyzing motion correlations across these futures, we extract objects and articulated object subparts. Having discovered these objects, we show that our world model can manipulate them in 3D. Finally, we demonstrate how physical relationships between objects can be computed from the world model, enabling applications such as Visual Jenga.",
+  "title_relatable": "Can world models learn what objects are just by watching them move?",
+  "hook": "New probabilistic model infers object structure and physics from video alone, extracting articulated parts and enabling 3D manipulation without explicit labels.",
+  "summary": "Current video models struggle to understand what constitutes an object or how physics works. This work trains a probabilistic world model using autoregressive sequence prediction, which naturally learns to infer probability distributions over any visual property given others. The model discovers objects by analyzing motion correlations across multiple predicted futures, extracts articulated subparts, and can manipulate 3D objects and solve tasks like Visual Jenga—all from raw video without object labels.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 716,
+  "tokens_out": 175,
+  "cost_usd": 0.0012728000000000001,
+  "ingested_at": "2026-06-02T12:38:35.629484+00:00"
+}

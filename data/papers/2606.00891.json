@@ -1,0 +1,22 @@
+{
+  "id": "2606.00891",
+  "arxiv_url": "https://arxiv.org/abs/2606.00891",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "MMDG-Bench: A Benchmark for Multimodal Domain Generalization",
+  "authors": "Qianshan Zhan, Qian Wang, Da Li, Xiao-Jun Zeng, Xiatian Zhu",
+  "abstract": "Multi-modal Domain Generalization (MMDG) seeks to leverage complementary modalities to enhance model robustness on unseen domains. Despite extensive progress in Multi-modal Learning (MML) and Domain Generalization (DG) as individual fields, their systematic integration remains under-explored. Current MMDG research is largely confined to action recognition and lacks standardized evaluation protocols. To address this, we introduce MMDG-Bench, a comprehensive benchmark featuring two foundational frameworks: DG then MML (D2M) and MML then DG (M2D). We provide unified experimental protocols across diverse tasks, including video-audio-flow action recognition and RGB-Depth-IR face anti-spoofing. By instantiating ten MMDG baselines through pairing a unified MML configuration with five DG techniques under both D2M and M2D orderings, we demonstrate that these structured combinations frequently outperform existing state-of-the-art methods, underscoring the necessity of a unified benchmarking effort. Our analysis yields three key insights: (1) Integrating DG techniques provides consistent generalization gains across various backbones, whereas non-DG methods are highly sensitive to backbone shifts; (2) The optimal framework choice depends on inter-modal stability: D2M excels when modal relations are stable across domains, while M2D is more robust to cross-domain relational variance; (3) Stronger backbones yield amplified performance dividends when integrated into our structured frameworks. MMDG-Bench provides a principled foundation and actionable design guidelines for future research in multi-modal robustness. Code is released at https://github.com/qszhan/MMDG-Bench.",
+  "title_relatable": "How should you combine multiple senses to recognize things in new environments?",
+  "hook": "New benchmark tests 10 multimodal approaches across action recognition and face detection, revealing when to fuse modalities before or after domain adaptation.",
+  "summary": "Models struggle when trained on one environment but tested on another, and this gets harder when using multiple data types (video, audio, depth, thermal). This work introduces MMDG-Bench, the first systematic evaluation of multimodal domain generalization, testing two orders of fusion: combining modalities then adapting (M2D) versus adapting first then fusing (D2M). Across face anti-spoofing and action recognition, the framework choice matters: stable cross-domain relationships favor D2M, while M2D handles modal drift better. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 840,
+  "tokens_out": 206,
+  "cost_usd": 0.001496,
+  "ingested_at": "2026-06-02T12:38:46.508701+00:00"
+}

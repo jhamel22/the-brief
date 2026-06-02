@@ -1,0 +1,23 @@
+{
+  "id": "2606.00928",
+  "arxiv_url": "https://arxiv.org/abs/2606.00928",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Single-Channel Tissue Segmentation via Cross-Modal Distillation from Foundation Models",
+  "authors": "Sakib Mohammad, Jarin Ritu, Md Sakhawat Hossain",
+  "abstract": "Multiplexed fluorescence microscopy improves tissue segmentation by providing complementary channels including nuclear (DAPI) and membrane (E-cadherin), that together encode richer spatial context than single-channel imaging alone. However, multiplexed models require all channels at inference, limiting deployment where only a subset is available. This work proposes a cross-modal knowledge distillation framework that transfers semantic information from a frozen foundation model teacher processing multiplexed input to a lightweight student operating on the nuclear channel only. The distillation objective combines MSE-based probability matching, boundary-aware supervision, and learnable uncertainty weighting. SAM ViT-H and CellSAM are evaluated as teachers across four U-Net students: Swin-Tiny (27M), ResNet18 (11M), EfficientNet-B0 (5.3M), and MobileNetV3 (1.5M), on TissueNet and BBBC038. On TissueNet, the SAM-distilled Swin-Tiny student achieves Dice 78.36 (plus or minus 1.44), a 13.05-point improvement over the no-KD baseline (65.31 plus or minus 1.35) and 87.9% recovery of teacher oracle performance (89.12 plus or minus 1.21) at a 23x parameter reduction. KD consistently improves all four students by approximately 12 Dice points, confirming architecture-agnostic distillation. SAM ViT-H outperforms CellSAM as teacher across all settings. Cross-dataset evaluation on BBBC038 shows consistent gains without teacher retraining.",
+  "title_relatable": "Can single microscopy images match multi-channel quality using teacher models?",
+  "hook": "Knowledge distillation from foundation models boosts single-channel tissue segmentation by 13 Dice points, matching 88% of multi-channel performance with 23× fewer parameters.",
+  "summary": "Medical microscopy typically needs multiple fluorescent channels (nuclear, membrane) to segment tissue accurately, but that's expensive and limits deployment. This work uses a frozen foundation model (SAM ViT-H) trained on full multi-channel images to teach a tiny student network (1.5–27M parameters) using only the nuclear channel. The distillation combines probability matching, boundary-aware losses, and uncertainty weighting. On TissueNet, the SAM-distilled Swin-Tiny student jumps from 65.31 to 78.36 Dice—recovering 88% of the full-channel oracle's performance—consistently improving all four tested architectures by ~12 points without retraining across datasets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 828,
+  "tokens_out": 251,
+  "cost_usd": 0.0016664000000000002,
+  "ingested_at": "2026-06-02T12:38:42.501186+00:00"
+}

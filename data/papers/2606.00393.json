@@ -1,0 +1,23 @@
+{
+  "id": "2606.00393",
+  "arxiv_url": "https://arxiv.org/abs/2606.00393",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "eess.IV",
+    "cs.CV"
+  ],
+  "title_original": "AutoIQ: An Ensemble Framework for Automatic Assessment of Geometric Distortion in Prostate Diffusion-Weighted Imaging",
+  "authors": "Haoran Sun, Lixia Wang, Yin-Chen Hsu, Hsu-Lei Lee, Chang Gao, Fei Han, Robert Grimm, Vibhas Deshpande, Ziyang Long, Hsin-Jung Yang, Rola Saouaf, Alessandro D'Agnolo, Timothy Daskivich, Hyung Kim, Debiao Li, Yibin Xie",
+  "abstract": "Geometric distortion in prostate diffusion-weighted imaging (DWI) can impair lesion localization and reduce the reliability of MRI-based clinical assessment. We propose AutoIQ, an ensemble machine learning framework for automatic quantification and classification of DWI geometric distortion severity. A total of 140 retrospective prostate biparametric MRI examinations were analyzed, including 33 scans with severe distortion requiring repeat acquisition and 107 scans with acceptable distortion based on expert radiologist assessment. AutoIQ combines two complementary distortion quantification strategies: a segmentation-based method measuring prostate boundary mismatch between T2-weighted imaging (T2WI) and DWI, and a registration-based method estimating deformation magnitude after DWI-to-T2WI alignment. The resulting distortion scores were used to train individual classifiers and a logistic-regression ensemble model. Both computational methods significantly differentiated severe from acceptable distortion cases (p < 0.001). On an independent test set, the ensemble model achieved an accuracy of 0.95, F1-score of 0.93, and AUC of 0.98, outperforming individual models. These results suggest that AutoIQ can provide automated, quantitative quality assessment for prostate DWI and may help identify scans that require repeat acquisition.",
+  "title_relatable": "Can AI detect when prostate scans are too blurry for diagnosis?",
+  "hook": "Ensemble model flags geometric distortion in MRI scans with 95% accuracy and 0.98 AUC, potentially reducing repeat acquisitions.",
+  "summary": "Geometric distortion in prostate MRI scans can hide tumors and force costly repeats. AutoIQ combines two automated methods—measuring boundary mismatch between scan types and estimating deformation after alignment—then blends their outputs via ensemble voting. On 140 clinical exams, it achieved 95% accuracy distinguishing scans requiring repeat acquisition from acceptable ones, outperforming either method alone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 838,
+  "tokens_out": 177,
+  "cost_usd": 0.0013784000000000001,
+  "ingested_at": "2026-06-02T12:40:41.865072+00:00"
+}

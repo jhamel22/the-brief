@@ -1,0 +1,23 @@
+{
+  "id": "2606.00514",
+  "arxiv_url": "https://arxiv.org/abs/2606.00514",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "Generate in Reconstruction Space, Match in Semantic Space: Transport Geometry for One-Step Generation",
+  "authors": "Hugues Van Assel, Edward De Brouwer, Saeed Saremi, Gabriele Scalia, Aviv Regev",
+  "abstract": "Generative modeling and self-supervised representation learning (SSL) optimize structurally different objectives: generative training rewards distributional fidelity, while SSL rewards semantic coherence. Yet recent work repeatedly finds that SSL features improve generative training, though the mechanism of this synergy remains unclear. Here, we study the benefits of SSL in generative modeling in the framework of one-step generation where the role of representation is explicit: frozen SSL features are used to match generated samples to real data. We use the Sinkhorn divergence in that feature space, providing a tractable surrogate for the Wasserstein distance, the population-level discrepancy approximated by Fréchet-style evaluation metrics (such as FID). We find that this objective becomes highly effective when computed in a semantically structured SSL feature space (a 39$\\times$ reduction in ImageNet FID). We trace this behavior primarily to matching estimation: semantic SSL features that suppress nuisance reconstruction details induce a more compact geometry, making distribution matching more tractable. As a consequence, the best training SSL features need not match the features used by the evaluation metric. In particular, we show that using Inception as the feature extractor can improve FID while degrading matching stability and sample quality, revealing a form of metric hacking. Using extensive experiments on ImageNet, we identify which SSL feature families lead to best generation performance and show that matching stability is a quantitative criterion for selecting them. Code is available at https://github.com/Genentech/semantic-transport-generation.",
+  "title_relatable": "Why self-supervised features make one-step image generation 39× better",
+  "hook": "Generative models trained with semantic features from self-supervised learning achieve 39× better ImageNet FID, but not because evaluation metrics reward it—geometry matters more than metrics.",
+  "summary": "One-step image generators match generated samples to real data using frozen self-supervised learning (SSL) features and the Sinkhorn divergence. The key insight: SSL features suppress reconstruction noise, creating compact geometry that makes distribution matching tractable—39× FID improvement on ImageNet. Surprisingly, the best features for training differ from the best features for evaluation metrics, exposing how metrics can be gamed. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 788,
+  "tokens_out": 181,
+  "cost_usd": 0.0013544000000000002,
+  "ingested_at": "2026-06-02T12:38:26.072039+00:00"
+}

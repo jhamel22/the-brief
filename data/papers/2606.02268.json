@@ -1,0 +1,22 @@
+{
+  "id": "2606.02268",
+  "arxiv_url": "https://arxiv.org/abs/2606.02268",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "From Extrinsic to Intrinsic: Geodesic-Guided Representation Learning for 3D Geometric Data",
+  "authors": "Yuming Zhao, Junhui Hou, Qijian Zhang, Jia Qin, Ying He",
+  "abstract": "Geometric analysis fundamentally distinguishes between \\textit{extrinsic} and \\textit{intrinsic} perspectives. The dominant paradigm in current 3D representation learning relies on either extrinsic spatial structures or high-level semantics, struggling to capture the essence of shape identity and underlying manifold topology. To bridge this gap, we introduce a novel 3D representation learning paradigm, namely \\textbf{PRISM}, for \\textbf{P}re-training, which learns isometric embeddings by \\textbf{R}ecovering the \\textbf{I}ntrinsic \\textbf{S}urface geodesic \\textbf{M}etric. PRISM incorporates a topology-enforcing objective that explicitly constrains the structure of latent space, alongside a specialized two-stage training recipe mitigating sample imbalance inherent in the distribution of geodesic distances. Experiments demonstrate that our approach shows satisfactory accuracy, robustness, and high efficiency in geodesic distance prediction and achieves superior performance across diverse downstream tasks, including shape recognition, surface parameterization, and non-rigid correspondence. The code will be publicly available at https://github.com/AidenZhao/PRISM.",
+  "title_relatable": "Can 3D networks learn the true shape of surfaces?",
+  "hook": "New pretraining method learns 3D shapes by recovering their intrinsic geometry rather than just spatial position, improving recognition and correspondence tasks.",
+  "summary": "Most 3D learning models focus on external coordinates or semantic labels, missing the underlying geometry of shapes themselves. PRISM instead learns by reconstructing geodesic distances—the true shortest paths on a surface—using a topology constraint and two-stage training to handle imbalanced distance distributions. It outperforms baselines on shape recognition, surface mapping, and non-rigid matching. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 748,
+  "tokens_out": 164,
+  "cost_usd": 0.0012544000000000001,
+  "ingested_at": "2026-06-02T12:36:19.879447+00:00"
+}

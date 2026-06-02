@@ -1,0 +1,22 @@
+{
+  "id": "2606.00310",
+  "arxiv_url": "https://arxiv.org/abs/2606.00310",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Where to Refine, When to Stop: Rethinking Redundancy via Latent Discrepancy for Efficient Visual Autoregressive Generation",
+  "authors": "Changwang Mei, Peisong Wang, Zekun Li, Changsheng Li, Shuang Qiu, Qinghao Hu, Gang Li, Yifan Zhang, Zhihui Wei, Jian Cheng",
+  "abstract": "Visual Autoregressive (VAR) models deliver high-quality image generation but suffer from significant inference latency at high resolutions. Recent acceleration approaches most rely on heuristic measures with layer features to prune tokens. Such heuristics are sensitive to complex contextual semantics, leading to inaccurate identification of redundant computation and poor adaptability across prompts. We rethink redundancy in VAR from the perspective of its impact on pixel-space generation and introduce Latent Discrepancy. This unified metric quantifies a token's contribution by measuring the change in model states during generation. Our analysis shows that redundancy is more accurately identified when guided by image latent or pixel-space signals. We further observed that in classifier-free guidance (CFG), the convergence trend of the discrepancy between conditional and unconditional branches exhibits high dynamics with different prompts. Based on these findings, we propose LD-Pruning (Latent Discrepancy Pruning), a training-free framework that removes redundancy via latent discrepancy by integrating decoding-free region selection and adaptive unconditional-branch skipping. Extensive experiments show that LD-Pruning substantially reduces inference latency while maintaining high generation quality, achieving up to 2.35x speedup on Infinity-8B.",
+  "title_relatable": "How to skip unnecessary computation in image generation without losing quality?",
+  "hook": "Speeds up visual autoregressive models 2.35× by identifying which tokens actually matter for final image quality.",
+  "summary": "Visual autoregressive models generate images one token at a time, but most tokens are redundant computation. Instead of guessing which ones to skip using shallow heuristics, this work measures each token's true impact on the final image by tracking changes in the model's internal state. On the Infinity-8B model, the method achieves 2.35× speedup while preserving generation quality, and requires no retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 788,
+  "tokens_out": 167,
+  "cost_usd": 0.0012984000000000001,
+  "ingested_at": "2026-06-02T12:40:04.350352+00:00"
+}

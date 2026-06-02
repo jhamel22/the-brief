@@ -1,0 +1,23 @@
+{
+  "id": "2606.02522",
+  "arxiv_url": "https://arxiv.org/abs/2606.02522",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
+  "authors": "Xiaolin Liu, Yilun Zhu, Xiangyu Zhao, Xuehui Wang, Yan Li, Xin Li, Haoyu Cao, Xing Sun, Shaofeng Zhang, Xu Yang, Zhihang Zhong, Xue Yang",
+  "abstract": "Video multimodal large language models (MLLMs) have made rapid progress on general and long-form video understanding, yet their ability to preserve brief answer-critical visual evidence remains underexplored. Many practical questions are determined by momentary visual events: localized actions or state transitions that may last only a few frames. Such evidence can be skipped by sparse frame sampling, suppressed by visual-token compression, or diluted by coarse temporal aggregation, causing failures that language-side reasoning cannot reliably recover. We introduce Moment-Video, a benchmark for diagnosing the temporal fidelity of video MLLMs through momentary visual event understanding. Each question is grounded in a localized, visually observable, and sampling-sensitive event, requiring models to notice, count, describe, or reason about transient evidence rather than rely on persistent objects, global scene context, or language priors. Moment-Video contains 1,000 human-verified video-QA pairs across 7 domains and 25 fine-grained subcategories, covering four task types: Temporal Occurrence, Temporal Counting, Action Description, and Temporal Reasoning. We evaluate 33 proprietary and open-source MLLMs on Moment-Video. The best-performing model, Seed-2.0-Pro, achieves only 39.6% overall accuracy, while most open-source models remain below 25%, revealing a substantial gap in momentary visual event understanding. Diagnostic analyses show that denser frame sampling improves some models but does not eliminate the bottleneck, and longer videos introduce stronger temporal-localization challenges. These findings suggest that current video MLLMs still lack temporally faithful representations for capturing, preserving, and using brief but decisive visual evidence.",
+  "title_relatable": "Why video AI misses the crucial split-second moments",
+  "hook": "Video AI models fail on brief visual events: best performer scores only 39.6% on a new benchmark of momentary actions.",
+  "summary": "Video language models ace long-form understanding but stumble on split-second events—a quick action, a state change, a single-frame detail. Researchers created Moment-Video, a 1,000-question benchmark exposing this blind spot across 33 models. Even top performers hit only 39.6% accuracy when forced to spot, count, or reason about transient visual evidence. The problem: sparse frame sampling and temporal compression skip or blur the evidence before language reasoning can help.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 881,
+  "tokens_out": 183,
+  "cost_usd": 0.0014368000000000002,
+  "ingested_at": "2026-06-02T12:36:51.524105+00:00"
+}

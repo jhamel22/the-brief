@@ -1,0 +1,22 @@
+{
+  "id": "2606.00416",
+  "arxiv_url": "https://arxiv.org/abs/2606.00416",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "4D Radar Meets LiDAR and Camera: Cooperative Perception under Adverse Weather",
+  "authors": "Melih Yazgan, Iramm Hamdard, Qiyuan Wu, J. Marius Zoellner",
+  "abstract": "Cooperative perception is important for autonomous driving but remains fragile when cameras and LiDAR degrade in adverse weather. We address this challenge by integrating 4D imaging radar as a weather-robust modality into collaborative perception and introducing a Doppler-guided spatial attention mechanism for multi-agent fusion. Our approach extends two representative backbones: a radar-camera pipeline where radar substitutes LiDAR, and a LiDAR-radar pipeline where radar complements LiDAR. To support evaluation, we release radar-augmented benchmarks, OPV2V-R and Adver-City-R, with physics-based LiDAR degradation. Experiments show strong robustness gains in fog and rain, including substantial improvements when radar replaces degraded LiDAR. Additional validation on MAN TruckScenes demonstrates transfer beyond simulation. Overall, our results highlight 4D imaging radar as a robust modality for all-weather collaborative perception. Dataset and code are available at: https://url.fzi.de/SlimComm.",
+  "title_relatable": "Why radar might save autonomous cars in bad weather",
+  "hook": "4D radar handles fog and rain where cameras and lidar fail; outperforms degraded lidar in cooperative perception with new benchmarks.",
+  "summary": "Autonomous vehicles lose perception ability in fog and rain because cameras and lidar degrade. This work integrates 4D imaging radar—which sees through weather via radio waves and motion—into multi-agent perception systems with a Doppler-guided attention mechanism. Two new benchmarks (OPV2V-R, Adver-City-R) with simulated weather allow testing. Results show radar can replace or complement lidar, with major robustness gains in adverse conditions and validation on real truck data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 691,
+  "tokens_out": 187,
+  "cost_usd": 0.0013008000000000002,
+  "ingested_at": "2026-06-02T12:39:50.262734+00:00"
+}

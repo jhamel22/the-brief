@@ -1,0 +1,22 @@
+{
+  "id": "2606.02573",
+  "arxiv_url": "https://arxiv.org/abs/2606.02573",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image",
+  "authors": "Hezhen Hu, Wangbo Zhao, Lanqing Guo, Hanwen Jiang, Jonathan C. Liu, Zhiwen Fan, Kai Wang, Zhangyang Wang, Georgios Pavlakos",
+  "abstract": "In this paper, we present HumanNOVA, a photorealistic, universal, and rapid model for generating 3D human avatars from a single RGB image. Achieving both photorealism and generalization is challenging due to the scarcity of diverse, high-quality 3D human data. To address this, we build a scalable data generation pipeline that follows two strategies. The first one is to leverage existing rigged assets and animate them with extensive poses from daily life. The second strategy is to utilize existing multi-camera captures of humans and employ fitting to generate more diverse views for training. These two strategies enable us to scale up to 100k assets, significantly enhancing both the quantity and the diversity of data for robust model training. In terms of the architecture, HumanNOVA adopts a feed-forward, token-conditioned avatar modeling framework that allows fast inference in less than one second and requires no test-time optimization. Given an input image and an estimated simplified human mesh (SMPL) without detailed geometry or appearance, the model first encodes both inputs into compact token representations. These tokens then act as conditioning signals and are fused through cross-attention to construct a triplane-based 3D avatar representation. Extensive experiments on multiple benchmarks demonstrate the superiority of our approach, both quantitatively and qualitatively, as well as its robustness under diverse input image conditions. Project page at https://HumanNOVA.github.io .",
+  "title_relatable": "Can one photo become a photorealistic 3D person in under a second?",
+  "hook": "Generates detailed 3D human avatars from single photos in <1 second, trained on 100k synthetic assets for diversity.",
+  "summary": "HumanNOVA reconstructs photorealistic 3D human avatars from a single image without test-time optimization. The key insight: scale synthetic training data by animating rigged assets in realistic poses and re-rendering multi-camera captures. The feed-forward model encodes the image and rough body mesh (SMPL) into tokens, fuses them via cross-attention, and outputs a 3D triplane representation—fast enough for real-time use. Outperforms prior work on standard benchmarks while handling diverse lighting and poses.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 811,
+  "tokens_out": 204,
+  "cost_usd": 0.0014648000000000003,
+  "ingested_at": "2026-06-02T12:36:34.299009+00:00"
+}

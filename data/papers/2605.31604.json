@@ -1,0 +1,22 @@
+{
+  "id": "2605.31604",
+  "arxiv_url": "https://arxiv.org/abs/2605.31604",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Representation Forcing for Bottleneck-Free Unified Multimodal Models",
+  "authors": "Yuqing Wang, Zhijie Lin, Ceyuan Yang, Yang Zhao, Fei Xiao, Hao He, Qi Zhao, Zihan Ding, Fuyun Wang, Shuai Wang, Youliang Zhang, Haoqi Fan, Xihui Liu",
+  "abstract": "Unified multimodal models (UMMs) aim to handle perception and generation in a single model. Yet existing UMMs still rely on a frozen, separately pretrained VAE for image generation, imposing a structural bottleneck. Naively removing it introduces a quality gap, as the model must learn both high-level structure and low-level details from raw pixels. In this paper, we propose Representation Forcing (RF), a technique that closes this gap by making representation prediction a native capability of the model. Concretely, RF forces the decoder to autoregressively predict visual representations as intermediate tokens before pixels; these tokens then stay in context to guide pixel diffusion within the same backbone. By turning representations from perception outputs into generation targets, RF eliminates the need for any external generative latent space. We find that RF benefits both understanding and generation. On image generation, our pixel-space model with RF matches state-of-the-art VAE-based unified models. On image understanding, pixel-space RF generally outperforms its VAE-based variant. Together, these results offer an effective step toward end-to-end, bottleneck-free UMMs.",
+  "title_relatable": "Why do multimodal models still need frozen image encoders?",
+  "hook": "Unified models can now generate and understand images without external VAE bottlenecks, matching VAE-based systems on generation while improving understanding.",
+  "summary": "Unified multimodal models typically rely on a frozen, separately trained VAE for image generation—a structural limitation. This work proposes Representation Forcing (RF), which teaches the model to predict visual representations as intermediate tokens before generating pixels. These tokens remain in context to guide diffusion within the same backbone, eliminating the need for external generative latent spaces. The result: pixel-space models with RF match state-of-the-art VAE-based systems on image generation while outperforming them on understanding tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 752,
+  "tokens_out": 195,
+  "cost_usd": 0.0013816,
+  "ingested_at": "2026-06-02T12:40:21.232185+00:00"
+}

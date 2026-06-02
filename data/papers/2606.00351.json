@@ -1,0 +1,22 @@
+{
+  "id": "2606.00351",
+  "arxiv_url": "https://arxiv.org/abs/2606.00351",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "UniVerse: A Unified Modulation Framework for Segmentation-Free,Disentangled Multi-Concept Personalization",
+  "authors": "Quynh Phung, Sandesh Ghimire, Minsi Hu, Chung-Chi Tsai, Jia-Bin Huang",
+  "abstract": "Personalized visual understanding has advanced significantly, yet existing approaches struggle to localize and extract specific concepts when input images contain multiple objects. Many prior methods rely heavily on segmentation-based supervision or exhibit poor compositional generalization, limiting their ability to accurately disentangle and manipulate individual concepts. In this work, we propose UniVerse, a Unified Modulation Framework for segmentation-free, disentangled multi-concept personalization in diffusion transformers. Our method allows for composable and decomposable concept extraction, enabling fine-grained localization and representation of target objects without explicit segmentation masks. UniVerse learns to decompose complex scenes into concept-specific representations and then compose them in a unified manner, enabling robust personalization across diverse visual contexts. Through extensive experiments on multiple benchmarks, we demonstrate that UniVerse significantly outperforms state-of-the-art baselines in both localization accuracy and visual fidelity. Qualitative and quantitative results show that our approach can precisely extract target concepts in cluttered scenes, paving the way for more flexible, interpretable, and personalized visual generation and understanding.",
+  "title_relatable": "How to pick out one object in a crowded scene without manual tracing?",
+  "hook": "New method extracts and manipulates individual objects from cluttered images without segmentation masks, outperforming baselines on localization and visual quality.",
+  "summary": "Existing personalization methods struggle when images contain multiple objects—they need manual segmentation or fail to separate what's what. UniVerse does this without masks by learning to decompose a complex scene into individual concept representations inside diffusion transformers, then recompose them. Tests show it localizes target objects more accurately and generates higher-fidelity results than prior work.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 716,
+  "tokens_out": 165,
+  "cost_usd": 0.0012328000000000003,
+  "ingested_at": "2026-06-02T12:40:01.628949+00:00"
+}

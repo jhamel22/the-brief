@@ -1,0 +1,23 @@
+{
+  "id": "2606.00931",
+  "arxiv_url": "https://arxiv.org/abs/2606.00931",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "CV-Arena: An Open Benchmark for Instructional Computer Vision Problem Solving with Human-AI Collaborative Preferences",
+  "authors": "Fangzhou Lin, Peiran Li, Lingyu Xu, Wenjing Chen, Qianwen Ge, Shuo Xing, Mingyang Wu, Xiangbo Gao, Siyuan Yang, Kazunori Yamada, Ziming Zhang, Haichong Zhang, Zhen Dong, Ming-Hsuan Yang, Zhengzhong Tu",
+  "abstract": "Instruction-guided image editing is becoming a general interface for visual work, yet existing benchmarks still focus largely on narrow appearance edits and do not fully capture the diversity of real-image tasks in professional workflows. Here, we define instructional computer vision problem solving as a broader formulation of image editing: given a real input image and a natural-language instruction, a system must produce an edited output that realizes the requested transformation while satisfying explicit preservation, geometric, physical, and usability constraints. We introduce CV-Arena, an open benchmark designed to evaluate this capability at professional scales. CV-Arena contains 12K high-resolution real-image instruction pairs spanning 16 instruction-based visual task types, constructed using CogRetriever, a dual-track retrieval-and-curation pipeline that combines targeted web search, agentic query refinement, verification, and traceability. To evaluate models at scale while preserving human fidelity, we propose Active Elo, a human-AI collaborative preference protocol that leverages CV-Judge, a logic-gated, multi-dimensional VLM evaluator, to reject clear failures and resolve high-confidence comparisons; and to route close, high-quality comparisons to expert raters. Mixed human and AI supervision is then aggregated through reliability-weighted Elo updates. Our comprehensive evaluation of 21 systems, including proprietary, open-source, and agentic models, on CV-Arena reveals persistent gaps in instruction adherence, physical reasoning, structural control, and fine-grained detail preservation. We further develop CV-Agent, a lightweight agentic model that combines planning, editing, and verification, and demonstrate that closed-loop reasoning is a promising direction for professional-grade instruction-following visual editing.",
+  "title_relatable": "How well can AI actually follow image editing instructions?",
+  "hook": "New benchmark with 12K professional image tasks reveals AI struggles with physical reasoning and fine detail—and introduces a hybrid human-AI evaluation system to judge at scale.",
+  "summary": "Image editing has moved beyond simple filters to complex, multi-constraint tasks: remove an object while preserving shadows, adjust perspective while keeping proportions. CV-Arena benchmarks 21 AI systems on 12,000 high-resolution real images with natural-language instructions spanning 16 task types, paired with a dual-track construction pipeline and an \"Active Elo\" evaluation system that routes confident judgments to AI validators and ambiguous cases to expert raters. All systems failed at structural control and physical reasoning; a lightweight agentic model using iterative planning-editing-verification showed the most promise.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 898,
+  "tokens_out": 211,
+  "cost_usd": 0.0015624,
+  "ingested_at": "2026-06-02T12:38:38.870152+00:00"
+}

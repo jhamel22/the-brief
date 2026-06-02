@@ -1,0 +1,25 @@
+{
+  "id": "2606.02276",
+  "arxiv_url": "https://arxiv.org/abs/2606.02276",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Cross-modal linkage risk in clinical vision-language models",
+  "authors": "Soroosh Tayebi Arasteh, Mahshad Lotfinia, Sven Nebelung, Daniel Truhn",
+  "abstract": "Vision-language models (VLMs) trained on paired chest radiographs and radiology reports learn a shared embedding space that can preserve instance-level image-report correspondence. This poses a privacy risk in settings where radiographs and reports are deliberately kept separate after acquisition, such as image-only data sharing or access-controlled reports, because a de-identified image may be re-linked to its original narrative report through cosine similarity alone. We formalized this as image-to-report retrieval and used public paired cohorts, in which the true pairing is known by design, as ground-truth benchmarks to audit the risk rather than as the privacy scenario. Evaluating VLMs of increasing clinical specialization on 406,241 paired examples from 126,804 patients across MIMIC-CXR (43,793 held-out pairs) and external CheXpert Plus (29,296 pairs), we found that re-linkage rose systematically with specialization: the strongest VLM retrieved the correct report at 15 times chance at a candidate pool of N = 100, 50 times chance at N = 10,000, and well above chance at full-database scale. The signal persisted under pathology-matched hard negatives that removed disease-label shortcuts, indicating correspondence beyond broad diagnostic categories. To reduce it without retraining, we froze both encoders and applied differentially private optimization only to the projection heads defining the alignment layer (epsilon = 0.34, delta = 6x10-6). This reduced Recall@1 by 61.8% at N = 10,000 on MIMIC-CXR and transferred to CheXpert Plus without retraining, while image-side utility was largely preserved: macro AUROC for linear-probe classification across 14 labels shifted only from 79.63% to 79.43%. Targeted DP finetuning of the shared alignment layer can substantially reduce cross-modal re-linkage without materially degrading the image representations that make these models clinically useful.",
+  "title_relatable": "Can AI models secretly re-link medical images to patient reports?",
+  "hook": "Vision-language models trained on chest X-rays and reports can re-identify images at 50× chance level, but differential privacy on alignment layers cuts this risk by 62% while preserving diagnostic accuracy.",
+  "summary": "Clinical vision-language models learn to match radiographs with their corresponding reports in a shared embedding space—a problem when images and reports are supposed to stay separate for privacy. Researchers tested this \"cross-modal linkage\" vulnerability on 406,241 paired examples from MIMIC-CXR and CheXpert Plus, finding stronger models could retrieve the correct report far above random chance, even when disease labels were removed. Applying differential privacy only to the projection layer connecting the two modalities reduced re-linkage by 62% without meaningfully degrading image classification (AUROC dropped 0.2 percentage points), offering a practical defense mechanism.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 902,
+  "tokens_out": 236,
+  "cost_usd": 0.0016656,
+  "ingested_at": "2026-06-02T12:36:17.270732+00:00"
+}

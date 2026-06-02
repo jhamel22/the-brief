@@ -1,0 +1,24 @@
+{
+  "id": "2606.00738",
+  "arxiv_url": "https://arxiv.org/abs/2606.00738",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "SORA: Free Second-Order Attacks in Fast Adversarial Training",
+  "authors": "Mazdak Teymourian, Ramtin Moslemi, Farzan Rahmani, Mohammad Hossein Rohban",
+  "abstract": "Adversarial Training (AT) is a leading defense against adversarial examples but often suffers from Catastrophic Overfitting (CO) in efficient single-step variants, where robustness to multi-step attacks collapses despite high single-step performance. We address this failure mode with two contributions. First, we formalize Epsilon Overfitting (EO), a perspective in which fixed perturbation magnitudes and directions exacerbate CO, and show that introducing perturbation variability significantly improves robust generalization across different architectures and datasets. Second, we propose PertAlign (Perturbation Alignment), a theoretically grounded, computationally negligible metric that predicts CO onset by measuring gradient alignment across attack stages. Leveraging these insights, we introduce SORA, an adaptive step-size AT method that dynamically adjusts perturbations based on loss surface geometry. SORA consistently prevents CO, achieves state-of-the-art robustness and clean accuracy, and generalizes across datasets and architectures using a single fixed set of hyperparameters, which is essential for applicability in fast AT. Extensive experiments on diverse datasets and architectures show that SORA matches or surpasses the robustness of prior methods while delivering higher clean accuracy and superior efficiency. Code is available at https://github.com/SecondOrderAT/SORA.",
+  "title_relatable": "Why fast adversarial training suddenly fails, and how to fix it",
+  "hook": "Single-step adversarial training crashes on multi-step attacks despite high accuracy. SORA uses gradient geometry to prevent collapse and matches multi-step robustness with one-step speed.",
+  "summary": "Fast adversarial training—training on one-step attacks to save time—mysteriously loses robustness against multi-step attacks. The team identified that fixed perturbation magnitudes cause this collapse, then built SORA, which adapts perturbations based on loss surface shape. On CIFAR-10, ImageNet, and other datasets, SORA matches the robustness of slower methods while keeping training speed and improving clean accuracy, using the same hyperparameters across architectures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 761,
+  "tokens_out": 200,
+  "cost_usd": 0.0014088000000000002,
+  "ingested_at": "2026-06-02T12:39:09.673261+00:00"
+}

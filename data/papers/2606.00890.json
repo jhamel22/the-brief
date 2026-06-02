@@ -1,0 +1,22 @@
+{
+  "id": "2606.00890",
+  "arxiv_url": "https://arxiv.org/abs/2606.00890",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Cohort-Scale Neural Atlases of Ultrasound Video",
+  "authors": "Zhuorui Zhang, Roger Pallarès-López, Xuan Wu, Praneeth Namburi, Brian W. Anthony",
+  "abstract": "Ultrasound is the most widely used real-time imaging modality in clinical practice, yet per-frame video annotation remains a major bottleneck: expert labels are scarce and costly, and image appearance varies with speckle, shadowing, attenuation, and operator-dependent probe pose. This is especially limiting because clinically relevant information is often dynamic, from left-ventricular motion in echocardiography to muscle and bone kinematics in musculoskeletal imaging. Population atlases can amortize annotation cost by registering observations to a shared canonical coordinate system, but existing neural atlas methods mainly target single videos, small test-time image sets, or object-centric image collections. We introduce a cohort-scale neural atlas for ultrasound video: a single canonical chart with per-video Generative Latent Optimization embeddings, trained jointly over thousands of frames in DINOv3 feature space. Across five cardiac and musculoskeletal datasets with point landmarks and segmentation masks, our method learns coherent canonical templates and enables accurate atlas-space annotation transfer. On EchoNet-Dynamic and MSK-Bone, it supports single- and few-shot transfer with accuracy competitive with strong dense-correspondence baselines, while training in minutes on a single consumer GPU. The learned embeddings are interpretable: linear projections reveal structured cohort variation, image-decoder interpolation produces anatomically plausible intermediate frames, and test-time latent inversion reconstructs held-out frames through the atlas. These results suggest that cohort-scale neural atlases offer a practical, interpretable representation for reducing expert annotation burden in ultrasound video analysis.",
+  "title_relatable": "Can a shared ultrasound template reduce the need for expert labeling?",
+  "hook": "A single neural atlas trained on thousands of ultrasound frames enables accurate anatomy labeling with just one or two examples, cutting annotation cost dramatically.",
+  "summary": "Ultrasound video analysis needs dense expert labels, but annotating every frame is expensive and clinical images vary wildly with probe angle and image artifacts. Researchers built a cohort-scale neural atlas—a shared canonical coordinate system trained across thousands of frames from five datasets—that learns to map individual videos into a consistent space using latent embeddings. On cardiac (EchoNet-Dynamic) and musculoskeletal datasets, the method matches or beats dense-correspondence baselines on few-shot transfer tasks while training in minutes on consumer hardware. The learned embeddings reveal interpretable anatomical variation across patients and enable realistic frame synthesis.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 813,
+  "tokens_out": 217,
+  "cost_usd": 0.0015184,
+  "ingested_at": "2026-06-02T12:38:17.653574+00:00"
+}

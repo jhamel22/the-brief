@@ -1,0 +1,23 @@
+{
+  "id": "2606.00261",
+  "arxiv_url": "https://arxiv.org/abs/2606.00261",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "physics.soc-ph"
+  ],
+  "title_original": "The Harsh Truth: Segment-Level Analysis of Harsh Driving Events in Milan Using Large-Scale Telematics, Street Networks, and Google Street View",
+  "authors": "Andrea La Grotteria, Paolo Santi, Titus Venverloo, Umberto Fugiglando, Carlo Ratti",
+  "abstract": "Police-reported crash statistics remain the standard input for urban road-safety assessment, but their incompleteness and reporting lag limit their usefulness for timely, fine-grained intervention design. Harsh acceleration and braking events are widely used as surrogate safety indicators, but have so far been studied only in comparatively small urban samples. This study analyses harsh events across the urban road network of Milan, combining high-resolution telematics from more than 4.2 million vehicles equipped with On-Board Units, segment-level traffic metrics from TomTom, street-network and infrastructure attributes from OpenStreetMap, and visual streetscape features extracted from Google Street View via semantic segmentation using a OneFormer model. We employ an analytical framework combining non-parametric Mann--Whitney U tests of segment-feature distributions between high- and low-harshness groups with supervised machine-learning regressors. We find that, once exposure is controlled for, wider carriageways, crossings and transit stops, and more open visual fields (higher sky- and road-pixel proportions) are associated with higher harsh-event intensity, while denser built frontage is associated with lower intensity. Finally, the cycling-infrastructure case study identifies a gradient in harsh-event intensity across facility types: markings-only cycle lanes are associated with a 19.5% higher harshness score, and mixed-traffic configurations with an 11.5% higher score, relative to physically separated cycle paths, conditional on the included controls. These results support context-specific rather than uniform urban-safety interventions and illustrate how large-scale telematics combined with open geospatial and visual data can inform Vision Zero decision-making at the metropolitan scale.",
+  "title_relatable": "Which Milan streets cause the harshest driving? Telematics reveal surprising patterns.",
+  "hook": "Analysis of 4.2 million vehicles finds wider roads and open spaces correlate with rougher driving—challenging conventional safety wisdom.",
+  "summary": "Researchers combined telematics data from millions of vehicles, street imagery, and traffic metrics across Milan to identify where harsh acceleration and braking events occur most. Counterintuitively, wider roads and more open visual space correlate with more intense harsh events, while denser urban frontage correlates with fewer. Cycle lanes without physical barriers showed 19.5% higher harshness than protected paths, suggesting infrastructure design significantly influences driver behavior.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 837,
+  "tokens_out": 177,
+  "cost_usd": 0.0013775999999999999,
+  "ingested_at": "2026-06-02T12:40:17.685546+00:00"
+}

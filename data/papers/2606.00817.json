@@ -1,0 +1,23 @@
+{
+  "id": "2606.00817",
+  "arxiv_url": "https://arxiv.org/abs/2606.00817",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.GR",
+    "cs.CV"
+  ],
+  "title_original": "Directed Distance Fields for Constant-Time Ray Queries on Gaussian Splatting",
+  "authors": "Subhankar MIshra",
+  "abstract": "3D Gaussian Splatting (3DGS) renders new views of a scene in real time. Like every rasterizer, it answers only primary rays, the rays from the camera through the image. It cannot trace the secondary rays that shadows, ambient occlusion, and global illumination need. We turn a trained 3DGS scene into a ray oracle by distilling a Directed Distance Function (DDF). The DDF is a small neural field. It takes a ray, given by an origin and a direction, and returns the distance to the first surface and whether the ray hits anything. Each query is one forward pass. The field is 52~MB, and its size does not depend on the number of Gaussians, so its cost and memory stay flat as the scene grows. We make three points. First, we study what supervision a DDF needs. Depth rendered from the Gaussians is too blurry to teach thin parts, while clean distance supervision recovers them. Second, we measure speed. The DDF is 26 to 72 times faster than sphere tracing an equivalent signed distance field, and unlike a bounding volume hierarchy built over the Gaussians, even on dedicated RT-core hardware, its query time and memory do not grow with the scene. Third, we show a pipeline that needs no mesh: images give a 3DGS scene, a neural surface gives clean distances, and the DDF learns from them. We use the DDF as a secondary-ray oracle for global illumination. It reproduces reference ray-traced shadows at 30.3~dB and ambient occlusion at 21.3~dB across 142 objects, and on real captured scenes. Our codes are available at https://github.com/smlab-niser/ddf-gs.",
+  "title_relatable": "How to trace shadows through 3D Gaussian scenes instantly?",
+  "hook": "A tiny neural field (52 MB) answers ray queries 26–72× faster than competing methods, enabling shadows and global illumination on real-time 3D Gaussian scenes without meshes.",
+  "summary": "3D Gaussian Splatting renders views fast but can't trace secondary rays for shadows or lighting. This work distills a Directed Distance Function—a compact neural field that answers \"does this ray hit anything?\" in one forward pass. The DDF stays constant-size regardless of scene complexity, runs 26–72× faster than sphere tracing, and reproduces ray-traced quality (30.3 dB for shadows) on real captured scenes. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 824,
+  "tokens_out": 196,
+  "cost_usd": 0.0014432,
+  "ingested_at": "2026-06-02T12:39:01.004499+00:00"
+}

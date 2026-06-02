@@ -1,0 +1,22 @@
+{
+  "id": "2606.02491",
+  "arxiv_url": "https://arxiv.org/abs/2606.02491",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "MORPHOS: Autoregressive 4D Generation with Temporal Structured Latents",
+  "authors": "Minkyung Kwon, Jinhyeok Choi, Youngjin Shin, Jaeyeong Kim, JongMin Lee, Seungryong Kim",
+  "abstract": "We present MORPHOS, a novel autoregressive framework that generates dynamic 3D assets from videos across diverse representations, including meshes, 3D Gaussians, and radiance fields. Existing methods are typically limited to a single representation, struggle to model topological changes, or fail to maintain temporal consistency over long videos. To address these limitations, we introduce the Temporal Structured Latents (T-SLAT), a unified 4D representation that jointly encodes geometry and appearance along the temporal dimension. Leveraging T-SLAT, MORPHOS autoregressively generates dynamic 3D assets via causal attention, conditioning each frame on its preceding history to ensure temporal consistency while handling evolving topologies. We also propose a temporal-structural augmentation to mitigate error accumulation in autoregressive generation. MORPHOS achieves state-of-the-art performance in appearance and competitive results in geometry across multiple benchmarks, demonstrating superior generalization across various representations and robustness in long-horizon generation.",
+  "title_relatable": "Can one model generate all types of moving 3D shapes from video?",
+  "hook": "Framework generates dynamic 3D assets (meshes, Gaussians, radiance fields) from video with temporal consistency over long sequences.",
+  "summary": "MORPHOS generates animated 3D objects from video in multiple formats—meshes, point clouds, neural fields—using a unified temporal representation called T-SLAT that jointly encodes shape and appearance. Unlike prior methods locked to one format or that break when geometry changes, it uses causal attention to build frames sequentially, ensuring temporal consistency while handling topological shifts. It outperforms existing approaches on appearance quality and generalizes across all three major 3D representations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 690,
+  "tokens_out": 182,
+  "cost_usd": 0.00128,
+  "ingested_at": "2026-06-02T12:36:02.880274+00:00"
+}

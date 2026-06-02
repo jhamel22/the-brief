@@ -1,0 +1,24 @@
+{
+  "id": "2606.00803",
+  "arxiv_url": "https://arxiv.org/abs/2606.00803",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "astro-ph.CO",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Generative Diffusion Priors for 3D Mapping of the Dark Universe",
+  "authors": "Brandon Zhao, Diana Scognamiglio, Olivier Doré, Katherine L. Bouman",
+  "abstract": "Reconstructing the three-dimensional distribution of dark matter from weak-lensing observations is a central but highly ill-posed inverse problem in cosmology. Unlike standard 3D reconstruction with multiple viewpoints, we observe the universe from a single line of sight, through noisy shape distortions of galaxies with uncertain distances, so meaningful recovery of the 3D matter field requires strong prior assumptions. Existing methods either produce point estimates with handcrafted priors or use neural ensembles for approximate Bayesian uncertainty, and struggle to capture the non-Gaussian, filamentary structure of the cosmic web. With the advent of new high-resolution cosmological simulations, we now have an alternative source of prior knowledge that captures the nonlinear statistics of structure formation with far greater fidelity than analytic prescriptions. We leverage these simulations to build a new dataset $\\texttt{Conicus3D}$, which enables us to learn a data-driven diffusion-model prior capturing the full 3D distribution of dark matter structure across cosmic time. Building on recent plug-and-play approaches, we modify a diffusion-based posterior sampling scheme to the 3D weak-lensing setting, combining the learned prior with a differentiable physical forward model. On realistic simulations targeting a modern weak lensing survey, our approach yields substantially improved 2D and 3D reconstruction accuracy over baseline methods. Moreover, it produces posterior samples whose statistics closely track the underlying simulations, while remaining robust to moderate shifts in cosmology.",
+  "title_relatable": "Can AI reconstruct dark matter from cosmic shadows?",
+  "hook": "Diffusion models trained on cosmological simulations recover 3D dark matter distributions from galaxy distortions with higher accuracy and better uncertainty estimates than existing methods.",
+  "summary": "Reconstructing dark matter's 3D structure from weak gravitational lensing—the bending of light by invisible matter—is nearly impossible with single-viewpoint observations and uncertain galaxy distances. Researchers built a diffusion-model prior trained on high-resolution cosmological simulations, then combined it with weak-lensing physics to infer 3D dark matter maps. On realistic survey data, the method substantially outperforms existing approaches and produces posterior samples whose statistics match the underlying simulations, even under modest cosmological shifts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 777,
+  "tokens_out": 196,
+  "cost_usd": 0.0014056,
+  "ingested_at": "2026-06-02T12:38:14.076220+00:00"
+}

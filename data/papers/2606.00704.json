@@ -1,0 +1,22 @@
+{
+  "id": "2606.00704",
+  "arxiv_url": "https://arxiv.org/abs/2606.00704",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "VICR: Visual In-Context Restoration for Real-World Image Super-Resolution",
+  "authors": "Qichang Zhang, Hailong Wang, Baiang Li, Linhao Wang, Rong Fu, Erkang Cheng, Simon James Fong",
+  "abstract": "Real-world image super-resolution (Real-ISR) requires balancing structural fidelity to degraded observations with realistic detail synthesis. However, existing generative Real-ISR methods often rely on entangled conditioning mechanisms, leading to structural drift or semantically inconsistent details. To address this issue, we propose Visual In-Context Restoration (VICR), a Diffusion Transformer (DiT)-based framework that formulates Real-ISR as image completion. Specifically, we introduce a decoupled visual prior injection mechanism that derives local and global cues from the low-quality (LQ) image: local cues help recover image structures and support high-frequency detail synthesis, while global cues guide overall generation and promote semantic consistency. For ambiguous regions under severe degradation, VICR employs an inference-time agent to refine semantic prompts using visual evidence from the LQ input while keeping model parameters fixed. Experiments show that VICR achieves state-of-the-art performance across multiple Real-ISR benchmarks with only 127M trainable parameters.",
+  "title_relatable": "How to keep fuzzy photos faithful while adding missing detail",
+  "hook": "New approach separates structure preservation from detail synthesis, achieving top results on real-world image upscaling with 127M parameters.",
+  "summary": "Real-world photo upscaling faces a tension: stay true to the blurry original or synthesize realistic details that might not exist. VICR, a diffusion transformer model, splits this problem into two decoupled paths—one preserving structure, one generating realistic detail—with an adaptive refinement step for severely degraded regions. Tests across standard benchmarks show it outperforms existing methods while using fewer parameters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 697,
+  "tokens_out": 167,
+  "cost_usd": 0.0012255999999999999,
+  "ingested_at": "2026-06-02T12:39:12.247036+00:00"
+}

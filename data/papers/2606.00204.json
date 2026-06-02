@@ -1,0 +1,22 @@
+{
+  "id": "2606.00204",
+  "arxiv_url": "https://arxiv.org/abs/2606.00204",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "APE: Agentic Prompt Enhancer for Image Generation and Editing",
+  "authors": "Zijian Huang, Jay Zhangjie Wu, Zian Wang, Tianshi Cao, Jiasi Chen, Sanja Fidler, Huan Ling, Xuanchi Ren",
+  "abstract": "Natural language has become a powerful interface for image generation and editing, yet text-guided visual systems remain highly sensitive to prompt formulation. Semantically similar requests can produce different outputs depending on wording, specificity, and how explicitly visual constraints are stated, motivating prompt enhancement as a trainable component rather than a peripheral user choice. Existing strong enhancers often rely on large, proprietary LLMs such as ChatGPT or Gemini, adding cost, latency, and deployment dependence to the visual generation pipeline. We propose Agentic Prompt Enhancer (APE), a lightweight framework that post-trains small language models (SLMs) as prompt-enhancement agents. APE supports both single-agent rewriting and role-specialized multi-agent enhancement. Its single-agent instantiation, SAPE, rewrites the prompt in one pass, while its multi-agent instantiation, MAPE, decomposes enhancement into a router--rewriter--composer process for handling compositional constraints over objects, attributes, spatial relations, and edits. With task-aware rewards and post-training protocols, APE improves visual alignment and prompt following without modifying the downstream visual model. Experiments on challenging image generation and editing benchmarks demonstrate that post-trained small prompt enhancers reliably outperform their base counterparts, narrowing the gap to closed-source prompt enhancers; in addition, MAPE proves particularly strong on complex compositional tasks within these benchmarks.",
+  "title_relatable": "Can small models learn to write better prompts for image generation?",
+  "hook": "Lightweight agents fine-tuned to rewrite image prompts match expensive proprietary systems, improving visual alignment without touching the underlying model.",
+  "summary": "Image generators are finicky about wording—identical requests phrased differently yield different results. Instead of relying on expensive APIs like ChatGPT to fix prompts, the authors trained small language models as specialized agents that rewrite and decompose prompts before feeding them to standard image generators. Their multi-agent version breaks complex requests into routing, rewriting, and composing steps, handling tricky compositional details (objects, attributes, spatial relations). On challenging benchmarks, these lightweight enhancers match closed-source prompt optimization while adding minimal latency and cost to the pipeline.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 794,
+  "tokens_out": 203,
+  "cost_usd": 0.0014472,
+  "ingested_at": "2026-06-02T12:40:24.266165+00:00"
+}

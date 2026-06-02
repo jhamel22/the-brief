@@ -1,0 +1,23 @@
+{
+  "id": "2606.00352",
+  "arxiv_url": "https://arxiv.org/abs/2606.00352",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.GR"
+  ],
+  "title_original": "HiGS: A Hierarchical Rendering Architecture for Real-Time 3D Gaussian Splatting",
+  "authors": "Dawid Pająk, Martin Bisson, Rodolfo Lima",
+  "abstract": "3D Gaussian Splatting (3DGS) has become the standard for real-time novel view synthesis on commodity GPUs. Its pipeline ties spatial partitioning and rasterization to one tile size, yet the two pull in opposite directions: partitioning, which bins and depth-sorts gaussians, grows cheaper with larger tiles, while rasterization gets cheaper with smaller ones. Prior acceleration work reduces the cost of individual stages but keeps both locked to that single scale, where a few dense tiles dominate frame time. We present Hierarchically Tiled Gaussian Splatting (HiGS), which gives each its own scale: partitioning runs over coarse macro-tiles, while rasterization runs over the fine render tiles within them. Rasterization work is then issued in proportion to the gaussians in each macro-tile rather than per tile, so dense regions spread across many parallel units instead of serializing through one. Across tested scenes, HiGS renders up to 15.8x faster than the original 3DGS and outperforms every other rasterizer we evaluate, while preserving exact front-to-back alpha compositing.",
+  "title_relatable": "How to make 3D scene rendering 15x faster with better task scheduling?",
+  "hook": "A hierarchical tiling scheme accelerates 3D Gaussian Splatting up to 15.8× on standard GPUs by decoupling spatial partitioning from pixel-level rasterization.",
+  "summary": "3D Gaussian Splatting renders photorealistic scenes in real time, but wastes GPU cycles because spatial binning and pixel rasterization pull in opposite directions—one prefers large tiles, the other small ones. HiGS splits the workload: coarse macro-tiles handle geometry binning, fine tiles handle rendering. Work distribution shifts from per-tile to per-macro-tile, spreading dense regions across parallel units instead of bottlenecking at a few busy tiles. Result: 15.8× speedup on tested scenes with no quality loss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 704,
+  "tokens_out": 222,
+  "cost_usd": 0.0014512000000000001,
+  "ingested_at": "2026-06-02T12:40:32.763430+00:00"
+}

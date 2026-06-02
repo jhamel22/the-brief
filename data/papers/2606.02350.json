@@ -1,0 +1,22 @@
+{
+  "id": "2606.02350",
+  "arxiv_url": "https://arxiv.org/abs/2606.02350",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "TROPHIES: Temporal Reconstruction of Places, Humans, and Cameras from Multi-view Videos",
+  "authors": "Jinpeng Liu, Yukang Xu, Yutong Li, Xingyu Liu",
+  "abstract": "Reconstructing humans and their surrounding environments in a globally consistent 4D space is essential for comprehensive perception. However, prior works typically assume single-view inputs or decouple humans, scenes, and cameras, making them unable to recover coherent geometry, stable motion, and physically aligned trajectories. These limitations motivate us to introduce a new task: unified human-scene-camera reconstruction from multi-view videos, which aims to jointly estimate dynamic humans, static scenes, and camera poses in one global coordinate frame. We propose TROPHIES--Temporal Reconstruction of Places, Humans, and Cameras from Multi-view Videos-a unified framework tailored for this task. TROPHIES features a Human Branch that models humans through temporal and spatial reasoning, and a Scene Branch that reconstructs static geometry with human-aware attention. A global alignment and optimization module couples both branches by enforcing scale consistency, contact priors, and cross-view temporal coherence. Experiments on EgoHuman and EgoExo4D demonstrate that TROPHIES achieves globally aligned, physically plausible 4D reconstructions and consistently outperforms existing paradigms in both global fidelity and human-scene consistency.",
+  "title_relatable": "How do we reconstruct moving people and their environments from video?",
+  "hook": "Joint reconstruction of humans, scenes, and camera positions from multi-view video achieves physically plausible 4D alignment on EgoHuman and EgoExo4D.",
+  "summary": "Reconstructing humans, scenes, and camera motion from multi-view video as one coherent 4D model is hard because prior methods decouple these components. TROPHIES jointly estimates dynamic humans, static geometry, and camera poses in a shared coordinate frame using separate branches for humans and scenes, coupled by enforcing physical constraints like contact and temporal consistency. On EgoHuman and EgoExo4D, it produces globally aligned reconstructions where people stay grounded and environments remain stable.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 707,
+  "tokens_out": 195,
+  "cost_usd": 0.0013456,
+  "ingested_at": "2026-06-02T12:36:05.614734+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.00579",
+  "arxiv_url": "https://arxiv.org/abs/2606.00579",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "Sandboxed Coding Agents are Competitive Omni-modal Task Solvers",
+  "authors": "Dongping Chen, Xuanao Huang, Zhihan Hu, Qingyuan Shi, Dianqi Li, Tianyi Zhou",
+  "abstract": "As multimodal LLMs increasingly target video and audio, it is often assumed that such tasks require native omnimodal models. We show that this is not always the case: coding agents with only text+image access and a sandboxed tool-use interface can match, and in several settings outperform, SOTA native omnimodal models and predefined multimodal agent scaffolds across multiple audio-video benchmarks. Our trajectory analysis suggests that their strength comes from writing code and orchestrating tools to extract relevant evidence from transcripts, frames, and other modality signals, thereby converting omnimodal tasks into retrieval and information-processing problems rather than ingesting entire media streams. We further characterize their limitations through a failure taxonomy and process-level trace analysis, and show that simple skill injection, including human-written and self-distilled skills, substantially improves performance. To explore open-source elicitation, we introduce Code-X, a training recipe with the OmniCoding trajectory dataset and verifiable reward, and provide baselines on Qwen-3.5-9B and Qwen-3.6-27B. Finally, we argue that the next frontier is many-modality processing, and introduce TerminalBench-O, a process-level benchmark for real-world omnimodal processing tasks. Code will be available at https://github.com/Dongping-Chen/OmniCoding.",
+  "title_relatable": "Can coding agents beat native multimodal models at audio-video tasks?",
+  "hook": "Text-only coding agents outperform native omnimodal models on audio-video benchmarks by writing code to extract evidence rather than processing entire media streams.",
+  "summary": "Multimodal tasks on video and audio don't always need models that directly consume all modalities. Coding agents with text+image access and sandboxed tool use matched or beat specialized omnimodal models on multiple audio-video benchmarks by orchestrating code to extract relevant signals from transcripts and frames. Adding skill injection and training on the OmniCoding dataset with Qwen models further closes gaps. Code and new TerminalBench-O benchmark will be released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 772,
+  "tokens_out": 191,
+  "cost_usd": 0.0013816,
+  "ingested_at": "2026-06-02T12:38:20.512933+00:00"
+}

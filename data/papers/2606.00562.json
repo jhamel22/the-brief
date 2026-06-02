@@ -1,0 +1,23 @@
+{
+  "id": "2606.00562",
+  "arxiv_url": "https://arxiv.org/abs/2606.00562",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "DeepLatent: Think with Images via Parallel Latent Visual Reasoning",
+  "authors": "Dongchen Lu, Zhimo Li, Mao Shu, Huo Cao",
+  "abstract": "The emerging paradigm of \"thinking with images\" embeds visual states into intermediate reasoning steps, defining a new frontier for Vision-Language Models. Existing approaches diverge along two lines. Tool-assisted methods apply explicit visual operations but suffer from high latency and restricted manipulation types. Latent reasoning methods autoregressively produce implicit visual states, but underperform tool-assisted methods, and their latent tokens fail to capture effective visual information. In this work, we propose DeepLatent, a parallel framework for latent visual reasoning. First, we introduce LatentFormer. It uses learnable 2D tokens to generate context-conditioned latent states in parallel, anchoring every visual update directly in the original image features. Second, we design a continuous-space reinforcement learning algorithm. It optimizes latent modulation parameters directly in the embedding space, significantly improving latent representation quality. The framework is trained via knowledge distillation followed by this continuous-space RL algorithm. Furthermore, we contribute DeepLatent-180K, a large-scale dataset tailored for latent visual reasoning. Extensive evaluations across multiple benchmarks demonstrate that DeepLatent achieves state-of-the-art performance.",
+  "title_relatable": "Can models reason visually without showing their work?",
+  "hook": "Framework runs visual reasoning in parallel rather than step-by-step, matching tool-assisted speed while working entirely in image embeddings.",
+  "summary": "Vision-language models that \"think with images\" typically either use external visual tools (slow) or generate implicit visual states autoregressively (weak). DeepLatent introduces LatentFormer, which generates latent visual states in parallel using learnable 2D tokens grounded in original image features, then refines them via reinforcement learning in embedding space. Includes a new 180K-image dataset. Matches tool-assisted methods on multiple benchmarks without explicit operations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 704,
+  "tokens_out": 179,
+  "cost_usd": 0.0012792,
+  "ingested_at": "2026-06-02T12:38:23.111696+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.02521",
+  "arxiv_url": "https://arxiv.org/abs/2606.02521",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "Drifting Preference Optimization for One-Step Generative Models",
+  "authors": "Zhou Jiang, Yandong Wen, Zhen Liu",
+  "abstract": "One-step text-to-image generators are attractive for deployment because they generate an image with a single forward pass, but preference finetuning them remains difficult: standard alignment methods often rely on policy likelihoods, denoising trajectories, differentiable reward gradients, or test-time optimization. We propose Drifting Preference Optimization (DrPO), an online preference-finetuning method for deterministic one-step generators. For each prompt, DrPO samples candidates from the current generator, ranks them with a target reward, and uses high- and low-scoring samples to synthesize a feature-space update direction. The update is a non-parametric dipole preference field plus a reference drift estimated from the frozen base generator, and is optimized through a detached feature-space regression target. The target reward is used only for ranking, so DrPO can train with large, black-box, or non-differentiable rewards while inference remains a single generator call. We evaluate DrPO on SD-Turbo and SDXL-Turbo with multiple target rewards and benchmarks, including HPSv3 and GenEval. DrPO improves alignment over reward-gradient-free one-step preference baselines and reduces HPSv3 training computation by $3.51\\times$ under the matched effective-batch setting by removing reward-model backpropagation. Initial offline experiments suggest that sample-based gradient synthesis can also be used beyond online reward ranking.",
+  "title_relatable": "Training fast image generators to match your taste without slowing them down",
+  "hook": "New method finetunes one-step image models 3.5× faster by ranking samples instead of computing reward gradients, boosting aesthetic scores on SD-Turbo and SDXL-Turbo.",
+  "summary": "One-step text-to-image models like SD-Turbo are fast but hard to align with human preferences without breaking their speed. DrPO ranks generated images with a reward model, then synthesizes update directions in feature space without backpropagating through the reward—meaning you can use black-box or non-differentiable scorers. On SD-Turbo and SDXL-Turbo, it outperforms gradient-free baselines while cutting training compute by 3.5×, keeping inference at a single forward pass.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 763,
+  "tokens_out": 218,
+  "cost_usd": 0.0014824,
+  "ingested_at": "2026-06-02T12:36:54.483587+00:00"
+}

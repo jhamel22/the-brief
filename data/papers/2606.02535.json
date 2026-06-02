@@ -1,0 +1,22 @@
+{
+  "id": "2606.02535",
+  "arxiv_url": "https://arxiv.org/abs/2606.02535",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "LL-Bench: Rethinking Low-Level Vision Evaluation in the Era of Large-Scale Generative Models",
+  "authors": "Lu Liu, Huiyu Duan, Chenxin Zhu, Jintong Lu, Haoyun Jiang, Liu Yang, Qiang Hu, Guangtao Zhai, Xiaoyun Zhang",
+  "abstract": "Large-scale generative models have demonstrated remarkable capabilities across image generation and editing tasks. However, their performance in low-level vision tasks, which require pixel-wise control, remains insufficiently studied. To address this gap, we introduce \\textbf{LL-Bench}, a comprehensive \\textbf{Benchmark} for evaluating the capabilities of large-scale generative models on \\textbf{L}ow-\\textbf{L}evel vision tasks. The benchmark comprises 2,469 real-world degraded images covering 16 low-level degradation tasks, and 28,919 restored images produced by 10 state-of-the-art large-scale generative models and 21 conventional restoration models, which are annotated with 152,020 expert-level pairwise human preferences and 28,334 quality scores. Built upon LL-Bench, we present a systematic diagnosis that reveals the performance boundaries and unique failure modes of large-scale generative models across diverse low-level vision tasks, compared with conventional representative restoration approaches. Moreover, we investigate the effectiveness of current quality evaluation metrics on LL-Bench, which exhibit significant discrepancy with human ratings. To better align restored-image quality assessment with human preferences, we further propose \\textbf{LL-Score}, an MLLM-based evaluator that captures both restoration quality and hallucination existence. Extensive experiments demonstrate that LL-score not only outperforms existing image quality assessment metrics, but also serves as a promising reward model for training generative models on low-level vision tasks.",
+  "title_relatable": "Do giant image generators actually fix blurry photos?",
+  "hook": "New benchmark tests 10 large generative models on image restoration tasks using 152,000 human preference ratings, revealing they often hallucinate details instead of restoring them.",
+  "summary": "Large generative models excel at creating images from scratch but struggle with pixel-level precision tasks like deblurring and denoising. LL-Bench evaluates 10 state-of-the-art generative models and 21 conventional restoration tools on 16 real degradation types using 152,020 expert preference annotations. The benchmark reveals generative models frequently add fake details rather than recover lost information—a failure mode conventional methods avoid. The authors also propose LL-Score, an evaluator that better aligns with human judgments than standard metrics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 836,
+  "tokens_out": 209,
+  "cost_usd": 0.0015048000000000001,
+  "ingested_at": "2026-06-02T12:36:47.532958+00:00"
+}

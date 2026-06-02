@@ -1,0 +1,22 @@
+{
+  "id": "2606.02575",
+  "arxiv_url": "https://arxiv.org/abs/2606.02575",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "From Zero to Hero: Training-Free Custom Concept Spawning in World Models",
+  "authors": "Kiymet Akdemir, Pinar Yanardag",
+  "abstract": "Autoregressive world models have emerged as a powerful paradigm for interactive video generation, allowing users to navigate dynamically generated environments through actions. These models are typically conditioned on a text prompt and/or a single reference frame, from which the entire world is generated. Yet the moment the user navigates beyond what is visible in that frame, the unseen regions are populated by the base model's priors, with no mechanism for the user to specify what should appear and where. This is a fundamental limitation for applications such as gaming, interactive storytelling, and simulation, where controllable scene composition is essential. We refer to this missing capability as concept spawning; introducing a user-specified visual concept into a world model, analogous to spawning in a game engine. We introduce SPAWN (Swapping Pinned Anchor with Windowed iNjection), a training-free method for concept spawning. SPAWN exploits a structural property of image-to-video backbones: the first slot of the context memory is pinned to the reference frame and acts as a foundational anchor for every generated chunk. By swapping this anchor with an external concept latent over a short injection window and letting the original anchor return, we cause the concept to propagate naturally through the rollout via the model's own memory. SPAWN supports concepts from fine-grained entities such as characters and props to large-scale elements such as buildings and landmarks, and accepts either a concept image or a text description as input. Experiments show that SPAWN integrates concepts with consistent lighting, scale, and perspective while preserving identity and temporal coherence, demonstrating that controllable concept spawning is achievable in existing autoregressive world models without any training.",
+  "title_relatable": "How to add new objects to video game worlds without retraining",
+  "hook": "Inject custom characters, props, or landmarks into AI-generated video environments instantly, without training, by temporarily swapping the model's memory anchor.",
+  "summary": "Current video game-like world models generate unseen regions using only their base priors, leaving users unable to control what appears beyond the initial frame. SPAWN, a training-free method, inserts user-specified concepts (characters, buildings, props) by briefly swapping the model's foundational memory anchor during generation, then returning it—allowing the concept to propagate naturally through the rest of the video. Accepts image or text input; maintains consistent lighting, scale, perspective, and temporal coherence, making controllable scene composition possible in existing models without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 802,
+  "tokens_out": 202,
+  "cost_usd": 0.0014495999999999999,
+  "ingested_at": "2026-06-02T12:36:31.007932+00:00"
+}

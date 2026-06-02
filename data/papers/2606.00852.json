@@ -1,0 +1,24 @@
+{
+  "id": "2606.00852",
+  "arxiv_url": "https://arxiv.org/abs/2606.00852",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "RefDiffNet: Learning to Expose Subtle PCB Defects Before Detection",
+  "authors": "Vinay Edula, Nilesh Badwe, Priyanka Bagade",
+  "abstract": "Printed circuit board (PCB) defect detection is challenging because many defects are small and difficult to distinguish from complex background patterns. Most deep learning-based PCB inspection methods rely only on the inspected PCB image for defect detection, ignoring the defect-free reference image that encodes the expected layout of traces, pads, and other PCB structures. In this work, we propose RefDiffNet, a lightweight plug-and-play input enhancement block placed before the detector backbone to enhance the image before defect detection. RefDiffNet brings one proven idea from classical inspection into the deep learning era, using a defect-free reference image to reveal defects. RefDiffNet compares the defective image with the aligned reference, captures structural changes relative to the reference, and uses a lightweight encoder to output the original image with defective regions highlighted, thereby making the downstream detector's task easier. Results on HRIPCB and DeepPCB show that RefDiffNet consistently improves performance across detector families, including one-stage detectors from YOLOv8 to YOLOv26, the transformer-based RT-DETR, and the two-stage Faster R-CNN. It achieves up to 18% relative mAP50:95 gain with negligible overhead, introducing only 0.004 - 0.005M additional parameters and 0.7 - 0.8 GFLOPs, amounting to at most 0.25% of the parameter count of any evaluated detector. Results establish RefDiffNet as a lightweight, plug-and-play, detector-agnostic input enhancement module that substantially improves PCB defect detection with minimal computational cost.",
+  "title_relatable": "How a reference image reveals PCB defects hidden in plain sight",
+  "hook": "Adding one reference image to PCB inspection boosts defect detection by 18%, works with any detector, costs almost nothing.",
+  "summary": "PCB defect detection fails on tiny flaws buried in complex circuit patterns. RefDiffNet compares a defective board against a defect-free reference image to highlight structural changes, then feeds the enhanced result to any existing detector. On HRIPCB and DeepPCB benchmarks, it delivers 18% mAP improvement across YOLOv8–v26, RT-DETR, and Faster R-CNN while adding only 0.004M parameters—less than 0.25% overhead.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 820,
+  "tokens_out": 195,
+  "cost_usd": 0.001436,
+  "ingested_at": "2026-06-02T12:38:49.180801+00:00"
+}

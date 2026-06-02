@@ -1,0 +1,23 @@
+{
+  "id": "2606.02309",
+  "arxiv_url": "https://arxiv.org/abs/2606.02309",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CV"
+  ],
+  "title_original": "Measurement Geometry and Design for Trustworthy Generative Inverse Problems",
+  "authors": "Pengfei Jin, Na Li, Quanzheng Li",
+  "abstract": "Generative models are increasingly used as priors for inverse problems, but their ability to produce realistic images creates a basic trust problem: a plausible reconstruction may be supported by the measurements, or it may be filled in by the prior along unobserved directions. This distinction is especially important in medical imaging, where acquisition operators are designed under scan-time, dose, and calibration constraints. We study generative inverse problems from a measurement-geometry perspective. The central question is whether a fixed measurement operator can distinguish nearby images that are plausible under the generative prior, and whether this relationship can guide better measurements. We introduce a local measurement-manifold compatibility measure that quantifies how well the operator observes prior-relevant tangent directions. Under local regularity assumptions, we prove that this quantity controls the stable part of the reconstruction error, while the generative prior controls off-manifold drift. This worst-direction certificate motivates practical fixed and sequential acquisition rules based on overall local volume preservation, including a posterior-cloud design that adapts measurements at test time without training a sampling policy. Across row-sampling, tomographic, and MR acquisition settings, the proposed scores predict failure modes, explain measurement-induced hallucinations, and guide better sampling. In fastMRI Cartesian sampling, posterior-cloud measurement design improves over strong non-learned ACS-preserving baselines, including variable-density and Poisson-like masks.",
+  "title_relatable": "Can we trust reconstructions from generative image models?",
+  "hook": "Theory and practical methods for detecting when medical imaging reconstructions are hallucinated versus data-supported, with improvements over standard fastMRI sampling.",
+  "summary": "Generative models fill in missing data so convincingly that reconstructions can look plausible whether they're actually supported by measurements or just imagined by the prior. This is dangerous in medical imaging. The authors prove that a measure of how well measurements align with the prior's important directions controls reconstruction error, and use this to design better sampling patterns. On fastMRI, their adaptive measurement method outperforms standard variable-density and Poisson sampling without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 740,
+  "tokens_out": 178,
+  "cost_usd": 0.001304,
+  "ingested_at": "2026-06-02T12:36:08.637784+00:00"
+}

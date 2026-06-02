@@ -1,0 +1,23 @@
+{
+  "id": "2606.02510",
+  "arxiv_url": "https://arxiv.org/abs/2606.02510",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "Not All Points Are Equal: Uncertainty-Aware 4D LiDAR Scene Synthesis",
+  "authors": "Xiang Xu, Alan Liang, Youquan Liu, Xian Sun, Linfeng Li, Lingdong Kong, Ziwei Liu, Qingshan Liu",
+  "abstract": "Constructing faithful 4D worlds from LiDAR-acquired sequences is crucial for embodied AI, yet current generative frameworks apply uniform modeling capacity across all spatial regions. This ignores that perceptual difficulty varies dramatically within a single scan: distant surfaces, occluded boundaries, and small-scale objects carry far higher uncertainty than well-observed structures. We present U4D, a new framework that explicitly leverages spatial uncertainty to guide LiDAR scene generation in a \"hard-to-easy\" schedule. U4D derives per-point uncertainty maps via Shannon Entropy from a pretrained segmentor, then applies an unconditional diffusion stage to synthesize high-entropy areas with precise geometry, followed by a conditional completion stage that fills in the remaining regions using these structures as priors. A MoST (Mixture of Spatio-Temporal) block further maintains cross-frame coherence by dynamically balancing spatial detail and temporal continuity. Extensive experiments on nuScenes and SemanticKITTI demonstrate state-of-the-art scene fidelity, temporal consistency, and downstream performance.",
+  "title_relatable": "Should generative models focus harder on uncertain LiDAR regions?",
+  "hook": "Framework that prioritizes hard-to-see areas in 4D LiDAR synthesis achieves state-of-the-art fidelity on nuScenes and SemanticKITTI benchmarks.",
+  "summary": "Generating realistic 4D scenes from LiDAR scans requires different modeling effort for different regions—distant surfaces and occluded boundaries are inherently harder to reconstruct than well-observed areas. U4D allocates generation capacity strategically using per-point uncertainty maps derived from segmentation entropy: it first generates high-uncertainty regions precisely via diffusion, then conditionally fills the rest. A spatio-temporal mixer balances geometric detail with frame-to-frame consistency, improving both scene fidelity and downstream task performance.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 714,
+  "tokens_out": 213,
+  "cost_usd": 0.0014232000000000001,
+  "ingested_at": "2026-06-02T12:36:57.462081+00:00"
+}

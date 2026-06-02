@@ -1,0 +1,22 @@
+{
+  "id": "2606.02565",
+  "arxiv_url": "https://arxiv.org/abs/2606.02565",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Policy-based Foveated Imaging and Perception",
+  "authors": "Howard Xiao, Jan Ackermann, Boyang Deng, Gordon Wetzstein",
+  "abstract": "Ultra-high-resolution image sensors offer the potential to capture fine spatial details critical for many visual perception tasks, but acquiring and processing all pixels at full resolution is often infeasible under realistic bandwidth, latency, and power constraints. Existing approaches address this challenge through acquisition strategies such as spatial or temporal downsampling, which irrevocably discard information before task relevance can be assessed. In this work, we introduce a real-time, predictive, and task-aware foveated imaging system that operates directly at image acquisition time. Leveraging emerging dual-stream sensor architectures, our method dynamically allocates limited pixel bandwidth to task-relevant regions of interest while maintaining a low-resolution global context. We formulate foveated acquisition as a sensor attention policy-learning problem, in which past observations guide actions that determine future measurements, closing the perception-acquisition loop. Through extensive simulation across multiple perception tasks, we demonstrate that our approach achieves high task performance under strict pixel budgets and significantly outperforms relevant baselines operating at the same bandwidth. We further validate our system on a 200-megapixel dual-stream sensor, capturing real-world videos under realistic bandwidth and latency constraints, demonstrating the practical feasibility of task-driven, acquisition-time foveated imaging.",
+  "title_relatable": "What if cameras only captured what matters?",
+  "hook": "A camera system learns to focus its limited pixels on task-relevant regions in real-time, matching full-resolution performance at 1/10th the bandwidth on a 200-megapixel sensor.",
+  "summary": "High-resolution cameras generate too much data to process efficiently. This work trains a policy that dynamically decides where a dual-stream sensor should allocate its limited pixel budget during image capture—maintaining low-res context while high-res details go to regions the system predicts are relevant for the task. On multiple perception benchmarks and a real 200-megapixel camera, the approach matches baseline performance under strict bandwidth limits, closing the loop between sensing and task requirements.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 713,
+  "tokens_out": 189,
+  "cost_usd": 0.0013264000000000001,
+  "ingested_at": "2026-06-02T12:36:37.930411+00:00"
+}

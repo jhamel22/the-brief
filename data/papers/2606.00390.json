@@ -1,0 +1,23 @@
+{
+  "id": "2606.00390",
+  "arxiv_url": "https://arxiv.org/abs/2606.00390",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Zamba2-VL Technical Report",
+  "authors": "Hassan Shapourian, Kasra Hejazi, Olabode M. Sule, Beren Millidge",
+  "abstract": "We present Zamba2-VL, a suite of vision-language models built on Zamba2, a hybrid language-model architecture combining Mamba2 state-space layers with a small number of shared transformer blocks. Across a broad range of image understanding, reasoning, OCR, grounding, and counting benchmarks, Zamba2-VL is competitive with leading Transformer-based open-weight VLMs of comparable scale, including the Molmo2, Qwen3-VL, and InternVL3.5 families, and substantially outperforms prior SSM-based and hybrid VLMs such as VL-Mamba, Cobra, and mmMamba. Inheriting the near-linear prefill compute and small, near-constant recurrent state of its Zamba2 backbone, Zamba2-VL delivers roughly an order of magnitude lower time-to-first-token (TTFT) than these Transformer baselines at matched parameter scale, with the efficiency gap most pronounced at the smaller 1.2B and 2.7B scales most relevant to on-device and edge deployment. We release three models -- 1.2B, 2.7B, and 7B -- together with inference code at https://huggingface.co/collections/Zyphra/zamba2-vl.",
+  "title_relatable": "Why state-space models beat transformers at vision understanding when speed matters",
+  "hook": "Vision-language models using Mamba2 match transformer rivals on accuracy while delivering 10× faster response times, especially at smaller scales.",
+  "summary": "Zamba2-VL combines Mamba2 state-space layers with sparse transformer blocks to build competitive vision-language models at 1.2B to 7B parameters. On image understanding, reasoning, OCR, and grounding benchmarks, it matches Qwen3-VL and Molmo2 quality while achieving roughly 10× lower time-to-first-token—the latency that matters for real-time interaction. The efficiency gap widens at smaller scales, making these models practical for on-device deployment.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 747,
+  "tokens_out": 200,
+  "cost_usd": 0.0013976,
+  "ingested_at": "2026-06-02T12:40:44.449837+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.00825",
+  "arxiv_url": "https://arxiv.org/abs/2606.00825",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.ET",
+    "cs.HC",
+    "cs.MA"
+  ],
+  "title_original": "SuperMemory-VQA: An Egocentric Visual Question-Answering Benchmark for Long-Horizon Memory",
+  "authors": "Samiul Alam, Shakhrul Iman Siam, Michael J. Proulx, James Fort, Richard Newcombe, Hyo Jin Kim, Mi Zhang",
+  "abstract": "AI glasses present a compelling platform for AI agents to serve as personalized memory assistants. To be genuinely useful, such systems must move beyond short-term video comprehension and address memory gaps that humans experience for practical, personal, or social purposes over longitudinal egocentric video streams. However, existing egocentric datasets predominantly focus on action recognition or generic QAs from short clips, measuring perceptual capabilities rather than realistic human memory needs. We introduce SuperMemory-VQA, an egocentric visual question answering (VQA) dataset for evaluating AI assistants on practical, long-horizon memory tasks. It contains 52.9 hours of everyday activities recorded with AI glasses, including synchronized RGB video, audio transcription, eye gaze, IMU, and SLAM trajectories. Through a human-verified annotation pipeline, we construct grounded 4,853 question-answer pairs that span object and location memory, intent recall, visual scene recall, timeline reconstruction, conversational memory, and in-context retrieval. Each question is posed as multiple-choice with an explicit \"unanswerable\" option to test hallucination robustness. Benchmarking leading agentic frameworks and LLM backbones reveals that existing systems remain far from reliable on real-world memory tasks, highlighting the need for new architectures for grounded AI memory that can answer only when evidence is sufficient. A participant survey further supports that our questions are realistic, useful, and aligned with everyday memory needs.",
+  "title_relatable": "Can AI glasses remember what you did yesterday?",
+  "hook": "New benchmark tests AI memory assistants on 52.9 hours of real egocentric video—most systems fail at practical recall tasks.",
+  "summary": "Existing video AI excels at recognizing actions in short clips, but falls apart on realistic memory tasks over long egocentric streams. SuperMemory-VQA introduces 4,853 grounded questions from 52.9 hours of everyday activities recorded with AI glasses, spanning object/location memory, intent recall, and timeline reconstruction. Benchmarking shows leading LLMs struggle significantly—the field needs architectures that admit uncertainty rather than hallucinate answers.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 793,
+  "tokens_out": 178,
+  "cost_usd": 0.0013464,
+  "ingested_at": "2026-06-02T12:38:54.821394+00:00"
+}

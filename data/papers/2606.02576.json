@@ -1,0 +1,23 @@
+{
+  "id": "2606.02576",
+  "arxiv_url": "https://arxiv.org/abs/2606.02576",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "ProtoAda: Prototype-Guided Adaptive Adapter Expansion and Geometric Consolidation for Multimodal Continual Instruction Tuning",
+  "authors": "Yu-Cheng Shi, Zhen-Hao Xie, Jun-Tao Tang, Da-Wei Zhou",
+  "abstract": "Multimodal Large Language Models (MLLMs) achieve strong performance through instruction tuning, but real-world deployment requires them to continually acquire new vision-language capabilities, making Multimodal Continual Instruction Tuning (MCIT) essential. To reduce inter-task interference and promote collaboration, recent methods often employ sparse architectures like Mixture of LoRA Experts with image-text similarity routing. However, tasks with distinct response structures could share highly similar visual-linguistic semantics and thus be wrongly routed to the same expert; image-text similarity alone is insufficient for reliable task assignment. For example, an expert in a grounding task requiring coordinate prediction may be biased toward producing short textual answers after learning semantically similar VQA tasks. This format-blind task assignment integrates heterogeneous response types into shared parameters, inducing gradient interference and ineffective expert collaboration. To address this problem, we propose ProtoAda, a prototype-guided adaptive tuning framework. ProtoAda introduces format-aware task prototypes to align task assignment and routing with both task semantics and output structure, and further consolidates format-compatible updates in a geometry-aware manner to effectively reuse and progressively refine existing parameters. Extensive experiments on multiple benchmarks demonstrate that ProtoAda achieves superior performance, especially on tasks whose answer structures are easily corrupted by sequential tuning.",
+  "title_relatable": "Why multimodal AI struggles when tasks look similar but need different answers",
+  "hook": "A new framework prevents multimodal models from mixing up similar tasks that require different output formats, improving performance especially on coordinate-prediction and grounding tasks.",
+  "summary": "Multimodal AI models trained on multiple tasks sequentially often fail when semantically similar tasks require different response structures—like confusing visual question-answering (short text) with grounding (coordinates). ProtoAda fixes this by routing tasks based on both semantic similarity and output format, then consolidating parameter updates geometrically to avoid gradient interference. Tests show substantial gains, particularly on tasks prone to format corruption during continual learning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 769,
+  "tokens_out": 176,
+  "cost_usd": 0.0013192,
+  "ingested_at": "2026-06-02T12:36:27.941248+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.00267",
+  "arxiv_url": "https://arxiv.org/abs/2606.00267",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "title_original": "StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement",
+  "authors": "Junwon Seo, Sushant Veer, Ran Tian, Wenhao Ding, Apoorva Sharma, Karen Leung, Edward Schmerling, Marco Pavone, Andrea Bajcsy",
+  "abstract": "Video world models (WMs) have shown promise for policy evaluation and improvement by imagining realistic future observations conditioned on ego-robot actions. While WMs can model distributions over futures, policy evaluation and improvement typically rely on nominal imaginations, which can miss high-impact outcomes of robot actions unless prohibitively many samples are drawn. To enable robust policy evaluation and improvement over WM imaginations, we propose StressDream, which steers imaginations toward high-impact yet plausible outcomes specified at inference time by optimizing the initial noise of diffusion-based WMs. However, optimizing high-dimensional noise is challenging: the optimization must reason about nuanced, scene-dependent target events in generated videos while avoiding out-of-distribution (OOD) noise that yields implausible imaginations. We address this with two complementary objectives: a semantic objective with a Vision-Language Model that provides informative gradients by reasoning about the generated video, and a plausibility objective that prevents the optimized noise from drifting OOD. With state-of-the-art video world models for autonomous driving and robotic manipulation, we show that StressDream effectively steers imaginations toward high-impact yet plausible outcomes specified by text at inference time, such as task failures, enabling robust policy evaluation and improvement by identifying actions whose plausible futures include undesirable outcomes. Video results are available at https://junwon.me/StressDream/.",
+  "title_relatable": "Can robots imagine failure modes to improve safety?",
+  "hook": "StressDream steers video predictions toward rare failure scenarios, letting robots evaluate policies against high-impact outcomes without exhaustive sampling.",
+  "summary": "Video world models can simulate future outcomes of robot actions, but they typically show nominal cases and miss rare failures critical for safety. StressDream optimizes the noise in diffusion-based world models to steer predictions toward specified high-impact scenarios—like task failures—while keeping imaginations realistic. Using a vision-language model to guide toward target events and a plausibility constraint to avoid generating nonsense, the method enables safer policy evaluation on autonomous driving and robotic manipulation tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 794,
+  "tokens_out": 176,
+  "cost_usd": 0.0013392,
+  "ingested_at": "2026-06-02T12:40:09.596451+00:00"
+}

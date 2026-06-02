@@ -1,0 +1,22 @@
+{
+  "id": "2606.00673",
+  "arxiv_url": "https://arxiv.org/abs/2606.00673",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "T-CLIP: Enabling Thermal Perception for Contrastive Language-Image Pretraining",
+  "authors": "Tayeba Qazi, Ayush Maheshwari, Prerana Mukherjee, Brejesh Lall",
+  "abstract": "Thermal imaging offers a powerful alternative to visible-spectrum vision under challenging conditions such as low illumination and adverse weather, yet foundational vision-language models like CLIP fail to align thermal images with textual descriptions due to a fundamental thermal perception gap. We identify three major challenges: the lack of captioned thermal datasets, the inability of standard LLMs to reason about thermal phenomena, and a key representational challenge in thermal imaging where global scene context and object-level heat signatures conflict when learned together in a single embedding space. To address these, we introduce IR-Cap, the first physics-aware thermal captioning pipeline and dataset providing complementary global and fine-grained thermal descriptions across three public benchmarks, and T-CLIP, a decoupled dual-LoRA framework that independently adapts CLIP for scene-level and object-level thermal understanding. T-CLIP achieves consistent improvements over all baselines across three thermal benchmarks in cross-modal retrieval, and we provide an exploratory demonstration of its applicability to text-conditioned thermal image generation.",
+  "title_relatable": "Can language models understand thermal images in the dark?",
+  "hook": "New dataset and dual-encoder method extend CLIP to infrared imaging, improving cross-modal retrieval across three thermal benchmarks.",
+  "summary": "Thermal cameras see through darkness and fog where regular vision fails, but CLIP and other vision-language models can't align thermal images with text descriptions. The gap stems from three problems: no captioned thermal datasets, LLMs that don't understand heat physics, and conflicting scene-level and object-level thermal signals in one embedding space. T-CLIP solves this with IR-Cap, a physics-aware captioning pipeline, plus a dual-adapter architecture that learns thermal understanding separately for scenes and objects—consistent wins over baselines on three benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 685,
+  "tokens_out": 195,
+  "cost_usd": 0.001328,
+  "ingested_at": "2026-06-02T12:39:15.129318+00:00"
+}

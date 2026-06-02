@@ -1,0 +1,23 @@
+{
+  "id": "2606.00299",
+  "arxiv_url": "https://arxiv.org/abs/2606.00299",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Real2SAM2Real: Generative 3D Caches as Complementary Context for Video Diffusion",
+  "authors": "Jiayi Wu, Haoming Cai, Cornelia Fermuller, Christopher Metzler, Yiannis Aloimonos",
+  "abstract": "While Video Diffusion Models (VDMs) excel at synthesizing high-fidelity videos, enabling precise camera and scene control remains challenging. Existing methods predominantly rely on implicit diffusion priors to generate unobserved regions, inevitably leading to structural collapse during high-dynamic movements or complex occlusions. To address this challenge, we propose Real2SAM2Real, a framework that leverages 3D lifting models (e.g., SAM3D) to extract an explicitly editable 3D cache, serving as a robust geometric scaffold for the VDM. By capturing the entire 3D volume of foreground entities rather than just their visible shells, this cache injects holistic spatial priors into the VDM, providing dependable 3D-aware guidance for complex scene dynamics. To effectively leverage this 3D guidance while preserving pre-trained priors, we design a Soft Spatial-Aligned Injection mechanism alongside a minimally invasive fine-tuning strategy tailored for VDMs. Furthermore, we employ masked normal maps as a cross-modal bridge to construct a 3D-free data curation and perturbation pipeline. Extensive experiments demonstrate that Real2SAM2Real enables precise, decoupled control over both camera trajectories and multi-entity motions. By utilizing the complementary context from generative 3D caches, our framework overcomes typical breakdowns caused by over-reliance on diffusion priors, maintaining exceptional spatiotemporal consistency under large camera shifts and severe occlusions. Crucially, by decoupling geometry from appearance, our VDM-tailored 3D cache eradicates perspective ambiguities caused by structural holes and erroneous facades, as well as misleading cues from reflections and refractions. Project website is available at https://jiayi-wu-leo.github.io/real2sam2real",
+  "title_relatable": "How 3D geometry fixes video generation's biggest weakness",
+  "hook": "Video diffusion models collapse under camera movement and occlusions. Adding explicit 3D structure as guidance maintains consistency where pure neural priors fail.",
+  "summary": "Video diffusion models generate impressive footage but struggle with precise camera control and complex occlusions—they fall apart when inferring hidden geometry. Real2SAM2Real injects a 3D geometric scaffold extracted from SAM3D into the diffusion process, giving the model a physical anchor for what should move where. The approach decouples geometry from appearance and stays faithful to pre-trained priors, enabling stable video synthesis with dramatic camera shifts and severe occlusions while maintaining spatiotemporal coherence.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 881,
+  "tokens_out": 188,
+  "cost_usd": 0.0014568000000000003,
+  "ingested_at": "2026-06-02T12:40:35.596106+00:00"
+}

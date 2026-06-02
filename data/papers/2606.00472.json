@@ -1,0 +1,25 @@
+{
+  "id": "2606.00472",
+  "arxiv_url": "https://arxiv.org/abs/2606.00472",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.HC",
+    "cs.LG"
+  ],
+  "title_original": "CodeCytos: AI-assisted spatial molecular imaging analysis via code-augmented agent action space",
+  "authors": "Hung Q. Vo, Huy Q. Vo, Son T. Ly, Zhihao Wan, Anh-Vu Nguyen, Hong Zhao, Jianting Sheng, Stephen T. C. Wong, Hien V. Nguyen",
+  "abstract": "Conventional tissue image analysis software provides foundational capabilities for cellular analysis, including segmentation, basic morphological feature extraction, and spatial organization analysis. However, these tools often require manual intervention and are not well integrated with code-driven automation, limiting efficiency and scalability for complex spatial tissue studies. In addition, they offer limited flexibility for custom analyses, as they typically support only a fixed set of pre-implemented spatial cellular features. To address these limitations, we propose CodeCytos, a coding-based reasoning agent framework that enables dynamic, programmable interaction with spatial molecular imaging data to improve automation and customization. CodeCytos is designed to streamline the exploration of custom spatial cellular features and adapt to diverse research needs. We demonstrate its utility through case studies on four expert-curated datasets from distinct tissue types: frontal cortex, non-small-cell lung cancer, pancreas, and tonsil. We evaluate CodeCytos under a realistic minimal prompt setting, where bioscientists pose simple questions without task-specific instructions or contextual information about spatial cellular analysis, and benchmark multiple LLM backbones with strong coding capabilities. We further show that incorporating tailored, domain-agnostic few-shot in-context coding-reasoning examples (randomly sampled demonstrations outside the spatial analysis domain) can substantially improve performance without requiring costly, expert-crafted in-domain demonstrations. Overall, CodeCytos outperforms baseline approaches, highlighting the potential of code-action agents to assist with custom feature exploration in spatial molecular imaging and to accelerate biomarker discovery.",
+  "title_relatable": "Can AI agents write code to analyze tissue images like biologists do?",
+  "hook": "CodeCytos lets biologists ask natural-language questions about spatial cell patterns, and an LLM writes custom analysis code on-the-fly across four tissue types without manual intervention.",
+  "summary": "Tissue imaging labs spend weeks writing custom code to extract spatial cellular features. CodeCytos treats this as a coding-reasoning problem: a language model reads microscopy data and generates Python to answer questions like \"which immune cells cluster near tumor cells?\" on the fly. Tested on four expert datasets (brain, lung cancer, pancreas, tonsil), it outperforms baseline methods and works better when trained on generic coding examples than domain-specific ones—suggesting the LLM's raw code-generation skill transfers across tissue types.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 819,
+  "tokens_out": 206,
+  "cost_usd": 0.0014792,
+  "ingested_at": "2026-06-02T12:38:32.552430+00:00"
+}

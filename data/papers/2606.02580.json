@@ -1,0 +1,22 @@
+{
+  "id": "2606.02580",
+  "arxiv_url": "https://arxiv.org/abs/2606.02580",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Thinking in Blender: Staged Executable Inverse Graphics with Vision-Language Models",
+  "authors": "Guangzhao He, Rundong Luo, Wei-Chiu Ma, Hadar Averbuch-Elor",
+  "abstract": "Inverse graphics is a longstanding and highly underconstrained problem that seeks to reconstruct images as editable 3D scenes which can be rendered, relit, and manipulated. In this work, we investigate whether pretrained vision-language models (VLMs) can perform executable inverse graphics directly from a single image by reconstructing a scene as an editable Blender program, without relying on specialized 2D or 3D foundation models, differentiable rendering, or multi-view supervision. We introduce Staged Executable Inverse Graphics (SEIG), an agentic framework that reconstructs a 3D scene from a single image by progressively refining scene factors including geometry, materials, composition, and lighting directly in executable Blender code space. We evaluate our framework across diverse scenes using a range of reconstruction metrics spanning pixel-level, perceptual, and semantic fidelity. Our experiments show that staged reconstruction substantially improves reconstruction fidelity, highlighting the importance of task decomposition for executable inverse graphics with general-purpose VLMs. Finally, we showcase various downstream applications enabled by the reconstructed editable Blender scenes.",
+  "title_relatable": "Can vision-language models reconstruct editable 3D scenes from photos?",
+  "hook": "VLMs directly generate Blender code to reconstruct 3D scenes from single images, enabling full relighting and editing without specialized 3D models.",
+  "summary": "Inverse graphics—reconstructing 3D scenes from photos—is notoriously hard. This work shows that standard vision-language models can do it by generating executable Blender code directly, refining geometry, materials, lighting, and composition stage-by-stage. The staged approach beats single-shot reconstruction, and the resulting editable scenes support relighting and object manipulation without requiring differentiable rendering or 3D foundation models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 701,
+  "tokens_out": 180,
+  "cost_usd": 0.0012808000000000001,
+  "ingested_at": "2026-06-02T12:35:56.803651+00:00"
+}

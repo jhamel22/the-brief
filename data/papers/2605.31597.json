@@ -1,0 +1,22 @@
+{
+  "id": "2605.31597",
+  "arxiv_url": "https://arxiv.org/abs/2605.31597",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models",
+  "authors": "Olaf Dünkel, Basavaraj Sunagad, Haoran Wang, David T. Hoffmann, Christian Theobalt, Adam Kortylewski",
+  "abstract": "Measuring structured object understanding in vision foundation models remains challenging due to inconsistent evaluation protocols and limited part-level supervision. Semantic correspondence (SC) evaluates this capability by testing whether object parts can be matched across instances and categories under large variations in appearance, viewpoint, and geometry. To enable a systematic SC evaluation, we introduce SOCO, a new benchmark for Semantic Object Correspondence that introduces a taxonomy of correspondence types and provides consistent, functionally meaningful keypoint annotations across 100 categories and over 1M correspondence pairs. In addition, SOCO includes keypoint language descriptions, enabling the evaluation of large vision-language models (LVLMs) and their fine-grained part-level understanding. Comprehensive experiments reveal that (i) vision foundation backbones encode strong semantic structure but transfer correspondences poorly across related categories and only partially capture object-part position, (ii) LVLMs are stronger at text-prompted part localization than at visual-reference cross-image matching, exposing a gap between language-grounded localization and fine-grained visual correspondence, and (iii) correspondence performance predicts performance on dense downstream tasks, including segmentation, tracking, 3D pose estimation, and 3D detection, more strongly than ImageNet classification. Together, these findings position SOCO as a benchmark for structured, part-level representation quality in vision and multimodal foundation models.",
+  "title_relatable": "Do vision models really understand object parts?",
+  "hook": "New benchmark reveals foundation models struggle to match object parts across images, despite strong performance on ImageNet.",
+  "summary": "SOCO benchmarks how well vision and vision-language models understand object parts by testing semantic correspondence—matching keypoints across 100 object categories in 1M+ image pairs. Despite encoding semantic structure, foundation models transfer poorly between related categories, and language-guided models outperform visual matching at part localization. Correspondence performance predicts downstream tasks like pose estimation and tracking better than ImageNet accuracy.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 760,
+  "tokens_out": 153,
+  "cost_usd": 0.00122,
+  "ingested_at": "2026-06-02T12:40:26.657048+00:00"
+}

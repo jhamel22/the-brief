@@ -1,0 +1,22 @@
+{
+  "id": "2606.00499",
+  "arxiv_url": "https://arxiv.org/abs/2606.00499",
+  "announced_date": "2026-05-30",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "OptiWorld: Optimal Control for Video World Generation under Physical Constraints",
+  "authors": "Yu Yuan, Jianhao Yuan, Xijun Wang, Daiqing Li, Liu He, Lu Ling, Stanley H. Chan",
+  "abstract": "Video generation models are becoming a scalable form of world models, but they mainly generate plausible motion rather than proactively control or optimize the underlying dynamics. As a result, an object in the generated video may follow trajectories that are unsafe, not smooth, inefficient, or physically inconsistent. In this work, we propose \\textbf{OptiWorld}, a framework that brings classical optimal control into video generation at inference time. OptiWorld first extracts a compact, task-relevant world state, then plans an optimal trajectory under physical constraints, and finally renders the video conditioned on this trajectory. We formulate planning as a geometric problem on a continuous manifold, which converts 3D geometry and task-dependent physical constraints into a unified planning geometry. By adding this optimal-control layer, OptiWorld generates videos with preferable dynamics, demonstrating strong potential in multiple tasks including goal-conditioned image-to-video generation, video dynamics editing, and counterfactual generation.",
+  "title_relatable": "Can you make video generators obey physics?",
+  "hook": "Video generation models now plan physically realistic trajectories using optimal control, ensuring smooth, efficient, safe motion rather than plausible-looking chaos.",
+  "summary": "Video generators excel at creating plausible motion but ignore real-world physics—objects drift, collide, or waste energy. OptiWorld adds an optimal-control layer at inference: extract compact state, plan trajectories under physical constraints on a learned manifold, then render video along that path. Handles goal-conditioned generation, dynamics editing, and counterfactuals.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 662,
+  "tokens_out": 157,
+  "cost_usd": 0.0011576,
+  "ingested_at": "2026-06-02T12:38:29.339104+00:00"
+}

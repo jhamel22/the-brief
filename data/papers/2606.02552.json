@@ -1,0 +1,23 @@
+{
+  "id": "2606.02552",
+  "arxiv_url": "https://arxiv.org/abs/2606.02552",
+  "announced_date": "2026-06-01",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Modeling Depth Ambiguity: A Mixture-Density Representation for Flying-Point-Free Depth Estimation",
+  "authors": "Siyuan Bian, Congrong Xu, Jun Gao",
+  "abstract": "Despite advances in depth estimation, flying points remain a persistent failure mode: near object boundaries, depth estimators often predict spurious 3D points in the empty space between foreground and background surfaces. We trace this artifact to a standard modeling choice: assigning each pixel a single depth hypothesis. At boundaries, a pixel can straddle a foreground and a background surface, so its true depth is ambiguous between the two. A model that predicts a single depth cannot keep both possibilities, so training instead pulls the prediction toward an intermediate depth that lies on neither surface. We address this with MDA, a mixture-density representation that lets the model predict multiple depth hypotheses and their associated probabilities for each pixel. Near boundaries, different hypotheses can align with different surfaces, and the decoded depth is selected from one of these hypotheses rather than placed in the empty space between them. Across different backbones, MDA substantially improves boundary reconstruction and largely removes flying-point artifacts even under severe input blur, while adding negligible runtime overhead. The same mixture-density framework naturally extends to transparent objects, where it predicts multiple depth layers at transparent pixels, and to sky regions, where a dedicated component separates the unbounded sky from finite-depth regions, producing flying-point-free skylines. Project Page: https://biansy000.github.io/mda-site/.",
+  "title_relatable": "Why depth cameras see ghosts at object edges—and how to stop them",
+  "hook": "Flying points—spurious 3D data at boundaries—plague depth estimation. A mixture-density model predicting multiple depth possibilities per pixel removes artifacts while handling transparent objects and sky.",
+  "summary": "Depth cameras struggle at object boundaries, producing spurious 3D points (flying points) in the empty space between foreground and background. The problem: each pixel gets assigned one depth value, which at boundaries forces the model to predict an intermediate depth that exists nowhere real. MDA swaps this for a mixture-density representation, letting pixels predict multiple depth hypotheses with probabilities attached. At boundaries, different hypotheses can align with different surfaces; the final depth picks one hypothesis rather than averaging into empty space. Tested across backbones, MDA removes flying-point artifacts, handles transparent objects as depth layers, and generates clean skylines—all with negligible overhead.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 740,
+  "tokens_out": 232,
+  "cost_usd": 0.00152,
+  "ingested_at": "2026-06-02T12:36:44.567844+00:00"
+}

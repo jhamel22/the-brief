@@ -1,0 +1,22 @@
+{
+  "id": "2606.00379",
+  "arxiv_url": "https://arxiv.org/abs/2606.00379",
+  "announced_date": "2026-05-29",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Non-Learning Low-Light Stereo Vision",
+  "authors": "Jason Wang, Lucas Nguyen, Hyunseung Eom, Wei Xu, Qi Guo",
+  "abstract": "We present a non-learning stereo framework for disparity estimation from severely noisy images. Using the Field of Junctions (FoJ), it retains coarse visual features stable under severe noise for cost volume construction while discarding fine textures inseparable from photon noise. The resulting structural information guides boundary-aware Semi-Global Matching (SGM) that dynamically adapts smoothness penalties to preserve true disparity discontinuities. The output is a sparse disparity map more accurate than those of recent stereo algorithms over unmasked pixels on widely-used benchmark datasets.",
+  "title_relatable": "How to see depth in the dark without training a neural network",
+  "hook": "A non-learning stereo method outperforms recent deep learning algorithms on low-light depth estimation by focusing on structural edges instead of texture.",
+  "summary": "Depth sensing in darkness is hard because pixel noise drowns out fine details. This work uses Field of Junctions—a classical technique that extracts only coarse, noise-stable edges—then feeds those into boundary-aware Semi-Global Matching that protects true depth discontinuities. The result: sparser but more accurate disparity maps than recent learning-based methods on benchmark datasets, without any training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 567,
+  "tokens_out": 168,
+  "cost_usd": 0.0011255999999999998,
+  "ingested_at": "2026-06-02T12:39:56.161459+00:00"
+}
