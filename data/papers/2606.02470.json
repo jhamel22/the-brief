@@ -1,0 +1,22 @@
+{
+  "id": "2606.02470",
+  "arxiv_url": "https://arxiv.org/abs/2606.02470",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "MCP-Persona: Benchmarking LLM Agents on Real-World Personal Applications via Environment Simulation",
+  "authors": "Wenhao Wang, Peizhi Niu, Gongyi Zou, Xiyuan Yang, Jingxing Wang, Haoting Shi, Yaxin Du, Jingyi Chai, Xianghe Pang, Shuo Tang, Yanfeng Wang, Siheng Chen",
+  "abstract": "The Model Context Protocol (MCP) has emerged as a transformative standard for connecting large language models (LLMs) with external data sources and tools, and has been rapidly adopted across personal applications and development platforms. However, existing benchmarks predominantly focus on generic information-seeking tools and fail to capture the practical challenges posed by personal social applications, where tools interact with individual accounts or local databases. To bridge this critical gap, we introduce MCP-Persona, the first benchmark specifically designed for evaluating agent performance on real-world, personalized MCP tools. MCP-Persona encompasses a diverse set of widely-used applications, ranging from social media platforms like Reddit and Xiaohongshu (Rednote) to enterprise collaboration suites such as Lark (Feishu) and Slack. Our extensive experiments on various state-of-the-art (SOTA) agents demonstrate their significant struggles with personalized tool use, thereby highlighting the benchmark's crucial role in identifying and addressing these limitations. MCP-Persona is publicly available at https://github.com/wwh0411/MCP-Persona}{https://github.com/wwh0411/MCP-Persona.",
+  "title_relatable": "Why AI agents fail at managing your personal apps",
+  "hook": "New benchmark reveals state-of-the-art agents stumble on personalized tools like Slack, Reddit, and enterprise apps—exposing a critical gap in real-world deployment.",
+  "summary": "LLM agents excel at generic information lookup but flounder when managing personal accounts and databases in apps like Slack, Reddit, and Lark. MCP-Persona is the first benchmark testing agents on real-world personalized tools—not hypothetical ones—covering social media and enterprise platforms. Experiments show current top agents struggle significantly, revealing why they fail at everyday personal app tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 764,
+  "tokens_out": 169,
+  "cost_usd": 0.0012872,
+  "ingested_at": "2026-06-02T12:18:54.604533+00:00"
+}

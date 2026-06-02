@@ -1,0 +1,23 @@
+{
+  "id": "2606.00435",
+  "arxiv_url": "https://arxiv.org/abs/2606.00435",
+  "announced_date": "2026-05-29",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Detect Before You Leap: Mirage Detection in Vision-Language Models",
+  "authors": "Sayeed Shafayet Chowdhury, Md. Shaown Miah",
+  "abstract": "Vision-language models (VLMs) can produce confident visual answers even when the required visual evidence is missing, blank, or unrelated to the question. This failure mode, known as mirage (Asadi et al. 2026), is especially concerning in medical and document visual question answering, where plausible but visually ungrounded responses may be mistaken for image-based evidence. We study pre-release mirage detection: given an image-question pair, the goal is to determine whether a VLM should answer or abstain before producing a response. We propose Text-Conditioned Layer-wise Internal Alignment (TC-LIA), a model-agnostic method that probes patch-token representations across the layers of a CLIP ViT-H/14 vision encoder. TC-LIA projects layer-wise image patch tokens into the final CLIP embedding space and measures their similarity to the question embedding, allowing the method to track whether question-relevant visual evidence emerges across vision layers. The resulting alignment trajectory is summarized using final image-text cosine similarity, late-layer top-k patch-text alignment, early-to-late gain, and layer-wise slope. These features are combined with pixel-statistic blank/noise detection, zero-shot domain routing, and structured VLM self-assessment in an ensemble. Across five VQA domains, three input conditions, and twelve VLM backbones, the best systems achieve approximately 94.6-94.7% three-class detection accuracy with mirage rates below 3%, while baseline mirage rates range from 21.7% to 66.6%.",
+  "title_relatable": "How to stop vision-language models from confidently lying?",
+  "hook": "Vision-language models hallucinate answers when images are blank or unrelated; a new detection method catches 94.6% of these 'mirages' before they're spoken.",
+  "summary": "Vision-language models confidently answer questions about images even when visual evidence is absent or irrelevant—a failure called mirage. Researchers propose TC-LIA, which inspects how question-relevant information flows through a CLIP vision encoder's layers to decide whether the model should answer or stay silent. Tested across five VQA domains and twelve models, the method reduces mirage rates from 22–67% down to below 3%, critical for medical and document-based applications where false confidence is dangerous.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 800,
+  "tokens_out": 198,
+  "cost_usd": 0.001432,
+  "ingested_at": "2026-06-02T12:22:04.703866+00:00"
+}

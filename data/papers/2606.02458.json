@@ -1,0 +1,22 @@
+{
+  "id": "2606.02458",
+  "arxiv_url": "https://arxiv.org/abs/2606.02458",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Beyond One-shot: AI Agents for Learning in Field Experiments",
+  "authors": "Junjie Luo, Ritu Agarwal, Gordon Gao",
+  "abstract": "Organizations routinely run experiments for A/B testing, yet the data generated from one experiment is underutilized to inform subsequent intervention design. Significant barriers exist to extracting actionable knowledge from prior experimental data to inform new interventions. We study whether tool-augmented agentic AI can automatically learn from experimental data to generate new interventions in subsequent experiments. Through two-stage field experiments in healthcare prescription messaging (693,139 patient visits), we compare a Human + Chatbot method (Stage 1: behavioral experts with conversational AI co-designing 13 message variants, 444,691 patient visits) against a Tool-Augmented Agentic AI method (Stage 2: AI autonomously extracting principles from Stage 1 data to generate 17 new variants, 248,448 patient visits). The Agentic AI method, equipped with analytical tools, structured Data-Information-Knowledge-Wisdom (DIKW) reasoning agents, and transparent evidence chains, produces superior interventions: the best AI-generated message achieved a 69.8% CTR (+6.5 percentage points over baseline). Critically, our results suggest that the value comes from domain-specific experimental data, not from general reasoning ability: frontier LLMs operating without experimental data failed to predict which interventions would succeed. The field experiments also revealed that general-purpose behavioral theories used for intervention design do not extend uniformly to specific healthcare contexts, motivating an agentic AI approach to theory audits at field-experiment scale. Our research shows that tool-augmented AI can learn from experimental data and generate improved domain-relevant interventions, transforming behavioral experimentation from one-shot evaluation into a scalable system for cumulative design learning.",
+  "title_relatable": "Can AI learn what works by analyzing failed experiments?",
+  "hook": "AI agents analyzing real healthcare experiments generated 6.5 percentage point better message performance than human designers, but only when trained on prior experimental data.",
+  "summary": "Organizations run A/B tests but rarely use results to design better interventions. Researchers tested whether AI agents with access to analytical tools could learn from one round of healthcare messaging experiments (693K patient visits) to generate improved variants for the next round. The AI method produced messages with 69.8% click-through rate—6.5 points above baseline—whereas frontier LLMs guessing without experimental data failed. The finding: domain-specific experimental evidence matters far more than general reasoning ability.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 810,
+  "tokens_out": 184,
+  "cost_usd": 0.001384,
+  "ingested_at": "2026-06-02T12:19:05.546444+00:00"
+}

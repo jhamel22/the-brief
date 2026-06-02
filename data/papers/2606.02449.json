@@ -1,0 +1,26 @@
+{
+  "id": "2606.02449",
+  "arxiv_url": "https://arxiv.org/abs/2606.02449",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CV",
+    "cs.LG",
+    "cs.MM"
+  ],
+  "title_original": "HLL: Can Agents Cross Humanity's Last Line of Verification?",
+  "authors": "Xinhao Song, Su Su, Sirui Song, Hongliang Wu, Wen Shen, Zhihua Wei, Gongshen Liu, Linfeng Zhang, Dongrui Liu",
+  "abstract": "Multimodal agents are increasingly expected to operate interfaces on behalf of users, raising a central deployment question: can they truly substitute for humans in workflows that services deliberately protect against automation? CAPTCHA verification makes this question concrete. It is not merely a visual puzzle, but a human-verification boundary placed before account creation, content access, form submission, and other protected actions. We introduce \\textbf{Humanity's Last Line of Verification (HLL)}, a controlled benchmark that uses interactive CAPTCHA verification to evaluate whether agents can cross this boundary through grounded, human-like interaction rather than recognition alone. HLL covers diverse CAPTCHA interactions and exposes agents to controlled realism stressors, including cluttered webpages, harder task variants, and trace-conditioned validation of the solving process. We evaluate eight frontier multimodal agents in a closed-loop GUI environment. The results show that current agents remain brittle at this human-substitution boundary: performance varies sharply across verification types, degrades under realistic interface conditions, and drops further when correct answers must be supported by valid action traces. By exposing gaps in localization, action calibration, state tracking, and process consistency, HLL provides a concrete testbed for measuring how close multimodal agents are to acting as human substitutes in protected real-world workflows. Our code is available at https://github.com/XinhaoS0101/HLL",
+  "title_relatable": "Can AI agents fool CAPTCHA tests like humans do?",
+  "hook": "Eight frontier multimodal agents fail to reliably solve CAPTCHAs in realistic web environments, with performance dropping 30–50% under clutter and action-trace validation.",
+  "summary": "CAPTCHAs guard sensitive workflows—account creation, form submission, access control—by verifying humans, not bots. This benchmark tests whether multimodal agents can cross that boundary through grounded interaction rather than pure recognition. Evaluating eight frontier models in a closed-loop GUI environment, researchers found agents remain brittle: performance varies sharply across CAPTCHA types, degrades under realistic webpage clutter, and collapses when solutions must include valid action traces. The work exposes failures in localization, action calibration, and state tracking—concrete gaps preventing human substitution in protected workflows.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 773,
+  "tokens_out": 219,
+  "cost_usd": 0.0014944000000000001,
+  "ingested_at": "2026-06-02T12:18:43.446961+00:00"
+}

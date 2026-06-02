@@ -1,0 +1,24 @@
+{
+  "id": "2606.00754",
+  "arxiv_url": "https://arxiv.org/abs/2606.00754",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "stat.ME",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Causal Density Functions",
+  "authors": "Sridhar Mahadevan",
+  "abstract": "We introduce causal density functions: Radon-Nikodym derivatives that compare interventional laws to observational laws and therefore act as local density ratios for causal effects. Whereas many causal-strength measures compare whole distributions after graph surgery, causal density functions provide a pointwise change-of-measure object that can be estimated, calibrated, and used to score directed influence. The basic identity \\[ \\mathbb{E}_{\\mathrm{do}}[f(Y)] = \\mathbb{E}_{\\mathrm{obs}}\\!\\left[f(Y)ρ(X,Y)\\right] \\] makes causal density directly testable: if the estimated density ratio is correct, observational expectations reweighted by $ρ$ reproduce interventional expectations. We derive practical estimators for do-curves and directed edge scores, relate the construction to Radon-Nikodym/Kan semantics for conditioning and intervention, and evaluate the resulting estimators on synthetic and real perturbation benchmarks.",
+  "title_relatable": "How to measure causal influence at a single point?",
+  "hook": "New mathematical framework treats causal effects as local density ratios, enabling pointwise estimates of directed influence testable against interventional data.",
+  "summary": "Causal density functions are Radon-Nikodym derivatives that quantify how intervention changes probability distributions at each data point. Unlike existing methods that compare whole distributions, these local density ratios let you estimate and validate causal effects directly: reweight observational data by the estimated density and you should recover interventional expectations. The approach yields practical estimators for causal curves and edge strengths, validated on synthetic and real perturbation benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 646,
+  "tokens_out": 173,
+  "cost_usd": 0.0012088000000000001,
+  "ingested_at": "2026-06-02T12:21:50.075005+00:00"
+}

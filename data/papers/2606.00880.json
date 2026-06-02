@@ -1,0 +1,23 @@
+{
+  "id": "2606.00880",
+  "arxiv_url": "https://arxiv.org/abs/2606.00880",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Task diversity produces systematic transfer but inhibits continual reinforcement learning",
+  "authors": "Purab Seth, Neil Shah, Kunal Jha, Samuel J. Gershman, Max Kleiman-Weiner, Wilka Carvalho",
+  "abstract": "Continual reinforcement learning aims to produce agents that learn not only to improve at their current tasks but also to adapt as task distributions change. Training an agent on many diverse tasks can induce zero-shot generalization, but previous work generally evaluates this generalization after training -- with frozen weights. Whether task diversity also improves an agent's ability to continue learning across distribution shifts remains unclear. We introduce Banyan, a GPU-accelerated continual RL domain in which task diversity factors into three independently controllable axes: the map layouts an agent must navigate, the objects it must interact with, and the hierarchical structures of sub-goal dependencies. Across individual distribution shifts, increasing diversity along each axis causes agents to begin training on the new tasks near the performance attained on the previous one, even when the shift changes the structure of the optimal policy. However, as the number of shifts increases, this local transfer does not by itself yield sustained continual learning: longer-horizon tasks plateau, and earlier task distributions are forgotten after later training. Banyan is a benchmark for studying when controlled task diversity produces transferable learning, when that transfer persists, and where it falls short of proper continual learning.",
+  "title_relatable": "Why learning many tasks helps then hurts continual learning?",
+  "hook": "Training on diverse tasks improves transfer to new ones but paradoxically impairs learning across multiple sequential shifts, revealed through a new GPU-accelerated benchmark.",
+  "summary": "Task diversity has a Jekyll-and-Hyde effect on reinforcement learning agents. Varying map layouts, objects, and goal hierarchies helps agents start strong on new tasks—but only temporarily. The researchers built Banyan, a new benchmark with independently controllable task dimensions, and showed that while local transfer improves with diversity, sustained learning across many sequential shifts actually deteriorates: agents forget earlier tasks and performance on longer-horizon tasks stalls. The finding reveals a hard trade-off between generalization and continual adaptation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 708,
+  "tokens_out": 192,
+  "cost_usd": 0.0013344000000000001,
+  "ingested_at": "2026-06-02T12:21:40.785962+00:00"
+}

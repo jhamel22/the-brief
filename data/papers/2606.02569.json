@@ -1,0 +1,24 @@
+{
+  "id": "2606.02569",
+  "arxiv_url": "https://arxiv.org/abs/2606.02569",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "AdaCodec: A Predictive Visual Code for Video MLLMs",
+  "authors": "Haowen Hou, Zhen Huang, Zheming Liang, Qingyi Si, Chenglin Li, Shuai Dong, Kele Shao, Ruilin Li, Dianyi Wang, Nan Duan, Jiaqi Wang",
+  "abstract": "Video is temporally redundant: adjacent frames usually share most objects, background, and layout. Yet existing video multimodal large language models (video MLLMs) usually encode each sampled frame as an independent RGB image, causing visual tokens to repeat content already present in earlier frames. This suggests a more direct video interface: send a full reference frame only when the scene cannot be predicted well from prior context, and otherwise transmit a compact description of inter-frame changes. We call this interface a \\emph{predictive visual code}, and instantiate it for video MLLMs as \\textbf{AdaCodec}. AdaCodec spends full visual tokens on a reference frame only when its conditional predictive cost is high; otherwise, it encodes inter-frame changes, including motion and prediction residuals, as compact P-tokens. Across all eleven benchmarks, AdaCodec improves over the Qwen3-VL-8B per-frame RGB baseline at a matched visual-token budget. Even at $1/7$ the budget, AdaCodec with 32k tokens surpasses the 224k baseline on all long-video benchmarks; on five general-video benchmarks, it raises the average score while substantially cutting time-to-first-token from 9.26s to 1.62s.",
+  "title_relatable": "How to avoid encoding the same video frame twice?",
+  "hook": "Video MLLMs waste tokens repeating content across frames. AdaCodec sends full reference frames only when needed, cutting token budget to 1/7 while matching or exceeding performance.",
+  "summary": "Video multimodal models waste computational resources by encoding each frame independently, even though adjacent frames are nearly identical. AdaCodec instead sends a full reference frame only when the scene changes unpredictably, otherwise transmitting compact descriptions of motion and pixel differences. Across 11 benchmarks, this adaptive approach matches Qwen3-VL-8B's performance at 1/7 the token budget and accelerates response time from 9.3 seconds to 1.6 seconds.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 781,
+  "tokens_out": 197,
+  "cost_usd": 0.0014128,
+  "ingested_at": "2026-06-02T12:18:46.224980+00:00"
+}

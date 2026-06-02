@@ -1,0 +1,24 @@
+{
+  "id": "2606.00914",
+  "arxiv_url": "https://arxiv.org/abs/2606.00914",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CR"
+  ],
+  "title_original": "Adversarial Feeds Steer LLM Agent Decisions Against Their Defaults",
+  "authors": "Rana Muhammad Usman",
+  "abstract": "LLM agents increasingly act after consuming ranked external information streams such as social feeds, search results, retrieval contexts, and email queues, yet safety evaluations almost always test the model or the user prompt in isolation, never the upstream ranker that decides what the agent reads just before it acts. We introduce a controlled protocol that holds the model, persona, topic, and final decision prompt fixed and varies only the composition and ordering of the posts an agent encounters during a preceding ten-turn \"scrolling\" phase, isolating the causal effect of feed curation on a downstream decision. Across 2,785 decision rollouts on four modern open instruct LLMs from three independent labs, we identify three response regimes: adversarial capitulation, default saturation, and a default-direction asymmetry in which a one-sided feed tips a decision the model was genuinely uncertain about (in the clearest cases from 5% to 100%; Fisher p as low as 3 x 10^-10) but cannot dislodge one it already favors or holds firmly. The effect follows a dose-response curve, survives a generator swap that rules out a writing-style artifact, generalizes across several decision domains including security-relevant choices such as removing a deployment approval gate or relaxing access controls, and is partly mitigated by two simple feed-level defenses; a frontier model retains its default. We characterize the recommender as a practical, default-bounded control surface for LLM agents, and argue that agent evaluations must audit the feed layer rather than the final prompt alone.",
+  "title_relatable": "What feeds an AI agent reads shapes what it decides?",
+  "hook": "Ranked information streams can flip LLM agent decisions from 5% to 100% certainty on security choices, but only one direction works.",
+  "summary": "LLM agents consume ranked feeds (search results, social posts, email) before deciding, yet safety tests ignore this layer entirely. Researchers held model, prompt, and persona constant while varying only feed composition across 2,785 decision rollouts on four models. They found adversarial feeds can completely overturn uncertain decisions (up to 95-point swings), yet cannot dislodge firmly held positions—a one-way asymmetry. The effect survived multiple controls and generalized to security-critical choices like removing deployment gates.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 773,
+  "tokens_out": 196,
+  "cost_usd": 0.0014024,
+  "ingested_at": "2026-06-02T12:21:37.911717+00:00"
+}

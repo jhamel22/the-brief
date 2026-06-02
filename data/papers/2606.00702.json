@@ -1,0 +1,23 @@
+{
+  "id": "2606.00702",
+  "arxiv_url": "https://arxiv.org/abs/2606.00702",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "Shape Your Body: Value Gradients for Multi-Embodiment Robot Design",
+  "authors": "Nico Bohlinger, Jan Peters",
+  "abstract": "We propose to turn generalist multi-embodiment value functions into reusable models for robot design. Instead of running a new reinforcement learning co-design loop for each robot, we first train an embodiment-aware policy and value function across many robot designs. After training, the frozen value function is used as a differentiable surrogate to optimize candidate embodiments through value gradients. We evaluate our approach across different robot design settings, from perturbed single robots to held-out robots across morphology classes, with single models trained on up to 50 robots and design spaces of over 1100 continuous embodiment parameters. Beyond optimizing complete embodiments, we show that value gradients can identify performance-limiting design and control parameters, enabling both the optimization and the analysis of new robot designs.",
+  "title_relatable": "Can a robot's value function design better robot bodies?",
+  "hook": "Train once on 50 robots, then use frozen value function to optimize new embodiment designs across 1100+ parameters without retraining.",
+  "summary": "Instead of running expensive reinforcement learning loops for each new robot design, researchers train a single embodiment-aware value function across many robot morphologies, then reuse it as a differentiable optimizer for new body shapes. Testing on up to 50 robot designs and design spaces exceeding 1100 parameters, the approach both optimizes complete embodiments and identifies which physical parameters limit performance—cutting the iteration cost for robot design.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 600,
+  "tokens_out": 171,
+  "cost_usd": 0.001164,
+  "ingested_at": "2026-06-02T12:21:52.868793+00:00"
+}

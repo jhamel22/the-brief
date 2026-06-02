@@ -1,0 +1,23 @@
+{
+  "id": "2606.00619",
+  "arxiv_url": "https://arxiv.org/abs/2606.00619",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "MemPro: Agentic Memory Systems as Evolvable Programs",
+  "authors": "Qingshan Liu, Guoqing Wang, Wen Wu, Jingqi Huang, Xinqi Tao, Dejia Song, Jie Zhou, Liang He",
+  "abstract": "Long-horizon autonomous agents require memory systems to retain historical information, track evolving states, and reuse relevant knowledge beyond finite context windows. Existing agentic memory systems typically follow a memory construction-retrieval (MCR) pipeline, but often adapt mainly the memory bank while keeping the surrounding pipeline fixed after deployment. This fixed-pipeline design struggles to handle heterogeneous task-specific failure modes and can become misaligned with memory banks that evolve in scale and structure over time. To address these limitations, we propose MemPro, a system-level evolution framework that treats the entire MCR pipeline as an evolvable program rather than adapting only the memory bank or prompt text. MemPro maintains a version tree of runnable memory-system implementations, where an Evolving Agent iteratively selects promising versions, diagnoses recurring failures, and creates improved child versions through failure-mode-guided edit-debug refinement. Experiments on LongMemEval, LoCoMo, HotpotQA, and NarrativeQA show that MemPro consistently outperforms strong static and prompt-level evolving baselines within a few iterations, continues to improve with evolution, and achieves a favorable performance-cost trade-off. Code is available at https://github.com/wanghai673/MemPro.",
+  "title_relatable": "Can agents fix their own memory systems?",
+  "hook": "Framework lets autonomous agents evolve their memory pipelines to handle task-specific failures, improving on standard baselines by consistent margins across four benchmarks.",
+  "summary": "Long-horizon agents struggle when their memory systems—the mechanisms that retrieve and use past information—stay rigid after deployment. MemPro treats the entire memory pipeline as evolvable code: an agent diagnoses its own failures, edits the pipeline structure itself, and tests improved versions in a version tree. On LongMemEval, LoCoMo, HotpotQA, and NarrativeQA, this beats static memory systems and prompt-tuning baselines within a few iterations, with ongoing gains. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 757,
+  "tokens_out": 194,
+  "cost_usd": 0.0013816,
+  "ingested_at": "2026-06-02T12:21:58.810799+00:00"
+}

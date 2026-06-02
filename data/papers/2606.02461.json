@@ -1,0 +1,23 @@
+{
+  "id": "2606.02461",
+  "arxiv_url": "https://arxiv.org/abs/2606.02461",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "title_original": "AGENTCL: Toward Rigorous Evaluation of Continual Learning in Language Agents",
+  "authors": "Yiheng Shu, Bernal Jiménez Gutiérrez, Saisri Padmaja Jonnalagedda, Yuguang Yao, Huan Sun, Yu Su",
+  "abstract": "Language agents spend substantial inference time solving individual tasks, yet the experience acquired in one episode is often underutilized in future episodes. Continual learning expects an agent to accumulate reusable experience across a stream of tasks, improve over time, and avoid interference from irrelevant experiences. Unfortunately, existing benchmarks struggle to evaluate continual learning in language agents rigorously. Most efforts focus on retrieval and reasoning over long-context conversations or documents, while recent lifelong-adaptation benchmarks often rely on naive task streams with limited analysis of cross-task relationships, making it difficult to understand what an agent learns and reuses over time. This paper presents an evaluation framework AgentCL for continual learning in agents, centered on controlled task streams and metrics for transfer gains. AGENTCL constructs compositional streams where earlier sub-solutions, evidence, or workflows are intentionally reusable in later tasks, and contrasts them with naive streams where such reusability is not guaranteed. We use the benchmark to evaluate non-parametric memory designs for continual learning. To diagnose how memory design choices affect continual learning, we develop MemProbe, a probing method that stores interactions, insights, and skills, while filtering unreliable experiences during consolidation. Empirical analysis across coding, deep research, and language understanding/reasoning tasks shows that naive streams offer limited ability to distinguish memory designs, whereas controlled streams more clearly distinguish their plasticity. Meanwhile, naive and held-out settings often yield limited gains and can expose memory-induced degradation. These results highlight the need for stronger memory designs that balance plasticity and stable reuse.",
+  "title_relatable": "Do language agents actually learn from past tasks?",
+  "hook": "New benchmark reveals memory designs fail to help agents reuse experience across coding and research tasks.",
+  "summary": "Language agents solve tasks one at a time but rarely learn from them. This work introduces AgentCL, a benchmark with controlled task streams designed so earlier solutions genuinely transfer to later ones, plus MemProbe, a memory system that stores and filters agent insights. Testing on coding and research tasks shows existing memory designs barely improve performance on naive streams, but controlled streams expose their weaknesses—highlighting that agents need fundamentally better ways to balance learning new things without forgetting old ones.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 823,
+  "tokens_out": 167,
+  "cost_usd": 0.0013264000000000001,
+  "ingested_at": "2026-06-02T12:19:00.967231+00:00"
+}

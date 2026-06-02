@@ -1,0 +1,22 @@
+{
+  "id": "2606.00618",
+  "arxiv_url": "https://arxiv.org/abs/2606.00618",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "Efficient Test-time Inference for Generative Planning Models",
+  "authors": "Robert Gieselmann, Mihai Samson, Federico Pecora, Jeremy L. Wyatt",
+  "abstract": "Generative models have emerged as a powerful paradigm for AI planning, yet their performance remains constrained by the training data distribution. One approach is to improve generated solutions during inference by scaling test-time compute. A more efficient alternative is to optimize the inference process itself. In this paper, we show that a modified version of a classical Open-Closed List (OCL) search provides just such an efficient inference procedure. Our algorithm synergizes two learned components: a generative model that performs fast rollouts from intermediate states and a heuristic model that prioritizes among candidate reasoning paths. Key contributions include novel exploration control mechanisms and integration of learned models within the OCL framework. Across multiple combinatorial planning domains, our approach outperforms both neurosymbolic search baselines and classical solvers in computational efficiency and solution quality.",
+  "title_relatable": "How to make AI planners faster without retraining?",
+  "hook": "Classical search algorithms with learned heuristics cut planning time while improving solution quality across combinatorial domains.",
+  "summary": "Generative models for AI planning often struggle beyond their training data. Instead of scaling up compute at test time, this work revives the Open-Closed List search algorithm and pairs it with two learned components: a fast rollout model and a heuristic guide. The hybrid approach outperforms neurosymbolic baselines and classical solvers on combinatorial planning tasks—achieving better solutions with less computation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 618,
+  "tokens_out": 158,
+  "cost_usd": 0.0011264,
+  "ingested_at": "2026-06-02T12:22:01.953683+00:00"
+}

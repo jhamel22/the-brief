@@ -1,0 +1,23 @@
+{
+  "id": "2606.00642",
+  "arxiv_url": "https://arxiv.org/abs/2606.00642",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CR"
+  ],
+  "title_original": "Hidden Thoughts Are Not Secret: Reasoning Trace Exposure in LLMs",
+  "authors": "Yu-An Lu, Ci-Yang Tsai, Yu-Lin Tsai, Raluca Ada Popa, Chia-Mu Yu",
+  "abstract": "Reasoning traces have become a valuable form of learning signals for improving and transferring the capabilities of large language models. In particular, detailed traces can help distill reasoning behavior from stronger teacher models into weaker student models. The value of capability transfer has motivated many deployed systems with reasoning models to hide raw internal traces and expose at most summaries and answers to users. As a result, we ask whether such interface-level trace hiding prevents users from obtaining useful reasoning supervision through prompting. We study this question with Reasoning Exposure Prompting (REP), a lightweight in-context elicitation method that uses shadow-model-generated demonstrations wrapped in auxiliary code-like formats to raise user-visible reasoning traces from a victim model. Across the common reasoning dataset, different victim models, and different student model distillation, REP substantially increases similarity between exposed and REP-conditioned internal traces while preserving useful reasoning signals.",
+  "title_relatable": "Can you extract hidden reasoning from language models through clever prompting?",
+  "hook": "Researchers bypass interface-level trace hiding in reasoning models, exposing internal reasoning through prompt engineering—raising questions about capability transfer security.",
+  "summary": "Language model companies hide internal reasoning traces to prevent unauthorized capability extraction. This work shows users can recover useful reasoning signals through Reasoning Exposure Prompting (REP)—a technique using code-like formatted examples to elicit hidden traces. Tests across multiple models and datasets confirm REP substantially increases similarity to internal reasoning while preserving distillable signals, suggesting interface-level hiding is insufficient protection.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 650,
+  "tokens_out": 162,
+  "cost_usd": 0.001168,
+  "ingested_at": "2026-06-02T12:21:56.098292+00:00"
+}

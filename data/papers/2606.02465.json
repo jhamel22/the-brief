@@ -1,0 +1,23 @@
+{
+  "id": "2606.02465",
+  "arxiv_url": "https://arxiv.org/abs/2606.02465",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "Learning When to Translate for Multilingual Reasoning",
+  "authors": "Deokhyung Kang, Hyounghun Kim, Gary Geunbae Lee",
+  "abstract": "Reasoning language models (RLMs) achieve strong performance on complex reasoning tasks, but still exhibit substantial multilingual reasoning gaps, largely due to language-understanding failures in non-English inputs. English translation can mitigate these failures by expressing non-English inputs in a form that RLMs can more reliably interpret, yet translating every input is unnecessary when the model can reason reliably from the original query. To address this challenge, we propose Luar, a Language Understanding Boundary-aware Reinforcement Learning framework that trains RLMs to selectively invoke translation when direct understanding is unreliable. Luar trains the model to choose between solving the original input directly and reasoning over its English translation, encouraging translation only when translator-augmented reasoning is expected to substantially outperform direct reasoning. Across multilingual reasoning benchmarks, Luar outperforms standard GRPO and other training-based baselines, with particularly large gains on low-resource languages. Further analysis shows that Luar avoids unnecessary translation in cases where direct reasoning is sufficient, while extending its translator-call behavior to unseen low-resource languages. Together, our work suggests a selective approach to multilingual reasoning: RLMs can learn to invoke translation only when their direct understanding is unreliable. The project will be made publicly available at https://github.com/deokhk/LUAR",
+  "title_relatable": "When should reasoning models translate? Learning to ask for help smartly",
+  "hook": "Reasoning models struggle with non-English queries, but translating everything wastes compute. A new framework trains models to translate only when they'd otherwise fail.",
+  "summary": "Reasoning language models handle English well but stumble on other languages—mostly because they don't understand non-English inputs reliably. Translating everything to English helps but adds unnecessary overhead. Luar uses reinforcement learning to train models to selectively invoke translation only when direct reasoning would fail, skipping translation when the original query is understandable. Across multilingual benchmarks, it outperforms standard approaches and generalizes to unseen low-resource languages.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 732,
+  "tokens_out": 183,
+  "cost_usd": 0.0013176,
+  "ingested_at": "2026-06-02T12:18:57.869620+00:00"
+}

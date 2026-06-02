@@ -1,0 +1,23 @@
+{
+  "id": "2606.02484",
+  "arxiv_url": "https://arxiv.org/abs/2606.02484",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "Iteris: Agentic Research Loops for Computational Mathematics",
+  "authors": "Leheng Chen, Zihao Liu, Wanyi He, Bin Dong",
+  "abstract": "Recent advances in large language models and agentic AI systems have enabled significant progress in mathematical discovery, from solving competition problems to tackling research-level conjectures. However, open problems in computational mathematics have received comparatively less attention: research in this area often requires not only proofs but also numerical experimentation, adversarial constructions, and algorithm design. In this paper, we introduce an agentic research system, Iteris, designed for open problems in computational mathematics. We apply Iteris to two open problems from a recent Simons Workshop collection (arXiv:2602.05394). In these case studies, Iteris generated numerical evidence, constructions, and proof drafts that led, after expert review and correction, to verified results. The first result is a phase diagram for the asymptotic comparison between conjugate gradient and randomized coordinate descent on power-law spectra; the second is a counterexample showing that QR factorization with column pivoting can fail to select well-conditioned submatrices even under low coherence. These case studies suggest that agentic AI systems can participate meaningfully in research workflows for open problems in computational mathematics, while human validation remains essential.",
+  "title_relatable": "Can AI agents solve open problems in computational mathematics?",
+  "hook": "AI system tackles two unsolved computational math problems, producing proofs and counterexamples that survived expert review.",
+  "summary": "Iteris is an AI agent designed to tackle open problems in computational mathematics—a harder task than pure theorem proving because it requires numerical experiments, algorithm design, and adversarial constructions. Applied to two problems from a recent Simons Workshop, the system generated numerical evidence and proof drafts that, after expert correction, yielded verified results: a phase diagram comparing optimization algorithms and a counterexample disproving a conjecture about QR factorization. The work shows AI can contribute to real research workflows, though human mathematicians remain essential for validation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 698,
+  "tokens_out": 189,
+  "cost_usd": 0.0013144,
+  "ingested_at": "2026-06-02T12:18:51.951929+00:00"
+}

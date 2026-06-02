@@ -1,0 +1,23 @@
+{
+  "id": "2606.02494",
+  "arxiv_url": "https://arxiv.org/abs/2606.02494",
+  "announced_date": "2026-06-01",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.SE",
+    "cs.AI"
+  ],
+  "title_original": "Monitoring Agentic Systems Before They're Reliable",
+  "authors": "Marisa Ferrara Boston, Glen Hanson, Effi Georgala, JD Hudgens, Heather Frase",
+  "abstract": "Agentic systems entering production typically operate as partially integrated assemblies where structural defects, not task-level errors, dominate the failure landscape. At this maturity level, task-level error detection may be infeasible: structural failure modes mask the signal that task-level monitors are designed to detect.We present a monitoring and triage methodology that decomposes agentic system evaluation into three dimensions (quality, suitability, efficiency) at three monitoring scopes (within-run, cross-run, structural), using variance as a characterization signal. Findings are routed through severity classification adapted from FMEA, concentrating human attention on the subset that warrants investigation. We evaluate on a synthetic testbed of 220 runs across 120 document bundles with controlled error injection.Three results emerge. Monitor scope determines failure type: within-run monitors surface deterministic stage defects (CV = 0.02), cross-run monitors surface stochastic integration consequences (CV = 1.25, 24% at L2), and a structural monitor identifies an integration gap with perfect consistency (CV = 0.00). Injected task-level errors are indistinguishable from clean baselines, confirming structural defects mask task-level signal. Deterministic triage routes 97% of findings to automated tracking, leaving the 2% reflecting variable behavior for human investigation.We propose, on Stage 1 evidence, a maturity-staging model in which monitoring transitions from structural characterization to error detection to reliability tracking as integration defects resolve. The taxonomy, CV-based scope characterization, and severity model transfer architecturally to document-driven, multi-stage agentic workflows in regulated industries; specific calibrations are domain-specific. Deploy monitoring early: the first thing it finds is the most important thing to fix.",
+  "title_relatable": "How to catch agent failures before they work reliably?",
+  "hook": "Structural defects, not task errors, dominate early agentic system failures. Monitoring framework routes 97% of issues to automation, surfaces hidden integration gaps.",
+  "summary": "Early agentic systems fail due to structural integration problems that mask task-level errors, making traditional error detection useless. Researchers developed a three-dimensional monitoring approach (quality/suitability/efficiency across within-run/cross-run/structural scopes) using variance patterns to triage failures by severity. On 220 synthetic runs, within-run monitors caught deterministic stage defects, cross-run monitors exposed stochastic integration issues, and structural monitors detected gaps with perfect consistency—while injected task errors remained invisible. The method routes 97% of findings to automated systems, leaving only 2% for human review.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 842,
+  "tokens_out": 219,
+  "cost_usd": 0.0015496,
+  "ingested_at": "2026-06-02T12:18:40.302679+00:00"
+}

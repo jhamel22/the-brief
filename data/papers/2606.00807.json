@@ -1,0 +1,23 @@
+{
+  "id": "2606.00807",
+  "arxiv_url": "https://arxiv.org/abs/2606.00807",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.HC"
+  ],
+  "title_original": "Interaction-Centered Intelligence: Toward Interaction as the Primary Unit of Analysis in Co-Creative AI and Human-AI Systems",
+  "authors": "Nicholas Davis",
+  "abstract": "Traditional artificial intelligence has largely conceptualized intelligence as isolated computation occurring within bounded agents. Across classical AI, machine learning, and many generative systems, the dominant unit of analysis remains the individual model or autonomous system evaluated through outputs, benchmarks, prediction accuracy, or optimization performance. While these approaches have produced major advances, they often under-theorize the role of interaction in the emergence of intelligence, creativity, meaning, and adaptive behavior. This paper proposes interaction as the primary unit of analysis for co-creative AI and interaction-centered intelligence more broadly. Drawing from distributed cognition, embodied cognition, enaction, participatory sense-making, human-computer interaction, and computational creativity, the paper traces a historical progression toward increasingly relational accounts of intelligence. Building upon prior work in Creative Sense-Making, quantified co-creation, and co-creative systems such as the Drawing Apprentice and AI Drawing Partner, it argues that intelligence emerges through evolving interaction dynamics among agents, environments, and socio-technical systems rather than solely through internal computation. The paper introduces Interaction-Centered Intelligence as a framework for understanding human-AI co-creation, collaborative emergence, adaptive participation, and interactional dynamics. Rather than evaluating intelligence solely through generated outputs, the framework emphasizes interaction trajectories, coordination patterns, participatory engagement, adaptive regulation, and interactional drift unfolding through time. Implications for explainable co-creative AI, hybrid intelligence, enactive AI, and future human-AI systems are discussed.",
+  "title_relatable": "What if intelligence lives in the conversation, not the machine?",
+  "hook": "A framework arguing that AI creativity emerges from interaction dynamics between humans and systems, not isolated computation.",
+  "summary": "Intelligence isn't just what happens inside an AI model—it emerges through the back-and-forth between humans and systems over time. This paper reframes how we should evaluate co-creative AI (like drawing tools that adapt to your style) by looking at interaction patterns, coordination, and how participants influence each other, rather than just final outputs or accuracy metrics. Built on decades of work in embodied cognition and human-computer interaction, the framework suggests that measuring adaptive participation and conversational drift matters as much as measuring what the AI produces.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 755,
+  "tokens_out": 184,
+  "cost_usd": 0.00134,
+  "ingested_at": "2026-06-02T12:21:34.416686+00:00"
+}

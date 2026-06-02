@@ -1,0 +1,23 @@
+{
+  "id": "2606.00857",
+  "arxiv_url": "https://arxiv.org/abs/2606.00857",
+  "announced_date": "2026-05-30",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "From Cues to Horizons: Dynamic Risk Horizon Profiling for Trajectory Prediction",
+  "authors": "Xinyi Ning, Zilin Bian, Dachuan Zuo, Semiha Ergan, Kaan Ozbay",
+  "abstract": "Accurate and reliable vehicle trajectory prediction is essential for safe autonomous driving. Recent studies have incorporated safety risk into trajectory prediction to quantify dangers posed by surrounding agents. However, most risk-aware approaches use past risk information as a secondary signal to help guide decisions, overlooking its future evolution and uncertainty. In this paper, we propose a risk horizon profiling (RHP) module that incorporates a continuous, learnable potential field model for risk-aware trajectory prediction. The RHP module calculates the spatial-temporal proximity of surrounding objects to profile risk distributions across future horizons, which supports better trajectory prediction by adaptively identifying what human drivers perceive as critical moments. We evaluate our method on two datasets from different driving settings, highD for highway corridors and SHRP2 for urban streets, which cover diverse risk scenarios including safe, near-crash, and crash events. Compared to the baseline methods, our framework achieves a 25.0\\% reduction in 5s RMSE on the highD dataset and a 29.1\\% reduction in 5s minFDE on SHRP2. These results indicate strong performance for both short and long horizon prediction and robust generalization across highway and urban scenarios. The proposed method enables more realistic AV path planning and strategic selection, thereby supporting safer autonomous driving and more advanced driver-assistance systems. The source code for this work is available at: https://github.com/bilab-nyu/RHP",
+  "title_relatable": "How do self-driving cars predict danger before it happens?",
+  "hook": "Predicting vehicle trajectories 25–29% more accurately by modeling how risk unfolds over future seconds, not just reacting to past danger.",
+  "summary": "Autonomous vehicles need to predict where other cars will go—but most trajectory models ignore how danger evolves ahead of time. This work adds a \"risk horizon profiling\" layer that tracks spatial-temporal proximity of nearby objects across future time steps, letting the model learn which moments matter most to human drivers. Tested on highway and urban crash data, the method cuts prediction error by 25–29% over baselines and generalizes across safe, near-crash, and actual crash scenarios. Code released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 770,
+  "tokens_out": 187,
+  "cost_usd": 0.001364,
+  "ingested_at": "2026-06-02T12:21:43.941238+00:00"
+}
