@@ -1,0 +1,22 @@
+{
+  "id": "2606.00614",
+  "arxiv_url": "https://arxiv.org/abs/2606.00614",
+  "announced_date": "2026-05-30",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Mitigation of spatial economic impact propagation of highway disruptions by redundant networks",
+  "authors": "Tomoki Ishikura",
+  "abstract": "The damage to transportation infrastructure caused by disasters can indirectly lead to economic damage through economic interdependence, even in areas that are not directly affected. However, even when transportation routes are interrupted by a disaster, the damage can be mitigated if alternative routes are secured. Rural areas with low-density transportation networks are more vulnerable to traffic disruptions in a disaster. This study develops a method for evaluating the effectiveness of redundant transportation networks in mitigating economic vulnerability in the event of a disaster. Our methodology combines inter-regional road network connectivity with a spatial computable general equilibrium (SCGE) model. We apply the method to road disruption scenarios in the Chugoku region of Japan, which has a system of parallel highways. The affected areas are in close geographical proximity to many rural areas and have strong economic interdependencies with them. Several counterfactual simulations depicted the situation without the alternative road and the disaster. We evaluate the transportation impacts, measured by changes in travel time, and the economic impacts, measured by negative benefits, respectively. The results suggest that the economic vulnerability reduction effect is more far-reaching than the transportation impacts.",
+  "title_relatable": "Can backup highways protect rural economies from disaster damage?",
+  "hook": "A highway collapse in Japan ripples far beyond the broken road, harming distant rural towns. But parallel routes can limit the economic fallout.",
+  "summary": "When a highway fails, rural areas lose market access and supply chains break—damaging economies miles away. Researchers combined road network maps with economic models to test whether backup routes in Japan's Chugoku region actually prevent these distant economic shocks. They found redundant highways protect far more economic value than the travel time savings alone suggest.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 635,
+  "tokens_out": 149,
+  "cost_usd": 0.001104,
+  "ingested_at": "2026-06-02T13:00:15.310873+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2605.30672",
+  "arxiv_url": "https://arxiv.org/abs/2605.30672",
+  "announced_date": "2026-05-29",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "q-fin.GN",
+    "econ.GN"
+  ],
+  "title_original": "Residual Supply and the Price of Risk Absorption",
+  "authors": "Ziyao Wang",
+  "abstract": "When redeeming open-end funds sell and natural buyers do not step in at once, some limited-capital investor must take the other side and carry the inventory until prices recover. This paper asks what return that investor requires. A continuous-time market-clearing model delivers an expected-return restriction in which the price of residual supply depends on inventory risk, trading costs, funding frictions, and the scarcity of balance sheet available to absorb it. Mapping U.S. mutual fund flows through predetermined holdings over 2003--2024, we measure one observable component of this residual supply. Forced-sale pressure predicts actual fund selling, contemporaneous price declines, and positive returns over the following one to six months. The premium roughly doubles when market-wide absorption capacity is tight, and it concentrates in stocks with thin investor bases and limited trading capacity -- precisely the cross section in which clearing the imbalance should be most costly, and a pattern that mechanical return reversal does not generate.",
+  "title_relatable": "Who pays when mutual funds dump stocks?",
+  "hook": "When fund redemptions force sales, someone must absorb the inventory. Market data shows they demand hefty returns—especially when few traders are available.",
+  "summary": "When mutual fund withdrawals force fire sales, limited-capital investors step in as temporary buyers, but only if compensated for the risk of holding unwanted inventory. Using 20 years of fund flow data, the researchers quantify this 'residual supply' premium: forced sellers generate predictable losses today and gains over the next month, with the premium doubling when market-wide traders are stretched thin. The effect concentrates in thinly-traded stocks, revealing who really bears the cost of redemption pressure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 598,
+  "tokens_out": 186,
+  "cost_usd": 0.0012224,
+  "ingested_at": "2026-06-02T13:00:24.946958+00:00"
+}

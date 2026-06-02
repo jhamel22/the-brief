@@ -1,0 +1,22 @@
+{
+  "id": "2606.02362",
+  "arxiv_url": "https://arxiv.org/abs/2606.02362",
+  "announced_date": "2026-06-01",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Endogenous Fertility Waves and the Dynamics of Utility in an Overlapping Generations Model",
+  "authors": "Wolfgang Kuhle",
+  "abstract": "This paper investigates the conditions under which the Easterlin hypothesis holds within a neoclassical overlapping generations model with endogenous capital accumulation, wages, interest rates, and fertility. We develop a tractable analytical framework that maps economic transitions into utility space via a continuously differentiable first-order difference equation for cohort lifetime utilities. This reformulation allows for a transparent normative evaluation of non-steady-state paths without requiring explicit solutions to the underlying nonlinear system. Within this framework, we show that when fertility cycles emerge and children are normal goods, the utility of small cohorts strictly exceeds that of large cohorts. Crucially, this cohort-welfare asymmetry is driven by fertility preferences and is independent of the economy's position relative to the golden rule.",
+  "title_relatable": "Why smaller generations live better lives than larger ones",
+  "hook": "When birth rates boom and bust, smaller cohorts end up systematically happier than larger ones—regardless of whether the economy is saving too much or too little.",
+  "summary": "The Easterlin hypothesis suggests people in large cohorts experience lower lifetime happiness because crowding drives down wages and resources. This paper builds a mathematical framework showing that when fertility cycles naturally emerge in an economy, smaller generations consistently enjoy higher lifetime utility than larger ones. The finding holds regardless of the economy's overall savings rate, hinting that generational luck—not just macroeconomic efficiency—shapes individual well-being.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 565,
+  "tokens_out": 169,
+  "cost_usd": 0.001128,
+  "ingested_at": "2026-06-02T13:00:12.411734+00:00"
+}

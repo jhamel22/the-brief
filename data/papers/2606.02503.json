@@ -1,0 +1,22 @@
+{
+  "id": "2606.02503",
+  "arxiv_url": "https://arxiv.org/abs/2606.02503",
+  "announced_date": "2026-06-01",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Pay Beliefs and the Amenity-Pay Tradeoff",
+  "authors": "Martin Eckhoff Andresen, Manudeep Bhuller, Alfred Løvgren",
+  "abstract": "This paper studies how workers' beliefs about pay shape the tradeoffs between pay and workplace amenities. We design a multi-stage incentivized survey experiment that combines hypothetical choice experiments with elicited beliefs about starting salaries in real jobs and randomly varies the provision of explicit pay information. Although stated preferences imply sizable willingness to pay for amenities consistent with prior literature, baseline beliefs about salaries in real jobs are systematically biased along two margins: respondents under-predict starting salaries by 18% and expect higher-amenity jobs to pay more, substantially over-predicting the amenity-pay gradient. Exposure to pay information raises mean pay beliefs for similar jobs by 4% and reduces belief dispersion by 15%, but does not alter the strong positive association between perceived pay and advertised amenities, leaving the amenity-pay tradeoffs in stated choices essentially unchanged. While workers have strong preferences for workplace amenities, the tradeoffs they perceive deviate sharply from those present under full information.",
+  "title_relatable": "Why workers misjudge salary and amenity tradeoffs",
+  "hook": "Workers systematically underestimate starting salaries by 18% and wrongly assume better perks come with higher pay—even when shown real salary data.",
+  "summary": "Researchers ran incentivized surveys asking workers to choose between pay and amenities like flexibility or learning opportunities, then tested whether correcting their salary beliefs changed their choices. Workers underestimated real starting salaries by 18% and falsely believed nicer jobs paid more. Showing people actual pay data barely moved their choices, suggesting workers make decisions based on distorted mental models of the job market—not just what they actually prefer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 627,
+  "tokens_out": 176,
+  "cost_usd": 0.0012055999999999998,
+  "ingested_at": "2026-06-02T13:00:09.822669+00:00"
+}

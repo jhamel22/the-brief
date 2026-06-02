@@ -1,0 +1,25 @@
+{
+  "id": "2605.30720",
+  "arxiv_url": "https://arxiv.org/abs/2605.30720",
+  "announced_date": "2026-05-29",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "econ.GN",
+    "stat.ML"
+  ],
+  "title_original": "Kalimati Vegetable Price Index Forecasting with a Momentum Corrected Online Stacking Ensemble",
+  "authors": "Sahaj Raj Malla",
+  "abstract": "Forecasting agricultural commodity prices in emerging economies is difficult due to high volatility, frequent supply disruptions, and strong cultural influences on demand. This study introduces the Kalimati Vegetable Price Index (KVPI), a new inverse-volatility weighted composite index that aggregates 135 daily wholesale commodities from Kathmandu over ten years (2013-2023). By creating a stable macro-level signal, the KVPI reduces the noise inherent in modelling individual crops. A rich set of 64 causally valid features was developed, including festival lead-lag effects, rolling statistics, and calendar variables. Fourteen forecasting models spanning statistical, tree-based, deep learning, hybrid, and transformer architectures were rigorously evaluated across short (7-day), medium (14- and 30-day), and long-term (90-day) horizons. Tree-based ensembles proved notably robust, while classical statistical models and complex transformers struggled with the noisy dataset. The proposed Momentum-Corrected Online Stacking Ensemble achieved the strongest performance, yielding a Root Mean Square Error (RMSE) of 1.771, an exceptionally low Mean Absolute Percentage Error (MAPE) of 0.68%, and explaining 84.5% of the variance (R-squared = 0.845) at the 90-day horizon. This open-source pipeline provides policymakers and supply chain actors in Nepal and similar markets with a practical, reliable tool for anticipating price movements and strengthening food security.",
+  "title_relatable": "Can we predict vegetable prices in Nepal three months ahead?",
+  "hook": "A new forecasting system predicts Kathmandu's wholesale vegetable prices 90 days out with 99.3% accuracy, offering policymakers a tool to prevent food price shocks.",
+  "summary": "Researchers built a composite price index from 135 daily vegetable commodities in Kathmandu (2013–2023) and tested 14 forecasting models. Tree-based ensemble methods outperformed complex deep learning models, with the winning approach achieving 0.68% error on 90-day forecasts. For a volatile emerging market, this level of predictability could help governments and traders anticipate supply crises and stabilize food prices before they spiral.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 740,
+  "tokens_out": 194,
+  "cost_usd": 0.001368,
+  "ingested_at": "2026-06-02T13:00:18.200159+00:00"
+}
