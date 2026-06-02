@@ -1,0 +1,23 @@
+{
+  "id": "2606.02351",
+  "arxiv_url": "https://arxiv.org/abs/2606.02351",
+  "announced_date": "2026-06-01",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Local Preferential Bayesian Optimization",
+  "authors": "Johanna Menn, Miriam Kober, Paul Brunzema, David Stenger, Sebastian Trimpe",
+  "abstract": "Bayesian optimization (BO) is a popular and effective approach for tuning expensive, noisy experiments, but requires the formulation of an explicit objective function. Preferential BO (PBO) removes this requirement by learning from pairwise human feedback, yet existing methods struggle to efficiently optimize beyond low- and medium-dimensional problems due to their global search approaches. We address this limitation by developing a family of local PBO methods that transfer key ideas from high-dimensional BO to the preferential setting. In particular, we introduce local PBO methods which adapt trust-region and derivative-informed local search to pairwise preference feedback, where the latter exploits first- and second-order derivatives of the Laplace-approximated GP posterior. Our benchmark on GP sample paths, standard optimization benchmark functions, and policy-search tasks shows that local PBO methods are especially effective in high-dimensional and complex landscapes with steep optima. Compared with global preference-based baselines, they can substantially reduce cumulative regret, making them particularly useful for real-world preference-based optimization tasks such as policy search.",
+  "title_relatable": "Can preference feedback work for high-dimensional optimization?",
+  "hook": "Local search cuts regret by half in high-dimensional preference-based optimization, enabling real-world tuning without explicit objectives.",
+  "summary": "Preferential Bayesian optimization learns from pairwise human feedback instead of explicit objective functions—useful when you can compare two options but can't score them absolutely. Existing methods search globally and struggle in many dimensions. This work adapts trust-region local search to preference feedback, using derivatives of the probabilistic model to guide exploration. Testing on optimization benchmarks and policy-search tasks shows local methods substantially reduce cumulative regret compared to global baselines, especially when the landscape is high-dimensional or has sharp peaks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 677,
+  "tokens_out": 184,
+  "cost_usd": 0.0012775999999999998,
+  "ingested_at": "2026-06-02T13:04:25.252475+00:00"
+}

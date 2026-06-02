@@ -1,0 +1,24 @@
+{
+  "id": "2606.00329",
+  "arxiv_url": "https://arxiv.org/abs/2606.00329",
+  "announced_date": "2026-05-29",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "eess.SY",
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Benchmarking Recursive-Collapse Warning Claims Under Matched False-Positive Control",
+  "authors": "David Mullett",
+  "abstract": "Recursive systems can enter collapse-like regimes -- self-reinforcing amplification, persistent recursion, and narrowing diversity that mask accelerating internal degradation -- before overt failure becomes visible. We introduce Loopzero, a claim-bounded benchmark framework for testing whether recursive failures follow a directional telemetry pattern: rising gain (G), recursive persistence (p), and declining diversity ($δ$). The claim boundary is specified in Lean; the Lean artifact does not verify real telemetry, benchmark validity, or detector performance. We evaluate the bridge on two frozen public-artifact benchmarks: a segmented public-markets benchmark (Volmageddon 2018, COVID MWCB 2020) and a MovieLens-25M offline deterministic recommender replay. Detectors are evaluated under a locked equal-false-positive contract (FP $\\in$ [0.03, 0.07], pre-registered) so all configurations face the same alert budget. Neither tested standard comparators nor Loopzero's pre-registered quantile detector achieved an accepted operating point. Directional witness alignment held on both canonical benchmarks, with adjacent-horizon and row-level limitations disclosed. Digitized Shumailov et al. (2024) LLM training-loop trajectories are directionally consistent with the pattern; matched-FP evaluation in that domain is deferred. The contribution is a reproducible, falsifiable benchmark framework for evaluating recursive-collapse warning claims under an explicit alert-budget contract -- non-acceptance reported as a first-class scientific outcome.",
+  "title_relatable": "Can we catch systems before they secretly fall apart?",
+  "hook": "A new benchmark tests whether recursive systems show warning signs before collapse—and finds current detectors mostly fail under fair comparison.",
+  "summary": "Recursive systems (markets, recommenders, LLM training loops) can degrade invisibly while amplifying feedback until sudden failure. Loopzero is a benchmark framework that tests whether detectors can spot the telltale pattern: rising gain, persistent recursion, declining diversity—under a fixed false-alarm budget so all methods face equal constraints. On stock-market crashes and movie-recommendation systems, neither standard methods nor the proposed detector hit acceptable performance, but the directional pattern itself held on real data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 774,
+  "tokens_out": 182,
+  "cost_usd": 0.0013472,
+  "ingested_at": "2026-06-02T13:05:11.267652+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.00741",
+  "arxiv_url": "https://arxiv.org/abs/2606.00741",
+  "announced_date": "2026-05-30",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "Quantum Tunneling-Aware Machine Learning: Physics-Derived Noise Models for Robust Deployment",
+  "authors": "Uiwon Hwang, Jaeho Hwang",
+  "abstract": "Transistor scaling is approaching a quantum-mechanical limit, as thin gate oxides induce electron leakage through quantum tunneling. Unlike conventional digital systems, AI inference can tolerate such errors provided their structure is modeled correctly. In this paper, we introduce quantum tunneling-aware machine learning (QTAML). We derive the deployment-time weight-error distribution from first principles using the Wentzel-Kramers-Brillouin (WKB) approximation and show that it has structure that generic Gaussian noise models miss: an exact affine mean drift, a per-bit variance hierarchy dominated by the most-significant bit, and a per-layer dependence on $\\|W_\\ell\\|_\\infty$ and the trained-network Jacobian. We package these three structural properties into a single deployment-time algorithm, Tunneling-Aware Compensation (TAC), that combines closed-form mean correction with an optimal layer-adaptive bit-budget allocation derived from the WKB variance decomposition. Across four convolutional architectures at $p_\\mathrm{flip}$=0.10 and a transformer encoder at $p_\\mathrm{flip}$=0.05, TAC reaches $95\\%$ of clean accuracy with 3.4$\\times$ to 33.6$\\times$ less ECC overhead than Uniform-MSP, the natural baseline derived from the same physics. The closed-form saturation ratio $ρ^*$ predicts these gains in advance, and on heterogeneous architectures WKB-derived scoring outperforms magnitude-based allocation by up to 24 percentage points at small budgets. The algorithm requires no retraining, no labels, and no inference-time overhead. We also verify the WKB-derived distributional theorems to Monte Carlo precision. These results connect WKB tunneling physics with noise-aware deep learning and suggest a principled path toward hardware--software co-design beyond conventional scaling limits.",
+  "title_relatable": "How quantum tunneling breaks chips—and how AI can live with it",
+  "hook": "Physics-derived noise model cuts error-correction overhead by 33× while maintaining 95% accuracy on neural networks deployed on leaky transistors.",
+  "summary": "As transistors shrink, electrons leak through gate oxides via quantum tunneling, introducing errors in AI chips. Rather than fix every bit, researchers modeled the tunneling process from first principles using WKB approximation and found that these errors have structure—skewed toward important bits and dependent on network weights. Their algorithm TAC corrects for this structure at deployment time, achieving 95% clean accuracy with 3.4–33.6× less error-correction overhead than naive approaches, without retraining or runtime cost.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 886,
+  "tokens_out": 195,
+  "cost_usd": 0.0014888000000000002,
+  "ingested_at": "2026-06-02T13:04:50.773667+00:00"
+}

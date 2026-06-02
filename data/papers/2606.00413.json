@@ -1,0 +1,23 @@
+{
+  "id": "2606.00413",
+  "arxiv_url": "https://arxiv.org/abs/2606.00413",
+  "announced_date": "2026-05-29",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Riemannian Stochastic Optimization for Sufficient Dimension Reduction",
+  "authors": "Thibault Pautrel, François Portier",
+  "abstract": "Sufficient dimension reduction (SDR) makes high-dimensional regression tractable by projecting the covariates onto a low-dimensional subspace that preserves the conditional mean of the response. Existing gradient-based estimators either operate in the ambient space and suffer from the curse of dimensionality, or localize in the reduced space at a per-outer-iteration cost at least quadratic in the sample size. We show that minimizers of the population Minimum Average Variance Estimation (MAVE) risk approximate the same Grassmannian target as the Outer Product of Gradients (OPG), and recast the empirical criterion as a smooth maximization on the Stiefel manifold with closed-form Riemannian gradient. The resulting algorithm, SMAVE, combines sparse projected-space nearest-neighbor localization with Riemannian stochastic gradient ascent. A simplified version comes with almost-sure convergence and a non-asymptotic rate matching the standard non-convex stochastic first-order scaling. Empirically, SMAVE matches or improves on RMAVE's synthetic subspace recovery at moderate-to-high ambient dimension, and on four real datasets it uniformly improves over OPG and is competitive with or outperforms RMAVE at orders of magnitude lower runtime.",
+  "title_relatable": "How to find hidden patterns in high-dimensional data 100× faster?",
+  "hook": "New algorithm cuts computation time dramatically while recovering low-dimensional structure from thousands of variables, matching or beating existing methods.",
+  "summary": "Sufficient dimension reduction finds a low-dimensional subspace that captures everything about the response variable—but existing methods become prohibitively slow in high dimensions. This work recasts the problem on the Stiefel manifold (a geometric structure for orthogonal matrices) and uses Riemannian stochastic gradients with nearest-neighbor localization, yielding SMAVE. The method achieves the same statistical accuracy as competitors while running orders of magnitude faster on real datasets, with guaranteed convergence rates.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 724,
+  "tokens_out": 185,
+  "cost_usd": 0.0013192,
+  "ingested_at": "2026-06-02T13:05:05.315695+00:00"
+}

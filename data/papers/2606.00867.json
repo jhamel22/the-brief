@@ -1,0 +1,24 @@
+{
+  "id": "2606.00867",
+  "arxiv_url": "https://arxiv.org/abs/2606.00867",
+  "announced_date": "2026-05-30",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "eess.SP"
+  ],
+  "title_original": "Statistical Analysis of using the Shapley Value for Sensor Anomaly Localization with Accurate Classifiers",
+  "authors": "Xubin Fang, Rick S. Blum",
+  "abstract": "Recent publications have suggested using the Shap- ley value for sensor anomaly/attack localization. We study the performance of such an approach by using mathematically de- fined optimum binary classifiers in the Shapley value calculation. To judge localization performance, we study the ability of the Shapley value of a given sensor observation to determine if that observation is anomalous. First, we prove that for cases with independent sensor observations, an optimized anomaly test using the Shapley value is equivalent to an optimized lower-complexity anomaly test using a single term in the Shapley value calculation, yielding the exact same probability of error. For some popular dependent observation cases involving two sensors, including correlated bivariate Gaussian/Laplacian probability density functions and constant/Gaussian at- tacks/anomalies, we prove that these two tests are fundamentally different, yielding different decision regions and error probabil- ities. Further, we prove that the Shapley value test is sometimes strictly inferior to the other (single term in Shapley calculation) test in certain statistically dependent bivariate Gaussian scenarios with large correlation magnitude and additive attacks/anomalies, while it is strictly superior in others, depending on the sign of the correlation. One can combine these two approaches to obtain a strictly better approach in these cases. These results, which provide the first theoretical statistical analysis of Shapley-based localization, seem very interesting based on the wide acceptance of the Shapley value by many researchers and should encourage further research on this topic. Numerical results are provided which illustrate our findings.",
+  "title_relatable": "When does Shapley value help detect sensor faults?",
+  "hook": "Theoretical analysis shows Shapley-based anomaly detection isn't always superior to simpler methods, especially with correlated sensor data.",
+  "summary": "Shapley values have become popular for identifying which sensors are faulty in systems. This paper rigorously analyzes when this approach actually works: for independent sensors, it's mathematically equivalent to a much simpler test, but for correlated sensors (like paired measurements), it can be either better or worse depending on correlation strength and attack type. Combining both methods yields optimal performance in some cases.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 788,
+  "tokens_out": 163,
+  "cost_usd": 0.0012824000000000002,
+  "ingested_at": "2026-06-02T13:04:41.403612+00:00"
+}

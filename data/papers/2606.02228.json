@@ -1,0 +1,24 @@
+{
+  "id": "2606.02228",
+  "arxiv_url": "https://arxiv.org/abs/2606.02228",
+  "announced_date": "2026-06-01",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "Bayesian meta-learning for modeling Alzheimer's disease progression",
+  "authors": "Clara Hoffmann, Nadja Klein",
+  "abstract": "Predicting whether an individual with Alzheimer's disease will experience mild or severe disease progression is essential for personalized treatment. Typically, practitioners seek to predict the distribution of a discrete disease score, conditional on an individual's current MRI volume and their historical disease trajectory. Classical statistical regression models and single-task neural networks are not well-suited for this purpose because fitting separate models is infeasible (since each individual typically has few observations), while ignoring individual-level correlation leads to poor generalization. Meta-learning, in contrast, provides a natural avenue to dynamically predict distributions without retraining and model nonlinear relationships between the outcome and covariates. Motivated by this, we propose a Bayesian meta-learner that is trained on multiple individuals but tailors the predictive disease score distribution to each individual's historical data. Our model predicts on unseen individuals without retraining, scales linearly with the number of historical observations, and is guaranteed to be less overconfident when predicting long-term disease scores compared to its deterministic counterpart. On real-world data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, our model achieves performance competitive with both single-task models and deterministic meta-learners, while substantially improving performance when predicting long-term disease progression.",
+  "title_relatable": "Can machine learning predict how Alzheimer's will progress in individual patients?",
+  "hook": "Bayesian meta-learning tailors Alzheimer's progression forecasts to each patient's history without retraining, outperforming standard models on long-term predictions.",
+  "summary": "Predicting whether an Alzheimer's patient will decline mildly or severely requires learning from sparse individual histories while generalizing across patients—a task standard regression and single-task neural networks handle poorly. Researchers developed a Bayesian meta-learner trained on multiple patient trajectories that adapts to each person's MRI volumes and disease history without retraining. On ADNI data, it matched deterministic alternatives on overall performance but substantially outperformed them on long-term forecasts with calibrated confidence intervals.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 711,
+  "tokens_out": 202,
+  "cost_usd": 0.0013768000000000003,
+  "ingested_at": "2026-06-02T13:04:33.756569+00:00"
+}

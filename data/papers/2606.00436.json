@@ -1,0 +1,24 @@
+{
+  "id": "2606.00436",
+  "arxiv_url": "https://arxiv.org/abs/2606.00436",
+  "announced_date": "2026-05-29",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ME",
+    "math.ST",
+    "stat.ML"
+  ],
+  "title_original": "Weighted Conformal Clustering",
+  "authors": "Anirban Nath, YoonHaeng Hur, Genevera I. Allen",
+  "abstract": "Clustering is a central tool for discovering latent structure in unlabeled data; yet modern clustering pipelines often end with a hard assignment of each observation to a cluster without rigorous measures of assignment uncertainty. We propose a novel weighted conformal approach for constructing valid confidence sets for cluster labels. The key difficulty is that the labels available for calibration are not observed ground-truth labels, but synthetic labels produced by a data-dependent clustering algorithm. Our method develops a conformal inference algorithm that corrects the resulting mismatch with the latent target labels through weights by formulating conformal clustering as a conditional label-distribution shift problem. We first derive an oracle procedure that attains finite-sample marginal coverage and then develop a computationally tractable and implementable version using estimated conditional label probabilities and novel augmented calibration. We show that the coverage of the estimated-weight procedure depends on the estimator, giving an explicit bound on the loss relative to the nominal level. Empirical studies demonstrate that the proposed weighted approach offers improvements over the recently proposed split conformal clustering procedure in terms of informative confidence set size, especially in nonlinear and high-dimensional clustering applications.",
+  "title_relatable": "How confident should you be about cluster assignments?",
+  "hook": "New method quantifies uncertainty in clustering assignments, producing smaller confidence sets than prior approaches while maintaining statistical guarantees.",
+  "summary": "Clustering algorithms assign data points to groups without saying how confident those assignments are. This work wraps clustering in a statistical framework that produces valid confidence sets for cluster labels—basically, ranges you can trust. The trick: cluster labels aren't true labels, so standard confidence methods fail. They developed a weighted conformal approach that corrects this mismatch, with proven coverage guarantees. Experiments show tighter, more informative confidence sets than existing methods, especially in high-dimensional data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 681,
+  "tokens_out": 172,
+  "cost_usd": 0.0012328000000000003,
+  "ingested_at": "2026-06-02T13:04:57.030495+00:00"
+}

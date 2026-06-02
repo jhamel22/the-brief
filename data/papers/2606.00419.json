@@ -1,0 +1,23 @@
+{
+  "id": "2606.00419",
+  "arxiv_url": "https://arxiv.org/abs/2606.00419",
+  "announced_date": "2026-05-29",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Parameter-Free and Group Conditional Online Conformal Prediction",
+  "authors": "Beepul Bharti, Ambar Pal, Jacopo Teneggi, Jeremias Sulam",
+  "abstract": "Uncertainty quantification (UQ) is critical for the deployment of machine learning predictors in real-world scenarios where the data distribution may shift over time (i.e., data may not be exchangeable). Online conformal prediction (OCP) methods address this issue at the expense of either (i) group-wise error control or (ii) learning-rate independent implementation. Group-conditional coverage is essential for fairness across different collections of data points and for providing finer UQ guarantees. Parameter-free optimization is crucial for robustness to adversarial and unknown data shifts. We propose a parameter-free algorithm for group-conditional OCP and demonstrate that it achieves the best group-conditional coverage guarantees.We evaluate our algorithm on synthetic and real-world data, demonstrating that our method not only improves the reliability of existing parameter-free OCP methods but also provides prediction intervals that are comparable in size to well-tuned group-conditional approaches. By unifying group-conditional coverage with parameter-free online algorithms, our work lays a foundation for fair and robust uncertainty quantification in shifting environments.",
+  "title_relatable": "Can uncertainty estimates stay fair when data shifts over time?",
+  "hook": "New algorithm achieves group-conditional coverage guarantees without manual tuning, even under adversarial data drift.",
+  "summary": "Real-world ML systems must provide reliable uncertainty estimates that don't degrade as data distribution shifts—and crucially, those estimates should be fair across different demographic groups. This paper combines two usually-conflicting goals: group-conditional coverage (fairness) and parameter-free adaptation (robustness to unknown shifts). The algorithm achieves tighter prediction intervals than existing tuned methods while guaranteeing coverage for every subgroup, tested on synthetic and real datasets.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 683,
+  "tokens_out": 170,
+  "cost_usd": 0.0012264,
+  "ingested_at": "2026-06-02T13:05:02.588599+00:00"
+}

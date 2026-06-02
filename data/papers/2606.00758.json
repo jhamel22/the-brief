@@ -1,0 +1,25 @@
+{
+  "id": "2606.00758",
+  "arxiv_url": "https://arxiv.org/abs/2606.00758",
+  "announced_date": "2026-05-30",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "eess.SP",
+    "stat.ME"
+  ],
+  "title_original": "Statistical Testing on Directed Graphs by Surrogate Data Generation",
+  "authors": "Chun Hei Michael Chan, Alexandre Cionca, Dimitri Van De Ville",
+  "abstract": "In recent years, graph signal processing has emerged as a powerful framework at the intersection of signal processing and graph theory, providing tools for the analysis of signals defined on nodes while accounting for their relationships represented by edges. These tools have been successfully applied to various settings, including statistical hypothesis testing. In particular, non-parametric approaches based on surrogate generation have been proposed for signals on undirected graphs. However, they are yet to be extended to directed graphs. In this work, we first revisit the notion of stationary graph signals on directed graphs. Specifically, and through the eigendecomposition of the graph shift operator, we define directed graph wide-sense stationary signals. Then, we propose a new framework to generate surrogate graph signals that preserve covariance structure under stationarity assumptions. Null distributions of the test metric can then be constructed from these surrogates and serve as a reference for the empirical data. Finally, we provide guiding examples and an application on real data, in which we compare the performance of our framework with existing techniques for undirected graphs or based on naive permutation, demonstrating feasibility and superiority of the proposed approach.",
+  "title_relatable": "How to test whether signals on directed networks are statistically real?",
+  "hook": "A new method generates realistic fake network signals to build statistical tests for directed graphs, outperforming naive permutation approaches.",
+  "summary": "Graph signal processing lets you analyze data living on networked nodes while respecting their connections. Testing whether observed patterns are statistically significant is hard—especially on directed networks. This work extends surrogate data methods (which generate fake but realistic alternatives under null assumptions) to directed graphs by preserving the covariance structure of stationary signals. The framework outperforms naive permutation tests and existing undirected techniques on real data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 684,
+  "tokens_out": 166,
+  "cost_usd": 0.0012112,
+  "ingested_at": "2026-06-02T13:04:47.830006+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.02231",
+  "arxiv_url": "https://arxiv.org/abs/2606.02231",
+  "announced_date": "2026-06-01",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Identifiable Markov Switching Models with Instantaneous Effects and Exponential Families",
+  "authors": "Roel Hulsman, Carles Balsells-Rodas, Sara Magliacane",
+  "abstract": "Temporal systems often exhibit non-stationary behaviour, such as seasonal climate variation or glucose fluctuations in patients with type-1 diabetes. One way to model non-stationarity is through discrete latent regimes, i.e., stationary segments of time. Such systems induce a Markov Switching Model (MSM), a class of Hidden Markov Models with autoregressive dependencies among latent regimes and observed variables. Identifying latent regimes is challenging in the presence of frequent regime switches and nonlinear and non-Gaussian dynamics, particularly when there are instantaneous effects between the variables, e.g., due to slow rates of measurements. In this work, we establish the identifiability of both latent regimes and regime-dependent causal structures under temporal regime dependencies, nonlinear lagged and instantaneous effects, and independent noise from the exponential family. Our identifiability theory subsumes non-temporal mixtures of causal models. Furthermore, we introduce FlowMSM, a regime detection framework that can be paired with any stationary causal discovery method to recover regime-dependent causal structures. Experiments on synthetic benchmarks and a financial economics dataset demonstrate the effectiveness of our approach to detect latent regimes and discover causal structures from non-stationary time series.",
+  "title_relatable": "When hidden regimes shape causal relationships: identifying switching systems",
+  "hook": "New theory reveals when latent regimes and their causal structures can be uniquely identified from nonlinear, non-stationary time series data.",
+  "summary": "Many real systems—like glucose levels or financial markets—switch between distinct operating modes with different causal relationships. The challenge: can you reliably infer these hidden regimes and their causal structures from observed data? This work proves identifiability conditions for Markov Switching Models with nonlinear dynamics, instantaneous effects, and non-Gaussian noise, extending classical hidden Markov theory. They introduce FlowMSM, a framework pairing regime detection with causal discovery, and validate it on synthetic data and financial time series.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 730,
+  "tokens_out": 197,
+  "cost_usd": 0.001372,
+  "ingested_at": "2026-06-02T13:04:30.968142+00:00"
+}

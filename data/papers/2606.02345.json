@@ -1,0 +1,23 @@
+{
+  "id": "2606.02345",
+  "arxiv_url": "https://arxiv.org/abs/2606.02345",
+  "announced_date": "2026-06-01",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Doing well with less! On Sampling Techniques for Empirical Pairwise Loss Estimation/Minimization",
+  "authors": "Louise Davy, Stephan Clémençon, Charlotte Laclau",
+  "abstract": "Many machine learning problems, including similarity learning, ranking, and clustering, rely on empirical pairwise loss functions whose quadratic computational cost quickly becomes prohibitive at scale. We demonstrate how a frugal approach that retains only a fraction of the available information on pairs can achieve estimation or optimization performance comparable to that obtained by using all pairs, by leveraging survey sampling techniques. A central finding, supported by both theory and experiments, is that such sampling plans must target pairs directly rather than individual observations. In particular, for pairwise losses between high-dimensional vectors such as embeddings in vision or graph learning, assigning higher inclusion probabilities to informative pairs using suitable auxiliary information yields performance close to full pairwise evaluation, providing a principled and theoretically grounded trade-off between accuracy and computational cost.",
+  "title_relatable": "Why you don't need all pairs to train ranking models well?",
+  "hook": "Smart sampling cuts pairwise loss computation by 90% while matching full-data performance on ranking and similarity tasks.",
+  "summary": "Training ranking and similarity models requires comparing pairs of items, which scales quadratically and becomes expensive at scale. This work shows you can sample only a fraction of pairs—if you pick the right ones—and still match the performance of using everything. The key insight: sample pairs intelligently using survey techniques, not individual items. Theory and experiments confirm this works for embeddings in vision and graph learning.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 620,
+  "tokens_out": 159,
+  "cost_usd": 0.001132,
+  "ingested_at": "2026-06-02T13:04:28.320809+00:00"
+}

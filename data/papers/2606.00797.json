@@ -1,0 +1,24 @@
+{
+  "id": "2606.00797",
+  "arxiv_url": "https://arxiv.org/abs/2606.00797",
+  "announced_date": "2026-05-30",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ME",
+    "stat.AP",
+    "stat.ML"
+  ],
+  "title_original": "Robust inference for risk heterogeneity under group imbalance",
+  "authors": "Mengqi Xu, Subha Maity, Joel Dubin",
+  "abstract": "Population-level heterogeneity is ubiquitous in biomedical data, where differences across demographic or clinical subgroups can substantially alter risk patterns. For example, in intensive care unit (ICU) studies, the mortality risk associated with specific admission diagnoses can vary across ethnic groups. Existing approaches for detecting risk heterogeneity are often sensitive to baseline model misspecification and regularization bias, both of which commonly arise in practice. In this paper, we propose a robust framework for inferring risk heterogeneity between two populations using Neyman orthogonality, which yields estimators that are locally insensitive to nuisance parameter estimation error. The proposed estimator is consistent and asymptotically normal, and simulation studies demonstrate that in finite samples our method substantially reduces bias and improves inferential stability compared with standard likelihood-based approaches. In an application to the eICU Collaborative Research Database, our method reveals clinically meaningful ethnicity-specific heterogeneity in admission diagnoses for in-hospital mortality that standard likelihood-based methods fail to detect.",
+  "title_relatable": "Why standard methods miss ethnic differences in patient mortality risk",
+  "hook": "A new statistical method finds meaningful subgroup differences in ICU outcomes that conventional approaches overlook, reducing bias in heterogeneity detection.",
+  "summary": "Patient risk varies by ethnicity and clinical subgroup, but standard statistical methods struggle with this—they're tripped up by model misspecification and regularization bias. This paper uses Neyman orthogonality, a technique that insulates estimates from nuisance parameter errors, to reliably detect risk heterogeneity across populations. On simulated data, the method cuts bias substantially; on real ICU data, it uncovers ethnicity-specific mortality patterns that likelihood-based methods miss.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 665,
+  "tokens_out": 183,
+  "cost_usd": 0.001264,
+  "ingested_at": "2026-06-02T13:04:44.934319+00:00"
+}

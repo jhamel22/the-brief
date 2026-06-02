@@ -1,0 +1,24 @@
+{
+  "id": "2606.00343",
+  "arxiv_url": "https://arxiv.org/abs/2606.00343",
+  "announced_date": "2026-05-29",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "math.ST",
+    "stat.CO",
+    "stat.ML"
+  ],
+  "title_original": "Polar Depth for Potentially Heavy-Tailed Data",
+  "authors": "Stephan Clemençon, Carlos Fernándes, Pavlo Mozharovskyi, Anne Sabourin",
+  "abstract": "Motivated by the analysis of the behaviour of extremes from multivariate heavy-tailed distributions, we introduce a novel notion of statistical depth, referred to as Polar Depth. The polar depth function is naturally expressed in polar coordinates, as is the limiting distribution of a regularly varying random variable, beyond asymptotically large thresholds, once its marginals have been appropriately normalized. Not only does the polar depth function make it easy to order the extreme values taken by a heavy-tailed random variable X and finds natural applications in anomaly detection, but it is also possible to show, as we prove it under appropriate assumptions in this article, that the polar depth of the largest observations, i.e. observations X which norm is larger than t>0, converges to the polar depth of the limiting distribution as t converges to infinity. Although designed to quantify the depth of multivariate extremes, the polar depth is interesting in its own right, insofar as this notion is more relevant for distributions whose support is included in a halfspace than the alternatives proposed in the literature, the halfspace depth in particular. Here, we demonstrate its properties and analyze statistical issues related to its estimation from both finite-sample and asymptotic points of view. We present numerical results to empirically demonstrate its relevance, particularly for the statistical analysis of extreme observations and more specifically for the identification of anomalies among them.",
+  "title_relatable": "How to spot outliers in wild, heavy-tailed data?",
+  "hook": "New depth measure for extreme values in heavy-tailed distributions, with proven convergence to limiting behavior and practical anomaly detection applications.",
+  "summary": "Extreme value analysis gets harder when data has heavy tails—a few massive outliers can break traditional ordering methods. Researchers introduce Polar Depth, a depth measure naturally suited to heavy-tailed multivariate data, expressed in polar coordinates that align with extreme value theory. Unlike halfspace depth, it better ranks the most extreme observations and converges provably to the theoretical limit. Tested on anomaly detection tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 743,
+  "tokens_out": 170,
+  "cost_usd": 0.0012744000000000002,
+  "ingested_at": "2026-06-02T13:05:08.037897+00:00"
+}

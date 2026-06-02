@@ -1,0 +1,24 @@
+{
+  "id": "2606.02117",
+  "arxiv_url": "https://arxiv.org/abs/2606.02117",
+  "announced_date": "2026-06-01",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "ProbRes: Volatility Learning for Probabilistic Time-Series Forecasting",
+  "authors": "Tingting Wang, Yunyi Zhang, Benyou Wang",
+  "abstract": "Probabilistic time series forecasting has attracted increasing attention in financial applications due to the need to quantify risk and uncertainty in future observations. We propose ProbRes, a post-hoc probabilistic calibration method that explicitly learns and incorporates volatility dynamics into probabilistic forecasting, enabling effective handling of heteroskedastic data. During training, ProbRes employs two architecture-agnostic modules to separately model the conditional mean and conditional volatility. At the inference stage, it generates predictive distributions by resampling normalized residuals. ProbRes is applicable to both univariate and multivariate time series and remains robust under a wide range of error distributions, including non-Gaussian innovations with conditional heteroskedasticity. Theoretical results demonstrate ProbRes's validity and experiments on both synthetic and real-world datasets show that ProbRes accurately captures predictive distributions and produces well-calibrated prediction intervals.",
+  "title_relatable": "How to forecast not just the next value, but the uncertainty around it?",
+  "hook": "Post-hoc method that separately learns volatility and mean, improving prediction interval calibration on financial time series.",
+  "summary": "Financial forecasting needs to quantify uncertainty, not just predict point values. ProbRes adds a volatility learning layer on top of any existing forecasting model, separately estimating how confident the prediction should be. It resamples residuals to generate full predictive distributions that work with non-Gaussian noise and multivariate data, with experiments showing better calibrated prediction intervals on real market data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 633,
+  "tokens_out": 161,
+  "cost_usd": 0.0011504,
+  "ingested_at": "2026-06-02T13:04:36.405106+00:00"
+}

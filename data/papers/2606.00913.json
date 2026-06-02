@@ -1,0 +1,23 @@
+{
+  "id": "2606.00913",
+  "arxiv_url": "https://arxiv.org/abs/2606.00913",
+  "announced_date": "2026-05-30",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Bandit Simulation for Average Reward Inference",
+  "authors": "Samya Praharaj, Chih-Yu Chang, Koulik Khamaru, Kelly W. Zhang",
+  "abstract": "Multi-arm bandit algorithms are increasingly used in online platforms, clinical trials, and social science experiments, but valid statistical inference on their performance remains an open challenge. After deploying bandits, a natural question is whether one can construct a confidence interval for its mean reward and assess whether it reliably outperforms a baseline policy. The total reward achieved in any single bandit deployment is random, and deploying a bandit twice on the same population typically yields different reward trajectories due to stochastic rewards. Standard statistical inference methods cannot be used because bandit algorithms introduce complex dependencies in the collected data, which violate the i.i.d. assumption underlying many classical approaches. Moreover, existing inference methods for adaptively collected data only apply to estimands that do not depend on the data-collection algorithm (such as the mean reward under a fixed action). We propose Bandit Simulation for Inference (BSI), a framework that fits a simulator of the bandit environment from observed data--either on-policy or off-policy--and uses it to estimate the mean reward under any evaluation policy, including adaptive blackbox algorithms. BSI formally propagates uncertainty in the estimated simulator parameters into the confidence interval construction. Furthermore, for BSI to be valid, it requires only weak exploration assumptions on the behavior policy and avoids importance weighting. We prove that BSI yields asymptotically valid confidence intervals, and demonstrate empirically that it maintains nominal coverage in settings where standard off-policy evaluation methods fail.",
+  "title_relatable": "How confident can you be in a bandit algorithm's performance?",
+  "hook": "New method constructs valid confidence intervals for bandit policies, handling dependent data where standard inference breaks down.",
+  "summary": "Bandit algorithms pick actions adaptively based on rewards, but their non-random data collection breaks standard statistical confidence intervals. BSI fits a simulator of the bandit environment from observed data, then uses it to estimate mean reward under any policy while formally propagating uncertainty. Works with weak exploration assumptions and maintains nominal coverage where off-policy methods fail.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 755,
+  "tokens_out": 146,
+  "cost_usd": 0.001188,
+  "ingested_at": "2026-06-02T13:04:38.681789+00:00"
+}
