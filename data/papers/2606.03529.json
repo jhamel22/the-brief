@@ -1,0 +1,22 @@
+{
+  "id": "2606.03529",
+  "arxiv_url": "https://arxiv.org/abs/2606.03529",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Simulation based parameter space for shock in transonic, sub-Keplerian accretion flow onto non-rotating black holes",
+  "authors": "Aishi Dasadhikary, Sudip K Garain",
+  "abstract": "Non-dissipative, transonic, sub-Keplerian accretion flow onto black holes is characterized by two conserved parameters: specific energy and specific angular momentum of the flow. For certain range of these parameters, the accretion flow shows shock formation and the post-shock matter forms a boundary layer which is believed to shape the radiative properties of the accretion disk. In this work, we identify the parameter space for shock in such accretion flows using multi-dimensional numerical simulations around non-rotating black holes and demonstrate that the shock formation parameter space is much larger than the analytically calculated one. We also find the boundary layer to be dynamic for a significant part of this parameter space and self-consistently produce outflow from the accretion disk.",
+  "title_relatable": "Where do shocks form in black hole accretion disks?",
+  "hook": "Simulations reveal shocks occur far more often than theory predicts, reshaping how we understand black hole radiation and outflows.",
+  "summary": "Matter falling onto black holes can suddenly decelerate and form a shock, creating a hot layer that likely powers radiation we observe. Using numerical simulations, researchers mapped exactly when these shocks occur and found the conditions are much broader than equations alone suggested. The shock boundary also churns dynamically, feeding outflows back into space.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 608,
+  "tokens_out": 149,
+  "cost_usd": 0.0010824,
+  "ingested_at": "2026-06-03T13:34:31.976144+00:00"
+}

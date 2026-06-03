@@ -1,0 +1,23 @@
+{
+  "id": "2606.03776",
+  "arxiv_url": "https://arxiv.org/abs/2606.03776",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Targeting black holes from metal-poor progenitors with next-generation gravitational-wave detectors",
+  "authors": "Federico Leto di Priolo, Martyna Chruślińska, Davide Gerosa",
+  "abstract": "Next-generation gravitational-wave detectors such as the Einstein Telescope and Cosmic Explorer will be able to detect binary black-hole mergers out to the cosmic dawn. Mergers observed in the local Universe represent a mixture of systems formed across the entire cosmic history, spanning a wide range of astrophysical environments. Iron-group elements govern metallicity effects on stellar evolution, making metallicity a key tracer that leaves a strong imprint on the black-hole population. We introduce the concept of a \"target\" redshift, $z_t$, defined as the epoch at which more than 90% of stars form with metallicity $Z 10$, depending on the adopted model variation. We present a statistical framework that enables rapid tests of astrophysical predictions against forecasted observations from next-generation gravitational-wave detectors. By quantifying variations in the binary black-hole merger-rate density between the target redshift and the local Universe, our approach maps evolutionary trends across parameter space and estimates the detection statistics required to distinguish genuine astrophysical variations from statistical fluctuations.",
+  "title_relatable": "Can we use gravitational waves to trace where black holes formed?",
+  "hook": "Future detectors will spot mergers from cosmic dawn, revealing whether black holes come from metal-poor stars—a signature written in the merger rates we observe today.",
+  "summary": "Next-generation gravitational-wave detectors will see black-hole mergers from the universe's earliest epochs, allowing us to reconstruct where and when their progenitors formed. The authors introduce a statistical method to identify the \"target redshift\"—the epoch when most stars had a particular metallicity—and show how merger-rate variations between then and now can confirm or rule out competing stellar-evolution models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 678,
+  "tokens_out": 172,
+  "cost_usd": 0.0012304,
+  "ingested_at": "2026-06-03T13:34:21.063516+00:00"
+}

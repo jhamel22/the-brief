@@ -1,0 +1,22 @@
+{
+  "id": "2606.03550",
+  "arxiv_url": "https://arxiv.org/abs/2606.03550",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Taxonomy of High Mass X-ray binaries from a historical perspective",
+  "authors": "Pablo Reig",
+  "abstract": "High-mass X-ray binaries serve as important laboratories for studying a broad range of fundamental astrophysical questions. These systems host two distinct types of astrophysical objects at different stages of stellar evolution: a massive donor star and a compact object. I will explore how our understanding of these systems has evolved over the past 50 years, from the dawn of the X-ray astronomy era to the present day. Along this historical journey, I will introduce the various classes and sub-classes of high-mass X-ray binaries and highlight their key observational characteristics.",
+  "title_relatable": "How did we learn to sort stellar X-ray binaries into types?",
+  "hook": "A 50-year retrospective on classifying binary systems where massive stars feed compact objects, from early detections to modern taxonomy.",
+  "summary": "High-mass X-ray binaries—pairs of a dying massive star and a neutron star or black hole locked in orbit—have become natural laboratories for extreme physics. This historical review traces how astronomers categorized these systems from the first X-ray satellites through today, explaining what makes each type distinct and why the classification matters for understanding stellar evolution and compact objects.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 541,
+  "tokens_out": 158,
+  "cost_usd": 0.0010647999999999999,
+  "ingested_at": "2026-06-03T13:34:29.487280+00:00"
+}

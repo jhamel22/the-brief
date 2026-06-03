@@ -1,0 +1,23 @@
+{
+  "id": "2606.03707",
+  "arxiv_url": "https://arxiv.org/abs/2606.03707",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "hep-ph"
+  ],
+  "title_original": "Astrophysical Constraints on Color-Superconducting Gap and N$^{3}$LO Perturbative-QCD Constant $c_0$",
+  "authors": "Shao-Peng Tang, Yong-Jia Huang, Yi-Zhong Fan",
+  "abstract": "We probe the color-flavor locked (CFL) pairing gap ($Δ_{\\rm CFL}^{*}$) and the unknown N$^3$LO constant $c_0$ in perturbative QCD (pQCD) with Bayesian inference of flexible dense-matter equations of state (EOSs) informed by current astrophysical observations. Our EOS model combines a Gaussian process parameterization with sampled hyperparameters at neutron star densities and a boundary-constrained feed-forward neural network representation extending to pQCD densities, retaining nonparametric flexibility while supporting efficient nested sampling. Matching to the pQCD$+$CFL prediction at $μ_B=2.6$ GeV, we obtain $Δ_{\\rm CFL}^{*}=28^{+23}_{-20}$ MeV (90% credibility), corresponding to a 95% credible upper limit of $\\approx 51$ MeV, which is a factor of $\\sim 3$ tighter than previous record and challenges most microscopic models. The pairing power corrections thus contribute at most a few percent at $μ_B = 2.6~\\mathrm{GeV}$, and are not a major source of uncertainty for neutron-star matter inference. We also set a bound on the poorly-known N$^3$LO constant $c_0=-28^{+5}_{-7}$, using a loose prior from convergence analysis of the N$^3$LO pressure.",
+  "title_relatable": "What neutron stars reveal about exotic quark matter physics",
+  "hook": "Neutron star observations tighten constraints on the quantum properties of matter at extreme densities, pinning down values that theorists have long guessed at.",
+  "summary": "Using neutron star mass and radius measurements, researchers narrowed down the size of the pairing gap in color-superconducting quark matter to ~28 MeV—three times more precise than previous estimates. They combined flexible statistical models of dense matter with quantum chromodynamics theory to extract this constraint, and also bounded a poorly-known quantum constant that enters theoretical predictions at the highest densities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 824,
+  "tokens_out": 169,
+  "cost_usd": 0.0013352000000000001,
+  "ingested_at": "2026-06-03T13:34:24.178430+00:00"
+}

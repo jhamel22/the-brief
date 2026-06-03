@@ -1,0 +1,23 @@
+{
+  "id": "2606.03596",
+  "arxiv_url": "https://arxiv.org/abs/2606.03596",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE",
+    "stat.ML"
+  ],
+  "title_original": "Multimodal Transformer Based Generic Mixture Density Network for Scattering Timescale Estimation of Fast Radio Bursts",
+  "authors": "Bikash Kharel, Emmanuel Fonseca, Srinjoy Das, Mason Ng, Paul Scholz, Mawson W. Simmons, Lordrick Kahinga, Afrokk Khan",
+  "abstract": "The discovery rate of fast radio bursts (FRBs) continues to increase with the advent of new radio facilities and yet extracting their astrophysical parameters such as scattering timescale ($τ$) remains a significant bottleneck. Current $τ$ measurement approaches like fitting analytic template models and scattering aware de-convolution are accurate but slow, sensitive to initialization, limited by low signal to noise and often require manual supervision. These limitations inspired us to explore fast, robust and scalable machine learning methods to estimate the astrophysical parameter value. We present a deep learning approach named Multimodal Transformer Based Generic Mixture Density Network (MT-GMDN) which ingests FRB dynamic spectrum and its corresponding timeseries profile through parallel transformer encoders, fuses their latent representations and predicts the distribution of $τ$ with probabilistic output derived from generic mixture-density formulation. This formulation not only estimates the value of $τ$ but also captures the (zero inflated) nature of FRB populations where a significant fraction of bursts exhibit unresolvable scattering. We trained MT-GMDN on $\\sim3500$ FRBs from CHIME/FRB \\cattwo while holding out some fraction of FRBs for validation during training and for testing after the training completes. The model achieves a coefficient of determination ($R^2$) value of $94\\%$ on the expected value of $τ$ for the events with measurable scattering with an excellent recall value of $90\\%$ on the test data set. The model was also able to incorporate heteroskedastic errors enabling us the construction of a confidence interval for the predictions.",
+  "title_relatable": "Can machine learning measure how much radio bursts blur as they travel?",
+  "hook": "A new AI system estimates scattering timescales in fast radio bursts 100× faster than manual fitting, processing thousands of bursts from CHIME with 94% accuracy.",
+  "summary": "Measuring how much interstellar material distorts fast radio bursts (FRBs) is currently slow and error-prone. Researchers built MT-GMDN, a deep learning system that simultaneously analyzes two different views of each burst—its dynamic spectrum and time profile—through parallel neural networks, then outputs a probability distribution for the scattering parameter rather than a single guess. Tested on 3,500 CHIME/FRB events, it achieves 94% accuracy and correctly identifies bursts with no measurable scattering 90% of the time.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 859,
+  "tokens_out": 218,
+  "cost_usd": 0.0015592,
+  "ingested_at": "2026-06-03T13:34:27.078738+00:00"
+}

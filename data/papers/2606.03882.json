@@ -1,0 +1,22 @@
+{
+  "id": "2606.03882",
+  "arxiv_url": "https://arxiv.org/abs/2606.03882",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Longitudinal Development Analysis of Extensive Air Showers Using CORSIKA Simulations",
+  "authors": "Ali A. Shihab, A. A. Al-Rubaiee",
+  "abstract": "We present a comprehensive analysis of the longitudinal development of Extensive Air Showers (EAS) simulated with CORSIKA version 7.7500 for proton, helium, and iron primaries at energies of 10^15, 10^16, and 10^17 eV across zenith angles of 0, 30, and 45 degrees. For each combination of primary type, energy, and zenith angle, 50 independent showers were simulated, resulting in a total of 450 simulated showers. The Gaisser - Hillas function was fitted to extract the depth of shower maximum (Xmax) and the number of particles at maximum (Nmax). Our results confirm the expected logarithmic increase of Xmax with energy (about 10 g/cm^2 per decade), as well as systematically shallower Xmax for heavier primaries (iron vs. proton: Delta (Xmax) equal to about 160 g/cm^2 at 10^17 eV).The simulations also reproduce the expected sec (theta) scaling behavior. Multi-component analysis reveals distinct evolutionary patterns for electromagnetic, muonic, and hadronic components. These findings provide benchmark-level simulations for cosmic-ray composition studies and validate the CORSIKA framework for multi-parameter analyses of air-shower development.",
+  "title_relatable": "How do cosmic ray showers change with energy and particle type?",
+  "hook": "Simulations of 450 cosmic ray air showers show iron nuclei punch through the atmosphere shallower than protons—a fingerprint for identifying what hits Earth.",
+  "summary": "Physicists simulated cosmic ray collisions in Earth's atmosphere across three energies (10^15 to 10^17 eV) and three particle types (proton, helium, iron) to map how showers develop. Heavier nuclei create shallower showers by about 160 g/cm² at the highest energies, a measurable signature for composition studies. The results confirm decades-old predictions and establish a validated benchmark for cosmic-ray detectors.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 743,
+  "tokens_out": 194,
+  "cost_usd": 0.0013704000000000001,
+  "ingested_at": "2026-06-03T13:34:15.089126+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.03984",
+  "arxiv_url": "https://arxiv.org/abs/2606.03984",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Diocotron Modes in Pulsar Magnetospheres: Charge Diffusion and Implications for Radio Emission Variability",
+  "authors": "Matthew Goodbred, Anatoly Spitkovsky",
+  "abstract": "The diocotron instability is a non-axisymmetric plasma instability that should occur generically in the differentially rotating equatorial plane of pulsar magnetospheres. We present a series of 3D particle-in-cell (PIC) simulations of the diocotron instability in aligned and oblique pulsars. The instability grows on timescales of the rotation period and develops a strong, stable $m=1$ mode, corresponding to a rotating, dipolar charge asymmetry in the equatorial disk. Stochastic fluctuations in the diocotron mode amplitude and pattern speed drive cross-field diffusion that can rapidly transport charges through the closed zone toward the light cylinder. In the nonlinear stage, the $m=1$ mode produces electric field perturbations which can modulate the polar cap potential drop and the emission beam angle, with possible connections to pulsar variability such as nulling, periodic amplitude modulation, and drifting subpulses.",
+  "title_relatable": "What makes pulsars flicker? A spinning plasma instability might explain it.",
+  "hook": "3D simulations reveal a rotating charge asymmetry in pulsar cores that scrambles the electric field, potentially triggering the irregular radio flashes we observe.",
+  "summary": "Pulsars' spinning magnetospheres host an instability called diocotron that creates a lopsided charge distribution, rotating once per spin. This wobbling asymmetry stirs up the electric field and scrambles particle pathways, allowing charges to drift outward faster than expected. The resulting voltage fluctuations could directly modulate the radio beam, explaining observed nulling and drifting subpulses.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 662,
+  "tokens_out": 177,
+  "cost_usd": 0.0012376,
+  "ingested_at": "2026-06-03T13:34:12.158759+00:00"
+}

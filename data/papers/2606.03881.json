@@ -1,0 +1,22 @@
+{
+  "id": "2606.03881",
+  "arxiv_url": "https://arxiv.org/abs/2606.03881",
+  "announced_date": "2026-06-02",
+  "subject": "astro-ph.HE",
+  "subjects_all": [
+    "astro-ph.HE"
+  ],
+  "title_original": "Suppressed diffusion and gamma-ray emission from the Cygnus Bubble",
+  "authors": "Ben Li, Pasquale Blasi, Elena Amato",
+  "abstract": "Recent gamma-ray observations indicate that star clusters can be efficient particle accelerators. In particular, LHAASO has detected diffuse gamma-ray emission from Cygnus OB2 extending to $\\gtrsim$ PeV energies, indicating that particles are accelerated to at least $\\gtrsim$1 PeV. In this work, we study the gamma-ray emission from the Cygnus region assuming particle acceleration either at the termination shock of the cluster wind (WTS) or in an unspecified source at the bubble center, taken to be either steady or bursting. We numerically solve the transport equation for non-thermal particles in all scenarios and derive their spatial and spectral distributions throughout the bubble. We then calculate the gamma-ray emission from pp interactions, including the contribution from particles interacting with the surrounding molecular cloud, which may help explain the extended emission observed by LHAASO. We also include the penetration of Galactic cosmic rays (GCRs) and the resulting shock reacceleration. The predicted emission is compared with Fermi-LAT, HAWC and LHAASO observations. For three diffusion models, we find that a spatially dependent Bohm diffusion coefficient is required to reproduce both the spectrum and morphology in the cluster wind scenario. Penetrating GCRs can contribute significantly to the gamma-ray emission above $\\sim$300 TeV. A suppressed diffusion coefficient with respect to the Galactic average in a region extending to at least 150 pc from the cluster center is needed to reproduce the LHAASO morphology. Our conclusion is that explaining both the spectrum and morphology of the $\\sim$PeV emission with hadrons accelerated in a non-relativistic steady source requires extreme assumptions. We also speculate on the possibility that some of the highest-energy gamma rays may originate from sources behind the Cygnus association.",
+  "title_relatable": "Why does a giant star cluster's particle accelerator produce such extreme gamma rays?",
+  "hook": "LHAASO detects petaelectronvolt gamma rays from Cygnus OB2. New simulations reveal particle diffusion must be severely suppressed to match observations.",
+  "summary": "Massive star clusters accelerate particles to extreme energies, and Cygnus OB2 recently revealed gamma-ray emission reaching petaelectronvolt scales—far higher than expected. By modeling how accelerated particles diffuse through the bubble surrounding the cluster and interact with gas, the authors show that standard particle transport fails; the diffusion coefficient must be dramatically reduced over a 150-parsec region to explain both the spectrum and shape of observed emission. This suggests either extreme magnetic conditions in the cluster wind or a missing high-energy source.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 853,
+  "tokens_out": 210,
+  "cost_usd": 0.0015224000000000001,
+  "ingested_at": "2026-06-03T13:34:18.183201+00:00"
+}
