@@ -1,0 +1,23 @@
+{
+  "id": "2606.03593",
+  "arxiv_url": "https://arxiv.org/abs/2606.03593",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.SE",
+    "cs.RO"
+  ],
+  "title_original": "Making Embodied AI Reliable: A Community Agenda from Testing to Formal Verification",
+  "authors": "Xi Zheng, Dulanga Weerakoon, Yintong Huo, Teresa Yeo, Guy Van Den Broeck, Vijay Ganesh, Daniel Neider, Biplav Srivastava, Ivan Ruchkin, Archan Misra, Corina Pasareanu",
+  "abstract": "Embodied AI systems are increasingly deployed in open-world environments, yet ensuring their reliability remains a fundamental challenge. Drawing on discussions from the AAAI'26 Bridge Program on \"Making Embodied AI Reliable with Testing and Formal Verification\", this article argues that reliability in embodied AI is inherently a lifecycle assurance problem arising from uncertainty, human interaction, and emergent behaviors across tightly coupled system components. We identify three complementary directions toward reliable embodied AI: (1) trustworthy scenario-based testing supported by validated specifications and meaningful coverage metrics, (2) compositional verification enabled by structured symbolic representations of system behavior and environmental context, and (3) runtime assurance mechanisms capable of adapting to uncertainty and distribution shifts during deployment. Rather than treating these approaches independently, we advocate integrated assurance workflows that connect testing, verification, and runtime adaptation through shared neuro-symbolic representations and continuous feedback across the system lifecycle. Such integration provides a foundation for building trustworthy embodied AI systems that can operate safely and reliably in complex real-world environments.",
+  "title_relatable": "How do we make robots actually reliable in the real world?",
+  "hook": "Embodied AI needs testing, formal verification, and runtime adaptation working together—not separately—to stay safe when deployed.",
+  "summary": "Robots deployed in open environments face reliability challenges from uncertainty, human interaction, and emergent behaviors across coupled components. The authors outline three complementary approaches: scenario-based testing with validated specs, compositional verification using symbolic representations, and runtime assurance that adapts to distribution shifts. The key insight: these must integrate through shared neuro-symbolic representations and continuous lifecycle feedback, not operate in isolation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 727,
+  "tokens_out": 159,
+  "cost_usd": 0.0012175999999999999,
+  "ingested_at": "2026-06-03T14:57:22.664964+00:00"
+}

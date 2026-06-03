@@ -1,0 +1,22 @@
+{
+  "id": "2606.03943",
+  "arxiv_url": "https://arxiv.org/abs/2606.03943",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "PointAction: 3D Points as Universal Action Representations for Robot Control",
+  "authors": "Mutian Tong, Han Jiang, Qiao Feng, Lingjie Liu, Jiatao Gu",
+  "abstract": "Video-Action Models (VAMs) leverage the broad visual dynamics captured by pre-trained video diffusion models, offering a promising path toward generalizable robot manipulation. However, RGB-only video rollouts are not directly actionable: they leave metric 3D motion, contact geometry, and fine-grained spatial constraints under-specified, making action grounding ambiguous. Meanwhile, scaling action supervision across diverse tasks and embodiments remains costly. We present PointAction, a framework that bridges video predictions to robot actions through explicit point-based 4D modeling. PointAction fine-tunes a foundation video generation model to jointly predict future RGB frames and dynamic 3D pointmaps, producing temporally consistent 3D motion of task-relevant scene geometry. These point dynamics serve as a structured, embodiment-agnostic action interface, which a diffusion-based action decoder maps to executable robot actions. By using metric 3D point dynamics as the interface between video prediction and control, PointAction reduces the ambiguity of RGB-only action grounding and supports transfer across tasks and embodiments with limited action supervision. Experiments show that PointAction achieves state-of-the-art 4D generation quality on robot scenes, outperforms existing baselines in simulation, and generalizes to two real robot arms unseen during pretraining.",
+  "title_relatable": "Using 3D point motion as a universal language for robot actions",
+  "hook": "Framework predicts both video frames and 3D point trajectories to ground robot actions, generalizing across tasks and embodiments with minimal supervision.",
+  "summary": "Robots struggle to translate video predictions into physical actions because RGB video alone leaves 3D motion and contact geometry ambiguous. PointAction fine-tunes a video diffusion model to predict both future frames and dynamic 3D pointmaps of task-relevant objects, creating a structured middle ground between vision and control. These point trajectories act as an embodiment-agnostic action interface—a kind of 3D motion sketch that any robot arm can follow. The method outperforms baselines in simulation and transfers to unseen real robots with limited action labels.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 738,
+  "tokens_out": 201,
+  "cost_usd": 0.0013944,
+  "ingested_at": "2026-06-03T14:57:11.779627+00:00"
+}

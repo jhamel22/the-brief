@@ -1,0 +1,23 @@
+{
+  "id": "2606.03252",
+  "arxiv_url": "https://arxiv.org/abs/2606.03252",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "AirDreamer: Generalist Drone Navigation with World Models",
+  "authors": "Zian Liu, Andong Yang, Chunkai Yang, Ruidong An, Chao Gao, Guyue Zhou",
+  "abstract": "Navigating a drone in unseen and cluttered environments requires reliable generalization to unseen scene layouts and understanding of environmental structure relative to the robot's capabilities. Previous methods, which assume the same environment configuration, often rely heavily on human-designed perception pipelines and predefined rules to guide the robot toward the target. This process is environment-dependent and generalizes poorly across environments. Inspired by animal navigation behavior, we design a navigation framework that navigates with a reinforcement-learning-based policy on top of a world-model-based environment understanding to overcome these issues. In addition, a sparse reward function without hand-crafted shaping terms is designed to avoid local minima traps and encourage yaw control behaviors. In simulation and on real drones, our method exhibits emergent capabilities for navigating complex, unseen environments and escaping local optima where other methods fail. In challenging maps, it achieves a 5.3% higher navigation success rate than best baseline. Furthermore, the proposed framework achieves effective sim-to-real transfer without any tuning during deployment. The code will be publicly available.",
+  "title_relatable": "Can drones learn to navigate anywhere without being told the rules?",
+  "hook": "World models + reinforcement learning enable drones to navigate unseen cluttered environments with 5.3% higher success than baselines, no hand-crafted rules needed.",
+  "summary": "Drones typically rely on human-engineered perception pipelines and predefined navigation rules that don't transfer across environments. This work trains a reinforcement-learning policy on top of a learned world model—effectively teaching drones to build their own mental map of the scene and decide where to go. The approach uses only sparse rewards, avoiding local optima that trap traditional methods. On real drones navigating complex mazes without retraining, it succeeds 5.3% more often than existing baselines and transfers smoothly from simulation to the real world. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 688,
+  "tokens_out": 210,
+  "cost_usd": 0.0013904000000000002,
+  "ingested_at": "2026-06-03T14:57:25.682701+00:00"
+}

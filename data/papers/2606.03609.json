@@ -1,0 +1,23 @@
+{
+  "id": "2606.03609",
+  "arxiv_url": "https://arxiv.org/abs/2606.03609",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "A 3D Isovist World Model -- Revealing a City's Unseen Geometry and Its Emergent Cross-City Signature",
+  "authors": "Xuhui Lin, Stephen Law, Nanjiang Chen, Kunyao Li, Tao Yang",
+  "abstract": "Embodied agents that navigate cities rely on world models that predict how their surroundings will change as they move. But for navigation, what matters is not what the buildings look like; it is where the agent can go. Most world models nonetheless predict appearance, learning how a scene looks rather than the space an agent can move through. Those that do target geometry, such as bird's-eye-view occupancy grids, flatten the three-dimensional environment onto a ground plane, discarding the above-ground and multi-level structure that shapes real navigation. What is missing is a predictive target that captures the navigable geometry an agent actually traverses, without photometric entanglement and without collapsing the third dimension. Our key idea is to model the open volume between buildings, the negative space, encoded as a 3D isovist: a spherical visibility-depth map recording the distance to the nearest surface in every direction. We introduce an embodied world model that predicts the next isovist from a short history of past isovists and a movement action. The prediction is formulated as a depth residual so the decoder inherits sharp building edges, trained with self-rollout scheduled sampling to keep corrupted context on the geometry manifold, and equipped with a persistent latent bird's-eye-view spatial map for cross-path consistency. Our central finding is emergent and unexpected: a single city-blind model trained on Manhattan and Paris develops a cross-city spatial signature, with city identity linearly decodable from its temporal latents far above single-frame baselines, so the signature lives in the learned dynamics rather than in appearance. The representation is lightweight, interpretable, and reproducible, offering a geometric substrate for spatial reasoning in embodied AI, robotics, and urban analysis, released with an open dataset and pipeline.",
+  "title_relatable": "What if city navigation models learned invisible geometry instead of what things look like?",
+  "hook": "A world model predicts 3D navigable space using isovists—spherical visibility maps—and spontaneously learns to distinguish cities from movement patterns alone.",
+  "summary": "Navigation agents need to predict where they can move, not what buildings look like. This work replaces flat occupancy grids with 3D isovists—360° depth maps capturing free space around an agent. Trained on Manhattan and Paris data, a single city-blind model unexpectedly encodes city identity in its learned dynamics rather than visual appearance, making the spatial signature linearly decodable from latent trajectories. Open dataset and code included.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 846,
+  "tokens_out": 185,
+  "cost_usd": 0.0014168000000000002,
+  "ingested_at": "2026-06-03T14:57:20.621201+00:00"
+}

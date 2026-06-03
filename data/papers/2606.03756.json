@@ -1,0 +1,23 @@
+{
+  "id": "2606.03756",
+  "arxiv_url": "https://arxiv.org/abs/2606.03756",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.LG"
+  ],
+  "title_original": "Neural Navigation Functions for Zero-Shot Generalizable Motion Planning",
+  "authors": "Benjamin D. Shaffer, Pei-An Hsieh, Brooks Kinch, Nathaniel Trask, M. Ani Hsieh",
+  "abstract": "We introduce Neural Navigation Functions (Neural-NF), a learned reactive navigation function capable of zero-shot transfer across unseen environment geometries. Neural-NF places data-driven adaptation within a structured elliptic planner, where the navigation objective is learned while planner structure is preserved by construction. Specifically, intrinsic Laplacian-derived features are mapped to local PDE coefficients, and solving the resulting boundary value problem produces a globally consistent value function on each target domain. For every admissible learned model, the resulting policy is collision-free, provides monotonic descent and a global minimum at the goal by construction. This admits a linearly-solvable optimal-control interpretation for any parameter setting. Empirically, Neural-NF achieves strong zero-shot transfer across diverse geometries and outperforms learned planners that directly predict the value function by up to a $5\\times$ improvement.",
+  "title_relatable": "Can neural networks learn navigation rules that work in unseen environments?",
+  "hook": "A learned planner that generalizes across new environments while guaranteeing collision-free paths and 5× better performance than direct value-function prediction.",
+  "summary": "Neural Navigation Functions embed learning into the mathematical structure of motion planning, using neural networks to adapt a PDE-based planner to new environments without retraining. By mapping geometric features to planner coefficients while preserving the underlying math, the approach guarantees collision avoidance and monotonic progress toward the goal by construction. On diverse geometries the method achieves zero-shot transfer with 5× faster convergence than learned competitors.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 651,
+  "tokens_out": 175,
+  "cost_usd": 0.0012208000000000002,
+  "ingested_at": "2026-06-03T14:57:15.081115+00:00"
+}

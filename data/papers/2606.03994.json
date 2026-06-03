@@ -1,0 +1,23 @@
+{
+  "id": "2606.03994",
+  "arxiv_url": "https://arxiv.org/abs/2606.03994",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image",
+  "authors": "Inhee Lee, Sangwon Baik, Sungjoo Kim, Hyeonwoo Kim, Hyunsoo Cha, Hanbyul Joo",
+  "abstract": "Reconstructing interactive, simulation-ready 3D scenes from a single image is a critical bottleneck for robotic manipulation. While recent single-image lifters recover plausible per-object shapes, composing them yields scenes that collapse under physical simulation due to interpenetrating, hovering, or sinking objects. Existing physics-aware methods address this strictly as a post-hoc layout correction, leaving the underlying geometric errors unresolved. To address this, we introduce SimuScene, a compositional 3D reconstruction pipeline that puts physics in the loop of shape and layout estimation. Rather than using physics merely for layout cleanup, we utilize the physics engine as a diagnostic measurement tool during the generative process itself. By diagnostically simulating reconstructed objects under gravity, we convert penetration and support failures into quantitative correction signals that drive gravity-axis stretching and amodal shape resampling. This physics-informed feedback loop mitigates accumulated reconstruction errors and produces a stable, simulation-ready compositional 3D scene. Extensive experiments demonstrate state-of-the-art performance on physical stability and geometric alignment benchmarks. We further highlight SimuScene's utility by deploying reconstructed environments in humanoid control and robot-arm manipulation tasks.",
+  "title_relatable": "How to rebuild 3D scenes from photos that won't fall apart when simulated",
+  "hook": "Physics-guided reconstruction from single images produces stable 3D scenes for robot manipulation, eliminating interpenetration and unrealistic object placement.",
+  "summary": "Reconstructing usable 3D scenes from single photos remains hard because objects sink, hover, or overlap when physics engines test them. SimuScene feeds physics diagnostics back into the shape and layout estimation process itself—simulating objects under gravity and using failures to guide geometric corrections. The result: stable, physically plausible scenes that robots can actually use, demonstrated on humanoid control and arm manipulation tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 734,
+  "tokens_out": 170,
+  "cost_usd": 0.0012672,
+  "ingested_at": "2026-06-03T14:57:06.773208+00:00"
+}

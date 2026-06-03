@@ -1,0 +1,24 @@
+{
+  "id": "2606.03985",
+  "arxiv_url": "https://arxiv.org/abs/2606.03985",
+  "announced_date": "2026-06-02",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+  "authors": "Zekun Qi, Xuchuan Chen, Dairu Liu, Chenghuai Lin, Yunrui Lian, Sikai Liang, Zhikai Zhang, Yu Guan, Jilong Wang, Wenyao Zhang, Xinqiang Yu, He Wang, Li Yi",
+  "abstract": "We introduce Humanoid-GPT, a GPT-style Transformer with causal attention trained on a billion-scale motion corpus for whole-body control. Unlike prior shallow MLP trackers constrained by scarce data and an agility-generalization trade-off, Humanoid-GPT is pre-trained on a 2B-frame retargeted corpus that unifies all major mocap datasets with large-scale in-house recordings. Scaling both data and model capacity yields a single generative Transformer that tracks highly dynamic behaviors while achieving unprecedented zero-shot generalization to unseen motions and control tasks. Extensive experiments and scaling analyses show that our model establishes a new performance frontier, demonstrating robust zero-shot generalization to unseen tasks while simultaneously tracking highly dynamic and complex motions.",
+  "title_relatable": "Can a single transformer track any human motion without training?",
+  "hook": "A billion-frame motion model generalizes to unseen behaviors with zero additional training, outperforming specialized shallow networks.",
+  "summary": "Humanoid-GPT trains a GPT-style transformer on 2 billion motion frames from unified mocap datasets to control full-body humanoid movement. Unlike older MLP-based trackers that struggle with either agility or generalization, this single model tracks complex dynamic behaviors while zero-shot transferring to entirely new motions and tasks—a capability that previously required task-specific retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 671,
+  "tokens_out": 162,
+  "cost_usd": 0.0011848000000000002,
+  "ingested_at": "2026-06-03T14:57:09.225480+00:00"
+}
