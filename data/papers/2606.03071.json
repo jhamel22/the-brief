@@ -1,0 +1,23 @@
+{
+  "id": "2606.03071",
+  "arxiv_url": "https://arxiv.org/abs/2606.03071",
+  "announced_date": "2026-06-02",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "nlin.AO"
+  ],
+  "title_original": "Evolution of cooperation in two-level Prisoner's Dilemma",
+  "authors": "Yaroslav Ispolatov, Michael Doebeli",
+  "abstract": "We consider continuous Prisoner's Dilemma played in spatial setting by group-structured populations. The population dynamics consists of individual-level birth and death and group-level fission and extinction events. Each individual plays games with all other individuals within their group, while groups play games against their nearest neighbours. Payoffs from individual-level games affect birth rates of individuals, and payoffs from group-level games affect group extinction and fission probabilities. We show that a certain level of cooperation is maintained due to specific between-group dynamics even though the within-group evolution by itself always results in a complete loss of cooperation. The spatial nature of games and resulting fissioning and extinction events is essential for the evolution of cooperation: without it cooperation is never maintained. Analyzing various scenarios of between-group fission and extinction events, we find that higher levels of cooperation evolve when the selection affecting fission and extinction events is local rather than global.",
+  "title_relatable": "Why groups that cooperate outcompete selfish ones",
+  "hook": "Cheaters should always win—yet cooperation persists when groups compete against neighbors rather than fighting globally.",
+  "summary": "In a spatial Prisoner's Dilemma, individuals within groups and groups against neighbors both play simultaneously. Within groups, selfish behavior always wins; but when groups can split or die based on their collective success, local competition between neighboring groups reverses this—cooperation evolves and stabilizes. Global competition erases this effect entirely, suggesting proximity and real social boundaries matter more than payoff alone.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 591,
+  "tokens_out": 154,
+  "cost_usd": 0.0010888,
+  "ingested_at": "2026-06-03T13:07:35.395409+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.02840",
+  "arxiv_url": "https://arxiv.org/abs/2606.02840",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "cs.MA",
+    "cs.NE",
+    "nlin.AO"
+  ],
+  "title_original": "Self-Regulation through Communication in Evolved Neural Agents",
+  "authors": "Joshua Nunley",
+  "abstract": "Communication is typically understood as indication: signals that transfer information from sender to receiver. We present a minimal predator avoidance task in which pairs of evolved CTRNN agents use communication for robust survival, and in which agents hear their own vocalizations, as in natural systems. Across 112 perfect-fitness agents from over 2,000 evolutionary runs, three dominant strategies emerge (accounting for 81% of agents): safety calling (39%), where agents signal from safe cover; alarm indication (22%), where agents vocalize when a threat is present without relying on self-hearing; and self-regulatory calling (20%), where agents depend on hearing their own call to sustain escape behavior. Self-hearing dependency is common among agents that call during an active threat (47%), but rare among agents that call only after reaching safe cover (10%; p < 10^-4). This pattern is consistent with a difference in causal order: safety callers act then communicate, while self-regulatory callers communicate in order to act. Removing self-hearing selectively impairs self-regulatory callers (fitness 0.40) while safety callers remain functional (0.90; p < 10^-9). These results show that communication can evolve to serve the caller's own behavioral regulation, not just information transfer to others.",
+  "title_relatable": "Why do evolved creatures talk to themselves?",
+  "hook": "Virtual predators evolve to use their own vocalizations as an internal pep talk to keep running from danger.",
+  "summary": "Researchers evolved neural network agents in a predator avoidance game where they could vocalize and hear themselves. About 20% of successful agents developed a striking strategy: they relied on hearing their own calls to sustain escape behavior, using communication as self-regulation rather than signaling to others. Removing self-hearing crippled these agents while barely affecting those using calls to signal from safety, suggesting evolution discovered communication's overlooked function—talking to yourself works.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 665,
+  "tokens_out": 169,
+  "cost_usd": 0.001208,
+  "ingested_at": "2026-06-03T13:07:43.598351+00:00"
+}

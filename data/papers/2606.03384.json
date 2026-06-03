@@ -1,0 +1,23 @@
+{
+  "id": "2606.03384",
+  "arxiv_url": "https://arxiv.org/abs/2606.03384",
+  "announced_date": "2026-06-02",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "math.ST"
+  ],
+  "title_original": "Evolution as a Process of Causal Inference",
+  "authors": "Jacopo Iacovacci",
+  "abstract": "Recently, the mapping of the replicator equation onto Bayes' theorem has been recognised, leading to an analogy between evolutionary dynamics and Bayesian learning. However, this analogy holds only for pure selection in infinite populations and breaks down when mutations -- a central mechanism of evolution -- are introduced. Here I propose that evolution by natural selection, at least for populations of haploid replicators in static environments, is best understood not as a learning process but as a process of causal inference. Each mutation event constitutes a natural experiment in which the parent serves as the control and the mutant offspring as the treated unit. Natural selection screens the causal effect of the mutation on fitness, retaining mutations with non-negative effects. I formalise this view within the Neyman-Rubin potential-outcomes framework. I first develop the general theory using a generic fitness outcome and show how the core identification assumptions in causal inference (Stable Unit Treatment Value Assumption, Consistency, Unconfoundedness, Positivity) map onto evolutionary biology. Using the unnormalised quasispecies equation, I prove that the intergenerational change in mean fitness decomposes exactly into a selection term -- recovering Fisher's Fundamental Theorem -- plus a mutation term that corresponds to a fitness-weighted average of the cumulated effect of all mutations over all parental genotypes. I show that this decomposition extends, under suitable assumptions, to the generalised replicator-mutator equation and that the frequencies of populations of matched parents-offspring update in proportion to the average causal effect of mutations on fitness.",
+  "title_relatable": "Does evolution work like a scientist testing a hypothesis?",
+  "hook": "Evolution isn't learning from data—it's running natural experiments. Each mutation is a test, selection is the verdict.",
+  "summary": "Mutations act as natural experiments where mutant offspring are compared against parent controls, and natural selection measures the causal effect on fitness. Using formal causal inference frameworks, the author shows how Fisher's Fundamental Theorem of evolution decomposes into selection plus mutation effects, reframing evolution as systematic hypothesis testing rather than Bayesian learning.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 723,
+  "tokens_out": 145,
+  "cost_usd": 0.0011584000000000002,
+  "ingested_at": "2026-06-03T13:07:32.351682+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.02867",
+  "arxiv_url": "https://arxiv.org/abs/2606.02867",
+  "announced_date": "2026-06-01",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "cs.MA",
+    "cs.AI",
+    "q-bio.PE"
+  ],
+  "title_original": "The Epi-LLM Framework: probing LLM behavioral priors through epidemiological agent-based models",
+  "authors": "Petra Ferenz, Ava Keeling, Tobias O'Keefe, Lorenzo Stigliano, Francesco Di Lauro, Andres Colubri, Jasmina Panovska-Griffiths",
+  "abstract": "Human behaviour during epidemics affects infectious disease dynamics, but quantifying this remains deeply challenging. Here we introduce the Epi-LLM framework: a novel integration of agent-based modelling, real-life epigames, and large language models (LLMs) in which a synthetic society of agents reasons and adapts dynamically over an outbreak contact network. Comparing synthetic agent behaviour against a no-intervention SEIR baseline and human participant data from the AUIB epigame study, we find that LLM agents across four different architectures reduced peak active infections, with quarantine compliance peaking at 58-65% on day six of the 15-day simulation. A binomial generalised linear model showed that perceived health severity was the strongest predictor of quarantine behaviour ($β= 0.33, p = 0.002$), yielding a pseudo-$R^2$ of 0.055, comparable to the 0.072 observed in the human trial. LLM architecture is a key determinant of epidemic dynamics: low-variance architectures offer greater internal validity for testing behavioural rules, while high-variance models may better represent real-world decision-making. Geographic labels alone do not induce culturally differentiated behaviour; explicit attitudinal parameterisation is required. This proof-of-principle work lays the groundwork for deploying the Epi-LLM framework as a scalable, risk-free simulation environment for pandemic preparedness research.",
+  "title_relatable": "Can AI agents predict how people behave during epidemics?",
+  "hook": "Researchers used AI language models to simulate how people decide whether to quarantine during disease outbreaks, finding they behave surprisingly like humans.",
+  "summary": "Scientists built a simulation where AI agents navigate an epidemic while deciding whether to quarantine, comparing their choices to real people playing a pandemic game. AI agents reduced peak infections by 58-65%, with perceived disease severity driving quarantine decisions—matching human behavior patterns. The framework could let epidemiologists test intervention strategies without risking real outbreaks.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 769,
+  "tokens_out": 154,
+  "cost_usd": 0.0012312,
+  "ingested_at": "2026-06-03T13:07:40.800725+00:00"
+}

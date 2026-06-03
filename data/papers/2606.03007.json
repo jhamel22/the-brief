@@ -1,0 +1,23 @@
+{
+  "id": "2606.03007",
+  "arxiv_url": "https://arxiv.org/abs/2606.03007",
+  "announced_date": "2026-06-02",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "stat.AP",
+    "q-bio.PE"
+  ],
+  "title_original": "Computing the final epidemic size distributions of a multi-type Galton--Watson process",
+  "authors": "Yuta Okada, Hiroshi Nishiura",
+  "abstract": "The Galton--Watson process (GWP) is a discrete-time branching process model that provides a powerful tool for analyzing epidemic data and estimating key epidemiological parameters such as the basic reproduction number. When used with surveillance-based cluster size data, the GWP can also elicit information about the extent of transmission heterogeneity, even when each transmission process is not directly observable. When cluster size distribution data are available, the parameters that govern the transmission can be statistically inferred by using the probability mass function that corresponds to the observed cluster size data. For multi-type GWPs, however, real-world applications remain limited, possibly because of the absence of conceptually and practically straightforward approaches for deriving the closed-form solution of the final size distribution. In the present study, we propose a framework for computing the final size distribution of multi-type GWPs, using a method for the choice of the Cauchy integral contour. We provide examples of how our framework can be applied to both simulated data and real-world data of Middle East respiratory syndrome, and discuss potential pitfalls surrounding the identifiability of parameters for statistical inference when using likelihoods that are not conditioned on extinction.",
+  "title_relatable": "How to predict when epidemics stop spreading across different populations",
+  "hook": "New math makes it possible to calculate how many people an epidemic will ultimately infect when transmission varies by group—solving a decades-old problem in disease modeling.",
+  "summary": "Epidemiologists use branching process models to estimate how diseases spread, but calculating final outbreak sizes for populations with different transmission rates has lacked a straightforward solution. The researchers developed a method using complex analysis to derive closed-form equations for these calculations and tested it on MERS data. This lets public health teams estimate transmission heterogeneity directly from cluster size data—crucial for understanding which groups drive outbreaks.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 658,
+  "tokens_out": 172,
+  "cost_usd": 0.0012144,
+  "ingested_at": "2026-06-03T13:07:38.281165+00:00"
+}
