@@ -1,0 +1,23 @@
+{
+  "id": "2606.03897",
+  "arxiv_url": "https://arxiv.org/abs/2606.03897",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.mes-hall"
+  ],
+  "title_original": "Parametrically induced strong coupling between a superconducting quantum circuit and a solid-state spin ensemble",
+  "authors": "Alejandro E. Baptista, Jinwoong Kim, Sonia Rani, Xi Cao, Wolfgang Pfaff",
+  "abstract": "Efficient quantum state transfer between superconducting circuits and solid-state spins would unlock high-coherence quantum memories for superconducting quantum processors. We demonstrate dynamically controlled strong coupling between a Josephson circuit and a rare-earth spin ensemble. Using a parametric pump, we realize on-demand coupling of several MHz, which will enable faithful state transfer between quantum circuits and spins. Our architecture enables quantum control of spin ensembles, and paves the way for hybrid memories with coherence far beyond those of superconducting circuits alone.",
+  "title_relatable": "Turning on quantum memory for superconducting computers on demand",
+  "hook": "A microwave pump switches on MHz-scale coupling between a superconducting chip and rare-earth spins, enabling controllable quantum memory.",
+  "summary": "Superconducting quantum processors are fast but forget quickly; rare-earth spin ensembles remember longer but are hard to connect. By driving a Josephson circuit with a parametric pump, the team switches on several MHz of coupling between the two on demand — strong enough for faithful state transfer. This tunable bridge could give superconducting computers access to spin-based memories with coherence times far exceeding anything the chips achieve alone.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 571,
+  "tokens_out": 171,
+  "cost_usd": 0.004278,
+  "ingested_at": "2026-06-03T14:33:52.695818+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.03914",
+  "arxiv_url": "https://arxiv.org/abs/2606.03914",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "physics.optics"
+  ],
+  "title_original": "Quantum Erasure Imaging: Complementary Modalities from Delayed-Choice Erasure",
+  "authors": "Sean D Huver, Sanjaya Lohani",
+  "abstract": "Quantum Erasure Imaging (QEI) turns delayed-choice erasure into a practical imaging protocol. Entangled photon pairs encode two classical modalities, absorption $T(x,y)$ and a phase-sensitive cosine quadrature of $φ(x,y)$, reconstructed from a single run of time-tagged coincidences by retrospective sorting on a remote ancilla. Measuring the ancilla in H/V yields $T$ via which-path information; D/A yields interference visibility $\\propto \\frac{2\\sqrt{T}}{T+1}\\cosφ$; and a rotated orthonormal analyzer continuously trades between them. We derive balanced two-port estimators whose denominators are analyzer independent (completeness / no signaling), together with Fisher information (FI) and Cramér--Rao bounds (CRBs) that establish an equivalence to time division under labeled randomization. The advantages of QEI are operational: single-run acquisition, perfect co-registration, and remote / delayed mode choice. We illustrate the protocol with Monte-Carlo simulations and open source our code.",
+  "title_relatable": "One photon reveals both absorption and phase — simultaneously?",
+  "hook": "A single imaging run with entangled photons can extract both how opaque and how thick a sample is, just by choosing how to measure a distant partner photon.",
+  "summary": "Entangled photon pairs let you image a sample in two complementary ways — measuring light absorption or phase shifts — from one acquisition, just by changing how you measure the photon that never touched the sample. The trick is quantum erasure: retrospectively 'erasing' or 'restoring' which-path information on a remote ancilla photon sorts the same dataset into two different images. The framework includes rigorous Fisher information bounds showing this matches the statistical efficiency of simply splitting acquisition time between the two modes.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 691,
+  "tokens_out": 190,
+  "cost_usd": 0.004923,
+  "ingested_at": "2026-06-03T14:33:41.616174+00:00"
+}

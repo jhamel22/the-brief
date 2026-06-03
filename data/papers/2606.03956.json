@@ -1,0 +1,23 @@
+{
+  "id": "2606.03956",
+  "arxiv_url": "https://arxiv.org/abs/2606.03956",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech"
+  ],
+  "title_original": "Operator spreading in random circuits with orthogonal or symplectic symmetry",
+  "authors": "Zhiyang Tan, Piet W. Brouwer",
+  "abstract": "We investigate operator spreading in random quantum circuits with gates drawn from orthogonal-invariant or symplectic-invariant ensembles, revealing several key distinctions from the well-studied unitary-invariant case. We find that the ensemble-averaged Pauli-string weights relax to a ternary-valued structure, instead of the binary structure of unitary-invariant circuits. For orthogonal- or symplectic-invariant circuits, the domain wall separating trivial and scrambled regions has a finite width even for Haar-random gates, whereas domain walls are sharp for Haar-distributed random unitary circuits. We further find a fundamental dichotomy between random circuits with two-qubit gates from the two disconnected components of the orthogonal group: While the butterfly velocity for the special orthogonal ensemble lies between zero and the Haar value, the negative-determinant sector exhibits a non-zero lower bound for any gate distribution. Moreover, for qudit size $q=2$, the butterfly velocity can exceed that of the Haar-random ensemble.",
+  "title_relatable": "How does quantum information scramble when symmetry is broken differently?",
+  "hook": "Quantum circuits with orthogonal or symplectic symmetry scramble information by different rules — including speed limits that can exceed the standard unitary case.",
+  "summary": "Random quantum circuits are a standard model for how information spreads and becomes irretrievable — a process called scrambling. Swapping the usual unitary gates for orthogonal or symplectic ones changes the rules in unexpected ways: the scrambling front has a fuzzy boundary rather than a sharp wall, and the speed of information spread can actually exceed the benchmark set by fully random unitary circuits when gates come from the negative-determinant component of the orthogonal group. The result hints that symmetry class, not just randomness, fundamentally shapes how quantum systems lose memory of their initial state.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 663,
+  "tokens_out": 206,
+  "cost_usd": 0.005079,
+  "ingested_at": "2026-06-03T14:33:14.327789+00:00"
+}

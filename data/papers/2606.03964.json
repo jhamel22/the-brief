@@ -1,0 +1,22 @@
+{
+  "id": "2606.03964",
+  "arxiv_url": "https://arxiv.org/abs/2606.03964",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Informational completeness of qubit measurements and IC preservability of qubit channels: Characterization and Quantification",
+  "authors": "Jatin Ghai, Arindam Mitra",
+  "abstract": "Informationally complete (IC) measurements are a useful class of measurements, as their outcome statistics uniquely determine an unknown quantum state. Hence, they are important for certain tasks such as quantum state tomography, quantum process tomography, etc. In this work, we study the quantification of informational completeness for arbitrary quantum measurements by introducing and characterizing a faithful measure for it. We explicitly evaluate the informational completeness of qubit symmetric informationally complete (SIC) measurements and show that it is an upper bound for all qubit minimal informationally complete measurements. Furthermore, by introducing a faithful measure, we try to quantify and characterize the ability of an arbitrary quantum channel to preserve informational completeness of any IC measurement when the channel acts on it in the Heisenberg picture. We call this measure informational completeness-preservability (IC preservability) of quantum channels. After studying its properties, we finally establish its relation to another quantity, namely, the absolute output coherence of a quantum channel, which quantifies the minimum amount of coherence (w.r.t. an arbitrary incoherent basis) that can always be obtained from the output of that channel. Thus, in this work, not only do we try to provide a quantitative framework for studying both the informational completeness of quantum measurements and the ability of quantum channels to preserve it, but we also try to offer key insight into the conceptual relation between informational completeness and quantum coherence.",
+  "title_relatable": "How well can a quantum measurement pin down an unknown state?",
+  "hook": "A new measure ranks how 'informationally complete' a quantum measurement is, and reveals a hidden link to quantum coherence.",
+  "summary": "Some quantum measurements are powerful enough to fully identify an unknown quantum state from their statistics alone — but not all IC measurements are equally good at this. This work introduces a rigorous way to score that power for qubit measurements, shows that the symmetric SIC measurement is the best among minimal options, and proves that a channel's ability to preserve this power is directly tied to how much coherence it always outputs — connecting two seemingly separate quantum resources.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 747,
+  "tokens_out": 163,
+  "cost_usd": 0.004686,
+  "ingested_at": "2026-06-03T14:33:08.358908+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.03916",
+  "arxiv_url": "https://arxiv.org/abs/2606.03916",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.other"
+  ],
+  "title_original": "Practical gates by Majorana fermion motion",
+  "authors": "Yuri D. Lensky, Bryce Kobrin, Kostyantyn Kechedzhi, Igor Aleiner",
+  "abstract": "Quantum error correction protocols protect against local errors by storing logical information non-locally. This poses a challenge: how to design efficient logical gates on the non-local ``hidden'' logical information, and how to implement these gates using the local physical operations. We develop a general description of planar Pauli stabilizer codes and protocols for logical operations in terms of point-like particles called Majorana fermions. Information is stored in the pairwise fermion parities of spatially separated Majorana fermions. The description in terms of Majorana fermions captures not only large distance asymptotics, but also all scales down to the lattice constants. We exploit this locality to densely pack logical information in spacetime. The simplest application is to a static case: dense memory. More importantly, we implement fault-tolerant Majorana motion and leverage this primitive to design braiding-based logical gates. This approach reduces space overhead of logical operations resulting in an improved logical error rate given fixed number of physical qubits. We illustrate a practical use of our approach by designing and benchmarking of 2-qubit Clifford gates. We find numerically that our protocol outperforms lattice surgery in this setting for near-term error rates and realistic device constraints. More generally, introduction of compact motion of Majorana fermions as an efficient computational primitive opens a promising new route for the design of low overhead error correction protocols.",
+  "title_relatable": "Moving fictional particles could make quantum computers more efficient",
+  "hook": "A new protocol uses Majorana fermion motion to pack more logical operations into fewer physical qubits, beating standard methods at near-term error rates.",
+  "summary": "Quantum computers need thousands of physical qubits to protect each logical qubit from errors, making efficient gate design critical. This work reframes the problem using Majorana fermions — exotic point-like objects that encode information in pairs — to choreograph fault-tolerant gates by physically moving these particles around each other. Numerical benchmarks show the approach outperforms the standard 'lattice surgery' technique for two-qubit gates under realistic near-term device conditions, potentially shrinking the hardware overhead needed for useful quantum computation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 743,
+  "tokens_out": 188,
+  "cost_usd": 0.005049,
+  "ingested_at": "2026-06-03T14:33:33.129865+00:00"
+}

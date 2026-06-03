@@ -1,0 +1,22 @@
+{
+  "id": "2606.03898",
+  "arxiv_url": "https://arxiv.org/abs/2606.03898",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Squeezed-state semi-device-independent quantum randomness generation",
+  "authors": "Hamid Tebyanian",
+  "abstract": "This paper investigates semi-device-independent quantum randomness generation with a trusted binary pure-state source and an untrusted binary detector whose side information is classical. We derive a closed-form Shannon-rate expression for this setting, depending only on the trusted Gram overlap of the two source states and the observed symmetric error probability. The key point is that the full binary-qubit POVM optimisation must include the two deterministic extreme points omitted by the projective-only treatment; including them gives a substantially lower, and correct, certified rate. The closed form is an unconditional upper bound on the certified asymptotic i.i.d.\\ Shannon rate, and becomes tight on a numerically verified dual-feasibility region containing all operating points used in the paper. Outside this region the same expression remains an upper bound. We then apply the result to squeezed-coherent BPSK sources, showing how squeezing changes the trade-off between state distinguishability and certified randomness in the lossless and lossy regimes. Finally, we clarify the adversary model if the adversary is allowed to hold a detector-purification register that tags the outcome.",
+  "title_relatable": "How much true randomness can squeezed light actually certify?",
+  "hook": "A corrected calculation shows previous methods overestimated certified quantum randomness by omitting two critical measurement extremes.",
+  "summary": "Quantum random-number generators need guarantees that their output isn't predictable — even by a cheating detector. This work derives an exact formula for how much certified randomness a squeezed-light source can produce, and finds that earlier analyses were too optimistic: they missed two \"deterministic\" measurement outcomes that, when included, lower the provably secure rate. Applied to squeezed laser pulses, the result maps precisely where squeezing helps versus hurts the randomness-versus-signal tradeoff.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 674,
+  "tokens_out": 183,
+  "cost_usd": 0.004767,
+  "ingested_at": "2026-06-03T14:33:47.502658+00:00"
+}

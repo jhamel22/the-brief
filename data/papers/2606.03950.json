@@ -1,0 +1,24 @@
+{
+  "id": "2606.03950",
+  "arxiv_url": "https://arxiv.org/abs/2606.03950",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.optics",
+    "cond-mat.mes-hall",
+    "quant-ph"
+  ],
+  "title_original": "Coexistence of dipolar and quadrupolar higher-order topology",
+  "authors": "Konstantin Rodionenko, Maxim Mazanov, Maxim A. Gorlach",
+  "abstract": "Two-dimensional higher-order topological insulators are typically classified either as dipolar or quadrupolar depending on the relevant invariant. These two classes were previously considered non-overlapping. Here we put forward an example system exhibiting dipolar and quadrupolar higher-order topology simultaneously, suggest its implementation using the arrays of laser-written evanescently coupled optical waveguides and support our conclusions by the full-wave numerical simulations.",
+  "title_relatable": "Two 'incompatible' quantum phases found living together in one material",
+  "hook": "A photonic waveguide array defies classification by hosting two supposedly mutually exclusive topological phases at once.",
+  "summary": "Two types of higher-order topological insulator — dipolar and quadrupolar — were thought to be mutually exclusive, like odd and even numbers. This work shows a single system can host both simultaneously, demonstrated through a design using laser-written optical waveguides confirmed by full numerical simulation. It forces a rethink of how these exotic phases are catalogued and opens new possibilities for engineering protected boundary states.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 532,
+  "tokens_out": 159,
+  "cost_usd": 0.003981,
+  "ingested_at": "2026-06-03T14:33:21.937412+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.03891",
+  "arxiv_url": "https://arxiv.org/abs/2606.03891",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Efficient Quantum Error Mitigation for Unitary k-Designs",
+  "authors": "Ayush Pancholy, K. Birgitta Whaley",
+  "abstract": "Quantum circuit ensembles that have the properties of unitary k-designs represent applications where there is no obvious bias toward any particular Pauli support, as is the case in simulating systems exhibiting ''quantum chaos,'' which range from quantum dynamics near black holes to gapless spin fluid analysis. However, noisy hardware makes quantum circuits prone to a myriad of error sources, of which depolarizing and coherent error can be particularly destructive. To combat depolarizing error, popular techniques typically involve circuit or gate folding, which can be time-intensive procedures due to increased circuit depth and shot overhead. Other tensor-network-based mitigation techniques suffer from intractability in high-entanglement regimes. In this work, we leverage the structure of unitary k-design Pauli support distributions by introducing a technique we name ''circuit balancing,'' along with gate benchmarking data, in order to estimate circuit-wide depolarization. We describe how to invert the diagnosed circuit depolarization even in the presence of coherent error, via Pauli twirling. We provide asymptotics to estimate the number of twirls needed to maintain a desired output fidelity. We test our method numerically in a variety of simulation settings and find that it can significantly reduce average random circuit infidelity. Further, we employ our methods to find significant infidelity reductions when running a random circuit ensemble on a contemporary superconducting quantum computer, IBM Fez. Overall, we show that the method effectively reduces gate-based error for unitary k-designs without incurring any two-qubit gate overhead.",
+  "title_relatable": "A cheaper way to fix errors in quantum chaos simulations?",
+  "hook": "A new 'circuit balancing' technique cuts quantum error without adding extra gates — tested on real IBM hardware.",
+  "summary": "Fixing errors in quantum computers usually means running deeper, slower circuits — which just introduces more errors. By exploiting the statistical regularity of 'quantum chaos' circuits, this technique diagnoses and corrects depolarizing noise using only gate benchmarking data and cheap randomization, with zero additional two-qubit gates. Tests on IBM's Fez processor show meaningful fidelity gains, making it practically useful for simulating black hole dynamics and disordered spin systems.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 783,
+  "tokens_out": 170,
+  "cost_usd": 0.004899,
+  "ingested_at": "2026-06-03T14:33:58.261752+00:00"
+}

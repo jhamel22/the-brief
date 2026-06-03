@@ -1,0 +1,24 @@
+{
+  "id": "2606.03977",
+  "arxiv_url": "https://arxiv.org/abs/2606.03977",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc",
+    "quant-ph"
+  ],
+  "title_original": "Pure states for subregions in gravity and their entanglement entropy",
+  "authors": "Zixia Wei",
+  "abstract": "It is proposed that spatial subregions in quantum gravity can be assigned pure states, rather than mixed reduced density matrices. The state is prepared by a partially frozen gravitational path integral, in which a spacetime subregion containing the spatial subregion is fixed while the field configurations and ambient geometry are summed over. In the semiclassical regime, we further propose a holographic prescription for the entanglement entropy of bipartitions of this state, with a frozen-region analogue of the homology constraint. The prescription satisfies nontrivial self-consistency conditions, including strong subadditivity, complementarity, and entanglement wedge nesting, and reproduces several known entropy formulas in holography and gravity as special cases. The construction suggests an observer-dependent entanglement wedge labeled by the frozen subregion.",
+  "title_relatable": "Can a region of space have its own pure quantum state?",
+  "hook": "A new framework assigns pure quantum states to spatial subregions in gravity, sidestepping the usual mixed-state problem.",
+  "summary": "In ordinary quantum mechanics, tracing out the rest of the universe leaves a subregion in a mixed state — a fundamental obstacle for defining clean quantum information in gravity. By 'freezing' a spacetime subregion in the gravitational path integral and summing over everything outside, this framework constructs genuinely pure states for subregions. The resulting entropy formula passes nontrivial consistency tests — strong subadditivity, complementarity — and recovers known holographic entropy results as special cases, while hinting that entanglement wedges are observer-dependent.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 597,
+  "tokens_out": 193,
+  "cost_usd": 0.004686,
+  "ingested_at": "2026-06-03T14:33:03.124954+00:00"
+}

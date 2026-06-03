@@ -1,0 +1,23 @@
+{
+  "id": "2606.03922",
+  "arxiv_url": "https://arxiv.org/abs/2606.03922",
+  "announced_date": "2026-06-02",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.atom-ph",
+    "quant-ph"
+  ],
+  "title_original": "Fast single-atom preparation in optical tweezers via Rydberg blockade",
+  "authors": "Yiyi Li, Vernon M. Hughes, Michael Peper, Yicheng Bao, Chenyuan Li, Sanzhar Bissenali, Jeff D. Thompson",
+  "abstract": "Continuously replenished optical tweezer arrays will unlock unlimited-depth quantum circuits with neutral atom qubits. A key bottleneck limiting the cycle time of these systems is removing atoms from tweezers initially loaded with more than one atom. In the conventional technique of light-assisted collisions, slow collisional dynamics limit the timescale for removing excess atoms to several milliseconds. Here, we propose and demonstrate a scheme for selectively removing one atom at a time from multiply occupied tweezers on a microsecond timescale, using intra-tweezer Rydberg blockade and autoionization. We demonstrate the protocol in $^{171}$Yb in two complementary regimes. With two-photon Rydberg excitation from the ground state, we reduce multi-atom probability to 1% in 64.8 $μ$s, while retaining single atoms in 58.2(2)% of the tweezers, which is comparable to the filling fraction achieved with light-assisted collisions under the same experimental conditions, but over two orders of magnitude faster. With single-photon excitation from the metastable state $^3P_0$, reduced single-atom loss enables a higher filling fraction of 74.8(3)%, at the cost of additional temporal overhead to prepare the atoms in $^3P_0$. The final filling fraction is limited by an unexplained two-body loss mechanism, which, if solved, could enable fast, quasi-deterministic loading.",
+  "title_relatable": "Quantum computers need faster atom reloading — here's 100x speedup",
+  "hook": "A new technique clears unwanted atoms from quantum processor sites in microseconds, not milliseconds, using Rydberg physics.",
+  "summary": "Neutral-atom quantum computers stall every few milliseconds clearing out sites that accidentally loaded two atoms instead of one. Using Rydberg blockade — where one excited atom prevents its neighbor from exciting — plus autoionization, the team evicts the extra atom in under 65 microseconds, more than 100 times faster than the standard method. That speed-up is critical for running deep quantum circuits that require continuously refreshed atom arrays.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 792,
+  "tokens_out": 173,
+  "cost_usd": 0.004971,
+  "ingested_at": "2026-06-03T14:33:27.259941+00:00"
+}
