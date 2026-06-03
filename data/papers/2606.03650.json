@@ -1,0 +1,23 @@
+{
+  "id": "2606.03650",
+  "arxiv_url": "https://arxiv.org/abs/2606.03650",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "CoEval: Ranking Language Models for Custom Tasks Without Labeled Data or Trustworthy Benchmarks",
+  "authors": "Alexander Apartsin, Yehudit Aperstein",
+  "abstract": "Choosing or ranking language models for a specific application is hardest when no task-specific labeled data exists, and standard public benchmarks cannot be trusted, their items having likely leaked into pretraining, so scores reflect memorization rather than fitness. We present CoEval, an open-source, reusable framework that closes this gap end to end: from only a description of a task or domain, teacher models synthesize a fresh, attribute-controlled benchmark with no human labels, contamination-free because items are generated anew on each run, and a cross-family judge ensemble ranks candidate models with no human raters. Validated where ground truth exists, CoEval recovers the true model ranking and tracks ground-truth correctness at ho=0.86. The label-free judging needs no human calibration because judge-panel composition (vendor diversity), not size, drives reliability: a small, well-chosen cross-family panel is most reliable, while a single judge can be anti-correlated with ground truth (judge-choice regret 0.35) and the ensemble never is. Generated items show zero verbatim 13-gram overlap with five major public benchmarks; the panel cancels verbosity bias and precludes same-family self-preference. A four-task study produced 7,978 evaluations for USD 5.89. The same declarative pipeline applies to any domain and is cheap enough to re-run on every model release: a label-free, contamination-free leaderboard any team can regenerate for its own application.",
+  "title_relatable": "How to rank language models without labeled data or trustworthy benchmarks?",
+  "hook": "Fresh benchmark synthesis and cross-family judge ensembles rank models reliably (0.86 correlation) for any task, costing under $6 per evaluation.",
+  "summary": "Benchmarks leak into training data, making standard scores unreliable. CoEval sidesteps this by generating fresh, contamination-free tasks from task descriptions alone and using a diverse panel of models-as-judges instead of humans. On four tasks, the approach recovered true model rankings with 0.86 correlation to ground truth while costing $5.89 total—cheap enough to regenerate per release.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 774,
+  "tokens_out": 179,
+  "cost_usd": 0.0013352000000000001,
+  "ingested_at": "2026-06-03T13:56:56.115089+00:00"
+}

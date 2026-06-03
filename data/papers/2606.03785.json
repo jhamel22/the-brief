@@ -1,0 +1,22 @@
+{
+  "id": "2606.03785",
+  "arxiv_url": "https://arxiv.org/abs/2606.03785",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Backdoor Unlearning Generalization: A Path Toward the Removal of Unknown Triggers in LLMs",
+  "authors": "Lisa Bouger, Théo Lasnier, Philippe Looubet Moundi, Yannick Teglia, Djamé Seddah",
+  "abstract": "Backdoor attacks in Large Language Models (LLMs) are a growing security concern, where models can generate adversary-chosen content. Existing defenses target backdoors one at a time and typically require knowledge of the trigger, leaving the defender at a structural disadvantage when unknown backdoors may exist in a model. We show that backdoor neutralization through unlearning generalizes across backdoors: training a model to ignore a single trigger can also suppress other backdoors that were never explicitly targeted. We study this phenomenon across three model families, whose backdoors were injected via pretraining or continual pretraining, by analyzing the models obtained after removing one backdoor at a time. To understand why unlearning certain backdoors induces the suppression of others, we introduce the Cross Activation Shift Distance, to quantify the distance between model changes induced by different trainings. Our results open a new direction for LLM safety as defenders could deliberately inject controlled backdoors and then remove them, leveraging cross-backdoor transfer to also suppress unknown backdoors that an attacker may have previously introduced in the model.",
+  "title_relatable": "Can removing one hidden attack from an LLM wipe out others unintentionally planted?",
+  "hook": "Unlearning a single backdoor trigger suppresses other hidden backdoors never explicitly targeted, tested across three model families.",
+  "summary": "Backdoor attacks embed hidden triggers into LLMs that force specific outputs—a serious security flaw when defenders don't know what triggers exist. This work shows that training a model to forget one trigger also suppresses other unknown backdoors, a cross-backdoor transfer effect that could be exploited defensively. The authors quantify this phenomenon using a new metric (Cross Activation Shift Distance) and propose that defenders could intentionally inject and remove benign backdoors to preemptively suppress adversarial ones.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 705,
+  "tokens_out": 193,
+  "cost_usd": 0.001336,
+  "ingested_at": "2026-06-03T13:56:53.513578+00:00"
+}

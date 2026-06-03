@@ -1,0 +1,24 @@
+{
+  "id": "2606.03990",
+  "arxiv_url": "https://arxiv.org/abs/2606.03990",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.LG",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "title_original": "Neuron Populations Exhibit Divergent Selectivity with Scale",
+  "authors": "Amil Dravid, Yasaman Bahri, Alexei A. Efros, Yossi Gandelsman",
+  "abstract": "We investigate whether neuron populations within neural networks evolve predictably with scale, extending scaling laws beyond macroscopic observables such as loss. To probe this question, we study Rosetta Neurons, a previously characterized class of neurons whose activation patterns are similar across independently trained models (Dravid et al., 2023). In separate analyses of language models up to 30B parameters and vision models up to 5B parameters, we observe that the population of Rosetta Neurons follows a sublinear power law in model size, growing in absolute number but occupying a shrinking fraction of the total neuron count. We further observe a Neuron Polarization Effect: Rosetta Neurons become more selective and increasingly monosemantic with scale, separating from a growing non-Rosetta population that remains less selective. An analytical model balancing feature utility against limited neuron capacity explains the sublinear power-law scaling and this polarization effect. Finally, we find that Rosetta Neurons become more domain-specialized with scale and illustrate their selectivity through a targeted data-filtering case study for continued pretraining. Our results point to a scaling law for interpretable, shared neuron-level structure, linking model size to systematic changes in neuron universality, selectivity, and specialization.",
+  "title_relatable": "Do neurons specialize more as models grow larger?",
+  "hook": "Across language and vision models, interpretable neurons become rarer but sharper—occupying a shrinking fraction while gaining focus, with a mathematical model explaining why.",
+  "summary": "Scaling laws describe how loss improves with model size, but what happens inside? This work tracks Rosetta Neurons—neurons that activate similarly across independently trained models—from 30B language models to 5B vision models. They find these interpretable neurons follow a sublinear scaling law: their absolute count grows, but they represent a shrinking percentage of total neurons. Critically, these neurons become increasingly selective and monosemantic (responding to single concepts) as models scale, while non-Rosetta neurons remain scattered. An analytical model explains this polarization as competition for limited neuron capacity. The findings reveal that interpretability and specialization improve with scale, not degrade.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 733,
+  "tokens_out": 228,
+  "cost_usd": 0.0014984,
+  "ingested_at": "2026-06-03T13:57:08.655297+00:00"
+}

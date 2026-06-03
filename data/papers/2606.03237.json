@@ -1,0 +1,26 @@
+{
+  "id": "2606.03237",
+  "arxiv_url": "https://arxiv.org/abs/2606.03237",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CY",
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "Solipsistic Superintelligence is Unlikely to be Cooperative",
+  "authors": "Rakshit S Trivedi, Natasha Jaques, Logan Cross, Alexander Sasha Vezhnevets, Joel Z Leibo",
+  "abstract": "AI's central challenge is shifting from capability to coexistence. The dominant paradigm in AI research focuses on developing powerful agents that treat the world as an exogenous and stationary source of feedback. We contend that superintelligence, an extremely capable task solver, born out of such a solipsistic approach to AI design, is unlikely to be cooperative. Deploying AI systems induces endogenous non-stationarity, resulting in a train-test-deploy gap where historical distributions diverge from the deployment context. We refer to this as the self-undermining property of unilateral optimization. Closing this gap requires AI that participates in cooperation: the equilibrium-selection process through which multiple actors navigate their interdependence. We call for a non-solipsistic research paradigm that treats this interdependence as a core design principle rather than approaching cooperation as a task to solve. This entails building dynamic evaluation testbeds involving adaptive counterparties, treating institutions as design primitives, and preserving human agency as a structural feature of the systems we build.",
+  "title_relatable": "Why superintelligent AI trained alone won't cooperate with us",
+  "hook": "Powerful AI systems optimized in isolation become uncooperative when deployed in the real world, where they reshape the environment they're tested against.",
+  "summary": "AI trained to maximize performance on fixed benchmarks faces a fatal flaw: deployment changes the world, breaking the assumptions the system learned from. The authors argue that building cooperative superintelligence requires abandoning the isolated optimization approach entirely—instead designing AI as a participant in multi-agent equilibrium from the start, with adaptive counterparties and institutions as core design features rather than afterthoughts.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 684,
+  "tokens_out": 165,
+  "cost_usd": 0.0012072,
+  "ingested_at": "2026-06-03T13:56:58.995744+00:00"
+}

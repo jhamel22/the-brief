@@ -1,0 +1,23 @@
+{
+  "id": "2606.03198",
+  "arxiv_url": "https://arxiv.org/abs/2606.03198",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "AI Rater Discrimination Depends on Scoring Protocol in Complex Clinical Decision-Making",
+  "authors": "Sangwon Baek, Kyu Yeon Hur, Kyunga Kim",
+  "abstract": "Clinical AI evaluation increasingly delegates scoring to large language models (LLMs) acting as AI raters, yet their scoring behavior across evaluation conditions has not been quantitatively characterized. We address this gap through a factorial study of AI rater behavior in adult type 2 diabetes (T2D) pharmacotherapy at 12-month outpatient follow-up, a clinical task involving complex decision-making operationalized across seven evaluation questions. Four open-source LLMs served simultaneously as clinical decision support system (CDSS) models and AI raters. Each CDSS output was scored under two scoring protocols: a rubric-anchored Gold Rubric (GR) protocol incorporating a patient-specific rubric, and a rubric-free Non Gold Rubric (Non-GR) protocol. Linear mixed effects models crossed the scoring protocol factor with five design factors -- CDSS model, CDSS prompt configuration (document-referenced generation [DRG] vs.\\ Baseline), rater model, prompt character, and prompt type -- and estimated main effects together with their protocol interactions. Across all questions, AI raters yielded consistently higher scores within a very narrow range (74--78 points on average) under Non-GR compared to those under GR (7.69 to 49.64 points lower mean scores; 1.68 to 3.67 times wider interquartile ranges). Within each question, GR amplified the AI rater's discrimination between DRG and Baseline CDSS outputs by factors of 1.76 to 5.10, while also revealing substantial behavioral variation across rater models that Non-GR suppressed. These findings support rubric anchoring as the scoring protocol that preserves discriminative power in clinical AI evaluation; rubric-free scoring cannot substitute when questions require patient-specific or jurisdiction-specific criteria that rater models cannot infer from parametric knowledge alone.",
+  "title_relatable": "Why AI judges give inflated grades for medical AI without clear rubrics?",
+  "hook": "LLM raters score clinical AI systems 1.7–3.7× higher without structured rubrics, masking real performance differences by 5× in complex cases.",
+  "summary": "When using large language models to grade other AI systems on clinical decisions (diabetes treatment planning), scoring quality depends heavily on whether raters receive a detailed rubric. Without rubrics, LLM raters bunch scores in a narrow \"good\" band (74–78 points), hiding flaws. With patient-specific rubrics, scores spread wider and reveal which AI systems actually perform better—sometimes by 5-fold amplification of discrimination. This matters because clinical AI evaluation now routinely outsources grading to LLMs.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 863,
+  "tokens_out": 202,
+  "cost_usd": 0.0014984,
+  "ingested_at": "2026-06-03T13:57:02.383513+00:00"
+}

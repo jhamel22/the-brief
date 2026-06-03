@@ -1,0 +1,24 @@
+{
+  "id": "2606.03871",
+  "arxiv_url": "https://arxiv.org/abs/2606.03871",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CV",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "title_original": "Visual Instruction Tuning Aligns Modalities through Abstraction",
+  "authors": "Luis Palacios, Lorenzo Basile, Diego Doimo, Alberto Cazzaniga",
+  "abstract": "Visual instruction tuning effectively adapts a pre-trained Large Language Model (LLM) to process image information alongside text. Yet, it remains unclear how visual features are embedded into the layer-wise hierarchy of abstractions of the LLM backbone. Across a diverse set of vision-language architectures, we show that instruction tuning primarily serves as a bridge, embedding visual features directly into the intermediate semantic layers of the LLM, bypassing the early layers devoted to unimodal processing. With probing analyses and causal interventions, we show that these intermediate layers are the semantic core of vision-language processing and play a critical role in the performance on a broad set of multimodal benchmarks. In addition, by comparing the geometry of semantically equivalent visual and textual representations, we find that fine-tuning extends and strengthens the existing abstraction phase, aligning visual features with pre-existing textual ones. Finally, we confirm the functional role of this localized alignment by restricting fine-tuning to intermediate layers alone: this strategy preserves the performance of full fine-tuning on vision-centric benchmarks while reducing training time. Our results suggest that multimodal integration is a localized phenomenon driven by the repurposing of the internal abstraction engine of the LLM.",
+  "title_relatable": "Where do vision-language models actually merge images and text?",
+  "hook": "Vision-language models embed images into the middle layers of language models, not the bottom—and fine-tuning only those layers matches full training speed.",
+  "summary": "When you add images to a language model, where do they actually get processed? By probing multiple vision-language architectures, researchers found that visual features skip early layers and plug directly into the semantic middle of the LLM—the same layers that process text meaning. Restricting fine-tuning to just these intermediate layers preserved performance on multimodal benchmarks while cutting training time, revealing that visual-language alignment is highly localized, not network-wide.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 721,
+  "tokens_out": 180,
+  "cost_usd": 0.0012968,
+  "ingested_at": "2026-06-03T13:56:50.786979+00:00"
+}

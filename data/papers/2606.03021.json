@@ -1,0 +1,22 @@
+{
+  "id": "2606.03021",
+  "arxiv_url": "https://arxiv.org/abs/2606.03021",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Hint-Guided Diversified Policy Optimization for LLM Reasoning",
+  "authors": "Zhiyu Cao, Kaixin Wu, Mingjie Zhong, Peifeng Li, Xiaobo Li, Can Ye, Qiaoming Zhu",
+  "abstract": "Recent developments in Large Language Models (LLMs) have showcased impressive reasoning capabilities, with Reinforcement Learning with Verifiable Rewards (RLVR) being a promising enhancement strategy. However, existing reward mechanisms are constrained to the outcome-level correctness and lack explicit signals to guide the model to consider diverse solutions. In contrast, human problem solving typically involves evaluating multiple potential approaches and selecting the most reliable solution, a cognitive process that current RLVR frameworks do not explicitly incentivize. Inspired by this, we propose Hint-Guided Diversified Policy Optimization (HDPO), allowing the model to first list all potential candidate solution outlines as hints and then select the most reliable one for further reasoning. HDPO comprises two stages of Cold Start for Structured Reasoning and Hint-Guided Diversified Reinforcement Learning to incentivize the model to generate diverse and reliable solutions following the ``propose-select-think'' trajectory. Experimental results show that HDPO effectively boosts LLM reasoning and enhances the diversity of candidate solutions as well as the LLM's ability to identify reliable solutions.",
+  "title_relatable": "Can LLMs reason better by exploring multiple paths first?",
+  "hook": "Method trains language models to sketch multiple solution approaches before committing, improving reasoning accuracy and solution diversity.",
+  "summary": "LLMs today excel at reasoning but typically commit to a single solution path. HDPO (Hint-Guided Diversified Policy Optimization) flips this: it trains models to first sketch multiple candidate approaches as \"hints,\" then select and execute the most promising one. Two-stage training combines structured reasoning cold-start with reinforcement learning that rewards both diverse exploration and reliable selection. On reasoning benchmarks, the method boosts accuracy while visibly increasing solution diversity—mimicking how humans mentally test alternatives before deciding.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 712,
+  "tokens_out": 182,
+  "cost_usd": 0.0012975999999999999,
+  "ingested_at": "2026-06-03T13:57:05.136896+00:00"
+}

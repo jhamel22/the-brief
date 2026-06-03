@@ -1,0 +1,22 @@
+{
+  "id": "2606.03982",
+  "arxiv_url": "https://arxiv.org/abs/2606.03982",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL"
+  ],
+  "title_original": "Language Models Compare Quantities Using Number-specific and Unit-specific Heuristics",
+  "authors": "Mutsumi Sasaki, Go kamoda, Ryosuke Takahashi, Kosuke Sato, Kentaro Inui, Keisuke Sakaguchi, Benjamin Heinzerling",
+  "abstract": "Quantities with measurement units, such as 110 cm and 1.2 m, require language models (LMs) to combine a numeral with a symbolic unit scale. Here, we study how LMs compare such quantities in controlled settings spanning several unit systems. We find that accuracy degrades near the comparison boundary, where small changes in value determine the correct answer. The resulting errors are systematic: linear surrogate models predict LM preferences from numerical-difference and unit-scale-difference cues, and causal interventions on subspaces aligned with these variables shift model's output. The results suggest that LMs compare quantities through a bag of heuristics over numerals and units, rather than first converting both expressions to an exact shared-scale representation.",
+  "title_relatable": "Do language models really understand measurements or just guess?",
+  "hook": "Language models fail when comparing quantities like 110 cm vs 1.2 m—using shortcuts instead of true unit conversion.",
+  "summary": "Language models struggle to compare quantities across different measurement units, especially near decision boundaries where the answer flips with small changes. Researchers found LMs rely on simple numerical and unit-based shortcuts rather than converting both to a common scale. These errors are predictable and systematic, suggesting models lack genuine understanding of measurement equivalence.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 632,
+  "tokens_out": 143,
+  "cost_usd": 0.0010776,
+  "ingested_at": "2026-06-03T13:57:10.830910+00:00"
+}

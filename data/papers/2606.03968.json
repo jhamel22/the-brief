@@ -1,0 +1,23 @@
+{
+  "id": "2606.03968",
+  "arxiv_url": "https://arxiv.org/abs/2606.03968",
+  "announced_date": "2026-06-02",
+  "subject": "cs.CL",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "title_original": "QUBRIC: Co-Designing Queries and Rubrics for RL Beyond Verifiable Rewards",
+  "authors": "Rongzhi Zhang, Rui Feng, Zhihan Zhang, Jingfeng Yang, Qingyu Yin, Xin Liu, Zixuan Zhang, Priyanka Nigam, Bing Yin, Tuo Zhao, Chao Zhang",
+  "abstract": "Rubric-based RL is a promising route for extending reinforcement learning beyond verifiable rewards, yet existing methods optimize rubrics while treating the query distribution as fixed. We identify a structural bottleneck: rubric quality is constrained by query structure. Open-ended queries yield vague rubrics; naively narrowing them introduces fabricated references that no model can verify, so all responses fail and training receives no reward signal. We present QUBRIC, a framework that co-designs queries and rubrics. Teacher-derived key points ground the rewriting of open-ended queries into scenario-based, evaluable questions. Contrastive rubric generation then turns teacher-policy gaps into query-level criteria, and learnability filtering retains only informative query-rubric pairs for GRPO training. QUBRIC achieves a +5.5 point gain on ArenaHard over the SFT baseline. Trained only on instruction-following data, it further transfers to three held-out benchmarks spanning legal, moral, and narrative reasoning (+6.3 points on average), with improvements concentrated in reasoning-related dimensions. These results provide evidence that co-designing queries and rubrics can make rubric-based RL a practical complement to RLVR beyond strictly verifiable tasks.",
+  "title_relatable": "Can better questions and rubrics improve AI reasoning?",
+  "hook": "Co-designing queries and rubrics boosts reasoning scores by 5.5 points on ArenaHard and transfers across legal, moral, and narrative tasks without verifiable ground truth.",
+  "summary": "Training AI systems with rubric-based reinforcement learning hits a wall: vague queries produce vague rubrics, while overly specific ones demand references the model can't satisfy. QUBRIC solves this by jointly refining both. It converts open-ended questions into concrete scenarios, derives rubrics from teacher-policy mismatches, and filters for signal-rich pairs. The result: a 5.5-point gain on ArenaHard, plus strong transfer to reasoning tasks like legal and moral judgment—all without needing human verification of every answer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 778,
+  "tokens_out": 208,
+  "cost_usd": 0.0014544,
+  "ingested_at": "2026-06-03T13:56:47.905301+00:00"
+}
