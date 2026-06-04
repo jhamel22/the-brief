@@ -1,0 +1,23 @@
+{
+  "id": "2606.03763",
+  "arxiv_url": "https://arxiv.org/abs/2606.03763",
+  "announced_date": "2026-06-02",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN",
+    "cs.AI"
+  ],
+  "title_original": "Merit or networks? What decides where research is published",
+  "authors": "Ning Li",
+  "abstract": "Does scientific publishing reward the quality of ideas or the advantage of connections? The question is universal to prestige-driven science, yet it has resisted decades of study because a paper's quality could not be gauged ahead of its publication fate without using that fate as the yardstick. We break this constraint by measuring a paper's idea quality directly from its text, before publication, using a discipline-trained LLM evaluator that scores the idea without seeing author names or outcomes. Using economics as a case study, we combine this text-legible idea-quality score with an execution-quality rubric, a connection index, an author-ability index, and an off-the-shelf language-model text score to estimate a five-input production function for journal placement across 6,208 economics working papers. The inputs are not rivals but a sequence along the ladder of prestige. Execution sets a meritocratic floor and is the largest input overall. Text-legible idea quality grades the rungs in between. Connections set a favoritism ceiling that bites mainly near the apex, the most selective journals. Connections work through two additive channels: connected authors write papers that score higher, and at equal scores their papers are still more likely to place better. Yet this advantage is bounded. Connections raise the odds of every rung without making the apex the typical outcome for ordinary ideas, and even the highest-scoring papers face real friction reaching the visible journal ladder. The result nests, rather than chooses between, the meritocracy and network accounts of how science is published.",
+  "title_relatable": "Do connections or quality determine where research gets published?",
+  "hook": "An AI judge scoring paper ideas blind finds that merit sets the floor, connections boost your odds but don't guarantee success.",
+  "summary": "Researchers measured idea quality directly from paper text using an AI evaluator, then tracked 6,208 economics papers to see what predicted publication in top journals. Execution quality matters most, idea quality determines intermediate tiers, and connections provide a boost especially at elite journals—but good connections can't make mediocre papers typical acceptances. Publishing rewards both merit and networks in sequence, not one or the other.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 716,
+  "tokens_out": 160,
+  "cost_usd": 0.0012128000000000002,
+  "ingested_at": "2026-06-04T10:49:45.148594+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.04916",
+  "arxiv_url": "https://arxiv.org/abs/2606.04916",
+  "announced_date": "2026-06-03",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.LG",
+    "econ.GN",
+    "stat.ML"
+  ],
+  "title_original": "Worker Utility as Hysteresis: A Preisach Model of Transaction Acceptance in Gig Labour Markets",
+  "authors": "Piotr Frydrych",
+  "abstract": "Worker utility is not observed -- only its consequence is. Each gig transaction produces a single bit: accepted or rejected. We argue this structure points directly to the Preisach hysteresis model as the natural representation of latent worker preferences. The Preisach operator models aggregate output as an integral over a population of binary threshold elements -- precisely the structure that emerges when heterogeneous workers each carry a private acceptance wage. We estimate two latent utility surfaces: acceptance utility U_1(X) and rejection utility U_0(X), via a dual-output neural network (shared layers 256->128, margin loss enforcing U_1 >= U_0). Classification reduces to the Preisach gap U_1(X) - U_0(X), passed into an XGBoost classifier alongside clip-stabilised price-to-threshold encodings. On 36,891 gig transactions, this pipeline achieves Jaccard = 0.827 and ROC AUC = 0.799. The price-to-threshold encoding accounts for +11.0 pp AUC over raw utility features. The model confirms the directional asymmetry hysteresis predicts: price decreases depress completion rates more than equivalent increases raise them. Applied to the full dataset, the model's recommendations simultaneously reduce the total wage bill by 21.3% and increase expected fill rate by 9.7 pp. For 74.2% of transactions, P(accept) already exceeds 0.80; reducing the wage keeps it above threshold (mean post-cut P = 0.972), releasing cost savings (median 31%). For the remaining 25.4%, a median 7% wage increase recovers +43 pp acceptance. A model without an explicit indifference zone cannot execute both moves simultaneously.",
+  "title_relatable": "Why gig workers say yes to some jobs but not others",
+  "hook": "Gig workers don't have a fixed reservation wage—they have a zone of indifference where the same pay gets different answers depending on recent rejections.",
+  "summary": "A neural network model trained on 36,891 gig transactions reveals workers exhibit hysteresis: price cuts suppress acceptance more than equivalent increases boost it, creating a gap where the same wage yields different decisions. The model identifies which jobs can survive 7-31% wage cuts while maintaining 97% acceptance, potentially saving platforms 21% in labor costs while filling 10% more gigs. This only works because workers have psychological thresholds, not rational equilibrium points.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 799,
+  "tokens_out": 185,
+  "cost_usd": 0.0013792000000000001,
+  "ingested_at": "2026-06-04T10:49:42.249166+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.03491",
+  "arxiv_url": "https://arxiv.org/abs/2606.03491",
+  "announced_date": "2026-06-02",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "econ.GN"
+  ],
+  "title_original": "Reputation, Exposure, and Exit: Organizational Turnover after #MeToo",
+  "authors": "Roy Baharad, Asaf Eckstein, Gideon Parchomovsky, Rok Spruk",
+  "abstract": "We study how economy-wide reputational shocks reshape corporate governance by examining board and executive turnover following the MeToo movement. We conceptualize the October 2017 revelations surrounding Harvey Weinstein as a common information shock that increased the expected cost of misconduct and intensified scrutiny across firms. Identification exploits cross-sectional variation in pre-shock exposure, measured by the frequency of Item 5.02 Form 8-K filings, which proxy for firms' sensitivity to governance-related disclosure and reputational risk. We develop a model of organizational exit in which directors respond to changes in reputational pressure through dynamic, belief-driven resignation hazards, generating heterogeneous and potentially nonlinear responses across firms. Empirically, we implement a continuous-treatment difference-in-differences design and complement it with dynamic event-study and matrix-completion estimators. We find that firms with greater pre-shock exposure experience significantly larger increases in resignation activity following the shock. The effects are concentrated in the immediate aftermath of the Weinstein revelations and are amplified through board-level interactions. The findings provide causal evidence that reputational shocks can induce rapid and systematic governance turnover, highlighting the central role of information, exposure, and organizational adaptation in shaping corporate responses to changes in the reputational environment.",
+  "title_relatable": "Did #MeToo Actually Change Who Runs Companies?",
+  "hook": "The Weinstein revelations triggered a wave of board resignations, but only at firms already sensitive to governance scandals. Information shock plus visibility equals turnover.",
+  "summary": "After the October 2017 Harvey Weinstein revelations, companies with prior histories of governance disclosures saw significantly more board and executive departures. The researchers used filing frequency as a proxy for which firms were already attuned to reputational risk, then measured resignation rates before and after the shock. The finding suggests reputational pressure—when amplified by institutional visibility—can force rapid leadership changes without formal regulation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 704,
+  "tokens_out": 174,
+  "cost_usd": 0.0012592,
+  "ingested_at": "2026-06-04T10:49:47.841761+00:00"
+}

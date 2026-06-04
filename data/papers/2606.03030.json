@@ -1,0 +1,23 @@
+{
+  "id": "2606.03030",
+  "arxiv_url": "https://arxiv.org/abs/2606.03030",
+  "announced_date": "2026-06-02",
+  "subject": "econ.GN",
+  "subjects_all": [
+    "cs.GT",
+    "econ.GN"
+  ],
+  "title_original": "Do Matching Mechanisms Work with LLM Agents?",
+  "authors": "Yukihiro Hoshino, Ayato Kitadai, Nariaki Nishino",
+  "abstract": "This study examines whether standard matching mechanisms function as intended in LLM-agent markets, where LLM agents make allocation-related decisions as delegated decision-makers. We compare decentralized free-negotiation markets with centralized mechanism-based markets including several representative mechanisms. Across controlled one-to-one matching environments, mechanism-based markets generally outperform free negotiation in terms of stability and efficiency. We also find that LLM agents report preferences truthfully at substantially higher rates than human subjects in comparable DA and EADA environments. However, truth-telling is not uniformly aligned with formal strategy-proofness across all mechanisms: TTC, despite being strategy-proof, does not always elicit higher truth-telling than EADA. These results suggest that matching theory provides a useful but incomplete guide for designing institutions in LLM-agent markets.",
+  "title_relatable": "Do trading algorithms follow the rules economists designed for them?",
+  "hook": "LLM agents tell the truth more often than humans in matching markets, but some supposedly foolproof mechanisms still fail to encourage honesty.",
+  "summary": "Researchers compared how LLM agents perform in different matching markets—some with centralized rules (like stable roommate algorithms), others with free negotiation. LLM agents proved far more honest about their preferences than human subjects, yet traditional game-theoretic guarantees didn't always hold: the TTC mechanism, designed to prevent lying, didn't actually elicit more truth-telling than a simpler alternative. The upshot: classical matching theory works better with AI agents than humans, but the gap between theory and practice remains.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "econ",
+  "tokens_in": 593,
+  "tokens_out": 190,
+  "cost_usd": 0.0012344,
+  "ingested_at": "2026-06-04T10:49:50.817634+00:00"
+}
