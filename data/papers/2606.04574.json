@@ -1,0 +1,26 @@
+{
+  "id": "2606.04574",
+  "arxiv_url": "https://arxiv.org/abs/2606.04574",
+  "announced_date": "2026-06-03",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.LG",
+    "cs.NE",
+    "q-fin.ST",
+    "q-fin.TR",
+    "stat.ML"
+  ],
+  "title_original": "Dynamic Multi-Pair Trading Strategy in Cryptocurrency Markets with Deep Reinforcement Learning",
+  "authors": "Damian Lebiedź, Robert Ślepaczuk",
+  "abstract": "This study aims to determine whether the application of Deep Reinforcement Learning (DRL) as a specialized execution overlay can enhance pair trading in highly volatile cryptocurrency markets. Although classical implementations of the strategy have proven successful in traditional equities, they frequently exhibit rigidity and suffer from severe divergence risks when applied to high-variance environments. To address this need, this research introduces novel concepts. To construct a robust system, we developed a hierarchical \"Filter-then-Rank\" pair selection methodology and a proprietary \"Fixed Risk, Adaptive Mean\" execution model. The system employs a Proximal Policy Optimization (PPO) agent with a Long Short-Term Memory (LSTM) layer to govern execution decisions within strict deterministic risk management boundaries. Evaluated on 1-hour interval data from the Binance USD-M Futures market, the optimized RL policy achieved an out-of-sample performance that substantially outperformed the heuristic baseline. A stationary circular block bootstrap robustness check confirms that the agent's risk-adjusted outperformance is statistically significant at the 10 percent level. Although falling marginally short of the stricter 5 percent threshold, this result highlights the extreme idiosyncratic variance characteristic of digital assets. Ultimately, this thesis contributes to the quantitative finance literature by introducing a hybrid architecture that combines statistical arbitrage with DRL execution policies. Furthermore, it delivers a novel framework for safe reinforcement learning via deterministic shielding, proving that anchoring a neural policy to statistically robust boundaries successfully mitigates severe divergence risks.",
+  "title_relatable": "Can AI Traders Beat Crypto's Wild Swings with Pair Trading?",
+  "hook": "Researchers combined deep reinforcement learning with pair trading to exploit cryptocurrency volatility. The AI agent outperformed traditional strategies on Binance futures—though statistical significance barely missed the bar.",
+  "summary": "Pair trading—betting that two correlated assets will realign—works in stocks but breaks down in crypto's extreme volatility. The authors built an AI system using reinforcement learning (PPO with memory layers) to decide when to enter and exit trades within strict risk guardrails. Testing on Binance hourly data showed the AI beat heuristic baselines with 10% statistical significance, suggesting AI execution can stabilize the strategy where rigid rules fail—though the result falls short of 5% confidence, a reminder that crypto's chaos still defeats most trading schemes.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 745,
+  "tokens_out": 215,
+  "cost_usd": 0.001456,
+  "ingested_at": "2026-06-04T11:08:29.359870+00:00"
+}

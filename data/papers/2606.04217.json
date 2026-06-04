@@ -1,0 +1,24 @@
+{
+  "id": "2606.04217",
+  "arxiv_url": "https://arxiv.org/abs/2606.04217",
+  "announced_date": "2026-06-02",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.CE",
+    "q-fin.ST",
+    "q-fin.TR"
+  ],
+  "title_original": "Polymarket-v1 Database",
+  "authors": "Boka Qin, Rui Yang",
+  "abstract": "We introduce the Polymarket-v1 Database: the complete on-chain trade archive of Polymarket's first-generation CTF Exchange on Polygon, spanning 2022-11-21 to 2026-04-28 and covering the full contract lifecycle from first settlement to natural termination. The dataset comprises 1.20 billion trade records across 1.30 million markets with $61 billion in nominal volume. Its defining feature is 100% ground-truth aggressor direction derived from the blockchain settlement layer, a property unavailable in existing prediction market archives, which rely on heuristic inference. We use this truth-aligned archive to benchmark standard microstructure tools and document three findings. First, the tick rule and bulk volume classification achieve near-random aggregate accuracy (49.83% and 50.51%), but this masks a systematic, correctable price-level gradient driven by positive trade direction autocorrelation and concentrated market-making -- two structural features of prediction markets that violate the mean-reversion assumption embedded in classical classifiers. Second, these classification errors propagate into downstream metrics: inferred VPIN diverges substantially from ground-truth VPIN, and OFI estimates are directionally biased, with material consequences for Transaction Cost Analysis. Third, ground-truth microstructure quality predicts forecasting performance in ways that classification-based proxies cannot recover: True VPIN positively predicts Brier scores, while Gibbs spread negatively predicts them -- a selection effect reflecting that high-spread niche markets attract informed specialists rather than noise traders. Replacing ground-truth metrics with classified proxies attenuates both relationships, illustrating that measurement accuracy at the transaction level is a prerequisite for reliable inference about prediction market design and probability calibration.",
+  "title_relatable": "Why standard trading tools fail on prediction markets",
+  "hook": "A complete blockchain record of 1.2 billion trades reveals classical microstructure tools are nearly useless on prediction markets—and why.",
+  "summary": "Researchers released a complete archive of Polymarket trades (2022–2026) with ground-truth buy/sell direction from blockchain settlement, then tested standard microstructure classifiers like the tick rule. These tools scored near 50%—random guessing—because prediction markets violate the mean-reversion patterns classical tools assume. The finding matters: inferred trade measures used in cost analysis and market quality assessment are systematically biased, and only real ground-truth metrics predict whether markets are calibrated correctly.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 779,
+  "tokens_out": 185,
+  "cost_usd": 0.0013632,
+  "ingested_at": "2026-06-04T11:08:32.595173+00:00"
+}

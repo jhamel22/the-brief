@@ -1,0 +1,24 @@
+{
+  "id": "2606.03548",
+  "arxiv_url": "https://arxiv.org/abs/2606.03548",
+  "announced_date": "2026-06-02",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.CE",
+    "econ.TH",
+    "q-fin.TR"
+  ],
+  "title_original": "Cost of Manipulation in AMM-Based Oracles",
+  "authors": "Sebastian Müller, Nordine Moumeni, Adel Messaoudi",
+  "abstract": "We study the robustness of AMM-based on-chain price oracles to strategic manipulation. An attacker trades against constant product automated market makers (CPMMs) to distort an on-chain oracle, arbitrageurs restore cross-pool and cross-venue consistency, and an oracle designer chooses how to aggregate pool quotes. Taking an efficient-market-hypothesis (EMH) view of the off-chain \"true\" price, we define the \\emph{cost of manipulation} as the minimal mark-to-market loss that an attacker must incur to move the oracle by a given multiplicative factor. For independent CPMMs, we derive closed-form single-pool manipulation formulas and solve the attacker-designer game for weighted means and weighted medians, showing that liquidity weights maximize the minimum cost of manipulation within these classes for weighted medians (for any distortion level) and, for weighted means, locally as the distortion tends to zero. For larger distortions, weighted means become more fragile: optimal weights can depend on the target distortion and no single choice is uniformly optimal across distortion levels. In a frictionless CPMM model with cross-pool arbitrage, the manipulation cost depends only on the total quote depth and coincides across symmetric aggregators. We extend this framework to multi-asset star architectures, confirming that liquidity weights remain optimal in the same sense. Finally, we bridge theory and practice by incorporating dwell times and rate limits, providing a quantitative yardstick to size oracles against the explicit economic costs of attack.",
+  "title_relatable": "How much does it cost to break a blockchain price oracle?",
+  "hook": "Attackers can manipulate on-chain price feeds by flooding trades into liquidity pools. Researchers calculated exactly how much money attackers must lose to successfully corrupt these oracles.",
+  "summary": "When traders attack automated market makers to distort on-chain price oracles, they must absorb trading losses to move prices. The authors derive formulas for the minimum loss required to manipulate prices by a given amount, then solve for optimal oracle designs that maximize attacker costs. Weighting pools by liquidity proves most resilient—but only up to a point; larger attacks may exploit different vulnerabilities.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 746,
+  "tokens_out": 174,
+  "cost_usd": 0.0012928000000000002,
+  "ingested_at": "2026-06-04T11:08:35.358917+00:00"
+}

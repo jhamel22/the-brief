@@ -1,0 +1,24 @@
+{
+  "id": "2606.04959",
+  "arxiv_url": "https://arxiv.org/abs/2606.04959",
+  "announced_date": "2026-06-03",
+  "subject": "q-fin.TR",
+  "subjects_all": [
+    "cs.GT",
+    "econ.TH",
+    "q-fin.TR"
+  ],
+  "title_original": "Fairness and Strategy-Proofness in Automated Market Makers",
+  "authors": "Frank M. V. Feys",
+  "abstract": "No deployed automated market maker lets its liquidity providers vote on the trading function. We show this is structural, not an oversight. On the weighted-product family with $n \\geq 3$ assets, no aggregation rule is at once fair and strategy-proof. Arrovian fairness forces a unique form, the weighted Aitchison centroid, the weighted geometric mean of the providers' preferred pools. But fairness forces mean-type aggregation and strategy-proofness forces median-type, and the only rule that is both is a single-provider dictator. The obstruction is sharp: it vanishes at $n = 2$, where a fair strategy-proof rule exists. Under the Frongillo--Papireddygari--Waggoner equivalence, the centroid is Genest's logarithmic opinion pool, and the impossibility transfers to externally Bayesian pooling.",
+  "title_relatable": "Why liquidity providers can't vote on crypto exchange rules",
+  "hook": "Mathematically impossible to let multiple liquidity providers vote on trading rules fairly without someone gaming the system.",
+  "summary": "Automated market makers never let liquidity providers collectively choose the trading function. The authors prove why: on pools with 3+ assets, no voting rule can satisfy both fairness (weighted geometric mean) and strategy-proofness (no incentive to lie) simultaneously. The math forces a choice between median-style incentive alignment and mean-style fairness—you can't have both. With 2 assets, a fair rule exists; with more, only a single dictator works.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "finance",
+  "tokens_in": 602,
+  "tokens_out": 175,
+  "cost_usd": 0.0011815999999999999,
+  "ingested_at": "2026-06-04T11:08:26.060303+00:00"
+}
