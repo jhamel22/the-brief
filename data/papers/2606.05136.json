@@ -1,0 +1,22 @@
+{
+  "id": "2606.05136",
+  "arxiv_url": "https://arxiv.org/abs/2606.05136",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Thermal Positivity",
+  "authors": "Clifford Cheung, Rachel A. Rosen",
+  "abstract": "We argue that Lorentz invariance and unitarity impose sharp constraints on thermodynamic quantities. By relating thermal vacuum diagrams to forward scattering amplitudes, we derive an infinite family of sign conditions on finite-temperature observables in perturbative theories of relativistic massless bosons. In particular, we prove that all low-temperature corrections from interactions to the pressure, or equivalently the negative free energy density, of the form T^{2D-4+4k} with k>0 in D spacetime dimensions, are strictly positive. These positivity conditions are inherited by analogous terms in the entropy density and specific heat. Our results apply to any effective field theory that is free of long-range forces and descends from a weakly coupled ultraviolet completion, in which case higher-loop and higher-multiplicity thermal diagrams are parametrically subleading.",
+  "title_relatable": "Do the laws of physics force heat to behave a certain way?",
+  "hook": "Physicists prove that quantum mechanics and relativity together dictate how pressure and entropy must change with temperature—constraints as rigid as thermodynamic law itself.",
+  "summary": "Using the connection between thermal diagrams and particle scattering, researchers derived strict positivity rules: certain temperature-dependent corrections to pressure and entropy in any weakly coupled theory must always be positive. These constraints follow inevitably from Lorentz invariance and unitarity, suggesting thermodynamic inequalities are as fundamental as conservation laws.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 605,
+  "tokens_out": 156,
+  "cost_usd": 0.001108,
+  "ingested_at": "2026-06-04T12:36:35.900125+00:00"
+}

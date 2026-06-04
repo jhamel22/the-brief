@@ -1,0 +1,23 @@
+{
+  "id": "2606.03758",
+  "arxiv_url": "https://arxiv.org/abs/2606.03758",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "A master equation for Carter-separable stationary axisymmetric spacetimes and compatible sources",
+  "authors": "Hyeong-Chan Kim",
+  "abstract": "We show that the remaining diagonal Einstein equations in the Carter-projective sector of stationary axisymmetric spacetimes are equivalent to a single sourced master equation. The projective structure is taken as the input fixed by the off-diagonal Einstein equations. In the anti-aligned exponential branch, which contains the Kerr--Carter and Plebański--Demiański real section, the remaining diagonal Einstein system reduces to \\[ \\mathcal L_{\\rm CP}[Δ,Y] =16πΣ\\left( T_{\\hat0\\hat0}+T_{\\hat3\\hat3} \\right), \\] where \\(Δ(r)\\) and \\(Y(x)\\) are the radial and angular structure functions. The reduction is accompanied by two geometric diagonal identities of the Einstein tensor, which become algebraic compatibility conditions on admissible matter sources. In the homogeneous limit, the vacuum--\\(Λ\\) Kerr--Carter and Plebański--Demiański families are recovered as solutions of the same master operator. We also show the projective covariance of the construction and discuss compatible sources, including the aligned Maxwell field and separable anisotropic examples.",
+  "title_relatable": "Can rotating black holes and their matter satisfy a single master equation?",
+  "hook": "Physicists reduce the equations for spinning black holes to one master equation, revealing hidden compatibility rules that matter sources must obey.",
+  "summary": "The authors show that Einstein's equations for rotating, axisymmetric spacetimes collapse into a single master equation once the geometric structure is fixed. This dramatically simplifies the problem: instead of solving a system of coupled equations, you solve one. The result applies to Kerr black holes and their generalizations, and imposes strict algebraic constraints on what kinds of matter can exist in these spacetimes.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 701,
+  "tokens_out": 165,
+  "cost_usd": 0.0012208000000000002,
+  "ingested_at": "2026-06-04T12:37:23.956310+00:00"
+}

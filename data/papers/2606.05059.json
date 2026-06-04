@@ -1,0 +1,22 @@
+{
+  "id": "2606.05059",
+  "arxiv_url": "https://arxiv.org/abs/2606.05059",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Thermal effective action for the $O(N)$ vector model",
+  "authors": "Lorenzo Mauro, Alessandro Vichi",
+  "abstract": "We compute the leading coefficients of the thermal effective action for the critical O(N) vector model in three dimensions, in the large-N limit in presence of non vanishing angular twist. At high temperature, the partition function on a product of a two-dimensional spatial manifold and a thermal circle admits a Kaluza-Klein reduction to a local effective action on the spatial slice, whose coefficients encode universal CFT data such as the Casimir energy and the response to a Kaluza-Klein gauge field. We determine these coefficients through two independent computations: an evaluation of the twisted partition function on the two-sphere in the high-temperature limit, and a direct path-integral computation on a generic weakly curved background. The two methods yield consistent results, providing a non-trivial check of the thermal effective action framework.",
+  "title_relatable": "What does temperature do to a quantum field's effective behavior?",
+  "hook": "Physicists computed how heat reshapes the deep structure of a fundamental quantum system, finding universal patterns that emerge at high temperature.",
+  "summary": "For a large-N quantum field theory in three dimensions, researchers calculated how thermal energy modifies the effective action—essentially the DNA of the system's behavior at a given temperature. They used two independent methods (partition functions on spheres and curved spacetime path integrals) and got matching answers, confirming a framework that connects temperature-dependent quantum properties to universal field theory signatures like ground-state energy and gauge couplings.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 599,
+  "tokens_out": 167,
+  "cost_usd": 0.0011472000000000001,
+  "ingested_at": "2026-06-04T12:36:41.080075+00:00"
+}

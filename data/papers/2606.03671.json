@@ -1,0 +1,24 @@
+{
+  "id": "2606.03671",
+  "arxiv_url": "https://arxiv.org/abs/2606.03671",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Quantum Matter Makes Lightcones Quantum",
+  "authors": "Tomohiro Fujita, Misao Sasaki",
+  "abstract": "In gravitational physics, matter does not merely move within spacetime; it also determines the light cones that define causal relations. What happens when the matter that determines these light cones is itself in a quantum state? We address this question in a controlled low-energy setting: a massless scalar field propagating in the spacetime with the Newtonian gravitational potential sourced by a non-relativistic quantum particle. We show that the light cones are affected by an operator-valued Shapiro delay, with the three consequences: (i) causal-boundary shifts are promoted to noncommuting observables, giving the causal structure an irreducible quantum uncertainty; (ii) the causal relation between two fixed spacetime points can become a superposition of timelike and spacelike configurations; and (iii) tracing out the source smears the Wightman light-cone singularity, producing an effective UV cutoff. Thus, quantum matter does not merely fluctuate within spacetime; it makes the causal structure itself quantum, even without quantized gravitons.",
+  "title_relatable": "Does quantum matter warp the rules of causality itself?",
+  "hook": "When massive objects exist in quantum superposition, the light cones defining cause-and-effect relationships become fuzzy—two events can be both causally connected and disconnected simultaneously.",
+  "summary": "Two physicists show that when matter exists in quantum superposition, it creates an operator-valued Shapiro delay that quantizes the light cones themselves. This means the causal structure of spacetime gains irreducible quantum uncertainty: two events can exist in superposition between timelike and spacelike separation, and tracing out the quantum source produces an effective ultraviolet cutoff in the Wightman singularity.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 654,
+  "tokens_out": 179,
+  "cost_usd": 0.0012392,
+  "ingested_at": "2026-06-04T12:37:26.296642+00:00"
+}

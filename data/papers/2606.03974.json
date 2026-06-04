@@ -1,0 +1,22 @@
+{
+  "id": "2606.03974",
+  "arxiv_url": "https://arxiv.org/abs/2606.03974",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Flowing with Displacements and Tilts: Surface Operators in $O(N)$ Models",
+  "authors": "Jake Belton, Nadav Drukker, Biswajit Sahoo",
+  "abstract": "Defect conformal field theories have special operators of protected dimension known as displacements and tilts. They arise due to the breaking of global symmetries by the defect and the normalisations of their two-point functions are characteristics of the defect. In the case of surface defects, these normalisations are related to some of the anomaly coefficients in the surface effective action. To study these operators and their flows between different defect renormalization group fixed points we present an elegant approach using conformal perturbation theory that easily reproduces the known examples from the critical Wilson-Fisher $O(N)$ model in $4-\\varepsilon$ dimensions and allows us to construct new ones in other multiscalar theories. In all the systems that we study the flows are short and under full control, as is the change of the displacement and tilt normalizations. We point out some novel features like the existence of vortices when the defect conformal manifold is not simply connected. In addition to regular human labour, this work relied heavily on generative AI; see full disclosure in methodology section.",
+  "title_relatable": "How do defects in quantum fields bend and twist under pressure?",
+  "hook": "Physicists map how special quantum operators change as defects evolve, uncovering hidden structures like vortices in abstract spaces.",
+  "summary": "When a defect breaks symmetry in a quantum field theory, it creates protected operators called displacements and tilts whose strengths characterize the defect itself. Using conformal perturbation theory on O(N) models, the authors traced how these operators transform as defects flow between different quantum states, discovering vortex-like structures when the defect landscape has non-trivial topology.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 678,
+  "tokens_out": 165,
+  "cost_usd": 0.0012024000000000002,
+  "ingested_at": "2026-06-04T12:37:11.852874+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.05086",
+  "arxiv_url": "https://arxiv.org/abs/2606.05086",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Fermionic Kaluza-Klein mode mixing in braneworlds",
+  "authors": "Chun-E Fu, Wen-Xuan Ma",
+  "abstract": "We investigate fermionic Kaluza-Klein (KK) mode mixing in thick braneworld models subjected to generic background perturbations. Conventionally, isolated static backgrounds are completely described by a Schroedinger-like formulation, which yields an unperturbed orthogonal basis of KK eigenstates. However, generic perturbations possess a non-trivial spatial profile along the extra dimension. When the full interacting Dirac operator is expanded in this original basis, the spatial variation inevitably yields non-vanishing overlap integrals between distinct KK levels, thereby inducing off-diagonal couplings in the 4D effective mass matrix. Consequently, the original eigenstates are no longer exact physical eigenmodes of the perturbed system. To rigorously preserve the underlying 5D chiral structure and resolve the true physical states, we employ an exact Singular Value Decomposition (SVD) of the full, off-diagonal Dirac mass matrix. Our exact analysis reveals that this mode mixing introduces small but highly structured corrections to the mass eigenvalues. Specifically, parity-odd perturbation operators strictly induce same-parity mixing that preserves the macroscopic Z2 spatial symmetry, whereas parity-even operators trigger cross-parity mixing that shatters the Z2 symmetry, resulting in severe spatial polarization of the KK probability densities. Phenomenologically, such polarization shifts the wave functions toward the brane, turning probability zeros into non-zero values, which directly illuminates previously \"dark\" KK modes.",
+  "title_relatable": "Do extra dimensions scramble the electron's properties in braneworlds?",
+  "hook": "When extra dimensions wobble, electron-like particles mix unexpectedly, shifting their wave functions and lighting up previously invisible modes.",
+  "summary": "In braneworld models with extra dimensions, perturbations mix fermionic Kaluza-Klein modes that should stay separate. Using singular value decomposition, the authors show that parity-breaking disturbances create cross-mode couplings that shuffle probability densities toward the brane, exposing hidden states normally invisible to detectors.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 775,
+  "tokens_out": 154,
+  "cost_usd": 0.001236,
+  "ingested_at": "2026-06-04T12:36:38.461542+00:00"
+}

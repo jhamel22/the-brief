@@ -1,0 +1,22 @@
+{
+  "id": "2606.04999",
+  "arxiv_url": "https://arxiv.org/abs/2606.04999",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Path integral quantization of tensionless bosonic strings with Carroll-Weyl ghosts",
+  "authors": "Sarthak Duary, Sourav Maji",
+  "abstract": "We revisit the path integral quantization of the null, or tensionless, bosonic string from the viewpoint that all local gauge symmetries of the Carrollian worldsheet must be gauge fixed before the quantum theory is defined. In the tensile-string construction the $bc$ ghosts are the Faddeev-Popov determinant for fixing $\\mathrm{Diff}\\times\\mathrm{Weyl}$. In the ILST tensionless string this logic gives the BMS $bc$ system. However, a Carrollian worldsheet admits an additional volume-preserving Carroll-Weyl scaling, whose Hamiltonian generator is $C_3=P\\cdot X$. Keeping this scaling as a genuine local gauge symmetry adds one more Faddeev-Popov row. The correct ghost system is therefore a $bcs$ system: the BMS $bc$ ghosts plus a scalar ghost $s$ and scalar antighost $b^s$ for Carroll-Weyl scaling. We derive the revised path integral, the $bcs$-ghost action, its residual symmetry equations, mode expansion, and its relation to the extended BMS algebra. The result changes the BRST complex and the anomaly problem: the usual $D=26$ check based only on the old BMS $bc$ ghosts is a partially gauge-fixed calculation, while the Carroll-Weyl covariant quantum theory must include the $s,b^s$ sector.",
+  "title_relatable": "What happens when you add a forgotten ghost to tensionless string theory?",
+  "hook": "Physicists discovered a missing gauge symmetry in tensionless strings requires an extra ghost field, changing the consistency check from dimension 26 to something new.",
+  "summary": "Tensionless strings live on a Carrollian spacetime that admits an additional scaling symmetry—one that previous quantizations overlooked. Adding this as a genuine gauge constraint requires a new ghost field (the Carroll-Weyl ghosts), which alters the ghost system from two fields to four and fundamentally changes how anomalies are calculated in this theory.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 764,
+  "tokens_out": 166,
+  "cost_usd": 0.0012752,
+  "ingested_at": "2026-06-04T12:36:50.626350+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.03955",
+  "arxiv_url": "https://arxiv.org/abs/2606.03955",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Flat from AdS: in any dimension and for any spin",
+  "authors": "Xavier Bekaert, Andrea Campoleoni, Simon Pekar, S. I. Aadharsh Raj",
+  "abstract": "The space of solutions to the free equations of motion for massless fields of arbitrary integer spin in Minkowski spacetime is recovered as a smooth limit of the anti-de Sitter solution space for any even spacetime dimension. The infinite set of boundary data near null infinity that characterise solutions in Minkowski spacetime is obtained from an expansion of the anti-de Sitter source and vev in powers of the cosmological constant. In particular, the source gives rise to the analogue of the gravitational shear tensor, while the vev yields the analogues of the mass and angular-momentum aspects, as well as the subleading infinite tower of boundary data. These identifications are further supported by the branching of the source and vev into representations of the Lorentz algebra identified with the conformal algebra of the celestial sphere.",
+  "title_relatable": "Can anti-de Sitter space smoothly become flat spacetime?",
+  "hook": "Physicists show how shrinking the cosmological constant in curved spacetime recovers all solutions for massless particles of any spin in flat Minkowski space.",
+  "summary": "Taking the flat-space limit of anti-de Sitter (AdS) solutions reveals how boundary data in curved space maps to infinite towers of conserved charges in flat spacetime. The authors trace this connection for particles of any integer spin in any even dimension, showing that the AdS source and expectation value decompose into representations that match conformal symmetries of the celestial sphere—the sphere at infinity where physicists encode scattering data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 619,
+  "tokens_out": 182,
+  "cost_usd": 0.0012232,
+  "ingested_at": "2026-06-04T12:37:19.179819+00:00"
+}

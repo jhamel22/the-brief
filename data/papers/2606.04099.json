@@ -1,0 +1,25 @@
+{
+  "id": "2606.04099",
+  "arxiv_url": "https://arxiv.org/abs/2606.04099",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "gr-qc",
+    "hep-ph",
+    "hep-th",
+    "quant-ph"
+  ],
+  "title_original": "Gravitationally Induced Quantum Decoherence of Macroscopic Objects",
+  "authors": "Hiroki Takeda, Shogo Tomizuka, Takahiro Tanaka",
+  "abstract": "We formulate the gravitationally induced quantum decoherence of a massive object prepared in a spatial superposition. Starting from linearized gravity coupled to a massive system particle and an environmental scalar field, we derive a closed-time-path influence functional governing the reduced system dynamics. In the nonrelativistic and quasi-static regime, the decoherence exponent can be written as a bilinear functional of the difference of the system stress-energy tensors and an effective noise kernel obtained by dressing the environmental stress-energy tensor correlator with graviton propagators. We then apply this framework to the Newtonian long-range gravitational interaction and evaluate the resulting decoherence function for a dilute nonrelativistic gas modeled by finite wave packets and coarse-grained in time and space. By performing controlled approximations, we obtain analytic expressions for the cumulative decoherence function and show that the dominant contribution is accumulated logarithmically over a broad range of distances, while remaining subdominant to conventional collisional decoherence under realistic conditions.",
+  "title_relatable": "Does gravity itself make big objects collapse out of quantum superposition?",
+  "hook": "Physicists calculated how gravity nudges massive objects toward classical behavior. The effect is real but weaker than collisions in everyday conditions.",
+  "summary": "Gravity can induce quantum decoherence—the process where superposed states lose coherence—by coupling to environmental fields through graviton exchange. Using influence functionals from quantum field theory, the team derived decoherence rates for macroscopic objects and found that gravitational effects accumulate logarithmically across distance but remain negligible compared to collisional decoherence in normal settings.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 669,
+  "tokens_out": 165,
+  "cost_usd": 0.0011952,
+  "ingested_at": "2026-06-04T12:37:04.593989+00:00"
+}

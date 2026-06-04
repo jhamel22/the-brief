@@ -1,0 +1,25 @@
+{
+  "id": "2606.05005",
+  "arxiv_url": "https://arxiv.org/abs/2606.05005",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Neutrino mass constraints in interacting dark energy models after DESI DR2",
+  "authors": "Hui Li, Guo-Hong Du, Tian-Nuo Li, Hai-Li Li, Lu Feng, Jing-Fei Zhang, Xin Zhang",
+  "abstract": "Recent DESI observations indicate a deviation from the $Λ$CDM model, showing a preference for dynamical dark energy and thereby relaxing the upper limit on the neutrino mass within this framework. This deviation can also be explained by the presence of an interaction between dark energy and dark matter. In this work, we investigate the cosmological upper bounds on the total neutrino mass ($\\sum m_ν$) across four different interacting dark energy (IDE) models. The present analysis employs the latest DESI baryon acoustic oscillation, cosmic microwave background, and type Ia supernova datasets. These results demonstrate that the upper bounds on $\\sum m_ν$ exhibit profound sensitivity to the specific phenomenological formulation of the interaction term. While the I$Λ$CDM2 model ($Q \\propto H ρ_{\\mathrm{c}}$) substantially relaxes the stringent upper limit ($\\sum m_ν < 0.129$ eV at 95% confidence level), notably the I$Λ$CDM3 model ($Q \\propto H_0 ρ_{\\mathrm{de}}$), severely compresses the allowed parameter space, yielding a highly restrictive bound of $\\sum m_ν < 0.051$ eV. Furthermore, rigorous goodness-of-fit evaluations utilizing the Deviance Information Criterion and $Δχ^2_{\\mathrm{MAP}}$ indicate that the current observational data statistically favor these mass-suppressing IDE models. This establishes an exacerbated statistical tension between the observationally preferred IDE scenarios and the normal hierarchy lower bound ($\\sim 0.06$ eV) determined by terrestrial neutrino oscillation experiments.",
+  "title_relatable": "Do dark energy and matter interact? New limits on neutrino mass say maybe—and it's a problem.",
+  "hook": "DESI data suggests dark energy isn't static. Models where it interacts with dark matter either relax or tighten neutrino mass bounds by a factor of 2.5, creating tension with particle physics.",
+  "summary": "Using new DESI observations, researchers tested four models where dark energy and dark matter interact. Depending on how the interaction works, the upper limit on total neutrino mass ranges from 0.051 to 0.129 eV—a spread that matters because neutrino experiments set a lower bound around 0.06 eV. Some models now fit the data better than standard ΛCDM, but also create a direct conflict with known neutrino physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 855,
+  "tokens_out": 210,
+  "cost_usd": 0.001524,
+  "ingested_at": "2026-06-04T12:36:47.668161+00:00"
+}

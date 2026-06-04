@@ -1,0 +1,23 @@
+{
+  "id": "2606.04088",
+  "arxiv_url": "https://arxiv.org/abs/2606.04088",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "hep-ph"
+  ],
+  "title_original": "Closed string trajectories from a new \"tiling\"",
+  "authors": "Thomas Basile, Chrysoula Markou",
+  "abstract": "Based on an efficient technology for the excavation of entire open string trajectories of physical states, we propose an algorithmic method of constructing the largely unknown closed string trajectories. Due to combinatorial complexity, the \"double copy\" of open strings is limited in efficiency as a means of building closed string trajectories. We bypass this technical difficulty by employing one open string as the fundamental seed and then dressing it by a suitable selection of generators of a symplectic algebra that acts on both the left and the right sector. By applying Howe duality, the dressed seeds amount to closed string trajectory candidates, finding the physical subset of which is possible by solving systems of equations involving Diophantine-like recursion relations, which we also illustrate with examples.",
+  "title_relatable": "How do you map out closed string trajectories without brute-force doubling?",
+  "hook": "Physicists bypass combinatorial explosion by seeding one open string and dressing it with algebraic generators to construct closed string trajectories efficiently.",
+  "summary": "String theory's closed string states form complex landscapes hard to catalog directly. These authors use open string trajectories as seeds, then apply symplectic algebra generators to build closed string candidates, filtering physical ones via Diophantine equations. The method sidesteps the computational wall of naive string doubling.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 582,
+  "tokens_out": 148,
+  "cost_usd": 0.0010576,
+  "ingested_at": "2026-06-04T12:37:06.732957+00:00"
+}

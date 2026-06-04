@@ -1,0 +1,24 @@
+{
+  "id": "2606.04085",
+  "arxiv_url": "https://arxiv.org/abs/2606.04085",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.stat-mech",
+    "gr-qc"
+  ],
+  "title_original": "Coarse graining from within: Wilson-Fisher universality on $S^3$",
+  "authors": "Alfio M. Bonanno, Renata Ferrero, Giovanni Oglialoro",
+  "abstract": "Wilsonian renormalization is usually formulated in momentum space, but on curved backgrounds momentum shells have no invariant meaning. We replace them by an intrinsic spectral cutoff, ordering modes by the covariant Laplacian and setting the cutoff resolution by the system size in renormalization group (RG) units. For a scalar field on $S^3$, this yields a covariant, momentum-free RG flow whose trace is an exact sum over spherical harmonics. The standard flat-space flow is recovered when the sphere is large compared with the coarse-graining scale. As a nontrivial test, the compact spectral flow realizes Wilson-Fisher universality without momentum shells: the interacting fixed point survives at finite resolution, has one relevant direction, and approaches its flat-space counterpart smoothly, with critical exponents only weakly affected by the compact spectrum.",
+  "title_relatable": "Does renormalization work on curved spaces without momentum shells?",
+  "hook": "Physicists reformulated the standard coarse-graining procedure for curved backgrounds, replacing momentum shells with spectral ordering. On a 3-sphere, it reproduces Wilson-Fisher physics exactly.",
+  "summary": "Renormalization typically relies on momentum space, which doesn't make sense on curved surfaces. The team built a geometry-aware alternative using eigenvalues of the Laplacian to order modes, then tested it on a scalar field on a 3-sphere. The method recovers flat-space critical behavior and universal exponents without invoking momentum—confirming the procedure works on compact spaces.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 636,
+  "tokens_out": 176,
+  "cost_usd": 0.0012128,
+  "ingested_at": "2026-06-04T12:37:09.490209+00:00"
+}

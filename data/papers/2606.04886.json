@@ -1,0 +1,25 @@
+{
+  "id": "2606.04886",
+  "arxiv_url": "https://arxiv.org/abs/2606.04886",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Dissipative Dark Energy can explain the DESI phantom crossing",
+  "authors": "Prolay Chanda, Subinoy Das, Suratna Das",
+  "abstract": "DESI results preferring an evolving dark energy component that appears to cross the phantom-divide in the recent past has raised a lot of interest in exploring the nature of dark energy. We present here a simple dissipative dark energy scenario that can explain both the evolving nature of dark energy as well as its crossing of the phantom-divide without invoking any pathological phantom-like dynamics for the quintessence field. We show that even weak dissipation of the quintessence is enough to explain the current DESI observations.",
+  "title_relatable": "Can dissipation explain dark energy's strange phantom crossing?",
+  "hook": "DESI data suggests dark energy recently crossed a critical boundary. A simple dissipative mechanism avoids the ghost problems that plague phantom models.",
+  "summary": "Dark energy appears to have crossed the phantom-divide—a threshold where its pressure drops below a certain limit—according to recent DESI measurements. The authors show that weak energy loss from the quintessence field itself can mimic this transition without invoking pathological phantom dynamics that typically plague such models. The mechanism is minimal and consistent with current observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 544,
+  "tokens_out": 154,
+  "cost_usd": 0.0010512,
+  "ingested_at": "2026-06-04T12:37:01.931207+00:00"
+}

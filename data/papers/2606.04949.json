@@ -1,0 +1,23 @@
+{
+  "id": "2606.04949",
+  "arxiv_url": "https://arxiv.org/abs/2606.04949",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Off-shell Thermodynamics and Kinetics of Holographic CFTs Dual to Charged AdS Black Holes",
+  "authors": "Debabrata Sahu, Chandrasekhar Bhamidipati",
+  "abstract": "We study the thermodynamics and phase structure of holographic conformal field theories dual to spherically symmetric charged AdS black holes using an off-shell free energy. We consider three ensembles of the dual CFT with fixed: $(\\tilde Q,{\\cal V},C)$, $(\\tilde Φ,{\\cal V},C)$, and $(\\tilde Q,{\\cal V},μ)$ and present their corresponding phase diagrams. For the fixed $(\\tilde Q,{\\cal V},C)$ and $(\\tilde Φ,{\\cal V},C)$ ensembles, we study the transitions between competing states using a stochastic description on the various phases given by off-shell free energy. This is described by an ensemble dependent Fokker-Planck equation, allowing us to compute the first-passage-time distribution, including the mean first passage time and its fluctuations over a range of temperatures. We also examine how the phase structure and the associated kinetics depend on the electric charge $\\tilde Q$ and the central charge $C$.",
+  "title_relatable": "How do charged black holes switch between quantum states?",
+  "hook": "Physicists mapped the escape routes quantum systems take when jumping between competing phases, finding that central charge and electric charge reshape the pathways.",
+  "summary": "Using holographic duality, researchers studied how quantum systems dual to charged black holes transition between phases. They computed mean escape times and fluctuations for state switching across multiple thermodynamic ensembles, revealing how the system's fundamental parameters—charge and quantum dimension—control the kinetics of phase competition.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 684,
+  "tokens_out": 141,
+  "cost_usd": 0.0011112000000000001,
+  "ingested_at": "2026-06-04T12:36:52.966288+00:00"
+}

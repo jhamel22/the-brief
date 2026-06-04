@@ -1,0 +1,23 @@
+{
+  "id": "2606.03958",
+  "arxiv_url": "https://arxiv.org/abs/2606.03958",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Multihair thermodynamics of Kerr-Newman-NUT-AdS$_4$ spacetimes",
+  "authors": "Di Wu, Shuang-Qing Wu",
+  "abstract": "We formulate multihair thermodynamics for Kerr-Newman-NUT-AdS$_4$ spacetimes with symmetric Misner strings and conical deficits. The NUT charge parameter enters the homogeneous thermodynamic state space through two secondary hairs: a rotation-like hair $J_n=mn/K^2$ and a charge-like hair $N=n/\\sqrt K$. They are not additional metric parameters, but thermodynamic response variables in the enlarged state space. Together with the electric charge, pressure, angular momentum, and string tensions, these variables yield a compact Christodoulou-Ruffini-type squared-mass formula. Differentiating this equation of state gives the horizon temperature, angular velocities, electric potential, NUT potential, thermodynamic volume, and thermodynamic lengths, and the resulting first law and Smarr relation are verified algebraically. We also discuss alternative consistent NUT parametrizations, including one based on the dual mass, and clarify how the choice of thermodynamic volume is tied to the chosen NUT sector. The construction gives a controlled example of how an AdS black hole state space can be selected when first law consistency alone is not unique.",
+  "title_relatable": "What counts as a black hole's hidden properties in curved spacetime?",
+  "hook": "Physicists identified two hidden thermodynamic properties of spinning charged black holes in anti-de Sitter space, revealing a consistent rule for measuring all their observable qualities.",
+  "summary": "Black holes in anti-de Sitter spacetime with NUT charge—a topological parameter—behave like they have two extra thermodynamic properties beyond mass, charge, and spin. Researchers showed these \"secondary hairs\" are not new metric parameters but emerge naturally when you define the thermodynamic state correctly, allowing them to write down all the black hole's properties (temperature, entropy, potential) from a single equation. This settles an ambiguity in how to measure spacetime volume for these exotic black holes.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 706,
+  "tokens_out": 200,
+  "cost_usd": 0.0013648000000000002,
+  "ingested_at": "2026-06-04T12:37:15.696752+00:00"
+}

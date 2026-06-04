@@ -1,0 +1,22 @@
+{
+  "id": "2606.04938",
+  "arxiv_url": "https://arxiv.org/abs/2606.04938",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "AdS$_9$ solutions in type II supergravities",
+  "authors": "Giuseppe Dibitetto, Nicolò Petri",
+  "abstract": "We present new solutions in type II supergravities describing AdS$_9$ geometries warped over an interval. In type IIB, we construct an analytic family of backgrounds supported by a non-trivial axio-dilaton profile. Despite the presence of strong-coupling singularities at both ends of the interval, these solutions exhibit both a finite Euclidean on-shell action and a finite holographic central charge. Moreover, they possess a $\\mathbb Z_2$ symmetry under which the axion transforms as $C_0\\rightarrow -C_0$. We also investigate AdS$_9$ backgrounds in massive IIA supergravity supported by the Romans mass and the dilaton. Numerical integration reveals solutions with a strong-coupling singularity whose asymptotic behavior is consistent with the characteristic D8/O8 profile. In contrast to the type IIB case, our analysis indicates that the Euclidean on-shell action diverges. Finally, we identify a family of perturbative dS$_9$ solutions in massive IIA supergravity.",
+  "title_relatable": "Can nine-dimensional anti-de Sitter spaces emerge from string theory?",
+  "hook": "Physicists construct explicit nine-dimensional AdS geometries in string theory, finding some avoid the infinities that usually plague such solutions.",
+  "summary": "Researchers found new solutions in type II string theory that produce nine-dimensional anti-de Sitter spaces (AdS₉)—higher-dimensional geometries central to the holographic principle. Type IIB solutions with varying dilaton fields remain finite even at singular points, yielding well-defined thermodynamic quantities. Type IIA solutions, by contrast, suffer divergences. These constructions may illuminate how gravity emerges from quantum field theories in unexpected dimensions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 667,
+  "tokens_out": 182,
+  "cost_usd": 0.0012615999999999999,
+  "ingested_at": "2026-06-04T12:36:55.723383+00:00"
+}

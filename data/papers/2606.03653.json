@@ -1,0 +1,24 @@
+{
+  "id": "2606.03653",
+  "arxiv_url": "https://arxiv.org/abs/2606.03653",
+  "announced_date": "2026-06-02",
+  "subject": "hep-th",
+  "subjects_all": [
+    "math-ph",
+    "hep-th",
+    "math.GT"
+  ],
+  "title_original": "Asymptotics of complex $b$-$6j$ symbols",
+  "authors": "Yunpeng Meng, Tian Yang",
+  "abstract": "We study the $b$-$6j$ symbols -- an analytic extension of the $6j$-symbols for the principal series of the modular double of $\\mathrm U_q\\mathfrak{sl}(2;\\mathbb R)$ -- with complex index $b,$ refereed to as the \\emph{complex $b$-$6j$ symbols}. Then we relate their asymptotics, when the six parameters scale according to the dihedral angles of a hyperideal hyperbolic tetrahedron, to the volume and the determinant of the Gram matrix of the tetrahedron. In the case $\\arg b=\\pm \\fracπ{4},$ we believe that this work is closely related to the complex Liouville string\\,\\cite{CEMR}.",
+  "title_relatable": "Do quantum spin networks encode hyperbolic geometry?",
+  "hook": "Physicists find that certain quantum algebraic structures reproduce the shape and volume of warped 4D tetrahedra, hinting at deep links between quantum mechanics and curved space.",
+  "summary": "The authors extend quantum 6j-symbols—building blocks of spin networks in quantum gravity—to complex parameters and show their asymptotics match the geometry of hyperideal hyperbolic tetrahedra. For specific parameter choices, they conjecture a connection to complex Liouville string theory, suggesting quantum algebra encodes classical geometric invariants.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 612,
+  "tokens_out": 162,
+  "cost_usd": 0.0011376,
+  "ingested_at": "2026-06-04T12:37:29.549047+00:00"
+}

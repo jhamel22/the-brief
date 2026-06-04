@@ -1,0 +1,22 @@
+{
+  "id": "2606.04933",
+  "arxiv_url": "https://arxiv.org/abs/2606.04933",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "$\\text{AdS}_D\\times I$ solutions in axio-dilaton gravity",
+  "authors": "Giuseppe Dibitetto, Nicolò Petri",
+  "abstract": "We study non-supersymmetric $\\mathrm{AdS}_D\\times I$ solutions in the context of $(D+1)$ dimensional gravity coupled to an axio-dilaton with arbitrary runaway potential for the dilaton and arbitrary exponential coupling of the dilaton to the axion kinetic energy. We analyze the equations of motion, reformulate them in terms of a first order autonomous dynamical system, and discuss the set of fixed points, their physical interpretation and their stability conditions. We find a few special classes of analytic solutions for arbitrary $D$, including $\\mathrm{AdS}_9\\times I$ backgrounds in type IIB supergravity. We conclude by discussing the properties of numerical flows including the massive IIA supergravity case.",
+  "title_relatable": "Can gravity plus twisting fields create layered anti-de Sitter spaces?",
+  "hook": "Physicists find exact solutions where gravity and scalar fields combine to build higher-dimensional AdS geometries, including one relevant to string theory.",
+  "summary": "In theories where gravity couples to a scalar field (dilaton) and a pseudoscalar (axion), researchers solved Einstein's equations to find geometries shaped like anti-de Sitter space times an interval. They mapped the solution space as a dynamical system, identified special exact solutions across all dimensions, and verified numerical solutions match string theory predictions.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 601,
+  "tokens_out": 159,
+  "cost_usd": 0.0011168,
+  "ingested_at": "2026-06-04T12:36:58.393574+00:00"
+}

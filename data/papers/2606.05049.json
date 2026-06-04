@@ -1,0 +1,22 @@
+{
+  "id": "2606.05049",
+  "arxiv_url": "https://arxiv.org/abs/2606.05049",
+  "announced_date": "2026-06-03",
+  "subject": "hep-th",
+  "subjects_all": [
+    "hep-th"
+  ],
+  "title_original": "Generalized Heisenberg algebra from $o(2,4)$",
+  "authors": "Tea Martinic Bilac, Stjepan Meljanac, Salvatore Mignemi",
+  "abstract": "It is well known that the algebra $o(2,4)$ generates the conformal group, but it can also be used to define some variants of the Yang model of noncommutative geometry on a curved spacetime. Starting from these examples, we construct a new physical model based on $o(2,4)$, that can be interpreted as a generalization of the Heisenberg algebra on phase space, with flat positions and momenta, but nontrivial commutation relations between positions and momenta and with the Planck constant promoted to an operator.",
+  "title_relatable": "Can the conformal group algebra rewrite Heisenberg uncertainty?",
+  "hook": "Physicists build a version of quantum mechanics where Planck's constant becomes an operator, using a hidden symmetry of spacetime.",
+  "summary": "The conformal algebra o(2,4)—which describes how spacetime scales and rotates—can generate a modified Heisenberg algebra where position and momentum don't commute in the usual way and Planck's constant is promoted to a variable. This generalizes quantum mechanics on curved spacetime while keeping spatial and momentum coordinates flat, bridging noncommutative geometry and fundamental quantum relations.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 562,
+  "tokens_out": 166,
+  "cost_usd": 0.0011136,
+  "ingested_at": "2026-06-04T12:36:43.567016+00:00"
+}
