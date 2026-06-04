@@ -1,0 +1,23 @@
+{
+  "id": "2606.04551",
+  "arxiv_url": "https://arxiv.org/abs/2606.04551",
+  "announced_date": "2026-06-03",
+  "subject": "q-bio.PE",
+  "subjects_all": [
+    "q-bio.PE",
+    "math.PR"
+  ],
+  "title_original": "Quasi-birth-and-death processes evolving within trees: Applications to comparative phylogenetics",
+  "authors": "Habtu Kiros Nigus, Barbara R. Holland, Malgorzata M. O'Reilly",
+  "abstract": "We consider a quasi-birth-and-process (QBD) that duplicates itself at some fixed times within a tree that contains information about duplication times and potentially partially observed states. We analyse a continuous trait by discretising it to obtain the QBD level variable. Then, the phase variable is used to model the dynamics of the underlying environment. Here, we extend the framework of Soewongsono et al. to enable a more general analysis. We develop an efficient recursive algorithm for computing the likelihood of an observed tree under this model and construct several numerical examples to illustrate its application potential. Through our synthetic data examples, we show a range of potential behaviours that could be modelled with this approach. Further, we apply the framework to two empirical examples from comparative phylogenetics (the evolution of range area and body size traits across a phylogeny of 49 mammals) to gain different insights into the evolution of these continuous traits. In this setting duplication of the QBD represents speciation and continuous trait evolution is modelled in a discretised state space. In our empirical examples, we explore the impact of different parameter choices on the corresponding likelihood of observing a given phylogenetic tree and the observed levels at its tips.",
+  "title_relatable": "How do animal traits evolve as species split apart?",
+  "hook": "A new statistical method tracks how continuous traits like body size change across evolutionary trees, turning messy real-world data into testable predictions.",
+  "summary": "Researchers developed a mathematical framework to model how continuous traits evolve within species trees by discretizing the trait space and using recursive algorithms to calculate likelihoods. They tested it on mammal phylogenies, examining how body size and range area changed as species diverged. The approach lets biologists quantify which evolutionary scenarios best explain observed trait patterns across related species.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 675,
+  "tokens_out": 155,
+  "cost_usd": 0.00116,
+  "ingested_at": "2026-06-04T12:34:54.228746+00:00"
+}
