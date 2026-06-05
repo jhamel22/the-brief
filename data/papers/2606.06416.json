@@ -1,0 +1,25 @@
+{
+  "id": "2606.06416",
+  "arxiv_url": "https://arxiv.org/abs/2606.06416",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.MA"
+  ],
+  "title_original": "Unsupervised Skill Discovery for Agentic Data Analysis",
+  "authors": "Zhisong Qiu, Kangqi Song, Shengwei Tang, Shuofei Qiao, Lei Liang, Huajun Chen, Shumin Deng",
+  "abstract": "Inference-time skill augmentation provides a lightweight way to improve data-analytic agents by injecting reusable procedural knowledge without updating model parameters. However, discovering effective skills for data analysis remains challenging, as reliable supervision is expensive and success criteria vary across analytical formats. This raises the key question of how to discover reusable data-analysis skills from unlabeled exploration alone. We propose DataCOPE, an unsupervised verifier-guided skill discovery framework for data-analytic agents. DataCOPE derives verifier signals from the exploration trajectories and uses them to characterize relative quality or aggreement among trajectories. It iteratively coordinates a Data-Analytic Agent for trajectory generation, an Unsupervised Verifier for signal extraction, and a Skill Manager for contrastive skill distillation. For report-style analysis, we instantiate the verifier as an Adaptive Checklist Verifier that derives task-specific criteria, scores reports by verifiable coverage, and iteratively refines the checklist. For reasoning-style analysis, we instantiate it as an Answer Agreement Verifier that groups trajectories by answer agreement and uses self-consistency as an auxiliary signal. We evaluate DataCOPE on report-style analysis from Deep Data Research and reasoning-style analysis from DABStep. Across both settings, DataCOPE consistently improves held-out performance over baselines. Averaged across four model settings, DataCOPE improves the mean score by 9.71% and 32.30% on report-style and reasoning-style tasks respectively.",
+  "title_relatable": "Can data-analysis agents teach themselves new skills without human labels?",
+  "hook": "Framework discovers reusable skills for AI data analysts without supervision, improving performance 9.71% on reports and 32.30% on reasoning tasks.",
+  "summary": "Training AI agents to perform data analysis typically requires expensive labeled examples. DataCOPE flips this: it lets agents explore autonomously, then learns which exploration paths were successful by checking if reports covered key topics or if different solution paths reached the same answer. The system uses these signals to extract and distill reusable skills—procedural knowledge that works across similar tasks—without ever seeing ground truth labels. On both report generation and reasoning-based analysis, this improves agent performance substantially.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 813,
+  "tokens_out": 187,
+  "cost_usd": 0.0013984000000000002,
+  "ingested_at": "2026-06-05T10:25:56.900474+00:00"
+}

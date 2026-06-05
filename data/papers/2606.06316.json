@@ -1,0 +1,24 @@
+{
+  "id": "2606.06316",
+  "arxiv_url": "https://arxiv.org/abs/2606.06316",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "quant-ph",
+    "cs.AI",
+    "cs.DS"
+  ],
+  "title_original": "Quantum enhanced rare event discovery and sampling",
+  "authors": "Naixu Guo, Po-Wei Huang, Qisheng Wang, Jayne Thompson, Patrick Rebentrost, Mile Gu, Chengran Yang",
+  "abstract": "Financial crashes, cascading failures in infrastructure, and critical errors in AI systems are frequently triggered by events that occur with extremely small probability. Efficiently discovering and sampling events with probability below a threshold is therefore of critical interest. Yet this task is highly non-trivial using existing classical or quantum methods. Being rare, such events require an immense sampling overhead to collect sufficient data samples. Moreover, because the rare events are not known in advance, they cannot be flagged for amplification using standard techniques. Here, we introduce a quantum algorithm for rare-event discovery and sampling without first learning which events are rare. The algorithm achieves the optimal quantum scaling with the rarity threshold. We further demonstrate that this can achieve a quadratic speedup for heavy-tailed systems whose tail has nonvanishing total mass, and translates into a robust polynomial speedup for stationary stochastic processes, with the exponent determined by its entropy-rate structure.",
+  "title_relatable": "Can quantum computers find rare disasters before they happen?",
+  "hook": "Quantum algorithm discovers tail-risk events exponentially faster than classical sampling, with quadratic speedup for heavy-tailed systems.",
+  "summary": "Finding rare but catastrophic events—market crashes, system failures, AI errors—requires exponential classical sampling because they're unknown in advance. This quantum algorithm discovers which events are rare and samples them without pre-identification, matching optimal quantum scaling. For heavy-tailed distributions, it achieves quadratic speedup; for natural stochastic processes, polynomial speedup determined by entropy structure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 649,
+  "tokens_out": 157,
+  "cost_usd": 0.0011472000000000001,
+  "ingested_at": "2026-06-05T10:26:06.788310+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.06322",
+  "arxiv_url": "https://arxiv.org/abs/2606.06322",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.AI"
+  ],
+  "title_original": "DragOn: A Benchmark and Dataset for Drag-Based GUI Interactions",
+  "authors": "Nathan Bout, Maxime Langevin, Ronan Riochet",
+  "abstract": "GUI agents - vision-based models that control desktops, web browsers, and mobile devices through graphical user interfaces - promise to automate a wide range of digital tasks. While million-scale datasets have enabled substantial progress on click-grounding, drag grounding (e.g. drag-and-drop, swipe, highlight) data remains an order of magnitude smaller and current models fall short on complex drag-based interactions. We introduce DragOn, a drag grounding benchmark and training dataset covering four domains: text highlighting, cell selection, element resizing and slider manipulation. The dataset comprises 286K training screenshots and 3.5M training tasks, plus a 2000-example held-out evaluation suite. We evaluate proprietary (GPT, Claude) and open-weight (Qwen, Kimi, Holo) models, as well as a Qwen VLM fine-tuned on our training data. Results suggest that our dataset could improve performance of state-of-the-art models on downstream computer-use tasks.",
+  "title_relatable": "Why GUI agents fail at dragging and how to fix it",
+  "hook": "286K screenshots reveal drag-and-drop is the missing piece—GPT and Claude stumble on this task that humans do thoughtlessly.",
+  "summary": "GUI agents can click but struggle with drag operations (highlighting, resizing, slider manipulation)—a gap in training data of an order of magnitude. DragOn provides 3.5M drag tasks across four interaction types to address this. Fine-tuning Qwen on the dataset improves performance on complex drag interactions, suggesting the bottleneck was simply missing examples rather than fundamental model limits.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 666,
+  "tokens_out": 164,
+  "cost_usd": 0.0011888000000000003,
+  "ingested_at": "2026-06-05T10:26:04.646998+00:00"
+}

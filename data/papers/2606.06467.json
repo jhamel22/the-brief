@@ -1,0 +1,24 @@
+{
+  "id": "2606.06467",
+  "arxiv_url": "https://arxiv.org/abs/2606.06467",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "title_original": "You Only Index Once: Cross-Layer Sparse Attention with Shared Routing",
+  "authors": "Yutao Sun, Yanqi Zhang, Li Dong, Jianyong Wang, Furu Wei",
+  "abstract": "Long-context inference in modern LLMs is increasingly constrained by decoding efficiency, especially in reasoning-heavy settings where models generate long intermediate chains of thought. Existing sparse attention methods often face a practical efficiency-quality trade-off. Structured block sparse methods typically provide stronger acceleration but incur noticeable quality loss, while token sparse methods are usually more accurate yet deliver limited end-to-end speedup because top-k routing over the full cache remains expensive. In this work, we propose cross-layer sparse attention (CLSA), which is built on top of KV-sharing architectures such as YOCO. The core idea is to share not only the KV cache across cross-decoder layers, but also the routing index. A single indexer computes token-level top-k selection once and reuses the resulting index across layers, thereby preserving the fine-grained selectivity of token sparse attention while amortizing the routing overhead. The resulting architecture improves all major inference bottlenecks jointly, including pre-filling, KV-cache storage, and long-context decoding. Experiments across short-context and long-context benchmarks show that CLSA is both accurate and efficient, achieving up to 7.6x decoding speedup and 17.1x overall throughput improvement at 128K context. These results suggest a more complete architectural solution for long-context LLMs that jointly advances model quality and inference efficiency.",
+  "title_relatable": "How to speed up long-context LLMs without losing accuracy",
+  "hook": "Cross-layer sparse attention achieves 7.6× decoding speedup and 17.1× throughput gain on 128K context by computing attention routing once and reusing it across all layers.",
+  "summary": "Long-context LLM inference is slow because attending to millions of tokens is expensive. This work shares a single routing index across decoder layers—computing which tokens matter just once instead of repeatedly—while keeping the fine-grained selection that token sparse methods provide. On 128K context windows, it delivers 7.6× decoding speedup without sacrificing answer quality, outperforming both crude block-sparse and expensive per-layer routing approaches.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 757,
+  "tokens_out": 191,
+  "cost_usd": 0.0013696,
+  "ingested_at": "2026-06-05T10:25:45.215861+00:00"
+}

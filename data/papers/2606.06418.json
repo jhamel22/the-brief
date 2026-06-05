@@ -1,0 +1,24 @@
+{
+  "id": "2606.06418",
+  "arxiv_url": "https://arxiv.org/abs/2606.06418",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "eess.SY"
+  ],
+  "title_original": "Double Preconditioning (DoPr): Optimization for Test-Time Performance, not Validation Loss",
+  "authors": "Thomas T. Zhang, Alok Shah, Yifei Zhang, Vincent Zhang, Nikolai Matni, Max Simchowitz",
+  "abstract": "Many modern applications of deep learning involve training a neural network via a one-step prediction loss (e.g., $L^2$ regression, cross-entropy), but deploy the network by rolling out along its own predictions. Key examples include autoregressive language modeling, flow-based generative modeling, and robot policy learning. It is well-documented that these settings induce a phenomenon we call test-time feedback (TTF): the mismatch between the training/validation loss and downstream metrics of interest, such as task success rate and generation quality, which grows with task length. While data curation, architecture, and objective design have been proposed to combat train-test shift in TTF settings, this paper proposes optimization as a new design axis to mitigate error accumulation. Specifically, we introduce a new optimization paradigm called double-preconditioning (DoPr) uniquely tailored to the challenges of TTF. DoPr combines gradient-wise preconditioning, as in Adam and Muon, with activation-wise preconditioning (AP), such as in KFAC. We show that the addition of AP yields a drop-in intervention for increasing downstream model performance across a range of TTF settings. Interestingly, these gains in test-time performance do not consistently accompany improvements in validation loss, opening new questions about how to properly evaluate models trained with one-step supervised objectives.",
+  "title_relatable": "Why optimizers trained on validation loss fail at deployment",
+  "hook": "New optimizer cuts error accumulation in language models and robot policies by combining two preconditioning types, without improving validation metrics.",
+  "summary": "Neural networks trained on next-step prediction (like language models) perform worse at deployment when rolling out predictions than their validation loss suggests. This test-time feedback problem grows with task length. Double-preconditioning (DoPr) combines gradient-wise preconditioning (like Adam) with activation-wise preconditioning (like KFAC) to reduce error compounding. The method improves downstream performance—task success, generation quality—across language modeling, generative models, and robot control, yet surprisingly doesn't consistently boost validation loss, suggesting our standard evaluation metrics miss something critical.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 761,
+  "tokens_out": 202,
+  "cost_usd": 0.0014168000000000002,
+  "ingested_at": "2026-06-05T10:25:53.368874+00:00"
+}

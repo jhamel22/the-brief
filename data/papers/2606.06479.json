@@ -1,0 +1,23 @@
+{
+  "id": "2606.06479",
+  "arxiv_url": "https://arxiv.org/abs/2606.06479",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI"
+  ],
+  "title_original": "Pretraining Recurrent Networks without Recurrence",
+  "authors": "Akarsh Kumar, Phillip Isola",
+  "abstract": "Training recurrent neural networks (RNNs) requires assigning credit across long sequences of computations. Standard backpropagation through time (BPTT) addresses this problem poorly: it is sequential in time, limiting parallelism, and suffers from vanishing or exploding gradients, making long-range associations difficult to learn. We propose Supervised Memory Training (SMT), a method for training nonlinear RNNs that sidesteps recurrent credit propagation entirely by reducing RNN training to supervised learning on one-step memory transition labels $(m_t, x_{t+1}) \\rightarrow m_{t+1}$. SMT acquires these memory labels by training a Transformer-based encoder on a predictive state objective--retaining only information from the past necessary to predict the future. By decoupling what to remember from how to update memory, SMT enables time-parallel RNN training with a stable $O(1)$ length gradient path between any two tokens--without ever unrolling the RNN. We find that SMT outperforms BPTT when pretraining various RNN architectures on tasks like language modeling and pixel sequence modeling. SMT enables nonlinear RNNs to better capture long-range dependencies and train in parallel, potentially unlocking the scaling of models that build temporal abstractions of past experience.",
+  "title_relatable": "Can you train RNNs without unrolling them through time?",
+  "hook": "New pretraining method trains RNNs in parallel, avoiding gradient collapse on long sequences—outperforms standard backprop on language and video modeling.",
+  "summary": "Training RNNs on long sequences hits a wall: backpropagation through time is sequential and gradients vanish or explode. This work proposes Supervised Memory Training, which sidesteps the problem entirely by treating RNN training as supervised learning on one-step memory updates. A Transformer encoder learns what information to preserve across timesteps, then an RNN learns how to update that memory—all trainable in parallel with stable gradients. On language modeling and pixel prediction, SMT outperforms standard BPTT, suggesting RNNs could scale to capture long-range dependencies without the parallelism bottleneck.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 725,
+  "tokens_out": 224,
+  "cost_usd": 0.001476,
+  "ingested_at": "2026-06-05T10:25:39.575510+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.06380",
+  "arxiv_url": "https://arxiv.org/abs/2606.06380",
+  "announced_date": "2026-06-04",
+  "subject": "cs.AI",
+  "subjects_all": [
+    "cs.CL",
+    "cs.AI",
+    "cs.MA",
+    "cs.NE"
+  ],
+  "title_original": "Emergent Language as an Approach to Conscious AI",
+  "authors": "Zengqing Wu, Chuan Xiao",
+  "abstract": "The question of whether artificial systems can be conscious remains open, in part because existing approaches either evaluate systems against theory-derived checklists (discriminative) or engineer consciousness-inspired modules directly (architectural); both leave open whether observed structures are artifacts of human language priors. We propose a generative methodology: emergent language (EL) in multi-agent reinforcement learning, where agents start from minimal (no language, no concept of self, minimal exposure to human text) and develop communication under task pressure alone, ensuring causal attributability to task demands rather than inherited human language priors. We position our methodology by discussing how EL serves as a generative tool for studying consciousness-relevant structure, including the role of environment complexity and the interpretation of emergent communication. As a proof of concept, we instantiate this methodology in a minimal environment and show that agents develop self-referential communication, including an echo-mismatch detection circuit that is not predicted by task structure or architecture alone but emerges from a specific environmental affordance.",
+  "title_relatable": "Can consciousness emerge when AI agents invent their own language?",
+  "hook": "Researchers let agents develop communication from scratch under task pressure alone, finding unexpected self-awareness circuits without human language priors contaminating results.",
+  "summary": "Studying whether AI can be conscious is hard because most approaches either compare systems to theory checklists or build consciousness-inspired modules directly—both risk seeing what humans expect to see. Wu and Xiao propose letting agents invent language and concepts through multi-agent reinforcement learning with minimal starting conditions, ensuring any structure reflects actual task demands. In a simple environment, agents spontaneously developed self-referential communication and an echo-mismatch detection mechanism not explained by task structure or architecture alone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 645,
+  "tokens_out": 184,
+  "cost_usd": 0.001252,
+  "ingested_at": "2026-06-05T10:25:59.416309+00:00"
+}
