@@ -1,9 +1,12 @@
 name: Ingest arXiv
 
 on:
+  # PAUSED on 2026-06-05 to halt API spend.
+  # To resume: uncomment the schedule block below.
+  #
   # Run weekdays at 20:30 UTC = 4:30 PM ET (arXiv announces ~2:00 PM ET)
-  schedule:
-    - cron: '30 20 * * 1-5'
+  # schedule:
+  #   - cron: '30 20 * * 1-5'
 
   # Allow manual trigger from GitHub Actions UI
   workflow_dispatch:
