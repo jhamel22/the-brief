@@ -1,0 +1,25 @@
+{
+  "id": "2606.05517",
+  "arxiv_url": "https://arxiv.org/abs/2606.05517",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.quant-gas",
+    "cond-mat.str-el",
+    "physics.atom-ph",
+    "quant-ph"
+  ],
+  "title_original": "A universal and efficient hybrid digital-analog fermionic quantum simulator",
+  "authors": "Hao-Tian Wei, Kaden R. A. Hazzard",
+  "abstract": "We present a universal framework to harness fermionic ultracold atom platforms for quantum simulation, showing how variational algorithms on existing hardware can simulate many-body systems well beyond the hardware's native Hamiltonian. Our analysis provides evidence that one can quantum simulate the ground-state properties of a broad class of gapless target Hamiltonians of local observables in a quantum evolution time that grows polynomially with the inverse relative error, $T\\sim O(\\mathrm{poly}(1/ε))$ up to logarithmic corrections, offering an exponential speedup over na{ï}ve classical algorithms such as exact diagonalization. We provide numerical evidence and theoretical argument that this holds for energy density, density-density, and spin-spin correlations in three qualitatively distinct models -- the repulsive Hubbard model; a Hubbard model augmented with nearest-neighbor attractive interactions, which introduces the phenomenon of pairing; and the Hofstadter-Hubbard model, which introduces a gauge field and fractional quantum Hall physics. This work demonstrates quantum simulation using current fermionic platforms far beyond the models natively implemented in the hardware.",
+  "title_relatable": "Can today's quantum hardware simulate physics it wasn't built for?",
+  "hook": "A hybrid algorithm lets cold-atom quantum simulators tackle models far outside their native physics, with exponential speedup over exact diagonalization.",
+  "summary": "Cold-atom quantum simulators are normally stuck modeling whatever physics their hardware naturally implements. This framework uses variational algorithms to stretch existing fermionic platforms to simulate a much broader class of quantum many-body systems — including superconducting pairing and fractional quantum Hall physics — with simulation time growing only polynomially in the precision required. Numerical tests across three distinct models suggest this is a genuine exponential speedup over brute-force classical methods.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 688,
+  "tokens_out": 172,
+  "cost_usd": 0.004644,
+  "ingested_at": "2026-06-05T10:12:15.930116+00:00"
+}

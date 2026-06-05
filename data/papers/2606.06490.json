@@ -1,0 +1,24 @@
+{
+  "id": "2606.06490",
+  "arxiv_url": "https://arxiv.org/abs/2606.06490",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.mes-hall",
+    "physics.optics",
+    "quant-ph"
+  ],
+  "title_original": "Coherent room-temperature dipole synchronization in nanocavity sheets",
+  "authors": "Rakesh Arul, Piper Fowler-Wright, Lille Borresen, Brendon W. Lovett, Jonathan Keeling, Jeremy J. Baumberg",
+  "abstract": "Plasmonic nanocavities enable the synchronization of spatially distant emissive dipoles through strong near-field coupling in sub-nm gaps. We report formation of a room-temperature synchronized dipole state in locally-ordered plasmonic nanogap 2D arrays under non-resonant continuous-wave pumping. Unlike lasers, photonic Bose-Einstein condensates, or exciton-polariton condensates, this system exhibits spatial coherence across the dipoles, while rapid radiative and non-radiative emission suppresses temporal photon coherence. A change of behaviour is observed with increasing pumping, marked by the spatial spread of g(1) coherence, but without spectral narrowing or directional emission. This driven-dissipative system exhibits fast temporal coherence decay and complex spatial correlations, offering a new platform for studying synchronization at room temperature. Combining ultralow mode volumes, high Purcell enhancement, and scalable ambient operation, it opens pathways for novel photonic and quantum technologies.",
+  "title_relatable": "Can molecules stay quantum-synchronized at room temperature?",
+  "hook": "Tiny gold gaps force distant molecules to oscillate in sync at room temperature — without the usual hallmarks of a laser or condensate.",
+  "summary": "Gold nanoparticles arranged in flat sheets create gaps less than a nanometer wide, strong enough to force molecules on opposite sides to vibrate in lockstep — a form of quantum synchronization normally reserved for ultracold systems. Shining a laser on these arrays reveals spreading spatial coherence with no spectral narrowing or directed emission, a pattern that doesn't fit lasers, polariton condensates, or any known photonic state. It's a new phase of light-matter coupling that works on a benchtop, at room temperature.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 684,
+  "tokens_out": 190,
+  "cost_usd": 0.004902,
+  "ingested_at": "2026-06-05T10:11:15.720118+00:00"
+}

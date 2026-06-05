@@ -1,0 +1,25 @@
+{
+  "id": "2606.06432",
+  "arxiv_url": "https://arxiv.org/abs/2606.06432",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.mes-hall",
+    "cond-mat.mtrl-sci",
+    "cond-mat.str-el",
+    "quant-ph"
+  ],
+  "title_original": "Quantum Thermal Logic Gates",
+  "authors": "Shuvadip Ghosh, Arnab Ghosh, Bivas Dutta, Papiya Maity",
+  "abstract": "We propose a new concept for quantum thermal logic gates -- analogous to classical electronic logic gates -- that exploit the heat current in a coupled quantum-dot system tunnel-coupled to metallic thermal reservoirs for logic operations in quantum circuits. We obtained a remarkable one-to-one correspondence with the structure of classical electronic logic gate circuits. An experimental setup is presented that demonstrates a realizable nano-electronic quantum circuit architecture for implementing such quantum thermal logic operations.",
+  "title_relatable": "Could heat flow replace electricity in quantum computers?",
+  "hook": "Researchers built logic gates that use heat current instead of electric current, mapped onto standard circuit designs.",
+  "summary": "Quantum dots tunnel-coupled to metal reservoirs can perform AND, OR, NOT and other logic operations using heat flow rather than electron charge. The design maps one-to-one onto classical electronic gate circuits, meaning existing circuit architectures could be translated directly. If experimentally validated, this opens a path to computing with thermal gradients — potentially useful in environments where charge-based logic is impractical.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 528,
+  "tokens_out": 148,
+  "cost_usd": 0.003804,
+  "ingested_at": "2026-06-05T10:11:55.486468+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2606.05472",
+  "arxiv_url": "https://arxiv.org/abs/2606.05472",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.mes-hall",
+    "cond-mat.mtrl-sci",
+    "cond-mat.str-el",
+    "cond-mat.supr-con",
+    "quant-ph"
+  ],
+  "title_original": "Realistic quantum device data synthesized by consumer AI and how to identify it",
+  "authors": "S. M. Frolov, O. V. Kravchenko",
+  "abstract": "With the advance of generative artificial intelligence (AI) synthetic texts and images have become commonplace. These capabilities offer clear benefits, but have also raised a number of ethical concerns that often have to do with misrepresenting AI outputs as genuine material. A lesser known capability of generative AI is to perform the basic analysis, processing and even synthesis of numerical data. This raises the question of whether AI can be used to imitate experimental data that an expert would consider scientifically meaningful and on par with data in the figures of peer-reviewed manuscripts? In this paper, we focus on synthesizing data inspired by well-known experiments done frequently on quantum electronic devices. This field is related to information technologies such as spintronics and quantum computing, and is considered data-rich and data-driven. We demonstrate that it is possible to generate dramatic signals associated with iconic effects such as quantum bit control, Majorana fermions, Josephson effects, quantum dots and wires using widely available ChatGPT. We find that because some of the clearest data from quantum devices can be expressed in terms of relatively basic mathematical models, AI does not need to learn on the specialized body of data. Instead, knowledge of the physics equations and of the basic features of experimental signals can go a long way towards building a realistic dataset. We also demonstrate that real data can be augmented by AI, and that AI can mimic the noise of common scientific instruments. To help assure that published data come from experiments and are not synthesized by AI, we recommend sharing large volumes of the primary data. While it is straightforward for AI to mimic a few sets of data, consistently generating long measured sequences poses sufficient barriers to the proliferation of undisclosed synthetic data.",
+  "title_relatable": "Can ChatGPT fake quantum physics data well enough to fool experts?",
+  "hook": "ChatGPT can synthesize convincing quantum device data — Majorana signals, qubit control, Josephson effects — that mimics peer-reviewed figures.",
+  "summary": "Using only ChatGPT and basic physics equations, the authors generated fake experimental data for some of quantum computing's most celebrated phenomena — including contested Majorana fermion signatures — that looks credibly real. The trick works because the clearest experimental signals reduce to simple math models the AI already knows. The proposed defense: require researchers to publish large raw data archives, since fabricating hundreds of consistent measurement sequences remains impractical for AI.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 793,
+  "tokens_out": 175,
+  "cost_usd": 0.005004,
+  "ingested_at": "2026-06-05T10:12:28.250434+00:00"
+}

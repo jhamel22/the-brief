@@ -1,0 +1,24 @@
+{
+  "id": "2606.06412",
+  "arxiv_url": "https://arxiv.org/abs/2606.06412",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.dis-nn",
+    "quant-ph",
+    "stat.ML"
+  ],
+  "title_original": "Nonreversible Gauge Fields in Fokker--Planck Dynamics: Supersymmetric Hamiltonians and Learned Finite Forces",
+  "authors": "Masayuki Ohzeki",
+  "abstract": "We formulate stationary-density-preserving nonreversible perturbations of Fokker--Planck dynamics as gauge fields that deform relaxation spectra while leaving the invariant state fixed. When detailed balance holds, a similarity transformation maps the reversible Fokker--Planck operator to a Witten-Laplacian-type supersymmetric Hamiltonian; nonreversible gauges then appear as non-Hermitian perturbations that preserve the zero mode but modify the excited spectrum. This operator viewpoint gives a common language for relaxation gaps, circulating probability currents, hypocoercive acceleration, and finite control costs. We represent admissible gauge currents by antisymmetric tensor fields and identify the detailed-balance-violating Ohzeki--Ichiki force as a constant symplectic example whose infinite-strength limit is Hamiltonian dynamics. The continuous-time spectral gap alone does not select a finite gauge strength, so we introduce a finite-time regularized objective and an actor--critic procedure for learning the gauge. An exactly solvable anisotropic Gaussian Ornstein--Uhlenbeck benchmark separates the spectral transition from the finite-time optimum and shows that the learned gauge recovers the Lyapunov-equation optimum. A double-well benchmark then illustrates the same constrained selection in a nonconvex metastable landscape. Stochastic gradient methods enter this framework as physically relevant Fokker--Planck systems: mini-batch noise acts as an effective diffusion tensor, and adaptive methods such as Adam correspond to metric choices with possible nonequilibrium currents.",
+  "title_relatable": "How to make random sampling escape traps faster?",
+  "hook": "Treating non-equilibrium currents as gauge fields unifies sampling acceleration, control cost, and machine learning optimizers under one framework.",
+  "summary": "Adding carefully chosen probability currents to a diffusion process can dramatically speed up sampling without changing what distribution you're sampling from — like stirring a liquid to help it mix faster. This paper casts those currents as gauge fields in a quantum-mechanics-style operator formalism, revealing that popular optimizers like Adam are secretly choosing these currents implicitly. An actor-critic learning procedure finds the optimal finite-strength current, confirmed exactly on Gaussian and double-well test cases.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 806,
+  "tokens_out": 173,
+  "cost_usd": 0.005013,
+  "ingested_at": "2026-06-05T10:12:02.257260+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.05303",
+  "arxiv_url": "https://arxiv.org/abs/2606.05303",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "hep-th",
+    "cond-mat.str-el",
+    "quant-ph"
+  ],
+  "title_original": "Krylov Complexity: Flat bands and Carroll breaking deformations",
+  "authors": "Aritra Banerjee, Arpan Bhattacharyya, Rudranil Basu, Sayan Das",
+  "abstract": "Systems with flat band structures, when written in the language of Compact Localised States (CLS), have been shown to be explicitly invariant under supertranslation symmetries, making Carrollian symmetries inherently important for such systems. In this work, we explore the state dynamics of these systems, focusing on quenches induced by Carroll breaking perturbations, through the probe of Krylov (spread) Complexity. We specialise to Fermionic ladder Hamiltonians with all bands flat (ABF) scenario, augmented by a supertranslation preserving interaction, and discuss Krylov state complexity for quenches across critical lines. We further discuss how the growth of Krylov complexity sharply resolves the phase-dependent resilience of Carrollian sectors against delocalising perturbations. This is augmented by a complementary mechanism for Krylov growth in a continuum Carroll scalar field theory with a gradient deformation, which exhibits strong ultraviolet sensitivity (UV/IR mixing).",
+  "title_relatable": "How do electrons trapped in flat bands resist being disturbed?",
+  "hook": "A quantum complexity measure reveals how flat-band systems cling to exotic Carroll symmetry under perturbation.",
+  "summary": "Flat-band materials host electrons that refuse to disperse — and it turns out this stubborn localization is protected by a bizarre symmetry called Carroll invariance, where the speed of light effectively goes to zero. Tracking 'Krylov complexity' (how fast a quantum state spreads through all possible configurations), the authors show that this measure sharply distinguishes which phases survive a perturbation and which collapse, acting like a fine-grained order parameter for symmetry breaking across quantum phase transitions.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 672,
+  "tokens_out": 176,
+  "cost_usd": 0.004656,
+  "ingested_at": "2026-06-05T10:12:56.448832+00:00"
+}

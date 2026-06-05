@@ -1,0 +1,26 @@
+{
+  "id": "2606.05294",
+  "arxiv_url": "https://arxiv.org/abs/2606.05294",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.stat-mech",
+    "cond-mat.str-el",
+    "cond-mat.supr-con",
+    "math-ph"
+  ],
+  "title_original": "Isospectrality and Operator Complexity",
+  "authors": "Pradip Kattel, Yicheng Tang, Natan Andrei",
+  "abstract": "We study a pair of exactly solvable, isospectral fermion chains, one strongly interacting and one quadratic, that nevertheless display remarkably different phase structures and operator dynamics. A nonlocal nonlinear unitary transformation maps one onto the other while preserving the entire many-body spectrum and converting local fermion operators into extended many-body strings. Thus, operators that evolve within a closed linear subspace in the quadratic model become interacting operators that generate increasingly higher-body terms and exhibit asymptotic Lanczos growth $b_n\\propto\\sqrt n$. Despite their identical spectra, the two models realize distinct phases and sharply different notions of operator complexity. Our results demonstrate that free many-body spectra and interacting operator dynamics are fundamentally compatible.",
+  "title_relatable": "Two quantum systems share every energy level but behave completely differently?",
+  "hook": "Identical energy spectra can hide wildly different physics — including how fast quantum information scrambles.",
+  "summary": "Two fermion chains — one with strong interactions, one without — have exactly the same energy levels, yet live in different phases and scramble quantum information at completely different rates. A nonlocal mathematical transformation connects them, turning simple local operators into sprawling many-body strings that grow in complexity without bound. The finding breaks an intuitive assumption: knowing a system's full energy spectrum tells you almost nothing about how operators and information spread through it.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 600,
+  "tokens_out": 159,
+  "cost_usd": 0.004185,
+  "ingested_at": "2026-06-05T10:13:06.721297+00:00"
+}

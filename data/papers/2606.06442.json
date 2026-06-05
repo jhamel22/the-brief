@@ -1,0 +1,22 @@
+{
+  "id": "2606.06442",
+  "arxiv_url": "https://arxiv.org/abs/2606.06442",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Nanostructure modelling with early fault tolerant quantum computers",
+  "authors": "Zhu Sun, Christian Binder, Balint Koczor, Simon Benjamin",
+  "abstract": "Semiconductor nanostructures are central to many developing technologies. Notably, double quantum dots are especially important for semiconductor spin-qubit architectures, quantum sensing applications, and quantum-dot solar cells. Accurate modelling is highly desirable but conventional methods can struggle when dynamics involve more than two interacting electrons. In this work, we present a quantum simulation framework capable of addressing multi-electron double quantum dots. We adopt an efficiently scaling 1$^\\text{st}$ quantised representation of the system and develop algorithms based on both Trotterisation and qubitisation. Incorporating insights from classical simulations enables us to produce resource estimates that are more realistic than those obtained from theoretical error bounds. Using a standard surface code model with physical noise at $10^{-3}$, our results indicate that the ground-state energy of four electrons in a double quantum dot can be estimated in approximately 24 hours using 226k physical qubits, or an eight-electron system in 3.4 days with 314k qubits (with runtimes falling dramatically when more qubits are available). We anticipate that incorporating very recent advances including dense surface code architectures (Low et al. arXiv:2605.30455) may reduce these costs significantly further. We conclude that early fault tolerant computers may prove to be valuable tools for designing mature-era quantum technologies.",
+  "title_relatable": "How many qubits to simulate the chips inside quantum computers?",
+  "hook": "A 314,000-qubit fault-tolerant machine could simulate an 8-electron quantum dot in 3.4 days.",
+  "summary": "Quantum dots — the nanoscale structures at the heart of spin-qubit processors and solar cells — are surprisingly hard to model once more than two electrons are involved. Mapping out the algorithms needed to run these simulations on near-future fault-tolerant hardware, this work finds that a ground-state energy calculation for a four-electron double quantum dot would take about 24 hours on a 226,000-physical-qubit machine. That's a concrete, time-stamped benchmark for when early quantum computers might start designing the very hardware they're built from.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 729,
+  "tokens_out": 199,
+  "cost_usd": 0.005172,
+  "ingested_at": "2026-06-05T10:11:50.773741+00:00"
+}

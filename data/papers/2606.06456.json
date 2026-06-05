@@ -1,0 +1,22 @@
+{
+  "id": "2606.06456",
+  "arxiv_url": "https://arxiv.org/abs/2606.06456",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Quantum element-wise transforms",
+  "authors": "Zane M. Rossi, Rahul Sarkar",
+  "abstract": "Quantum algorithms for basic numerical linear algebraic tasks have proven essential for translating diverse problems to a unified quantum computational context. Many of these tasks -- e.g., applying a polynomial function to the spectrum of a matrix embedded in a unitary process (a so-called block encoding), or taking linear combinations of block encodings -- are well-addressed by techniques like quantum singular value transformation (QSVT) or linear combination of unitaries (LCU). However, there exist useful matrix transforms whose realization by existing quantum algorithms is unclear or inefficient. In this work we construct improved quantum algorithms for some of these transforms, the simplest of which is a polynomial function applied element-wise. We show the space required to compute quantum element-wise transforms can be reduced exponentially in the degree of the applied function compared to prior work, and raise and rectify errors in previous constructions. We present our algorithms alongside applications to machine learning, simulation, and signal processing.",
+  "title_relatable": "Applying functions to matrices, element by element, on a quantum computer",
+  "hook": "A new quantum algorithm cuts memory use exponentially for a fundamental matrix operation used across machine learning and physics simulation.",
+  "summary": "Quantum computers can already apply polynomial functions to a matrix's eigenvalues efficiently, but doing the same thing element-by-element — a routine operation in classical computing — has been awkward or wasteful. This work builds new quantum algorithms for element-wise matrix transforms that require exponentially less memory than previous approaches, while also correcting errors in earlier constructions. The payoff spans machine learning, signal processing, and quantum simulation.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 622,
+  "tokens_out": 161,
+  "cost_usd": 0.004281,
+  "ingested_at": "2026-06-05T10:11:28.169934+00:00"
+}

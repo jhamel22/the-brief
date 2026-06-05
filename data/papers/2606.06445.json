@@ -1,0 +1,23 @@
+{
+  "id": "2606.06445",
+  "arxiv_url": "https://arxiv.org/abs/2606.06445",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "physics.ed-ph",
+    "quant-ph"
+  ],
+  "title_original": "Resource Letter QIE-1: Research in quantum information education",
+  "authors": "Josephine C. Meyer, Simon Goorney, Tunde Kushimo, Zeki C. Seskir",
+  "abstract": "In celebration of the 2025 UN International Year of Quantum Science and Technology, this Resource Letter surveys the rapidly-growing field of scholarship in quantum information science and engineering (QISE) education. It is primarily written as a guide for educators wishing to get started teaching QISE using research-based teaching methods, as well as for discipline-based education research (DBER) practitioners looking to get started in this field. Topics covered include scoping the field of QISE education, research into student reasoning in QISE, research-based and research-inspired curricular materials from the high school to graduate level, research-based assessments, simulation and gamification tools, and tools for incorporating discussion of the societal and ethical implications of quantum technologies into the classroom.",
+  "title_relatable": "How do you actually teach quantum computing to students?",
+  "hook": "A comprehensive guide maps what works—and what doesn't—in quantum education, from high school to graduate level.",
+  "summary": "A sweeping survey of quantum information science education research covers everything from how students misunderstand superposition to gamification tools and ethics curricula. Written for teachers wanting evidence-based methods and researchers new to education science, it arrives as the UN designates 2025 the International Year of Quantum. If quantum technology is going mainstream, this is the field figuring out how to explain it.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 605,
+  "tokens_out": 150,
+  "cost_usd": 0.004065,
+  "ingested_at": "2026-06-05T10:11:44.994234+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.05412",
+  "arxiv_url": "https://arxiv.org/abs/2606.05412",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cs.IT",
+    "quant-ph"
+  ],
+  "title_original": "Unlocking Exponential and Unbounded Robust Gains in Shannon Capacity of Classical Multiple Access Channels with Causal CSIT via Quantum Entanglement Assistance",
+  "authors": "Yuhang Yao, Syed A. Jafar",
+  "abstract": "Quantum entanglement assistance is known to improve the Shannon capacity of classical communication networks but the largest gains noted thus far are rather modest (less than 6%), motivating the question: are large capacity gains ever possible? It is shown in this work that in the presence of causal channel state information at the transmitters, quantum entanglement assistance provides a multiplicative capacity advantage that grows exponentially with the number of users K for certain classical K-user multiple access channels with fixed size (binary) alphabet for inputs, outputs and states. Similarly, in the presence of causal channel state information at the transmitters, quantum entanglement assistance is shown to provide a multiplicative capacity advantage that is unbounded as the size of the state alphabet grows, while the number of users (K=3) and the input and output alphabet (binary) are held fixed. Even with only a few users and small alphabet sizes, substantial multiplicative gains in capacity are found, e.g., with binary inputs, outputs and states, multiplicative gains by factors exceeding 21 and 88 are noted with K=5 and K=7 users, respectively. The gains are robust in the sense that they persist even with noisy quantum resources, e.g., an exponential (in K) capacity advantage from quantum entanglement assistance remains available even if each entangled qubit independently depolarizes completely with probability $\\approx$ 30%. The gains are based on quantum entanglement assistance provided only to the transmitters.",
+  "title_relatable": "Quantum entanglement can multiply a network's capacity 88-fold?",
+  "hook": "Shared quantum entanglement boosts classical wireless channel capacity not by a few percent, but by factors exceeding 88×.",
+  "summary": "Previous results suggested quantum entanglement only nudges classical communication capacity up by a few percent. This work shows that when senders know the channel state in real time, entanglement shared among transmitters can multiply total capacity by factors exceeding 88× (with just 7 users and binary signals), with gains that grow exponentially as more users are added. The advantage survives substantial noise — even if 30% of the entangled qubits are completely scrambled.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 775,
+  "tokens_out": 179,
+  "cost_usd": 0.00501,
+  "ingested_at": "2026-06-05T10:12:33.685715+00:00"
+}

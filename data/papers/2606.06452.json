@@ -1,0 +1,24 @@
+{
+  "id": "2606.06452",
+  "arxiv_url": "https://arxiv.org/abs/2606.06452",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cond-mat.quant-gas",
+    "nlin.PS"
+  ],
+  "title_original": "Energy-Modulated Time-Asymmetric Spontaneous Collapse: Forward-Backward Dynamics from Stochastic Ito Reversal and Bright Solitons",
+  "authors": "Ikechukwu C. Okoro, Mike O. Osiele, Godfrey E. Akpojotor",
+  "abstract": "We present a rigorous theoretical framework for symmetry breaking and quantum irreversibility arising from stochastic Ito field reversal within a cubic-quintic nonlinear Schrodinger equation (CQ-NLSE) formalism. Starting from three physically motivated considerations, forward and backward nonlinear stochastic differential equations are derived via the Ito calculus. Kinematic time-reversal is shown to be fundamentally incompatible with the Ito stochastic structure, yielding the universal asymmetry-coupling parameter of 2/3. An energy-driven collapse operator proportional to the product of noise strength, local probability density, and excitation energy squared is introduced, amplifying the collapse in high-density, high-excitation regions. Exactly bright soliton solutions are obtained for a quasi-one-dimensional BEC of attractive Li-7 atoms, with forward and backward amplitude ratio of 1.870. Heat map analysis of the parameter planes reveals that the forward collapse operator grows monotonically in time while the backward counterpart decays, achieving a ratio approximately 1030, sharply distinguishing this framework from conventional symmetric collapse models.",
+  "title_relatable": "Why does quantum collapse only go one way in time?",
+  "hook": "A new stochastic collapse model breaks time-reversal symmetry with a forward-to-backward ratio of 10³⁰.",
+  "summary": "Starting from the mathematics of random processes (Itô calculus), this framework derives why quantum wavefunction collapse is irreversible: running the equations backward in time is fundamentally incompatible with the stochastic structure, producing a universal asymmetry parameter of exactly 2/3. Applied to lithium-7 Bose-Einstein condensates, the model yields bright soliton solutions whose forward and backward collapse operators diverge by a factor of 10³⁰ — a number so large it effectively rules out any time-symmetric collapse description.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 722,
+  "tokens_out": 196,
+  "cost_usd": 0.005106,
+  "ingested_at": "2026-06-05T10:11:40.501755+00:00"
+}

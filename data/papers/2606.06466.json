@@ -1,0 +1,24 @@
+{
+  "id": "2606.06466",
+  "arxiv_url": "https://arxiv.org/abs/2606.06466",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "cond-mat.mes-hall",
+    "quant-ph"
+  ],
+  "title_original": "Enhancement of charge correlations and real-space topological marker on an interacting non-Hermitian Su-Schrieffer-Heeger model",
+  "authors": "Sebastião dos A. Sousa-Júnior, Pedro B. Melo, Rubem Mondaini, Arnob Kumar Ghosh, Rodrigo Arouca",
+  "abstract": "We investigate the interacting non-Hermitian Su-Schrieffer-Heeger (SSH) model, focusing on the interplay between topology and charge ordering. Using a real-space topological marker, charge correlations, and the complex many-body spectrum, we map out the phase diagram under periodic and open boundary conditions. We show that the topological marker remains a robust diagnostic of non-Hermitian topological phases in the presence of interactions and consistently signals their breakdown at the onset of a charge density wave (CDW). We further demonstrate that non-Hermiticity enhances interaction effects: While moderate changes occur under periodic boundary conditions, open boundary conditions lead to a pronounced amplification of staggered charge correlations near exceptional points. This enhancement arises from the accumulation of low-energy states near exceptional points, which promotes electronic instabilities and strengthens CDW tendencies.",
+  "title_relatable": "Does dissipation make electrons clump together more strongly?",
+  "hook": "In a leaky quantum chain, energy loss near 'exceptional points' dramatically amplifies charge ordering that interactions alone can't produce.",
+  "summary": "Pumping dissipation into a textbook 1D quantum chain (the SSH model) with electron-electron repulsion reveals that the system's non-Hermitian nature doesn't just passively coexist with interactions — it amplifies them. Near exceptional points, low-energy states pile up and drive electrons into a pronounced charge density wave, an alternating pattern of electron-rich and electron-poor sites, far stronger than in a normal closed system. A real-space topological marker reliably tracks when this ordered phase destroys the underlying topological phase, offering a practical diagnostic for open quantum matter.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 666,
+  "tokens_out": 202,
+  "cost_usd": 0.005028,
+  "ingested_at": "2026-06-05T10:11:22.268327+00:00"
+}

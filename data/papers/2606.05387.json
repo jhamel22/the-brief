@@ -1,0 +1,23 @@
+{
+  "id": "2606.05387",
+  "arxiv_url": "https://arxiv.org/abs/2606.05387",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "cs.ET"
+  ],
+  "title_original": "Feature Encoding in Quantum Machine Learning: A Survey and Practical Guidelines",
+  "authors": "Vincenzo Sammartino",
+  "abstract": "The encoding of classical data into quantum states constitutes the primary performance bottleneck in Quantum Machine Learning (qml) on Noisy Intermediate-Scale Quantum (nisq) devices. No existing framework jointly characterises resource cost, expressivity, and noise robustness, nor provides actionable selection guidelines for practitioners. This survey addresses that gap through a systematic review of 66 primary works (2017-2026) assembled via a PRISMA-adapted protocol across five academic databases. Four principal contributions are made. First, a three-axis cost-expressivity-robustness taxonomy classifies all major encoding families - basis, angle, dense-angle, amplitude, data re-uploading, and IQP - along independently measurable axes. Second, closed-form depth-fidelity bounds under nisq decoherence channels identify the critical gate-error rate p* ~ 10^-3 below which amplitude encoding is viable. Third, a unified treatment of Fourier expressivity, barren-plateau onset, and quantum kernel concentration as functions of the encoding circuit provides the first joint trainability analysis. Fourth, a five-regime decision framework maps (D, n, p, tau) - feature dimension, qubit budget, error rate, and task type - to a hardware-grounded encoding recommendation. The central finding is that for p >= 10^-3, shallow angle-based encodings consistently outperform amplitude encoding in practice, despite the latter's exponential qubit advantage.",
+  "title_relatable": "Which quantum encoding method actually works on today's noisy hardware?",
+  "hook": "Above a 1-in-1000 error rate, simple angle encoding beats the theoretically superior amplitude method every time.",
+  "summary": "Quantum machine learning promises exponential data compression by encoding classical inputs into quantum states — but noisy hardware ruins the math. This survey of 66 papers builds the first framework that jointly weighs circuit cost, expressiveness, and noise tolerance, then distills it into a decision guide: once gate error rates exceed roughly 1 in 1,000 (where most current devices sit), the theoretically elegant amplitude encoding collapses, and plain angle encoding wins. A useful reality check for anyone reading breathless QML benchmarks.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 742,
+  "tokens_out": 186,
+  "cost_usd": 0.005016,
+  "ingested_at": "2026-06-05T10:12:45.219449+00:00"
+}

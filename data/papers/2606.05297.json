@@ -1,0 +1,24 @@
+{
+  "id": "2606.05297",
+  "arxiv_url": "https://arxiv.org/abs/2606.05297",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph",
+    "hep-lat",
+    "nucl-th"
+  ],
+  "title_original": "Continuous-variable ADAPT-VQE for bosonic lattice models",
+  "authors": "Dimitrios Athanasakos, Gloria Tejedor-García, Jack Y. Araz, Mafalda Ramôa, Bharath Sambasivam, Sophia E. Economou, Felix Ringer",
+  "abstract": "We present a continuous-variable adaptive variational quantum eigensolver (CV-ADAPT-VQE). As concrete examples, we consider the ground-state preparation for (i) the Bose-Hubbard model and (ii) the bosonic Kitaev chain, including its extension with an on-site Kerr interaction. The former conserves the total boson number, while the latter conserves global parity. We construct symmetry-preserving operator pools tailored to each case and show, using GPU-based classical simulations, that CV-ADAPT-VQE results in significantly shallower circuits compared to Hamiltonian-based VQE approaches. Our results point toward direct applications in quantum simulations of condensed-matter systems, quantum chemistry, and high-energy physics.",
+  "title_relatable": "Smarter quantum circuits for simulating bosons on a lattice",
+  "hook": "A self-building quantum algorithm cuts circuit depth dramatically for hard bosonic physics problems.",
+  "summary": "CV-ADAPT-VQE is an algorithm that constructs its own quantum circuit step-by-step, adding only the operations that most reduce a system's energy. Applied to two benchmark lattice models — the Bose-Hubbard model and the bosonic Kitaev chain — it produces significantly shallower circuits than standard approaches, meaning fewer error-prone quantum gates. Shallower circuits are critical for running meaningful calculations on today's noisy quantum hardware.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 644,
+  "tokens_out": 169,
+  "cost_usd": 0.004467,
+  "ingested_at": "2026-06-05T10:13:01.480930+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.06392",
+  "arxiv_url": "https://arxiv.org/abs/2606.06392",
+  "announced_date": "2026-06-04",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Robustness of Entanglement Manipulation for almost i.i.d. sources",
+  "authors": "Nilanjana Datta",
+  "abstract": "We study the robustness of asymptotic entanglement manipulation beyond the exact i.i.d. regime, focusing on Mazzola--Sutter--Renner (MSR) almost i.i.d. sources, which allow a sublinear number of deviations from a tensor-power structure. For pure MSR sources along a bipartite reference state $|φ\\rangle_{AB}$, we prove that the entanglement concentration rate is robust: every rate below the entropy of entanglement $S(φ_A)$ remains achievable. Moreover, this can be done by a single Schur--Weyl concentration protocol that is universal within the MSR class, depending only on the reference state and not on the particular source sequence. For mixed MSR sources along a reference state $ρ_{AB}$, we prove a source-dependent entanglement-distillation achievability result: every rate below the coherent information $I(A\\rangle B)_ρ$ of the reference state is achievable, although the entanglement distillation protocol may depend on the particular MSR source sequence. For the reverse task of entanglement dilution, we prove a rate-robustness theorem: the asymptotic entanglement cost of any MSR target sequence along $ρ_{AB}$ is at most $E_F^\\infty(ρ_{AB})$, the regularized entanglement of formation of the reference state. To establish these results, we prove structural and entropic properties of MSR almost i.i.d. sequences which may be useful in other information-theoretic settings. Thus, for the achievability statements considered here, MSR almost i.i.d. perturbations exhibit the same asymptotic behaviour as their i.i.d. reference states, despite allowing sublinear deviations from a tensor-power structure.",
+  "title_relatable": "Does quantum entanglement manipulation break when conditions aren't perfect?",
+  "hook": "Quantum entanglement protocols remain reliable even when the underlying source deviates slightly from ideal conditions, a new proof confirms.",
+  "summary": "Entanglement manipulation—concentrating or diluting quantum correlations—is usually analyzed under idealized, perfectly repetitive conditions. This work shows the key rate limits (entropy of entanglement, coherent information, entanglement cost) all survive when the source is allowed a sublinear number of deviations from that perfect structure. One protocol even works universally across the entire 'almost i.i.d.' class without needing to know the specific deviation pattern, which matters for building practical quantum communication systems.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 847,
+  "tokens_out": 184,
+  "cost_usd": 0.005301,
+  "ingested_at": "2026-06-05T10:12:10.888496+00:00"
+}

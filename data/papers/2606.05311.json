@@ -1,0 +1,22 @@
+{
+  "id": "2606.05311",
+  "arxiv_url": "https://arxiv.org/abs/2606.05311",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Setting angles in quantum approximate optimization at utility-scale",
+  "authors": "Maosheng Guo, Joel Jurado Diaz, Anurag Ramesh, Conrad J. Haupt, Alberto Baiardi, Dimitrios Athanasakos, M. Emre Sahin, Oscar Wallis, George Pennington, Christian Arenz, Sebastian Brandhofer, Georgios Korpas, Ieva Čepaitė, J. A. Montañez-Barrera, Jakub Marecek, Davide Venturelli, Stephan Eidenbenz, David E. Bernal Neira, Daniel J. Egger",
+  "abstract": "The quantum approximate optimization algorithm (QAOA) is a powerful heuristic that seeks to solve combinatorial optimization problems using quantum hardware and classical optimization in tandem. Various methods exist to train the parameterized quantum circuits that serve as an ansatz in QAOA. However, which method works best to identify optimal angles for a given problem instance remains poorly understood, especially at utility-scale, i.e., $100$ qubits or more. In this work, we address this challenge through utility-scale benchmarks from which we distill operational guidance for QAOA practitioners. First, we investigate approximation techniques, such as matrix product states and Pauli propagation, to find optimal angles. Second, we train QAOA on small-scale representative problems and transfer the angles to larger ones. We then validate the results on quantum hardware for utility-scale problem instances that can be meaningfully executed. In this way, we identify insights for QAOA angle setting strategies that work best for problems at the utility scale, including as a function of resource cost for the search. Crucially, the operational implications we draw from our benchmarks will help quantum optimization practitioners execute QAOA end-to-end pipelines efficiently on current and future hardware.",
+  "title_relatable": "Which shortcuts actually work for tuning quantum optimization circuits?",
+  "hook": "At 100+ qubits, picking the right angle-setting method for quantum optimizers can make or break results — this benchmark finally maps the landscape.",
+  "summary": "Quantum approximate optimization needs circuit parameters tuned just right, but no one knew which tuning method wins at real scale (100+ qubits). Testing approximation techniques like matrix product states and \"train small, transfer big\" strategies, then validating on actual quantum hardware, the team found clear operational winners that depend on available compute budget. The result is a practical decision guide for running these algorithms end-to-end on today's machines.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 817,
+  "tokens_out": 170,
+  "cost_usd": 0.005001,
+  "ingested_at": "2026-06-05T10:12:50.577110+00:00"
+}

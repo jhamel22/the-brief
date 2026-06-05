@@ -1,0 +1,23 @@
+{
+  "id": "2606.05502",
+  "arxiv_url": "https://arxiv.org/abs/2606.05502",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "cond-mat.str-el",
+    "quant-ph"
+  ],
+  "title_original": "Complexity of the Laughlin wave function from the Dyson-orbital perspective",
+  "authors": "J. M. Zhang, Y. Liu",
+  "abstract": "The Fermi sea is a simple and common concept in physics. However, a related and equally simple concept -- the Dyson orbital -- is far less discussed in physics, especially in textbooks. Yet, Dyson orbitals offer a valuable tool for characterizing the complexity of a fermionic wave functions, particularly in distinguishing between Fermi-sea-like and non-Fermi-sea-like states. As a preliminary application, we examine the Laughlin wave function and find the fortunate fact that the Dyson orbitals can be determined analytically. Further numerical data provides \\emph{quantitative} evidence that the Laughlin wave function describes a strongly correlated, non-Fermi liquid state.",
+  "title_relatable": "How strange is the Laughlin quantum liquid, really?",
+  "hook": "A rarely taught quantum tool puts a precise number on just how 'non-ordinary' the Laughlin fractional quantum Hall state is.",
+  "summary": "Dyson orbitals — the quantum analogue of asking 'what orbital does a particle leave behind when removed?' — turn out to be analytically solvable for the Laughlin wave function, a famous description of the fractional quantum Hall effect. The results give quantitative, not just qualitative, proof that Laughlin's state is deeply unlike a normal electron gas. It's a clean diagnostic tool for a 40-year-old problem that previously lacked such direct numerical evidence.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 584,
+  "tokens_out": 181,
+  "cost_usd": 0.004467,
+  "ingested_at": "2026-06-05T10:12:21.826143+00:00"
+}

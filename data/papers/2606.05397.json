@@ -1,0 +1,22 @@
+{
+  "id": "2606.05397",
+  "arxiv_url": "https://arxiv.org/abs/2606.05397",
+  "announced_date": "2026-06-03",
+  "subject": "quant-ph",
+  "subjects_all": [
+    "quant-ph"
+  ],
+  "title_original": "Multi-Qubit Dyadic Phase Fixing for Fault-Tolerant Quantum Compilation",
+  "authors": "Justin Kalloor, Mathias Weiden, Ed Younis, John Kubiatowicz, Costin Iancu",
+  "abstract": "Fault-tolerant quantum computing requires translating application-level quantum circuits into the Clifford+$T$ gate set, where the $T$ gate is the dominant resource cost. Phase kickback is an ancilla-based technique that can dramatically reduce $T$-count for rotations with dyadic angles, but has previously been limited to highly structured circuit families. We present Dyadic Phase Fixing (DPF), a general multi-qubit synthesis tool that extends phase kickback to general quantum circuits. DPF uses numerical unitary synthesis to greedily extract dyadic angle rotations from any input circuit. Combined with a decision matrix to automatically size the final phase gradient register, our end-to-end workflow achieves up to 70% reduction in $T$-count compared to \\texttt{gridsynth} and up to 60% compared to Repeat-Until-Success synthesis on a diverse set of benchmarks. We map these compiled circuits to a surface-code architecture to evaluate space-time volume, demonstrating up to a 60\\% reduction in this metric as well. However, for some circuits and mapping strategies the two metrics diverge significantly, demonstrating that $T$-count alone is a useful but incomplete proxy for fault-tolerant program costs.",
+  "title_relatable": "Cutting quantum computing's most expensive ingredient by 70%",
+  "hook": "A new compilation method slashes the T-gate count in fault-tolerant quantum circuits by up to 70%, attacking the dominant cost in practical quantum computing.",
+  "summary": "T-gates are the bottleneck of fault-tolerant quantum computing — they're expensive and slow to implement on error-corrected hardware. This work generalizes a trick called phase kickback, previously confined to special circuit families, into a general-purpose tool that extracts favorable angle structures from any circuit and exploits them. Benchmarks show up to 70% fewer T-gates and 60% less space-time volume on real hardware layouts, though the two metrics sometimes diverge, warning that T-count alone can mislead optimization efforts.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 726,
+  "tokens_out": 196,
+  "cost_usd": 0.005118,
+  "ingested_at": "2026-06-05T10:12:39.206244+00:00"
+}
