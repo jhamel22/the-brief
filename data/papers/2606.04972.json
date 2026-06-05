@@ -1,0 +1,22 @@
+{
+  "id": "2606.04972",
+  "arxiv_url": "https://arxiv.org/abs/2606.04972",
+  "announced_date": "2026-06-03",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Non-Supervised Community Detection and Hierarchical Modularity Estimation in Complex Networks",
+  "authors": "Alexandre Benatti, Luciano da F. Costa",
+  "abstract": "The present work extends to complex networks a recently described methodology (A. Benatti and L. da F Costa, Detecting Hierarchical Clusters and Estimating their Modularity Directly from Dendrograms, May 2026) for non-supervised hierarchical cluster detection and hierarchical modularity estimation. First, the edge betweenness centrality of a given complex network (or graph) is estimated, and a dendrogram is obtained from these values by using some linkage criterion (average linkage is considered in the present work). The mentioned concepts and methods can then be applied to the obtained dendrogram associated with the hierarchical structure of the nodes interrelationship, paving the way to community detection and hierarchical modularity estimation. Promising results are presented and discussed respectively to two types of modular networks, namely fractal networks (which are intrinsically hierarchical) and prime partition networks.",
+  "title_relatable": "Can we automatically find hidden communities in tangled networks?",
+  "hook": "A method to detect hierarchical clusters in networks without manual labels, tested on fractal and modular graph structures.",
+  "summary": "Researchers combined edge betweenness (a measure of how often connections pass through a node) with dendrogram analysis to automatically identify nested community structures in networks. Unlike supervised methods that need human labels, this approach works blind—building a hierarchy from the network's natural flow patterns. They tested it on fractal networks (which have communities within communities) and partition networks, showing it can both detect clusters and measure how modular they are.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 626,
+  "tokens_out": 165,
+  "cost_usd": 0.0011608,
+  "ingested_at": "2026-06-05T09:11:23.347571+00:00"
+}

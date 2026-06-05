@@ -1,0 +1,22 @@
+{
+  "id": "2606.05591",
+  "arxiv_url": "https://arxiv.org/abs/2606.05591",
+  "announced_date": "2026-06-04",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Stereotyping by strategy standing diversifies cooperation patterns in indirect reciprocity",
+  "authors": "Ming Wei, Xin Wang, Wenqiang Zhu, Longzhao Liu, Hongwei Zheng, Feng Fu, Shaoting Tang",
+  "abstract": "Indirect reciprocity explains how cooperation evolves through social reputations. People observe others, assign reputations, and condition their future actions on these assignments. This process is cognitively demanding, and stereotyping offers a simpler alternative by replacing individual-level reputation with group-level information. Theoretical models commonly implement stereotyping through exogenously given group labels. In real societies, however, group-level impressions may be associated with observable patterns of behavior. Here we propose a framework of stereotyping by strategy standing, in which mutants may condition their actions on the overall reputation level associated with a resident strategy rather than on the recipient's reputation. We show that this form of stereotyping can diversify stable cooperation in indirect reciprocity. As the strength of stereotyping increases, additional cooperative evolutionarily stable norm-strategy (ESS) pairs emerge in substantial numbers. In particular, we identify eight highly cooperative ESS pairs that become stable under very weak stereotyping. These pairs, which we call the counterparts of the leading eight, share the same social norms as the classical leading eight and differ only in how they prescribe behavior between bad individuals. They are unstable without stereotyping because they can be invaded by their corresponding leading strategies, but they become stable once stereotyping exceeds a critical threshold. Our results suggest that group-level impressions based on strategy standing can provide a coarse-grained informational route to stable cooperation and offer a more behaviorally grounded perspective on how stereotyping affects indirect reciprocity.",
+  "title_relatable": "Does judging people by their group's reputation stabilize cooperation?",
+  "hook": "Stereotyping by observable behavior patterns—not just labels—can stabilize eight new cooperation strategies that classical models say should collapse.",
+  "summary": "People often judge individuals based on their group's reputation rather than tracking everyone's personal history. A new mathematical model shows that when stereotyping targets strategy patterns rather than fixed group labels, it unexpectedly stabilizes eight new cooperation norms alongside the classical leading eight. These hybrid strategies become stable only above a critical stereotyping threshold, suggesting that group-level impressions, even crude ones, can sustain cooperation where individual reputation tracking alone fails.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 782,
+  "tokens_out": 172,
+  "cost_usd": 0.0013135999999999998,
+  "ingested_at": "2026-06-05T09:11:12.788798+00:00"
+}

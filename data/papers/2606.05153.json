@@ -1,0 +1,25 @@
+{
+  "id": "2606.05153",
+  "arxiv_url": "https://arxiv.org/abs/2606.05153",
+  "announced_date": "2026-06-03",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.comp-ph",
+    "cond-mat.soft",
+    "physics.bio-ph",
+    "physics.soc-ph"
+  ],
+  "title_original": "GEMINI: Generalized Ensnarlment Measure from Incomplete-linkage of Network-network Interactions",
+  "authors": "Yu Tian, Chinmayi Subramanya, Carl D. Modes",
+  "abstract": "Spatially embedded networks are central to many physical and biological systems, where geometry and connectivity jointly shape structure and function. Examples abound across the scales of biological organization, from network-like membrane-bound organelles in the cell to mesoscale tissue organization of multiple distinct flow networks in organs and beyond. In each of these cases, the complexity of the architectures has heretofore frustrated our ability to link mechanism or regulation of these structures to reduced modeling or even relevant characterization, putting structure-function relationships largely out of reach. Complex, functional spatial networks can be decomposed into tree-like and cyclic substructures, but we still lack both an understanding of how these elements intertwine to give rise to function, and the tools to holistically quantify both the topological and geometric aspects of these features in their full network context. To close this gap, we here introduce GEMINI, a topology and geometry aware operator that directly characterizes incomplete linking and more general spatial associations between edges in spatially embedded network architectures. GEMINI contains information on edge-edge association through an incomplete version of the Gauss linking integral which simultaneously endows it with topological sensitivity when collections of edges form linked assemblages. Validation on both synthetic lattices and on mouse brain vasculature data demonstrates that GEMINI systematically captures and classifies the complexity of structural organizations. Our results provide a general approach for analyzing spatial networks in realistic data, where topology and geometry together determine function, thus opening the door to a more complete understanding of structure-function relationships across a broad set of biological examples where complex network organization is key.",
+  "title_relatable": "How do tangled networks in cells and organs actually work?",
+  "hook": "New tool measures how network branches intertwine in 3D space, revealing hidden organizational patterns in blood vessels and brain tissue.",
+  "summary": "Biological networks—blood vessels, neural connections, organ plumbing—combine loops and branches in ways that matter for function, but we've lacked tools to measure that complexity. Researchers developed GEMINI, which uses a geometric version of the linking integral to quantify how edges in 3D networks twist around each other. Tests on synthetic lattices and real mouse brain vasculature show it can classify different organizational architectures, offering a bridge between network topology, geometry, and biological function.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 781,
+  "tokens_out": 181,
+  "cost_usd": 0.0013488000000000003,
+  "ingested_at": "2026-06-05T09:11:18.152086+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.05954",
+  "arxiv_url": "https://arxiv.org/abs/2606.05954",
+  "announced_date": "2026-06-04",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "cs.SI",
+    "nlin.AO",
+    "stat.ME"
+  ],
+  "title_original": "Network model selection: A review of methods",
+  "authors": "Zoran Levnajić",
+  "abstract": "Understanding the processes behind the evolution of complex networks is a key objective in network science. An effective framework for tackling this challenge is network model selection, which involves finding the model from a set of candidates that best explains a given network. This book is a systematic review of methods for this purpose. Each method is outlined in three parts: its core principle (used to organize methods into four categories), other relevant details including my own observations, and software availability. The book provides a comprehensive overview of the state-of-the-art in network model selection and concludes by exploring future directions. A unified, optimal method could identify the mechanisms that shape real-world networks more precisely than any current approach. This work represents the first step toward developing such an optimal method. It will be a valuable resource for students and researchers in network science.",
+  "title_relatable": "How do you pick the right model for a network?",
+  "hook": "A comprehensive review of methods for choosing which mathematical model best explains a real network's structure and evolution.",
+  "summary": "Networks evolve through specific processes—but which ones? This review catalogs methods for selecting the best explanatory model from competing candidates, organizing them by core principle and evaluating their strengths. The goal: identify mechanisms shaping real-world networks more precisely than current tools allow.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 586,
+  "tokens_out": 129,
+  "cost_usd": 0.0009847999999999999,
+  "ingested_at": "2026-06-05T09:11:04.955088+00:00"
+}

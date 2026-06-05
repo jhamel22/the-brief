@@ -1,0 +1,23 @@
+{
+  "id": "2606.05062",
+  "arxiv_url": "https://arxiv.org/abs/2606.05062",
+  "announced_date": "2026-06-03",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "math.DS"
+  ],
+  "title_original": "Partisan voter model on complex networks: Dynamics of local ordering",
+  "authors": "Jaume Llabrés, Maxi San Miguel, Raúl Toral",
+  "abstract": "We investigate the processes of local ordering for the partisan voter model on complex networks. In this model agents hold a binary opinion and a fixed preference that biases updates toward alignment with their preferred state. We first study the dynamics on uncorrelated random networks and derive a pair approximation that resolves the densities of links between different classes of agents. The analytical predictions are in excellent agreement with Monte Carlo simulations. In this setting, partisan bias leaves the total stationary density of active links, i.e. links connecting nodes in different states, unchanged and at the same value as in the standard voter model, but redistributes it among different categories of links. We then consider preference-dependent networks with homophilic and heterophilic attachment to analyze the competition between the global bias mechanism and the local effect of preference-based connectivity. In this case, structural correlations qualitatively modify the stationary state. We identify different regimes of local ordering in the space of parameters measuring the strength of the preference and the strength of the homophilic attachment. Our work clarifies the distinct roles of dynamical partisan bias and structural assortativity, and provides an analytical framework to study partisan opinion dynamics beyond mean-field theory.",
+  "title_relatable": "How does personal bias reshape opinion networks more than mean-field models predict?",
+  "hook": "Partisan voters with fixed preferences reshape link distributions in opinion networks, especially when people preferentially connect to like-minded peers.",
+  "summary": "Agents holding binary opinions with built-in preference biases interact on complex networks. Using pair approximation theory, researchers show that partisan bias redistributes active connections (links between opposing opinions) without changing their total number on random networks—but structural homophily (tendency to connect with similar others) qualitatively alters the outcome. The work maps distinct regimes where preference strength and connectivity patterns compete, moving beyond standard mean-field treatments.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 689,
+  "tokens_out": 171,
+  "cost_usd": 0.0012352,
+  "ingested_at": "2026-06-05T09:11:20.821585+00:00"
+}

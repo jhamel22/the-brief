@@ -1,0 +1,22 @@
+{
+  "id": "2606.06262",
+  "arxiv_url": "https://arxiv.org/abs/2606.06262",
+  "announced_date": "2026-06-04",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph"
+  ],
+  "title_original": "Assessing Power System Vulnerability to Climate-Related Stressors and Shocks: The Case of Indonesia",
+  "authors": "Hariadi Aji, Nihit Goyal, Stefan Pfenninger-Lee, Igor Nikolic",
+  "abstract": "Climate change and extreme weather are increasing the vulnerability of power systems globally, particularly in emerging economies such as Indonesia. Yet, existing studies often assess these impacts in isolation, focusing on individual components or specific hazards, leaving system-level implications under-examined. To address this gap, we develop an integrated, spatially explicit approach to assess an energy system's climate-related vulnerabilities and their impacts, and apply the approach to Indonesia. We quantify climate-based vulnerabilities in generation and transmission infrastructure as well as in demand by distinguishing stressors (temperature rise) and shocks (disruptive hazards due to sea-level rise, flooding, and landslides). Through geospatial data analysis, derating models, and regression analysis, we examine existing and planned assets and demand under historical and future climate conditions. Results indicate that both existing and planned generation are likely to experience stress, which implies a reduction in usable capacity, even as electricity demand increases due to temperature rise, and transmission assets face potential disruption from climate change-induced shocks. Together, these effects erode reserve margins by up to 36 percentage points under the 10-year plan, indicating a substantial reduction in system resilience. The largest system, Jawa-Madura-Bali, experiences a 20.8 percentage point decline, leaving a remaining margin of 26.5%, below the 10-year planning threshold. Importantly, the findings suggest that a growing share of future capacity expansion may be absorbed by climate-induced losses, implying that adaptation-related investments may increasingly be required simply to maintain existing supply levels rather than meet future requirements. We conclude that there is an urgent need to embed climate considerations more explicitly into power sector planning.",
+  "title_relatable": "Will Indonesia's power grid survive climate change?",
+  "hook": "Indonesia's largest power system could lose a quarter of its safety margin by 2033, with rising heat cutting generator output even as air conditioning demand surges.",
+  "summary": "Researchers mapped how climate stressors—heat reducing power plant efficiency—and shocks like floods and sea-level rise threaten Indonesia's electricity infrastructure simultaneously. By combining geospatial data with demand and generation models under future climate scenarios, they found the country could lose up to 36 percentage points of reserve capacity, leaving critical grids below safe operating thresholds. Notably, much planned expansion may go toward replacing climate losses rather than meeting growing demand.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 815,
+  "tokens_out": 178,
+  "cost_usd": 0.001364,
+  "ingested_at": "2026-06-05T09:10:56.607226+00:00"
+}

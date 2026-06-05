@@ -1,0 +1,23 @@
+{
+  "id": "2606.04904",
+  "arxiv_url": "https://arxiv.org/abs/2606.04904",
+  "announced_date": "2026-06-03",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "nlin.AO",
+    "physics.soc-ph"
+  ],
+  "title_original": "Symmetry-based selection rules for higher-order interactions in coupled oscillators",
+  "authors": "Iván Léon, Riccardo Muolo, Yuanzhao Zhang, Maxime Lucas",
+  "abstract": "Pairwise interactions among general nonlinear oscillators can be reduced, via phase reduction, to a Kuramoto-type phase coupling $\\sin(- θ_j+θ_k )$. For higher-order interactions, multiple phase couplings exist -- such as $\\sin(-2θ_j+θ_k+θ_l )$ and $\\sin(-θ_j+2θ_k-θ_l)$. Since different nonpairwise coupling functions produce qualitatively different dynamics, it is important to understand which phase couplings should be included in coupled phase oscillator models. In this Letter, we establish selection rules for higher-order phase coupling functions. These selection rules, which can be applied without the need of explicit phase reduction, are solely based on the symmetry of the isolated oscillator velocity field and the $n$-body interaction functions. As phase reduction established the mechanistic basis for the Kuramoto model, our results provide a theoretical link between physical systems and higher-order phase models.",
+  "title_relatable": "Which three-body interactions actually matter in coupled oscillators?",
+  "hook": "Symmetry rules predict which multi-oscillator couplings survive phase reduction, without needing to do the reduction—bridging physics to phase models.",
+  "summary": "When three or more oscillators interact, different combinations of phase couplings produce wildly different dynamics. The authors derive selection rules based purely on symmetry—the shape of individual oscillators and interaction functions—to predict which couplings actually appear. This gives physicists a shortcut to building accurate models of coupled systems without tedious mathematical reductions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 672,
+  "tokens_out": 157,
+  "cost_usd": 0.0011656,
+  "ingested_at": "2026-06-05T09:11:26.176038+00:00"
+}

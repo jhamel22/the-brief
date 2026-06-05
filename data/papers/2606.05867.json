@@ -1,0 +1,24 @@
+{
+  "id": "2606.05867",
+  "arxiv_url": "https://arxiv.org/abs/2606.05867",
+  "announced_date": "2026-06-04",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cs.GT",
+    "math.DS",
+    "physics.soc-ph"
+  ],
+  "title_original": "Exploring cooperation mechanisms via reinforcement learning in network common-pool resource games",
+  "authors": "Yihang Qin, Lin Wang",
+  "abstract": "Sustaining cooperation in resource-constrained populations requires allocation mechanisms that balance individual incentives, resource sustainability, and distributional fairness. This paper proposes a network common-pool resource game in which individuals are embedded in complex networks, participate in multiple overlapping local resource pools, and face endogenous resource constraints during strategy evolution. Within this framework, we first examine two representative allocation mechanisms, equal allocation and proportional allocation. The results show that equal allocation produces fair but inefficient outcomes by weakening contribution incentives, whereas proportional allocation can temporarily promote cooperation but amplifies accumulated advantages and leads to severe inequality. To overcome these limitations, we develop a graph neural network-based reinforcement learning framework in which a learned social planner allocates local pool resources without directly controlling individual strategies. Simulation results under four representative network topologies show that the learned planner sustains higher cooperation levels and average accumulated resources, and reduces inequality compared with the baselines. Furthermore, we interpret the learned policy and distill it into two simpler mechanisms: a resource-dependent mixture mechanism for regular networks and a degree-conditioned mixture mechanism for heterogeneous networks. These mechanisms reveal that effective allocation should adapt to both local resource states and structural positions, providing an interpretable route from reinforcement learning policy search to mechanism design in networked resource-sharing systems.",
+  "title_relatable": "Can AI design fairer rules for sharing limited resources?",
+  "hook": "Machine learning discovers allocation rules that sustain cooperation and reduce inequality better than equal or proportional sharing in networked resource systems.",
+  "summary": "When people share resources in networks—think community fisheries or water systems—simple rules like equal splits fail because they kill incentives, while proportional ones entrench inequality. Researchers used reinforcement learning to train an AI planner that allocates resources based on local conditions and network position, achieving higher cooperation and lower inequality than standard mechanisms. The learned strategy distills into two practical rules adapted to network structure.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 701,
+  "tokens_out": 160,
+  "cost_usd": 0.0012008000000000001,
+  "ingested_at": "2026-06-05T09:11:07.564992+00:00"
+}

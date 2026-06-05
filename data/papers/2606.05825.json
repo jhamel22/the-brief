@@ -1,0 +1,23 @@
+{
+  "id": "2606.05825",
+  "arxiv_url": "https://arxiv.org/abs/2606.05825",
+  "announced_date": "2026-06-04",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "physics.soc-ph",
+    "eess.SY"
+  ],
+  "title_original": "On Leadership Emergence in Opinion Dynamics on Social Networks",
+  "authors": "Martina Alutto, Lorenzo Zino, Karl H. Johansson, Angela Fontan",
+  "abstract": "Leadership in social groups emerges dynamically through interaction and opinion exchange. Empirical evidence indicates that individuals expressing strong opinions tend to gain influence, while sustained leadership critically depends on maintaining alignment with the surrounding social context. Motivated by these observations, we introduce a coupled dynamical model describing the simultaneous evolution of opinions and leadership in a networked population. Extending the Friedkin-Johnsen framework, we represent leadership as a time-varying susceptibility to social influence, which evolves according to a game-theoretic mechanism, consistent with social psychology evidence. Within this setting, agents strengthen their leadership by expressing decisive yet socially coherent opinions, whereas misalignment with the collective state results in a loss of influence. We analyze the coupled dynamics and establish sufficient conditions to identify which agents necessarily emerge as leaders and which act as followers in the social network.",
+  "title_relatable": "Why do outspoken people gain influence—then sometimes lose it?",
+  "hook": "A mathematical model shows leaders stay in charge by balancing strong opinions with social alignment; misalignment kills influence fast.",
+  "summary": "Social leaders don't stay in power by being stubborn—they win by expressing confident views that match the group's mood. This study models opinion and influence as coupled dynamics: agents gain leadership by being decisive yet socially coherent, but lose it when too far out of step with peers. The framework, rooted in game theory and social psychology, predicts who becomes leader versus follower.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 613,
+  "tokens_out": 159,
+  "cost_usd": 0.0011264,
+  "ingested_at": "2026-06-05T09:11:10.310224+00:00"
+}

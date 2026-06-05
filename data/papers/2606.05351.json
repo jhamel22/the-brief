@@ -1,0 +1,25 @@
+{
+  "id": "2606.05351",
+  "arxiv_url": "https://arxiv.org/abs/2606.05351",
+  "announced_date": "2026-06-03",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "nlin.CD",
+    "physics.comp-ph",
+    "physics.soc-ph",
+    "q-bio.PE"
+  ],
+  "title_original": "Tricriticality and chaos in a generalized Allee-logistic map",
+  "authors": "Marcelo A. Pires, José S. Andrade, Hans J. Herrmann",
+  "abstract": "We present a novel nonlinear dynamical model, the generalized Allee-logistic (GAL) map given by $x_{t+1} = r x_t (1 - x_t) G(x_t)$ where $G(x_t) = m (x_t - h) + 1 - m$ incorporates the Allee effect with magnitude $m$ and threshold $h$. The case $m = 0$ yields the logistic map with a continuous transition to extinction. Conversely, $m = 1$ recovers a previously studied model that undergoes only a discontinuous extinction-to-active transition. Between these extremes, the GAL map exhibits nontrivial phenomena, including tricriticality with a closed-form expression for the tricritical point and a universal crossover function. Under a small external input, we verify Widom-like relations. We also note that the Allee effect disfavors the onset of chaos. Our work establishes additional bridges between analytically tractable chaotic maps, nonequilibrium tricriticality, and Allee effects.",
+  "title_relatable": "When does population collapse happen suddenly versus gradually?",
+  "hook": "A generalized population model reveals a special tricritical point where extinction can flip from gradual to abrupt—and shows Allee effects actually suppress chaos.",
+  "summary": "Population models often assume birth and death scale smoothly with density, but real species face Allee effects: they struggle when too sparse. This work studies a map combining logistic growth with tunable Allee effects, finding that at a specific parameter combination (the tricritical point), the system exhibits unusual symmetry-breaking behavior. The model connects population dynamics to physics concepts like phase transitions and chaos suppression, with potential applications to conservation biology.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 692,
+  "tokens_out": 175,
+  "cost_usd": 0.0012536,
+  "ingested_at": "2026-06-05T09:11:15.596883+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.05961",
+  "arxiv_url": "https://arxiv.org/abs/2606.05961",
+  "announced_date": "2026-06-04",
+  "subject": "physics.soc-ph",
+  "subjects_all": [
+    "cs.CY",
+    "physics.soc-ph"
+  ],
+  "title_original": "Political Persuasion and Endorsement in Large Language Models",
+  "authors": "Alessia Antelmi, Alessia Galdeman, Lucio La Cava, Arianna Pera, Giovanni Da San Martino",
+  "abstract": "Large Language Models (LLMs) are increasingly employed as proxies for human behavior in computational social science. However, their tendency to internalize biases from training data raises concerns about their reliability in politically sensitive domains, specifically in regard to their susceptibility to persuasive language. In this work, we examine whether LLMs endorse persuasion-infused messages and whether partisan persona prompting modulates such endorsement. We evaluate six LLMs from different geographic regions on content annotated with persuasion techniques drawn from real-world media sources, measuring the likelihood of endorsement using a five-point Likert scale. The models are prompted as either a neutral social media user or as a user with left- or right-leaning political views. Results show that without political conditioning, LLMs generally do not endorse messages containing persuasion techniques, though model-level differences emerge, and that partisan persona prompting increases polarization of endorsement, particularly for persuasion-infused content. Endorsement further varies by persuasion technique and topic. These findings raise concerns about agentic LLM deployments in politically sensitive environments and complicate their use as reliable simulators of human political cognition.",
+  "title_relatable": "Do AI chatbots fall for political persuasion tricks?",
+  "hook": "Six large language models endorsed persuasive political messages more readily when prompted to adopt left or right-leaning personas, raising questions about their reliability in politically sensitive applications.",
+  "summary": "Researchers tested whether LLMs like GPT and Claude endorse persuasive political messages, finding they largely resist them when neutral—but dramatically increase endorsement when prompted to adopt partisan identities. The effect varied by model origin and persuasion technique used, suggesting these systems amplify political polarization when given even subtle ideological framing, a troubling discovery if they're deployed as autonomous political actors or to simulate human voters.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 707,
+  "tokens_out": 177,
+  "cost_usd": 0.0012736,
+  "ingested_at": "2026-06-05T09:11:00.429608+00:00"
+}
