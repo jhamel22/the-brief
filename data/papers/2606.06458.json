@@ -1,0 +1,24 @@
+{
+  "id": "2606.06458",
+  "arxiv_url": "https://arxiv.org/abs/2606.06458",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "title_original": "In-Context Multiple Instance Learning",
+  "authors": "Alexander Möllers, Marvin Sextro, Julius Hense, Gabriel Dernbach, Klaus-Robert Müller",
+  "abstract": "Multiple Instance Learning (MIL) addresses problems where supervision is available at the level of bags of instances and has been successfully applied in fields ranging from computational pathology to satellite imagery. Nevertheless, existing algorithms struggle in the low-label regime that characterizes many real-world applications. Flexible models overfit and rigid ones fail to adapt to the task at hand. We show that pretraining an in-context learner with a Perceiver-style architecture on synthetic data yields a model that can solve new tasks from a handful of labeled bags. At inference time, classification happens in a single forward pass and requires no gradient updates. We propose and investigate different synthetic data generators for bag-structured data and find that they capture complementary inductive biases. A model pretrained on a mixture of these generators inherits their per-task strengths and achieves the best average performance across twelve MIL benchmarks, outperforming supervised baselines that require task-specific training.",
+  "title_relatable": "Can a model learn MIL tasks from just a few examples?",
+  "hook": "Single-pass learning beats supervised methods across 12 MIL benchmarks, no task-specific training needed.",
+  "summary": "Multiple instance learning—where you label groups rather than individual items—typically requires substantial labeled data. This work trains a Perceiver-based model on synthetic bag-structured data, then tests whether it can solve new MIL tasks from only a handful of labeled examples at inference time via in-context learning. The pretrained model, trained on a mixture of synthetic generators, outperforms supervised baselines across 12 benchmarks without gradient updates or task-specific tuning, addressing the low-label bottleneck in pathology and satellite imagery.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 645,
+  "tokens_out": 192,
+  "cost_usd": 0.001284,
+  "ingested_at": "2026-06-05T10:23:02.123559+00:00"
+}

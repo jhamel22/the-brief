@@ -1,0 +1,22 @@
+{
+  "id": "2606.06278",
+  "arxiv_url": "https://arxiv.org/abs/2606.06278",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Geodesic Flow Matching on a Riemannian Degradation Manifold for Blind Image Restoration",
+  "authors": "Akshay Janardan Bankar, Ankita Chatterjee, Sayan Banerjee, Shreyas Pandith, Kalakonda Sai Shashank, Amit Satish Unde",
+  "abstract": "Blind image restoration requires recovering clean images from observations corrupted by unknown and potentially mixed degradations. While recent deterministic flow-based methods model restoration as transport processes that map degraded images to clean ones, they typically rely on Euclidean interpolation, implicitly assuming linear degradation geometry. In this paper, we explicitly model degradations as points on a low-dimensional Riemannian manifold and formulate restoration as geodesic transport on the joint image-manifold space. Using a geodesic flow matching objective, we learn intrinsic transport dynamics that respect the curvature of degradation space. This framework generalizes linear flow matching, provides a principled treatment of mixed degradations as geodesic compositions, and yields a clean theoretical interpretation for generalization beyond observed degradations.",
+  "title_relatable": "Can curved geometry fix blind image restoration?",
+  "hook": "Treats image degradations as points on a curved manifold, learning geodesic paths instead of straight lines for restoration tasks.",
+  "summary": "Blind image restoration recovers clean images from corrupted inputs without knowing the corruption type. Instead of treating degradation as linear, this work models it on a curved Riemannian manifold and learns geodesic (shortest curved paths) from degraded to clean images. The approach handles mixed degradations naturally and generalizes beyond degradation types seen during training.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 654,
+  "tokens_out": 150,
+  "cost_usd": 0.0011232,
+  "ingested_at": "2026-06-05T10:23:49.390910+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.06100",
+  "arxiv_url": "https://arxiv.org/abs/2606.06100",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "HyperVis: Continuous Latent Visual Relational Graphs on the Lorentz Hyperboloid for Compositional Reasoning",
+  "authors": "Moshiur Farazi, Sameera Ramasinghe, Mahbub Ahmed Turza, Shafin Rahman",
+  "abstract": "Vision-Language Models (VLMs) struggle with compositional reasoning that requires understanding inter-object relationships. A natural remedy is to inject explicit scene graph triplets $\\langle s, p, o \\rangle$ from an off-the-shelf scene graph generator (SGG), but we show this backfires: discrete text labels collide with the continuous visual modality, degrading GQA accuracy from 60.38\\% to 58.86\\%. We propose \\textbf{HyperVis}, which bypasses the SGG semantic bottleneck entirely. From $N$ class-agnostic region proposals, we compute a dense $O(N^2)$ visual relation tensor via spatially-biased cross-attention, project it onto a Lorentz hyperboloid, and enforce hierarchy through spatial physics, namely IoA-driven entailment cones and exterior-angle repulsion. We discover that HyperVis contributes in two complementary ways: (1) as a \\emph{training-time regularizer}, the hyperbolic relational losses shape LoRA representations that improve generative VQA (GQA 61.03\\% vs.\\ 57.21\\% for LoRA fine-tuning without relational losses, recovering and surpassing the baseline); and (2) as an \\emph{inference-time relational encoder}, hyperbolic prefix tokens boost discriminative compositional scoring (SugarCrepe 79.94\\%, $+$6.25pp over baseline). The learned curvature stabilises at $κ{=}4.0$, an order of magnitude above prior hyperbolic VLMs where $κ$ typically collapses toward zero, indicating that continuous visual features genuinely require the exponential volume of strongly curved space. A controlled Euclidean ablation confirms this decomposition: the relational pipeline regularises LoRA comparably in flat space (GQA 60.81\\%), but the compositionality gain is specifically hyperbolic (SugarCrepe $+$4.58pp over Euclidean), with entailment loss ${\\sim}6{\\times}$ higher in Euclidean training. Codes are available at TBA.",
+  "title_relatable": "Why discrete labels break vision-language models at reasoning?",
+  "hook": "Adding scene graphs to VLMs actually hurts accuracy. A new method using hyperbolic geometry recovers 3.8% on GQA and gains 6.25pp on compositional reasoning.",
+  "summary": "Vision-language models fail at compositional reasoning—understanding how objects relate to each other. Injecting discrete scene graph labels backfires because text doesn't align with continuous visual features. HyperVis bypasses this bottleneck by computing dense visual relations via cross-attention, projecting them onto hyperbolic space where hierarchies emerge naturally from geometry. As a training regularizer and inference encoder, it recovers baseline performance on GQA (61.03%) and significantly improves compositional scoring on SugarCrepe (79.94%, +6.25pp), with learned curvature stabilizing at κ=4.0—much stronger than prior hyperbolic VLMs, confirming visual features genuinely need curved space.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 969,
+  "tokens_out": 253,
+  "cost_usd": 0.0017872,
+  "ingested_at": "2026-06-05T10:23:10.594439+00:00"
+}

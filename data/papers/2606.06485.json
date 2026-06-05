@@ -1,0 +1,22 @@
+{
+  "id": "2606.06485",
+  "arxiv_url": "https://arxiv.org/abs/2606.06485",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "PAR3D: A Unified 3D-MLLM with Part-Aware Representation for Scene Understanding",
+  "authors": "Shaohui Dai, Yansong Qu, You Shen, Shengchuan Zhang, Liujuan Cao",
+  "abstract": "Recent advances in 3D multimodal large language models (3D-MLLMs) have enabled unified solutions for 3D scene understanding tasks, including visual question answering, captioning, and referring segmentation. However, existing 3D-MLLMs remain largely object-centric, limiting their ability to model fine-grained part structures that are essential for embodied interaction with 3D environments. In this work, we present PAR3D, a unified part-aware 3D-MLLM framework that enables models to understand, reason about, and ground both objects and their parts in 3D scenes. To enable training and evaluation of part-aware 3D scene understanding, we introduce ScenePart, a synthetic 3D scene dataset with part-level annotations and language instructions. We further develop Part-Aware 3D Representation Learning to enrich 3D visual representations with fine-grained part-level semantics, and propose Hierarchical Segmentation Query Generation to ground part targets via hierarchical object-part queries. Extensive experiments show that our method substantially improves part-level question answering and referring segmentation, while also achieving strong performance across object-level vision-language tasks.",
+  "title_relatable": "Can AI understand 3D scenes as well as their individual parts?",
+  "hook": "Model learns to identify and reason about object parts in 3D scenes, improving part-level QA by substantial margins on new ScenePart dataset.",
+  "summary": "Existing 3D AI models understand objects but miss fine-grained details—like distinguishing a chair's leg from its seat. PAR3D adds part-awareness by learning hierarchical object-part relationships and grounding both in 3D space. A new dataset (ScenePart) with part-level annotations enables training and evaluation. The method substantially improves part-focused tasks while maintaining strong performance on standard object-level benchmarks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 727,
+  "tokens_out": 181,
+  "cost_usd": 0.0013055999999999999,
+  "ingested_at": "2026-06-05T10:23:26.471423+00:00"
+}

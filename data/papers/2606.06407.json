@@ -1,0 +1,25 @@
+{
+  "id": "2606.06407",
+  "arxiv_url": "https://arxiv.org/abs/2606.06407",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.IR",
+    "cs.LG",
+    "eess.IV"
+  ],
+  "title_original": "A Vision-language Framework for Comparative Reasoning in Radiology",
+  "authors": "Tengfei Zhang, Ziheng Zhao, Lisong Dai, Xiaoman Zhang, Pengcheng Qiu, Ya Zhang, Yanfeng Wang, Weidi Xie",
+  "abstract": "Medical imaging artificial intelligence has achieved strong performance in isolated image interpretation, but remains poorly aligned with radiological practice, where diagnosis and follow-up rely on comparison across prior studies and analogous reference cases. Here we formulate radiological comparison as an entity-aware cross-image reasoning problem and introduce a framework that supports both reference-case retrieval and temporal comparative interpretation. We construct MedReCo-DB, a large-scale comparative imaging resource derived from routine image-report pairs, comprising more than 690,000 images from over 160,000 patients across eight institutions, four countries and seven imaging modalities. Reports are decomposed into anatomical structures, abnormal findings and pathological conditions to provide supervision for entity-conditioned retrieval and comparative visual question answering. Using this resource, we develop MedReCo, an entity-aware visual encoder for controllable retrieval of clinically analogous cases, and MedReCo-VLM, a vision--language extension for generative interpretation of interval change. Across internal, external and cross-center evaluations, MedReCo achieved the highest Recall@1 in all 12 internal retrieval settings and improved external retrieval by a mean of 6.0 percentage points. In clinically confusable differential groups, it consistently outperformed the strongest baselines. MedReCo-VLM achieved the best performance across all comparative generation evaluations and improved longitudinal follow-up accuracy by 14.5-46.5 percentage points on chest radiographs and 13.0-27.9 percentage points on CT. These findings suggest that entity-aware comparative reasoning can be learned from routine clinical data at scale and may provide a more clinically aligned foundation for medical imaging AI.",
+  "title_relatable": "Can AI learn to compare medical images like radiologists do?",
+  "hook": "Framework matches prior patient cases and tracks imaging changes over time; improves follow-up accuracy by 14–46% on chest X-rays using 690,000 images.",
+  "summary": "Radiologists diagnose by comparing current scans to prior studies and similar cases—but medical AI typically interprets images in isolation. This work treats comparison as a core task: build retrieval to find analogous cases and a vision-language model to explain interval changes. Using 690,000 images across eight institutions, they train entity-aware models that decompose reports into anatomical structures and findings. MedReCo retrieval improves external matching by 6 percentage points; MedReCo-VLM boosts longitudinal accuracy by 14–46% on chest radiographs. Code and model released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 845,
+  "tokens_out": 222,
+  "cost_usd": 0.001564,
+  "ingested_at": "2026-06-05T10:23:29.681824+00:00"
+}

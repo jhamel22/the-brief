@@ -1,0 +1,22 @@
+{
+  "id": "2606.05896",
+  "arxiv_url": "https://arxiv.org/abs/2606.05896",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Resonant Minds: Closed-Loop Social Avatars with Theory of Mind",
+  "authors": "Jianxu Shangguan, Jing Xu, Hang Ye, Xiaoxuan Ma, Yizhou Wang, Wentao Zhu",
+  "abstract": "Creating lifelike digital humans with genuine social intelligence requires unifying cognitive reasoning and multimodal generation within a coherent framework. Current approaches treat these as separate tasks: Large Language Models excel at dialogue but lack embodied expression, while diffusion-based talking head models achieve visual fidelity but ignore social cognition. To bridge this gap, we propose a closed-loop dual-agent framework integrating perception, social reasoning, and expression into a continuous interaction cycle. The perception module analyzes partners' multimodal behaviors from video, while the social reasoning module infers hidden mental states through Theory of Mind and selects responses via an ensemble mechanism. The expression module then generates emotion-controllable dual-agent videos synthesizing both speaker speech and expression alongside listener reactive behaviors, capturing bidirectional dynamics absent in prior work. We construct a hierarchical Persona-Scenario dataset with psychologically grounded personas and private social goals to support evaluation under information asymmetry. Experiments on this dataset demonstrate competitive or superior performance on both dialogue quality and video generation metrics. Notably, our method surpasses even the full-information Script mode on key dialogue quality dimensions, suggesting that explicit mental state inference under uncertainty can elicit more thoughtful dialogue than unrestricted information access.",
+  "title_relatable": "Can avatars read minds and react naturally?",
+  "hook": "Closed-loop system combines dialogue, emotion, and Theory of Mind to generate realistic two-person video conversations with listener reactions.",
+  "summary": "Current AI treats talking to digital humans as two separate problems: language models chat well but look stiff, while video generators look realistic but ignore social reasoning. This work merges both by creating a closed-loop system where an avatar perceives your behavior, infers your mental state, and responds with synchronized speech and expression—while also generating your reactive listening behavior. Tested on a new dataset with psychological personas and hidden social goals, the method outperforms baselines on dialogue quality even when given less information than competitors, suggesting that explicit uncertainty about what someone thinks actually produces better conversation.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 725,
+  "tokens_out": 194,
+  "cost_usd": 0.001356,
+  "ingested_at": "2026-06-05T10:23:16.276028+00:00"
+}

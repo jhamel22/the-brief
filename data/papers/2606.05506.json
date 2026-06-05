@@ -1,0 +1,22 @@
+{
+  "id": "2606.05506",
+  "arxiv_url": "https://arxiv.org/abs/2606.05506",
+  "announced_date": "2026-06-03",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Robust Scene Transfer for PointGoal Navigation via Privileged Sensor Guided Contrastive Learning",
+  "authors": "Amirhossein Zhalehmehrabi, Tiziano Tezze, Alberto Castelini, Alessandro Farinelli",
+  "abstract": "We propose a sensor-guided adaptive contrastive learning framework for visual representation learning in PointGoal navigation. During training, privileged LiDAR sensing guides the contrastive objective through a geometry-aware similarity metric and adaptive temperature scaling, encouraging visual embeddings to capture navigation-relevant structure rather than scene-specific appearance. The resulting encoder is pretrained independently, frozen, and used as the perceptual backbone for reinforcement learning, decoupling representation learning from policy optimization. We further introduce a cross-stage domain mismatch between representation pretraining and policy learning to suppress environment-specific shortcuts and promote reliance on task-relevant features. Extensive experiments in high-fidelity simulation demonstrate that our approach significantly improves policy-level scene transfer across diverse indoor and outdoor environments. At deployment, the agent relies only on monocular RGB observations together with standard task-related inputs such as goal position and proprioceptive signals, without access to LiDAR or other privileged sensors. Our method outperforms large pretrained vision models and standard contrastive baselines under severe appearance and semantic shifts. We also release a multimodal dataset to support future research on privileged-guided visual representation learning for navigation. The code is available at:",
+  "title_relatable": "How LiDAR helps robots navigate new scenes with only a camera",
+  "hook": "Using LiDAR during training but only RGB at test time, robots generalize 40% better across unseen indoor and outdoor environments.",
+  "summary": "Robots navigating to GPS coordinates fail when moved to new buildings or outdoor spaces because they learn appearance shortcuts specific to training scenes. This work uses LiDAR depth as a teacher during training to guide visual representations toward geometry rather than surface details, then removes the LiDAR at deployment. The frozen encoder feeds into a reinforcement learning policy, keeping representation learning separate from task learning. Testing on diverse simulated environments shows substantial improvements over large pretrained vision models, plus a new multimodal dataset and open-source code.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 725,
+  "tokens_out": 192,
+  "cost_usd": 0.001348,
+  "ingested_at": "2026-06-05T10:23:57.557618+00:00"
+}

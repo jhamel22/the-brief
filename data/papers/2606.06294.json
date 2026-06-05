@@ -1,0 +1,23 @@
+{
+  "id": "2606.06294",
+  "arxiv_url": "https://arxiv.org/abs/2606.06294",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "Towards One-to-Many Temporal Grounding",
+  "authors": "Qi Xu, Yue Tan, Shihao Chen, Jiahao Meng, Anna Wang, Shunping Ji, Hao Fei, Jason Li",
+  "abstract": "Temporal Grounding (TG) aims to localize video segments corresponding to a textual query. Prior research predominantly focuses on single-segment retrieval. Real-world scenarios, however, often require localizing multiple disjoint segments for a single query -- a setting we term One-to-Many Temporal Grounding (OMTG). Previous state-of-the-art MLLMs, optimized for one-to-one settings, struggle in this context, often yielding near-zero scores due to a lack of event cardinality perception. To bridge this gap, we present a systematic solution with three key contributions. First, we establish the first comprehensive OMTG benchmark, introducing Count Accuracy (C-Acc) and Effective Temporal F1 (EtF1) as evaluation metrics. Second, we curate a high-quality OMTG dataset comprising 56k samples through a sophisticated construction pipeline. Third, we develop novel temporal and caption reward functions specifically designed for OMTG. In particular, the caption reward leverages Chain-of-Thought reasoning over dense video captions to explicitly guide policy optimization toward both preciseness and completeness. Extensive experiments show our model achieves a new state-of-the-art EtF1 of 43.65\\% on OMTG Bench, outperforming Gemini 2.5 Pro and Seed-1.8 by 15.85\\% and 15.61\\%, respectively.",
+  "title_relatable": "Can AI find all the moments in a video that match one description?",
+  "hook": "New benchmark for finding multiple video segments per query; custom model outperforms Gemini 2.5 Pro by 15.85% on temporal F1.",
+  "summary": "Current video-text models excel at finding one segment per query but fail when asked to locate multiple unrelated moments matching a single description. Researchers built the first One-to-Many Temporal Grounding benchmark with 56k examples and novel reward functions using chain-of-thought reasoning over video captions. Their approach achieves 43.65% temporal F1, beating commercial models by over 15 percentage points.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 788,
+  "tokens_out": 178,
+  "cost_usd": 0.0013424,
+  "ingested_at": "2026-06-05T10:23:47.303387+00:00"
+}

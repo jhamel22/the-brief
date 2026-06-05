@@ -1,0 +1,22 @@
+{
+  "id": "2606.05829",
+  "arxiv_url": "https://arxiv.org/abs/2606.05829",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Gender Artifacts from Art History to Text-to-Image Generation",
+  "authors": "Piera Riccio, Miriam Doh, Benedikt Höltgen, Noa Garcia, Nanne van Noord",
+  "abstract": "Artistic styles are rooted in specific socio-historical contexts that encode social hierarchies, including distinct constructions of gender. Yet in AI research, style has long been treated as a surface-level visual property: a filter of color, brushstroke, and texture applied to otherwise content-neutral scenes. We introduce the first dataset to investigate the interplay between gender representation and style in both historical and generated images. StyleGender comprises 74k images spanning 19 artistic styles, comprising art historical images with style and gender annotations, T2I-generated images under controlled style and gender prompts, and a semantically aligned set enabling direct art history-to-generation comparison. By proposing two Set Gender Artifact (SGA) metrics (PixelSGA and MaskSGA), capturing gender signals at the pixel level and in compositional structure, we show that (1) gender representation shapes visual features across artistic styles, (2) style keywords carry these patterns into T2I generation, and (3) generative models tend to amplify gender artifacts beyond what is observed in historical sources.",
+  "title_relatable": "Do artistic styles unconsciously encode gender bias?",
+  "hook": "New dataset of 74k images reveals text-to-image models amplify gender patterns baked into art history styles.",
+  "summary": "Artistic styles aren't neutral filters—they encode gendered visual conventions rooted in historical social hierarchies. Researchers created StyleGender, a dataset linking 19 art historical styles to gender representation, and measured how these patterns transfer to AI-generated images. Text-to-image models don't just copy art history; they amplify gender artifacts beyond what appears in original paintings, suggesting generative AI can magnify latent biases in training data.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 682,
+  "tokens_out": 169,
+  "cost_usd": 0.0012216,
+  "ingested_at": "2026-06-05T10:23:21.288266+00:00"
+}

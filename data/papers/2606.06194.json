@@ -1,0 +1,23 @@
+{
+  "id": "2606.06194",
+  "arxiv_url": "https://arxiv.org/abs/2606.06194",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "title_original": "ActiveMimic: Egocentric Video Pretraining with Active Perception",
+  "authors": "Xingyao Lin, Guojin Zhong, Tianyi Lu, Ziyi Ye, Yichen Zhu, Zuxuan Wu, Yu-Gang Jiang",
+  "abstract": "Egocentric human video offers a scalable alternative to robot data for pretraining, yet models pretrained on such video consistently underperform those pretrained on robot data. We attribute this gap to a missing signal, the active perception behavior in egocentric videos, where humans continuously reposition their viewpoint during manipulation, inducing camera motion that standard pipelines treat as noise. To address this, we present ActiveMimic, a pretraining framework that recovers synchronized camera and wrist trajectories from a single body-worn RGB camera, models camera motion as a viewpoint action, and jointly learns active perception and manipulation from in-the-wild egocentric human video before adapting to a target robot. Empirically, real-world experiments across tasks with diverse active perception demands show that ActiveMimic consistently surpasses baselines pretrained on human video and matches state-of-the-art models pretrained on robot data. Further analysis provides evidence that active perception capability originates from egocentric human video pretraining rather than robot-specific fine-tuning, confirming active perception as the key to unlocking egocentric human video for robot pretraining.",
+  "title_relatable": "Why robots learn better from human video when trained on camera movement",
+  "hook": "Models pretrained on human egocentric video now match robot-pretrained performance by treating camera motion as an action, not noise.",
+  "summary": "Robots trained on human video consistently underperform those trained on robot data, even though human video is more abundant. The gap stems from ignoring active perception—how humans reposition their viewpoint during manipulation. ActiveMimic recovers camera and wrist trajectories from egocentric RGB video, models viewpoint repositioning as an action, and jointly learns manipulation and active perception. Real-world robotic experiments show it matches robot-pretrained baselines while using only human video, suggesting active perception is the missing link for scaling robot learning to unconstrained human footage.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 717,
+  "tokens_out": 198,
+  "cost_usd": 0.0013656,
+  "ingested_at": "2026-06-05T10:23:07.518563+00:00"
+}

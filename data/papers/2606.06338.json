@@ -1,0 +1,22 @@
+{
+  "id": "2606.06338",
+  "arxiv_url": "https://arxiv.org/abs/2606.06338",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "StoryVideoQA: Scaling Deep Video Understanding with a Large-Scale, Multi-Genre and Auto-Generated Dataset",
+  "authors": "Zhengqian Wu, Zhixian Liu, Aodong Chen, Jingyang Zhang, Ruizhe Li, Hanlin Ge, Zhongyuan Wang, Chunxia Xiao, Chao Liang",
+  "abstract": "Video question answering (VideoQA) aims to answer questions about given videos. While existing approaches excel on factoid VideoQA, they struggle with deep video understanding (DVU), which requires the comprehension of complex storylines. This challenge arises from the inherent long-range video content, multi-faceted question types, and instance-level story elements, all of which constrain the scale and diversity of manually constructed DVU datasets.These difficulties constrain the scale and diversity of manually-constructed DVU dataset. To address these, we previously introduced StoryMind to automatically construct DVU datasets with balanced fine-grained topics. Though it can generate high-quality question-answer pairs (QAs) for TV series, it suffers significant performance degradation when handling longer and more complex movies. In this paper, we further design StoryMindv2, an enhanced multi-agent collaboration framework to generate high-quality DVU datasets for both TV series and movies. By integrating a novel supervisor-guided generation mechanism and a refined multi-reviewer voting strategy, the framework is utilized to construct StoryVideoQA, the largest DVU dataset to date, featuring over 363K QAs on 393.2 hours diverse story videos including TV series (avg. 1,635 seconds) and movies (avg. 7,878 seconds). Comprehensive evaluations of 20 state-of-the-art VideoQA methods on this large-scale benchmark reveal that they cannot fully maintain long-range character associations or construct a coherent understanding of complex storylines. To bridge this gap, we propose PlotTree, a novel video understanding agent, re-organizing long-range video content into a hierarchical plot structure, enabling efficient storyline reasoning on StoryVideoQA. Project page: https://github.com/nercms-mmap/StoryVideoQA/",
+  "title_relatable": "Can AI understand complex movie plots from video?",
+  "hook": "New dataset of 363K questions on 393 hours of film reveals that even top video models fail at following storylines across long scenes.",
+  "summary": "Existing video question-answering systems handle simple factual queries but stumble when asked to track characters, motivations, and plot arcs over hours of content. Researchers built StoryVideoQA—363K automatically-generated QA pairs spanning TV shows and feature films up to 2 hours long—and benchmarked 20 leading models, showing they lose coherence tracking storylines. They propose PlotTree, which reorganizes video into hierarchical plot summaries to reason about complex narratives more reliably.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 888,
+  "tokens_out": 189,
+  "cost_usd": 0.0014664,
+  "ingested_at": "2026-06-05T10:23:44.770020+00:00"
+}

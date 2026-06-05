@@ -1,0 +1,23 @@
+{
+  "id": "2606.06379",
+  "arxiv_url": "https://arxiv.org/abs/2606.06379",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+  "authors": "Qiwei Zeng, Hao Wang, Jinghao Lin, Shuchang Ye, Yuezhe Yang, Yige Peng, Haoyuan Che, Jinman Kim, Lei Bi",
+  "abstract": "Medical vision-language models (VLMs) have shown increasing potential for clinical image interpretation, including lesion detection and report generation. However, their practical utility remains limited by insufficient sensitivity to subtle lesions, whose visual evidence is often sparse, low-contrast, and embedded within complex anatomical context. As local visual tokens are aggregated, these weak lesion cues can become underrepresented in global image representations, making them difficult for medical VLMs to recognize. Existing efforts to improve lesion sensitivity mainly rely on medical-domain vision-encoder pre-training, clinical-term-guided alignment, or trainable pathological representation enhancement. Although effective, these approaches usually require additional training or model-specific adaptation and may overfit to particular disease morphologies, limiting their applicability to frozen medical VLMs. To address these limitations, we propose EasyLens, a training-free plug-and-play subtle-lesion representation amplifier for medical VLMs. EasyLens first constructs EasyBank, a pathology-anatomy prototype space that provides lesion-related prototypes and anatomy-aware normal references for comparing suspicious patches against both pathological and normal anatomical patterns. To avoid blindly amplifying normal tissues, EasyTag selects lesion-relevant patches through counterfactual prototype reasoning. To counteract the dilution of subtle lesion cues in global image representations, EasyAmplifier strengthens the selected lesion-relevant patch representations through morphology-guided residual enhancement, thereby increasing their contribution to the global image embedding. Experiments on multiple medical image datasets and frozen medical VLM backbones show that EasyLens improves subtle-lesion detection and outperforms existing encoder-enhancement baselines.",
+  "title_relatable": "How to help AI doctors spot tiny, hidden lesions without retraining",
+  "hook": "Plug-and-play method boosts subtle-lesion detection in frozen medical AI models by amplifying weak visual signals without additional training.",
+  "summary": "Medical vision-language models struggle with tiny, low-contrast lesions because weak visual cues get buried when combining local image patches into global representations. EasyLens adds a training-free layer that identifies lesion-relevant patches using pathology prototypes, then amplifies their signal in the final embedding—like turning up the volume on faint acoustic signals. Works with any frozen medical VLM across multiple imaging datasets without retraining.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 860,
+  "tokens_out": 176,
+  "cost_usd": 0.001392,
+  "ingested_at": "2026-06-05T10:23:36.243322+00:00"
+}

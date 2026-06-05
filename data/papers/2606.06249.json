@@ -1,0 +1,23 @@
+{
+  "id": "2606.06249",
+  "arxiv_url": "https://arxiv.org/abs/2606.06249",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "title_original": "GRAMformer: Any-Order Modality Interactions via Volumetric Multimodal Cross-Attention",
+  "authors": "Giordano Cicchetti, Eleonora Grassucci, Danilo Comminiello",
+  "abstract": "Transformer-based multimodal models rely on attention mechanisms to integrate information across heterogeneous modalities. Despite their success, existing multimodal attention formulations compute their scores through collections of pairwise dot-product interactions or by concatenating all the modalities into the keys, even when multiple modalities should be jointly involved. As a consequence, current approaches either incur quadratic complexity in the number of modalities or fail to explicitly model interactions that depend on the joint configuration of multiple representations. In this work, we introduce the Volumetric Multimodal cross-Attention (VMA), a novel cross-attention mechanism in which attention scores are defined as a function of the joint geometry of a query and multiple modality-specific keys. VMA computes the volume spanned by query and key vectors across multiple modalities, capturing joint multimodal dependencies beyond pairwise similarity, enabling native modeling of any-order modality interactions. We integrate VMA into our novel multimodal transformer architecture, named GRAMformer, explicitly designed to integrate any number of modalities. We evaluate the proposed model on multimodal learning tasks, demonstrating improved effectiveness and efficiency.",
+  "title_relatable": "How to make transformers handle many modalities at once?",
+  "hook": "New attention mechanism computes joint geometry across modalities instead of pairwise scores, avoiding quadratic complexity while capturing higher-order interactions.",
+  "summary": "Current multimodal transformers either compute attention as pairwise interactions (scaling poorly with modality count) or concatenate everything (missing joint dependencies). GRAMformer introduces Volumetric Multimodal cross-Attention (VMA), which treats attention scores as functions of the geometric volume spanned by query and key vectors across multiple modalities simultaneously. This captures three-way or four-way interactions natively rather than approximating them through pairs, improving both speed and accuracy on multimodal tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 705,
+  "tokens_out": 188,
+  "cost_usd": 0.001316,
+  "ingested_at": "2026-06-05T10:23:04.757787+00:00"
+}

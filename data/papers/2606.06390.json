@@ -1,0 +1,23 @@
+{
+  "id": "2606.06390",
+  "arxiv_url": "https://arxiv.org/abs/2606.06390",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "title_original": "HomeWorld: A Unified Floorplan-to-Furnished Framework for Generating Controllable, Densely Interactive Whole-Home Scenes",
+  "authors": "Wenbo Li, Xiaoliang Ju, Zipeng Qin, Rongyao Fang, Hongsheng Li",
+  "abstract": "Indoor scene generation is crucial for robot simulation and modern interior design. However, complex layouts together with scarce 3D scene data make learning-based generation challenging. Existing methods often rely on hand-crafted rules or focus on isolated sub-tasks (e.g., floorplan synthesis or single-room furnishing), producing whole-home scenes that lack global coherence, realism, and simulation readiness. To mitigate these limitations, we propose a unified hierarchical framework that decomposes indoor scene synthesis into controllable stages. First, we curate a large-scale dataset of 300K real residential floorplans to train a large language model for whole-home floorplan generation. With detailed descriptions and a K-D tree-based representation, our method enables fine-grained, controllable whole-home floorplan generation. Building upon the generated whole-home floorplan, we leverage image generation models to draft furniture layouts from multi-level roaming viewpoints, and then generate the layouts of small manipulable objects on different supporting surfaces (e.g., cabinets, desks, and dining tables) for embodied AI simulation. During furniture and object layout generation, a VLM-based refiner iteratively corrects furniture and object placement, and a 3D generative model enables flexible replacement of individual assets. We further attach basic physical attributes and simple surface texture and lighting setups to complete the pipeline for embodied AI use. Experiments and user studies demonstrate that our pipeline produces indoor spaces with greater layout diversity and stronger 3D design appeal, outperforming prior methods on both quantitative and qualitative metrics. Finally, alongside our generation pipeline, we will release the floorplan dataset and 5K fully furnished scenes to the community. Project Page: https://kairos-homeworld.github.io/",
+  "title_relatable": "Can AI design whole homes from empty floorplans?",
+  "hook": "End-to-end system generates realistic furnished homes with 300K floorplans, furniture placement, and small objects ready for robot simulation.",
+  "summary": "Generating complete, realistic home interiors is hard—existing methods tackle floorplans or single rooms in isolation, missing global coherence. This work chains together a language model (trained on 300K real floorplans) to generate layouts, image diffusion models to place furniture from multiple viewpoints, and a vision-language model to iteratively fix placement errors. The result: fully furnished, simulation-ready homes with diverse layouts and high design quality. The team releases their floorplan dataset and 5,000 complete scenes.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 860,
+  "tokens_out": 195,
+  "cost_usd": 0.001468,
+  "ingested_at": "2026-06-05T10:23:33.769802+00:00"
+}

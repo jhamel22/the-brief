@@ -1,0 +1,22 @@
+{
+  "id": "2606.05515",
+  "arxiv_url": "https://arxiv.org/abs/2606.05515",
+  "announced_date": "2026-06-03",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "BRepCLIP: Contrastive Multimodal Pretraining on BRep Primitives for CAD Understanding",
+  "authors": "Muhammad Usama, Didier Stricker, Mohammad Sadil Khan, Muhammad Zeshan Afzal",
+  "abstract": "Learning representations of CAD models is a largely open problem. While 3D representation learning has flourished around point clouds and meshes, the native format of CAD - boundary representations BReps, which encodes exact parametric surfaces, curves, and their topology, has received little attention as a representation learning substrate. We introduce BRepCLIP, the first framework to align BRep geometry with language and image embeddings through contrastive pretraining. We model each CAD object as a sequence of face and edge tokens with separate discrete vocabularies for surface and curve geometry, augmented with spatial and semantic descriptors that capture surface types (e.g., cylindrical, torus, NURBS) and curve primitives (e.g., line, arc, B-spline). A transformer encoder aggregates these tokens into a global BRep embedding, aligned with CLIP's text and image encoders via a joint contrastive objective. BRepCLIP generates more discriminative and semantically grounded embeddings than existing point-based alternatives, improving Top-1 retrieval over OpenShape by 40.4%, 22.0%, and 23.9% on ABC, CADParser, and Automate, respectively, and improving zero-shot classification on FabWave by 15% in Top-1 score. We further demonstrate its utility as a CAD-aware similarity metric for evaluating text and image-conditioned CAD generation, establishing the importance of structure-aware pretraining for multimodal CAD understanding. Project page is available at https://muhammadusama100.github.io/BrepClip2026/",
+  "title_relatable": "How to teach AI to understand CAD designs the way engineers do",
+  "hook": "First framework aligning CAD geometry with language and images, improving retrieval 40% over existing methods on standard benchmarks.",
+  "summary": "CAD models store designs as exact mathematical surfaces and curves—not the point clouds most AI uses. BRepCLIP translates this native CAD format into tokens describing surface types (cylinders, NURBS) and curves, then aligns them with text and images via contrastive learning. Result: 40% better retrieval on ABC dataset and stronger zero-shot classification, plus a better metric for evaluating AI-generated CAD.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 817,
+  "tokens_out": 173,
+  "cost_usd": 0.0013456,
+  "ingested_at": "2026-06-05T10:23:54.386252+00:00"
+}

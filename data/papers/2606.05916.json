@@ -1,0 +1,22 @@
+{
+  "id": "2606.05916",
+  "arxiv_url": "https://arxiv.org/abs/2606.05916",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Unveiling the Unknown: Open Vocabulary Object Detection with Scene Graphs",
+  "authors": "Yi Chen, Yinghao Lu, Zhehao Li, Chenchen Yan, Jiafei Wu, Chong Wang, Jiangbo Qian",
+  "abstract": "Open-vocabulary object detection seeks to identify novel object categories that were not part of the training data. Many knowledge distillation-based approaches have shown promising performance by transferring knowledge from pre-trained vision-language models to object detection. However, these methods often overlook structured, image-specific relationships between objects, such as interactions and spatial arrangements. This oversight can significantly restrict the effectiveness of detecting novel categories. To address this issue, we propose a Scene-guided Relational Modeling detection framework. This framework utilizes scene graphs to capture structured semantic and spatial relationships between candidate regions and their contextual objects. It explicitly models interactions among neighboring regions and incorporates a Relation Attention Module to implicitly amplify the key relational cues extracted from the scene graph. Furthermore, we present a scene-based textual alignment branch that distills category knowledge from captions to guide relational alignment. This approach facilitates a seamless integration of visual relations with semantic information for enhanced detection performance. Comprehensive experiments show that our model achieves superior performance compared to other OVOD methods, improving the AP for novel categories on COCO and LVIS datasets.",
+  "title_relatable": "How relationships between objects improve detecting unseen categories",
+  "hook": "Using scene graphs to understand object interactions boosts detection of novel categories by leveraging spatial and semantic context.",
+  "summary": "Open-vocabulary object detection must identify objects never seen during training. Most approaches distill knowledge from vision-language models but ignore how objects relate to each other—their spatial arrangements and interactions. This work adds scene graphs to capture these structured relationships, using a Relation Attention Module to amplify relevant cues and a caption-based alignment branch to connect visual relationships with semantic knowledge. On COCO and LVIS, the method achieves higher accuracy for novel categories than comparable approaches.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 700,
+  "tokens_out": 170,
+  "cost_usd": 0.00124,
+  "ingested_at": "2026-06-05T10:23:13.122248+00:00"
+}

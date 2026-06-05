@@ -1,0 +1,22 @@
+{
+  "id": "2606.06361",
+  "arxiv_url": "https://arxiv.org/abs/2606.06361",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Physics in 2-Steps: Locking Motion Priors Before Visual Refinement Erases Them",
+  "authors": "Woojung Han, Seil Kang, Youngjun Jun, Min-Hung Chen, Fu-En Yang, Seong Jae Hwang",
+  "abstract": "Image-to-Video diffusion models leverage input images to generate visually stunning content, yet frequently produce motion that violates physical laws. We reveal a surprising finding: a 2-step generation often exhibits better physical consistency than a 50-step output from the same model. Through spectral analysis, we trace this to phase erosion during denoising; the phase degrades significantly (dropping by $\\approx 18\\%$ from step 2 to step 50), whereas the magnitude remains relatively stable. Building on this insight, we propose PhaseLock, a training-free framework that preserves the valid motion priors from few-step inference throughout the denoising trajectory. Rather than relying on full-step inference for physical consistency, PhaseLock extracts a motion prior from just 2 steps and enforces it onto high-fidelity generation via Latent Delta Guidance. Our approach effectively mitigates phase degradation, improving physical consistency by an average of 6.2 points across diverse models while largely maintaining visual fidelity, with negligible overhead ($1.06\\times$ time, $1.02\\times$ memory) and reduced reliance on expensive external guidance methods ($\\sim5\\times$ time).",
+  "title_relatable": "Why do video generators forget physics after two steps?",
+  "hook": "Video diffusion models produce more physically realistic motion in 2 steps than 50—here's why, and how to fix it without slowing generation.",
+  "summary": "Video generation models that start from images often violate physics as denoising progresses, even though early steps produce more realistic motion. The culprit: the model's internal phase information degrades by ~18% during the 50-step denoising process while visual details sharpen. PhaseLock locks in the correct motion from just 2 steps and enforces it throughout generation via a training-free guidance method, improving physical consistency by 6.2 points across models with minimal overhead and without expensive external constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 737,
+  "tokens_out": 193,
+  "cost_usd": 0.0013616,
+  "ingested_at": "2026-06-05T10:23:41.896722+00:00"
+}

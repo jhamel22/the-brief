@@ -1,0 +1,22 @@
+{
+  "id": "2606.05883",
+  "arxiv_url": "https://arxiv.org/abs/2606.05883",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "Geometry-Aware Dataset Condensation for Diffusion Model Training",
+  "authors": "Xiao Cui, Yulei Qin, Mo Zhu, Wengang Zhou, Hongsheng Li, Houqiang Li",
+  "abstract": "Dataset condensation aims to construct compact datasets from real data via synthesis or selection. However, existing approaches are ill-suited for diffusion model training: synthetic data generation often yields low-fidelity samples unsuitable for authentic modeling, while real subset selection typically fails to preserve the distributional geometry required by diffusion likelihood objectives. To address this, we propose to reformulate real subset selection as a geometry-aware distribution alignment problem. By incorporating one-sided partial optimal transport, our method selectively aligns a compact subset with the full data distribution while allowing unmatched mass in low-density regions, ensuring the preserved geometric structure necessary for effective diffusion model training. To further ensure distributional fidelity, we complement geometric alignment with lightweight feature-statistics and semantic consistency regularization. An efficient two-stage discrete optimization strategy is proposed to achieve this alignment objective. Extensive experiments across diffusion variants, subset sizes, image resolutions, and training rounds show that our method achieves superior fidelity and distributional coverage in diffusion model training. Codes are available at https://github.com/2018cx/GADC.",
+  "title_relatable": "Can you train diffusion models on smaller, smarter datasets?",
+  "hook": "Geometry-aware subset selection reduces diffusion training data by 10–50% while maintaining output quality through optimal transport alignment.",
+  "summary": "Training diffusion models requires preserving the geometric structure of data distributions—a challenge existing dataset condensation methods ignore. This work reformulates subset selection as a geometry alignment problem using partial optimal transport, ensuring rare data patterns stay represented even in compact subsets. Combined with feature and semantic consistency checks, the method trains diffusion models on 10–50% less data without quality loss. Code is released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 690,
+  "tokens_out": 161,
+  "cost_usd": 0.001196,
+  "ingested_at": "2026-06-05T10:23:18.906931+00:00"
+}

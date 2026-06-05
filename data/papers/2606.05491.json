@@ -1,0 +1,23 @@
+{
+  "id": "2606.05491",
+  "arxiv_url": "https://arxiv.org/abs/2606.05491",
+  "announced_date": "2026-06-03",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "Unpaired RGB-Thermal Gaussian-Splatting Using Visual Geometric Transformers",
+  "authors": "Jean Cordonnier, Chenghao Xu, Olga Fink, Malcolm Mielle",
+  "abstract": "Multi-modal novel view synthesis (NVS) combining RGB and thermal imagery enables precise 3D scene reconstruction with visual and thermal information. However, existing methods typically rely on precisely calibrated RGB-thermal image pairs or stereo setups, limiting scalability and practical deployment. To address this, we introduce a framework for unpaired RGB-thermal NVS that leverages VGGT, a 3D feed-forward transformer architecture, to independently estimate camera poses for each modality. The pose sets are then aligned using the Procrustes algorithm with a cross-modal feature matcher, enabling joint registration without paired calibration. Building on this alignment, we further propose a multi-modal 3D Gaussian Splatting approach that learns directly from unpaired RGB and thermal images. Experiments on diverse scenes demonstrate that our method achieves competitive performance in thermal view synthesis while maintaining RGB fidelity. Moreover, we show that existing reconstruction approaches can produce modality-specific reconstructions that lack cross-modal consistency. We thus introduce a benchmarking framework to rigorously evaluate both per-modality image synthesis and the multi-modal coherence of reconstructed scenes.",
+  "title_relatable": "Reconstructing 3D scenes from unmatched thermal and RGB photos",
+  "hook": "Novel method synthesizes thermal and RGB views without paired calibration, with new metrics for cross-modal consistency.",
+  "summary": "Combining thermal and RGB imagery for 3D scene reconstruction typically requires precisely aligned camera pairs—impractical for real deployment. This work trains a transformer to estimate camera poses independently for each modality, then aligns them without calibration using feature matching and the Procrustes algorithm. The resulting 3D Gaussian splatting model learns from unpaired images, achieving competitive thermal synthesis while preserving RGB quality. The team also identifies that existing methods produce modality-specific reconstructions that lack coherence across thermal-RGB space, and contributes a benchmark to measure this cross-modal consistency.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 696,
+  "tokens_out": 201,
+  "cost_usd": 0.0013608000000000001,
+  "ingested_at": "2026-06-05T10:24:00.361953+00:00"
+}

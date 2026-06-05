@@ -1,0 +1,24 @@
+{
+  "id": "2606.06255",
+  "arxiv_url": "https://arxiv.org/abs/2606.06255",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.RO",
+    "cs.CV",
+    "cs.DC"
+  ],
+  "title_original": "RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning",
+  "authors": "Ziyang Yu, Xiang Li, Qiong Chang, Jun Miyazaki",
+  "abstract": "Point clouds are a primary sensory representation for robotic perception, underpinning LiDAR-based autonomous driving, simultaneous localization and mapping (SLAM), and navigation. Within these pipelines, Farthest Point Sampling (FPS) is the most well-known downsampling operator, as its uniform coverage preserves the geometric structure on which downstream perception relies. However, the large time complexity of classical FPS scales poorly with the million-point-per-second rates of modern 3D sensors, making it a dominant latency bottleneck that conflicts with the real-time and limited onboard compute budgets of robotic systems. Therefore, we propose RadiusFPS, an FPS acceleration framework based on spherical voxel pruning that preserves the standard FPS update rule under the same initialization and tie-breaking policy. By indexing the point cloud with spherical voxels, RadiusFPS derives a conservative geometric bound that prunes redundant distance computations in each iteration, complemented by a coordinate-wise point-skip test that removes residual updates. We further introduce RadiusFPS-G, a warp-level GPU implementation that fuses voxel selection, pruning, and distance update into memory-coalesced kernels, eliminating costly global-memory round-trips. On indoor (S3DIS, ScanNet) and outdoor LiDAR (SemanticKITTI) benchmarks, RadiusFPS-G attains up to 2.5x speedup over GPU-based FPS and matches or exceeds QuickFPS among the evaluated methods while using roughly half its GPU memory, with comparable segmentation accuracy. When coupled with the learning-based FastPoint sampler, the resulting pipeline achieves the fastest End-to-End inference among all evaluated configurations. These properties make high-quality FPS-style sampling practical for latency- and memory-constrained robotic vision.",
+  "title_relatable": "How to sample point clouds 2.5× faster for robot vision",
+  "hook": "RadiusFPS speeds up a bottleneck in autonomous driving pipelines by 2.5× on GPUs while cutting memory use by half.",
+  "summary": "Farthest Point Sampling (FPS) downsamples point clouds while preserving geometry, but its cubic complexity kills real-time performance in robotics. RadiusFPS prunes redundant distance calculations using spherical voxels and a GPU kernel that fuses operations into memory-coalesced blocks. On SemanticKITTI and ScanNet, it matches or beats existing methods with 2.5× speedup and half the GPU memory of competing approaches.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 882,
+  "tokens_out": 191,
+  "cost_usd": 0.0014696,
+  "ingested_at": "2026-06-05T10:23:51.778681+00:00"
+}

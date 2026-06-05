@@ -1,0 +1,22 @@
+{
+  "id": "2606.05730",
+  "arxiv_url": "https://arxiv.org/abs/2606.05730",
+  "announced_date": "2026-06-04",
+  "subject": "cs.CV",
+  "subjects_all": [
+    "cs.CV"
+  ],
+  "title_original": "TextWand: A Unified Framework for Scene Text Editing",
+  "authors": "Shuyu Wang, Zhile Guan, Hongxiu Chen, Yule Duan, Weiqi Li, Xin Shan, Ronggang Wang, Jian Zhang",
+  "abstract": "We propose TextWand, a general-purpose framework that unifies scene text removal, generation, and replacement into a single model. By decomposing complex editing tasks into the atomic primitives of rendering and erasure, TextWand achieves precise control over both text appearance and background integrity. Specifically, we introduce a novel design, Overlay-Reference Positional Encoding (ORPE), to enforce pixel-level layout fidelity and exemplar-driven style control, alongside a new strategy, Region-Adaptive Suppression (RAS), to ensure clean text erasure. To address the absence of a comprehensive benchmark for general-purpose scene text editing among existing single-task datasets, we construct TextWand-Bench. Extensive experiments demonstrate that TextWand outperforms existing leading open-source and closed-source models by delivering superior text content accuracy, layout and style consistency, and overall image quality across scene text removal, generation and replacement tasks.",
+  "title_relatable": "Can one model handle all scene text editing tasks?",
+  "hook": "Single framework removes, generates, and replaces text in images while preserving backgrounds and matching styles better than specialized tools.",
+  "summary": "TextWand unifies three separate text editing jobs—removal, generation, and replacement—into one model. The key innovations are a positional encoding method (ORPE) that locks text to precise positions and matches style from examples, plus a suppression strategy (RAS) that cleanly erases text. Authors built TextWand-Bench, the first broad benchmark for this problem, and show their model beats both open and closed competitors on text accuracy, layout consistency, and image quality.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 671,
+  "tokens_out": 177,
+  "cost_usd": 0.0012448000000000001,
+  "ingested_at": "2026-06-05T10:23:24.091492+00:00"
+}
