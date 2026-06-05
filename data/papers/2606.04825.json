@@ -1,0 +1,22 @@
+{
+  "id": "2606.04825",
+  "arxiv_url": "https://arxiv.org/abs/2606.04825",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning",
+  "authors": "Amirhosein Alian, Yongqiang Zhao, Shiyi Gu, Xuyang Zhang, Zhuo Chen, Christopher E. Mower, Haitham Bou-Ammar, Shan Luo",
+  "abstract": "Despite the importance of tactile sensing for reliable manipulation, most existing Vision-Language-Action (VLA) datasets remain vision-only, and those that do incorporate tactile information typically lack the joint combination of task diversity, language conditioning, and action trajectories. Furthermore, existing teleoperation pipelines rarely provide haptic feedback to the operator, despite its established role in demonstration quality and manipulation stability. In this work, we present HapTile, a contact-grounded visuotactile manipulation dataset that advances beyond vision-only trajectory datasets by embedding physical interaction sensing at two levels: fingertip tactile feedback at the robot end-effector, and haptic-informed demonstrations at the teleoperator side. The data collection platform integrates haptic feedback directly into the teleoperation controller, enabling the operator to perceive contact interactions in real time. It is built around a standard and reproducible robotic system equipped with custom-designed fingertip tactile sensors. The dataset comprises everyday manipulation tasks spanning a broad range of contact-rich skills, including pick-and-place, folding, pressing, stacking, and other routine activities. Each task is paired with language instructions that condition the policy on the manipulation objective, together with synchronized visuotactile observations and action trajectories. In addition, we provide a benchmarking study on contact-rich policy learning using two baseline models to evaluate the effectiveness of the proposed contact-grounded dataset. The dataset and additional details are available on our website: haptile-dataset.github.io.",
+  "title_relatable": "Why robots need to feel: new dataset teaches touch-aware manipulation",
+  "hook": "First large-scale robot manipulation dataset combining vision, touch, and haptic feedback from human operators across 50+ everyday tasks.",
+  "summary": "Most robot learning datasets rely only on vision, missing critical tactile signals that prevent breaking eggs and folding cloth. HapTile adds fingerprint-level touch sensors to robots and haptic feedback gloves to human operators, capturing real contact dynamics during pick-and-place, folding, and stacking. Benchmarks show tactile information improves policy learning on contact-rich tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 820,
+  "tokens_out": 161,
+  "cost_usd": 0.0013,
+  "ingested_at": "2026-06-05T10:15:07.674850+00:00"
+}

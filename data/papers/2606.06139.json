@@ -1,0 +1,22 @@
+{
+  "id": "2606.06139",
+  "arxiv_url": "https://arxiv.org/abs/2606.06139",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "MotionDisco: Motion Discovery for Extreme Humanoid Loco-Manipulation",
+  "authors": "Ilyass Taouil, Michal Ciebelski, Shafeef Omar, Haizhou Zhao, Angela Dai, Aaron M. Johnson, Majid Khadiv",
+  "abstract": "We present MotionDisco, a framework that discovers contact-rich, long-horizon humanoid loco-manipulation motions from scratch, without relying on teleoperation or motion retargeting from human demonstrations. This is challenging because the space of possible contact interactions grows combinatorially with the task horizon and the number of objects in the scene. MotionDisco enables rapid discovery of novel motions by coupling a large language model (LLM) guided evolutionary search over sequences of interactions with an efficient sequential kinodynamic trajectory optimizer and pruning strategy, enabling the rapid discovery of novel skills. Through extensive ablation studies, we show that our LLM-guided search discovers successful whole-body trajectories across several challenging long-horizon tasks. Finally, by training reinforcement learning tracking policies on the discovered trajectories, we transfer the motions to a real humanoid robot. This is the first work to discover and deploy long-horizon humanoid loco-manipulation skills entirely through automated evolutionary search. Supplementary videos of the experiments are available at: https://youtu.be/DHiVz34QYlw.",
+  "title_relatable": "How robots learn to move without watching humans",
+  "hook": "Framework discovers complex multi-step manipulation motions for humanoid robots through AI-guided search, then transfers them to real hardware.",
+  "summary": "Getting humanoid robots to perform long, complex tasks like moving multiple objects requires figuring out which contact sequences work—a combinatorially explosive problem. MotionDisco sidesteps human demonstrations or teleoperation by pairing an LLM-guided evolutionary search with a trajectory optimizer to explore interaction sequences efficiently. The method discovered novel whole-body motions across challenging tasks and successfully transferred them to a real humanoid robot, marking the first fully automated discovery and deployment of long-horizon loco-manipulation skills.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 712,
+  "tokens_out": 181,
+  "cost_usd": 0.0012936,
+  "ingested_at": "2026-06-05T10:14:12.234409+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.04788",
+  "arxiv_url": "https://arxiv.org/abs/2606.04788",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "Z-FLoc: Zero-Shot Floorplan Localization via Geometric Primitives",
+  "authors": "Ayumi Umemura, Toshinori Kuwahara, Marc Pollefeys, Daniel Barath",
+  "abstract": "Visual localization -- estimating a camera pose within a pre-existing map -- is a fundamental problem in computer vision. Floorplans are an attractive map representation: they are readily available for most buildings, compact, and inherently invariant to visual appearance changes. However, bridging the severe domain gap between camera observations and floorplan geometry remains challenging. Existing methods address this gap through data-driven learning, yet they require large-scale training data and environment-specific retraining, limiting their practical deployment. We propose a zero-shot floorplan localization method that generalizes to novel environments without any retraining. Our key insight is that dominant geometric primitives -- lines and circles -- are ubiquitous in human-made environments and provide appearance-invariant structural constraints. We extract these primitives from a bird's-eye-view (BEV) projection of monocular 3D reconstructions and match them to the floorplan via dedicated minimal solvers within a robust estimation framework. Experiments on both simulated and real-world datasets show that our approach outperforms state-of-the-art learning-based methods on unseen environments, while using a single fixed set of hyperparameters across all experiments. The source code will be made publicly available.",
+  "title_relatable": "Locating yourself on a floorplan without training data",
+  "hook": "Zero-shot method matches lines and circles from camera views to floorplans, outperforming learned methods on unseen buildings without retraining.",
+  "summary": "Robots and cameras need to know where they are indoors, but most localization methods require expensive training on each new building. This work sidesteps learning entirely by extracting geometric primitives—lines and circles—that naturally appear in human-made spaces, then matching them to floorplan geometry using classical solvers. Tests on real and simulated environments show it beats data-hungry learning approaches while using a single fixed configuration everywhere.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 727,
+  "tokens_out": 174,
+  "cost_usd": 0.0012775999999999998,
+  "ingested_at": "2026-06-05T10:15:17.583092+00:00"
+}

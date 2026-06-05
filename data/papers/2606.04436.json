@@ -1,0 +1,23 @@
+{
+  "id": "2606.04436",
+  "arxiv_url": "https://arxiv.org/abs/2606.04436",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.CV",
+    "cs.RO"
+  ],
+  "title_original": "3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training",
+  "authors": "Jiaxin Shi, Xidong Zhang, Fucai Zhu, Zhe Li, Siyu Zhu, Weihao Yuan",
+  "abstract": "We propose a 3D-thinking-guided co-training framework that enables vision-language-action (VLA) models to perform 3D spatial reasoning implicitly during action prediction. Our core insight is that 3D geometry perception and 3D spatial reasoning are distinct capabilities that can be disentangled and injected at different feature hierarchies. During training, three tightly coupled components work in concert primarily within the latent space: (1) To gain geometric priors, a latent 3D geometry perception module aligns intermediate visual features with a 3D foundation model, acquiring low-level geometric cues without architectural modifications to the VLM backbone. (2) Complementing this, an online 3D reasoning distillation module mitigates the prompt-induced reasoning gap via a shared reasoning anchor token. During 3D VLM co-training, this anchor is emitted as the first output token to robustly encode spatial priors. During VLA training, it serves as an input token inserted between the task and action instructions, transferring high-level spatial thinking from explicit teacher reasoning prompts to student action prompts without chain-of-thought text generation. (3) These disentangled geometric and reasoning features are then united by a spatially augmented action integration, which jointly injects them into the action-query tokens as hierarchical spatial conditions to prevent action shortcuts. At deployment, our method retains only its lightweight adapters to perform implicit 3D reasoning, discarding the 3D foundation model and the teacher branch used for supervision. Consequently, it operates purely on 2D images without 3D sensors, external models, or explicit text generation while preventing catastrophic forgetting of the pretrained VLM, achieving state-of-the-art performance on LIBERO, LIBERO-PLUS, SimplerEnv, and real-world manipulation tasks.",
+  "title_relatable": "Can robots reason in 3D space without seeing it?",
+  "hook": "VLA model learns implicit 3D spatial reasoning from 2D images alone, beating prior methods on LIBERO and real robot manipulation.",
+  "summary": "Robot control models struggle with spatial reasoning from images alone. This work injects 3D geometric awareness into vision-language-action models during training by having them learn from a 3D foundation model teacher, then distills that spatial knowledge into lightweight adapters. At test time, the robot uses only 2D images—no 3D sensors or teacher needed—yet outperforms prior approaches on LIBERO, LIBERO-PLUS, SimplerEnv benchmarks and real manipulation tasks.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 888,
+  "tokens_out": 186,
+  "cost_usd": 0.0014544,
+  "ingested_at": "2026-06-05T10:15:23.451450+00:00"
+}

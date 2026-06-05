@@ -1,0 +1,22 @@
+{
+  "id": "2606.06033",
+  "arxiv_url": "https://arxiv.org/abs/2606.06033",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning",
+  "authors": "Chaoyi Xu, Yixuan Jiang, Jiahui Huan, Yuhui Fu, Haoyu Zhou, Weitian Yuan, Jiayi Yu, Wanpeng Zhang, Haoqi Yuan, Zongqing Lu",
+  "abstract": "Learning dexterous manipulation requires demonstrations that preserve fine hand-object interactions while remaining executable at deployment. Existing pipelines either lose deployable dexterity through retargeting or embodiment conversion, or rely on robot-specific teleoperation that is costly to scale and often lacks intuitive, contact-aware control for dexterous data collection. We present RealDexUMI, a wearable universal manipulation interface built around a shared dexterous end-effector module that integrates a lightweight dexterous hand, in-hand vision, and fingertip tactile sensing. A palm-side isomorphic teleoperation glove maps human finger inputs to robot-hand joint commands, enabling real-time, retargeting-free, intuitive, and precise hand control. The shared hand and sensing modules yield zero-gap end-effector data, with matched in-hand observations, tactile signals, contacts, and hand actions between collection and deployment. Across eight real-robot tasks spanning fine-grained, contact-rich, long-horizon, and bimanual manipulation, policies trained on RealDexUMI data achieve an average success rate of 88.75%, generalize to unseen initial poses, and transfer across three embodiments. Website: https://research.beingbeyond.com/realdexumi",
+  "title_relatable": "Can one glove teach robots fine-grained hand skills?",
+  "hook": "Wearable interface preserves dexterous hand control for robot learning without data conversion loss; 88.75% success across 8 real tasks.",
+  "summary": "Dexterous robot manipulation fails when human demonstrations get lost in translation—retargeting discards fine control, while robot-specific teleoperation doesn't scale. RealDexUMI uses a shared dexterous hand module (light robotic hand + in-hand camera + tactile sensors) with an isomorphic glove controller, letting operators guide robots with their own fingers in real time. This preserves all the contact details and hand actions directly from collection to deployment. Policies trained on 8 tasks—fine pinching, long sequences, two-handed work—reach 88.75% success and transfer across different robot bodies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 783,
+  "tokens_out": 223,
+  "cost_usd": 0.0015184,
+  "ingested_at": "2026-06-05T10:14:16.229446+00:00"
+}

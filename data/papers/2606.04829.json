@@ -1,0 +1,22 @@
+{
+  "id": "2606.04829",
+  "arxiv_url": "https://arxiv.org/abs/2606.04829",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "M3imic: Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking",
+  "authors": "Zuxing Lu, Ziang Zheng, Yao Lyu, Jingyu Liu, Feihong Zhang, Song Lu, Xin Yuan, Changyin Sun, Xingxing Zuo, Shengbo Eben Li",
+  "abstract": "Building a general-purpose whole-body controller is essential for enabling diverse motion capabilities in humanoid robots across a wide range of downstream tasks, including locomotion and loco-manipulation. Different tasks rely on distinct motion reference modalities: locomotion primarily depends on coordinated robot joint trajectories, whereas manipulation requires precise end-effector trajectory tracking. Existing methods often overlook the representational mismatch between dense robot joint angles and sparse end-effector poses. To address this, we propose Multi-Modal Mimic (M3imic), a versatile multi-modal whole-body control framework that unifies heterogeneous motion reference modalities, including robot joint angles, human pose trajectories, and end-effector poses, using modality-specific encoders to map them into a shared latent space. Leveraging large-scale reinforcement learning in the simulator, we train a single policy that achieves sim-to-real transfer across multiple motion reference modalities without modality-specific retraining. Extensive simulation and real-world experiments on the Unitree G1 robot are conducted to evaluate the proposed framework. In simulation, the policy achieves a peak success rate of 98.42\\% on an unseen test dataset, demonstrating its exceptional generalization capability. The code is available at https://github.com/Renforce-Dynamics/MultiModalWBC",
+  "title_relatable": "How one robot controller handles joints, hands, and human poses",
+  "hook": "Single policy controls humanoid robots across locomotion and manipulation tasks with 98.42% success on unseen motions, no retraining needed.",
+  "summary": "Humanoid robots struggle when tasks demand different motion references—joints for walking, hand positions for grasping. M3imic unifies these mismatched input types using separate encoders that feed a shared latent space, then trains one policy via reinforcement learning that transfers directly to real Unitree G1 robots. The approach handles joint angles, human poses, and end-effector targets without task-specific retuning, achieving 98% success in simulation and validated on hardware.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 786,
+  "tokens_out": 187,
+  "cost_usd": 0.0013768000000000003,
+  "ingested_at": "2026-06-05T10:15:05.210556+00:00"
+}

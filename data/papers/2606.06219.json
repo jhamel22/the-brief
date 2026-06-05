@@ -1,0 +1,23 @@
+{
+  "id": "2606.06219",
+  "arxiv_url": "https://arxiv.org/abs/2606.06219",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving",
+  "authors": "Yining Xing, Zehong Ke, Zhiyuan Liu, Yanbo Jiang, Wenhao Yu, Jianqiang Wang",
+  "abstract": "End-to-end autonomous driving models often struggle to balance multi-modal maneuver generation with real-time inference constraints. While diffusion models successfully capture diverse driving behaviors, their iterative denoising process incurs unacceptable latency for safety-critical deployment. To address this, we propose CLEAR (Cognition and Latent Evaluation for Adaptive Routing), a framework that combines ultra-fast generative planning with deep semantic reasoning. CLEAR employs Drive-JEPA as the visual encoder and replaces the multi-step denoising chain with a single-step conditional drift in a VAE latent space, introducing a conditioning coefficient to balance diversity and expert precision. Meanwhile, we fully fine-tune Qwen~3.5~0.8B on driving QA pairs to extract scene-aware hidden states. These states guide both an Adaptive Scheduler, which selects the conditioning coefficient $α$ and sample count $N$ from a discrete set of predefined schemes, and a cross-attention scorer that selects the optimal trajectory from candidates. On the NAVSIM v1 benchmark, CLEAR achieves a state-of-the-art PDMS of 93.7. Our results demonstrate that high-fidelity, multi-modal planning can be executed efficiently without dense geometric annotations or iterative sampling.",
+  "title_relatable": "Can self-driving cars plan fast enough while keeping options open?",
+  "hook": "Single-step diffusion replaces slow iterative planning, reaches 93.7 PDMS on NAVSIM—keeping diversity without latency.",
+  "summary": "End-to-end autonomous driving needs both diverse maneuvers and sub-100ms inference. CLEAR swaps diffusion's slow iterative denoising for a single-step latent sampling, then uses a fine-tuned language model to read the scene and pick between preset diversity levels. On NAVSIM, it scores 93.7 PDMS—matching rich behavior generation without the real-time penalty.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 761,
+  "tokens_out": 177,
+  "cost_usd": 0.0013168000000000001,
+  "ingested_at": "2026-06-05T10:14:09.849928+00:00"
+}

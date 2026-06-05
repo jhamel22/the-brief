@@ -1,0 +1,23 @@
+{
+  "id": "2606.06491",
+  "arxiv_url": "https://arxiv.org/abs/2606.06491",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies",
+  "authors": "Dong Jing, Jingchen Nie, Tianqi Zhang, Jiaqi Liu, Huaxiu Yao, Zhiwu Lu, Mingyu Ding",
+  "abstract": "Robot manipulation alternates between low-risk transit phases that call for fast execution and high-risk contact stages that demand slow, precise motion. Yet existing Vision-Language-Action models (VLAs) only inherit a single fixed speed from training demonstrations. Prior efforts to accelerate VLAs through model compression, KV-cache reuse, or reinforcement learning only shift the policy from one fixed speed to another, and leave deceleration almost unexplored. We observe that the magnitude of each predicted action already governs how fast the robot moves, opening a direct route to controllable execution speed. We turn this observation into TempoVLA, a single VLA whose execution speed is controlled by an explicit condition. TempoVLA combines two coupled components. (1) A data-side Variable-Speed Trajectory Augmentation (VSTA) that re-times demonstration to any target speed by merging or splitting actions while preserving its motion semantics. (2) A model-side conditioning mechanism that feeds the speed to the policy. Statistics show that VSTA reaches the requested speed with negligible motion error. Experiments in simulation and on real-world tasks demonstrate that TempoVLA achieves flexible speed control in both directions, while VSTA additionally boosts the default $1\\times$ performance via better data utilization. Furthermore, by cooperating with a large multimodal model, TempoVLA realizes dynamic speed control, accelerating through low-risk phases and decelerating for high-risk ones.",
+  "title_relatable": "How to make robots speed up and slow down on demand?",
+  "hook": "A robot policy that executes 1.3× faster on safe tasks while maintaining precision during delicate contact—controlled by a single speed parameter.",
+  "summary": "Robot manipulators need variable speed: fast transit, slow contact. Existing vision-language-action models learn one fixed speed from demos. TempoVLA adds a speed condition to the policy and augments training data by re-timing trajectories without breaking the motion logic. Real robot experiments show flexible speed control in both directions, with the augmentation also improving baseline performance through better data use.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 793,
+  "tokens_out": 165,
+  "cost_usd": 0.0012944,
+  "ingested_at": "2026-06-05T10:14:04.547446+00:00"
+}

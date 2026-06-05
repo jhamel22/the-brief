@@ -1,0 +1,22 @@
+{
+  "id": "2606.05248",
+  "arxiv_url": "https://arxiv.org/abs/2606.05248",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Inverse Manipulation through Symbolic Planning and Residual Operator Learning",
+  "authors": "Yigit Yildirim, Giuseppe Rauso, Riccardo Caccavale, Alberto Finzi",
+  "abstract": "Inverting a robotic task requires more than reversing symbolic state transitions or rewinding motor trajectories. In robot manipulation tasks, symbolic inverse plans often fail to fully restore the effects of forward executions under continuous interaction dynamics. We present a hybrid framework for inverse manipulation that derives inverse-skill objectives from STRIPS-like operators automatically extracted from demonstrations through soft geometric predicates. For each extracted operator, we construct an inverse restoration objective that preserves preconditions, restores delete effects, and negates add effects. A task planner first attempts to satisfy this objective using available action primitives. Unresolved symbolic predicates then induce a residual operator learning problem solved through Reinforcement Learning (RL). We evaluate the framework on the ManiSkill3 PushCube task. For a forward pushing skill, the symbolic inverse performs a coarse pick-and-place restoration, while a residual Soft Actor-Critic policy refines the cube pose to satisfy the remaining inverse predicates. Our results show that predicate-derived residual control can turn an approximate symbolic inverse into a physically grounded inverse skill.",
+  "title_relatable": "Can robots undo what they just did?",
+  "hook": "Hybrid approach combining symbolic planning with reinforcement learning achieves inverse manipulation tasks on ManiSkill3, restoring object states that symbolic-only methods leave incomplete.",
+  "summary": "Reversing a robot's actions isn't just rewinding—physics gets in the way. This work combines symbolic planning (like STRIPS operators extracted from demos) with residual reinforcement learning to undo manipulation tasks. A planner first sketches the inverse moves; when that fails to fully restore object state, RL refines the outcome. On pushing tasks, symbolic picks place the cube roughly; RL fine-tunes pose precision to satisfy remaining constraints.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 687,
+  "tokens_out": 179,
+  "cost_usd": 0.0012656,
+  "ingested_at": "2026-06-05T10:15:10.528833+00:00"
+}

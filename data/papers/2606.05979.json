@@ -1,0 +1,23 @@
+{
+  "id": "2606.05979",
+  "arxiv_url": "https://arxiv.org/abs/2606.05979",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+  "authors": "Yi Yang, Zhihong Liu, Siqi Kou, Yiyang Chen, Yanzhe Hu, Jianbo Zhou, Boyuan Zhao, Zhijie Wei, Xiao Xia, Xueqi Li, Pengfei Liu, Zhijie Deng",
+  "abstract": "We propose world-language-action (WLA) models as a new class of embodied foundation models. WLA takes textual instructions, images, and robot states as inputs to jointly predict textual subtasks, subgoal images, and robot actions, conjoining the \\emph{world modeling interface} to learn from extensive egocentric videos as in the world-action model (WAM) and the \\emph{language reasoning} capacities to solve complex long-horizon tasks as in vision-language-action (VLA) models. At the core of WLA lies an \\emph{autoregressive (AR)} Transformer backbone, instead of a bidirectional diffusion Transformer as in WAMs, to predict the \\emph{next state}, comprising the \\emph{semantic-level} textual intention and complementary \\emph{fine-grained} physical dynamics. The physical dynamics are supervised by the world modeling objective based on a dedicated World Expert, and are leveraged to ease the characterization of the state-action correlation for the Action Expert. WLA leverages meta-queries to make the world prediction \\emph{implicitly} impact the action generation so that the former can be disabled during inference. The world prediction can also be activated to enable test-time scaling for improved robot control. Our WLA-0 prototype, with 2B active parameters, achieves 40 ms per inference on an NVIDIA RTX 5090. Evaluations across simulated and real-world environments demonstrate that WLA-0 achieves state-of-the-art multi-task and long-horizon learning abilities, e.g., 92.94\\% success rate on RoboTwin2.0 Clean and 56.5\\% success rate on RMBench. WLA-0 also holds the promise to learn novel tasks directly from \\emph{cross-embodiment robot videos} without action annotations.",
+  "title_relatable": "Can one model handle robot vision, language, and control together?",
+  "hook": "2B-parameter model achieves 92.9% on simulated tasks and learns from unlabeled robot videos across different embodiment types.",
+  "summary": "A new foundation model class (WLA) unifies world modeling from egocentric video, language reasoning, and robot action prediction in a single autoregressive Transformer. It predicts text subtasks, subgoal images, and control actions jointly—using world prediction to guide action generation without slowing inference. On RoboTwin2.0, it reaches 92.94% success; on real-world RMBench, 56.5%. The 2B-parameter model runs at 40 ms per step and can learn from unlabeled cross-embodiment robot video.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 919,
+  "tokens_out": 210,
+  "cost_usd": 0.0015752000000000001,
+  "ingested_at": "2026-06-05T10:14:18.998544+00:00"
+}

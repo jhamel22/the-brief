@@ -1,0 +1,22 @@
+{
+  "id": "2606.05960",
+  "arxiv_url": "https://arxiv.org/abs/2606.05960",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Towards a Data Flywheel for Embodied Intelligence in Logistics",
+  "authors": "Anlan Yu, Zaishu Chen, Zhiqing Hong, Daqing Zhang",
+  "abstract": "Embodied intelligence is moving from laboratory demonstrations toward industrial deployment, with the logistics industry serving as a key application scenario. Learning-based policies offer a promising path beyond traditional perception-planning-control pipelines, but their scalability depends on how embodied data can be collected, organized, and reused. This research studies a data-centric framework for industrial embodied intelligence by constructing a logistics data flywheel. Our framework converts daily operations into reusable data assets, uses World Models to generate reliable supervision for long-tail parcel manipulation, and feeds deployment feedback back into policy improvement. As an initial result, \\textit{WM-DAgger} introduces a World-Model-based data aggregation framework that synthesizes out-of-distribution recovery data for robust imitation learning. Building on this result, ongoing work explores how large-scale in-the-wild multimodal data, including labeled human demonstrations, unlabeled operational videos, and system-level robot logs, can be aligned for policy learning and transformed into feedback for continual system improvement.",
+  "title_relatable": "Can robots learn from their own work?",
+  "hook": "A logistics company turns daily robot operations into training data, using world models to handle unusual parcels and boost learning efficiency.",
+  "summary": "Scaling robot learning in warehouses requires more than lab data—it needs continuous feedback loops. This work proposes a data flywheel that converts real logistics operations into reusable training assets. A world model generates supervision for tricky parcels robots rarely encounter, while deployment feedback improves policies over time. WM-DAgger combines world-model-based data synthesis with imitation learning to handle out-of-distribution scenarios.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 668,
+  "tokens_out": 163,
+  "cost_usd": 0.0011864,
+  "ingested_at": "2026-06-05T10:14:21.776507+00:00"
+}

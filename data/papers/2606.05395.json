@@ -1,0 +1,23 @@
+{
+  "id": "2606.05395",
+  "arxiv_url": "https://arxiv.org/abs/2606.05395",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "title_original": "VASO: Formally Verifiable Self-Evolving Skills for Physical AI Agents",
+  "authors": "Yunhao Yang, Neel P. Bhatt, Kevin Wang, Samuel Tetteh, Zhangyang Wang, Ufuk Topcu",
+  "abstract": "Reusable robot skills are becoming the basic units through which embodied agents turn open-ended instructions into long-horizon physical behavior. We argue that, while foundation models have collapsed the cost of creating these skills, the cost of trusting them has not. Existing skill-evolution loops refine skills through execution feedback, unit tests, environment reward, or LLM self-critique, but these signals provide only trace-level evidence: they show that a skill worked on sampled executions, not that skill-induced plans satisfy temporal safety contracts under untested conditions. We introduce VASO, a framework for verification-guided self-evolution of LLM-generated robot skill contracts. In VASO, each skill is represented as a semantic contract with two coupled interfaces: a formal interface that aligns robot states, observations, and control commands with logical propositions for model checking, and a planner-facing interface that guides executable behavior generation. A model checker first filters logically inconsistent skill contracts, then verifies plans induced by the skill against global and local temporal specifications. When verification fails, VASO translates the counterexample trace into a textual gradient that updates the reusable skill contract while keeping foundation-model weights frozen. On Clearpath Jackal and PX4 quadcopter tasks, VASO reaches 97.2% formal-specification compliance using fewer than 100 optimization samples, outperforming execution-feedback, prompt-optimization, and fine-tuning baselines. To our knowledge, VASO is the first framework that closes the loop between formal verification and self-evolving LLM-generated skills for physical AI agents: formal counterexamples become optimization feedback for reusable robot skill contracts, rather than merely verifying one-off plans, tuning planner prompts, or fine-tuning model weights.",
+  "title_relatable": "Can robots learn skills that actually satisfy safety rules?",
+  "hook": "Framework guarantees robot skills meet formal safety specs: 97.2% compliance on real hardware with <100 training samples.",
+  "summary": "Robot skills built from large language models work in practice but lack guarantees they'll behave safely in new situations. VASO combines formal verification with skill evolution: a model checker finds safety violations in LLM-generated robot behaviors, then converts counterexamples into text-based feedback to refine the skill contract itself—not the model weights. On real robots (wheeled and quadcopter), this reaches 97% formal compliance with minimal samples, outperforming execution feedback and prompt tuning alone.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 857,
+  "tokens_out": 183,
+  "cost_usd": 0.0014176,
+  "ingested_at": "2026-06-05T10:14:59.485973+00:00"
+}

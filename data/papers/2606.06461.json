@@ -1,0 +1,22 @@
+{
+  "id": "2606.06461",
+  "arxiv_url": "https://arxiv.org/abs/2606.06461",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "Flow-based Policy Adaptation without Policy Updates",
+  "authors": "Luzhe Sun, Jingtian Ji, Haoran Chen, Jiawei Zhou, Matthew R. Walter",
+  "abstract": "Leveraging prior knowledge from pretrained policies, foundation models, or human operators offers an efficient alternative to learning robot skills from scratch. However, these agents often provide actions that are suboptimal, noisy, or misaligned with task-specific expert behavior. We propose GLOVES, a family of flow-based adaptation methods that correct non-expert actions by transporting them toward an expert action distribution. Rather than replacing agentic control with full autonomy, GLOVES performs selective action-level adaptation, improving task success while preserving agent intent. The learned flow also provides a natural in-distribution scoring mechanism through reverse flow evaluation. We use this signal as an intervention gate: actions that appear consistent with the expert distribution are passed through unchanged, while anomalous or out-of-distribution (OOD) actions are corrected. In this way, assistance is only provided when necessary. GLOVES requires only limited expert supervision, using a small number of demonstrations or reusable successful skill segments. By learning local expert action patterns and stitching them during execution, GLOVES provides a lightweight shared-control module for robust action adaptation across tasks and environments. Code and demos are available at ripl.github.io/GLOVES_web.",
+  "title_relatable": "Can robots learn to fix bad advice without rewriting the rulebook?",
+  "hook": "A method that corrects suboptimal robot actions in real-time by learning to steer them toward expert behavior using only a handful of demonstrations.",
+  "summary": "Robots often inherit flawed policies from pretrained models or human operators. GLOVES adapts these actions on-the-fly by learning a flow model that transports non-expert actions toward an expert distribution, then uses reverse-flow scoring to decide which actions to correct and which to trust. The result: improved task success while preserving the agent's original intent, trained on minimal expert data. Code and demos released.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 705,
+  "tokens_out": 172,
+  "cost_usd": 0.001252,
+  "ingested_at": "2026-06-05T10:14:07.139863+00:00"
+}

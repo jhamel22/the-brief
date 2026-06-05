@@ -1,0 +1,22 @@
+{
+  "id": "2606.05880",
+  "arxiv_url": "https://arxiv.org/abs/2606.05880",
+  "announced_date": "2026-06-04",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "TAGA: Terrain-aware Active Gaze Learning for Generalizable Agile Humanoid Locomotion",
+  "authors": "Peizhuo Li, Hongyi Li, Mingfeng Fan, Fangzhou Xu, Shuhao Liao, Yuxuan Ma, Zicheng Zeng, Ze Wang, Yongbin Jin, Yuhong Cao, Hongtao Wang, Guillaume Sartoretti",
+  "abstract": "Agile humanoid locomotion across diverse challenging terrain demands both wide perceptual coverage and precise local geometry understanding. Motivated by the way humans selectively look at relevant terrain during locomotion, we introduce TAGA, a Terrain-aware Active Gaze learning framework for Attention-based humanoid control. By fusing vision, proprioception, and motion commands, our framework guides the model to learn anticipatory cues and actively attend to specific areas of the height scan, selectively using these informative regions for the downstream network. This adaptively increases the information density of observations under tight onboard computational constraints, thus enabling fine-grained perceptive locomotion over larger-scale terrains. We find that such gaze behaviors can naturally emerge through reinforcement learning alone, without requiring additional supervision or explicit guidance, significantly improve training efficiency. As a result, the trained policy demonstrates robust and generalizable locomotion in simulation and on hardware, including reliable terrain-aware foothold selection, elevated-platform traversal, competitive sparse-foothold traversal, and the largest reported real-world gap traversal distance of 1.2m among perceptive humanoid locomotion systems, while maintaining stability under severe perceptual disturbances and environmental interference.",
+  "title_relatable": "Teaching robots to look where they step",
+  "hook": "Humanoid robot learns to selectively attend to terrain features, achieving 1.2m gap traversals and robust locomotion across diverse terrain without explicit supervision.",
+  "summary": "Humanoid robots struggle with agile locomotion across complex terrain because processing full visual input is computationally expensive and imprecise. TAGA trains a policy using reinforcement learning to automatically learn where to look—fusing vision, body position, and motion commands to focus on informative terrain patches. The model emerges with human-like attention patterns without being told what to attend to. On real hardware, this enables reliable foothold selection, platform crossing, and the largest reported gap traversal (1.2m) for perceptive humanoid systems.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 771,
+  "tokens_out": 197,
+  "cost_usd": 0.0014048,
+  "ingested_at": "2026-06-05T10:14:24.534756+00:00"
+}

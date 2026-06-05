@@ -1,0 +1,22 @@
+{
+  "id": "2606.04477",
+  "arxiv_url": "https://arxiv.org/abs/2606.04477",
+  "announced_date": "2026-06-03",
+  "subject": "cs.RO",
+  "subjects_all": [
+    "cs.RO"
+  ],
+  "title_original": "TransTac: Visuo-Tactile Modality Transition via Ultraviolet-Encoded Transparent Elastomers",
+  "authors": "Lingyue Yang, Bin Fang",
+  "abstract": "Vision-based tactile sensors (VBTS) recover high-resolution contact geometry but typically rely on opaque elastomer layers that prevent visual transparency, while RGB-D cameras provide global depth perception yet degrade significantly at close range. To address this limitation, we present TransTac, a transparent ultraviolet (UV)-encoded binocular VBTS that integrates visual observation and marker-based tactile reconstruction within a single compact device. The system employs a transparent elastomer embedded with UV-reflective markers and a prior-guided Delaunay stereo matching algorithm for robust sparse triangulation. To reliably detect densely distributed semitransparent markers, we develop a lightweight detector that enables stable localization under contact and deformation. The proposed prior-guided Delaunay matching improves correspondence robustness by approximately 21% compared with global assignment baselines while maintaining high reconstruction accuracy. In semantic evaluation, TransTac achieves up to 83.3% zero-shot recognition accuracy on tactile images, exceeding opaque tactile baselines by approximately 50 percentage points. Embedding analysis further reveals substantially stronger cross-modal alignment with natural images, with class-center similarity increasing from around 0.2 to over 0.77. Controlled near-distance experiments quantify the degradation of RGB-D depth reliability and demonstrate extended geometric coverage enabled by visuo-tactile integration. Finally, a compact prototype is implemented with an approximate hardware cost of $70.",
+  "title_relatable": "Can a touch sensor also see? Transparent tactile sensors merge vision and feel",
+  "hook": "TransTac combines visual depth and touch sensing in one device using UV-encoded transparent elastomers, achieving 83% zero-shot tactile recognition—50 points better than opaque alternatives.",
+  "summary": "Existing tactile sensors are opaque, blocking visual feedback; vision sensors fail at close range. TransTac solves this by embedding UV-reflective markers in transparent elastomer, letting a binocular camera simultaneously capture contact shape and scene geometry. A lightweight detector tracks semitransparent markers during deformation, while a prior-guided stereo algorithm improves 3D reconstruction robustness by 21%. The system achieves 83% zero-shot recognition on tactile images and shows much stronger alignment with natural images, opening pathways for robotic manipulation that combines global awareness with precise local contact feedback.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 765,
+  "tokens_out": 226,
+  "cost_usd": 0.001516,
+  "ingested_at": "2026-06-05T10:15:20.856543+00:00"
+}
