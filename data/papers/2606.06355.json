@@ -1,0 +1,24 @@
+{
+  "id": "2606.06355",
+  "arxiv_url": "https://arxiv.org/abs/2606.06355",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "$\\tt BlackHawk$ $\\tt v3.0$: Hawking Radiation from Regular Black Holes",
+  "authors": "Alexandre Arbey, Marco Calzà, Léa Malacher, Davide Pedrotti, Yuber F. Perez-Gonzalez",
+  "abstract": "We present $\\tt BlackHawk$ $\\tt v3.0$, a major update of the public code designed to compute Hawking radiation spectra of black holes. Building upon previous versions, this release considerably extends the range of black hole geometries that can be studied by implementing several new spherically symmetric metrics: the Bardeen and Hayward regular black holes, the Simpson-Visser and Peltola-Kunstatter black-bounces, the D'Ambrosio-Rovelli black hole-to-white hole metric, and the Babichev-Charmousis-Lehébel black hole. For each metric, we compute the corresponding Hawking temperatures and greybody factors, enabling the determination of primary Hawking emission spectra for particles of different spins. The greybody factors are obtained through dedicated numerical routines based on the companion code $\\tt GrayHawk$. Additionally, $\\tt BlackHawk$ $\\tt v3.0$ introduces several technical improvements aimed at enhancing precision and efficiency, providing a highly versatile tool. The code is publicly available at https://blackhawk.hepforge.org/",
+  "title_relatable": "Do regular black holes evaporate differently than singular ones?",
+  "hook": "Updated software now calculates Hawking radiation for exotic black hole geometries without singularities, testing whether smoothed-out horizons change evaporation rates.",
+  "summary": "BlackHawk v3.0 extends a public code for computing how black holes radiate away via Hawking evaporation. The update adds six new black hole geometries—including regular black holes without singularities and objects that bounce to white holes—and calculates the crucial greybody factors that determine what particles escape. This lets researchers test whether alternative geometries proposed in quantum gravity theories produce measurably different radiation signatures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 721,
+  "tokens_out": 176,
+  "cost_usd": 0.0012808000000000001,
+  "ingested_at": "2026-06-05T10:15:57.780470+00:00"
+}

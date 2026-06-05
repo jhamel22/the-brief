@@ -1,0 +1,22 @@
+{
+  "id": "2606.05539",
+  "arxiv_url": "https://arxiv.org/abs/2606.05539",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Dissipative Cosmology and the Nature of Dark Energy: Insights from Bulk Viscosity with DESI DR2 observations",
+  "authors": "Shahnawaz A. Adil, Sonej Alam, Somasri Sen, J. Alberto Vazquez",
+  "abstract": "We explore a cosmological model in which dark energy is described by a bulk viscous fluid, providing a dissipative mechanism for late-time cosmic acceleration. Considering both minimally and non-minimally coupled scenarios, we constrain the model using SNe Ia, DESI DR2 BAO, and Planck 2018 CMB data. We find that viscous effects can successfully mimic dynamical dark energy and yield improved fits over $Λ$CDM, particularly in the interacting non-minimal case. Our results demonstrate that dissipative processes offer a viable and physically motivated alternative to the cosmological constant in explaining the current accelerated expansion of the universe.",
+  "title_relatable": "Does cosmic friction explain dark energy better than Einstein's constant?",
+  "hook": "Viscosity in expanding space fits new DESI data better than the standard dark energy model, suggesting dissipation may drive cosmic acceleration.",
+  "summary": "Physicists tested whether friction in the cosmic fluid could replace dark energy as the driver of the universe's accelerating expansion. Using measurements from supernovae, galaxy surveys, and the cosmic microwave background, they found that a viscous dark energy model fits observations better than the standard cosmological constant—especially when the fluid interacts with ordinary matter. This suggests dissipation, not just inert vacuum energy, might explain why galaxies are flying apart faster.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 608,
+  "tokens_out": 176,
+  "cost_usd": 0.0011904,
+  "ingested_at": "2026-06-05T10:16:11.078624+00:00"
+}

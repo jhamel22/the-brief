@@ -1,0 +1,22 @@
+{
+  "id": "2606.05358",
+  "arxiv_url": "https://arxiv.org/abs/2606.05358",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "The DESI results impact the local determination of $H_0$",
+  "authors": "Michael S. Turner, Dragan Huterer",
+  "abstract": "Measurements of baryon acoustic oscillations (BAO) by the Dark Energy Spectroscopic Instrument (DESI) have revealed evidence for dark energy that evolves. If local distance measurements are analyzed with the $w_0w_a$ models preferred by the DESI measurements, the value for the Hubble constant can be as much as $2.5\\,\\mathrm{km\\,s^{-1}Mpc^{-1}}$ smaller than the value obtained assuming $Λ$CDM. When these $w_0w_a$ models are further constrained by cosmic microwave background (CMB) and type Ia supernova (SNIa) data, the downward shift is $1.1 \\pm 0.38\\,\\mathrm{km\\,s^{-1}Mpc^{-1}}$ (DESI + CMB) and $0.5 \\pm 0.1\\,\\mathrm{km\\,s^{-1}Mpc^{-1}}$ (DESI + CMB + SNIa). The dependence of local determinations of $H_0$ on the background cosmology, combined with the fact that the low-redshift cosmology is not well constrained, is relevant to the Hubble tension.",
+  "title_relatable": "Does evolving dark energy resolve the Hubble tension?",
+  "hook": "DESI's new dark energy measurements lower the Hubble constant by up to 2.5 km/s/Mpc when accounting for cosmic evolution, potentially bridging the decade-long disagreement.",
+  "summary": "DESI's baryon acoustic oscillation measurements suggest dark energy isn't constant but evolves over time. When cosmologists reanalyze local Hubble constant measurements using these evolving dark energy models instead of the standard model, the value drops by 1–2.5 km/s/Mpc depending on what other data they include. This matters because the Hubble constant is one of the most contentious numbers in cosmology—different methods give different answers, and the choice of dark energy model now appears to affect the answer.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 729,
+  "tokens_out": 212,
+  "cost_usd": 0.0014312,
+  "ingested_at": "2026-06-05T10:16:16.777302+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.05166",
+  "arxiv_url": "https://arxiv.org/abs/2606.05166",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Compressed \\emph{Gaussian} likelihood for the \\textit{Planck} low-$\\ell$ data",
+  "authors": "Nanoom Lee",
+  "abstract": "We present a compressed \\emph{Gaussian} likelihood for the \\textit{Planck} CMB low-$\\ell$ E-mode polarization data, constructed from the \\texttt{Sroll2} likelihood which provides the tightest constraint on the reionization optical depth $τ$ to date. The non-Gaussian form of CMB low-$\\ell$ TT and EE likelihoods makes them incompatible with Fisher matrix analyses that require an analytic Gaussian $χ^2$, such as the Fisher-bias formalism and Fisher forecasts. We show that the $χ^2$ of an offset log-normal likelihood takes a Gaussian form in the log-transformed power spectrum amplitudes, and can therefore serve as a proxy for the true Gaussian likelihood of this variable in Fisher matrix analyses, without any explicit change of variables. Building on this, we compress the \\texttt{Sroll2} likelihood into a small number of piecewise offset log-normal functions and validate it against the full \\texttt{Sroll2} likelihood via MCMC combined with \\textit{Planck} and ACT DR6 data, finding excellent agreement across all $Λ$CDM parameters and in extended cosmological models. We further demonstrate that Fisher matrix uncertainty estimates from our compressed likelihood agree well with the full MCMC posteriors. We release our compressed likelihood \\texttt{planck-gaussian-lowl}, a lightweight Python package incorporating the compressed low-$\\ell$ TT likelihood from previous work, allowing a straightforward incorporation of the Planck CMB low-$\\ell$ data into any Gaussian-likelihood-based analysis. The package is publicly available at \\href{https://github.com/nanoomlee/planck-gaussian-lowl}{github.com/nanoomlee/planck-gaussian-lowl}.",
+  "title_relatable": "How to make Planck's messiest CMB data play nicely with standard analysis tools?",
+  "hook": "A new mathematical trick lets cosmologists use Planck's most constraining polarization data in Fisher analyses that normally require Gaussian statistics.",
+  "summary": "Planck's low-frequency CMB data gives the tightest measurement of how the universe reionized, but its non-Gaussian shape breaks standard statistical tools. Lee found that log-normal distributions mimic the real likelihood well enough to pass MCMC tests against ACT and Planck combined data, then released a public Python package so others can use these compressed likelihoods without rewriting their entire analysis pipeline.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 850,
+  "tokens_out": 179,
+  "cost_usd": 0.001396,
+  "ingested_at": "2026-06-05T10:16:36.132511+00:00"
+}

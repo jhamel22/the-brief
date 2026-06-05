@@ -1,0 +1,23 @@
+{
+  "id": "2606.05301",
+  "arxiv_url": "https://arxiv.org/abs/2606.05301",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.GA"
+  ],
+  "title_original": "AGN Line-Intensity Mapping: A Probe of Faint Black Holes at Cosmic Noon",
+  "authors": "Eli Visbal, Greg L. Bryan",
+  "abstract": "We propose line-intensity mapping (LIM) as a new probe of active galactic nuclei (AGN). By cross-correlating [Ne V] intensity maps with galaxy redshift surveys, we show that the cumulative AGN line emission can be detected even when individual sources are below the detection threshold. The 97.1 eV ionization potential of [Ne V] makes it an essentially uncontaminated tracer of AGN activity, arising from the narrow line region which is accessible even in heavily obscured AGN. We forecast signal-to-noise ratios using a Fisher matrix formalism for two hypothetical future instruments: a CDIM-like instrument targeting [Ne V] $λ3426$ and a PRIMA-like instrument optimized for LIM targeting [Ne V] $14.3 μ$m. For the CDIM-like case we find strong constraints on the product of the mean AGN intensity and bias, $S_{\\rm NeV} b_{\\rm NeV}$, across $z=2-3$, with redshift-space distortions enabling individual constraints on $S_{\\rm NeV}$ and $b_{\\rm NeV}$. The LIM signal retains sensitivity to AGN below the $5σ$ direct detection threshold, which at $z=3$ corresponds to $L_{\\rm bol} \\sim 5\\times10^{43}$ erg s$^{-1}$ and coincides with the faint end of existing luminosity function measurements. Roughly 10% of the total signal originates from below this threshold, with the sub-threshold population detectable at $S/N=9-4$ across $z=2-3$ (for $S_{\\rm NeV} b_{\\rm NeV}$). The PRIMA-like instrument achieves slightly lower signal-to-noise but provides a complementary probe of the AGN population due to the insensitivity of the $14.3 μ$m line to dust attenuation. AGN LIM can potentially be applied to several scientific problems including tracing the total AGN emissivity history, constraining the black hole-halo connection at faint luminosities, and discriminating between supermassive black hole seeding mechanisms.",
+  "title_relatable": "How to spot invisible black holes at the universe's peak age?",
+  "hook": "New technique detects faint black holes too dim to see directly by stacking their glow across millions of galaxies, revealing the early growth phase of supermassive black holes.",
+  "summary": "Astronomers propose using line-intensity mapping—essentially a cosmic blur where you add up faint signals from millions of galaxies—to detect black holes that individual telescopes can't see. By targeting a specific ultraviolet emission line called [Ne V], they can measure the total power output from accreting black holes and trace their growth when the universe was only 2–3 billion years old. This method reveals hidden black holes and constrains how these objects seed and grow.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 945,
+  "tokens_out": 192,
+  "cost_usd": 0.001524,
+  "ingested_at": "2026-06-05T10:16:25.166714+00:00"
+}

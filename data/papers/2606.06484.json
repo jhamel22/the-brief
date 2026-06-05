@@ -1,0 +1,24 @@
+{
+  "id": "2606.06484",
+  "arxiv_url": "https://arxiv.org/abs/2606.06484",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Phenomenology of Inflaton-Driven Early QCD Confinement and Solution to Axion Isocurvature Problem",
+  "authors": "Evangelos I. Sfakianakis, Barmak Shams Es Haghi, Katherine Freese",
+  "abstract": "We study the phenomenology of early QCD confinement during inflation, driven by a direct coupling between the inflaton and Standard Model gluons. This coupling dynamically raises the QCD confinement scale, making the axion sufficiently heavy to suppress isocurvature perturbations during the CMB epoch. As inflation proceeds, the confinement scale decreases and the axion becomes light, allowing de Sitter fluctuations during the late stages of inflation or post-inflationary thermal fluctuations to generate the observed dark matter abundance. In addition, QCD-induced corrections to the inflationary potential can shift the scalar spectral index towards smaller values, providing a further observational handle. We embed this mechanism in an $α$-attractor model of inflation and explore the resulting parameter space. We show that, in the minimal scenario with reheating into gluons, successful dark matter production requires deconfinement to occur shortly after the CMB window. Extensions involving reheating through heavy right-handed neutrinos generally require large Yukawa couplings, which induce sizable loop corrections that spoil inflationary dynamics. We show that this tension can be resolved in the presence of supersymmetry and derive constraints on the SUSY breaking scale that allow the mechanism to remain viable within plateau models of inflation. Treating the reheat temperature as a free parameter further enlarges the viable parameter space.",
+  "title_relatable": "How inflaton-gluon coupling solves the axion dark matter problem",
+  "hook": "During inflation, direct coupling between the inflaton field and gluons could suppress unwanted axion fluctuations while still producing the observed dark matter abundance.",
+  "summary": "The inflaton—the field driving cosmic inflation—can couple directly to gluons and dynamically shift the QCD confinement scale. Early in inflation, this makes axions heavy enough to eliminate problematic isocurvature perturbations visible in the CMB. Later, as the confinement scale drops and axions become light, de Sitter fluctuations or thermal effects generate dark matter. The mechanism naturally shifts the observable spectral index and remains viable within supersymmetric versions of inflation models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 762,
+  "tokens_out": 197,
+  "cost_usd": 0.0013976,
+  "ingested_at": "2026-06-05T10:15:46.684139+00:00"
+}

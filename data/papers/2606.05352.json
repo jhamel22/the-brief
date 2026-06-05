@@ -1,0 +1,25 @@
+{
+  "id": "2606.05352",
+  "arxiv_url": "https://arxiv.org/abs/2606.05352",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph",
+    "hep-th"
+  ],
+  "title_original": "Running Vacuum in the expanding Universe: a unified QFT paradigm for Inflation and Dark Energy",
+  "authors": "Joan Solà Peracaula",
+  "abstract": "The concordance $Λ$CDM model, based on a rigid $Λ$-term for the entire cosmic history, has been in crisis for a long time. In our expanding Universe, an evolving $Λ$ with the expansion is intuitively much more reasonable. In the running vacuum model (RVM) framework, based on quantum field theory (QFT) in curved spacetime, quantum effects induce a vacuum energy density (VED) $ρ_{\\rm vac}=Λ/(8πG)$ which is a function of the Hubble rate $H$ and its time derivatives, $ρ_{\\rm vac}=ρ_{\\rm vac}(H, \\dot{H},\\ddot{H},\\dots)$. Currently, $ρ_{\\rm vac}$ evolves very slowly with the expansion, $δρ_{\\rm vac}\\sim {\\cal O}(m_{Pl} ^2 H^2)$, and this fact provides a possible fundamental origin of dark energy (DE), conceived as dynamical vacuum energy. In the RVM, Newton's $G$ is also evolving, but much more slowly (logarithmically with $H$): $G=G(\\ln H)$. In the very early universe, the vacuum fluctuations induce higher (even) powers, e.g. $\\sim H^4$, capable of triggering fast inflation in a very short period, in which $H$ is very large and approximately constant. This is the mechanism of `RVM-inflation'. It does not require an `inflaton' field since inflation is brought about by pure QFT effects on the dynamical background. It differs from Starobinsky's inflation, where $H$ is never constant. Furthermore, the dynamics of $ρ_{\\rm vac}(H)$ and $G(H)$ can also have implications on the frequently discussed possibility that the fundamental `constants' of Nature can be mildly evolving with the cosmic expansion. Putting things together, a unified QFT framework of dark energy and inflation ensues as a realistic theory for the description of the universe as a whole on fundamental grounds. In it, dynamical VED is predicted and is much welcomed, since it fits in with current DESI measurements, preferring dynamical DE over a rigid $Λ$ term.",
+  "title_relatable": "Can quantum effects alone explain both inflation and dark energy?",
+  "hook": "A quantum field theory model proposes that vacuum energy naturally evolves with cosmic expansion, unifying inflation and dark energy without needing an inflaton particle.",
+  "summary": "The running vacuum model treats dark energy as dynamical—changing with the universe's expansion rate rather than staying constant. Quantum fluctuations in the early universe (when expansion was rapid) trigger inflation automatically, while today's slower vacuum evolution explains current cosmic acceleration. This framework replaces both the inflaton field and the rigid cosmological constant with a single quantum mechanism, and early data from DESI surveys favor this approach.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 962,
+  "tokens_out": 169,
+  "cost_usd": 0.0014456,
+  "ingested_at": "2026-06-05T10:16:19.504354+00:00"
+}

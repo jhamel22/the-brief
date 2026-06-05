@@ -1,0 +1,22 @@
+{
+  "id": "2606.05723",
+  "arxiv_url": "https://arxiv.org/abs/2606.05723",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Metastability in Emergent Dark Energy: A New Framework Confronting Cosmological Observations",
+  "authors": "Xiaolei Li, Tonghua Liu, Tian-Nuo Li, Guo-Hong Du, Arman Shafieloo, Marek Biesiada",
+  "abstract": "We propose the Metastable Emergent Dark Energy (MEDE) model, a novel phenomenological extension of the Phenomenological (PEDE) and Generalized (GEDE) Emergent Dark Energy frameworks, in which dark energy exhibits a transitionary behavior, appearing at late times and vanishing toward the future. This model naturally enables a smooth crossing of the phantom divide line in the dark energy equation of state, as hinted at by recent observations. The MEDE model is defined by a hyperbolic tangent dark energy equation of state $w(z)=-1-Δ\\tanh[\\log_{10}((1+z)/(1+z_t))]$, introducing only two free parameters, the transition redshift $z_t$ and the variation amplitude $Δ$, allowing both the emergent and transitionary behavior of dark energy. We constrain the MEDE model using a combined dataset of Planck CMB, DESI DR2 BAO, and different compilations of Type Ia supernovae, obtaining $z_t=0.425^{+0.084}_{-0.120}$ and $Δ=0.87^{+0.29}_{-0.35}$ (for CMB+DESI+PantheonPlus), indicating a statistically significant deviation from the cosmological constant. Statistical comparisons show that the MEDE model is preferred over $Λ$CDM by the combined dataset, with $Δ\\rm DIC_{ MEDE-ΛCDM}= -9.29$. The MEDE model performs comparably to the CPL dynamical dark energy parametrization ($Δ\\rm DIC_{MEDE-CPL} = 0.74$), with no strong statistical distinction from CPL using current data. Notably, MEDE preserves the success of $Λ$CDM in describing early-universe physics and naturally accommodates the phantom-crossing signature indicated by the latest low-redshift observations. The MEDE scenario provides a compelling dark energy phenomenology that may guide us toward interesting theoretical implications.",
+  "title_relatable": "Does dark energy actually fade into the future?",
+  "hook": "New model suggests dark energy emerges at late times and vanishes ahead, crossing the phantom divide—and fits observations better than Einstein's constant.",
+  "summary": "Dark energy might not be eternal. Researchers propose a metastable model where it appears only recently and dies off, naturally crossing the phantom divide (the boundary where pressure flips sign). Using CMB, galaxy surveys, and supernovae data, they find this framework fits observations better than the standard cosmological constant, with dark energy transitioning around redshift 0.4—roughly 4 billion years ago.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 940,
+  "tokens_out": 165,
+  "cost_usd": 0.001412,
+  "ingested_at": "2026-06-05T10:16:08.495766+00:00"
+}

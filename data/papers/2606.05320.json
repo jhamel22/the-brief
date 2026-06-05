@@ -1,0 +1,25 @@
+{
+  "id": "2606.05320",
+  "arxiv_url": "https://arxiv.org/abs/2606.05320",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "astro-ph.HE",
+    "hep-ex"
+  ],
+  "title_original": "Gravitational Wave Imprints of a High-Quality Axion and the Origin of Flavor Hierarchies",
+  "authors": "K. S. Babu, Sai Charan Chandrasekar, Sudip Jana, Sudip Manna",
+  "abstract": "Axions, arising from an anomalous global Peccei-Quinn symmetry $U(1)_{\\text{PQ}}$, offer a compelling solution to the strong CP problem but are vulnerable to Planck-suppressed operators. Gauged abelian flavor symmetries $U(1)_F$, invoked to explain the flavor hierarchies via the Froggatt-Nielsen mechanism, can naturally shield the axion from such effects, yielding an accidental high-quality flavored axion with unit domain wall number. Such constructions predict two complementary signatures: (i) flavor-changing neutral currents from $K\\toπa$ decays, typically associated with high flavor scales $Λ_{\\text{FN}}\\gtrsim f_a$, and (ii) stochastic Gravitational Waves (GWs) sourced by the evolution and decay of gauged flavonic and axionic cosmic-string networks. In addition, global axionic strings can efficiently radiate axions, potentially accounting for the observed dark matter relic abundance. We show that the resulting characteristic plateau--valley structure in the GW spectrum provides a distinctive and powerful probe of high-quality flavored axion dark matter models, complementary to low-energy flavor experiments.",
+  "title_relatable": "Can gravitational waves reveal axions hiding in flavor symmetries?",
+  "hook": "Physicists propose that gravitational wave ripples from cosmic strings could expose axion dark matter models that explain why particles have wildly different masses.",
+  "summary": "Axions solve the strong CP problem but need protection from quantum effects—gauged flavor symmetries provide that shield while explaining why electrons are 200,000 times lighter than top quarks. The model produces two smoking guns: rare particle decays and a distinctive gravitational wave signature from decaying cosmic strings. This GW spectrum pattern could be detected alongside flavor physics experiments, offering a new way to hunt high-quality axion dark matter.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 736,
+  "tokens_out": 175,
+  "cost_usd": 0.0012888,
+  "ingested_at": "2026-06-05T10:16:22.172113+00:00"
+}

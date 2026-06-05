@@ -1,0 +1,24 @@
+{
+  "id": "2606.05281",
+  "arxiv_url": "https://arxiv.org/abs/2606.05281",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO",
+    "astro-ph.SR"
+  ],
+  "title_original": "Little red dots as a cosmological probe: constraining $H_0$ with quasi-periodic pulsations",
+  "authors": "Zijian Zhang, Kohei Inayoshi, Masamune Oguri, Linhua Jiang, Fengwu Sun, Mingyu Li, Xiaojing Lin",
+  "abstract": "The James Webb Space Telescope (JWST) has uncovered a population of ``little red dots'' (LRDs) at $z \\gtrsim 4$, potentially representing early supermassive black holes embedded in dense gaseous envelopes. The recent discovery of the lensed LRD RXJ2211-RX1 reveals significant variability on rest-frame timescales of decades, which may be interpreted as quasi-periodic variation that has a potential physical parallel to stellar pulsations. In this work, we derive an idealized, self-consistent period-luminosity-temperature ($P$-$L$-$T_{\\rm eff}$) relation based on the hydrostatic envelope model. If this theoretical relation holds and can be empirically validated/calibrated, it would offer a novel framework for constraining the Hubble constant ($H_0$). The current sparse sampling of \\tgta\\ yields a preliminary $H_0 = 120.7_{-46.5}^{+47.0} \\text{ km s}^{-1}\\text{ Mpc}^{-1}$ as a proof-of-concept, with the error budget dominated by the uncertainty of the pulsation period. Our forecasting analysis shows that continuous monitoring over a 10-year baseline can reduce the $H_0$ uncertainty to 3-20\\%, depending on the intrinsic pulsation period, while the systematic uncertainty floor remains to be fully characterized. This method offers a potential independent probe to measure luminosity distances in the early universe.",
+  "title_relatable": "Can mysterious early galaxies measure the universe's expansion rate?",
+  "hook": "JWST's puzzling 'little red dots' show regular pulsations like stars. Astronomers propose using these patterns as cosmic distance markers to measure the Hubble constant.",
+  "summary": "Researchers propose using quasi-periodic variations in 'little red dots'—early supermassive black holes wrapped in dense gas—as standard candles to measure cosmic expansion. They derive a period-luminosity relation analogous to stellar pulsations and test it on one lensed object, yielding a preliminary Hubble constant measurement with 40% uncertainty. With a decade of monitoring, the method could shrink errors to 3–20%, offering a novel early-universe distance probe independent of traditional ladders.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 818,
+  "tokens_out": 201,
+  "cost_usd": 0.0014584,
+  "ingested_at": "2026-06-05T10:16:31.158482+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.05144",
+  "arxiv_url": "https://arxiv.org/abs/2606.05144",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.GA",
+    "astro-ph.CO"
+  ],
+  "title_original": "New Measurements of Distances to Galaxies in the NGC 1052 Field with the Hubble and James Webb Space Telescopes: Testing the Bullet-Dwarf Origin of the Trail",
+  "authors": "Yimeng Tang, Gagandeep S. Anand, Aaron J. Romanowsky, Pieter G. van Dokkum, Kevin A. Bundy",
+  "abstract": "NGC 1052-DF2 and DF4 are two ultra-diffuse galaxies deficient in dark matter (DM), and reported as part of a remarkable linear trail of dwarf galaxies in the NGC 1052 field. Recently, NGC 1052-DF9 has been identified as the third galaxy missing DM along the trail. This structure may have been formed in a high-velocity head-on collision between two gas-rich dwarfs, known as the \"bullet-dwarf\" scenario. However, the trail overlaps in projection with a foreground system, the NGC 1035 group at $\\sim13$ Mpc, raising suspicions that the trail is an artifact of this superposition. DF2 and DF4 have been found to be at distances of $21.7\\pm1.2$ and $20.0\\pm1.6$ Mpc, respectively, using the tip of the red giant branch (TRGB) method with deep Hubble Space Telescope (HST) imaging, but the distances to other trail dwarfs remain unknown. In this Letter, we use HST imaging to obtain surface brightness fluctuation (SBF) distance estimates for eight candidate trail dwarfs, as well as for the giant galaxies NGC 1052 and NGC 1035. We find that the dwarfs are all at $\\sim$20 Mpc, and are not associated with the foreground NGC 1035 group. However, for DF2, we derive an SBF distance of $17.7\\pm1.4$ Mpc, inconsistent with the published HST TGRB distance ($21.7\\pm1.2$ Mpc). Meanwhile, James Webb Space Telescope (JWST) observations of DF2 offer a second, and potentially more accurate, TRGB distance of $17.6\\pm0.6$ Mpc. While this value matches our SBF result, it is clear that uniform JWST imaging of the remaining trail dwarfs is critically needed.",
+  "title_relatable": "Did a cosmic collision create galaxies missing dark matter?",
+  "hook": "A mysterious line of dark-matter-free dwarf galaxies may trace a ancient collision—or a cosmic illusion. New measurements from two space telescopes disagree.",
+  "summary": "Astronomers measured distances to eight dwarf galaxies aligned in the NGC 1052 field, all clustering around 20 million light-years away. This rules out the possibility they are a foreground mirage. But measurements of the best-studied galaxy in the group (NGC 1052-DF2) conflict: older Hubble data suggest 21.7 Mpc, while the new James Webb measurement gives 17.6 Mpc. The alignment may indeed reflect a violent dwarf-dwarf collision, but the distance discrepancy demands urgent follow-up observations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 214,
+  "cost_usd": 0.0016144,
+  "ingested_at": "2026-06-05T10:16:39.140669+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.06410",
+  "arxiv_url": "https://arxiv.org/abs/2606.06410",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "The Atacama Cosmology Telescope: Probing new signatures of ultralight axions with gravitational lensing",
+  "authors": "Alex Laguë, Keir K. Rogers, Mathew S. Madhavacheril, J. Richard Bond, Erminia Calabrese, Mark J. Devlin, Jo Dunkley, Vera Gluscevic, Renée Hložek, Hidde T. Jense, Thibaut Louis, Frank J. Qu, Bernardita Ried Guachalla, Neelima Sehgal, Blake D. Sherwin, Suzanne T. Staggs, Alexander van Engelen",
+  "abstract": "Ultralight axions (ULAs) are well-motivated dark matter particle candidates that arise in many extensions of the Standard Model of particle physics. ULAs with mass $m_\\mathrm{a} \\lesssim 10^{-27}$ eV have been strongly constrained by cosmic microwave background (CMB) observations in temperature and polarization. We fit recent measurements of gravitational lensing of the CMB from \\textit{Planck}, the Atacama Cosmology Telescope (ACT) and the South Pole Telescope (SPT-3G) using a state-of-the-art simulation-calibrated nonlinear clustering model for ULAs. We derive the strongest constraints on ULAs in the mass range $10^{-26}\\;\\mathrm{eV}\\leq m_\\mathrm{a}\\leq 10^{-24.5}\\;\\mathrm{eV}$. ULAs of this mass have been shown to alleviate tensions between inferences of the matter clustering if they compose a few percent of the total dark matter content of the Universe. We conclude that ULAs with a mass of $10^{-26}$ eV make up less than 1.5\\% of the dark matter and $10^{-25}$ eV axions make less than 9\\% (both at 95\\% confidence level). We identify a slight preference for non-zero axion density at $10^{-24.5}$ eV at $2.1σ$. We find that the preference for ULAs is largely driven by a few data points and that further investigation of non-linear ULA physics is needed to confirm or rule out this signal.",
+  "title_relatable": "Can gravitational lensing reveal the ghostly axions hiding in dark matter?",
+  "hook": "Combining three major telescopes to constrain ultralight axions that might compose a few percent of dark matter—with a tantalizing hint of signal at one mass.",
+  "summary": "Ultralight axions are exotic dark matter candidates that bend light differently than ordinary matter. Using gravitational lensing maps from Planck, ACT, and SPT-3G, researchers placed the tightest limits on axions between 10⁻²⁶ and 10⁻²⁴.⁵ eV, ruling out axions as more than ~2–9% of dark matter depending on mass. One mass range hints at a possible signal, though it may be a statistical fluke.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 944,
+  "tokens_out": 209,
+  "cost_usd": 0.0015912,
+  "ingested_at": "2026-06-05T10:15:53.138173+00:00"
+}

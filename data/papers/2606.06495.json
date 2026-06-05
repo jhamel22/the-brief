@@ -1,0 +1,22 @@
+{
+  "id": "2606.06495",
+  "arxiv_url": "https://arxiv.org/abs/2606.06495",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "What it takes to solve the Hubble tension through Modifications of Cosmological Recombination II: in light of ACT DR6 and DESI DR2",
+  "authors": "Nanoom Lee, Tianji Zhou",
+  "abstract": "We construct data-driven solutions to the Hubble tension, in light of recent data from the Atacama Cosmology Telescope (ACT DR6) and the Dark Energy Spectroscopic Instrument (DESI DR2). We search for the minimal modification to the recombination history through a time-varying electron mass $m_e(z)$ that increases the best-fit $H_0$ inferred from CMB data toward the SH0ES value, without worsening the fit to the data. Using Planck and ACT data including lensing, we find a perturbative modification to $m_e(z)$ that fully resolves the Hubble tension, with the solution sharing the same qualitative oscillatory structure as in previous work using Planck data alone, demonstrating its robustness to the inclusion of more precise and independent CMB data. As a byproduct, the solution also eases the $S_8$ tension. Once DESI DR2 BAO data are added, however, perturbative modifications to $m_e(z)$ cannot fully resolve the Hubble tension. This reflects the same fundamental limitation: raising $H_0$ by modifying recombination generically lowers $Ω_m$, being inconsistent with late-time cosmological observations.",
+  "title_relatable": "Can tweaking how electrons behaved early on fix cosmology's greatest headache?",
+  "hook": "Modifying the electron mass in the early universe resolves the Hubble tension with CMB data alone, but crumbles when confronted with galaxy surveys.",
+  "summary": "The Hubble tension—a 5-sigma disagreement between expansion rate measurements—might vanish if the electron mass varied with time in the early universe. New data from ground-based CMB experiments and galaxy surveys confirm this fix works for CMB alone, but fails when combined with late-universe measurements, revealing a fundamental incompatibility: raising today's expansion rate this way requires lowering the matter density, contradicting what we see in galaxies.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 739,
+  "tokens_out": 186,
+  "cost_usd": 0.0013352000000000001,
+  "ingested_at": "2026-06-05T10:15:44.248569+00:00"
+}

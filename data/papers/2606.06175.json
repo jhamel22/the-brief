@@ -1,0 +1,22 @@
+{
+  "id": "2606.06175",
+  "arxiv_url": "https://arxiv.org/abs/2606.06175",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "AKRA 3.0: A matrix-free Inversion Framework for Weak Lensing Mass Mapping and Its Application to DES Y3 Data",
+  "authors": "Yuan Shi, Pengjie Zhang, Li Cui, Jian Qin, Ji Yao",
+  "abstract": "Weak gravitational lensing mass mapping offers a direct probe of the matter distribution. Accurate reconstruction of mass maps from masked shear catalogs remains challenging due to survey boundaries and spatially varying noise. In AKRA 2.0, we addressed the mask problem on the curved sky by constructing and inverting the normal-equation matrix $\\bf{H} \\equiv \\mathbf{A}^\\mathrm{T}\\mathbf{N}^{-1} \\mathbf{A}$ explicitly, necessitating a split-scale strategy that reconstructed different angular scales independently to reach high resolution. Here we present AKRA 3.0, in which $\\mathbf{H}$ is treated as a linear operator and the normal equations are solved by the conjugate gradient (CG) method. This reformulation reduces the memory requirement from $O(N^2)$ to $O(N)$ and the inversion cost from $O(N^3)$ to $O(N_{\\rm iter}N^{3/2}), N \\sim \\ell_{\\rm{max}}^2$ for full-sky (SHT-based) operations. Such optimizations render high-resolution full-sky reconstruction tractable for Stage~III and Stage~IV surveys. Applying AKRA 3.0 to the DES Y3 \\texttt{METACALIBRATION} catalog, we produce the highest-resolution convergence map of this dataset to date at HEALPix $N_{\\rm{nside}}= 2048$ without imposing any prior assumptions. We extract the convergence power spectrum directly from the reconstructed map and demonstrate that unbiased two-point measurements can be obtained directly from the reconstructed map. The reconstructed E-mode convergence map will be publicly released as data products to enable future studies of non-Gaussian statistics, higher-order moments, and cross-correlations with external datasets.",
+  "title_relatable": "How do astronomers map invisible matter across the entire sky?",
+  "hook": "New algorithm cuts memory and computation costs dramatically, enabling the highest-resolution dark matter map yet from Dark Energy Survey data.",
+  "summary": "Weak lensing—the bending of starlight by gravity—reveals where matter hides in the universe. Standard methods struggle with incomplete survey coverage and noise, requiring expensive matrix inversions. AKRA 3.0 treats the core calculation as a flowing operation rather than a fixed array, cutting memory needs from quadratic to linear. Applied to Dark Energy Survey Year 3 data, it produced the sharpest convergence map available, revealing the cosmic matter skeleton without added assumptions.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 894,
+  "tokens_out": 179,
+  "cost_usd": 0.0014312,
+  "ingested_at": "2026-06-05T10:16:03.053031+00:00"
+}

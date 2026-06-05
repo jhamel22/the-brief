@@ -1,0 +1,23 @@
+{
+  "id": "2606.05479",
+  "arxiv_url": "https://arxiv.org/abs/2606.05479",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO",
+    "gr-qc"
+  ],
+  "title_original": "On the potential for inhomogeneities to mimic an evolving dark energy",
+  "authors": "Hayley J. Macpherson, Georgios Valogiannis",
+  "abstract": "In this work we explore the ability of inhomogeneities to result in an apparent dynamical evolution of dark energy. The idea that inhomogeneities may alter the expansion history of the Universe is not a new one. However, with the current excitement surrounding the inferred time-evolution of the equation of state of dark energy by the Dark Energy Spectroscopic Instrument (DESI), combined with Cosmic Microwave Background (CMB) and supernovae observations, it is worth revisiting. We use numerical relativity simulations of large-scale structure formation combined with nonlinear general-relativistic ray tracing to infer dark energy parameters for synthetic observers. We adopt a simplified set-up to roughly mimic the observational properties of the DESI plus supernovae and CMB constraints. In our small sample of 20 observers, we find one who infers parameters consistent with the DESI values at 2-$σ$ significance. While it is rare in our limited sample size, we show that it is at least possible for observers to infer significant non-LCDM parameters when their universe is well-described by a cosmological constant on average.",
+  "title_relatable": "Can clumpy matter fool us into seeing dark energy change over time?",
+  "hook": "DESI data hinting at evolving dark energy might be illusion: simulations show matter clumping alone can mimic time-varying cosmic expansion in rare observer locations.",
+  "summary": "Using supercomputer simulations of cosmic structure, researchers asked whether local clumps of matter could trick observers into measuring a false evolution of dark energy. They traced light paths through realistic universes where dark energy is actually constant, then measured what different observers would infer about its properties. One observer in twenty saw the DESI signature of changing dark energy—suggesting the real signal might owe more to our cosmic neighborhood than to fundamental physics.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 689,
+  "tokens_out": 183,
+  "cost_usd": 0.0012832,
+  "ingested_at": "2026-06-05T10:16:14.015252+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2606.05299",
+  "arxiv_url": "https://arxiv.org/abs/2606.05299",
+  "announced_date": "2026-06-03",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "hep-ph",
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "hep-ex"
+  ],
+  "title_original": "Heavy-element paleodetectors for Higgsino dark matter",
+  "authors": "Peter W. Graham, Harikrishnan Ramani, Samuel S. Y. Wong",
+  "abstract": "Paleodetectors have been proposed as a new approach to direct detection of weakly interacting massive particles (WIMPs), through the search for damage tracks in ancient minerals induced by WIMP-nucleon scattering. However, for inelastic dark matter such as the Higgsino, existing paleodetector targets lack sufficiently heavy nuclei to overcome the kinematic threshold for scattering. We propose heavy-element paleodetectors as a new probe of inelastic dark matter, using ancient, radiopure minerals containing heavy elements such as lead. We identify brine precipitates from deep geothermal aquifers as a possible geological source of such minerals. Additionally, paleodetectors are uniquely sensitive to the history of the dark matter high-velocity tail, including a possible fast population induced by the Large Magellanic Cloud's close approach 50 Myr ago. Such a scenario would favor younger minerals than usually assumed in the paleodetector literature. This method can probe Higgsino mass splittings up to $δ\\simeq 920$ keV. Due to the large Higgsino-nucleon cross section, we find that even suboptimal mineral samples with ordinary radioactivity from depths of only 2 km can probe new parameter space, thus partially relaxing the stringent requirements on radiopurity and depth that constitute two significant challenges for the paleodetector program.",
+  "title_relatable": "Could ancient lead minerals reveal invisible dark matter?",
+  "hook": "A new approach hunts Higgsino dark matter by examining damage tracks in ancient lead-rich minerals, potentially lowering the radiopurity demands that have limited paleodetector searches.",
+  "summary": "Paleodetectors search for dark matter by finding microscopic damage trails in ancient minerals—but most existing minerals are too light to register collisions with inelastic dark matter like Higgsinos. This work proposes using heavy elements, especially lead from deep geothermal brines, which can capture collisions from Higgsinos up to 920 keV in mass splitting. The approach gains sensitivity to a faster dark matter population possibly created when the Large Magellanic Cloud approached 50 million years ago, and notably works even with younger, less pristine samples.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 744,
+  "tokens_out": 211,
+  "cost_usd": 0.0014392,
+  "ingested_at": "2026-06-05T10:16:28.207958+00:00"
+}

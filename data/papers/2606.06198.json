@@ -1,0 +1,25 @@
+{
+  "id": "2606.06198",
+  "arxiv_url": "https://arxiv.org/abs/2606.06198",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "cs.NE",
+    "astro-ph.CO",
+    "astro-ph.GA",
+    "astro-ph.IM"
+  ],
+  "title_original": "Hub-Aware Hybrid Search: Accelerating the Locally Aligned Ant Technique",
+  "authors": "Simone Vilardi, Reynier Peletier, Felipe Contreras, Kerstin Bunte",
+  "abstract": "Finding manifold structures in noisy and high-dimensional point clouds is a challenging but important problem. In astronomical observation survey and simulation data the detection of filaments, streams (1D), walls (2D) and clusters (3D) gives rise to deeper understanding of the evolution of our universe. The Locally Aligned Ant Technique (LAAT) uses biologically inspired agents to efficiently recover faint and multidimensional structures. However, very dense hubs (e.g. nodes or globular clusters) dominate the ants' activity, creating unnecessary computational overheads. In this paper we propose a two-stage solution. First a fast preprocessing step locates the hubs and replaces them with a tailored likelihood model. Subsequently, a mixed likelihood-pheromone strategy guides the ants to efficiently bridge the dense regions. We demonstrate improvements in detection efficiency and robustness of LAAT with synthetic and a large-scale astronomical N-body simulation of the cosmic web.",
+  "title_relatable": "Can ant-inspired algorithms untangle the cosmic web?",
+  "hook": "A swarm-based method for mapping large-scale structure in the universe now handles dense clusters efficiently, speeding up detection of filaments and cosmic walls.",
+  "summary": "Astronomers use an algorithm inspired by ant behavior to find thin structures (filaments, streams, walls) in massive datasets. Dense clumps like clusters overwhelmed the ants with busywork. The researchers added a preprocessing step that identifies and simplifies these hubs, then guided ants through them with a hybrid strategy, improving both speed and accuracy on cosmic web simulations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 659,
+  "tokens_out": 163,
+  "cost_usd": 0.0011792,
+  "ingested_at": "2026-06-05T10:16:00.163168+00:00"
+}

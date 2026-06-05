@@ -1,0 +1,22 @@
+{
+  "id": "2606.05853",
+  "arxiv_url": "https://arxiv.org/abs/2606.05853",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "astro-ph.CO"
+  ],
+  "title_original": "Reconstructing dark energy with fewer assumptions",
+  "authors": "Daniel A. Kessler, Eleonora Di Valentino, Luis A. Escamilla, Dragan Huterer",
+  "abstract": "We perform minimalistic reconstructions of the dark energy density and equation of state using late-time distance measurements. Our methodology avoids assumptions that correlate the values of these functions over time and instead yields their approximate average evolution within seven redshift bins from $z=0$ to $z=4.2$. Constraints are obtained using combinations of BAO measurements from DESI and SDSS, alongside Type Ia supernovae measurements from Pantheon+ and the latest recalibrated samples, Union3.1 and DES-Dovekie. Only an acoustic scale prior is included from the CMB so that our results are insensitive to the possible matter density tension between early and late-time probes. All combinations yield consistent reconstructed histories: a dark energy density that rises to a local maximum before decreasing at late times and an equation of state with two apparent oscillations around the cosmological constant limit. Both functions tentatively suggest a phantom crossing in the equation of state around $z\\sim0.6$-$0.8$. These patterns are robust to numerous parameter extensions, such as freely varying spatial curvature and neutrino mass, and they persist in the uncorrelated amplitudes obtained through localized principal component analysis. Deviations from $Λ$CDM in individual bins reach a maximum significance of $\\sim2.6$-$3σ$, while the total chi-square difference between the reconstructions and this model provides up to $\\sim2σ$ support for the seven additional parameters in the reconstructions. As these significances remain moderate, our main result is the level of consistency between combinations of the most widely used background-level observations. Our results suggest that the dark energy evolution signal is a persistent feature of the data and that it cannot be explained solely by fluctuations or systematics in individual measurements.",
+  "title_relatable": "What if dark energy isn't constant? New data hints at a surprising answer.",
+  "hook": "Combining the latest supernova and galaxy surveys, physicists find hints that dark energy may have changed over cosmic history, with hints of crossing into exotic territory.",
+  "summary": "Using data from DESI, SDSS, and recent supernova catalogs without forcing assumptions about how dark energy evolves, researchers reconstructed its density and behavior across 7 time slices from now back 12 billion years. They found dark energy density rose then fell, its equation of state wobbled around the cosmological constant, and tentatively crossed into \"phantom\" territory around z~0.6–0.8. The signal is modest (2–3σ) but consistent across different datasets and robust to varying spatial curvature and neutrino mass.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 836,
+  "tokens_out": 211,
+  "cost_usd": 0.0015128000000000001,
+  "ingested_at": "2026-06-05T10:16:05.895031+00:00"
+}

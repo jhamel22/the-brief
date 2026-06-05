@@ -1,0 +1,24 @@
+{
+  "id": "2606.06478",
+  "arxiv_url": "https://arxiv.org/abs/2606.06478",
+  "announced_date": "2026-06-04",
+  "subject": "astro-ph.CO",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO",
+    "hep-ph"
+  ],
+  "title_original": "Short Gravitational-Wave Transients as Probes of Cosmic Domain Walls",
+  "authors": "Tore Boybeyi, Doga Veske, David Maibach",
+  "abstract": "GW190521 and GW231123 have been reported as short-duration gravitational-wave transients consistent with very massive binary black hole (BBH) coalescences whose inferred parameters, i.e., exceptionally high total masses and spin magnitudes, challenge standard isolated binary stellar evolution. We test a topological dark matter (TDM) interpretation invoking cosmic domain walls by fitting a physically motivated domain wall template to the LIGO Hanford and Livingston strain data. The BBH hypothesis is individually favored, with $\\log_{10}\\mathcal{B}_{\\rm BBH/TDM}=12.2$ and $11.3$ for GW231123 and GW190521, respectively. However, these values are lower than those typically recovered from matched maximum a posteriori BBH waveforms injected into nearby noise segments. We further perform, for the first time, a joint fit in which domain wall signals from a single underlying scalar field are constrained simultaneously by both events. Although not favored over BBH signals, we find the two events are consistent with a common scalar field, with shared TDM parameters agreeing across independent noise realizations and sky locations. We further find that injected TDM transients are systematically recovered under the BBH hypothesis with large spin parameters, revealing a morphological degeneracy that could mask genuine domain wall signals. This analysis demonstrates that multi-event parameter consistency tests provide a new discriminant for domain wall dark matter searches in upcoming observing runs.",
+  "title_relatable": "Could cosmic defects masquerade as black hole mergers in gravitational waves?",
+  "hook": "Two puzzling gravitational-wave detections resemble black hole collisions but fit unexpectedly well with exotic topological dark matter, revealing how gravitational-wave telescopes could miss new physics.",
+  "summary": "Using data from two mysterious gravitational-wave events (GW190521 and GW231123), researchers tested whether cosmic domain walls—topological defects in spacetime from dark matter—could mimic black hole mergers. While standard black hole explanations remain favored, the domain wall fits were surprisingly close, and a joint analysis showed both events could arise from the same underlying scalar field. Critically, fake domain wall signals injected into data were routinely misidentified as high-spin black holes, exposing a degeneracy that could let genuine dark matter signals hide in plain sight.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "physics",
+  "tokens_in": 767,
+  "tokens_out": 223,
+  "cost_usd": 0.0015056,
+  "ingested_at": "2026-06-05T10:15:49.545988+00:00"
+}
