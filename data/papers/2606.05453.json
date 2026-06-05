@@ -1,0 +1,22 @@
+{
+  "id": "2606.05453",
+  "arxiv_url": "https://arxiv.org/abs/2606.05453",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Curvature conditions for generalized singularity theorems",
+  "authors": "Jeremías Daín, Gustavo Dotti",
+  "abstract": "We study the curvature conditions introduced in [Class. Quant. Grav. 27, 152002] to predict focal points for trapped spacelike submanifolds in spacetimes of arbitrary dimensions, with the purpose of generalizing Penrose's singularity theorem to compact trapped submanifolds (CTMs) of codimension higher than two. We find that these conditions do not apply in general but may apply for specific CTMs. As a result, higher codimension CTMs may still work as singularity predictors, although the possibility that they intersect the domain of outer communications cannot be ruled out using standard arguments.",
+  "title_relatable": "When does curved spacetime guarantee a singularity must form?",
+  "hook": "Penrose's famous singularity theorem may extend to higher-dimensional trapped surfaces, but with unexpected caveats.",
+  "summary": "Penrose's singularity theorem uses trapped surfaces — regions where even outgoing light rays converge — to prove singularities must form. This work tests whether that logic extends to higher-dimensional analogues in spacetimes of arbitrary dimension. The curvature conditions needed turn out to be geometry-dependent rather than universal, meaning some higher-dimensional trapped surfaces can still signal singularities, but they might lie inside observable regions rather than safely behind horizons.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 568,
+  "tokens_out": 170,
+  "cost_usd": 0.004254,
+  "ingested_at": "2026-06-05T10:20:04.882610+00:00"
+}

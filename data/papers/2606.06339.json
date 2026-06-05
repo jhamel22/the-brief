@@ -1,0 +1,22 @@
+{
+  "id": "2606.06339",
+  "arxiv_url": "https://arxiv.org/abs/2606.06339",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "$\\tt GrayHawk$ $\\tt v2$: wormholes and numeric extension",
+  "authors": "Marco Calzá",
+  "abstract": "We enlarged the capabilities of the publicly available Mathematica-based tool $\\tt GrayHawk$. This second version expands the spectrum of metrics that can be considered in two distinct and disjoined directions. First, it enables a fully numerical computation of the tortoise coordinates integral, allowing the user to account for many metrics for which an analytic computation was impractical. Second, it extends the scattering problem to wormhole solutions. The pool of pre-loaded metrics is enriched, enabling immediate testing of the new features, and the code's modular structure is maintained to facilitate easy modification. This implementation proves $\\tt GrayHawk$ adaptability and makes it an even more powerful tool for studying black holes, wormholes, Hawking radiation, and other features involving field propagation on curved manifolds. The codes described in this work are publicly available at \\href{https://github.com/marcocalza89/GrayHawk-v2}{\\faGithub}.",
+  "title_relatable": "A free toolkit now simulates radiation from wormholes too",
+  "hook": "GrayHawk v2 extends its black-hole radiation calculator to wormholes and numerically intractable spacetimes.",
+  "summary": "GrayHawk, a public Mathematica tool for computing how fields scatter and radiate in curved spacetimes, gains two major upgrades: fully numerical tortoise-coordinate integration for metrics that resist analytic treatment, and support for wormhole geometries. The update means researchers can now probe Hawking-like radiation and wave propagation across a much wider zoo of exotic spacetimes without writing custom code from scratch.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 642,
+  "tokens_out": 167,
+  "cost_usd": 0.004431,
+  "ingested_at": "2026-06-05T10:18:58.010068+00:00"
+}

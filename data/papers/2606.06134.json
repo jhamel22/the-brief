@@ -1,0 +1,23 @@
+{
+  "id": "2606.06134",
+  "arxiv_url": "https://arxiv.org/abs/2606.06134",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.HE",
+    "gr-qc"
+  ],
+  "title_original": "Detectability of secondary images from flares near Sgr A* with mock GRAVITY data",
+  "authors": "Fengting Xie, Qing-Hua Zhu, Xin Li",
+  "abstract": "The orbital motion of near-infrared flares reported by the GRAVITY collaboration encodes information about both the dynamics of accretion matter and the underlying spacetime geometry. The centroid track of these flares, which corresponds to the flux-weighted center of light, incorporates contributions from primary, secondary and higher-order images. Thus, it potentially indicates distinctive signatures of the spacetime geometry, even when these individual multiple images remain unresolved. In this study, we explore the detectability of the secondary images from flares orbiting Sgr A* through mock data simulating future GRAVITY observations. Specifically, we compare the model in which the centroid coincides with the track of the primary images with another model in which the centroid incorporates flux-weighted contributions from both the primary and secondary images. Fitting these models to the mock data based on Bayesian framework, we quantify the conditions under which the signature of secondary images can be statistically distinguishable. We demonstrate that increasing the sample size by an order of magnitude alone could not yield strong evidence for distinguishing the secondary image. Robust detectability ($|Δ\\text{BIC}| >7.9$) is achieved when both with the improved sample size and astrometric uncertainties reduced to 40\\% of current uncertainties of GRAVITY astrometric data. Unlike the primary image, which is dominated by accretion flow physics, the secondary images originate from gravitational lensing in the strong-field regime. Their detection is an essential first step toward probing higher-order images and the photon rings.",
+  "title_relatable": "How close are we to photographing Sgr A*'s ghost images?",
+  "hook": "Detecting gravitational echo images of black hole flares needs both ten times more data and 60% sharper astrometry.",
+  "summary": "Flares spiraling near Sgr A* produce faint \"secondary\" images — light bent almost all the way around the black hole before reaching us. Simulating future GRAVITY telescope observations, the authors find that collecting ten times more flare data alone isn't enough; you also need astrometric precision roughly 2.5 times better than today's. Hit both targets simultaneously and the secondary image signature becomes statistically unmistakable — a critical stepping stone toward imaging the photon ring itself.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 781,
+  "tokens_out": 186,
+  "cost_usd": 0.005133,
+  "ingested_at": "2026-06-05T10:19:22.039292+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.05508",
+  "arxiv_url": "https://arxiv.org/abs/2606.05508",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE",
+    "hep-th"
+  ],
+  "title_original": "Black Bounce Solutions from a Self-Interacting 3-Form Field in General Relativity",
+  "authors": "Francisco S. N. Lobo, Manuel E. Rodrigues",
+  "abstract": "We construct a new class of black-bounce solutions sourced by a self-interacting 3-form field minimally coupled to general relativity and a scalar field. The 3-form field, which naturally arises in string theory, supergravity, and cosmological models, provides the anisotropic effective stresses required to sustain regular geometries that interpolate smoothly between black holes and traversable wormholes. By exploiting the Hodge duality between a 3-form and a 1-form in four dimensions, we reduce the field equations and obtain exact solutions through the direct integration of the coupled equations of motion. In particular, the solutions are derived from algebraic combinations and manipulations of the Einstein, scalar, and 3-form field equations, starting from a complete action principle, without employing the usual reconstruction procedure in which the metric ansatz is imposed a priori and the matter sector is reconstructed afterwards. This approach reveals two distinct classes of solutions. The first one yields a globally phantom scalar field and a metric function with a characteristic arctangent dependence, reducing to the Schwarzschild-(anti) de Sitter spacetime in the limit of vanishing 3-form coupling. The second class produces a constant 3-form Lagrangian and, remarkably, a partially canonical scalar field, namely phantom only near the bounce and canonical outside the event horizon, a feature previously attainable mainly in modified theories of gravity, but which emerges here within pure general relativity. Both families are globally regular, as confirmed by the finiteness of the Kretschmann scalar, and exhibit an asymmetric horizon structure inherited from the 3-form energy-density distribution. These results demonstrate that the 3-form black-bounce framework is both mathematically consistent and observationally viable.",
+  "title_relatable": "A wormhole that hides inside a black hole — solved exactly",
+  "hook": "A 3-form field from string theory produces black holes that smoothly transition into traversable wormholes, with no singularities anywhere.",
+  "summary": "Using a type of field borrowed from string theory, two physicists built exact solutions where a black hole's central singularity is replaced by a 'bounce' into a wormhole throat. One solution behaves like a Schwarzschild black hole with a cosmological constant at large distances; the other produces exotic matter only near the bounce, turning normal near the horizon — a trick previously requiring modified gravity. Both geometries are everywhere finite, suggesting singularity-free black holes are possible within standard general relativity.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 824,
+  "tokens_out": 188,
+  "cost_usd": 0.005292,
+  "ingested_at": "2026-06-05T10:19:49.672012+00:00"
+}

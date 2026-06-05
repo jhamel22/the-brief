@@ -1,0 +1,23 @@
+{
+  "id": "2606.06237",
+  "arxiv_url": "https://arxiv.org/abs/2606.06237",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.IM",
+    "gr-qc"
+  ],
+  "title_original": "Sensitivity Limits and Operational Threshold Calibration for DINOv2-based Gravitational-Wave Glitch Characterization: A Strain-Domain Mock Data Challenge on LIGO O4a",
+  "authors": "Luca Cirfeta",
+  "abstract": "We present a Mock Data Challenge (MDC) to characterize the sensitivity limits of the gravi-signal-ml pipeline (Cirfeta 2026) for unsupervised gravitational-wave glitch detection. Strain-domain synthetic injections of eight morphological families into public LIGO O4a L1 data reveal two threshold-dependent sensitivity regimes. With a session-adaptive dynamic threshold (tau_dyn = mu_bg - 2.5 * sigma_bg), the pipeline recovers visually anisotropic morphologies (Butterfly, ZSweep) at matched-filter SNR >= 70, reaching Recall = 1.0, though the False Positive Rate (FPR) remains uncontrolled across sessions. Characterization of the full O4a embedding distribution (N = 188,142 segments) reveals extreme non-Gaussianity (skewness = -4.12, excess kurtosis = 15.38, Shapiro-Wilk p-value near 0), with the left tail best modeled by a Generalized Extreme Value (GEV) distribution. Under a statistically rigorous operational threshold (tau_op = 0.874) calibrated at the empirical 5x10^-5 quantile (FPR < 0.01%), the MDC yields Recall = 0 for all eight morphologies at all tested SNR levels, including narrowband structures (HarmonicComb, NarrowChirp) and impulsive transients (AsymBlip) at SNR up to 430. We trace this insensitivity to the global average pooling of the DINOv2 [CLS] token, which dilutes signals occupying a small fraction (<5%) of the spectrogram's 37x37 patch grid. The null result of Cirfeta (2026) is conditionally reinterpreted: it confirms the absence of novel macro-structures but cannot exclude localized micro-structures. These findings provide a quantitative roadmap for next-generation ViT-based pipelines using patch-level scoring and multi-scale windowing.",
+  "title_relatable": "Why a cutting-edge AI pipeline missed every gravitational-wave glitch it was hunting",
+  "hook": "A LIGO glitch-detection pipeline built on DINOv2 scored perfect recall at loose settings — and zero at rigorous ones.",
+  "summary": "A blind injection test of eight synthetic glitch types into real LIGO O4a data exposed a fundamental flaw: the DINOv2 vision model compresses each spectrogram into a single average value, so any glitch occupying less than 5% of the image gets washed out entirely. Tighten the detection threshold to control false alarms and recall drops to zero — even for signals 430 times above the noise floor. The culprit is global average pooling, and the fix points toward patch-level scoring in next-generation pipelines.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 934,
+  "tokens_out": 207,
+  "cost_usd": 0.005907,
+  "ingested_at": "2026-06-05T10:19:10.543296+00:00"
+}

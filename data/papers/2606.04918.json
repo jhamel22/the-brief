@@ -1,0 +1,23 @@
+{
+  "id": "2606.04918",
+  "arxiv_url": "https://arxiv.org/abs/2606.04918",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.IM"
+  ],
+  "title_original": "The geometry of lunar gravitational wave detection",
+  "authors": "Jacopo Tissino, Filippo Santoliquido, Francesco Iacovelli, Ulyana Dupletsa, Tito Dal Canton, Matteo Ballelli, Ansh Chopra, Luis Enrique Espinosa Castro, Laura Pezzella, Matteo Schulz, Izumi Takimoto Schmiegelow, Jan Harms",
+  "abstract": "The Lunar Gravitational Wave Antenna (LGWA) is a planned gravitational wave detector on the Moon, targeting the deci-Hertz band and expected to deliver breakthrough discoveries across several science cases, including the Moon's interior structure and astrophysics. In this work, we show that adopting a frame comoving with the Solar System barycenter (SSB), but with its origin at a location that minimizes timing uncertainty, reduces the sampling time by an order of magnitude. We present a systematic post-processing procedure to identify the optimal origin within the Solar System for any given signal. We explore alternative timing parametrizations beyond the merger time, and find that they have only a minor impact on parameter uncertainties. Using the stellar-mass black hole binary GW250114 as a case study, we illustrate how these geometrical considerations translate into improved parameter constraints. Two minutes before its merger, the LGWA would have measured its chirp mass to a precision of 0.0002 solar masses (90% symmetric) and constrained its sky position to within 65 square degrees (90% HPD area); these constraints are tighter than those obtained by the LIGO-Virgo-KAGRA (LVK) detectors, despite a lower signal-to-noise ratio. We connect our results to an analytical approximation proposed by Wen and Chen, which relates the area spanned by the orbital motion of a detector to its efficacy in constraining the sky position of a source. We verify its qualitative validity for compact binary sources with a series of injections, identifying the regimes in which its underlying assumptions break down. Our results demonstrate that inference for long-duration GW signals with the LGWA must be treated as a geometrical problem, in which detector motion, reference-frame choice, and signal evolution jointly determine both parameter constraints and computational efficiency.",
+  "title_relatable": "Could a lunar seismometer outperform LIGO at pinpointing black holes?",
+  "hook": "A Moon-based detector could localize a black hole merger better than LIGO's three-detector network, despite lower signal strength.",
+  "summary": "A gravitational wave antenna on the Moon sweeps a huge arc as it orbits the Sun, and that geometry alone can sharply constrain where a signal came from. Two minutes before GW250114's merger, such an instrument would have pinned the black holes' sky position to 65 square degrees and their chirp mass to 0.0002 solar masses — beating the entire LIGO-Virgo-KAGRA network. The catch: getting the math right requires picking a reference point that slashes the required sampling density tenfold.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 900,
+  "tokens_out": 201,
+  "cost_usd": 0.005715,
+  "ingested_at": "2026-06-05T10:21:11.305121+00:00"
+}

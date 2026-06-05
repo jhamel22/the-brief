@@ -1,0 +1,22 @@
+{
+  "id": "2606.06371",
+  "arxiv_url": "https://arxiv.org/abs/2606.06371",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Evolution of Realistic Neutron star in the framework of f (Q) gravity",
+  "authors": "Samprity Das, Surajit Chattopadhyay",
+  "abstract": "This work analyses and evaluates a few realistic compact objects in the presence of a gravitational interaction between two particles with a nonmetricity $Q$. In the $f(Q)$ gravity framework, we have selected the anisotropic equation of motion and have determined $f(Q)$ to be a linear function of nonmetricity $Q$. To evaluate the field equations in our work, we have opted to employ the Krori-Barua metric. We calculated the anisotropic factor for each of the four compact objects and found that the anisotropic component is positive and increases monotonically and interpreted that the nuclear force can oppose the gravitational attraction. At last, the relationship between mass and radius has been determined and illustrated visually. We have noted that the compactness of the pulsars LMC X-4, SMC X-4, Cen X-3, and Vela X-1 is inside the Buchdahl's limit for varying values of $a$. This has led to the interpretation that these pulsars are neutron stars in a modified gravity background of $f(Q)$. In addition, we calculated the model mass and, using thirty distinct choices of $a$, ran the Chi-Square test to see if there was a noticeable difference between the observed and model-generated masses. We have also looked at how the surface redshift has changed over time and whether the compact objects in our model that were previously described are compact.",
+  "title_relatable": "Do pulsars behave differently under modified gravity theories?",
+  "hook": "Four real pulsars tested in a modified-gravity framework show stable, physically consistent neutron star behavior.",
+  "summary": "Using a gravity theory that replaces spacetime curvature with 'nonmetricity,' researchers modeled four known pulsars — LMC X-4, SMC X-4, Cen X-3, and Vela X-1 — and confirmed all four stay within the Buchdahl compactness limit, meaning they qualify as stable neutron stars even in this alternative framework. A chi-square test across thirty parameter choices showed model masses match observed values well. The result suggests these pulsars can't easily distinguish between standard general relativity and this particular modification.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 756,
+  "tokens_out": 196,
+  "cost_usd": 0.005208,
+  "ingested_at": "2026-06-05T10:18:53.004345+00:00"
+}

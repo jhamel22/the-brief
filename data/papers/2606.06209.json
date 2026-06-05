@@ -1,0 +1,22 @@
+{
+  "id": "2606.06209",
+  "arxiv_url": "https://arxiv.org/abs/2606.06209",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "The first decade of gravitational-wave measurements of black hole spins",
+  "authors": "Sylvia Biscoveanu",
+  "abstract": "A decade after the first direct detection of gravitational waves, the growing catalog of over one hundred confirmed events is revealing new insights into the spins of stellar-mass black holes. Spin measurements have long been heralded as a promising tracer of compact-object binary formation and evolution, as different formation channels predict unique spin signatures on a population level. In this review, we summarize the astrophysics, phenomenology, and current measurements of black hole spins. We begin with an overview of the predictions for black hole spin magnitudes and orientations from leading formation channels--isolated binary evolution, dynamical formation in clusters, formation in AGN disks, and hierarchical triples. We then describe the imprint of spin effects on the gravitational waveform and the measurability of spin in individual events. Finally, we review current population-level constraints on spin magnitudes, orientations, and effective spin parameters, including correlations with mass and redshift, and discuss their astrophysical implications. We conclude by highlighting open questions and future prospects, emphasizing how improved detector sensitivity will enable increasingly precise spin measurements for both individual events and the binary black hole population as a whole.",
+  "title_relatable": "What spinning black holes reveal about how they formed",
+  "hook": "One hundred gravitational-wave events later, black hole spin measurements are finally constraining which formation channels built them.",
+  "summary": "Ten years of gravitational-wave detections have logged over 100 binary black hole mergers, and their spins carry fingerprints of how those systems formed — whether in isolated stellar pairs, dense star clusters, or the chaotic disks around supermassive black holes. This review maps what we've learned: spins tend to be small, misaligned pairs hint at dynamical assembly, and correlations with mass and redshift are just becoming detectable. Next-generation detectors should turn these statistical whispers into clear formation histories.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 669,
+  "tokens_out": 182,
+  "cost_usd": 0.004737,
+  "ingested_at": "2026-06-05T10:19:15.919060+00:00"
+}

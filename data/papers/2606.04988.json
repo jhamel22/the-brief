@@ -1,0 +1,22 @@
+{
+  "id": "2606.04988",
+  "arxiv_url": "https://arxiv.org/abs/2606.04988",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Interior marginally outer trapped surfaces in Hayward black holes",
+  "authors": "Abbas M. Sherif, Yen-Kheng Lim",
+  "abstract": "We locate interior marginally outer trapped and marginally outer trapped open surfaces (MOTS/MOTOS) in the regular Haward metric with parameter $b$ for which a critical (extremal) value $b=b_c$ demarcates when the spacetime admits no horizon and when it admits inner and outer horizons. We identify self-intersecting MOTS which occur in pairs. For $b$ close to the critical value, there are no self-intersecting MOTS/MOTOS, and one can fine-tune $b$ so that the interior contains only near-spherical MOTS. We also show that in a neighborhood of the inner horizon for certain values of $b$, upon reduction of the problem to a singular Sturm-Liouville problem, the locations of the MOTS are given by hypergeometric functions, the eigenspace of the operator for which is complete, not discrete, and discontinuous.",
+  "title_relatable": "What lurks inside a black hole with no singularity?",
+  "hook": "Inside a singularity-free black hole, trapped surfaces form strange self-intersecting pairs described by exotic hypergeometric functions.",
+  "summary": "Hayward black holes replace the central singularity with a smooth core, but their interiors are still geometrically wild. Mapping out the trapped surfaces — boundaries where even outward light is pulled inward — reveals self-intersecting pairs that appear or vanish depending on a single parameter, and near the inner horizon their locations are governed by hypergeometric functions with a continuous (not discrete) eigenspectrum. That last point is unusual and signals that the inner horizon region has fundamentally different structure than standard black hole interiors.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 634,
+  "tokens_out": 188,
+  "cost_usd": 0.004722,
+  "ingested_at": "2026-06-05T10:21:05.018459+00:00"
+}

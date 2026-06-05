@@ -1,0 +1,23 @@
+{
+  "id": "2606.05151",
+  "arxiv_url": "https://arxiv.org/abs/2606.05151",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "Mapping the star formation peak with LIGO A# and Next-Generation detectors",
+  "authors": " Divyajyoti, Stephen Fairhurst, Mark Hannam, Mukesh Kumar Singh",
+  "abstract": "Measuring the redshift evolution of star formation rate density is crucial in understanding the origin and evolution of galaxies and large scale structure in the universe. It is currently measured with electromagnetic probes, however, these probes often track luminosity, which is then converted to star formation rate (SFR) depending on various factors such as initial mass function, dust extinction, etc. Gravitational waves provide an independent method to constrain SFR at high redshifts by tracking the redshift evolution obtained from analysis of binary black hole mergers. In this study we explore three population models for star-formation combined with an \\textit{inverse} time-delay model and demonstrate that it is possible to obtain bounds on the peak of redshift distribution with a network of upgraded LIGO detectors (such as LIGO-A#). For a year of observation, using simulated signals with a merger rate peak at $z_\\text{peak}=1.5$, a network of LIGO detectors at A# sensitivity is able to constrain the peak of merger rate with a precision of $\\pm 0.1$. Further, we obtain the results with a next-generation network (of Cosmic Explorer and Einstein Telescope) and conclude that the redshift distribution will be extremely well measured, with a precision of $\\pm 0.02$, with future detectors.",
+  "title_relatable": "Can gravitational waves map when stars formed most furiously?",
+  "hook": "Upgraded LIGO detectors could pinpoint the universe's star-formation peak to within redshift ±0.1 using black hole mergers alone.",
+  "summary": "Black hole mergers trace back to when their progenitor stars were born, making them a gravitational-wave census of cosmic star formation — completely independent of light-based surveys that struggle with dust and calibration uncertainties. Simulating one year of observations with the planned LIGO A# upgrade, the authors show the merger-rate peak (around redshift 1.5, roughly 9 billion years ago) can be pinned down to ±0.1. Next-generation detectors like Cosmic Explorer and Einstein Telescope would tighten that to ±0.02.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 736,
+  "tokens_out": 207,
+  "cost_usd": 0.005313,
+  "ingested_at": "2026-06-05T10:20:36.619359+00:00"
+}

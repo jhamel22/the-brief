@@ -1,0 +1,23 @@
+{
+  "id": "2606.06404",
+  "arxiv_url": "https://arxiv.org/abs/2606.06404",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Smooth horizons from topology change in canonical quantum gravity",
+  "authors": "Venkatesa Chandrasekaran",
+  "abstract": "We propose a resolution of the firewall paradox in JT gravity by incorporating topology change into canonical quantization under relational time evolution. The gravitational Hamiltonian acts on the black hole interior through a pair of pants interaction, mapping between a single interior sector and a connected two interior sector. To describe dynamics in the interior while keeping track of the exterior, we pass to an extended phase space description obtained by splitting the bulk Hilbert space across the event horizon. The split introduces boost edge modes at the horizon, which the Hawking modes become gravitationally dressed to. Covariance of the resulting crossed product algebra provides a precise gravitational realization of the firewall: a one sided boost of the interior edge mode relative to the exterior holding the matter fixed, or equivalently, a relative phase between the interior and exterior Hawking partners holding the edge modes fixed. Although each topology changing transition is exponentially suppressed, evolution over a Page time causes the connected two interior branch to dominate. One of these is the naive semiclassical interior, which we show carries a nontrivial one sided boost upon gluing the interior back to the exterior, and hence a firewall. The other interior is shown to be a zero mode of the one sided boost generator. Gluing the interior back to the exterior quotients by the gravitational constraints, which annihilates the firewall branch. On the surviving branch, we show the horizon vacuum measurement and the early radiation purity measurement become the same Dirac observable. Equivalently, we show that Page time dynamics induces a large diffeomorphism on the connected branch under which the operator algebra of the interior Hawking partner and that of the decoded early radiation are identified.",
+  "title_relatable": "How quantum spacetime topology might save falling observers from firewalls",
+  "hook": "A new calculation in JT gravity suggests black hole firewalls erase themselves after the Page time via topology change.",
+  "summary": "The firewall paradox asks whether infalling observers hit a wall of radiation at the black hole horizon — a consequence of quantum information theory clashing with smooth spacetime. Working in a simplified 2D gravity model, this paper shows that once you allow the interior topology to split and reconnect (like a pair of pants), the firewall branch of the quantum state gets annihilated by gravitational constraints after the Page time. The surviving branch is smooth, and the interior partner modes become mathematically identical to the decoded early Hawking radiation — exactly what unitarity demands.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 783,
+  "tokens_out": 191,
+  "cost_usd": 0.005214,
+  "ingested_at": "2026-06-05T10:18:35.270742+00:00"
+}

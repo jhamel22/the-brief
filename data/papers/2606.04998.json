@@ -1,0 +1,22 @@
+{
+  "id": "2606.04998",
+  "arxiv_url": "https://arxiv.org/abs/2606.04998",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Self-force calculations with numerical relativity methods",
+  "authors": "Nils L. Vu, Nami Nishimura, Thomas Osburn, Jonathan E. Thompson, Lawrence E. Kidder, Samuel D. Upton, Barry Wardell",
+  "abstract": "To model gravitational waveforms from extreme mass-ratio inspirals (EMRIs) for the upcoming LISA space mission, gravitational self-force calculations are needed to second order in perturbation theory. However, to date these calculations have only been attempted for the simplest case of circular orbits in Schwarzschild spacetime. In this work, we present a new computational method aimed at performing generic second-order self-force calculations in Kerr spacetime using methods from the adjacent field of numerical relativity. We perform an $m$-mode separation of variables, add null (\"$vtu$\") slicing in horizon-penetrating coordinates, and solve the resulting elliptic PDEs using high-order discontinuous Galerkin discretization, adaptive mesh-refinement, and an iterative Krylov-type linear solver with parallelizable multigrid-Schwarz preconditioning. We find that our method achieves exponential convergence for the self-force on a scalar point charge in Kerr spacetime up to spins of $a=0.998$ (Thorne limit) on circular equatorial orbits as close as the ISCO (prograde and retrograde), despite the non-smooth puncture on the grid. We solve for 20 $m$-modes in parallel in a few seconds and retain the flexibility to extend the method to gravitational self-force and more generic orbits in the future. The code to perform these calculations is publicly available in the open-source numerical relativity code SpECTRE.",
+  "title_relatable": "How do we model gravitational waves from extreme mass-ratio mergers?",
+  "hook": "A new method achieves near-instant, exponentially converging self-force calculations for spinning black holes — a key hurdle for LISA's data analysis.",
+  "summary": "LISA will detect gravitational waves from small objects spiraling into massive black holes, but modeling those signals requires second-order perturbation calculations nobody has cracked for spinning (Kerr) black holes. Using numerical relativity tools — discontinuous Galerkin elements, adaptive mesh refinement, multigrid solvers — this method solves 20 frequency modes in parallel in seconds, reaching exponential convergence even for near-maximally spinning black holes at the innermost stable orbit. The open-source code lays groundwork for the full gravitational case needed to extract physics from LISA data.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 792,
+  "tokens_out": 211,
+  "cost_usd": 0.005541,
+  "ingested_at": "2026-06-05T10:20:59.651533+00:00"
+}

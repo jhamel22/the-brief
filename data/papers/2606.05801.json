@@ -1,0 +1,22 @@
+{
+  "id": "2606.05801",
+  "arxiv_url": "https://arxiv.org/abs/2606.05801",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Asymptotically-flat Black holes in Bumblebee gravity: Exact solutions and Thermodynamics",
+  "authors": "Jinbo Yang, Zhan-Feng Mai, Dicong Liang, Lijing Shao",
+  "abstract": "We construct analytic solutions to the bumblebee gravity theory in static and spherically symmetric spacetimes, where the bumblebee vector field admits only a non-vanishing temporal component. In particular, we identify the parameter space that allows for asymptotically flat black hole solutions. We further investigate the thermodynamic properties of these black holes and obtained the analytic formulas for the $Y$ charge and $X$ potential, which were introduced in the prior work to ensure the Smarr relation and the first law of black hole thermodynamics. Using the new analytic results, we verify the numerical findings reported in early work and uncover multiple cases missed in the previous numerical analysis. These include: (i) an unbounded charge-mass ratio when the non-minimal coupling parameter $ξ$ is larger than $2κ$, (ii) the emergence of a traversable wormhole configuration for overcharged solutions with $ξ<0$, (iii) the non-monotonic turning behavior of the Hawking temperature as a function of the charge-mass ratio, and (iv) the presence of two divergent points in the constant-$Y$ heat capacity.",
+  "title_relatable": "Do Lorentz-violating fields create wormholes inside black holes?",
+  "hook": "Exact solutions in a symmetry-breaking gravity theory reveal traversable wormholes, unbounded charge, and exotic thermodynamics missed by earlier numerical work.",
+  "summary": "A theory where a background vector field breaks Lorentz symmetry — 'bumblebee gravity' — turns out to harbor black hole solutions with stranger properties than previously realized. Analytic solutions (not just numerics) show that for certain parameter choices, overcharged black holes tip over into traversable wormholes, the charge-to-mass ratio can grow without bound, and Hawking temperature behaves non-monotonically. These exact results correct and extend earlier numerical surveys of the same theory.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 708,
+  "tokens_out": 197,
+  "cost_usd": 0.005079,
+  "ingested_at": "2026-06-05T10:19:43.406889+00:00"
+}

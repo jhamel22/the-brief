@@ -1,0 +1,23 @@
+{
+  "id": "2606.05319",
+  "arxiv_url": "https://arxiv.org/abs/2606.05319",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Non-linear evolution of five-dimensional black strings in effective field theory",
+  "authors": "Pau Figueras, Áron D. Kovács, Shunhui Yao",
+  "abstract": "We use numerical relativity to study the non-linear instability of five-dimensional black strings in Einstein-Gauss-Bonnet gravity. Black strings evolve into a series of black holes joined by thinner string-like segments, but key features of the dynamics depend on the sign of the Gauss-Bonnet coupling. For positive coupling, favored by UV considerations, the growth of curvature invariants is limited within the validity of effective field theory (EFT), suggesting a mechanism for restoring weak cosmic censorship. For negative coupling this cap is absent and curvatures may grow until the EFT breaks down.",
+  "title_relatable": "Do higher-dimensional strings of black holes avoid naked singularities?",
+  "hook": "Black strings pinch into beads — and the sign of one constant determines whether physics stays under control.",
+  "summary": "A black string — an extended, tube-like black hole in five dimensions — is unstable and breaks apart into a chain of black holes connected by ever-thinner necks. Simulating this with numerical relativity in a modified gravity theory, the team finds that a single coupling constant flips the outcome: positive values cap runaway curvature growth, potentially preserving cosmic censorship, while negative values let curvatures blow past the theory's validity. The result matters because it shows higher-dimensional corrections to gravity can determine whether singularities stay decently hidden.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 575,
+  "tokens_out": 189,
+  "cost_usd": 0.00456,
+  "ingested_at": "2026-06-05T10:20:19.761070+00:00"
+}

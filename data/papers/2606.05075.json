@@ -1,0 +1,23 @@
+{
+  "id": "2606.05075",
+  "arxiv_url": "https://arxiv.org/abs/2606.05075",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.CO"
+  ],
+  "title_original": "Integrability of cosmological $R^2$ gravity models with radiation",
+  "authors": "Vsevolod R. Ivanov, Sergey Yu. Vernov",
+  "abstract": "We consider the $R^2$ gravity cosmological model with radiation and find the general solution in the spatially flat FLRW metric. We analyze the possible evolutions of the Hubble parameters in dependence of sign of the radiation energy density. A scalar field with the induced gravity term and the fourth-order monomial potential can play a role of radiation. In this case, the corresponding two-field chiral cosmological model is integrable and its general solution can be found by the conformal metric transformation.We consider the $R^2$ gravity cosmological model with radiation and find the general solution in the spatially flat FLRW metric. We analyze the possible evolutions of the Hubble parameters in dependence of sign of the radiation energy density. A scalar field with the induced gravity term and the fourth-order monomial potential can play a role of radiation. In this case, the corresponding two-field chiral cosmological model is integrable and its general solution can be found by the conformal metric transformation.",
+  "title_relatable": "Does adding radiation make R² gravity exactly solvable?",
+  "hook": "A modified gravity model with radiation yields a complete, exact solution — no approximations needed.",
+  "summary": "R² gravity (which adds a curvature-squared term to Einstein's equations) is notoriously hard to solve, but adding a radiation component turns out to make the flat-universe version exactly integrable. The authors find the full general solution and show that a specific scalar field with a quartic potential mimics radiation perfectly, connecting the problem to a two-field model solvable by a conformal transformation. Exact solutions in modified gravity are rare and anchor numerical and observational work on early-universe inflation.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 650,
+  "tokens_out": 173,
+  "cost_usd": 0.004545,
+  "ingested_at": "2026-06-05T10:20:53.819736+00:00"
+}

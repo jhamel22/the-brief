@@ -1,0 +1,24 @@
+{
+  "id": "2606.05427",
+  "arxiv_url": "https://arxiv.org/abs/2606.05427",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math-ph",
+    "math.DG"
+  ],
+  "title_original": "Spherically symmetric, asymptotically flat Berwald vacuum solutions in Finsler gravity",
+  "authors": "Nicoleta Voicu, Diana - Maria Birla, Christian Pfeifer",
+  "abstract": "So-called Berwald-Finsler spacetimes are Finsler spacetimes that are closest to pseudo-Riemannian geometry, as their canonical nonlinear connection defines an affine connection on spacetime. In spherical symmetry, these geometries can be used to describe the gravitational field outside of compact objects. We solve the Finsler gravity vacuum equation for $SO(3)$-symmetric Berwald spacetimes that are asyptotically flat, but not Ricci flat. We find that among all spherically symmetric Berwald spacetimes, only one class is compatible with asymptotic flatness and a well defined causal structure. For this class, we completely solve the Finsler gravity vacuum equation and find three families of non-Ricci flat solutions -- which represent the first non-trivial, exact spherically symmetric vacuum solutions. They are so-called $(α,β)$-Finsler spacetimes that are constructed from a pseudo-Riemannnian metric and a 1-form. In particular, we show, by providing a concrete example, that in Finsler geometry there exist $SO(3)$-symmetric, asymptotically flat vacuum solutions that are not Ricci flat; these solutions are promising candidates to model the gravitational field around compact objects, beyond their Riemannian description.",
+  "title_relatable": "Do compact objects bend space in ways Einstein's equations can't capture?",
+  "hook": "Physicists find the first exact vacuum solutions in Finsler gravity that differ from general relativity around stars and black holes.",
+  "summary": "General relativity assumes spacetime geometry is Riemannian, but Finsler geometry relaxes that constraint. Solving the Finsler gravity vacuum equations under spherical symmetry and asymptotic flatness — conditions any realistic isolated star must satisfy — yields three new families of exact solutions that are not Ricci flat, meaning they differ from anything general relativity can produce. These are the first non-trivial exact spherically symmetric vacuum solutions in the theory, offering concrete candidates for testing whether gravity around compact objects has structure beyond Einstein.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 743,
+  "tokens_out": 191,
+  "cost_usd": 0.005094,
+  "ingested_at": "2026-06-05T10:20:13.958686+00:00"
+}

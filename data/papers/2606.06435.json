@@ -1,0 +1,22 @@
+{
+  "id": "2606.06435",
+  "arxiv_url": "https://arxiv.org/abs/2606.06435",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Charged black string immersed in a quintessence fluid and string cloud",
+  "authors": "Leonardo G. Barbosa, Franciele M. da Silva",
+  "abstract": "We present a new static solution describing a charged black string immersed in a Kiselev-type quintessence fluid and a cloud of strings. The metric and field equations are solved for a general quintessence state parameter, with explicit results provided for the physically relevant case $w_q = -2/3$. We analyze the event-horizon structure and the Kretschmann scalar, verify energy-condition constraints, and derive thermodynamic properties including the Hawking temperature and heat capacity to identify stability regimes. Finally, we investigate the photon cylinder for null geodesics. The solution generalizes known charged black-string spacetimes by simultaneously including quintessence and a string-cloud parameter.",
+  "title_relatable": "What happens when a black string is surrounded by dark energy?",
+  "hook": "A new exact solution adds dark energy and cosmic strings to a charged black string, revealing unusual stability regimes.",
+  "summary": "A charged black string — a cylindrically symmetric cousin of a black hole — is solved exactly when bathed in a quintessence dark-energy fluid and a cloud of strings. The solution reveals how these two exotic ingredients reshape the event horizon, shift the Hawking temperature, and carve out regions where the black string is thermodynamically stable. Photon orbits around the string also change in ways that could affect how such objects would look if they exist.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 582,
+  "tokens_out": 166,
+  "cost_usd": 0.004236,
+  "ingested_at": "2026-06-05T10:18:29.427787+00:00"
+}

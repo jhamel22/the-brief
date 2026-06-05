@@ -1,0 +1,22 @@
+{
+  "id": "2606.06487",
+  "arxiv_url": "https://arxiv.org/abs/2606.06487",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Numerical self-force calculations for scalar particles, formulated in the lab frame",
+  "authors": "Stamatis Vretinaris, Erik Schnetter, Badri Krishnan",
+  "abstract": "We derive equations of motion for scalar particles self-consistently interacting with a scalar field,including the radiation produced by the particles' acceleration. Our approach differs in three key aspects from current methods: (1) we assume a small but finite discretization length scale $h$, which allows us to treat the particle as a small but finite object, (2) we choose the state vector for the system before deriving equations of motion, and (3) we formulate the equations explicitly in the lab frame and not in a manifestly covariant manner. This approach, which is self-consistent, happens to greatly simplify the resulting equations and their derivation, and is directly suitable for numerical calculations. The result is an effective source method which generalizes to electrodynamics or general relativity in a straightforward manner (although we do not consider this here). We then provide two possible discretizations of these equations, based on finite volumes and spectral methods, and show results of one-dimensional calculations. These calculations show excellent agreement with analytic solutions.",
+  "title_relatable": "A simpler way to calculate how particles drag on themselves",
+  "hook": "A reformulation of radiation-reaction physics cuts through decades of covariant complexity with a direct, simulation-ready approach.",
+  "summary": "When a charged or massive particle accelerates, it radiates energy and that radiation pushes back on the particle — the self-force problem. The standard approach uses manifestly covariant equations that are notoriously hard to turn into working simulations. By instead fixing a small but finite grid scale and working in the plain lab frame, the authors derive much simpler equations that agree exactly with known analytic solutions in 1D and can be extended straightforwardly to electrodynamics and general relativity.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 653,
+  "tokens_out": 178,
+  "cost_usd": 0.004629,
+  "ingested_at": "2026-06-05T10:18:24.694021+00:00"
+}

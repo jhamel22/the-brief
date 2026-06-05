@@ -1,0 +1,23 @@
+{
+  "id": "2606.06282",
+  "arxiv_url": "https://arxiv.org/abs/2606.06282",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "hep-th"
+  ],
+  "title_original": "On Cosmological Correlators with Boundary Contributions",
+  "authors": "Yanjiao Ma, Dong-Gang Wang, Xiangwei Wang, Yi Wang, Wenqi Yu",
+  "abstract": "Cosmological correlators receive contributions from both field interactions in the bulk of quasi-de Sitter (dS) spacetime and boundary terms at the end of inflation. While most of the research efforts focus on the former, boundary contributions are normally believed to be negligible or related to field redefinitions that are associated with redundancies of the bulk Lagrangian. In this paper, we revisit this topic in the light of the cosmological bootstrap. We first establish the correspondence between boundary terms and field redefinitions for cosmological correlators. This result provides a set of criteria for determining when boundary terms lead to non-vanishing contributions to cosmological observables. Next, we apply this general understanding to concrete examples of correlators from massive-exchange diagrams, in both dS-invariant and boost-breaking scenarios. For theories with dS isometries, both IBP and field redefinitions are used to relate derivative and non-derivative exchange diagrams, from which the leading boundary contributions and IR-divergent pieces are extracted; we also derive recursion relations among higher-derivative exchange correlators. For theories with broken dS boosts, we use IBP and EoM to reduce exchange diagrams to a basis of independent templates, and then present a classification of the boundary contributions in the general effective field theory framework. These results pave the way for a more systematic investigation on the boundary physics of the inflationary spacetime.",
+  "title_relatable": "Do the edges of inflation leave marks on the universe?",
+  "hook": "Terms at inflation's boundary, usually dismissed as irrelevant, can generate distinct, measurable signals in cosmic structure.",
+  "summary": "Most calculations of primordial signals from inflation focus on particle interactions deep in spacetime, ignoring effects at inflation's end. This paper shows boundary terms are not always negligible — some produce genuinely independent contributions to the statistical patterns imprinted on the sky. By connecting boundary terms to field redefinitions, they derive a precise test for when boundaries matter, then work out concrete examples for massive-particle exchange, including theories that break de Sitter symmetry.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 739,
+  "tokens_out": 167,
+  "cost_usd": 0.004722,
+  "ingested_at": "2026-06-05T10:19:03.643970+00:00"
+}

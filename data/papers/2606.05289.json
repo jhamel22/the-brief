@@ -1,0 +1,23 @@
+{
+  "id": "2606.05289",
+  "arxiv_url": "https://arxiv.org/abs/2606.05289",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Unitarity, Recursion and Soft Limits in (EA)dS through Dressing",
+  "authors": "Arhum Ansari, Deep Mazumdar, Brijesh Thakkar",
+  "abstract": "Using the recently developed framework in which cosmological correlators in (E)AdS are represented as flat-space amplitudes dressed by auxiliary propagators, we show that several structural properties of the cosmological observables have a direct flat-space origin. We derive cosmological cutting rules for spinning correlators from the flat-space optical theorem, obtain the cosmological tree theorem from the Feynman tree theorem, and uplift BCFW recursion relations to (E)AdS via dressing. We also show that flat-space soft theorems reproduce the soft limits of (E)AdS correlators, and find indications of an emergent universal structure in subleading soft limits. These results provide evidence that key features of cosmological correlators can be systematically understood as dressed manifestations of flat-space physics.",
+  "title_relatable": "Are the universe's quantum signals just flat-space physics in disguise?",
+  "hook": "A new framework shows cosmological quantum correlators inherit their deepest mathematical properties directly from ordinary flat-space particle physics.",
+  "summary": "Calculations of quantum correlations across the universe (in curved de Sitter space) are notoriously harder than in flat spacetime. By dressing flat-space amplitudes with auxiliary propagators, this work derives cutting rules, recursion relations, and soft-particle limits for curved-space correlators directly from their flat-space counterparts — including hints of a universal structure in subleading soft limits. If the pattern holds, it suggests the mathematical skeleton of cosmological observables is fundamentally flat-space physics wearing a curved-space coat.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 615,
+  "tokens_out": 189,
+  "cost_usd": 0.00468,
+  "ingested_at": "2026-06-05T10:20:25.254819+00:00"
+}

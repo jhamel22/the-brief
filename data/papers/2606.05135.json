@@ -1,0 +1,22 @@
+{
+  "id": "2606.05135",
+  "arxiv_url": "https://arxiv.org/abs/2606.05135",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Hawking Temperatures and Radiation Estimates for Dilaton--de Sitter Black Holes",
+  "authors": "Can Ertugay",
+  "abstract": "Charged dilaton black holes with a positive cosmological constant provide a useful arena in which to test how scalar hair modifies semiclassical physics in a spacetime with two Killing horizons. The Gao--Zhang solution realizes such a geometry in Einstein--Maxwell--dilaton theory by replacing a single Liouville potential, which is insufficient for asymptotically de Sitter boundary conditions, by a three-Liouville dilaton potential. Although the solution and several of its perturbative and optical properties have been studied, its temperature and heat capacity have not been examined through the same range of temperature prescriptions commonly considered for Schwarzschild--de Sitter black holes, where the absence of global thermal equilibrium motivates several inequivalent temperature definitions. We present this temperature-prescription comparison for the four-dimensional, string-coupling member of the Gao--Zhang family. We compare the standard surface-gravity temperature, the Bousso--Hawking-normalized temperature, and two effective temperatures built from the black-hole and cosmological horizons. The dilaton changes the areal radius, entropy, photon-sphere condition, and greybody problem, while the de Sitter normalization ambiguity changes radiation estimates by powers of the redshift factor. For representative parameters, the Bousso--Hawking prescription can enhance a Stefan--Boltzmann estimate of the black-hole power by one to two orders of magnitude relative to the unnormalized surface-gravity prescription, whereas the entropy-sum effective temperature can suppress the same estimate. These results identify a concrete gap in the thermodynamics of dilaton--de Sitter black holes and provide a roadmap for a full greybody-factor calculation.",
+  "title_relatable": "Which 'temperature' you use changes black hole radiation by 100x?",
+  "hook": "For dilaton–de Sitter black holes, different but equally valid temperature definitions shift radiation power estimates by one to two orders of magnitude.",
+  "summary": "Black holes in universes with a cosmological constant have two horizons — one around the black hole, one at the cosmic edge — and no single agreed-upon temperature. Applying four common temperature prescriptions to a charged, scalar-field-dressed black hole, the author finds that the Bousso–Hawking definition boosts radiated power estimates by 10–100× compared to the raw surface-gravity formula, while an entropy-based prescription suppresses it. The gap matters because it sets the baseline for any real radiation calculation in these spacetimes.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 797,
+  "tokens_out": 199,
+  "cost_usd": 0.005376,
+  "ingested_at": "2026-06-05T10:20:42.684099+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2606.05507",
+  "arxiv_url": "https://arxiv.org/abs/2606.05507",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Improved unimodular black holes with self-consistent renormalization scale identification",
+  "authors": "Christopher D. Carone",
+  "abstract": "We consider the renormalization group improvement of unimodular black hole metrics with an identification of the renormalization scale as a function of the radial coordinate that is self-consistent in that it depends on parameters of the improved metric. Considering identifications that are motivated by minimality and dimensional analysis, we arrive at a number of non-singular unimodular black hole metrics. We determine the black hole mass gaps and note the qualitative similarities to other non-singular black hole metrics that have been discussed in the literature.",
+  "title_relatable": "Could quantum corrections eliminate black hole singularities entirely?",
+  "hook": "A self-consistent quantum fix to black hole metrics removes the central singularity and reveals minimum-mass 'black hole atoms'.",
+  "summary": "Applying renormalization group improvements to unimodular gravity — a constrained version of general relativity — with a carefully self-consistent choice of energy scale produces black hole solutions with no central singularity. The fix also predicts a minimum possible black hole mass, below which no black hole can form, analogous to how quantum mechanics sets a ground state energy for atoms.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 534,
+  "tokens_out": 153,
+  "cost_usd": 0.003897,
+  "ingested_at": "2026-06-05T10:19:54.612750+00:00"
+}

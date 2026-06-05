@@ -1,0 +1,23 @@
+{
+  "id": "2606.06019",
+  "arxiv_url": "https://arxiv.org/abs/2606.06019",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "quant-ph",
+    "gr-qc"
+  ],
+  "title_original": "Polymer quantum mechanics on compact configuration spaces",
+  "authors": "Maxwell R. Siebersma, Basie Seibert, Samuel Shuman, David A. Craig",
+  "abstract": "\"Polymer quantum mechanics\" is the name given to a quantization scheme inspired by loop quantum gravity in which the configuration space of the theory is chosen to have a discrete topology. Polymer quantization yields a representation of the canonical commutation relations that is genuinely distinct from the conventional \"Schrödinger\" representation. In this paper, we summarize the main features of polymer quantum mechanics and investigate in detail the polymer quantization of systems with configuration spaces that are classically compact. We show explicitly how using the standard construction of polymer states leads to a Hilbert space of states defined on a finite graph of points. By way of example, we find the exact energy eigenvalues and eigenfunctions for a particle on a ring and a particle in a box defined on such lattices, and discuss similarities and differences from standard Schrödinger quantum mechanics. We also explore the continuum limit of states in these systems, and demonstrate in detail how the exact eigenfunctions in the position representation approach their continuum counterparts.",
+  "title_relatable": "What if space itself were made of discrete points?",
+  "hook": "A loop-quantum-gravity-inspired quantization scheme turns a particle's path into a finite lattice — and still recovers familiar physics in the limit.",
+  "summary": "Polymer quantization, a technique borrowed from loop quantum gravity, replaces continuous space with a discrete topology, producing a quantum theory genuinely different from standard Schrödinger mechanics. Applied here to compact systems — a particle on a ring and a particle in a box — the approach yields exact energy levels and wavefunctions defined on finite lattices of points. As the lattice spacing shrinks, the solutions smoothly recover the familiar continuum results, offering a concrete test case for how discrete-space quantum theories can connect back to ordinary quantum mechanics.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 647,
+  "tokens_out": 191,
+  "cost_usd": 0.004806,
+  "ingested_at": "2026-06-05T10:19:32.702077+00:00"
+}

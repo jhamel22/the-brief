@@ -1,0 +1,22 @@
+{
+  "id": "2606.06124",
+  "arxiv_url": "https://arxiv.org/abs/2606.06124",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc"
+  ],
+  "title_original": "Two discs and a missing triangle: the maximally extended Kerr black hole revisited",
+  "authors": "Malcolm A. H. MacCallum",
+  "abstract": "The region spaning the ring singularity in the Kerr black hole solution is described here as two (flat) discs rather than one. From this viewpoint it follows that the usual depiction of the worldsheet $θ=π/2$, $φ$ constant (in Boyer-Lindquist coordinates) is missing (multiple copies of) the region $r<0$, representable as a triangle in the usual conformal diagram style.",
+  "title_relatable": "What's actually missing from every Kerr black hole diagram?",
+  "hook": "Standard Kerr black hole spacetime diagrams omit an entire region near the ring singularity — a triangle-shaped patch hiding at r < 0.",
+  "summary": "Every textbook diagram of the rotating Kerr black hole is missing a piece. By treating the ring singularity region as two flat discs rather than one, a forgotten triangular patch of spacetime at negative radius becomes visible — and should appear as multiple copies in the full extended diagram. It's a geometric bookkeeping error that has persisted in the standard depiction for decades.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 527,
+  "tokens_out": 163,
+  "cost_usd": 0.004026,
+  "ingested_at": "2026-06-05T10:19:26.901491+00:00"
+}

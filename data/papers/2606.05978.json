@@ -1,0 +1,23 @@
+{
+  "id": "2606.05978",
+  "arxiv_url": "https://arxiv.org/abs/2606.05978",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Lecture notes: Introduction to the Off-shell Double Copy Program",
+  "authors": "Eric Lescano",
+  "abstract": "The present notes are based on a series of lectures prepared for an introductory eight-class course on the modern framework of the off-shell double copy. The course was held from April 16 to May 4, 2026, at Universidad de Buenos Aires (UBA). These lectures, aimed at PhD and master's students, are self-contained and require only a basic knowledge of classical field theory. The main goal is to review the fundamental concepts of gauge and gravitational theories in order to explore the off-shell frameworks of the single and double copy. In the final part of the course, we explore modern approaches to reinterpreting the single and double copy within T-duality-invariant frameworks.",
+  "title_relatable": "How do you build gravity by squaring a simpler force?",
+  "hook": "Lecture notes explain how gravity theories can be constructed by 'squaring' gauge theories, even away from physical particle trajectories.",
+  "summary": "These course notes walk through the idea that gravity is, in a precise mathematical sense, the square of a gauge theory like electromagnetism — a relationship called the double copy. The notes cover both on-shell and off-shell versions of this correspondence, ending with how it fits inside T-duality-invariant frameworks. Aimed at graduate students, they're a self-contained entry point to a technique increasingly used to simplify gravitational wave calculations.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 568,
+  "tokens_out": 169,
+  "cost_usd": 0.004239,
+  "ingested_at": "2026-06-05T10:19:38.251526+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2606.05155",
+  "arxiv_url": "https://arxiv.org/abs/2606.05155",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "math.NA"
+  ],
+  "title_original": "High-Order Summation-By-Parts Schemes for First-Order Hyperbolic Systems in Curvilinear Coordinates with Singularities",
+  "authors": "Stamatis Vretinaris, Erik Schnetter",
+  "abstract": "Formulating stable numerical methods for hyperbolic systems in curvilinear coordinate with singularities, e.g. spherical coordinates, is complicated by the presence of these singularities. We present a method for constructing high-order accurate, energy-stable finite difference operators satisfying the Summation-by-Parts (SBP) property on spherical domains, extending ideas presented by [C. Gundlach, J. M. Martín-García, and D. Garfinkle, CQG 30, 145003 (2013)]. We define discrete gradient and divergence operators that mirror the continuous integration-by-parts principle, even though there is a $1/r^p$ coordinate singularity present at the origin. We explicitly construct such operators up to order six. Our operators place a grid point directly on the origin. We also review how to construct stable SBP operators that straddle the origin. We analyze the accuracy and spectral radii of these operators, and we show example evolutions of the scalar wave equation to demonstrate the advantages of such operators.",
+  "title_relatable": "How do you do stable simulations at a coordinate singularity?",
+  "hook": "New finite-difference operators handle the 1/r blowup at the origin in spherical coordinates, reaching sixth-order accuracy.",
+  "summary": "Spherical coordinates blow up at r=0, which wreaks havoc on numerical simulations of waves and gravitational fields. These new discrete operators are built to satisfy an energy-conservation identity right through that singularity, reaching sixth-order accuracy while placing a grid point exactly at the origin. Demonstrated on the scalar wave equation, the approach offers a cleaner path to stable, high-accuracy simulations of anything from gravitational collapse to stellar oscillations.",
+  "is_lead": false,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 687,
+  "tokens_out": 174,
+  "cost_usd": 0.004671,
+  "ingested_at": "2026-06-05T10:20:30.475927+00:00"
+}

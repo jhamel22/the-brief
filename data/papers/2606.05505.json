@@ -1,0 +1,23 @@
+{
+  "id": "2606.05505",
+  "arxiv_url": "https://arxiv.org/abs/2606.05505",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "hep-th",
+    "gr-qc"
+  ],
+  "title_original": "Dirichlet walls and the end of time",
+  "authors": "Hanako Helton, Gary T. Horowitz, Donald Marolf",
+  "abstract": "We study evolution in Einstein-Hilbert gravity with Dirichlet boundary conditions imposed on a finite surface. We argue that there are open sets of initial data where such evolutions terminate at finite times due to singularities that reach the boundary. In any dimension, the simplest such examples occur in cosmologies. However, in 2+1 dimensions we also show that Dirichlet walls initially outside a BTZ black hole can fall through the horizon, and that this also leads to generic singularities. A similar construction in higher dimensions leads to trapped surfaces that reach the wall, though the end result of such evolutions is more difficult to study.",
+  "title_relatable": "Why do some spacetime simulations hit a hard stop?",
+  "hook": "Finite boundary conditions in general relativity can cause spacetime evolution to simply end — in finite time.",
+  "summary": "Imposing rigid boundary conditions on a finite surface in Einstein's gravity — a setup used in quantum gravity and holography — generically causes singularities to collide with that boundary, terminating evolution entirely. The clearest examples appear in cosmological settings, but the authors also show that in 2+1 dimensions, a Dirichlet wall outside a BTZ black hole falls into the horizon and hits a singularity. This suggests a fundamental tension between finite-boundary formulations and well-defined long-term dynamics.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 566,
+  "tokens_out": 179,
+  "cost_usd": 0.004383,
+  "ingested_at": "2026-06-05T10:19:59.845707+00:00"
+}

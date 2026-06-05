@@ -1,0 +1,23 @@
+{
+  "id": "2606.06376",
+  "arxiv_url": "https://arxiv.org/abs/2606.06376",
+  "announced_date": "2026-06-04",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "gr-qc",
+    "astro-ph.HE"
+  ],
+  "title_original": "Detecting Tidal Resonances in Binary Neutron Stars",
+  "authors": "Fabian Gittins, Harsh Narola, Thibeau Wouters, Peter T. H. Pang, Tanja Hinderer, Chris Van Den Broeck",
+  "abstract": "As a binary neutron star inspirals due to the emission of gravitational waves, the rising tidal frequency resonantly excites vibrational modes. These oscillations are seismological probes of the rich stellar interior, yet it remains to be established whether gravitational-wave interferometers can measure them. Here, we present the first fully Bayesian study of the capability of the Einstein Telescope to detect tidal resonances. We simulate one year of observations and analyse the 200 loudest signals. We find that the Einstein Telescope can identify resonant modes and is sensitive to gravitational-wave phase shifts as small as $ΔΦ\\approx 0.03$ for favourable events. We further show that neglecting resonances can bias the inferred tidal deformabilities. These results establish tidal resonances as a measurable route for asteroseismology with future detectors.",
+  "title_relatable": "Can gravitational waves reveal what's ringing inside neutron stars?",
+  "hook": "Einstein Telescope could detect neutron star 'earthquakes' during mergers, with phase shifts as small as 0.03 radians.",
+  "summary": "As two neutron stars spiral together, rising gravitational-wave frequencies ring the stars like bells — and those vibrations leave faint imprints in the signal. Simulating a year of Einstein Telescope observations, the researchers found the detector could catch these resonances in the loudest events and measure phase shifts of just 0.03 radians. Miss them, and you miscalculate the stars' internal structure — but detect them, and you have a direct seismological probe of matter at nuclear densities.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 652,
+  "tokens_out": 190,
+  "cost_usd": 0.004806,
+  "ingested_at": "2026-06-05T10:18:40.751756+00:00"
+}

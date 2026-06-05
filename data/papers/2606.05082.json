@@ -1,0 +1,24 @@
+{
+  "id": "2606.05082",
+  "arxiv_url": "https://arxiv.org/abs/2606.05082",
+  "announced_date": "2026-06-03",
+  "subject": "gr-qc",
+  "subjects_all": [
+    "astro-ph.CO",
+    "astro-ph.SR",
+    "gr-qc"
+  ],
+  "title_original": "First Constraints on the Ellipticities of Self-Interacting Fermionic Dark Matter Admixed Neutron Stars from Continuous Gravitational-Wave Searches",
+  "authors": "Premachand Mahapatra, Andrew L. Miller, Prasanta Kumar Das",
+  "abstract": "We investigate continuous gravitational-wave (CW) emission from rapidly rotating, non-axisymmetric, isolated neutron stars admixed with self-interacting fermionic dark matter (DM) and hosting DM-induced equatorial deformations (``dark mountains''). In particular, we develop a formalism that describes how DM accumulation inside the star changes its structure, how dark mountains arise from an anisotropic distribution of DM inside it, and how the star's moment of inertia and thus the amplitude of its GW emission is increased compared to that of an ordinary neutron star. Moreover, using results from all-sky searches for CWs from non-axisymmetric neutron stars performed with LIGO O3 data, we place the first constraints on the DM-induced ellipticities $\\varepsilon$ of DM-admixed neutron stars across the full GW frequency range analyzed by LIGO and for a range of self-interaction strengths. With the same data, we also exclude portions of the DM-mass/self-interaction coupling strength parameter space that would have produced detectable GW signals in LIGO O3 data. We rule out at best (at worst) couplings $g\\gtrsim10^{-5.5}$ ($g\\gtrsim 10^{-4}$) for DM-admixed neutron stars with ellipticities $\\varepsilon=10^{-7}$ ($\\varepsilon=10^{-9}$) at distances $d=1$ ($d=10$) kpc away for DM masses of $m_χ\\in[0.1,10]$ GeV. Furthermore, we show that even larger regions of this parameter space will become accessible to next-generation detectors, such as Einstein Telescope and Cosmic Explorer, with exclusions as strong as $g\\gtrsim10^{-6}$ for neutron stars located $d=10$ kpc away for $\\varepsilon=10^{-7}$. Our results demonstrate that searches for CWs naturally provide a direct probe of dark mountains sustained by DM-admixed neutron stars.",
+  "title_relatable": "Could dark matter trapped inside neutron stars make them wobble?",
+  "hook": "LIGO data now constrains how much dark matter can deform a neutron star, ruling out couplings as weak as one hundred-thousandth.",
+  "summary": "Dark matter accumulating inside a neutron star could create an asymmetric lump — a 'dark mountain' — that makes the star wobble and emit continuous gravitational waves. Using LIGO's third observing run, this analysis places the first limits on how much dark matter deformation is allowed, ruling out self-interaction couplings stronger than roughly 10⁻⁵·⁵ for nearby stars. Next-generation detectors like Einstein Telescope could push these limits ten times deeper.",
+  "is_lead": true,
+  "model": "claude-sonnet-4-6",
+  "prompt_variant": "physics",
+  "tokens_in": 948,
+  "tokens_out": 192,
+  "cost_usd": 0.005724,
+  "ingested_at": "2026-06-05T10:20:48.194703+00:00"
+}
