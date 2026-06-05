@@ -1,0 +1,23 @@
+{
+  "id": "2606.04426",
+  "arxiv_url": "https://arxiv.org/abs/2606.04426",
+  "announced_date": "2026-06-03",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC",
+    "cond-mat.dis-nn"
+  ],
+  "title_original": "Discrete signaling mediates chaotic regularization in recurrent neural networks",
+  "authors": "Jan Bauer, Christian Keup, Jonathan Kadmon, Moritz Helias",
+  "abstract": "Cortical circuits operate in a regime of intrinsic chaos, where even tiny changes in input can lead to divergent neural responses. Yet, remarkably, population codes in the brain vary smoothly with sensory stimuli, forming coherent representational manifolds. How can chaotic networks sustain such stable coding? Here, we develop a theoretical framework that links the microscopic chaos of recurrent networks to the macroscopic geometry of neural representations. Combining kernel methods with dynamical mean-field theory, we show that chaotic dynamics induce local roughness (introducing sharp distortions at small scales) while preserving global smoothness across larger stimulus variations. This structural property acts as an intrinsic regularizer, enhancing generalization while maintaining expressivity. Moreover, we show how chaotic networks naturally produce power-law spectral signatures, closely matching experimental observations in cortical recordings. These results explain how chaotic spiking networks can sustain smooth, differentiable population codes and establish a theoretical framework linking network dynamics, computational structure, and recorded neural activity.",
+  "title_relatable": "Why chaotic brains produce smooth, stable thoughts",
+  "hook": "The brain operates in controlled chaos, yet its neurons form coherent patterns. A new theory explains how noise at the microscale creates order at the macroscale.",
+  "summary": "Researchers combined dynamical systems theory with neural network analysis to show how chaotic recurrent networks paradoxically produce smooth, stable population codes. Chaos introduces fine-scale roughness while preserving large-scale smoothness—like static that doesn't disrupt the overall signal—which naturally prevents overfitting. This framework predicts power-law spectral properties observed in actual cortical recordings, bridging the gap between microscopic neural chaos and macroscopic sensory representations.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 626,
+  "tokens_out": 182,
+  "cost_usd": 0.0012288,
+  "ingested_at": "2026-06-05T10:17:10.153750+00:00"
+}

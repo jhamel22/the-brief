@@ -1,0 +1,22 @@
+{
+  "id": "2606.06424",
+  "arxiv_url": "https://arxiv.org/abs/2606.06424",
+  "announced_date": "2026-06-04",
+  "subject": "q-bio.NC",
+  "subjects_all": [
+    "q-bio.NC"
+  ],
+  "title_original": "Intrinsic Computational Functionalism: From Observer-Relative Maps to Observer-Independent Structures",
+  "authors": "Shuqin Ma, Ryota Kanai",
+  "abstract": "Anti-computational arguments show that externally imposed computational interpretations cannot ground consciousness, but they do not establish that all computational organisations are observer-relative. We develop intrinsic computational functionalism: the view that, if consciousness is computationally constituted, it depends on physically realised computational structures the system has in virtue of itself rather than on labels imposed by an external interpreter. Two criteria operationalise this view. (C1) System-intrinsic instantiation: the relevant property must be specifiable without an observer's labelling, and invariant under structure-preserving relabellings of the system's variables. (C2) Causal-dynamical organisation under intervention: the property must be grounded in a state-space structure whose variables mutually constrain one another, and whose organisation is exhibited in counterfactual response under intervention. Together these criteria specify what any candidate computational account must satisfy to remain observer-independent, without selecting which intrinsic structures bear on experience. The argumentative core is a three-tier decomposition of identification work: interpreter-relative label selection (tier i), theoretically constrained partition selection (tier ii), and dynamics-internal grain selection (tier iii). We argue that any computational property capable of avoiding the observer-relativity objection must be identified, if at all, through tier (iii) dynamics-internal grain selection, conditional on empirically disciplined tier (ii) choices. Syntax-is-not-semantics arguments, mapmaker arguments, and the observer-relativity component of biological-naturalist objections succeed against views that locate the consciousness-relevant property at tier (i); once the tiers are distinguished, intrinsic computational functionalism survives.",
+  "title_relatable": "Can computation explain consciousness without an observer's help?",
+  "hook": "Philosophers argue computational theories of mind fail because they're just external labels. New framework proposes consciousness depends on real physical structures, not interpretations.",
+  "summary": "Consciousness cannot depend on arbitrary labels imposed by outside observers—it must emerge from how a brain's physical components actually interact. The authors propose two criteria: the relevant computational structure must be specifiable without external interpretation, and it must show up in how the system responds when you intervene on it. This framework rescues computational theories from the charge that they're merely observer-dependent maps, by anchoring them instead in measurable internal dynamics.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "bio",
+  "tokens_in": 762,
+  "tokens_out": 170,
+  "cost_usd": 0.0012896,
+  "ingested_at": "2026-06-05T10:16:59.025165+00:00"
+}
