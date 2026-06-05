@@ -1,0 +1,24 @@
+{
+  "id": "2606.05441",
+  "arxiv_url": "https://arxiv.org/abs/2606.05441",
+  "announced_date": "2026-06-03",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "cs.AI",
+    "stat.ML"
+  ],
+  "title_original": "GOTabPFN: From Feature Ordering to Compact Tokenization for Tabular Foundation Models on High-Dimensional Data",
+  "authors": "Al Zadid Sultan Bin Habib, Md Younus Ahamed, Prashnna Kumar Gyawali, Gianfranco Doretto, Donald A. Adjeroh",
+  "abstract": "We investigate how to make small tabular foundation models effective for High-Dimensional, Low-Sample Size (HDLSS) tabular prediction without retraining large backbones. We introduce Graph-guided Ordering with Local Refinement (GO-LR), show its equivalence to weighted Minimum Linear Arrangement, and interpret the practical solver as a TSP-path-style surrogate. We propose GOTabPFN,which builds on GO-LR, and a Neuro-Inspired Subunit Compression (NSC) unit to pool locally adjacent ordered features into meta-features, yielding a compact representation that makes TabPFN-style prediction practical in HDLSS regimes. Across tabular benchmarks, GOTabPFN improves stability and accuracy under tight token budgets.",
+  "title_relatable": "Making tabular AI work when you have more columns than rows",
+  "hook": "New method improves tabular foundation models on high-dimensional data by reordering features and compressing them into meta-features, outperforming baselines under tight computational budgets.",
+  "summary": "Tabular foundation models like TabPFN struggle when datasets have thousands of features but few samples—a common real-world scenario. GOTabPFN solves this by intelligently ordering features using graph theory, then grouping adjacent ones into meta-features to stay within token limits. The approach improves both stability and accuracy across benchmarks without retraining large models.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 658,
+  "tokens_out": 170,
+  "cost_usd": 0.0012064,
+  "ingested_at": "2026-06-05T10:17:52.907103+00:00"
+}

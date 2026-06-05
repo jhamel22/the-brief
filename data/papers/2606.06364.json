@@ -1,0 +1,23 @@
+{
+  "id": "2606.06364",
+  "arxiv_url": "https://arxiv.org/abs/2606.06364",
+  "announced_date": "2026-06-04",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "End-to-End Subgraph Detection with GraphDETR",
+  "authors": "Dexiong Chen, Till Hendrik Schulz, Karsten Borgwardt",
+  "abstract": "Subgraph detection seeks to identify whether and where instances of query patterns occur within a larger graph. This problem is fundamental across scientific domains and is closely related to subgraph isomorphism, which is NP-complete, limiting combinatorial approaches to small patterns or moderately sized graphs. We introduce GraphDETR, a deep learning framework that formulates subgraph detection as a set prediction problem, analogous to DETR in object detection. GraphDETR encodes the target graph with a graph neural network, and employs a fixed set of learnable query vectors, decoded via a transformer decoder, to predict all pattern occurrences jointly in a single forward pass. This is enabled by training the model end-to-end with bipartite matching. Unlike traditional combinatorial methods that only solve exact structural matching, GraphDETR naturally extends to approximate matching, enabling detection beyond exact pattern correspondence. Empirically, we show that GraphDETR can detect diverse patterns, such as molecular structures, cycles, cliques, and fuzzy patterns of up to 50 nodes, in target graphs with up to 1000 nodes. We further evaluate on molecular functional group detection over the ChEMBL dataset, where GraphDETR predicts the complete set of functional groups per molecule, achieving a strong performance of $\\text{AP}_{100} = 91.2$.",
+  "title_relatable": "Finding hidden patterns in graphs like finding objects in images?",
+  "hook": "Deep learning approach detects subgraph patterns in seconds instead of hours, achieving 91.2% accuracy on molecular functional groups.",
+  "summary": "Subgraph detection—finding where query patterns appear in larger graphs—is computationally hard. GraphDETR borrows the object-detection framework DETR for graphs: a GNN encodes the target graph, then learned query vectors pinpoint all pattern matches in a single forward pass via transformer decoding. Unlike traditional combinatorial solvers limited to exact matches and small patterns, GraphDETR handles approximate matching and scales to 1000-node graphs with 50-node patterns. On real molecular data (ChEMBL), it achieves 91.2% AP detecting functional groups.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 735,
+  "tokens_out": 206,
+  "cost_usd": 0.001412,
+  "ingested_at": "2026-06-05T10:17:42.481974+00:00"
+}

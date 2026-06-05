@@ -1,0 +1,23 @@
+{
+  "id": "2606.06351",
+  "arxiv_url": "https://arxiv.org/abs/2606.06351",
+  "announced_date": "2026-06-04",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction",
+  "authors": "Jaeyeong Lee, Wonmo Koo, Heeyoung Kim",
+  "abstract": "Vessel trajectory prediction from Automatic Identification System (AIS) data is essential for maritime situational awareness, yet it remains challenging due to irregular sampling, missing reports, and complex dynamics. Beyond accurate point forecasts, maritime applications also demand well-calibrated uncertainty estimates for reliable decision-making. Bayesian Neural Ordinary Differential Equations (ODEs) offer a principled framework for continuous-time trajectory modeling with uncertainty quantification by placing a prior over the neural vector field parameters. However, the commonly used isotropic Gaussian weight prior fails to encode informative structural properties of vessel dynamics, such as smoothness and locality. Existing function-space Bayesian neural network methods address this limitation for static mappings, but do not transfer directly to Neural ODEs, where the primary quantity of interest is the trajectory rather than the vector field itself. In principle, one could place a Gaussian process (GP) prior directly over ODE solutions, but this requires propagating distributions through a nonlinear ODE solver, which is analytically intractable. To address this challenge, we adopt a practical approach that imposes a GP-kernel-based prior directly on the vector field evaluated at a finite set of measurement points. Specifically, we augment the standard weight-space variational objective with a kernel-based regularizer that penalizes deviations of the vector field from the structure implied by a GP prior. To handle long and irregular AIS trajectories, we further combine this function-space regularization with probabilistic multiple shooting, which decouples inference across temporal segments while maintaining global consistency.",
+  "title_relatable": "Teaching neural networks to predict ship movements with built-in uncertainty",
+  "hook": "Bayesian neural ODEs with GP-kernel priors improve vessel trajectory prediction from irregular AIS data while quantifying uncertainty for maritime decision-making.",
+  "summary": "Predicting ship trajectories from sparse, irregular tracking data is crucial for maritime safety, but standard neural approaches don't quantify uncertainty reliably. This work adds structure to Bayesian Neural ODEs by imposing Gaussian process priors on the vector field rather than just weights, encoding smoothness and locality. Combined with probabilistic multiple shooting for long trajectories, the method delivers better-calibrated uncertainty estimates on real AIS datasets.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 782,
+  "tokens_out": 174,
+  "cost_usd": 0.0013215999999999998,
+  "ingested_at": "2026-06-05T10:17:45.000513+00:00"
+}

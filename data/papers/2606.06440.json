@@ -1,0 +1,23 @@
+{
+  "id": "2606.06440",
+  "arxiv_url": "https://arxiv.org/abs/2606.06440",
+  "announced_date": "2026-06-04",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "stat.ML"
+  ],
+  "title_original": "Causal Atlases from Entropic Inference: Bayesian Networks beyond Optimal DAGs",
+  "authors": "Hazhir Aliahmadi, Irina Babayan, Greg van Anders",
+  "abstract": "Data-driven causal relationship identification is pertinent to advancing understanding of complex systems both within and beyond science. Bayesian networks offer a probabilistic method for modelling generic causal relationships via directed acyclic graphs (DAGs). However, typical techniques for constructing Bayesian networks rely on optimization, which can be ill-suited for learning causal relationships because the underlying data may admit multiple chains of causation. More data-faithful representations of causal relationships would provide frameworks for constructing multiple causal maps that are consistent with the variability that is inherent in underlying data. Here, we show that entropy-based inference generates atlases of plausible causal relationships that are consistent with underlying data. On simulated noisy data of 2- and 20-node linear structural equation models, we sample a maximum-entropy ensemble of graphs that allow us to quantify the inherent structural ambiguity in underlying causal relationships. Our method shows that \"optimized\" DAGs can contain causal artifacts are not consistent across equivalently accurate topologies.",
+  "title_relatable": "Why causal maps found by optimization can be misleading",
+  "hook": "Entropy-based sampling reveals multiple causal structures equally consistent with data, exposing false confidence in single optimized networks.",
+  "summary": "Finding cause-and-effect relationships in data typically means optimizing a single best network structure. But this misses a crucial problem: different causal maps can fit the same data equally well. This work uses entropy-based inference to generate ensembles of plausible causal graphs rather than picking one winner, then shows that \"optimized\" networks often include spurious relationships absent from other equally valid structures.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 669,
+  "tokens_out": 161,
+  "cost_usd": 0.0011792,
+  "ingested_at": "2026-06-05T10:17:29.608536+00:00"
+}

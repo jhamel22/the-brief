@@ -1,0 +1,24 @@
+{
+  "id": "2606.05488",
+  "arxiv_url": "https://arxiv.org/abs/2606.05488",
+  "announced_date": "2026-06-03",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG",
+    "stat.ME"
+  ],
+  "title_original": "Sparse Functional Singular Value Decomposition for Biclustering and Triclustering Longitudinal Data",
+  "authors": "Yue Zhao, Thierry Chekouo, Sandra Safo",
+  "abstract": "Identifying subtypes of complex conditions, such as Inflammatory Bowel Disease (IBD), often requires capturing latent patterns in longitudinal omics data. However, these data are typically high-dimensional, sparsely sampled, and irregularly observed over time, posing substantial challenges for conventional (bi)clustering and functional data analysis methods. We propose Tri-SfSVD, a unified sparse functional Singular Value Decomposition framework for discovering biclusters and triclusters in longitudinal data. Unlike existing functional biclustering methods that rely on ad hoc imputation or enforce restrictive shape-homogeneity assumptions, Tri-SfSVD integrates continuous trajectory estimation with simultaneous subject, feature, and temporal selection within a single optimization framework. By imposing sparse penalties across subjects, variables, and temporal subregions, the proposed method works directly on observed data to uncover localized structures at the subject, subject-feature, and subject-feature-time levels. Extensive simulations demonstrate that Tri-SfSVD outperforms existing approaches in high-dimensional settings. Applied to IBD multi-omics data, the method identified three biclusters linking sample clusters with distinct IBD-related clinical characteristics to microbial pathway groups associated with specific bacterial taxa, providing interpretable subject-pathway associations for characterizing disease heterogeneity. Applied to multi-channel EEG data, the method identified three triclusters linking sample clusters with distinct alcohol-related phenotypes to localized brain activity patterns, including subgroup differences separated by temporal subregions within the same spatial region.",
+  "title_relatable": "Finding hidden patterns in messy medical time-series data",
+  "hook": "New method identifies disease subtypes in irregular longitudinal omics data by clustering subjects, features, and time periods simultaneously—outperforms existing approaches in simulations.",
+  "summary": "Medical time-series data—like repeated microbiome or brain imaging measurements—are high-dimensional, irregularly sampled, and sparse. Tri-SfSVD combines functional data analysis with sparse penalties to find biclusters (subject-feature groups) and triclusters (subject-feature-time groups) without imputation or rigid assumptions. Applied to IBD microbiome data, it linked patient subtypes to distinct bacterial pathways; on EEG data, it uncovered alcohol-related phenotypes tied to localized brain activity patterns across time windows.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 791,
+  "tokens_out": 204,
+  "cost_usd": 0.0014488,
+  "ingested_at": "2026-06-05T10:17:47.682369+00:00"
+}

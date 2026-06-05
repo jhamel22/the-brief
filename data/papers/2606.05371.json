@@ -1,0 +1,24 @@
+{
+  "id": "2606.05371",
+  "arxiv_url": "https://arxiv.org/abs/2606.05371",
+  "announced_date": "2026-06-03",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "cs.LG",
+    "math.NA",
+    "stat.ML"
+  ],
+  "title_original": "Mamba-Assisted Non-Markovian Closure for Reduced-Order Modeling",
+  "authors": "Zhi-Feng Wei, Saad Qadeer, Panos Stinis",
+  "abstract": "Reduced-order modeling of high-dimensional dynamical systems is often hindered by the non-Markovian closure term that represents the effect of unresolved variables on the resolved dynamics. Inspired by the Mori--Zwanzig formalism, in which the closure takes the form of a memory functional of the resolved trajectory, we recast closure modeling as a sequence modeling problem and propose the Mamba-Assisted Closure (MAC) framework: a Mamba-based sequence model, trained to predict the closure from the resolved trajectory, is coupled with the reduced-order governing equations through a numerical integrator to advance the resolved variables in time. A key feature of the framework is its exploitation of the dual representation of state-space models -- the model is trained in a sequence-to-sequence fashion via the convolutional form, and deployed for step-by-step autoregressive rollout via the recurrent form, yielding both efficient long-trajectory training and constant per-step inference cost. On the viscous Burgers' equation and the chaotic two-scale Lorenz '96 system, the MAC model substantially outperforms the Markovian reduced-order model, the GRU-based sequence model, and the Wilks method in predictive accuracy and long-time rollout stability.",
+  "title_relatable": "Can sequence models learn the hidden memory in simplified dynamical systems?",
+  "hook": "Using Mamba models to capture non-Markovian effects in reduced-order simulations, outperforming GRU and classical methods on Burgers and Lorenz '96.",
+  "summary": "When you simplify a complex dynamical system by removing variables, the remaining dynamics develop \"memory\"—they depend on past states, not just the present. This paper treats that memory as a sequence modeling problem, using Mamba (a fast state-space model) to predict the closure term from the system's resolved trajectory. The model trains efficiently on long sequences but runs in constant time per step during rollout. On Burgers' equation and chaotic Lorenz '96, it beats GRU-based and classical Markovian approaches at both accuracy and long-time stability.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 730,
+  "tokens_out": 219,
+  "cost_usd": 0.00146,
+  "ingested_at": "2026-06-05T10:17:56.144844+00:00"
+}

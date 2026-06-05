@@ -1,0 +1,24 @@
+{
+  "id": "2606.06384",
+  "arxiv_url": "https://arxiv.org/abs/2606.06384",
+  "announced_date": "2026-06-04",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "math.ST",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "title_original": "Estimation of the sub-Gaussian parameter",
+  "authors": "Jason Liu, Min Xu, Jinchuan Xing",
+  "abstract": "The sub-Gaussian parameter (also called the variance proxy) of a mean-zero random variable $X$ is defined as $ξ^2_* = \\sup_{λ\\in \\mathbb{R}} L(λ)$ where $L(λ) = \\frac{2}{λ^2} \\log \\mathbb{E} e^{λX}$ is a weighted cumulant generating function. Despite the ubiquity of sub-Gaussian random variables, the estimation of $ξ^2_*$ has received little attention and is not yet well understood. In this work, we study a natural estimator of $ξ^2_*$ based on constrained maximization of the empirical analogue of $L$. We prove that the estimator is consistent bound the rates of convergence under assumptions on $L$: if $L$ has an maximizer, then our bound is $O_p(n^{-1/2 + \\varepsilon})$ for any $\\varepsilon > 0$; if the argmax of $L$ is also bounded, then the bound improves to $O_p(n^{-1/2})$. We show that our assumptions on $L$ are necessary by proving that the minimax risk over all sub-Gaussian distributions is $Ω(1)$; imposing increasingly strong assumptions on the tail growth of $L$ yields a continuum of classes whose minimax lower bound interpolates between $Ω(1/\\log n)$ and $Ω(1)$. Root-n rate is possible if we restrict to a subclass of distributions where $L$ attains its supremum in a bounded region, in which case our estimator is minimax optimal. If the underlying distribution is not sub-Gaussian, we show that our estimator goes to infinity with a divergence rate controlled by the tail of the distribution. Finally, we apply our estimator in a Gene Ontology (GO) enrichment study to construct p-values for a large-scale permutation test, showing that it can serve as a reliable alternative to the peaks-over-threshold approach, particularly in regimes where the peaks-over-threshold method is of uncertain validity.",
+  "title_relatable": "How to measure if a distribution has light tails?",
+  "hook": "New estimator for sub-Gaussian parameter achieves root-n rate under bounded tail conditions; validates on genomic enrichment tests.",
+  "summary": "The sub-Gaussian parameter measures how quickly a distribution's tails decay—crucial for understanding data from normal-like populations. This work proposes a practical estimator via empirical optimization and proves it converges at rate 1/√n when tails are sufficiently regular, with minimax-optimal guarantees. Applied to genomics, it outperforms existing methods for large-scale permutation tests in genome-wide enrichment studies.",
+  "is_lead": false,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 925,
+  "tokens_out": 172,
+  "cost_usd": 0.001428,
+  "ingested_at": "2026-06-05T10:17:35.455496+00:00"
+}

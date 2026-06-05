@@ -1,0 +1,23 @@
+{
+  "id": "2606.06391",
+  "arxiv_url": "https://arxiv.org/abs/2606.06391",
+  "announced_date": "2026-06-04",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "stat.ML",
+    "cs.LG"
+  ],
+  "title_original": "Conformal Risk Sharing: Certified Cost Allocation with Participation Guarantees",
+  "authors": "Ieva Kazlauskaite",
+  "abstract": "Sharing the financial impact of rare adverse events across a group can soften extreme individual burdens, but any participant made worse off by the arrangement has reason to leave. A credible mechanism must therefore provide each agent with a trustworthy cap on their future obligation and should be deployed only if the aggregate harm across participants is bounded. We formalise this as the Certified Allocation Problem: from finite data and without distributional assumptions, find a redistribution rule, produce obligation caps for every participant, and verify that no participant is made materially worse off. We propose Conformal Risk Sharing, which solves this problem by pairing an interpretable sharing policy with split conformal calibration. The sharing intensity is tuned on training data, while held-out calibration data produces distribution-free per-agent guarantees (valid under exchangeability). Experiments on synthetic and real-world data, including precipitation and energy-cooperative data, confirm that the framework can substantially reduce extreme obligations for high-risk agents while controlling harm to others.",
+  "title_relatable": "How do we fairly split disaster costs without anyone leaving?",
+  "hook": "Certified cost-sharing that guarantees no participant gets materially worse off, validated on real precipitation and energy data.",
+  "summary": "When groups pool financial risk from rare disasters, some members may end up worse off and defect. This work formalizes a \"Certified Allocation Problem\": devise a cost-sharing rule, cap each person's obligation, and prove nobody is harmed—all from finite data without assuming any distribution. Conformal Risk Sharing combines a tunable sharing policy with split conformal calibration to generate distribution-free guarantees for each agent. Tests on precipitation and energy cooperatives show it cuts extreme obligations for high-risk members while protecting others.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 649,
+  "tokens_out": 189,
+  "cost_usd": 0.0012752,
+  "ingested_at": "2026-06-05T10:17:32.879128+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2606.06368",
+  "arxiv_url": "https://arxiv.org/abs/2606.06368",
+  "announced_date": "2026-06-04",
+  "subject": "stat.ML",
+  "subjects_all": [
+    "math.ST",
+    "stat.ME",
+    "stat.ML"
+  ],
+  "title_original": "Optimally taming biases in black-box models for efficient semiparametric estimation",
+  "authors": "Yihong Gu, Qishuo Yin, Tianxi Cai, Jianqing Fan",
+  "abstract": "Modern semiparametric estimation often relies on flexible black-box machine learning methods to estimate nuisance functions, raising a fundamental question: how do nuisance estimation errors propagate into inference for low-dimensional target parameters? The dominant paradigm, exemplified by double machine learning (DML), yields error bounds in which nuisance estimation errors enter multiplicatively. While widely adopted, it remains unclear whether this multiplicative-rate dependence is optimal for black-box models. In this paper, we start by revisiting the partial linear model $Y = μ_0(X)+T\\cdotβ_0+\\varepsilon$ under a structure-agnostic setting, where the nuisance function $μ_0$ is estimated using a generic machine learning model, with approximation error $δ^a_μ$ and stochastic error $δ_μ^s$. We show that the standard DML rate is not optimal in the regime where the auxiliary function $\\mathbb{E}[T|X=x]$ cannot be consistently estimated. We propose a new estimator for $β_0$ that achieves a sharper rate of $n^{-1/2}+δ^a_μ+(δ_μ^s)^2$ and establish a matching lower bound demonstrating its optimality. Our results reveal a new principle: the first-order stochastic error of nuisance estimation can be eliminated without imposing any additional assumptions. This also leads to a revised tuning strategy favoring under-smoothing, where $δ^a_μ\\asymp(δ_μ^s)^2$, rather than the classical bias-variance trade-off $δ^a_μ\\asymp δ_μ^s$. Under mild additional conditions, the estimator is asymptotically normal with minimal asymptotic variance. The proposed method extends to a broad class of semi-parametric linear functional estimation problems, including average treatment effect estimation. Our results imply that popular orthogonal score methods in semiparametric estimation with black-box nuisance learners can be substantially improved.",
+  "title_relatable": "Can we estimate treatment effects better by accepting more bias?",
+  "hook": "New semiparametric method cuts nuisance estimation error from linear to quadratic, improving standard double machine learning across causal inference benchmarks.",
+  "summary": "When using black-box ML models to estimate nuisance functions in causal inference, errors propagate multiplicatively under standard double machine learning—a foundational approach. This work proves you can do better by deliberately under-smoothing: accepting more approximation bias while reducing stochastic error lets first-order noise vanish entirely. The new estimator achieves rate n⁻¹/² + approximation error + (stochastic error)², instead of the usual linear multiplicative dependence. The insight extends to treatment effect and policy learning, suggesting popular orthogonal score methods leave substantial performance on the table.",
+  "is_lead": true,
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_variant": "cs",
+  "tokens_in": 928,
+  "tokens_out": 212,
+  "cost_usd": 0.0015904,
+  "ingested_at": "2026-06-05T10:17:39.557123+00:00"
+}
